@@ -46,7 +46,7 @@
 					<option value="QuincyDialogue_rom.dialogue">Soldja1Shot1kil (Quincy)</option>
 					<option value="HexDialogue_rom.dialogue">The Hex</option>
 				</select>
-				<select id="starting-node">
+				<select id="dialogue">
 					<option>SELECT A DIALOGUE</option>
 				</select>
 			</td>
@@ -275,68 +275,115 @@
 		}
 	}
 
+	function saveState()
+	{
+		const params = new URLSearchParams(); 
+		if (window.chatroom)
+		{
+			params.append("chatroom", window.chatroom);
+		}
+		if (window.dialogue)
+		{
+			params.append("dialogue", window.dialogue);
+		}
+		location.hash = params.toString();
+	}
+
+	function setActiveChatroom(chatroom, callback)
+	{
+		window.chatroom = chatroom;
+		window.sender_name = document.querySelector("option[value='"+chatroom+"']").textContent.split(" (")[0];
+
+		addToHistory("System", "Loading chatroom...");
+		fetch(chatroom + ".json").then(res => res.json()).then(nodes => {
+			window.nodes = nodes;
+
+			window.dialogue_name_to_start_node_id = {};
+			for (const node of nodes)
+			{
+				if (node.type == "/EE/Types/Engine/StartDialogueNode")
+				{
+					dialogue_name_to_start_node_id[node.name] = node.id;
+				}
+			}
+			dialogue_name_to_start_node_id = Object.keys(dialogue_name_to_start_node_id).sort((a, b) => {
+				if (a.indexOf("Rank") !== -1 && b.indexOf("Rank") === -1)
+				{
+					return -1;
+				}
+				if (b.indexOf("Rank") !== -1 && a.indexOf("Rank") === -1)
+				{
+					return +1;
+				}
+				return a < b ? -1 : +1;
+			}).reduce((obj, key) => { 
+				obj[key] = dialogue_name_to_start_node_id[key]; 
+				return obj;
+			}, {});
+
+			clearChat();
+			for (const name of Object.keys(dialogue_name_to_start_node_id))
+			{
+				const option = document.createElement("option");
+				option.textContent = name;
+				document.getElementById("dialogue").appendChild(option);
+			}
+
+			if (callback)
+			{
+				callback();
+			}
+		});
+	}
+
+	function setActiveDialogue(dialogue)
+	{
+		window.dialogue = dialogue;
+		clearChat();
+		processNode(nodes[dialogue_name_to_start_node_id[dialogue]]);
+	}
+
 	document.getElementById("chatroom").onchange = function()
 	{
-		document.getElementById("starting-node").innerHTML = "<option>SELECT A DIALOGUE</option>";
+		document.getElementById("dialogue").innerHTML = "<option>SELECT A DIALOGUE</option>";
 		clearChat();
 
+		window.chatroom = undefined;
+		window.dialogue = undefined;
 		if (this.value != "SELECT A CHATROOM")
 		{
-			window.sender_name = document.querySelector("option[value='"+this.value+"']").textContent.split(" (")[0];
-
-			addToHistory("System", "Loading chatroom...");
-			fetch(this.value + ".json").then(res => res.json()).then(nodes => {
-				window.nodes = nodes;
-
-				let dialogue_name_to_start_node_id = {};
-				for (const node of nodes)
-				{
-					if (node.type == "/EE/Types/Engine/StartDialogueNode")
-					{
-						dialogue_name_to_start_node_id[node.name] = node.id;
-					}
-				}
-				dialogue_name_to_start_node_id = Object.keys(dialogue_name_to_start_node_id).sort((a, b) => {
-					if (a.indexOf("Rank") !== -1 && b.indexOf("Rank") === -1)
-					{
-						return -1;
-					}
-					if (b.indexOf("Rank") !== -1 && a.indexOf("Rank") === -1)
-					{
-						return +1;
-					}
-					return a < b ? -1 : +1;
-				}).reduce((obj, key) => { 
-					obj[key] = dialogue_name_to_start_node_id[key]; 
-					return obj;
-				}, {});
-
-				clearChat();
-				for (const [name, id] of Object.entries(dialogue_name_to_start_node_id))
-				{
-					const option = document.createElement("option");
-					option.value = id;
-					option.textContent = name;
-					document.getElementById("starting-node").appendChild(option);
-				}
-			});
+			setActiveChatroom(this.value);
 		}
+		saveState();
 	};
-	document.getElementById("chatroom").onchange();
 
-	document.getElementById("starting-node").onchange = function()
+	document.getElementById("dialogue").onchange = function()
 	{
+		window.dialogue = undefined;
 		if (this.value != "SELECT A DIALOGUE")
 		{
-			clearChat();
-			processNode(nodes[this.value]);
+			setActiveDialogue(this.value);
 		}
+		saveState();
 	};
-	document.getElementById("starting-node").onchange();
 
 	document.getElementById("username").oninput = function()
 	{
 		const username = this.value || "Drifter";
 		document.querySelectorAll(".chat-message-author-self").forEach(elm => elm.textContent = username);
 	};
+
+	const params = new URLSearchParams(location.hash.toString().replace("#", ""));
+	if (params.has("chatroom"))
+	{
+		document.getElementById("chatroom").value = params.get("chatroom");
+		setActiveChatroom(params.get("chatroom"), function()
+		{
+			document.getElementById("dialogue").value = params.get("dialogue");
+			if (params.has("dialogue"))
+			{
+				setActiveDialogue(params.get("dialogue"));
+			}
+		});
+	}
 </script>
