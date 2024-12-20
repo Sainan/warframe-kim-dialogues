@@ -51,6 +51,13 @@ local function emit_dot(filename, start)
 				fh:write(node.name)
 				fh:write('"')
 				break
+			case "/EE/Types/Engine/SpecialCompletionDialogueNode":
+				if #node.refs ~= 0 then
+					fh:write('"Initiate conversation '..node.refs[1].convo..' in '..node.refs[1].diag..'"')
+				else
+					fh:write('"/EE/Types/Engine/SpecialCompletionDialogueNode"')
+				end
+				break
 			default:
 				fh:write('"')
 				if node.text_en then
