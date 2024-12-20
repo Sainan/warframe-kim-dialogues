@@ -149,7 +149,7 @@
 		}
 		{
 			const span = document.createElement(chemistry ? "b" : "span");
-			span.innerHTML = resolveEmojis(text).split("\r\n").join("<br/>");
+			span.innerHTML = resolveEmojis(text == " " ? "&#8203;" : text).split("\r\n").join("<br/>");
 			div.appendChild(span);
 		}
 		if (chemistry)
