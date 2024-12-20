@@ -106,13 +106,32 @@
 		document.getElementById("choices").appendChild(div);
 	}
 
+	const username_loctags = {
+		"/Lotus/Language/1999/MessengerAoiUserName": "xX GLIMMER Xx",
+		"/Lotus/Language/1999/MessengerArthurUserName": "Broadsword",
+		"/Lotus/Language/1999/MessengerEleanorUserName": "Salem",
+		"/Lotus/Language/1999/MessengerHexUserName": "The Hex",
+		"/Lotus/Language/1999/MessengerJabirUserName": "H16h V0l7463",
+		"/Lotus/Language/1999/MessengerLettieUserName": "Belladonna ~{@",
+		"/Lotus/Language/1999/MessengerQuincyUserName": "Soldja1Shot1kil",
+	};
+
 	function processNode(node, chemistry)
 	{
 		console.log("processNode", node);
 
 		if (node.type == "/EE/Types/Engine/DialogueNode")
 		{
-			addToHistory(node.name_override ? node.name_override : sender_name, node.text_en, chemistry);
+			let sender_name = window.sender_name;
+			if (node.nickname_override)
+			{
+				sender_name = node.nickname_override;
+				if (username_loctags[sender_name])
+				{
+					sender_name = username_loctags[sender_name];
+				}
+			}
+			addToHistory(sender_name, node.text_en, chemistry);
 			chemistry = undefined;
 		}
 		else if (node.type == "/EE/Types/Engine/PlayerChoiceDialogueNode")
