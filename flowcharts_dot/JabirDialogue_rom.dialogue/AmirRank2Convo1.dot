@@ -1,6 +1,6 @@
 digraph {
-	354 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
-		354 -> 355;
+	"AmirRank2Convo1 begins." [color=orange];
+		"AmirRank2Convo1 begins." -> 355;
 	355 [label="/EE/Types/Engine/CheckBooleanScriptDialogueNode",color=orange];
 		355 -> 357 [label=true,color=green];
 		355 -> "Chat ends." [label=false,color=brown];

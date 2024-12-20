@@ -1,6 +1,6 @@
 digraph {
-	3410 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
-		3410 -> 3411;
+	"QuincyRank5Convo5 begins." [color=orange];
+		"QuincyRank5Convo5 begins." -> 3411;
 	3411 [label="Check boolean QuincyForgiven",color=orange];
 		3411 -> 3412 [label=true,color=green];
 		3411 -> "Chat ends." [label=false,color=brown];

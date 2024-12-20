@@ -1,6 +1,6 @@
 digraph {
-	1203 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
-		1203 -> 1204;
+	"LettieRank4Convo4 begins." [color=orange];
+		"LettieRank4Convo4 begins." -> 1204;
 	1204 [label="Check boolean LettieNoFlirt",color=orange];
 		1204 -> "Chat ends." [label=true,color=green];
 		1204 -> 1206 [label=false,color=brown];

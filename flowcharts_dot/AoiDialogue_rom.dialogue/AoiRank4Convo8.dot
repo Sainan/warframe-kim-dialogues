@@ -1,6 +1,6 @@
 digraph {
-	3012 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
-		3012 -> 3827;
+	"AoiRank4Convo8 begins." [color=orange];
+		"AoiRank4Convo8 begins." -> 3827;
 	3827 [label="Check boolean AmirRPGAoi",color=orange];
 		3827 -> "Chat ends." [label=true,color=green];
 		3827 -> 3013 [label=false,color=brown];

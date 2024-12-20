@@ -25,6 +25,8 @@ local function emit_dot(filename, start)
 			else
 				fh:write('"Chat ends."')
 			end
+		elseif node.type == "/EE/Types/Engine/StartDialogueNode" then
+			fh:write('"'..node.name..' begins."')
 		else
 			fh:write(node.id)
 		end
@@ -97,6 +99,7 @@ local function emit_dot(filename, start)
 				write_node_label(node)
 				fh:write(",shape=box,color=red];\n")
 				break
+			case "/EE/Types/Engine/StartDialogueNode":
 			case "/EE/Types/Engine/EndDialogueNode":
 				write_node_name(node)
 				fh:write(" [color=orange];\n")

@@ -1,6 +1,6 @@
 digraph {
-	1745 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
-		1745 -> 1746;
+	"ArthurRank5Convo3 begins." [color=orange];
+		"ArthurRank5Convo3 begins." -> 1746;
 	1746 [label="Check boolean ArthurDating",color=orange];
 		1746 -> "Chat ends." [label=true,color=green];
 		1746 -> 1748 [label=false,color=brown];

@@ -1,6 +1,6 @@
 digraph {
-	1545 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
-		1545 -> 1546;
+	"AoiQuincyWingman begins." [color=orange];
+		"AoiQuincyWingman begins." -> 1546;
 	1546 [label="Check boolean IsDating",color=orange];
 		1546 -> "Chat ends." [label=true,color=green];
 		1546 -> 1548 [label=false,color=brown];
