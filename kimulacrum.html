@@ -291,6 +291,15 @@
 
 	function setActiveChatroom(chatroom, callback)
 	{
+		if (window.chatroom == chatroom)
+		{
+			if (callback)
+			{
+				callback();
+			}
+			return;
+		}
+
 		window.chatroom = chatroom;
 		window.sender_name = document.querySelector("option[value='"+chatroom+"']").textContent.split(" (")[0];
 
@@ -373,17 +382,21 @@
 		document.querySelectorAll(".chat-message-author-self").forEach(elm => elm.textContent = username);
 	};
 
-	const params = new URLSearchParams(location.hash.toString().replace("#", ""));
-	if (params.has("chatroom"))
+	window.onhashchange = function()
 	{
-		document.getElementById("chatroom").value = params.get("chatroom");
-		setActiveChatroom(params.get("chatroom"), function()
+		const params = new URLSearchParams(location.hash.toString().replace("#", ""));
+		if (params.has("chatroom"))
 		{
-			document.getElementById("dialogue").value = params.get("dialogue");
-			if (params.has("dialogue"))
+			document.getElementById("chatroom").value = params.get("chatroom");
+			setActiveChatroom(params.get("chatroom"), function()
 			{
-				setActiveDialogue(params.get("dialogue"));
-			}
-		});
-	}
+				document.getElementById("dialogue").value = params.get("dialogue");
+				if (params.has("dialogue"))
+				{
+					setActiveDialogue(params.get("dialogue"));
+				}
+			});
+		}
+	};
+	window.onhashchange();
 </script>
