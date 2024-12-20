@@ -274,17 +274,37 @@
 			fetch(this.value + ".json").then(res => res.json()).then(nodes => {
 				window.nodes = nodes;
 
-				document.getElementById("starting-node").classList.remove("slv-hidden");
-				document.getElementById("starting-node").innerHTML = "<option>SELECT A DIALOGUE</option>";
+				let dialogue_name_to_start_node_id = {};
 				for (const node of nodes)
 				{
 					if (node.type == "/EE/Types/Engine/StartDialogueNode")
 					{
-						const option = document.createElement("option");
-						option.value = node.id;
-						option.textContent = node.name;
-						document.getElementById("starting-node").appendChild(option);
+						dialogue_name_to_start_node_id[node.name] = node.id;
 					}
+				}
+				dialogue_name_to_start_node_id = Object.keys(dialogue_name_to_start_node_id).sort((a, b) => {
+					if (a.indexOf("Rank") !== -1 && b.indexOf("Rank") === -1)
+					{
+						return -1;
+					}
+					if (b.indexOf("Rank") !== -1 && a.indexOf("Rank") === -1)
+					{
+						return +1;
+					}
+					return a < b ? -1 : +1;
+				}).reduce((obj, key) => { 
+					obj[key] = dialogue_name_to_start_node_id[key]; 
+					return obj;
+				}, {});
+
+				document.getElementById("starting-node").classList.remove("slv-hidden");
+				document.getElementById("starting-node").innerHTML = "<option>SELECT A DIALOGUE</option>";
+				for (const [name, id] of Object.entries(dialogue_name_to_start_node_id))
+				{
+					const option = document.createElement("option");
+					option.value = id;
+					option.textContent = name;
+					document.getElementById("starting-node").appendChild(option);
 				}
 			});
 		}
