@@ -1,0 +1,232 @@
+digraph {
+	2314 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		2314 -> 2315;
+	2315 [label="Check boolean LettieDating",color=orange];
+		2315 -> 2317 [label=true,color=green];
+		2315 -> "Chat ends." [label=false,color=brown];
+	2317 [label="If you are robbed from me 
+Who will I have to thank for it? 
+What is going to take you away?",shape=box,color=blue];
+		2317 -> 2318;
+		2317 -> 2319;
+	"Chat ends." [color=orange];
+	2318 [label="I'm going to say this with all the love and respect in the world - you are *shit* at starting conversations.",shape=box,color=red];
+		2318 -> 2322;
+	2319 [label="I'm sorry, back up, what are you asking me?",shape=box,color=red];
+		2319 -> 2321;
+	2322 [label="+5 Chemistry",color=orange];
+		2322 -> 2320;
+	2321 [label="I am just so curious to know that when the future takes you away from me 
+What face will it take and why",shape=box,color=blue];
+		2321 -> 2323;
+		2321 -> 2325;
+	2320 [label="¡JAJAJA SÍ! 
+I really am, lo siento 
+I am just so curious to know that when the future takes you away from me 
+What face will it take and why",shape=box,color=blue];
+		2320 -> 2323;
+		2320 -> 2325;
+	2323 [label="Even if I did have to leave - who says I wouldn't come back?",shape=box,color=red];
+		2323 -> 2324;
+	2325 [label="You hate it when I assume things about you.",shape=box,color=red];
+		2325 -> 2326;
+	2324 [label="Maybe you would try 
+And maybe you would even succeed 
+You are very hard to kill jaja 
+But I know soldiers very well, solecito 
+And soldiers don't always come back from war 
+So tell me why",shape=box,color=blue];
+		2324 -> 2328;
+	2326 [label="Sí I do 
+But I also know soldiers very well, solecito 
+And you are a soldier whether you like it or not 
+When soldiers get called off to \"save the world\" 
+That is what they do 
+So tell me why",shape=box,color=blue];
+		2326 -> 2328;
+	2328 [label="Check boolean LettieReligion2",color=orange];
+		2328 -> 2327 [label=true,color=green];
+		2328 -> 2329 [label=true,color=green];
+		2328 -> 2330 [label=true,color=green];
+		2328 -> 2333 [label=true,color=green];
+		2328 -> 2327 [label=false,color=brown];
+		2328 -> 2331 [label=false,color=brown];
+		2328 -> 2332 [label=false,color=brown];
+		2328 -> 2333 [label=false,color=brown];
+	2327 [label="Entrati. I feel like my time chasing him might not be done.",shape=box,color=red];
+		2327 -> 2334;
+	2329 [label="My Xipe Totec. I know first hand why it *must* be stopped.",shape=box,color=red];
+		2329 -> 2335;
+	2330 [label="Tau. If that's where Entrati is headed, my Xipe Totec *will* follow him. And it's too important to let them have it.",shape=box,color=red];
+		2330 -> 2336;
+	2333 [label="I'm NEVER leaving. End of story.",shape=box,color=red];
+		2333 -> 2337;
+	2331 [label="The Man in the Wall. I know first hand why it *must* be stopped.",shape=box,color=red];
+		2331 -> 2335;
+	2332 [label="Tau. If that's where Entrati is headed, The Man in the Wall. *will* follow him. And it's too important to let them have it.",shape=box,color=red];
+		2332 -> 2336;
+	2334 [label="Do I need more reasons to hate that cabrón 
+Now you give me one more 
+But he will ruin more places more lives 
+Like he's ruined so many others",shape=box,color=blue];
+		2334 -> 2338;
+	2335 [label="Your story with the skinned god of the Void... sí 
+I fear it may not be over 
+And who am I to think I am important enough to stand in the way of it",shape=box,color=blue];
+		2335 -> 2339;
+	2336 [label="Check boolean LettieSentients",color=orange];
+		2336 -> 2340 [label=true,color=green];
+		2336 -> 2341 [label=false,color=brown];
+	2337 [label="Didn't think you were that naive 
+This thing between us is clearly a mistake, babas 
+You are too young for me I think 
+If you can't understand the reality of all this",shape=box,color=blue];
+		2337 -> 2342;
+	2338 [label="Ay, sí 
+If it is not one of us to put a bullet in his skull It should be you 
+And I hope that once you go and make him pay 
+You will come back to us 
+And to me",shape=box,color=blue];
+		2338 -> 2364;
+	2339 [label="Maybe when you finally defeat this skinned god of yours 
+You won't forget about us back here in this cuchitril 
+You will come back to us 
+And to me",shape=box,color=blue];
+		2339 -> 2365;
+	2340 [label="This Tau This is where the... sentients were sent ¿no? 
+This fake race made by fake gods the orokin",shape=box,color=blue];
+		2340 -> 2350;
+	2341 [label="Tell me of this Tau 
+What is it 
+Tell me why it would take you from me",shape=box,color=blue];
+		2341 -> 2346;
+	2342 [label="Boolean LettieDating is now false.",color=orange];
+		2342 -> 2343;
+	2364 [label="I promise that IF I do go, I WILL come back.",shape=box,color=red];
+		2364 -> 2368;
+	2365 [label="All I can do is promise to try as hard as I possibly can.",shape=box,color=red];
+		2365 -> 2371;
+	2350 [label="Yeah, but then we never would have met. Or started dating. So... small upside?",shape=box,color=red];
+		2350 -> 2352;
+	2346 [label="Tau is a planet in another solar system, where the Orokin sent a synthetic race they created to terraform it for us.",shape=box,color=red];
+		2346 -> 2347;
+	2343 [label="Boolean IsDating is now false.",color=orange];
+		2343 -> 2344;
+	2368 [label="+10 Chemistry",color=orange];
+		2368 -> 2366;
+	2371 [label="+20 Chemistry",color=orange];
+		2371 -> 2367;
+	2352 [label="Jajaja sí 
+Small upside 
+But why? 
+Why is this place so important that it will take you from me some day",shape=box,color=blue];
+		2352 -> 2354;
+		2352 -> 2355;
+		2352 -> 2356;
+	2347 [label="The race were called Sentients. But the Sentients turned on the Orokin. Came back here and waged war on them.",shape=box,color=red];
+		2347 -> 2348;
+	2344 [label="Boolean LettieNoDate is now true.",color=orange];
+		2344 -> "Chat ends.";
+	2366 [label="How many soldaditos have made that promise 
+And died in a ditch an hour later 
+Aay but I know you mean it when you say it 
+You will try",shape=box,color=blue];
+		2366 -> "Chat ends.";
+	2367 [label="That is a promise I can trust 
+That is a promise I believe 
+Gracias, mi corazón",shape=box,color=blue];
+		2367 -> 2370;
+	2354 [label="I'm not sure. But if Entrati *and* the Man in the Wall are headed there... it has to be important.",shape=box,color=red];
+		2354 -> 2357;
+	2355 [label="It was the only hope for humanity's survival. Might still be, honestly.",shape=box,color=red];
+		2355 -> 2358;
+	2356 [label="I'm not sure. But the Sentients have said some cryptic things.",shape=box,color=red];
+		2356 -> 2360;
+	2348 [label="And it was that war that drove the Orokin to create the infestation - and warframes - in the first place. To fight the Sentients.",shape=box,color=red];
+		2348 -> 2349;
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+	2370 [label="Boolean LettieReal is now true.",color=orange];
+		2370 -> "Chat ends.";
+	2357 [label="Sí 
+And I hope that once you go and make him pay 
+You will come back to us 
+And to me",shape=box,color=blue];
+		2357 -> 2364;
+		2357 -> 2365;
+	2358 [label="Ay no 
+So we can ruin a second planet like this one 
+I think I agree with the sentients jajaja 
+Besides we seem to have done just fine in space, ¿no?",shape=box,color=blue];
+		2358 -> 2362;
+		2358 -> 2363;
+	2360 [label="¿Cómo qué? 
+¿Like what?",shape=box,color=blue];
+		2360 -> 2359;
+		2360 -> 2361;
+	2349 [label="So if it were not for this Tau and these Sentients 
+This fake race made by these fake gods the orokin 
+None of these pendejadas would have ever happened",shape=box,color=blue];
+		2349 -> 2350;
+		2349 -> 2351;
+	"Chat ends." [color=orange];
+	2362 [label="Fair enough. lol",shape=box,color=red];
+		2362 -> 2375;
+	2363 [label="Might want to wait to meet the future before you make that call.",shape=box,color=red];
+		2363 -> 2375;
+	2359 [label="\"All is silent and calm, hushed and empty is the womb of the sky.\"",shape=box,color=red];
+		2359 -> 2376;
+	2361 [label="\"Merely framed Merely shaped they are called. There was no their mother, there was no their father.\"",shape=box,color=red];
+		2361 -> 2376;
+	2351 [label="Basically.",shape=box,color=red];
+		2351 -> 2353;
+	2375 [label="+10 Chemistry",color=orange];
+		2375 -> 2373;
+	2376 [label="¡¿QUÉ?! 
+WHAT DID YOU JUST SAY?! 
+WAIT WAIT WAIT WAIT WAIT WAIT",shape=box,color=blue];
+		2376 -> 2377;
+	2353 [label="But why? 
+Why is this place so important that it will take you from me some day",shape=box,color=blue];
+		2353 -> 2354;
+		2353 -> 2355;
+		2353 -> 2356;
+	2373 [label="Back to work for me 
+Again as always 
+Never ending... never will",shape=box,color=blue];
+		2373 -> "Chat ends.";
+	2377 [label="¿POR QUÉ? why are creatures from the far future quoting ¿a los PUEBLOS ANTIGUOS? 
+¿Qué chingados está pasando ahora?",shape=box,color=blue];
+		2377 -> 2378;
+		2377 -> 2379;
+	"Chat ends." [color=orange];
+	2378 [label="Um. I'm sorry. What? What were they quoting?",shape=box,color=red];
+		2378 -> 2380;
+	2379 [label="Lettie you've lost me again. Back up.",shape=box,color=red];
+		2379 -> 2380;
+	2380 [label="AGGHHHH this makes NO SENSE 
+Those words are the words of the ancient people of Chichén Itzá. WHERE DID YOU GET THEM?!",shape=box,color=blue];
+		2380 -> 2381;
+	2381 [label="THOSE ARE FROM A SACRED TEXT OF LOS PUEBLOS ANTIGUOS 
+\"¡¿CÓMO Y POR QUÉ!?\"",shape=box,color=blue];
+		2381 -> 2382;
+		2381 -> 2383;
+	2382 [label="I - I don't - I don't know. I have no clue. I'd only be guessing.",shape=box,color=red];
+		2382 -> 2387;
+	2383 [label="Time travel...?",shape=box,color=red];
+		2383 -> 2387;
+	2387 [label="+20 Chemistry",color=orange];
+		2387 -> 2384;
+	2384 [label="I do not drink 
+But if I did now would be the time 
+Aaayyyy this nonsense gets worse and worse every day",shape=box,color=blue];
+		2384 -> 2385;
+	2385 [label="I... need to go sit down, mi corazón 
+Do not talk to me of the future for a while, ¿Sí? 
+Think I've had enough of it for a long time 
+Gives me a damn headache",shape=box,color=blue];
+		2385 -> 2386;
+	2386 [label="Boolean LettieReal is now true.",color=orange];
+		2386 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

@@ -1,0 +1,249 @@
+digraph {
+	667 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		667 -> 668;
+	668 [label="Give me a reason not to hate Entrati 
+And the whole damn future you come from",shape=box,color=blue];
+		668 -> 670;
+	670 [label="Check boolean LettieCavia",color=orange];
+		670 -> 672 [label=true,color=green];
+		670 -> 671 [label=false,color=brown];
+	672 [label="Because as far as I can tell 
+He's an animal abusing cabrón 
+And your whole stinking future can get screwed as far as I'm concerned",shape=box,color=blue];
+		672 -> 675;
+		672 -> 676;
+		672 -> 677;
+	671 [label="Check boolean LettieEntrati",color=orange];
+		671 -> 673 [label=true,color=green];
+		671 -> 674 [label=false,color=brown];
+	675 [label="I don't disagree. I hate Entrati as much as you do. But the future is worth fighting for, even if it'd be better without him in it.",shape=box,color=red];
+		675 -> 706;
+	676 [label="Entrati isn't all bad, he's trying to fix his mistakes. And anybody who's capable of love has something worth saving in them, IMO.",shape=box,color=red];
+		676 -> 679;
+	677 [label="Yikes. I know when a conversation is going to go poorly. I'm out. [End.]",shape=box,color=red];
+		677 -> "Chat ends.";
+	673 [label="And none of this \"greater good\" pendejadas 
+And your whole stinking future can get screwed as far as I'm concerned",shape=box,color=blue];
+		673 -> 675;
+		673 -> 676;
+		673 -> 677;
+	674 [label="Because from where I sit 
+That cabrón thinks he is a god and he let one loose 
+And now it's all our problems to deal with 
+So him and his future can get screwed as far as I'm concerned",shape=box,color=blue];
+		674 -> 675;
+		674 -> 676;
+		674 -> 677;
+	706 [label="He is TRASH 
+And the future is TRASH ",shape=box,color=blue];
+		706 -> 708;
+		706 -> 709;
+	679 [label="Love? 
+Who could possibly love someone like that",shape=box,color=blue];
+		679 -> 680;
+		679 -> 681;
+	"Chat ends." [color=orange];
+	708 [label="I'm from the future. Do you think I'm trash?",shape=box,color=red];
+		708 -> 710;
+	709 [label="Just because you hate one guy doesn't mean the whole future is garbage.",shape=box,color=red];
+		709 -> 710;
+	680 [label="His name's Loid. Sort of a... workplace romance, you could say.",shape=box,color=red];
+		680 -> 682;
+	681 [label="He had a family. Wife, kids, grandkids now.",shape=box,color=red];
+		681 -> 683;
+	710 [label="it may not be ugly to you 
+But it is WRONG 
+It is not what the gods intended 
+He tampered with it all",shape=box,color=blue];
+		710 -> 711;
+	682 [label="¿Ay, sí? 
+I did not see Loid here with him",shape=box,color=blue];
+		682 -> 684;
+		682 -> 685;
+	683 [label="You said HAD 
+What do you mean, HAD",shape=box,color=blue];
+		683 -> 686;
+		683 -> 687;
+		683 -> 688;
+	711 [label="Check boolean LettieReligion2",color=orange];
+		711 -> 712 [label=true,color=green];
+		711 -> 713 [label=false,color=brown];
+	684 [label="Loid is still in the future, guarding Entrati's lab. He's been there for centuries.",shape=box,color=red];
+		684 -> 689;
+	685 [label="Entrati abandoned Loid like he abandons everybody.",shape=box,color=red];
+		685 -> 689;
+	686 [label="Well, the issue is, his daughter thinks he's lost, and is searching for him. It's complicated.",shape=box,color=red];
+		686 -> 690;
+	687 [label="I mean, I'm sure he loved them at one point...",shape=box,color=red];
+		687 -> 690;
+	688 [label="I've got a warning light going off in - um - I have to go. [End.]",shape=box,color=red];
+		688 -> "Chat ends.";
+	712 [label="If he never angered Xipe Totec, this Man in the Wall, none of your future would exist",shape=box,color=blue];
+		712 -> 714;
+	713 [label="If he never unleashed this Man in the Wall, none of your future would exist",shape=box,color=blue];
+		713 -> 714;
+	689 [label="Boolean LettieLoid is now true.",color=orange];
+		689 -> 692;
+	690 [label="Boolean LettieEntratiFamily is now true.",color=orange];
+		690 -> 693;
+	"Chat ends." [color=orange];
+	714 [label="Check boolean LettieDuviri",color=orange];
+		714 -> 715 [label=true,color=green];
+		714 -> 716 [label=false,color=brown];
+	692 [label="Used and tossed away 
+I bet not the first time he's done it 
+¿Verdad?",shape=box,color=blue];
+		692 -> 694;
+	693 [label="He abandoned his family 
+Let me guess 
+He's done it another time hasn't he",shape=box,color=blue];
+		693 -> 695;
+	715 [label="The void would not have been unleashed, ¿no? 
+Duviri would never have been made 
+Your life would have been happier",shape=box,color=blue];
+		715 -> 717;
+		715 -> 718;
+	716 [label="The void would not have been unleashed, ¿no? 
+You never would have been trapped 
+Your life would have been happier",shape=box,color=blue];
+		716 -> 717;
+		716 -> 718;
+	694 [label="Check boolean LettieCavia",color=orange];
+		694 -> 697 [label=true,color=green];
+		694 -> 698 [label=true,color=green];
+		694 -> 696 [label=false,color=brown];
+	695 [label="Check boolean LettieCavia",color=orange];
+		695 -> 698 [label=true,color=green];
+		695 -> 699 [label=true,color=green];
+		695 -> 696 [label=false,color=brown];
+	717 [label="There's no way of knowing what could have been. In fact, without the Tenno, all of humanity might be gone by now, wiped out by the Sentients.",shape=box,color=red];
+		717 -> 719;
+	718 [label="You're right, but I can't change what's been done. Not at that scale. I'm doing my best to save who and what I can.",shape=box,color=red];
+		718 -> 722;
+	697 [label="Yeah... he abandoned his family. He had a wife, kids, and now grandkids.",shape=box,color=red];
+		697 -> 700;
+	698 [label="Look, it doesn't matter. He doesn't define the future.",shape=box,color=red];
+		698 -> 702;
+	696 [label="Yeah... he abandoned the Cavia, the animals he experimented on and accidentally made intelligent.",shape=box,color=red];
+		696 -> 703;
+	699 [label="Yeah... he abandoned Loid, his manservant he has a relationship with.",shape=box,color=red];
+		699 -> 701;
+	719 [label="Sentients?",shape=box,color=blue];
+		719 -> 721;
+	722 [label="+20 Chemistry",color=orange];
+		722 -> 720;
+	700 [label="Boolean LettieEntratiFamily is now true.",color=orange];
+		700 -> 705;
+	702 [label="But he HAS defined it don't you see 
+It's because of him that everything is the way it is",shape=box,color=blue];
+		702 -> 710;
+	703 [label="?!?!?!??! 
+If I ever see him again- 
+I am going to KILL him, and let you reset the world so I can do it AGAIN",shape=box,color=blue];
+		703 -> 704;
+	701 [label="Boolean LettieLoid is now true.",color=orange];
+		701 -> 705;
+	721 [label="Boolean LettieSentients is now true.",color=orange];
+		721 -> 724;
+		721 -> 725;
+	720 [label="Sí
+I am just angry, lo siento 
+This is not your fault and you are not garbage",shape=box,color=blue];
+		720 -> 723;
+	705 [label="You are making my point, ¿no? 
+He is trash and the future is trash",shape=box,color=blue];
+		705 -> 708;
+		705 -> 709;
+	704 [label="Boolean LettieCavia is now true.",color=orange];
+		704 -> 706;
+	724 [label="A synthetic race made by the Orokin and the future human society to terraform a planet called Tau, because we were ruining Earth.",shape=box,color=red];
+		724 -> 732;
+	725 [label="A synthetic race made by the Orokin and future human society who waged war on us after they were made.",shape=box,color=red];
+		725 -> 727;
+	723 [label="You are like me 
+Just a medic keeping as many lives from joining La Flaca too early as possible",shape=box,color=blue];
+		723 -> 726;
+	732 [label="More mortals playing at being gods 
+These orokin are trash 
+All that power and technology 
+And they could not save our planet",shape=box,color=blue];
+		732 -> 734;
+	727 [label="More mortals playing at being gods 
+These orokin are trash 
+The sentients lashed out at their creators",shape=box,color=blue];
+		727 -> 729;
+	726 [label="But Entrati can go screw a brick sideways",shape=box,color=blue];
+		726 -> "Chat ends.";
+	734 [label="Instead they wanted to make a golden new home somewhere else 
+Where they could be the only gods, far away from the Father and Mother",shape=box,color=blue];
+		734 -> 735;
+	729 [label="Why?",shape=box,color=blue];
+		729 -> 730;
+		729 -> 731;
+	"Chat ends." [color=orange];
+	735 [label="Boolean LettieReligion3 is now true.",color=orange];
+		735 -> 736;
+		735 -> 737;
+	730 [label="Because the Orokin sent them there to terraform a new planet, Tau, and the Sentients were worried that we'd ruin that one, too.",shape=box,color=red];
+		730 -> 732;
+	731 [label="Because they're just as egotistical, violent, and evil as the Orokin.",shape=box,color=red];
+		731 -> 733;
+	736 [label="Father and Mother? You mean Sol and Lua?",shape=box,color=red];
+		736 -> 738;
+	737 [label="Sol and Lua aren't gods, Lettie... they're just a star and a rock...",shape=box,color=red];
+		737 -> 739;
+	733 [label="De tal palo, tal astilla 
+Humans making a race in their image 
+Thinking they are the Father and Mother
+Disgusting",shape=box,color=blue];
+		733 -> 735;
+	738 [label="Sí 
+They are something special, deep down, something more to us than just what they are at first glance",shape=box,color=blue];
+		738 -> 740;
+	739 [label="Sí 
+And your Man in the Wall is just a collection of atoms 
+And you are just a person with nothing special about them except what was done to them",shape=box,color=blue];
+		739 -> 740;
+	740 [label="Do you believe in the unseen, ¿babas? 
+Do you believe in something beyond the world we can measure?",shape=box,color=blue];
+		740 -> 741;
+	741 [label="Check boolean ReligionNone",color=orange];
+		741 -> 742 [label=true,color=green];
+		741 -> 743 [label=false,color=brown];
+		741 -> 744 [label=false,color=brown];
+		741 -> 745 [label=false,color=brown];
+	742 [label="I've told you already, I don't believe in anything.",shape=box,color=red];
+		742 -> 751;
+	743 [label="No. If you can't measure it, it doesn't exist.",shape=box,color=red];
+		743 -> 746;
+	744 [label="Maybe? I think it's just science we don't understand yet.",shape=box,color=red];
+		744 -> 747;
+	745 [label="Of course I do. I'm a product of the Void.",shape=box,color=red];
+		745 -> 748;
+	751 [label="I feel sad for you 
+Thinking you know everything there is to know 
+How small your world must feel",shape=box,color=blue];
+		751 -> "Chat ends.";
+	746 [label="Boolean LettieUnseenNo is now true.",color=orange];
+		746 -> 751;
+	747 [label="Boolean LettieUnseenMaybe is now true.",color=orange];
+		747 -> 749;
+	748 [label="Boolean LettieUnseenYes is now true.",color=orange];
+		748 -> 750;
+	"Chat ends." [color=orange];
+	749 [label="+15 Chemistry",color=orange];
+		749 -> 752;
+	750 [label="+15 Chemistry",color=orange];
+		750 -> 753;
+	752 [label="Ay, sí 
+Don't think I disagree 
+You know what we do not know and admit it 
+I like that",shape=box,color=blue];
+		752 -> "Chat ends.";
+	753 [label="Ay, sí
+You are touched by the unseen more than most 
+For better or worse",shape=box,color=blue];
+		753 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+}

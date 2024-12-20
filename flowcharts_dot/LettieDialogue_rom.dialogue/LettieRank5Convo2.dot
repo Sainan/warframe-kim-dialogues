@@ -1,0 +1,295 @@
+digraph {
+	1782 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		1782 -> 1783;
+	1783 [label="Check boolean LettieDating",color=orange];
+		1783 -> 1784 [label=true,color=green];
+		1783 -> 1785 [label=false,color=brown];
+	1784 [label="Solecito 
+You there? 
+I have a few minutes to spare and I wanted to talk",shape=box,color=blue];
+		1784 -> 1786;
+		1784 -> 1787;
+		1784 -> 1788;
+	1785 [label="Hey
+You there? 
+I have a few minutes to spare and I wanted to talk",shape=box,color=blue];
+		1785 -> 1787;
+		1785 -> 1788;
+	1786 [label="You're not breaking up with me, are you?",shape=box,color=red];
+		1786 -> 1790;
+	1787 [label="YOU want to talk...? Are you feeling okay? Did somebody die?",shape=box,color=red];
+		1787 -> 1791;
+	1788 [label="I'm sorry, I can't chat right now. [End.]",shape=box,color=red];
+		1788 -> "Chat ends.";
+	1790 [label="¡Ay, no! 
+Nonono 
+Not what this is about jajaja 
+Though YOU might change YOUR mind when I'm done talking",shape=box,color=blue];
+		1790 -> 1792;
+		1790 -> 1793;
+	1791 [label="Jaja very funny 
+And who hasn't died once at this point 
+Ay, no, what I wanted to talk about 
+Is serious 
+And something I've been avoiding",shape=box,color=blue];
+		1791 -> 1793;
+		1791 -> 1792;
+	"Chat ends." [color=orange];
+	1792 [label="Okay... What's this about?",shape=box,color=red];
+		1792 -> 1794;
+	1793 [label="All right. I'm listening.",shape=box,color=red];
+		1793 -> 1794;
+	1794 [label="Check boolean LettieHexAsked",color=orange];
+		1794 -> 1795 [label=true,color=green];
+		1794 -> 1796 [label=false,color=brown];
+	1795 [label="You asked how we became these monstruos 
+What that pinche cabrón did to us 
+Why I hate him so much 
+What that piece of shit made us do",shape=box,color=blue];
+		1795 -> 1801;
+	1796 [label="Check boolean LettieEntrati",color=orange];
+		1796 -> 1797 [label=true,color=green];
+		1796 -> 1798 [label=false,color=brown];
+	1801 [label="So 
+I followed Arthur into the ICR 
+Got sent here to this cuchitril to deal with some weird plague nobody'd seen before",shape=box,color=blue];
+		1801 -> 1802;
+	1797 [label="You should know what that pinche cabrón did to us 
+Why I hate him so much 
+What that piece of shit made us do",shape=box,color=blue];
+		1797 -> 1801;
+	1798 [label="Check boolean LettieArthur1",color=orange];
+		1798 -> 1799 [label=true,color=green];
+		1798 -> 1800 [label=false,color=brown];
+	1802 [label="A disease that chews up people 
+Spits them out half person half machine 
+Or some things that weren't ever human beings at all, más bien computadoras",shape=box,color=blue];
+		1802 -> 1803;
+	1799 [label="I told you how Arthur and I became hermanos 
+But not how we got turned into these monstruos 
+You should know what that pinche cabrón did to us 
+Why I hate him so much 
+What that piece of shit made us do",shape=box,color=blue];
+		1799 -> 1801;
+	1800 [label="You've done a lot for us 
+Saved our lives, stayed with us... when you could leave 
+Time you hear the whole story",shape=box,color=blue];
+		1800 -> 1801;
+	1803 [label="We get deployed to \"deal with it\" 
+Best way we know how 
+Half bandages 
+Half bullets",shape=box,color=blue];
+		1803 -> 1804;
+	1804 [label="This was early 1998 
+Before you came 
+That Entrati cabrón was already here 
+Selling his MENTIRAS",shape=box,color=blue];
+		1804 -> 1805;
+	1805 [label="But the best lies are the ones you want to believe, ¿verdad? 
+We had no cure for this disease except a dance with La Flaca 
+But here he comes 
+Doktor F and his magical bag of miracles will cure what ails you 
+Saying he can fix it all with his medicina milagrosa",shape=box,color=blue];
+		1805 -> 1806;
+	1806 [label="And we bought it como una bola de mensos 
+And when the ICR stomps its feet and says \"nonono, you cannot help him distribute his drug\" should have listened 
+Vaccines come from scientists not an old man in some ugly-ass trench coat 
+Selling lies like some old world snake oil 
+But people are dying all around you? 
+You help him anyway because you signed up to HELP people",shape=box,color=blue];
+		1806 -> 1807;
+	1807 [label="So we helped him inject the people of this city with his drug 
+Lined them up in our tents and that cabrón and I shot them full of it one after another 
+And the others kept the operation safe while we worked",shape=box,color=blue];
+		1807 -> 1808;
+	1808 [label="NOSOTROS CREÍMOS EN ÉL 
+We trusted him 
+¿Y por tan poco? 
+It seemed like it was working 
+The people we were shooting up weren't getting sick 
+The problem...?",shape=box,color=blue];
+		1808 -> 1809;
+	1809 [label="Everybody around them WAS 
+Do you know what \"silent carriers\" are? 
+Volunteered in an animal shelter one summer cuando estaba chiquita 
+Had all these raccoons 
+Couldn't release them, because they might be silent carriers of rabies 
+THEY looked healthy, seemed healthy, seemed normal...",shape=box,color=blue];
+		1809 -> 1810;
+	1810 [label="But if we let them go? 
+They'd infect everything they came across... 
+That's what we were doing to people 
+THAT'S WHAT HE WAS MAKING US DO TO PEOPLE 
+¡LO HIZO A PROPÓSITO!
+This place is the edge of Mictlán POR SU CULPA",shape=box,color=blue];
+		1810 -> 1811;
+	1811 [label="Even when we started to suspect 
+We could not believe 
+We whispered to each other 
+But shook our heads and said 
+Nonono, it cannot be 
+Not him 
+Not us",shape=box,color=blue];
+		1811 -> 1812;
+	1812 [label="Boolean LettieHex is now true.",color=orange];
+		1812 -> 1813;
+	1813 [label="Check boolean LettieDating",color=orange];
+		1813 -> 1814 [label=true,color=green];
+		1813 -> 1815 [label=false,color=brown];
+	1814 [label="We did not want to believe 
+That our trust had been broken 
+We... we had taken the drug too, solecito... 
+We were spreading the plague...",shape=box,color=blue];
+		1814 -> 1816;
+	1815 [label="We did not want to believe 
+That our trust had been broken 
+We... we had taken the drug too... 
+We were spreading the plague...",shape=box,color=blue];
+		1815 -> 1816;
+	1816 [label="So when he said the Techrot strain had mutated... and we were no longer safe...",shape=box,color=blue];
+		1816 -> 1817;
+	1817 [label="We lined right up 
+Like good little soldaditos",shape=box,color=blue];
+		1817 -> 1818;
+	1818 [label="Lua, it hurt 
+Wasn't the fun kind, either... 
+Aoi's screams were the worst 
+I could not help her, I was too busy dying too 
+She wept in fear and all I wanted to do was hold her",shape=box,color=blue];
+		1818 -> 1819;
+	1819 [label="Tell her it would be okay 
+That the pain would pass and La Flaca would take her home 
+She was so afraid and I could not help her 
+My legs would not work...",shape=box,color=blue];
+		1819 -> 1820;
+	1820 [label="And I will hate that piece of shit 
+Every day of my endless life 
+For that betrayal",shape=box,color=blue];
+		1820 -> 1821;
+	1821 [label="And if I ever see him again? 
+You better be there to hold me back 
+Or I will teach him what real hurt is like",shape=box,color=blue];
+		1821 -> 1822;
+		1821 -> 1823;
+		1821 -> 1824;
+		1821 -> 1825;
+	1822 [label="Holding a grudge like that isn't healthy, even if what he did to you was wrong.",shape=box,color=red];
+		1822 -> 1826;
+	1823 [label="Holy shit... I didn't realize. I - I'm so sorry he used you like that. Yeah... I'd hate him, too.",shape=box,color=red];
+		1823 -> 1827;
+	1824 [label="I - so - wait. You all are partially to blame for the Techrot spreading?",shape=box,color=red];
+		1824 -> 1828;
+	1825 [label="Sorry I fell asleep there for a second. What were you saying?",shape=box,color=red];
+		1825 -> 1829;
+	1826 [label="Look at you 
+All Hail San Babas 
+Forgiving sins 
+No 
+Some things cannot be forgiven 
+What he did to us is one of them 
+What we did to the people of this city is another",shape=box,color=blue];
+		1826 -> 1833;
+		1826 -> 1834;
+		1826 -> 1836;
+	1827 [label="Sí 
+I do not take betrayal well 
+But we wanted to believe him and it made us stupid 
+If you do not want to be around us anymore, I understand
+The others will, too",shape=box,color=blue];
+		1827 -> 1833;
+		1827 -> 1834;
+		1827 -> 1836;
+	1828 [label="Sí 
+We were 
+But we wanted to believe him and it made us stupid 
+If you do not want to be around us anymore, I understand 
+The others will, too",shape=box,color=blue];
+		1828 -> 1833;
+		1828 -> 1834;
+		1828 -> 1836;
+	1829 [label="Boolean LettieDating is now false.",color=orange];
+		1829 -> 1830;
+	1833 [label="I'm not here to tell you what you did can be forgiven or not. That's not something I can do, and honestly - I don't think what you're describing is something that CAN be forgiven.",shape=box,color=red];
+		1833 -> 1839;
+	1834 [label="Entrati came here and found exactly what he was looking for - useful, skilled people he could trick into doing what he wanted. Who wouldn't think too hard about it. You fell for his shtick like so many people who came before you.",shape=box,color=red];
+		1834 -> 1837;
+	1836 [label="What happened wasn't your fault. You were lied to. Yeah, sure - maybe you were a little willingly blind after things started to go wrong. But who can blame you? Hope is a dangerous drug. And he shot you full of it.",shape=box,color=red];
+		1836 -> 1838;
+	1830 [label="Boolean IsDating is now false.",color=orange];
+		1830 -> 1831;
+	1839 [label="People died. People who won't come back. Because you wanted to believe in a miracle drug hawked by some \"old man in some ugly-ass trench coat.\"",shape=box,color=red];
+		1839 -> 1842;
+	1837 [label="You wanted to believe his lies. And so you did. And that's on you. And all the people who got sick because of it? That's also on you.",shape=box,color=red];
+		1837 -> 1839;
+		1837 -> 1840;
+	1838 [label="So of course, you went along with it. Of course, you wanted to believe there was a chance.",shape=box,color=red];
+		1838 -> 1841;
+	1831 [label="Boolean LettieNoDate is now true.",color=orange];
+		1831 -> "Chat ends.";
+	1842 [label="And it's not on me to absolve you of that. Sorry.",shape=box,color=red];
+		1842 -> 1845;
+	1840 [label="But people make mistakes. And people own up to them. And you're here, trying to own up to them. So... I see people trying to do what's right with what they did wrong.",shape=box,color=red];
+		1840 -> 1843;
+	1841 [label="I would have done the same thing.",shape=box,color=red];
+		1841 -> 1835;
+	"Chat ends." [color=orange];
+	1845 [label="Check boolean LettieDating",color=orange];
+		1845 -> 1846 [label=true,color=green];
+		1845 -> 1847 [label=false,color=brown];
+	1843 [label="And I don't think a reasonable person can ask for much more than that. I don't think less of you. I see people who failed. But were willing to try again. And I know what that's like. Trust me.",shape=box,color=red];
+		1843 -> 1844;
+	1835 [label="¿Sí? 
+Ay... then we're both idiots jajaja 
+Maybe you DO belong here with us 
+Sigh 
+My feet hurt 
+Mierda, everything hurts",shape=box,color=blue];
+		1835 -> 1844;
+	1846 [label="Sí 
+You're right 
+We made mistakes 
+And I made another one in thinking  THIS could work out",shape=box,color=blue];
+		1846 -> 1852;
+	1847 [label="Sí 
+You're right 
+We made mistakes 
+And I made another one in thinking I could trust you with this story",shape=box,color=blue];
+		1847 -> 1854;
+	1844 [label="Check boolean LettieDating",color=orange];
+		1844 -> 1857 [label=true,color=green];
+		1844 -> 1860 [label=false,color=brown];
+	1852 [label="Boolean LettieDating is now false.",color=orange];
+		1852 -> 1851;
+	1854 [label="Boolean LettieNoDate is now true.",color=orange];
+		1854 -> 1855;
+	1857 [label="+20 Chemistry",color=orange];
+		1857 -> 1848;
+	1860 [label="+20 Chemistry",color=orange];
+		1860 -> 1849;
+	1851 [label="Boolean IsDating is now false.",color=orange];
+		1851 -> 1850;
+	1855 [label="Boolean LettieTrust1 is now true.",color=orange];
+		1855 -> "Chat ends.";
+	1848 [label="I'm calling it for the day, solecito 
+Gracias 
+Thanks for listening to me and... 
+Not thinking less of us",shape=box,color=blue];
+		1848 -> 1858;
+	1849 [label="I'm calling it for the day, friend 
+Gracias 
+Thanks for listening to me and... 
+Not thinking less of us",shape=box,color=blue];
+		1849 -> 1861;
+	1850 [label="Boolean LettieNoDate is now true.",color=orange];
+		1850 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	1858 [label="Boolean LettieTrust1 is now true.",color=orange];
+		1858 -> "Chat ends.";
+	1861 [label="Boolean LettieTrust1 is now true.",color=orange];
+		1861 -> 1862;
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+	1862 [label="Boolean LettieWillDate is now true.",color=orange];
+		1862 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

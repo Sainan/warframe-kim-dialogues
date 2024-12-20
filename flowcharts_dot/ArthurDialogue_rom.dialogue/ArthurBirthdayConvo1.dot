@@ -1,0 +1,21 @@
+digraph {
+	3190 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		3190 -> 3193;
+		3190 -> 3194;
+	3193 [label="I know you're busy, but I just wanted to say Happy Birthday. :)",shape=box,color=red];
+		3193 -> 3195;
+	3194 [label="Happy Birthday! (You do know what being \"happy\" is, right?)",shape=box,color=red];
+		3194 -> 3198;
+	3195 [label="+20 Chemistry",color=orange];
+		3195 -> 3196;
+	3198 [label="I do. Do you know what being ‘funny’ is?",shape=box,color=blue];
+		3198 -> 3222;
+	3196 [label="Never too busy for a birthday greeting, mate. Appreciate it.",shape=box,color=blue];
+		3196 -> 3221;
+	3222 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		3222 -> "Chat ends.";
+	3221 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		3221 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+}

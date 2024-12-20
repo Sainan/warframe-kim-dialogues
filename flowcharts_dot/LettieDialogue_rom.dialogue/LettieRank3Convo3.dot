@@ -1,0 +1,172 @@
+digraph {
+	758 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		758 -> 759;
+	759 [label="Before all this nonsense 
+Where did you come from, ¿babas?",shape=box,color=blue];
+		759 -> 760;
+		759 -> 762;
+	760 [label="The nonsense started pretty early. Do you mean pre-Now, pre-Duviri, or Pre-Zariman?",shape=box,color=red];
+		760 -> 764;
+	762 [label="Sorry, can't chat. [End.]",shape=box,color=red];
+		762 -> "Chat ends.";
+	764 [label="Jajaja 
+You're right it did start early 
+But where do you FEEL like you come from",shape=box,color=blue];
+		764 -> 766;
+		764 -> 767;
+		764 -> 768;
+		764 -> 769;
+		764 -> 770;
+	"Chat ends." [color=orange];
+	766 [label="Duviri, I guess.",shape=box,color=red];
+		766 -> 771;
+	767 [label="The Zariman, I guess.",shape=box,color=red];
+		767 -> 772;
+	768 [label="You're going to laugh at me... but this is the closest to a \"home\" as I've ever felt I've had.",shape=box,color=red];
+		768 -> 773;
+	769 [label="I don't really \"come from\" anywhere.",shape=box,color=red];
+		769 -> 774;
+	770 [label="Honestly? I... don't know. The Orokin kind of erased most of Ancient Earth's records. So I have no way of knowing how far in the future exactly I'm from.",shape=box,color=red];
+		770 -> 779;
+	771 [label="Boolean LettieHomeDuviri is now true.",color=orange];
+		771 -> 775;
+	772 [label="Boolean LettieHomeZariman is now true.",color=orange];
+		772 -> 776;
+	773 [label="Boolean LettieHome1999 is now true.",color=orange];
+		773 -> 777;
+	774 [label="Boolean LettieHomeNowhere is now true.",color=orange];
+		774 -> 778;
+	779 [label="It must be hard 
+To feel like you come from no place and no time",shape=box,color=blue];
+		779 -> 784;
+	775 [label="Despite what it did to you?",shape=box,color=blue];
+		775 -> 780;
+		775 -> 781;
+	776 [label="That's the ship, ¿no? 
+Isn't it abandoned now?",shape=box,color=blue];
+		776 -> 782;
+		776 -> 783;
+	777 [label="Why do you think I would laugh at you",shape=box,color=blue];
+		777 -> 779;
+	778 [label="Sí, you who wanders 
+Who has no home",shape=box,color=blue];
+		778 -> 779;
+	784 [label="My family moved a lot then I joined the army 
+Then with the ICR I fit in with no one and nowhere 
+So I understand, in a way, feeling displaced",shape=box,color=blue];
+		784 -> 788;
+	780 [label="We don't get to pick what our homes have done to us, sometimes.",shape=box,color=red];
+		780 -> 785;
+	781 [label="What it did to me, I did to myself. Just nightmares playing over and over again in my head.",shape=box,color=red];
+		781 -> 792;
+	782 [label="That's... a complicated question. It has its own ghosts.",shape=box,color=red];
+		782 -> 792;
+	783 [label="No, it's not abandoned. It has memories of people who call it home.",shape=box,color=red];
+		783 -> 792;
+	788 [label="But I have a people and a culture I can call my own 
+Even if they are far away",shape=box,color=blue];
+		788 -> 790;
+		788 -> 791;
+	785 [label="Sí, don't I know that well 
+My family moved a lot then I joined the army 
+Then with the ICR I fit in with no one and nowhere",shape=box,color=blue];
+		785 -> 786;
+	792 [label="More fantasmas, more death that follows you 
+And I thought I knew La Flaca well",shape=box,color=blue];
+		792 -> 796;
+		792 -> 797;
+	790 [label="My other option is Duviri and... no. My history with that place is... too complicated.",shape=box,color=red];
+		790 -> 792;
+	791 [label="My other option is the Zariman and it's not any kinder. It's filled with just as many ghosts and nightmares. Except there, more people than JUST me died.",shape=box,color=red];
+		791 -> 792;
+	786 [label="But my home has not done to me what that place has done to you, babas 
+I respect you for still thinking of it as where you come from",shape=box,color=blue];
+		786 -> 787;
+		786 -> 791;
+	796 [label="She's got me on speed dial.",shape=box,color=red];
+		796 -> 802;
+	797 [label="Ghosts follow me wherever I go. Sometimes I wonder if I'm just a ghost myself.",shape=box,color=red];
+		797 -> 803;
+	787 [label="It's the place I know the most, and the place that knows me the most, I suppose.",shape=box,color=red];
+		787 -> 789;
+	802 [label="Jaja seems it 
+But your ghosts give me hope",shape=box,color=blue];
+		802 -> 798;
+	803 [label="Poor haunted babas 
+But you give me hope",shape=box,color=blue];
+		803 -> 804;
+	789 [label="+10 Chemistry",color=orange];
+		789 -> 793;
+	798 [label="How does my being haunted bring you hope?",shape=box,color=red];
+		798 -> 819;
+	804 [label="I'm glad my suffering brings you joy.",shape=box,color=red];
+		804 -> 805;
+	793 [label="Sí, something to be said for the familiar 
+I suppose in time this place will feel like home for me 
+Mierda, I hope that is a long time",shape=box,color=blue];
+		793 -> 794;
+		793 -> 795;
+	819 [label="I see you with the other hex 
+I see you laughing and finding happiness 
+You are a fantasma, like me, like us 
+But you still find MEANING",shape=box,color=blue];
+		819 -> 820;
+	805 [label="Check boolean LettieNoFlirt",color=orange];
+		805 -> 810 [label=true,color=green];
+		805 -> 806 [label=false,color=brown];
+	794 [label="You're tough. You'll be fine.",shape=box,color=red];
+		794 -> 799;
+	795 [label="Hey. At least you have better company than I did.",shape=box,color=red];
+		795 -> 801;
+	820 [label="Boolean LettieFantasma3 is now true.",color=orange];
+		820 -> 822;
+	810 [label="+10 Chemistry",color=orange];
+		810 -> 807;
+	806 [label="Check boolean LettieFlirt",color=orange];
+		806 -> 811 [label=true,color=green];
+		806 -> 811 [label=false,color=brown];
+	799 [label="Pues, a ver",shape=box,color=blue];
+		799 -> "Chat ends.";
+	801 [label="Maybe 
+You give me hope in that, babas",shape=box,color=blue];
+		801 -> 819;
+	822 [label="+10 Chemistry",color=orange];
+		822 -> 821;
+	807 [label="JAJA 
+No, pequeño babas 
+You can still smile",shape=box,color=blue];
+		807 -> 819;
+	811 [label="+10 Chemistry",color=orange];
+		811 -> 808;
+	"Chat ends." [color=orange];
+	821 [label="There is hope in that 
+And I will take what little I can get 
+Gracias, babas",shape=box,color=blue];
+		821 -> "Chat ends.";
+	808 [label="Oh, babas, don't worry 
+We would take turns",shape=box,color=blue];
+		808 -> 812;
+		808 -> 813;
+		808 -> 814;
+	"Chat ends." [color=orange];
+	812 [label="What?",shape=box,color=red];
+		812 -> 815;
+	813 [label="I - Oh. *Oh.* Heh. Well.",shape=box,color=red];
+		813 -> 816;
+	814 [label="I... don't like you like that, I'm sorry, Lettie.",shape=box,color=red];
+		814 -> 817;
+	815 [label="... You'll figure it out 
+I have faith 
+But this is not about your suffering 
+Not today",shape=box,color=blue];
+		815 -> 819;
+	816 [label="But this is not about your suffering 
+Not today",shape=box,color=blue];
+		816 -> 819;
+	817 [label="Boolean LettieNoFlirt is now true.",color=orange];
+		817 -> 818;
+	818 [label="Lo siento, just playing around 
+Won't happen again 
+Besides, this is not about your suffering",shape=box,color=blue];
+		818 -> 819;
+}

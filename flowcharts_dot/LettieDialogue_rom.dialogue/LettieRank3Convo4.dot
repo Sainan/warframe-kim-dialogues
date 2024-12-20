@@ -1,0 +1,240 @@
+digraph {
+	825 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		825 -> 826;
+		825 -> 827;
+	826 [label="So, where's home for you?",shape=box,color=red];
+		826 -> 828;
+	827 [label="How'd you end up joining the Hex, Lettie?",shape=box,color=red];
+		827 -> 829;
+	828 [label="Tenochtitlán City, originally 
+But we moved to Libertatia when I was young 
+You wouldn't know where either place is 
+Big sprawling place overseas from here",shape=box,color=blue];
+		828 -> 830;
+	829 [label="Same as most of the others 
+I was in the ICR with Aoi, Arthur, and Quincy 
+Everybody needs a medic to glue their ass back together when it gets an extra hole ",shape=box,color=blue];
+		829 -> 831;
+		829 -> 832;
+		829 -> 833;
+		829 -> 834;
+	830 [label="Check boolean LettieHomeAsked",color=orange];
+		830 -> 841 [label=true,color=green];
+		830 -> 840 [label=false,color=brown];
+	831 [label="How do you get on with Aoi?",shape=box,color=red];
+		831 -> 863;
+	832 [label="I'm surprised you can put up with Quincy. You don't seem to have a lot of patience.",shape=box,color=red];
+		832 -> 2462;
+	833 [label="Have you found the hole where Arthur keeps the stick he's lodged up there?",shape=box,color=red];
+		833 -> 837;
+	834 [label="ICR?",shape=box,color=red];
+		834 -> 838;
+	841 [label="How about you, babas 
+Where do you call your home",shape=box,color=blue];
+		841 -> 842;
+	840 [label="Do you have family missing you?",shape=box,color=red];
+		840 -> 843;
+	863 [label="+10 Chemistry",color=orange];
+		863 -> 835;
+	2462 [label="+10 Chemistry",color=orange];
+		2462 -> 836;
+	837 [label="Jajaja 
+Nah, it's the only thing keeping him standing 
+Man like him is only upright because he's got souls to protect",shape=box,color=blue];
+		837 -> 865;
+	838 [label="International Crisis Response 
+Humanitarian gig 
+Thought it'd be better than working for some mercenary force or army 
+Shit, was I wrong",shape=box,color=blue];
+		838 -> 846;
+		838 -> 847;
+	842 [label="Check boolean LettieDuviri",color=orange];
+		842 -> 850 [label=true,color=green];
+		842 -> 851 [label=false,color=brown];
+	843 [label="Doesn't matter 
+Can't leave this cuchitril 
+So why think about them",shape=box,color=blue];
+		843 -> 853;
+		843 -> 854;
+		843 -> 855;
+	835 [label="Aoi has to learn when to care for Aoi 
+Shit, she spends more time babying people than I do Not everybody needs their hand held 
+Not everybody wants it either",shape=box,color=blue];
+		835 -> 844;
+	836 [label="That boy and his games, I've seen them a thousand times 
+They don't bother me",shape=box,color=blue];
+		836 -> 845;
+	865 [label="I decided a long time ago to follow him to the ends of the earth 
+And I guess I'm stuck with that choice now, eh",shape=box,color=blue];
+		865 -> 881;
+	846 [label="How'd you meet Arthur?",shape=box,color=red];
+		846 -> 848;
+	847 [label="Why Höllvania, though?",shape=box,color=red];
+		847 -> 849;
+	850 [label="This Duviri of yours?",shape=box,color=blue];
+		850 -> 851;
+	851 [label="Or is the hint in your name? 
+You have no home",shape=box,color=blue];
+		851 -> 859;
+		851 -> 860;
+		851 -> 861;
+	853 [label="Sometimes painful memories are all that get us through.",shape=box,color=red];
+		853 -> 857;
+	854 [label="We're talking on the *internet* and you know the *phone* exists, yeah?",shape=box,color=red];
+		854 -> 852;
+	855 [label="Ok, well... never mind. [End.]",shape=box,color=red];
+		855 -> "Chat ends.";
+	844 [label="She burns herself out that way 
+Happened before, it'll happen again 
+Makes herself sick over it",shape=box,color=blue];
+		844 -> 862;
+	845 [label="He has a good heart 
+Even better aim 
+And knows how to keep his ass out of trouble 
+That's all I need in a squadmate",shape=box,color=blue];
+		845 -> 862;
+	881 [label="Check boolean LettieInteresting",color=orange];
+		881 -> 885 [label=true,color=green];
+		881 -> 2463 [label=false,color=brown];
+	848 [label="It's a long story 
+Short of it is",shape=box,color=blue];
+		848 -> 865;
+	849 [label="Wasn't the place, it was the person I followed 
+Arthur's why I'm here and in the ICR in the first place",shape=box,color=blue];
+		849 -> 865;
+	859 [label="This place isn't so bad. Maybe I'll make this my home.",shape=box,color=red];
+		859 -> 868;
+	860 [label="Thanks for rubbing it in.",shape=box,color=red];
+		860 -> 869;
+	861 [label="I make my home wherever I am.",shape=box,color=red];
+		861 -> 870;
+	857 [label="¿Sí? 
+What do you know of pain?",shape=box,color=blue];
+		857 -> 858;
+	852 [label="Bien podría ser un pinche fantasma 
+Call from beyond the grave, can't change, can't live, can't die",shape=box,color=blue];
+		852 -> 866;
+	"Chat ends." [color=orange];
+	862 [label="I have to get back to work 
+Don't have much time for chismes",shape=box,color=blue];
+		862 -> "Chat ends.";
+	885 [label="+20 Chemistry",color=orange];
+		885 -> 882;
+	2463 [label="+20 Chemistry",color=orange];
+		2463 -> 883;
+	868 [label="¿Ah, sí? 
+Why is that",shape=box,color=blue];
+		868 -> 873;
+	869 [label="Mm 
+It's what I do 
+You'll adjust",shape=box,color=blue];
+		869 -> 877;
+	870 [label="Like mi padre 
+Always on deployment",shape=box,color=blue];
+		870 -> 878;
+	858 [label="Boolean LettieDuviri is now true.",color=orange];
+		858 -> 871;
+	866 [label="What are we?! 
+FANTASMAS nothing more 
+Like shadows on a VHS tape used one too many times",shape=box,color=blue];
+		866 -> 888;
+	"Chat ends." [color=orange];
+	882 [label="Good question, babas 
+See? 
+Stick to the interesting ones 
+They get you somewhere",shape=box,color=blue];
+		882 -> "Chat ends.";
+	883 [label="Good question, babas 
+Stick to the interesting ones 
+They get you somewhere",shape=box,color=blue];
+		883 -> 884;
+	873 [label="Check boolean LettieNoFlirt",color=orange];
+		873 -> 875 [label=true,color=green];
+		873 -> 876 [label=true,color=green];
+		873 -> 876 [label=false,color=brown];
+		873 -> 875 [label=false,color=brown];
+		873 -> 874 [label=false,color=brown];
+	877 [label="Or not 
+I don't care",shape=box,color=blue];
+		877 -> "Chat ends.";
+	878 [label="Well 
+Don't let us stop you",shape=box,color=blue];
+		878 -> "Chat ends.";
+	871 [label="Do you know what it feels like to get your head cut off? I do. I've died a thousand times. And it *hurts,* lady.",shape=box,color=red];
+		871 -> 887;
+	888 [label="No, better they think I am already dead 
+I take this pain for them",shape=box,color=blue];
+		888 -> 890;
+		888 -> 891;
+	"Chat ends." [color=orange];
+	884 [label="Boolean LettieInteresting is now true.",color=orange];
+		884 -> "Chat ends.";
+	875 [label="The company.",shape=box,color=red];
+		875 -> 896;
+	876 [label="The food.",shape=box,color=red];
+		876 -> 1294;
+	874 [label="You. ;)",shape=box,color=red];
+		874 -> 895;
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+	887 [label="Touched by La Flaca 
+Another fantasma like the rest of us 
+Reliving their deaths again and again and again",shape=box,color=blue];
+		887 -> 889;
+	890 [label="Do you take the pain for other people by choice, or because it's your duty?",shape=box,color=red];
+		890 -> 902;
+	891 [label="There's still life worth living, here.",shape=box,color=red];
+		891 -> 900;
+	896 [label="+15 Chemistry",color=orange];
+		896 -> 893;
+	1294 [label="Sí 
+The stale popcorn and greasy pizza 
+Ay, equis, you do you, I won't stop you",shape=box,color=blue];
+		1294 -> 894;
+	895 [label="+20 Chemistry",color=orange];
+		895 -> 892;
+	889 [label="Yeah, there is family at home
+Better they think I am already dead
+I will carry this pain for them",shape=box,color=blue];
+		889 -> 890;
+		889 -> 891;
+	902 [label="+20 Chemistry",color=orange];
+		902 -> 899;
+	900 [label="Suure, suure 
+With Amir's games and Arthur's drinking and Aoi's music and Quincy's pictures",shape=box,color=blue];
+		900 -> 901;
+	893 [label="Sí 
+Because we're all a bucket of joy 
+But everything's relative I suppose 
+Still, why you don't leave blows my mind",shape=box,color=blue];
+		893 -> 894;
+	894 [label="Every time I try to stop someone from making stupid decisions it never works 
+Don't expect it to work now 
+So I won't waste my time",shape=box,color=blue];
+		894 -> 897;
+	892 [label="Jaja 
+Oh really 
+Ten cuidado con lo que deseas 
+But if that's your flavor, so be it",shape=box,color=blue];
+		892 -> 894;
+	899 [label="Both I suppose 
+I chose a long time ago 
+Now it's too late to go back",shape=box,color=blue];
+		899 -> 903;
+	901 [label="Empty hobbies 
+Empty souls 
+Passing time through eternity",shape=box,color=blue];
+		901 -> 904;
+	897 [label="Go on now 
+Leave Mamá Lettie to her real work",shape=box,color=blue];
+		897 -> "Chat ends.";
+	903 [label="I have work to do",shape=box,color=blue];
+		903 -> 905;
+	904 [label="I have work to do 
+Vete",shape=box,color=blue];
+		904 -> 905;
+	"Chat ends." [color=orange];
+	905 [label="Boolean LettieFantasma1 is now true.",color=orange];
+		905 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

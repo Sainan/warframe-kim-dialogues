@@ -1,0 +1,199 @@
+digraph {
+	2189 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		2189 -> 2190;
+	2190 [label="Check boolean LettieDating",color=orange];
+		2190 -> 2192 [label=true,color=green];
+		2190 -> "Chat ends." [label=false,color=brown];
+	2192 [label="Solecito
+¿Got a minute?",shape=box,color=blue];
+		2192 -> 2193;
+		2192 -> 2194;
+	"Chat ends." [color=orange];
+	2193 [label="What's up?",shape=box,color=red];
+		2193 -> 2196;
+	2194 [label="Whenever YOU want to talk, I get nervous.",shape=box,color=red];
+		2194 -> 2195;
+	2196 [label="Before we get too far
+Into whatever this is between us
+I want to make sure you know what you're getting into
+It has to be based on trust and it has to go both ways
+I want to make sure we're on the same page",shape=box,color=blue];
+		2196 -> 2197;
+		2196 -> 2198;
+	2195 [label="Jaja sí
+Suspicious I know",shape=box,color=blue];
+		2195 -> 2196;
+	2197 [label="Sure.",shape=box,color=red];
+		2197 -> 2201;
+	2198 [label="Now I'm *really* getting nervous... What's this about?",shape=box,color=red];
+		2198 -> 2199;
+	2201 [label="Check boolean LettieNoPain",color=orange];
+		2201 -> 2202 [label=true,color=green];
+		2201 -> 2200 [label=false,color=brown];
+	2199 [label="Check boolean LettieNoPain",color=orange];
+		2199 -> 2203 [label=true,color=green];
+		2199 -> 2204 [label=false,color=brown];
+	2202 [label="So
+Solecito
+Sometimes I like it when it hurts
+I like it when it goes too far for most people
+And I know you said you weren't into that and that's fine
+La vida es compromiso, we can find ways to work together",shape=box,color=blue];
+		2202 -> 2209;
+		2202 -> 2210;
+		2202 -> 2212;
+		2202 -> 2213;
+	2200 [label="So
+Solecito
+Sometimes I like it when it hurts
+I like it when it goes too far for most people
+And I need to be sure you're okay with that
+Either way is fine, I just need to know",shape=box,color=blue];
+		2200 -> 2205;
+		2200 -> 2206;
+		2200 -> 2207;
+		2200 -> 2208;
+	2203 [label="Ayyy you are adorable but you are dense sometimes, babas
+You need me to spell it out for you?
+Sometimes I like it when it hurts
+I like it when it goes too far for most people
+And I know you said you weren't into that and that's fine
+La vida es compromiso, we can find ways to work together",shape=box,color=blue];
+		2203 -> 2209;
+		2203 -> 2210;
+		2203 -> 2212;
+		2203 -> 2213;
+	2204 [label="Ayyy you are adorable but you are dense sometimes, babas
+You need me to spell it out for you?
+Sometimes I like it when it hurts
+I like it when it goes too far for most people
+And I need to be sure you're okay with that
+Either way is fine, I just need to know",shape=box,color=blue];
+		2204 -> 2205;
+		2204 -> 2206;
+		2204 -> 2207;
+		2204 -> 2208;
+	2209 [label="I'm sorry Lettie... Does this mean we need to break up?",shape=box,color=red];
+		2209 -> 2214;
+	2210 [label="Well... when I said that, I... might not have trusted you as much as I do now. What if I'd be willing to give it a try?",shape=box,color=red];
+		2210 -> 2238;
+	2212 [label="Can I ask *why* you enjoy pain like this?",shape=box,color=red];
+		2212 -> 2215;
+	2213 [label="I can't do this. I'm sorry. [Break up.]",shape=box,color=red];
+		2213 -> 2237;
+	2205 [label="I can't do this. I'm sorry. [Break up.]",shape=box,color=red];
+		2205 -> 2218;
+	2206 [label="Just to be clear, who is giving and receiving the pain in this scenario?",shape=box,color=red];
+		2206 -> 2211;
+	2207 [label="I trust you. I'm willing to give it a try.",shape=box,color=red];
+		2207 -> 2249;
+	2208 [label="I don't know if pain is really my thing, Lettie... Does this mean we'd need to break up?",shape=box,color=red];
+		2208 -> 2214;
+	2214 [label="Nonono, solecito
+It doesn't
+There are other things we can do, other things to explore that don't involve pain if you trust me
+Do you?",shape=box,color=blue];
+		2214 -> 2224;
+		2214 -> 2225;
+	2238 [label="Aay solecito...
+That means the world to me that you are willing to try
+If you're VERY sure
+Because we can find other things to explore that don't involve pain if you trust me",shape=box,color=blue];
+		2238 -> 2239;
+		2238 -> 2240;
+	2215 [label="Mm
+Hard to say why
+Maybe because I have so much pain I cannot control
+That I enjoy the pain that I can
+If that makes sense",shape=box,color=blue];
+		2215 -> 2226;
+		2215 -> 2228;
+		2215 -> 2227;
+	2237 [label="Mm, sí
+Another mistake added to my list
+No hay problema
+Glad we discovered this now",shape=box,color=blue];
+		2237 -> 2235;
+	2218 [label="Mm, sí
+Another mistake added to my list
+No hay problema
+Glad we discovered this now",shape=box,color=blue];
+		2218 -> 2219;
+	2211 [label="JAJAJA
+That depends
+On if you've been a good little babas or not
+And if I can trust you...
+Question is, do you trust me enough to try?",shape=box,color=blue];
+		2211 -> 2217;
+		2211 -> 2216;
+	2249 [label="+20 Chemistry",color=orange];
+		2249 -> 2246;
+	2224 [label="I trust you. <RETRO_EMOJI_HEART>",shape=box,color=red];
+		2224 -> 2231;
+	2225 [label="I... don't. I'm sorry.",shape=box,color=red];
+		2225 -> 2237;
+	2239 [label="I trust you. <RETRO_EMOJI_HEART>",shape=box,color=red];
+		2239 -> 2249;
+	2240 [label="On second thought - I can't, I'm sorry.",shape=box,color=red];
+		2240 -> 2241;
+	2226 [label="Sure. I... might be willing to give it a try.",shape=box,color=red];
+		2226 -> 2238;
+	2228 [label="Maybe, in a weird way. But it's still not my thing.",shape=box,color=red];
+		2228 -> 2244;
+	2227 [label="Nope, sounds nuts to me.",shape=box,color=red];
+		2227 -> 2237;
+	2235 [label="Boolean LettieDating is now false.",color=orange];
+		2235 -> 2236;
+	2219 [label="Boolean LettieDating is now false.",color=orange];
+		2219 -> 2220;
+	2217 [label="I trust you. <RETRO_EMOJI_HEART>",shape=box,color=red];
+		2217 -> 2249;
+	2216 [label="I... don't. I'm sorry.",shape=box,color=red];
+		2216 -> 2218;
+	2246 [label="And I trust you, mi corazón
+We will go slow, take things one step at a time
+And if you change your mind, está bien
+We will find other ways to enjoy ourselves
+That you trust me enough to try means the world",shape=box,color=blue];
+		2246 -> 2247;
+	2231 [label="+20 Chemistry",color=orange];
+		2231 -> 2223;
+	2241 [label="Boolean LettieRealNo is now true.",color=orange];
+		2241 -> 2244;
+	2244 [label="+10 Chemistry",color=orange];
+		2244 -> 2242;
+	2236 [label="Boolean IsDating is now false.",color=orange];
+		2236 -> 2233;
+	2220 [label="Boolean IsDating is now false.",color=orange];
+		2220 -> 2221;
+	2247 [label="Boolean LettiePain is now true.",color=orange];
+		2247 -> 2248;
+	2223 [label="And I trust you, mi corazón
+That is more than fine
+These kinds of things are no good one-sided jaja trust me
+We will find other ways to enjoy ourselves
+I have faith in that",shape=box,color=blue];
+		2223 -> 2229;
+	2242 [label="Sí solecito, está bien
+That is more than fine
+We will find other ways to enjoy ourselves
+I have faith in that",shape=box,color=blue];
+		2242 -> 2243;
+	2233 [label="Boolean LettieNoDate is now true.",color=orange];
+		2233 -> "Chat ends.";
+	2221 [label="Boolean LettieNoDate is now true.",color=orange];
+		2221 -> "Chat ends.";
+	2248 [label="Boolean LettieReal is now true.",color=orange];
+		2248 -> "Chat ends.";
+	2229 [label="Boolean LettieNoPain is now true.",color=orange];
+		2229 -> 2230;
+	2243 [label="Boolean LettieNoPain is now true.",color=orange];
+		2243 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+	2230 [label="Boolean LettieReal is now true.",color=orange];
+		2230 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+}

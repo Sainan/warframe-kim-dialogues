@@ -1,0 +1,21 @@
+digraph {
+	2832 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		2832 -> 2833;
+		2832 -> 2836;
+	2833 [label="Happy Birthday, Eleanor! Hope you’re enjoying it!",shape=box,color=red];
+		2833 -> 784;
+	2836 [label="… so is it hard to blow out birthday cake candles with that tongue of yours getting in the way?",shape=box,color=red];
+		2836 -> 785;
+	784 [label="+20 Chemistry",color=orange];
+		784 -> 2835;
+	785 [label="Thanks for reminding me that I haven’t had a birthday cake in years. Truly thoughtful.",shape=box,color=blue];
+		785 -> 2843;
+	2835 [label="I am. Everyone’s been very sweet, even those who are usually not. Maybe there’s hope for us yet?",shape=box,color=blue];
+		2835 -> 2838;
+	2843 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		2843 -> "Chat ends.";
+	2838 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		2838 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+}

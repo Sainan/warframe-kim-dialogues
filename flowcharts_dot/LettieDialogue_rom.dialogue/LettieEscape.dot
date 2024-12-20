@@ -1,0 +1,135 @@
+digraph {
+	1083 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		1083 -> 1084;
+	1084 [label="Babas... lo siento 
+I'm sorry",shape=box,color=blue];
+		1084 -> 1085;
+		1084 -> 1086;
+	1085 [label="For what?",shape=box,color=red];
+		1085 -> 1087;
+	1086 [label="Yeah, well. You're not exactly making me want to stick around.",shape=box,color=red];
+		1086 -> 1088;
+	1087 [label="For saying you will leave us here",shape=box,color=blue];
+		1087 -> 1863;
+	1088 [label="¡Ash!... ya sé, ya sé 
+I...",shape=box,color=blue];
+		1088 -> 1863;
+	1863 [label="Even if it's true... Even if you do leave us someday and don't come back 
+I know it would be for the right reasons 
+I attacked you and it was wrong",shape=box,color=blue];
+		1863 -> 1864;
+		1863 -> 1865;
+	1864 [label="Apology accepted. Thank you, Lettie.",shape=box,color=red];
+		1864 -> 1867;
+	1865 [label="You need to learn to stop taking your shit out on other people.",shape=box,color=red];
+		1865 -> 1866;
+	1867 [label="Gracias, pero... 
+I... lash out when I get afraid, babas, and that is not your fault",shape=box,color=blue];
+		1867 -> 1869;
+	1866 [label="+5 Chemistry",color=orange];
+		1866 -> 1868;
+	1869 [label="Boolean LettieAfraid is now true.",color=orange];
+		1869 -> 1090;
+		1869 -> 1091;
+	1868 [label="Sí, jaja 
+You aren't wrong 
+I... lash out when I get afraid, babas, and that is not your fault",shape=box,color=blue];
+		1868 -> 1869;
+	1090 [label="What're you afraid of?",shape=box,color=red];
+		1090 -> 1093;
+	1091 [label="*You're* afraid of something? Holy shit, get Eleanor, we have a newspaper article to write.",shape=box,color=red];
+		1091 -> "Chat ends.";
+	1093 [label="Los fantasmas we have become 
+This eternity of... this 
+Of no change, of no death",shape=box,color=blue];
+		1093 -> 1094;
+	"Chat ends." [color=orange];
+	1094 [label="It TERRIFIES me, babas 
+So the fact that you can just LEAVE 
+But you say you WON'T?! 
+No, imposible",shape=box,color=blue];
+		1094 -> 1096;
+	1096 [label="I would run as far and fast as I could from here 
+And never ever look back",shape=box,color=blue];
+		1096 -> 1097;
+		1096 -> 1098;
+	1097 [label="I guess because I've lived through a loop before, I'm not so scared of it.",shape=box,color=red];
+		1097 -> 1099;
+	1098 [label="Yeah, but... I have something valuable keeping me here.",shape=box,color=red];
+		1098 -> 1100;
+	1099 [label="Sí, experience will do that 
+But you'll get bored in time 
+Like Amir with his little games",shape=box,color=blue];
+		1099 -> 1102;
+	1100 [label="¿Sí? 
+¿Qué es?",shape=box,color=blue];
+		1100 -> 1101;
+	1102 [label="El chamaco is surrounded by those cassettes and keeps saying he has nothing to play",shape=box,color=blue];
+		1102 -> 1103;
+	1101 [label="Check boolean LettieNoFlirt",color=orange];
+		1101 -> 1105 [label=true,color=green];
+		1101 -> 1106 [label=true,color=green];
+		1101 -> 1105 [label=false,color=brown];
+		1101 -> 1106 [label=false,color=brown];
+		1101 -> 1107 [label=false,color=brown];
+	1103 [label="You'll do the same to us 
+Toss us aside like a game you're tired of 
+Once you've played us enough",shape=box,color=blue];
+		1103 -> 1104;
+	1105 [label="The Hex.",shape=box,color=red];
+		1105 -> 1108;
+	1106 [label="Big Bytes Pizza.",shape=box,color=red];
+		1106 -> 1111;
+	1107 [label="You.",shape=box,color=red];
+		1107 -> 2465;
+	1104 [label="Check boolean LettieNoFlirt",color=orange];
+		1104 -> 1116 [label=true,color=green];
+		1104 -> 1115 [label=true,color=green];
+		1104 -> 1116 [label=false,color=brown];
+		1104 -> 1115 [label=false,color=brown];
+		1104 -> 1114 [label=false,color=brown];
+	1108 [label="Mmhm 
+Because we are so special to you 
+You would give up freedom 
+Esas son pendejadas",shape=box,color=blue];
+		1108 -> 1112;
+	1111 [label="+15 Chemistry",color=orange];
+		1111 -> 1109;
+	2465 [label="+15 Chemistry",color=orange];
+		2465 -> 1110;
+	1116 [label="You can choose to believe me or not.",shape=box,color=red];
+		1116 -> 1120;
+	1115 [label="I can't make promises about the future, Lettie. It hasn't been written yet.",shape=box,color=red];
+		1115 -> 1120;
+	1114 [label="I'm sure you and I could find ways of keeping things interesting... ;)",shape=box,color=red];
+		1114 -> 1119;
+	1112 [label="Back to it for both of us 
+No rest for los fantasmas",shape=box,color=blue];
+		1112 -> "Chat ends.";
+	1109 [label="JAJA 
+You had me going 
+I needed a laugh",shape=box,color=blue];
+		1109 -> 1112;
+	1110 [label="Jajaja, ¿ay, sí? 
+Very smooth 
+I almost believe you",shape=box,color=blue];
+		1110 -> 1112;
+	1120 [label="+15 Chemistry",color=orange];
+		1120 -> 1117;
+	1119 [label="+15 Chemistry",color=orange];
+		1119 -> 1118;
+	"Chat ends." [color=orange];
+	1117 [label="Ay, sí 
+I know 
+I just came to say I am sorry and explain why, that is all",shape=box,color=blue];
+		1117 -> 1122;
+	1118 [label="Jajaja, ay, sí 
+Oh, the games we could play 
+Very tempting, babas 
+Very tempting",shape=box,color=blue];
+		1118 -> 1122;
+	1122 [label="Back to it for both of us 
+No rest for los fantasmas",shape=box,color=blue];
+		1122 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

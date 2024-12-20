@@ -1,0 +1,566 @@
+digraph {
+	1303 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		1303 -> 1304;
+		1303 -> 1308;
+	1304 [label="So how'd you end up getting involved in the whole Arthur/Hex thing?",shape=box,color=red];
+		1304 -> 1306;
+	1308 [label="You seem to really... REALLY hate Entrati. Why?",shape=box,color=red];
+		1308 -> 1309;
+	1306 [label="Check boolean LettieArthur1",color=orange];
+		1306 -> 1305 [label=true,color=green];
+		1306 -> 1307 [label=false,color=brown];
+	1309 [label="Check boolean LettieCavia",color=orange];
+		1309 -> 1310 [label=true,color=green];
+		1309 -> 1311 [label=false,color=brown];
+	1305 [label="Mm 
+Not a fun story, friend 
+Worse than the bloodbath where Arthur and I became hermanos 
+Not fun to hear 
+Mierda, not fun to tell",shape=box,color=blue];
+		1305 -> 1326;
+		1305 -> 1327;
+	1307 [label="Somos hermanos, Arthur and I 
+We go way back 
+I promised to follow him anywhere 
+Seems like he meant to the edge of Mictlán",shape=box,color=blue];
+		1307 -> 1332;
+	1310 [label="Check boolean LettieLoid",color=orange];
+		1310 -> 1312 [label=true,color=green];
+		1310 -> 1313 [label=false,color=brown];
+	1311 [label="Check boolean LettieLoid",color=orange];
+		1311 -> 1314 [label=true,color=green];
+		1311 -> 1315 [label=false,color=brown];
+	1326 [label="If you're not comfortable telling me, that's fine.",shape=box,color=red];
+		1326 -> 1328;
+	1327 [label="No problem. Plenty of shit I haven't told you, yet.",shape=box,color=red];
+		1327 -> 1331;
+	1332 [label="We were stationed together in the same base 
+Him in the Britannic and me with the Libertatian Army 
+Different countries, same enemies",shape=box,color=blue];
+		1332 -> 1333;
+	1312 [label="Check boolean LettieEntratiFamily",color=orange];
+		1312 -> 1316 [label=true,color=green];
+		1312 -> 1317 [label=false,color=brown];
+	1313 [label="Check boolean LettieEntratiFamily",color=orange];
+		1313 -> 1318 [label=true,color=green];
+		1313 -> 1319 [label=false,color=brown];
+	1314 [label="Check boolean LettieEntratiFamily",color=orange];
+		1314 -> 1321 [label=true,color=green];
+		1314 -> 1322 [label=false,color=brown];
+	1315 [label="Check boolean LettieEntratiFamily",color=orange];
+		1315 -> 1323 [label=true,color=green];
+		1315 -> 1324 [label=false,color=brown];
+	1328 [label="Boolean LettieHexAsked is now true.",color=orange];
+		1328 -> 1329;
+	1331 [label="+10 Chemistry",color=orange];
+		1331 -> 1330;
+	1333 [label="I was the field medic for my regiment
+We were deployed in next to his
+The place went real cagadero
+Real fast",shape=box,color=blue];
+		1333 -> 1334;
+	1316 [label="Sí 
+Maybe I do 
+But after everything you told me 
+About how he mistreated those poor animals 
+Abandoned his family 
+And that man who loves him 
+How could I not hate that cabrón?!",shape=box,color=blue];
+		1316 -> 1320;
+	1317 [label="Sí 
+Maybe I do 
+But after everything you told me 
+About how he mistreated those poor animals 
+And that man who loves him 
+How could I not hate that cabrón?!",shape=box,color=blue];
+		1317 -> 1320;
+	1318 [label="Sí 
+Maybe I do 
+But after everything you told me 
+About how he mistreated those poor animals 
+Abandoned his family 
+How could I not hate that cabrón?!",shape=box,color=blue];
+		1318 -> 1320;
+	1319 [label="Sí 
+Maybe I do 
+But after everything you told me 
+About how he mistreated those poor animals 
+How could I not hate that cabrón?!",shape=box,color=blue];
+		1319 -> 1320;
+	1321 [label="Sí 
+Maybe I do 
+But after everything you told me 
+About how he abandoned his family 
+And that man who loves him 
+How could I not hate that cabrón?!",shape=box,color=blue];
+		1321 -> 1325;
+	1322 [label="Sí 
+Maybe I do 
+But after everything you told me 
+About how he abandoned that man who loves him 
+How could I not hate that cabrón?!",shape=box,color=blue];
+		1322 -> 1325;
+	1323 [label="Sí 
+Maybe I do 
+But after everything you told me 
+About how he abandoned his family 
+How could I not hate that cabrón?!",shape=box,color=blue];
+		1323 -> 1325;
+	1324 [label="Sí 
+Maybe I do 
+But after everything you told me
+How could I not hate that cabrón?!",shape=box,color=blue];
+		1324 -> 1325;
+	1329 [label="Not about comfort, babas 
+You want to hear about all the times I've had to put someone down or take off a limb 
+The times I've had a mother weeping next to their dead child and had to tell her I couldn't save her 
+I see it all the time 
+Me vale madre",shape=box,color=blue];
+		1329 -> 1336;
+		1329 -> 1335;
+	1330 [label="Sí 
+We all have the things we don't tell people 
+Until we're very certain we can trust them not to change how they feel",shape=box,color=blue];
+		1330 -> 1340;
+	1334 [label="Most of my crew didn't make it 
+Most of his didn't either 
+We held each other together 
+Literally 
+I stitched his arm up good jaja 
+When he retired and went into the ICR 
+I followed him without question 
+I was sick of all the drama that goes on in the army anyway",shape=box,color=blue];
+		1334 -> 1341;
+	1320 [label="Check boolean LettieTrust1",color=orange];
+		1320 -> 1342 [label=true,color=green];
+		1320 -> 1343 [label=true,color=green];
+		1320 -> 1344 [label=false,color=brown];
+		1320 -> 1345 [label=false,color=brown];
+	1325 [label="Check boolean LettieTrust1",color=orange];
+		1325 -> 1346 [label=true,color=green];
+		1325 -> 1347 [label=true,color=green];
+		1325 -> 1348 [label=true,color=green];
+		1325 -> 1347 [label=false,color=brown];
+		1325 -> 1348 [label=false,color=brown];
+	1336 [label="Then what's the problem?",shape=box,color=red];
+		1336 -> 1339;
+	1335 [label="Okay? I'm sorry?",shape=box,color=red];
+		1335 -> 1337;
+	1340 [label="Check boolean LettieNoFlirt",color=orange];
+		1340 -> 1404 [label=true,color=green];
+		1340 -> 1405 [label=true,color=green];
+		1340 -> 1404 [label=false,color=brown];
+		1340 -> 1405 [label=false,color=brown];
+		1340 -> 1406 [label=false,color=brown];
+	1341 [label="Boolean LettieArthur1 is now true.",color=orange];
+		1341 -> 1389;
+		1341 -> 1390;
+	1342 [label="The way you talk about him, and because I know how much trust is important to you... It seems personal.",shape=box,color=red];
+		1342 -> 1359;
+	1343 [label="I know how much you hate it when people break the trust of others. Especially animals.",shape=box,color=red];
+		1343 -> 1360;
+	1344 [label="People who hurt animals have a special place in hell, absolutely. But it seems like there's more going on than that.",shape=box,color=red];
+		1344 -> 1360;
+	1345 [label="Yeah, but it seems like a personal grudge you have against him.",shape=box,color=red];
+		1345 -> 1354;
+	1346 [label="The way you talk about him, and because I know how much trust is important to you... It seems personal.",shape=box,color=red];
+		1346 -> 1359;
+	1347 [label="Yeah, but it seems like a personal grudge you have against him.",shape=box,color=red];
+		1347 -> 1354;
+	1348 [label="Good enough for me.",shape=box,color=red];
+		1348 -> 1350;
+	1339 [label="It might change how you look at some of us babas 
+And I don't know if I trust you enough not to walk away",shape=box,color=blue];
+		1339 -> 1340;
+	1337 [label="Sí, como quieras",shape=box,color=blue];
+		1337 -> "Chat ends.";
+	1404 [label="Do you not trust me yet?",shape=box,color=red];
+		1404 -> 1411;
+	1405 [label="We've all made mistakes in life. I'm sure it can't be that bad.",shape=box,color=red];
+		1405 -> 1415;
+	1406 [label="Careful, or else I might start to think you're getting attached to me.",shape=box,color=red];
+		1406 -> 1413;
+	1389 [label="Then what? How'd you get to be...",shape=box,color=red];
+		1389 -> 1391;
+	1390 [label="War sucks. No matter when, no matter how.",shape=box,color=red];
+		1390 -> 1394;
+	1359 [label="+15 Chemistry",color=orange];
+		1359 -> 1352;
+	1360 [label="+20 Chemistry",color=orange];
+		1360 -> 1353;
+	1354 [label="Sí, I do 
+I have my reasons",shape=box,color=blue];
+		1354 -> 1357;
+		1354 -> 1358;
+	1350 [label="+10 Chemistry",color=orange];
+		1350 -> 1349;
+	"Chat ends." [color=orange];
+	1411 [label="+10 Chemistry",color=orange];
+		1411 -> 1407;
+	1415 [label="+5 Chemistry",color=orange];
+		1415 -> 1408;
+	1413 [label="+10 Chemistry",color=orange];
+		1413 -> 1409;
+	1391 [label="Boolean LettieHexAsked is now true.",color=orange];
+		1391 -> 1392;
+	1394 [label="Appreciate that
+Our wars must seem so small
+Yours sound tan espectaculares y llamativas
+Filled with dioses, ángeles y demonios",shape=box,color=blue];
+		1394 -> 1393;
+	1352 [label="Ay, sí
+You caught on
+Need a new nickname for you, ¿eh babas? Jaja",shape=box,color=blue];
+		1352 -> 1355;
+	1353 [label="Ay, sí 
+Animals most of all deserve the best we can give them 
+And when trust is broken like that 
+It makes me want to kill a man 
+Specifically THAT one",shape=box,color=blue];
+		1353 -> 1356;
+	1357 [label="Can I ask what he did?",shape=box,color=red];
+		1357 -> 1371;
+	1358 [label="If you're not comfortable telling me, that's fine.",shape=box,color=red];
+		1358 -> 1370;
+	1349 [label="Sí 
+Ese cabrón se puede ir brincando a la chingada",shape=box,color=blue];
+		1349 -> "Chat ends.";
+	1407 [label="Maybe 
+Maybe not 
+Gotten used to having you underfoot, babas 
+Might miss you if you leave 
+Don't let it go to your head",shape=box,color=blue];
+		1407 -> "Chat ends.";
+	1408 [label="Maybe 
+Maybe not 
+We'll see 
+But not today",shape=box,color=blue];
+		1408 -> "Chat ends.";
+	1409 [label="Jajaja, sí 
+Maybe I am 
+Or maybe I'm just happy to have someone around who is useful babas",shape=box,color=blue];
+		1409 -> 1410;
+	1392 [label="Get to be what, babas 
+¿Monstruos?",shape=box,color=blue];
+		1392 -> 1396;
+		1392 -> 1397;
+		1392 -> 1398;
+	1393 [label="+10 Chemistry",color=orange];
+		1393 -> 1395;
+	1355 [label="Boolean LettieTrust2 is now true.",color=orange];
+		1355 -> 1361;
+		1355 -> 1362;
+	1356 [label="Boolean LettieTrust2 is now true.",color=orange];
+		1356 -> 1363;
+	1371 [label="+10 Chemistry",color=orange];
+		1371 -> 1369;
+	1370 [label="Not about comfort, babas 
+You want to hear about all the times I've had to put someone down or take off a limb 
+The times I've had a mother weeping next to their dead child and had to tell her I couldn't save her 
+I see it all the time 
+Me vale madre",shape=box,color=blue];
+		1370 -> 1372;
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+	1410 [label="Gotten used to having you underfoot 
+Might miss you if you leave 
+Don't let it go to your head",shape=box,color=blue];
+		1410 -> "Chat ends.";
+	1396 [label="I was going to say \"Hex\"",shape=box,color=red];
+		1396 -> 1399;
+	1397 [label="I was going to say \"protoframes\"",shape=box,color=red];
+		1397 -> 1400;
+	1398 [label="Is that what you think you are?",shape=box,color=red];
+		1398 -> 1401;
+	1395 [label="But I guess in the end it's all the same
+People dying in the muck and mud
+Trust broken and lives lost
+And La Flaca takes them home",shape=box,color=blue];
+		1395 -> 1458;
+	1361 [label="If you're not comfortable telling me, that's fine.",shape=box,color=red];
+		1361 -> 1364;
+	1362 [label="What did he *do* to you?",shape=box,color=red];
+		1362 -> 1365;
+	1363 [label="Boolean LettieHexAsked is now true.",color=orange];
+		1363 -> 1366;
+		1363 -> 1367;
+	1369 [label="Mm 
+Not a fun story, buddy 
+Not fun to hear 
+Mierda, not fun to tell",shape=box,color=blue];
+		1369 -> 1372;
+	1372 [label="It's just... 
+Not something I want to get into
+Not today",shape=box,color=blue];
+		1372 -> 1373;
+		1372 -> 1374;
+	"Chat ends." [color=orange];
+	1399 [label="Hate that name 
+The bruja picked it 
+I don't recall voting on it",shape=box,color=blue];
+		1399 -> 1402;
+	1400 [label="Stupid word 
+Sounds like you made it up 
+I don't recall voting on it",shape=box,color=blue];
+		1400 -> 1402;
+	1401 [label="Sí 
+It's what we are 
+Monstruos, antinaturales 
+Made by that cabrón",shape=box,color=blue];
+		1401 -> 1403;
+	1458 [label="Boolean LettieHexAsked is now true.",color=orange];
+		1458 -> 1460;
+		1458 -> 1461;
+	1364 [label="Boolean LettieHexAsked is now true.",color=orange];
+		1364 -> 1375;
+	1365 [label="Boolean LettieHexAsked is now true.",color=orange];
+		1365 -> 1376;
+	1366 [label="I don't know what he did to you, but... sounds like it was rough.",shape=box,color=red];
+		1366 -> 1368;
+	1367 [label="Can I ask what he did?",shape=box,color=red];
+		1367 -> 1368;
+	1373 [label="Why not?",shape=box,color=red];
+		1373 -> 1385;
+	1374 [label="I get it. Not a problem.",shape=box,color=red];
+		1374 -> 1384;
+	1402 [label="Ay, equis 
+Not worth fighting over 
+Doesn't change what we are 
+Just twisted science experiments 
+Lab rats",shape=box,color=blue];
+		1402 -> 1417;
+	1403 [label="Like that stitched together creature from that book 
+Just twisted science experiments 
+Lab rats",shape=box,color=blue];
+		1403 -> 1417;
+	1460 [label="How'd you wind up meeting Entrati, though?",shape=box,color=red];
+		1460 -> 1459;
+	1461 [label="Can I ask what happened next?",shape=box,color=red];
+		1461 -> 1462;
+	1375 [label="Not about comfort, babas 
+You want to hear about all the times I've had to put someone down or take off a limb 
+The times I've had a mother weeping next to their dead child and had to tell her I couldn't save her 
+I see it all the time 
+Me vale madre",shape=box,color=blue];
+		1375 -> 1377;
+	1376 [label="Mm 
+Not a fun story, friend 
+Not fun to hear 
+Mierda, not fun to tell",shape=box,color=blue];
+		1376 -> 1377;
+	1368 [label="Mm 
+Not a fun story, friend 
+Not fun to hear 
+Mierda, not fun to tell",shape=box,color=blue];
+		1368 -> 1377;
+	1385 [label="Gotten used to having you underfoot 
+Might miss you if you leave 
+Don't let it go to your head",shape=box,color=blue];
+		1385 -> "Chat ends.";
+	1384 [label="+5 Chemistry",color=orange];
+		1384 -> 1388;
+	1417 [label="Check boolean LettieRats1",color=orange];
+		1417 -> 1420 [label=true,color=green];
+		1417 -> 1418 [label=false,color=brown];
+	1459 [label="Mmm why are you asking, ¿babas?
+Has no one told you what happened?",shape=box,color=blue];
+		1459 -> 1463;
+		1459 -> 1464;
+		1459 -> 1465;
+	1462 [label="Sí, you just did jajaja
+But I get what you're asking
+And you've been dancing around the subject like you want to do the tango
+You know I don't want to talk about it
+Has no one told you what happened?",shape=box,color=blue];
+		1462 -> 1463;
+		1462 -> 1464;
+		1462 -> 1465;
+	1377 [label="It's just... 
+Not something I want to get into 
+Not today",shape=box,color=blue];
+		1377 -> 1379;
+		1377 -> 1378;
+	"Chat ends." [color=orange];
+	1388 [label="Gracias 
+Gotten used to having you underfoot 
+Might miss you if you leave 
+Don't let it go to your head",shape=box,color=blue];
+		1388 -> "Chat ends.";
+	1420 [label="Check boolean LettieNoFlirt",color=orange];
+		1420 -> 1422 [label=true,color=green];
+		1420 -> 1424 [label=true,color=green];
+		1420 -> 1422 [label=false,color=brown];
+		1420 -> 1424 [label=false,color=brown];
+		1420 -> 1425 [label=false,color=brown];
+	1418 [label="Check boolean LettieRats2",color=orange];
+		1418 -> 1420 [label=true,color=green];
+		1418 -> 1419 [label=false,color=brown];
+	1463 [label="I'm just trying to get the whole picture.",shape=box,color=red];
+		1463 -> 1469;
+	1464 [label="No one else will tell me. They just avoid the subject.",shape=box,color=red];
+		1464 -> 1470;
+	1465 [label="I figured you'd be the one to give me a straight answer.",shape=box,color=red];
+		1465 -> 1471;
+	1379 [label="Why not?",shape=box,color=red];
+		1379 -> 1380;
+	1378 [label="I get it. Not a problem.",shape=box,color=red];
+		1378 -> 1381;
+	"Chat ends." [color=orange];
+	1422 [label="You're a far cry from a lab rat, Lettie.",shape=box,color=red];
+		1422 -> 1423;
+	1424 [label="Well, I think rats are intelligent, social, adorable wonderful animals...",shape=box,color=red];
+		1424 -> 1434;
+	1425 [label="Sexiest lab rat *I've* ever seen.",shape=box,color=red];
+		1425 -> 1435;
+	1419 [label="Check boolean LettieRats3",color=orange];
+		1419 -> 1420 [label=true,color=green];
+		1419 -> 1421 [label=false,color=brown];
+	1469 [label="+10 Chemistry",color=orange];
+		1469 -> 1466;
+	1470 [label="+15 Chemistry",color=orange];
+		1470 -> 1467;
+	1471 [label="+20 Chemistry",color=orange];
+		1471 -> 1468;
+	1380 [label="Gotten used to having you underfoot 
+Might miss you if you leave 
+No dejes que se te suba a la cabeza",shape=box,color=blue];
+		1380 -> "Chat ends.";
+	1381 [label="Gracias
+Gotten used to having you underfoot 
+Might miss you if you leave 
+No dejes que se te suba a la cabeza",shape=box,color=blue];
+		1381 -> "Chat ends.";
+	1423 [label="¿Ay, sí? 
+Experimented on, infected, abused 
+Tossed aside when the use was done 
+Dangerous if left to spread their diseases",shape=box,color=blue];
+		1423 -> 1432;
+		1423 -> 1433;
+	1434 [label="+10 Chemistry",color=orange];
+		1434 -> 1426;
+	1435 [label="+10 Chemistry",color=orange];
+		1435 -> 1427;
+	1421 [label="Check boolean LettieNoFlirt",color=orange];
+		1421 -> 1428 [label=true,color=green];
+		1421 -> 1429 [label=true,color=green];
+		1421 -> 1425 [label=false,color=brown];
+		1421 -> 1428 [label=false,color=brown];
+		1421 -> 1429 [label=false,color=brown];
+	1466 [label="Ay, sííí
+I'm sure you are
+And if nobody else will tell you I guess it's up to Mamá Lettie
+Well this story is one I don't like to tell
+Especially because I've gotten used to having you underfoot",shape=box,color=blue];
+		1466 -> 1472;
+	1467 [label="Mmm and you wonder why 
+And figure Mamá Lettie would tell you the truth 
+Normally you'd be right, babas 
+But this one I don't like to tell 
+Especially because I've gotten used to having you underfoot",shape=box,color=blue];
+		1467 -> 1472;
+	1468 [label="JAJAJA Sííí 
+Normally you'd be right
+But this one? 
+This one I don't like to tell 
+Especially because I've gotten used to having you underfoot",shape=box,color=blue];
+		1468 -> 1472;
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+	1432 [label="What do you mean, \"spread their diseases?\"",shape=box,color=red];
+		1432 -> 1455;
+	1433 [label="A lab rat isn't to blame for the things the scientists force on them.",shape=box,color=red];
+		1433 -> 1454;
+	1426 [label="Nngh, sí, bien jugado 
+But it doesn't mean they should be allowed to spread their diseases",shape=box,color=blue];
+		1426 -> 1432;
+		1426 -> 1433;
+	1427 [label="Jajaja, gracias 
+You know how to make me smile 
+But it doesn't mean they should be allowed to spread their diseases",shape=box,color=blue];
+		1427 -> 1432;
+		1427 -> 1433;
+	1428 [label="You're a far cry from a lab rat, Lettie.",shape=box,color=red];
+		1428 -> 1430;
+	1429 [label="Then what're you suggesting we do? Put you all down?",shape=box,color=red];
+		1429 -> 1431;
+	1472 [label="Might miss you if you leave 
+And this story might make you turn and go 
+So a story for another day 
+Oh and babas 
+No dejes que se te suba a la cabeza",shape=box,color=blue];
+		1472 -> "Chat ends.";
+	1455 [label="+10 Chemistry",color=orange];
+		1455 -> 1452;
+	1454 [label="+10 Chemistry",color=orange];
+		1454 -> 1453;
+	1430 [label="¿Ay, sí? 
+Experimented on, infected, abused 
+Tossed aside when the use was done 
+Dangerous if left to spread their diseases",shape=box,color=blue];
+		1430 -> 1436;
+		1430 -> 1437;
+	1431 [label="If we weren't trapped in this loop 
+You'd have to or we'd go mad like the bruja metiche did in that nightmare 
+Isn't that right?",shape=box,color=blue];
+		1431 -> 1438;
+		1431 -> 1439;
+	"Chat ends." [color=orange];
+	1452 [label="That Entrati cabrón deserves to die a slow and painful death 
+And I hope I get to be the one that delivers him to La Flaca personally",shape=box,color=blue];
+		1452 -> 1456;
+	1453 [label="Sí... 
+You understand 
+That Entrati cabrón deserves to die a slow and painful death 
+And I hope I get to be the one that delivers him to La Flaca personally",shape=box,color=blue];
+		1453 -> 1456;
+	1436 [label="What do you mean, \"spread their diseases?\"",shape=box,color=red];
+		1436 -> 1441;
+	1437 [label="You're not to blame for any of this, Lettie.",shape=box,color=red];
+		1437 -> 1442;
+	1438 [label="Yeah. Eventually, you would.",shape=box,color=red];
+		1438 -> 1445;
+	1439 [label="Well, with transference it could be slowed...",shape=box,color=red];
+		1439 -> 1446;
+	1456 [label="Pero it's not a story I'm telling today 
+Too much shit to do 
+And too much shit in that story for today 
+Back to work for both of us",shape=box,color=blue];
+		1456 -> "Chat ends.";
+	1441 [label="+10 Chemistry",color=orange];
+		1441 -> 1440;
+	1442 [label="Jajaja 
+Are you so sure, ¿babas? 
+You just wait 
+You might change your mind",shape=box,color=blue];
+		1442 -> 1443;
+	1445 [label="+10 Chemistry",color=orange];
+		1445 -> 1449;
+	1446 [label="Don't lie to me, babas 
+I don't need protecting, you should know that by now",shape=box,color=blue];
+		1446 -> 1447;
+	"Chat ends." [color=orange];
+	1440 [label="That Entrati cabrón deserves to die a slow and painful death 
+And I hope I get to be the one that delivers him to La Flaca personally",shape=box,color=blue];
+		1440 -> 1443;
+	1443 [label="Pero it's not a story I'm telling today 
+Too much shit to do 
+And too much shit in that story for today 
+Back to work for both of us",shape=box,color=blue];
+		1443 -> "Chat ends.";
+	1449 [label="See? 
+Monstruos 
+But it's fine, I suppose 
+Trapped here we cannot do much harm anymore",shape=box,color=blue];
+		1449 -> 1450;
+	1447 [label="Ay, equis 
+Vete",shape=box,color=blue];
+		1447 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	1450 [label="Ay, equis 
+Back to work for both of us 
+Vete, babas",shape=box,color=blue];
+		1450 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+}

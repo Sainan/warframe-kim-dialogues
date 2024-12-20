@@ -1,0 +1,126 @@
+digraph {
+	507 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		507 -> 508;
+	508 [label="Check boolean AmirRPG",color=orange];
+		508 -> 509 [label=true,color=green];
+		508 -> 510 [label=true,color=green];
+		508 -> "Chat ends." [label=false,color=brown];
+	509 [label="Hey Lettie, I have a favor to ask you.",shape=box,color=red];
+		509 -> 512;
+	510 [label="Hey Lettie, what do you think about tabletop roleplaying games?",shape=box,color=red];
+		510 -> 513;
+	"Chat ends." [color=orange];
+	512 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
+		512 -> 514;
+	513 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
+		513 -> 518;
+	514 [label="Check boolean LettieSmallFavor",color=orange];
+		514 -> 515 [label=true,color=green];
+		514 -> 516 [label=false,color=brown];
+	518 [label="Estás bromeando, ¿verdad?",shape=box,color=blue];
+		518 -> 519;
+	515 [label="You've been helping me 
+So I suppose I'll hear you out 
+What is it, babas?",shape=box,color=blue];
+		515 -> 517;
+		515 -> 521;
+	516 [label="Are you bleeding to death?",shape=box,color=blue];
+		516 -> 522;
+		516 -> 523;
+	519 [label="Lárgate",shape=box,color=blue];
+		519 -> "Chat ends.";
+	517 [label="I know this'll sound like a massive waste of time, but Amir wants to get us all to play a game with him called Fables & Frontiers.",shape=box,color=red];
+		517 -> 525;
+	521 [label="Amir really wants us all to play Fables & Frontiers with him. It's really important to him.",shape=box,color=red];
+		521 -> 534;
+	522 [label="Why do I get the feeling I'm about to be?",shape=box,color=red];
+		522 -> 524;
+	523 [label="No...?",shape=box,color=red];
+		523 -> 526;
+	"Chat ends." [color=orange];
+	525 [label="You're right 
+It does sound like a massive waste of time 
+And like pulling my own teeth out with a pair of rusty pliers",shape=box,color=blue];
+		525 -> 527;
+	534 [label="What that escuincle thinks is important and what IS important are very different 
+I do not have time for this",shape=box,color=blue];
+		534 -> "Chat ends.";
+	524 [label="+10 Chemistry",color=orange];
+		524 -> 531;
+	526 [label="Because someone else IS right now 
+Is what you want ACTUALLY important?",shape=box,color=blue];
+		526 -> 533;
+	527 [label="And while there's pain that I enjoy 
+That's not it",shape=box,color=blue];
+		527 -> 528;
+		527 -> 529;
+	"Chat ends." [color=orange];
+	531 [label="Because you aren't stupid",shape=box,color=blue];
+		531 -> 532;
+	533 [label="It's not a matter of life and death, so. No. It can wait.",shape=box,color=red];
+		533 -> 536;
+	528 [label="You owe me a favor, though.",shape=box,color=red];
+		528 -> 542;
+	529 [label="I... wait. What about pain?",shape=box,color=red];
+		529 -> 539;
+	532 [label="Is what you want ACTUALLY important?",shape=box,color=blue];
+		532 -> 530;
+		532 -> 533;
+	536 [label="+10 Chemistry",color=orange];
+		536 -> 538;
+	542 [label="I do 
+You're calling it in for a silly child's game of make believe?",shape=box,color=blue];
+		542 -> 544;
+		542 -> 543;
+	539 [label="+10 Chemistry",color=orange];
+		539 -> 540;
+	530 [label="It is to Amir.",shape=box,color=red];
+		530 -> 534;
+	538 [label="Bueno",shape=box,color=blue];
+		538 -> "Chat ends.";
+	544 [label="I am. It's worth it, this means a lot to Amir.",shape=box,color=red];
+		544 -> 547;
+	543 [label="Mm... Never mind. I'll save it.",shape=box,color=red];
+		543 -> 545;
+	540 [label="Heh 
+Don't get too excited babas 
+Te queda grande la yegua",shape=box,color=blue];
+		540 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	547 [label="Boolean LettieSmallFavor is now false.",color=orange];
+		547 -> 558;
+	545 [label="+20 Chemistry",color=orange];
+		545 -> 548;
+	"Chat ends." [color=orange];
+	558 [label="+20 Chemistry",color=orange];
+		558 -> 546;
+	548 [label="Smart choice, babas 
+Now vete",shape=box,color=blue];
+		548 -> "Chat ends.";
+	546 [label="Suit yourself, babas... 
+I'll play this stupid game 
+But only AFTER the work day 
+Now vete",shape=box,color=blue];
+		546 -> 550;
+	"Chat ends." [color=orange];
+	550 [label="Boolean AmirRPGLettie is now true.",color=orange];
+		550 -> 551;
+	551 [label="Check boolean AmirRPGQuincy",color=orange];
+		551 -> 552 [label=true,color=green];
+		551 -> 556 [label=false,color=brown];
+	552 [label="Check boolean AmirRPGArthur",color=orange];
+		552 -> 553 [label=true,color=green];
+		552 -> 556 [label=false,color=brown];
+	556 [label="Boolean AmirRPGAny is now true.",color=orange];
+		556 -> "Chat ends.";
+	553 [label="Check boolean AmirRPGAoi",color=orange];
+		553 -> 554 [label=true,color=green];
+		553 -> 556 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	554 [label="Check boolean AmirRPGEleanor",color=orange];
+		554 -> 555 [label=true,color=green];
+		554 -> 556 [label=false,color=brown];
+	555 [label="Boolean AmirRPGAll is now true.",color=orange];
+		555 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

@@ -1,0 +1,40 @@
+digraph {
+	1768 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		1768 -> 1769;
+	1769 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
+		1769 -> 1770;
+		1769 -> 1771;
+	1770 [label="I get the feeling you're mad...",shape=box,color=red];
+		1770 -> 1772;
+	1771 [label="Um... did you not get the peanut butter...?",shape=box,color=red];
+		1771 -> 1772;
+	1772 [label="WHAT AM I SUPPOSED TO DO 
+WITH 500 CASES OF KETCHUP PACKETS 
+¡DILE A ESE NIÑO QUE VENGA AQUÍ AHORA MISMO! 
+GET HIM TO DEAL WITH IT 
+NOW!!",shape=box,color=blue];
+		1772 -> 1773;
+		1772 -> 1774;
+	1773 [label="Hey, so, it was all a mistake. Amir was trying to send you peanut butter for your rats.",shape=box,color=red];
+		1773 -> 1775;
+	1774 [label="This is all a misunderstanding. He was trying to send you a gift.",shape=box,color=red];
+		1774 -> 1776;
+	1775 [label="But it all got screwed up, and I'll help him deal with it.",shape=box,color=red];
+		1775 -> 1780;
+	1776 [label="I DON'T CARE 
+¡¡SÁCALAS DE AQUÍ!! 
+¡¡AHORA!!",shape=box,color=blue];
+		1776 -> 1777;
+	1780 [label="+20 Chemistry",color=orange];
+		1780 -> 1778;
+	1777 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		1777 -> "Chat ends.";
+	1778 [label="¿SÍ? 
+It was for mis panquecitos?",shape=box,color=blue];
+		1778 -> 1779;
+	"Chat ends." [color=orange];
+	1779 [label="¡Ay equis! 
+Just get it all out of here 
+¡¡AHORA!!",shape=box,color=blue];
+		1779 -> 1777;
+}

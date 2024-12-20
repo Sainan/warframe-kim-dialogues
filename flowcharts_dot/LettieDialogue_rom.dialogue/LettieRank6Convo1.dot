@@ -1,0 +1,225 @@
+digraph {
+	2389 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		2389 -> 2390;
+	2390 [label="Check boolean LettieDating",color=orange];
+		2390 -> 2391 [label=true,color=green];
+		2390 -> 2394 [label=false,color=brown];
+	2391 [label="Check boolean LettieReal",color=orange];
+		2391 -> 2392 [label=true,color=green];
+		2391 -> 2393 [label=false,color=brown];
+	2394 [label="Friend 
+I have a confession",shape=box,color=blue];
+		2394 -> 2396;
+		2394 -> 2397;
+		2394 -> 2398;
+	2392 [label="Mi corazón 
+I have a confession",shape=box,color=blue];
+		2392 -> 2395;
+		2392 -> 2396;
+		2392 -> 2397;
+		2392 -> 2398;
+	2393 [label="Mi solecito 
+I have a confession",shape=box,color=blue];
+		2393 -> 2395;
+		2393 -> 2396;
+		2393 -> 2397;
+		2393 -> 2398;
+	2396 [label="What's up, L?",shape=box,color=red];
+		2396 -> 2401;
+	2397 [label="Uh oh...",shape=box,color=red];
+		2397 -> 2400;
+	2398 [label="I'm sorry, Kalymos is chewing on the power cord, and - [End.]",shape=box,color=red];
+		2398 -> "Chat ends.";
+	2395 [label="Yeah, babe?",shape=box,color=red];
+		2395 -> 2401;
+	2401 [label="When you came here 
+I knew you were going to be trouble 
+A new impossible problem to add to our growing pile of mierda to deal with",shape=box,color=blue];
+		2401 -> 2402;
+		2401 -> 2403;
+	2400 [label="Jajaja hear me out",shape=box,color=blue];
+		2400 -> 2401;
+	"Chat ends." [color=orange];
+	2402 [label="Gee, thanks.",shape=box,color=red];
+		2402 -> 2404;
+	2403 [label="I mean... sure, but...",shape=box,color=red];
+		2403 -> 2404;
+	2404 [label="Then things went from bad to worse 
+From shit to more shit 
+As the nightmare grew darker 
+And ANYONE with half a brain would have run back to the future",shape=box,color=blue];
+		2404 -> 2405;
+	2405 [label="But you didn't 
+You stayed for some stupid reason 
+You stayed with us and you fought and you helped us put ourselves back together",shape=box,color=blue];
+		2405 -> 2406;
+	2406 [label="Ay, Lua, sálvame 
+I still do NOT know why 
+You had no reason to stay for strangers",shape=box,color=blue];
+		2406 -> 2407;
+	2407 [label="Check boolean LettieReligion2",color=orange];
+		2407 -> 2408 [label=true,color=green];
+		2407 -> 2409 [label=false,color=brown];
+	2408 [label="I have seen the face of your Xipe Totec and I would have run to the farthest corner and prayed it did not wear mine next",shape=box,color=blue];
+		2408 -> 2409;
+	2409 [label="Check boolean LettieCavia",color=orange];
+		2409 -> 2410 [label=true,color=green];
+		2409 -> 2411 [label=false,color=brown];
+	2410 [label="I would have called the Cavia my family and stayed with them instead 
+They seem FAR less broken and far more deserving of love",shape=box,color=blue];
+		2410 -> 2411;
+	2411 [label="Check boolean LettieDating",color=orange];
+		2411 -> 2412 [label=true,color=green];
+		2411 -> 2415 [label=false,color=brown];
+	2412 [label="Check boolean LettieReal",color=orange];
+		2412 -> 2413 [label=true,color=green];
+		2412 -> 2414 [label=false,color=brown];
+	2415 [label="But you DID stay 
+And for me I find a dear friend I never would have expected 
+One I do not know how I survived without",shape=box,color=blue];
+		2415 -> 2416;
+	2413 [label="But you DID stay 
+And for me... much more than that... 
+Which is what I am trying to say, mi corazón",shape=box,color=blue];
+		2413 -> 2416;
+	2414 [label="But you DID stay 
+And had the audacity to say you had feelings for me jajaja",shape=box,color=blue];
+		2414 -> 2416;
+	2416 [label="With you around... we are not fantasmas 
+Without you we would be lost and adrift 
+We would be sleepwalking through our deaths again and again, meaningless and empty 
+At the edge of Mictlán",shape=box,color=blue];
+		2416 -> 2417;
+	2417 [label="Check boolean LettieNewFamily",color=orange];
+		2417 -> 2419 [label=true,color=green];
+		2417 -> 2418 [label=false,color=brown];
+	2419 [label="But you made us into a new family 
+Even la bruja y yo jajaja 
+And I love them more than I can say 
+And it is all thanks to you",shape=box,color=blue];
+		2419 -> 2422;
+	2418 [label="Check boolean LettieKindness",color=orange];
+		2418 -> 2420 [label=true,color=green];
+		2418 -> 2421 [label=false,color=brown];
+	2422 [label="I hate all this sappy feely shit 
+Drives me crazy 
+I'm bad at it 
+So I'm going to wrap this up",shape=box,color=blue];
+		2422 -> 2423;
+		2422 -> 2424;
+		2422 -> 2425;
+	2420 [label="But you showed me why the moments matter most 
+The kindness and love we show each other 
+That is why we are here 
+And it is all thanks to you",shape=box,color=blue];
+		2420 -> 2422;
+	2421 [label="But you showed me why it does not matter 
+Because it is the company we keep not our destination 
+It is the trust, the love, and the kindness we share 
+And it is all thanks to you",shape=box,color=blue];
+		2421 -> 2422;
+	2423 [label="Lol. You're doing great.",shape=box,color=red];
+		2423 -> 2426;
+	2424 [label="I don't know, I'm enjoying Sweet Lettie.",shape=box,color=red];
+		2424 -> 2426;
+	2425 [label="Hmm? I dozed off again.",shape=box,color=red];
+		2425 -> 2427;
+	2426 [label="Check boolean LettieDating",color=orange];
+		2426 -> 2431 [label=true,color=green];
+		2426 -> 2434 [label=false,color=brown];
+	2427 [label="Boolean IsDating is now false.",color=orange];
+		2427 -> 2428;
+	2431 [label="Check boolean LettieReal",color=orange];
+		2431 -> 2432 [label=true,color=green];
+		2431 -> 2433 [label=false,color=brown];
+	2434 [label="Don't get used to it 
+I'll still kick your ass 
+Point is, I've gotten used to having you underfoot 
+I like having you around",shape=box,color=blue];
+		2434 -> 2437;
+	2428 [label="Boolean LettieDating is now false.",color=orange];
+		2428 -> 2429;
+	2432 [label="Don't get used to it, mi corazón 
+I'll still kick your ass 
+Ay, here goes...",shape=box,color=blue];
+		2432 -> 2435;
+	2433 [label="Don't get used to it, solecito 
+I'll still kick your ass 
+Point is, I've gotten used to having you underfoot 
+I like having you around",shape=box,color=blue];
+		2433 -> 2436;
+	2437 [label="Your friendship is so valuable to me 
+And I rely on you in ways I don't rely on anyone else 
+I trust you and that is not something I do lightly",shape=box,color=blue];
+		2437 -> 1621;
+	2429 [label="Boolean LettieNoDate is now true.",color=orange];
+		2429 -> "Chat ends.";
+	2435 [label="Te amo, mi corazón 
+I love you, my heart",shape=box,color=blue];
+		2435 -> 1284;
+		2435 -> 1285;
+	2436 [label="Me importas mucho 
+I care about you a great deal 
+And I rely on you in ways I don't rely on anyone else 
+I trust you and that is not something I do lightly",shape=box,color=blue];
+		2436 -> 2438;
+	1621 [label="Here's to us, my friend 
+And here is to the future 
+Filled with fantasmas and endless futures and gods and demons as they may be 
+We have each other 
+And that is plenty good enough",shape=box,color=blue];
+		1621 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	1284 [label="I don't feel that strongly, I'm sorry...",shape=box,color=red];
+		1284 -> 1286;
+	1285 [label="I - I love you too, Lettie. I never believed... I'm just so happy.",shape=box,color=red];
+		1285 -> 1287;
+	2438 [label="Here's to us, solecito 
+And here is to the future 
+Filled with fantasmas and endless futures and gods and demons as they may be 
+We have each other 
+And that is plenty good enough",shape=box,color=blue];
+		2438 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	1286 [label="Ay 
+Sí 
+Ok",shape=box,color=blue];
+		1286 -> 1288;
+	1287 [label="JAJAJA síí 
+I am hard to read I know 
+Aggh I am so happy too 
+Lets celebrate tonight, ¿mm?",shape=box,color=blue];
+		1287 -> 1289;
+	"Chat ends." [color=orange];
+	1288 [label="This... is why I do not trust people jajaja",shape=box,color=blue];
+		1288 -> 1295;
+	1289 [label="I don't want you asking 
+I don't want you being NICE 
+I want you to show me what you WANT, ¿entendiste?",shape=box,color=blue];
+		1289 -> 1290;
+		1289 -> 1291;
+	1295 [label="Is okay it happens 
+Stupid me making mistakes again 
+Better for me we don't go on like this then 
+You understand",shape=box,color=blue];
+		1295 -> 1296;
+	1290 [label="Yes. Ma'am.",shape=box,color=red];
+		1290 -> 1292;
+	1291 [label="<RETRO_EMOJI_SNEAKY>",shape=box,color=red];
+		1291 -> 1292;
+	1296 [label="Boolean IsDating is now false.",color=orange];
+		1296 -> 1299;
+	1292 [label="That's the spirit 
+Here's to us, mi corazón 
+And here is to the future 
+Filled with fantasmas and endless futures and gods and demons as they may be 
+We have our love 
+And that is more than enough",shape=box,color=blue];
+		1292 -> "Chat ends.";
+	1299 [label="Boolean LettieDating is now false.",color=orange];
+		1299 -> 1301;
+	"Chat ends." [color=orange];
+	1301 [label="Boolean LettieNoDate is now true.",color=orange];
+		1301 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

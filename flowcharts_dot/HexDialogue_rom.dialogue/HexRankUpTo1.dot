@@ -1,0 +1,67 @@
+digraph {
+	12 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		12 -> 16;
+	16 [label="Broadsword: We’re stuck here, get it? So clean up after yourselves - the Food Court is dirtier than the streets. This isn’t a bleeding zoo.",shape=box,color=blue];
+		16 -> 17;
+	17 [label="Salem: Lettie may see to it that it is-",shape=box,color=blue];
+		17 -> 18;
+	18 [label="Belladonna ~{@: Enough.",shape=box,color=blue];
+		18 -> 35;
+	35 [label="Soldja1Shot1kil: ha, baited.",shape=box,color=blue];
+		35 -> 19;
+	19 [label="H16h V0l7463: woah you guys are finally using my group chat?! THIS IS SO EXCITING!!",shape=box,color=blue];
+		19 -> 20;
+	20 [label="xX GLIMMER Xx: :) <RETRO_EMOJI_HEART> Told ya, Amir!",shape=box,color=blue];
+		20 -> 21;
+		20 -> 22;
+		20 -> 23;
+	21 [label="I actually have something that could help clean up - Meet |ITEM|.",shape=box,color=red];
+		21 -> 183;
+	22 [label="I actually have something that could help clean up - Meet |ITEM|.",shape=box,color=red];
+		22 -> 184;
+	23 [label="I actually have something that could help clean up - Meet |ITEM|.",shape=box,color=red];
+		23 -> 185;
+	183 [label="Boolean HexDroneA is now true.",color=orange];
+		183 -> 24;
+	184 [label="Boolean HexDroneB is now true.",color=orange];
+		184 -> 24;
+	185 [label="Boolean HexDroneC is now true.",color=orange];
+		185 -> 24;
+	24 [label="H16h V0l7463: what do you mean you have a FREAKING CLEANING ROBOT",shape=box,color=blue];
+		24 -> 25;
+	25 [label="Broadsword: Fine. But Aoi turns it into scrap if it keeps me awake.",shape=box,color=blue];
+		25 -> 26;
+	26 [label="Soldja1Shot1kil: nah, target practice 4 me first, m8",shape=box,color=blue];
+		26 -> 27;
+	27 [label="Belladonna ~{@: Arthur is saying what I’ve been thinking
+Clean up after yourselves
+There might come a time where we’re using that food court as an operating room
+¿Entendieron?",shape=box,color=blue];
+		27 -> 28;
+	28 [label="Salem: My, Lettie, have some optimism. We’ve a new player on the board.",shape=box,color=blue];
+		28 -> 29;
+	29 [label="xX GLIMMER Xx: right!? optimism! right! so, drifter, u have fresh eyes. what do u think of the food court? <RETRO_EMOJI_FOOD>",shape=box,color=blue];
+		29 -> 30;
+		29 -> 31;
+	30 [label="Looks like there’s enough room for all of us to eat there.",shape=box,color=red];
+		30 -> 186;
+	31 [label="Reminds me of something, being able to have a spot to eat for fun, almost.",shape=box,color=red];
+		31 -> 187;
+	186 [label="Boolean HexFoodCourtSit is now true.",color=orange];
+		186 -> 32;
+	187 [label="Boolean HexFoodCourtMemory is now true.",color=orange];
+		187 -> 32;
+	32 [label="H16h V0l7463: wellllllll ok, but if you see Arthur in there stay away. fair warning: helikeshisalonetime…",shape=box,color=blue];
+		32 -> 33;
+	33 [label="Broadsword: Amir.",shape=box,color=blue];
+		33 -> 34;
+	34 [label="xX GLIMMER Xx: ^_^ it is a nice spot, this whole mall is. and it’s ours. ",shape=box,color=blue];
+		34 -> 10;
+	10 [label="Soldja1Shot1kil: not. by. choice.",shape=box,color=blue];
+		10 -> 36;
+	36 [label="/EE/Types/Engine/ScriptDialogueNode",color=orange];
+		36 -> 217;
+	217 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		217 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

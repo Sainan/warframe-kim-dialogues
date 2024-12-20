@@ -1,0 +1,21 @@
+digraph {
+	3790 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		3790 -> 3800;
+		3790 -> 3799;
+	3800 [label="Happy Birthday Aoi! Maybe we could clone you a Zeke of your very own…",shape=box,color=red];
+		3800 -> 3804;
+	3799 [label="We come alive, under the neon glow… it’s the party of your BIRTHDAY! <RETRO_EMOJI_HEART>",shape=box,color=red];
+		3799 -> 3801;
+	3804 [label="<RETRO_EMOJI_HORRIFIED> why would u joke about that??",shape=box,color=blue];
+		3804 -> 3830;
+	3801 [label="+20 Chemistry",color=orange];
+		3801 -> 3802;
+	3830 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		3830 -> "Chat ends.";
+	3802 [label="ahahahaa no parties please but thank u! guess what I’m listening to right now <RETRO_EMOJI_WINK>",shape=box,color=blue];
+		3802 -> 3831;
+	"Chat ends." [color=orange];
+	3831 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		3831 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

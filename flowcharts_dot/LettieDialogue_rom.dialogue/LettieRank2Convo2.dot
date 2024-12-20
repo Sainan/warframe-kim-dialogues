@@ -1,0 +1,106 @@
+digraph {
+	306 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		306 -> 307;
+		306 -> 308;
+	307 [label="What're the names of your pet rats?",shape=box,color=red];
+		307 -> 309;
+	308 [label="How many pet rats do you have?",shape=box,color=red];
+		308 -> 310;
+	309 [label="Mm?",shape=box,color=blue];
+		309 -> 311;
+	310 [label="Mm? 
+4",shape=box,color=blue];
+		310 -> 311;
+	311 [label="Boolean LettieRats2 is now true.",color=orange];
+		311 -> 312;
+	312 [label="Vaquero, Anita, Neenah, and Tláloc",shape=box,color=blue];
+		312 -> 313;
+		312 -> 314;
+	313 [label="How did you pick their names?",shape=box,color=red];
+		313 -> 315;
+	314 [label="You should name one after me. :)",shape=box,color=red];
+		314 -> 316;
+	315 [label="Vaquero means cowboy 
+Anita is a friend back home 
+Neenah was a friend who is gone now 
+Tláloc after an ancient god of rain",shape=box,color=blue];
+		315 -> 317;
+	316 [label="Heh 
+Name it Babas 
+Hope it doesn't start licking the wallpaper",shape=box,color=blue];
+		316 -> 318;
+		316 -> 319;
+	317 [label="Tláloc is a *dick* 
+The rat not the god jaja 
+I don't need that kind of bad mojo",shape=box,color=blue];
+		317 -> 322;
+		317 -> 323;
+	318 [label="What *does* Babas mean, anyway?",shape=box,color=red];
+		318 -> 324;
+	319 [label="Har har. I know what that means, y'know.",shape=box,color=red];
+		319 -> 320;
+	322 [label="I've never heard of Tláloc before. Did he come before Lua and Sol? Before dualism?",shape=box,color=red];
+		322 -> 326;
+	323 [label="What makes him a dick? lol",shape=box,color=red];
+		323 -> 327;
+	324 [label="Don't worry 
+It could be worse",shape=box,color=blue];
+		324 -> 332;
+		324 -> 333;
+	320 [label="Good",shape=box,color=blue];
+		320 -> "Chat ends.";
+	326 [label="Boolean LettieReligion2 is now true.",color=orange];
+		326 -> 328;
+	327 [label="Boolean LettieReligion2 is now true.",color=orange];
+		327 -> 329;
+	332 [label="Mkay... I trust you.",shape=box,color=red];
+		332 -> 335;
+	333 [label="I don't believe you.",shape=box,color=red];
+		333 -> 337;
+	"Chat ends." [color=orange];
+	328 [label="Sí, long long ago, my people worshiped ancient gods, some of whom could be... bloody",shape=box,color=blue];
+		328 -> 330;
+		328 -> 331;
+	329 [label="He likes to bite 
+He's like the ancient people and their gods, some of whom could be... bloody",shape=box,color=blue];
+		329 -> 331;
+		329 -> 330;
+	335 [label="+20 Chemistry",color=orange];
+		335 -> 334;
+	337 [label="No skin off my back",shape=box,color=blue];
+		337 -> "Chat ends.";
+	330 [label="What do you mean, \"bloody?\"",shape=box,color=red];
+		330 -> 339;
+	331 [label="Sounds, um, pleasant.",shape=box,color=red];
+		331 -> 339;
+	334 [label="Bueno",shape=box,color=blue];
+		334 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	339 [label="Xipe Totec, the Flayed One, who was the god of rebirth, of agriculture, and war",shape=box,color=blue];
+		339 -> 340;
+		339 -> 341;
+	"Chat ends." [color=orange];
+	340 [label="Flayed One...?",shape=box,color=red];
+		340 -> 342;
+	341 [label="He doesn't sound TOO bad...",shape=box,color=red];
+		341 -> 342;
+	342 [label="In the yearly festival to celebrate him, war prisoners would be skinned, and bands of men would wear their flesh like their own and accept offerings from the people of the cities in his name 
+Like I said 
+They could be bloody from time to time",shape=box,color=blue];
+		342 -> 343;
+		342 -> 344;
+	343 [label="Well. Thanks for the nightmare fuel.",shape=box,color=red];
+		343 -> 347;
+	344 [label="Humans are weird.",shape=box,color=red];
+		344 -> 348;
+	347 [label="+10 Chemistry",color=orange];
+		347 -> 345;
+	348 [label="+20 Chemistry",color=orange];
+		348 -> 346;
+	345 [label="De nada",shape=box,color=blue];
+		345 -> "Chat ends.";
+	346 [label="Couldn't agree more",shape=box,color=blue];
+		346 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+}

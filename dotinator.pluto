@@ -12,11 +12,11 @@ local username_loctags <const> = {
 	["/Lotus/Language/1999/MessengerQuincyUserName"] = "Soldja1Shot1kil",
 }
 
-local function emit_graph(name, start)
+local function emit_dot(filename, start)
 	local pending_nodes = { start }
 	local emitted_nodes = {}
 
-	local fh = io.open("tmp.dot", "w")
+	local fh <close> = io.open(filename, "w")
 	fh:write("digraph {\n")
 	local function write_node_name(node)
 		if node.type == "/EE/Types/Engine/EndDialogueNode" then
@@ -131,10 +131,6 @@ local function emit_graph(name, start)
 		end
 	end
 	fh:write("}")
-	fh:close()
-
-	os.execute("dot tmp.dot -T png -o tmp.png")
-	io.rename("tmp.png", name..".png")
 end
 
 for {
@@ -150,15 +146,17 @@ for {
 
 	io.makedir("flowcharts")
 	io.makedir("flowcharts/"..diag_name)
+	io.makedir("flowcharts_dot")
+	io.makedir("flowcharts_dot/"..diag_name)
 
 	print(diag_name)
 	for nodes as node do
 		if node.type == "/EE/Types/Engine/StartDialogueNode" then
 			print("\t"..node.name)
+			emit_dot("flowcharts_dot/"..diag_name.."/"..node.name..".dot", node.id)
 			if true or not io.exists("flowcharts/"..diag_name.."/"..node.name..".png") then
-				emit_graph("flowcharts/"..diag_name.."/"..node.name, node.id)
+				os.execute("dot flowcharts_dot/"..diag_name.."/"..node.name..".dot -T png -o flowcharts/"..diag_name.."/"..node.name..".png")
 			end
 		end
 	end
-	io.remove("tmp.dot")
 end

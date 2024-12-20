@@ -1,0 +1,24 @@
+digraph {
+	2500 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		2500 -> 2513;
+		2500 -> 2507;
+	2513 [label="Happy Birthday! I'm sure everybody in the med tent appreciate you working. :)",shape=box,color=red];
+		2513 -> 2511;
+	2507 [label="Happy Birthday, Lettie! Do you get a day off today? Or at least to sit down?",shape=box,color=red];
+		2507 -> 2505;
+	2511 [label="Sí
+Sure",shape=box,color=blue];
+		2511 -> 2518;
+	2505 [label="+20 Chemistry",color=orange];
+		2505 -> 2502;
+	2518 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		2518 -> "Chat ends.";
+	2502 [label="Hah!
+I wish
+I do get off early, though. Good enough for me.",shape=box,color=blue];
+		2502 -> 2519;
+	"Chat ends." [color=orange];
+	2519 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		2519 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

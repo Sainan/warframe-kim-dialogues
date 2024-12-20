@@ -1,0 +1,33 @@
+digraph {
+	1270 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		1270 -> 1271;
+	1271 [label="soooo i told quincy i could hear him during his *relaaations*",shape=box,color=blue];
+		1271 -> 1272;
+		1271 -> 1273;
+		1271 -> 1274;
+		1271 -> 1275;
+	1272 [label="How'd he take it?",shape=box,color=red];
+		1272 -> 1278;
+	1273 [label="Do you have a black eye?",shape=box,color=red];
+		1273 -> 1277;
+	1274 [label="Did he laugh?",shape=box,color=red];
+		1274 -> 1277;
+	1275 [label="BRB. [End.]",shape=box,color=red];
+		1275 -> "Chat ends.";
+	1278 [label="he uh... actually looked pretty mortified lol",shape=box,color=blue];
+		1278 -> 1279;
+	1277 [label="no, actually!",shape=box,color=blue];
+		1277 -> 1278;
+	"Chat ends." [color=orange];
+	1279 [label="i expected him to be all \"bruv take lessons bruv\"",shape=box,color=blue];
+		1279 -> 1280;
+	1280 [label="but he apologized and said he had no idea i could hear and that he was keeping me up",shape=box,color=blue];
+		1280 -> 1281;
+	1281 [label="so he's gonna take it elsewhere in the mall if he brings people back again",shape=box,color=blue];
+		1281 -> 1283;
+	1283 [label="+20 Chemistry",color=orange];
+		1283 -> 1282;
+	1282 [label="so, thanks for the advice, *famalam*",shape=box,color=blue];
+		1282 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

@@ -1,0 +1,145 @@
+digraph {
+	1237 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		1237 -> 1238;
+	1238 [label="Ay, friend 
+You got a second?",shape=box,color=blue];
+		1238 -> 1239;
+		1238 -> 1240;
+		1238 -> 1241;
+	1239 [label="You're usually the super busy one. :)",shape=box,color=red];
+		1239 -> 1243;
+	1240 [label="Yeah, what's up?",shape=box,color=red];
+		1240 -> 1244;
+	1241 [label="Sorry, just about to go. [End.]",shape=box,color=red];
+		1241 -> "Chat ends.";
+	1243 [label="Ay, sí, jajaja I usually am 
+Just had a question 
+Someone like you 
+Do you ever feel homesick?",shape=box,color=blue];
+		1243 -> 1245;
+		1243 -> 1246;
+		1243 -> 1247;
+	1244 [label="Just had a question 
+Someone like you 
+Do you ever feel homesick?",shape=box,color=blue];
+		1244 -> 1245;
+		1244 -> 1246;
+		1244 -> 1247;
+	"Chat ends." [color=orange];
+	1245 [label="I've never had a real home, Lettie.",shape=box,color=red];
+		1245 -> 1252;
+	1246 [label="What do you mean, \"someone like me?\"",shape=box,color=red];
+		1246 -> 1249;
+	1247 [label="The only places I've ever had to call \"home\" have tried to KILL me. Why would I miss them?",shape=box,color=red];
+		1247 -> 1250;
+	1252 [label="+5 Chemistry",color=orange];
+		1252 -> 1248;
+	1249 [label="Someone with no real home",shape=box,color=blue];
+		1249 -> 1253;
+		1249 -> 1254;
+	1250 [label="Because you can want something you never had 
+Or miss things you see other people having 
+I know I do",shape=box,color=blue];
+		1250 -> 1258;
+	1248 [label="Sí, I know 
+I'm the same",shape=box,color=blue];
+		1248 -> 1258;
+	1253 [label="Way to rub it in, Lettie. Thanks.",shape=box,color=red];
+		1253 -> 1255;
+	1254 [label="Can't miss what you've never had.",shape=box,color=red];
+		1254 -> 1256;
+	1258 [label="Details are different but you and me 
+Neither of us had a real home 
+Bouncing from place to place, base to base 
+Never settling, never making friends for long 
+Never knowing where I'd be in six months, a year, two",shape=box,color=blue];
+		1258 -> 1259;
+	1255 [label="+5 Chemistry",color=orange];
+		1255 -> 1257;
+	1256 [label="No 
+That's a lie 
+I grew up without a home and I get homesick",shape=box,color=blue];
+		1256 -> 1258;
+	1259 [label="Boolean LettieNoHome is now true.",color=orange];
+		1259 -> 1260;
+	1257 [label="Nonono 
+I don't mean it like that 
+I'm the same",shape=box,color=blue];
+		1257 -> 1258;
+	1260 [label="Check boolean LettieOrokin",color=orange];
+		1260 -> 1261 [label=true,color=green];
+		1260 -> 1262 [label=false,color=brown];
+		1260 -> 1263 [label=false,color=brown];
+	1261 [label="All I had were my family and their traditions 
+But sometimes I think they didn't even belong to me 
+Like you and those pinches orokin",shape=box,color=blue];
+		1261 -> 1266;
+		1261 -> 1267;
+	1262 [label="At least you had your family, though. I didn't even have that.",shape=box,color=red];
+		1262 -> 1270;
+	1263 [label="At least you weren't alone.",shape=box,color=red];
+		1263 -> 1270;
+	1266 [label="How so?",shape=box,color=red];
+		1266 -> 1271;
+	1267 [label="You seem really proud of your background, I'm surprised.",shape=box,color=red];
+		1267 -> 2467;
+	1270 [label="+5 Chemistry",color=orange];
+		1270 -> 1264;
+	1271 [label="+5 Chemistry",color=orange];
+		1271 -> 1269;
+	2467 [label="+5 Chemistry",color=orange];
+		2467 -> 1268;
+	1264 [label="Sí 
+You're right 
+How you aren't licking the wallpaper jaja 
+I have no idea I would have lost my mind",shape=box,color=blue];
+		1264 -> 1265;
+	1269 [label="Being called slurs because of my skin or how I talk by everybody 
+Too gringa to be Tenochtitlán 
+Too Tenochtitlán to be gringa 
+Ay, equis, I'm babbling",shape=box,color=blue];
+		1269 -> 1272;
+	1268 [label="Sí 
+I am because I learned no one can take it from me 
+But it took me a long time to get there",shape=box,color=blue];
+		1268 -> 1269;
+	1265 [label="Maybe I still will 
+Trapped here como un fantasma 
+Ay, equis, I'm babbling",shape=box,color=blue];
+		1265 -> 1272;
+	1272 [label="I miss a place and a thing I never had 
+I wonder if it's genetics 
+Something raised in us 
+Makes no sense",shape=box,color=blue];
+		1272 -> 1273;
+	1273 [label="That's why I was asking 
+See if you had it too 
+But you're from the future 
+Maybe they fixed it by then",shape=box,color=blue];
+		1273 -> 1274;
+		1273 -> 1275;
+	1274 [label="No, I think I know how you feel. I... get these bouts of sadness where I get an urge to go somewhere that doesn't exist.",shape=box,color=red];
+		1274 -> 1279;
+	1275 [label="Maybe. I really don't get homesick. I get sad and lonely sometimes, but it isn't homesickness.",shape=box,color=red];
+		1275 -> 1278;
+	1279 [label="+10 Chemistry",color=orange];
+		1279 -> 1276;
+	1278 [label="+5 Chemistry",color=orange];
+		1278 -> 1277;
+	1276 [label="Sí 
+That's what I mean 
+Or maybe we both have the same kind of depression jajaja 
+Stupid spiders",shape=box,color=blue];
+		1276 -> 1280;
+	1277 [label="Sí 
+Maybe just my depression rearing its head again 
+Wouldn't be surprised 
+Stupid spiders",shape=box,color=blue];
+		1277 -> 1280;
+	1280 [label="Ehn, gracias 
+Speaking of spiders, time to put them and me to sleep",shape=box,color=blue];
+		1280 -> 1281;
+	1281 [label="Boolean LettieDepression is now true.",color=orange];
+		1281 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

@@ -1,0 +1,21 @@
+digraph {
+	3534 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		3534 -> 3550;
+		3534 -> 3553;
+	3550 [label="Want to hit the clubs tonight for your birthday?",shape=box,color=red];
+		3550 -> 3551;
+	3553 [label="How about we do a quiet night in for your birthday with the Hex?",shape=box,color=red];
+		3553 -> 3555;
+	3551 [label="+20 Chemistry",color=orange];
+		3551 -> 3549;
+	3555 [label="yea n we can get lil paper hats n everything. laaaaaame",shape=box,color=blue];
+		3555 -> 3156;
+	3549 [label="hahahaha u kno it, lets light this city UP, cuz!",shape=box,color=blue];
+		3549 -> 3168;
+	3156 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		3156 -> "Chat ends.";
+	3168 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		3168 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+}

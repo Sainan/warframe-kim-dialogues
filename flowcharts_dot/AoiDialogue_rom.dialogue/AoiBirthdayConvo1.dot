@@ -1,0 +1,22 @@
+digraph {
+	3789 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		3789 -> 3792;
+		3789 -> 3793;
+	3792 [label="Happy Birthday, Aoi!",shape=box,color=red];
+		3792 -> 3794;
+	3793 [label="Hey, Aoi. Happy Birthday. (I know you’re always happy, so this is kinda pointless.)",shape=box,color=red];
+		3793 -> 3797;
+	3794 [label="+20 Chemistry",color=orange];
+		3794 -> 3795;
+	3797 [label="i’m not and it’s not
+but ty anyway",shape=box,color=blue];
+		3797 -> 3829;
+	3795 [label="oml you remembered? <RETRO_EMOJI_HAPPY1> thank youuuuu!",shape=box,color=blue];
+		3795 -> 3828;
+	3829 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		3829 -> "Chat ends.";
+	3828 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		3828 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+}

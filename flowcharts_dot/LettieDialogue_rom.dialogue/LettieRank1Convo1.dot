@@ -1,0 +1,137 @@
+digraph {
+	0 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		0 -> 4;
+		0 -> 7;
+	4 [label="Hey Lettie, how'd you get into being a medic?",shape=box,color=red];
+		4 -> 6;
+	7 [label="Hey, Lettie, what brought you to Höllvania?",shape=box,color=red];
+		7 -> 11;
+	6 [label="It's my job 
+Why'd you get into 
+Whatever it is you do",shape=box,color=blue];
+		6 -> 19;
+		6 -> 20;
+		6 -> 21;
+	11 [label="Eh?",shape=box,color=blue];
+		11 -> 12;
+	19 [label="I didn't really have a choice.",shape=box,color=red];
+		19 -> 13;
+	20 [label="Am I bothering you?",shape=box,color=red];
+		20 -> 14;
+	21 [label="I'm clearly bugging you, I'll leave you alone.",shape=box,color=red];
+		21 -> 15;
+	12 [label="Why'd you come here",shape=box,color=blue];
+		12 -> 19;
+		12 -> 20;
+		12 -> 21;
+	13 [label="Then we have that in common 
+And you shouldn't ask stupid questions, babas",shape=box,color=blue];
+		13 -> 18;
+		13 -> 17;
+	14 [label="Why 
+What gives you that idea 
+It's not like I'm busy or anything 
+Trying to stitch people together",shape=box,color=blue];
+		14 -> 17;
+		14 -> 18;
+	15 [label="Va",shape=box,color=blue];
+		15 -> "Chat ends.";
+	18 [label="What should I talk to you about instead?",shape=box,color=red];
+		18 -> 5;
+	17 [label="Just trying to be friendly, sorry.",shape=box,color=red];
+		17 -> 16;
+	"Chat ends." [color=orange];
+	5 [label="Eh, lo siento 
+Didn't get much sleep last night 
+So I don't have much patience for bad questions",shape=box,color=blue];
+		5 -> 2;
+		5 -> 3;
+	16 [label="Ay, equis 
+It's fine 
+Didn't get much sleep last night",shape=box,color=blue];
+		16 -> 8;
+		16 -> 2;
+	2 [label="Me neither.",shape=box,color=red];
+		2 -> 22;
+	3 [label="They *were* bad questions, though. lol. I just don't know what else to talk about",shape=box,color=red];
+		3 -> 26;
+	8 [label="Why not?",shape=box,color=red];
+		8 -> 147;
+	22 [label="+10 Chemistry",color=orange];
+		22 -> 24;
+	26 [label="A hint then 
+If you're gonna interrupt my day 
+Make it interesting, ¿sí?",shape=box,color=blue];
+		26 -> 10;
+	147 [label="+5 Chemistry",color=orange];
+		147 -> 23;
+	24 [label="The worst, huh",shape=box,color=blue];
+		24 -> 25;
+	10 [label="Check boolean LettieRats1",color=orange];
+		10 -> 30 [label=true,color=green];
+		10 -> 9 [label=false,color=brown];
+	23 [label="Never do",shape=box,color=blue];
+		23 -> 25;
+	25 [label="Do you want something 
+Or are you just killing time",shape=box,color=blue];
+		25 -> 27;
+		25 -> 28;
+		25 -> 29;
+	30 [label="You did better with the question about the rats",shape=box,color=blue];
+		30 -> 32;
+	9 [label="Check boolean LettieFantasma1",color=orange];
+		9 -> 31 [label=true,color=green];
+		9 -> 32 [label=false,color=brown];
+	27 [label="Just trying to say hello, is all.",shape=box,color=red];
+		27 -> 33;
+	28 [label="I just wanted to see how you were doing.",shape=box,color=red];
+		28 -> 34;
+	29 [label="Just killing time.",shape=box,color=red];
+		29 -> 35;
+	32 [label="Make it interesting. Roger. I'll... go... think up... interesting things...",shape=box,color=red];
+		32 -> 49;
+	31 [label="You did better with the question about home",shape=box,color=blue];
+		31 -> 32;
+	33 [label="Hola 
+There",shape=box,color=blue];
+		33 -> 39;
+		33 -> 38;
+	34 [label="Busy 
+Tired 
+Stressed",shape=box,color=blue];
+		34 -> 37;
+	35 [label="Nice for you 
+I have work to do",shape=box,color=blue];
+		35 -> 36;
+	49 [label="Boolean LettieInteresting is now true.",color=orange];
+		49 -> 48;
+	39 [label="I'll stop bothering you, then.",shape=box,color=red];
+		39 -> 41;
+	38 [label="Anything I can help with?",shape=box,color=red];
+		38 -> 45;
+	37 [label="The usual",shape=box,color=blue];
+		37 -> 38;
+		37 -> 39;
+	36 [label="Going to get back to it",shape=box,color=blue];
+		36 -> "Chat ends.";
+	48 [label="+20 Chemistry",color=orange];
+		48 -> 50;
+	41 [label="Bueno",shape=box,color=blue];
+		41 -> "Chat ends.";
+	45 [label="+10 Chemistry",color=orange];
+		45 -> 43;
+	"Chat ends." [color=orange];
+	50 [label="Buena suerte",shape=box,color=blue];
+		50 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	43 [label="Convince the locals to stop getting in between Techrot and scaldra 
+Eso sería genial",shape=box,color=blue];
+		43 -> 44;
+	"Chat ends." [color=orange];
+	44 [label="Other than that? 
+I'll think",shape=box,color=blue];
+		44 -> 46;
+	46 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		46 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

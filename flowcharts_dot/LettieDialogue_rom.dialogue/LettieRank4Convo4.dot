@@ -1,0 +1,92 @@
+digraph {
+	1203 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		1203 -> 1204;
+	1204 [label="Check boolean LettieNoFlirt",color=orange];
+		1204 -> "Chat ends." [label=true,color=green];
+		1204 -> 1206 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	1206 [label="Hypothetical question: If I wanted to ask you out for drinks, would I end up with stitches?",shape=box,color=red];
+		1206 -> 1207;
+	1207 [label="Check boolean LettieNoDate",color=orange];
+		1207 -> 1208 [label=true,color=green];
+		1207 -> 1210 [label=false,color=brown];
+	1208 [label="Sí 
+You would",shape=box,color=blue];
+		1208 -> "Chat ends.";
+	1210 [label="Mm? 
+Jajaja, no",shape=box,color=blue];
+		1210 -> 1211;
+	"Chat ends." [color=orange];
+	1211 [label="But I don't drink, never have 
+Don't do drugs, either 
+You'll have to be more creative to get into my pants 
+Or whatever it is I have to wear now",shape=box,color=blue];
+		1211 -> 1212;
+		1211 -> 1213;
+	1212 [label="Good to know. :) Any hints on what I can do to win you over, then?",shape=box,color=red];
+		1212 -> 1215;
+	1213 [label="On that topic, do you... I've been meaning to ask...",shape=box,color=red];
+		1213 -> 1216;
+	1215 [label="You just should be real certain that you know what you're for, babas 
+If you like it sweet and gentle go talk to Aoi or Amir 
+I am too used to pain and like it too much for that kind of thing",shape=box,color=blue];
+		1215 -> 1225;
+		1215 -> 1226;
+	1216 [label="¿Qué?",shape=box,color=blue];
+		1216 -> 1217;
+		1216 -> 1218;
+	1225 [label="Yes ma'am. Consider me warned.",shape=box,color=red];
+		1225 -> 1227;
+	1226 [label="Um... Yeah, never mind. Pain's not really my thing.",shape=box,color=red];
+		1226 -> 1232;
+	1217 [label="I've been curious if you and the other protoframes still had... y'know... your... y'know... parts...",shape=box,color=red];
+		1217 -> 1219;
+	1218 [label="Uh - Never mind.",shape=box,color=red];
+		1218 -> 1220;
+	1227 [label="Boolean LettiePain is now true.",color=orange];
+		1227 -> 1231;
+	1232 [label="+15 Chemistry",color=orange];
+		1232 -> 1229;
+	1219 [label="JAJAJAJAJA 
+Are you serious?! 
+You can't just ASK people what they - 
+Aaaay babaaaaassss I have not laughed so hard in a looooong time",shape=box,color=blue];
+		1219 -> 1222;
+		1219 -> 1223;
+	1220 [label="Va 
+Busy anyway",shape=box,color=blue];
+		1220 -> "Chat ends.";
+	1231 [label="+20 Chemistry",color=orange];
+		1231 -> 1230;
+	1229 [label="Bueno 
+You're better off that way 
+You can let me know if you change your mind",shape=box,color=blue];
+		1229 -> 1228;
+	1222 [label="Sorry.",shape=box,color=red];
+		1222 -> 1224;
+	1223 [label="Um... well? Do you?",shape=box,color=red];
+		1223 -> 1224;
+	"Chat ends." [color=orange];
+	1230 [label="Mm, yeah? 
+Think you can take it, do you? 
+We'll see",shape=box,color=blue];
+		1230 -> 1233;
+	1228 [label="Boolean LettieNoPain is now true.",color=orange];
+		1228 -> 1234;
+	1224 [label="I tell you what 
+Maybe if you are a good little babas 
+You just might find out, mm? 
+Just warning you 
+If you like it sweet and gentle go talk to Aoi or Amir 
+I am too used to pain and like it too much for that kind of thing",shape=box,color=blue];
+		1224 -> 1225;
+		1224 -> 1226;
+	1233 [label="Now vete 
+Can't be daydreaming when I've got work to do",shape=box,color=blue];
+		1233 -> "Chat ends.";
+	1234 [label="Now vete 
+I've got work to do",shape=box,color=blue];
+		1234 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+}

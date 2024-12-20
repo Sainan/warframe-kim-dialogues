@@ -1,0 +1,195 @@
+digraph {
+	2251 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		2251 -> 2252;
+	2252 [label="Check boolean LettieDating",color=orange];
+		2252 -> 2254 [label=true,color=green];
+		2252 -> "Chat ends." [label=false,color=brown];
+	2254 [label="Solecito 
+Tell me more of this future",shape=box,color=blue];
+		2254 -> 2255;
+	"Chat ends." [color=orange];
+	2255 [label="The one where the gods are hungry but have no meaning to you 
+The future you claim you've given up for us 
+Of these wars and distant worlds",shape=box,color=blue];
+		2255 -> 2256;
+		2255 -> 2257;
+	2256 [label="You doing okay, Lettie?",shape=box,color=red];
+		2256 -> 2258;
+	2257 [label="You're going to have to narrow it down a bit...",shape=box,color=red];
+		2257 -> 2259;
+	2258 [label="Ay, no
+Feeling melancholy today
+The spiders are at it again
+No importa, ya no te molesto",shape=box,color=blue];
+		2258 -> 2260;
+	2259 [label="Ay, lo siento
+The spiders are at it again
+Making me melancholy
+And apparently dramatic jajaja
+No importa, ya no te molesto",shape=box,color=blue];
+		2259 -> 2260;
+	2260 [label="Check boolean LettieDepression",color=orange];
+		2260 -> 2261 [label=true,color=green];
+		2260 -> 2263 [label=true,color=green];
+		2260 -> 2264 [label=true,color=green];
+		2260 -> 2262 [label=false,color=brown];
+		2260 -> 2263 [label=false,color=brown];
+		2260 -> 2264 [label=false,color=brown];
+	2261 [label="You've mentioned the spiders before. A metaphor for depression, I assume?",shape=box,color=red];
+		2261 -> 2266;
+	2263 [label="Proof that spiders make shitty pets, I guess?",shape=box,color=red];
+		2263 -> 2313;
+	2264 [label="Okay, no problem.",shape=box,color=red];
+		2264 -> "Chat ends.";
+	2262 [label="Spiders...?",shape=box,color=red];
+		2262 -> 2267;
+	2266 [label="Ay sí
+Something I've had all my life
+Stupid little things in my head that tell me lies",shape=box,color=blue];
+		2266 -> 2272;
+	2313 [label="JAJAJA
+Wouldn't know
+These spiders are not real
+Just a name I use for the things in my head that tell me lies",shape=box,color=blue];
+		2313 -> 2269;
+		2313 -> 2270;
+		2313 -> 2271;
+	"Chat ends." [color=orange];
+	2267 [label="Ay sí
+Haven't explained
+Spiders are what I call the things in my head that tell me lies",shape=box,color=blue];
+		2267 -> 2269;
+		2267 -> 2270;
+		2267 -> 2271;
+	2272 [label="Little things that whisper to me things that I believe when I am too stupid and fall for it",shape=box,color=blue];
+		2272 -> 2276;
+		2272 -> 2277;
+	2269 [label="What do you mean, they tell you lies?",shape=box,color=red];
+		2269 -> 2272;
+	2270 [label="You hear voices...?",shape=box,color=red];
+		2270 -> 2273;
+	2271 [label="Have you tried ignoring them?",shape=box,color=red];
+		2271 -> 2274;
+	2276 [label="What do they whisper to you?",shape=box,color=red];
+		2276 -> 2282;
+	2277 [label="That sounds miserable... I'm sorry.",shape=box,color=red];
+		2277 -> 2278;
+	2273 [label="Aaaay babaaas not LITERALLY
+Little things that whisper to me in my head words that I believe when I am too stupid and fall for it",shape=box,color=blue];
+		2273 -> 2276;
+		2273 -> 2277;
+	2274 [label="¡¿Qué?! What a smart idea
+Let me try it now",shape=box,color=blue];
+		2274 -> "Chat ends.";
+	2282 [label="You will fail
+Nobody likes you
+You are ugly
+You are fat
+You have no talent
+You have no skill
+This happiness will end soon
+You don't deserve this",shape=box,color=blue];
+		2282 -> 2283;
+		2282 -> 2284;
+		2282 -> 2285;
+	2278 [label="Mm
+Has its moments",shape=box,color=blue];
+		2278 -> 2279;
+	"Chat ends." [color=orange];
+	2283 [label="At least you know the spiders are liars, but... they sound like total assholes.",shape=box,color=red];
+		2283 -> 2286;
+	2284 [label="Mine say meaner things... you're lucky.",shape=box,color=red];
+		2284 -> 2287;
+	2285 [label="Have you considered medication or treatment for it? Depression can be serious.",shape=box,color=red];
+		2285 -> 2288;
+	2279 [label="Back to work I go
+Lo siento, hate to whine at you",shape=box,color=blue];
+		2279 -> 2280;
+	2286 [label="They are little pinches cabronas
+This kind of sadness is small but it can be a poison if you let it get too strong 
+Mi mamá had it all her life so I have seen the toll it takes",shape=box,color=blue];
+		2286 -> 2289;
+	2287 [label="Then you truly understand what it's like, mi corazón
+They are little pinches cabronas
+But they are liars remember that always
+This kind of sadness is small but it can be a poison if you let it get too strong
+Mi mamá had it all her life so I have seen the toll it takes",shape=box,color=blue];
+		2287 -> 2290;
+	2288 [label="Ay sí
+Mi mamá had it all her life 
+So I have seen the toll it can take
+Luckily, mine is not that bad, does not escalate into very serious things
+Have tried medication before, but hate the fog it brings",shape=box,color=blue];
+		2288 -> 2291;
+	2280 [label="+10 Chemistry",color=orange];
+		2280 -> "Chat ends.";
+	2289 [label="But here is why I call them spiders 
+Because you can take a newspaper and roll it up into a tube
+And CRUSH THEM
+They are small and easily broken",shape=box,color=blue];
+		2289 -> 2292;
+		2289 -> 2293;
+	2290 [label="But here is why I call them spiders
+Because you can take a newspaper and roll it up into a tube
+And CRUSH THEM
+They are small and easily broken",shape=box,color=blue];
+		2290 -> 2294;
+		2290 -> 2295;
+	2291 [label="I do not wish to dance with La Flaca, do not fret
+Nor do I wish for pain that does not come with pleasure jajaja
+It is a mild sadness, the spiders are small ones",shape=box,color=blue];
+		2291 -> 2296;
+		2291 -> 2297;
+	"Chat ends." [color=orange];
+	2292 [label="You're not going to like Venus...",shape=box,color=red];
+		2292 -> 2298;
+	2293 [label="Very fair. And now, I can help you crush the spiders.",shape=box,color=red];
+		2293 -> 2304;
+	2294 [label="You're not going to like Venus...",shape=box,color=red];
+		2294 -> 2299;
+	2295 [label="Very fair. And now, we can help each other crush the spiders.",shape=box,color=red];
+		2295 -> 2308;
+	2296 [label="I trust you. But you know when to get help, right?",shape=box,color=red];
+		2296 -> 2311;
+	2297 [label="If it ever got bad... you'd tell me, right? Even if we weren't still together?",shape=box,color=red];
+		2297 -> 2311;
+	2298 [label="¿Qué?",shape=box,color=blue];
+		2298 -> 2301;
+	2304 [label="+15 Chemistry",color=orange];
+		2304 -> 2303;
+	2299 [label="¿Qué?",shape=box,color=blue];
+		2299 -> 2302;
+	2308 [label="+20 Chemistry",color=orange];
+		2308 -> 2306;
+	2311 [label="+20 Chemistry",color=orange];
+		2311 -> 2300;
+	2301 [label="Never mind. At least now, I can help you crush the spiders.",shape=box,color=red];
+		2301 -> 2304;
+	2303 [label="Sí, solecito
+And I thank you for that
+But now I have to go back to work as always",shape=box,color=blue];
+		2303 -> "Chat ends.";
+	2302 [label="Never mind. At least now, we can crush the spiders together.",shape=box,color=red];
+		2302 -> 2308;
+	2306 [label="Sí, mi corazón, exactly
+Come what may between us
+Thank you for this moment
+But now I have to go back to work as always",shape=box,color=blue];
+		2306 -> 2307;
+	2300 [label="Sí, mi corazón, I promise
+Come what may between us
+I will remember this moment and that you cared and I will roll it up like a newspaper and crush the spiders jajaja",shape=box,color=blue];
+		2300 -> 2310;
+	"Chat ends." [color=orange];
+	2307 [label="Boolean LettieReal is now true.",color=orange];
+		2307 -> "Chat ends.";
+	2310 [label="In seriousness...
+Gracias
+But I have to go back to work now
+Ve",shape=box,color=blue];
+		2310 -> 2268;
+	"Chat ends." [color=orange];
+	2268 [label="Boolean LettieReal is now true.",color=orange];
+		2268 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

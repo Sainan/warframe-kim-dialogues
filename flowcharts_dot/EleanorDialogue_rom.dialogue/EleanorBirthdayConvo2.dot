@@ -1,0 +1,21 @@
+digraph {
+	2824 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		2824 -> 2829;
+		2824 -> 2826;
+	2829 [label="Congratulations on surviving to another birthday!",shape=box,color=red];
+		2829 -> 2830;
+	2826 [label="Happy Birthday, Eleanor. I’m glad you’re still here.",shape=box,color=red];
+		2826 -> 2831;
+	2830 [label="You didn’t check. Luckily for you I am indeed alive right now. Because this could have been bloody awkward, couldn’t it?",shape=box,color=blue];
+		2830 -> 2841;
+	2831 [label="+20 Chemistry",color=orange];
+		2831 -> 2828;
+	2841 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		2841 -> "Chat ends.";
+	2828 [label="Thank you, dear Drifter. So am I.",shape=box,color=blue];
+		2828 -> 2842;
+	"Chat ends." [color=orange];
+	2842 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
+		2842 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

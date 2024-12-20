@@ -1,0 +1,140 @@
+digraph {
+	248 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		248 -> 249;
+	249 [label="Check boolean LettieDuviri",color=orange];
+		249 -> 250 [label=true,color=green];
+		249 -> 252 [label=false,color=brown];
+	250 [label="These deaths you had 
+Did they hurt?",shape=box,color=blue];
+		250 -> 254;
+		250 -> 255;
+		250 -> 256;
+	252 [label="Tell me, babas 
+Do you know much of death?",shape=box,color=blue];
+		252 -> 254;
+		252 -> 255;
+		252 -> 256;
+	254 [label="And here I thought *I* was morbid...  Are you okay?",shape=box,color=red];
+		254 -> 257;
+	255 [label="LOL. Lady, don't get me started. You?",shape=box,color=red];
+		255 -> 257;
+	256 [label="You seriously need to get outside more often.",shape=box,color=red];
+		256 -> 258;
+	257 [label="La Flaca and I know each other well",shape=box,color=blue];
+		257 -> 260;
+		257 -> 261;
+	258 [label="Ay, equis",shape=box,color=blue];
+		258 -> "Chat ends.";
+	260 [label="La Flaca is death?",shape=box,color=red];
+		260 -> 262;
+	261 [label="Who's La Flaca?",shape=box,color=red];
+		261 -> 263;
+	"Chat ends." [color=orange];
+	262 [label="Sí 
+Surprised you caught on",shape=box,color=blue];
+		262 -> 264;
+	263 [label="The Skinny Lady 
+Death",shape=box,color=blue];
+		263 -> 265;
+	264 [label="Boolean LettieFantasma2 is now true.",color=orange];
+		264 -> 266;
+	265 [label="Boolean LettieFantasma2 is now true.",color=orange];
+		265 -> 267;
+	266 [label="+5 Chemistry",color=orange];
+		266 -> 268;
+	267 [label="+5 Chemistry",color=orange];
+		267 -> 268;
+	268 [label="I respect her 
+Even if sometimes I don't want to like her 
+But she shepherds the ones I care for",shape=box,color=blue];
+		268 -> 269;
+	269 [label="Boolean LettieReligion1 is now true.",color=orange];
+		269 -> 270;
+		269 -> 271;
+	270 [label="But you're a medic. Don't you heal people? How can you \"respect\" death?",shape=box,color=red];
+		270 -> 274;
+	271 [label="Death isn't a person. It's a thing that happens.",shape=box,color=red];
+		271 -> 272;
+	274 [label="You're thinking about it all wrong",shape=box,color=blue];
+		274 -> 275;
+	272 [label="Va",shape=box,color=blue];
+		272 -> "Chat ends.";
+	275 [label="Check boolean LettieDuviri",color=orange];
+		275 -> 276 [label=true,color=green];
+		275 -> 277 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	276 [label="All those times you died 
+Do you blame her for ending your pain? 
+Was it her fault you suffered or was it the ones who hurt you to blame",shape=box,color=blue];
+		276 -> 278;
+	277 [label="My job is to make sure she takes people when it is their time 
+Not until she rips them from my hands 
+And not a damn second sooner",shape=box,color=blue];
+		277 -> 278;
+	278 [label="But when she does come 
+I make sure she knows she is welcome 
+She takes away pain, babas 
+She is not to be feared, but respected",shape=box,color=blue];
+		278 -> 279;
+		278 -> 280;
+		278 -> 281;
+	279 [label="When I was in Duviri, and I knew I was about to die, sometimes it was a relief to know it'd be over soon.",shape=box,color=red];
+		279 -> 285;
+	280 [label="I guess part of me understands that. Even if I don't like the idea of dying.",shape=box,color=red];
+		280 -> 92;
+	281 [label="I am... going to stop this conversation, now.",shape=box,color=red];
+		281 -> 282;
+	285 [label="That no matter how badly it was about to hurt, the darkness would come and it'd be done.",shape=box,color=red];
+		285 -> 286;
+	92 [label="Hm, sí",shape=box,color=blue];
+		92 -> 284;
+	282 [label="Ay, equis, pansy",shape=box,color=blue];
+		282 -> "Chat ends.";
+	286 [label="+10 Chemistry",color=orange];
+		286 -> 287;
+	284 [label="+5 Chemistry",color=orange];
+		284 -> 292;
+	"Chat ends." [color=orange];
+	287 [label="¿Sí, see? 
+You get it",shape=box,color=blue];
+		287 -> 288;
+		287 -> 289;
+	292 [label="That is why I heal 
+To make sure La Flaca is certain in who she is taking 
+And that she ONLY gets who she needs 
+And no one else",shape=box,color=blue];
+		292 -> 294;
+	288 [label="But I also knew I was going to come back.",shape=box,color=red];
+		288 -> 303;
+	289 [label="But I don't think it means everybody should die. lol",shape=box,color=red];
+		289 -> 292;
+	294 [label="We've all seen her sent loved ones too soon by the actions of others...",shape=box,color=blue];
+		294 -> 295;
+		294 -> 296;
+	303 [label="+5 Chemistry",color=orange];
+		303 -> 291;
+	295 [label="Yeah.",shape=box,color=red];
+		295 -> 300;
+	296 [label="I could toast to that.",shape=box,color=red];
+		296 -> 297;
+	291 [label="And for those with faith 
+So are we 
+Maybe not as literally as you jaja 
+Though... now we are fantasmas, too",shape=box,color=blue];
+		291 -> 293;
+	300 [label="Been fun 
+Back to work for me",shape=box,color=blue];
+		300 -> "Chat ends.";
+	297 [label="+5 Chemistry",color=orange];
+		297 -> 298;
+	293 [label="Caught in the same endless cycle as you were... 
+Outside Mictlán embrace",shape=box,color=blue];
+		293 -> 302;
+	"Chat ends." [color=orange];
+	298 [label="Sí",shape=box,color=blue];
+		298 -> "Chat ends.";
+	302 [label="I need to go back to work",shape=box,color=blue];
+		302 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+}

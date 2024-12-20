@@ -1,0 +1,127 @@
+digraph {
+	465 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		465 -> 466;
+		465 -> 468;
+		465 -> 469;
+	466 [label="So... what's your problem with Eleanor, anyway?",shape=box,color=red];
+		466 -> 470;
+	468 [label="I think you need to cut Eleanor some slack.",shape=box,color=red];
+		468 -> 471;
+	469 [label="[Ignore.]",shape=box,color=red];
+		469 -> "Chat ends.";
+	470 [label="We all wound up as monsters 
+But that bruja delights in what we've become 
+Gets a sick glee out of messing about in my head 
+Sees too much and thinks she knows everything",shape=box,color=blue];
+		470 -> 472;
+	471 [label="¿Ay, sí? 
+And why is that? 
+Did the bruja send you to talk to me",shape=box,color=blue];
+		471 -> 473;
+		471 -> 474;
+	"Chat ends." [color=orange];
+	472 [label="Even if she never devolves into the Techrot 
+And she stays like she is now I don't care 
+That bruja still enjoys this shit too much",shape=box,color=blue];
+		472 -> 476;
+		472 -> 477;
+	473 [label="No, she didn't. I'm here on my own accord.",shape=box,color=red];
+		473 -> 477;
+		473 -> 476;
+	474 [label="It doesn't matter if she did or not, I still think you should ease up.",shape=box,color=red];
+		474 -> 475;
+	476 [label="Just because she embraces what's happened to her doesn't make her a bad person.",shape=box,color=red];
+		476 -> 478;
+	477 [label="I just don't think you're being fair to her, Lettie.",shape=box,color=red];
+		477 -> 479;
+	475 [label="And why should I 
+She could snap at any point and devolve into the Techrot 
+And even if she doesn't that bruja enjoys all this too much 
+We're all monsters now but the difference is she LIKES it",shape=box,color=blue];
+		475 -> 477;
+		475 -> 476;
+	478 [label="It's one thing to accept it 
+It's another thing to enjoy it 
+And she can learn to not be a metiche and stay the hell out of my DAMN head",shape=box,color=blue];
+		478 -> 480;
+		478 -> 481;
+	479 [label="¿Ay, sí, verdad? 
+Do tell",shape=box,color=blue];
+		479 -> 481;
+		479 -> 480;
+	480 [label="She's one of your teammates, Lettie. And like it or not, you're stuck with her. You need to work on letting go of your grudges.",shape=box,color=red];
+		480 -> 482;
+	481 [label="She's lost her voice. She has to listen to everybody's thoughts all the time. She gets weird flashes of things she doesn't understand.",shape=box,color=red];
+		481 -> 483;
+		481 -> 484;
+	482 [label="Sure, sure 
+How well is that working out for you, babas 
+Have you forgiven all your grudges",shape=box,color=blue];
+		482 -> 486;
+	483 [label="And she's the one who is the closest to the Techrot. Can you imagine what that must feel like, to hear them all the time?",shape=box,color=red];
+		483 -> 496;
+	484 [label="And she has all of YOU treating her like she's the real monster. Can you imagine what that must feel like?",shape=box,color=red];
+		484 -> 485;
+	486 [label="Check boolean LettieReligion2",color=orange];
+		486 -> 489 [label=true,color=green];
+		486 -> 487 [label=false,color=brown];
+	496 [label="That is exactly the problem 
+You keep making my arguments for me, babas",shape=box,color=blue];
+		496 -> 498;
+	485 [label="Can you blame her for meeting that kind of disgust with defiance instead of shame?",shape=box,color=red];
+		485 -> 497;
+	489 [label="Against your Xipe Totec and all the terrible things your void god has done 
+You tell me you have no grudges 
+Pendejadas",shape=box,color=blue];
+		489 -> 494;
+		489 -> 495;
+	487 [label="Check boolean LettieEntrati",color=orange];
+		487 -> 490 [label=true,color=green];
+		487 -> 488 [label=false,color=brown];
+	498 [label="Check boolean LettieReligion2",color=orange];
+		498 -> 500 [label=true,color=green];
+		498 -> 501 [label=false,color=brown];
+	497 [label="Mierda... 
+I do not like her in my head, babas 
+But when you put it like that... no I do not blame her 
+It is how I would handle it, too",shape=box,color=blue];
+		497 -> 502;
+	494 [label="You're right, I still hold grudges. I'm not perfect. All I'm saying is that you're treating her like she's a monster. Can you blame her for meeting disgust with defiance?",shape=box,color=red];
+		494 -> 497;
+	495 [label="You're right, I still hold grudges. I'm not perfect. All I'm saying is that she's the one who is the closest to the Techrot. Can you imagine what that must feel like, to hear them all the time?",shape=box,color=red];
+		495 -> 496;
+	490 [label="Against Entrati and the Orokin and what they did to you 
+You tell me you have no grudges 
+Pendejadas",shape=box,color=blue];
+		490 -> 494;
+		490 -> 495;
+	488 [label="Check boolean LettieDuviri",color=orange];
+		488 -> 491 [label=true,color=green];
+		488 -> 492 [label=false,color=brown];
+	500 [label="Someday they will wear her skin like your Xipe Totec wears the Major 
+And you will be gone and not be able to save her",shape=box,color=blue];
+		500 -> 503;
+	501 [label="Someday they will consume her 
+And you will be gone and not be able to save her",shape=box,color=blue];
+		501 -> 503;
+	502 [label="+20 Chemistry",color=orange];
+		502 -> 499;
+	491 [label="Against Duviri and the place that hurt you so many times 
+You tell me you have no grudges",shape=box,color=blue];
+		491 -> 494;
+		491 -> 495;
+	492 [label="Your life has been nothing but dancing with La Flaca and you tell me you have no grudges 
+Pendejadas",shape=box,color=blue];
+		492 -> 494;
+		492 -> 495;
+	503 [label="Vete 
+Go away 
+Too much to do to waste time on this",shape=box,color=blue];
+		503 -> "Chat ends.";
+	499 [label="I tell you what 
+You have the bruja metiche work on staying out of my head 
+And... I will work on cutting her some slack, ¿sí?",shape=box,color=blue];
+		499 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+}

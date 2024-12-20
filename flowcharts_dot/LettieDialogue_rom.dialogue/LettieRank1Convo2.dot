@@ -1,0 +1,158 @@
+digraph {
+	52 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		52 -> 211;
+	211 [label="Check boolean LettieRatsAsked",color=orange];
+		211 -> 53 [label=true,color=green];
+		211 -> 54 [label=false,color=brown];
+		211 -> 53 [label=false,color=brown];
+	53 [label="Anyone back home missing you?",shape=box,color=red];
+		53 -> 55;
+	54 [label="So what made you want to keep rats as pets?",shape=box,color=red];
+		54 -> 56;
+	55 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		55 -> 57;
+	56 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		56 -> 58;
+	57 [label="Check boolean LettieInteresting",color=orange];
+		57 -> 59 [label=true,color=green];
+		57 -> 62 [label=false,color=brown];
+	58 [label="Check boolean LettieInteresting",color=orange];
+		58 -> 60 [label=true,color=green];
+		58 -> 61 [label=false,color=brown];
+	59 [label="Much better question 
+You learn quick 
+However",shape=box,color=blue];
+		59 -> 62;
+	62 [label="Doesn't matter 
+Can't leave this cuchitril 
+So why think about them",shape=box,color=blue];
+		62 -> 67;
+		62 -> 66;
+		62 -> 65;
+	60 [label="Ey, see? 
+Much better question, babas 
+You learn quick",shape=box,color=blue];
+		60 -> 61;
+	61 [label="You tell me",shape=box,color=blue];
+		61 -> 91;
+		61 -> 80;
+	67 [label="We're talking on the *internet* and you know the *phone* exists, yeah?",shape=box,color=red];
+		67 -> 70;
+	66 [label="Sometimes painful memories are all that get us through.",shape=box,color=red];
+		66 -> 69;
+	65 [label="O...kay... [End.]",shape=box,color=red];
+		65 -> "Chat ends.";
+	91 [label="Huh?",shape=box,color=red];
+		91 -> 93;
+	80 [label="I don't think I like where this is going. [End.]",shape=box,color=red];
+		80 -> 2440;
+	70 [label="Bien podría ser un pinche fantasma 
+Call from beyond the grave, can't change, can't live, can't die",shape=box,color=blue];
+		70 -> 81;
+	69 [label="¿Sí? 
+What do you know of pain?",shape=box,color=blue];
+		69 -> 72;
+		69 -> 74;
+	"Chat ends." [color=orange];
+	93 [label="I want to know why you think I like rats 
+Go on",shape=box,color=blue];
+		93 -> 104;
+	2440 [label="Tú te lo pierdes",shape=box,color=blue];
+		2440 -> "Chat ends.";
+	81 [label="¿¡What are we?! 
+FANTASMAS nothing more 
+Like shadows on a VHS tape used one too many times",shape=box,color=blue];
+		81 -> 82;
+	72 [label="Do you know what it feels like to get your head cut off? I do. I've died a thousand times. And it *hurts,* lady.",shape=box,color=red];
+		72 -> 71;
+	74 [label="I don't have to prove myself to you, lady.",shape=box,color=red];
+		74 -> 73;
+	104 [label="Boolean LettieRats1 is now true.",color=orange];
+		104 -> 95;
+		104 -> 96;
+		104 -> 97;
+	"Chat ends." [color=orange];
+	82 [label="No, better they think I am already dead 
+I take this pain for them",shape=box,color=blue];
+		82 -> 79;
+		82 -> 78;
+	71 [label="Boolean LettieDuviri is now true.",color=orange];
+		71 -> 76;
+	73 [label="I did not ask you to 
+I'm busy 
+Vete",shape=box,color=blue];
+		73 -> "Chat ends.";
+	95 [label="Because they're intelligent, affectionate, and playful?",shape=box,color=red];
+		95 -> 94;
+	96 [label="Because they're often neglected and misunderstood?",shape=box,color=red];
+		96 -> 94;
+	97 [label="Lettie? I don't understand the first thing about you. But the rats are cute as hell.",shape=box,color=red];
+		97 -> 105;
+	79 [label="There's still life worth living, here.",shape=box,color=red];
+		79 -> 84;
+	78 [label="Do you take the pain for other people by choice, or because it's your duty?",shape=box,color=red];
+		78 -> 85;
+	76 [label="Touched by La Flaca 
+Another fantasma like the rest of us 
+Reliving their deaths again and again and again",shape=box,color=blue];
+		76 -> 77;
+	"Chat ends." [color=orange];
+	94 [label="Ay, Lua, sálvame",shape=box,color=blue];
+		94 -> 98;
+	105 [label="¡JAJAJA!",shape=box,color=blue];
+		105 -> 99;
+	84 [label="Suure, suure 
+With Amir's games and Arthur's drinking and Aoi's music and Quincy's pictures",shape=box,color=blue];
+		84 -> 89;
+	85 [label="+20 Chemistry",color=orange];
+		85 -> 83;
+	77 [label="Sí 
+There is family at home 
+Better they think I am already dead",shape=box,color=blue];
+		77 -> 78;
+		77 -> 79;
+	98 [label="No 
+Anything else you wanted",shape=box,color=blue];
+		98 -> 100;
+		98 -> 101;
+	99 [label="+20 Chemistry",color=orange];
+		99 -> 106;
+	89 [label="Empty hobbies 
+Empty souls 
+Passing time through eternity",shape=box,color=blue];
+		89 -> 90;
+	83 [label="Both I suppose 
+I chose a long time ago 
+Now it's too late to go back",shape=box,color=blue];
+		83 -> 86;
+	100 [label="Uh...",shape=box,color=red];
+		100 -> 63;
+	101 [label="No... never mind...",shape=box,color=red];
+		101 -> 102;
+	106 [label="Humility from our savior 
+I like it",shape=box,color=blue];
+		106 -> 107;
+	90 [label="I have work to do 
+Vete",shape=box,color=blue];
+		90 -> 87;
+	86 [label="I have work to do",shape=box,color=blue];
+		86 -> 87;
+	63 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		63 -> 64;
+	102 [label="Va",shape=box,color=blue];
+		102 -> "Chat ends.";
+	107 [label="Didn't grow up with a lot of money as a kid 
+Bouncing from base to base 
+Rats were easy to keep, mi mamá didn't mind",shape=box,color=blue];
+		107 -> 108;
+	87 [label="Boolean LettieFantasma1 is now true.",color=orange];
+		87 -> "Chat ends.";
+	64 [label="Anyone back home missing you?",shape=box,color=red];
+		64 -> 62;
+	"Chat ends." [color=orange];
+	108 [label="I have to get back to work 
+See ya, babas",shape=box,color=blue];
+		108 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+}

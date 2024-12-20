@@ -1,0 +1,531 @@
+digraph {
+	1532 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		1532 -> 1533;
+	1533 [label="Check boolean LettieDating",color=orange];
+		1533 -> 1535 [label=true,color=green];
+		1533 -> 1536 [label=true,color=green];
+		1533 -> 1537 [label=true,color=green];
+		1533 -> 1534 [label=false,color=brown];
+	1535 [label="You holding up?",shape=box,color=red];
+		1535 -> 1540;
+	1536 [label="How're you doing today, sweetheart?",shape=box,color=red];
+		1536 -> 1541;
+	1537 [label="How's my favorite badass doing today?",shape=box,color=red];
+		1537 -> 1541;
+	1534 [label="Check boolean LettieShoulder",color=orange];
+		1534 -> 1535 [label=true,color=green];
+		1534 -> 1537 [label=true,color=green];
+		1534 -> 1538 [label=false,color=brown];
+		1534 -> 1539 [label=false,color=brown];
+	1540 [label="No 
+I am not holding up 
+I have not been okay for a long time 
+But I have to be the one to pretend 
+Always have to be the strong one, don't I?",shape=box,color=blue];
+		1540 -> 1543;
+	1541 [label="Like shit",shape=box,color=blue];
+		1541 -> 1544;
+		1541 -> 1545;
+	1538 [label="Hey Lettie, can I ask you something about your rats?",shape=box,color=red];
+		1538 -> 1542;
+	1539 [label="Hey Lettie, what's your favorite kind of food?",shape=box,color=red];
+		1539 -> 1542;
+	1543 [label="But what if I don't want to be 
+What if I'm not 
+What if I feel myself falling apart and-- 
+Lo siento, solecito, you did not ping me for this",shape=box,color=blue];
+		1543 -> 1552;
+		1543 -> 1553;
+	1544 [label="Is everything okay?",shape=box,color=red];
+		1544 -> 1548;
+	1545 [label="I - um - yikes. Should I message you later?",shape=box,color=red];
+		1545 -> 1549;
+	1542 [label="Not now babas",shape=box,color=blue];
+		1542 -> 1544;
+		1542 -> 1546;
+		1542 -> 1547;
+	1552 [label="Yeah, I just... wanted to see if you wanted to go get some coffee.",shape=box,color=red];
+		1552 -> 1554;
+	1553 [label="I'm here for you, Lettie. And I care. Talk to me.",shape=box,color=red];
+		1553 -> 1556;
+	1548 [label="NO 
+Everything is not okay 
+Nothing has been okay for a long time 
+But time has no meaning anymore does it?! 
+You and that cabrón saw to that",shape=box,color=blue];
+		1548 -> 1561;
+	1549 [label="Vete 
+There will be no later",shape=box,color=blue];
+		1549 -> 1558;
+		1549 -> 1559;
+	1546 [label="If you're busy, we can chat later.",shape=box,color=red];
+		1546 -> 1549;
+	1547 [label="Sorry?",shape=box,color=red];
+		1547 -> 1550;
+	1554 [label="Sí 
+Sounds good",shape=box,color=blue];
+		1554 -> 1555;
+	1556 [label="You aren't my therapist 
+You don't need to hear me whining like some silly little niña",shape=box,color=blue];
+		1556 -> 1557;
+	1561 [label="How is any of this my fault?",shape=box,color=red];
+		1561 -> 1564;
+	1558 [label="Did I do something to piss you off?",shape=box,color=red];
+		1558 -> 1564;
+	1559 [label="Is something wrong?",shape=box,color=red];
+		1559 -> 1560;
+	1550 [label="Ay, sí 
+Your sorries could cover the walls 
+Then maybe they'd be good for something",shape=box,color=blue];
+		1550 -> "Chat ends.";
+	1555 [label="Boolean LettieRealNo is now true.",color=orange];
+		1555 -> "Chat ends.";
+	1557 [label="Check boolean LettieDating",color=orange];
+		1557 -> 1566 [label=true,color=green];
+		1557 -> 1567 [label=false,color=brown];
+	1564 [label="You and your pinche time loop bullshit 
+If it weren't for that we'd be dead",shape=box,color=blue];
+		1564 -> 1571;
+		1564 -> 1572;
+	1560 [label="SÍ 
+Everything has been wrong for a long time 
+But time has no meaning anymore does it?! 
+You and that cabrón saw to that",shape=box,color=blue];
+		1560 -> 1561;
+		1560 -> 1562;
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+	1566 [label="Lettie, you and I are supposed to be in a relationship. And that *means* something to me.",shape=box,color=red];
+		1566 -> 1568;
+	1567 [label="Lettie, you and I have become close friends. I care about you. And that *means* something to me.",shape=box,color=red];
+		1567 -> 1568;
+	1571 [label="Wait. Back up. Are you PISSED that you aren't dead?!",shape=box,color=red];
+		1571 -> 1576;
+	1572 [label="I'm not your punching bag, Lettie. And I don't need this.",shape=box,color=red];
+		1572 -> 1574;
+	1562 [label="Um... I'm getting the feeling you're looking for a fight.",shape=box,color=red];
+		1562 -> 1563;
+	1568 [label="I think you're one of the strongest people I've ever met in my *life.* You're not capable of whining.",shape=box,color=red];
+		1568 -> 1569;
+		1568 -> 1570;
+	1576 [label="I'M PISSED THAT I CAN'T DIE, BABAS 
+Don't you understand 
+How little life matters without death 
+I find myself asking why 
+WHY BOTHER?!",shape=box,color=blue];
+		1576 -> 1581;
+	1574 [label="Sí 
+Run scared, babas",shape=box,color=blue];
+		1574 -> "Chat ends.";
+	1563 [label="Maybe I am 
+Maybe I'm not 
+Maybe I've finally had it with all this pendejadas",shape=box,color=blue];
+		1563 -> 1573;
+		1563 -> 1572;
+	1569 [label="So if you want to talk? I'm here.",shape=box,color=red];
+		1569 -> 1577;
+	1570 [label="Talk to me.",shape=box,color=red];
+		1570 -> 1577;
+	1581 [label="What's the point?! 
+What's the point in any of this babas 
+We are all fantasmas playing out our old lives and old deaths 
+Walking through dreams that will never change 
+WHY?!",shape=box,color=blue];
+		1581 -> 1582;
+	"Chat ends." [color=orange];
+	1573 [label="I need you to back up and tell me what's wrong.",shape=box,color=red];
+		1573 -> 1581;
+	1577 [label="Check boolean LettieDating",color=orange];
+		1577 -> 1578 [label=true,color=green];
+		1577 -> 1579 [label=false,color=brown];
+	1582 [label="I stand here 
+Patching civvies back together 
+Day in day out 
+They don't understand it doesn't matter 
+That if they die here, right now, they'll just COME BACK 
+That they are just sleepwalking fantasmas 
+While we know what we suffer through",shape=box,color=blue];
+		1582 -> 1585;
+	1578 [label="Nnnh solecito I hate compliments 
+Fine, fine... I just find myself standing here looking at the line of civvies and wondering 
+Why bother you know?",shape=box,color=blue];
+		1578 -> 1580;
+	1579 [label="Nnnh, buddy, I hate compliments 
+Fine, fine... I just find myself standing here looking at the line of civvies and wondering 
+Why bother you know?",shape=box,color=blue];
+		1579 -> 1580;
+	1585 [label="I could go on a rampage 
+Murder them all in cold blood 
+And come the new year 
+They'd all be back, ¿no?",shape=box,color=blue];
+		1585 -> 1586;
+		1585 -> 1587;
+	1580 [label="They get shot or killed 
+I patch them up or I don't and they die 
+They don't understand it doesn't matter 
+That if they die, on the new year 
+They'll be right back at the start",shape=box,color=blue];
+		1580 -> 1583;
+	1586 [label="Yeah? But... please don't, though. It'd be really hard to explain to the others.",shape=box,color=red];
+		1586 -> 1588;
+	1587 [label="But things here CAN still change. Maybe not much, but in ways that matter. Look around.",shape=box,color=red];
+		1587 -> 1589;
+	1583 [label="They are just fantasmas sleepwalking through a nightmare 
+We are los fantasmas who know what we are 
+Don't know which is worse",shape=box,color=blue];
+		1583 -> 1584;
+	1588 [label="What if I took a toaster in the bath 
+Killed myself 
+What then?! 
+I know I died in that other memory 
+That nightmare",shape=box,color=blue];
+		1588 -> 1590;
+	1589 [label="Ay, sí 
+We collect strays now, bueno, a few fantasmas suffer a little less 
+A few things change here and there, sure 
+But what about what you made us 
+I know I died in that other memory",shape=box,color=blue];
+		1589 -> 1590;
+	1584 [label="Check boolean LettieShoulder2",color=orange];
+		1584 -> 1593 [label=true,color=green];
+		1584 -> 1591 [label=false,color=brown];
+	1590 [label="You should have left me there 
+Let me die 
+We do not belong as fantasmas 
+We are antinaturales, people should not live forever, they should be allowed to die",shape=box,color=blue];
+		1590 -> 1604;
+		1590 -> 1605;
+	1593 [label="But things here CAN still change. Maybe not much, but in ways that matter. Look around.",shape=box,color=red];
+		1593 -> 1594;
+	1591 [label="But you know what you have here that can help you through it? A family. If you choose to let yourself have one.",shape=box,color=red];
+		1591 -> 1592;
+	1604 [label="I... know how you feel, Lettie. I do. All my life, I've been the victim of somebody else's plans. The Orokin. The Man in the Wall. Now Entrati.",shape=box,color=red];
+		1604 -> 1606;
+	1605 [label="You have a choice, Lettie. You can either spend eternity feeling like a victim or you can see this as a chance for what it is - a new kind of life.",shape=box,color=red];
+		1605 -> 1607;
+	1594 [label="We've given these people a new home. A new sense of hope. Maybe just a few, and maybe it doesn't matter in the end...",shape=box,color=red];
+		1594 -> 1596;
+	1592 [label="Check boolean LettieNoHome",color=orange];
+		1592 -> 1597 [label=true,color=green];
+		1592 -> 1598 [label=false,color=brown];
+	1606 [label="But I had a choice, when I watched you all die. I could let you all stay victims, too... or I could try to save you.",shape=box,color=red];
+		1606 -> 1614;
+	1607 [label="Yes, it's a time loop. Yes, not much changes. But you know what DOES change that matters? Us. Who WE are. What WE know. And what WE feel.",shape=box,color=red];
+		1607 -> 1615;
+	1596 [label="But isn't that why you're a healer? Isn't the act of trying, of that sense of hope, that kindness, what matters, and not where we wind up in the end?",shape=box,color=red];
+		1596 -> 1601;
+	1597 [label="I know you never felt like you've had somewhere to belong. You've never had a home before, Lettie. Like me.",shape=box,color=red];
+		1597 -> 1599;
+	1598 [label="Look around. At the civvies. At the Hex. At me.",shape=box,color=red];
+		1598 -> 1600;
+	1614 [label="So maybe it wasn't my choice to make for you. And if you want to hate me for that? Fine. Hate me for that.",shape=box,color=red];
+		1614 -> 1623;
+	1615 [label="So no, this isn't the kind of life you're used to. You won't get to experience \"normal\" ever again.",shape=box,color=red];
+		1615 -> 1624;
+	1601 [label="Boolean LettieKindness is now true.",color=orange];
+		1601 -> 1602;
+	1599 [label="This could be your family. Your home. If you wanted it to be. If you LET it be.",shape=box,color=red];
+		1599 -> 1603;
+	1600 [label="This could be your family. If you wanted it to be. If you LET it be.",shape=box,color=red];
+		1600 -> 1603;
+	1623 [label="But you never would have let the team die if you could have saved them. Because you wouldn't let them stay the victims.",shape=box,color=red];
+		1623 -> 1636;
+	1624 [label="But there are things here that can make it a life worth living.",shape=box,color=red];
+		1624 -> 1637;
+	1602 [label="Check boolean LettieDating",color=orange];
+		1602 -> 1610 [label=true,color=green];
+		1602 -> 1612 [label=false,color=brown];
+	1603 [label="Boolean LettieNewFamily is now true.",color=orange];
+		1603 -> 1608;
+	1636 [label="Victims saved for what reason 
+This is no life babas 
+This nightmare of fantasmas is no life at all",shape=box,color=blue];
+		1636 -> 1639;
+	1637 [label="Ay sí 
+Stale pizza and an abandoned mall 
+Sad stray civilians 
+And a never ending war against scaldra 
+Tell me why is this LIFE worth living",shape=box,color=blue];
+		1637 -> 1639;
+	1610 [label="+20 Chemistry",color=orange];
+		1610 -> 1595;
+	1612 [label="Check boolean LettieNoFlirt",color=orange];
+		1612 -> 1617 [label=true,color=green];
+		1612 -> 1616 [label=false,color=brown];
+	1608 [label="Check boolean LettieDating",color=orange];
+		1608 -> 1627 [label=true,color=green];
+		1608 -> 1613 [label=false,color=brown];
+	1639 [label="Check boolean LettieDating",color=orange];
+		1639 -> 1640 [label=true,color=green];
+		1639 -> 1641 [label=true,color=green];
+		1639 -> 1643 [label=true,color=green];
+		1639 -> 1642 [label=false,color=brown];
+	1595 [label="I... 
+I don't think I like it when you call me out on my mentiras 
+Sí... you... you're right 
+Sometimes I just get so tired of the fight, you know? 
+I forget I'm not in this battle alone",shape=box,color=blue];
+		1595 -> 1609;
+	1617 [label="And it just hurts me to see you like this when I care about you like family.",shape=box,color=red];
+		1617 -> 1632;
+	1616 [label="Check boolean IsDating",color=orange];
+		1616 -> 1617 [label=true,color=green];
+		1616 -> 1617 [label=false,color=brown];
+		1616 -> 1625 [label=false,color=brown];
+	1627 [label="+20 Chemistry",color=orange];
+		1627 -> 1626;
+	1613 [label="Check boolean LettieNoFlirt",color=orange];
+		1613 -> 1627 [label=true,color=green];
+		1613 -> 1619 [label=false,color=brown];
+		1613 -> 1625 [label=false,color=brown];
+	1640 [label="Do you think this is just a casual fling for me?! Do you think you really mean that little to me?!",shape=box,color=red];
+		1640 -> 1646;
+	1641 [label="Look around. Look at what YOU have. At the family around you. At the people that care about YOU.",shape=box,color=red];
+		1641 -> 1648;
+	1643 [label="You see strays, I see people showing each other kindness in the darkest times. And I think that's beautiful.",shape=box,color=red];
+		1643 -> 1652;
+	1642 [label="Check boolean LettieNoFlirt",color=orange];
+		1642 -> 1641 [label=true,color=green];
+		1642 -> 1641 [label=false,color=brown];
+		1642 -> 1643 [label=false,color=brown];
+		1642 -> 1644 [label=false,color=brown];
+	1609 [label="Life is about the moments we have 
+The moments we spend caring for each other 
+And now... we have an eternity of those, don't we? 
+Gracias, solecito ... neta",shape=box,color=blue];
+		1609 -> "Chat ends.";
+	1632 [label="+20 Chemistry",color=orange];
+		1632 -> 1618;
+	1625 [label="And... there's another reason it hurts me to see you like this. [Confess feelings.]",shape=box,color=red];
+		1625 -> 1638;
+	1626 [label="I... 
+I don't think I like it when you call me out on my mentiras 
+Sí... you... you're right 
+Sometimes I get stuck in my own head and I forget I'm not alone",shape=box,color=blue];
+		1626 -> 1628;
+	1619 [label="And it just hurts me to see you like this when I care about you like family.",shape=box,color=red];
+		1619 -> 1635;
+	1646 [label="You tell me, is it? 
+Do I? 
+I see someone who has spent their whole lives alone and has a chance at something they never had 
+Maybe doesn't understand what they've gotten themselves into",shape=box,color=blue];
+		1646 -> 1645;
+		1646 -> 1647;
+	1648 [label="I know you feel like you lost your life. Your family.",shape=box,color=red];
+		1648 -> 1649;
+	1652 [label="And if you want to exclude yourself from that, so be it. But that's YOUR choice, Lettie. You're making that decision, no one else.",shape=box,color=red];
+		1652 -> 1653;
+	1644 [label="Are you really so oblivious that you can't tell how much you mean to me?! [Confess feelings.]",shape=box,color=red];
+		1644 -> 1654;
+	"Chat ends." [color=orange];
+	1618 [label="I... 
+I don't think I like it when you call me out on my mentiras 
+Sí... you... you're right 
+Sometimes I just get so tired of the fight, you know? 
+I forget I'm not in this battle alone",shape=box,color=blue];
+		1618 -> 1630;
+	1638 [label="¿Ay sí?",shape=box,color=blue];
+		1638 -> 1654;
+	1628 [label="I need to remember that I have a familia here around me 
+People I can rely on when things get dark 
+Gracias, solecito ... en serio",shape=box,color=blue];
+		1628 -> "Chat ends.";
+	1635 [label="+20 Chemistry",color=orange];
+		1635 -> 1620;
+	1645 [label="Yeah, okay, sure. That's definitely what's going on here. You're right. I'm just being naïve and my feelings aren't real.",shape=box,color=red];
+		1645 -> 1651;
+	1647 [label="And I see someone who's hurting and trying to pick a fight instead of processing that pain.",shape=box,color=red];
+		1647 -> 1655;
+	1649 [label="Check boolean LettieCavia",color=orange];
+		1649 -> 1656 [label=true,color=green];
+		1649 -> 1650 [label=false,color=brown];
+	1653 [label="Check boolean LettieRats1",color=orange];
+		1653 -> 1659 [label=true,color=green];
+		1653 -> 1660 [label=false,color=brown];
+	1654 [label="Before you tell me I'm stupid, or whatever - or that I can't handle you, just wait, and let me talk.",shape=box,color=red];
+		1654 -> 1701;
+		1654 -> 1702;
+		1654 -> 1703;
+	1630 [label="Life is about the moments we have 
+The moments we spend caring for each other 
+And now... we have an eternity of those, don't we? 
+Gracias ... en serio",shape=box,color=blue];
+		1630 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	1620 [label="I... 
+I don't think I like it when you call me out on my mentiras 
+Sí... you... you're right 
+Sometimes I get stuck in my own head and I forget I'm not alone",shape=box,color=blue];
+		1620 -> 1633;
+	1651 [label="Sí 
+Glad you agree 
+Now vete",shape=box,color=blue];
+		1651 -> 1661;
+		1651 -> 1662;
+	1655 [label="¡¿Ay, sí?! 
+Do tell",shape=box,color=blue];
+		1655 -> 1668;
+	1656 [label="Nobody thought the Cavia were worth saving, either. Should Loid have just left them to die?",shape=box,color=red];
+		1656 -> 1682;
+	1650 [label="Check boolean LettieNoHome",color=orange];
+		1650 -> 1657 [label=true,color=green];
+		1650 -> 1658 [label=false,color=brown];
+	1659 [label="Besides, even if it's pointless in the end, stray animals are the ones most worth rescuing, aren't they?",shape=box,color=red];
+		1659 -> 1660;
+	1660 [label="Isn't the act of caring, the act of TRYING, the whole point?",shape=box,color=red];
+		1660 -> 1694;
+	1701 [label="You're drop-dead gorgeous. You're fiercely intelligent. And you could kick my ass. But that's not the only reasons you've become so important to me.",shape=box,color=red];
+		1701 -> 1705;
+		1701 -> 1706;
+	1702 [label="Deep down beneath all the layers of armor you've built over yourself, is one of the kindest, most compassionate people I've ever met. But that's not all.",shape=box,color=red];
+		1702 -> 1704;
+		1702 -> 1706;
+	1703 [label="You're unstoppable. Unbreakable. Unflinching. Nothing seems to slow you down. You're one of the toughest people I've ever met. And -",shape=box,color=red];
+		1703 -> 1704;
+		1703 -> 1705;
+	"Chat ends." [color=orange];
+	1633 [label="I need to remember that I have a familia here around me 
+People I can rely on when things get dark 
+Gracias... en serio",shape=box,color=blue];
+		1633 -> "Chat ends.";
+	1661 [label="We're not done with this conversation, Lettie.",shape=box,color=red];
+		1661 -> 1668;
+	1662 [label="I'm done with this. And I'm done with you. [Break up.]",shape=box,color=red];
+		1662 -> 1663;
+	1668 [label="You're lashing out at me because you're scared. Because you don't want to be trapped here like this. But you're pushing everybody away who can help you.",shape=box,color=red];
+		1668 -> 1670;
+	1682 [label="Would that death have been better than life as they are now? Tagfer certainly might have agreed with you once - he lost his wife during the ordeal.",shape=box,color=red];
+		1682 -> 1685;
+	1657 [label="I also know you never felt like you've had somewhere to belong. You've never had a home before, Lettie. Like me.",shape=box,color=red];
+		1657 -> 1683;
+	1658 [label="This situation you're all in - I won't lie, it sucks. Trust me, I've been there. But you have one thing I don't have.",shape=box,color=red];
+		1658 -> 1684;
+	1694 [label="It's those moments of kindness that matter, isn't it? Those flashes where we can show people the better parts of ourselves.",shape=box,color=red];
+		1694 -> 1695;
+	1705 [label="You're one of the kindest, most caring people I've ever met. The way you tend to your animals and the way you'll go out of your way for people makes my heart melt.",shape=box,color=red];
+		1705 -> 1707;
+	1706 [label="You're made of iron. And I know that no matter what they throw at you - Entrati, the Man in the Wall, Viktor and the Scaldra - it doesn't matter. They don't stand a chance.",shape=box,color=red];
+		1706 -> 1707;
+	1704 [label="Let's stop to consider how damn gorgeous you are, and how you could absolutely break me like a twig if you wanted to. lol",shape=box,color=red];
+		1704 -> 1707;
+	"Chat ends." [color=orange];
+	1663 [label="Sí 
+I figured this would happen 
+Vete, babas, don't have time for you anymore 
+Should have known better than to play with niñitos",shape=box,color=blue];
+		1663 -> 1664;
+	1670 [label="So you can either let me in - for real - and help you, or you can push me away, too. That's your decision to make.",shape=box,color=red];
+		1670 -> 1669;
+	1685 [label="But they found in themselves a new family. A reason to continue on. A reason to keep living.",shape=box,color=red];
+		1685 -> 1688;
+	1683 [label="Well? This could be your family. Your home. If you wanted it to be. If you LET it be.",shape=box,color=red];
+		1683 -> 1688;
+	1684 [label="You have each other. You have a *family.* You have *friends.*",shape=box,color=red];
+		1684 -> 1686;
+	1695 [label="Mierda",shape=box,color=blue];
+		1695 -> 1698;
+	1707 [label="Point is... I care about you, Lettie. A lot. And more than just as friend, and I understand if it isn't mutual, but -",shape=box,color=red];
+		1707 -> 1709;
+	1664 [label="Boolean LettieDating is now false.",color=orange];
+		1664 -> 1665;
+	1669 [label="Mierda",shape=box,color=blue];
+		1669 -> 1671;
+	1688 [label="Mierda",shape=box,color=blue];
+		1688 -> 1692;
+	1686 [label="You aren't alone like I was - and that loneliness sent me into a spiral of misery and numbness.",shape=box,color=red];
+		1686 -> 1687;
+	1698 [label="+20 Chemistry",color=orange];
+		1698 -> 1699;
+	1709 [label="I can't stand to see you give up hope like this. You're not a ghost. You're not a fantasma.",shape=box,color=red];
+		1709 -> 1710;
+	1665 [label="Boolean IsDating is now false.",color=orange];
+		1665 -> 1666;
+	1671 [label="I... 
+I don't think I like it when you call me out on my mentiras 
+Sí... you... you're right 
+I get in my own head and I... haven't been giving you a fair shot",shape=box,color=blue];
+		1671 -> 1672;
+	1692 [label="+20 Chemistry",color=orange];
+		1692 -> 1689;
+	1687 [label="You need to choose which way you want to be. If you want to be alone or not.",shape=box,color=red];
+		1687 -> 1688;
+	1699 [label="I... 
+I don't think I like it when you call me out on my mentiras 
+Sí... you... you're right 
+Sometimes I just get so tired of the fight, you know? 
+I forget I'm not in this battle alone",shape=box,color=blue];
+		1699 -> 1696;
+	1710 [label="You're LETTIE, and -",shape=box,color=red];
+		1710 -> 1708;
+	1666 [label="Boolean LettieNoDate is now true.",color=orange];
+		1666 -> "Chat ends.";
+	1672 [label="It's too easy for me to brush this off as just physical 
+Makes it safer, you know? 
+Lo siento, solecito...",shape=box,color=blue];
+		1672 -> 1673;
+	1689 [label="I... 
+I don't think I like it when you call me out on my mentiras 
+Sí... you... you're right 
+Sometimes I get stuck in my own head and I forget I'm not alone",shape=box,color=blue];
+		1689 -> 1690;
+	1696 [label="Life is about the moments we have 
+The moments we spend caring for each other 
+Not the ultimate end point 
+Gracias... en serio",shape=box,color=blue];
+		1696 -> 1697;
+	1708 [label="Shut up",shape=box,color=blue];
+		1708 -> 1711;
+	"Chat ends." [color=orange];
+	1673 [label="I want to make this up to you 
+ Think I know how, too... 
+ If you'll let me, mm?",shape=box,color=blue];
+		1673 -> 1674;
+		1673 -> 1675;
+	1690 [label="I need to remember that I have a familia here around me 
+People I can rely on when things get dark 
+Gracias... en serio",shape=box,color=blue];
+		1690 -> 1691;
+	1697 [label="Boolean LettieKindness is now true.",color=orange];
+		1697 -> "Chat ends.";
+	1711 [label="Aguántame tantito",shape=box,color=blue];
+		1711 -> 1712;
+		1711 -> 1713;
+	1674 [label="Maybe later. I'm a little pissed right now.",shape=box,color=red];
+		1674 -> 1676;
+	1675 [label="Like I'm going to say no to that. :}",shape=box,color=red];
+		1675 -> 1677;
+	1691 [label="Boolean LettieNewFamily is now true.",color=orange];
+		1691 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	1712 [label="I'm sorry if I upset you...",shape=box,color=red];
+		1712 -> 1714;
+	1713 [label="I understand if you don't feel the same way, I get it.",shape=box,color=red];
+		1713 -> 1714;
+	1676 [label="Sí 
+I get it",shape=box,color=blue];
+		1676 -> 1678;
+	1677 [label="Boolean LettieReal is now true.",color=orange];
+		1677 -> 1679;
+	"Chat ends." [color=orange];
+	1714 [label="¡Neta, ya cállate! 
+I need a second to think 
+To breathe 
+Can't process when I'm tearing up",shape=box,color=blue];
+		1714 -> 1718;
+	1678 [label="+10 Chemistry",color=orange];
+		1678 -> "Chat ends.";
+	1679 [label="+20 Chemistry",color=orange];
+		1679 -> "Chat ends.";
+	1718 [label="+20 Chemistry",color=orange];
+		1718 -> 1715;
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+	1715 [label="I don't DO compliments, solecito 
+Never take them well 
+Talk tomorrow, sort this shit out then 
+Lo siento",shape=box,color=blue];
+		1715 -> 1716;
+	1716 [label="Boolean LettieConfession is now true.",color=orange];
+		1716 -> "Chat ends. Next chat will be LettieConfession.";
+	"Chat ends. Next chat will be LettieConfession." [color=orange];
+}

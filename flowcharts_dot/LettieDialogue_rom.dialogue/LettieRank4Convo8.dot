@@ -1,0 +1,164 @@
+digraph {
+	1474 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		1474 -> 1477;
+	1477 [label="Check boolean AmirRPGLettie",color=orange];
+		1477 -> "Chat ends." [label=true,color=green];
+		1477 -> 1476 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	1476 [label="Check boolean AmirRPG",color=orange];
+		1476 -> 1480 [label=true,color=green];
+		1476 -> "Chat ends." [label=false,color=brown];
+	1480 [label="Check boolean AmirRPGLettieAsked",color=orange];
+		1480 -> 1479 [label=true,color=green];
+		1480 -> 1481 [label=true,color=green];
+		1480 -> 1482 [label=false,color=brown];
+		1480 -> 1483 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	1479 [label="So... Lettie, look... I know you already said \"no\" to Amir's game, but...",shape=box,color=red];
+		1479 -> 1484;
+	1481 [label="Hey, Lettie, we're friends, now, yeah? You like me now, ish?",shape=box,color=red];
+		1481 -> 1485;
+	1482 [label="Hey Lettie, what do you think about tabletop roleplaying games?",shape=box,color=red];
+		1482 -> 1486;
+	1483 [label="Hey Lettie, I have a favor to ask you.",shape=box,color=red];
+		1483 -> 1487;
+	1484 [label="Aayyyy 
+¿Otra vez, babas?",shape=box,color=blue];
+		1484 -> 1495;
+	1485 [label="¿A poco sí?
+más o menos jajaja",shape=box,color=blue];
+		1485 -> 1496;
+	1486 [label="Estás bromeando, ¿verdad? 
+Amir is making you ask I know it",shape=box,color=blue];
+		1486 -> 1488;
+		1486 -> 1489;
+	1487 [label="¿Ay, sí? 
+What is it babas",shape=box,color=blue];
+		1487 -> 1491;
+	1495 [label="I know a game like \"Fables & Frontiers\" sounds really silly, but it's about spending time together.",shape=box,color=red];
+		1495 -> 1497;
+	1496 [label="I know a game like \"Fables & Frontiers\" sounds really silly, but it's important to Amir.",shape=box,color=red];
+		1496 -> 2453;
+	1488 [label="I agreed to ask, I think it'll be fun!",shape=box,color=red];
+		1488 -> 1490;
+	1489 [label="I agreed to ask, it's important to him.",shape=box,color=red];
+		1489 -> 1490;
+	1491 [label="Amir's putting together a game of Fables & Frontiers. And I know it sounds silly, but before you come over here and stab me -",shape=box,color=red];
+		1491 -> 1492;
+		1491 -> 1493;
+	1497 [label="+5 Chemistry",color=orange];
+		1497 -> 2450;
+	2453 [label="And?",shape=box,color=blue];
+		2453 -> 1499;
+		2453 -> 1498;
+	1490 [label="Babas... 
+I have too much shit to do 
+Than to waste it on games for children",shape=box,color=blue];
+		1490 -> 1495;
+		1490 -> 1496;
+	1492 [label="It's a chance to get everybody to spend time together.",shape=box,color=red];
+		1492 -> 1494;
+	1493 [label="It's really important to Amir",shape=box,color=red];
+		1493 -> 2451;
+	2450 [label="And?",shape=box,color=blue];
+		2450 -> 1498;
+		2450 -> 1499;
+	1499 [label="And it might actually be a little fun.",shape=box,color=red];
+		1499 -> 2454;
+	1498 [label="And you could use a break.",shape=box,color=red];
+		1498 -> 208;
+	1494 [label="+5 Chemistry",color=orange];
+		1494 -> 2449;
+	2451 [label="And?",shape=box,color=blue];
+		2451 -> 1498;
+		2451 -> 1499;
+	2454 [label="And?",shape=box,color=blue];
+		2454 -> 1500;
+	208 [label="+5 Chemistry",color=orange];
+		208 -> 2452;
+	2449 [label="And?",shape=box,color=blue];
+		2449 -> 1498;
+		2449 -> 1499;
+	1500 [label="Check boolean AmirRPGAny",color=orange];
+		1500 -> 1501 [label=true,color=green];
+		1500 -> 1502 [label=false,color=brown];
+	2452 [label="And?",shape=box,color=blue];
+		2452 -> 1500;
+	1501 [label="...And you wouldn't be the only one playing with us?",shape=box,color=red];
+		1501 -> 1503;
+	1502 [label="Check boolean LettieSmallFavor",color=orange];
+		1502 -> 1504 [label=true,color=green];
+		1502 -> 1505 [label=false,color=brown];
+	1503 [label="¿Sí? 
+Who else have you talked into this?",shape=box,color=blue];
+		1503 -> 1508;
+	1504 [label="...And you DO kind of owe me a favor, don't you?",shape=box,color=red];
+		1504 -> 209;
+	1505 [label="So what do you think?",shape=box,color=red];
+		1505 -> 1506;
+	1508 [label="Me and Amir, obviously. And after that...",shape=box,color=red];
+		1508 -> 1509;
+	209 [label="+10 Chemistry",color=orange];
+		209 -> 1521;
+	1506 [label="Babas... 
+Lo siento, I just have so much shit to do 
+You'll have to go on without me",shape=box,color=blue];
+		1506 -> "Chat ends.";
+	1509 [label="Check boolean AmirRPGEleanor",color=orange];
+		1509 -> 1513 [label=true,color=green];
+		1509 -> 1510 [label=false,color=brown];
+	1521 [label="Ssíííííí... 
+Fiiine, babaaass... 
+But I better not regret this...",shape=box,color=blue];
+		1521 -> 1522;
+	"Chat ends." [color=orange];
+	1513 [label="Eleanor said yes, not sure if that's helping or hurting my case...",shape=box,color=red];
+		1513 -> 1517;
+	1510 [label="Check boolean AmirRPGAoi",color=orange];
+		1510 -> 1514 [label=true,color=green];
+		1510 -> 1511 [label=false,color=brown];
+	1522 [label="Boolean LettieSmallFavor is now false.",color=orange];
+		1522 -> 1523;
+	1517 [label="Of course the bruja wants to waste time",shape=box,color=blue];
+		1517 -> 1510;
+	1514 [label="Aoi said she'd play",shape=box,color=red];
+		1514 -> 1518;
+	1511 [label="Check boolean AmirRPGQuincy",color=orange];
+		1511 -> 1515 [label=true,color=green];
+		1511 -> 1512 [label=false,color=brown];
+	1523 [label="Boolean AmirRPGLettie is now true.",color=orange];
+		1523 -> 1527;
+	1518 [label="I am not surprised...",shape=box,color=blue];
+		1518 -> 1511;
+	1515 [label="Quincy's in",shape=box,color=red];
+		1515 -> 1519;
+	1512 [label="Check boolean AmirRPGArthur",color=orange];
+		1512 -> 1516 [label=true,color=green];
+		1512 -> 209 [label=false,color=brown];
+	1527 [label="Check boolean AmirRPGQuincy",color=orange];
+		1527 -> 1526 [label=true,color=green];
+		1527 -> 1529 [label=false,color=brown];
+	1519 [label="¡¿Neta?! 
+QUINCY 
+How much did you pay him",shape=box,color=blue];
+		1519 -> 1512;
+	1516 [label="Arthur said he'd play lol",shape=box,color=red];
+		1516 -> 1520;
+	1526 [label="Check boolean AmirRPGArthur",color=orange];
+		1526 -> 1525 [label=true,color=green];
+		1526 -> 1529 [label=false,color=brown];
+	1529 [label="Boolean AmirRPGAny is now true.",color=orange];
+		1529 -> "Chat ends.";
+	1520 [label="HAH... well, if mi hermano is playing...",shape=box,color=blue];
+		1520 -> 209;
+	1525 [label="Check boolean AmirRPGAoi",color=orange];
+		1525 -> 1524 [label=true,color=green];
+		1525 -> 1529 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	1524 [label="Check boolean AmirRPGEleanor",color=orange];
+		1524 -> 1528 [label=true,color=green];
+		1524 -> 1529 [label=false,color=brown];
+	1528 [label="Boolean AmirRPGAll is now true.",color=orange];
+		1528 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

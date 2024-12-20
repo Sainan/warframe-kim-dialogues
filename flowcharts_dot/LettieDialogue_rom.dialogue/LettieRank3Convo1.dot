@@ -1,0 +1,247 @@
+digraph {
+	562 [label="/EE/Types/Engine/StartDialogueNode",color=orange];
+		562 -> 563;
+	563 [label="How do you do it, babas 
+No entiendo",shape=box,color=blue];
+		563 -> 564;
+		563 -> 565;
+		563 -> 566;
+	564 [label="You forgot to tell me what you're talking about.",shape=box,color=red];
+		564 -> 570;
+	565 [label="Do what?",shape=box,color=red];
+		565 -> 571;
+	566 [label="Magic.",shape=box,color=red];
+		566 -> 567;
+	570 [label="+5 Chemistry",color=orange];
+		570 -> 569;
+	571 [label="Being trapped for centuries without time 
+Without change, without movement 
+We are fantasmas haunting this place",shape=box,color=blue];
+		571 -> 572;
+	567 [label="Ay, equis",shape=box,color=blue];
+		567 -> "Chat ends.";
+	569 [label="Jaja, sí 
+Lo siento, too much time in my head alone 
+Though less so recently between you and the bruja",shape=box,color=blue];
+		569 -> 571;
+	572 [label="Check boolean LettieDuviri",color=orange];
+		572 -> 573 [label=true,color=green];
+		572 -> 574 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	573 [label="You say you've done it in Duviri 
+That Kingdom of Death and Stories 
+Yo me habría vuelto loca 
+I'm worried I will lose my mind, now",shape=box,color=blue];
+		573 -> 575;
+		573 -> 576;
+		573 -> 577;
+	574 [label="You say you've done it before 
+In this other land of yours 
+Yo me habría vuelto loca 
+I'm worried I will lose my mind, now",shape=box,color=blue];
+		574 -> 577;
+		574 -> 576;
+		574 -> 575;
+	575 [label="Honestly? I almost did. I chose to go numb instead.",shape=box,color=red];
+		575 -> 578;
+	576 [label="I... think I did lose my mind for a little while. I don't remember whole chunks of it.",shape=box,color=red];
+		576 -> 579;
+	577 [label="What happened to me in Duviri is very different to what's happening here. You're not alone like i was.",shape=box,color=red];
+		577 -> 580;
+	578 [label="¿Sí? 
+Numb, an empty shell 
+But you came back to life it seems, I don't see that in you now",shape=box,color=blue];
+		578 -> 581;
+		578 -> 582;
+	579 [label="I've seen that in soldiers after bad battles, blocking it all out 
+The mind protects itself from the worst sometimes 
+It's for the best, babas, trust me 
+Well? How did you survive?",shape=box,color=blue];
+		579 -> 581;
+		579 -> 582;
+	580 [label="Sí, cómo no 
+Not the people I'd want to spend eternity with, babas 
+No offense, look around",shape=box,color=blue];
+		580 -> 583;
+	581 [label="Once I realized what was happening, I fought like hell to keep from letting it consume me.",shape=box,color=red];
+		581 -> 584;
+	582 [label="I had help from friends to pull me out of it.",shape=box,color=red];
+		582 -> 585;
+	583 [label="I was only around to stitch them back together, before we were turned into monsters 
+Now we don't have a choice 
+You think they want me here?",shape=box,color=blue];
+		583 -> 587;
+		583 -> 588;
+		583 -> 589;
+		583 -> 590;
+	584 [label="But you cannot fight eternity 
+You escaped that place 
+I don't see a way out for us... do you?",shape=box,color=blue];
+		584 -> 591;
+		584 -> 592;
+	585 [label="Bueno, I'm screwed then 
+Jaja",shape=box,color=blue];
+		585 -> 587;
+		585 -> 588;
+		585 -> 589;
+		585 -> 590;
+	587 [label="Well, *I* like you.",shape=box,color=red];
+		587 -> 600;
+	588 [label="You think the other Hex don't like you?",shape=box,color=red];
+		588 -> 601;
+	589 [label="Well, you aren't exactly \"approachable,\" Lettie.",shape=box,color=red];
+		589 -> 602;
+	590 [label="Well, maybe if you weren't so bitchy...",shape=box,color=red];
+		590 -> 604;
+	591 [label="No... I don't, I'm sorry.",shape=box,color=red];
+		591 -> 596;
+	592 [label="I mean, I can take you out of here via transference for short periods.",shape=box,color=red];
+		592 -> 594;
+	600 [label="¿Ay, Sí? 
+Just how much do you like me, babas 
+I've been wondering how quickly you'd break",shape=box,color=blue];
+		600 -> 633;
+		600 -> 634;
+		600 -> 635;
+	601 [label="Eh, know me well enough 
+But we are not close 
+Except maybe me and Arthur",shape=box,color=blue];
+		601 -> 607;
+		601 -> 608;
+		601 -> 609;
+	602 [label="You think I don't know that, babas?",shape=box,color=blue];
+		602 -> 607;
+		602 -> 608;
+		602 -> 609;
+	604 [label="+5 Chemistry",color=orange];
+		604 -> 603;
+	596 [label="+10 Chemistry",color=orange];
+		596 -> 593;
+	594 [label="¿Ay, Sí? 
+¿Want to take me out for a walk? 
+Cuidadito, I am not going to be the pet of this relationship... 
+¡Yo no me dejo!",shape=box,color=blue];
+		594 -> 598;
+		594 -> 599;
+		594 -> 606;
+	633 [label="Challenge accepted.",shape=box,color=red];
+		633 -> 639;
+	634 [label="Are... you hitting on me?",shape=box,color=red];
+		634 -> 636;
+	635 [label="I just want to be your friend, Lettie. No offense.",shape=box,color=red];
+		635 -> 640;
+	607 [label="Why don't you let people get close?",shape=box,color=red];
+		607 -> 610;
+	608 [label="You're afraid to trust people.",shape=box,color=red];
+		608 -> 611;
+	609 [label="You don't want to get hurt if you lose them.",shape=box,color=red];
+		609 -> 612;
+	603 [label="JAJAJA 
+If I weren't I wouldn't be Lettie anymore 
+I am who I am babas 
+Take it or leave it",shape=box,color=blue];
+		603 -> "Chat ends.";
+	593 [label="Appreciate the honesty 
+I guess we take bets on who goes crazy first",shape=box,color=blue];
+		593 -> 595;
+	598 [label="Challenge accepted.",shape=box,color=red];
+		598 -> 622;
+	599 [label="Are... you hitting on me?",shape=box,color=red];
+		599 -> 617;
+	606 [label="I was just trying to be nice. You're not my type.",shape=box,color=red];
+		606 -> 621;
+	639 [label="Boolean LettieFlirt is now true.",color=orange];
+		639 -> 644;
+	636 [label="¡No manches, babas! 
+Do you want me to be?",shape=box,color=blue];
+		636 -> 637;
+		636 -> 638;
+	640 [label="Boolean LettieNoFlirt is now true.",color=orange];
+		640 -> 643;
+	610 [label="Because I choose not to 
+Because I've learned better 
+It's safer this way for everybody",shape=box,color=blue];
+		610 -> 623;
+		610 -> 624;
+	611 [label="Lárgate de aqui",shape=box,color=blue];
+		611 -> 615;
+	612 [label="¡No manches, babas! 
+Do you know how long rats live? 
+2-3 years at most 
+I am used to losing my little panquecitos",shape=box,color=blue];
+		612 -> 613;
+	"Chat ends." [color=orange];
+	595 [label="Who knows 
+Might be me",shape=box,color=blue];
+		595 -> "Chat ends.";
+	622 [label="Boolean LettieFlirt is now true.",color=orange];
+		622 -> 626;
+	617 [label="No manches, babas... 
+Do you want me to be?",shape=box,color=blue];
+		617 -> 618;
+		617 -> 619;
+	621 [label="Boolean LettieNoFlirt is now true.",color=orange];
+		621 -> 629;
+	644 [label="+15 Chemistry",color=orange];
+		644 -> 641;
+	637 [label="Yeah, you're my type. I like to live dangerously. ;)",shape=box,color=red];
+		637 -> 639;
+	638 [label="No, I'd rather just stay friends.",shape=box,color=red];
+		638 -> 640;
+	643 [label="+15 Chemistry",color=orange];
+		643 -> 642;
+	623 [label="Just as a warning, I'm really stubborn, and I want to get to know you better.",shape=box,color=red];
+		623 -> 631;
+	624 [label="Thanks for the heads up. I won't take it personally if you step all over my feelings.",shape=box,color=red];
+		624 -> 632;
+	615 [label="Boolean LettieTrust1 is now true.",color=orange];
+		615 -> "Chat ends. Next chat will be LettieTrust.";
+	613 [label="And I love them more than humans 
+I am comfortable with grief and loss, more than you know 
+Do not pretend you know me babas 
+Lárgate",shape=box,color=blue];
+		613 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	626 [label="+15 Chemistry",color=orange];
+		626 -> 625;
+	618 [label="Yeah, you're my type. I like to live dangerously. ;)",shape=box,color=red];
+		618 -> 622;
+	619 [label="No, I'd rather just stay friends.",shape=box,color=red];
+		619 -> 621;
+	629 [label="+15 Chemistry",color=orange];
+		629 -> 628;
+	641 [label="Jaja we'll see, babas 
+We'll see",shape=box,color=blue];
+		641 -> "Chat ends.";
+	642 [label="Jaja, none taken 
+Sí, friends is fine by me 
+That's more than enough for most people",shape=box,color=blue];
+		642 -> "Chat ends.";
+	631 [label="Ay, sí 
+Someone like you would need to be to survive 
+Maybe that's your secret 
+I like the stubborn ones, though 
+They're harder to break",shape=box,color=blue];
+		631 -> 633;
+		631 -> 634;
+		631 -> 635;
+	632 [label="Jaja 
+It's not your feelings I want to step on",shape=box,color=blue];
+		632 -> 633;
+		632 -> 634;
+		632 -> 635;
+	"Chat ends. Next chat will be LettieTrust." [color=orange];
+	"Chat ends." [color=orange];
+	625 [label="We'll see, babas, we'll see 
+But I'll take you up on the offer for temporary freedom 
+Maybe some fresh air from time to time is all this fantasma needs",shape=box,color=blue];
+		625 -> "Chat ends.";
+	628 [label="Fair 
+But I'll take you up on the offer for temporary freedom 
+Maybe some fresh air from time to time is all this fantasma needs",shape=box,color=blue];
+		628 -> "Chat ends.";
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+	"Chat ends." [color=orange];
+}
