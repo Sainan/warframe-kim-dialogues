@@ -264,6 +264,20 @@
 			endChoices();
 			return;
 		}
+		else if (node.type == "/EE/Types/Engine/CheckBooleanScriptDialogueNode")
+		{
+			document.getElementById("choices").innerHTML = "";
+			presentChoice("$ " + node.script_name + " says " + node.arg1 + " is true", function()
+			{
+				processChoices(node.true_choices);
+			});
+			presentChoice("$ " + node.script_name + " says " + node.arg1 + " is false", function()
+			{
+				processChoices(node.false_choices);
+			});
+			endChoices();
+			return;
+		}
 		else if (node.type == "/EE/Types/Engine/SetBooleanDialogueNode")
 		{
 			addToHistory("System", "Boolean " + node.name + " is now true.");
