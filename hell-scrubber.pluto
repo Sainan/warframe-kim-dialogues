@@ -17,7 +17,7 @@ for {
 	local nodes_array = {}
 	local nodes_map = {}
 	do
-		local rom = io.contents(diag_name.."_H")
+		local rom = io.contents("Extracted/Debug/Lotus/Types/Gameplay/1999Wf/Dialogue/"..diag_name.."_H")
 		local i = 1
 		local _, num_nodes, type, id, name, nickname_override, num_prev, num_choices
 		i += 20 -- skip hash?

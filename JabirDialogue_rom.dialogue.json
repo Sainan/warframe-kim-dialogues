@@ -418,7 +418,7 @@
         "choices": [
             39
         ],
-        "text_en": "They ruled the Origin System. Some of them figured out how to live forever using this ritual called Continuity."
+        "text_en": "They ruled the Origin System. The elites had the privilege of living forever, thanks to this ritual they called Continuity."
     },
     {
         "id": 35,
@@ -457,7 +457,7 @@
         "choices": [
             41
         ],
-        "text_en": "Who're this faction of genetically mutated clones, who were originally created to fight the Sentients -"
+        "text_en": "Who're this faction of genetically mutated clones, who were originally workers until a new militarized strain was cloned to fight the Sentients -"
     },
     {
         "id": 38,
@@ -481,7 +481,7 @@
         "choices": [
             43
         ],
-        "text_en": "Where they'd swap their consciousness into somebody else's body using this stuff called Kuva."
+        "text_en": "Where they'd force their consciousness into somebody else's body using this stuff called Kuva."
     },
     {
         "id": 40,
@@ -505,7 +505,7 @@
         "choices": [
             45
         ],
-        "text_en": "The Sentients are these - uh - a synthetic race who are kind of evil, except for the Lotus, who isn't. But she's based on Margulis, who was an Archimedean."
+        "text_en": "The Sentients are these - uh - a synthetic race who are kind of evil, except for the Lotus, who isn't. But her appearance and part of her persona comes from Margulis, who was an Archimedean."
     },
     {
         "id": 42,
@@ -565,7 +565,7 @@
         "choices": [
             50
         ],
-        "text_en": "Anyway, artificial race. They were sent to Tau to terraform it for the Orokin. Only they decided the Orokin didn't deserve it, so they declared war."
+        "text_en": "Anyway, artificial race. They were sent to Tau to terraform it for the Orokin. They thought the Orokin would lay waste to Tau just like they had the Origin System, so they declared war."
     },
     {
         "id": 47,
@@ -589,7 +589,7 @@
         "choices": [
             52
         ],
-        "text_en": "But one thing's for sure, he's going to try to buy and sell the whole universe, and he'll try to cut a deal with the Sentients the first chance he gets."
+        "text_en": "But one thing's for sure, he wouldn't be above cutting a deal with the Sentients. Another Corpus, Alad V, already did."
     },
     {
         "id": 49,
@@ -613,7 +613,7 @@
         "choices": [
             54
         ],
-        "text_en": "Only Natah got captured and held prisoner on Lua until Ballas forced her to take the form of Margulis so he could control the Tenno."
+        "text_en": "Only Natah got captured and held prisoner on Lua until Ballas imprinted Margulis's persona and appearance on to her so he could control the Tenno."
     },
     {
         "id": 51,
@@ -11152,14 +11152,17 @@
         "true_choices": [
             941
         ],
-        "false_choices": []
+        "false_choices": [
+            937
+        ]
     },
     {
         "id": 937,
         "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
         "name": "AmirRPGArthur",
         "parents": [
-            951
+            951,
+            936
         ],
         "choices": [],
         "true_choices": [
@@ -20795,7 +20798,9 @@
         "true_choices": [
             1750
         ],
-        "false_choices": []
+        "false_choices": [
+            1760
+        ]
     },
     {
         "id": 1742,
@@ -21033,7 +21038,8 @@
         "type": "/EE/Types/Engine/DialogueNode",
         "name": "/Lotus/Language/1999Texting/JabirRomance/TxtJabir_AmirRank4Convo1_1395",
         "parents": [
-            1759
+            1759,
+            1741
         ],
         "choices": [
             1761

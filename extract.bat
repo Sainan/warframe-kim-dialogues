@@ -1,0 +1,7 @@
+Warframe-Exporter-Advanced.exe --cache-dir D:\SteamLibrary\steamapps\common\Warframe\Cache.Windows --write-raw --package Misc --internal-path Lotus/Types/Gameplay/1999Wf/Dialogue/AoiDialogue_rom.dialogue
+Warframe-Exporter-Advanced.exe --cache-dir D:\SteamLibrary\steamapps\common\Warframe\Cache.Windows --write-raw --package Misc --internal-path Lotus/Types/Gameplay/1999Wf/Dialogue/ArthurDialogue_rom.dialogue
+Warframe-Exporter-Advanced.exe --cache-dir D:\SteamLibrary\steamapps\common\Warframe\Cache.Windows --write-raw --package Misc --internal-path Lotus/Types/Gameplay/1999Wf/Dialogue/EleanorDialogue_rom.dialogue
+Warframe-Exporter-Advanced.exe --cache-dir D:\SteamLibrary\steamapps\common\Warframe\Cache.Windows --write-raw --package Misc --internal-path Lotus/Types/Gameplay/1999Wf/Dialogue/HexDialogue_rom.dialogue
+Warframe-Exporter-Advanced.exe --cache-dir D:\SteamLibrary\steamapps\common\Warframe\Cache.Windows --write-raw --package Misc --internal-path Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue
+Warframe-Exporter-Advanced.exe --cache-dir D:\SteamLibrary\steamapps\common\Warframe\Cache.Windows --write-raw --package Misc --internal-path Lotus/Types/Gameplay/1999Wf/Dialogue/LettieDialogue_rom.dialogue
+Warframe-Exporter-Advanced.exe --cache-dir D:\SteamLibrary\steamapps\common\Warframe\Cache.Windows --write-raw --package Misc --internal-path Lotus/Types/Gameplay/1999Wf/Dialogue/QuincyDialogue_rom.dialogue
