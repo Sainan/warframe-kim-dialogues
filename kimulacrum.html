@@ -130,6 +130,7 @@
 	{
 		document.getElementById("history").innerHTML = "";
 		document.getElementById("choices").innerHTML = "";
+		window.choice_history = [];
 	}
 
 	function addToHistory(author, text, chemistry)
@@ -173,11 +174,26 @@
 
 	function presentChoice(text, callback)
 	{
+		const choiceId = document.getElementById("choices").children.length;
 		const div = document.createElement("div");
 		div.className = "choice";
 		div.innerHTML = "• " + resolveEmojis(text);
-		div.onclick = callback;
+		div.onclick = function()
+		{
+			choice_history.push(choiceId);
+			saveState();
+			callback();
+		};
 		document.getElementById("choices").appendChild(div);
+	}
+
+	function endChoices()
+	{
+		if (window.replay_choices?.length)
+		{
+			const choiceId = window.replay_choices.shift();
+			document.getElementById("choices").children[choiceId].onclick();
+		}
 	}
 
 	const username_loctags = {
@@ -192,7 +208,7 @@
 
 	function processNode(node, chemistry)
 	{
-		console.log("processNode", node);
+		//console.log("processNode", node);
 
 		if (node.type == "/EE/Types/Engine/DialogueNode")
 		{
@@ -238,6 +254,7 @@
 			{
 				processChoices(node.false_choices);
 			});
+			endChoices();
 			return;
 		}
 		else if (node.type == "/EE/Types/Engine/SetBooleanDialogueNode")
@@ -248,9 +265,9 @@
 		{
 			addToHistory("System", "Boolean " + node.name + " is now false.");
 		}
-		else if (node.type != "/EE/Types/Engine/StartDialogueNode" && node.type != "/EE/Types/Engine/CheckBooleanDialogueNode")
+		else if (node.type != "/EE/Types/Engine/StartDialogueNode")
 		{
-			console.warn("Unhandled node type:", node.type);
+			console.warn("Unhandled node:", node);
 		}
 
 		processChoices(node.choices, chemistry);
@@ -272,21 +289,26 @@
 					processNode(choiceNode);
 				});
 			});
+			endChoices();
 		}
 	}
 
 	function saveState()
 	{
-		const params = new URLSearchParams(); 
+		let hash = "";
 		if (window.chatroom)
 		{
-			params.append("chatroom", window.chatroom);
+			hash += "chatroom=" + window.chatroom;
+			if (window.dialogue)
+			{
+				hash += "&dialogue=" + window.dialogue;
+				if (window.choice_history && window.choice_history.length)
+				{
+					hash += "&choices=" + window.choice_history.join(",");
+				}
+			}
 		}
-		if (window.dialogue)
-		{
-			params.append("dialogue", window.dialogue);
-		}
-		location.hash = params.toString();
+		location.hash = hash;
 	}
 
 	function setActiveChatroom(chatroom, callback)
@@ -393,7 +415,15 @@
 				document.getElementById("dialogue").value = params.get("dialogue");
 				if (params.has("dialogue"))
 				{
-					setActiveDialogue(params.get("dialogue"));
+					if (window.dialogue != params.get("dialogue"))
+					{
+						setActiveDialogue(params.get("dialogue"));
+					}
+					if (window.choice_history.join(",") != (params.get("choices") || ""))
+					{
+						window.replay_choices = (params.get("choices") ? params.get("choices").split(",").map(x => parseInt(x)) : []);
+						setActiveDialogue(params.get("dialogue"));
+					}
 				}
 			});
 		}
