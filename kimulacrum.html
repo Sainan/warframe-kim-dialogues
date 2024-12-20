@@ -272,6 +272,17 @@
 		{
 			addToHistory("System", "Boolean " + node.name + " is now false.");
 		}
+		else if (node.type == "/EE/Types/Engine/SpecialCompletionDialogueNode")
+		{
+			if (node.refs.length == 1)
+			{
+				addToHistory("System", "Chatroom " + node.refs[0].diag + " would now have " + node.refs[0].convo + ".");
+			}
+			else
+			{
+				console.warn("Unhandled node:", node);				
+			}
+		}
 		else if (node.type != "/EE/Types/Engine/StartDialogueNode")
 		{
 			console.warn("Unhandled node:", node);
