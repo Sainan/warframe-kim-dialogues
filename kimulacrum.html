@@ -253,11 +253,11 @@
 		else if (node.type == "/EE/Types/Engine/CheckBooleanDialogueNode")
 		{
 			document.getElementById("choices").innerHTML = "";
-			presentChoice("$ Bool " + node.name + " is true", function()
+			presentChoice("$ Boolean " + node.name + " is true", function()
 			{
 				processChoices(node.true_choices);
 			});
-			presentChoice("$ Bool " + node.name + " is false", function()
+			presentChoice("$ Boolean " + node.name + " is false", function()
 			{
 				processChoices(node.false_choices);
 			});
