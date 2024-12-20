@@ -46,7 +46,7 @@
 					<option value="QuincyDialogue_rom.dialogue">Soldja1Shot1kil (Quincy)</option>
 					<option value="HexDialogue_rom.dialogue">The Hex</option>
 				</select>
-				<select id="starting-node" class="slv-hidden">
+				<select id="starting-node">
 					<option>SELECT A DIALOGUE</option>
 				</select>
 			</td>
@@ -124,6 +124,12 @@
 			}
 			return "&lt;" + name + "&gt;";
 		});
+	}
+
+	function clearChat()
+	{
+		document.getElementById("history").innerHTML = "";
+		document.getElementById("choices").innerHTML = "";
 	}
 
 	function addToHistory(author, text, chemistry)
@@ -271,10 +277,14 @@
 
 	document.getElementById("chatroom").onchange = function()
 	{
+		document.getElementById("starting-node").innerHTML = "<option>SELECT A DIALOGUE</option>";
+		clearChat();
+
 		if (this.value != "SELECT A CHATROOM")
 		{
 			window.sender_name = document.querySelector("option[value='"+this.value+"']").textContent.split(" (")[0];
-			document.getElementById("starting-node").classList.add("slv-hidden");
+
+			addToHistory("System", "Loading chatroom...");
 			fetch(this.value + ".json").then(res => res.json()).then(nodes => {
 				window.nodes = nodes;
 
@@ -301,8 +311,7 @@
 					return obj;
 				}, {});
 
-				document.getElementById("starting-node").classList.remove("slv-hidden");
-				document.getElementById("starting-node").innerHTML = "<option>SELECT A DIALOGUE</option>";
+				clearChat();
 				for (const [name, id] of Object.entries(dialogue_name_to_start_node_id))
 				{
 					const option = document.createElement("option");
@@ -319,7 +328,7 @@
 	{
 		if (this.value != "SELECT A DIALOGUE")
 		{
-			document.getElementById("history").innerHTML = "";
+			clearChat();
 			processNode(nodes[this.value]);
 		}
 	};
