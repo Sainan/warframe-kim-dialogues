@@ -13,7 +13,7 @@
 			margin: 10px 0;
 		}
 
-		.chat-message-author {
+		.chat-message-author, .chat-message-line {
 			display: block;
 		}
 
@@ -88,19 +88,26 @@
 			}
 			div.appendChild(span);
 		}
-		if (chemistry)
+		const lines = text.split("\r\n");
+		if (lines.length == 1)
 		{
-			const b = document.createElement("b");
-			b.textContent = text;
-			div.appendChild(b);
-			const span = document.createElement("span");
-			span.textContent += " (+" + chemistry + " Chemistry)";
+			const span = document.createElement(chemistry ? "b" : "span");
+			span.textContent = text;
 			div.appendChild(span);
 		}
 		else
 		{
+			lines.forEach(line => {
+				const span = document.createElement(chemistry ? "b" : "span");
+				span.className = "chat-message-line";
+				span.textContent = line;
+				div.appendChild(span);
+			});
+		}
+		if (chemistry)
+		{
 			const span = document.createElement("span");
-			span.textContent = text;
+			span.textContent += " (+" + chemistry + " Chemistry)";
 			div.appendChild(span);
 		}
 		document.getElementById("history").appendChild(div);
