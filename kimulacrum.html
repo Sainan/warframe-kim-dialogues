@@ -23,17 +23,19 @@
 			padding: 5px;
 			cursor: pointer;
 		}
+
+		@media (max-width: 768px) {
+			td {
+				display: block;
+			}
+		}
 	</style>
 </head>
 <body>
 	<table style="width:100%;text-align:center;">
 		<tr>
-			<th>Chat Controls</th>
-			<th>User Name</th>
-			<th>Ambience</th>
-		</tr>
-		<tr>
 			<td>
+				<b>Chat Controls</b><br/>
 				<select id="chatroom">
 					<option>SELECT A CHATROOM</option>
 					<option value="ArthurDialogue_rom.dialogue">Broadsword (Arthur)</option>
@@ -49,9 +51,11 @@
 				</select>
 			</td>
 			<td>
+				<b>Username</b><br/>
 				<input id="username" value="Drifter" />
 			</td>
 			<td>
+				<b>Ambience</b><br/>
 				<audio controls autoplay>
 					<source src="kimulacrum_resources/1999GreatDespairRomanceChatLoop.mp3" type="audio/mpeg" />
 				</audio>
