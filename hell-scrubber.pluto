@@ -117,14 +117,14 @@ for {
 				local num_refs
 				num_refs, i = string.unpack("<I4", rom, i) $if DEBUG then print("\tnum_refs="..num_refs) $end
 				for ref_i = 1, num_refs do
-					local ref_diag_name, ref_bool_name
+					local ref_diag_name, ref_convo_name
 					ref_diag_name, i = string.unpack("<s4", rom, i) $if DEBUG then print("\t\tref_diag_name["..ref_i.."]="..ref_diag_name) $end
-					ref_bool_name, i = string.unpack("<s4", rom, i) $if DEBUG then print("\t\tref_bool_name["..ref_i.."]="..ref_bool_name) $end
-					if ref_bool_name ~= "" then
+					ref_convo_name, i = string.unpack("<s4", rom, i) $if DEBUG then print("\t\tref_convo_name["..ref_i.."]="..ref_convo_name) $end
+					if ref_convo_name ~= "" then
 						node.refs:insert({
-							__order = { "diag", "bool" },
-							diag = diag_name,
-							bool = ref_bool_name
+							__order = { "diag", "convo" },
+							diag = ref_diag_name,
+							convo = ref_convo_name
 						})
 					end
 					i += 4
