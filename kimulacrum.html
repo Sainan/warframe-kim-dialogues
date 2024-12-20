@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kimulacrum</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://calamity-inc.github.io/Silver/base.css">
+	<style>
+		#history, #choices {
+			margin-top: 20px;
+		}
+
+		.chat-message {
+			margin: 10px 0;
+		}
+
+		.chat-message-author {
+			display: block;
+		}
+
+		.choice {
+			background: rgb(1, 1, 1, 0.1);
+			margin: 7px 0;
+			padding: 5px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>
+				<select id="chatroom">
+					<option>SELECT A CHATROOM</option>
+					<option value="ArthurDialogue_rom.dialogue">Broadsword (Arthur)</option>
+					<option value="EleanorDialogue_rom.dialogue">Salem (Eleanor)</option>
+					<option value="LettieDialogue_rom.dialogue">Belladona ~{@ (Lettie)</option>
+					<option value="JabirDialogue_rom.dialogue">H16h V0l7463 (Amir)</option>
+					<option value="AoiDialogue_rom.dialogue">xX GLIMMER Xx (Aoi)</option>
+					<option value="QuincyDialogue_rom.dialogue">Soldja1Shot1kil (Quincy)</option>
+					<option value="HexDialogue_rom.dialogue">The Hex</option>
+				</select>
+				<select id="starting-node" class="slv-hidden">
+					<option>SELECT A DIALOGUE</option>
+				</select>
+			</td>
+			<td>
+				<audio controls autoplay>
+					<source src="1999GreatDespairRomanceChatLoop.mp3" type="audio/mpeg" />
+				</audio>
+			</td>
+		</tr>
+	</table>
+
+	<div id="history"></div>
+	<div id="choices"></div>
+</body>
+<script>
+	const USER_SENDER_NAME = "John Prodman";
+
+	function addToHistory(author, text, chemistry)
+	{
+		const div = document.createElement("div");
+		div.className = "chat-message";
+		{
+			const span = document.createElement("span");
+			span.textContent = author;
+			span.classList.add("chat-message-author");
+			if (author == USER_SENDER_NAME)
+			{
+				span.style.color = "red";
+			}
+			else if (author == "System")
+			{
+				span.style.color = "orange";
+			}
+			else
+			{
+				span.style.color = "blue";
+			}
+			div.appendChild(span);
+		}
+		if (chemistry)
+		{
+			const b = document.createElement("b");
+			b.textContent = text;
+			div.appendChild(b);
+			const span = document.createElement("span");
+			span.textContent += " (+" + chemistry + " Chemistry)";
+			div.appendChild(span);
+		}
+		else
+		{
+			const span = document.createElement("span");
+			span.textContent = text;
+			div.appendChild(span);
+		}
+		document.getElementById("history").appendChild(div);
+	}
+
+	function presentChoice(text, callback)
+	{
+		const div = document.createElement("div");
+		div.className = "choice";
+		div.textContent = "• " + text;
+		div.onclick = callback;
+		document.getElementById("choices").appendChild(div);
+	}
+
+	function processNode(node, chemistry)
+	{
+		console.log("processNode", node);
+
+		if (node.type == "/EE/Types/Engine/DialogueNode")
+		{
+			addToHistory(node.name_override ? node.name_override : sender_name, node.text_en, chemistry);
+			chemistry = undefined;
+		}
+		else if (node.type == "/EE/Types/Engine/PlayerChoiceDialogueNode")
+		{
+			addToHistory(USER_SENDER_NAME, node.text_en);
+		}
+		else if (node.type == "/EE/Types/Engine/ChemistryDialogueNode")
+		{
+			chemistry = node.chemistry;
+		}
+		else if (node.type == "/EE/Types/Engine/EndDialogueNode")
+		{
+			if (node.name)
+			{
+				addToHistory("System", "Chat finished. The next chat after this would be " + node.name + ".");
+			}
+			else
+			{
+				addToHistory("System", "Chat finished.");
+			}
+		}
+		else if (node.type == "/EE/Types/Engine/CheckBooleanDialogueNode")
+		{
+			document.getElementById("choices").innerHTML = "";
+			presentChoice("$ Bool " + node.name + " is true", function()
+			{
+				processChoices(node.true_choices);
+			});
+			presentChoice("$ Bool " + node.name + " is false", function()
+			{
+				processChoices(node.false_choices);
+			});
+			return;
+		}
+		else if (node.type == "/EE/Types/Engine/SetBooleanDialogueNode")
+		{
+			addToHistory("System", "Boolean " + node.name + " is now true.");
+		}
+		else if (node.type == "/EE/Types/Engine/ResetBooleanDialogueNode")
+		{
+			addToHistory("System", "Boolean " + node.name + " is now false.");
+		}
+		else if (node.type != "/EE/Types/Engine/StartDialogueNode" && node.type != "/EE/Types/Engine/CheckBooleanDialogueNode")
+		{
+			console.warn("Unhandled node type:", node.type);
+		}
+
+		processChoices(node.choices, chemistry);
+	}
+
+	function processChoices(choices, chemistry)
+	{
+		document.getElementById("choices").innerHTML = "";
+		if (choices.length == 1)
+		{
+			processNode(nodes[choices[0]], chemistry);
+		}
+		else
+		{
+			choices.forEach(choiceNodeId => {
+				const choiceNode = nodes[choiceNodeId];
+				presentChoice(choiceNode.text_en, function()
+				{
+					processNode(choiceNode);
+				});
+			});
+		}
+	}
+
+	/*addToHistory("Octavia", "this reminds me how sucky discord is");
+	addToHistory("Octavia", "i was playing minecraft in peace now this");
+	presentChoice({
+		id: 1,
+		text_en: "merge my PRs bbg"
+	});
+	presentChoice({
+		id: 2,
+		text_en: "javascript is such a pain"
+	});*/
+
+	document.getElementById("chatroom").onchange = function()
+	{
+		if (this.value != "SELECT A CHATROOM")
+		{
+			window.sender_name = document.querySelector("option[value='"+this.value+"']").textContent.split(" (")[0];
+			document.getElementById("starting-node").classList.add("slv-hidden");
+			fetch(this.value + ".json").then(res => res.json()).then(nodes => {
+				window.nodes = nodes;
+
+				document.getElementById("starting-node").classList.remove("slv-hidden");
+				document.getElementById("starting-node").innerHTML = "<option>SELECT A DIALOGUE</option>";
+				for (const node of nodes)
+				{
+					if (node.type == "/EE/Types/Engine/StartDialogueNode")
+					{
+						const option = document.createElement("option");
+						option.value = node.id;
+						option.textContent = node.name;
+						document.getElementById("starting-node").appendChild(option);
+					}
+				}
+			});
+		}
+	};
+	document.getElementById("chatroom").onchange();
+
+	document.getElementById("starting-node").onchange = function()
+	{
+		if (this.value != "SELECT A DIALOGUE")
+		{
+			document.getElementById("history").innerHTML = "";
+			processNode(nodes[this.value]);
+		}
+	};
+	document.getElementById("starting-node").onchange();
+</script>

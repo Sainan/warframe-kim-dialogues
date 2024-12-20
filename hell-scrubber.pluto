@@ -1,0 +1,266 @@
+local { json } = require "*"
+
+$define DEBUG = false
+$define TREE_EXPORT = false -- Kinda works but some chats have recursive edges, e.g. ArthurRank3Convo1 checks for ArthurSkanaEntrati in a few places and if false it runs through some messages before bool gets set, and then we're good to go.
+$define FLOW_EXPORT = false -- An attempt was made. Only really works for really simple chats.
+
+for {
+	"AoiDialogue_rom.dialogue",
+	"ArthurDialogue_rom.dialogue",
+	"EleanorDialogue_rom.dialogue",
+	"HexDialogue_rom.dialogue",
+	"JabirDialogue_rom.dialogue",
+	"LettieDialogue_rom.dialogue",
+	"QuincyDialogue_rom.dialogue",
+} as diag_name do
+	--print(diag_name)
+	local nodes_array = {}
+	local nodes_map = {}
+	do
+		local rom = io.contents(diag_name.."_H")
+		local i = 1
+		local _, num_nodes, type, id, name, nickname_override, num_prev, num_choices
+		i += 20 -- skip hash?
+		_, i = string.unpack("<s4", rom, i) -- skip filename
+		_, i = string.unpack("<s4", rom, i) -- skip metadata (EE notation)
+		i += 1 -- null terminator not included in length
+		i += 4 -- skip unk int
+		i += 4 -- skip num dialogues
+		num_nodes, i = string.unpack("<I4", rom, i)
+		--print(num_nodes)
+		while id ~= num_nodes do
+			local offset = i
+			type, i = string.unpack("<s4", rom, i) $if DEBUG then print(type) $end
+			id, i = string.unpack("<I4", rom, i) $if DEBUG then print("\tid="..id) $end
+			$if DEBUG then print("\toffset="..(offset-1)) $end
+			local node = {
+				__order = { "id", "type" },
+				id = id, -- Not needed per-se, but makes it easier to look at the JSON array.
+				type = type
+			}
+			nodes_map[id] = node
+			nodes_array[++id] = node
+			name, i = string.unpack("<s4", rom, i) $if DEBUG then print("\tname="..name) $end
+			if name ~= "" then
+				node.__order:insert("name")
+				node.name = name
+			end
+			nickname_override, i = string.unpack("<s4", rom, i) $if DEBUG then print("\tnickname_override="..nickname_override) $end
+			if nickname_override ~= "" then
+				node.__order:insert("nickname_override")
+				node.nickname_override = nickname_override
+			end
+			i += 0x4
+			node.__order:insert("parents")
+			node.parents = {}
+			num_prev, i = string.unpack("<I4", rom, i) $if DEBUG then print("\tnum_prev="..num_prev) $end
+			for prev_i = 1, num_prev do
+				local prev
+				prev, i = string.unpack("<I4", rom, i) $if DEBUG then print("\t\tprev["..prev_i.."]="..prev) $end
+				node.parents:insert(prev) -- Not needed per-se, but makes it easier to look at the JSON array.
+			end
+			node.__order:insert("choices")
+			node.choices = {}
+			num_choices, i = string.unpack("<I4", rom, i) $if DEBUG then print("\tnum_choices="..num_choices) $end
+			for choice_i = 1, num_choices do
+				local choice
+				choice, i = string.unpack("<I4", rom, i) $if DEBUG then print("\t\tchoice["..choice_i.."]="..choice) $end
+				node.choices:insert(choice)
+			end
+			i += 0x8
+			--[[if type == "/EE/Types/Engine/StartDialogueNode" then
+			else]]if type == "/EE/Types/Engine/PlayerChoiceDialogueNode" or type == "/EE/Types/Engine/DialogueNode" then
+				node.__order:insert("text_en")
+				node.text_en, i = string.unpack("<s4", rom, i)
+				i += 1 -- null terminator not included in length
+			elseif type == "/EE/Types/Engine/EndDialogueNode" then
+				-- Note: This node type may have a name, in which case that's the name of the dialogue that will start tomorrow.
+				assert(num_choices == 0)
+			elseif type == "/EE/Types/Engine/ChemistryDialogueNode" then
+				node.__order:insert("chemistry")
+				node.chemistry, i = string.unpack("<I4", rom, i)
+			--elseif type == "/EE/Types/Engine/SetBooleanDialogueNode" then
+			--elseif type == "/EE/Types/Engine/ResetBooleanDialogueNode" then
+			elseif type == "/EE/Types/Engine/CheckBooleanDialogueNode" or type == "/EE/Types/Engine/CheckBooleanScriptDialogueNode" then
+				assert(num_choices == 0)
+				node.__order:insert("true_choices")
+				node.true_choices = {}
+				num_choices, i = string.unpack("<I4", rom, i) $if DEBUG then print("\tnum_true_choices="..num_choices) $end
+				for choice_i = 1, num_choices do
+					local choice
+					choice, i = string.unpack("<I4", rom, i) $if DEBUG then print("\t\ttrue_choice["..choice_i.."]="..choice) $end
+					node.true_choices:insert(choice)
+				end
+				node.__order:insert("false_choices")
+				node.false_choices = {}
+				num_choices, i = string.unpack("<I4", rom, i) $if DEBUG then print("\tnum_false_choices="..num_choices) $end
+				for choice_i = 1, num_choices do
+					local choice
+					choice, i = string.unpack("<I4", rom, i) $if DEBUG then print("\t\tfalse_choice["..choice_i.."]="..choice) $end
+					node.false_choices:insert(choice)
+				end
+				if type == "/EE/Types/Engine/CheckBooleanScriptDialogueNode" then
+					node.__order:insert("script_name")
+					node.script_name, i = string.unpack("<s4", rom, i) $if DEBUG then print("\tscript_name="..node.script_name) $end
+					i += 0xD4
+					node.__order:insert("arg1")
+					node.arg1, i = string.unpack("<s4", rom, i) $if DEBUG then print("\targ1="..node.arg1) $end
+					i += 0x10
+					node.__order:insert("arg2")
+					node.arg2, i = string.unpack("<s4", rom, i) $if DEBUG then print("\targ2="..node.arg2) $end
+					i += 8
+				end
+			elseif type == "/EE/Types/Engine/SpecialCompletionDialogueNode" then
+				i += 0x4
+				node.__order:insert("refs")
+				node.refs = {}
+				local num_refs
+				num_refs, i = string.unpack("<I4", rom, i) $if DEBUG then print("\tnum_refs="..num_refs) $end
+				for ref_i = 1, num_refs do
+					local ref_diag_name, ref_bool_name
+					ref_diag_name, i = string.unpack("<s4", rom, i) $if DEBUG then print("\t\tref_diag_name["..ref_i.."]="..ref_diag_name) $end
+					ref_bool_name, i = string.unpack("<s4", rom, i) $if DEBUG then print("\t\tref_bool_name["..ref_i.."]="..ref_bool_name) $end
+					if ref_bool_name ~= "" then
+						node.refs:insert({
+							__order = { "diag", "bool" },
+							diag = diag_name,
+							bool = ref_bool_name
+						})
+					end
+					i += 4
+				end
+			elseif type == "/EE/Types/Engine/ScriptDialogueNode" then
+				node.__order:insert("script_name")
+				node.script_name, i = string.unpack("<s4", rom, i) $if DEBUG then print("\tscript_name="..node.script_name) $end
+				i += 4
+				node.__order:insert("script_args")
+				node.script_args = {}
+				for arg_i = 1, 18 do
+					local arg
+					arg, i = string.unpack("<s4", rom, i) $if DEBUG then print("\targ["..arg_i.."]="..arg) $end
+					if arg ~= "" then
+						node.script_args:insert(arg)
+					end
+				end
+				i += 0x1C
+			end
+		end
+	end
+
+	io.contents(diag_name..".json", json.encode(nodes_array, true))
+
+	$if TREE_EXPORT then
+		-- Unflatten nodes_map
+		for nodes_map as node do
+			for i in node.choices do
+				node.choices[i] = nodes_map[node.choices[i]]
+			end
+			if node.true_choices then
+				for i in node.true_choices do
+					node.true_choices[i] = nodes_map[node.true_choices[i]]
+				end
+				for i in node.false_choices do
+					node.false_choices[i] = nodes_map[node.false_choices[i]]
+				end
+			end
+		end
+
+		print(diag_name)
+		io.makedir(diag_name)
+		for i in nodes_map do
+			if nodes_map[i].type == "/EE/Types/Engine/StartDialogueNode" then
+				print("\t"..nodes_map[i].name)
+				try
+					io.contents(diag_name.."/"..nodes_map[i].name..".json", json.encode(nodes_map[i], true))
+				catch e then
+					print("\t\t"..e)
+				end
+			end
+		end
+	$end
+	$if FLOW_EXPORT then
+		assert(not TREE_EXPORT, "TREE_EXPORT and FLOW_EXPORT are mutually exclusive")
+		local function export_flow(choices)
+			local flow = { __order = {} }
+			local chemistry
+			while #choices == 1 do
+				local node = nodes_map[choices[1]]
+				if node.type == "/EE/Types/Engine/PlayerChoiceDialogueNode" or node.type == "/EE/Types/Engine/EndDialogueNode" then
+					break
+				end
+				if node.type == "/EE/Types/Engine/ChemistryDialogueNode" then
+					chemistry = node.chemistry
+				elseif node.type == "/EE/Types/Engine/DialogueNode" then
+					if not flow.texts then
+						flow.__order:insert("texts")
+						flow.texts = {}
+					end
+					flow.texts:insert({
+						__order = { "nicknameOverride", "en", "chemistry" },
+						nicknameOverride = node.nickname_override,
+						en = node.text_en,
+						chemistry = chemistry
+					})
+					chemistry = nil
+				elseif node.type == "/EE/Types/Engine/SetBooleanDialogueNode" then
+					flow.__order:insert("setBoolean")
+					flow.setBoolean = node.name
+				elseif node.type == "/EE/Types/Engine/CheckBooleanDialogueNode" then
+					if not flow.choices then
+						flow.__order:insert("choices")
+						flow.choices = {}
+					end
+					for node.true_choices as node_id do
+						local choice = export_flow(nodes_map[node_id].choices)
+						choice.__order:insert(1, "ifBooleanIsTrue")
+						choice.ifBooleanIsTrue = node.name
+						choice.__order:insert(1, "en")
+						choice.en = node.text_en
+						flow.choices:insert(choice)
+					end
+					for node.false_choices as node_id do
+						local choice = export_flow(nodes_map[node_id].choices)
+						choice.__order:insert(1, "ifBooleanIsFalse")
+						choice.ifBooleanIsFalse = node.name
+						choice.__order:insert(1, "en")
+						choice.en = node.text_en
+						flow.choices:insert(choice)
+					end
+				else
+					error("Unhandled node type: "..node.type)
+				end
+				choices = node.choices
+			end
+			for i = 1, #choices do
+				local node = nodes_map[choices[i]]
+				if node.type == "/EE/Types/Engine/EndDialogueNode" then
+					if node.name then
+						flow.__order:insert("setNextDialogue")
+						flow.setNextDialogue = node.name
+					end
+				else
+					if not flow.choices then
+						flow.__order:insert("choices")
+						flow.choices = {}
+					end
+					local choice = export_flow(node.choices)
+					choice.__order:insert(1, "en")
+					choice.en = node.text_en
+					flow.choices:insert(choice)
+				end
+			end
+			return flow
+		end
+
+		io.makedir(diag_name)
+		for i in nodes_map do
+			if nodes_map[i].type == "/EE/Types/Engine/StartDialogueNode" then
+				try
+					io.contents(diag_name.."/"..nodes_map[i].name..".json", json.encode(export_flow(nodes_map[i].choices), true))
+				catch e then
+					print(nodes_map[i].name, e)
+				end
+			end
+		end
+	$end
+end
