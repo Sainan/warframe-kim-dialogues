@@ -181,7 +181,13 @@
 		div.onclick = function()
 		{
 			choice_history.push(choiceId);
-			saveState();
+
+			if (!window.replayed_choice)
+			{
+				saveState();
+			}
+			window.replayed_choice = false;
+
 			callback();
 		};
 		document.getElementById("choices").appendChild(div);
@@ -192,6 +198,7 @@
 		if (window.replay_choices?.length)
 		{
 			const choiceId = window.replay_choices.shift();
+			window.replayed_choice = true;
 			document.getElementById("choices").children[choiceId].onclick();
 		}
 	}
