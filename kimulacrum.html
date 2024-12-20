@@ -412,9 +412,9 @@
 			document.getElementById("chatroom").value = params.get("chatroom");
 			setActiveChatroom(params.get("chatroom"), function()
 			{
-				document.getElementById("dialogue").value = params.get("dialogue");
 				if (params.has("dialogue"))
 				{
+					document.getElementById("dialogue").value = params.get("dialogue");
 					if (window.dialogue != params.get("dialogue"))
 					{
 						setActiveDialogue(params.get("dialogue"));
