@@ -63,6 +63,65 @@
 	<div id="choices"></div>
 </body>
 <script>
+	const retro_emoji_paths = [
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiAnnoyed1_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiAnnoyed2_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiAoiCat_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiAwHug_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiCat_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiCheeky_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiCoolArmsUp_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiCow_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiDog_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiFlowers_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiFood_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiGiveLove_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiGlare_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiHappy1_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiHappy2_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiHappyArmsUp_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiHappyHand_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiHeart_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiHollars_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiHorrified_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiJoy_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiKnife_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiMusic1_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiMusic2_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiOhno_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiPassGlasses_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiPumpedUp_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiShrug_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiSleeping_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiSmitten_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiSneaky_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiStare_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiSunglasses_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiSweat_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiTM_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiThumbsUp_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiTinySmile_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiTwoHugs_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiWhoa_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiWink_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiWut_d.png",
+		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiYum_d.png",
+	];
+
+	function resolveEmojis(text)
+	{
+		return text.replaceAll(/<[^>]+>/g, (match) => {
+			const name = match.split("<").join("").split(">").join("");
+			const simpleName = name.toLowerCase().split("_").join("");
+			const emojiPath = retro_emoji_paths.find(emojiPath => emojiPath.toLowerCase().indexOf(simpleName) !== -1);
+			if (emojiPath)
+			{
+				return "<img alt='<" + emojiPath + ">' style='height:1em;position:relative;bottom:-3px' src='https://browse.wf" + emojiPath + "' />";
+			}
+			return "&lt;" + name + "&gt;";
+		});
+	}
+
 	function addToHistory(author, text, chemistry)
 	{
 		const div = document.createElement("div");
@@ -88,21 +147,10 @@
 			}
 			div.appendChild(span);
 		}
-		const lines = text.split("\r\n");
-		if (lines.length == 1)
 		{
 			const span = document.createElement(chemistry ? "b" : "span");
-			span.textContent = text;
+			span.innerHTML = resolveEmojis(text).split("\r\n").join("<br/>");
 			div.appendChild(span);
-		}
-		else
-		{
-			lines.forEach(line => {
-				const span = document.createElement(chemistry ? "b" : "span");
-				span.className = "chat-message-line";
-				span.textContent = line;
-				div.appendChild(span);
-			});
 		}
 		if (chemistry)
 		{
@@ -117,7 +165,7 @@
 	{
 		const div = document.createElement("div");
 		div.className = "choice";
-		div.textContent = "• " + text;
+		div.innerHTML = "• " + resolveEmojis(text);
 		div.onclick = callback;
 		document.getElementById("choices").appendChild(div);
 	}
