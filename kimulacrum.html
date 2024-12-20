@@ -26,7 +26,12 @@
 	</style>
 </head>
 <body>
-	<table>
+	<table style="width:100%;text-align:center;">
+		<tr>
+			<th>Chat Controls</th>
+			<th>User Name</th>
+			<th>Ambience</th>
+		</tr>
 		<tr>
 			<td>
 				<select id="chatroom">
@@ -44,6 +49,9 @@
 				</select>
 			</td>
 			<td>
+				<input id="username" value="Drifter" />
+			</td>
+			<td>
 				<audio controls autoplay>
 					<source src="1999GreatDespairRomanceChatLoop.mp3" type="audio/mpeg" />
 				</audio>
@@ -55,26 +63,27 @@
 	<div id="choices"></div>
 </body>
 <script>
-	const USER_SENDER_NAME = "John Prodman";
-
 	function addToHistory(author, text, chemistry)
 	{
 		const div = document.createElement("div");
 		div.className = "chat-message";
 		{
 			const span = document.createElement("span");
-			span.textContent = author;
 			span.classList.add("chat-message-author");
-			if (author == USER_SENDER_NAME)
+			if (author == "Drifter")
 			{
+				span.classList.add("chat-message-author-self");
+				span.textContent = document.getElementById("username").value || "Drifter";
 				span.style.color = "red";
 			}
 			else if (author == "System")
 			{
+				span.textContent = author;
 				span.style.color = "orange";
 			}
 			else
 			{
+				span.textContent = author;
 				span.style.color = "blue";
 			}
 			div.appendChild(span);
@@ -136,7 +145,7 @@
 		}
 		else if (node.type == "/EE/Types/Engine/PlayerChoiceDialogueNode")
 		{
-			addToHistory(USER_SENDER_NAME, node.text_en);
+			addToHistory("Drifter", node.text_en);
 		}
 		else if (node.type == "/EE/Types/Engine/ChemistryDialogueNode")
 		{
@@ -247,4 +256,10 @@
 		}
 	};
 	document.getElementById("starting-node").onchange();
+
+	document.getElementById("username").oninput = function()
+	{
+		const username = this.value || "Drifter";
+		document.querySelectorAll(".chat-message-author-self").forEach(elm => elm.textContent = username);
+	};
 </script>
