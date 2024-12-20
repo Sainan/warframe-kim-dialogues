@@ -53,6 +53,13 @@ local function emit_dot(filename, start)
 				fh:write(node.name)
 				fh:write('"')
 				break
+			case "/EE/Types/Engine/CheckBooleanScriptDialogueNode":
+				fh:write('"Check ')
+				fh:write(node.script_name)
+				fh:write(" for boolean ")
+				fh:write(node.arg1)
+				fh:write('"')
+				break
 			case "/EE/Types/Engine/SpecialCompletionDialogueNode":
 				if #node.refs ~= 0 then
 					fh:write('"Initiate conversation '..node.refs[1].convo..' in '..node.refs[1].diag..'"')
