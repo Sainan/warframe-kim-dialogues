@@ -116,7 +116,7 @@
 			const emojiPath = retro_emoji_paths.find(emojiPath => emojiPath.toLowerCase().indexOf(simpleName) !== -1);
 			if (emojiPath)
 			{
-				return "<img alt='<" + emojiPath + ">' style='height:1em;position:relative;bottom:-3px' src='https://browse.wf" + emojiPath + "' />";
+				return "<img alt='<" + name + ">' style='height:1em;position:relative;bottom:-3px' src='https://browse.wf" + emojiPath + "' />";
 			}
 			return "&lt;" + name + "&gt;";
 		});
