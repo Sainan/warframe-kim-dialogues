@@ -1,0 +1,164 @@
+local { json } = require "*"
+
+local nodes
+
+local username_loctags <const> = {
+	["/Lotus/Language/1999/MessengerAoiUserName"] = "xX GLIMMER Xx",
+	["/Lotus/Language/1999/MessengerArthurUserName"] = "Broadsword",
+	["/Lotus/Language/1999/MessengerEleanorUserName"] = "Salem",
+	["/Lotus/Language/1999/MessengerHexUserName"] = "The Hex",
+	["/Lotus/Language/1999/MessengerJabirUserName"] = "H16h V0l7463",
+	["/Lotus/Language/1999/MessengerLettieUserName"] = "Belladonna ~{@",
+	["/Lotus/Language/1999/MessengerQuincyUserName"] = "Soldja1Shot1kil",
+}
+
+local function emit_graph(name, start)
+	local pending_nodes = { start }
+	local emitted_nodes = {}
+
+	local fh = io.open("tmp.dot", "w")
+	fh:write("digraph {\n")
+	local function write_node_name(node)
+		if node.type == "/EE/Types/Engine/EndDialogueNode" then
+			if node.name then
+				fh:write('"Chat ends. Next chat will be '..node.name..'."')
+			else
+				fh:write('"Chat ends."')
+			end
+		else
+			fh:write(node.id)
+		end
+	end
+	local function write_node_label(node)
+		switch node.type do
+			case "/EE/Types/Engine/ChemistryDialogueNode":
+				fh:write('"+')
+				fh:write(node.chemistry)
+				fh:write(' Chemistry"')
+				break
+			case "/EE/Types/Engine/SetBooleanDialogueNode":
+				fh:write('"Boolean ')
+				fh:write(node.name)
+				fh:write(' is now true."')
+				break
+			case "/EE/Types/Engine/ResetBooleanDialogueNode":
+				fh:write('"Boolean ')
+				fh:write(node.name)
+				fh:write(' is now false."')
+				break
+			case "/EE/Types/Engine/CheckBooleanDialogueNode":
+				fh:write('"Check boolean ')
+				fh:write(node.name)
+				fh:write('"')
+				break
+			default:
+				fh:write('"')
+				if node.text_en then
+					if node.nickname_override then
+						fh:write(username_loctags[node.nickname_override] or node.nickname_override)
+						fh:write(": ")
+					end
+					fh:write(node.text_en:replace('"', '\\"'))
+				else
+					fh:write(node.type)
+				end
+				fh:write('"')
+				break
+		end
+	end
+	while #pending_nodes ~= 0 do
+		local node_id = pending_nodes:remove()
+
+		if emitted_nodes[node_id] then
+			continue
+		end
+		emitted_nodes[node_id] = true
+
+		local node = nodes[1 + node_id]
+
+		fh:write("\t")
+		switch node.type do
+			case "/EE/Types/Engine/DialogueNode":
+				fh:write(node.id)
+				fh:write(" [label=")
+				write_node_label(node)
+				fh:write(",shape=box,color=blue];\n")
+				break
+			case "/EE/Types/Engine/PlayerChoiceDialogueNode":
+				fh:write(node.id)
+				fh:write(" [label=")
+				write_node_label(node)
+				fh:write(",shape=box,color=red];\n")
+				break
+			case "/EE/Types/Engine/EndDialogueNode":
+				write_node_name(node)
+				fh:write(" [color=orange];\n")
+				break
+			default:
+				write_node_name(node)
+				fh:write(" [label=")
+				write_node_label(node)
+				fh:write(",color=orange];\n")
+				break
+		end
+
+		if node.true_choices then
+			for node.true_choices as choice do
+				fh:write("\t\t")
+				write_node_name(node)
+				fh:write(" -> ")
+				write_node_name(nodes[1 + choice])
+				fh:write(" [label=true,color=green];\n")
+				pending_nodes:insert(1, choice)
+			end
+			for node.false_choices as choice do
+				fh:write("\t\t")
+				write_node_name(node)
+				fh:write(" -> ")
+				write_node_name(nodes[1 + choice])
+				fh:write(" [label=false,color=brown];\n")
+				pending_nodes:insert(1, choice)
+			end
+		else
+			for node.choices as choice do
+				fh:write("\t\t")
+				write_node_name(node)
+				fh:write(" -> ")
+				write_node_name(nodes[1 + choice])
+				fh:write(";\n")
+				pending_nodes:insert(1, choice)
+			end
+		end
+	end
+	fh:write("}")
+	fh:close()
+
+	os.execute("dot tmp.dot -T png -o tmp.png")
+	io.rename("tmp.png", name..".png")
+end
+
+for {
+	"AoiDialogue_rom.dialogue",
+	"ArthurDialogue_rom.dialogue",
+	"EleanorDialogue_rom.dialogue",
+	"HexDialogue_rom.dialogue",
+	"JabirDialogue_rom.dialogue",
+	"LettieDialogue_rom.dialogue",
+	"QuincyDialogue_rom.dialogue",
+} as diag_name do
+	nodes = io.contents(diag_name..".json") |> json.decode
+
+	io.makedir("flowcharts")
+	io.makedir("flowcharts/"..diag_name)
+
+	print(diag_name)
+	for nodes as node do
+		if node.type == "/EE/Types/Engine/StartDialogueNode" then
+			print("\t"..node.name)
+			if true or not io.exists("flowcharts/"..diag_name.."/"..node.name..".png") then
+				emit_graph("flowcharts/"..diag_name.."/"..node.name, node.id)
+			end
+		end
+	end
+	io.remove("tmp.dot")
+end
