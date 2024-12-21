@@ -8,16 +8,12 @@ digraph {
 		2507 -> 2505;
 	2511 [label="Sí
 Sure",shape=box,color=blue];
-		2511 -> 2518;
+		2511 -> "Chat ends.";
 	2505 [label="+20 Chemistry",color=orange];
 		2505 -> 2502;
-	2518 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		2518 -> "Chat ends.";
+	"Chat ends." [color=orange];
 	2502 [label="Hah!
 I wish
 I do get off early, though. Good enough for me.",shape=box,color=blue];
-		2502 -> 2519;
-	"Chat ends." [color=orange];
-	2519 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		2519 -> "Chat ends.";
+		2502 -> "Chat ends.";
 }

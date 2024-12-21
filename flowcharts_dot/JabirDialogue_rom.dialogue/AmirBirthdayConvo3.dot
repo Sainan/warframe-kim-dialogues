@@ -7,14 +7,10 @@ digraph {
 	3586 [label="GREETINGS AMIR CONGRATULATIONS ON THE ANNIVERSARY OF YOUR COMMENCEMENT OF EXISTENCE",shape=box,color=red];
 		3586 -> 3587;
 	3584 [label="amir is not here right now this is a clever firewall program amir wrote to filter out insincere birthday wishes oh look there’s one",shape=box,color=blue];
-		3584 -> 3598;
+		3584 -> "Chat ends.";
 	3587 [label="+20 Chemistry",color=orange];
 		3587 -> 3583;
-	3598 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3598 -> "Chat ends.";
-	3583 [label="CULTURALLY APPROPRIATE STATEMENT OF PROFOUND THANKS AND FOND APPRECIATION",shape=box,color=blue];
-		3583 -> 3599;
 	"Chat ends." [color=orange];
-	3599 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3599 -> "Chat ends.";
+	3583 [label="CULTURALLY APPROPRIATE STATEMENT OF PROFOUND THANKS AND FOND APPRECIATION",shape=box,color=blue];
+		3583 -> "Chat ends.";
 }

@@ -7,14 +7,10 @@ digraph {
 	3579 [label="Hey, Amir. Happy birthday. Hope you’re having fun!",shape=box,color=red];
 		3579 -> 3573;
 	3577 [label="oh. well. it's the thought that counts i guess. ... and the minimal effort. ... thanks",shape=box,color=blue];
-		3577 -> 3596;
+		3577 -> "Chat ends.";
 	3573 [label="+20 Chemistry",color=orange];
 		3573 -> 3576;
-	3596 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3596 -> "Chat ends.";
-	3576 [label="YES I AM TODAY IS BEAUTIFUL I HAVE BEEN UP SINCE 12.01 WE HAVE BEEN DRINKING ENERGY DRINKS AND PLAYING IN THE ARCADE AND AOI MADE ME A FLOOF ROOM AND I THREW UP IN THE FLOOF ROOM",shape=box,color=blue];
-		3576 -> 3597;
 	"Chat ends." [color=orange];
-	3597 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3597 -> "Chat ends.";
+	3576 [label="YES I AM TODAY IS BEAUTIFUL I HAVE BEEN UP SINCE 12.01 WE HAVE BEEN DRINKING ENERGY DRINKS AND PLAYING IN THE ARCADE AND AOI MADE ME A FLOOF ROOM AND I THREW UP IN THE FLOOF ROOM",shape=box,color=blue];
+		3576 -> "Chat ends.";
 }

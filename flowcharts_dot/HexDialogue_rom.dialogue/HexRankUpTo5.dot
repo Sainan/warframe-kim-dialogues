@@ -61,8 +61,6 @@ Can't wait to talk to someone about something other than Arthur’s fighting sta
 	3 [label="Broadsword: Right, I’m opening the mall. No turning back. No second guessing. Remember: it means something to these people to have somewhere to feel safe. But we can do better. Let’s have fun again.",shape=box,color=blue];
 		3 -> 220;
 	220 [label="/EE/Types/Engine/ScriptDialogueNode",color=orange];
-		220 -> 37;
-	37 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		37 -> "Chat ends.";
+		220 -> "Chat ends.";
 	"Chat ends." [color=orange];
 }

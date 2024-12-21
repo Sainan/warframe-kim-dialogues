@@ -9,12 +9,8 @@ digraph {
 	3567 [label="+20 Chemistry",color=orange];
 		3567 -> 3569;
 	3568 [label="GASP!! i can't believe you'd just leave something that lying around where my inner child could read it!! WON'T SOMEBODY THINK OF THE CHILDREN?!",shape=box,color=blue];
-		3568 -> 3595;
+		3568 -> "Chat ends.";
 	3569 [label="Oh PSHAWW! thaaaanks but it was nothing!! the planet did most of the hard work, I was just along for the ride",shape=box,color=blue];
-		3569 -> 3594;
-	3595 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3595 -> "Chat ends.";
-	3594 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3594 -> "Chat ends.";
+		3569 -> "Chat ends.";
 	"Chat ends." [color=orange];
 }

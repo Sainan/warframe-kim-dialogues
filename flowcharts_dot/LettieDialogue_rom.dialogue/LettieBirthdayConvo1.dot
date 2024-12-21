@@ -11,14 +11,10 @@ digraph {
 	1298 [label="What is star days?
 Whatever. Too busy for that shit.
 Adiós",shape=box,color=blue];
-		1298 -> 2517;
+		1298 -> "Chat ends.";
 	1300 [label="Jajaja no
 All I want is to sleep in an hour or a fresh cup of coffee. That too much to ask? 
 Pero, gracias",shape=box,color=blue];
-		1300 -> 2516;
-	2517 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		2517 -> "Chat ends.";
-	2516 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		2516 -> "Chat ends.";
+		1300 -> "Chat ends.";
 	"Chat ends." [color=orange];
 }

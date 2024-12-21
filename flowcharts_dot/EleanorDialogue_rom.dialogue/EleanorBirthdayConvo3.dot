@@ -9,12 +9,8 @@ digraph {
 	784 [label="+20 Chemistry",color=orange];
 		784 -> 2835;
 	785 [label="Thanks for reminding me that I haven’t had a birthday cake in years. Truly thoughtful.",shape=box,color=blue];
-		785 -> 2843;
+		785 -> "Chat ends.";
 	2835 [label="I am. Everyone’s been very sweet, even those who are usually not. Maybe there’s hope for us yet?",shape=box,color=blue];
-		2835 -> 2838;
-	2843 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		2843 -> "Chat ends.";
-	2838 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		2838 -> "Chat ends.";
+		2835 -> "Chat ends.";
 	"Chat ends." [color=orange];
 }

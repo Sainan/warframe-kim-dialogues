@@ -7,14 +7,10 @@ digraph {
 	3806 [label="Happy Birthday, Aoi! Hope you’re having a great day!",shape=box,color=red];
 		3806 -> 3808;
 	3811 [label="thx",shape=box,color=blue];
-		3811 -> 3832;
+		3811 -> "Chat ends.";
 	3808 [label="+20 Chemistry",color=orange];
 		3808 -> 3809;
-	3832 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3832 -> "Chat ends.";
-	3809 [label="u know what, I am! <RETRO_EMOJI_AOICAT> appreciate u!",shape=box,color=blue];
-		3809 -> 3833;
 	"Chat ends." [color=orange];
-	3833 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3833 -> "Chat ends.";
+	3809 [label="u know what, I am! <RETRO_EMOJI_AOICAT> appreciate u!",shape=box,color=blue];
+		3809 -> "Chat ends.";
 }

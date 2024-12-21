@@ -17,6 +17,11 @@ local function emit_dot(filename, start)
 			else
 				return '"Chat ends."'
 			end
+		elseif node.type == "/EE/Types/Engine/SpecialCompletionDialogueNode" and #node.refs == 0 then
+			assert(#node.choices == 1)
+			assert(nodes[1 + node.choices[1]].type == "/EE/Types/Engine/EndDialogueNode")
+			assert(nodes[1 + node.choices[1]].name == nil)
+			return '"Chat ends."'
 		elseif node.type == "/EE/Types/Engine/StartDialogueNode" then
 			return '"'..node.name..' begins."'
 		elseif node.type == "/EE/Types/Engine/SetBooleanDialogueNode" or node.type == "/EE/Types/Engine/ResetBooleanDialogueNode" then
@@ -61,13 +66,6 @@ local function emit_dot(filename, start)
 				fh:write(" for boolean ")
 				fh:write(node.arg1)
 				fh:write('"')
-				break
-			case "/EE/Types/Engine/SpecialCompletionDialogueNode":
-				if #node.refs ~= 0 then
-					fh:write('"Initiate conversation '..node.refs[1].convo..' in '..node.refs[1].diag..'"')
-				else
-					fh:write('"/EE/Types/Engine/SpecialCompletionDialogueNode"')
-				end
 				break
 			case "/EE/Types/Engine/DialogueNode":
 			case "/EE/Types/Engine/PlayerChoiceDialogueNode":
@@ -114,6 +112,16 @@ local function emit_dot(filename, start)
 			case "/EE/Types/Engine/EndDialogueNode":
 				fh:write(node_name)
 				fh:write(" [color=orange];\n")
+				break
+			case "/EE/Types/Engine/SpecialCompletionDialogueNode":
+				fh:write(node_name)
+				if #node.refs == 0 then
+					fh:write(" [color=orange];\n")
+					continue -- Don't write transition to EndDialogueNode
+				end
+				fh:write(" [label=")
+				fh:write('"Initiate conversation '..node.refs[1].convo..' in '..node.refs[1].diag..'"')
+				fh:write(",color=orange];\n")
 				break
 			default:
 				fh:write(node_name)

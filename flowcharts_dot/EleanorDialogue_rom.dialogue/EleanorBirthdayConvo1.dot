@@ -9,12 +9,8 @@ digraph {
 	2819 [label="+20 Chemistry",color=orange];
 		2819 -> 2820;
 	2821 [label="Happy ordinary day, mere human annoyance!",shape=box,color=blue];
-		2821 -> 2840;
+		2821 -> "Chat ends.";
 	2820 [label="And I’ve never let him forget it. Heh.",shape=box,color=blue];
-		2820 -> 2839;
-	2840 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		2840 -> "Chat ends.";
-	2839 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		2839 -> "Chat ends.";
+		2820 -> "Chat ends.";
 	"Chat ends." [color=orange];
 }

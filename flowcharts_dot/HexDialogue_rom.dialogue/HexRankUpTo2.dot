@@ -137,8 +137,6 @@ Otherwise it would be “return to Sender”",shape=box,color=blue];
 	82 [label="Salem: I'll be there.",shape=box,color=blue];
 		82 -> 83;
 	83 [label="Belladonna ~{@: I won't",shape=box,color=blue];
-		83 -> 218;
-	218 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		218 -> "Chat ends.";
+		83 -> "Chat ends.";
 	"Chat ends." [color=orange];
 }

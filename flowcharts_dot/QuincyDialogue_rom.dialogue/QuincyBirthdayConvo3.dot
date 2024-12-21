@@ -9,12 +9,8 @@ digraph {
 	3551 [label="+20 Chemistry",color=orange];
 		3551 -> 3549;
 	3555 [label="yea n we can get lil paper hats n everything. laaaaaame",shape=box,color=blue];
-		3555 -> 3156;
+		3555 -> "Chat ends.";
 	3549 [label="hahahaha u kno it, lets light this city UP, cuz!",shape=box,color=blue];
-		3549 -> 3168;
-	3156 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3156 -> "Chat ends.";
-	3168 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3168 -> "Chat ends.";
+		3549 -> "Chat ends.";
 	"Chat ends." [color=orange];
 }

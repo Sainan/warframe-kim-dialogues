@@ -9,12 +9,8 @@ digraph {
 	3195 [label="+20 Chemistry",color=orange];
 		3195 -> 3196;
 	3198 [label="I do. Do you know what being ‘funny’ is?",shape=box,color=blue];
-		3198 -> 3222;
+		3198 -> "Chat ends.";
 	3196 [label="Never too busy for a birthday greeting, mate. Appreciate it.",shape=box,color=blue];
-		3196 -> 3221;
-	3222 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3222 -> "Chat ends.";
-	3221 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3221 -> "Chat ends.";
+		3196 -> "Chat ends.";
 	"Chat ends." [color=orange];
 }

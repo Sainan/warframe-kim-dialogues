@@ -7,14 +7,10 @@ digraph {
 	3203 [label="Happy Birthday, Arthur. Any plans?",shape=box,color=red];
 		3203 -> 3204;
 	3200 [label="Wonderful. Now I have two of you who won’t ever let that drop.",shape=box,color=blue];
-		3200 -> 3224;
+		3200 -> "Chat ends.";
 	3204 [label="+20 Chemistry",color=orange];
 		3204 -> 3202;
-	3224 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3224 -> "Chat ends.";
-	3202 [label="Thanks! Nice of you to remember. I might knock off half an hour early today. Not decided yet.",shape=box,color=blue];
-		3202 -> 3223;
 	"Chat ends." [color=orange];
-	3223 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3223 -> "Chat ends.";
+	3202 [label="Thanks! Nice of you to remember. I might knock off half an hour early today. Not decided yet.",shape=box,color=blue];
+		3202 -> "Chat ends.";
 }

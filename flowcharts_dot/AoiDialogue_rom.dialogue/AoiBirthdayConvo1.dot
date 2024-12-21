@@ -10,12 +10,8 @@ digraph {
 		3794 -> 3795;
 	3797 [label="i’m not and it’s not
 but ty anyway",shape=box,color=blue];
-		3797 -> 3829;
+		3797 -> "Chat ends.";
 	3795 [label="oml you remembered? <RETRO_EMOJI_HAPPY1> thank youuuuu!",shape=box,color=blue];
-		3795 -> 3828;
-	3829 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3829 -> "Chat ends.";
-	3828 [label="/EE/Types/Engine/SpecialCompletionDialogueNode",color=orange];
-		3828 -> "Chat ends.";
+		3795 -> "Chat ends.";
 	"Chat ends." [color=orange];
 }
