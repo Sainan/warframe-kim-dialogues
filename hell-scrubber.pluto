@@ -4,6 +4,16 @@ $define DEBUG = false
 $define TREE_EXPORT = false -- Kinda works but some chats have recursive edges, e.g. ArthurRank3Convo1 checks for ArthurSkanaEntrati in a few places and if false it runs through some messages before bool gets set, and then we're good to go.
 $define FLOW_EXPORT = false -- An attempt was made. Only really works for really simple chats.
 
+print "Loading dicts..."
+local LANGS <const> = { "en", "de", "es", "fr", "it", "ja", "ko", "pl", "pt", "ru", "tc", "th", "tr", "uk", "zh" }
+local full_dicts = {}
+local partial_dicts = {}
+for LANGS as lang do
+	full_dicts[lang] = io.contents("../warframe-languages-bin-data/"..lang..".json") |> json.decode
+	partial_dicts[lang] = {}
+end
+
+print "Loading dialogues..."
 for {
 	"AoiDialogue_rom.dialogue",
 	"ArthurDialogue_rom.dialogue",
@@ -73,6 +83,12 @@ for {
 				i += 1 -- null terminator not included in length
 
 				if not node.name then node.name = "" end
+
+				if full_dicts.en[node.name] then
+					for LANGS as lang do
+						partial_dicts[lang][node.name] = full_dicts[lang][node.name]
+					end
+				end
 			elseif type == "/EE/Types/Engine/EndDialogueNode" then
 				-- Note: This node type may have a name, in which case that's the name of the dialogue that will start tomorrow.
 				assert(num_choices == 0)
@@ -263,4 +279,10 @@ for {
 			end
 		end
 	$end
+end
+
+print "Savings dicts..."
+for LANGS as lang do
+	partial_dicts[lang].__order = partial_dicts[lang]:keys():sort()
+	io.contents("dicts/"..lang..".json", json.encode(partial_dicts[lang], true))
 end
