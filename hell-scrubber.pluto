@@ -57,6 +57,11 @@ for {
 			if nickname_override ~= "" then
 				node.__order:insert("nickname_override")
 				node.nickname_override = nickname_override
+				if full_dicts.en[nickname_override] then
+					for LANGS as lang do
+						partial_dicts[lang][nickname_override] = full_dicts[lang][nickname_override]
+					end
+				end
 			end
 			i += 0x4
 			node.__order:insert("parents")
