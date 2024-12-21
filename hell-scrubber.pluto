@@ -41,10 +41,8 @@ for {
 			nodes_map[id] = node
 			nodes_array[++id] = node
 			name, i = string.unpack("<s4", rom, i) $if DEBUG then print("\tname="..name) $end
-			if name ~= "" then
-				node.__order:insert("name")
-				node.name = name
-			end
+			node.__order:insert("name")
+			if name ~= "" then node.name = name end
 			nickname_override, i = string.unpack("<s4", rom, i) $if DEBUG then print("\tnickname_override="..nickname_override) $end
 			if nickname_override ~= "" then
 				node.__order:insert("nickname_override")
@@ -73,6 +71,8 @@ for {
 				node.__order:insert("text_en")
 				node.text_en, i = string.unpack("<s4", rom, i)
 				i += 1 -- null terminator not included in length
+
+				if not node.name then node.name = "" end
 			elseif type == "/EE/Types/Engine/EndDialogueNode" then
 				-- Note: This node type may have a name, in which case that's the name of the dialogue that will start tomorrow.
 				assert(num_choices == 0)
