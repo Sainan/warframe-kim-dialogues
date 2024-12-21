@@ -77,6 +77,11 @@ local function emit_dot(filename, start)
 				fh:write((dict_en[node.name] or node.name):replace('"', '\\"'))
 				fh:write('"')
 				break
+			case "/EE/Types/Engine/ScriptDialogueNode":
+				fh:write('"Invoke ')
+				fh:write(node.script_name)
+				fh:write('"')
+				break
 			default:
 				fh:write('"')
 				fh:write(node.type)

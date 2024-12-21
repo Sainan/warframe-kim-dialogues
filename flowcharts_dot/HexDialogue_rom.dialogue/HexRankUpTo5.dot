@@ -60,7 +60,7 @@ Can't wait to talk to someone about something other than Arthur’s fighting sta
 		1 -> 3;
 	3 [label="Broadsword: Right, I’m opening the mall. No turning back. No second guessing. Remember: it means something to these people to have somewhere to feel safe. But we can do better. Let’s have fun again.",shape=box,color=blue];
 		3 -> 220;
-	220 [label="/EE/Types/Engine/ScriptDialogueNode",color=orange];
+	220 [label="Invoke /Lotus/Scripts/1999/HexSyndicateDialog.lua",color=orange];
 		220 -> "Chat ends.";
 	"Chat ends." [color=orange];
 }
