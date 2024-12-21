@@ -124,7 +124,7 @@ digraph {
 	1306 [label="picture it... boss AOI!",shape=box,color=blue];
 		1306 -> 1309;
 	1300 [label="someone else can find that out. this? is game over.",shape=box,color=blue];
-		1300 -> 1311;
+		1300 -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:AoiDating:Chat ends.";
 	1301 [label="umm dummy no one does? maybe ur picking a fight with me here cause u know i could whoop u out there!",shape=box,color=blue];
 		1301 -> 1314;
 	1308 [label="+15 Chemistry",color=orange];
@@ -134,12 +134,12 @@ digraph {
 never doubt my trust in you.
 and don't give me a reason to doubt yours. ok? ok. boss out.",shape=box,color=blue];
 		1309 -> "Chat ends.";
-	1311 [label="Boolean IsDating is now false.",color=orange];
-		1311 -> 1312;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:AoiDating:Chat ends." [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:AoiDating:Chat ends." -> "/EE/Types/Engine/ResetBooleanDialogueNode:AoiDating:Chat ends.";
 	1314 [label="I wouldn't dare [End].",shape=box,color=red];
 		1314 -> 1315;
-	1312 [label="Boolean AoiDating is now false.",color=orange];
-		1312 -> "Chat ends.";
+	"/EE/Types/Engine/ResetBooleanDialogueNode:AoiDating:Chat ends." [label="Boolean AoiDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:AoiDating:Chat ends." -> "Chat ends.";
 	1315 [label="+15 Chemistry",color=orange];
 		1315 -> "Chat ends.";
 }

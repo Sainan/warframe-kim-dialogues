@@ -37,7 +37,7 @@ digraph {
 		1913 -> 1917;
 	"Chat ends." [color=orange];
 	1856 [label="You know, I can tell when you're upset.",shape=box,color=red];
-		1856 -> 1843;
+		1856 -> "/EE/Types/Engine/SetBooleanDialogueNode:AoiManicPixieApology:1844";
 	1841 [label="[Don't respond.]",shape=box,color=red];
 		1841 -> "Chat ends.";
 	1901 [label="gosh I am so grateful! now he won’t think I'm challenging him to a duel every time I use “;)”",shape=box,color=blue];
@@ -51,8 +51,8 @@ digraph {
 		1916 -> 1920;
 	1917 [label="<RETRO_EMOJI_TINYSMILE>",shape=box,color=red];
 		1917 -> 1921;
-	1843 [label="Boolean AoiManicPixieApology is now true.",color=orange];
-		1843 -> 1844;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AoiManicPixieApology:1844" [label="Boolean AoiManicPixieApology is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AoiManicPixieApology:1844" -> 1844;
 	1902 [label="Haha please tell me that didn't really happen.",shape=box,color=red];
 		1902 -> 1904;
 	1903 [label="Oh Arthur... I guess nobody's perfect.",shape=box,color=red];
@@ -275,13 +275,11 @@ digraph {
 	1863 [label="right...",shape=box,color=blue];
 		1863 -> 1861;
 	1862 [label="I just need some time",shape=box,color=blue];
-		1862 -> 1859;
+		1862 -> "/EE/Types/Engine/ResetBooleanDialogueNode:AoiManicPixie:Chat ends.";
 	1869 [label="ttyl",shape=box,color=blue];
 		1869 -> 1868;
-	1859 [label="Boolean AoiManicPixie is now false.",color=orange];
-		1859 -> "Chat ends.";
+	"/EE/Types/Engine/ResetBooleanDialogueNode:AoiManicPixie:Chat ends." [label="Boolean AoiManicPixie is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:AoiManicPixie:Chat ends." -> "Chat ends.";
 	1868 [label="(in case you don't know, ttyl means \"talk to you later\")",shape=box,color=blue];
-		1868 -> 1853;
-	1853 [label="Boolean AoiManicPixie is now false.",color=orange];
-		1853 -> "Chat ends.";
+		1868 -> "/EE/Types/Engine/ResetBooleanDialogueNode:AoiManicPixie:Chat ends.";
 }

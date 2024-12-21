@@ -60,7 +60,7 @@ It is nice to know that I will always have company",shape=box,color=blue];
 	1889 [label="I suspected you preferred pets to people, but I guess that confirms it.",shape=box,color=red];
 		1889 -> 1891;
 	1890 [label="I assume Anita and Tláloc are the names of two of your rats?",shape=box,color=red];
-		1890 -> 1893;
+		1890 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieRats2:1892";
 	1888 [label="¡JAJA! 
 Lo siento, lo siento 
 It's just that 
@@ -72,8 +72,8 @@ People have never been constant in my life
 Animals have",shape=box,color=blue];
 		1891 -> 1897;
 		1891 -> 1898;
-	1893 [label="Boolean LettieRats2 is now true.",color=orange];
-		1893 -> 1892;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieRats2:1892" [label="Boolean LettieRats2 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRats2:1892" -> 1892;
 	1894 [label="+5 Chemistry",color=orange];
 		1894 -> 1897;
 		1894 -> 1898;
@@ -163,7 +163,7 @@ From something that won't betray my trust or lie to me",shape=box,color=blue];
 Lo siento, couldn't resist 
 I don't get close with people often, wanted to see what you thought 
 Did come off bitchy though, jajaa",shape=box,color=blue];
-		1918 -> 1923;
+		1918 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:1929";
 	1907 [label="Mierda, am I so easy to get? 
  Here I thought I would be some great mystery jajaja 
  Sí... that is a lot of it you aren't wrong 
@@ -190,8 +190,8 @@ From something that won't betray my trust or lie to me",shape=box,color=blue];
 		1928 -> 1932 [label=true,color=green];
 		1928 -> 1932 [label=false,color=brown];
 		1928 -> 1933 [label=false,color=brown];
-	1923 [label="Boolean LettieTrust1 is now true.",color=orange];
-		1923 -> 1929;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:1929" [label="Boolean LettieTrust1 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:1929" -> 1929;
 	1940 [label="Check boolean LettieDating",color=orange];
 		1940 -> 1941 [label=true,color=green];
 		1940 -> 1942 [label=true,color=green];
@@ -275,9 +275,9 @@ But now I have something to look forward to",shape=box,color=blue];
 	1950 [label="Then I'll leave you alone with the creatures you really value.",shape=box,color=red];
 		1950 -> 1956;
 	1952 [label="Yeah, the last thing I need when I get home after a long day is to be told why I've let someone else down.",shape=box,color=red];
-		1952 -> 1957;
+		1952 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieLonely:1968";
 	1953 [label="I definitely know how that feels, that's why I love having my pets around.",shape=box,color=red];
-		1953 -> 1957;
+		1953 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieLonely:1968";
 	1954 [label="I mean, I definitely wouldn't say no to scratches and treats and love... ;)",shape=box,color=red];
 		1954 -> 1958;
 	1972 [label="And I'm into some fringe things 
@@ -300,14 +300,14 @@ How being with someone can be taxing no matter how much you care about them
 You are too young to be with me 
 Go play with Amir or Aoi 
 Esto fue un error",shape=box,color=blue];
-		1955 -> 1962;
+		1955 -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	1956 [label="Sí please do 
 And while you're at it 
 You can stay gone babas 
 Esto fue un error",shape=box,color=blue];
-		1956 -> 1962;
-	1957 [label="Boolean LettieLonely is now true.",color=orange];
-		1957 -> 1968;
+		1956 -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieLonely:1968" [label="Boolean LettieLonely is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieLonely:1968" -> 1968;
 	2442 [label="Yikes, sorry, I was just playing around. lol",shape=box,color=red];
 		2442 -> 2444;
 	2446 [label="Darn. Well, there goes that fantasy.",shape=box,color=red];
@@ -322,8 +322,8 @@ Esto fue un error",shape=box,color=blue];
  But now I have something to look forward to
  Gracias, solecito",shape=box,color=blue];
 		1959 -> "Chat ends.";
-	1962 [label="Boolean LettieDating is now false.",color=orange];
-		1962 -> 1963;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	1968 [label="+5 Chemistry",color=orange];
 		1968 -> 1966;
 	2444 [label="+5 Chemistry",color=orange];
@@ -339,8 +339,8 @@ Sorry to disappoint",shape=box,color=blue];
 	1978 [label="¿Qué? 
 ¿En serio?",shape=box,color=blue];
 		1978 -> 1982;
-	1963 [label="Boolean IsDating is now false.",color=orange];
-		1963 -> 1964;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	1966 [label="Ay sí 
 You get it 
 But it does make life lonely sometimes 
@@ -367,17 +367,17 @@ Back to work for me",shape=box,color=blue];
 		1982 -> 1989;
 		1982 -> 1988;
 		1982 -> 1987;
-	1964 [label="Boolean LettieNoDate is now true.",color=orange];
-		1964 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "Chat ends.";
 	1967 [label="But I suppose I will always have the hex underfoot 
 Whether I like it or not jajaja 
 Aayyy back to work for me 
 Later, buddy",shape=box,color=blue];
-		1967 -> 1969;
+		1967 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends.";
 	1990 [label="Let's live dangerously. Yeah. :) [Date Lettie.]",shape=box,color=red];
-		1990 -> 1995;
+		1990 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:1999";
 	1991 [label="I've changed my mind, sorry. [Do not date Lettie.]",shape=box,color=red];
-		1991 -> 1992;
+		1991 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:1993";
 	1985 [label="Ay sí 
 And you know what you said 
 Maybe someday I won't be pissed 
@@ -392,28 +392,28 @@ Pero today is not that day",shape=box,color=blue];
 	1987 [label="You're unstoppable. Unbreakable. Unflinching. Nothing seems to slow you down. You're one of the toughest people I've ever met. And -",shape=box,color=red];
 		1987 -> 2010;
 		1987 -> 2009;
-	1969 [label="Boolean LettieWillDate is now true.",color=orange];
-		1969 -> "Chat ends.";
-	1995 [label="Boolean LettieWillDate is now true.",color=orange];
-		1995 -> 1996;
-	1992 [label="Boolean LettieNoDate is now true.",color=orange];
-		1992 -> 1993;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends." [label="Boolean LettieWillDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends." -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:1999" [label="Boolean LettieWillDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:1999" -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:1999";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:1993" [label="Boolean LettieNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:1993" -> 1993;
 	2009 [label="You're one of the kindest, most caring people I've ever met. The way you tend to your animals and the way you'll go out of your way for people makes my heart melt.",shape=box,color=red];
 		2009 -> 2012;
 	2013 [label="You're made of iron. And I know that no matter what they throw at you - Entrati, the Man in the Wall, Viktor and the Scaldra - it doesn't matter. They don't stand a chance.",shape=box,color=red];
 		2013 -> 2012;
 	2010 [label="Let's stop to consider how damn gorgeous you are, and how you could absolutely break me like a twig if you wanted to. lol",shape=box,color=red];
 		2010 -> 2012;
-	1996 [label="Boolean LettieDating is now true.",color=orange];
-		1996 -> 1997;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:1999" [label="Boolean LettieDating is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:1999" -> "/EE/Types/Engine/SetBooleanDialogueNode:IsDating:1999";
 	1993 [label="Encendido, apagado, encendido, apagado 
 On, off, on, off 
 No more, babas",shape=box,color=blue];
 		1993 -> "Chat ends.";
 	2012 [label="Point is... I care about you, Lettie. A lot. And more than just as friend, and I understand if it isn't mutual, but -",shape=box,color=red];
 		2012 -> 2011;
-	1997 [label="Boolean IsDating is now true.",color=orange];
-		1997 -> 1999;
+	"/EE/Types/Engine/SetBooleanDialogueNode:IsDating:1999" [label="Boolean IsDating is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:IsDating:1999" -> 1999;
 	2011 [label="Shut up",shape=box,color=blue];
 		2011 -> 2008;
 	1999 [label="+5 Chemistry",color=orange];
@@ -441,8 +441,8 @@ Can't process when I'm tearing up",shape=box,color=blue];
 Never take them well 
 Talk tomorrow, sort this shit out then 
 Lo siento",shape=box,color=blue];
-		2004 -> 2003;
-	2003 [label="Boolean LettieConfession is now true.",color=orange];
-		2003 -> "Chat ends. Next chat will be LettieConfession.";
+		2004 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieConfession:Chat ends. Next chat will be LettieConfession.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieConfession:Chat ends. Next chat will be LettieConfession." [label="Boolean LettieConfession is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieConfession:Chat ends. Next chat will be LettieConfession." -> "Chat ends. Next chat will be LettieConfession.";
 	"Chat ends. Next chat will be LettieConfession." [color=orange];
 }

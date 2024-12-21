@@ -32,7 +32,7 @@ digraph {
 		2031 -> 2033;
 	"Chat ends." [color=orange];
 	1992 [label="You know, I can tell when you're upset.",shape=box,color=red];
-		1992 -> 1979;
+		1992 -> "/EE/Types/Engine/SetBooleanDialogueNode:AoiManicPixieApology:1980";
 	1977 [label="[Don't respond.]",shape=box,color=red];
 		1977 -> "Chat ends.";
 	2044 [label="scrapping the arcade would crush Amir. it’s not just games to him, u know? it’s a reminder of normalcy, something that keeps him smiling.",shape=box,color=blue];
@@ -43,8 +43,8 @@ digraph {
 		2033 -> 2034;
 		2033 -> 2035;
 		2033 -> 2036;
-	1979 [label="Boolean AoiManicPixieApology is now true.",color=orange];
-		1979 -> 1980;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AoiManicPixieApology:1980" [label="Boolean AoiManicPixieApology is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AoiManicPixieApology:1980" -> 1980;
 	2045 [label="that happiness fuels the whole team in ways metal parts never could",shape=box,color=blue];
 		2045 -> 2046;
 		2045 -> 2047;
@@ -254,13 +254,11 @@ digraph {
 	1998 [label="right...",shape=box,color=blue];
 		1998 -> 1996;
 	1997 [label="I just need some time",shape=box,color=blue];
-		1997 -> 1995;
+		1997 -> "/EE/Types/Engine/ResetBooleanDialogueNode:AoiManicPixie:Chat ends.";
 	2004 [label="ttyl",shape=box,color=blue];
 		2004 -> 2003;
-	1995 [label="Boolean AoiManicPixie is now false.",color=orange];
-		1995 -> "Chat ends.";
+	"/EE/Types/Engine/ResetBooleanDialogueNode:AoiManicPixie:Chat ends." [label="Boolean AoiManicPixie is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:AoiManicPixie:Chat ends." -> "Chat ends.";
 	2003 [label="(in case you don't know, ttyl means \"talk to you later\")",shape=box,color=blue];
-		2003 -> 1989;
-	1989 [label="Boolean AoiManicPixie is now false.",color=orange];
-		1989 -> "Chat ends.";
+		2003 -> "/EE/Types/Engine/ResetBooleanDialogueNode:AoiManicPixie:Chat ends.";
 }

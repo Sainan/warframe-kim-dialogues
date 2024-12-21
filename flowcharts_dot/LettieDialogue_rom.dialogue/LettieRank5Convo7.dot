@@ -81,7 +81,7 @@ And who am I to think I am important enough to stand in the way of it",shape=box
 This thing between us is clearly a mistake, babas 
 You are too young for me I think 
 If you can't understand the reality of all this",shape=box,color=blue];
-		2337 -> 2342;
+		2337 -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	2338 [label="Ay, sí 
 If it is not one of us to put a bullet in his skull It should be you 
 And I hope that once you go and make him pay 
@@ -100,8 +100,8 @@ This fake race made by fake gods the orokin",shape=box,color=blue];
 What is it 
 Tell me why it would take you from me",shape=box,color=blue];
 		2341 -> 2346;
-	2342 [label="Boolean LettieDating is now false.",color=orange];
-		2342 -> 2343;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	2364 [label="I promise that IF I do go, I WILL come back.",shape=box,color=red];
 		2364 -> 2368;
 	2365 [label="All I can do is promise to try as hard as I possibly can.",shape=box,color=red];
@@ -110,8 +110,8 @@ Tell me why it would take you from me",shape=box,color=blue];
 		2350 -> 2352;
 	2346 [label="Tau is a planet in another solar system, where the Orokin sent a synthetic race they created to terraform it for us.",shape=box,color=red];
 		2346 -> 2347;
-	2343 [label="Boolean IsDating is now false.",color=orange];
-		2343 -> 2344;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	2368 [label="+10 Chemistry",color=orange];
 		2368 -> 2366;
 	2371 [label="+20 Chemistry",color=orange];
@@ -125,8 +125,8 @@ Why is this place so important that it will take you from me some day",shape=box
 		2352 -> 2356;
 	2347 [label="The race were called Sentients. But the Sentients turned on the Orokin. Came back here and waged war on them.",shape=box,color=red];
 		2347 -> 2348;
-	2344 [label="Boolean LettieNoDate is now true.",color=orange];
-		2344 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "Chat ends.";
 	2366 [label="How many soldaditos have made that promise 
 And died in a ditch an hour later 
 Aay but I know you mean it when you say it 
@@ -135,7 +135,7 @@ You will try",shape=box,color=blue];
 	2367 [label="That is a promise I can trust 
 That is a promise I believe 
 Gracias, mi corazón",shape=box,color=blue];
-		2367 -> 2370;
+		2367 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends.";
 	2354 [label="I'm not sure. But if Entrati *and* the Man in the Wall are headed there... it has to be important.",shape=box,color=red];
 		2354 -> 2357;
 	2355 [label="It was the only hope for humanity's survival. Might still be, honestly.",shape=box,color=red];
@@ -144,8 +144,8 @@ Gracias, mi corazón",shape=box,color=blue];
 		2356 -> 2360;
 	2348 [label="And it was that war that drove the Orokin to create the infestation - and warframes - in the first place. To fight the Sentients.",shape=box,color=red];
 		2348 -> 2349;
-	2370 [label="Boolean LettieReal is now true.",color=orange];
-		2370 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends." [label="Boolean LettieReal is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends." -> "Chat ends.";
 	2357 [label="Sí 
 And I hope that once you go and make him pay 
 You will come back to us 
@@ -221,7 +221,5 @@ Aaayyyy this nonsense gets worse and worse every day",shape=box,color=blue];
 Do not talk to me of the future for a while, ¿Sí? 
 Think I've had enough of it for a long time 
 Gives me a damn headache",shape=box,color=blue];
-		2385 -> 2386;
-	2386 [label="Boolean LettieReal is now true.",color=orange];
-		2386 -> "Chat ends.";
+		2385 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends.";
 }

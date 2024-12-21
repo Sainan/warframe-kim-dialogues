@@ -94,11 +94,11 @@ digraph {
 		170 -> 172;
 		170 -> 173;
 	172 [label="Deal.",shape=box,color=red];
-		172 -> 175;
+		172 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurDuviri:Chat ends.";
 	173 [label="Pass.",shape=box,color=red];
 		173 -> 171;
-	175 [label="Boolean ArthurDuviri is now true.",color=orange];
-		175 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurDuviri:Chat ends." [label="Boolean ArthurDuviri is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurDuviri:Chat ends." -> "Chat ends.";
 	171 [label="Well, good talk, then.",shape=box,color=blue];
 		171 -> "Chat ends.";
 }

@@ -25,16 +25,16 @@ I attacked you and it was wrong",shape=box,color=blue];
 		1865 -> 1866;
 	1867 [label="Gracias, pero... 
 I... lash out when I get afraid, babas, and that is not your fault",shape=box,color=blue];
-		1867 -> 1869;
+		1867 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieAfraid:1090:1091";
 	1866 [label="+5 Chemistry",color=orange];
 		1866 -> 1868;
-	1869 [label="Boolean LettieAfraid is now true.",color=orange];
-		1869 -> 1090;
-		1869 -> 1091;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieAfraid:1090:1091" [label="Boolean LettieAfraid is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieAfraid:1090:1091" -> 1090;
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieAfraid:1090:1091" -> 1091;
 	1868 [label="Sí, jaja 
 You aren't wrong 
 I... lash out when I get afraid, babas, and that is not your fault",shape=box,color=blue];
-		1868 -> 1869;
+		1868 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieAfraid:1090:1091";
 	1090 [label="What're you afraid of?",shape=box,color=red];
 		1090 -> 1093;
 	1091 [label="*You're* afraid of something? Holy shit, get Eleanor, we have a newspaper article to write.",shape=box,color=red];

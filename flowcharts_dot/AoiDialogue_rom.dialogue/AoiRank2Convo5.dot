@@ -27,15 +27,15 @@ digraph {
 		1085 -> 1088;
 	"Chat ends." [color=orange];
 	1071 [label="You seem upset. Is it something I said?",shape=box,color=red];
-		1071 -> 1059;
+		1071 -> "/EE/Types/Engine/SetBooleanDialogueNode:AoiBoringApology:1068";
 	1058 [label="[Don't respond.]",shape=box,color=red];
 		1058 -> "Chat ends.";
 	1087 [label="I thought that was for *paper* cranes.",shape=box,color=red];
 		1087 -> 1089;
 	1088 [label="What? Where did you hear that?",shape=box,color=red];
 		1088 -> 1090;
-	1059 [label="Boolean AoiBoringApology is now true.",color=orange];
-		1059 -> 1068;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AoiBoringApology:1068" [label="Boolean AoiBoringApology is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AoiBoringApology:1068" -> 1068;
 	1089 [label="oh yes but *metal* cranes are even more magical (I like to think)",shape=box,color=blue];
 		1089 -> 1091;
 		1089 -> 1092;
@@ -215,7 +215,7 @@ digraph {
 		1154 -> 1159;
 		1154 -> 1160;
 	1070 [label="definitely!",shape=box,color=blue];
-		1070 -> 1073;
+		1070 -> "/EE/Types/Engine/ResetBooleanDialogueNode:AoiBoring:Chat ends.";
 	1050 [label="+10 Chemistry",color=orange];
 		1050 -> 1074;
 	1119 [label="Maybe.",shape=box,color=red];
@@ -251,8 +251,8 @@ digraph {
 		1159 -> 1163;
 	1160 [label="Oh... Okay, yes it did. My bad.",shape=box,color=red];
 		1160 -> 1164;
-	1073 [label="Boolean AoiBoring is now false.",color=orange];
-		1073 -> "Chat ends.";
+	"/EE/Types/Engine/ResetBooleanDialogueNode:AoiBoring:Chat ends." [label="Boolean AoiBoring is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:AoiBoring:Chat ends." -> "Chat ends.";
 	1074 [label="u bet. talk soon!",shape=box,color=blue];
 		1074 -> 1057;
 	1122 [label="alrighty then",shape=box,color=blue];
@@ -279,7 +279,7 @@ digraph {
 		1164 -> 1167;
 		1164 -> 1168;
 	1057 [label="<RETRO_EMOJI_TINYSMILE>",shape=box,color=blue];
-		1057 -> 1075;
+		1057 -> "/EE/Types/Engine/ResetBooleanDialogueNode:AoiBoring:Chat ends.";
 	1176 [label="back atcha ;)",shape=box,color=blue];
 		1176 -> 1183;
 		1176 -> 1184;
@@ -299,8 +299,6 @@ digraph {
 		1167 -> 1181;
 	1168 [label="That's a relief.",shape=box,color=red];
 		1168 -> 1182;
-	1075 [label="Boolean AoiBoring is now false.",color=orange];
-		1075 -> "Chat ends.";
 	1177 [label="<RETRO_EMOJI_SUNGLASSES>",shape=box,color=blue];
 		1177 -> 1183;
 		1177 -> 1184;

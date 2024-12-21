@@ -148,15 +148,15 @@ digraph {
 	2982 [label="Sol I'm so sorry, please, tell me.",shape=box,color=blue];
 		2982 -> 2985;
 	2971 [label="always!!!!",shape=box,color=blue];
-		2971 -> 2972;
+		2971 -> "/EE/Types/Engine/SetBooleanDialogueNode:AoiPlaySong:Chat ends.";
 	2983 [label="I like to think if I ever lost myself, music would be a way for me to find my way.",shape=box,color=red];
 		2983 -> 2987;
 	2984 [label="But we can still choose to sing together, about it all. About nothing. Just sing.",shape=box,color=red];
 		2984 -> 2989;
 	2985 [label="Telling you here on this almost feels wrong, I wish I could sing it to you, but if I can say anything it's that evil...",shape=box,color=red];
 		2985 -> 2986;
-	2972 [label="Boolean AoiPlaySong is now true.",color=orange];
-		2972 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AoiPlaySong:Chat ends." [label="Boolean AoiPlaySong is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AoiPlaySong:Chat ends." -> "Chat ends.";
 	2987 [label="what ur saying...",shape=box,color=blue];
 		2987 -> 2988;
 	2989 [label="Music is powerful.",shape=box,color=blue];

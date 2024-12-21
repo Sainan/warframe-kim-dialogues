@@ -52,7 +52,7 @@ digraph {
 		3346 -> 3347;
 		3346 -> 3348;
 	3339 [label="oh... um... ok...",shape=box,color=blue];
-		3339 -> 3340;
+		3339 -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:3341";
 	3413 [label="convincing the hex to play fables & frontiers with me, HOW AWESOME HAS THAT BEEN?!?!",shape=box,color=blue];
 		3413 -> 3414;
 	3414 [label="Check boolean AmirGameDevWarframe",color=orange];
@@ -62,8 +62,8 @@ digraph {
 		3347 -> 3349;
 	3348 [label="One word at a time. The space bar is your friend.",shape=box,color=red];
 		3348 -> 3352;
-	3340 [label="Boolean IsDating is now false.",color=orange];
-		3340 -> 3341;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:3341" [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:3341" -> 3341;
 	3417 [label="and helping me make a game about warframes lmao",shape=box,color=blue];
 		3417 -> 3420;
 	3415 [label="Check boolean AmirGameDevVampire",color=orange];
@@ -74,7 +74,7 @@ digraph {
 	3352 [label="lol",shape=box,color=blue];
 		3352 -> 3353;
 	3341 [label="bye...",shape=box,color=blue];
-		3341 -> 3342;
+		3341 -> "/EE/Types/Engine/ResetBooleanDialogueNode:AmirDating:/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:Chat ends.";
 	3420 [label="Check boolean AmirHexionary",color=orange];
 		3420 -> 3421 [label=true,color=green];
 		3420 -> 3425 [label=false,color=brown];
@@ -87,8 +87,8 @@ digraph {
 		3350 -> 3351;
 	3353 [label="poor lil spacebar",shape=box,color=blue];
 		3353 -> 3354;
-	3342 [label="Boolean AmirDating is now false.",color=orange];
-		3342 -> 3343;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:AmirDating:/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:Chat ends." [label="Boolean AmirDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:AmirDating:/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:Chat ends.";
 	3421 [label="you helped me start making the hexionary",shape=box,color=blue];
 		3421 -> 3428;
 	3425 [label="Check boolean Amir4U",color=orange];
@@ -100,8 +100,8 @@ digraph {
 		3351 -> 3355;
 	3354 [label="always neglecting it",shape=box,color=blue];
 		3354 -> 3355;
-	3343 [label="Boolean AmirNoDate is now true.",color=orange];
-		3343 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:Chat ends." [label="Boolean AmirNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:Chat ends." -> "Chat ends.";
 	3428 [label="Check boolean AmirCephalon4",color=orange];
 		3428 -> 3429 [label=true,color=green];
 		3428 -> 3431 [label=false,color=brown];
@@ -164,14 +164,12 @@ digraph {
 	3314 [label="whaddaya say to some pizza, beer, and a couple rounds of ollie's crash course? :D",shape=box,color=blue];
 		3314 -> 602;
 	531 [label=".... cool...",shape=box,color=blue];
-		531 -> 480;
+		531 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:Chat ends.";
 	3362 [label="and taught me i had the WackyHacky 9000",shape=box,color=blue];
 		3362 -> 3363;
 		3362 -> 3364;
 	602 [label="in the words of the immortal quincy, C'MON, FAMALAM",shape=box,color=blue];
 		602 -> "Chat ends.";
-	480 [label="Boolean AmirNoDate is now true.",color=orange];
-		480 -> "Chat ends.";
 	3363 [label="Please don't tell me you're naming the parazon that...",shape=box,color=red];
 		3363 -> 3365;
 	3364 [label="WackyHacky 9000...?",shape=box,color=red];
@@ -265,13 +263,9 @@ digraph {
 	3412 [label="I AM THE LUCKIEST MAN ALIIIIIIIIIIIIIVE",shape=box,color=blue];
 		3412 -> "Chat ends.";
 	3396 [label="i just... can't...",shape=box,color=blue];
-		3396 -> 3397;
-	3397 [label="Boolean IsDating is now false.",color=orange];
-		3397 -> 3398;
+		3396 -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:3398";
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:3398" [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:3398" -> 3398;
 	3398 [label="bye...",shape=box,color=blue];
-		3398 -> 3399;
-	3399 [label="Boolean AmirDating is now false.",color=orange];
-		3399 -> 3400;
-	3400 [label="Boolean AmirNoDate is now true.",color=orange];
-		3400 -> "Chat ends.";
+		3398 -> "/EE/Types/Engine/ResetBooleanDialogueNode:AmirDating:/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:Chat ends.";
 }

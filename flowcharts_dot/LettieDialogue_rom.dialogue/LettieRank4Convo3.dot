@@ -38,15 +38,15 @@ We make our pan de muerto, our calaveritas de azúcar, and set out our marigolds
 We traveled a lot, from base to base 
 But when mi tía got sick she moved in with us 
 And I learned to take care of her until she passed",shape=box,color=blue];
-		1137 -> 1140;
+		1137 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieAunt:1142:1143";
 	"Chat ends." [color=orange];
 	1136 [label="The dead people I have experience with are a bit more... intense, yeah.",shape=box,color=red];
 		1136 -> 1144;
 	1139 [label="That's beautiful.",shape=box,color=red];
 		1139 -> 1141;
-	1140 [label="Boolean LettieAunt is now true.",color=orange];
-		1140 -> 1142;
-		1140 -> 1143;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieAunt:1142:1143" [label="Boolean LettieAunt is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieAunt:1142:1143" -> 1142;
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieAunt:1142:1143" -> 1143;
 	1144 [label="We sit at their graves and we tell stories 
 We eat what we bring for them, with them 
 We talk to them and laugh with them 
@@ -63,7 +63,7 @@ Mi papá was in the army
 We traveled a lot, from base to base 
 But when mi tía got sick she moved in with us 
 And I learned to take care of her until she passed",shape=box,color=blue];
-		1147 -> 1154;
+		1147 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieAunt:1163";
 	210 [label="Gracias",shape=box,color=blue];
 		210 -> 1144;
 	1145 [label="Eh, está bien 
@@ -80,8 +80,8 @@ Good practice for the future, being a set of hands",shape=box,color=blue];
 		1146 -> 1148;
 		1146 -> 1149;
 		1146 -> 1150;
-	1154 [label="Boolean LettieAunt is now true.",color=orange];
-		1154 -> 1163;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieAunt:1163" [label="Boolean LettieAunt is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieAunt:1163" -> 1163;
 	1148 [label="Do you miss your aunt?",shape=box,color=red];
 		1148 -> 1157;
 	1149 [label="I know what it's like to lose family early in life.",shape=box,color=red];
@@ -90,15 +90,15 @@ Good practice for the future, being a set of hands",shape=box,color=blue];
 		1150 -> 1161;
 	1163 [label="Mi tía comes to me every year, pats me on the shoulder and says \"Buen trabajo, amorcito, sigue así\" 
 And it makes me smile not scream and run away in fear",shape=box,color=blue];
-		1163 -> 1164;
+		1163 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieDiasdeMuertos:1165";
 	1157 [label="+5 Chemistry",color=orange];
 		1157 -> 1151;
 	2466 [label="+5 Chemistry",color=orange];
 		2466 -> 1152;
 	1161 [label="+10 Chemistry",color=orange];
 		1161 -> 1153;
-	1164 [label="Boolean LettieDiasdeMuertos is now true.",color=orange];
-		1164 -> 1165;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieDiasdeMuertos:1165" [label="Boolean LettieDiasdeMuertos is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieDiasdeMuertos:1165" -> 1165;
 	1151 [label="No 
 I see her once a year at the festival of the dead 
 ¡Mierda! Before you ask no, it's not like what it sounds 
@@ -202,15 +202,15 @@ You put them down, it was not murder",shape=box,color=blue];
 	1187 [label="You're right...",shape=box,color=red];
 		1187 -> 1200;
 	1188 [label="Because when the Man in the Wall drove the parents insane, they attacked the children, and... the children with void powers had to kill them, and....",shape=box,color=red];
-		1188 -> 1193;
+		1188 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion4:1194";
 	1189 [label="I can't talk about this. I'm sorry.",shape=box,color=red];
 		1189 -> 1195;
 	1197 [label="+10 Chemistry",color=orange];
 		1197 -> 1190;
 	1200 [label="+10 Chemistry",color=orange];
 		1200 -> 1192;
-	1193 [label="Boolean LettieReligion4 is now true.",color=orange];
-		1193 -> 1194;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion4:1194" [label="Boolean LettieReligion4 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion4:1194" -> 1194;
 	1195 [label="Ay, sí 
 I understand",shape=box,color=blue];
 		1195 -> "Chat ends.";

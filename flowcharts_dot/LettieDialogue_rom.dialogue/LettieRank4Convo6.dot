@@ -97,7 +97,7 @@ We shouldn't trust her",shape=box,color=blue];
 	907 [label="I AM GOING to make that cabrón HURT 
 Next time I see him I will torture him like he tortured those poor angelitos 
 And he will NOT like it, I PROMISE you THAT",shape=box,color=blue];
-		907 -> 947;
+		907 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieCavia:1001";
 	824 [label="Then you're right 
 It will piss me off 
 But tell me anyway",shape=box,color=blue];
@@ -114,8 +114,8 @@ Keeping tabs on us maybe
 I don't like it",shape=box,color=blue];
 		1214 -> 1251;
 		1214 -> 247;
-	947 [label="Boolean LettieCavia is now true.",color=orange];
-		947 -> 1001;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieCavia:1001" [label="Boolean LettieCavia is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieCavia:1001" -> 1001;
 	867 [label="He took these lab animals and sent them into the Void. They came out with the intelligence of people - it nearly killed them. They're called the Cavia.",shape=box,color=red];
 		867 -> 839;
 	1251 [label="Either way, she's smart enough to understand \"If you mess with Lettie's rats, you sleep outside.\" Is that good enough?",shape=box,color=red];

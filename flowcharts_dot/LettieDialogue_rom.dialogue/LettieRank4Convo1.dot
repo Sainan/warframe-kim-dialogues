@@ -48,11 +48,11 @@ Didn't realize I'd follow him to the edge of Mictlán",shape=box,color=blue];
 A story like that 
 You fight monsters and gods 
 You have danced with La Flaca so many times",shape=box,color=blue];
-		1016 -> 1017;
-	1017 [label="Boolean LettieArthur1 is now true.",color=orange];
-		1017 -> 1018;
-		1017 -> 1019;
-		1017 -> 1020;
+		1016 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieArthur1:1018:1019:1020";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieArthur1:1018:1019:1020" [label="Boolean LettieArthur1 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieArthur1:1018:1019:1020" -> 1018;
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieArthur1:1018:1019:1020" -> 1019;
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieArthur1:1018:1019:1020" -> 1020;
 	1018 [label="Just because my fights are a bit spectacular doesn't mean I can't appreciate how horrible it must've been.",shape=box,color=red];
 		1018 -> 1021;
 	1019 [label="All war is shit, end of story.",shape=box,color=red];
@@ -64,7 +64,7 @@ You have danced with La Flaca so many times",shape=box,color=blue];
 	1022 [label="+15 Chemistry",color=orange];
 		1022 -> 1025;
 	1023 [label="Seguro",shape=box,color=blue];
-		1023 -> 1026;
+		1023 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	1024 [label="Ay, sí 
 Bright and flashy or small and personal 
 La Flaca is all the same in the end 
@@ -74,6 +74,6 @@ But not for los fantasmas",shape=box,color=blue];
 	1025 [label="Sí, It's all the same 
 No matter how big and stupid the guns",shape=box,color=blue];
 		1025 -> "Chat ends.";
-	1026 [label="Boolean LettieNoDate is now true.",color=orange];
-		1026 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "Chat ends.";
 }

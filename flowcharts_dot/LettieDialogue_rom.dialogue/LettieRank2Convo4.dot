@@ -66,9 +66,9 @@ Don't distract me",shape=box,color=blue];
 	557 [label="+10 Chemistry",color=orange];
 		557 -> 449;
 	450 [label="Gracias",shape=box,color=blue];
-		450 -> 452;
+		450 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieSmallFavor:Chat ends.";
 	449 [label="None asked for",shape=box,color=blue];
-		449 -> 452;
-	452 [label="Boolean LettieSmallFavor is now true.",color=orange];
-		452 -> "Chat ends.";
+		449 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieSmallFavor:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieSmallFavor:Chat ends." [label="Boolean LettieSmallFavor is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieSmallFavor:Chat ends." -> "Chat ends.";
 }

@@ -43,7 +43,7 @@ Named after the ancient god of rain",shape=box,color=blue];
 	960 [label="He's a dick 
 The rat, not the god jajaja 
 I don't need that kind of bad mojo",shape=box,color=blue];
-		960 -> 1913;
+		960 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieRats2:962:963";
 	981 [label="Like all creatures, food is the easiest path to love jaja 
 But if you hold them, do not grab them, let them explore and get used to you 
 Make clicking noises not kissy noises, kissy noises sound like bad squeaks to them",shape=box,color=blue];
@@ -58,7 +58,7 @@ They are social and need exercise, so I take them out of their cage a lot to roa
 Maybe we could make them little battle armor 
 No, they are too small and fragile 
 It would break my heart if anything happened to them",shape=box,color=blue];
-		983 -> 990;
+		983 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieRats3:991:992";
 	961 [label="Those names mean nothing to me, babas 
 But do you care about them?",shape=box,color=blue];
 		961 -> 966;
@@ -66,16 +66,16 @@ But do you care about them?",shape=box,color=blue];
 	968 [label="Check boolean LettieCavia",color=orange];
 		968 -> 972 [label=true,color=green];
 		968 -> 970 [label=false,color=brown];
-	1913 [label="Boolean LettieRats2 is now true.",color=orange];
-		1913 -> 962;
-		1913 -> 963;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieRats2:962:963" [label="Boolean LettieRats2 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRats2:962:963" -> 962;
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRats2:962:963" -> 963;
 	984 [label="Can you show me, sometime?",shape=box,color=red];
-		984 -> 986;
+		984 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieRats3:996";
 	985 [label="Sounds complicated.",shape=box,color=red];
 		985 -> 988;
-	990 [label="Boolean LettieRats3 is now true.",color=orange];
-		990 -> 991;
-		990 -> 992;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieRats3:991:992" [label="Boolean LettieRats3 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRats3:991:992" -> 991;
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRats3:991:992" -> 992;
 	966 [label="Of course I do. They fight beside me, sure, but I love them.",shape=box,color=red];
 		966 -> 969;
 	967 [label="In the same way I care about the guns I own.",shape=box,color=red];
@@ -83,7 +83,7 @@ But do you care about them?",shape=box,color=blue];
 	972 [label="Just as bad as that Entrati cabrón 
 Abusing and then abandoning those poor Cavia 
 Disgusting",shape=box,color=blue];
-		972 -> 975;
+		972 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:976";
 	970 [label="Check boolean LettieLoid",color=orange];
 		970 -> 973 [label=true,color=green];
 		970 -> 971 [label=false,color=brown];
@@ -91,8 +91,8 @@ Disgusting",shape=box,color=blue];
 		962 -> 964;
 	963 [label="What're your other rats names?",shape=box,color=red];
 		963 -> 965;
-	986 [label="Boolean LettieRats3 is now true.",color=orange];
-		986 -> 996;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieRats3:996" [label="Boolean LettieRats3 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRats3:996" -> 996;
 	988 [label="Not much to ask for when you get so much in return from them 
 Ni modo, some people do not understand I suppose",shape=box,color=blue];
 		988 -> "Chat ends.";
@@ -107,15 +107,15 @@ I am sure my panquecitos would fight for me if they could jajaja",shape=box,colo
 		969 -> 978;
 		969 -> 979;
 		969 -> 980;
-	975 [label="Boolean LettieNoDate is now true.",color=orange];
-		975 -> 976;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:976" [label="Boolean LettieNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:976" -> 976;
 	973 [label="Just as bad as that Entrati cabrón
 Taking the love of that man and using him for his own gain 
 Disgusting",shape=box,color=blue];
-		973 -> 975;
+		973 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:976";
 	971 [label="Check boolean LettieEntratiFamily",color=orange];
 		971 -> 974 [label=true,color=green];
-		971 -> 975 [label=false,color=brown];
+		971 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:976" [label=false,color=brown];
 	964 [label="4 
 Vaquero, Anita, Neenah, and Tláloc",shape=box,color=blue];
 		964 -> 978;
@@ -137,7 +137,7 @@ Vaquero, Anita, Neenah, and Tláloc",shape=box,color=blue];
 	974 [label="Just as bad as that Entrati cabrón
  Starting a family only to abandon them when they were of no use 
  Disgusting",shape=box,color=blue];
-		974 -> 975;
+		974 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:976";
 	987 [label="I would love that 
 And maybe you can show me some of your strange pets in return",shape=box,color=blue];
 		987 -> "Chat ends.";

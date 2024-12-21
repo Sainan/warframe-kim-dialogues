@@ -79,7 +79,7 @@ digraph {
 	244 [label="+10 Chemistry",color=orange];
 		244 -> 246;
 	246 [label="Well...shit. I think I need to apologize to Aoi for...a lot. Be right back.",shape=box,color=blue];
-		246 -> 247;
-	247 [label="Boolean ArthurAoiEmoticon is now true.",color=orange];
-		247 -> "Chat ends.";
+		246 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurAoiEmoticon:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurAoiEmoticon:Chat ends." [label="Boolean ArthurAoiEmoticon is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurAoiEmoticon:Chat ends." -> "Chat ends.";
 }

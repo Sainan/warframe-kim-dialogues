@@ -44,11 +44,11 @@ digraph {
 	2045 [label="I-- wait. Sorry. No. I meant it. Go on.",shape=box,color=red];
 		2045 -> 2048;
 	2044 [label="I have a sick sense of humor.",shape=box,color=red];
-		2044 -> 2046;
+		2044 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:Chat ends.";
 	2049 [label="When I joined the ICR - even before then, I was a military man.",shape=box,color=blue];
 		2049 -> 2050;
-	2046 [label="Boolean ArthurNoDate is now true.",color=orange];
-		2046 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:Chat ends." [label="Boolean ArthurNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:Chat ends." -> "Chat ends.";
 	2050 [label="I've lived my entire life with one foot in the grave. I've always been as good as dead.",shape=box,color=blue];
 		2050 -> 2051;
 	2051 [label="And it's never been more true than now. Look at me. I mean *look at me.*",shape=box,color=blue];
@@ -97,11 +97,11 @@ digraph {
 	2069 [label="That's probably wise. Good call.",shape=box,color=blue];
 		2069 -> "Chat ends.";
 	2073 [label="What could possibly go wrong?!",shape=box,color=blue];
-		2073 -> 2074;
-	2074 [label="Boolean ArthurDating is now true.",color=orange];
-		2074 -> 2075;
-	2075 [label="Boolean IsDating is now true.",color=orange];
-		2075 -> 2076;
-	2076 [label="Boolean ArthurHasDated is now true.",color=orange];
-		2076 -> "Chat ends.";
+		2073 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurHasDated:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurHasDated:Chat ends." [label="Boolean ArthurDating is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurHasDated:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurHasDated:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurHasDated:Chat ends." [label="Boolean IsDating is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurHasDated:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurHasDated:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurHasDated:Chat ends." [label="Boolean ArthurHasDated is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurHasDated:Chat ends." -> "Chat ends.";
 }

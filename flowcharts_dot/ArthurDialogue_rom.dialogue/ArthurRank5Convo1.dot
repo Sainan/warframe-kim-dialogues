@@ -146,7 +146,7 @@ digraph {
 		1705 -> 1706;
 		1705 -> 1707;
 	1701 [label="How can you be telling me this, while you're stringing someone else along?!",shape=box,color=blue];
-		1701 -> 1730;
+		1701 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:1725";
 	1714 [label="Check boolean ArthurNoDate",color=orange];
 		1714 -> 1715 [label=true,color=green];
 		1714 -> 1716 [label=false,color=brown];
@@ -164,8 +164,8 @@ digraph {
 		1706 -> 1710;
 	1707 [label="Sure. You're forgiven. This time.",shape=box,color=red];
 		1707 -> 1711;
-	1730 [label="Boolean ArthurNoDate is now true.",color=orange];
-		1730 -> 1725;
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:1725" [label="Boolean ArthurNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:1725" -> 1725;
 	1715 [label="Rich.",shape=box,color=blue];
 		1715 -> 1717;
 	1716 [label="I...",shape=box,color=blue];
@@ -216,7 +216,7 @@ digraph {
 	1691 [label="That's all you've got to say?",shape=box,color=red];
 		1691 -> 1696;
 	1690 [label="I've got to go think for a bit.",shape=box,color=blue];
-		1690 -> 1695;
+		1690 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurConfessedFeels:Chat ends. Next chat will be ArthurConfession.";
 	1681 [label="I... sometimes try to find enemies where there aren't any. And I... didn't realize how much we meant to you.",shape=box,color=blue];
 		1681 -> 1682;
 	1733 [label="For your own safety I'd recommend telling her. But just so you know?",shape=box,color=blue];
@@ -230,8 +230,8 @@ digraph {
 		1719 -> 1720;
 	1696 [label="+20 Chemistry",color=orange];
 		1696 -> 1692;
-	1695 [label="Boolean ArthurConfessedFeels is now true.",color=orange];
-		1695 -> "Chat ends. Next chat will be ArthurConfession.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurConfessedFeels:Chat ends. Next chat will be ArthurConfession." [label="Boolean ArthurConfessedFeels is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurConfessedFeels:Chat ends. Next chat will be ArthurConfession." -> "Chat ends. Next chat will be ArthurConfession.";
 	1682 [label="How much I meant to you. And that's on me. C'mon. Let's go get a drink.",shape=box,color=blue];
 		1682 -> "Chat ends.";
 	1734 [label="I accepted you leaving me for the better twin, but... this? There'll be no taking you back.",shape=box,color=blue];
@@ -246,7 +246,7 @@ digraph {
 	1720 [label="Sod off.",shape=box,color=blue];
 		1720 -> "Chat ends.";
 	1692 [label="No - I mean - I need to go think. I'm sorry.",shape=box,color=blue];
-		1692 -> 1693;
+		1692 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurConfessedFeels:Chat ends. Next chat will be ArthurAsshat.";
 	"Chat ends. Next chat will be ArthurConfession." [color=orange];
 	1743 [label="Deplorable.",shape=box,color=blue];
 		1743 -> "Chat ends.";
@@ -257,8 +257,8 @@ digraph {
 	1729 [label="Check boolean AoiDating",color=orange];
 		1729 -> 1741 [label=true,color=green];
 		1729 -> "Chat ends." [label=false,color=brown];
-	1693 [label="Boolean ArthurConfessedFeels is now true.",color=orange];
-		1693 -> "Chat ends. Next chat will be ArthurAsshat.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurConfessedFeels:Chat ends. Next chat will be ArthurAsshat." [label="Boolean ArthurConfessedFeels is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurConfessedFeels:Chat ends. Next chat will be ArthurAsshat." -> "Chat ends. Next chat will be ArthurAsshat.";
 	1740 [label="Not bloody add to to the pain.",shape=box,color=blue];
 		1740 -> 1743;
 	1741 [label="Aoi deserves better than you.",shape=box,color=blue];

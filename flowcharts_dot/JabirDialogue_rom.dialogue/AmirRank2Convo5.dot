@@ -44,7 +44,7 @@ digraph {
 	882 [label="+20 Chemistry",color=orange];
 		882 -> 881;
 	913 [label="They all said yes. :)",shape=box,color=red];
-		913 -> 914;
+		913 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGCashIn:900";
 	912 [label="Check boolean AmirRPGAny",color=orange];
 		912 -> 925 [label=true,color=green];
 		912 -> 926 [label=true,color=green];
@@ -55,10 +55,10 @@ digraph {
 		894 -> 897;
 	881 [label="let's play again sometime!!!",shape=box,color=blue];
 		881 -> "Chat ends.";
-	914 [label="Boolean AmirRPGCashIn is now true.",color=orange];
-		914 -> 900;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGCashIn:900" [label="Boolean AmirRPGCashIn is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGCashIn:900" -> 900;
 	925 [label="Yeah, and I don't think I can convince any others, so we should just play now.",shape=box,color=red];
-		925 -> 931;
+		925 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGCashIn:932";
 	926 [label="Yeah, but I think I can get more of them on board.",shape=box,color=red];
 		926 -> 929;
 	927 [label="No, I'm still working on it. But I'll get there.",shape=box,color=red];
@@ -70,8 +70,8 @@ digraph {
 	"Chat ends." [color=orange];
 	900 [label="WHAAAAAAAAAAAT?!?!?!?!",shape=box,color=blue];
 		900 -> 915;
-	931 [label="Boolean AmirRPGCashIn is now true.",color=orange];
-		931 -> 932;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGCashIn:932" [label="Boolean AmirRPGCashIn is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGCashIn:932" -> 932;
 	929 [label="+20 Chemistry",color=orange];
 		929 -> 928;
 	899 [label="but the keywords there are \"a bunch of friends\" and if you don't have a few people to play with it's super lame",shape=box,color=blue];
@@ -89,7 +89,7 @@ digraph {
 	901 [label="Aw, well, let's play more games with the two of us, then.",shape=box,color=red];
 		901 -> 909;
 	902 [label="Maybe I can talk the Hex into playing. :)",shape=box,color=red];
-		902 -> 903;
+		902 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPG:905";
 	916 [label="I... owe a lot of favors...",shape=box,color=red];
 		916 -> 918;
 	917 [label="I can't divulge my secrets. Then I'd have to kill you.",shape=box,color=red];
@@ -99,8 +99,8 @@ digraph {
 		933 -> 934 [label=false,color=brown];
 	909 [label="+20 Chemistry",color=orange];
 		909 -> 904;
-	903 [label="Boolean AmirRPG is now true.",color=orange];
-		903 -> 905;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPG:905" [label="Boolean AmirRPG is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPG:905" -> 905;
 	918 [label="i... holy shit",shape=box,color=blue];
 		918 -> 919;
 	938 [label="Quincy,",shape=box,color=red];

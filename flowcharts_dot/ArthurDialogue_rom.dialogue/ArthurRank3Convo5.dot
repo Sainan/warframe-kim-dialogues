@@ -22,20 +22,20 @@ digraph {
 		2791 -> 298 [label=false,color=brown];
 	"Chat ends." [color=orange];
 	1123 [label="I had a sibling.",shape=box,color=red];
-		1123 -> 1121;
+		1123 -> "/EE/Types/Engine/SetBooleanDialogueNode:DrifterSiblingYes:1126";
 	298 [label="Check boolean DrifterSiblingNo",color=orange];
 		298 -> 1124 [label=true,color=green];
 		298 -> 1123 [label=false,color=brown];
 		298 -> 1124 [label=false,color=brown];
-	1121 [label="Boolean DrifterSiblingYes is now true.",color=orange];
-		1121 -> 1126;
+	"/EE/Types/Engine/SetBooleanDialogueNode:DrifterSiblingYes:1126" [label="Boolean DrifterSiblingYes is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:DrifterSiblingYes:1126" -> 1126;
 	1124 [label="Oh. Not technically? But all us kids on the Zariman were basically raised together.",shape=box,color=red];
-		1124 -> 1122;
+		1124 -> "/EE/Types/Engine/SetBooleanDialogueNode:DrifterSiblingNo:1125";
 	1126 [label="Had?",shape=box,color=blue];
 		1126 -> 1117;
 		1126 -> 377;
-	1122 [label="Boolean DrifterSiblingNo is now true.",color=orange];
-		1122 -> 1125;
+	"/EE/Types/Engine/SetBooleanDialogueNode:DrifterSiblingNo:1125" [label="Boolean DrifterSiblingNo is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:DrifterSiblingNo:1125" -> 1125;
 	1117 [label="There's a reason I don't like the Man in the Wall.",shape=box,color=red];
 		1117 -> 1120;
 	377 [label="I don't want to talk about it.",shape=box,color=red];
@@ -169,7 +169,7 @@ digraph {
 	1186 [label="+20 Chemistry",color=orange];
 		1186 -> 1184;
 	1184 [label="I will. Just... when I've had some time to think.",shape=box,color=blue];
-		1184 -> 1185;
-	1185 [label="Boolean ArthurFamily is now true.",color=orange];
-		1185 -> "Chat ends.";
+		1184 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurFamily:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurFamily:Chat ends." [label="Boolean ArthurFamily is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurFamily:Chat ends." -> "Chat ends.";
 }

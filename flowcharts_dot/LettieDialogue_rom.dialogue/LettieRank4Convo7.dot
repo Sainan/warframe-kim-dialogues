@@ -31,7 +31,7 @@ Seems like he meant to the edge of Mictlán",shape=box,color=blue];
 		1311 -> 1314 [label=true,color=green];
 		1311 -> 1315 [label=false,color=brown];
 	1326 [label="If you're not comfortable telling me, that's fine.",shape=box,color=red];
-		1326 -> 1328;
+		1326 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1329";
 	1327 [label="No problem. Plenty of shit I haven't told you, yet.",shape=box,color=red];
 		1327 -> 1331;
 	1332 [label="We were stationed together in the same base 
@@ -50,8 +50,8 @@ Different countries, same enemies",shape=box,color=blue];
 	1315 [label="Check boolean LettieEntratiFamily",color=orange];
 		1315 -> 1323 [label=true,color=green];
 		1315 -> 1324 [label=false,color=brown];
-	1328 [label="Boolean LettieHexAsked is now true.",color=orange];
-		1328 -> 1329;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1329" [label="Boolean LettieHexAsked is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1329" -> 1329;
 	1331 [label="+10 Chemistry",color=orange];
 		1331 -> 1330;
 	1333 [label="I was the field medic for my regiment
@@ -130,7 +130,7 @@ I stitched his arm up good jaja
 When he retired and went into the ICR 
 I followed him without question 
 I was sick of all the drama that goes on in the army anyway",shape=box,color=blue];
-		1334 -> 1341;
+		1334 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieArthur1:1389:1390";
 	1320 [label="Check boolean LettieTrust1",color=orange];
 		1320 -> 1342 [label=true,color=green];
 		1320 -> 1343 [label=true,color=green];
@@ -152,9 +152,9 @@ I was sick of all the drama that goes on in the army anyway",shape=box,color=blu
 		1340 -> 1404 [label=false,color=brown];
 		1340 -> 1405 [label=false,color=brown];
 		1340 -> 1406 [label=false,color=brown];
-	1341 [label="Boolean LettieArthur1 is now true.",color=orange];
-		1341 -> 1389;
-		1341 -> 1390;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieArthur1:1389:1390" [label="Boolean LettieArthur1 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieArthur1:1389:1390" -> 1389;
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieArthur1:1389:1390" -> 1390;
 	1342 [label="The way you talk about him, and because I know how much trust is important to you... It seems personal.",shape=box,color=red];
 		1342 -> 1359;
 	1343 [label="I know how much you hate it when people break the trust of others. Especially animals.",shape=box,color=red];
@@ -181,7 +181,7 @@ And I don't know if I trust you enough not to walk away",shape=box,color=blue];
 	1406 [label="Careful, or else I might start to think you're getting attached to me.",shape=box,color=red];
 		1406 -> 1413;
 	1389 [label="Then what? How'd you get to be...",shape=box,color=red];
-		1389 -> 1391;
+		1389 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1392";
 	1390 [label="War sucks. No matter when, no matter how.",shape=box,color=red];
 		1390 -> 1394;
 	1359 [label="+15 Chemistry",color=orange];
@@ -201,8 +201,8 @@ I have my reasons",shape=box,color=blue];
 		1415 -> 1408;
 	1413 [label="+10 Chemistry",color=orange];
 		1413 -> 1409;
-	1391 [label="Boolean LettieHexAsked is now true.",color=orange];
-		1391 -> 1392;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1392" [label="Boolean LettieHexAsked is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1392" -> 1392;
 	1394 [label="Appreciate that
 Our wars must seem so small
 Yours sound tan espectaculares y llamativas
@@ -211,13 +211,13 @@ Filled with dioses, ángeles y demonios",shape=box,color=blue];
 	1352 [label="Ay, sí
 You caught on
 Need a new nickname for you, ¿eh babas? Jaja",shape=box,color=blue];
-		1352 -> 1355;
+		1352 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust2:1361:1362";
 	1353 [label="Ay, sí 
 Animals most of all deserve the best we can give them 
 And when trust is broken like that 
 It makes me want to kill a man 
 Specifically THAT one",shape=box,color=blue];
-		1353 -> 1356;
+		1353 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust2:/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1366:1367";
 	1357 [label="Can I ask what he did?",shape=box,color=red];
 		1357 -> 1371;
 	1358 [label="If you're not comfortable telling me, that's fine.",shape=box,color=red];
@@ -247,11 +247,11 @@ Or maybe I'm just happy to have someone around who is useful babas",shape=box,co
 		1392 -> 1398;
 	1393 [label="+10 Chemistry",color=orange];
 		1393 -> 1395;
-	1355 [label="Boolean LettieTrust2 is now true.",color=orange];
-		1355 -> 1361;
-		1355 -> 1362;
-	1356 [label="Boolean LettieTrust2 is now true.",color=orange];
-		1356 -> 1363;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust2:1361:1362" [label="Boolean LettieTrust2 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust2:1361:1362" -> 1361;
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust2:1361:1362" -> 1362;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust2:/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1366:1367" [label="Boolean LettieTrust2 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust2:/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1366:1367" -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1366:1367";
 	1371 [label="+10 Chemistry",color=orange];
 		1371 -> 1369;
 	1370 [label="Not about comfort, babas 
@@ -274,14 +274,14 @@ Don't let it go to your head",shape=box,color=blue];
 People dying in the muck and mud
 Trust broken and lives lost
 And La Flaca takes them home",shape=box,color=blue];
-		1395 -> 1458;
+		1395 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1460:1461";
 	1361 [label="If you're not comfortable telling me, that's fine.",shape=box,color=red];
-		1361 -> 1364;
+		1361 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1375";
 	1362 [label="What did he *do* to you?",shape=box,color=red];
-		1362 -> 1365;
-	1363 [label="Boolean LettieHexAsked is now true.",color=orange];
-		1363 -> 1366;
-		1363 -> 1367;
+		1362 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1376";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1366:1367" [label="Boolean LettieHexAsked is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1366:1367" -> 1366;
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1366:1367" -> 1367;
 	1369 [label="Mm 
 Not a fun story, buddy 
 Not fun to hear 
@@ -305,13 +305,13 @@ It's what we are
 Monstruos, antinaturales 
 Made by that cabrón",shape=box,color=blue];
 		1401 -> 1403;
-	1458 [label="Boolean LettieHexAsked is now true.",color=orange];
-		1458 -> 1460;
-		1458 -> 1461;
-	1364 [label="Boolean LettieHexAsked is now true.",color=orange];
-		1364 -> 1375;
-	1365 [label="Boolean LettieHexAsked is now true.",color=orange];
-		1365 -> 1376;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1460:1461" [label="Boolean LettieHexAsked is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1460:1461" -> 1460;
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1460:1461" -> 1461;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1375" [label="Boolean LettieHexAsked is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1375" -> 1375;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1376" [label="Boolean LettieHexAsked is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHexAsked:1376" -> 1376;
 	1366 [label="I don't know what he did to you, but... sounds like it was rough.",shape=box,color=red];
 		1366 -> 1368;
 	1367 [label="Can I ask what he did?",shape=box,color=red];

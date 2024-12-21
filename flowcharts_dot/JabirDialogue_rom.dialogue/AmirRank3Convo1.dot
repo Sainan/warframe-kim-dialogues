@@ -82,15 +82,15 @@ digraph {
 		997 -> 1000;
 	1001 [label="Check boolean AmirCephalon2",color=orange];
 		1001 -> 1002 [label=true,color=green];
-		1001 -> 1909 [label=false,color=brown];
+		1001 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirCephalon2:1003" [label=false,color=brown];
 	1012 [label="Amir, no... you don't understand.",shape=box,color=red];
 		1012 -> 1016;
 	3064 [label="No. Leave it alone. They aren't *cute* or *fun* or *funny.*",shape=box,color=red];
 		3064 -> 988;
 	1002 [label="you told me a bit about how they were made",shape=box,color=blue];
 		1002 -> 1004;
-	1909 [label="Boolean AmirCephalon2 is now true.",color=orange];
-		1909 -> 1003;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirCephalon2:1003" [label="Boolean AmirCephalon2 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirCephalon2:1003" -> 1003;
 	1016 [label="explain it to me, then, cuz",shape=box,color=blue];
 		1016 -> 1017;
 	988 [label="whatever",shape=box,color=blue];
@@ -194,7 +194,7 @@ digraph {
 	1026 [label="People *aren't* code. People *shouldn't be* code. As tempting as it might be.",shape=box,color=red];
 		1026 -> 1028;
 	1025 [label="You there?",shape=box,color=red];
-		1025 -> 1029;
+		1025 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirCephalon3a:Chat ends.";
 	1030 [label="really? you agree with me?",shape=box,color=blue];
 		1030 -> 1031;
 		1030 -> 1032;
@@ -211,11 +211,11 @@ digraph {
 	1076 [label="muuuurrrr look at me, i'm all sexy with my fuggin abs and shit",shape=box,color=blue];
 		1076 -> 1078;
 	1027 [label="+10 Chemistry",color=orange];
-		1027 -> 1029;
+		1027 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirCephalon3a:Chat ends.";
 	1028 [label="+20 Chemistry",color=orange];
-		1028 -> 1029;
-	1029 [label="Boolean AmirCephalon3a is now true.",color=orange];
-		1029 -> "Chat ends.";
+		1028 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirCephalon3a:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirCephalon3a:Chat ends." [label="Boolean AmirCephalon3a is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirCephalon3a:Chat ends." -> "Chat ends.";
 	1031 [label="NO. Do you know what you're even saying?!",shape=box,color=red];
 		1031 -> 1033;
 	1032 [label="Yeah. Live forever, never get sick, *and* I can delete all the memories of every time I was ever awkward.",shape=box,color=red];
@@ -263,7 +263,7 @@ digraph {
 	1062 [label="+20 Chemistry",color=orange];
 		1062 -> 1061;
 	1061 [label="gotta think this through make some notes talk later",shape=box,color=blue];
-		1061 -> 1063;
-	1063 [label="Boolean AmirCephalon3b is now true.",color=orange];
-		1063 -> "Chat ends.";
+		1061 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirCephalon3b:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirCephalon3b:Chat ends." [label="Boolean AmirCephalon3b is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirCephalon3b:Chat ends." -> "Chat ends.";
 }

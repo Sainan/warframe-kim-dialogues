@@ -64,7 +64,7 @@ There will be no later",shape=box,color=blue];
 		1547 -> 1550;
 	1554 [label="Sí 
 Sounds good",shape=box,color=blue];
-		1554 -> 1555;
+		1554 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:Chat ends.";
 	1556 [label="You aren't my therapist 
 You don't need to hear me whining like some silly little niña",shape=box,color=blue];
 		1556 -> 1557;
@@ -78,8 +78,8 @@ You don't need to hear me whining like some silly little niña",shape=box,color=
 Your sorries could cover the walls 
 Then maybe they'd be good for something",shape=box,color=blue];
 		1550 -> "Chat ends.";
-	1555 [label="Boolean LettieRealNo is now true.",color=orange];
-		1555 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:Chat ends." [label="Boolean LettieRealNo is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:Chat ends." -> "Chat ends.";
 	1557 [label="Check boolean LettieDating",color=orange];
 		1557 -> 1566 [label=true,color=green];
 		1557 -> 1567 [label=false,color=brown];
@@ -211,7 +211,7 @@ We are antinaturales, people should not live forever, they should be allowed to 
 	1607 [label="Yes, it's a time loop. Yes, not much changes. But you know what DOES change that matters? Us. Who WE are. What WE know. And what WE feel.",shape=box,color=red];
 		1607 -> 1615;
 	1596 [label="But isn't that why you're a healer? Isn't the act of trying, of that sense of hope, that kindness, what matters, and not where we wind up in the end?",shape=box,color=red];
-		1596 -> 1601;
+		1596 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieKindness:1602";
 	1597 [label="I know you never felt like you've had somewhere to belong. You've never had a home before, Lettie. Like me.",shape=box,color=red];
 		1597 -> 1599;
 	1598 [label="Look around. At the civvies. At the Hex. At me.",shape=box,color=red];
@@ -220,12 +220,12 @@ We are antinaturales, people should not live forever, they should be allowed to 
 		1614 -> 1623;
 	1615 [label="So no, this isn't the kind of life you're used to. You won't get to experience \"normal\" ever again.",shape=box,color=red];
 		1615 -> 1624;
-	1601 [label="Boolean LettieKindness is now true.",color=orange];
-		1601 -> 1602;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieKindness:1602" [label="Boolean LettieKindness is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieKindness:1602" -> 1602;
 	1599 [label="This could be your family. Your home. If you wanted it to be. If you LET it be.",shape=box,color=red];
-		1599 -> 1603;
+		1599 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNewFamily:1608";
 	1600 [label="This could be your family. If you wanted it to be. If you LET it be.",shape=box,color=red];
-		1600 -> 1603;
+		1600 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNewFamily:1608";
 	1623 [label="But you never would have let the team die if you could have saved them. Because you wouldn't let them stay the victims.",shape=box,color=red];
 		1623 -> 1636;
 	1624 [label="But there are things here that can make it a life worth living.",shape=box,color=red];
@@ -233,8 +233,8 @@ We are antinaturales, people should not live forever, they should be allowed to 
 	1602 [label="Check boolean LettieDating",color=orange];
 		1602 -> 1610 [label=true,color=green];
 		1602 -> 1612 [label=false,color=brown];
-	1603 [label="Boolean LettieNewFamily is now true.",color=orange];
-		1603 -> 1608;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNewFamily:1608" [label="Boolean LettieNewFamily is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNewFamily:1608" -> 1608;
 	1636 [label="Victims saved for what reason 
 This is no life babas 
 This nightmare of fantasmas is no life at all",shape=box,color=blue];
@@ -407,7 +407,7 @@ Gracias... en serio",shape=box,color=blue];
 I figured this would happen 
 Vete, babas, don't have time for you anymore 
 Should have known better than to play with niñitos",shape=box,color=blue];
-		1663 -> 1664;
+		1663 -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	1670 [label="So you can either let me in - for real - and help you, or you can push me away, too. That's your decision to make.",shape=box,color=red];
 		1670 -> 1669;
 	1685 [label="But they found in themselves a new family. A reason to continue on. A reason to keep living.",shape=box,color=red];
@@ -420,8 +420,8 @@ Should have known better than to play with niñitos",shape=box,color=blue];
 		1695 -> 1698;
 	1707 [label="Point is... I care about you, Lettie. A lot. And more than just as friend, and I understand if it isn't mutual, but -",shape=box,color=red];
 		1707 -> 1709;
-	1664 [label="Boolean LettieDating is now false.",color=orange];
-		1664 -> 1665;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	1669 [label="Mierda",shape=box,color=blue];
 		1669 -> 1671;
 	1688 [label="Mierda",shape=box,color=blue];
@@ -432,8 +432,8 @@ Should have known better than to play with niñitos",shape=box,color=blue];
 		1698 -> 1699;
 	1709 [label="I can't stand to see you give up hope like this. You're not a ghost. You're not a fantasma.",shape=box,color=red];
 		1709 -> 1710;
-	1665 [label="Boolean IsDating is now false.",color=orange];
-		1665 -> 1666;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	1671 [label="I... 
 I don't think I like it when you call me out on my mentiras 
 Sí... you... you're right 
@@ -451,8 +451,8 @@ I forget I'm not in this battle alone",shape=box,color=blue];
 		1699 -> 1696;
 	1710 [label="You're LETTIE, and -",shape=box,color=red];
 		1710 -> 1708;
-	1666 [label="Boolean LettieNoDate is now true.",color=orange];
-		1666 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "Chat ends.";
 	1672 [label="It's too easy for me to brush this off as just physical 
 Makes it safer, you know? 
 Lo siento, solecito...",shape=box,color=blue];
@@ -466,7 +466,7 @@ Sometimes I get stuck in my own head and I forget I'm not alone",shape=box,color
 The moments we spend caring for each other 
 Not the ultimate end point 
 Gracias... en serio",shape=box,color=blue];
-		1696 -> 1697;
+		1696 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieKindness:Chat ends.";
 	1708 [label="Shut up",shape=box,color=blue];
 		1708 -> 1711;
 	1673 [label="I want to make this up to you 
@@ -477,18 +477,18 @@ Gracias... en serio",shape=box,color=blue];
 	1690 [label="I need to remember that I have a familia here around me 
 People I can rely on when things get dark 
 Gracias... en serio",shape=box,color=blue];
-		1690 -> 1691;
-	1697 [label="Boolean LettieKindness is now true.",color=orange];
-		1697 -> "Chat ends.";
+		1690 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNewFamily:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieKindness:Chat ends." [label="Boolean LettieKindness is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieKindness:Chat ends." -> "Chat ends.";
 	1711 [label="Aguántame tantito",shape=box,color=blue];
 		1711 -> 1712;
 		1711 -> 1713;
 	1674 [label="Maybe later. I'm a little pissed right now.",shape=box,color=red];
 		1674 -> 1676;
 	1675 [label="Like I'm going to say no to that. :}",shape=box,color=red];
-		1675 -> 1677;
-	1691 [label="Boolean LettieNewFamily is now true.",color=orange];
-		1691 -> "Chat ends.";
+		1675 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:1679";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNewFamily:Chat ends." [label="Boolean LettieNewFamily is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNewFamily:Chat ends." -> "Chat ends.";
 	1712 [label="I'm sorry if I upset you...",shape=box,color=red];
 		1712 -> 1714;
 	1713 [label="I understand if you don't feel the same way, I get it.",shape=box,color=red];
@@ -496,8 +496,8 @@ Gracias... en serio",shape=box,color=blue];
 	1676 [label="Sí 
 I get it",shape=box,color=blue];
 		1676 -> 1678;
-	1677 [label="Boolean LettieReal is now true.",color=orange];
-		1677 -> 1679;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:1679" [label="Boolean LettieReal is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:1679" -> 1679;
 	1714 [label="¡Neta, ya cállate! 
 I need a second to think 
 To breathe 
@@ -513,8 +513,8 @@ Can't process when I'm tearing up",shape=box,color=blue];
 Never take them well 
 Talk tomorrow, sort this shit out then 
 Lo siento",shape=box,color=blue];
-		1715 -> 1716;
-	1716 [label="Boolean LettieConfession is now true.",color=orange];
-		1716 -> "Chat ends. Next chat will be LettieConfession.";
+		1715 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieConfession:Chat ends. Next chat will be LettieConfession.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieConfession:Chat ends. Next chat will be LettieConfession." [label="Boolean LettieConfession is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieConfession:Chat ends. Next chat will be LettieConfession." -> "Chat ends. Next chat will be LettieConfession.";
 	"Chat ends. Next chat will be LettieConfession." [color=orange];
 }

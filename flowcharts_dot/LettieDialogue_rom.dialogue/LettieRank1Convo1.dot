@@ -89,7 +89,7 @@ Or are you just killing time",shape=box,color=blue];
 	29 [label="Just killing time.",shape=box,color=red];
 		29 -> 35;
 	32 [label="Make it interesting. Roger. I'll... go... think up... interesting things...",shape=box,color=red];
-		32 -> 49;
+		32 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieInteresting:48";
 	31 [label="You did better with the question about home",shape=box,color=blue];
 		31 -> 32;
 	33 [label="Hola 
@@ -103,8 +103,8 @@ Stressed",shape=box,color=blue];
 	35 [label="Nice for you 
 I have work to do",shape=box,color=blue];
 		35 -> 36;
-	49 [label="Boolean LettieInteresting is now true.",color=orange];
-		49 -> 48;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieInteresting:48" [label="Boolean LettieInteresting is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieInteresting:48" -> 48;
 	39 [label="I'll stop bothering you, then.",shape=box,color=red];
 		39 -> 41;
 	38 [label="Anything I can help with?",shape=box,color=red];
@@ -127,7 +127,7 @@ Eso sería genial",shape=box,color=blue];
 		43 -> 44;
 	44 [label="Other than that? 
 I'll think",shape=box,color=blue];
-		44 -> 46;
-	46 [label="Boolean LettieSmallFavor is now true.",color=orange];
-		46 -> "Chat ends.";
+		44 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieSmallFavor:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieSmallFavor:Chat ends." [label="Boolean LettieSmallFavor is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieSmallFavor:Chat ends." -> "Chat ends.";
 }

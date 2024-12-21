@@ -19,8 +19,15 @@ local function emit_dot(filename, start)
 			end
 		elseif node.type == "/EE/Types/Engine/StartDialogueNode" then
 			return '"'..node.name..' begins."'
+		elseif node.type == "/EE/Types/Engine/SetBooleanDialogueNode" or node.type == "/EE/Types/Engine/ResetBooleanDialogueNode" then
+			local str = '"'..node.type..':'..node.name
+			for node.choices as choice do
+				str ..= ':'
+				str ..= get_node_name(nodes[1 + choice]):replace('"', '')
+			end
+			return str..'"'
 		else
-			return node.id
+			return tostring(node.id)
 		end
 	end
 	local function write_node_name(node)

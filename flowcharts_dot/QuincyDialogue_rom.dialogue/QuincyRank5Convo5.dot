@@ -27,11 +27,11 @@ digraph {
 	3423 [label="fiiine i'll go get aoi, she'll help",shape=box,color=blue];
 		3423 -> "Chat ends.";
 	3421 [label="i knew u n i were a thing 4 a reason",shape=box,color=blue];
-		3421 -> 3422;
+		3421 -> "/EE/Types/Engine/SetBooleanDialogueNode:QuincyTrickYes:3425";
 	3426 [label="thing was filled with like 50,000 boxes of packing peanuts",shape=box,color=blue];
 		3426 -> 3427;
-	3422 [label="Boolean QuincyTrickYes is now true.",color=orange];
-		3422 -> 3425;
+	"/EE/Types/Engine/SetBooleanDialogueNode:QuincyTrickYes:3425" [label="Boolean QuincyTrickYes is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:QuincyTrickYes:3425" -> 3425;
 	3427 [label="u know, the biodegradable ones? basically cheese poofs without the cheese flavour",shape=box,color=blue];
 		3427 -> 3430;
 	3430 [label="no clue what the fk they needed them 4",shape=box,color=blue];

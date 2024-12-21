@@ -60,7 +60,7 @@ digraph {
 	1406 [label="Ok. [End.]",shape=box,color=red];
 		1406 -> "Chat ends.";
 	1376 [label="always falling for the phishing",shape=box,color=blue];
-		1376 -> 1377;
+		1376 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:Chat ends.";
 	1379 [label="Can you maybe explain to me what's wrong, though?",shape=box,color=red];
 		1379 -> 1382;
 	1380 [label="HAVE WE MET HI I'M AMIR NICE TO MEET YOU",shape=box,color=blue];
@@ -69,8 +69,8 @@ digraph {
 		1408 -> 1410;
 	1409 [label="I DON'T NEED THIS SHIT THROWN IN MY FACE",shape=box,color=blue];
 		1409 -> 1410;
-	1377 [label="Boolean AmirNoDate is now true.",color=orange];
-		1377 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:Chat ends." [label="Boolean AmirNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:Chat ends." -> "Chat ends.";
 	1382 [label="::deep breath in::",shape=box,color=blue];
 		1382 -> 1383;
 	1381 [label="but point taken",shape=box,color=blue];
@@ -103,11 +103,11 @@ digraph {
 	1388 [label="just a nerd who - who wakes up in the middle of the night sometimes",shape=box,color=blue];
 		1388 -> 1389;
 	1419 [label="i'mtoowoundupforthisnow",shape=box,color=blue];
-		1419 -> 1420;
+		1419 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirFight:1417";
 	1389 [label="in a cold fuggin sweat shaking like i'm eight years old",shape=box,color=blue];
 		1389 -> 1390;
-	1420 [label="Boolean AmirFight is now true.",color=orange];
-		1420 -> 1417;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirFight:1417" [label="Boolean AmirFight is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirFight:1417" -> 1417;
 	1390 [label="panicking",shape=box,color=blue];
 		1390 -> 1391;
 	1417 [label="+20 Chemistry",color=orange];
@@ -121,9 +121,9 @@ digraph {
 	1394 [label="i've had to",shape=box,color=blue];
 		1394 -> 1395;
 	1395 [label="sorryican'tdothisrightnowi'msosorry",shape=box,color=blue];
-		1395 -> 1396;
-	1396 [label="Boolean AmirNightmare1 is now true.",color=orange];
-		1396 -> 1397;
+		1395 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirNightmare1:1397";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirNightmare1:1397" [label="Boolean AmirNightmare1 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirNightmare1:1397" -> 1397;
 	1397 [label="+20 Chemistry",color=orange];
 		1397 -> "Chat ends.";
 }

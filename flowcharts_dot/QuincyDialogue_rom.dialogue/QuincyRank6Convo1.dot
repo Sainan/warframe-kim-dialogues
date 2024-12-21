@@ -109,11 +109,11 @@ digraph {
 	1679 [label="y'know what nvm. w/e. w/e. it's cool",shape=box,color=blue];
 		1679 -> 1708;
 	1708 [label="but this is exactly the kinda shit i've been talking about this whole time. just sayin'",shape=box,color=blue];
-		1708 -> 1710;
-	1710 [label="Boolean QuincyNoDate is now true.",color=orange];
-		1710 -> 2500;
-	2500 [label="Boolean QuincyDating is now false.",color=orange];
-		2500 -> 2548;
-	2548 [label="Boolean IsDating is now false.",color=orange];
-		2548 -> "Chat ends.";
+		1708 -> "/EE/Types/Engine/SetBooleanDialogueNode:QuincyNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:QuincyDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:QuincyNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:QuincyDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends." [label="Boolean QuincyNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:QuincyNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:QuincyDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends." -> "/EE/Types/Engine/ResetBooleanDialogueNode:QuincyDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends.";
+	"/EE/Types/Engine/ResetBooleanDialogueNode:QuincyDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends." [label="Boolean QuincyDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:QuincyDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends." -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends.";
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends." [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends." -> "Chat ends.";
 }

@@ -55,7 +55,7 @@ digraph {
 		951 -> 957;
 		951 -> 958;
 	948 [label="I’ve touched that thing with my mind. I thought I’d be probing Rusalka’s mind, but… the outer layers just caved in like wet, spongy plasterboard and then I was immersed in it. Floundering.",shape=box,color=blue];
-		948 -> 950;
+		948 -> "/EE/Types/Engine/SetBooleanDialogueNode:EleanorIndifference:951";
 	949 [label="It was about as human as a store mannequin. In pieces.",shape=box,color=blue];
 		949 -> 952;
 	956 [label="At this point? ... No.",shape=box,color=red];
@@ -64,8 +64,8 @@ digraph {
 		957 -> 961;
 	958 [label="Yes, I do.",shape=box,color=red];
 		958 -> 962;
-	950 [label="Boolean EleanorIndifference is now true.",color=orange];
-		950 -> 951;
+	"/EE/Types/Engine/SetBooleanDialogueNode:EleanorIndifference:951" [label="Boolean EleanorIndifference is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorIndifference:951" -> 951;
 	952 [label="I touched it, you see. With my mind. I was trying to probe her, but she wasn't there.",shape=box,color=blue];
 		952 -> 953;
 	960 [label="At least you were honest.",shape=box,color=blue];
@@ -91,15 +91,15 @@ digraph {
 	968 [label="Please.",shape=box,color=blue];
 		968 -> 971;
 	955 [label="Giving it a name feels like I’ve gotten a tiny bit of control back.",shape=box,color=blue];
-		955 -> 959;
+		955 -> "/EE/Types/Engine/SetBooleanDialogueNode:EleanorIndifference:972";
 	969 [label="Hate. Rage. Anything.",shape=box,color=blue];
 		969 -> 973;
 	970 [label="Maybe hope is a delusion. I don't know.",shape=box,color=blue];
 		970 -> 974;
 	971 [label="I reached out for Rusalka, and it was as if my fingers touched her face and went right through. The mask just collapsed.",shape=box,color=blue];
 		971 -> 975;
-	959 [label="Boolean EleanorIndifference is now true.",color=orange];
-		959 -> 972;
+	"/EE/Types/Engine/SetBooleanDialogueNode:EleanorIndifference:972" [label="Boolean EleanorIndifference is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorIndifference:972" -> 972;
 	973 [label="Better than apathy. Better than meek surrender.",shape=box,color=blue];
 		973 -> 978;
 	974 [label="I could just really do with some right now.",shape=box,color=blue];
@@ -117,10 +117,10 @@ digraph {
 	981 [label="They'd be compelled to jump from the ship down into the beautiful green meadows and go running across them. If a shipmate held them back, they’d fight.",shape=box,color=blue];
 		981 -> 982;
 	982 [label="I jumped, expecting grass. Next second I was in over my head in the freezing dark.",shape=box,color=blue];
-		982 -> 983;
-	983 [label="Boolean EleanorIndifference2 is now true.",color=orange];
-		983 -> 984;
-		983 -> 986;
+		982 -> "/EE/Types/Engine/SetBooleanDialogueNode:EleanorIndifference2:984:986";
+	"/EE/Types/Engine/SetBooleanDialogueNode:EleanorIndifference2:984:986" [label="Boolean EleanorIndifference2 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorIndifference2:984:986" -> 984;
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorIndifference2:984:986" -> 986;
 	984 [label="I don't think it's safe for you to talk about it like this.",shape=box,color=red];
 		984 -> 985;
 	986 [label="I’m here. Go on.",shape=box,color=red];
@@ -209,11 +209,11 @@ digraph {
 	1028 [label="It’s only fair to warn you that the good ship Eleanor may go down, either in the bloody sea or the night-black swamp, and you do not want to be on board when she does.",shape=box,color=blue];
 		1028 -> 1030;
 	1024 [label="More fool me.",shape=box,color=blue];
-		1024 -> 1025;
+		1024 -> "/EE/Types/Engine/SetBooleanDialogueNode:EleanorNoDate:Chat ends.";
 	1030 [label="+20 Chemistry",color=orange];
 		1030 -> 1029;
-	1025 [label="Boolean EleanorNoDate is now true.",color=orange];
-		1025 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:EleanorNoDate:Chat ends." [label="Boolean EleanorNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorNoDate:Chat ends." -> "Chat ends.";
 	1029 [label="Thanks. You should go. I’ll be okay now. Honestly.",shape=box,color=blue];
 		1029 -> "Chat ends.";
 }

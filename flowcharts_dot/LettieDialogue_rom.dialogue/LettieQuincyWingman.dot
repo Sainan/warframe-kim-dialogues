@@ -72,19 +72,19 @@ You want to do this?",shape=box,color=blue];
 	2491 [label="¿Babas?
 Sometimes, I want to smack you
 This is one of those times",shape=box,color=blue];
-		2491 -> 2492;
+		2491 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	2489 [label="Sí, okay then
 Let's get on with it, then
 ¡Va!, there's work to do",shape=box,color=blue];
-		2489 -> 2495;
-	2492 [label="Boolean LettieNoDate is now true.",color=orange];
-		2492 -> "Chat ends.";
-	2495 [label="Boolean LettieNoDate is now false.",color=orange];
-		2495 -> 2496;
-	2496 [label="Boolean IsDating is now true.",color=orange];
-		2496 -> 2497;
-	2497 [label="Boolean LettieDating is now true.",color=orange];
-		2497 -> 2498;
-	2498 [label="Boolean LettieHasDated is now true.",color=orange];
-		2498 -> "Chat ends.";
+		2489 -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieNoDate:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "Chat ends.";
+	"/EE/Types/Engine/ResetBooleanDialogueNode:LettieNoDate:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." [label="Boolean LettieNoDate is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:LettieNoDate:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." [label="Boolean IsDating is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." [label="Boolean LettieDating is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." [label="Boolean LettieHasDated is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." -> "Chat ends.";
 }

@@ -27,7 +27,7 @@ digraph {
 		407 -> 408;
 	"Chat ends." [color=orange];
 	377 [label="You seem upset. Is it something I said?",shape=box,color=red];
-		377 -> 371;
+		377 -> "/EE/Types/Engine/SetBooleanDialogueNode:AoiBoringApology:391";
 	394 [label="[Don't respond.]",shape=box,color=red];
 		394 -> "Chat ends.";
 	402 [label="a what now?",shape=box,color=blue];
@@ -36,8 +36,8 @@ digraph {
 	408 [label="<RETRO_EMOJI_AWHUG>",shape=box,color=blue];
 		408 -> 458;
 		408 -> 459;
-	371 [label="Boolean AoiBoringApology is now true.",color=orange];
-		371 -> 391;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AoiBoringApology:391" [label="Boolean AoiBoringApology is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AoiBoringApology:391" -> 391;
 	404 [label="Right. You never would have seen an animal on Deimos. Predasites are like infested dogs with big ears. You'd love them.",shape=box,color=red];
 		404 -> 426;
 	405 [label="Ah right. You wouldn't know. It's an animal on Deimos. Don't worry your pretty little head over it.",shape=box,color=red];
@@ -220,7 +220,7 @@ digraph {
 	505 [label="Uh oh. He hates it.",shape=box,color=red];
 		505 -> 507;
 	397 [label="definitely!",shape=box,color=blue];
-		397 -> 378;
+		397 -> "/EE/Types/Engine/ResetBooleanDialogueNode:AoiBoring:Chat ends.";
 	389 [label="+10 Chemistry",color=orange];
 		389 -> 396;
 	441 [label="I'm kidding! I actually conserve wildlife on Deimos.",shape=box,color=red];
@@ -253,8 +253,8 @@ digraph {
 		506 -> 508;
 	507 [label="that's ok ^_^ u did ur best right? it's the thought that counts!",shape=box,color=blue];
 		507 -> 508;
-	378 [label="Boolean AoiBoring is now false.",color=orange];
-		378 -> "Chat ends.";
+	"/EE/Types/Engine/ResetBooleanDialogueNode:AoiBoring:Chat ends." [label="Boolean AoiBoring is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:AoiBoring:Chat ends." -> "Chat ends.";
 	396 [label="u bet. talk soon!",shape=box,color=blue];
 		396 -> 375;
 	444 [label="+10 Chemistry",color=orange];
@@ -275,7 +275,7 @@ digraph {
 		508 -> 509;
 		508 -> 510;
 	375 [label="<RETRO_EMOJI_TINYSMILE>",shape=box,color=blue];
-		375 -> 398;
+		375 -> "/EE/Types/Engine/ResetBooleanDialogueNode:AoiBoring:Chat ends.";
 	443 [label="oh! LOL well then",shape=box,color=blue];
 		443 -> 446;
 	451 [label="my first emoticon was supposed to be a thumbs up btw ^_^",shape=box,color=blue];
@@ -287,8 +287,6 @@ digraph {
 		509 -> 511;
 	510 [label="My pleasure.",shape=box,color=red];
 		510 -> 511;
-	398 [label="Boolean AoiBoring is now false.",color=orange];
-		398 -> "Chat ends.";
 	452 [label="Oh. Thanks for clearing that up.",shape=box,color=red];
 		452 -> 454;
 	453 [label="Ah. It all makes sense now.",shape=box,color=red];

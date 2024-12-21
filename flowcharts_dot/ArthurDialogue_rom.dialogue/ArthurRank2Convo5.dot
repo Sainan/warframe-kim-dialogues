@@ -74,7 +74,7 @@ digraph {
 		799 -> 801;
 		799 -> 802;
 	771 [label="International Crisis Response. The \"peace keeping\" unit that got us into this shithole mess.",shape=box,color=blue];
-		771 -> 3145;
+		771 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurICR:789";
 	790 [label="Heh.",shape=box,color=blue];
 		790 -> 784;
 	792 [label="Well, that's a yes.",shape=box,color=red];
@@ -87,8 +87,8 @@ digraph {
 		801 -> 806;
 	802 [label="Uh oh looks like I need to do a forced software update might loose conne -- [End.]",shape=box,color=red];
 		802 -> "Chat ends.";
-	3145 [label="Boolean ArthurICR is now true.",color=orange];
-		3145 -> 789;
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurICR:789" [label="Boolean ArthurICR is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurICR:789" -> 789;
 	784 [label="You'll have to take that up with her.",shape=box,color=blue];
 		784 -> 785;
 	794 [label="Final warning.",shape=box,color=blue];
@@ -119,7 +119,7 @@ digraph {
 	786 [label="Be sure not to be wearing a whole lot of metal near any important bits when you do.",shape=box,color=blue];
 		786 -> "Chat ends.";
 	798 [label="If you wanna pry?",shape=box,color=blue];
-		798 -> 895;
+		798 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurAoiBreakup:784";
 	808 [label="Does the flirting bother you? I'll stop if it does.",shape=box,color=red];
 		808 -> 829;
 	809 [label="I haven't had a lot of practice, so I'm pretty bad at it, I know.",shape=box,color=red];
@@ -132,8 +132,8 @@ digraph {
 		812 -> 814;
 	776 [label="But if you're itching to ask more about our past, I'm going to have to stop you here. It isn't my story to tell.",shape=box,color=blue];
 		776 -> 777;
-	895 [label="Boolean ArthurAoiBreakup is now true.",color=orange];
-		895 -> 784;
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurAoiBreakup:784" [label="Boolean ArthurAoiBreakup is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurAoiBreakup:784" -> 784;
 	829 [label="+20 Chemistry",color=orange];
 		829 -> 831;
 	830 [label="Oh good, I'm a target dummy.",shape=box,color=blue];
@@ -154,11 +154,11 @@ digraph {
 	816 [label="Good to know. [End.]",shape=box,color=red];
 		816 -> "Chat ends.";
 	778 [label="Just don't be wearing a whole lot of metal near any important body parts when you do.",shape=box,color=blue];
-		778 -> 779;
+		778 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurAoiBreakup:Chat ends.";
 	818 [label="+10 Chemistry",color=orange];
 		818 -> 819;
-	779 [label="Boolean ArthurAoiBreakup is now true.",color=orange];
-		779 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurAoiBreakup:Chat ends." [label="Boolean ArthurAoiBreakup is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurAoiBreakup:Chat ends." -> "Chat ends.";
 	819 [label="Hah. Just. Let me ask. On the stubborn scale of 1 to 10, how screwed am I?",shape=box,color=blue];
 		819 -> 821;
 		819 -> 822;
@@ -173,7 +173,7 @@ digraph {
 	820 [label="+10 Chemistry",color=orange];
 		820 -> 825;
 	825 [label="So I guess I'll take it as a compliment and move on.",shape=box,color=blue];
-		825 -> 826;
-	826 [label="Boolean ArthurRainCheck is now true.",color=orange];
-		826 -> "Chat ends.";
+		825 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurRainCheck:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurRainCheck:Chat ends." [label="Boolean ArthurRainCheck is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurRainCheck:Chat ends." -> "Chat ends.";
 }

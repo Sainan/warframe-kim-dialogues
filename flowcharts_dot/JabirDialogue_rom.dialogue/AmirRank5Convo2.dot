@@ -100,7 +100,7 @@ digraph {
 	2338 [label="gonna just try to make this as quick as possible ridgenotes style",shape=box,color=blue];
 		2338 -> 2425;
 	2222 [label="Check boolean AmirDating",color=orange];
-		2222 -> 2257 [label=true,color=green];
+		2222 -> "/EE/Types/Engine/ResetBooleanDialogueNode:AmirDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2317" [label=true,color=green];
 		2222 -> 2319 [label=false,color=brown];
 	2594 [label="Check boolean AmirDuviri",color=orange];
 		2594 -> 2641 [label=true,color=green];
@@ -109,8 +109,8 @@ digraph {
 		2628 -> 1973;
 	2425 [label="so i was an intern for the O.R.O. at the nuclear power plant in their software dev department working on information security",shape=box,color=blue];
 		2425 -> 2644;
-	2257 [label="Boolean AmirDating is now false.",color=orange];
-		2257 -> 2316;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:AmirDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2317" [label="Boolean AmirDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:AmirDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2317" -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2317";
 	2319 [label="guess i'll do what normal people do with their trauma",shape=box,color=blue];
 		2319 -> 2320;
 	2641 [label="but after everything you've told me about duviri i... think you'll understand",shape=box,color=blue];
@@ -121,8 +121,8 @@ digraph {
 		1973 -> 2121;
 	2644 [label="super sexy i know",shape=box,color=blue];
 		2644 -> 2645;
-	2316 [label="Boolean IsDating is now false.",color=orange];
-		2316 -> 2317;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2317" [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2317" -> 2317;
 	2320 [label="and go develop a drinking problem",shape=box,color=blue];
 		2320 -> "Chat ends.";
 	2650 [label="so here goes",shape=box,color=blue];
@@ -216,11 +216,11 @@ digraph {
 	2682 [label="staring at me from their empty and burned-out eye sockets",shape=box,color=blue];
 		2682 -> 2683;
 	2683 [label="mouths open in screams i can still hear when i'm asleep",shape=box,color=blue];
-		2683 -> 2684;
-	2684 [label="Boolean AmirNightmare3 is now true.",color=orange];
-		2684 -> 2685;
-	2685 [label="Boolean AmirBackstoryHex is now true.",color=orange];
-		2685 -> 2686;
+		2683 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirNightmare3:/EE/Types/Engine/SetBooleanDialogueNode:AmirBackstoryHex:2686";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirNightmare3:/EE/Types/Engine/SetBooleanDialogueNode:AmirBackstoryHex:2686" [label="Boolean AmirNightmare3 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirNightmare3:/EE/Types/Engine/SetBooleanDialogueNode:AmirBackstoryHex:2686" -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirBackstoryHex:2686";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirBackstoryHex:2686" [label="Boolean AmirBackstoryHex is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirBackstoryHex:2686" -> 2686;
 	2686 [label="that's... well... a bunch of those scars he has?",shape=box,color=blue];
 		2686 -> 2687;
 		2686 -> 2688;
@@ -303,9 +303,9 @@ digraph {
 	2722 [label="kisses",shape=box,color=blue];
 		2722 -> "Chat ends.";
 	2723 [label="smell ya later",shape=box,color=blue];
-		2723 -> 2724;
+		2723 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends.";
 	2715 [label="add it to the beckettarium",shape=box,color=blue];
 		2715 -> 2716;
-	2724 [label="Boolean AmirWillDate is now true.",color=orange];
-		2724 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends." [label="Boolean AmirWillDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends." -> "Chat ends.";
 }

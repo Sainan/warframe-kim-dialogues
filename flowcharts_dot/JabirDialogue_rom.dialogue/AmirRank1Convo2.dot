@@ -115,7 +115,7 @@ digraph {
 	147 [label="loser",shape=box,color=blue];
 		147 -> "Chat ends.";
 	154 [label="NOPE TOO LATE NO TAKEBACKS",shape=box,color=blue];
-		154 -> 157;
+		154 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirLearnGames:Chat ends.";
 	156 [label="+10 Chemistry",color=orange];
 		156 -> 155;
 	127 [label="Don't short out. lol",shape=box,color=red];
@@ -125,17 +125,15 @@ digraph {
 	129 [label="Yikes. I'm out.",shape=box,color=red];
 		129 -> "Chat ends.";
 	146 [label="LET'S DO THIS",shape=box,color=blue];
-		146 -> 150;
-	157 [label="Boolean AmirLearnGames is now true.",color=orange];
-		157 -> "Chat ends.";
+		146 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirLearnGames:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirLearnGames:Chat ends." [label="Boolean AmirLearnGames is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirLearnGames:Chat ends." -> "Chat ends.";
 	155 [label="YEAH!!",shape=box,color=blue];
-		155 -> 157;
+		155 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirLearnGames:Chat ends.";
 	131 [label="I MIGHT",shape=box,color=blue];
 		131 -> 132;
 	132 [label="wasn'thisbadbeforeandthenallthisshithadtohappenandfffffffff",shape=box,color=blue];
 		132 -> 133;
-	150 [label="Boolean AmirLearnGames is now true.",color=orange];
-		150 -> "Chat ends.";
 	133 [label="i'm okay i'm okay",shape=box,color=blue];
 		133 -> 134;
 		133 -> 135;
@@ -150,11 +148,11 @@ digraph {
 	139 [label="no sorry gotta go lay down",shape=box,color=blue];
 		139 -> 141;
 	140 [label="yeah gotta go lay down",shape=box,color=blue];
-		140 -> 138;
+		140 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRun:141";
 	141 [label="or run a few laps of the city",shape=box,color=blue];
 		141 -> 142;
-	138 [label="Boolean AmirRun is now true.",color=orange];
-		138 -> 141;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirRun:141" [label="Boolean AmirRun is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirRun:141" -> 141;
 	142 [label="dunnowhichbrb",shape=box,color=blue];
 		142 -> "Chat ends.";
 }

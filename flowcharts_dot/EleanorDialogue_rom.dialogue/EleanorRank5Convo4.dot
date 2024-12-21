@@ -15,14 +15,14 @@ digraph {
 		2391 -> 2394;
 		2391 -> 2395;
 	2392 [label="I keep having this terrible dream about Arthur where he has to kill me. And as he shoves the blade between my ribs I’m screaming “Eleanor is RIGHT HERE, you stupid bastard!” but he can’t hear me any more.",shape=box,color=blue];
-		2392 -> 2393;
+		2392 -> "/EE/Types/Engine/SetBooleanDialogueNode:EleanorArthurNightmare:2394:2395";
 	2394 [label="I’m here. It’s okay.",shape=box,color=red];
 		2394 -> 2397;
 	2395 [label="[Ignore.]",shape=box,color=red];
 		2395 -> "Chat ends.";
-	2393 [label="Boolean EleanorArthurNightmare is now true.",color=orange];
-		2393 -> 2394;
-		2393 -> 2395;
+	"/EE/Types/Engine/SetBooleanDialogueNode:EleanorArthurNightmare:2394:2395" [label="Boolean EleanorArthurNightmare is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorArthurNightmare:2394:2395" -> 2394;
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorArthurNightmare:2394:2395" -> 2395;
 	2397 [label="Arthur’s not going to kill you, Eleanor. You’re his sister. He knows that.",shape=box,color=red];
 		2397 -> 2398;
 	"Chat ends." [color=orange];
@@ -146,7 +146,7 @@ digraph {
 	2453 [label="+20 Chemistry",color=orange];
 		2453 -> 2454;
 	2454 [label="You’re wonderful. Thank you for bearing with me. I needed to get that out.",shape=box,color=blue];
-		2454 -> 2455;
-	2455 [label="Boolean EleanorDreams is now true.",color=orange];
-		2455 -> "Chat ends.";
+		2454 -> "/EE/Types/Engine/SetBooleanDialogueNode:EleanorDreams:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:EleanorDreams:Chat ends." [label="Boolean EleanorDreams is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorDreams:Chat ends." -> "Chat ends.";
 }

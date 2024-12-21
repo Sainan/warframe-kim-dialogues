@@ -173,11 +173,11 @@ digraph {
 	2800 [label="Pass.",shape=box,color=red];
 		2800 -> 2803;
 	2801 [label="+10 Chemistry",color=orange];
-		2801 -> 2805;
+		2801 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends.";
 	2802 [label="+5 Chemistry",color=orange];
-		2802 -> 2805;
+		2802 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends.";
 	2803 [label="what you afraid of cooties? whatever",shape=box,color=blue];
 		2803 -> "Chat ends.";
-	2805 [label="Boolean AmirWillDate is now true.",color=orange];
-		2805 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends." [label="Boolean AmirWillDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends." -> "Chat ends.";
 }

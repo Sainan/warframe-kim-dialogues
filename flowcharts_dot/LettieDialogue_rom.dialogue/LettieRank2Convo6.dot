@@ -6,14 +6,14 @@ digraph {
 		508 -> 510 [label=true,color=green];
 		508 -> "Chat ends." [label=false,color=brown];
 	509 [label="Hey Lettie, I have a favor to ask you.",shape=box,color=red];
-		509 -> 512;
+		509 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettieAsked:514";
 	510 [label="Hey Lettie, what do you think about tabletop roleplaying games?",shape=box,color=red];
-		510 -> 513;
+		510 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettieAsked:518";
 	"Chat ends." [color=orange];
-	512 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
-		512 -> 514;
-	513 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
-		513 -> 518;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettieAsked:514" [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettieAsked:514" -> 514;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettieAsked:518" [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettieAsked:518" -> 518;
 	514 [label="Check boolean LettieSmallFavor",color=orange];
 		514 -> 515 [label=true,color=green];
 		514 -> 516 [label=false,color=brown];
@@ -77,15 +77,15 @@ You're calling it in for a silly child's game of make believe?",shape=box,color=
 	538 [label="Bueno",shape=box,color=blue];
 		538 -> "Chat ends.";
 	544 [label="I am. It's worth it, this means a lot to Amir.",shape=box,color=red];
-		544 -> 547;
+		544 -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieSmallFavor:558";
 	543 [label="Mm... Never mind. I'll save it.",shape=box,color=red];
 		543 -> 545;
 	540 [label="Heh 
 Don't get too excited babas 
 Te queda grande la yegua",shape=box,color=blue];
 		540 -> "Chat ends.";
-	547 [label="Boolean LettieSmallFavor is now false.",color=orange];
-		547 -> 558;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:LettieSmallFavor:558" [label="Boolean LettieSmallFavor is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:LettieSmallFavor:558" -> 558;
 	545 [label="+20 Chemistry",color=orange];
 		545 -> 548;
 	558 [label="+20 Chemistry",color=orange];
@@ -97,23 +97,23 @@ Now vete",shape=box,color=blue];
 I'll play this stupid game 
 But only AFTER the work day 
 Now vete",shape=box,color=blue];
-		546 -> 550;
-	550 [label="Boolean AmirRPGLettie is now true.",color=orange];
-		550 -> 551;
+		546 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettie:551";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettie:551" [label="Boolean AmirRPGLettie is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettie:551" -> 551;
 	551 [label="Check boolean AmirRPGQuincy",color=orange];
 		551 -> 552 [label=true,color=green];
-		551 -> 556 [label=false,color=brown];
+		551 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAny:Chat ends." [label=false,color=brown];
 	552 [label="Check boolean AmirRPGArthur",color=orange];
 		552 -> 553 [label=true,color=green];
-		552 -> 556 [label=false,color=brown];
-	556 [label="Boolean AmirRPGAny is now true.",color=orange];
-		556 -> "Chat ends.";
+		552 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAny:Chat ends." [label=false,color=brown];
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAny:Chat ends." [label="Boolean AmirRPGAny is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAny:Chat ends." -> "Chat ends.";
 	553 [label="Check boolean AmirRPGAoi",color=orange];
 		553 -> 554 [label=true,color=green];
-		553 -> 556 [label=false,color=brown];
+		553 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAny:Chat ends." [label=false,color=brown];
 	554 [label="Check boolean AmirRPGEleanor",color=orange];
-		554 -> 555 [label=true,color=green];
-		554 -> 556 [label=false,color=brown];
-	555 [label="Boolean AmirRPGAll is now true.",color=orange];
-		555 -> "Chat ends.";
+		554 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAll:Chat ends." [label=true,color=green];
+		554 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAny:Chat ends." [label=false,color=brown];
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAll:Chat ends." [label="Boolean AmirRPGAll is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAll:Chat ends." -> "Chat ends.";
 }

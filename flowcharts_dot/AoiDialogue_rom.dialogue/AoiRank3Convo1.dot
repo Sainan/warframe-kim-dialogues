@@ -25,7 +25,7 @@ digraph {
 	1605 [label="Is that so? I'd like to try it. We should go out and get some together.",shape=box,color=red];
 		1605 -> 1610;
 	1604 [label="Look, this whole manic pixie dream girl  act is cute and all, but I don't need it in my life.",shape=box,color=red];
-		1604 -> 1607;
+		1604 -> "/EE/Types/Engine/SetBooleanDialogueNode:AoiManicPixie:1608";
 	1600 [label="it's as dark and rich as ur beautiful soul",shape=box,color=blue];
 		1600 -> 1606;
 		1600 -> 1605;
@@ -37,8 +37,8 @@ digraph {
 		1593 -> 1598 [label=false,color=brown];
 	1610 [label="+10 Chemistry",color=orange];
 		1610 -> 1611;
-	1607 [label="Boolean AoiManicPixie is now true.",color=orange];
-		1607 -> 1608;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AoiManicPixie:1608" [label="Boolean AoiManicPixie is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AoiManicPixie:1608" -> 1608;
 	1601 [label="it's as sweet as u ^_^",shape=box,color=blue];
 		1601 -> 1606;
 		1601 -> 1605;

@@ -44,7 +44,7 @@ digraph {
 		2332 -> 2339;
 	"Chat ends." [color=orange];
 	2335 [label="Actually, yes. Parvos Granum, the head of the Corpus.",shape=box,color=red];
-		2335 -> 2337;
+		2335 -> "/EE/Types/Engine/SetBooleanDialogueNode:QuincyParvos:2333";
 	2334 [label="I don't have time to get into this, sorry. [End.]",shape=box,color=red];
 		2334 -> "Chat ends.";
 	2333 [label="do u think he's happy with his life? content even?",shape=box,color=blue];
@@ -57,8 +57,8 @@ digraph {
 		2338 -> 2343;
 	2339 [label="Seems to be from what I can tell. He has some people who support him for more reasons than seemingly *just* the cash.",shape=box,color=red];
 		2339 -> 2344;
-	2337 [label="Boolean QuincyParvos is now true.",color=orange];
-		2337 -> 2333;
+	"/EE/Types/Engine/SetBooleanDialogueNode:QuincyParvos:2333" [label="Boolean QuincyParvos is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:QuincyParvos:2333" -> 2333;
 	2341 [label="n i say ur not trying hard enough then lol",shape=box,color=blue];
 		2341 -> 2342;
 	2343 [label="RIGHT. u get it. they ain't trying hard enough lmao",shape=box,color=blue];

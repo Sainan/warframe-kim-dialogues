@@ -35,15 +35,15 @@ I am too used to pain and like it too much for that kind of thing",shape=box,col
 		1216 -> 1217;
 		1216 -> 1218;
 	1225 [label="Yes ma'am. Consider me warned.",shape=box,color=red];
-		1225 -> 1227;
+		1225 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettiePain:1231";
 	1226 [label="Um... Yeah, never mind. Pain's not really my thing.",shape=box,color=red];
 		1226 -> 1232;
 	1217 [label="I've been curious if you and the other protoframes still had... y'know... your... y'know... parts...",shape=box,color=red];
 		1217 -> 1219;
 	1218 [label="Uh - Never mind.",shape=box,color=red];
 		1218 -> 1220;
-	1227 [label="Boolean LettiePain is now true.",color=orange];
-		1227 -> 1231;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettiePain:1231" [label="Boolean LettiePain is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettiePain:1231" -> 1231;
 	1232 [label="+15 Chemistry",color=orange];
 		1232 -> 1229;
 	1219 [label="JAJAJAJAJA 
@@ -60,7 +60,7 @@ Busy anyway",shape=box,color=blue];
 	1229 [label="Bueno 
 You're better off that way 
 You can let me know if you change your mind",shape=box,color=blue];
-		1229 -> 1228;
+		1229 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoPain:1234";
 	1222 [label="Sorry.",shape=box,color=red];
 		1222 -> 1224;
 	1223 [label="Um... well? Do you?",shape=box,color=red];
@@ -69,8 +69,8 @@ You can let me know if you change your mind",shape=box,color=blue];
 Think you can take it, do you? 
 We'll see",shape=box,color=blue];
 		1230 -> 1233;
-	1228 [label="Boolean LettieNoPain is now true.",color=orange];
-		1228 -> 1234;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoPain:1234" [label="Boolean LettieNoPain is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoPain:1234" -> 1234;
 	1224 [label="I tell you what 
 Maybe if you are a good little babas 
 You just might find out, mm? 

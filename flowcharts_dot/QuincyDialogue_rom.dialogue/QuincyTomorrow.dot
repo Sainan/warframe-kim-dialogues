@@ -47,12 +47,12 @@ digraph {
 	2676 [label="I get it. You'll tell me when you're ready, and that's fine. And if \"ready\" is \"never\"? That's fine, too.",shape=box,color=red];
 		2676 -> 2680;
 	2677 [label="sol u r cute sometimes. nah. we're not doin' this n i'm not fighting with u. i'm gonna think this over n we'll talk when i've sorted this",shape=box,color=blue];
-		2677 -> 2678;
+		2677 -> "/EE/Types/Engine/SetBooleanDialogueNode:QuincySorted:Chat ends.";
 	2680 [label="Check boolean QuincyDating",color=orange];
 		2680 -> 2681 [label=true,color=green];
 		2680 -> 2682 [label=false,color=brown];
-	2678 [label="Boolean QuincySorted is now true.",color=orange];
-		2678 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:QuincySorted:Chat ends." [label="Boolean QuincySorted is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:QuincySorted:Chat ends." -> "Chat ends.";
 	2681 [label="even with us being a thing?",shape=box,color=blue];
 		2681 -> 2687;
 		2681 -> 2688;
@@ -74,15 +74,11 @@ digraph {
 	2696 [label="+20 Chemistry",color=orange];
 		2696 -> 2698;
 	2684 [label="+20 Chemistry",color=orange];
-		2684 -> 2693;
+		2684 -> "/EE/Types/Engine/SetBooleanDialogueNode:QuincySorted:Chat ends.";
 	2691 [label="dunno. i gotta get this sorted n figure out how i feel. realize now this isn't just something i can drag out",shape=box,color=blue];
 		2691 -> 2690;
 	2698 [label="maybe u get this more than i give u credit for. ok. i gotta get this sorted in my head...  figure out how i feel",shape=box,color=blue];
 		2698 -> 2690;
-	2693 [label="Boolean QuincySorted is now true.",color=orange];
-		2693 -> "Chat ends.";
 	2690 [label="fair warning, won't be pretty when i do. ttys sexy. b/c if u think i'm lettin' u wander off while i get my thoughts in order? u mental",shape=box,color=blue];
-		2690 -> 2695;
-	2695 [label="Boolean QuincySorted is now true.",color=orange];
-		2695 -> "Chat ends.";
+		2690 -> "/EE/Types/Engine/SetBooleanDialogueNode:QuincySorted:Chat ends.";
 }

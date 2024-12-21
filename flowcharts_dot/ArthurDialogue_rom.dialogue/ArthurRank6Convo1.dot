@@ -106,7 +106,7 @@ digraph {
 	2713 [label="<RETRO_EMOJI_HEART>",shape=box,color=red];
 		2713 -> 2718;
 	2714 [label="You're making me fall asleep over here.",shape=box,color=red];
-		2714 -> 2716;
+		2714 -> "/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2722";
 	2706 [label="Check boolean SquareSpaghetti",color=orange];
 		2706 -> 2707 [label=true,color=green];
 		2706 -> 2708 [label=true,color=green];
@@ -118,8 +118,8 @@ digraph {
 		2737 -> 2738;
 	2718 [label="(That's a heart btw)",shape=box,color=red];
 		2718 -> 2719;
-	2716 [label="Boolean ArthurDating is now false.",color=orange];
-		2716 -> 2715;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2722" [label="Boolean ArthurDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2722" -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2722";
 	2707 [label="I'm *still* not forgiving you for that spaghetti, though.",shape=box,color=red];
 		2707 -> 2759;
 	2708 [label="That...means a lot, thanks Arthur. And it's mutual.",shape=box,color=red];
@@ -132,8 +132,8 @@ digraph {
 		2738 -> 2735;
 	2719 [label="Heh. Thanks.",shape=box,color=blue];
 		2719 -> 2720;
-	2715 [label="Boolean ArthurNoDate is now true.",color=orange];
-		2715 -> 2717;
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2722" [label="Boolean ArthurNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2722" -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2722";
 	2759 [label="Oh for the love of -",shape=box,color=blue];
 		2759 -> 2760;
 		2759 -> 2761;
@@ -147,8 +147,8 @@ digraph {
 		2735 -> 2736;
 	2720 [label="I never thought it was possible.",shape=box,color=blue];
 		2720 -> 2721;
-	2717 [label="Boolean IsDating is now false.",color=orange];
-		2717 -> 2722;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2722" [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:2722" -> 2722;
 	2760 [label="lolol",shape=box,color=red];
 		2760 -> 2762;
 	2761 [label="I'm just teasing. :)",shape=box,color=red];
@@ -212,19 +212,19 @@ digraph {
 	2754 [label="I thought this kind of happiness wasn't possible for me.",shape=box,color=blue];
 		2754 -> 2755;
 	2750 [label="If you change your mind, I...I'll be here, love.",shape=box,color=blue];
-		2750 -> 2751;
+		2750 -> "/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends.";
 	2734 [label="I love you, too.",shape=box,color=red];
 		2734 -> 2754;
 	2733 [label="I think we should just be friends. [Break up.]",shape=box,color=red];
 		2733 -> 2735;
 	2755 [label="Thank you for showing me I was wrong, love.",shape=box,color=blue];
 		2755 -> 2756;
-	2751 [label="Boolean ArthurDating is now false.",color=orange];
-		2751 -> 2752;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends." [label="Boolean ArthurDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends." -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends.";
 	2756 [label="Here's to the future.",shape=box,color=blue];
 		2756 -> 2757;
-	2752 [label="Boolean IsDating is now false.",color=orange];
-		2752 -> "Chat ends.";
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends." [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:Chat ends." -> "Chat ends.";
 	2757 [label="And here's to us.",shape=box,color=blue];
 		2757 -> "Chat ends.";
 }

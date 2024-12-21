@@ -210,7 +210,7 @@ Hard to explain",shape=box,color=blue];
 		2061 -> 2063;
 	2055 [label="Sí, mi corazón 
 You understand",shape=box,color=blue];
-		2055 -> 2062;
+		2055 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:2067";
 	2089 [label="I think that when loneliness really gets into you, it doesn't ever let you go, even when you're no longer alone.",shape=box,color=red];
 		2089 -> 2091;
 	2090 [label="Sounds like you need to cheer up and allow yourself to be happy. Maybe it's depression, have you ever thought of that?",shape=box,color=red];
@@ -240,9 +240,9 @@ I know, \"just don't be so sad, Lettie\"
 You sound like mi mamá",shape=box,color=blue];
 		2134 -> 2153;
 	2063 [label="Got to go back to work, solecito",shape=box,color=blue];
-		2063 -> 2065;
-	2062 [label="Boolean LettieReal is now true.",color=orange];
-		2062 -> 2067;
+		2063 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:2064";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:2067" [label="Boolean LettieReal is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:2067" -> 2067;
 	2091 [label="I feel it still, even when I'm sitting around the table with the Hex, laughing and drinking. I'm happy. I'm with everyone. But it's there.",shape=box,color=red];
 		2091 -> 2093;
 	2092 [label="Alway so ready to tell me what to do with myself 
@@ -273,8 +273,8 @@ Not personal, solecito",shape=box,color=blue];
 		2153 -> 2157 [label=true,color=green];
 		2153 -> 2158 [label=true,color=green];
 		2153 -> 2154 [label=false,color=brown];
-	2065 [label="Boolean LettieRealNo is now true.",color=orange];
-		2065 -> 2064;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:2064" [label="Boolean LettieRealNo is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:2064" -> 2064;
 	2067 [label="I have to go back to work 
 But I feel better now 
 Gracias, mi corazón...gracias",shape=box,color=blue];
@@ -286,7 +286,7 @@ When you couldn't take the nightmares anymore
 No, this small sadness is not like that 
 It comes and goes like the rain 
 But thanks for the sympathy",shape=box,color=blue];
-		2094 -> 2095;
+		2094 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	2082 [label="You don't have to be alone. You're surrounded by people who care about you.",shape=box,color=red];
 		2082 -> 2085;
 	2083 [label="You never struck me as a poet.",shape=box,color=red];
@@ -307,7 +307,7 @@ But thanks for the sympathy",shape=box,color=blue];
 		2138 -> 2140;
 		2138 -> 2142;
 	2137 [label="Like someone removed a kidney or a rib from me once, a long time ago. A hollowness that aches a little on rainy days.",shape=box,color=red];
-		2137 -> 2147;
+		2137 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:2151";
 	2157 [label="Sounds like you need to cheer up and allow yourself to be happy.",shape=box,color=red];
 		2157 -> 2160;
 	2158 [label="I think that when loneliness really gets into you, it doesn't ever let you go, even when you're no longer alone.",shape=box,color=red];
@@ -320,8 +320,8 @@ But thanks for the sympathy",shape=box,color=blue];
 		2064 -> "Chat ends.";
 	2100 [label="+20 Chemistry",color=orange];
 		2100 -> 2097;
-	2095 [label="Boolean LettieNoDate is now true.",color=orange];
-		2095 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "Chat ends.";
 	2086 [label="Sí 
 And if you tell anyone I got sappy 
 I will gut you like un pescado, ¿entendiste?",shape=box,color=blue];
@@ -337,8 +337,8 @@ I will gut you like un pescado, ¿entendiste?",shape=box,color=blue];
 		2140 -> 2144;
 	2142 [label="Point being, no need to feel lonely.",shape=box,color=red];
 		2142 -> 2144;
-	2147 [label="Boolean LettieReal is now true.",color=orange];
-		2147 -> 2151;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:2151" [label="Boolean LettieReal is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:2151" -> 2151;
 	2160 [label="Mm sí 
 Just that simple",shape=box,color=blue];
 		2160 -> 2161;
@@ -372,7 +372,7 @@ Sometimes you bleed enough and then the bleeding stops",shape=box,color=blue];
 	2151 [label="+20 Chemistry",color=orange];
 		2151 -> 2148;
 	2161 [label="Got to go back to work",shape=box,color=blue];
-		2161 -> 2162;
+		2161 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	2165 [label="Like someone removed a kidney or a rib from me once, a long time ago. A hollowness that aches a little on rainy days.",shape=box,color=red];
 		2165 -> 2170;
 	2156 [label="Check boolean LettieConfession",color=orange];
@@ -384,7 +384,7 @@ Sometimes you bleed enough and then the bleeding stops",shape=box,color=blue];
 	2098 [label="Speaking of 
 Someone is bleeding all over and needs my help 
 Mierda, back to work I go",shape=box,color=blue];
-		2098 -> 2099;
+		2098 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends.";
 	2187 [label="Before you tell me I'm stupid, or whatever - or that I can't handle you, just wait, and let me talk.",shape=box,color=red];
 		2187 -> 2171;
 		2187 -> 2172;
@@ -392,7 +392,7 @@ Mierda, back to work I go",shape=box,color=blue];
 	2112 [label="Speaking of 
 Someone is bleeding all over the floor and needs my help 
 Mierda, back to work I go",shape=box,color=blue];
-		2112 -> 2113;
+		2112 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends.";
 	2117 [label="Sí, you understand 
 Sometimes I can enjoy it almost 
 Like a beautiful sadness 
@@ -410,14 +410,12 @@ Sometimes I can enjoy it almost
 Like a beautiful sadness 
 Sometimes you bleed enough and then the bleeding stops",shape=box,color=blue];
 		2148 -> 2149;
-	2162 [label="Boolean LettieNoDate is now true.",color=orange];
-		2162 -> "Chat ends.";
 	2170 [label="+20 Chemistry",color=orange];
 		2170 -> 2166;
 	2159 [label="I... well... that's not exactly what I meant... [Confess Feelings.]",shape=box,color=red];
 		2159 -> 2188;
-	2099 [label="Boolean LettieWillDate is now true.",color=orange];
-		2099 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends." [label="Boolean LettieWillDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends." -> "Chat ends.";
 	2171 [label="You're drop-dead gorgeous. You're fiercely intelligent. And you could kick my ass. But that's not the only reasons you've become so important to me.",shape=box,color=red];
 		2171 -> 2182;
 		2171 -> 2186;
@@ -427,23 +425,23 @@ Sometimes you bleed enough and then the bleeding stops",shape=box,color=blue];
 	2173 [label="You're unstoppable. Unbreakable. Unflinching. Nothing seems to slow you down. You're one of the toughest people I've ever met. And -",shape=box,color=red];
 		2173 -> 2183;
 		2173 -> 2182;
-	2113 [label="Boolean LettieReal is now true.",color=orange];
-		2113 -> 2114;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends." [label="Boolean LettieReal is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends.";
 	2127 [label="Speaking of 
 Someone is bleeding all over the floor and needs my help 
 Mierda, back to work I go",shape=box,color=blue];
-		2127 -> 2130;
+		2127 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends.";
 	2119 [label="Sí, you understand 
 Sometimes I can enjoy it almost 
 Like a beautiful sadness 
 But lately... ay, you do not need to hear me whine about being lonely",shape=box,color=blue];
 		2119 -> 2120;
 	2143 [label="Got to go back to work, solecito",shape=box,color=blue];
-		2143 -> 2145;
+		2143 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:Chat ends.";
 	2149 [label="Speaking of 
 Someone is bleeding all over the floor and needs my help 
 Mierda, back to work I go",shape=box,color=blue];
-		2149 -> 2150;
+		2149 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends.";
 	2166 [label="Sí, you understand 
 Sometimes I can enjoy it almost 
 Like a beautiful sadness 
@@ -455,24 +453,18 @@ Sometimes you bleed enough and then the bleeding stops",shape=box,color=blue];
 		2186 -> 2185;
 	2183 [label="Let's stop to consider how damn gorgeous you are, and how you could absolutely break me like a twig if you wanted to. lol",shape=box,color=red];
 		2183 -> 2185;
-	2114 [label="Boolean LettieWillDate is now true.",color=orange];
-		2114 -> "Chat ends.";
-	2130 [label="Boolean LettieWillDate is now true.",color=orange];
-		2130 -> "Chat ends.";
 	2120 [label="Check boolean LettieConfession",color=orange];
 		2120 -> 2118 [label=true,color=green];
 		2120 -> 2121 [label=true,color=green];
 		2120 -> 2118 [label=false,color=brown];
 		2120 -> 2121 [label=false,color=brown];
 		2120 -> 2122 [label=false,color=brown];
-	2145 [label="Boolean LettieRealNo is now true.",color=orange];
-		2145 -> "Chat ends.";
-	2150 [label="Boolean LettieWillDate is now true.",color=orange];
-		2150 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:Chat ends." [label="Boolean LettieRealNo is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:Chat ends." -> "Chat ends.";
 	2167 [label="Speaking of 
 Someone is bleeding all over the floor and needs my help 
 Mierda, back to work I go",shape=box,color=blue];
-		2167 -> 2168;
+		2167 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends.";
 	2185 [label="Point is... I care about you, Lettie. A lot. And more than just as friend, and I understand if it isn't mutual, but -",shape=box,color=red];
 		2185 -> 2184;
 	2118 [label="Talk to me anytime, Lettie. I'm here for you.",shape=box,color=red];
@@ -481,8 +473,6 @@ Mierda, back to work I go",shape=box,color=blue];
 		2121 -> 2125;
 	2122 [label="I... well... you don't *have* to be alone... [Confess Feelings.]",shape=box,color=red];
 		2122 -> 2188;
-	2168 [label="Boolean LettieWillDate is now true.",color=orange];
-		2168 -> "Chat ends.";
 	2184 [label="Shut up",shape=box,color=blue];
 		2184 -> 2181;
 	2125 [label="+20 Chemistry",color=orange];
@@ -494,13 +484,11 @@ Mierda, back to work I go",shape=box,color=blue];
 Didn't mean to bleed all over the place 
 Which someone is now doing literally all over my floor 
 Mierda back to work I go",shape=box,color=blue];
-		2123 -> 2126;
+		2123 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends.";
 	2180 [label="I'm sorry if I upset you...",shape=box,color=red];
 		2180 -> 2178;
 	2179 [label="I understand if you don't feel the same way, I get it.",shape=box,color=red];
 		2179 -> 2178;
-	2126 [label="Boolean LettieWillDate is now true.",color=orange];
-		2126 -> "Chat ends.";
 	2178 [label="¡Neta, ya cállate!
 I need a second to think
 To breathe
@@ -512,8 +500,8 @@ Can't process when I'm tearing up",shape=box,color=blue];
 Never take them well
 Talk tomorrow, sort this shit out then
 Lo siento",shape=box,color=blue];
-		2177 -> 2176;
-	2176 [label="Boolean LettieConfession is now true.",color=orange];
-		2176 -> "Chat ends. Next chat will be LettieConfession.";
+		2177 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieConfession:Chat ends. Next chat will be LettieConfession.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieConfession:Chat ends. Next chat will be LettieConfession." [label="Boolean LettieConfession is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieConfession:Chat ends. Next chat will be LettieConfession." -> "Chat ends. Next chat will be LettieConfession.";
 	"Chat ends. Next chat will be LettieConfession." [color=orange];
 }

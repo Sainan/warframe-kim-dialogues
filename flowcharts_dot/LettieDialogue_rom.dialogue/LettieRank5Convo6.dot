@@ -172,18 +172,16 @@ But now I have to go back to work as always",shape=box,color=blue];
 Come what may between us
 Thank you for this moment
 But now I have to go back to work as always",shape=box,color=blue];
-		2306 -> 2307;
+		2306 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends.";
 	2300 [label="Sí, mi corazón, I promise
 Come what may between us
 I will remember this moment and that you cared and I will roll it up like a newspaper and crush the spiders jajaja",shape=box,color=blue];
 		2300 -> 2310;
-	2307 [label="Boolean LettieReal is now true.",color=orange];
-		2307 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends." [label="Boolean LettieReal is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends." -> "Chat ends.";
 	2310 [label="In seriousness...
 Gracias
 But I have to go back to work now
 Ve",shape=box,color=blue];
-		2310 -> 2268;
-	2268 [label="Boolean LettieReal is now true.",color=orange];
-		2268 -> "Chat ends.";
+		2310 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends.";
 }

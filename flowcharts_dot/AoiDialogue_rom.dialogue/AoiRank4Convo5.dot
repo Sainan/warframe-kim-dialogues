@@ -67,7 +67,7 @@ digraph {
 	2671 [label="+5 Chemistry",color=orange];
 		2671 -> 2672;
 	2673 [label="in the future, do u still celebrate venusia? it's the holiday around love and acceptance",shape=box,color=blue];
-		2673 -> 2677;
+		2673 -> "/EE/Types/Engine/SetBooleanDialogueNode:AoiStarDays:2679:2680";
 	2675 [label="(I don't blame u I guess)",shape=box,color=blue];
 		2675 -> 2676;
 	2809 [label="+10 Chemistry",color=orange];
@@ -84,11 +84,11 @@ digraph {
 		2807 -> 2808;
 	2672 [label="ur someone I trust, someone I want to know on a deep level. it's only right that I share that same depth with you.",shape=box,color=blue];
 		2672 -> 2673;
-	2677 [label="Boolean AoiStarDays is now true.",color=orange];
-		2677 -> 2679;
-		2677 -> 2680;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AoiStarDays:2679:2680" [label="Boolean AoiStarDays is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AoiStarDays:2679:2680" -> 2679;
+		"/EE/Types/Engine/SetBooleanDialogueNode:AoiStarDays:2679:2680" -> 2680;
 	2676 [label="in the future, do u still celebrate venusia? it's the holiday around love and acceptance",shape=box,color=blue];
-		2676 -> 2678;
+		2676 -> "/EE/Types/Engine/SetBooleanDialogueNode:AoiStarDays:2682:2681";
 	2811 [label="<RETRO_EMOJI_HAPPYHAND>",shape=box,color=blue];
 		2811 -> 2818;
 	2814 [label="better now that I talked to u!",shape=box,color=blue];
@@ -103,9 +103,9 @@ digraph {
 		2679 -> 2683;
 	2680 [label="We call it Star Days, and there's someone on Venus who I think would love to know that they built on an old tradition, even if she didn't realize it.",shape=box,color=red];
 		2680 -> 2684;
-	2678 [label="Boolean AoiStarDays is now true.",color=orange];
-		2678 -> 2682;
-		2678 -> 2681;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AoiStarDays:2682:2681" [label="Boolean AoiStarDays is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AoiStarDays:2682:2681" -> 2682;
+		"/EE/Types/Engine/SetBooleanDialogueNode:AoiStarDays:2682:2681" -> 2681;
 	2818 [label="ah! that's Arthur calling me. when the boss calls, I'd better answer, ya?",shape=box,color=blue];
 		2818 -> 2819;
 	2822 [label="until next time!",shape=box,color=blue];
@@ -348,11 +348,11 @@ digraph {
 		2785 -> 2786;
 		2785 -> 2787;
 	2786 [label="I'm always here if you need me.",shape=box,color=red];
-		2786 -> 2788;
+		2786 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurAoiBreakup:2789";
 	2787 [label="Anytime.",shape=box,color=red];
-		2787 -> 2788;
-	2788 [label="Boolean ArthurAoiBreakup is now true.",color=orange];
-		2788 -> 2789;
+		2787 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurAoiBreakup:2789";
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurAoiBreakup:2789" [label="Boolean ArthurAoiBreakup is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurAoiBreakup:2789" -> 2789;
 	2789 [label="<RETRO_EMOJI_HEART>",shape=box,color=blue];
 		2789 -> "Chat ends.";
 }

@@ -76,15 +76,15 @@ digraph {
 		294 -> 302;
 		294 -> 303;
 	299 [label="Game on.",shape=box,color=blue];
-		299 -> 300;
+		299 -> "/EE/Types/Engine/SetBooleanDialogueNode:SquareSpaghetti:Chat ends. Next chat will be ArthurSpaghetti.";
 	297 [label="On second thought, good call.",shape=box,color=blue];
 		297 -> "Chat ends.";
 	302 [label="That sounds amazing.",shape=box,color=red];
 		302 -> 305;
 	303 [label="A what?",shape=box,color=red];
 		303 -> 305;
-	300 [label="Boolean SquareSpaghetti is now true.",color=orange];
-		300 -> "Chat ends. Next chat will be ArthurSpaghetti.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:SquareSpaghetti:Chat ends. Next chat will be ArthurSpaghetti." [label="Boolean SquareSpaghetti is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:SquareSpaghetti:Chat ends. Next chat will be ArthurSpaghetti." -> "Chat ends. Next chat will be ArthurSpaghetti.";
 	305 [label="+10 Chemistry",color=orange];
 		305 -> 304;
 	"Chat ends. Next chat will be ArthurSpaghetti." [color=orange];

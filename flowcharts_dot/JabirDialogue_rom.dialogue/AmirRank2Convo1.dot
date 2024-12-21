@@ -61,7 +61,7 @@ digraph {
 	379 [label="yeah yeah well they didn't hire me for my CREATIVITY so suuuue me",shape=box,color=blue];
 		379 -> 408;
 	380 [label="lol zoomy I like it",shape=box,color=blue];
-		380 -> 392;
+		380 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirNameZoomy:408";
 	381 [label="53xy b17ch wouldn't fit lolol",shape=box,color=blue];
 		381 -> 387;
 		381 -> 388;
@@ -74,8 +74,8 @@ digraph {
 		373 -> 374;
 	408 [label="+20 Chemistry",color=orange];
 		408 -> 393;
-	392 [label="Boolean AmirNameZoomy is now true.",color=orange];
-		392 -> 408;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirNameZoomy:408" [label="Boolean AmirNameZoomy is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirNameZoomy:408" -> 408;
 	387 [label="I'll tell you where it *does* fit though... ;)",shape=box,color=red];
 		387 -> 394;
 	388 [label="How about 50r3 w1nn3r?",shape=box,color=red];
@@ -139,7 +139,7 @@ digraph {
 	444 [label="You certainly don't need arcade machines in a warzone. You'd think they'd be the first things to get scrapped.",shape=box,color=red];
 		444 -> 445;
 	410 [label="are you joking?",shape=box,color=blue];
-		410 -> 411;
+		410 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirFirstFlirt:413:414";
 	432 [label="I guess he wanted me to fit in.",shape=box,color=red];
 		432 -> 437;
 	428 [label="fine. keep your secrets, see if i care",shape=box,color=blue];
@@ -148,9 +148,9 @@ digraph {
 		441 -> "Chat ends.";
 	445 [label="But she's left them all alone because she knows how much they mean to you. And besides. You don't *need* the coins anymore, do you?",shape=box,color=red];
 		445 -> 446;
-	411 [label="Boolean AmirFirstFlirt is now true.",color=orange];
-		411 -> 413;
-		411 -> 414;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirFirstFlirt:413:414" [label="Boolean AmirFirstFlirt is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirFirstFlirt:413:414" -> 413;
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirFirstFlirt:413:414" -> 414;
 	437 [label="+20 Chemistry",color=orange];
 		437 -> 433;
 	429 [label="you freaky future person",shape=box,color=blue];
@@ -192,9 +192,9 @@ digraph {
 	0 [label="she was super confused but i'll thank her later again",shape=box,color=blue];
 		0 -> 1;
 	1 [label="because i forgot to thank you",shape=box,color=blue];
-		1 -> 2;
-	2 [label="Boolean AoiAmirArcade is now true.",color=orange];
-		2 -> 3;
+		1 -> "/EE/Types/Engine/SetBooleanDialogueNode:AoiAmirArcade:3";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AoiAmirArcade:3" [label="Boolean AoiAmirArcade is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AoiAmirArcade:3" -> 3;
 	3 [label="thanks",shape=box,color=blue];
 		3 -> "Chat ends.";
 }

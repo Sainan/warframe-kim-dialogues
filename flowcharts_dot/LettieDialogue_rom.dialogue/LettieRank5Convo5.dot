@@ -113,12 +113,12 @@ If that makes sense",shape=box,color=blue];
 Another mistake added to my list
 No hay problema
 Glad we discovered this now",shape=box,color=blue];
-		2237 -> 2235;
+		2237 -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	2218 [label="Mm, sí
 Another mistake added to my list
 No hay problema
 Glad we discovered this now",shape=box,color=blue];
-		2218 -> 2219;
+		2218 -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	2211 [label="JAJAJA
 That depends
 On if you've been a good little babas or not
@@ -135,17 +135,15 @@ Question is, do you trust me enough to try?",shape=box,color=blue];
 	2239 [label="I trust you. <RETRO_EMOJI_HEART>",shape=box,color=red];
 		2239 -> 2249;
 	2240 [label="On second thought - I can't, I'm sorry.",shape=box,color=red];
-		2240 -> 2241;
+		2240 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:2244";
 	2226 [label="Sure. I... might be willing to give it a try.",shape=box,color=red];
 		2226 -> 2238;
 	2228 [label="Maybe, in a weird way. But it's still not my thing.",shape=box,color=red];
 		2228 -> 2244;
 	2227 [label="Nope, sounds nuts to me.",shape=box,color=red];
 		2227 -> 2237;
-	2235 [label="Boolean LettieDating is now false.",color=orange];
-		2235 -> 2236;
-	2219 [label="Boolean LettieDating is now false.",color=orange];
-		2219 -> 2220;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	2217 [label="I trust you. <RETRO_EMOJI_HEART>",shape=box,color=red];
 		2217 -> 2249;
 	2216 [label="I... don't. I'm sorry.",shape=box,color=red];
@@ -155,40 +153,34 @@ We will go slow, take things one step at a time
 And if you change your mind, está bien
 We will find other ways to enjoy ourselves
 That you trust me enough to try means the world",shape=box,color=blue];
-		2246 -> 2247;
+		2246 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettiePain:/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends.";
 	2231 [label="+20 Chemistry",color=orange];
 		2231 -> 2223;
-	2241 [label="Boolean LettieRealNo is now true.",color=orange];
-		2241 -> 2244;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:2244" [label="Boolean LettieRealNo is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:2244" -> 2244;
 	2244 [label="+10 Chemistry",color=orange];
 		2244 -> 2242;
-	2236 [label="Boolean IsDating is now false.",color=orange];
-		2236 -> 2233;
-	2220 [label="Boolean IsDating is now false.",color=orange];
-		2220 -> 2221;
-	2247 [label="Boolean LettiePain is now true.",color=orange];
-		2247 -> 2248;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettiePain:/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends." [label="Boolean LettiePain is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettiePain:/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends.";
 	2223 [label="And I trust you, mi corazón
 That is more than fine
 These kinds of things are no good one-sided jaja trust me
 We will find other ways to enjoy ourselves
 I have faith in that",shape=box,color=blue];
-		2223 -> 2229;
+		2223 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoPain:/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends.";
 	2242 [label="Sí solecito, está bien
 That is more than fine
 We will find other ways to enjoy ourselves
 I have faith in that",shape=box,color=blue];
-		2242 -> 2243;
-	2233 [label="Boolean LettieNoDate is now true.",color=orange];
-		2233 -> "Chat ends.";
-	2221 [label="Boolean LettieNoDate is now true.",color=orange];
-		2221 -> "Chat ends.";
-	2248 [label="Boolean LettieReal is now true.",color=orange];
-		2248 -> "Chat ends.";
-	2229 [label="Boolean LettieNoPain is now true.",color=orange];
-		2229 -> 2230;
-	2243 [label="Boolean LettieNoPain is now true.",color=orange];
-		2243 -> "Chat ends.";
-	2230 [label="Boolean LettieReal is now true.",color=orange];
-		2230 -> "Chat ends.";
+		2242 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoPain:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends." [label="Boolean LettieReal is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends." -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoPain:/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends." [label="Boolean LettieNoPain is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoPain:/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoPain:Chat ends." [label="Boolean LettieNoPain is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoPain:Chat ends." -> "Chat ends.";
 }

@@ -32,14 +32,14 @@ Do you know much of death?",shape=box,color=blue];
 	"Chat ends." [color=orange];
 	262 [label="Sí 
 Surprised you caught on",shape=box,color=blue];
-		262 -> 264;
+		262 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma2:266";
 	263 [label="The Skinny Lady 
 Death",shape=box,color=blue];
-		263 -> 265;
-	264 [label="Boolean LettieFantasma2 is now true.",color=orange];
-		264 -> 266;
-	265 [label="Boolean LettieFantasma2 is now true.",color=orange];
-		265 -> 267;
+		263 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma2:267";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma2:266" [label="Boolean LettieFantasma2 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma2:266" -> 266;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma2:267" [label="Boolean LettieFantasma2 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma2:267" -> 267;
 	266 [label="+5 Chemistry",color=orange];
 		266 -> 268;
 	267 [label="+5 Chemistry",color=orange];
@@ -47,10 +47,10 @@ Death",shape=box,color=blue];
 	268 [label="I respect her 
 Even if sometimes I don't want to like her 
 But she shepherds the ones I care for",shape=box,color=blue];
-		268 -> 269;
-	269 [label="Boolean LettieReligion1 is now true.",color=orange];
-		269 -> 270;
-		269 -> 271;
+		268 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion1:270:271";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion1:270:271" [label="Boolean LettieReligion1 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion1:270:271" -> 270;
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion1:270:271" -> 271;
 	270 [label="But you're a medic. Don't you heal people? How can you \"respect\" death?",shape=box,color=red];
 		270 -> 274;
 	271 [label="Death isn't a person. It's a thing that happens.",shape=box,color=red];

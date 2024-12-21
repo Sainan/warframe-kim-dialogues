@@ -60,7 +60,7 @@ digraph {
 	247 [label="You’re right. I could help people more.",shape=box,color=red];
 		247 -> 248;
 	265 [label="Do you see yourself as a hero?",shape=box,color=blue];
-		265 -> 270;
+		265 -> "/EE/Types/Engine/SetBooleanDialogueNode:EleanorHatesHeroes:271:272:273:274";
 	238 [label="Something on your mind?",shape=box,color=red];
 		238 -> 242;
 	239 [label="Have fun with that. [End.]",shape=box,color=red];
@@ -70,11 +70,11 @@ digraph {
 		249 -> 253 [label=false,color=brown];
 	261 [label="+10 Chemistry",color=orange];
 		261 -> 250;
-	270 [label="Boolean EleanorHatesHeroes is now true.",color=orange];
-		270 -> 271;
-		270 -> 272;
-		270 -> 273;
-		270 -> 274;
+	"/EE/Types/Engine/SetBooleanDialogueNode:EleanorHatesHeroes:271:272:273:274" [label="Boolean EleanorHatesHeroes is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorHatesHeroes:271:272:273:274" -> 271;
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorHatesHeroes:271:272:273:274" -> 272;
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorHatesHeroes:271:272:273:274" -> 273;
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorHatesHeroes:271:272:273:274" -> 274;
 	242 [label="+10 Chemistry",color=orange];
 		242 -> 240;
 	252 [label="Oh Gods, I remember now. Eris. The hulks. The surface of Deimos.",shape=box,color=blue];
@@ -110,7 +110,7 @@ digraph {
 	259 [label="Sol. Here I am feeling sorry for myself for being a plague victim, and dumping on you for being immune, and you’ve seen whole worlds get eaten by the selfsame poxy crud.",shape=box,color=blue];
 		259 -> 268;
 	254 [label="Ignore me. Oozing blemishes are ugly enough. Self-pity is uglier.",shape=box,color=blue];
-		254 -> 260;
+		254 -> "/EE/Types/Engine/SetBooleanDialogueNode:EleanorGalvanized:Chat ends.";
 	275 [label="Good enough. Carry on, soldier.",shape=box,color=blue];
 		275 -> "Chat ends.";
 	277 [label="I’m glad. Someone who’s lived as many centuries as you have OUGHT to be a grown-up by now.",shape=box,color=blue];
@@ -119,10 +119,8 @@ digraph {
 		278 -> "Chat ends.";
 	268 [label="+20 Chemistry",color=orange];
 		268 -> 266;
-	260 [label="Boolean EleanorGalvanized is now true.",color=orange];
-		260 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:EleanorGalvanized:Chat ends." [label="Boolean EleanorGalvanized is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorGalvanized:Chat ends." -> "Chat ends.";
 	266 [label="I think I’ll count what blessings I have.",shape=box,color=blue];
-		266 -> 267;
-	267 [label="Boolean EleanorGalvanized is now true.",color=orange];
-		267 -> "Chat ends.";
+		266 -> "/EE/Types/Engine/SetBooleanDialogueNode:EleanorGalvanized:Chat ends.";
 }

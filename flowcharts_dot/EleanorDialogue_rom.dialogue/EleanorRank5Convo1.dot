@@ -186,9 +186,9 @@ digraph {
 	2169 [label="His name was Christopher. He was Arthur’s best friend.",shape=box,color=blue];
 		2169 -> 2170;
 	2170 [label="We were engaged. I thought I was in love with him.",shape=box,color=blue];
-		2170 -> 2171;
-	2171 [label="Boolean EleanorChristopher1 is now true.",color=orange];
-		2171 -> 2172;
+		2170 -> "/EE/Types/Engine/SetBooleanDialogueNode:EleanorChristopher1:2172";
+	"/EE/Types/Engine/SetBooleanDialogueNode:EleanorChristopher1:2172" [label="Boolean EleanorChristopher1 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorChristopher1:2172" -> 2172;
 	2172 [label="+10 Chemistry",color=orange];
 		2172 -> 2173;
 	2173 [label="I’m sorry. I can’t do this. I’ll talk to you another time.",shape=box,color=blue];

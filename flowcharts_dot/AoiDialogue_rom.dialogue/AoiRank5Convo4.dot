@@ -88,11 +88,11 @@ digraph {
 	3467 [label="Sol only knows how long he'd had it, or how long he'd spent searching through Höllvania to find it",shape=box,color=blue];
 		3467 -> 3468;
 	3468 [label="once that funny little horned creature appeared on the screen, I don't know who was smiling bigger. the kid or Quincy seeing the kid so happy",shape=box,color=blue];
-		3468 -> 3469;
-	3469 [label="Boolean QuincyLovesKids is now true.",color=orange];
-		3469 -> 3470;
-		3469 -> 3471;
-		3469 -> 3472;
+		3468 -> "/EE/Types/Engine/SetBooleanDialogueNode:QuincyLovesKids:3470:3471:3472";
+	"/EE/Types/Engine/SetBooleanDialogueNode:QuincyLovesKids:3470:3471:3472" [label="Boolean QuincyLovesKids is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:QuincyLovesKids:3470:3471:3472" -> 3470;
+		"/EE/Types/Engine/SetBooleanDialogueNode:QuincyLovesKids:3470:3471:3472" -> 3471;
+		"/EE/Types/Engine/SetBooleanDialogueNode:QuincyLovesKids:3470:3471:3472" -> 3472;
 	3470 [label="You know, now that I'm picturing it, that really does sound like him.",shape=box,color=red];
 		3470 -> 3473;
 	3471 [label="You'll have to excuse me for finding this story hard to believe.",shape=box,color=red];

@@ -111,7 +111,7 @@ digraph {
 	1990 [label="I would fight tooth and nail to make it back to you.",shape=box,color=red];
 		1990 -> 1997;
 	1991 [label="Meh.",shape=box,color=red];
-		1991 -> 1992;
+		1991 -> "/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1995";
 	1909 [label="I just...I have this recurring nightmare of you...",shape=box,color=blue];
 		1909 -> 2007;
 	1893 [label="No, you're not. You're looking for an excuse.",shape=box,color=red];
@@ -132,8 +132,8 @@ digraph {
 		1958 -> 1960;
 	1997 [label="My home is here, with you.",shape=box,color=red];
 		1997 -> 1998;
-	1992 [label="Boolean ArthurDating is now false.",color=orange];
-		1992 -> 1993;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1995" [label="Boolean ArthurDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1995" -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1995";
 	2007 [label="Laying in a puddle of blood on some distant planet, killed by some...alien robot, or mutated...whatever.",shape=box,color=blue];
 		2007 -> 2008;
 	1895 [label="You want a reason to push me away. You want a reason to not have to *care.*",shape=box,color=red];
@@ -155,8 +155,8 @@ digraph {
 	1998 [label="But you're a soldier, like me. And sometimes soldiers don't come home.",shape=box,color=blue];
 		1998 -> 1999;
 		1998 -> 2000;
-	1993 [label="Boolean ArthurNoDate is now true.",color=orange];
-		1993 -> 1994;
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1995" [label="Boolean ArthurNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1995" -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1995";
 	2008 [label="And I wouldn't have been there to save you.",shape=box,color=blue];
 		2008 -> 2009;
 	1896 [label="People die. People disappear. That's called *life.*",shape=box,color=red];
@@ -173,7 +173,7 @@ digraph {
 	1919 [label="I don't have any plans to leave. And that's the best I can do right now.",shape=box,color=red];
 		1919 -> 1921;
 	1961 [label="After this conversation? I'm thinking not.",shape=box,color=red];
-		1961 -> 1963;
+		1961 -> "/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1966";
 	1962 [label="If I could, of course. Why would you assume otherwise?",shape=box,color=red];
 		1962 -> 1968;
 	1979 [label="All right, let's start over. Can you tell me what's really bothering you?",shape=box,color=red];
@@ -184,8 +184,8 @@ digraph {
 		1999 -> 2001;
 	2000 [label="The good news is, I'm really hard to kill.",shape=box,color=red];
 		2000 -> 2002;
-	1994 [label="Boolean IsDating is now false.",color=orange];
-		1994 -> 1995;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1995" [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1995" -> 1995;
 	2009 [label="And before you claim \"I promise I won't go,\" you're lying.",shape=box,color=blue];
 		2009 -> 2010;
 	1897 [label="It happens to anyone, at any time. Nothing is ever certain.",shape=box,color=red];
@@ -204,8 +204,8 @@ digraph {
 	1921 [label="And that's supposed to be enough?",shape=box,color=blue];
 		1921 -> 1922;
 		1921 -> 1923;
-	1963 [label="Boolean ArthurDating is now false.",color=orange];
-		1963 -> 1964;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1966" [label="Boolean ArthurDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1966" -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1966";
 	1968 [label="Too much time expecting the worst of people.",shape=box,color=blue];
 		1968 -> 1969;
 	1970 [label="I just keep...having this nightmare, where you're gone.",shape=box,color=blue];
@@ -229,8 +229,8 @@ digraph {
 		1926 -> 1934;
 	1930 [label="But people disappear all the time. Normal people.",shape=box,color=red];
 		1930 -> 1931;
-	1964 [label="Boolean ArthurNoDate is now true.",color=orange];
-		1964 -> 1965;
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1966" [label="Boolean ArthurNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1966" -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1966";
 	1969 [label="I'm jumping at shadows.",shape=box,color=blue];
 		1969 -> 1970;
 	1971 [label="Where I couldn't save you.",shape=box,color=blue];
@@ -249,8 +249,8 @@ digraph {
 		1934 -> "Chat ends.";
 	1931 [label="People die all the time. Normal people.",shape=box,color=red];
 		1931 -> 1932;
-	1965 [label="Boolean IsDating is now false.",color=orange];
-		1965 -> 1966;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1966" [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:1966" -> 1966;
 	1972 [label="And... I can't stand the thought of it.",shape=box,color=blue];
 		1972 -> 1973;
 		1972 -> 1974;
@@ -304,7 +304,7 @@ digraph {
 	2016 [label="I...don't know what to say.",shape=box,color=red];
 		2016 -> 2023;
 	2017 [label="I can't do this to you. I can't. We need to end this now. [Break up with Arthur.]",shape=box,color=red];
-		2017 -> 2018;
+		2017 -> "/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:2021";
 	1941 [label="Because yeah. Someday, something MIGHT happen.",shape=box,color=red];
 		1941 -> 1943;
 	1942 [label="Something might happen. I can't promise otherwise.",shape=box,color=red];
@@ -319,8 +319,8 @@ digraph {
 	2023 [label="Just tell me you'll try not to die out there. Or at least take me with you if you ever find a way.",shape=box,color=blue];
 		2023 -> 2019;
 		2023 -> 2017;
-	2018 [label="Boolean ArthurDating is now false.",color=orange];
-		2018 -> 2786;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:2021" [label="Boolean ArthurDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:ArthurDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:2021" -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:2021";
 	1943 [label="That's called life.",shape=box,color=red];
 		1943 -> 1948;
 	1947 [label="You're right.",shape=box,color=blue];
@@ -329,8 +329,8 @@ digraph {
 		1983 -> 1984;
 	2019 [label="I promise.",shape=box,color=red];
 		2019 -> 2025;
-	2786 [label="Boolean IsDating is now false.",color=orange];
-		2786 -> 2787;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:2021" [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:2021" -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:2021";
 	1948 [label="Sometimes, people don't come back.",shape=box,color=red];
 		1948 -> 1949;
 	1949 [label="I don't deal well when I'm the one trapped in the past and you're the one rushing off into battle to save the world.",shape=box,color=blue];
@@ -340,8 +340,8 @@ digraph {
 		1984 -> 1986;
 	2025 [label="+20 Chemistry",color=orange];
 		2025 -> "Chat ends.";
-	2787 [label="Boolean ArthurNoDate is now true.",color=orange];
-		2787 -> 2021;
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:2021" [label="Boolean ArthurNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurNoDate:2021" -> 2021;
 	1950 [label="No kidding.",shape=box,color=red];
 		1950 -> 1909;
 	1951 [label="I'd feel the same in your shoes.",shape=box,color=red];

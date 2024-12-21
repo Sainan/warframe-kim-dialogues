@@ -1,8 +1,8 @@
 digraph {
 	"AmirArthurNightmares begins." [color=orange];
-		"AmirArthurNightmares begins." -> 1881;
-	1881 [label="Boolean ArthurAmirNightmares is now true.",color=orange];
-		1881 -> 1882;
+		"AmirArthurNightmares begins." -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurAmirNightmares:1882";
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurAmirNightmares:1882" [label="Boolean ArthurAmirNightmares is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurAmirNightmares:1882" -> 1882;
 	1882 [label="i talked to arthur about my nightmares",shape=box,color=blue];
 		1882 -> 1883;
 	1883 [label="like you suggested",shape=box,color=blue];
@@ -33,15 +33,15 @@ digraph {
 	1894 [label="Of course.",shape=box,color=red];
 		1894 -> 1896;
 	1895 [label="Yawn.",shape=box,color=red];
-		1895 -> 1897;
+		1895 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:1898";
 	1893 [label="Anytime.",shape=box,color=red];
 		1893 -> 1896;
 	1896 [label="+20 Chemistry",color=orange];
-		1896 -> 1900;
-	1897 [label="Boolean AmirNoDate is now true.",color=orange];
-		1897 -> 1898;
-	1900 [label="Boolean AmirWillDate is now true.",color=orange];
-		1900 -> "Chat ends.";
+		1896 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:1898" [label="Boolean AmirNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:1898" -> 1898;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends." [label="Boolean AmirWillDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends." -> "Chat ends.";
 	1898 [label="wow",shape=box,color=blue];
 		1898 -> 1899;
 	"Chat ends." [color=orange];

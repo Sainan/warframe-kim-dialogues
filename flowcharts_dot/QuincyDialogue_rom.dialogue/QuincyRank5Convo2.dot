@@ -83,15 +83,15 @@ digraph {
 	3160 [label="The Void... does a lot of weird... stuff. To a lot of things. It's... really hard to explain all the time. But you can think about it like...",shape=box,color=red];
 		3160 -> 3163;
 	3154 [label="Cavalero is one of the Holdfasts onboard the Zariman. A ghost, for lack of a better phrase. He's salty. In charge of the weaponry. Pretty much an asshole. You'd love him.",shape=box,color=red];
-		3154 -> 3155;
+		3154 -> "/EE/Types/Engine/SetBooleanDialogueNode:QuincyCavalero:3179";
 	3162 [label="they... eat ppl. ur weapons eat ppl",shape=box,color=blue];
 		3162 -> 3164;
 		3162 -> 3165;
 	3163 [label="m8",shape=box,color=blue];
 		3163 -> 3166;
 		3163 -> 3167;
-	3155 [label="Boolean QuincyCavalero is now true.",color=orange];
-		3155 -> 3179;
+	"/EE/Types/Engine/SetBooleanDialogueNode:QuincyCavalero:3179" [label="Boolean QuincyCavalero is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:QuincyCavalero:3179" -> 3179;
 	3164 [label="I mean I said \"as far as I can tell.\" I just know that when I kill people with them in a certain way -",shape=box,color=red];
 		3164 -> 3170;
 	3165 [label="Yes. My Void-powered weapons eat people.",shape=box,color=red];

@@ -107,11 +107,11 @@ digraph {
 	857 [label="Everything was about Arthur.",shape=box,color=blue];
 		857 -> 861;
 	859 [label="Arthur has one of the worst cases of Hero Virus I've ever seen.",shape=box,color=blue];
-		859 -> 860;
+		859 -> "/EE/Types/Engine/SetBooleanDialogueNode:EleanorHeroVirus:861";
 	861 [label="So I fire back at him ‘you know I can tell when you’re thinking about Aoi, right?’",shape=box,color=blue];
 		861 -> 862;
-	860 [label="Boolean EleanorHeroVirus is now true.",color=orange];
-		860 -> 861;
+	"/EE/Types/Engine/SetBooleanDialogueNode:EleanorHeroVirus:861" [label="Boolean EleanorHeroVirus is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorHeroVirus:861" -> 861;
 	862 [label="Ouch.",shape=box,color=red];
 		862 -> 863;
 	863 [label="Yeah.",shape=box,color=blue];
@@ -171,7 +171,7 @@ digraph {
 	888 [label="Yay, childhood.",shape=box,color=red];
 		888 -> 889;
 	895 [label="I  know what it's like to hurt a sibling. I... used to have one.",shape=box,color=red];
-		895 -> 897;
+		895 -> "/EE/Types/Engine/SetBooleanDialogueNode:DrifterSiblingYes:898";
 	894 [label="Check boolean DrifterSiblingNo",color=orange];
 		894 -> 895 [label=true,color=green];
 		894 -> 896 [label=true,color=green];
@@ -179,8 +179,8 @@ digraph {
 		894 -> 896 [label=false,color=brown];
 	889 [label="The boys laughed and said Arthur should be happy. Action Angus was going to the Hall of Heroes for the midwinter feast like warriors used to. I wanted to murder them. Little bastards.",shape=box,color=blue];
 		889 -> 890;
-	897 [label="Boolean DrifterSiblingYes is now true.",color=orange];
-		897 -> 898;
+	"/EE/Types/Engine/SetBooleanDialogueNode:DrifterSiblingYes:898" [label="Boolean DrifterSiblingYes is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:DrifterSiblingYes:898" -> 898;
 	896 [label="Sounds like you hurt him badly.",shape=box,color=red];
 		896 -> 900;
 	890 [label="Arthur didn’t want the boys to see him cry, and he didn’t want to cry in front of my dad, so the only person left was me. His shitty big sister.",shape=box,color=blue];

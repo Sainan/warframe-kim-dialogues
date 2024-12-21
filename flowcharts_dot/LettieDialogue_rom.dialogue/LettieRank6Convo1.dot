@@ -123,12 +123,12 @@ And it is all thanks to you",shape=box,color=blue];
 	2424 [label="I don't know, I'm enjoying Sweet Lettie.",shape=box,color=red];
 		2424 -> 2426;
 	2425 [label="Hmm? I dozed off again.",shape=box,color=red];
-		2425 -> 2427;
+		2425 -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	2426 [label="Check boolean LettieDating",color=orange];
 		2426 -> 2431 [label=true,color=green];
 		2426 -> 2434 [label=false,color=brown];
-	2427 [label="Boolean IsDating is now false.",color=orange];
-		2427 -> 2428;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	2431 [label="Check boolean LettieReal",color=orange];
 		2431 -> 2432 [label=true,color=green];
 		2431 -> 2433 [label=false,color=brown];
@@ -137,8 +137,8 @@ I'll still kick your ass
 Point is, I've gotten used to having you underfoot 
 I like having you around",shape=box,color=blue];
 		2434 -> 2437;
-	2428 [label="Boolean LettieDating is now false.",color=orange];
-		2428 -> 2429;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	2432 [label="Don't get used to it, mi corazón 
 I'll still kick your ass 
 Ay, here goes...",shape=box,color=blue];
@@ -152,8 +152,8 @@ I like having you around",shape=box,color=blue];
 And I rely on you in ways I don't rely on anyone else 
 I trust you and that is not something I do lightly",shape=box,color=blue];
 		2437 -> 1621;
-	2429 [label="Boolean LettieNoDate is now true.",color=orange];
-		2429 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieNoDate is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "Chat ends.";
 	2435 [label="Te amo, mi corazón 
 I love you, my heart",shape=box,color=blue];
 		2435 -> 1284;
@@ -199,13 +199,11 @@ I want you to show me what you WANT, ¿entendiste?",shape=box,color=blue];
 Stupid me making mistakes again 
 Better for me we don't go on like this then 
 You understand",shape=box,color=blue];
-		1295 -> 1296;
+		1295 -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
 	1290 [label="Yes. Ma'am.",shape=box,color=red];
 		1290 -> 1292;
 	1291 [label="<RETRO_EMOJI_SNEAKY>",shape=box,color=red];
 		1291 -> 1292;
-	1296 [label="Boolean IsDating is now false.",color=orange];
-		1296 -> 1299;
 	1292 [label="That's the spirit 
 Here's to us, mi corazón 
 And here is to the future 
@@ -213,8 +211,4 @@ Filled with fantasmas and endless futures and gods and demons as they may be
 We have our love 
 And that is more than enough",shape=box,color=blue];
 		1292 -> "Chat ends.";
-	1299 [label="Boolean LettieDating is now false.",color=orange];
-		1299 -> 1301;
-	1301 [label="Boolean LettieNoDate is now true.",color=orange];
-		1301 -> "Chat ends.";
 }

@@ -34,13 +34,13 @@ If you do not know what he is after
 		1045 -> 1047;
 	"Chat ends." [color=orange];
 	1036 [label="This void creature that sacrifices others and wears their skin like ancient flayed god of old, Xipe Totec",shape=box,color=blue];
-		1036 -> 1037;
+		1036 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion2:1038";
 	1046 [label="That THING decided it'd be a fun experiment to turn the parents on the Zariman against their children -",shape=box,color=red];
 		1046 -> 1048;
 	1047 [label="All it does is leave death and destruction in its wake. No matter what it's motivations are, it doesn't matter. Trust me.",shape=box,color=red];
 		1047 -> 1049;
-	1037 [label="Boolean LettieReligion2 is now true.",color=orange];
-		1037 -> 1038;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion2:1038" [label="Boolean LettieReligion2 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion2:1038" -> 1038;
 	1048 [label="And then gave the children magical void powers so they could murder their own parents so it could LEARN from the slaughter.",shape=box,color=red];
 		1048 -> 1050;
 		1048 -> 1051;
@@ -72,7 +72,7 @@ Otherwise you are no better than that Entrati cabrón",shape=box,color=blue];
 		1056 -> 1054 [label=true,color=green];
 		1056 -> 1055 [label=false,color=brown];
 	1062 [label="And you think you can stop a god",shape=box,color=blue];
-		1062 -> 1063;
+		1062 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion4:1064";
 	1054 [label="You are not a god babas 
 Don't pretend you think like one 
 Otherwise you are no better than those  orokin cabrones",shape=box,color=blue];
@@ -80,8 +80,8 @@ Otherwise you are no better than those  orokin cabrones",shape=box,color=blue];
 	1055 [label="You are not a god babas 
 Don't pretend you think like one",shape=box,color=blue];
 		1055 -> "Chat ends.";
-	1063 [label="Boolean LettieReligion4 is now true.",color=orange];
-		1063 -> 1064;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion4:1064" [label="Boolean LettieReligion4 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion4:1064" -> 1064;
 	1064 [label="Check boolean ReligionNone",color=orange];
 		1064 -> 1065 [label=true,color=green];
 		1064 -> 1066 [label=true,color=green];
@@ -116,12 +116,12 @@ All we can ask for I suppose",shape=box,color=blue];
 	1075 [label="We are trapped here 
 Do not lie to me or tell me you'll take me for walks, babas 
 Someday you will escape and never come back",shape=box,color=blue];
-		1075 -> 1080;
+		1075 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieEscape:Chat ends. Next chat will be LettieEscape.";
 	1076 [label="Ay, sí 
 Faith in what does not matter I suppose 
 As long as it gets you through",shape=box,color=blue];
 		1076 -> "Chat ends.";
-	1080 [label="Boolean LettieEscape is now true.",color=orange];
-		1080 -> "Chat ends. Next chat will be LettieEscape.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieEscape:Chat ends. Next chat will be LettieEscape." [label="Boolean LettieEscape is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieEscape:Chat ends. Next chat will be LettieEscape." -> "Chat ends. Next chat will be LettieEscape.";
 	"Chat ends. Next chat will be LettieEscape." [color=orange];
 }

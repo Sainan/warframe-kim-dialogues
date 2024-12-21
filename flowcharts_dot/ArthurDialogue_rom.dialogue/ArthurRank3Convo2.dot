@@ -70,11 +70,11 @@ digraph {
 	428 [label="I try not to think too much about what I've had to do to get through life. Because I don't have anybody to talk to about it.",shape=box,color=red];
 		428 -> 429;
 	425 [label="+10 Chemistry",color=orange];
-		425 -> 426;
+		425 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurSoldier:Chat ends.";
 	429 [label="I only had myself to talk to.",shape=box,color=red];
 		429 -> 430;
-	426 [label="Boolean ArthurSoldier is now true.",color=orange];
-		426 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurSoldier:Chat ends." [label="Boolean ArthurSoldier is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurSoldier:Chat ends." -> "Chat ends.";
 	430 [label="I've never even really had friends. You and the others are the closest I've ever come to... belonging somewhere.",shape=box,color=red];
 		430 -> 432;
 	432 [label="How sad is that?",shape=box,color=red];
@@ -86,7 +86,5 @@ digraph {
 	436 [label="+20 Chemistry",color=orange];
 		436 -> 438;
 	438 [label="I can't do this today. But thanks. This...means a lot.",shape=box,color=blue];
-		438 -> 434;
-	434 [label="Boolean ArthurSoldier is now true.",color=orange];
-		434 -> "Chat ends.";
+		438 -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurSoldier:Chat ends.";
 }

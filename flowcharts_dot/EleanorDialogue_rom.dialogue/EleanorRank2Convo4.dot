@@ -140,7 +140,7 @@ digraph {
 	613 [label="We’re still on ‘does the soul survive the death of the body’. We can’t get on to ‘is free will really a thing’ yet.",shape=box,color=blue];
 		613 -> 615;
 	609 [label="I know some dead people who are like that. The Holdfasts.",shape=box,color=red];
-		609 -> 617;
+		609 -> "/EE/Types/Engine/SetBooleanDialogueNode:EleanorHoldfasts1:626";
 	624 [label="Hmm. No. I don't think it is.",shape=box,color=blue];
 		624 -> 640;
 	625 [label="Oh, you noticed?",shape=box,color=blue];
@@ -150,8 +150,8 @@ digraph {
 	615 [label="(This is what you get, Eleanor, she told herself. This is where asking the interesting person the Big Important Questions gets you.)",shape=box,color=blue];
 		615 -> 622;
 		615 -> 623;
-	617 [label="Boolean EleanorHoldfasts1 is now true.",color=orange];
-		617 -> 626;
+	"/EE/Types/Engine/SetBooleanDialogueNode:EleanorHoldfasts1:626" [label="Boolean EleanorHoldfasts1 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorHoldfasts1:626" -> 626;
 	640 [label="If the Void made a copy of me, I'd end up losing sleep over which of us was the real one.",shape=box,color=blue];
 		640 -> 641;
 	645 [label="Yes. It does matter to me.",shape=box,color=blue];
@@ -171,7 +171,7 @@ digraph {
 	642 [label="... I'm not comfortable with where this is heading. Sorry. Talk later. Maybe.",shape=box,color=blue];
 		642 -> 643;
 	647 [label="Let’s just say I have reasons for hoping that something of us survives the death of the body. I’m hardly alone in that, I know.",shape=box,color=blue];
-		647 -> 648;
+		647 -> "/EE/Types/Engine/SetBooleanDialogueNode:EleanorBereaved:649";
 	619 [label="Bad taste joke. Sorry. Won't happen again.",shape=box,color=blue];
 		619 -> 620;
 	628 [label="They remember dying? They actually know they’re dead?",shape=box,color=blue];
@@ -179,8 +179,8 @@ digraph {
 		628 -> 630;
 	643 [label="+10 Chemistry",color=orange];
 		643 -> "Chat ends.";
-	648 [label="Boolean EleanorBereaved is now true.",color=orange];
-		648 -> 649;
+	"/EE/Types/Engine/SetBooleanDialogueNode:EleanorBereaved:649" [label="Boolean EleanorBereaved is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:EleanorBereaved:649" -> 649;
 	620 [label="+5 Chemistry",color=orange];
 		620 -> "Chat ends.";
 	629 [label="Yeah. They used to be officers on the Zariman. The colony ship that got lost in the Void. Now they’re ghosts, I suppose.",shape=box,color=red];

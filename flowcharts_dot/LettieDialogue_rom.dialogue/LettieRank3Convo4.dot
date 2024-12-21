@@ -110,7 +110,7 @@ Arthur's why I'm here and in the ICR in the first place",shape=box,color=blue];
 		861 -> 870;
 	857 [label="¿Sí? 
 What do you know of pain?",shape=box,color=blue];
-		857 -> 858;
+		857 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieDuviri:871";
 	852 [label="Bien podría ser un pinche fantasma 
 Call from beyond the grave, can't change, can't live, can't die",shape=box,color=blue];
 		852 -> 866;
@@ -132,8 +132,8 @@ You'll adjust",shape=box,color=blue];
 	870 [label="Like mi padre 
 Always on deployment",shape=box,color=blue];
 		870 -> 878;
-	858 [label="Boolean LettieDuviri is now true.",color=orange];
-		858 -> 871;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieDuviri:871" [label="Boolean LettieDuviri is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieDuviri:871" -> 871;
 	866 [label="What are we?! 
 FANTASMAS nothing more 
 Like shadows on a VHS tape used one too many times",shape=box,color=blue];
@@ -146,7 +146,7 @@ They get you somewhere",shape=box,color=blue];
 	883 [label="Good question, babas 
 Stick to the interesting ones 
 They get you somewhere",shape=box,color=blue];
-		883 -> 884;
+		883 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieInteresting:Chat ends.";
 	873 [label="Check boolean LettieNoFlirt",color=orange];
 		873 -> 875 [label=true,color=green];
 		873 -> 876 [label=true,color=green];
@@ -165,8 +165,8 @@ Don't let us stop you",shape=box,color=blue];
 I take this pain for them",shape=box,color=blue];
 		888 -> 890;
 		888 -> 891;
-	884 [label="Boolean LettieInteresting is now true.",color=orange];
-		884 -> "Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieInteresting:Chat ends." [label="Boolean LettieInteresting is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieInteresting:Chat ends." -> "Chat ends.";
 	875 [label="The company.",shape=box,color=red];
 		875 -> 896;
 	876 [label="The food.",shape=box,color=red];
@@ -225,10 +225,10 @@ Passing time through eternity",shape=box,color=blue];
 Leave Mamá Lettie to her real work",shape=box,color=blue];
 		897 -> "Chat ends.";
 	903 [label="I have work to do",shape=box,color=blue];
-		903 -> 905;
+		903 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma1:Chat ends.";
 	904 [label="I have work to do 
 Vete",shape=box,color=blue];
-		904 -> 905;
-	905 [label="Boolean LettieFantasma1 is now true.",color=orange];
-		905 -> "Chat ends.";
+		904 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma1:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma1:Chat ends." [label="Boolean LettieFantasma1 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma1:Chat ends." -> "Chat ends.";
 }

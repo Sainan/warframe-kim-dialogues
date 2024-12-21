@@ -125,11 +125,11 @@ Cuidadito, I am not going to be the pet of this relationship...
 		594 -> 599;
 		594 -> 606;
 	633 [label="Challenge accepted.",shape=box,color=red];
-		633 -> 639;
+		633 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:644";
 	634 [label="Are... you hitting on me?",shape=box,color=red];
 		634 -> 636;
 	635 [label="I just want to be your friend, Lettie. No offense.",shape=box,color=red];
-		635 -> 640;
+		635 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:643";
 	607 [label="Why don't you let people get close?",shape=box,color=red];
 		607 -> 610;
 	608 [label="You're afraid to trust people.",shape=box,color=red];
@@ -145,26 +145,26 @@ Take it or leave it",shape=box,color=blue];
 I guess we take bets on who goes crazy first",shape=box,color=blue];
 		593 -> 595;
 	598 [label="Challenge accepted.",shape=box,color=red];
-		598 -> 622;
+		598 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:626";
 	599 [label="Are... you hitting on me?",shape=box,color=red];
 		599 -> 617;
 	606 [label="I was just trying to be nice. You're not my type.",shape=box,color=red];
-		606 -> 621;
-	639 [label="Boolean LettieFlirt is now true.",color=orange];
-		639 -> 644;
+		606 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:629";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:644" [label="Boolean LettieFlirt is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:644" -> 644;
 	636 [label="¡No manches, babas! 
 Do you want me to be?",shape=box,color=blue];
 		636 -> 637;
 		636 -> 638;
-	640 [label="Boolean LettieNoFlirt is now true.",color=orange];
-		640 -> 643;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:643" [label="Boolean LettieNoFlirt is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:643" -> 643;
 	610 [label="Because I choose not to 
 Because I've learned better 
 It's safer this way for everybody",shape=box,color=blue];
 		610 -> 623;
 		610 -> 624;
 	611 [label="Lárgate de aqui",shape=box,color=blue];
-		611 -> 615;
+		611 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:Chat ends. Next chat will be LettieTrust.";
 	612 [label="¡No manches, babas! 
 Do you know how long rats live? 
 2-3 years at most 
@@ -173,28 +173,28 @@ I am used to losing my little panquecitos",shape=box,color=blue];
 	595 [label="Who knows 
 Might be me",shape=box,color=blue];
 		595 -> "Chat ends.";
-	622 [label="Boolean LettieFlirt is now true.",color=orange];
-		622 -> 626;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:626" [label="Boolean LettieFlirt is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:626" -> 626;
 	617 [label="No manches, babas... 
 Do you want me to be?",shape=box,color=blue];
 		617 -> 618;
 		617 -> 619;
-	621 [label="Boolean LettieNoFlirt is now true.",color=orange];
-		621 -> 629;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:629" [label="Boolean LettieNoFlirt is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:629" -> 629;
 	644 [label="+15 Chemistry",color=orange];
 		644 -> 641;
 	637 [label="Yeah, you're my type. I like to live dangerously. ;)",shape=box,color=red];
-		637 -> 639;
+		637 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:644";
 	638 [label="No, I'd rather just stay friends.",shape=box,color=red];
-		638 -> 640;
+		638 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:643";
 	643 [label="+15 Chemistry",color=orange];
 		643 -> 642;
 	623 [label="Just as a warning, I'm really stubborn, and I want to get to know you better.",shape=box,color=red];
 		623 -> 631;
 	624 [label="Thanks for the heads up. I won't take it personally if you step all over my feelings.",shape=box,color=red];
 		624 -> 632;
-	615 [label="Boolean LettieTrust1 is now true.",color=orange];
-		615 -> "Chat ends. Next chat will be LettieTrust.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:Chat ends. Next chat will be LettieTrust." [label="Boolean LettieTrust1 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:Chat ends. Next chat will be LettieTrust." -> "Chat ends. Next chat will be LettieTrust.";
 	613 [label="And I love them more than humans 
 I am comfortable with grief and loss, more than you know 
 Do not pretend you know me babas 
@@ -203,9 +203,9 @@ Lárgate",shape=box,color=blue];
 	626 [label="+15 Chemistry",color=orange];
 		626 -> 625;
 	618 [label="Yeah, you're my type. I like to live dangerously. ;)",shape=box,color=red];
-		618 -> 622;
+		618 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:626";
 	619 [label="No, I'd rather just stay friends.",shape=box,color=red];
-		619 -> 621;
+		619 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:629";
 	629 [label="+15 Chemistry",color=orange];
 		629 -> 628;
 	641 [label="Jaja we'll see, babas 

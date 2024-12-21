@@ -3,17 +3,17 @@ digraph {
 		"AmirRank3Convo6 begins." -> 1422;
 	1422 [label="Check boolean AmirGameDev1",color=orange];
 		1422 -> 1423 [label=true,color=green];
-		1422 -> 1424 [label=false,color=brown];
+		1422 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirGameDev1:1427" [label=false,color=brown];
 	1423 [label="so i changed the entire genre of the game",shape=box,color=blue];
 		1423 -> 1425;
-	1424 [label="Boolean AmirGameDev1 is now true.",color=orange];
-		1424 -> 1427;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirGameDev1:1427" [label="Boolean AmirGameDev1 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirGameDev1:1427" -> 1427;
 	1425 [label="it's not an exploration platformer anymore it's a looter shooter",shape=box,color=blue];
-		1425 -> 1426;
+		1425 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirGameDev3:1432";
 	1427 [label="soooooo don't laaaaauuuuuugh",shape=box,color=blue];
 		1427 -> 1428;
-	1426 [label="Boolean AmirGameDev3 is now true.",color=orange];
-		1426 -> 1432;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirGameDev3:1432" [label="Boolean AmirGameDev3 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirGameDev3:1432" -> 1432;
 	1428 [label="but i'm developing my own video game, right?",shape=box,color=blue];
 		1428 -> 1429;
 	1432 [label="Check boolean AmirGameDev2",color=orange];
@@ -146,7 +146,7 @@ digraph {
 	1487 [label="GENIUS",shape=box,color=blue];
 		1487 -> 1489;
 	1489 [label="+10 Chemistry",color=orange];
-		1489 -> 1488;
-	1488 [label="Boolean AmirGameDev3 is now true.",color=orange];
-		1488 -> "Chat ends.";
+		1489 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirGameDev3:Chat ends.";
+	"/EE/Types/Engine/SetBooleanDialogueNode:AmirGameDev3:Chat ends." [label="Boolean AmirGameDev3 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AmirGameDev3:Chat ends." -> "Chat ends.";
 }

@@ -18,14 +18,14 @@ digraph {
 	1325 [label="I do. I think you need to be ready to be unkind to the world to be strong.",shape=box,color=red];
 		1325 -> 1380;
 	1326 [label="Like you, Aoi.",shape=box,color=red];
-		1326 -> 1328;
+		1326 -> "/EE/Types/Engine/SetBooleanDialogueNode:AoiKind:1331";
 	1329 [label="Like Ordis. He really feels like my first friend.",shape=box,color=red];
 		1329 -> 1354;
 	1380 [label="unkind to the world? <RETRO_EMOJI_HORRIFIED> what do you mean?",shape=box,color=blue];
 		1380 -> 1381;
 		1380 -> 1382;
-	1328 [label="Boolean AoiKind is now true.",color=orange];
-		1328 -> 1331;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AoiKind:1331" [label="Boolean AoiKind is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AoiKind:1331" -> 1331;
 	1354 [label="Ordisss, his name did sound kinda scary but... i like a kind friend!",shape=box,color=blue];
 		1354 -> 1355;
 	1381 [label="I mean exactly that. Kindness is weak in many ways. The world will often remind you of this.",shape=box,color=red];
@@ -48,7 +48,7 @@ digraph {
 		1356 -> 1357;
 		1356 -> 1359;
 	1385 [label="Once. With you.",shape=box,color=red];
-		1385 -> 1388;
+		1385 -> "/EE/Types/Engine/SetBooleanDialogueNode:AoiKind:1389";
 	1386 [label="Never. I am where I am because of powerful and unkind people.",shape=box,color=red];
 		1386 -> 1406;
 	1428 [label="please, please help me understand.",shape=box,color=blue];
@@ -62,8 +62,8 @@ digraph {
 		1357 -> 1358;
 	1359 [label="He is the best there is. He's seen me through it all and still greets me with a joke. THAT is kindness.",shape=box,color=red];
 		1359 -> 1360;
-	1388 [label="Boolean AoiKind is now true.",color=orange];
-		1388 -> 1389;
+	"/EE/Types/Engine/SetBooleanDialogueNode:AoiKind:1389" [label="Boolean AoiKind is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:AoiKind:1389" -> 1389;
 	1406 [label="Think about it - the only way to get anything done is often when someone else gets hurt.",shape=box,color=red];
 		1406 -> 1407;
 	1429 [label="It's simple. Kindness can be used to manipulate someone. It can be a weakness. And? Well...
@@ -159,7 +159,7 @@ digraph {
 	1376 [label="<RETRO_EMOJI_ANNOYED1>",shape=box,color=blue];
 		1376 -> 1377;
 	1396 [label="i... thought i already had. i can't do this anymore. we're thru. i'm sorry",shape=box,color=blue];
-		1396 -> 1397;
+		1396 -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:AoiDating:Chat ends.";
 	1400 [label="read what you said... you basically did tho... seriously. read the words RIGHT THERE. you said them.",shape=box,color=blue];
 		1400 -> 1401;
 	1413 [label="I'm sorry, I shouldn't have said anything. I don't think you're weak at all [End.]",shape=box,color=red];
@@ -174,8 +174,8 @@ digraph {
 		1365 -> 1366;
 	1377 [label="I .......... don't get itttttttttttttttttttttttttttttt",shape=box,color=blue];
 		1377 -> 1378;
-	1397 [label="Boolean IsDating is now false.",color=orange];
-		1397 -> 1398;
+	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:AoiDating:Chat ends." [label="Boolean IsDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:AoiDating:Chat ends." -> "/EE/Types/Engine/ResetBooleanDialogueNode:AoiDating:Chat ends.";
 	1401 [label="I mean it. I don't think you're weak.",shape=box,color=red];
 		1401 -> 1402;
 	1414 [label="this was... connnfussssssssssing.",shape=box,color=blue];
@@ -190,8 +190,8 @@ digraph {
 		1366 -> 1367;
 	1378 [label="On second thought... yeah let me work on my material [End.]",shape=box,color=red];
 		1378 -> "Chat ends.";
-	1398 [label="Boolean AoiDating is now false.",color=orange];
-		1398 -> "Chat ends.";
+	"/EE/Types/Engine/ResetBooleanDialogueNode:AoiDating:Chat ends." [label="Boolean AoiDating is now false.",color=orange];
+		"/EE/Types/Engine/ResetBooleanDialogueNode:AoiDating:Chat ends." -> "Chat ends.";
 	1402 [label="I think it just occurred to me... you're stronger than me.",shape=box,color=red];
 		1402 -> 1403;
 	1419 [label="so let me be kind and tell u: it's going to be ok.",shape=box,color=blue];
@@ -215,15 +215,11 @@ digraph {
 ",shape=box,color=red];
 		1422 -> "Chat ends.";
 	1424 [label="... i don't think i can do this anymore. we're thru. i'm sorry",shape=box,color=blue];
-		1424 -> 1425;
+		1424 -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:AoiDating:Chat ends.";
 	1350 [label="take me with you anywhere.",shape=box,color=blue];
 		1350 -> 1351;
-	1425 [label="Boolean IsDating is now false.",color=orange];
-		1425 -> 1426;
 	1351 [label="I already do.",shape=box,color=red];
 		1351 -> 1352;
-	1426 [label="Boolean AoiDating is now false.",color=orange];
-		1426 -> "Chat ends.";
 	1352 [label="<RETRO_EMOJI_GIVELOVE>",shape=box,color=blue];
 		1352 -> "Chat ends.";
 }

@@ -19,23 +19,23 @@ But where do you FEEL like you come from",shape=box,color=blue];
 		764 -> 770;
 	"Chat ends." [color=orange];
 	766 [label="Duviri, I guess.",shape=box,color=red];
-		766 -> 771;
+		766 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeDuviri:775";
 	767 [label="The Zariman, I guess.",shape=box,color=red];
-		767 -> 772;
+		767 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeZariman:776";
 	768 [label="You're going to laugh at me... but this is the closest to a \"home\" as I've ever felt I've had.",shape=box,color=red];
-		768 -> 773;
+		768 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHome1999:777";
 	769 [label="I don't really \"come from\" anywhere.",shape=box,color=red];
-		769 -> 774;
+		769 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeNowhere:778";
 	770 [label="Honestly? I... don't know. The Orokin kind of erased most of Ancient Earth's records. So I have no way of knowing how far in the future exactly I'm from.",shape=box,color=red];
 		770 -> 779;
-	771 [label="Boolean LettieHomeDuviri is now true.",color=orange];
-		771 -> 775;
-	772 [label="Boolean LettieHomeZariman is now true.",color=orange];
-		772 -> 776;
-	773 [label="Boolean LettieHome1999 is now true.",color=orange];
-		773 -> 777;
-	774 [label="Boolean LettieHomeNowhere is now true.",color=orange];
-		774 -> 778;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeDuviri:775" [label="Boolean LettieHomeDuviri is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeDuviri:775" -> 775;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeZariman:776" [label="Boolean LettieHomeZariman is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeZariman:776" -> 776;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHome1999:777" [label="Boolean LettieHome1999 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHome1999:777" -> 777;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeNowhere:778" [label="Boolean LettieHomeNowhere is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeNowhere:778" -> 778;
 	779 [label="It must be hard 
 To feel like you come from no place and no time",shape=box,color=blue];
 		779 -> 784;
@@ -110,7 +110,7 @@ Mierda, I hope that is a long time",shape=box,color=blue];
 I see you laughing and finding happiness 
 You are a fantasma, like me, like us 
 But you still find MEANING",shape=box,color=blue];
-		819 -> 820;
+		819 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma3:822";
 	805 [label="Check boolean LettieNoFlirt",color=orange];
 		805 -> 810 [label=true,color=green];
 		805 -> 806 [label=false,color=brown];
@@ -118,8 +118,8 @@ But you still find MEANING",shape=box,color=blue];
 		794 -> 799;
 	795 [label="Hey. At least you have better company than I did.",shape=box,color=red];
 		795 -> 801;
-	820 [label="Boolean LettieFantasma3 is now true.",color=orange];
-		820 -> 822;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma3:822" [label="Boolean LettieFantasma3 is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma3:822" -> 822;
 	810 [label="+10 Chemistry",color=orange];
 		810 -> 807;
 	806 [label="Check boolean LettieFlirt",color=orange];
@@ -152,7 +152,7 @@ We would take turns",shape=box,color=blue];
 	813 [label="I - Oh. *Oh.* Heh. Well.",shape=box,color=red];
 		813 -> 816;
 	814 [label="I... don't like you like that, I'm sorry, Lettie.",shape=box,color=red];
-		814 -> 817;
+		814 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:818";
 	815 [label="... You'll figure it out 
 I have faith 
 But this is not about your suffering 
@@ -161,8 +161,8 @@ Not today",shape=box,color=blue];
 	816 [label="But this is not about your suffering 
 Not today",shape=box,color=blue];
 		816 -> 819;
-	817 [label="Boolean LettieNoFlirt is now true.",color=orange];
-		817 -> 818;
+	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:818" [label="Boolean LettieNoFlirt is now true.",color=orange];
+		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:818" -> 818;
 	818 [label="Lo siento, just playing around 
 Won't happen again 
 Besides, this is not about your suffering",shape=box,color=blue];
