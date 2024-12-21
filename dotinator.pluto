@@ -10,6 +10,39 @@ local function emit_dot(filename, start)
 
 	local fh <close> = io.open(filename, "w")
 	fh:write("digraph {\n")
+	local function get_node_label(node)
+		switch node.type do
+			case "/EE/Types/Engine/ChemistryDialogueNode":
+				return $"+{node.chemistry} Chemistry"
+			case "/EE/Types/Engine/SetBooleanDialogueNode":
+				return $"Boolean {node.name} is now true."
+			case "/EE/Types/Engine/ResetBooleanDialogueNode":
+				return $"Boolean {node.name} is now false."
+			case "/EE/Types/Engine/CheckBooleanDialogueNode":
+				return $"Check boolean {node.name}"
+			case "/EE/Types/Engine/CheckBooleanScriptDialogueNode":
+				return $"Check {node.script_name} for boolean {node.arg1}"
+			case "/EE/Types/Engine/DialogueNode":
+			case "/EE/Types/Engine/PlayerChoiceDialogueNode":
+				do
+					local text = (dict_en[node.name] or node.name)
+					if node.vars then
+						for k, v in node.vars do
+							text = text:replace("|"..k.."|", dict_en[v] or v)
+						end
+					end
+					if node.nickname_override then
+						text = (dict_en[node.nickname_override] or node.nickname_override)..": "..text
+					end
+					return text
+				end
+				break
+			case "/EE/Types/Engine/ScriptDialogueNode":
+				return $"Invoke {node.script_name}"
+			default:
+				return node.type
+		end
+	end
 	local function get_node_name(node)
 		if node.type == "/EE/Types/Engine/EndDialogueNode" then
 			if node.name then
@@ -39,63 +72,9 @@ local function emit_dot(filename, start)
 		fh:write(get_node_name(node))
 	end
 	local function write_node_label(node)
-		switch node.type do
-			case "/EE/Types/Engine/ChemistryDialogueNode":
-				fh:write('"+')
-				fh:write(node.chemistry)
-				fh:write(' Chemistry"')
-				break
-			case "/EE/Types/Engine/SetBooleanDialogueNode":
-				fh:write('"Boolean ')
-				fh:write(node.name)
-				fh:write(' is now true."')
-				break
-			case "/EE/Types/Engine/ResetBooleanDialogueNode":
-				fh:write('"Boolean ')
-				fh:write(node.name)
-				fh:write(' is now false."')
-				break
-			case "/EE/Types/Engine/CheckBooleanDialogueNode":
-				fh:write('"Check boolean ')
-				fh:write(node.name)
-				fh:write('"')
-				break
-			case "/EE/Types/Engine/CheckBooleanScriptDialogueNode":
-				fh:write('"Check ')
-				fh:write(node.script_name)
-				fh:write(" for boolean ")
-				fh:write(node.arg1)
-				fh:write('"')
-				break
-			case "/EE/Types/Engine/DialogueNode":
-			case "/EE/Types/Engine/PlayerChoiceDialogueNode":
-				fh:write('"')
-				if node.nickname_override then
-					fh:write(dict_en[node.nickname_override] or node.nickname_override)
-					fh:write(": ")
-				end
-				do
-					local text = (dict_en[node.name] or node.name)
-					if node.vars then
-						for k, v in node.vars do
-							text = text:replace("|"..k.."|", dict_en[v] or v)
-						end
-					end
-					fh:write(text:replace('"', '\\"'))
-				end
-				fh:write('"')
-				break
-			case "/EE/Types/Engine/ScriptDialogueNode":
-				fh:write('"Invoke ')
-				fh:write(node.script_name)
-				fh:write('"')
-				break
-			default:
-				fh:write('"')
-				fh:write(node.type)
-				fh:write('"')
-				break
-		end
+		fh:write('"')
+		fh:write(get_node_label(node):replace('"', '\\"'))
+		fh:write('"')
 	end
 	while #pending_nodes ~= 0 do
 		local node_id = pending_nodes:remove()
