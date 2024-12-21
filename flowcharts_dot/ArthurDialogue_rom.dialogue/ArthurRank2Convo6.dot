@@ -38,8 +38,6 @@ digraph {
 	2970 [label="Don't tell me. It's that Frogs & Follies thing again?",shape=box,color=blue];
 		2970 -> 2973;
 		2970 -> 2974;
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	2971 [label="I think we could all use a break, don't you?",shape=box,color=red];
 		2971 -> 2977;
 	2972 [label="I think it'd mean a lot to him if we played.",shape=box,color=red];
@@ -55,19 +53,16 @@ digraph {
 		2979 -> 2981;
 	2975 [label="I have better things to do in a warzone. Sorry.",shape=box,color=blue];
 		2975 -> "Chat ends.";
-	"Chat ends." [color=orange];
 	2980 [label="He feels like the odd man out, sometimes. I think a \"group game\" would help him feel more like part of the pack.",shape=box,color=red];
 		2980 -> 2984;
 	2981 [label="I think showing interest in his interests would make him feel less like an outsider. Like people cared.",shape=box,color=red];
 		2981 -> 2982;
-	"Chat ends." [color=orange];
 	2984 [label="Hmm.",shape=box,color=blue];
 		2984 -> 2995;
 	2982 [label="We all have our own hobbies. Pass, sorry.",shape=box,color=blue];
 		2982 -> "Chat ends.";
 	2995 [label="+20 Chemistry",color=orange];
 		2995 -> 2985;
-	"Chat ends." [color=orange];
 	2985 [label="All right... fine. I'm in. Just to try it - no long commitments.",shape=box,color=blue];
 		2985 -> 2986;
 	2986 [label="If it gets *weird* I'm out.",shape=box,color=blue];
@@ -85,7 +80,6 @@ digraph {
 	2990 [label="Check boolean AmirRPGAoi",color=orange];
 		2990 -> 2991 [label=true,color=green];
 		2990 -> 2994 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	2991 [label="Check boolean AmirRPGEleanor",color=orange];
 		2991 -> 2992 [label=true,color=green];
 		2991 -> 2994 [label=false,color=brown];
@@ -94,5 +88,4 @@ digraph {
 		2992 -> 2994 [label=false,color=brown];
 	2993 [label="Boolean AmirRPGAll is now true.",color=orange];
 		2993 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

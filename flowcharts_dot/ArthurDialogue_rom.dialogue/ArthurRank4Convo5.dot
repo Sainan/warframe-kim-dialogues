@@ -8,7 +8,6 @@ digraph {
 		3030 -> "Chat ends." [label=true,color=green];
 		3030 -> 3031 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	3031 [label="Well, now I have the answer to why you're hanging around here so much.",shape=box,color=blue];
 		3031 -> 3033;
 	3033 [label="Boolean ArthurRelationships is now true.",color=orange];
@@ -23,7 +22,6 @@ digraph {
 		3037 -> 3038;
 	3097 [label="What do you mean?",shape=box,color=red];
 		3097 -> 3098;
-	"Chat ends." [color=orange];
 	3038 [label="Check boolean ArthurRainCheck",color=orange];
 		3038 -> 3039 [label=true,color=green];
 		3038 -> 3096 [label=false,color=brown];
@@ -113,7 +111,6 @@ digraph {
 		3119 -> 3132;
 	3115 [label="I'm happy for you and Lettie.",shape=box,color=blue];
 		3115 -> 3120;
-	"Chat ends." [color=orange];
 	3048 [label="But I'm happy for you and Aoi.",shape=box,color=blue];
 		3048 -> 3054;
 	3044 [label="Check boolean EleanorDating",color=orange];
@@ -152,7 +149,6 @@ digraph {
 		3125 -> 3126;
 	3093 [label="You can forget about anything ever happening between us. We can stay friends, but that's all it'll be.",shape=box,color=blue];
 		3093 -> 3094;
-	"Chat ends." [color=orange];
 	3059 [label="I'll do my best not to screw this up.",shape=box,color=red];
 		3059 -> 3061;
 	3060 [label="What if I said my relationship was a lie, and I still had feelings for you?",shape=box,color=red];
@@ -206,7 +202,6 @@ digraph {
 		3135 -> 3136;
 	3139 [label="No promises.",shape=box,color=red];
 		3139 -> 3140;
-	"Chat ends." [color=orange];
 	3062 [label="All I can ask.",shape=box,color=blue];
 		3062 -> "Chat ends.";
 	3091 [label="Deplorable.",shape=box,color=blue];
@@ -216,7 +211,6 @@ digraph {
 		3057 -> 3060;
 	3052 [label="But I'm happy for you and Lettie.",shape=box,color=blue];
 		3052 -> 3058;
-	"Chat ends." [color=orange];
 	3087 [label="I sincerely hope so. For all our sakes.",shape=box,color=blue];
 		3087 -> 3088;
 	3086 [label="So you're just stringing them along?!",shape=box,color=blue];
@@ -234,7 +228,6 @@ digraph {
 		3136 -> 3137;
 	3140 [label="Speaking of knobheads...",shape=box,color=blue];
 		3140 -> "Chat ends.";
-	"Chat ends." [color=orange];
 	3058 [label="She needs someone she can share the pain with. Not just physical, either.",shape=box,color=blue];
 		3058 -> 3059;
 		3058 -> 3060;
@@ -249,14 +242,11 @@ digraph {
 		3082 -> 3084;
 	3078 [label="Or are your feelings for Lettie *actually* legitimate?",shape=box,color=blue];
 		3078 -> 3083;
-	"Chat ends." [color=orange];
 	3137 [label="All I can ask.",shape=box,color=blue];
 		3137 -> "Chat ends.";
-	"Chat ends." [color=orange];
 	3092 [label="Sure, but I can't. And I'm not comfortable with this.",shape=box,color=blue];
 		3092 -> 3093;
 	3083 [label="Because she hurts enough without you adding onto the pile, mate.",shape=box,color=blue];
 		3083 -> 3085;
 		3083 -> 3084;
-	"Chat ends." [color=orange];
 }

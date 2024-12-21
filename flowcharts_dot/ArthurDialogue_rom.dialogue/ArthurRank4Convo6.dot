@@ -13,7 +13,6 @@ digraph {
 		3001 -> 3004 [label=true,color=green];
 		3001 -> 3005 [label=false,color=brown];
 		3001 -> 3006 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	3003 [label="Arthur, about that Fables & Frontiers game - it'll mean a lot to both Amir and I if you play.",shape=box,color=red];
 		3003 -> 3009;
 	3004 [label="Hey, Arthur - I know you already said no to that game of Fables & Frontiers, but I think it'll be fun.",shape=box,color=red];
@@ -35,7 +34,6 @@ digraph {
 		3012 -> "Chat ends.";
 	3017 [label="+20 Chemistry",color=orange];
 		3017 -> 3011;
-	"Chat ends." [color=orange];
 	3011 [label="Yeah... that's fair. All right, I'll play. Count me in.",shape=box,color=blue];
 		3011 -> 3014;
 	3014 [label="At least for one night, to see how it goes.",shape=box,color=blue];
@@ -53,7 +51,6 @@ digraph {
 	3022 [label="Check boolean AmirRPGAoi",color=orange];
 		3022 -> 3021 [label=true,color=green];
 		3022 -> 3018 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	3021 [label="Check boolean AmirRPGEleanor",color=orange];
 		3021 -> 3020 [label=true,color=green];
 		3021 -> 3018 [label=false,color=brown];
@@ -62,5 +59,4 @@ digraph {
 		3020 -> 3018 [label=false,color=brown];
 	3019 [label="Boolean AmirRPGAll is now true.",color=orange];
 		3019 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

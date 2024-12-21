@@ -8,7 +8,6 @@ digraph {
 	2028 [label="Check boolean ArthurDating",color=orange];
 		2028 -> "Chat ends." [label=true,color=green];
 		2028 -> 2030 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	2030 [label="I've never been called an \"asshat\" before.",shape=box,color=blue];
 		2030 -> 2031;
 		2030 -> 2032;
@@ -28,7 +27,6 @@ digraph {
 		2037 -> 2039;
 	2038 [label="Nah. I've been called worse.",shape=box,color=blue];
 		2038 -> 2039;
-	"Chat ends." [color=orange];
 	2039 [label="So.",shape=box,color=blue];
 		2039 -> 2040;
 	2040 [label="About what you said.",shape=box,color=blue];
@@ -53,7 +51,6 @@ digraph {
 		2046 -> "Chat ends.";
 	2050 [label="I've lived my entire life with one foot in the grave. I've always been as good as dead.",shape=box,color=blue];
 		2050 -> 2051;
-	"Chat ends." [color=orange];
 	2051 [label="And it's never been more true than now. Look at me. I mean *look at me.*",shape=box,color=blue];
 		2051 -> 2052;
 	2052 [label="I'm not even *human.*",shape=box,color=blue];
@@ -80,7 +77,6 @@ digraph {
 		2059 -> "Chat ends.";
 	2064 [label="You're *you.* And that's what I'm here for. And that's who I want to be with.",shape=box,color=red];
 		2064 -> 2065;
-	"Chat ends." [color=orange];
 	2065 [label="You. Arthur Nightingale.",shape=box,color=red];
 		2065 -> 2061;
 	2061 [label="Of everything that's happened in this cursed year, I never dreamed...never even imagined...",shape=box,color=blue];
@@ -102,12 +98,10 @@ digraph {
 		2069 -> "Chat ends.";
 	2073 [label="What could possibly go wrong?!",shape=box,color=blue];
 		2073 -> 2074;
-	"Chat ends." [color=orange];
 	2074 [label="Boolean ArthurDating is now true.",color=orange];
 		2074 -> 2075;
 	2075 [label="Boolean IsDating is now true.",color=orange];
 		2075 -> 2076;
 	2076 [label="Boolean ArthurHasDated is now true.",color=orange];
 		2076 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

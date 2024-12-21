@@ -86,7 +86,6 @@ digraph {
 		2423 -> "Chat ends.";
 	2425 [label="Maybe I should.",shape=box,color=blue];
 		2425 -> 2426;
-	"Chat ends." [color=orange];
 	2426 [label="Maybe it’s time.",shape=box,color=blue];
 		2426 -> 2427;
 	2427 [label="Do you want the whole story? Or shall I boil it down to essentials?",shape=box,color=blue];
@@ -103,7 +102,6 @@ digraph {
 	2433 [label="She had Pelham’s Syndrome. You’ve probably cured it by now (she said with an inward wrench). It chips away at a person’s mind. Instead of watching someone you live die all at once, they fade away slowly, by degrees, like an old photograph parching in the sunlight, or a video copied too many times over.",shape=box,color=blue];
 		2433 -> 2434;
 		2433 -> 2435;
-	"Chat ends." [color=orange];
 	2434 [label="Like what was happening to Suda that made her decide to become a Cephalon. I understand.",shape=box,color=red];
 		2434 -> 2436;
 	2435 [label="Actually... no, we haven't really cured that...",shape=box,color=red];
@@ -151,5 +149,4 @@ digraph {
 		2454 -> 2455;
 	2455 [label="Boolean EleanorDreams is now true.",color=orange];
 		2455 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

@@ -46,7 +46,6 @@ digraph {
 	723 [label="Ask. If I don't want to talk, I won't.",shape=box,color=blue];
 		723 -> 724;
 	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	692 [label="Better.",shape=box,color=blue];
 		692 -> 693;
 	698 [label="I have a name already. And a lot of things are cuter than that.",shape=box,color=blue];
@@ -60,7 +59,6 @@ digraph {
 	700 [label="Bunnies. Puppies. Kittens.",shape=box,color=blue];
 		700 -> 696;
 		700 -> 701;
-	"Chat ends." [color=orange];
 	725 [label="Check boolean ArthurSoldier",color=orange];
 		725 -> 730 [label=true,color=green];
 		725 -> 728 [label=false,color=brown];
@@ -153,7 +151,6 @@ digraph {
 		743 -> 748;
 	744 [label="Chicken. :)",shape=box,color=red];
 		744 -> 746;
-	"Chat ends." [color=orange];
 	715 [label="Deal.",shape=box,color=red];
 		715 -> 717;
 	718 [label="No deal.",shape=box,color=red];
@@ -162,6 +159,4 @@ digraph {
 		746 -> "Chat ends.";
 	719 [label="Should've known.",shape=box,color=blue];
 		719 -> "Chat ends.";
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 }

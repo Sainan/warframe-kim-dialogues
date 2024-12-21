@@ -21,7 +21,6 @@ digraph {
 	1554 [label="oh. do u really mean that?",shape=box,color=blue];
 		1554 -> 1556;
 		1554 -> 1557;
-	"Chat ends." [color=orange];
 	1555 [label="Check boolean AoiHasDated",color=orange];
 		1555 -> 1563 [label=true,color=green];
 		1555 -> 1564 [label=false,color=brown];
@@ -44,7 +43,6 @@ digraph {
 		1567 -> 1569;
 	1568 [label="I guess I was scared to.",shape=box,color=red];
 		1568 -> 1569;
-	"Chat ends." [color=orange];
 	1561 [label="apology accepted ^.^",shape=box,color=blue];
 		1561 -> 1562;
 	1566 [label="are u sure you want to give this another try?",shape=box,color=blue];
@@ -73,7 +71,6 @@ digraph {
 		1583 -> "Chat ends.";
 	1577 [label="+20 Chemistry",color=orange];
 		1577 -> 1578;
-	"Chat ends." [color=orange];
 	1578 [label="Boolean AoiNoDate is now false.",color=orange];
 		1578 -> 1579;
 	1579 [label="Boolean IsDating is now true.",color=orange];
@@ -82,5 +79,4 @@ digraph {
 		1580 -> 1581;
 	1581 [label="Boolean AoiHasDated is now true.",color=orange];
 		1581 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

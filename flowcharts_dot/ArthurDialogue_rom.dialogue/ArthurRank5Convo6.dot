@@ -28,7 +28,6 @@ digraph {
 	2469 [label="You've been... I'm not the easiest man to get to know. You've put up with me dodging.",shape=box,color=blue];
 		2469 -> 2470;
 	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	2470 [label="Check boolean ArthurDuviri",color=orange];
 		2470 -> 2471 [label=true,color=green];
 		2470 -> 2472 [label=true,color=green];
@@ -48,7 +47,6 @@ digraph {
 	2477 [label="Check boolean ArthurFamily",color=orange];
 		2477 -> 2479 [label=true,color=green];
 		2477 -> 2478 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	2479 [label="how I got here, how I got like this,",shape=box,color=blue];
 		2479 -> 2478;
 	2478 [label="Check boolean ArthurSkana",color=orange];
@@ -285,9 +283,6 @@ digraph {
 		2575 -> "Chat ends.";
 	2580 [label="+20 Chemistry",color=orange];
 		2580 -> 2579;
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	2579 [label="You're right. Enough of this moody shit for one day.",shape=box,color=blue];
 		2579 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

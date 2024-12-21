@@ -20,7 +20,6 @@ I shouldn't have reacted the way I did
 Segundo, do you mean what you said?",shape=box,color=blue];
 		1726 -> 1727;
 		1726 -> 1728;
-	"Chat ends." [color=orange];
 	1727 [label="I meant every word.",shape=box,color=red];
 		1727 -> 1732;
 	1728 [label="I was making that all up.",shape=box,color=red];
@@ -47,7 +46,6 @@ Un escuincle like that seem more your type",shape=box,color=blue];
 But nono, this isn't a bad conversation 
 It's just--",shape=box,color=blue];
 		1735 -> 1736;
-	"Chat ends." [color=orange];
 	1737 [label="Check boolean LettieTrust2",color=orange];
 		1737 -> 1739 [label=true,color=green];
 		1737 -> 1740 [label=false,color=brown];
@@ -131,7 +129,6 @@ I won't go easy on you
 Because I've seen you fight 
 I know you can take it",shape=box,color=blue];
 		1755 -> 1761;
-	"Chat ends." [color=orange];
 	1761 [label="But don't worry 
 I'll always kiss it better after 
 You can count on that",shape=box,color=blue];
@@ -144,5 +141,4 @@ You can count on that",shape=box,color=blue];
 		1764 -> 1765;
 	1765 [label="Boolean LettieHasDated is now true.",color=orange];
 		1765 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

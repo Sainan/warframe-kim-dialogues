@@ -43,7 +43,6 @@ digraph {
 		303 -> 306;
 	310 [label="I didn't have room on my desk so I sat my drink on the tower. then I was settling in, getting comfy",shape=box,color=blue];
 		310 -> 311;
-	"Chat ends." [color=orange];
 	277 [label="You seem upset. Is it something I said?",shape=box,color=red];
 		277 -> 276;
 	288 [label="[Don't respond.]",shape=box,color=red];
@@ -59,7 +58,6 @@ digraph {
 		311 -> 314;
 	276 [label="Boolean AoiBoringApology is now true.",color=orange];
 		276 -> 269;
-	"Chat ends." [color=orange];
 	304 [label="<RETRO_EMOJI_JOY>",shape=box,color=blue];
 		304 -> 307;
 		304 -> 308;
@@ -176,7 +174,6 @@ digraph {
 		337 -> 339;
 	338 [label="I think you'd better talk to Amir about fixing that.",shape=box,color=red];
 		338 -> 339;
-	"Chat ends." [color=orange];
 	274 [label="<RETRO_EMOJI_TINYSMILE>",shape=box,color=blue];
 		274 -> 286;
 	339 [label="grRRr =====: (((  @",shape=box,color=blue];
@@ -188,7 +185,6 @@ digraph {
 		340 -> 342;
 	341 [label="I'd ask if you're okay over there but... it looks like replying will be difficult either way.",shape=box,color=red];
 		341 -> 342;
-	"Chat ends." [color=orange];
 	342 [label="......  e3-= q -------",shape=box,color=blue];
 		342 -> 343;
 	343 [label="qq",shape=box,color=blue];
@@ -237,5 +233,4 @@ digraph {
 		362 -> 360;
 	360 [label="later!",shape=box,color=blue];
 		360 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

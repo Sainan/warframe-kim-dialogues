@@ -27,7 +27,6 @@ digraph {
 		3168 -> 3172 [label=false,color=brown];
 	3170 [label="I do have to admit you've been on my mind a great deal lately.",shape=box,color=blue];
 		3170 -> 3173;
-	"Chat ends." [color=orange];
 	3171 [label="You did have a shot with me, and you chose to walk away. But... Quincy was convincing. If you'd like to give this another go, I'm willing to give it a try.",shape=box,color=blue];
 		3171 -> 3178;
 		3171 -> 3179;
@@ -60,12 +59,10 @@ digraph {
 		3177 -> 3179;
 	3185 [label="Boolean ArthurNoDate is now false.",color=orange];
 		3185 -> 3186;
-	"Chat ends." [color=orange];
 	3186 [label="Boolean IsDating is now true.",color=orange];
 		3186 -> 3187;
 	3187 [label="Boolean ArthurDating is now true.",color=orange];
 		3187 -> 3188;
 	3188 [label="Boolean ArthurHasDated is now true.",color=orange];
 		3188 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

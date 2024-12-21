@@ -100,7 +100,6 @@ Keep asking it
 Might need it from time to time 
 And a cup or two of coffee won't hurt either",shape=box,color=blue];
 		932 -> 940;
-	"Chat ends." [color=orange];
 	935 [label="Hablando de 
 Back to work 
 Thanks for the distraction",shape=box,color=blue];
@@ -113,7 +112,6 @@ I needed that",shape=box,color=blue];
 		940 -> 943 [label=true,color=green];
 		940 -> 942 [label=false,color=brown];
 		940 -> 943 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	945 [label="Back to work, ¿no? 
 We're both too busy for this",shape=box,color=blue];
 		945 -> "Chat ends.";
@@ -123,5 +121,4 @@ We're both too busy for this",shape=box,color=blue];
 		943 -> 945;
 	942 [label="You got it. <RETRO_EMOJI_HEART>",shape=box,color=red];
 		942 -> 945;
-	"Chat ends." [color=orange];
 }

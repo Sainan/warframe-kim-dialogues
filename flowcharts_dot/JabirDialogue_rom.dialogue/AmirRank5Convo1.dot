@@ -43,7 +43,6 @@ digraph {
 		2432 -> 2433;
 	2444 [label="but i need you to be there for me when i need you to be",shape=box,color=blue];
 		2444 -> 2445;
-	"Chat ends." [color=orange];
 	2433 [label="i just... please? can we just dig into them a little deeper? i just want to know more and it'll give me something else to focus on",shape=box,color=blue];
 		2433 -> 2434;
 	2445 [label="and if you can't i don't... i don't know if i can keep doing this sorry",shape=box,color=blue];
@@ -122,7 +121,6 @@ digraph {
 	2469 [label="Check boolean AmirBackstoryEntrati",color=orange];
 		2469 -> 2470 [label=true,color=green];
 		2469 -> 2473 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	2476 [label="but it honestly doesn't bother me much",shape=box,color=blue];
 		2476 -> 2477;
 	2486 [label="as tempting as it'd be to say otherwise and say OOH YEAH NO I WOULDN'T BE THE BADDIE",shape=box,color=blue];
@@ -314,7 +312,6 @@ digraph {
 		2560 -> 2562;
 	2607 [label="Boolean AmirDating is now false.",color=orange];
 		2607 -> 2609;
-	"Chat ends." [color=orange];
 	2536 [label="i don't wanna know",shape=box,color=blue];
 		2536 -> 2537;
 	2561 [label="All the rage, all the hate, all the anger, and violence.",shape=box,color=red];
@@ -334,7 +331,6 @@ digraph {
 		2614 -> 2611;
 	2538 [label="Boolean AmirDating is now false.",color=orange];
 		2538 -> 2540;
-	"Chat ends." [color=orange];
 	2565 [label="Love the Tenno.",shape=box,color=red];
 		2565 -> 2567;
 	2566 [label="So in a desperate attempt to keep hold of that love, he... deletes those memories.",shape=box,color=red];
@@ -347,7 +343,6 @@ digraph {
 		2567 -> 2569;
 	2568 [label="HE. FIXES. HIMSELF.",shape=box,color=red];
 		2568 -> 2569;
-	"Chat ends." [color=orange];
 	2541 [label="Boolean AmirNoDate is now true.",color=orange];
 		2541 -> 2542;
 	2569 [label="And I'm left wondering... is any of it real?",shape=box,color=red];
@@ -357,7 +352,6 @@ digraph {
 	2570 [label="what do you mean...?",shape=box,color=blue];
 		2570 -> 2571;
 		2570 -> 2572;
-	"Chat ends." [color=orange];
 	2571 [label="Would Ordan Karris even be my friend?",shape=box,color=red];
 		2571 -> 2574;
 	2572 [label="If someone programs themselves to love you, is it real?",shape=box,color=red];
@@ -399,5 +393,4 @@ digraph {
 		2590 -> 2592;
 	2592 [label="Boolean AmirWillDate is now true.",color=orange];
 		2592 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

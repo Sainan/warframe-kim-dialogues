@@ -47,7 +47,6 @@ digraph {
 	2629 [label="If it swallows me whole I’ll stick in its throat and choke it.",shape=box,color=blue];
 		2629 -> 2630;
 		2629 -> 2631;
-	"Chat ends." [color=orange];
 	2630 [label="That's a great way to die.",shape=box,color=red];
 		2630 -> 2632;
 	2631 [label="I don’t know how we’re going to do it yet, but I’m with you. We have to win.",shape=box,color=red];
@@ -60,7 +59,6 @@ digraph {
 		2633 -> "Chat ends.";
 	2636 [label="You said you were a ‘journalist’. Those aren’t the sorts of stories you used to tell, are they? You told the truth, no matter how ugly it was.",shape=box,color=red];
 		2636 -> 2637;
-	"Chat ends." [color=orange];
 	2637 [label="If those old stories didn’t tell the truth, people wouldn’t have kept telling them.",shape=box,color=blue];
 		2637 -> 2638;
 	2638 [label="I don’t mean giants are real. I just mean the old stories tell a different kind of truth.",shape=box,color=blue];
@@ -100,10 +98,8 @@ digraph {
 		2652 -> "Chat ends.";
 	2655 [label="I didn’t.",shape=box,color=blue];
 		2655 -> 2657;
-	"Chat ends." [color=orange];
 	2657 [label="+20 Chemistry",color=orange];
 		2657 -> 2656;
 	2656 [label="I’m just more frightened of losing you, okay?",shape=box,color=blue];
 		2656 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

@@ -35,7 +35,6 @@ digraph {
 		793 -> "Chat ends.";
 	794 [label="Honestly, putting on a daft voice and play-acting for a few hours sounds ideal. Count me in.",shape=box,color=blue];
 		794 -> 795;
-	"Chat ends." [color=orange];
 	795 [label="Oh! I would like to be a wizard. Or perhaps a bard. Or perhaps both? Can you BE both?",shape=box,color=blue];
 		795 -> 796;
 	796 [label="Or I could be a swamp hag! So long as I get to wear a tight bodice, mind. Mother Mossytits will eat your bones, little manikin.",shape=box,color=blue];
@@ -55,11 +54,9 @@ digraph {
 	800 [label="Check boolean AmirRPGAoi",color=orange];
 		800 -> 801 [label=true,color=green];
 		800 -> 803 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	801 [label="Check boolean AmirRPGLettie",color=orange];
 		801 -> 802 [label=true,color=green];
 		801 -> 803 [label=false,color=brown];
 	802 [label="Boolean AmirRPGAll is now true.",color=orange];
 		802 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

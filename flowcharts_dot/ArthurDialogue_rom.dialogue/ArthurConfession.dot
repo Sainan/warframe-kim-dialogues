@@ -8,7 +8,6 @@ digraph {
 	2585 [label="Check boolean ArthurDating",color=orange];
 		2585 -> "Chat ends." [label=true,color=green];
 		2585 -> 2586 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	2586 [label="Hey. You there?",shape=box,color=blue];
 		2586 -> 2588;
 		2586 -> 2589;
@@ -21,7 +20,6 @@ digraph {
 		2591 -> 2594;
 		2591 -> 2595;
 		2591 -> 2592;
-	"Chat ends." [color=orange];
 	2593 [label="...All right.",shape=box,color=red];
 		2593 -> 2598;
 	2594 [label="I say a lot of things. Remind me?",shape=box,color=red];
@@ -59,7 +57,6 @@ digraph {
 		2606 -> 2608;
 	2607 [label="Maybe.",shape=box,color=red];
 		2607 -> 2609;
-	"Chat ends." [color=orange];
 	2621 [label="I'll cut you some slack because you've had a messed up life. I don't know why you said if you didn't mean it.",shape=box,color=blue];
 		2621 -> 2622;
 	2628 [label="I needed to think.",shape=box,color=blue];
@@ -106,15 +103,12 @@ digraph {
 		2627 -> 2629;
 	2615 [label="Boolean ArthurNoDate is now true.",color=orange];
 		2615 -> "Chat ends.";
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	2636 [label="This.",shape=box,color=blue];
 		2636 -> 2638;
 	2637 [label="I'd be a fool not to let myself change with it. To not be willing to at least try.",shape=box,color=blue];
 		2637 -> 2638;
 	2629 [label="Don't make my mistakes. Don't let yourself get cold.",shape=box,color=blue];
 		2629 -> 2632;
-	"Chat ends." [color=orange];
 	2638 [label="When you arrived, I saw someone *just* like me - someone who wasn't really living, just surviving.",shape=box,color=blue];
 		2638 -> 2639;
 	2632 [label="And...that's part of what you've shown me since you've arrived.",shape=box,color=blue];
@@ -157,13 +151,10 @@ digraph {
 		2654 -> "Chat ends.";
 	2652 [label="I, for one, am looking forward to it for the first time in...ages.",shape=box,color=blue];
 		2652 -> 2657;
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	2657 [label="Boolean ArthurDating is now true.",color=orange];
 		2657 -> 2658;
 	2658 [label="Boolean IsDating is now true.",color=orange];
 		2658 -> 2659;
 	2659 [label="Boolean ArthurHasDated is now true.",color=orange];
 		2659 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

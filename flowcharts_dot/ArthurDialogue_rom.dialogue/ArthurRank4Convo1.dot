@@ -39,7 +39,6 @@ digraph {
 		1245 -> "Chat ends.";
 	1246 [label="Well... reading. I did a lot of reading.",shape=box,color=red];
 		1246 -> 1248;
-	"Chat ends." [color=orange];
 	1248 [label="The stories I kept in my head were the only things I was allowed to keep on Duviri.",shape=box,color=red];
 		1248 -> 1249;
 	1249 [label="Everything else would disappear when it looped.",shape=box,color=red];
@@ -75,7 +74,6 @@ digraph {
 		1262 -> 1265;
 		1262 -> 1264;
 		1262 -> 1266;
-	"Chat ends." [color=orange];
 	1265 [label="Oh! Yeah! I'd like that. :)",shape=box,color=red];
 		1265 -> 1270;
 	1264 [label="Um. Nah. I'm good.",shape=box,color=red];
@@ -90,9 +88,6 @@ digraph {
 		1273 -> 1272;
 	1269 [label="It's a plan, then.",shape=box,color=blue];
 		1269 -> "Chat ends.";
-	"Chat ends." [color=orange];
 	1272 [label="Heh. Don't push your luck.",shape=box,color=blue];
 		1272 -> "Chat ends.";
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 }

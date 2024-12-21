@@ -13,7 +13,6 @@ digraph {
 		1480 -> 1481 [label=true,color=green];
 		1480 -> 1482 [label=false,color=brown];
 		1480 -> 1483 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	1479 [label="So... Lettie, look... I know you already said \"no\" to Amir's game, but...",shape=box,color=red];
 		1479 -> 1484;
 	1481 [label="Hey, Lettie, we're friends, now, yeah? You like me now, ish?",shape=box,color=red];
@@ -111,7 +110,6 @@ You'll have to go on without me",shape=box,color=blue];
 Fiiine, babaaass... 
 But I better not regret this...",shape=box,color=blue];
 		1521 -> 1522;
-	"Chat ends." [color=orange];
 	1513 [label="Eleanor said yes, not sure if that's helping or hurting my case...",shape=box,color=red];
 		1513 -> 1517;
 	1510 [label="Check boolean AmirRPGAoi",color=orange];
@@ -154,11 +152,9 @@ How much did you pay him",shape=box,color=blue];
 	1525 [label="Check boolean AmirRPGAoi",color=orange];
 		1525 -> 1524 [label=true,color=green];
 		1525 -> 1529 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	1524 [label="Check boolean AmirRPGEleanor",color=orange];
 		1524 -> 1528 [label=true,color=green];
 		1524 -> 1529 [label=false,color=brown];
 	1528 [label="Boolean AmirRPGAll is now true.",color=orange];
 		1528 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

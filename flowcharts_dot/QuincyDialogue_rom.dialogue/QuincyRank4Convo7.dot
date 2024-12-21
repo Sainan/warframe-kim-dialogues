@@ -124,7 +124,6 @@ digraph {
 		2759 -> 2749;
 	2742 [label="no no dont tell me i dont wanna know",shape=box,color=blue];
 		2742 -> 2743;
-	"Chat ends." [color=orange];
 	2749 [label="but if it sucks im out, get me? n u owe me a favour 4 it",shape=box,color=blue];
 		2749 -> 2750;
 	2743 [label="ok im in. i gotta see this shit",shape=box,color=blue];
@@ -142,11 +141,9 @@ digraph {
 	2753 [label="Check boolean AmirRPGAoi",color=orange];
 		2753 -> 2754 [label=true,color=green];
 		2753 -> 2756 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	2754 [label="Check boolean AmirRPGLettie",color=orange];
 		2754 -> 2755 [label=true,color=green];
 		2754 -> 2756 [label=false,color=brown];
 	2755 [label="Boolean AmirRPGAll is now true.",color=orange];
 		2755 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

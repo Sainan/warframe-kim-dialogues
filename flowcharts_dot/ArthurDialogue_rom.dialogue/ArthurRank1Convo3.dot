@@ -37,7 +37,6 @@ digraph {
 	"Chat ends." [color=orange];
 	233 [label="+10 Chemistry",color=orange];
 		233 -> 234;
-	"Chat ends." [color=orange];
 	251 [label="Why would you assume I'd take something of yours and - oh...",shape=box,color=red];
 		251 -> 256;
 		251 -> 257;
@@ -60,11 +59,9 @@ digraph {
 		258 -> 253;
 	259 [label="Sigh.",shape=box,color=blue];
 		259 -> 253;
-	"Chat ends." [color=orange];
 	238 [label="What \"winky face?\"",shape=box,color=blue];
 		238 -> 239;
 		238 -> 240;
-	"Chat ends." [color=orange];
 	253 [label="+20 Chemistry",color=orange];
 		253 -> 260;
 	239 [label="Tilt your head to the left and look for the face. That's called an \"emoticon.\"",shape=box,color=red];
@@ -81,10 +78,8 @@ digraph {
 		261 -> "Chat ends.";
 	244 [label="+10 Chemistry",color=orange];
 		244 -> 246;
-	"Chat ends." [color=orange];
 	246 [label="Well...shit. I think I need to apologize to Aoi for...a lot. Be right back.",shape=box,color=blue];
 		246 -> 247;
 	247 [label="Boolean ArthurAoiEmoticon is now true.",color=orange];
 		247 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

@@ -146,7 +146,6 @@ digraph {
 		1365 -> 1369;
 	1370 [label="Consider what Quincy thinks about when he thinks nobody's paying attention.",shape=box,color=red];
 		1370 -> 1371;
-	"Chat ends." [color=orange];
 	1318 [label="+15 Chemistry",color=orange];
 		1318 -> 1316;
 	1322 [label="I admit that did make me laugh, though.",shape=box,color=blue];
@@ -157,7 +156,6 @@ digraph {
 		1350 -> 1352;
 	1351 [label="Then trust her to come to you if she needs help.",shape=box,color=red];
 		1351 -> 1352;
-	"Chat ends." [color=orange];
 	1368 [label="+5 Chemistry",color=orange];
 		1368 -> 1367;
 	1369 [label="+10 Chemistry",color=orange];
@@ -168,7 +166,6 @@ digraph {
 		1316 -> 1317;
 	1323 [label="So, good job on at least cheering me up a bit.",shape=box,color=blue];
 		1323 -> 1324;
-	"Chat ends." [color=orange];
 	1352 [label="Maybe. But this is also something she's never had to deal with before.",shape=box,color=blue];
 		1352 -> 1353;
 	1367 [label="Hard to be the outcast amongst freaks.",shape=box,color=blue];
@@ -216,7 +213,6 @@ digraph {
 		1377 -> 1380;
 	1331 [label="And that's when your twin *can't* read your mind.",shape=box,color=red];
 		1331 -> 1327;
-	"Chat ends." [color=orange];
 	1358 [label="+15 Chemistry",color=orange];
 		1358 -> 1357;
 	1379 [label="Might be overdue for one of those. Thanks, friend.",shape=box,color=blue];
@@ -229,17 +225,12 @@ digraph {
 		1327 -> 1332;
 	1357 [label="...No. I don't suppose as I have.",shape=box,color=blue];
 		1357 -> "Chat ends.";
-	"Chat ends." [color=orange];
 	1378 [label="Good idea. I'll try that. Thanks, mate.",shape=box,color=blue];
 		1378 -> "Chat ends. Next chat will be ArthurEleanor.";
-	"Chat ends." [color=orange];
 	1332 [label="And...now I feel like a total knobhead.",shape=box,color=blue];
 		1332 -> 1333;
-	"Chat ends." [color=orange];
-	"Chat ends. Next chat will be ArthurEleanor." [color=orange];
 	1333 [label="I'll do that.",shape=box,color=blue];
 		1333 -> 1334;
 	1334 [label="Boolean ArthurEleanor is now true.",color=orange];
 		1334 -> "Chat ends. Next chat will be ArthurEleanor.";
-	"Chat ends. Next chat will be ArthurEleanor." [color=orange];
 }

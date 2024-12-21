@@ -51,14 +51,12 @@ digraph {
 		1225 -> 1215;
 	1217 [label="i think it'll mean the world to amir to have everybody around the table playing... he's like me. big heart <RETRO_EMOJI_HEART>",shape=box,color=blue];
 		1217 -> 1218;
-	"Chat ends." [color=orange];
 	1211 [label="... i think i'm good...",shape=box,color=blue];
 		1211 -> "Chat ends.";
 	1215 [label="<RETRO_EMOJI_AOICAT>",shape=box,color=blue];
 		1215 -> 1216;
 	1218 [label="Boolean AmirRPGAoi is now true.",color=orange];
 		1218 -> 1219;
-	"Chat ends." [color=orange];
 	1216 [label="+10 Chemistry",color=orange];
 		1216 -> 1217;
 	1219 [label="Check boolean AmirRPGQuincy",color=orange];
@@ -72,11 +70,9 @@ digraph {
 	1221 [label="Check boolean AmirRPGEleanor",color=orange];
 		1221 -> 1222 [label=true,color=green];
 		1221 -> 1224 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	1222 [label="Check boolean AmirRPGLettie",color=orange];
 		1222 -> 1223 [label=true,color=green];
 		1222 -> 1224 [label=false,color=brown];
 	1223 [label="Boolean AmirRPGAll is now true.",color=orange];
 		1223 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

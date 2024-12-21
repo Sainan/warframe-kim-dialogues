@@ -13,7 +13,6 @@ digraph {
 		3014 -> 3017 [label=true,color=green];
 		3014 -> 3018 [label=false,color=brown];
 		3014 -> 3019 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	3016 [label="Remember that game I was telling you about with Amir?",shape=box,color=red];
 		3016 -> 3020;
 	3017 [label="[Ignore.]",shape=box,color=red];
@@ -25,7 +24,6 @@ digraph {
 	3020 [label="yeah..?",shape=box,color=blue];
 		3020 -> 3024;
 		3020 -> 3025;
-	"Chat ends." [color=orange];
 	3022 [label="yeah!! y?",shape=box,color=blue];
 		3022 -> 3030;
 		3022 -> 3031;
@@ -50,7 +48,6 @@ digraph {
 		3033 -> 3043;
 	3029 [label="i'd love to play",shape=box,color=blue];
 		3029 -> 3034;
-	"Chat ends." [color=orange];
 	3035 [label="like what kind of play pretend? ... r people gonna make fun of me for playing?",shape=box,color=blue];
 		3035 -> 3036;
 		3035 -> 3037;
@@ -82,12 +79,10 @@ digraph {
 		3050 -> 3051;
 	3049 [label="<RETRO_EMOJI_AOICAT>",shape=box,color=blue];
 		3049 -> 3050;
-	"Chat ends." [color=orange];
 	3044 [label="... i think i'm good...",shape=box,color=blue];
 		3044 -> "Chat ends.";
 	3051 [label="i think it'll mean the world to amir to have everybody around the table playing... he's like me. big heart <RETRO_EMOJI_HEART>",shape=box,color=blue];
 		3051 -> 3052;
-	"Chat ends." [color=orange];
 	3052 [label="Boolean AmirRPGAoi is now true.",color=orange];
 		3052 -> 3053;
 	3053 [label="Check boolean AmirRPGQuincy",color=orange];
@@ -101,11 +96,9 @@ digraph {
 	3055 [label="Check boolean AmirRPGEleanor",color=orange];
 		3055 -> 3056 [label=true,color=green];
 		3055 -> 3058 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	3056 [label="Check boolean AmirRPGLettie",color=orange];
 		3056 -> 3057 [label=true,color=green];
 		3056 -> 3058 [label=false,color=brown];
 	3057 [label="Boolean AmirRPGAll is now true.",color=orange];
 		3057 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

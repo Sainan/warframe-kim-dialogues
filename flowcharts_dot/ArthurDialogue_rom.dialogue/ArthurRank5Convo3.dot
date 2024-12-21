@@ -11,16 +11,12 @@ digraph {
 	1750 [label="Check boolean IsDating",color=orange];
 		1750 -> "Chat ends." [label=true,color=green];
 		1750 -> 1752 [label=false,color=brown];
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	1752 [label="Check boolean ArthurHasDated",color=orange];
 		1752 -> "Chat ends." [label=true,color=green];
 		1752 -> 3215 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	3215 [label="Check boolean ArthurNoDate",color=orange];
 		3215 -> "Chat ends." [label=true,color=green];
 		3215 -> 1754 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	1754 [label="Hey Drifter, I've been thinking.",shape=box,color=blue];
 		1754 -> 1755;
 		1754 -> 1756;
@@ -41,7 +37,6 @@ digraph {
 		1761 -> 1762;
 	1760 [label="Hah.",shape=box,color=blue];
 		1760 -> 1762;
-	"Chat ends." [color=orange];
 	1763 [label="Go for it.",shape=box,color=red];
 		1763 -> 1767;
 	1764 [label="Maybe later? [End.]",shape=box,color=red];
@@ -52,7 +47,6 @@ digraph {
 		1765 -> "Chat ends.";
 	1768 [label="Were they just cheap lines?",shape=box,color=blue];
 		1768 -> 1769;
-	"Chat ends." [color=orange];
 	1769 [label="Shit you said for a lark?",shape=box,color=blue];
 		1769 -> 1772;
 	1772 [label="Or did you mean it?",shape=box,color=blue];
@@ -76,8 +70,6 @@ digraph {
 	1786 [label="If you're messing with me, I'll break both your damn ankles.",shape=box,color=blue];
 		1786 -> 1788;
 		1786 -> 1789;
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	1778 [label="Yeah?",shape=box,color=red];
 		1778 -> 1780;
 	1779 [label="No...sorry. That's just a shield. The truth is, I honestly can't stop thinking about you.",shape=box,color=red];
@@ -98,12 +90,10 @@ digraph {
 		1771 -> 1792;
 	1791 [label="Boolean ArthurNoDate is now true.",color=orange];
 		1791 -> "Chat ends.";
-	"Chat ends." [color=orange];
 	1792 [label="It's mutual.",shape=box,color=blue];
 		1792 -> 1793;
 		1792 -> 1794;
 		1792 -> 1795;
-	"Chat ends." [color=orange];
 	1793 [label="Seriously?",shape=box,color=red];
 		1793 -> 1796;
 	1794 [label=":D :D :D",shape=box,color=red];
@@ -186,8 +176,6 @@ digraph {
 		1836 -> 1845;
 	1835 [label="Did... did you just use an emoticon...?",shape=box,color=red];
 		1835 -> 1837;
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	1822 [label="Maybe someday I'll take you there. You'd love it.",shape=box,color=blue];
 		1822 -> 1823;
 	1820 [label="Boolean ArthurNoDate is now true.",color=orange];
@@ -201,7 +189,6 @@ digraph {
 		1823 -> 1825;
 		1823 -> 1826;
 		1823 -> 1810;
-	"Chat ends." [color=orange];
 	1844 [label="I don't quite know what to say.",shape=box,color=blue];
 		1844 -> 1851;
 	1839 [label="I'm weirdly and sincerely flattered.",shape=box,color=red];
@@ -229,5 +216,4 @@ digraph {
 		1849 -> 1850;
 	1850 [label="Boolean ArthurHasDated is now true.",color=orange];
 		1850 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

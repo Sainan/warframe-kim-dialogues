@@ -70,7 +70,6 @@ digraph {
 		2109 -> 2111;
 	2110 [label="Do you try to comfort them at all?",shape=box,color=red];
 		2110 -> 2114;
-	"Chat ends." [color=orange];
 	2111 [label="I know. I KNOW.",shape=box,color=blue];
 		2111 -> 2112;
 	2114 [label="I did, once. What’s the harm, right? They’re dying anyway. It was this young Scaldra trooper. She was coming for me and I shot her in the chest.",shape=box,color=blue];
@@ -79,7 +78,6 @@ digraph {
 		2112 -> "Chat ends.";
 	2115 [label="I knelt down by her side as she gargled out her lifeblood and tried to tell her it was okay, the pain was coming to an end, soon she’d be with her family who had gone before, all the placid, pacifying stuff you think of when there’s a deathbed service to be held.",shape=box,color=blue];
 		2115 -> 2116;
-	"Chat ends." [color=orange];
 	2116 [label="She was terrified. What was left of her conscious self was scrabbling around like a rat in a water tank. When she felt me in her mind with her, she tried to cling on. She begged me to help. Underneath it all was this… I don’t even know what you’d call it…",shape=box,color=blue];
 		2116 -> 2117;
 		2116 -> 2118;
@@ -109,7 +107,6 @@ digraph {
 		2127 -> "Chat ends.";
 	2128 [label="I had to stay, though. I couldn’t abandon her to die alone.",shape=box,color=blue];
 		2128 -> 2130;
-	"Chat ends." [color=orange];
 	2130 [label="Though I guess she did, in the end. I couldn’t take that last step with her.",shape=box,color=blue];
 		2130 -> 2131;
 		2130 -> 2132;
@@ -138,7 +135,6 @@ digraph {
 		2141 -> "Chat ends.";
 	2143 [label="Her whole life she was like a woman living in a house with no lights, and all she had was a flashlight. She’d shine the light of her awareness on one spot or another. A memory, a task, an interaction.",shape=box,color=blue];
 		2143 -> 2144;
-	"Chat ends." [color=orange];
 	2144 [label="She’d move from room to room, explore the cellars in her sleep, but always it would be a closed, finite process. Do you follow me?",shape=box,color=blue];
 		2144 -> 2145;
 		2144 -> 2146;
@@ -168,10 +164,8 @@ digraph {
 		2154 -> 2159;
 	2157 [label="Nobody's forcing you to talk to me. Bye.",shape=box,color=blue];
 		2157 -> "Chat ends.";
-	"Chat ends." [color=orange];
 	2159 [label="How do you feel about all of that?",shape=box,color=red];
 		2159 -> 2160;
-	"Chat ends." [color=orange];
 	2160 [label="Comforted? I like the idea that something of us survives. I love thinking that death isn’t about being deleted from the universe, but having everything deleted that separates you from the universe.",shape=box,color=blue];
 		2160 -> 2161;
 	2161 [label="But what makes us US isn’t just raw awareness. It’s memory, emotion, opinion, all sorts of layers. When you lose all that you’re losing a real person, even if that spark somehow survives.",shape=box,color=red];
@@ -191,7 +185,6 @@ digraph {
 		2167 -> "Chat ends.";
 	2169 [label="His name was Christopher. He was Arthur’s best friend.",shape=box,color=blue];
 		2169 -> 2170;
-	"Chat ends." [color=orange];
 	2170 [label="We were engaged. I thought I was in love with him.",shape=box,color=blue];
 		2170 -> 2171;
 	2171 [label="Boolean EleanorChristopher1 is now true.",color=orange];
@@ -200,5 +193,4 @@ digraph {
 		2172 -> 2173;
 	2173 [label="I’m sorry. I can’t do this. I’ll talk to you another time.",shape=box,color=blue];
 		2173 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

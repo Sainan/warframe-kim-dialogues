@@ -39,7 +39,6 @@ digraph {
 	565 [label="Do you think I know you well enough to jump into that?",shape=box,color=blue];
 		565 -> 567;
 		565 -> 566;
-	"Chat ends." [color=orange];
 	559 [label="Right. Stranded in an alternate dimension.",shape=box,color=blue];
 		559 -> 570;
 	567 [label="I'm sorry.",shape=box,color=red];
@@ -94,7 +93,6 @@ digraph {
 		590 -> 2777;
 	580 [label="Heh. At least you learn quick.",shape=box,color=blue];
 		580 -> "Chat ends.";
-	"Chat ends." [color=orange];
 	586 [label="Guess.",shape=box,color=blue];
 		586 -> 593;
 		586 -> 592;
@@ -107,7 +105,6 @@ digraph {
 		591 -> 627;
 	2777 [label="A fish named Murky.",shape=box,color=blue];
 		2777 -> 2778;
-	"Chat ends." [color=orange];
 	593 [label="Green",shape=box,color=red];
 		593 -> 597;
 	592 [label="Black",shape=box,color=red];
@@ -242,8 +239,6 @@ digraph {
 	668 [label="Check boolean ArthurMiddleName",color=orange];
 		668 -> 671 [label=true,color=green];
 		668 -> 669 [label=false,color=brown];
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	609 [label="I don't *know* you.",shape=box,color=blue];
 		609 -> 610;
 		609 -> 611;
@@ -298,18 +293,12 @@ digraph {
 		612 -> "Chat ends.";
 	624 [label="Boolean ArthurSkana is now true.",color=orange];
 		624 -> 625;
-	"Chat ends." [color=orange];
 	655 [label="+10 Chemistry",color=orange];
 		655 -> 654;
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	614 [label="+10 Chemistry",color=orange];
 		614 -> 616;
-	"Chat ends." [color=orange];
 	654 [label="It's James, by the way. And thanks for the laugh.",shape=box,color=blue];
 		654 -> "Chat ends.";
 	616 [label="Something to work toward, I suppose.",shape=box,color=blue];
 		616 -> "Chat ends.";
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 }

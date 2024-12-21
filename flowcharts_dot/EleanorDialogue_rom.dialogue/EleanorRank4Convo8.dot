@@ -12,7 +12,6 @@ digraph {
 		2043 -> 2045 [label=true,color=green];
 		2043 -> 2046 [label=false,color=brown];
 		2043 -> 2047 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	2045 [label="Hey Eleanor? You remember that board game Amir is putting together? Fables & Frontiers?",shape=box,color=red];
 		2045 -> 2044;
 	2046 [label="Hey Eleanor? You and Amir are friendly, right?",shape=box,color=red];
@@ -39,7 +38,6 @@ digraph {
 		2055 -> 2057;
 	2056 [label="Amir really wants to play Fables & Frontiers with everybody. You in?",shape=box,color=red];
 		2056 -> 2057;
-	"Chat ends." [color=orange];
 	2054 [label="Which one of us is no longer \"too cool\" for the game, exactly? You or I?",shape=box,color=blue];
 		2054 -> 2058;
 		2054 -> 2059;
@@ -61,14 +59,12 @@ digraph {
 		2063 -> 2067;
 	2064 [label="Yeah, I think it's going to be a total waste of time, but I'm trying to be nice.",shape=box,color=red];
 		2064 -> 2065;
-	"Chat ends." [color=orange];
 	2068 [label="Oh! I would like to be a wizard. Or perhaps a bard. Or perhaps both? Can you BE both?",shape=box,color=blue];
 		2068 -> 2069;
 	2065 [label="I will do you a favour and NOT convey those words along to him. Word to the wise: treat him with more respect in the future in my presence.",shape=box,color=blue];
 		2065 -> "Chat ends.";
 	2069 [label="Or I could be a swamp hag! So long as I get to wear a tight bodice, mind. Mother Mossytits will eat your bones, little manikin.",shape=box,color=blue];
 		2069 -> 2077;
-	"Chat ends." [color=orange];
 	2077 [label="+20 Chemistry",color=orange];
 		2077 -> 2070;
 	2070 [label="Boolean AmirRPGEleanor is now true.",color=orange];
@@ -84,11 +80,9 @@ digraph {
 	2073 [label="Check boolean AmirRPGAoi",color=orange];
 		2073 -> 2074 [label=true,color=green];
 		2073 -> 2076 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	2074 [label="Check boolean AmirRPGLettie",color=orange];
 		2074 -> 2075 [label=true,color=green];
 		2074 -> 2076 [label=false,color=brown];
 	2075 [label="Boolean AmirRPGAll is now true.",color=orange];
 		2075 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

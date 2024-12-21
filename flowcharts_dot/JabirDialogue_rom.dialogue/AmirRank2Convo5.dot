@@ -90,7 +90,6 @@ digraph {
 		901 -> 909;
 	902 [label="Maybe I can talk the Hex into playing. :)",shape=box,color=red];
 		902 -> 903;
-	"Chat ends." [color=orange];
 	916 [label="I... owe a lot of favors...",shape=box,color=red];
 		916 -> 918;
 	917 [label="I can't divulge my secrets. Then I'd have to kill you.",shape=box,color=red];
@@ -98,7 +97,6 @@ digraph {
 	933 [label="Check boolean AmirRPGQuincy",color=orange];
 		933 -> 938 [label=true,color=green];
 		933 -> 934 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	909 [label="+20 Chemistry",color=orange];
 		909 -> 904;
 	903 [label="Boolean AmirRPG is now true.",color=orange];
@@ -123,7 +121,6 @@ digraph {
 	935 [label="Check boolean AmirRPGAoi",color=orange];
 		935 -> 940 [label=true,color=green];
 		935 -> 936 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	907 [label="+20 Chemistry",color=orange];
 		907 -> 906;
 	920 [label="oh crap now i have to go write a campaign",shape=box,color=blue];
@@ -152,7 +149,6 @@ digraph {
 	937 [label="Check boolean AmirRPGArthur",color=orange];
 		937 -> 942 [label=true,color=green];
 		937 -> 954 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	923 [label="+20 Chemistry",color=orange];
 		923 -> 922;
 	948 [label="maybe i can teach her if she's into it
@@ -172,7 +168,6 @@ she's got the \"voice\" for it lolol",shape=box,color=blue];
 		952 -> 953;
 	955 [label="so this is gonna be great!! thanks for getting a game together that's super sweet",shape=box,color=blue];
 		955 -> 956;
-	"Chat ends." [color=orange];
 	953 [label="playing tea party with the kids",shape=box,color=blue];
 		953 -> 954;
 	956 [label="we're gonna have fun!! promiiiiise",shape=box,color=blue];
@@ -185,5 +180,4 @@ she's got the \"voice\" for it lolol",shape=box,color=blue];
 		960 -> 959;
 	959 [label="THANKYOOOU",shape=box,color=blue];
 		959 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

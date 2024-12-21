@@ -8,7 +8,6 @@ digraph {
 		1911 -> "Chat ends." [label=true,color=green];
 		1911 -> 1912 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	1912 [label="Check boolean NameFuture",color=orange];
 		1912 -> 1914 [label=true,color=green];
 		1912 -> 1915 [label=false,color=brown];
@@ -25,7 +24,6 @@ digraph {
 	1919 [label="cephalons",shape=box,color=blue];
 		1919 -> 1920;
 		1919 -> 1921;
-	"Chat ends." [color=orange];
 	1920 [label="Amir, seriously, you're obsessed.",shape=box,color=red];
 		1920 -> 1922;
 	1921 [label="What about them?",shape=box,color=red];
@@ -102,7 +100,6 @@ digraph {
 		3450 -> 3451;
 	3452 [label="right you said cephalons were a form of punishment worse than death, yeah",shape=box,color=blue];
 		3452 -> 3453;
-	"Chat ends." [color=orange];
 	1946 [label="or should be? will be? fuggin time travel ffffk whatever you get where i'm going",shape=box,color=blue];
 		1946 -> 1949;
 		1946 -> 1950;
@@ -176,7 +173,6 @@ digraph {
 	1982 [label="Every time someone in the Origin System gets to live forever, it goes wrong.",shape=box,color=red];
 		1982 -> 1983;
 		1982 -> 1981;
-	"Chat ends." [color=orange];
 	3471 [label="Why're you so interested in cephalons?",shape=box,color=red];
 		3471 -> 3473;
 	3472 [label="The Orokin *were* monsters, Amir. Like I said earlier, they created cephalons as a punishment worse than death.",shape=box,color=red];
@@ -214,7 +210,6 @@ digraph {
 		3465 -> 3466;
 	1961 [label="it's IMMORTALITY but BETTER",shape=box,color=blue];
 		1961 -> 1962;
-	"Chat ends." [color=orange];
 	1991 [label="Say a person suffers from depression. So they say \"make it so I never feel sorrow again.\"",shape=box,color=red];
 		1991 -> 1994;
 	1992 [label="Say a person suffers from anxiety. So they say \"make it so I never feel fear again.\"",shape=box,color=red];
@@ -288,12 +283,10 @@ digraph {
 		1974 -> "Chat ends.";
 	1999 [label="Boolean AmirCephalon4 is now true.",color=orange];
 		1999 -> 2000;
-	"Chat ends." [color=orange];
 	2000 [label="i...",shape=box,color=blue];
 		2000 -> 2001;
 	2001 [label="gotta go think...",shape=box,color=blue];
 		2001 -> 2002;
 	2002 [label="+20 Chemistry",color=orange];
 		2002 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

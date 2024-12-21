@@ -35,7 +35,6 @@ Ay, there I go again...",shape=box,color=blue];
 All right
 Apology accepted",shape=box,color=blue];
 		2480 -> 2486;
-	"Chat ends." [color=orange];
 	2481 [label="You had your chance
 And it didn't go so well, did it?
 But... aaaay, sí...
@@ -82,12 +81,10 @@ Let's get on with it, then
 		2492 -> "Chat ends.";
 	2495 [label="Boolean LettieNoDate is now false.",color=orange];
 		2495 -> 2496;
-	"Chat ends." [color=orange];
 	2496 [label="Boolean IsDating is now true.",color=orange];
 		2496 -> 2497;
 	2497 [label="Boolean LettieDating is now true.",color=orange];
 		2497 -> 2498;
 	2498 [label="Boolean LettieHasDated is now true.",color=orange];
 		2498 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

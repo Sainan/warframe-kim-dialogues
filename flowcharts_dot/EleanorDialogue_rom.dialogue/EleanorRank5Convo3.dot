@@ -69,7 +69,6 @@ digraph {
 	2310 [label="Check boolean EleanorConfession",color=orange];
 		2310 -> 2311 [label=true,color=green];
 		2310 -> 2315 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	2315 [label="I’ll make a deal with you. Go and see Lettie, ask her to run you through a quick psych-eval, get to the bottom of whatever’s REALLY going on here, and we’ll just forget this conversation ever happened.",shape=box,color=blue];
 		2315 -> 2316;
 		2315 -> 2317;
@@ -88,7 +87,6 @@ digraph {
 		2319 -> "Chat ends.";
 	2322 [label="YOU ARE THE BEST THING THAT EVER BLOODY HAPPENED IN MY ABSURD LIFE",shape=box,color=blue];
 		2322 -> 2323;
-	"Chat ends." [color=orange];
 	2323 [label="WHICH MEANS YOU’RE NOT GOING TO BE PART OF IT FOR LONG AND THE SOONER WE BOTH ADMIT THAT THE BETTER",shape=box,color=blue];
 		2323 -> 2324;
 	2324 [label="BECAUSE THAT’S HOW IT WORKS",shape=box,color=blue];
@@ -180,7 +178,6 @@ digraph {
 		2366 -> 2367;
 	2362 [label="Boolean EleanorDating is now false.",color=orange];
 		2362 -> 2361;
-	"Chat ends." [color=orange];
 	2370 [label="Boolean EleanorHasDated is now true.",color=orange];
 		2370 -> 2371;
 	2367 [label="Of course. Let's do that, then.",shape=box,color=blue];
@@ -189,8 +186,6 @@ digraph {
 		2361 -> "Chat ends.";
 	2371 [label="Boolean IsDating is now true.",color=orange];
 		2371 -> 2373;
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	2373 [label="How do you think the others are going to take it?",shape=box,color=red];
 		2373 -> 2372;
 	2372 [label="Gods. I hadn’t even thought of that.",shape=box,color=blue];
@@ -214,8 +209,6 @@ digraph {
 		2380 -> "Chat ends.";
 	2384 [label="+10 Chemistry",color=orange];
 		2384 -> 2383;
-	"Chat ends." [color=orange];
 	2383 [label="So help me, I do love how bewildered you are sometimes.",shape=box,color=blue];
 		2383 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

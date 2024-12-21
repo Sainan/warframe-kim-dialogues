@@ -111,7 +111,6 @@ digraph {
 	2131 [label="Check boolean ArthurDating",color=orange];
 		2131 -> 2136 [label=true,color=green];
 		2131 -> 2137 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	2101 [label="And I want to help you. Thank you for letting me try.",shape=box,color=blue];
 		2101 -> 2335;
 	2102 [label="And I want to help you. Thank you for letting me try.",shape=box,color=blue];
@@ -360,7 +359,6 @@ digraph {
 	2328 [label="Check boolean ArthurDating",color=orange];
 		2328 -> 2329 [label=true,color=green];
 		2328 -> 2330 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	2276 [label="Please tell me why.",shape=box,color=blue];
 		2276 -> 2277;
 	2262 [label="Whatever you think happened in Duviri?",shape=box,color=red];
@@ -404,14 +402,12 @@ digraph {
 		2233 -> 2234;
 	2151 [label="Wherever you came from, it made you a force of nature.",shape=box,color=blue];
 		2151 -> 2152;
-	"Chat ends." [color=orange];
 	2343 [label="I'm here, love.",shape=box,color=blue];
 		2343 -> 2345;
 	2344 [label="I'm here.",shape=box,color=blue];
 		2344 -> 2345;
 	2331 [label="Sigh. All right. Then, I think it's best if we take some time off.",shape=box,color=blue];
 		2331 -> 2332;
-	"Chat ends." [color=orange];
 	2198 [label="I'm sorry. I can't do this. I just can't.",shape=box,color=red];
 		2198 -> 2199;
 	2204 [label="That once you learn the truth, you'll... be disgusted by me.",shape=box,color=red];
@@ -462,7 +458,6 @@ digraph {
 		2346 -> 2348;
 	2347 [label="I've told you the surface level shit.",shape=box,color=red];
 		2347 -> 2348;
-	"Chat ends." [color=orange];
 	2200 [label="Sigh. All right. Then, I think it's best if we take some time off.",shape=box,color=blue];
 		2200 -> 2201;
 	2205 [label="And we're still dating.",shape=box,color=blue];
@@ -513,7 +508,6 @@ digraph {
 	2349 [label="Check boolean ArthurDuviriExternal",color=orange];
 		2349 -> 2351 [label=true,color=green];
 		2349 -> 2350 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	2207 [label="But it all comes down to one simple question. Do. You. Trust. Me?",shape=box,color=blue];
 		2207 -> 2218;
 		2207 -> 2219;
@@ -521,7 +515,6 @@ digraph {
 		2244 -> 2245;
 	2243 [label="Sol knows I have plenty.",shape=box,color=blue];
 		2243 -> 2246;
-	"Chat ends." [color=orange];
 	2212 [label="Boolean ArthurNoDate is now true.",color=orange];
 		2212 -> 2213;
 	2161 [label="Promise?",shape=box,color=red];
@@ -533,7 +526,6 @@ digraph {
 		2168 -> 2170;
 	2163 [label="For how little time we've spent together, you and I have been through a lifetime's worth of nonsense.",shape=box,color=blue];
 		2163 -> 2175;
-	"Chat ends." [color=orange];
 	2351 [label="Abandoned by the Void. Abandoned by the Orokin. Abandoned by *everyone.*",shape=box,color=red];
 		2351 -> 2354;
 	2350 [label="Check boolean ArthurDuviriInternal",color=orange];
@@ -570,7 +562,6 @@ digraph {
 	2247 [label="But it all comes down to one simple question. Do. You. Trust. Me?",shape=box,color=blue];
 		2247 -> 2248;
 		2247 -> 2249;
-	"Chat ends." [color=orange];
 	2167 [label="Now. Don't change the subject.",shape=box,color=blue];
 		2167 -> 2168;
 	2171 [label="Boolean ArthurDating is now false.",color=orange];
@@ -616,10 +607,6 @@ digraph {
 		2358 -> 2361;
 	2359 [label="At least... at first.",shape=box,color=red];
 		2359 -> 2361;
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
-	"Chat ends." [color=orange];
 	2362 [label="Because that's the thing about Duviri. None of it's *real.*",shape=box,color=red];
 		2362 -> 2363;
 	2361 [label="Little by little, that orphan grew up. And his fake best friend became his fake worst enemy.",shape=box,color=red];
@@ -827,5 +814,4 @@ digraph {
 		2454 -> 2453;
 	2453 [label="And I'm buying.",shape=box,color=blue];
 		2453 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

@@ -27,7 +27,6 @@ digraph {
 		2740 -> 2745 [label=false,color=brown];
 	2741 [label="And... truth be told? I can't help but admit that I've been harbouring some feelings for you...",shape=box,color=blue];
 		2741 -> 2742;
-	"Chat ends." [color=orange];
 	2743 [label="And I would be keen to remind you that you had your chance.",shape=box,color=blue];
 		2743 -> 2748;
 	2745 [label="And why have you kept this to yourself until now?",shape=box,color=blue];
@@ -60,12 +59,10 @@ digraph {
 		2755 -> "Chat ends.";
 	2757 [label="Boolean EleanorNoDate is now false.",color=orange];
 		2757 -> 2758;
-	"Chat ends." [color=orange];
 	2758 [label="Boolean IsDating is now true.",color=orange];
 		2758 -> 2759;
 	2759 [label="Boolean EleanorDating is now true.",color=orange];
 		2759 -> 2760;
 	2760 [label="Boolean EleanorHasDated is now true.",color=orange];
 		2760 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }

@@ -51,7 +51,6 @@ digraph {
 		284 -> 290;
 	283 [label="Actually, sorry. I don't want to talk about it. [End.]",shape=box,color=red];
 		283 -> 287;
-	"Chat ends." [color=orange];
 	288 [label="Sounds it.",shape=box,color=blue];
 		288 -> 289;
 	290 [label="When it wasn't just me, myself, and my cubed food rations.",shape=box,color=red];
@@ -63,7 +62,6 @@ digraph {
 		289 -> 295;
 	291 [label="So. I guess I do it because there's comfort in it.",shape=box,color=red];
 		291 -> 293;
-	"Chat ends." [color=orange];
 	296 [label="I'll tell you what. If you make it, I'll eat it.",shape=box,color=red];
 		296 -> 3149;
 	295 [label="Thanks. But... gross. I'll pass.",shape=box,color=red];
@@ -87,11 +85,9 @@ digraph {
 		303 -> 305;
 	300 [label="Boolean SquareSpaghetti is now true.",color=orange];
 		300 -> "Chat ends. Next chat will be ArthurSpaghetti.";
-	"Chat ends." [color=orange];
 	305 [label="+10 Chemistry",color=orange];
 		305 -> 304;
 	"Chat ends. Next chat will be ArthurSpaghetti." [color=orange];
 	304 [label="You're in for a treat.",shape=box,color=blue];
 		304 -> "Chat ends.";
-	"Chat ends." [color=orange];
 }
