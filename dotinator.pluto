@@ -1,16 +1,8 @@
 local { json } = require "*"
 
-local nodes
+local dict_en <const> = io.contents("../warframe-languages-bin-data/en.json") |> json.decode
 
-local username_loctags <const> = {
-	["/Lotus/Language/1999/MessengerAoiUserName"] = "xX GLIMMER Xx",
-	["/Lotus/Language/1999/MessengerArthurUserName"] = "Broadsword",
-	["/Lotus/Language/1999/MessengerEleanorUserName"] = "Salem",
-	["/Lotus/Language/1999/MessengerHexUserName"] = "The Hex",
-	["/Lotus/Language/1999/MessengerJabirUserName"] = "H16h V0l7463",
-	["/Lotus/Language/1999/MessengerLettieUserName"] = "Belladonna ~{@",
-	["/Lotus/Language/1999/MessengerQuincyUserName"] = "Soldja1Shot1kil",
-}
+local nodes
 
 local function emit_dot(filename, start)
 	local pending_nodes = { start }
@@ -67,17 +59,19 @@ local function emit_dot(filename, start)
 					fh:write('"/EE/Types/Engine/SpecialCompletionDialogueNode"')
 				end
 				break
+			case "/EE/Types/Engine/DialogueNode":
+			case "/EE/Types/Engine/PlayerChoiceDialogueNode":
+				fh:write('"')
+				if node.nickname_override then
+					fh:write(dict_en[node.nickname_override] or node.nickname_override)
+					fh:write(": ")
+				end
+				fh:write((dict_en[node.name] or node.name or ""):replace('"', '\\"'))
+				fh:write('"')
+				break
 			default:
 				fh:write('"')
-				if node.text_en then
-					if node.nickname_override then
-						fh:write(username_loctags[node.nickname_override] or node.nickname_override)
-						fh:write(": ")
-					end
-					fh:write(node.text_en:replace('"', '\\"'))
-				else
-					fh:write(node.type)
-				end
+				fh:write(node.type)
 				fh:write('"')
 				break
 		end
