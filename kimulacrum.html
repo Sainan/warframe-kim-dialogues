@@ -349,6 +349,10 @@
 				}
 			}
 		}
+		if (lang != "en")
+		{
+			hash += "&lang=" + lang;
+		}
 		location.hash = hash;
 	}
 
@@ -481,6 +485,13 @@
 		window.onhashchange = function()
 		{
 			const params = new URLSearchParams(location.hash.toString().replace("#", ""));
+			let need_recreate = false;
+			if (lang != (params.get("lang") || "en"))
+			{
+				lang = (params.get("lang") || "en");
+				document.getElementById("lang").value = lang;
+				need_recreate = true;
+			}
 			if (params.has("chatroom"))
 			{
 				document.getElementById("chatroom").value = params.get("chatroom");
@@ -491,13 +502,19 @@
 					if (window.dialogue != params.get("dialogue"))
 					{
 						setActiveDialogue(params.get("dialogue"));
+						need_recreate = false;
 					}
 					if (window.choice_history.join(",") != (params.get("choices") || ""))
 					{
 						window.replay_choices = (params.get("choices") ? params.get("choices").split(",").map(x => parseInt(x)) : []);
 						setActiveDialogue(params.get("dialogue"));
+						need_recreate = false;
 					}
 				}
+			}
+			if (need_recreate)
+			{
+				recreateChat();
 			}
 		};
 		window.onhashchange();
@@ -522,6 +539,7 @@
 	document.getElementById("lang").onchange = function()
 	{
 		lang = this.value;
+		saveState();
 		recreateChat();
 	};
 
