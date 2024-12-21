@@ -1,6 +1,6 @@
 local { json } = require "*"
 
-local dict_en <const> = io.contents("../warframe-languages-bin-data/en.json") |> json.decode
+local dict_en <const> = io.contents("dicts/en.json") |> json.decode
 
 local nodes
 
