@@ -49,6 +49,23 @@
 				<select id="dialogue">
 					<option>SELECT A DIALOGUE</option>
 				</select>
+				<select id="lang">
+					<option value="en">English</option>
+					<option value="de">Deutsch</option>
+					<option value="es">Español</option>
+					<option value="fr">Français</option>
+					<option value="it">Italiano</option>
+					<option value="ja">日本語</option>
+					<option value="ko">한국어</option>
+					<option value="pl">Polski</option>
+					<option value="pt">Português</option>
+					<option value="ru">Русский</option>
+					<option value="tr">Türkçe</option>
+					<option value="uk">Українська</option>
+					<option value="zh">简体中文</option>
+					<option value="tc">繁體中文</option>
+					<option value="th">แบบไทย</option>
+				</select>
 			</td>
 			<td>
 				<b>Username</b><br/>
@@ -67,6 +84,8 @@
 	<div id="choices"></div>
 </body>
 <script>
+	let lang = "en";
+
 	const retro_emoji_paths = [
 		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiAnnoyed1_d.png",
 		"/Lotus/Interface/Graphics/Retro/Texts/Emoji/RetroEmojiAnnoyed2_d.png",
@@ -203,16 +222,6 @@
 		}
 	}
 
-	const username_loctags = {
-		"/Lotus/Language/1999/MessengerAoiUserName": "xX GLIMMER Xx",
-		"/Lotus/Language/1999/MessengerArthurUserName": "Broadsword",
-		"/Lotus/Language/1999/MessengerEleanorUserName": "Salem",
-		"/Lotus/Language/1999/MessengerHexUserName": "The Hex",
-		"/Lotus/Language/1999/MessengerJabirUserName": "H16h V0l7463",
-		"/Lotus/Language/1999/MessengerLettieUserName": "Belladonna ~{@",
-		"/Lotus/Language/1999/MessengerQuincyUserName": "Soldja1Shot1kil",
-	};
-
 	function processNode(node, chemistry)
 	{
 		//console.log("processNode", node);
@@ -223,17 +232,17 @@
 			if (node.nickname_override)
 			{
 				sender_name = node.nickname_override;
-				if (username_loctags[sender_name])
+				if (dicts[lang][sender_name])
 				{
-					sender_name = username_loctags[sender_name];
+					sender_name = dicts[lang][sender_name];
 				}
 			}
-			addToHistory(sender_name, node.text_en, chemistry);
+			addToHistory(sender_name, dicts[lang][node.name] ?? node.name, chemistry);
 			chemistry = undefined;
 		}
 		else if (node.type == "/EE/Types/Engine/PlayerChoiceDialogueNode")
 		{
-			addToHistory("Drifter", node.text_en);
+			addToHistory("Drifter", dicts[lang][node.name] ?? node.name);
 		}
 		else if (node.type == "/EE/Types/Engine/ChemistryDialogueNode")
 		{
@@ -316,7 +325,7 @@
 		{
 			choices.forEach(choiceNodeId => {
 				const choiceNode = nodes[choiceNodeId];
-				presentChoice(choiceNode.text_en, function()
+				presentChoice(dicts[lang][choiceNode.name] ?? choiceNode.name, function()
 				{
 					processNode(choiceNode);
 				});
@@ -343,23 +352,14 @@
 		location.hash = hash;
 	}
 
-	function setActiveChatroom(chatroom, callback)
+	function setActiveChatroom(chatroom)
 	{
-		if (window.chatroom == chatroom)
+		if (window.chatroom != chatroom)
 		{
-			if (callback)
-			{
-				callback();
-			}
-			return;
-		}
+			window.chatroom = chatroom;
+			window.sender_name = document.querySelector("option[value='"+chatroom+"']").textContent.split(" (")[0];
 
-		window.chatroom = chatroom;
-		window.sender_name = document.querySelector("option[value='"+chatroom+"']").textContent.split(" (")[0];
-
-		addToHistory("System", "Loading chatroom...");
-		fetch(chatroom + ".json").then(res => res.json()).then(nodes => {
-			window.nodes = nodes;
+			window.nodes = window.chatrooms[chatroom];
 
 			window.dialogue_name_to_start_node_id = {};
 			for (const node of nodes)
@@ -391,12 +391,7 @@
 				option.textContent = name;
 				document.getElementById("dialogue").appendChild(option);
 			}
-
-			if (callback)
-			{
-				callback();
-			}
-		});
+		}
 	}
 
 	function setActiveDialogue(dialogue)
@@ -406,44 +401,90 @@
 		processNode(nodes[dialogue_name_to_start_node_id[dialogue]]);
 	}
 
-	document.getElementById("chatroom").onchange = function()
+	function recreateChat()
 	{
-		document.getElementById("dialogue").innerHTML = "<option>SELECT A DIALOGUE</option>";
+		window.replay_choices = window.choice_history;
+		setActiveDialogue(window.dialogue);
+	}
+
+	addToHistory("System", "Loading data...");
+	Promise.all([
+		fetch("dicts/en.json").then(res => res.json()),
+		fetch("dicts/de.json").then(res => res.json()),
+		fetch("dicts/es.json").then(res => res.json()),
+		fetch("dicts/fr.json").then(res => res.json()),
+		fetch("dicts/it.json").then(res => res.json()),
+		fetch("dicts/ja.json").then(res => res.json()),
+		fetch("dicts/ko.json").then(res => res.json()),
+		fetch("dicts/pl.json").then(res => res.json()),
+		fetch("dicts/pt.json").then(res => res.json()),
+		fetch("dicts/ru.json").then(res => res.json()),
+		fetch("dicts/tc.json").then(res => res.json()),
+		fetch("dicts/th.json").then(res => res.json()),
+		fetch("dicts/tr.json").then(res => res.json()),
+		fetch("dicts/uk.json").then(res => res.json()),
+		fetch("dicts/zh.json").then(res => res.json()),
+		fetch("ArthurDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("EleanorDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("LettieDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("JabirDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("AoiDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("QuincyDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("HexDialogue_rom.dialogue.json").then(res => res.json())
+	]).then(([
+		dict_en, dict_de, dict_es, dict_fr, dict_it, dict_ja, dict_ko, dict_pl, dict_pt, dict_ru, dict_tc, dict_th, dict_tr, dict_uk, dict_zh,
+		ArthurDialogue_rom, EleanorDialogue_rom, LettieDialogue_rom, JabirDialogue_rom, AoiDialogue_rom, QuincyDialogue_rom, HexDialogue_rom
+	]) => {
+		window.dicts = {
+			en: dict_en,
+			de: dict_de,
+			es: dict_es,
+			fr: dict_fr,
+			it: dict_it,
+			ja: dict_ja,
+			ko: dict_ko,
+			pl: dict_pl,
+			pt: dict_pt,
+			ru: dict_ru,
+			tc: dict_tc,
+			th: dict_th,
+			tr: dict_tr,
+			uk: dict_uk,
+			zh: dict_zh,
+		};
+		window.chatrooms = {
+			"ArthurDialogue_rom.dialogue": ArthurDialogue_rom,
+			"EleanorDialogue_rom.dialogue": EleanorDialogue_rom,
+			"LettieDialogue_rom.dialogue": LettieDialogue_rom,
+			"JabirDialogue_rom.dialogue": JabirDialogue_rom,
+			"AoiDialogue_rom.dialogue": AoiDialogue_rom,
+			"QuincyDialogue_rom.dialogue": QuincyDialogue_rom,
+			"HexDialogue_rom.dialogue": HexDialogue_rom,
+		};
+
 		clearChat();
 
-		window.chatroom = undefined;
-		window.dialogue = undefined;
-		if (this.value != "SELECT A CHATROOM")
+		document.getElementById("chatroom").onchange = function()
 		{
-			setActiveChatroom(this.value);
-		}
-		saveState();
-	};
+			document.getElementById("dialogue").innerHTML = "<option>SELECT A DIALOGUE</option>";
+			clearChat();
 
-	document.getElementById("dialogue").onchange = function()
-	{
-		window.dialogue = undefined;
-		if (this.value != "SELECT A DIALOGUE")
-		{
-			setActiveDialogue(this.value);
-		}
-		saveState();
-	};
-
-	document.getElementById("username").oninput = function()
-	{
-		const username = this.value || "Drifter";
-		document.querySelectorAll(".chat-message-author-self").forEach(elm => elm.textContent = username);
-	};
-
-	window.onhashchange = function()
-	{
-		const params = new URLSearchParams(location.hash.toString().replace("#", ""));
-		if (params.has("chatroom"))
-		{
-			document.getElementById("chatroom").value = params.get("chatroom");
-			setActiveChatroom(params.get("chatroom"), function()
+			window.chatroom = undefined;
+			window.dialogue = undefined;
+			if (this.value != "SELECT A CHATROOM")
 			{
+				setActiveChatroom(this.value);
+			}
+			saveState();
+		};
+
+		window.onhashchange = function()
+		{
+			const params = new URLSearchParams(location.hash.toString().replace("#", ""));
+			if (params.has("chatroom"))
+			{
+				document.getElementById("chatroom").value = params.get("chatroom");
+				setActiveChatroom(params.get("chatroom"));
 				if (params.has("dialogue"))
 				{
 					document.getElementById("dialogue").value = params.get("dialogue");
@@ -457,8 +498,37 @@
 						setActiveDialogue(params.get("dialogue"));
 					}
 				}
-			});
+			}
+		};
+		window.onhashchange();
+
+		// Got important data, so network is free to preload emojis now.
+		for (const path of retro_emoji_paths)
+		{
+			new Image().src = "https://browse.wf" + path;
 		}
+	});
+
+	document.getElementById("dialogue").onchange = function()
+	{
+		window.dialogue = undefined;
+		if (this.value != "SELECT A DIALOGUE")
+		{
+			setActiveDialogue(this.value);
+		}
+		saveState();
 	};
-	window.onhashchange();
+
+	document.getElementById("lang").onchange = function()
+	{
+		lang = this.value;
+		recreateChat();
+	};
+
+	document.getElementById("username").oninput = function()
+	{
+		const username = this.value || "Drifter";
+		document.querySelectorAll(".chat-message-author-self").forEach(elm => elm.textContent = username);
+	};
 </script>
+</html>
