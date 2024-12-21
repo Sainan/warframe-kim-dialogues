@@ -494,6 +494,10 @@
 			}
 			saveState();
 		};
+		if (document.getElementById("chatroom").value != "SELECT A CHATROOM")
+		{
+			document.getElementById("chatroom").onchange();
+		}
 
 		window.onhashchange = function()
 		{
