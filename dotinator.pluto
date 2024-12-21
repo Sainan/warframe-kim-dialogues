@@ -4,70 +4,72 @@ local dict_en <const> = io.contents("dicts/en.json") |> json.decode
 
 local nodes
 
+local function get_node_label(node)
+	switch node.type do
+		case "/EE/Types/Engine/ChemistryDialogueNode":
+			return $"+{node.chemistry} Chemistry"
+		case "/EE/Types/Engine/SetBooleanDialogueNode":
+			return $"Boolean {node.name} is now true."
+		case "/EE/Types/Engine/ResetBooleanDialogueNode":
+			return $"Boolean {node.name} is now false."
+		case "/EE/Types/Engine/CheckBooleanDialogueNode":
+			return $"Check boolean {node.name}"
+		case "/EE/Types/Engine/CheckBooleanScriptDialogueNode":
+			return $"Check {node.script_name} for boolean {node.arg1}"
+		case "/EE/Types/Engine/DialogueNode":
+		case "/EE/Types/Engine/PlayerChoiceDialogueNode":
+			do
+				local text = (dict_en[node.name] or node.name)
+				if node.vars then
+					for k, v in node.vars do
+						text = text:replace("|"..k.."|", dict_en[v] or v)
+					end
+				end
+				if node.nickname_override then
+					text = (dict_en[node.nickname_override] or node.nickname_override)..": "..text
+				end
+				return text
+			end
+			break
+		case "/EE/Types/Engine/ScriptDialogueNode":
+			return $"Invoke {node.script_name}"
+		default:
+			return node.type
+	end
+end
+
+local function get_node_name(node)
+	if node.type == "/EE/Types/Engine/EndDialogueNode" then
+		if node.name then
+			return '"Chat ends. Next chat will be '..node.name..'."'
+		else
+			return '"Chat ends."'
+		end
+	elseif node.type == "/EE/Types/Engine/SpecialCompletionDialogueNode" and #node.refs == 0 then
+		assert(#node.choices == 1)
+		assert(nodes[1 + node.choices[1]].type == "/EE/Types/Engine/EndDialogueNode")
+		assert(nodes[1 + node.choices[1]].name == nil)
+		return '"Chat ends."'
+	elseif node.type == "/EE/Types/Engine/StartDialogueNode" then
+		return '"'..node.name..' begins."'
+	elseif node.type == "/EE/Types/Engine/SetBooleanDialogueNode" or node.type == "/EE/Types/Engine/ResetBooleanDialogueNode" then
+		local str = '"'..node.type..':'..node.name
+		for node.choices as choice do
+			str ..= ':'
+			str ..= get_node_name(nodes[1 + choice]):replace('"', '')
+		end
+		return str..'"'
+	else
+		return tostring(node.id)
+	end
+end
+
 local function emit_dot(filename, start)
 	local pending_nodes = { start }
 	local emitted_nodes = {}
 
 	local fh <close> = io.open(filename, "w")
 	fh:write("digraph {\n")
-	local function get_node_label(node)
-		switch node.type do
-			case "/EE/Types/Engine/ChemistryDialogueNode":
-				return $"+{node.chemistry} Chemistry"
-			case "/EE/Types/Engine/SetBooleanDialogueNode":
-				return $"Boolean {node.name} is now true."
-			case "/EE/Types/Engine/ResetBooleanDialogueNode":
-				return $"Boolean {node.name} is now false."
-			case "/EE/Types/Engine/CheckBooleanDialogueNode":
-				return $"Check boolean {node.name}"
-			case "/EE/Types/Engine/CheckBooleanScriptDialogueNode":
-				return $"Check {node.script_name} for boolean {node.arg1}"
-			case "/EE/Types/Engine/DialogueNode":
-			case "/EE/Types/Engine/PlayerChoiceDialogueNode":
-				do
-					local text = (dict_en[node.name] or node.name)
-					if node.vars then
-						for k, v in node.vars do
-							text = text:replace("|"..k.."|", dict_en[v] or v)
-						end
-					end
-					if node.nickname_override then
-						text = (dict_en[node.nickname_override] or node.nickname_override)..": "..text
-					end
-					return text
-				end
-				break
-			case "/EE/Types/Engine/ScriptDialogueNode":
-				return $"Invoke {node.script_name}"
-			default:
-				return node.type
-		end
-	end
-	local function get_node_name(node)
-		if node.type == "/EE/Types/Engine/EndDialogueNode" then
-			if node.name then
-				return '"Chat ends. Next chat will be '..node.name..'."'
-			else
-				return '"Chat ends."'
-			end
-		elseif node.type == "/EE/Types/Engine/SpecialCompletionDialogueNode" and #node.refs == 0 then
-			assert(#node.choices == 1)
-			assert(nodes[1 + node.choices[1]].type == "/EE/Types/Engine/EndDialogueNode")
-			assert(nodes[1 + node.choices[1]].name == nil)
-			return '"Chat ends."'
-		elseif node.type == "/EE/Types/Engine/StartDialogueNode" then
-			return '"'..node.name..' begins."'
-		elseif node.type == "/EE/Types/Engine/SetBooleanDialogueNode" or node.type == "/EE/Types/Engine/ResetBooleanDialogueNode" then
-			local str = '"'..node.type..':'..node.name
-			for node.choices as choice do
-				str ..= ':'
-				str ..= get_node_name(nodes[1 + choice]):replace('"', '')
-			end
-			return str..'"'
-		else
-			return tostring(node.id)
-		end
-	end
 	local function write_node_name(node)
 		fh:write(get_node_name(node))
 	end
