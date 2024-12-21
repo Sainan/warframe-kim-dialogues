@@ -74,7 +74,15 @@ local function emit_dot(filename, start)
 					fh:write(dict_en[node.nickname_override] or node.nickname_override)
 					fh:write(": ")
 				end
-				fh:write((dict_en[node.name] or node.name):replace('"', '\\"'))
+				do
+					local text = (dict_en[node.name] or node.name)
+					if node.vars then
+						for k, v in node.vars do
+							text = text:replace("|"..k.."|", dict_en[v] or v)
+						end
+					end
+					fh:write(text:replace('"', '\\"'))
+				end
 				fh:write('"')
 				break
 			case "/EE/Types/Engine/ScriptDialogueNode":

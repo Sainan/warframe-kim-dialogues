@@ -167,6 +167,20 @@ for {
 		end
 	end
 
+	if diag_name == "HexDialogue_rom.dialogue" then
+		nodes_map[21].__order:insert("vars")
+		nodes_map[21].vars = { ITEM = "/Lotus/Language/CorpusGasCity/LisetPropCleaningDroneName" }
+		nodes_map[22].__order:insert("vars")
+		nodes_map[22].vars = { ITEM = "/Lotus/Language/CorpusGasCity/LisetPropCleaningDroneColorThreeName" }
+		nodes_map[23].__order:insert("vars")
+		nodes_map[23].vars = { ITEM = "/Lotus/Language/CorpusGasCity/LisetPropCleaningDroneColorFourName" }
+		for LANGS as lang do
+			partial_dicts[lang]["/Lotus/Language/CorpusGasCity/LisetPropCleaningDroneName"] = full_dicts[lang]["/Lotus/Language/CorpusGasCity/LisetPropCleaningDroneName"]
+			partial_dicts[lang]["/Lotus/Language/CorpusGasCity/LisetPropCleaningDroneColorThreeName"] = full_dicts[lang]["/Lotus/Language/CorpusGasCity/LisetPropCleaningDroneColorThreeName"]
+			partial_dicts[lang]["/Lotus/Language/CorpusGasCity/LisetPropCleaningDroneColorFourName"] = full_dicts[lang]["/Lotus/Language/CorpusGasCity/LisetPropCleaningDroneColorFourName"]
+		end
+	end
+
 	io.contents(diag_name..".json", json.encode(nodes_array, true))
 
 	$if TREE_EXPORT then

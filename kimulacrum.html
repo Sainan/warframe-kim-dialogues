@@ -222,6 +222,19 @@
 		}
 	}
 
+	function getNodeText(node)
+	{
+		let text = dicts[lang][node.name] ?? node.name;
+		if (node.vars)
+		{
+			for (const [k, v] of Object.entries(node.vars))
+			{
+				text = text.split("|"+k+"|").join(dicts[lang][v] ?? v);
+			}
+		}
+		return text;
+	}
+
 	function processNode(node, chemistry)
 	{
 		//console.log("processNode", node);
@@ -237,12 +250,12 @@
 					sender_name = dicts[lang][sender_name];
 				}
 			}
-			addToHistory(sender_name, dicts[lang][node.name] ?? node.name, chemistry);
+			addToHistory(sender_name, getNodeText(node), chemistry);
 			chemistry = undefined;
 		}
 		else if (node.type == "/EE/Types/Engine/PlayerChoiceDialogueNode")
 		{
-			addToHistory("Drifter", dicts[lang][node.name] ?? node.name);
+			addToHistory("Drifter", getNodeText(node));
 		}
 		else if (node.type == "/EE/Types/Engine/ChemistryDialogueNode")
 		{
@@ -325,7 +338,7 @@
 		{
 			choices.forEach(choiceNodeId => {
 				const choiceNode = nodes[choiceNodeId];
-				presentChoice(dicts[lang][choiceNode.name] ?? choiceNode.name, function()
+				presentChoice(getNodeText(choiceNode), function()
 				{
 					processNode(choiceNode);
 				});
