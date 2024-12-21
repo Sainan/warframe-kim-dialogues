@@ -29,7 +29,7 @@ for {
 	do
 		local rom = io.contents("Extracted/Debug/Lotus/Types/Gameplay/1999Wf/Dialogue/"..diag_name.."_H")
 		local i = 1
-		local _, num_nodes, type, id, name, nickname_override, num_prev, num_choices
+		local _, num_nodes, type, id, name, nickname_override, num_prev, num_choices, text_en
 		i += 20 -- skip hash?
 		_, i = string.unpack("<s4", rom, i) -- skip filename
 		_, i = string.unpack("<s4", rom, i) -- skip metadata (EE notation)
@@ -45,7 +45,7 @@ for {
 			$if DEBUG then print("\toffset="..(offset-1)) $end
 			local node = {
 				__order = { "id", "type" },
-				id = id, -- Not needed per-se, but makes it easier to look at the JSON array.
+				id = id,
 				type = type
 			}
 			nodes_map[id] = node
@@ -64,13 +64,13 @@ for {
 				end
 			end
 			i += 0x4
-			node.__order:insert("parents")
-			node.parents = {}
+			--node.__order:insert("parents")
+			--node.parents = {}
 			num_prev, i = string.unpack("<I4", rom, i) $if DEBUG then print("\tnum_prev="..num_prev) $end
 			for prev_i = 1, num_prev do
 				local prev
 				prev, i = string.unpack("<I4", rom, i) $if DEBUG then print("\t\tprev["..prev_i.."]="..prev) $end
-				node.parents:insert(prev) -- Not needed per-se, but makes it easier to look at the JSON array.
+				--node.parents:insert(prev)
 			end
 			node.__order:insert("choices")
 			node.choices = {}
@@ -83,8 +83,7 @@ for {
 			i += 0x8
 			--[[if type == "/EE/Types/Engine/StartDialogueNode" then
 			else]]if type == "/EE/Types/Engine/PlayerChoiceDialogueNode" or type == "/EE/Types/Engine/DialogueNode" then
-				node.__order:insert("text_en")
-				node.text_en, i = string.unpack("<s4", rom, i)
+				text_en, i = string.unpack("<s4", rom, i)
 				i += 1 -- null terminator not included in length
 
 				if not node.name then node.name = "" end
