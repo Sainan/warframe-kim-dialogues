@@ -45,7 +45,7 @@ Lo siento, solecito, you did not ping me for this",shape=box,color=blue];
 		1542 -> 1546;
 		1542 -> 1547;
 	1552 [label="Yeah, I just... wanted to see if you wanted to go get some coffee.",shape=box,color=red];
-		1552 -> 1554;
+		1552 -> j2929380946;
 	1553 [label="I'm here for you, Lettie. And I care. Talk to me.",shape=box,color=red];
 		1553 -> 1556;
 	1548 [label="NO 
@@ -61,10 +61,10 @@ There will be no later",shape=box,color=blue];
 	1546 [label="If you're busy, we can chat later.",shape=box,color=red];
 		1546 -> 1549;
 	1547 [label="Sorry?",shape=box,color=red];
-		1547 -> 1550;
-	1554 [label="Sí 
+		1547 -> j301120043;
+	j2929380946 [label="Sí 
 Sounds good",shape=box,color=blue];
-		1554 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:Chat ends.";
+		j2929380946 -> j602183822;
 	1556 [label="You aren't my therapist 
 You don't need to hear me whining like some silly little niña",shape=box,color=blue];
 		1556 -> 1557;
@@ -74,12 +74,12 @@ You don't need to hear me whining like some silly little niña",shape=box,color=
 		1558 -> 1564;
 	1559 [label="Is something wrong?",shape=box,color=red];
 		1559 -> 1560;
-	1550 [label="Ay, sí 
+	j301120043 [label="Ay, sí 
 Your sorries could cover the walls 
 Then maybe they'd be good for something",shape=box,color=blue];
-		1550 -> "Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:Chat ends." [label="Boolean LettieRealNo is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRealNo:Chat ends." -> "Chat ends.";
+		j301120043 -> "Chat ends.";
+	j602183822 [label="Boolean LettieRealNo is now true.",color=orange];
+		j602183822 -> "Chat ends.";
 	1557 [label="Check boolean LettieDating",color=orange];
 		1557 -> 1566 [label=true,color=green];
 		1557 -> 1567 [label=false,color=brown];
@@ -101,7 +101,7 @@ You and that cabrón saw to that",shape=box,color=blue];
 	1571 [label="Wait. Back up. Are you PISSED that you aren't dead?!",shape=box,color=red];
 		1571 -> 1576;
 	1572 [label="I'm not your punching bag, Lettie. And I don't need this.",shape=box,color=red];
-		1572 -> 1574;
+		1572 -> j1787222902;
 	1562 [label="Um... I'm getting the feeling you're looking for a fight.",shape=box,color=red];
 		1562 -> 1563;
 	1568 [label="I think you're one of the strongest people I've ever met in my *life.* You're not capable of whining.",shape=box,color=red];
@@ -113,9 +113,9 @@ How little life matters without death
 I find myself asking why 
 WHY BOTHER?!",shape=box,color=blue];
 		1576 -> 1581;
-	1574 [label="Sí 
+	j1787222902 [label="Sí 
 Run scared, babas",shape=box,color=blue];
-		1574 -> "Chat ends.";
+		j1787222902 -> "Chat ends.";
 	1563 [label="Maybe I am 
 Maybe I'm not 
 Maybe I've finally had it with all this pendejadas",shape=box,color=blue];
@@ -211,7 +211,7 @@ We are antinaturales, people should not live forever, they should be allowed to 
 	1607 [label="Yes, it's a time loop. Yes, not much changes. But you know what DOES change that matters? Us. Who WE are. What WE know. And what WE feel.",shape=box,color=red];
 		1607 -> 1615;
 	1596 [label="But isn't that why you're a healer? Isn't the act of trying, of that sense of hope, that kindness, what matters, and not where we wind up in the end?",shape=box,color=red];
-		1596 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieKindness:1602";
+		1596 -> 1601;
 	1597 [label="I know you never felt like you've had somewhere to belong. You've never had a home before, Lettie. Like me.",shape=box,color=red];
 		1597 -> 1599;
 	1598 [label="Look around. At the civvies. At the Hex. At me.",shape=box,color=red];
@@ -220,21 +220,21 @@ We are antinaturales, people should not live forever, they should be allowed to 
 		1614 -> 1623;
 	1615 [label="So no, this isn't the kind of life you're used to. You won't get to experience \"normal\" ever again.",shape=box,color=red];
 		1615 -> 1624;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieKindness:1602" [label="Boolean LettieKindness is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieKindness:1602" -> 1602;
+	1601 [label="Boolean LettieKindness is now true.",color=orange];
+		1601 -> 1602;
 	1599 [label="This could be your family. Your home. If you wanted it to be. If you LET it be.",shape=box,color=red];
-		1599 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNewFamily:1608";
+		1599 -> 1603;
 	1600 [label="This could be your family. If you wanted it to be. If you LET it be.",shape=box,color=red];
-		1600 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNewFamily:1608";
+		1600 -> 1603;
 	1623 [label="But you never would have let the team die if you could have saved them. Because you wouldn't let them stay the victims.",shape=box,color=red];
 		1623 -> 1636;
 	1624 [label="But there are things here that can make it a life worth living.",shape=box,color=red];
 		1624 -> 1637;
 	1602 [label="Check boolean LettieDating",color=orange];
-		1602 -> 1610 [label=true,color=green];
+		1602 -> j346344637 [label=true,color=green];
 		1602 -> 1612 [label=false,color=brown];
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNewFamily:1608" [label="Boolean LettieNewFamily is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNewFamily:1608" -> 1608;
+	1603 [label="Boolean LettieNewFamily is now true.",color=orange];
+		1603 -> 1608;
 	1636 [label="Victims saved for what reason 
 This is no life babas 
 This nightmare of fantasmas is no life at all",shape=box,color=blue];
@@ -245,35 +245,35 @@ Sad stray civilians
 And a never ending war against scaldra 
 Tell me why is this LIFE worth living",shape=box,color=blue];
 		1637 -> 1639;
-	1610 [label="+20 Chemistry",color=orange];
-		1610 -> 1595;
+	j346344637 [label="+20 Chemistry",color=orange];
+		j346344637 -> j2161124750;
 	1612 [label="Check boolean LettieNoFlirt",color=orange];
 		1612 -> 1617 [label=true,color=green];
 		1612 -> 1616 [label=false,color=brown];
 	1608 [label="Check boolean LettieDating",color=orange];
-		1608 -> 1627 [label=true,color=green];
+		1608 -> j1939320567 [label=true,color=green];
 		1608 -> 1613 [label=false,color=brown];
 	1639 [label="Check boolean LettieDating",color=orange];
 		1639 -> 1640 [label=true,color=green];
 		1639 -> 1641 [label=true,color=green];
 		1639 -> 1643 [label=true,color=green];
 		1639 -> 1642 [label=false,color=brown];
-	1595 [label="I... 
+	j2161124750 [label="I... 
 I don't think I like it when you call me out on my mentiras 
 Sí... you... you're right 
 Sometimes I just get so tired of the fight, you know? 
 I forget I'm not in this battle alone",shape=box,color=blue];
-		1595 -> 1609;
+		j2161124750 -> j3599290678;
 	1617 [label="And it just hurts me to see you like this when I care about you like family.",shape=box,color=red];
-		1617 -> 1632;
+		1617 -> j3755294227;
 	1616 [label="Check boolean IsDating",color=orange];
 		1616 -> 1617 [label=true,color=green];
 		1616 -> 1617 [label=false,color=brown];
 		1616 -> 1625 [label=false,color=brown];
-	1627 [label="+20 Chemistry",color=orange];
-		1627 -> 1626;
+	j1939320567 [label="+20 Chemistry",color=orange];
+		j1939320567 -> j1434534519;
 	1613 [label="Check boolean LettieNoFlirt",color=orange];
-		1613 -> 1627 [label=true,color=green];
+		1613 -> j1939320567 [label=true,color=green];
 		1613 -> 1619 [label=false,color=brown];
 		1613 -> 1625 [label=false,color=brown];
 	1640 [label="Do you think this is just a casual fling for me?! Do you think you really mean that little to me?!",shape=box,color=red];
@@ -287,22 +287,22 @@ I forget I'm not in this battle alone",shape=box,color=blue];
 		1642 -> 1641 [label=false,color=brown];
 		1642 -> 1643 [label=false,color=brown];
 		1642 -> 1644 [label=false,color=brown];
-	1609 [label="Life is about the moments we have 
+	j3599290678 [label="Life is about the moments we have 
 The moments we spend caring for each other 
 And now... we have an eternity of those, don't we? 
 Gracias, solecito ... neta",shape=box,color=blue];
-		1609 -> "Chat ends.";
-	1632 [label="+20 Chemistry",color=orange];
-		1632 -> 1618;
+		j3599290678 -> "Chat ends.";
+	j3755294227 [label="+20 Chemistry",color=orange];
+		j3755294227 -> j2675753571;
 	1625 [label="And... there's another reason it hurts me to see you like this. [Confess feelings.]",shape=box,color=red];
 		1625 -> 1638;
-	1626 [label="I... 
+	j1434534519 [label="I... 
 I don't think I like it when you call me out on my mentiras 
 Sí... you... you're right 
 Sometimes I get stuck in my own head and I forget I'm not alone",shape=box,color=blue];
-		1626 -> 1628;
+		j1434534519 -> j162288043;
 	1619 [label="And it just hurts me to see you like this when I care about you like family.",shape=box,color=red];
-		1619 -> 1635;
+		1619 -> j509895541;
 	1646 [label="You tell me, is it? 
 Do I? 
 I see someone who has spent their whole lives alone and has a chance at something they never had 
@@ -315,20 +315,20 @@ Maybe doesn't understand what they've gotten themselves into",shape=box,color=bl
 		1652 -> 1653;
 	1644 [label="Are you really so oblivious that you can't tell how much you mean to me?! [Confess feelings.]",shape=box,color=red];
 		1644 -> 1654;
-	1618 [label="I... 
+	j2675753571 [label="I... 
 I don't think I like it when you call me out on my mentiras 
 Sí... you... you're right 
 Sometimes I just get so tired of the fight, you know? 
 I forget I'm not in this battle alone",shape=box,color=blue];
-		1618 -> 1630;
+		j2675753571 -> j2727922266;
 	1638 [label="¿Ay sí?",shape=box,color=blue];
 		1638 -> 1654;
-	1628 [label="I need to remember that I have a familia here around me 
+	j162288043 [label="I need to remember that I have a familia here around me 
 People I can rely on when things get dark 
 Gracias, solecito ... en serio",shape=box,color=blue];
-		1628 -> "Chat ends.";
-	1635 [label="+20 Chemistry",color=orange];
-		1635 -> 1620;
+		j162288043 -> "Chat ends.";
+	j509895541 [label="+20 Chemistry",color=orange];
+		j509895541 -> j3691642937;
 	1645 [label="Yeah, okay, sure. That's definitely what's going on here. You're right. I'm just being naïve and my feelings aren't real.",shape=box,color=red];
 		1645 -> 1651;
 	1647 [label="And I see someone who's hurting and trying to pick a fight instead of processing that pain.",shape=box,color=red];
@@ -343,16 +343,16 @@ Gracias, solecito ... en serio",shape=box,color=blue];
 		1654 -> 1701;
 		1654 -> 1702;
 		1654 -> 1703;
-	1630 [label="Life is about the moments we have 
+	j2727922266 [label="Life is about the moments we have 
 The moments we spend caring for each other 
 And now... we have an eternity of those, don't we? 
 Gracias ... en serio",shape=box,color=blue];
-		1630 -> "Chat ends.";
-	1620 [label="I... 
+		j2727922266 -> "Chat ends.";
+	j3691642937 [label="I... 
 I don't think I like it when you call me out on my mentiras 
 Sí... you... you're right 
 Sometimes I get stuck in my own head and I forget I'm not alone",shape=box,color=blue];
-		1620 -> 1633;
+		j3691642937 -> j1339363648;
 	1651 [label="Sí 
 Glad you agree 
 Now vete",shape=box,color=blue];
@@ -379,14 +379,14 @@ Do tell",shape=box,color=blue];
 	1703 [label="You're unstoppable. Unbreakable. Unflinching. Nothing seems to slow you down. You're one of the toughest people I've ever met. And -",shape=box,color=red];
 		1703 -> 1704;
 		1703 -> 1705;
-	1633 [label="I need to remember that I have a familia here around me 
+	j1339363648 [label="I need to remember that I have a familia here around me 
 People I can rely on when things get dark 
 Gracias... en serio",shape=box,color=blue];
-		1633 -> "Chat ends.";
+		j1339363648 -> "Chat ends.";
 	1661 [label="We're not done with this conversation, Lettie.",shape=box,color=red];
 		1661 -> 1668;
 	1662 [label="I'm done with this. And I'm done with you. [Break up.]",shape=box,color=red];
-		1662 -> 1663;
+		1662 -> j1590631453;
 	1668 [label="You're lashing out at me because you're scared. Because you don't want to be trapped here like this. But you're pushing everybody away who can help you.",shape=box,color=red];
 		1668 -> 1670;
 	1682 [label="Would that death have been better than life as they are now? Tagfer certainly might have agreed with you once - he lost his wife during the ordeal.",shape=box,color=red];
@@ -396,77 +396,77 @@ Gracias... en serio",shape=box,color=blue];
 	1658 [label="This situation you're all in - I won't lie, it sucks. Trust me, I've been there. But you have one thing I don't have.",shape=box,color=red];
 		1658 -> 1684;
 	1694 [label="It's those moments of kindness that matter, isn't it? Those flashes where we can show people the better parts of ourselves.",shape=box,color=red];
-		1694 -> 1695;
+		1694 -> j3144377096;
 	1705 [label="You're one of the kindest, most caring people I've ever met. The way you tend to your animals and the way you'll go out of your way for people makes my heart melt.",shape=box,color=red];
 		1705 -> 1707;
 	1706 [label="You're made of iron. And I know that no matter what they throw at you - Entrati, the Man in the Wall, Viktor and the Scaldra - it doesn't matter. They don't stand a chance.",shape=box,color=red];
 		1706 -> 1707;
 	1704 [label="Let's stop to consider how damn gorgeous you are, and how you could absolutely break me like a twig if you wanted to. lol",shape=box,color=red];
 		1704 -> 1707;
-	1663 [label="Sí 
+	j1590631453 [label="Sí 
 I figured this would happen 
 Vete, babas, don't have time for you anymore 
 Should have known better than to play with niñitos",shape=box,color=blue];
-		1663 -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
+		j1590631453 -> j30836566;
 	1670 [label="So you can either let me in - for real - and help you, or you can push me away, too. That's your decision to make.",shape=box,color=red];
 		1670 -> 1669;
 	1685 [label="But they found in themselves a new family. A reason to continue on. A reason to keep living.",shape=box,color=red];
-		1685 -> 1688;
+		1685 -> j2657649053;
 	1683 [label="Well? This could be your family. Your home. If you wanted it to be. If you LET it be.",shape=box,color=red];
-		1683 -> 1688;
+		1683 -> j2657649053;
 	1684 [label="You have each other. You have a *family.* You have *friends.*",shape=box,color=red];
 		1684 -> 1686;
-	1695 [label="Mierda",shape=box,color=blue];
-		1695 -> 1698;
+	j3144377096 [label="Mierda",shape=box,color=blue];
+		j3144377096 -> j2128965287;
 	1707 [label="Point is... I care about you, Lettie. A lot. And more than just as friend, and I understand if it isn't mutual, but -",shape=box,color=red];
 		1707 -> 1709;
-	"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieDating is now false.",color=orange];
-		"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
+	j30836566 [label="Boolean LettieDating is now false.",color=orange];
+		j30836566 -> j4031970331;
 	1669 [label="Mierda",shape=box,color=blue];
 		1669 -> 1671;
-	1688 [label="Mierda",shape=box,color=blue];
-		1688 -> 1692;
+	j2657649053 [label="Mierda",shape=box,color=blue];
+		j2657649053 -> j1378138418;
 	1686 [label="You aren't alone like I was - and that loneliness sent me into a spiral of misery and numbness.",shape=box,color=red];
 		1686 -> 1687;
-	1698 [label="+20 Chemistry",color=orange];
-		1698 -> 1699;
+	j2128965287 [label="+20 Chemistry",color=orange];
+		j2128965287 -> j2328208110;
 	1709 [label="I can't stand to see you give up hope like this. You're not a ghost. You're not a fantasma.",shape=box,color=red];
 		1709 -> 1710;
-	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean IsDating is now false.",color=orange];
-		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
+	j4031970331 [label="Boolean IsDating is now false.",color=orange];
+		j4031970331 -> j3065772033;
 	1671 [label="I... 
 I don't think I like it when you call me out on my mentiras 
 Sí... you... you're right 
 I get in my own head and I... haven't been giving you a fair shot",shape=box,color=blue];
 		1671 -> 1672;
-	1692 [label="+20 Chemistry",color=orange];
-		1692 -> 1689;
+	j1378138418 [label="+20 Chemistry",color=orange];
+		j1378138418 -> j3348468538;
 	1687 [label="You need to choose which way you want to be. If you want to be alone or not.",shape=box,color=red];
-		1687 -> 1688;
-	1699 [label="I... 
+		1687 -> j2657649053;
+	j2328208110 [label="I... 
 I don't think I like it when you call me out on my mentiras 
 Sí... you... you're right 
 Sometimes I just get so tired of the fight, you know? 
 I forget I'm not in this battle alone",shape=box,color=blue];
-		1699 -> 1696;
+		j2328208110 -> j1699186515;
 	1710 [label="You're LETTIE, and -",shape=box,color=red];
 		1710 -> 1708;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieNoDate is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "Chat ends.";
+	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
+		j3065772033 -> "Chat ends.";
 	1672 [label="It's too easy for me to brush this off as just physical 
 Makes it safer, you know? 
 Lo siento, solecito...",shape=box,color=blue];
 		1672 -> 1673;
-	1689 [label="I... 
+	j3348468538 [label="I... 
 I don't think I like it when you call me out on my mentiras 
 Sí... you... you're right 
 Sometimes I get stuck in my own head and I forget I'm not alone",shape=box,color=blue];
-		1689 -> 1690;
-	1696 [label="Life is about the moments we have 
+		j3348468538 -> j2775519907;
+	j1699186515 [label="Life is about the moments we have 
 The moments we spend caring for each other 
 Not the ultimate end point 
 Gracias... en serio",shape=box,color=blue];
-		1696 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieKindness:Chat ends.";
+		j1699186515 -> j209009916;
 	1708 [label="Shut up",shape=box,color=blue];
 		1708 -> 1711;
 	1673 [label="I want to make this up to you 
@@ -474,47 +474,47 @@ Gracias... en serio",shape=box,color=blue];
  If you'll let me, mm?",shape=box,color=blue];
 		1673 -> 1674;
 		1673 -> 1675;
-	1690 [label="I need to remember that I have a familia here around me 
+	j2775519907 [label="I need to remember that I have a familia here around me 
 People I can rely on when things get dark 
 Gracias... en serio",shape=box,color=blue];
-		1690 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNewFamily:Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieKindness:Chat ends." [label="Boolean LettieKindness is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieKindness:Chat ends." -> "Chat ends.";
+		j2775519907 -> j1778865328;
+	j209009916 [label="Boolean LettieKindness is now true.",color=orange];
+		j209009916 -> "Chat ends.";
 	1711 [label="Aguántame tantito",shape=box,color=blue];
 		1711 -> 1712;
 		1711 -> 1713;
 	1674 [label="Maybe later. I'm a little pissed right now.",shape=box,color=red];
-		1674 -> 1676;
+		1674 -> j4166978807;
 	1675 [label="Like I'm going to say no to that. :}",shape=box,color=red];
-		1675 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:1679";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNewFamily:Chat ends." [label="Boolean LettieNewFamily is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNewFamily:Chat ends." -> "Chat ends.";
+		1675 -> j32677279;
+	j1778865328 [label="Boolean LettieNewFamily is now true.",color=orange];
+		j1778865328 -> "Chat ends.";
 	1712 [label="I'm sorry if I upset you...",shape=box,color=red];
-		1712 -> 1714;
+		1712 -> j4026625166;
 	1713 [label="I understand if you don't feel the same way, I get it.",shape=box,color=red];
-		1713 -> 1714;
-	1676 [label="Sí 
+		1713 -> j4026625166;
+	j4166978807 [label="Sí 
 I get it",shape=box,color=blue];
-		1676 -> 1678;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:1679" [label="Boolean LettieReal is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:1679" -> 1679;
-	1714 [label="¡Neta, ya cállate! 
+		j4166978807 -> j1470630329;
+	j32677279 [label="Boolean LettieReal is now true.",color=orange];
+		j32677279 -> j2895199346;
+	j4026625166 [label="¡Neta, ya cállate! 
 I need a second to think 
 To breathe 
 Can't process when I'm tearing up",shape=box,color=blue];
-		1714 -> 1718;
-	1678 [label="+10 Chemistry",color=orange];
-		1678 -> "Chat ends.";
-	1679 [label="+20 Chemistry",color=orange];
-		1679 -> "Chat ends.";
-	1718 [label="+20 Chemistry",color=orange];
-		1718 -> 1715;
-	1715 [label="I don't DO compliments, solecito 
+		j4026625166 -> j3299709796;
+	j1470630329 [label="+10 Chemistry",color=orange];
+		j1470630329 -> "Chat ends.";
+	j2895199346 [label="+20 Chemistry",color=orange];
+		j2895199346 -> "Chat ends.";
+	j3299709796 [label="+20 Chemistry",color=orange];
+		j3299709796 -> j4186419707;
+	j4186419707 [label="I don't DO compliments, solecito 
 Never take them well 
 Talk tomorrow, sort this shit out then 
 Lo siento",shape=box,color=blue];
-		1715 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieConfession:Chat ends. Next chat will be LettieConfession.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieConfession:Chat ends. Next chat will be LettieConfession." [label="Boolean LettieConfession is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieConfession:Chat ends. Next chat will be LettieConfession." -> "Chat ends. Next chat will be LettieConfession.";
+		j4186419707 -> j621831274;
+	j621831274 [label="Boolean LettieConfession is now true.",color=orange];
+		j621831274 -> "Chat ends. Next chat will be LettieConfession.";
 	"Chat ends. Next chat will be LettieConfession." [color=orange];
 }

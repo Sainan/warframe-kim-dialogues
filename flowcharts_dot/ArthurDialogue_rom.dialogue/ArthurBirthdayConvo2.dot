@@ -3,14 +3,14 @@ digraph {
 		"ArthurBirthdayConvo2 begins." -> 3205;
 		"ArthurBirthdayConvo2 begins." -> 3203;
 	3205 [label="Happy Birthday to Eleanor’s little brother!",shape=box,color=red];
-		3205 -> 3200;
+		3205 -> j1893324972;
 	3203 [label="Happy Birthday, Arthur. Any plans?",shape=box,color=red];
-		3203 -> 3204;
-	3200 [label="Wonderful. Now I have two of you who won’t ever let that drop.",shape=box,color=blue];
-		3200 -> "Chat ends.";
-	3204 [label="+20 Chemistry",color=orange];
-		3204 -> 3202;
+		3203 -> j2119219318;
+	j1893324972 [label="Wonderful. Now I have two of you who won’t ever let that drop.",shape=box,color=blue];
+		j1893324972 -> "Chat ends.";
+	j2119219318 [label="+20 Chemistry",color=orange];
+		j2119219318 -> j155708432;
 	"Chat ends." [color=orange];
-	3202 [label="Thanks! Nice of you to remember. I might knock off half an hour early today. Not decided yet.",shape=box,color=blue];
-		3202 -> "Chat ends.";
+	j155708432 [label="Thanks! Nice of you to remember. I might knock off half an hour early today. Not decided yet.",shape=box,color=blue];
+		j155708432 -> "Chat ends.";
 }

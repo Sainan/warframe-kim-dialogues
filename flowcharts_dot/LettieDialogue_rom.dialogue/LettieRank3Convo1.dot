@@ -11,15 +11,15 @@ No entiendo",shape=box,color=blue];
 	565 [label="Do what?",shape=box,color=red];
 		565 -> 571;
 	566 [label="Magic.",shape=box,color=red];
-		566 -> 567;
+		566 -> j3472070054;
 	570 [label="+5 Chemistry",color=orange];
 		570 -> 569;
 	571 [label="Being trapped for centuries without time 
 Without change, without movement 
 We are fantasmas haunting this place",shape=box,color=blue];
 		571 -> 572;
-	567 [label="Ay, equis",shape=box,color=blue];
-		567 -> "Chat ends.";
+	j3472070054 [label="Ay, equis",shape=box,color=blue];
+		j3472070054 -> "Chat ends.";
 	569 [label="Jaja, sí 
 Lo siento, too much time in my head alone 
 Though less so recently between you and the bruja",shape=box,color=blue];
@@ -92,9 +92,9 @@ Jaja",shape=box,color=blue];
 	589 [label="Well, you aren't exactly \"approachable,\" Lettie.",shape=box,color=red];
 		589 -> 602;
 	590 [label="Well, maybe if you weren't so bitchy...",shape=box,color=red];
-		590 -> 604;
+		590 -> j1601626090;
 	591 [label="No... I don't, I'm sorry.",shape=box,color=red];
-		591 -> 596;
+		591 -> j4248186841;
 	592 [label="I mean, I can take you out of here via transference for short periods.",shape=box,color=red];
 		592 -> 594;
 	600 [label="¿Ay, Sí? 
@@ -113,10 +113,10 @@ Except maybe me and Arthur",shape=box,color=blue];
 		602 -> 607;
 		602 -> 608;
 		602 -> 609;
-	604 [label="+5 Chemistry",color=orange];
-		604 -> 603;
-	596 [label="+10 Chemistry",color=orange];
-		596 -> 593;
+	j1601626090 [label="+5 Chemistry",color=orange];
+		j1601626090 -> j698342152;
+	j4248186841 [label="+10 Chemistry",color=orange];
+		j4248186841 -> j3138168574;
 	594 [label="¿Ay, Sí? 
 ¿Want to take me out for a walk? 
 Cuidadito, I am not going to be the pet of this relationship... 
@@ -125,96 +125,96 @@ Cuidadito, I am not going to be the pet of this relationship...
 		594 -> 599;
 		594 -> 606;
 	633 [label="Challenge accepted.",shape=box,color=red];
-		633 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:644";
+		633 -> j1291192297;
 	634 [label="Are... you hitting on me?",shape=box,color=red];
 		634 -> 636;
 	635 [label="I just want to be your friend, Lettie. No offense.",shape=box,color=red];
-		635 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:643";
+		635 -> j1984038357;
 	607 [label="Why don't you let people get close?",shape=box,color=red];
 		607 -> 610;
 	608 [label="You're afraid to trust people.",shape=box,color=red];
-		608 -> 611;
+		608 -> j2075517749;
 	609 [label="You don't want to get hurt if you lose them.",shape=box,color=red];
-		609 -> 612;
-	603 [label="JAJAJA 
+		609 -> j1738108962;
+	j698342152 [label="JAJAJA 
 If I weren't I wouldn't be Lettie anymore 
 I am who I am babas 
 Take it or leave it",shape=box,color=blue];
-		603 -> "Chat ends.";
-	593 [label="Appreciate the honesty 
+		j698342152 -> "Chat ends.";
+	j3138168574 [label="Appreciate the honesty 
 I guess we take bets on who goes crazy first",shape=box,color=blue];
-		593 -> 595;
+		j3138168574 -> j3983628935;
 	598 [label="Challenge accepted.",shape=box,color=red];
-		598 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:626";
+		598 -> j2744475698;
 	599 [label="Are... you hitting on me?",shape=box,color=red];
 		599 -> 617;
 	606 [label="I was just trying to be nice. You're not my type.",shape=box,color=red];
-		606 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:629";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:644" [label="Boolean LettieFlirt is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:644" -> 644;
+		606 -> j3578879939;
+	j1291192297 [label="Boolean LettieFlirt is now true.",color=orange];
+		j1291192297 -> j3959174457;
 	636 [label="¡No manches, babas! 
 Do you want me to be?",shape=box,color=blue];
 		636 -> 637;
 		636 -> 638;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:643" [label="Boolean LettieNoFlirt is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:643" -> 643;
+	j1984038357 [label="Boolean LettieNoFlirt is now true.",color=orange];
+		j1984038357 -> j1818896722;
 	610 [label="Because I choose not to 
 Because I've learned better 
 It's safer this way for everybody",shape=box,color=blue];
 		610 -> 623;
 		610 -> 624;
-	611 [label="Lárgate de aqui",shape=box,color=blue];
-		611 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:Chat ends. Next chat will be LettieTrust.";
-	612 [label="¡No manches, babas! 
+	j2075517749 [label="Lárgate de aqui",shape=box,color=blue];
+		j2075517749 -> j1900598614;
+	j1738108962 [label="¡No manches, babas! 
 Do you know how long rats live? 
 2-3 years at most 
 I am used to losing my little panquecitos",shape=box,color=blue];
-		612 -> 613;
-	595 [label="Who knows 
+		j1738108962 -> j2228801460;
+	j3983628935 [label="Who knows 
 Might be me",shape=box,color=blue];
-		595 -> "Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:626" [label="Boolean LettieFlirt is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:626" -> 626;
+		j3983628935 -> "Chat ends.";
+	j2744475698 [label="Boolean LettieFlirt is now true.",color=orange];
+		j2744475698 -> j2832547604;
 	617 [label="No manches, babas... 
 Do you want me to be?",shape=box,color=blue];
 		617 -> 618;
 		617 -> 619;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:629" [label="Boolean LettieNoFlirt is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:629" -> 629;
-	644 [label="+15 Chemistry",color=orange];
-		644 -> 641;
+	j3578879939 [label="Boolean LettieNoFlirt is now true.",color=orange];
+		j3578879939 -> j3007543761;
+	j3959174457 [label="+15 Chemistry",color=orange];
+		j3959174457 -> j3597968056;
 	637 [label="Yeah, you're my type. I like to live dangerously. ;)",shape=box,color=red];
-		637 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:644";
+		637 -> j1291192297;
 	638 [label="No, I'd rather just stay friends.",shape=box,color=red];
-		638 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:643";
-	643 [label="+15 Chemistry",color=orange];
-		643 -> 642;
+		638 -> j1984038357;
+	j1818896722 [label="+15 Chemistry",color=orange];
+		j1818896722 -> j1520227744;
 	623 [label="Just as a warning, I'm really stubborn, and I want to get to know you better.",shape=box,color=red];
 		623 -> 631;
 	624 [label="Thanks for the heads up. I won't take it personally if you step all over my feelings.",shape=box,color=red];
 		624 -> 632;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:Chat ends. Next chat will be LettieTrust." [label="Boolean LettieTrust1 is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:Chat ends. Next chat will be LettieTrust." -> "Chat ends. Next chat will be LettieTrust.";
-	613 [label="And I love them more than humans 
+	j1900598614 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j1900598614 -> "Chat ends. Next chat will be LettieTrust.";
+	j2228801460 [label="And I love them more than humans 
 I am comfortable with grief and loss, more than you know 
 Do not pretend you know me babas 
 Lárgate",shape=box,color=blue];
-		613 -> "Chat ends.";
-	626 [label="+15 Chemistry",color=orange];
-		626 -> 625;
+		j2228801460 -> "Chat ends.";
+	j2832547604 [label="+15 Chemistry",color=orange];
+		j2832547604 -> j432576939;
 	618 [label="Yeah, you're my type. I like to live dangerously. ;)",shape=box,color=red];
-		618 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFlirt:626";
+		618 -> j2744475698;
 	619 [label="No, I'd rather just stay friends.",shape=box,color=red];
-		619 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoFlirt:629";
-	629 [label="+15 Chemistry",color=orange];
-		629 -> 628;
-	641 [label="Jaja we'll see, babas 
+		619 -> j3578879939;
+	j3007543761 [label="+15 Chemistry",color=orange];
+		j3007543761 -> j1509782293;
+	j3597968056 [label="Jaja we'll see, babas 
 We'll see",shape=box,color=blue];
-		641 -> "Chat ends.";
-	642 [label="Jaja, none taken 
+		j3597968056 -> "Chat ends.";
+	j1520227744 [label="Jaja, none taken 
 Sí, friends is fine by me 
 That's more than enough for most people",shape=box,color=blue];
-		642 -> "Chat ends.";
+		j1520227744 -> "Chat ends.";
 	631 [label="Ay, sí 
 Someone like you would need to be to survive 
 Maybe that's your secret 
@@ -229,12 +229,12 @@ It's not your feelings I want to step on",shape=box,color=blue];
 		632 -> 634;
 		632 -> 635;
 	"Chat ends. Next chat will be LettieTrust." [color=orange];
-	625 [label="We'll see, babas, we'll see 
+	j432576939 [label="We'll see, babas, we'll see 
 But I'll take you up on the offer for temporary freedom 
 Maybe some fresh air from time to time is all this fantasma needs",shape=box,color=blue];
-		625 -> "Chat ends.";
-	628 [label="Fair 
+		j432576939 -> "Chat ends.";
+	j1509782293 [label="Fair 
 But I'll take you up on the offer for temporary freedom 
 Maybe some fresh air from time to time is all this fantasma needs",shape=box,color=blue];
-		628 -> "Chat ends.";
+		j1509782293 -> "Chat ends.";
 }

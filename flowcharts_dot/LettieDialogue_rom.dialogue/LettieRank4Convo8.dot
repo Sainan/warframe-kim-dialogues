@@ -94,29 +94,29 @@ Who else have you talked into this?",shape=box,color=blue];
 	1504 [label="...And you DO kind of owe me a favor, don't you?",shape=box,color=red];
 		1504 -> 209;
 	1505 [label="So what do you think?",shape=box,color=red];
-		1505 -> 1506;
+		1505 -> j3013843204;
 	1508 [label="Me and Amir, obviously. And after that...",shape=box,color=red];
 		1508 -> 1509;
 	209 [label="+10 Chemistry",color=orange];
 		209 -> 1521;
-	1506 [label="Babas... 
+	j3013843204 [label="Babas... 
 Lo siento, I just have so much shit to do 
 You'll have to go on without me",shape=box,color=blue];
-		1506 -> "Chat ends.";
+		j3013843204 -> "Chat ends.";
 	1509 [label="Check boolean AmirRPGEleanor",color=orange];
 		1509 -> 1513 [label=true,color=green];
 		1509 -> 1510 [label=false,color=brown];
 	1521 [label="Ssíííííí... 
 Fiiine, babaaass... 
 But I better not regret this...",shape=box,color=blue];
-		1521 -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieSmallFavor:/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettie:1527";
+		1521 -> 1522;
 	1513 [label="Eleanor said yes, not sure if that's helping or hurting my case...",shape=box,color=red];
 		1513 -> 1517;
 	1510 [label="Check boolean AmirRPGAoi",color=orange];
 		1510 -> 1514 [label=true,color=green];
 		1510 -> 1511 [label=false,color=brown];
-	"/EE/Types/Engine/ResetBooleanDialogueNode:LettieSmallFavor:/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettie:1527" [label="Boolean LettieSmallFavor is now false.",color=orange];
-		"/EE/Types/Engine/ResetBooleanDialogueNode:LettieSmallFavor:/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettie:1527" -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettie:1527";
+	1522 [label="Boolean LettieSmallFavor is now false.",color=orange];
+		1522 -> 1523;
 	1517 [label="Of course the bruja wants to waste time",shape=box,color=blue];
 		1517 -> 1510;
 	1514 [label="Aoi said she'd play",shape=box,color=red];
@@ -124,8 +124,8 @@ But I better not regret this...",shape=box,color=blue];
 	1511 [label="Check boolean AmirRPGQuincy",color=orange];
 		1511 -> 1515 [label=true,color=green];
 		1511 -> 1512 [label=false,color=brown];
-	"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettie:1527" [label="Boolean AmirRPGLettie is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGLettie:1527" -> 1527;
+	1523 [label="Boolean AmirRPGLettie is now true.",color=orange];
+		1523 -> 1527;
 	1518 [label="I am not surprised...",shape=box,color=blue];
 		1518 -> 1511;
 	1515 [label="Quincy's in",shape=box,color=red];
@@ -135,7 +135,7 @@ But I better not regret this...",shape=box,color=blue];
 		1512 -> 209 [label=false,color=brown];
 	1527 [label="Check boolean AmirRPGQuincy",color=orange];
 		1527 -> 1526 [label=true,color=green];
-		1527 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAny:Chat ends." [label=false,color=brown];
+		1527 -> j1692268193 [label=false,color=brown];
 	1519 [label="¡¿Neta?! 
 QUINCY 
 How much did you pay him",shape=box,color=blue];
@@ -144,17 +144,17 @@ How much did you pay him",shape=box,color=blue];
 		1516 -> 1520;
 	1526 [label="Check boolean AmirRPGArthur",color=orange];
 		1526 -> 1525 [label=true,color=green];
-		1526 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAny:Chat ends." [label=false,color=brown];
-	"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAny:Chat ends." [label="Boolean AmirRPGAny is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAny:Chat ends." -> "Chat ends.";
+		1526 -> j1692268193 [label=false,color=brown];
+	j1692268193 [label="Boolean AmirRPGAny is now true.",color=orange];
+		j1692268193 -> "Chat ends.";
 	1520 [label="HAH... well, if mi hermano is playing...",shape=box,color=blue];
 		1520 -> 209;
 	1525 [label="Check boolean AmirRPGAoi",color=orange];
 		1525 -> 1524 [label=true,color=green];
-		1525 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAny:Chat ends." [label=false,color=brown];
+		1525 -> j1692268193 [label=false,color=brown];
 	1524 [label="Check boolean AmirRPGEleanor",color=orange];
-		1524 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAll:Chat ends." [label=true,color=green];
-		1524 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAny:Chat ends." [label=false,color=brown];
-	"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAll:Chat ends." [label="Boolean AmirRPGAll is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:AmirRPGAll:Chat ends." -> "Chat ends.";
+		1524 -> j3798570005 [label=true,color=green];
+		1524 -> j1692268193 [label=false,color=brown];
+	j3798570005 [label="Boolean AmirRPGAll is now true.",color=orange];
+		j3798570005 -> "Chat ends.";
 }

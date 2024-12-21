@@ -18,23 +18,23 @@ NOW!!",shape=box,color=blue];
 	1773 [label="Hey, so, it was all a mistake. Amir was trying to send you peanut butter for your rats.",shape=box,color=red];
 		1773 -> 1775;
 	1774 [label="This is all a misunderstanding. He was trying to send you a gift.",shape=box,color=red];
-		1774 -> 1776;
+		1774 -> j1430415423;
 	1775 [label="But it all got screwed up, and I'll help him deal with it.",shape=box,color=red];
-		1775 -> 1780;
-	1776 [label="I DON'T CARE 
+		1775 -> j3693831508;
+	j1430415423 [label="I DON'T CARE 
 ¡¡SÁCALAS DE AQUÍ!! 
 ¡¡AHORA!!",shape=box,color=blue];
-		1776 -> 1777;
-	1780 [label="+20 Chemistry",color=orange];
-		1780 -> 1778;
-	1777 [label="Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue",color=orange];
-		1777 -> "Chat ends.";
-	1778 [label="¿SÍ? 
+		j1430415423 -> "Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue";
+	j3693831508 [label="+20 Chemistry",color=orange];
+		j3693831508 -> j4052655993;
+	"Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue" [label="Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue",color=orange];
+		"Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue" -> "Chat ends.";
+	j4052655993 [label="¿SÍ? 
 It was for mis panquecitos?",shape=box,color=blue];
-		1778 -> 1779;
+		j4052655993 -> j194787495;
 	"Chat ends." [color=orange];
-	1779 [label="¡Ay equis! 
+	j194787495 [label="¡Ay equis! 
 Just get it all out of here 
 ¡¡AHORA!!",shape=box,color=blue];
-		1779 -> 1777;
+		j194787495 -> "Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue";
 }

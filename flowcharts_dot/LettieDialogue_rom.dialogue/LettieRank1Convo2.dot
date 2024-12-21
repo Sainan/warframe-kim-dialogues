@@ -6,13 +6,13 @@ digraph {
 		211 -> 54 [label=false,color=brown];
 		211 -> 53 [label=false,color=brown];
 	53 [label="Anyone back home missing you?",shape=box,color=red];
-		53 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeAsked:57";
+		53 -> 55;
 	54 [label="So what made you want to keep rats as pets?",shape=box,color=red];
-		54 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieRatsAsked:58";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeAsked:57" [label="Boolean LettieHomeAsked is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeAsked:57" -> 57;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieRatsAsked:58" [label="Boolean LettieRatsAsked is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRatsAsked:58" -> 58;
+		54 -> 56;
+	55 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		55 -> 57;
+	56 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		56 -> 58;
 	57 [label="Check boolean LettieInteresting",color=orange];
 		57 -> 59 [label=true,color=green];
 		57 -> 62 [label=false,color=brown];
@@ -45,7 +45,7 @@ You learn quick",shape=box,color=blue];
 	91 [label="Huh?",shape=box,color=red];
 		91 -> 93;
 	80 [label="I don't think I like where this is going. [End.]",shape=box,color=red];
-		80 -> 2440;
+		80 -> j1922389995;
 	70 [label="Bien podría ser un pinche fantasma 
 Call from beyond the grave, can't change, can't live, can't die",shape=box,color=blue];
 		70 -> 81;
@@ -56,54 +56,54 @@ What do you know of pain?",shape=box,color=blue];
 	"Chat ends." [color=orange];
 	93 [label="I want to know why you think I like rats 
 Go on",shape=box,color=blue];
-		93 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieRats1:95:96:97";
-	2440 [label="Tú te lo pierdes",shape=box,color=blue];
-		2440 -> "Chat ends.";
+		93 -> 104;
+	j1922389995 [label="Tú te lo pierdes",shape=box,color=blue];
+		j1922389995 -> "Chat ends.";
 	81 [label="¿¡What are we?! 
 FANTASMAS nothing more 
 Like shadows on a VHS tape used one too many times",shape=box,color=blue];
 		81 -> 82;
 	72 [label="Do you know what it feels like to get your head cut off? I do. I've died a thousand times. And it *hurts,* lady.",shape=box,color=red];
-		72 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieDuviri:76";
+		72 -> 71;
 	74 [label="I don't have to prove myself to you, lady.",shape=box,color=red];
-		74 -> 73;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieRats1:95:96:97" [label="Boolean LettieRats1 is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRats1:95:96:97" -> 95;
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRats1:95:96:97" -> 96;
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieRats1:95:96:97" -> 97;
+		74 -> j1615096688;
+	104 [label="Boolean LettieRats1 is now true.",color=orange];
+		104 -> 95;
+		104 -> 96;
+		104 -> 97;
 	82 [label="No, better they think I am already dead 
 I take this pain for them",shape=box,color=blue];
 		82 -> 79;
 		82 -> 78;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieDuviri:76" [label="Boolean LettieDuviri is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieDuviri:76" -> 76;
-	73 [label="I did not ask you to 
+	71 [label="Boolean LettieDuviri is now true.",color=orange];
+		71 -> 76;
+	j1615096688 [label="I did not ask you to 
 I'm busy 
 Vete",shape=box,color=blue];
-		73 -> "Chat ends.";
+		j1615096688 -> "Chat ends.";
 	95 [label="Because they're intelligent, affectionate, and playful?",shape=box,color=red];
 		95 -> 94;
 	96 [label="Because they're often neglected and misunderstood?",shape=box,color=red];
 		96 -> 94;
 	97 [label="Lettie? I don't understand the first thing about you. But the rats are cute as hell.",shape=box,color=red];
-		97 -> 105;
+		97 -> j2896234480;
 	79 [label="There's still life worth living, here.",shape=box,color=red];
-		79 -> 84;
+		79 -> j1299587495;
 	78 [label="Do you take the pain for other people by choice, or because it's your duty?",shape=box,color=red];
-		78 -> 85;
+		78 -> j1215472370;
 	76 [label="Touched by La Flaca 
 Another fantasma like the rest of us 
 Reliving their deaths again and again and again",shape=box,color=blue];
 		76 -> 77;
 	94 [label="Ay, Lua, sálvame",shape=box,color=blue];
 		94 -> 98;
-	105 [label="¡JAJAJA!",shape=box,color=blue];
-		105 -> 99;
-	84 [label="Suure, suure 
+	j2896234480 [label="¡JAJAJA!",shape=box,color=blue];
+		j2896234480 -> j1253050768;
+	j1299587495 [label="Suure, suure 
 With Amir's games and Arthur's drinking and Aoi's music and Quincy's pictures",shape=box,color=blue];
-		84 -> 89;
-	85 [label="+20 Chemistry",color=orange];
-		85 -> 83;
+		j1299587495 -> j3703283446;
+	j1215472370 [label="+20 Chemistry",color=orange];
+		j1215472370 -> j3110993514;
 	77 [label="Sí 
 There is family at home 
 Better they think I am already dead",shape=box,color=blue];
@@ -113,41 +113,41 @@ Better they think I am already dead",shape=box,color=blue];
 Anything else you wanted",shape=box,color=blue];
 		98 -> 100;
 		98 -> 101;
-	99 [label="+20 Chemistry",color=orange];
-		99 -> 106;
-	89 [label="Empty hobbies 
+	j1253050768 [label="+20 Chemistry",color=orange];
+		j1253050768 -> j780517524;
+	j3703283446 [label="Empty hobbies 
 Empty souls 
 Passing time through eternity",shape=box,color=blue];
-		89 -> 90;
-	83 [label="Both I suppose 
+		j3703283446 -> j1800583145;
+	j3110993514 [label="Both I suppose 
 I chose a long time ago 
 Now it's too late to go back",shape=box,color=blue];
-		83 -> 86;
+		j3110993514 -> j1352221585;
 	100 [label="Uh...",shape=box,color=red];
-		100 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeAsked:64";
+		100 -> 63;
 	101 [label="No... never mind...",shape=box,color=red];
-		101 -> 102;
-	106 [label="Humility from our savior 
+		101 -> j3022833425;
+	j780517524 [label="Humility from our savior 
 I like it",shape=box,color=blue];
-		106 -> 107;
-	90 [label="I have work to do 
+		j780517524 -> j3307486547;
+	j1800583145 [label="I have work to do 
 Vete",shape=box,color=blue];
-		90 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma1:Chat ends.";
-	86 [label="I have work to do",shape=box,color=blue];
-		86 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma1:Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeAsked:64" [label="Boolean LettieHomeAsked is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHomeAsked:64" -> 64;
-	102 [label="Va",shape=box,color=blue];
-		102 -> "Chat ends.";
-	107 [label="Didn't grow up with a lot of money as a kid 
+		j1800583145 -> j2796755127;
+	j1352221585 [label="I have work to do",shape=box,color=blue];
+		j1352221585 -> j2796755127;
+	63 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		63 -> 64;
+	j3022833425 [label="Va",shape=box,color=blue];
+		j3022833425 -> "Chat ends.";
+	j3307486547 [label="Didn't grow up with a lot of money as a kid 
 Bouncing from base to base 
 Rats were easy to keep, mi mamá didn't mind",shape=box,color=blue];
-		107 -> 108;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma1:Chat ends." [label="Boolean LettieFantasma1 is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma1:Chat ends." -> "Chat ends.";
+		j3307486547 -> j3608814442;
+	j2796755127 [label="Boolean LettieFantasma1 is now true.",color=orange];
+		j2796755127 -> "Chat ends.";
 	64 [label="Anyone back home missing you?",shape=box,color=red];
 		64 -> 62;
-	108 [label="I have to get back to work 
+	j3608814442 [label="I have to get back to work 
 See ya, babas",shape=box,color=blue];
-		108 -> "Chat ends.";
+		j3608814442 -> "Chat ends.";
 }

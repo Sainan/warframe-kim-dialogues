@@ -54,45 +54,45 @@ So tell me why",shape=box,color=blue];
 		2328 -> 2332 [label=false,color=brown];
 		2328 -> 2333 [label=false,color=brown];
 	2327 [label="Entrati. I feel like my time chasing him might not be done.",shape=box,color=red];
-		2327 -> 2334;
+		2327 -> j950202974;
 	2329 [label="My Xipe Totec. I know first hand why it *must* be stopped.",shape=box,color=red];
-		2329 -> 2335;
+		2329 -> j2300881465;
 	2330 [label="Tau. If that's where Entrati is headed, my Xipe Totec *will* follow him. And it's too important to let them have it.",shape=box,color=red];
 		2330 -> 2336;
 	2333 [label="I'm NEVER leaving. End of story.",shape=box,color=red];
-		2333 -> 2337;
+		2333 -> j3663478375;
 	2331 [label="The Man in the Wall. I know first hand why it *must* be stopped.",shape=box,color=red];
-		2331 -> 2335;
+		2331 -> j2300881465;
 	2332 [label="Tau. If that's where Entrati is headed, The Man in the Wall. *will* follow him. And it's too important to let them have it.",shape=box,color=red];
 		2332 -> 2336;
-	2334 [label="Do I need more reasons to hate that cabrón 
+	j950202974 [label="Do I need more reasons to hate that cabrón 
 Now you give me one more 
 But he will ruin more places more lives 
 Like he's ruined so many others",shape=box,color=blue];
-		2334 -> 2338;
-	2335 [label="Your story with the skinned god of the Void... sí 
+		j950202974 -> j474772492;
+	j2300881465 [label="Your story with the skinned god of the Void... sí 
 I fear it may not be over 
 And who am I to think I am important enough to stand in the way of it",shape=box,color=blue];
-		2335 -> 2339;
+		j2300881465 -> j927301772;
 	2336 [label="Check boolean LettieSentients",color=orange];
 		2336 -> 2340 [label=true,color=green];
 		2336 -> 2341 [label=false,color=brown];
-	2337 [label="Didn't think you were that naive 
+	j3663478375 [label="Didn't think you were that naive 
 This thing between us is clearly a mistake, babas 
 You are too young for me I think 
 If you can't understand the reality of all this",shape=box,color=blue];
-		2337 -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
-	2338 [label="Ay, sí 
+		j3663478375 -> j30836566;
+	j474772492 [label="Ay, sí 
 If it is not one of us to put a bullet in his skull It should be you 
 And I hope that once you go and make him pay 
 You will come back to us 
 And to me",shape=box,color=blue];
-		2338 -> 2364;
-	2339 [label="Maybe when you finally defeat this skinned god of yours 
+		j474772492 -> 2364;
+	j927301772 [label="Maybe when you finally defeat this skinned god of yours 
 You won't forget about us back here in this cuchitril 
 You will come back to us 
 And to me",shape=box,color=blue];
-		2339 -> 2365;
+		j927301772 -> 2365;
 	2340 [label="This Tau This is where the... sentients were sent ¿no? 
 This fake race made by fake gods the orokin",shape=box,color=blue];
 		2340 -> 2350;
@@ -100,22 +100,22 @@ This fake race made by fake gods the orokin",shape=box,color=blue];
 What is it 
 Tell me why it would take you from me",shape=box,color=blue];
 		2341 -> 2346;
-	"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieDating is now false.",color=orange];
-		"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
+	j30836566 [label="Boolean LettieDating is now false.",color=orange];
+		j30836566 -> j4031970331;
 	2364 [label="I promise that IF I do go, I WILL come back.",shape=box,color=red];
-		2364 -> 2368;
+		2364 -> j396338802;
 	2365 [label="All I can do is promise to try as hard as I possibly can.",shape=box,color=red];
-		2365 -> 2371;
+		2365 -> j3699033179;
 	2350 [label="Yeah, but then we never would have met. Or started dating. So... small upside?",shape=box,color=red];
 		2350 -> 2352;
 	2346 [label="Tau is a planet in another solar system, where the Orokin sent a synthetic race they created to terraform it for us.",shape=box,color=red];
 		2346 -> 2347;
-	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean IsDating is now false.",color=orange];
-		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
-	2368 [label="+10 Chemistry",color=orange];
-		2368 -> 2366;
-	2371 [label="+20 Chemistry",color=orange];
-		2371 -> 2367;
+	j4031970331 [label="Boolean IsDating is now false.",color=orange];
+		j4031970331 -> j3065772033;
+	j396338802 [label="+10 Chemistry",color=orange];
+		j396338802 -> j732030979;
+	j3699033179 [label="+20 Chemistry",color=orange];
+		j3699033179 -> j1729677400;
 	2352 [label="Jajaja sí 
 Small upside 
 But why? 
@@ -125,17 +125,17 @@ Why is this place so important that it will take you from me some day",shape=box
 		2352 -> 2356;
 	2347 [label="The race were called Sentients. But the Sentients turned on the Orokin. Came back here and waged war on them.",shape=box,color=red];
 		2347 -> 2348;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieNoDate is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "Chat ends.";
-	2366 [label="How many soldaditos have made that promise 
+	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
+		j3065772033 -> "Chat ends.";
+	j732030979 [label="How many soldaditos have made that promise 
 And died in a ditch an hour later 
 Aay but I know you mean it when you say it 
 You will try",shape=box,color=blue];
-		2366 -> "Chat ends.";
-	2367 [label="That is a promise I can trust 
+		j732030979 -> "Chat ends.";
+	j1729677400 [label="That is a promise I can trust 
 That is a promise I believe 
 Gracias, mi corazón",shape=box,color=blue];
-		2367 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends.";
+		j1729677400 -> j124228052;
 	2354 [label="I'm not sure. But if Entrati *and* the Man in the Wall are headed there... it has to be important.",shape=box,color=red];
 		2354 -> 2357;
 	2355 [label="It was the only hope for humanity's survival. Might still be, honestly.",shape=box,color=red];
@@ -144,8 +144,8 @@ Gracias, mi corazón",shape=box,color=blue];
 		2356 -> 2360;
 	2348 [label="And it was that war that drove the Orokin to create the infestation - and warframes - in the first place. To fight the Sentients.",shape=box,color=red];
 		2348 -> 2349;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends." [label="Boolean LettieReal is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends." -> "Chat ends.";
+	j124228052 [label="Boolean LettieReal is now true.",color=orange];
+		j124228052 -> "Chat ends.";
 	2357 [label="Sí 
 And I hope that once you go and make him pay 
 You will come back to us 
@@ -168,17 +168,17 @@ None of these pendejadas would have ever happened",shape=box,color=blue];
 		2349 -> 2350;
 		2349 -> 2351;
 	2362 [label="Fair enough. lol",shape=box,color=red];
-		2362 -> 2375;
+		2362 -> j3593789027;
 	2363 [label="Might want to wait to meet the future before you make that call.",shape=box,color=red];
-		2363 -> 2375;
+		2363 -> j3593789027;
 	2359 [label="\"All is silent and calm, hushed and empty is the womb of the sky.\"",shape=box,color=red];
 		2359 -> 2376;
 	2361 [label="\"Merely framed Merely shaped they are called. There was no their mother, there was no their father.\"",shape=box,color=red];
 		2361 -> 2376;
 	2351 [label="Basically.",shape=box,color=red];
 		2351 -> 2353;
-	2375 [label="+10 Chemistry",color=orange];
-		2375 -> 2373;
+	j3593789027 [label="+10 Chemistry",color=orange];
+		j3593789027 -> j2013821922;
 	2376 [label="¡¿QUÉ?! 
 WHAT DID YOU JUST SAY?! 
 WAIT WAIT WAIT WAIT WAIT WAIT",shape=box,color=blue];
@@ -188,10 +188,10 @@ Why is this place so important that it will take you from me some day",shape=box
 		2353 -> 2354;
 		2353 -> 2355;
 		2353 -> 2356;
-	2373 [label="Back to work for me 
+	j2013821922 [label="Back to work for me 
 Again as always 
 Never ending... never will",shape=box,color=blue];
-		2373 -> "Chat ends.";
+		j2013821922 -> "Chat ends.";
 	2377 [label="¿POR QUÉ? why are creatures from the far future quoting ¿a los PUEBLOS ANTIGUOS? 
 ¿Qué chingados está pasando ahora?",shape=box,color=blue];
 		2377 -> 2378;
@@ -208,18 +208,18 @@ Those words are the words of the ancient people of Chichén Itzá. WHERE DID YOU
 		2381 -> 2382;
 		2381 -> 2383;
 	2382 [label="I - I don't - I don't know. I have no clue. I'd only be guessing.",shape=box,color=red];
-		2382 -> 2387;
+		2382 -> j3218306760;
 	2383 [label="Time travel...?",shape=box,color=red];
-		2383 -> 2387;
-	2387 [label="+20 Chemistry",color=orange];
-		2387 -> 2384;
-	2384 [label="I do not drink 
+		2383 -> j3218306760;
+	j3218306760 [label="+20 Chemistry",color=orange];
+		j3218306760 -> j458885838;
+	j458885838 [label="I do not drink 
 But if I did now would be the time 
 Aaayyyy this nonsense gets worse and worse every day",shape=box,color=blue];
-		2384 -> 2385;
-	2385 [label="I... need to go sit down, mi corazón 
+		j458885838 -> j2468283485;
+	j2468283485 [label="I... need to go sit down, mi corazón 
 Do not talk to me of the future for a while, ¿Sí? 
 Think I've had enough of it for a long time 
 Gives me a damn headache",shape=box,color=blue];
-		2385 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends.";
+		j2468283485 -> j124228052;
 }

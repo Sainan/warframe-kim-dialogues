@@ -68,18 +68,18 @@ Spiders are what I call the things in my head that tell me lies",shape=box,color
 	2270 [label="You hear voices...?",shape=box,color=red];
 		2270 -> 2273;
 	2271 [label="Have you tried ignoring them?",shape=box,color=red];
-		2271 -> 2274;
+		2271 -> j395083092;
 	2276 [label="What do they whisper to you?",shape=box,color=red];
 		2276 -> 2282;
 	2277 [label="That sounds miserable... I'm sorry.",shape=box,color=red];
-		2277 -> 2278;
+		2277 -> j2410822822;
 	2273 [label="Aaaay babaaas not LITERALLY
 Little things that whisper to me in my head words that I believe when I am too stupid and fall for it",shape=box,color=blue];
 		2273 -> 2276;
 		2273 -> 2277;
-	2274 [label="¡¿Qué?! What a smart idea
+	j395083092 [label="¡¿Qué?! What a smart idea
 Let me try it now",shape=box,color=blue];
-		2274 -> "Chat ends.";
+		j395083092 -> "Chat ends.";
 	2282 [label="You will fail
 Nobody likes you
 You are ugly
@@ -91,18 +91,18 @@ You don't deserve this",shape=box,color=blue];
 		2282 -> 2283;
 		2282 -> 2284;
 		2282 -> 2285;
-	2278 [label="Mm
+	j2410822822 [label="Mm
 Has its moments",shape=box,color=blue];
-		2278 -> 2279;
+		j2410822822 -> j841461186;
 	2283 [label="At least you know the spiders are liars, but... they sound like total assholes.",shape=box,color=red];
 		2283 -> 2286;
 	2284 [label="Mine say meaner things... you're lucky.",shape=box,color=red];
 		2284 -> 2287;
 	2285 [label="Have you considered medication or treatment for it? Depression can be serious.",shape=box,color=red];
 		2285 -> 2288;
-	2279 [label="Back to work I go
+	j841461186 [label="Back to work I go
 Lo siento, hate to whine at you",shape=box,color=blue];
-		2279 -> 2280;
+		j841461186 -> j1470630329;
 	2286 [label="They are little pinches cabronas
 This kind of sadness is small but it can be a poison if you let it get too strong 
 Mi mamá had it all her life so I have seen the toll it takes",shape=box,color=blue];
@@ -119,8 +119,8 @@ So I have seen the toll it can take
 Luckily, mine is not that bad, does not escalate into very serious things
 Have tried medication before, but hate the fog it brings",shape=box,color=blue];
 		2288 -> 2291;
-	2280 [label="+10 Chemistry",color=orange];
-		2280 -> "Chat ends.";
+	j1470630329 [label="+10 Chemistry",color=orange];
+		j1470630329 -> "Chat ends.";
 	2289 [label="But here is why I call them spiders 
 Because you can take a newspaper and roll it up into a tube
 And CRUSH THEM
@@ -139,49 +139,49 @@ It is a mild sadness, the spiders are small ones",shape=box,color=blue];
 		2291 -> 2296;
 		2291 -> 2297;
 	2292 [label="You're not going to like Venus...",shape=box,color=red];
-		2292 -> 2298;
+		2292 -> j2584412547;
 	2293 [label="Very fair. And now, I can help you crush the spiders.",shape=box,color=red];
-		2293 -> 2304;
+		2293 -> j399618039;
 	2294 [label="You're not going to like Venus...",shape=box,color=red];
-		2294 -> 2299;
+		2294 -> j2881616931;
 	2295 [label="Very fair. And now, we can help each other crush the spiders.",shape=box,color=red];
-		2295 -> 2308;
+		2295 -> j225758563;
 	2296 [label="I trust you. But you know when to get help, right?",shape=box,color=red];
-		2296 -> 2311;
+		2296 -> j2545257734;
 	2297 [label="If it ever got bad... you'd tell me, right? Even if we weren't still together?",shape=box,color=red];
-		2297 -> 2311;
-	2298 [label="¿Qué?",shape=box,color=blue];
-		2298 -> 2301;
-	2304 [label="+15 Chemistry",color=orange];
-		2304 -> 2303;
-	2299 [label="¿Qué?",shape=box,color=blue];
-		2299 -> 2302;
-	2308 [label="+20 Chemistry",color=orange];
-		2308 -> 2306;
-	2311 [label="+20 Chemistry",color=orange];
-		2311 -> 2300;
+		2297 -> j2545257734;
+	j2584412547 [label="¿Qué?",shape=box,color=blue];
+		j2584412547 -> 2301;
+	j399618039 [label="+15 Chemistry",color=orange];
+		j399618039 -> j1208808311;
+	j2881616931 [label="¿Qué?",shape=box,color=blue];
+		j2881616931 -> 2302;
+	j225758563 [label="+20 Chemistry",color=orange];
+		j225758563 -> j4116309100;
+	j2545257734 [label="+20 Chemistry",color=orange];
+		j2545257734 -> j2877619884;
 	2301 [label="Never mind. At least now, I can help you crush the spiders.",shape=box,color=red];
-		2301 -> 2304;
-	2303 [label="Sí, solecito
+		2301 -> j399618039;
+	j1208808311 [label="Sí, solecito
 And I thank you for that
 But now I have to go back to work as always",shape=box,color=blue];
-		2303 -> "Chat ends.";
+		j1208808311 -> "Chat ends.";
 	2302 [label="Never mind. At least now, we can crush the spiders together.",shape=box,color=red];
-		2302 -> 2308;
-	2306 [label="Sí, mi corazón, exactly
+		2302 -> j225758563;
+	j4116309100 [label="Sí, mi corazón, exactly
 Come what may between us
 Thank you for this moment
 But now I have to go back to work as always",shape=box,color=blue];
-		2306 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends.";
-	2300 [label="Sí, mi corazón, I promise
+		j4116309100 -> j124228052;
+	j2877619884 [label="Sí, mi corazón, I promise
 Come what may between us
 I will remember this moment and that you cared and I will roll it up like a newspaper and crush the spiders jajaja",shape=box,color=blue];
-		2300 -> 2310;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends." [label="Boolean LettieReal is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends." -> "Chat ends.";
-	2310 [label="In seriousness...
+		j2877619884 -> j1294903490;
+	j124228052 [label="Boolean LettieReal is now true.",color=orange];
+		j124228052 -> "Chat ends.";
+	j1294903490 [label="In seriousness...
 Gracias
 But I have to go back to work now
 Ve",shape=box,color=blue];
-		2310 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReal:Chat ends.";
+		j1294903490 -> j124228052;
 }

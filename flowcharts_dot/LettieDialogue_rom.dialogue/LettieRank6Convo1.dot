@@ -123,92 +123,92 @@ And it is all thanks to you",shape=box,color=blue];
 	2424 [label="I don't know, I'm enjoying Sweet Lettie.",shape=box,color=red];
 		2424 -> 2426;
 	2425 [label="Hmm? I dozed off again.",shape=box,color=red];
-		2425 -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
+		2425 -> j1099087659;
 	2426 [label="Check boolean LettieDating",color=orange];
 		2426 -> 2431 [label=true,color=green];
-		2426 -> 2434 [label=false,color=brown];
-	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean IsDating is now false.",color=orange];
-		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
+		2426 -> j1088190885 [label=false,color=brown];
+	j1099087659 [label="Boolean IsDating is now false.",color=orange];
+		j1099087659 -> j1258034025;
 	2431 [label="Check boolean LettieReal",color=orange];
 		2431 -> 2432 [label=true,color=green];
-		2431 -> 2433 [label=false,color=brown];
-	2434 [label="Don't get used to it 
+		2431 -> j542107969 [label=false,color=brown];
+	j1088190885 [label="Don't get used to it 
 I'll still kick your ass 
 Point is, I've gotten used to having you underfoot 
 I like having you around",shape=box,color=blue];
-		2434 -> 2437;
-	"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieDating is now false.",color=orange];
-		"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
+		j1088190885 -> j1970384906;
+	j1258034025 [label="Boolean LettieDating is now false.",color=orange];
+		j1258034025 -> j3065772033;
 	2432 [label="Don't get used to it, mi corazón 
 I'll still kick your ass 
 Ay, here goes...",shape=box,color=blue];
 		2432 -> 2435;
-	2433 [label="Don't get used to it, solecito 
+	j542107969 [label="Don't get used to it, solecito 
 I'll still kick your ass 
 Point is, I've gotten used to having you underfoot 
 I like having you around",shape=box,color=blue];
-		2433 -> 2436;
-	2437 [label="Your friendship is so valuable to me 
+		j542107969 -> j374430485;
+	j1970384906 [label="Your friendship is so valuable to me 
 And I rely on you in ways I don't rely on anyone else 
 I trust you and that is not something I do lightly",shape=box,color=blue];
-		2437 -> 1621;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieNoDate is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "Chat ends.";
+		j1970384906 -> j2456361391;
+	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
+		j3065772033 -> "Chat ends.";
 	2435 [label="Te amo, mi corazón 
 I love you, my heart",shape=box,color=blue];
 		2435 -> 1284;
 		2435 -> 1285;
-	2436 [label="Me importas mucho 
+	j374430485 [label="Me importas mucho 
 I care about you a great deal 
 And I rely on you in ways I don't rely on anyone else 
 I trust you and that is not something I do lightly",shape=box,color=blue];
-		2436 -> 2438;
-	1621 [label="Here's to us, my friend 
+		j374430485 -> j688234687;
+	j2456361391 [label="Here's to us, my friend 
 And here is to the future 
 Filled with fantasmas and endless futures and gods and demons as they may be 
 We have each other 
 And that is plenty good enough",shape=box,color=blue];
-		1621 -> "Chat ends.";
+		j2456361391 -> "Chat ends.";
 	1284 [label="I don't feel that strongly, I'm sorry...",shape=box,color=red];
-		1284 -> 1286;
+		1284 -> j962209580;
 	1285 [label="I - I love you too, Lettie. I never believed... I'm just so happy.",shape=box,color=red];
 		1285 -> 1287;
-	2438 [label="Here's to us, solecito 
+	j688234687 [label="Here's to us, solecito 
 And here is to the future 
 Filled with fantasmas and endless futures and gods and demons as they may be 
 We have each other 
 And that is plenty good enough",shape=box,color=blue];
-		2438 -> "Chat ends.";
-	1286 [label="Ay 
+		j688234687 -> "Chat ends.";
+	j962209580 [label="Ay 
 Sí 
 Ok",shape=box,color=blue];
-		1286 -> 1288;
+		j962209580 -> j2737072236;
 	1287 [label="JAJAJA síí 
 I am hard to read I know 
 Aggh I am so happy too 
 Lets celebrate tonight, ¿mm?",shape=box,color=blue];
 		1287 -> 1289;
-	1288 [label="This... is why I do not trust people jajaja",shape=box,color=blue];
-		1288 -> 1295;
+	j2737072236 [label="This... is why I do not trust people jajaja",shape=box,color=blue];
+		j2737072236 -> j1761774946;
 	1289 [label="I don't want you asking 
 I don't want you being NICE 
 I want you to show me what you WANT, ¿entendiste?",shape=box,color=blue];
 		1289 -> 1290;
 		1289 -> 1291;
-	1295 [label="Is okay it happens 
+	j1761774946 [label="Is okay it happens 
 Stupid me making mistakes again 
 Better for me we don't go on like this then 
 You understand",shape=box,color=blue];
-		1295 -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
+		j1761774946 -> j1099087659;
 	1290 [label="Yes. Ma'am.",shape=box,color=red];
-		1290 -> 1292;
+		1290 -> j2213178758;
 	1291 [label="<RETRO_EMOJI_SNEAKY>",shape=box,color=red];
-		1291 -> 1292;
-	1292 [label="That's the spirit 
+		1291 -> j2213178758;
+	j2213178758 [label="That's the spirit 
 Here's to us, mi corazón 
 And here is to the future 
 Filled with fantasmas and endless futures and gods and demons as they may be 
 We have our love 
 And that is more than enough",shape=box,color=blue];
-		1292 -> "Chat ends.";
+		j2213178758 -> "Chat ends.";
 }

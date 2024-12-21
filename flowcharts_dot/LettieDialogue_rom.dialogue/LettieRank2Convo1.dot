@@ -19,12 +19,12 @@ Do you know much of death?",shape=box,color=blue];
 	255 [label="LOL. Lady, don't get me started. You?",shape=box,color=red];
 		255 -> 257;
 	256 [label="You seriously need to get outside more often.",shape=box,color=red];
-		256 -> 258;
+		256 -> j3472070054;
 	257 [label="La Flaca and I know each other well",shape=box,color=blue];
 		257 -> 260;
 		257 -> 261;
-	258 [label="Ay, equis",shape=box,color=blue];
-		258 -> "Chat ends.";
+	j3472070054 [label="Ay, equis",shape=box,color=blue];
+		j3472070054 -> "Chat ends.";
 	260 [label="La Flaca is death?",shape=box,color=red];
 		260 -> 262;
 	261 [label="Who's La Flaca?",shape=box,color=red];
@@ -32,14 +32,14 @@ Do you know much of death?",shape=box,color=blue];
 	"Chat ends." [color=orange];
 	262 [label="Sí 
 Surprised you caught on",shape=box,color=blue];
-		262 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma2:266";
+		262 -> 264;
 	263 [label="The Skinny Lady 
 Death",shape=box,color=blue];
-		263 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma2:267";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma2:266" [label="Boolean LettieFantasma2 is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma2:266" -> 266;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma2:267" [label="Boolean LettieFantasma2 is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieFantasma2:267" -> 267;
+		263 -> 265;
+	264 [label="Boolean LettieFantasma2 is now true.",color=orange];
+		264 -> 266;
+	265 [label="Boolean LettieFantasma2 is now true.",color=orange];
+		265 -> 267;
 	266 [label="+5 Chemistry",color=orange];
 		266 -> 268;
 	267 [label="+5 Chemistry",color=orange];
@@ -47,18 +47,18 @@ Death",shape=box,color=blue];
 	268 [label="I respect her 
 Even if sometimes I don't want to like her 
 But she shepherds the ones I care for",shape=box,color=blue];
-		268 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion1:270:271";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion1:270:271" [label="Boolean LettieReligion1 is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion1:270:271" -> 270;
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion1:270:271" -> 271;
+		268 -> 269;
+	269 [label="Boolean LettieReligion1 is now true.",color=orange];
+		269 -> 270;
+		269 -> 271;
 	270 [label="But you're a medic. Don't you heal people? How can you \"respect\" death?",shape=box,color=red];
 		270 -> 274;
 	271 [label="Death isn't a person. It's a thing that happens.",shape=box,color=red];
-		271 -> 272;
+		271 -> j3022833425;
 	274 [label="You're thinking about it all wrong",shape=box,color=blue];
 		274 -> 275;
-	272 [label="Va",shape=box,color=blue];
-		272 -> "Chat ends.";
+	j3022833425 [label="Va",shape=box,color=blue];
+		j3022833425 -> "Chat ends.";
 	275 [label="Check boolean LettieDuviri",color=orange];
 		275 -> 276 [label=true,color=green];
 		275 -> 277 [label=false,color=brown];
@@ -82,13 +82,13 @@ She is not to be feared, but respected",shape=box,color=blue];
 	280 [label="I guess part of me understands that. Even if I don't like the idea of dying.",shape=box,color=red];
 		280 -> 92;
 	281 [label="I am... going to stop this conversation, now.",shape=box,color=red];
-		281 -> 282;
+		281 -> j1734532838;
 	285 [label="That no matter how badly it was about to hurt, the darkness would come and it'd be done.",shape=box,color=red];
 		285 -> 286;
 	92 [label="Hm, sí",shape=box,color=blue];
 		92 -> 284;
-	282 [label="Ay, equis, pansy",shape=box,color=blue];
-		282 -> "Chat ends.";
+	j1734532838 [label="Ay, equis, pansy",shape=box,color=blue];
+		j1734532838 -> "Chat ends.";
 	286 [label="+10 Chemistry",color=orange];
 		286 -> 287;
 	284 [label="+5 Chemistry",color=orange];
@@ -103,33 +103,33 @@ And that she ONLY gets who she needs
 And no one else",shape=box,color=blue];
 		292 -> 294;
 	288 [label="But I also knew I was going to come back.",shape=box,color=red];
-		288 -> 303;
+		288 -> j2034658724;
 	289 [label="But I don't think it means everybody should die. lol",shape=box,color=red];
 		289 -> 292;
 	294 [label="We've all seen her sent loved ones too soon by the actions of others...",shape=box,color=blue];
 		294 -> 295;
 		294 -> 296;
-	303 [label="+5 Chemistry",color=orange];
-		303 -> 291;
+	j2034658724 [label="+5 Chemistry",color=orange];
+		j2034658724 -> j1155382693;
 	295 [label="Yeah.",shape=box,color=red];
-		295 -> 300;
+		295 -> j2565880248;
 	296 [label="I could toast to that.",shape=box,color=red];
-		296 -> 297;
-	291 [label="And for those with faith 
+		296 -> j1299829215;
+	j1155382693 [label="And for those with faith 
 So are we 
 Maybe not as literally as you jaja 
 Though... now we are fantasmas, too",shape=box,color=blue];
-		291 -> 293;
-	300 [label="Been fun 
+		j1155382693 -> j4242302018;
+	j2565880248 [label="Been fun 
 Back to work for me",shape=box,color=blue];
-		300 -> "Chat ends.";
-	297 [label="+5 Chemistry",color=orange];
-		297 -> 298;
-	293 [label="Caught in the same endless cycle as you were... 
+		j2565880248 -> "Chat ends.";
+	j1299829215 [label="+5 Chemistry",color=orange];
+		j1299829215 -> j1262637060;
+	j4242302018 [label="Caught in the same endless cycle as you were... 
 Outside Mictlán embrace",shape=box,color=blue];
-		293 -> 302;
-	298 [label="Sí",shape=box,color=blue];
-		298 -> "Chat ends.";
-	302 [label="I need to go back to work",shape=box,color=blue];
-		302 -> "Chat ends.";
+		j4242302018 -> j2116560960;
+	j1262637060 [label="Sí",shape=box,color=blue];
+		j1262637060 -> "Chat ends.";
+	j2116560960 [label="I need to go back to work",shape=box,color=blue];
+		j2116560960 -> "Chat ends.";
 }

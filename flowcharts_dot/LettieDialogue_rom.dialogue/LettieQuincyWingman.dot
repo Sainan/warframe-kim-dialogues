@@ -18,7 +18,7 @@ Said you wanted to talk?
 	2473 [label="I just... wanted to say sorry, Lettie. That's all.",shape=box,color=red];
 		2473 -> 2479;
 	2475 [label="He must have been mistaken. [End.]",shape=box,color=red];
-		2475 -> 2476;
+		2475 -> j3597298798;
 	2474 [label="I... well. I have feelings for you.",shape=box,color=red];
 		2474 -> 2478;
 	2479 [label="JAJA Sí, that's what he said
@@ -26,8 +26,8 @@ I didn't believe him at first
 But now I'm impressed that you've got him working for you, huh?
 Ay, there I go again...",shape=box,color=blue];
 		2479 -> 2480;
-	2476 [label="Lárgate de aquí, cabrón",shape=box,color=blue];
-		2476 -> "Chat ends.";
+	j3597298798 [label="Lárgate de aquí, cabrón",shape=box,color=blue];
+		j3597298798 -> "Chat ends.";
 	2478 [label="Check boolean LettieHasDated",color=orange];
 		2478 -> 2481 [label=true,color=green];
 		2478 -> 2482 [label=false,color=brown];
@@ -59,32 +59,32 @@ A thing, together
 	2484 [label="No idea.",shape=box,color=red];
 		2484 -> 2485;
 	2488 [label="Yeah. :) I would.",shape=box,color=red];
-		2488 -> 2494;
+		2488 -> j98426433;
 	2490 [label="Actually, never mind.",shape=box,color=red];
-		2490 -> 2491;
+		2490 -> j2955670583;
 	2485 [label="Well...
 Whatever
 You want to do this?",shape=box,color=blue];
 		2485 -> 2488;
 		2485 -> 2490;
-	2494 [label="+20 Chemistry",color=orange];
-		2494 -> 2489;
-	2491 [label="¿Babas?
+	j98426433 [label="+20 Chemistry",color=orange];
+		j98426433 -> j2434285118;
+	j2955670583 [label="¿Babas?
 Sometimes, I want to smack you
 This is one of those times",shape=box,color=blue];
-		2491 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
-	2489 [label="Sí, okay then
+		j2955670583 -> j3065772033;
+	j2434285118 [label="Sí, okay then
 Let's get on with it, then
 ¡Va!, there's work to do",shape=box,color=blue];
-		2489 -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieNoDate:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieNoDate is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "Chat ends.";
-	"/EE/Types/Engine/ResetBooleanDialogueNode:LettieNoDate:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." [label="Boolean LettieNoDate is now false.",color=orange];
-		"/EE/Types/Engine/ResetBooleanDialogueNode:LettieNoDate:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." [label="Boolean IsDating is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." [label="Boolean LettieDating is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." [label="Boolean LettieHasDated is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." -> "Chat ends.";
+		j2434285118 -> j1224573614;
+	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
+		j3065772033 -> "Chat ends.";
+	j1224573614 [label="Boolean LettieNoDate is now false.",color=orange];
+		j1224573614 -> j1219159457;
+	j1219159457 [label="Boolean IsDating is now true.",color=orange];
+		j1219159457 -> j1602277889;
+	j1602277889 [label="Boolean LettieDating is now true.",color=orange];
+		j1602277889 -> j2764521140;
+	j2764521140 [label="Boolean LettieHasDated is now true.",color=orange];
+		j2764521140 -> "Chat ends.";
 }

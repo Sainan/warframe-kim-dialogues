@@ -3,17 +3,17 @@ digraph {
 		"LettieBirthdayConvo2 begins." -> 2513;
 		"LettieBirthdayConvo2 begins." -> 2507;
 	2513 [label="Happy Birthday! I'm sure everybody in the med tent appreciate you working. :)",shape=box,color=red];
-		2513 -> 2511;
+		2513 -> j1309102597;
 	2507 [label="Happy Birthday, Lettie! Do you get a day off today? Or at least to sit down?",shape=box,color=red];
-		2507 -> 2505;
-	2511 [label="Sí
+		2507 -> j1779318720;
+	j1309102597 [label="Sí
 Sure",shape=box,color=blue];
-		2511 -> "Chat ends.";
-	2505 [label="+20 Chemistry",color=orange];
-		2505 -> 2502;
+		j1309102597 -> "Chat ends.";
+	j1779318720 [label="+20 Chemistry",color=orange];
+		j1779318720 -> j3334341896;
 	"Chat ends." [color=orange];
-	2502 [label="Hah!
+	j3334341896 [label="Hah!
 I wish
 I do get off early, though. Good enough for me.",shape=box,color=blue];
-		2502 -> "Chat ends.";
+		j3334341896 -> "Chat ends.";
 }

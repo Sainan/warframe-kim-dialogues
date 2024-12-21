@@ -3,14 +3,14 @@ digraph {
 		"AoiBirthdayConvo3 begins." -> 3807;
 		"AoiBirthdayConvo3 begins." -> 3806;
 	3807 [label="Happy Birthday.",shape=box,color=red];
-		3807 -> 3811;
+		3807 -> j3429264800;
 	3806 [label="Happy Birthday, Aoi! Hope you’re having a great day!",shape=box,color=red];
-		3806 -> 3808;
-	3811 [label="thx",shape=box,color=blue];
-		3811 -> "Chat ends.";
-	3808 [label="+20 Chemistry",color=orange];
-		3808 -> 3809;
+		3806 -> j3626963452;
+	j3429264800 [label="thx",shape=box,color=blue];
+		j3429264800 -> "Chat ends.";
+	j3626963452 [label="+20 Chemistry",color=orange];
+		j3626963452 -> j3429217132;
 	"Chat ends." [color=orange];
-	3809 [label="u know what, I am! <RETRO_EMOJI_AOICAT> appreciate u!",shape=box,color=blue];
-		3809 -> "Chat ends.";
+	j3429217132 [label="u know what, I am! <RETRO_EMOJI_AOICAT> appreciate u!",shape=box,color=blue];
+		j3429217132 -> "Chat ends.";
 }

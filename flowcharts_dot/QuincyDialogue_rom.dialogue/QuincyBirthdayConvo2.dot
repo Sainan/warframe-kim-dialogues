@@ -3,14 +3,14 @@ digraph {
 		"QuincyBirthdayConvo2 begins." -> 3543;
 		"QuincyBirthdayConvo2 begins." -> 3546;
 	3543 [label="Hey Quincy! I talked Arthur into giving you the night off for your birthday.",shape=box,color=red];
-		3543 -> 3544;
+		3543 -> j1755955936;
 	3546 [label="Have a good shift tonight on your birthday, Quincy.",shape=box,color=red];
-		3546 -> 3548;
-	3544 [label="+20 Chemistry",color=orange];
-		3544 -> 3542;
-	3548 [label="yea love freezing my plums off on the roof on my bday thnx",shape=box,color=blue];
-		3548 -> "Chat ends.";
-	3542 [label="sweeeeeeet, ur the best, m8",shape=box,color=blue];
-		3542 -> "Chat ends.";
+		3546 -> j2741700386;
+	j1755955936 [label="+20 Chemistry",color=orange];
+		j1755955936 -> j999643912;
+	j2741700386 [label="yea love freezing my plums off on the roof on my bday thnx",shape=box,color=blue];
+		j2741700386 -> "Chat ends.";
+	j999643912 [label="sweeeeeeet, ur the best, m8",shape=box,color=blue];
+		j999643912 -> "Chat ends.";
 	"Chat ends." [color=orange];
 }

@@ -23,22 +23,22 @@ Segundo, do you mean what you said?",shape=box,color=blue];
 	1727 [label="I meant every word.",shape=box,color=red];
 		1727 -> 1732;
 	1728 [label="I was making that all up.",shape=box,color=red];
-		1728 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:1730";
+		1728 -> j2232915432;
 	1732 [label="Aayyyy... ok... 
 Mierda",shape=box,color=blue];
 		1732 -> 1734;
 		1732 -> 1733;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:1730" [label="Boolean LettieNoDate is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:1730" -> 1730;
+	j2232915432 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2232915432 -> j668065720;
 	1734 [label="If it's not mutual you can just tell me, I can take it.",shape=box,color=red];
 		1734 -> 1736;
 	1733 [label="I still don't know if \"mierda\" is a good thing or not...",shape=box,color=red];
 		1733 -> 1735;
-	1730 [label="Mm 
+	j668065720 [label="Mm 
 Should've known 
 Go play with Quincy 
 Un escuincle like that seem more your type",shape=box,color=blue];
-		1730 -> "Chat ends.";
+		j668065720 -> "Chat ends.";
 	1736 [label="Check boolean LettieTrust1",color=orange];
 		1736 -> 1737 [label=true,color=green];
 		1736 -> 1738 [label=false,color=brown];
@@ -53,7 +53,7 @@ It's just--",shape=box,color=blue];
 Trust is something that is very hard for me to give away 
 And it is the most important thing in a relationship for me 
 Broken trust is something that cannot be  repaired, especially in a situation like this",shape=box,color=blue];
-		1738 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust2:1743";
+		1738 -> 1741;
 	1739 [label="You know how hard it is for me to trust people 
 And how important trust is for me ¿no? 
 Well... it's even more important when I get into a relationship with someone",shape=box,color=blue];
@@ -61,17 +61,17 @@ Well... it's even more important when I get into a relationship with someone",sh
 	1740 [label="You know trust is something that is very hard for me to give 
 And it is the most important thing in a relationship for me 
 Broken trust is something that cannot be repaired, especially in a situation like this",shape=box,color=blue];
-		1740 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust2:1743";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust2:1743" [label="Boolean LettieTrust1 is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust2:1743" -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust2:1743";
+		1740 -> 1742;
+	1741 [label="Boolean LettieTrust1 is now true.",color=orange];
+		1741 -> 1742;
 	1743 [label="Because the kind of relationships I like to have tend to hurt, solecito 
 If you get what I'm saying 
 Only as much as we want it to 
 And only as far as you're willing to go 
 Because this kind of thing takes trust",shape=box,color=blue];
 		1743 -> 1745;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust2:1743" [label="Boolean LettieTrust2 is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust2:1743" -> 1743;
+	1742 [label="Boolean LettieTrust2 is now true.",color=orange];
+		1742 -> 1743;
 	1745 [label="And broken trust in a thing like this 
 Can not be repaired 
 ¿Me explico?",shape=box,color=blue];
@@ -83,7 +83,7 @@ Can not be repaired
 	1746 [label="Only if we get to take turns now and then...",shape=box,color=red];
 		1746 -> 1749;
 	1748 [label="I'm not really into mixing pain and pleasure, sorry.",shape=box,color=red];
-		1748 -> 1754;
+		1748 -> j335187322;
 	1747 [label="Mmm, don't know 
 Maybe because it's pain that I can control 
 Versus all the pain I can't",shape=box,color=blue];
@@ -93,10 +93,10 @@ But once you've earned it
 Need to know I can trust you first 
 So... what do you say?",shape=box,color=blue];
 		1749 -> 1752;
-	1754 [label="Ay, sí 
+	j335187322 [label="Ay, sí 
 Is not for everyone 
 Entiendo, no harm no foul",shape=box,color=blue];
-		1754 -> 1758;
+		j335187322 -> j1826563562;
 	1750 [label="Or maybe because it's something intense 
 Something sharp that cuts through all the rest of the bullshit I have to deal with day in and day out 
 It's REAL 
@@ -107,38 +107,38 @@ Feel it pulse",shape=box,color=blue];
 	1752 [label="Want to make a terrible mistake with me?",shape=box,color=blue];
 		1752 -> 1753;
 		1752 -> 1756;
-	1758 [label="+10 Chemistry",color=orange];
-		1758 -> 1757;
+	j1826563562 [label="+10 Chemistry",color=orange];
+		j1826563562 -> j1581368479;
 	1751 [label="And it DEMANDS trust 
 It doesn't work without it, solecito 
 So... what do you say?",shape=box,color=blue];
 		1751 -> 1752;
 	1753 [label="Yeah. I do, actually. :) [Date Lettie.]",shape=box,color=red];
-		1753 -> 1766;
+		1753 -> j669232918;
 	1756 [label="I need to think this over, actually. Sorry.",shape=box,color=red];
-		1756 -> 1758;
-	1757 [label="Let me know if you change your mind",shape=box,color=blue];
-		1757 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends.";
-	1766 [label="+20 Chemistry",color=orange];
-		1766 -> 1755;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends." [label="Boolean LettieWillDate is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends." -> "Chat ends.";
-	1755 [label="All right 
+		1756 -> j1826563562;
+	j1581368479 [label="Let me know if you change your mind",shape=box,color=blue];
+		j1581368479 -> j843193783;
+	j669232918 [label="+20 Chemistry",color=orange];
+		j669232918 -> j3120742129;
+	j843193783 [label="Boolean LettieWillDate is now true.",color=orange];
+		j843193783 -> "Chat ends.";
+	j3120742129 [label="All right 
 Brace yourself, solecito 
 I won't go easy on you 
 Because I've seen you fight 
 I know you can take it",shape=box,color=blue];
-		1755 -> 1761;
-	1761 [label="But don't worry 
+		j3120742129 -> j1352555945;
+	j1352555945 [label="But don't worry 
 I'll always kiss it better after 
 You can count on that",shape=box,color=blue];
-		1761 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." [label="Boolean LettieWillDate is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." [label="Boolean LettieDating is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieDating:/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." [label="Boolean IsDating is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." [label="Boolean LettieHasDated is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHasDated:Chat ends." -> "Chat ends.";
+		j1352555945 -> j1997269121;
+	j1997269121 [label="Boolean LettieWillDate is now true.",color=orange];
+		j1997269121 -> j383062341;
+	j383062341 [label="Boolean LettieDating is now true.",color=orange];
+		j383062341 -> j4228506648;
+	j4228506648 [label="Boolean IsDating is now true.",color=orange];
+		j4228506648 -> j2764521140;
+	j2764521140 [label="Boolean LettieHasDated is now true.",color=orange];
+		j2764521140 -> "Chat ends.";
 }

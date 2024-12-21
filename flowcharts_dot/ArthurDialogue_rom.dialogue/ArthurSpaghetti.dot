@@ -26,16 +26,16 @@ digraph {
 		318 -> 319;
 		318 -> 320;
 	319 [label="NO MORE POISON",shape=box,color=red];
-		319 -> 323;
+		319 -> j1075015299;
 	320 [label="Just... no gelatin.",shape=box,color=red];
-		320 -> 2997;
-	323 [label="+20 Chemistry",color=orange];
-		323 -> 321;
-	2997 [label="+20 Chemistry",color=orange];
-		2997 -> 322;
-	321 [label="Nah. Poison's not my speed. Trust me.",shape=box,color=blue];
-		321 -> "Chat ends.";
-	322 [label="Promise.",shape=box,color=blue];
-		322 -> "Chat ends.";
+		320 -> j859995969;
+	j1075015299 [label="+20 Chemistry",color=orange];
+		j1075015299 -> j2722893619;
+	j859995969 [label="+20 Chemistry",color=orange];
+		j859995969 -> j547819215;
+	j2722893619 [label="Nah. Poison's not my speed. Trust me.",shape=box,color=blue];
+		j2722893619 -> "Chat ends.";
+	j547819215 [label="Promise.",shape=box,color=blue];
+		j547819215 -> "Chat ends.";
 	"Chat ends." [color=orange];
 }

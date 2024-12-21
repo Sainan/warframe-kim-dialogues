@@ -34,13 +34,13 @@ If you do not know what he is after
 		1045 -> 1047;
 	"Chat ends." [color=orange];
 	1036 [label="This void creature that sacrifices others and wears their skin like ancient flayed god of old, Xipe Totec",shape=box,color=blue];
-		1036 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion2:1038";
+		1036 -> 1037;
 	1046 [label="That THING decided it'd be a fun experiment to turn the parents on the Zariman against their children -",shape=box,color=red];
 		1046 -> 1048;
 	1047 [label="All it does is leave death and destruction in its wake. No matter what it's motivations are, it doesn't matter. Trust me.",shape=box,color=red];
 		1047 -> 1049;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion2:1038" [label="Boolean LettieReligion2 is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion2:1038" -> 1038;
+	1037 [label="Boolean LettieReligion2 is now true.",color=orange];
+		1037 -> 1038;
 	1048 [label="And then gave the children magical void powers so they could murder their own parents so it could LEARN from the slaughter.",shape=box,color=red];
 		1048 -> 1050;
 		1048 -> 1051;
@@ -58,70 +58,70 @@ How much you've seen",shape=box,color=blue];
 	1051 [label="Even if it's just a toddler smashing toys together to understand the world around it, we're those toys. It has to be stopped.",shape=box,color=red];
 		1051 -> 1061;
 	1052 [label="Check boolean LettieEntrati",color=orange];
-		1052 -> 1053 [label=true,color=green];
+		1052 -> j101116871 [label=true,color=green];
 		1052 -> 1056 [label=false,color=brown];
 	1060 [label="I'll continue to hold out hope it isn't an enemy, but... it's not giving me a lot of reasons to think it isn't.",shape=box,color=red];
 		1060 -> 1062;
 	1061 [label="I refuse to believe it's benign after all I've seen. After all it's done to me.",shape=box,color=red];
 		1061 -> 1062;
-	1053 [label="You are not a god babas 
+	j101116871 [label="You are not a god babas 
 Don't pretend you think like one 
 Otherwise you are no better than that Entrati cabrón",shape=box,color=blue];
-		1053 -> "Chat ends.";
+		j101116871 -> "Chat ends.";
 	1056 [label="Check boolean LettieOrokin",color=orange];
-		1056 -> 1054 [label=true,color=green];
-		1056 -> 1055 [label=false,color=brown];
+		1056 -> j3312337858 [label=true,color=green];
+		1056 -> j1091979299 [label=false,color=brown];
 	1062 [label="And you think you can stop a god",shape=box,color=blue];
-		1062 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion4:1064";
-	1054 [label="You are not a god babas 
+		1062 -> 1063;
+	j3312337858 [label="You are not a god babas 
 Don't pretend you think like one 
 Otherwise you are no better than those  orokin cabrones",shape=box,color=blue];
-		1054 -> "Chat ends.";
-	1055 [label="You are not a god babas 
+		j3312337858 -> "Chat ends.";
+	j1091979299 [label="You are not a god babas 
 Don't pretend you think like one",shape=box,color=blue];
-		1055 -> "Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion4:1064" [label="Boolean LettieReligion4 is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion4:1064" -> 1064;
+		j1091979299 -> "Chat ends.";
+	1063 [label="Boolean LettieReligion4 is now true.",color=orange];
+		1063 -> 1064;
 	1064 [label="Check boolean ReligionNone",color=orange];
 		1064 -> 1065 [label=true,color=green];
 		1064 -> 1066 [label=true,color=green];
 		1064 -> 1067 [label=true,color=green];
 		1064 -> 1068 [label=false,color=brown];
 	1065 [label="No clue. I tend to make this shit up as I go. lol",shape=box,color=red];
-		1065 -> 1071;
+		1065 -> j3406397280;
 	1066 [label="I think I can try. Like I did here. And that's all any of us can do.",shape=box,color=red];
-		1066 -> 1069;
+		1066 -> j74656197;
 	1067 [label="It's up to others, now. My place is here in 1999 with all of you.",shape=box,color=red];
-		1067 -> 1074;
+		1067 -> j68258164;
 	1068 [label="I have faith.",shape=box,color=red];
-		1068 -> 1070;
-	1071 [label="+20 Chemistry",color=orange];
-		1071 -> 1072;
-	1069 [label="+20 Chemistry",color=orange];
-		1069 -> 1073;
-	1074 [label="Estás bromeando, ¿verdad? 
+		1068 -> j4291650683;
+	j3406397280 [label="+20 Chemistry",color=orange];
+		j3406397280 -> j3871550158;
+	j74656197 [label="+20 Chemistry",color=orange];
+		j74656197 -> j45653418;
+	j68258164 [label="Estás bromeando, ¿verdad? 
 The moment they ring you will go running 
 You are a drifter, a soldier, you will go to save the future when they need you",shape=box,color=blue];
-		1074 -> 1075;
-	1070 [label="+20 Chemistry",color=orange];
-		1070 -> 1076;
-	1072 [label="Jaja, sí 
+		j68258164 -> j3009230655;
+	j4291650683 [label="+20 Chemistry",color=orange];
+		j4291650683 -> j1316109379;
+	j3871550158 [label="Jaja, sí 
 I get that sense 
 Appreciate the honesty, babas 
 Seems to work for you, so I won't judge",shape=box,color=blue];
-		1072 -> "Chat ends.";
-	1073 [label="Sí 
+		j3871550158 -> "Chat ends.";
+	j45653418 [label="Sí 
 All we can ask for I suppose",shape=box,color=blue];
-		1073 -> "Chat ends.";
-	1075 [label="We are trapped here 
+		j45653418 -> "Chat ends.";
+	j3009230655 [label="We are trapped here 
 Do not lie to me or tell me you'll take me for walks, babas 
 Someday you will escape and never come back",shape=box,color=blue];
-		1075 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieEscape:Chat ends. Next chat will be LettieEscape.";
-	1076 [label="Ay, sí 
+		j3009230655 -> j1682647635;
+	j1316109379 [label="Ay, sí 
 Faith in what does not matter I suppose 
 As long as it gets you through",shape=box,color=blue];
-		1076 -> "Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieEscape:Chat ends. Next chat will be LettieEscape." [label="Boolean LettieEscape is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieEscape:Chat ends. Next chat will be LettieEscape." -> "Chat ends. Next chat will be LettieEscape.";
+		j1316109379 -> "Chat ends.";
+	j1682647635 [label="Boolean LettieEscape is now true.",color=orange];
+		j1682647635 -> "Chat ends. Next chat will be LettieEscape.";
 	"Chat ends. Next chat will be LettieEscape." [color=orange];
 }

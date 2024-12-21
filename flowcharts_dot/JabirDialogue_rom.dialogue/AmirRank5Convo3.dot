@@ -66,7 +66,7 @@ digraph {
 	2754 [label="Can you narrow it down? I have a lot of history.",shape=box,color=red];
 		2754 -> 2775;
 	2755 [label="It's not something I like talking about. [End.]",shape=box,color=red];
-		2755 -> 2776;
+		2755 -> j2007012050;
 	2751 [label="Check boolean AmirNightmare2",color=orange];
 		2751 -> 2753 [label=true,color=green];
 		2751 -> 2754 [label=true,color=green];
@@ -81,8 +81,8 @@ digraph {
 		2756 -> 2759;
 	2775 [label="well, like... duviri sounds WILD...",shape=box,color=blue];
 		2775 -> 2778;
-	2776 [label="oh... sorry",shape=box,color=blue];
-		2776 -> "Chat ends.";
+	j2007012050 [label="oh... sorry",shape=box,color=blue];
+		j2007012050 -> "Chat ends.";
 	2757 [label="I turned to stories and fiction as a way to deal with my trauma.",shape=box,color=red];
 		2757 -> 2760;
 	2758 [label="I was thrown into things I had no business being a part of, and had to learn to cope.",shape=box,color=red];
@@ -167,17 +167,17 @@ digraph {
 		2797 -> 2799 [label=false,color=brown];
 		2797 -> 2800 [label=false,color=brown];
 	2798 [label="<RETRO_EMOJI_HEART>",shape=box,color=red];
-		2798 -> 2801;
+		2798 -> j1523779935;
 	2799 [label="Anytime.",shape=box,color=red];
-		2799 -> 2802;
+		2799 -> j1792199069;
 	2800 [label="Pass.",shape=box,color=red];
-		2800 -> 2803;
-	2801 [label="+10 Chemistry",color=orange];
-		2801 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends.";
-	2802 [label="+5 Chemistry",color=orange];
-		2802 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends.";
-	2803 [label="what you afraid of cooties? whatever",shape=box,color=blue];
-		2803 -> "Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends." [label="Boolean AmirWillDate is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends." -> "Chat ends.";
+		2800 -> j2556888532;
+	j1523779935 [label="+10 Chemistry",color=orange];
+		j1523779935 -> j661208215;
+	j1792199069 [label="+5 Chemistry",color=orange];
+		j1792199069 -> j661208215;
+	j2556888532 [label="what you afraid of cooties? whatever",shape=box,color=blue];
+		j2556888532 -> "Chat ends.";
+	j661208215 [label="Boolean AmirWillDate is now true.",color=orange];
+		j661208215 -> "Chat ends.";
 }

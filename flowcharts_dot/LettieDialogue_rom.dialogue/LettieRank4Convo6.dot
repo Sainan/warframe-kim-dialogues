@@ -97,7 +97,7 @@ We shouldn't trust her",shape=box,color=blue];
 	907 [label="I AM GOING to make that cabrón HURT 
 Next time I see him I will torture him like he tortured those poor angelitos 
 And he will NOT like it, I PROMISE you THAT",shape=box,color=blue];
-		907 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieCavia:1001";
+		907 -> 947;
 	824 [label="Then you're right 
 It will piss me off 
 But tell me anyway",shape=box,color=blue];
@@ -114,37 +114,37 @@ Keeping tabs on us maybe
 I don't like it",shape=box,color=blue];
 		1214 -> 1251;
 		1214 -> 247;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieCavia:1001" [label="Boolean LettieCavia is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieCavia:1001" -> 1001;
+	947 [label="Boolean LettieCavia is now true.",color=orange];
+		947 -> 1001;
 	867 [label="He took these lab animals and sent them into the Void. They came out with the intelligence of people - it nearly killed them. They're called the Cavia.",shape=box,color=red];
 		867 -> 839;
 	1251 [label="Either way, she's smart enough to understand \"If you mess with Lettie's rats, you sleep outside.\" Is that good enough?",shape=box,color=red];
-		1251 -> 707;
+		1251 -> j3665550419;
 	247 [label="I'm not kicking her out. Even if she's working for Entrati, it's not her fault. She's an animal being loyal to the owner who loves her. I can't be cruel to her.",shape=box,color=red];
-		247 -> 809;
+		247 -> j1969831039;
 	1001 [label="And how are you so sure that this gata mutante is not one of these cavia",shape=box,color=blue];
 		1001 -> 1007;
 		1001 -> 1030;
 	839 [label="LAB ANIMALS?!",shape=box,color=blue];
 		839 -> 907;
-	707 [label="+15 Chemistry",color=orange];
-		707 -> 251;
-	809 [label="+20 Chemistry",color=orange];
-		809 -> 305;
-	251 [label="Fine, sí 
+	j3665550419 [label="+15 Chemistry",color=orange];
+		j3665550419 -> j1694415829;
+	j1969831039 [label="+20 Chemistry",color=orange];
+		j1969831039 -> j3735199105;
+	j1694415829 [label="Fine, sí 
 That will be good enough 
 But if she hurts one of my bebecitos 
 It means war",shape=box,color=blue];
-		251 -> "Chat ends.";
-	305 [label="AGGGHHHH 
+		j1694415829 -> "Chat ends.";
+	j3735199105 [label="AGGGHHHH 
 Why did you have to put it like that 
 Aaayyyyyyy babaaaas 
 Fight fair!",shape=box,color=blue];
-		305 -> 325;
+		j3735199105 -> j2421613084;
 	"Chat ends." [color=orange];
-	325 [label="No me gusta cuando te pasas de listo, babas 
+	j2421613084 [label="No me gusta cuando te pasas de listo, babas 
 Fine, FINE 
 She stays but if she hurts one of my bebecitos 
 It means war",shape=box,color=blue];
-		325 -> "Chat ends.";
+		j2421613084 -> "Chat ends.";
 }

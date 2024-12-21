@@ -130,9 +130,9 @@ But shook our heads and said
 Nonono, it cannot be 
 Not him 
 Not us",shape=box,color=blue];
-		1811 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieHex:1813";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieHex:1813" [label="Boolean LettieHex is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieHex:1813" -> 1813;
+		1811 -> 1812;
+	1812 [label="Boolean LettieHex is now true.",color=orange];
+		1812 -> 1813;
 	1813 [label="Check boolean LettieDating",color=orange];
 		1813 -> 1814 [label=true,color=green];
 		1813 -> 1815 [label=false,color=brown];
@@ -180,7 +180,7 @@ Or I will teach him what real hurt is like",shape=box,color=blue];
 	1824 [label="I - so - wait. You all are partially to blame for the Techrot spreading?",shape=box,color=red];
 		1824 -> 1828;
 	1825 [label="Sorry I fell asleep there for a second. What were you saying?",shape=box,color=red];
-		1825 -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
+		1825 -> j30836566;
 	1826 [label="Look at you 
 All Hail San Babas 
 Forgiving sins 
@@ -207,16 +207,16 @@ The others will, too",shape=box,color=blue];
 		1828 -> 1833;
 		1828 -> 1834;
 		1828 -> 1836;
-	"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieDating is now false.",color=orange];
-		"/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
+	j30836566 [label="Boolean LettieDating is now false.",color=orange];
+		j30836566 -> j4031970331;
 	1833 [label="I'm not here to tell you what you did can be forgiven or not. That's not something I can do, and honestly - I don't think what you're describing is something that CAN be forgiven.",shape=box,color=red];
 		1833 -> 1839;
 	1834 [label="Entrati came here and found exactly what he was looking for - useful, skilled people he could trick into doing what he wanted. Who wouldn't think too hard about it. You fell for his shtick like so many people who came before you.",shape=box,color=red];
 		1834 -> 1837;
 	1836 [label="What happened wasn't your fault. You were lied to. Yeah, sure - maybe you were a little willingly blind after things started to go wrong. But who can blame you? Hope is a dangerous drug. And he shot you full of it.",shape=box,color=red];
 		1836 -> 1838;
-	"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean IsDating is now false.",color=orange];
-		"/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
+	j4031970331 [label="Boolean IsDating is now false.",color=orange];
+		j4031970331 -> j3065772033;
 	1839 [label="People died. People who won't come back. Because you wanted to believe in a miracle drug hawked by some \"old man in some ugly-ass trench coat.\"",shape=box,color=red];
 		1839 -> 1842;
 	1837 [label="You wanted to believe his lies. And so you did. And that's on you. And all the people who got sick because of it? That's also on you.",shape=box,color=red];
@@ -224,8 +224,8 @@ The others will, too",shape=box,color=blue];
 		1837 -> 1840;
 	1838 [label="So of course, you went along with it. Of course, you wanted to believe there was a chance.",shape=box,color=red];
 		1838 -> 1841;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." [label="Boolean LettieNoDate is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends." -> "Chat ends.";
+	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
+		j3065772033 -> "Chat ends.";
 	1842 [label="And it's not on me to absolve you of that. Sorry.",shape=box,color=red];
 		1842 -> 1845;
 	1840 [label="But people make mistakes. And people own up to them. And you're here, trying to own up to them. So... I see people trying to do what's right with what they did wrong.",shape=box,color=red];
@@ -233,8 +233,8 @@ The others will, too",shape=box,color=blue];
 	1841 [label="I would have done the same thing.",shape=box,color=red];
 		1841 -> 1835;
 	1845 [label="Check boolean LettieDating",color=orange];
-		1845 -> 1846 [label=true,color=green];
-		1845 -> 1847 [label=false,color=brown];
+		1845 -> j1277200951 [label=true,color=green];
+		1845 -> j1508127466 [label=false,color=brown];
 	1843 [label="And I don't think a reasonable person can ask for much more than that. I don't think less of you. I see people who failed. But were willing to try again. And I know what that's like. Trust me.",shape=box,color=red];
 		1843 -> 1844;
 	1835 [label="¿Sí? 
@@ -244,39 +244,39 @@ Sigh
 My feet hurt 
 Mierda, everything hurts",shape=box,color=blue];
 		1835 -> 1844;
-	1846 [label="Sí 
+	j1277200951 [label="Sí 
 You're right 
 We made mistakes 
 And I made another one in thinking  THIS could work out",shape=box,color=blue];
-		1846 -> "/EE/Types/Engine/ResetBooleanDialogueNode:LettieDating:/EE/Types/Engine/ResetBooleanDialogueNode:IsDating:/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:Chat ends.";
-	1847 [label="Sí 
+		j1277200951 -> j30836566;
+	j1508127466 [label="Sí 
 You're right 
 We made mistakes 
 And I made another one in thinking I could trust you with this story",shape=box,color=blue];
-		1847 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:Chat ends.";
+		j1508127466 -> j93694722;
 	1844 [label="Check boolean LettieDating",color=orange];
-		1844 -> 1857 [label=true,color=green];
-		1844 -> 1860 [label=false,color=brown];
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:Chat ends." [label="Boolean LettieNoDate is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoDate:/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:Chat ends.";
-	1857 [label="+20 Chemistry",color=orange];
-		1857 -> 1848;
-	1860 [label="+20 Chemistry",color=orange];
-		1860 -> 1849;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:Chat ends." [label="Boolean LettieTrust1 is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:Chat ends." -> "Chat ends.";
-	1848 [label="I'm calling it for the day, solecito 
+		1844 -> j2962085042 [label=true,color=green];
+		1844 -> j606201517 [label=false,color=brown];
+	j93694722 [label="Boolean LettieNoDate is now true.",color=orange];
+		j93694722 -> j3068160212;
+	j2962085042 [label="+20 Chemistry",color=orange];
+		j2962085042 -> j2197626287;
+	j606201517 [label="+20 Chemistry",color=orange];
+		j606201517 -> j3082045826;
+	j3068160212 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j3068160212 -> "Chat ends.";
+	j2197626287 [label="I'm calling it for the day, solecito 
 Gracias 
 Thanks for listening to me and... 
 Not thinking less of us",shape=box,color=blue];
-		1848 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:Chat ends.";
-	1849 [label="I'm calling it for the day, friend 
+		j2197626287 -> j3068160212;
+	j3082045826 [label="I'm calling it for the day, friend 
 Gracias 
 Thanks for listening to me and... 
 Not thinking less of us",shape=box,color=blue];
-		1849 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends." [label="Boolean LettieTrust1 is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieTrust1:/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends." -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends." [label="Boolean LettieWillDate is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieWillDate:Chat ends." -> "Chat ends.";
+		j3082045826 -> j3415926927;
+	j3415926927 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j3415926927 -> j843193783;
+	j843193783 [label="Boolean LettieWillDate is now true.",color=orange];
+		j843193783 -> "Chat ends.";
 }

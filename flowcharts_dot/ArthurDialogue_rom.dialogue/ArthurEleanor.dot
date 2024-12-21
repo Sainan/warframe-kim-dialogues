@@ -29,14 +29,14 @@ digraph {
 	1396 [label="Debatable.",shape=box,color=blue];
 		1396 -> 1397;
 	1399 [label="Anytime. That's what friends are for.",shape=box,color=red];
-		1399 -> 1401;
+		1399 -> j2895199346;
 	1400 [label="Maybe you should listen to me more often.",shape=box,color=red];
-		1400 -> 1402;
+		1400 -> j2354243318;
 	1397 [label="I just wanted to say thanks. It was a good idea.",shape=box,color=blue];
 		1397 -> 1399;
 		1397 -> 1400;
-	1401 [label="+20 Chemistry",color=orange];
-		1401 -> "Chat ends.";
-	1402 [label="Never mind.",shape=box,color=blue];
-		1402 -> "Chat ends.";
+	j2895199346 [label="+20 Chemistry",color=orange];
+		j2895199346 -> "Chat ends.";
+	j2354243318 [label="Never mind.",shape=box,color=blue];
+		j2354243318 -> "Chat ends.";
 }

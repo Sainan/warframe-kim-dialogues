@@ -25,16 +25,16 @@ I attacked you and it was wrong",shape=box,color=blue];
 		1865 -> 1866;
 	1867 [label="Gracias, pero... 
 I... lash out when I get afraid, babas, and that is not your fault",shape=box,color=blue];
-		1867 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieAfraid:1090:1091";
+		1867 -> 1869;
 	1866 [label="+5 Chemistry",color=orange];
 		1866 -> 1868;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieAfraid:1090:1091" [label="Boolean LettieAfraid is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieAfraid:1090:1091" -> 1090;
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieAfraid:1090:1091" -> 1091;
+	1869 [label="Boolean LettieAfraid is now true.",color=orange];
+		1869 -> 1090;
+		1869 -> 1091;
 	1868 [label="Sí, jaja 
 You aren't wrong 
 I... lash out when I get afraid, babas, and that is not your fault",shape=box,color=blue];
-		1868 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieAfraid:1090:1091";
+		1868 -> 1869;
 	1090 [label="What're you afraid of?",shape=box,color=red];
 		1090 -> 1093;
 	1091 [label="*You're* afraid of something? Holy shit, get Eleanor, we have a newspaper article to write.",shape=box,color=red];
@@ -77,57 +77,54 @@ Toss us aside like a game you're tired of
 Once you've played us enough",shape=box,color=blue];
 		1103 -> 1104;
 	1105 [label="The Hex.",shape=box,color=red];
-		1105 -> 1108;
+		1105 -> j2862484575;
 	1106 [label="Big Bytes Pizza.",shape=box,color=red];
-		1106 -> 1111;
+		1106 -> j953511217;
 	1107 [label="You.",shape=box,color=red];
-		1107 -> 2465;
+		1107 -> j1714284597;
 	1104 [label="Check boolean LettieNoFlirt",color=orange];
 		1104 -> 1116 [label=true,color=green];
 		1104 -> 1115 [label=true,color=green];
 		1104 -> 1116 [label=false,color=brown];
 		1104 -> 1115 [label=false,color=brown];
 		1104 -> 1114 [label=false,color=brown];
-	1108 [label="Mmhm 
+	j2862484575 [label="Mmhm 
 Because we are so special to you 
 You would give up freedom 
 Esas son pendejadas",shape=box,color=blue];
-		1108 -> 1112;
-	1111 [label="+15 Chemistry",color=orange];
-		1111 -> 1109;
-	2465 [label="+15 Chemistry",color=orange];
-		2465 -> 1110;
+		j2862484575 -> j1846770271;
+	j953511217 [label="+15 Chemistry",color=orange];
+		j953511217 -> j1514483306;
+	j1714284597 [label="+15 Chemistry",color=orange];
+		j1714284597 -> j2123108713;
 	1116 [label="You can choose to believe me or not.",shape=box,color=red];
-		1116 -> 1120;
+		1116 -> j2716479428;
 	1115 [label="I can't make promises about the future, Lettie. It hasn't been written yet.",shape=box,color=red];
-		1115 -> 1120;
+		1115 -> j2716479428;
 	1114 [label="I'm sure you and I could find ways of keeping things interesting... ;)",shape=box,color=red];
-		1114 -> 1119;
-	1112 [label="Back to it for both of us 
+		1114 -> j1743076222;
+	j1846770271 [label="Back to it for both of us 
 No rest for los fantasmas",shape=box,color=blue];
-		1112 -> "Chat ends.";
-	1109 [label="JAJA 
+		j1846770271 -> "Chat ends.";
+	j1514483306 [label="JAJA 
 You had me going 
 I needed a laugh",shape=box,color=blue];
-		1109 -> 1112;
-	1110 [label="Jajaja, ¿ay, sí? 
+		j1514483306 -> j1846770271;
+	j2123108713 [label="Jajaja, ¿ay, sí? 
 Very smooth 
 I almost believe you",shape=box,color=blue];
-		1110 -> 1112;
-	1120 [label="+15 Chemistry",color=orange];
-		1120 -> 1117;
-	1119 [label="+15 Chemistry",color=orange];
-		1119 -> 1118;
-	1117 [label="Ay, sí 
+		j2123108713 -> j1846770271;
+	j2716479428 [label="+15 Chemistry",color=orange];
+		j2716479428 -> j2063788393;
+	j1743076222 [label="+15 Chemistry",color=orange];
+		j1743076222 -> j1749212994;
+	j2063788393 [label="Ay, sí 
 I know 
 I just came to say I am sorry and explain why, that is all",shape=box,color=blue];
-		1117 -> 1122;
-	1118 [label="Jajaja, ay, sí 
+		j2063788393 -> j1846770271;
+	j1749212994 [label="Jajaja, ay, sí 
 Oh, the games we could play 
 Very tempting, babas 
 Very tempting",shape=box,color=blue];
-		1118 -> 1122;
-	1122 [label="Back to it for both of us 
-No rest for los fantasmas",shape=box,color=blue];
-		1122 -> "Chat ends.";
+		j1749212994 -> j1846770271;
 }

@@ -53,15 +53,15 @@ Neither of us had a real home
 Bouncing from place to place, base to base 
 Never settling, never making friends for long 
 Never knowing where I'd be in six months, a year, two",shape=box,color=blue];
-		1258 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieNoHome:1260";
+		1258 -> 1259;
 	1255 [label="+5 Chemistry",color=orange];
 		1255 -> 1257;
 	1256 [label="No 
 That's a lie 
 I grew up without a home and I get homesick",shape=box,color=blue];
 		1256 -> 1258;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoHome:1260" [label="Boolean LettieNoHome is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieNoHome:1260" -> 1260;
+	1259 [label="Boolean LettieNoHome is now true.",color=orange];
+		1259 -> 1260;
 	1257 [label="Nonono 
 I don't mean it like that 
 I'm the same",shape=box,color=blue];
@@ -119,26 +119,26 @@ Maybe they fixed it by then",shape=box,color=blue];
 		1273 -> 1274;
 		1273 -> 1275;
 	1274 [label="No, I think I know how you feel. I... get these bouts of sadness where I get an urge to go somewhere that doesn't exist.",shape=box,color=red];
-		1274 -> 1279;
+		1274 -> j290398828;
 	1275 [label="Maybe. I really don't get homesick. I get sad and lonely sometimes, but it isn't homesickness.",shape=box,color=red];
-		1275 -> 1278;
-	1279 [label="+10 Chemistry",color=orange];
-		1279 -> 1276;
-	1278 [label="+5 Chemistry",color=orange];
-		1278 -> 1277;
-	1276 [label="Sí 
+		1275 -> j2558919932;
+	j290398828 [label="+10 Chemistry",color=orange];
+		j290398828 -> j2132032120;
+	j2558919932 [label="+5 Chemistry",color=orange];
+		j2558919932 -> j4265733477;
+	j2132032120 [label="Sí 
 That's what I mean 
 Or maybe we both have the same kind of depression jajaja 
 Stupid spiders",shape=box,color=blue];
-		1276 -> 1280;
-	1277 [label="Sí 
+		j2132032120 -> j55194301;
+	j4265733477 [label="Sí 
 Maybe just my depression rearing its head again 
 Wouldn't be surprised 
 Stupid spiders",shape=box,color=blue];
-		1277 -> 1280;
-	1280 [label="Ehn, gracias 
+		j4265733477 -> j55194301;
+	j55194301 [label="Ehn, gracias 
 Speaking of spiders, time to put them and me to sleep",shape=box,color=blue];
-		1280 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieDepression:Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieDepression:Chat ends." [label="Boolean LettieDepression is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieDepression:Chat ends." -> "Chat ends.";
+		j55194301 -> j168662028;
+	j168662028 [label="Boolean LettieDepression is now true.",color=orange];
+		j168662028 -> "Chat ends.";
 }

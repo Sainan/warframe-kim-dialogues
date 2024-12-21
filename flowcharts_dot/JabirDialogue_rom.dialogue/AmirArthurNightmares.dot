@@ -1,8 +1,8 @@
 digraph {
 	"AmirArthurNightmares begins." [color=orange];
-		"AmirArthurNightmares begins." -> "/EE/Types/Engine/SetBooleanDialogueNode:ArthurAmirNightmares:1882";
-	"/EE/Types/Engine/SetBooleanDialogueNode:ArthurAmirNightmares:1882" [label="Boolean ArthurAmirNightmares is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:ArthurAmirNightmares:1882" -> 1882;
+		"AmirArthurNightmares begins." -> 1881;
+	1881 [label="Boolean ArthurAmirNightmares is now true.",color=orange];
+		1881 -> 1882;
 	1882 [label="i talked to arthur about my nightmares",shape=box,color=blue];
 		1882 -> 1883;
 	1883 [label="like you suggested",shape=box,color=blue];
@@ -29,22 +29,22 @@ digraph {
 		1891 -> 1895 [label=false,color=brown];
 		1891 -> 1893 [label=false,color=brown];
 	1892 [label="<RETRO_EMOJI_HEART> <RETRO_EMOJI_HEART> <RETRO_EMOJI_HEART>",shape=box,color=red];
-		1892 -> 1896;
+		1892 -> j2302460036;
 	1894 [label="Of course.",shape=box,color=red];
-		1894 -> 1896;
+		1894 -> j2302460036;
 	1895 [label="Yawn.",shape=box,color=red];
-		1895 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:1898";
+		1895 -> j3205294994;
 	1893 [label="Anytime.",shape=box,color=red];
-		1893 -> 1896;
-	1896 [label="+20 Chemistry",color=orange];
-		1896 -> "/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends.";
-	"/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:1898" [label="Boolean AmirNoDate is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:AmirNoDate:1898" -> 1898;
-	"/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends." [label="Boolean AmirWillDate is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:AmirWillDate:Chat ends." -> "Chat ends.";
-	1898 [label="wow",shape=box,color=blue];
-		1898 -> 1899;
+		1893 -> j2302460036;
+	j2302460036 [label="+20 Chemistry",color=orange];
+		j2302460036 -> j661208215;
+	j3205294994 [label="Boolean AmirNoDate is now true.",color=orange];
+		j3205294994 -> j3689092276;
+	j661208215 [label="Boolean AmirWillDate is now true.",color=orange];
+		j661208215 -> "Chat ends.";
+	j3689092276 [label="wow",shape=box,color=blue];
+		j3689092276 -> j152684941;
 	"Chat ends." [color=orange];
-	1899 [label="ok",shape=box,color=blue];
-		1899 -> "Chat ends.";
+	j152684941 [label="ok",shape=box,color=blue];
+		j152684941 -> "Chat ends.";
 }

@@ -38,15 +38,15 @@ We make our pan de muerto, our calaveritas de azúcar, and set out our marigolds
 We traveled a lot, from base to base 
 But when mi tía got sick she moved in with us 
 And I learned to take care of her until she passed",shape=box,color=blue];
-		1137 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieAunt:1142:1143";
+		1137 -> 1140;
 	"Chat ends." [color=orange];
 	1136 [label="The dead people I have experience with are a bit more... intense, yeah.",shape=box,color=red];
 		1136 -> 1144;
 	1139 [label="That's beautiful.",shape=box,color=red];
 		1139 -> 1141;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieAunt:1142:1143" [label="Boolean LettieAunt is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieAunt:1142:1143" -> 1142;
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieAunt:1142:1143" -> 1143;
+	1140 [label="Boolean LettieAunt is now true.",color=orange];
+		1140 -> 1142;
+		1140 -> 1143;
 	1144 [label="We sit at their graves and we tell stories 
 We eat what we bring for them, with them 
 We talk to them and laugh with them 
@@ -63,7 +63,7 @@ Mi papá was in the army
 We traveled a lot, from base to base 
 But when mi tía got sick she moved in with us 
 And I learned to take care of her until she passed",shape=box,color=blue];
-		1147 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieAunt:1163";
+		1147 -> 1154;
 	210 [label="Gracias",shape=box,color=blue];
 		210 -> 1144;
 	1145 [label="Eh, está bien 
@@ -80,25 +80,25 @@ Good practice for the future, being a set of hands",shape=box,color=blue];
 		1146 -> 1148;
 		1146 -> 1149;
 		1146 -> 1150;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieAunt:1163" [label="Boolean LettieAunt is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieAunt:1163" -> 1163;
+	1154 [label="Boolean LettieAunt is now true.",color=orange];
+		1154 -> 1163;
 	1148 [label="Do you miss your aunt?",shape=box,color=red];
 		1148 -> 1157;
 	1149 [label="I know what it's like to lose family early in life.",shape=box,color=red];
 		1149 -> 2466;
 	1150 [label="How old were you when you joined the army?",shape=box,color=red];
-		1150 -> 1161;
+		1150 -> j42136152;
 	1163 [label="Mi tía comes to me every year, pats me on the shoulder and says \"Buen trabajo, amorcito, sigue así\" 
 And it makes me smile not scream and run away in fear",shape=box,color=blue];
-		1163 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieDiasdeMuertos:1165";
+		1163 -> 1164;
 	1157 [label="+5 Chemistry",color=orange];
 		1157 -> 1151;
 	2466 [label="+5 Chemistry",color=orange];
 		2466 -> 1152;
-	1161 [label="+10 Chemistry",color=orange];
-		1161 -> 1153;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieDiasdeMuertos:1165" [label="Boolean LettieDiasdeMuertos is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieDiasdeMuertos:1165" -> 1165;
+	j42136152 [label="+10 Chemistry",color=orange];
+		j42136152 -> j1904506695;
+	1164 [label="Boolean LettieDiasdeMuertos is now true.",color=orange];
+		1164 -> 1165;
 	1151 [label="No 
 I see her once a year at the festival of the dead 
 ¡Mierda! Before you ask no, it's not like what it sounds 
@@ -112,11 +112,11 @@ We do not dig them up we celebrate their souls jajaja
 Well, some do - but we do not, depends on where you're from",shape=box,color=blue];
 		1152 -> 1155;
 		1152 -> 1156;
-	1153 [label="Mi papá made me wait until I was 20 before I joined 
+	j1904506695 [label="Mi papá made me wait until I was 20 before I joined 
 But I was ready to go earlier jajaja 
 Biting at the bit, wanted to make him and mi tía proud 
 I'm glad he made me wait I wasn't ready",shape=box,color=blue];
-		1153 -> 1159;
+		j1904506695 -> j1867804854;
 	1165 [label="I hope she comes out this far... 
 I'll have to make her paper marigolds 
 Maybe Arthur will help me make some pan de muerto I am a shit baker jajaja",shape=box,color=blue];
@@ -126,11 +126,11 @@ Maybe Arthur will help me make some pan de muerto I am a shit baker jajaja",shap
 		1155 -> 1158;
 	1156 [label="LOL! It sounds like a cool holiday, though.",shape=box,color=red];
 		1156 -> 1158;
-	1159 [label="Watching your tía slowly die of heart failure is one thing 
+	j1867804854 [label="Watching your tía slowly die of heart failure is one thing 
 Watching people kill each other violently 
 Screaming deaths, bleeding deaths 
 They are something else",shape=box,color=blue];
-		1159 -> 1160;
+		j1867804854 -> j1896001087;
 	1166 [label="I'm sure he'd love to help.",shape=box,color=red];
 		1166 -> 1170;
 	1167 [label="I'd love to help, too.",shape=box,color=red];
@@ -140,11 +140,11 @@ We eat what we bring for them, with them
 We sit at their graves and we tell stories of them 
 We talk to them and we laugh with them",shape=box,color=blue];
 		1158 -> 1163;
-	1160 [label="But you know this, don't you? 
+	j1896001087 [label="But you know this, don't you? 
 You know La Flaca just as well as I do 
 Speaking of 
 She waits for no one and certainly not for our conversations",shape=box,color=blue];
-		1160 -> "Chat ends.";
+		j1896001087 -> "Chat ends.";
 	1170 [label="Check boolean LettieDuviri",color=orange];
 		1170 -> 1171 [label=true,color=green];
 		1170 -> 1172 [label=false,color=brown];
@@ -166,28 +166,28 @@ Maybe they would come to see their babas after so long I am sure they are so pro
 Sí, maybe we can work together",shape=box,color=blue];
 		1169 -> 1170;
 	1173 [label="I... would love that, actually. Thank you, Lettie.",shape=box,color=red];
-		1173 -> 1176;
+		1173 -> j1078047417;
 	1174 [label="I'd love to help you, but let's leave my family in the future where they belong.",shape=box,color=red];
-		1174 -> 1177;
+		1174 -> j4013762129;
 	1175 [label="Um... I don't think they'd want to see me...",shape=box,color=red];
 		1175 -> 1178;
-	1176 [label="+10 Chemistry",color=orange];
-		1176 -> 1179;
-	1177 [label="+10 Chemistry",color=orange];
-		1177 -> 1180;
+	j1078047417 [label="+10 Chemistry",color=orange];
+		j1078047417 -> j3798013146;
+	j4013762129 [label="+10 Chemistry",color=orange];
+		j4013762129 -> j1779785245;
 	1178 [label="Check boolean LettieReligion4",color=orange];
 		1178 -> 1181 [label=true,color=green];
 		1178 -> 1182 [label=false,color=brown];
-	1179 [label="Claro, friend 
+	j3798013146 [label="Claro, friend 
 Mm, now that I think 
 Can souls travel through time? 
 Ay, equis, is the thought that counts sometimes",shape=box,color=blue];
-		1179 -> "Chat ends.";
-	1180 [label="Fair 
+		j3798013146 -> "Chat ends.";
+	j1779785245 [label="Fair 
 Mm, now that I think 
 Can souls travel through time? 
 Ay, equis, is the thought that counts sometimes",shape=box,color=blue];
-		1180 -> "Chat ends.";
+		j1779785245 -> "Chat ends.";
 	1181 [label="Because of what your Xipe Totec made you do 
 It was not your fault, they were driven mad 
 Sometimes you need to cauterize the wound 
@@ -198,39 +198,39 @@ You put them down, it was not murder",shape=box,color=blue];
 		1182 -> 1188;
 		1182 -> 1189;
 	1186 [label="That's not how it felt.",shape=box,color=red];
-		1186 -> 1197;
+		1186 -> j1443586057;
 	1187 [label="You're right...",shape=box,color=red];
-		1187 -> 1200;
+		1187 -> j3231126570;
 	1188 [label="Because when the Man in the Wall drove the parents insane, they attacked the children, and... the children with void powers had to kill them, and....",shape=box,color=red];
-		1188 -> "/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion4:1194";
+		1188 -> j253573159;
 	1189 [label="I can't talk about this. I'm sorry.",shape=box,color=red];
-		1189 -> 1195;
-	1197 [label="+10 Chemistry",color=orange];
-		1197 -> 1190;
-	1200 [label="+10 Chemistry",color=orange];
-		1200 -> 1192;
-	"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion4:1194" [label="Boolean LettieReligion4 is now true.",color=orange];
-		"/EE/Types/Engine/SetBooleanDialogueNode:LettieReligion4:1194" -> 1194;
-	1195 [label="Ay, sí 
+		1189 -> j2628067041;
+	j1443586057 [label="+10 Chemistry",color=orange];
+		j1443586057 -> j4232150312;
+	j3231126570 [label="+10 Chemistry",color=orange];
+		j3231126570 -> j1908593738;
+	j253573159 [label="Boolean LettieReligion4 is now true.",color=orange];
+		j253573159 -> j790476412;
+	j2628067041 [label="Ay, sí 
 I understand",shape=box,color=blue];
-		1195 -> "Chat ends.";
-	1190 [label="Sí, I can't imagine how it felt 
+		j2628067041 -> "Chat ends.";
+	j4232150312 [label="Sí, I can't imagine how it felt 
 To have to hurt your own family like that 
 But you had no choice, solecito 
 They were rabid animals and had no control",shape=box,color=blue];
-		1190 -> 1191;
-	1192 [label="You had no choice, solecito 
+		j4232150312 -> j3894171014;
+	j1908593738 [label="You had no choice, solecito 
 They were rabid animals and had no control 
 And that kind of choice I *do* understand",shape=box,color=blue];
-		1192 -> 1201;
-	1194 [label="Your Xipe Totec did this, your flayed god 
+		j1908593738 -> j705969874;
+	j790476412 [label="Your Xipe Totec did this, your flayed god 
 It was his actions that drove them mad and got them killed",shape=box,color=blue];
-		1194 -> 1200;
-	1191 [label="And that kind of choice I *do* understand 
+		j790476412 -> j3231126570;
+	j3894171014 [label="And that kind of choice I *do* understand 
 But that is a story for another time 
 La Flaca waits for no one and not our conversations and I have a line",shape=box,color=blue];
-		1191 -> "Chat ends.";
-	1201 [label="But that is a story for another time 
+		j3894171014 -> "Chat ends.";
+	j705969874 [label="But that is a story for another time 
 La Flaca waits for no one and not our conversations and I have a line",shape=box,color=blue];
-		1201 -> "Chat ends.";
+		j705969874 -> "Chat ends.";
 }
