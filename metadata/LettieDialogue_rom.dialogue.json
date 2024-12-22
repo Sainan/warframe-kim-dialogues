@@ -1,0 +1,162 @@
+{
+    "CharacterName": "/Lotus/Language/1999/MessengerLettieName",
+    "LocFile": "/Lotus/Language/1999Texting/LettieRomance.loc",
+    "NpcLocTagPrefix": "TxtLettie",
+    "AddPhAutomatically": 0,
+    "DialogueDelay": 1.5,
+    "DateRank": 5,
+    "ProfilePicture": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpB.png",
+    "NickName": "/Lotus/Language/1999/MessengerLettieUserName",
+    "Status": "The Clash - BankRobber",
+    "DatingSymbol": "LettieDating",
+    "Birthday": 45,
+    "Ranks": [
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank1_1",
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank1_2",
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank1_3"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 0,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/FriendlyRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank2_1",
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank2_2",
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank2_3"
+            ],
+            "RequiredChemistry": 40,
+            "RequiredMinimumDialogues": 2,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/LikedRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank3_1",
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank3_2",
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank3_3"
+            ],
+            "RequiredChemistry": 90,
+            "RequiredMinimumDialogues": 4,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/TrustedRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank4_1",
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank4_2",
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank4_3"
+            ],
+            "RequiredChemistry": 160,
+            "RequiredMinimumDialogues": 7,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/CloseRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank5_1",
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank5_2",
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank5_3"
+            ],
+            "RequiredChemistry": 250,
+            "RequiredMinimumDialogues": 10,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/BestiesRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank6_1"
+            ],
+            "RequiredChemistry": 360,
+            "RequiredMinimumDialogues": 13,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/LovedRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/LettieNotesRank7_1"
+            ],
+            "RequiredChemistry": 360,
+            "RequiredMinimumDialogues": 13,
+            "UnlockCondition": "LettieDating",
+            "DialogueBin": 6
+        }
+    ],
+    "CompatibleGifts": [
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/CoffeeCup",
+            "GainedChemistry": 5,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/CoffeeMachine",
+            "GainedChemistry": 20,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/Mug",
+            "GainedChemistry": 5,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/MedKit",
+            "GainedChemistry": 10,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/Pillow",
+            "GainedChemistry": 5,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/CardboardBox",
+            "GainedChemistry": 5,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        }
+    ],
+    "RankLimiterScript": {
+        "Script": "/Lotus/Scripts/1999/HexSyndicateDialog.lua",
+        "Function": "GetRankLimit",
+        "_dogTagSyndicate": "",
+        "_dogTagSyndicateDialogueWRes": "",
+        "_lichWeaponsManifest": "",
+        "_lichWeaponVendorCurrencyType": "",
+        "_arthurDialogue": "",
+        "_amirDialogue": "",
+        "_aoiDialogue": "",
+        "_eleanorDialogue": "",
+        "_lettieDialogue": "",
+        "_quincyDialogue": "",
+        "_dialogueWRes": "",
+        "_greetingTransmission": "",
+        "_onYourMindTransmission": "",
+        "_togetherResponseTransmission": "",
+        "_breakUpStartTransmission": "",
+        "_goodbyeTransmission": "",
+        "_breakUpTransmission": "",
+        "_breakUpUnsureTransmission": "",
+        "_breakUpFadeTimer": 1,
+        "_breakUpFadeSound": "",
+        "_breakUpEasterEggChance": 0.02,
+        "_breakUpEasterEggSound": "",
+        "_syndicateTag": "HexSyndicate",
+        "_questRankLimit": 3,
+        "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain"
+    }
+}

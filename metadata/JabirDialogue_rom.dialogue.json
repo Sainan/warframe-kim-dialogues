@@ -1,0 +1,160 @@
+{
+    "CharacterName": "/Lotus/Language/1999/MessengerJabirName",
+    "LocFile": "/Lotus/Language/1999Texting/JabirRomance.loc",
+    "NpcLocTagPrefix": "TxtJabir",
+    "DialogueDelay": 0,
+    "ProfilePicture": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpC.png",
+    "NickName": "/Lotus/Language/1999/MessengerJabirUserName",
+    "Status": "The Clash - BankRobber",
+    "DatingSymbol": "AmirDating",
+    "Birthday": 143,
+    "Ranks": [
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank1_1",
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank1_2",
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank1_3"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 0,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/FriendlyRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank2_1",
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank2_2",
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank2_3"
+            ],
+            "RequiredChemistry": 40,
+            "RequiredMinimumDialogues": 2,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/LikedRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank3_1",
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank3_2",
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank3_3"
+            ],
+            "RequiredChemistry": 90,
+            "RequiredMinimumDialogues": 4,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/TrustedRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank4_1",
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank4_2",
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank3_3"
+            ],
+            "RequiredChemistry": 160,
+            "RequiredMinimumDialogues": 7,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/CloseRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank5_1",
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank5_2",
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank3_3"
+            ],
+            "RequiredChemistry": 250,
+            "RequiredMinimumDialogues": 10,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/BestiesRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank6_1"
+            ],
+            "RequiredChemistry": 360,
+            "RequiredMinimumDialogues": 13,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/LovedRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/AmirNotesRank7_1"
+            ],
+            "RequiredChemistry": 360,
+            "RequiredMinimumDialogues": 13,
+            "UnlockCondition": "AmirDating",
+            "DialogueBin": 6
+        }
+    ],
+    "CompatibleGifts": [
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/AirHockeyTable",
+            "GainedChemistry": 20,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/HardwareGPU",
+            "GainedChemistry": 10,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/PackagedGameConsole",
+            "GainedChemistry": 10,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/PackagedMonitor",
+            "GainedChemistry": 10,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/Television",
+            "GainedChemistry": 10,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/Headphones",
+            "GainedChemistry": 20,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        }
+    ],
+    "RankLimiterScript": {
+        "Script": "/Lotus/Scripts/1999/HexSyndicateDialog.lua",
+        "Function": "GetRankLimit",
+        "_dogTagSyndicate": "",
+        "_dogTagSyndicateDialogueWRes": "",
+        "_lichWeaponsManifest": "",
+        "_lichWeaponVendorCurrencyType": "",
+        "_arthurDialogue": "",
+        "_amirDialogue": "",
+        "_aoiDialogue": "",
+        "_eleanorDialogue": "",
+        "_lettieDialogue": "",
+        "_quincyDialogue": "",
+        "_dialogueWRes": "",
+        "_greetingTransmission": "",
+        "_onYourMindTransmission": "",
+        "_togetherResponseTransmission": "",
+        "_breakUpStartTransmission": "",
+        "_goodbyeTransmission": "",
+        "_breakUpTransmission": "",
+        "_breakUpUnsureTransmission": "",
+        "_breakUpFadeTimer": 1,
+        "_breakUpFadeSound": "",
+        "_breakUpEasterEggChance": 0.02,
+        "_breakUpEasterEggSound": "",
+        "_syndicateTag": "HexSyndicate",
+        "_questRankLimit": 3,
+        "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain"
+    }
+}

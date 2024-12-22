@@ -1,0 +1,161 @@
+{
+    "CharacterName": "/Lotus/Language/1999/MessengerQuincyName",
+    "LocFile": "/Lotus/Language/1999Texting/QuincyRomance.loc",
+    "NpcLocTagPrefix": "TxtQuincy",
+    "AddPhAutomatically": 0,
+    "DialogueDelay": 1.5,
+    "ProfilePicture": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpF.png",
+    "NickName": "/Lotus/Language/1999/MessengerQuincyUserName",
+    "Status": "The Clash - BankRobber",
+    "DatingSymbol": "QuincyDating",
+    "Birthday": 338,
+    "Ranks": [
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank1_1",
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank1_2",
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank1_3"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 0,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/FriendlyRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank2_1",
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank2_2",
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank1_3"
+            ],
+            "RequiredChemistry": 40,
+            "RequiredMinimumDialogues": 2,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/LikedRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank3_1",
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank3_2",
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank3_3"
+            ],
+            "RequiredChemistry": 90,
+            "RequiredMinimumDialogues": 4,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/TrustedRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank4_1",
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank4_2",
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank4_3"
+            ],
+            "RequiredChemistry": 160,
+            "RequiredMinimumDialogues": 7,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/CloseRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank5_1",
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank5_2",
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank5_3"
+            ],
+            "RequiredChemistry": 250,
+            "RequiredMinimumDialogues": 10,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/BestiesRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank6_1"
+            ],
+            "RequiredChemistry": 360,
+            "RequiredMinimumDialogues": 13,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/LovedRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank6_1"
+            ],
+            "RequiredChemistry": 360,
+            "RequiredMinimumDialogues": 13,
+            "UnlockCondition": "QuincyDating",
+            "DialogueBin": 6
+        }
+    ],
+    "CompatibleGifts": [
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/AVReceiver",
+            "GainedChemistry": 10,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/PackagedSpeaker",
+            "GainedChemistry": 10,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/CellPhone",
+            "GainedChemistry": 5,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/EntratiPoster",
+            "GainedChemistry": 5,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/PackagedVideoCamera",
+            "GainedChemistry": 20,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        },
+        {
+            "Item": "/Lotus/Types/Gameplay/1999Wf/Gifts/VideoCassette",
+            "GainedChemistry": 5,
+            "Cost": 0,
+            "GiftedQuantity": 0
+        }
+    ],
+    "RankLimiterScript": {
+        "Script": "/Lotus/Scripts/1999/HexSyndicateDialog.lua",
+        "Function": "GetRankLimit",
+        "_dogTagSyndicate": "",
+        "_dogTagSyndicateDialogueWRes": "",
+        "_lichWeaponsManifest": "",
+        "_lichWeaponVendorCurrencyType": "",
+        "_arthurDialogue": "",
+        "_amirDialogue": "",
+        "_aoiDialogue": "",
+        "_eleanorDialogue": "",
+        "_lettieDialogue": "",
+        "_quincyDialogue": "",
+        "_dialogueWRes": "",
+        "_greetingTransmission": "",
+        "_onYourMindTransmission": "",
+        "_togetherResponseTransmission": "",
+        "_breakUpStartTransmission": "",
+        "_goodbyeTransmission": "",
+        "_breakUpTransmission": "",
+        "_breakUpUnsureTransmission": "",
+        "_breakUpFadeTimer": 1,
+        "_breakUpFadeSound": "",
+        "_breakUpEasterEggChance": 0.02,
+        "_breakUpEasterEggSound": "",
+        "_syndicateTag": "HexSyndicate",
+        "_questRankLimit": 3,
+        "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain"
+    }
+}

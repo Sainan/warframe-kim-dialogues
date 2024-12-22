@@ -29,10 +29,13 @@ for {
 	do
 		local rom = io.contents("Extracted/Debug/Lotus/Types/Gameplay/1999Wf/Dialogue/"..diag_name.."_H")
 		local i = 1
-		local _, num_nodes, type, id, name, nickname_override, num_prev, num_choices, text_en
+		local filename, metadata, num_nodes, type, id, name, nickname_override, num_prev, num_choices, text_en
 		i += 20 -- skip hash?
-		_, i = string.unpack("<s4", rom, i) -- skip filename
-		_, i = string.unpack("<s4", rom, i) -- skip metadata (EE notation)
+		filename, i = string.unpack("<s4", rom, i)
+		metadata, i = string.unpack("<s4", rom, i)
+		io.contents("metadata/"..diag_name..".ee", metadata)
+		os.execute("ee2json metadata/"..diag_name..".ee metadata/"..diag_name..".json")
+		io.remove("metadata/"..diag_name..".ee")
 		i += 1 -- null terminator not included in length
 		i += 4 -- skip unk int
 		i += 4 -- skip num dialogues
