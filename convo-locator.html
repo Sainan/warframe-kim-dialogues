@@ -201,13 +201,17 @@
 						{
 							const convo = node_id_to_convo(chatroom, node.id);
 
-							let sender_name = chatroom_to_username[chatroom_name];
-							if (node.nickname_override)
+							let sender_name = "Drifter";
+							if (node.type == "/EE/Types/Engine/DialogueNode")
 							{
-								sender_name = node.nickname_override;
-								if (dicts[lang][sender_name])
+								sender_name = chatroom_to_username[chatroom_name];
+								if (node.nickname_override)
 								{
-									sender_name = dicts[lang][sender_name];
+									sender_name = node.nickname_override;
+									if (dicts[lang][sender_name])
+									{
+										sender_name = dicts[lang][sender_name];
+									}
 								}
 							}
 
