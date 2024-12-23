@@ -176,6 +176,7 @@
 		{
 			location.hash = "q=" + encodeURIComponent(query) + "&lang=" + lang;
 			document.getElementById("results").innerHTML = "";
+			const results_set = {};
 			for (const [chatroom_name, chatroom] of Object.entries(chatrooms))
 			{
 				for (const node of chatroom.nodes)
@@ -204,6 +205,13 @@
 									sender_name = dicts[lang][sender_name];
 								}
 							}
+
+							const slug = convo + "+++" + sender_name + "+++" + text;
+							if (slug in results_set)
+							{
+								continue;
+							}
+							results_set[slug] = true;
 
 							const p = document.createElement("p");
 							p.textContent = sender_name + ": " + text + " (" + convo + " • ";
