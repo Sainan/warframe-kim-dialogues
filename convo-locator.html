@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KIM Convo Locator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://calamity-inc.github.io/Silver/base.css">
+</head>
+<body>
+	<div id="loading">
+		<p>Loading, please wait...</p>
+	</div>
+	<div id="content" class="slv-hidden">
+		<input id="query" type="text" placeholder="Enter (part of) a message you want to locate..." />
+		<select id="lang">
+			<option value="en">English</option>
+			<option value="de">Deutsch</option>
+			<option value="es">Español</option>
+			<option value="fr">Français</option>
+			<option value="it">Italiano</option>
+			<option value="ja">日本語</option>
+			<option value="ko">한국어</option>
+			<option value="pl">Polski</option>
+			<option value="pt">Português</option>
+			<option value="ru">Русский</option>
+			<option value="tr">Türkçe</option>
+			<option value="uk">Українська</option>
+			<option value="zh">简体中文</option>
+			<option value="tc">繁體中文</option>
+			<option value="th">แบบไทย</option>
+		</select>
+		<div id="results"></div>
+	</div>
+</body>
+<script>
+	const chatroom_to_username = {
+		"ArthurDialogue_rom.dialogue": "Broadsword",
+		"EleanorDialogue_rom.dialogue": "Salem",
+		"LettieDialogue_rom.dialogue": "Belladona ~{@",
+		"JabirDialogue_rom.dialogue": "H16h V0l7463",
+		"AoiDialogue_rom.dialogue": "xX GLIMMER Xx",
+		"QuincyDialogue_rom.dialogue": "Soldja1Shot1kil",
+		"HexDialogue_rom.dialogue": "The Hex",
+	};
+
+	Promise.all([
+		fetch("dicts/en.json").then(res => res.json()),
+		fetch("dicts/de.json").then(res => res.json()),
+		fetch("dicts/es.json").then(res => res.json()),
+		fetch("dicts/fr.json").then(res => res.json()),
+		fetch("dicts/it.json").then(res => res.json()),
+		fetch("dicts/ja.json").then(res => res.json()),
+		fetch("dicts/ko.json").then(res => res.json()),
+		fetch("dicts/pl.json").then(res => res.json()),
+		fetch("dicts/pt.json").then(res => res.json()),
+		fetch("dicts/ru.json").then(res => res.json()),
+		fetch("dicts/tc.json").then(res => res.json()),
+		fetch("dicts/th.json").then(res => res.json()),
+		fetch("dicts/tr.json").then(res => res.json()),
+		fetch("dicts/uk.json").then(res => res.json()),
+		fetch("dicts/zh.json").then(res => res.json()),
+		fetch("ArthurDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("EleanorDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("LettieDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("JabirDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("AoiDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("QuincyDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("HexDialogue_rom.dialogue.json").then(res => res.json())
+	]).then(([
+		dict_en, dict_de, dict_es, dict_fr, dict_it, dict_ja, dict_ko, dict_pl, dict_pt, dict_ru, dict_tc, dict_th, dict_tr, dict_uk, dict_zh,
+		ArthurDialogue_rom, EleanorDialogue_rom, LettieDialogue_rom, JabirDialogue_rom, AoiDialogue_rom, QuincyDialogue_rom, HexDialogue_rom
+	]) => {
+		window.dicts = {
+			en: dict_en,
+			de: dict_de,
+			es: dict_es,
+			fr: dict_fr,
+			it: dict_it,
+			ja: dict_ja,
+			ko: dict_ko,
+			pl: dict_pl,
+			pt: dict_pt,
+			ru: dict_ru,
+			tc: dict_tc,
+			th: dict_th,
+			tr: dict_tr,
+			uk: dict_uk,
+			zh: dict_zh,
+		};
+		window.chatrooms = {
+			"ArthurDialogue_rom.dialogue": { nodes: ArthurDialogue_rom, convos: {} },
+			"EleanorDialogue_rom.dialogue": { nodes: EleanorDialogue_rom, convos: {} },
+			"LettieDialogue_rom.dialogue": { nodes: LettieDialogue_rom, convos: {} },
+			"JabirDialogue_rom.dialogue": { nodes: JabirDialogue_rom, convos: {} },
+			"AoiDialogue_rom.dialogue": { nodes: AoiDialogue_rom, convos: {} },
+			"QuincyDialogue_rom.dialogue": { nodes: QuincyDialogue_rom, convos: {} },
+			"HexDialogue_rom.dialogue": { nodes: HexDialogue_rom, convos: {} },
+		};
+		for (const [chatroom_name, chatroom] of Object.entries(chatrooms))
+		{
+			for (const node of chatroom.nodes)
+			{
+				if (node.type == "/EE/Types/Engine/StartDialogueNode")
+				{
+					const convo = node.name;
+					//convo_to_chatroom[convo] = chatroom_name;
+					const pending = [ node.id ];
+					const done = [];
+					while (pending.length != 0)
+					{
+						const node_id = pending.pop();
+						if (done.find(x => x == node_id))
+						{
+							continue;
+						}
+						done.push(node_id);
+						const n = chatroom.nodes[node_id];
+						if (n.true_choices)
+						{
+							for (const choice of n.true_choices)
+							{
+								pending.push(choice);
+							}
+							for (const choice of n.false_choices)
+							{
+								pending.push(choice);
+							}
+						}
+						else
+						{
+							for (const choice of n.choices)
+							{
+								pending.push(choice);
+							}
+						}
+					}
+					chatroom.convos[convo] = done;
+				}
+			}
+		}
+
+		const params = new URLSearchParams(location.hash.toString().replace("#", ""));
+		if (params.has("lang"))
+		{
+			document.getElementById("lang").value = params.get("lang");
+		}
+		if (params.has("q"))
+		{
+			document.getElementById("query").value = params.get("q");
+			doLocate();
+		}
+
+		document.getElementById("loading").classList.add("slv-hidden");
+		document.getElementById("content").classList.remove("slv-hidden");
+	});
+
+	function node_id_to_convo(chatroom, node_id)
+	{
+		for (const [convo, convo_node_ids] of Object.entries(chatroom.convos))
+		{
+			for (const convo_node_id of convo_node_ids)
+			{
+				if (convo_node_id == node_id)
+				{
+					return convo;
+				}
+			}
+		}
+		console.error("node_id_to_convo failed", chatroom, node_id);
+	}
+
+	function doLocate()
+	{
+		const lang = document.getElementById("lang").value;
+		const query = document.getElementById("query").value.toLowerCase();
+		if (query.length >= 3)
+		{
+			location.hash = "q=" + encodeURIComponent(query) + "&lang=" + lang;
+			document.getElementById("results").innerHTML = "";
+			for (const [chatroom_name, chatroom] of Object.entries(chatrooms))
+			{
+				for (const node of chatroom.nodes)
+				{
+					if (node.type == "/EE/Types/Engine/DialogueNode" || node.type == "/EE/Types/Engine/PlayerChoiceDialogueNode")
+					{
+						let text = dicts[lang][node.name] ?? node.name;
+						if (node.vars)
+						{
+							for (const [k, v] of Object.entries(node.vars))
+							{
+								text = text.split("|"+k+"|").join(dicts[lang][v] ?? v);
+							}
+						}
+
+						if (text.toLowerCase().indexOf(query) != -1)
+						{
+							const convo = node_id_to_convo(chatroom, node.id);
+
+							let sender_name = chatroom_to_username[chatroom_name];
+							if (node.nickname_override)
+							{
+								sender_name = node.nickname_override;
+								if (dicts[lang][sender_name])
+								{
+									sender_name = dicts[lang][sender_name];
+								}
+							}
+
+							const p = document.createElement("p");
+							p.textContent = sender_name + ": " + text + " (" + convo + " • ";
+							{
+								const a = document.createElement("a");
+								a.href = "https://github.com/Sainan/warframe-kim-dialogues/blob/senpai/flowcharts/" + chatroom_name + "/" + convo + ".png";
+								a.target = "_blank";
+								a.textContent = "Flowchart";
+								p.appendChild(a);
+							}
+							p.innerHTML += " • ";
+							{
+								const a = document.createElement("a");
+								a.href = "kimulacrum.html#chatroom=" + chatroom_name + "&dialogue=" + convo;
+								a.target = "_blank";
+								a.textContent = "Kimulacrum";
+								p.appendChild(a);
+							}
+							p.innerHTML += ")";
+							document.getElementById("results").appendChild(p);
+						}
+					}
+				}
+			}
+		}
+		else
+		{
+			document.getElementById("results").innerHTML = "<p>Please enter at least 3 characters.</p>";
+		}
+	}
+	document.getElementById("lang").onchange = doLocate;
+	document.getElementById("query").oninput = doLocate;
+</script>
+</html>
