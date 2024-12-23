@@ -168,10 +168,15 @@
 		console.error("node_id_to_convo failed", chatroom, node_id);
 	}
 
+	function normaliseText(text)
+	{
+		return text.toLowerCase().split("’").join("'");
+	}
+
 	function doLocate()
 	{
 		const lang = document.getElementById("lang").value;
-		const query = document.getElementById("query").value.toLowerCase();
+		const query = normaliseText(document.getElementById("query").value);
 		if (query.length >= 3)
 		{
 			location.hash = "q=" + encodeURIComponent(query) + "&lang=" + lang;
@@ -192,7 +197,7 @@
 							}
 						}
 
-						if (text.toLowerCase().indexOf(query) != -1)
+						if (normaliseText(text).indexOf(query) != -1)
 						{
 							const convo = node_id_to_convo(chatroom, node.id);
 
