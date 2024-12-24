@@ -1,72 +1,72 @@
 digraph {
 	"LettieQuincyWingman begins." [color=orange];
-		"LettieQuincyWingman begins." -> 2469;
-	2469 [label="Check boolean IsDating",color=orange];
-		2469 -> "Chat ends." [label=true,color=green];
-		2469 -> 2471 [label=false,color=brown];
+		"LettieQuincyWingman begins." -> j3964039837;
+	j3964039837 [label="Check boolean IsDating",color=orange];
+		j3964039837 -> "Chat ends." [label=true,color=green];
+		j3964039837 -> j185389989 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	2471 [label="Hey
+	j185389989 [label="Hey
 Quincy came to talk to me
 Said you wanted to talk?
 ¿Qué pasó?",shape=box,color=blue];
-		2471 -> 2472;
-	2472 [label="Check boolean LettieNoDate",color=orange];
-		2472 -> 2473 [label=true,color=green];
-		2472 -> j605525963 [label=true,color=green];
-		2472 -> 2474 [label=false,color=brown];
-		2472 -> j605525963 [label=false,color=brown];
-	2473 [label="I just... wanted to say sorry, Lettie. That's all.",shape=box,color=red];
-		2473 -> 2479;
+		j185389989 -> j1277913046;
+	j1277913046 [label="Check boolean LettieNoDate",color=orange];
+		j1277913046 -> j1774801472 [label=true,color=green];
+		j1277913046 -> j605525963 [label=true,color=green];
+		j1277913046 -> j3088472410 [label=false,color=brown];
+		j1277913046 -> j605525963 [label=false,color=brown];
+	j1774801472 [label="I just... wanted to say sorry, Lettie. That's all.",shape=box,color=red];
+		j1774801472 -> j3697981924;
 	j605525963 [label="He must have been mistaken. [End.]",shape=box,color=red];
 		j605525963 -> j3597298798;
-	2474 [label="I... well. I have feelings for you.",shape=box,color=red];
-		2474 -> 2478;
-	2479 [label="JAJA Sí, that's what he said
+	j3088472410 [label="I... well. I have feelings for you.",shape=box,color=red];
+		j3088472410 -> j285831484;
+	j3697981924 [label="JAJA Sí, that's what he said
 I didn't believe him at first
 But now I'm impressed that you've got him working for you, huh?
 Ay, there I go again...",shape=box,color=blue];
-		2479 -> 2480;
+		j3697981924 -> j2015798562;
 	j3597298798 [label="Lárgate de aquí, cabrón",shape=box,color=blue];
 		j3597298798 -> "Chat ends.";
-	2478 [label="Check boolean LettieHasDated",color=orange];
-		2478 -> 2481 [label=true,color=green];
-		2478 -> 2482 [label=false,color=brown];
-	2480 [label="You just want to apologize and I'm making it hard for you
+	j285831484 [label="Check boolean LettieHasDated",color=orange];
+		j285831484 -> j584608100 [label=true,color=green];
+		j285831484 -> j2226962620 [label=false,color=brown];
+	j2015798562 [label="You just want to apologize and I'm making it hard for you
 All right
 Apology accepted",shape=box,color=blue];
-		2480 -> 2486;
-	2481 [label="You had your chance
+		j2015798562 -> j4121139439;
+	j584608100 [label="You had your chance
 And it didn't go so well, did it?
 But... aaaay, sí...
 Hard to admit that I miss you",shape=box,color=blue];
-		2481 -> 2487;
-	2482 [label="You kept this to yourself the whole time?
+		j584608100 -> j2321116145;
+	j2226962620 [label="You kept this to yourself the whole time?
 ¿Por qué?
 I am right here",shape=box,color=blue];
-		2482 -> 2483;
-		2482 -> 2484;
-	2486 [label="He *also* said you wanted to give things a shot with me
+		j2226962620 -> j2866864162;
+		j2226962620 -> j700998651;
+	j4121139439 [label="He *also* said you wanted to give things a shot with me
 Us
 A thing, together
 ¿Verdad?",shape=box,color=blue];
-		2486 -> j3384544699;
-		2486 -> j1093446194;
-	2487 [label="You want to give this another try?",shape=box,color=blue];
-		2487 -> j3384544699;
-		2487 -> j1093446194;
-	2483 [label="Couldn't tell you.",shape=box,color=red];
-		2483 -> 2485;
-	2484 [label="No idea.",shape=box,color=red];
-		2484 -> 2485;
+		j4121139439 -> j3384544699;
+		j4121139439 -> j1093446194;
+	j2321116145 [label="You want to give this another try?",shape=box,color=blue];
+		j2321116145 -> j3384544699;
+		j2321116145 -> j1093446194;
+	j2866864162 [label="Couldn't tell you.",shape=box,color=red];
+		j2866864162 -> j3143259001;
+	j700998651 [label="No idea.",shape=box,color=red];
+		j700998651 -> j3143259001;
 	j3384544699 [label="Yeah. :) I would.",shape=box,color=red];
 		j3384544699 -> j98426433;
 	j1093446194 [label="Actually, never mind.",shape=box,color=red];
 		j1093446194 -> j2955670583;
-	2485 [label="Well...
+	j3143259001 [label="Well...
 Whatever
 You want to do this?",shape=box,color=blue];
-		2485 -> j3384544699;
-		2485 -> j1093446194;
+		j3143259001 -> j3384544699;
+		j3143259001 -> j1093446194;
 	j98426433 [label="+20 Chemistry",color=orange];
 		j98426433 -> j2434285118;
 	j2955670583 [label="¿Babas?

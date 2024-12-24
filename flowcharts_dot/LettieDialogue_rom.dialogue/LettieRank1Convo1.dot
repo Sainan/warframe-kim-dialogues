@@ -1,105 +1,105 @@
 digraph {
 	"LettieRank1Convo1 begins." [color=orange];
-		"LettieRank1Convo1 begins." -> 4;
-		"LettieRank1Convo1 begins." -> 7;
-	4 [label="Hey Lettie, how'd you get into being a medic?",shape=box,color=red];
-		4 -> 6;
-	7 [label="Hey, Lettie, what brought you to Höllvania?",shape=box,color=red];
-		7 -> 11;
-	6 [label="It's my job 
+		"LettieRank1Convo1 begins." -> j1438441935;
+		"LettieRank1Convo1 begins." -> j3618294684;
+	j1438441935 [label="Hey Lettie, how'd you get into being a medic?",shape=box,color=red];
+		j1438441935 -> j1336058382;
+	j3618294684 [label="Hey, Lettie, what brought you to Höllvania?",shape=box,color=red];
+		j3618294684 -> j2925533295;
+	j1336058382 [label="It's my job 
 Why'd you get into 
 Whatever it is you do",shape=box,color=blue];
-		6 -> 19;
-		6 -> 20;
-		6 -> j4166295237;
-	11 [label="Eh?",shape=box,color=blue];
-		11 -> 12;
-	19 [label="I didn't really have a choice.",shape=box,color=red];
-		19 -> 13;
-	20 [label="Am I bothering you?",shape=box,color=red];
-		20 -> 14;
+		j1336058382 -> j3695387723;
+		j1336058382 -> j1320737087;
+		j1336058382 -> j4166295237;
+	j2925533295 [label="Eh?",shape=box,color=blue];
+		j2925533295 -> j1647274564;
+	j3695387723 [label="I didn't really have a choice.",shape=box,color=red];
+		j3695387723 -> j1331882041;
+	j1320737087 [label="Am I bothering you?",shape=box,color=red];
+		j1320737087 -> j2684095528;
 	j4166295237 [label="I'm clearly bugging you, I'll leave you alone.",shape=box,color=red];
 		j4166295237 -> j3022833425;
-	12 [label="Why'd you come here",shape=box,color=blue];
-		12 -> 19;
-		12 -> 20;
-		12 -> j4166295237;
-	13 [label="Then we have that in common 
+	j1647274564 [label="Why'd you come here",shape=box,color=blue];
+		j1647274564 -> j3695387723;
+		j1647274564 -> j1320737087;
+		j1647274564 -> j4166295237;
+	j1331882041 [label="Then we have that in common 
 And you shouldn't ask stupid questions, babas",shape=box,color=blue];
-		13 -> 18;
-		13 -> 17;
-	14 [label="Why 
+		j1331882041 -> j694413285;
+		j1331882041 -> j2080499392;
+	j2684095528 [label="Why 
 What gives you that idea 
 It's not like I'm busy or anything 
 Trying to stitch people together",shape=box,color=blue];
-		14 -> 17;
-		14 -> 18;
+		j2684095528 -> j2080499392;
+		j2684095528 -> j694413285;
 	j3022833425 [label="Va",shape=box,color=blue];
 		j3022833425 -> "Chat ends.";
-	18 [label="What should I talk to you about instead?",shape=box,color=red];
-		18 -> 5;
-	17 [label="Just trying to be friendly, sorry.",shape=box,color=red];
-		17 -> 16;
+	j694413285 [label="What should I talk to you about instead?",shape=box,color=red];
+		j694413285 -> j828699673;
+	j2080499392 [label="Just trying to be friendly, sorry.",shape=box,color=red];
+		j2080499392 -> j609212194;
 	"Chat ends." [color=orange];
-	5 [label="Eh, lo siento 
+	j828699673 [label="Eh, lo siento 
 Didn't get much sleep last night 
 So I don't have much patience for bad questions",shape=box,color=blue];
-		5 -> 2;
-		5 -> 3;
-	16 [label="Ay, equis 
+		j828699673 -> j3706536860;
+		j828699673 -> j1206477657;
+	j609212194 [label="Ay, equis 
 It's fine 
 Didn't get much sleep last night",shape=box,color=blue];
-		16 -> 8;
-		16 -> 2;
-	2 [label="Me neither.",shape=box,color=red];
-		2 -> 22;
-	3 [label="They *were* bad questions, though. lol. I just don't know what else to talk about",shape=box,color=red];
-		3 -> 26;
-	8 [label="Why not?",shape=box,color=red];
-		8 -> 147;
-	22 [label="+10 Chemistry",color=orange];
-		22 -> 24;
-	26 [label="A hint then 
+		j609212194 -> j3338471113;
+		j609212194 -> j3706536860;
+	j3706536860 [label="Me neither.",shape=box,color=red];
+		j3706536860 -> j1593801109;
+	j1206477657 [label="They *were* bad questions, though. lol. I just don't know what else to talk about",shape=box,color=red];
+		j1206477657 -> j1157006427;
+	j3338471113 [label="Why not?",shape=box,color=red];
+		j3338471113 -> j2311471702;
+	j1593801109 [label="+10 Chemistry",color=orange];
+		j1593801109 -> j3302658810;
+	j1157006427 [label="A hint then 
 If you're gonna interrupt my day 
 Make it interesting, ¿sí?",shape=box,color=blue];
-		26 -> 10;
-	147 [label="+5 Chemistry",color=orange];
-		147 -> 23;
-	24 [label="The worst, huh",shape=box,color=blue];
-		24 -> 25;
-	10 [label="Check boolean LettieRats1",color=orange];
-		10 -> j4173225005 [label=true,color=green];
-		10 -> 9 [label=false,color=brown];
-	23 [label="Never do",shape=box,color=blue];
-		23 -> 25;
-	25 [label="Do you want something 
+		j1157006427 -> j1229770166;
+	j2311471702 [label="+5 Chemistry",color=orange];
+		j2311471702 -> j2134569957;
+	j3302658810 [label="The worst, huh",shape=box,color=blue];
+		j3302658810 -> j658989034;
+	j1229770166 [label="Check boolean LettieRats1",color=orange];
+		j1229770166 -> j4173225005 [label=true,color=green];
+		j1229770166 -> j919252356 [label=false,color=brown];
+	j2134569957 [label="Never do",shape=box,color=blue];
+		j2134569957 -> j658989034;
+	j658989034 [label="Do you want something 
 Or are you just killing time",shape=box,color=blue];
-		25 -> 27;
-		25 -> 28;
-		25 -> j1731227140;
+		j658989034 -> j1170114993;
+		j658989034 -> j2258290508;
+		j658989034 -> j1731227140;
 	j4173225005 [label="You did better with the question about the rats",shape=box,color=blue];
 		j4173225005 -> j1673492471;
-	9 [label="Check boolean LettieFantasma1",color=orange];
-		9 -> j415660643 [label=true,color=green];
-		9 -> j1673492471 [label=false,color=brown];
-	27 [label="Just trying to say hello, is all.",shape=box,color=red];
-		27 -> 33;
-	28 [label="I just wanted to see how you were doing.",shape=box,color=red];
-		28 -> 34;
+	j919252356 [label="Check boolean LettieFantasma1",color=orange];
+		j919252356 -> j415660643 [label=true,color=green];
+		j919252356 -> j1673492471 [label=false,color=brown];
+	j1170114993 [label="Just trying to say hello, is all.",shape=box,color=red];
+		j1170114993 -> j2062134203;
+	j2258290508 [label="I just wanted to see how you were doing.",shape=box,color=red];
+		j2258290508 -> j661701370;
 	j1731227140 [label="Just killing time.",shape=box,color=red];
 		j1731227140 -> j1558637720;
 	j1673492471 [label="Make it interesting. Roger. I'll... go... think up... interesting things...",shape=box,color=red];
 		j1673492471 -> j1330927645;
 	j415660643 [label="You did better with the question about home",shape=box,color=blue];
 		j415660643 -> j1673492471;
-	33 [label="Hola 
+	j2062134203 [label="Hola 
 There",shape=box,color=blue];
-		33 -> j3384826241;
-		33 -> j3238112132;
-	34 [label="Busy 
+		j2062134203 -> j3384826241;
+		j2062134203 -> j3238112132;
+	j661701370 [label="Busy 
 Tired 
 Stressed",shape=box,color=blue];
-		34 -> 37;
+		j661701370 -> j2734444344;
 	j1558637720 [label="Nice for you 
 I have work to do",shape=box,color=blue];
 		j1558637720 -> j3545696829;
@@ -109,9 +109,9 @@ I have work to do",shape=box,color=blue];
 		j3384826241 -> j260461344;
 	j3238112132 [label="Anything I can help with?",shape=box,color=red];
 		j3238112132 -> j873824401;
-	37 [label="The usual",shape=box,color=blue];
-		37 -> j3238112132;
-		37 -> j3384826241;
+	j2734444344 [label="The usual",shape=box,color=blue];
+		j2734444344 -> j3238112132;
+		j2734444344 -> j3384826241;
 	j3545696829 [label="Going to get back to it",shape=box,color=blue];
 		j3545696829 -> "Chat ends.";
 	j95830479 [label="+20 Chemistry",color=orange];

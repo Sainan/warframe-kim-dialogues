@@ -1,118 +1,118 @@
 digraph {
 	"LettieConfession begins." [color=orange];
-		"LettieConfession begins." -> 1720;
-	1720 [label="Check boolean IsDating",color=orange];
-		1720 -> "Chat ends." [label=true,color=green];
-		1720 -> 1722 [label=false,color=brown];
+		"LettieConfession begins." -> j2600981639;
+	j2600981639 [label="Check boolean IsDating",color=orange];
+		j2600981639 -> "Chat ends." [label=true,color=green];
+		j2600981639 -> j1847623655 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	1722 [label="Solecito 
+	j1847623655 [label="Solecito 
 You there",shape=box,color=blue];
-		1722 -> 1723;
-		1722 -> j5866127;
-	1723 [label="Yeah..?",shape=box,color=red];
-		1723 -> 1726;
+		j1847623655 -> j793060151;
+		j1847623655 -> j5866127;
+	j793060151 [label="Yeah..?",shape=box,color=red];
+		j793060151 -> j2039349525;
 	j5866127 [label="[Ignore.]",shape=box,color=red];
 		j5866127 -> "Chat ends.";
-	1726 [label="I... 
+	j2039349525 [label="I... 
 Wanted to say 
 Primero, lo siento 
 I shouldn't have reacted the way I did 
 Segundo, do you mean what you said?",shape=box,color=blue];
-		1726 -> 1727;
-		1726 -> j2972883579;
-	1727 [label="I meant every word.",shape=box,color=red];
-		1727 -> 1732;
+		j2039349525 -> j120478545;
+		j2039349525 -> j2972883579;
+	j120478545 [label="I meant every word.",shape=box,color=red];
+		j120478545 -> j2992837449;
 	j2972883579 [label="I was making that all up.",shape=box,color=red];
 		j2972883579 -> j2232915432;
-	1732 [label="Aayyyy... ok... 
+	j2992837449 [label="Aayyyy... ok... 
 Mierda",shape=box,color=blue];
-		1732 -> 1734;
-		1732 -> 1733;
+		j2992837449 -> j3531428419;
+		j2992837449 -> j1434519434;
 	j2232915432 [label="Boolean LettieNoDate is now true.",color=orange];
 		j2232915432 -> j668065720;
-	1734 [label="If it's not mutual you can just tell me, I can take it.",shape=box,color=red];
-		1734 -> 1736;
-	1733 [label="I still don't know if \"mierda\" is a good thing or not...",shape=box,color=red];
-		1733 -> 1735;
+	j3531428419 [label="If it's not mutual you can just tell me, I can take it.",shape=box,color=red];
+		j3531428419 -> j3425983332;
+	j1434519434 [label="I still don't know if \"mierda\" is a good thing or not...",shape=box,color=red];
+		j1434519434 -> j4236179991;
 	j668065720 [label="Mm 
 Should've known 
 Go play with Quincy 
 Un escuincle like that seem more your type",shape=box,color=blue];
 		j668065720 -> "Chat ends.";
-	1736 [label="Check boolean LettieTrust1",color=orange];
-		1736 -> 1737 [label=true,color=green];
-		1736 -> 1738 [label=false,color=brown];
-	1735 [label="Jajaja it means \"shit\" 
+	j3425983332 [label="Check boolean LettieTrust1",color=orange];
+		j3425983332 -> j3167760487 [label=true,color=green];
+		j3425983332 -> j374513209 [label=false,color=brown];
+	j4236179991 [label="Jajaja it means \"shit\" 
 But nono, this isn't a bad conversation 
 It's just--",shape=box,color=blue];
-		1735 -> 1736;
-	1737 [label="Check boolean LettieTrust2",color=orange];
-		1737 -> 1739 [label=true,color=green];
-		1737 -> 1740 [label=false,color=brown];
-	1738 [label="Look 
+		j4236179991 -> j3425983332;
+	j3167760487 [label="Check boolean LettieTrust2",color=orange];
+		j3167760487 -> j3687858218 [label=true,color=green];
+		j3167760487 -> j2008456003 [label=false,color=brown];
+	j374513209 [label="Look 
 Trust is something that is very hard for me to give away 
 And it is the most important thing in a relationship for me 
 Broken trust is something that cannot be  repaired, especially in a situation like this",shape=box,color=blue];
-		1738 -> 1741;
-	1739 [label="You know how hard it is for me to trust people 
+		j374513209 -> j2978991707;
+	j3687858218 [label="You know how hard it is for me to trust people 
 And how important trust is for me ¿no? 
 Well... it's even more important when I get into a relationship with someone",shape=box,color=blue];
-		1739 -> 1743;
-	1740 [label="You know trust is something that is very hard for me to give 
+		j3687858218 -> j1171949390;
+	j2008456003 [label="You know trust is something that is very hard for me to give 
 And it is the most important thing in a relationship for me 
 Broken trust is something that cannot be repaired, especially in a situation like this",shape=box,color=blue];
-		1740 -> 1742;
-	1741 [label="Boolean LettieTrust1 is now true.",color=orange];
-		1741 -> 1742;
-	1743 [label="Because the kind of relationships I like to have tend to hurt, solecito 
+		j2008456003 -> j2534527321;
+	j2978991707 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j2978991707 -> j2534527321;
+	j1171949390 [label="Because the kind of relationships I like to have tend to hurt, solecito 
 If you get what I'm saying 
 Only as much as we want it to 
 And only as far as you're willing to go 
 Because this kind of thing takes trust",shape=box,color=blue];
-		1743 -> 1745;
-	1742 [label="Boolean LettieTrust2 is now true.",color=orange];
-		1742 -> 1743;
-	1745 [label="And broken trust in a thing like this 
+		j1171949390 -> j451002645;
+	j2534527321 [label="Boolean LettieTrust2 is now true.",color=orange];
+		j2534527321 -> j1171949390;
+	j451002645 [label="And broken trust in a thing like this 
 Can not be repaired 
 ¿Me explico?",shape=box,color=blue];
-		1745 -> 1744;
-		1745 -> 1746;
-		1745 -> j1677875942;
-	1744 [label="I'm not saying no, but can I ask...why pain is your thing?",shape=box,color=red];
-		1744 -> 1747;
-	1746 [label="Only if we get to take turns now and then...",shape=box,color=red];
-		1746 -> 1749;
+		j451002645 -> j3209482681;
+		j451002645 -> j1785820410;
+		j451002645 -> j1677875942;
+	j3209482681 [label="I'm not saying no, but can I ask...why pain is your thing?",shape=box,color=red];
+		j3209482681 -> j39597591;
+	j1785820410 [label="Only if we get to take turns now and then...",shape=box,color=red];
+		j1785820410 -> j1749829537;
 	j1677875942 [label="I'm not really into mixing pain and pleasure, sorry.",shape=box,color=red];
 		j1677875942 -> j335187322;
-	1747 [label="Mmm, don't know 
+	j39597591 [label="Mmm, don't know 
 Maybe because it's pain that I can control 
 Versus all the pain I can't",shape=box,color=blue];
-		1747 -> 1750;
-	1749 [label="Jajaja of course 
+		j39597591 -> j3505156629;
+	j1749829537 [label="Jajaja of course 
 But once you've earned it 
 Need to know I can trust you first 
 So... what do you say?",shape=box,color=blue];
-		1749 -> 1752;
+		j1749829537 -> j1390847172;
 	j335187322 [label="Ay, sí 
 Is not for everyone 
 Entiendo, no harm no foul",shape=box,color=blue];
 		j335187322 -> j1826563562;
-	1750 [label="Or maybe because it's something intense 
+	j3505156629 [label="Or maybe because it's something intense 
 Something sharp that cuts through all the rest of the bullshit I have to deal with day in and day out 
 It's REAL 
 I can sink my teeth into it 
 Make it sing 
 Feel it pulse",shape=box,color=blue];
-		1750 -> 1751;
-	1752 [label="Want to make a terrible mistake with me?",shape=box,color=blue];
-		1752 -> j890155331;
-		1752 -> j1570870064;
+		j3505156629 -> j1442214610;
+	j1390847172 [label="Want to make a terrible mistake with me?",shape=box,color=blue];
+		j1390847172 -> j890155331;
+		j1390847172 -> j1570870064;
 	j1826563562 [label="+10 Chemistry",color=orange];
 		j1826563562 -> j1581368479;
-	1751 [label="And it DEMANDS trust 
+	j1442214610 [label="And it DEMANDS trust 
 It doesn't work without it, solecito 
 So... what do you say?",shape=box,color=blue];
-		1751 -> 1752;
+		j1442214610 -> j1390847172;
 	j890155331 [label="Yeah. I do, actually. :) [Date Lettie.]",shape=box,color=red];
 		j890155331 -> j669232918;
 	j1570870064 [label="I need to think this over, actually. Sorry.",shape=box,color=red];

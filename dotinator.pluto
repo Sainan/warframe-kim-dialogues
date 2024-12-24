@@ -78,7 +78,20 @@ local function get_node_name(node)
 		end
 	end
 
-	return tostring(node.id)
+	-- Merge nodes with the same label + outgoing edges (e.g. LettieRank5Convo4 has 2x "+20 Chemistry" with the same outgoing edges.)
+	if node.true_choices then
+		for node.true_choices as choice do
+			hash = joaat(tostring(choice), hash)
+		end
+		for node.false_choices as choice do
+			hash = joaat(tostring(choice), hash)
+		end
+	else
+		for node.choices as choice do
+			hash = joaat(tostring(choice), hash)
+		end
+	end
+	return "j"..tostring(hash)
 end
 
 local function emit_dot(filename, start)
