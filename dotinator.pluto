@@ -182,6 +182,9 @@ local function emit_dot(filename, start)
 	fh:write("}")
 end
 
+io.makedir("flowcharts")
+io.makedir("flowcharts_dot")
+io.makedir("flowcharts_svg")
 for {
 	"AoiDialogue_rom.dialogue",
 	"ArthurDialogue_rom.dialogue",
@@ -193,10 +196,9 @@ for {
 } as diag_name do
 	nodes = io.contents(diag_name..".json") |> json.decode
 
-	io.makedir("flowcharts")
 	io.makedir("flowcharts/"..diag_name)
-	io.makedir("flowcharts_dot")
 	io.makedir("flowcharts_dot/"..diag_name)
+	io.makedir("flowcharts_svg/"..diag_name)
 
 	print(diag_name)
 	for nodes as node do
@@ -206,6 +208,7 @@ for {
 			emit_dot("flowcharts_dot/"..diag_name.."/"..node.name..".dot", node.id)
 			if prev_dot ~= io.contents("flowcharts_dot/"..diag_name.."/"..node.name..".dot") then
 				os.execute("dot flowcharts_dot/"..diag_name.."/"..node.name..".dot -T png -o flowcharts/"..diag_name.."/"..node.name..".png")
+				os.execute("dot flowcharts_dot/"..diag_name.."/"..node.name..".dot -T svg -o flowcharts_svg/"..diag_name.."/"..node.name..".svg")
 			end
 		end
 	end
