@@ -1,0 +1,104 @@
+digraph {
+	"LettieRank1Convo3 begins." [color=orange];
+		"LettieRank1Convo3 begins." -> j261769103;
+	j261769103 [label="Babas 
+ระวังด้วย",shape=box,color=blue];
+		j261769103 -> j1880310159;
+		j261769103 -> j3872230063;
+	j1880310159 [label="นั่นคือคำทักทายใช่ไหม?",shape=box,color=red];
+		j1880310159 -> j3553397634;
+	j3872230063 [label="ตอนนี้คุยไม่ได้ โทษที [จบ]",shape=box,color=red];
+		j3872230063 -> "Chat ends.";
+	j3553397634 [label="เออ เออ สวัสดี *สวัสดีตอนเช้า* 
+หรือตอนไหนก็ช่างเหอะ 
+ต้องหาผ้าก็อซมาเพิ่มนะ 
+ของใกล้หมดแล้ว",shape=box,color=blue];
+		j3553397634 -> j3676033086;
+	"Chat ends." [color=orange];
+	j3676033086 [label="Anita เข้าไปในกล่องและแทะไปบางส่วน",shape=box,color=blue];
+		j3676033086 -> j739350025;
+		j3676033086 -> j1005685000;
+	j739350025 [label="ใครคือ Anita",shape=box,color=red];
+		j739350025 -> j3979805237;
+	j1005685000 [label="ไม่เข้าใจว่าพูดถึงใคร Lettie",shape=box,color=red];
+		j1005685000 -> j3979805237;
+	j3979805237 [label="Lo siento",shape=box,color=blue];
+		j3979805237 -> j3649761970;
+	j3649761970 [label="+5 Chemistry",color=orange];
+		j3649761970 -> j1325054108;
+	j1325054108 [label="Corazoncito หนูตัวใหม่ล่าสุดน่ะ 
+กำลังฝึกพฤติกรรมการเรียนรู้อยู่",shape=box,color=blue];
+		j1325054108 -> j2604450281;
+	j2604450281 [label="Check boolean LettieRatsAsked",color=orange];
+		j2604450281 -> j1030442122 [label=true,color=green];
+		j2604450281 -> j1637382402 [label=true,color=green];
+		j2604450281 -> j898184886 [label=false,color=brown];
+		j2604450281 -> j1030442122 [label=false,color=brown];
+		j2604450281 -> j1637382402 [label=false,color=brown];
+	j1030442122 [label="ถ้าเจอจะหยิบมาให้ละกัน",shape=box,color=red];
+		j1030442122 -> j4092361136;
+	j1637382402 [label="ถ้าหนูของเจ้ากินมันเข้าไป งั้นก็ออกไปเอาผ้าก็อซมาเองสิ",shape=box,color=red];
+		j1637382402 -> j1280340518;
+	j898184886 [label="ข้าสงสัยว่าทำไมถึงเลี้ยงหนูเป็นสัตว์เลี้ยงล่ะ?",shape=box,color=red];
+		j898184886 -> j4034546229;
+	j4092361136 [label="+10 Chemistry",color=orange];
+		j4092361136 -> j574193785;
+	j1280340518 [label="Sí ถ้าหาเวลาว่าง 
+ระหว่างช่วงที่ไปเย็บแผลให้พวก hex 
+กับพลเรือนทั้งหมดได้น่ะ",shape=box,color=blue];
+		j1280340518 -> j807166870;
+	j4034546229 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		j4034546229 -> j3172990000;
+	j574193785 [label="Gracias 
+ถือว่าติดหนี้ไว้นะ 
+หนี้เล็ก ๆ ครั้งนึง",shape=box,color=blue];
+		j574193785 -> j3889308430;
+	j807166870 [label="Gracias por nada, babas",shape=box,color=blue];
+		j807166870 -> "Chat ends.";
+	j3172990000 [label="ลองว่ามาดิ",shape=box,color=blue];
+		j3172990000 -> j2785838516;
+		j3172990000 -> j1098107094;
+	j3889308430 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j3889308430 -> "Chat ends.";
+	j2785838516 [label="ฮะ?",shape=box,color=red];
+		j2785838516 -> j413723093;
+	j1098107094 [label="ข้าไม่คิดว่าจะชอบอะไรแบบนี้นะ [จบ]",shape=box,color=red];
+		j1098107094 -> j1922389995;
+	j413723093 [label="ก็อยากรู้ว่าทำไมถึงคิดว่าข้าชอบหนู 
+ว่าต่อเลยสิ",shape=box,color=blue];
+		j413723093 -> j2425633136;
+		j413723093 -> j3603662013;
+		j413723093 -> j272886022;
+	j1922389995 [label="Tú te lo pierdes",shape=box,color=blue];
+		j1922389995 -> "Chat ends.";
+	j2425633136 [label="เพราะว่ามันฉลาด น่ารัก และขี้เล่น?",shape=box,color=red];
+		j2425633136 -> j685295143;
+	j3603662013 [label="เพราะว่าพวกมันมักจะถูกละเลยและเข้าใจผิด?",shape=box,color=red];
+		j3603662013 -> j685295143;
+	j272886022 [label="Lettie ข้าไม่เข้าใจอะไรเกี่ยวกับเจ้าเลย แต่หนูพวกนี้มันน่ารักชะมัด",shape=box,color=red];
+		j272886022 -> j2756190297;
+	j685295143 [label="Ay, Lua, sálvame 
+ไม่ใช่",shape=box,color=blue];
+		j685295143 -> j1953246840;
+	j2756190297 [label="¡JAJA!",shape=box,color=blue];
+		j2756190297 -> j595681713;
+	j1953246840 [label="ตอนเด็กไม่ได้เกิดมาบนกองเงินกองทอง 
+แถวบ้านจริง ๆ แล้วก็ไม่ได้แย่ 
+แต่ก็ไม่ได้ดีเหมือนกัน 
+หนูเลี้ยงง่ายน่ะ mi mamá ก็ไม่ว่าอะไรด้วย",shape=box,color=blue];
+		j1953246840 -> j3257739849;
+	j595681713 [label="+5 Chemistry",color=orange];
+		j595681713 -> j894017567;
+	j3257739849 [label="Boolean LettieRats1 is now true.",color=orange];
+		j3257739849 -> j1518719434;
+	j894017567 [label="ผู้ช่วยชีวิตเรามีความถ่อมตัวอยู่นะเนี่ย 
+ข้าชอบนะ",shape=box,color=blue];
+		j894017567 -> j1953246840;
+	j1518719434 [label="ไปหาผ้าพันแผลมาให้หน่อยได้รึเปล่า?",shape=box,color=blue];
+		j1518719434 -> j2049520918;
+		j1518719434 -> j2292227704;
+	j2049520918 [label="ได้สิ เดี๋ยวจะลองดูว่าทำอะไรได้บ้าง",shape=box,color=red];
+		j2049520918 -> j4092361136;
+	j2292227704 [label="เจ้าก็ไปหาเอาเองสิ เพราะนั่นมันหนูของเจ้านี่",shape=box,color=red];
+		j2292227704 -> j1280340518;
+}

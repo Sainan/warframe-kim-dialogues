@@ -1,0 +1,119 @@
+digraph {
+	"LettieRank2Convo6 begins." [color=orange];
+		"LettieRank2Convo6 begins." -> j2950318430;
+	j2950318430 [label="Check boolean AmirRPG",color=orange];
+		j2950318430 -> j1737601986 [label=true,color=green];
+		j2950318430 -> j304439782 [label=true,color=green];
+		j2950318430 -> "Chat ends." [label=false,color=brown];
+	j1737601986 [label="ねえLettie、お願いがあるんだ。",shape=box,color=red];
+		j1737601986 -> j2794364090;
+	j304439782 [label="ねえLettie、テーブルトークロールプレイングゲームをどう思う？",shape=box,color=red];
+		j304439782 -> j2800108573;
+	"Chat ends." [color=orange];
+	j2794364090 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
+		j2794364090 -> j82736124;
+	j2800108573 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
+		j2800108573 -> j1085382035;
+	j82736124 [label="Check boolean LettieSmallFavor",color=orange];
+		j82736124 -> j3360051072 [label=true,color=green];
+		j82736124 -> j1249420459 [label=false,color=brown];
+	j1085382035 [label="Estás bromeando, ¿verdad?",shape=box,color=blue];
+		j1085382035 -> j1772042556;
+	j3360051072 [label="色々手伝ってくれたしね
+聞いておくわ
+何の話なの、babas?",shape=box,color=blue];
+		j3360051072 -> j1925382945;
+		j3360051072 -> j2337224785;
+	j1249420459 [label="出血多量で死にかけているの？",shape=box,color=blue];
+		j1249420459 -> j2041417164;
+		j1249420459 -> j540209769;
+	j1772042556 [label="Lárgate",shape=box,color=blue];
+		j1772042556 -> "Chat ends.";
+	j1925382945 [label="時間の無駄みたいに聞こえるかもしれないけど、Amirが皆と「Fables & Frontiers」というゲームを一緒にプレイしたいと思ってる。",shape=box,color=red];
+		j1925382945 -> j4206742345;
+	j2337224785 [label="Amirが皆と「Fables & Frontiers」というゲームを一緒にプレイしたいと願っているんだ。これは彼にとって重要なことなんだ。",shape=box,color=red];
+		j2337224785 -> j402315629;
+	j2041417164 [label="もしかしてそうなる感じ？",shape=box,color=red];
+		j2041417164 -> j496041175;
+	j540209769 [label="いや…？",shape=box,color=red];
+		j540209769 -> j3298356055;
+	j4206742345 [label="その通りね
+それは盛大な時間な無駄に聞こえる
+自分の歯を錆びたペンチで引っこ抜くような",shape=box,color=blue];
+		j4206742345 -> j2083308431;
+	j402315629 [label="あのescuincleが重要と思うことと本当に重要であることは違うの
+時間の無駄よ",shape=box,color=blue];
+		j402315629 -> "Chat ends.";
+	j496041175 [label="+10 Chemistry",color=orange];
+		j496041175 -> j478695742;
+	j3298356055 [label="今まさにそうなりそうな患者がいるの
+そのお願いと言うのは*本当に*重要なの？",shape=box,color=blue];
+		j3298356055 -> j1315681268;
+	j2083308431 [label="好みの痛みはあるけど
+これは違う",shape=box,color=blue];
+		j2083308431 -> j3041481408;
+		j2083308431 -> j4052647102;
+	j478695742 [label="あんたは馬鹿じゃないから",shape=box,color=blue];
+		j478695742 -> j1830069131;
+	j1315681268 [label="生死に関わる話ではないから、別の機会にする。",shape=box,color=red];
+		j1315681268 -> j1573561201;
+	j3041481408 [label="でも、Lettieには貸しがある。",shape=box,color=red];
+		j3041481408 -> j745922871;
+	j4052647102 [label="でも…　え、待って。痛みがなんて？",shape=box,color=red];
+		j4052647102 -> j3144946918;
+	j1830069131 [label="そのお願いと言うのは*本当に*重要なの？",shape=box,color=blue];
+		j1830069131 -> j1675907858;
+		j1830069131 -> j1315681268;
+	j1573561201 [label="+10 Chemistry",color=orange];
+		j1573561201 -> j260461344;
+	j745922871 [label="そうね
+こんな子供向けのごっこ遊びの参加でキャッシュアウトすると言うの？",shape=box,color=blue];
+		j745922871 -> j1070322741;
+		j745922871 -> j3950458702;
+	j3144946918 [label="+10 Chemistry",color=orange];
+		j3144946918 -> j3481240009;
+	j1675907858 [label="Amirにとって重要だ。",shape=box,color=red];
+		j1675907858 -> j402315629;
+	j260461344 [label="Bueno",shape=box,color=blue];
+		j260461344 -> "Chat ends.";
+	j1070322741 [label="そうだ。そうするだけの価値がある。Amirにとって大切なことだ。",shape=box,color=red];
+		j1070322741 -> j2168340716;
+	j3950458702 [label="うーん…　じゃあ気にしないで。まだ取っておく。",shape=box,color=red];
+		j3950458702 -> j2447312624;
+	j3481240009 [label="フフッ
+期待しすぎないことねbabas
+Te queda grande la yegua",shape=box,color=blue];
+		j3481240009 -> "Chat ends.";
+	j2168340716 [label="Boolean LettieSmallFavor is now false.",color=orange];
+		j2168340716 -> j2029133021;
+	j2447312624 [label="+20 Chemistry",color=orange];
+		j2447312624 -> j286100484;
+	j2029133021 [label="+20 Chemistry",color=orange];
+		j2029133021 -> j1421178693;
+	j286100484 [label="賢い選択ね、babas
+さあ vete",shape=box,color=blue];
+		j286100484 -> "Chat ends.";
+	j1421178693 [label="好きにすれば、babas... 
+バカなゲームに参加するわ
+でも仕事が終わった後ね 
+さあ vete",shape=box,color=blue];
+		j1421178693 -> j952113720;
+	j952113720 [label="Boolean AmirRPGLettie is now true.",color=orange];
+		j952113720 -> j2581000439;
+	j2581000439 [label="Check boolean AmirRPGQuincy",color=orange];
+		j2581000439 -> j3146717934 [label=true,color=green];
+		j2581000439 -> j1692268193 [label=false,color=brown];
+	j3146717934 [label="Check boolean AmirRPGArthur",color=orange];
+		j3146717934 -> j655855753 [label=true,color=green];
+		j3146717934 -> j1692268193 [label=false,color=brown];
+	j1692268193 [label="Boolean AmirRPGAny is now true.",color=orange];
+		j1692268193 -> "Chat ends.";
+	j655855753 [label="Check boolean AmirRPGAoi",color=orange];
+		j655855753 -> j2643568913 [label=true,color=green];
+		j655855753 -> j1692268193 [label=false,color=brown];
+	j2643568913 [label="Check boolean AmirRPGEleanor",color=orange];
+		j2643568913 -> j3798570005 [label=true,color=green];
+		j2643568913 -> j1692268193 [label=false,color=brown];
+	j3798570005 [label="Boolean AmirRPGAll is now true.",color=orange];
+		j3798570005 -> "Chat ends.";
+}

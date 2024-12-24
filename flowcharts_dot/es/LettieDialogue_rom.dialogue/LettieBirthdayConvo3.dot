@@ -1,0 +1,19 @@
+digraph {
+	"LettieBirthdayConvo3 begins." [color=orange];
+		"LettieBirthdayConvo3 begins." -> j1450864191;
+		"LettieBirthdayConvo3 begins." -> j1941495345;
+	j1450864191 [label="¡Oye! ¿Tienes planes para tu cumpleaños?, ¿como irte a dormir temprano?",shape=box,color=red];
+		j1450864191 -> j740380396;
+	j1941495345 [label="¡Feliz cumpleaños! ¡Hay que ir a una discoteca!",shape=box,color=red];
+		j1941495345 -> j225679094;
+	j740380396 [label="+20 Chemistry",color=orange];
+		j740380396 -> j1692672242;
+	j225679094 [label="Jajajaja
+*No*",shape=box,color=blue];
+		j225679094 -> "Chat ends.";
+	j1692672242 [label="Jajajajaja
+Aaayyy, sí
+Un baño caliente y una siesta, el cumpleaños de mis sueños",shape=box,color=blue];
+		j1692672242 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

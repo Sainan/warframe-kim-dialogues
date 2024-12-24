@@ -1,0 +1,40 @@
+digraph {
+	"LettieAmirHack begins." [color=orange];
+		"LettieAmirHack begins." -> j3756166209;
+	j3756166209 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
+		j3756166209 -> j4155259149;
+		j3756166209 -> j2704612396;
+	j4155259149 [label="怒ってる気がする…",shape=box,color=red];
+		j4155259149 -> j4267752615;
+	j2704612396 [label="えっと…　ピーナッツバターは貰えなかったのかな…？",shape=box,color=red];
+		j2704612396 -> j4267752615;
+	j4267752615 [label="アタシにどうしろっていうの！
+ケチャップ袋500ケースを！
+¡DILE A ESE NIÑO QUE VENGA AQUÍ AHORA MISMO! 
+アイツにどうにかさせて！
+今すぐ！！",shape=box,color=blue];
+		j4267752615 -> j3220129079;
+		j4267752615 -> j982139816;
+	j3220129079 [label="その、これはただのミスだよ。AmirはLettieのネズミにピーナッツバター送ろうとしたんだ。",shape=box,color=red];
+		j3220129079 -> j416734990;
+	j982139816 [label="全部誤解だ。彼はLettieに贈り物をしようとしたんだ。",shape=box,color=red];
+		j982139816 -> j2009586094;
+	j416734990 [label="けど全部滅茶苦茶になって、自分も片付け手伝うからさ。",shape=box,color=red];
+		j416734990 -> j1002089814;
+	j2009586094 [label="知るか！
+¡¡SÁCALAS DE AQUÍ!! 
+¡¡AHORA!!",shape=box,color=blue];
+		j2009586094 -> "Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue";
+	j1002089814 [label="+20 Chemistry",color=orange];
+		j1002089814 -> j4005679326;
+	"Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue" [label="Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue",color=orange];
+		"Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue" -> "Chat ends.";
+	j4005679326 [label="¿SÍ? 
+あれmis panquecitos用だったの？",shape=box,color=blue];
+		j4005679326 -> j1092762936;
+	"Chat ends." [color=orange];
+	j1092762936 [label="¡Ay equis! 
+全部捨ててきなさい！
+¡¡AHORA!!",shape=box,color=blue];
+		j1092762936 -> "Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue";
+}

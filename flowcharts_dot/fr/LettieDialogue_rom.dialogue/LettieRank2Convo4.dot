@@ -1,0 +1,74 @@
+digraph {
+	"LettieRank2Convo4 begins." [color=orange];
+		"LettieRank2Convo4 begins." -> j3639082738;
+	j3639082738 [label="Check boolean LettieSmallFavor",color=orange];
+		j3639082738 -> j1759861474 [label=true,color=green];
+		j3639082738 -> j2252150797 [label=false,color=brown];
+	j1759861474 [label="Hola, babas 
+J'ai une autre petite faveur à te demander",shape=box,color=blue];
+		j1759861474 -> j3570663788;
+		j1759861474 -> j212302184;
+		j1759861474 -> j1560192775;
+	j2252150797 [label="Hola, babas 
+J'ai une petite faveur à te demander",shape=box,color=blue];
+		j2252150797 -> j1560192775;
+		j2252150797 -> j212302184;
+		j2252150797 -> j3570663788;
+	j3570663788 [label="Bien sûr. Quoi de neuf?",shape=box,color=red];
+		j3570663788 -> j433821376;
+	j212302184 [label="Tu sais que je ne suis pas ton domestique, n'est-ce pas?",shape=box,color=red];
+		j212302184 -> j1091868775;
+	j1560192775 [label="Fais tes courses toi-même. [Fin.]",shape=box,color=red];
+		j1560192775 -> "Chat ends.";
+	j433821376 [label="+10 Chemistry",color=orange];
+		j433821376 -> j292787103;
+	j1091868775 [label="Sí 
+Je parie que je pourrais t'amener à me supplier
+Mais tu es probablement trop faible pour ça",shape=box,color=blue];
+		j1091868775 -> j1604972443;
+		j1091868775 -> j602652765;
+	"Chat ends." [color=orange];
+	j292787103 [label="Bueno",shape=box,color=blue];
+		j292787103 -> j1682193042;
+	j1604972443 [label="Est-ce que... tu me menaces ou tu me dragues?",shape=box,color=red];
+		j1604972443 -> j663192525;
+	j602652765 [label="Vas-y.",shape=box,color=red];
+		j602652765 -> j1654999601;
+	j1682193042 [label="J'ai trop de travail à faire pour jouer à des petits jeux et courir partout 
+Ces civils collectionnent les blessures par balle comme Amir collectionne les ordinateurs",shape=box,color=blue];
+		j1682193042 -> j3522574202;
+	j663192525 [label="+10 Chemistry",color=orange];
+		j663192525 -> j1208610634;
+	j1654999601 [label="+10 Chemistry",color=orange];
+		j1654999601 -> j2074937918;
+	j3522574202 [label="Le fait est que les kits médicaux
+Il m'en faut plus 
+Trouve-les ou achète-les, je m'en fiche 
+Trouve-les-moi 
+Te lo agradecería mucho",shape=box,color=blue];
+		j3522574202 -> j2126549549;
+		j3522574202 -> j1967278458;
+		j3522574202 -> j510244892;
+	j1208610634 [label="¿Por qué no ambos? 
+Ne me distrais pas, babas",shape=box,color=blue];
+		j1208610634 -> j1682193042;
+	j2074937918 [label="Cuidadito, babas 
+Ne me distrais pas",shape=box,color=blue];
+		j2074937918 -> j1682193042;
+	j2126549549 [label="Je suis dessus.",shape=box,color=red];
+		j2126549549 -> j1350425999;
+	j1967278458 [label="Je ne te promets rien.",shape=box,color=red];
+		j1967278458 -> j523237473;
+	j510244892 [label="Trouve-les toi-même.",shape=box,color=red];
+		j510244892 -> "Chat ends.";
+	j1350425999 [label="+10 Chemistry",color=orange];
+		j1350425999 -> j2922128226;
+	j523237473 [label="+10 Chemistry",color=orange];
+		j523237473 -> j1695340611;
+	j2922128226 [label="Gracias",shape=box,color=blue];
+		j2922128226 -> j3889308430;
+	j1695340611 [label="Je comprends",shape=box,color=blue];
+		j1695340611 -> j3889308430;
+	j3889308430 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j3889308430 -> "Chat ends.";
+}

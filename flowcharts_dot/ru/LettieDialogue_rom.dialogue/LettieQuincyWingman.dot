@@ -1,0 +1,90 @@
+digraph {
+	"LettieQuincyWingman begins." [color=orange];
+		"LettieQuincyWingman begins." -> j3964039837;
+	j3964039837 [label="Check boolean IsDating",color=orange];
+		j3964039837 -> "Chat ends." [label=true,color=green];
+		j3964039837 -> j589854994 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j589854994 [label="Эй
+Куинси пришёл поговорить со мной
+Он сказал, что ты хочешь поговорить?
+¿Qué pasó?",shape=box,color=blue];
+		j589854994 -> j1277913046;
+	j1277913046 [label="Check boolean LettieNoDate",color=orange];
+		j1277913046 -> j642504656 [label=true,color=green];
+		j1277913046 -> j3387943458 [label=true,color=green];
+		j1277913046 -> j2711806961 [label=false,color=brown];
+		j1277913046 -> j3387943458 [label=false,color=brown];
+	j642504656 [label="Я просто... хочу извиниться, Лэтти. Вот и всё.",shape=box,color=red];
+		j642504656 -> j3601132662;
+	j3387943458 [label="Он, должно быть, ошибся. [Завершить]",shape=box,color=red];
+		j3387943458 -> j3597298798;
+	j2711806961 [label="Я... ну. У меня есть к тебе чувства.",shape=box,color=red];
+		j2711806961 -> j285831484;
+	j3601132662 [label="JAJA Sí, вот что он сказал
+Сначала я ему не поверила
+Но теперь я нахожусь под впечатлением, что он работает на тебя, да?
+Ay, снова я за своё...",shape=box,color=blue];
+		j3601132662 -> j4288868279;
+	j3597298798 [label="Lárgate de aquí, cabrón",shape=box,color=blue];
+		j3597298798 -> "Chat ends.";
+	j285831484 [label="Check boolean LettieHasDated",color=orange];
+		j285831484 -> j2891243814 [label=true,color=green];
+		j285831484 -> j4209796675 [label=false,color=brown];
+	j4288868279 [label="Ты просто хочешь извиниться, а я делаю это сложным для тебя
+Ладно
+Извинения приняты",shape=box,color=blue];
+		j4288868279 -> j3314740527;
+	j2891243814 [label="У тебя был шанс
+И он прошёл не так уж хорошо, правда?
+Но... aaaay, sí...
+Трудно признать, что я скучаю по тебе",shape=box,color=blue];
+		j2891243814 -> j1351620273;
+	j4209796675 [label="Тебе пришлось всё время держать это в себе?
+¿Por qué?
+Я прямо здесь",shape=box,color=blue];
+		j4209796675 -> j1121301554;
+		j4209796675 -> j3626260596;
+	j3314740527 [label="Он ещё сказал, что ты хочешь попробовать что-то со мной
+Нами
+Что-то вместе
+¿Verdad?",shape=box,color=blue];
+		j3314740527 -> j3870122855;
+		j3314740527 -> j2772996551;
+	j1351620273 [label="Ты хочешь попробовать снова?",shape=box,color=blue];
+		j1351620273 -> j3870122855;
+		j1351620273 -> j2772996551;
+	j1121301554 [label="У меня не нашлось воли сказать тебе.",shape=box,color=red];
+		j1121301554 -> j2266701319;
+	j3626260596 [label="Без понятия.",shape=box,color=red];
+		j3626260596 -> j2266701319;
+	j3870122855 [label="Да. :) Я хочу.",shape=box,color=red];
+		j3870122855 -> j1506092783;
+	j2772996551 [label="На самом деле, забудь.",shape=box,color=red];
+		j2772996551 -> j1763780602;
+	j2266701319 [label="Ну...
+Неважно
+Ты хочешь это сделать?",shape=box,color=blue];
+		j2266701319 -> j3870122855;
+		j2266701319 -> j2772996551;
+	j1506092783 [label="+20 Chemistry",color=orange];
+		j1506092783 -> j2513866535;
+	j1763780602 [label="¿Babas?
+Иногда мне хочется тебя ударить
+И это как раз один из таких моментов",shape=box,color=blue];
+		j1763780602 -> j3065772033;
+	j2513866535 [label="Sí, хорошо тогда
+Давай начнём
+¡Va!, у нас есть работа",shape=box,color=blue];
+		j2513866535 -> j1224573614;
+	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
+		j3065772033 -> "Chat ends.";
+	j1224573614 [label="Boolean LettieNoDate is now false.",color=orange];
+		j1224573614 -> j1219159457;
+	j1219159457 [label="Boolean IsDating is now true.",color=orange];
+		j1219159457 -> j1602277889;
+	j1602277889 [label="Boolean LettieDating is now true.",color=orange];
+		j1602277889 -> j2764521140;
+	j2764521140 [label="Boolean LettieHasDated is now true.",color=orange];
+		j2764521140 -> "Chat ends.";
+}

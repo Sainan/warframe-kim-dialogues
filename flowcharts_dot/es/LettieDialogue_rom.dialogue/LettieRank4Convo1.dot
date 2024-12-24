@@ -1,0 +1,79 @@
+digraph {
+	"LettieRank4Convo1 begins." [color=orange];
+		"LettieRank4Convo1 begins." -> j2836256772;
+		"LettieRank4Convo1 begins." -> j3756081396;
+		"LettieRank4Convo1 begins." -> j4011126774;
+	j2836256772 [label="Bueno, nunca supe la historia completa de como es que conociste a Arthur.",shape=box,color=red];
+		j2836256772 -> j260164047;
+	j3756081396 [label="¿Tienes un momento para chatear, Lettie?, ¿o estás muy ocupada?",shape=box,color=red];
+		j3756081396 -> j625563156;
+	j4011126774 [label="[Fin.]",shape=box,color=red];
+		j4011126774 -> "Chat ends.";
+	j260164047 [label="Eh, fue complicado
+Me imagino que no quieres saber la parte sangrienta
+Pero, si quieres saber
+Te lo diré",shape=box,color=blue];
+		j260164047 -> j4184677708;
+	j625563156 [label="+5 Chemistry",color=orange];
+		j625563156 -> j5082488;
+	"Chat ends." [color=orange];
+	j4184677708 [label="Estábamos asignados a la misma base
+Él en el ejército Britannic y yo en Libertatian
+Países diferentes, mismos enemigos",shape=box,color=blue];
+		j4184677708 -> j3566979811;
+	j5082488 [label="Siempre estoy ocupada
+Pero me puedo tomar un descanso
+¿Qué onda?",shape=box,color=blue];
+		j5082488 -> j280263786;
+	j3566979811 [label="Yo era la doctora de campo de mi regimiento 
+Nos desplegaron junto al suyo
+El lugar se volvió un verdadero cagadero 
+Muy rápido",shape=box,color=blue];
+		j3566979811 -> j3709800123;
+	j280263786 [label="Me estaba preguntando, ¿cómo es que tú y Arthur se conocieron?",shape=box,color=red];
+		j280263786 -> j260164047;
+	j3709800123 [label="La mayoría de mi tripulación no lo logró
+Muchos de la suya tampoco 
+Nos mantuvimos unidos 
+Literalmente 
+Le cosí su brazo jaja
+Cuando él se retiró y se fue a la RCI
+Lo seguí sin preguntar
+De todos modos, estaba cansada de todo el drama que había en el ejército",shape=box,color=blue];
+		j3709800123 -> j2866036211;
+	j2866036211 [label="Le dije que lo seguiría hasta el fin del mundo
+No me di cuenta de que lo seguiría hasta las orillas del Mictlán",shape=box,color=blue];
+		j2866036211 -> j927529685;
+	j927529685 [label="Te debe de parecer algo insignificante
+Una historia como esta
+Tú que has peleado con monstruos y dioses
+Tú que has bailado con La Flaca tantas veces",shape=box,color=blue];
+		j927529685 -> j884186611;
+	j884186611 [label="Boolean LettieArthur1 is now true.",color=orange];
+		j884186611 -> j4178041608;
+		j884186611 -> j3930266800;
+		j884186611 -> j1056112995;
+	j4178041608 [label="Solo porque mis peleas sean un poco espectaculares no significa que no pueda apreciar que tan horrible pudo haber sido eso.",shape=box,color=red];
+		j4178041608 -> j2847622865;
+	j3930266800 [label="Toda guerra es horrible, fin de la discusión.",shape=box,color=red];
+		j3930266800 -> j2055601159;
+	j1056112995 [label="Eh, gente insignificante, historias insignificantes.",shape=box,color=red];
+		j1056112995 -> j2603294825;
+	j2847622865 [label="+10 Chemistry",color=orange];
+		j2847622865 -> j478973663;
+	j2055601159 [label="+15 Chemistry",color=orange];
+		j2055601159 -> j1242334191;
+	j2603294825 [label="Seguro",shape=box,color=blue];
+		j2603294825 -> j3065772033;
+	j478973663 [label="Ay, sí 
+Brillante y llamativa o pequeña y personal
+La Flaca es la misma para todos al final
+Al menos... debería serlo
+Pero no para los fantasmas",shape=box,color=blue];
+		j478973663 -> "Chat ends.";
+	j1242334191 [label="Sí, para todos es lo mismo
+No importa que tan grandes y estúpidas sean las armas",shape=box,color=blue];
+		j1242334191 -> "Chat ends.";
+	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
+		j3065772033 -> "Chat ends.";
+}

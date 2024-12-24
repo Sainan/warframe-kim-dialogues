@@ -1,0 +1,90 @@
+digraph {
+	"LettieQuincyWingman begins." [color=orange];
+		"LettieQuincyWingman begins." -> j3964039837;
+	j3964039837 [label="Check boolean IsDating",color=orange];
+		j3964039837 -> "Chat ends." [label=true,color=green];
+		j3964039837 -> j4230338323 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j4230338323 [label="Hey
+Quincy kam, um mit mir zu sprechen
+Sagte, du willst reden?
+¿Qué pasó?",shape=box,color=blue];
+		j4230338323 -> j1277913046;
+	j1277913046 [label="Check boolean LettieNoDate",color=orange];
+		j1277913046 -> j3669797906 [label=true,color=green];
+		j1277913046 -> j444419407 [label=true,color=green];
+		j1277913046 -> j2128138225 [label=false,color=brown];
+		j1277913046 -> j444419407 [label=false,color=brown];
+	j3669797906 [label="Ich wollte ... mich nur entschuldigen, Lettie. Das ist alles.",shape=box,color=red];
+		j3669797906 -> j39138472;
+	j444419407 [label="Er muss sich geirrt haben. [Ende.]",shape=box,color=red];
+		j444419407 -> j3597298798;
+	j2128138225 [label="Ich ... nun. Ich habe Gefühle für dich.",shape=box,color=red];
+		j2128138225 -> j285831484;
+	j39138472 [label="JAJA Sí, das sagte er
+Habe ihm zuerst nicht geglaubt
+Bin aber beeindruckt, er arbeitet jetzt wohl für dich, wie?
+Ay, ich schon wieder ...",shape=box,color=blue];
+		j39138472 -> j270110826;
+	j3597298798 [label="Lárgate de aquí, cabrón",shape=box,color=blue];
+		j3597298798 -> "Chat ends.";
+	j285831484 [label="Check boolean LettieHasDated",color=orange];
+		j285831484 -> j3561674749 [label=true,color=green];
+		j285831484 -> j1288473691 [label=false,color=brown];
+	j270110826 [label="Du willst dich nur entschuldigen und ich mache es dir schwer
+Alles klar
+Entschuldigung angenommen",shape=box,color=blue];
+		j270110826 -> j4077321098;
+	j3561674749 [label="Du hattest deine Chance
+Und es lief nicht so gut, oder?
+Aber ... aaaay, sí ...
+Gebe es nicht gerne zu, aber du fehlst mir",shape=box,color=blue];
+		j3561674749 -> j3891268659;
+	j1288473691 [label="Du hast das die ganze Zeit für dich behalten?
+¿Por qué?
+Ich bin direkt vor dir",shape=box,color=blue];
+		j1288473691 -> j481867343;
+		j1288473691 -> j884025265;
+	j4077321098 [label="Er sagte *auch*, dass du es mit mir versuchen möchtest
+Uns
+Eine Sache, miteinander
+¿Verdad?",shape=box,color=blue];
+		j4077321098 -> j2143875220;
+		j4077321098 -> j4128397846;
+	j3891268659 [label="Möchtest du es noch einmal versuchen?",shape=box,color=blue];
+		j3891268659 -> j2143875220;
+		j3891268659 -> j4128397846;
+	j481867343 [label="Konnte es dir nicht eingestehen.",shape=box,color=red];
+		j481867343 -> j3479749875;
+	j884025265 [label="Keine Ahnung.",shape=box,color=red];
+		j884025265 -> j3479749875;
+	j2143875220 [label="Ja. :) Das würde ich.",shape=box,color=red];
+		j2143875220 -> j1719699660;
+	j4128397846 [label="Eigentlich, nein vergiss es.",shape=box,color=red];
+		j4128397846 -> j422534909;
+	j3479749875 [label="Also ...
+Was auch immer
+Willst du es?",shape=box,color=blue];
+		j3479749875 -> j2143875220;
+		j3479749875 -> j4128397846;
+	j1719699660 [label="+20 Chemistry",color=orange];
+		j1719699660 -> j1484194212;
+	j422534909 [label="¿Babas?
+Manchmal möchte ich dir eine runterhauen
+So wie jetzt gerade",shape=box,color=blue];
+		j422534909 -> j3065772033;
+	j1484194212 [label="Sí, na gut
+Dann lass uns weitermachen
+¡Va!, es gibt viel zu tun",shape=box,color=blue];
+		j1484194212 -> j1224573614;
+	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
+		j3065772033 -> "Chat ends.";
+	j1224573614 [label="Boolean LettieNoDate is now false.",color=orange];
+		j1224573614 -> j1219159457;
+	j1219159457 [label="Boolean IsDating is now true.",color=orange];
+		j1219159457 -> j1602277889;
+	j1602277889 [label="Boolean LettieDating is now true.",color=orange];
+		j1602277889 -> j2764521140;
+	j2764521140 [label="Boolean LettieHasDated is now true.",color=orange];
+		j2764521140 -> "Chat ends.";
+}

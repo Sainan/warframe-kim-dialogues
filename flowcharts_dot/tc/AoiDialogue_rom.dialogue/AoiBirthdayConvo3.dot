@@ -1,0 +1,16 @@
+digraph {
+	"AoiBirthdayConvo3 begins." [color=orange];
+		"AoiBirthdayConvo3 begins." -> j4199242476;
+		"AoiBirthdayConvo3 begins." -> j2434457677;
+	j4199242476 [label="生日快樂。",shape=box,color=red];
+		j4199242476 -> j611524572;
+	j2434457677 [label="葵，生日快樂！希望您度過愉快的一天！",shape=box,color=red];
+		j2434457677 -> j3955926218;
+	j611524572 [label="謝謝",shape=box,color=blue];
+		j611524572 -> "Chat ends.";
+	j3955926218 [label="+20 Chemistry",color=orange];
+		j3955926218 -> j3416604956;
+	"Chat ends." [color=orange];
+	j3416604956 [label="你知道嗎，我今天真的很好！<RETRO_EMOJI_AOICAT> 謝謝你喔！",shape=box,color=blue];
+		j3416604956 -> "Chat ends.";
+}

@@ -1,0 +1,79 @@
+digraph {
+	"LettieRank4Convo1 begins." [color=orange];
+		"LettieRank4Convo1 begins." -> j2133279091;
+		"LettieRank4Convo1 begins." -> j3816252204;
+		"LettieRank4Convo1 begins." -> j1085296427;
+	j2133279091 [label="それで、LettieがArthurと出会った話まだ聞いていないけど。",shape=box,color=red];
+		j2133279091 -> j482648606;
+	j3816252204 [label="ちょっとチャットできる、Lettie？　それとも忙しい？",shape=box,color=red];
+		j3816252204 -> j3146808653;
+	j1085296427 [label="[閉じる]",shape=box,color=red];
+		j1085296427 -> "Chat ends.";
+	j482648606 [label="Eh、酷かったわよ
+血まみれの詳細は欲しくないと思ってた
+けど、sí、知りたいなら
+教えるわ",shape=box,color=blue];
+		j482648606 -> j2792236542;
+	j3146808653 [label="+5 Chemistry",color=orange];
+		j3146808653 -> j1509513741;
+	"Chat ends." [color=orange];
+	j2792236542 [label="アタシたちは同じ基地で一緒に駐屯していた
+彼はブリタニア軍でアタシはリバタチア軍
+国は違えど、共通の敵",shape=box,color=blue];
+		j2792236542 -> j2653728263;
+	j1509513741 [label="いつでも忙しい
+けど休憩は必要
+¿Qué onda?",shape=box,color=blue];
+		j1509513741 -> j2571186739;
+	j2653728263 [label="アタシは連隊に仕える戦場医だった
+彼のとこの隣に配備された
+そして戦場はcagaderoになった
+一瞬の出来事よ",shape=box,color=blue];
+		j2653728263 -> j1796476365;
+	j2571186739 [label="Arthurとはどうやって出会ったの？",shape=box,color=red];
+		j2571186739 -> j482648606;
+	j1796476365 [label="アタシの隊員のほとんどは生き残れなかった 
+彼の隊員も
+アタシたちはお互いを繋ぎながら支えた
+文字通りにね
+彼の腕をちゃんと縫い合わせたの jaja 
+彼が引退して国危対に入隊したとき 
+アタシは何も異論をとなえず彼を追った 
+軍隊で起こるドラマにはうんざりしていたから",shape=box,color=blue];
+		j1796476365 -> j2459724644;
+	j2459724644 [label="彼を地球の果てまで付いていくと伝えた
+それがまさかMictlánのフチまで行く事になるなんてね",shape=box,color=blue];
+		j2459724644 -> j2180691318;
+	j2180691318 [label="あんたにとっては本当に些細なことでしょうね
+こんなお話
+怪物や神と戦うあんたからすれば
+La Flacaと何度も踊っている身からすれば",shape=box,color=blue];
+		j2180691318 -> j884186611;
+	j884186611 [label="Boolean LettieArthur1 is now true.",color=orange];
+		j884186611 -> j3392520539;
+		j884186611 -> j1250150854;
+		j884186611 -> j3839636286;
+	j3392520539 [label="自分の戦いが少し華々しいからと言って、ソレがどれほど悲惨だったか理解できないワケじゃない。",shape=box,color=red];
+		j3392520539 -> j3839545846;
+	j1250150854 [label="戦争は全部クソだ、それで終わり。",shape=box,color=red];
+		j1250150854 -> j1703525240;
+	j3839636286 [label="うん、些細な人と些細な話。",shape=box,color=red];
+		j3839636286 -> j2603294825;
+	j3839545846 [label="+10 Chemistry",color=orange];
+		j3839545846 -> j3400253361;
+	j1703525240 [label="+15 Chemistry",color=orange];
+		j1703525240 -> j1595901024;
+	j2603294825 [label="Seguro",shape=box,color=blue];
+		j2603294825 -> j3065772033;
+	j3400253361 [label="Ay, sí
+明るく派手か小さく個人的か
+結末はLa Flacaなのは全て同じ
+少なくとも…　そうあるべきよ
+けどlos fantasmasにとっては違う",shape=box,color=blue];
+		j3400253361 -> "Chat ends.";
+	j1595901024 [label="Sí、どれも全て同じね
+どれだけ銃が馬鹿げて大きくなっても",shape=box,color=blue];
+		j1595901024 -> "Chat ends.";
+	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
+		j3065772033 -> "Chat ends.";
+}

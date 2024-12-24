@@ -1,0 +1,520 @@
+digraph {
+	"LettieRank5Convo1 begins." [color=orange];
+		"LettieRank5Convo1 begins." -> j758997912;
+	j758997912 [label="Check boolean LettieDating",color=orange];
+		j758997912 -> j1790836991 [label=true,color=green];
+		j758997912 -> j1919935707 [label=true,color=green];
+		j758997912 -> j2369411988 [label=true,color=green];
+		j758997912 -> j3835306556 [label=false,color=brown];
+	j1790836991 [label="元気にしてる？",shape=box,color=red];
+		j1790836991 -> j3312442805;
+	j1919935707 [label="今日はどんな具合、スイートハート？",shape=box,color=red];
+		j1919935707 -> j2916503063;
+	j2369411988 [label="お気に入りのワルちゃんは今日どうしてる？",shape=box,color=red];
+		j2369411988 -> j2916503063;
+	j3835306556 [label="Check boolean LettieShoulder",color=orange];
+		j3835306556 -> j1790836991 [label=true,color=green];
+		j3835306556 -> j2369411988 [label=true,color=green];
+		j3835306556 -> j1876554200 [label=false,color=brown];
+		j3835306556 -> j4149438682 [label=false,color=brown];
+	j3312442805 [label="いいえ
+元気じゃない
+長いこと大丈夫じゃないの
+でも大丈夫のフリをする必要がある
+いつだって強い人であり続ける、でしょう？",shape=box,color=blue];
+		j3312442805 -> j1973730920;
+	j2916503063 [label="最悪よ",shape=box,color=blue];
+		j2916503063 -> j1801937487;
+		j2916503063 -> j2342344143;
+	j1876554200 [label="ねぇLettie、ネズミについてちょっと聞いていい？",shape=box,color=red];
+		j1876554200 -> j3998066010;
+	j4149438682 [label="ねぇLettie、好きな食べ物って何？",shape=box,color=red];
+		j4149438682 -> j3998066010;
+	j1973730920 [label="けどもしアタシがそれを望まないなら
+もし違ったら
+もし自分が崩れるのを感じたら…
+Lo siento, solecitoよ、こんなこと聞きたくないわよね",shape=box,color=blue];
+		j1973730920 -> j3004892636;
+		j1973730920 -> j887889664;
+	j1801937487 [label="大丈夫？",shape=box,color=red];
+		j1801937487 -> j1711613584;
+	j2342344143 [label="え、えと。後でメッセージ送った方がいい？",shape=box,color=red];
+		j2342344143 -> j1625059711;
+	j3998066010 [label="今はダメbabas",shape=box,color=blue];
+		j3998066010 -> j1801937487;
+		j3998066010 -> j3675841310;
+		j3998066010 -> j2356982303;
+	j3004892636 [label="うん、その…　コーヒーでもどうかなって思っただけ。",shape=box,color=red];
+		j3004892636 -> j2647193779;
+	j887889664 [label="自分はLettieの味方だ。大切に思ってる。話してくれ。",shape=box,color=red];
+		j887889664 -> j1530832096;
+	j1711613584 [label="いいえ
+何も大丈夫じゃない
+長いこと大丈夫じゃないの
+けど時間にはもう何も意味がないのでしょう？！
+あんたとあのcabrónがそれを見届けた",shape=box,color=blue];
+		j1711613584 -> j3591584756;
+	j1625059711 [label="Vete
+後なんてどこにもない",shape=box,color=blue];
+		j1625059711 -> j188189865;
+		j1625059711 -> j978826728;
+	j3675841310 [label="忙しいなら、後でチャットできるよ。",shape=box,color=red];
+		j3675841310 -> j1625059711;
+	j2356982303 [label="間が悪かったらごめん。",shape=box,color=red];
+		j2356982303 -> j2655112909;
+	j2647193779 [label="Sí 
+いいわね",shape=box,color=blue];
+		j2647193779 -> j602183822;
+	j1530832096 [label="あんたはアタシのセラピストじゃない
+アタシがバカなチビniñaみたいに泣いてるのを聞く必要はない",shape=box,color=blue];
+		j1530832096 -> j1361205681;
+	j3591584756 [label="自分のせいだと言いたいの？",shape=box,color=red];
+		j3591584756 -> j2048630283;
+	j188189865 [label="何か怒らせるようなことした？",shape=box,color=red];
+		j188189865 -> j2048630283;
+	j978826728 [label="どうかしたの？",shape=box,color=red];
+		j978826728 -> j899177396;
+	j2655112909 [label="Ay, sÍ
+あんたのごめんで壁を覆えそう
+それなら何かの用途が出るかもね",shape=box,color=blue];
+		j2655112909 -> "Chat ends.";
+	j602183822 [label="Boolean LettieRealNo is now true.",color=orange];
+		j602183822 -> "Chat ends.";
+	j1361205681 [label="Check boolean LettieDating",color=orange];
+		j1361205681 -> j804625680 [label=true,color=green];
+		j1361205681 -> j2789193436 [label=false,color=brown];
+	j2048630283 [label="あんたとあんたのpincheデタラメタイムループのせいよ
+それさえなければアタシたちは死ねていた",shape=box,color=blue];
+		j2048630283 -> j597791259;
+		j2048630283 -> j3901377322;
+	j899177396 [label="SÍ 
+長いこと何もかも
+けど時間にはもう何も意味がないのでしょう？！
+あんたとあのcabrónがそれを見届けた",shape=box,color=blue];
+		j899177396 -> j3591584756;
+		j899177396 -> j3429221852;
+	"Chat ends." [color=orange];
+	j804625680 [label="Lettieと自分は付き合ってるだろ。それは自分にとって*重要*なんだ。",shape=box,color=red];
+		j804625680 -> j3719963567;
+	j2789193436 [label="Lettieと自分は親しい友人になった。大切なんだ。それは自分にとって*重要*なんだ。",shape=box,color=red];
+		j2789193436 -> j3719963567;
+	j597791259 [label="待った。一旦待って。死んでないことに怒ってるの？！",shape=box,color=red];
+		j597791259 -> j3314989560;
+	j3901377322 [label="自分はサンドバッグじゃないよ、Lettie。こんな扱いは望まない。",shape=box,color=red];
+		j3901377322 -> j418888646;
+	j3429221852 [label="えっと…　ケンカ相手探してる？",shape=box,color=red];
+		j3429221852 -> j20805301;
+	j3719963567 [label="Lettieは自分が*人生*で会った中で一番強い人だと思う。弱音吐く人じゃない。",shape=box,color=red];
+		j3719963567 -> j3195654021;
+		j3719963567 -> j3324334372;
+	j3314989560 [label="アタシは自分が死ねないことに怒ってるの、BABAS！
+分からないかしら
+死のない命はちっぽけすぎる
+気付いたら自問自答してたわ
+これに何の意味が？！",shape=box,color=blue];
+		j3314989560 -> j59843167;
+	j418888646 [label="Sí
+尻尾を巻いて逃げなさい、babas",shape=box,color=blue];
+		j418888646 -> "Chat ends.";
+	j20805301 [label="そうかも
+そうじゃないかも
+とうとうこのpendejadas全部にウンザリしたのかも",shape=box,color=blue];
+		j20805301 -> j765278047;
+		j20805301 -> j3901377322;
+	j3195654021 [label="もし話したいなら、自分が話を聞く。",shape=box,color=red];
+		j3195654021 -> j1405796154;
+	j3324334372 [label="話してくれ。",shape=box,color=red];
+		j3324334372 -> j1405796154;
+	j59843167 [label="何の意味があるって言うの？！
+これ全てに意味なんてあるのbabas
+アタシたちは皆古い生と古い死を演じるfantasmas
+変わることはない夢の中を歩く
+ふざけている！",shape=box,color=blue];
+		j59843167 -> j2964232973;
+	j765278047 [label="一旦落ち着いてどうしたのか教えて欲しい。",shape=box,color=red];
+		j765278047 -> j59843167;
+	j1405796154 [label="Check boolean LettieDating",color=orange];
+		j1405796154 -> j890389294 [label=true,color=green];
+		j1405796154 -> j954933146 [label=false,color=brown];
+	j2964232973 [label="アタシはここに立つ
+民間人を元に治す
+毎日毎日
+彼らはそれに意味がないことを理解していない
+もし今ここで死んでも、ただ戻ってくるだけ
+彼らはただの夢遊病のfantasmasだから
+一方アタシたちは何に苦しんでるか分かっている",shape=box,color=blue];
+		j2964232973 -> j1567609695;
+	j890389294 [label="んんんsolecitoお世辞は嫌い
+いいわ、いい…　アタシはただここに立って、民間人の列を見ながらいつの間にか考えてた
+何の意味があるんだろうって",shape=box,color=blue];
+		j890389294 -> j52932448;
+	j954933146 [label="んんん、お世辞は嫌い
+いいわ、いい…　アタシはただここに立って、民間人の列を見ながらいつの間にか考えてた
+何の意味があるんだろうって",shape=box,color=blue];
+		j954933146 -> j52932448;
+	j1567609695 [label="暴れ回ることもできる
+冷血に全員殺せる
+そして新年が来れば
+皆戻って来る、¿no?",shape=box,color=blue];
+		j1567609695 -> j3735482842;
+		j1567609695 -> j1694041460;
+	j52932448 [label="彼らは撃たれたり、殺される
+アタシは治すか、治さず死なせる
+彼らは意味がないことを理解していない
+もし死んでも、新年には
+始まりと共に戻って来るの",shape=box,color=blue];
+		j52932448 -> j367919926;
+	j3735482842 [label="そうだね。けど…　頼むからやめて。他のメンバーに説明するのが大変そうだ。",shape=box,color=red];
+		j3735482842 -> j3744622591;
+	j1694041460 [label="けど変わることは可能なんだ。大きな変化じゃなくても、意味のある方向に。周りを見てみなよ。",shape=box,color=red];
+		j1694041460 -> j1633238268;
+	j367919926 [label="彼らは悪夢を彷徨うただの夢遊病のfantasmas
+アタシたちは自分が何なのか知っているlos fantasmas
+どちらがマシか分からない",shape=box,color=blue];
+		j367919926 -> j1917210403;
+	j3744622591 [label="もしトースターをお風呂に持ち込んで
+自殺したら
+どうなるの？！
+もう一つの記憶で死んだことは分かってる
+あの悪夢で",shape=box,color=blue];
+		j3744622591 -> j1996647076;
+	j1633238268 [label="Ay, sí
+今は迷い子を集めてる、bueno、極一部のfantasmasも苦しみが和らいでる
+少しはあちこちで変わってく、確かにね
+けどあんたがアタシたちを何にしたかについてはどう
+もう一つの記憶で死んだことは分かってる",shape=box,color=blue];
+		j1633238268 -> j1996647076;
+	j1917210403 [label="Check boolean LettieShoulder2",color=orange];
+		j1917210403 -> j1095066374 [label=true,color=green];
+		j1917210403 -> j3062351178 [label=false,color=brown];
+	j1996647076 [label="アタシをあそこに残すべきだった
+死なせればよかった
+アタシたちはfantasmasの存在じゃない
+アタシたちはantinaturales、人は永遠に生きるべきじゃない、死を許されるべき",shape=box,color=blue];
+		j1996647076 -> j170922883;
+		j1996647076 -> j1596253778;
+	j1095066374 [label="けど変わることは可能なんだ。大きな変化じゃなくても、意味のある方向に。周りを見てみなよ。",shape=box,color=red];
+		j1095066374 -> j461332215;
+	j3062351178 [label="けどここにはそれを乗り越えるため助けになるものがある。家族だ。Lettieがそれを望めば。",shape=box,color=red];
+		j3062351178 -> j3025595357;
+	j170922883 [label="気持ちは…　分かるよ、Lettie。本当に。自分の一生は誰かの計画の犠牲者だった。オロキン。壁の中のモノ。そして今はEntrati。",shape=box,color=red];
+		j170922883 -> j1391182525;
+	j1596253778 [label="Lettieには選択肢がある。永遠に被害者意識を持ち続けるか、これを新しい人生のきっかけにするか。",shape=box,color=red];
+		j1596253778 -> j936726038;
+	j461332215 [label="この人たちには新しい家を与えてる。新たな希望を。それがどれだけ少なく感じても、結局は意味がなくても…",shape=box,color=red];
+		j461332215 -> j2834892973;
+	j3025595357 [label="Check boolean LettieNoHome",color=orange];
+		j3025595357 -> j3070164803 [label=true,color=green];
+		j3025595357 -> j2936496784 [label=false,color=brown];
+	j1391182525 [label="けど、皆が死ぬのを見たとき、選択肢があった。Lettieたちを犠牲者のままにするか…　それとも、助けようとするか。",shape=box,color=red];
+		j1391182525 -> j2989552573;
+	j936726038 [label="そう、これはタイムループだ。確かにあまり変化はない。けど、重要なものが変化しているってわかるか？　自分たちだ。自分たちが何者か、何を知っているか。何を感じるか。",shape=box,color=red];
+		j936726038 -> j4249782655;
+	j2834892973 [label="けどそれがLettieがヒーラーである理由じゃない？　大事なのは努力と希望の行いに優しさでしょ？　最終的にどこに行き着くかじゃなくてさ？",shape=box,color=red];
+		j2834892973 -> j3053231168;
+	j3070164803 [label="Lettieには故郷がないと感じたことあるのは知っている。居場所を持ったことがなかった。自分のように。",shape=box,color=red];
+		j3070164803 -> j644803481;
+	j2936496784 [label="周りを見なよ。民間人を。ヘックスを。自分を。",shape=box,color=red];
+		j2936496784 -> j9963747;
+	j2989552573 [label="自分がLettieたちの代わりにする判断じゃなかったかもしれない。それで自分を恨みたいなら？　いいよ。恨んでくれ。",shape=box,color=red];
+		j2989552573 -> j3079764234;
+	j4249782655 [label="だから、これはLettieが思い浮かべるような人生とは違う。二度と「普通」は体験できないだろう。",shape=box,color=red];
+		j4249782655 -> j3671986319;
+	j3053231168 [label="Boolean LettieKindness is now true.",color=orange];
+		j3053231168 -> j1209355299;
+	j644803481 [label="ここがLettieの家族になるかもしれない。Lettieの居場所に。Lettieが望めば。そう受け入れれば。",shape=box,color=red];
+		j644803481 -> j3999453193;
+	j9963747 [label="ここがLettieの家族になるかもしれない。Lettieが望めば。そう受け入れれば。",shape=box,color=red];
+		j9963747 -> j3999453193;
+	j3079764234 [label="けどLettieだって救えるのならチームを死なせることはしないだろ。彼らを犠牲者のままにしないために。",shape=box,color=red];
+		j3079764234 -> j3188221405;
+	j3671986319 [label="けど人生に生きる価値を与えられるものがここにはあるんだ。",shape=box,color=red];
+		j3671986319 -> j1432709510;
+	j1209355299 [label="Check boolean LettieDating",color=orange];
+		j1209355299 -> j1742520894 [label=true,color=green];
+		j1209355299 -> j307728627 [label=false,color=brown];
+	j3999453193 [label="Boolean LettieNewFamily is now true.",color=orange];
+		j3999453193 -> j402027684;
+	j3188221405 [label="犠牲者を救うのに何の意味があるの
+今のこれは命ではないわbabas
+このfantasmasの悪夢は命では全くない",shape=box,color=blue];
+		j3188221405 -> j4171485788;
+	j1432709510 [label="Ay sí
+古いピザと廃墟と化したモール
+悲しむ迷い子の民間人
+それと決して終わらないスカルドラとの戦争
+この人生のどこに生きる価値があるのか教えてよ",shape=box,color=blue];
+		j1432709510 -> j4171485788;
+	j1742520894 [label="+20 Chemistry",color=orange];
+		j1742520894 -> j1261163669;
+	j307728627 [label="Check boolean LettieNoFlirt",color=orange];
+		j307728627 -> j349482673 [label=true,color=green];
+		j307728627 -> j595471235 [label=false,color=brown];
+	j402027684 [label="Check boolean LettieDating",color=orange];
+		j402027684 -> j1012556296 [label=true,color=green];
+		j402027684 -> j2858993458 [label=false,color=brown];
+	j4171485788 [label="Check boolean LettieDating",color=orange];
+		j4171485788 -> j2443181751 [label=true,color=green];
+		j4171485788 -> j520598141 [label=true,color=green];
+		j4171485788 -> j2170656458 [label=true,color=green];
+		j4171485788 -> j2533447993 [label=false,color=brown];
+	j1261163669 [label="アタシは…
+あんたにアタシのmentirasを説教されるのは好きになれそうにない
+Sí…　でも…　あんたが正しい
+時々アタシは戦いに疲れ果てるの、分かる？
+アタシは独りで戦ってるワケじゃないと忘れてた",shape=box,color=blue];
+		j1261163669 -> j2398458019;
+	j349482673 [label="それに、こっちはLettieを家族のように思っているのに、こんなLettieを見るのは辛いよ。",shape=box,color=red];
+		j349482673 -> j1572550499;
+	j595471235 [label="Check boolean IsDating",color=orange];
+		j595471235 -> j349482673 [label=true,color=green];
+		j595471235 -> j349482673 [label=false,color=brown];
+		j595471235 -> j1643344114 [label=false,color=brown];
+	j1012556296 [label="+20 Chemistry",color=orange];
+		j1012556296 -> j3662573944;
+	j2858993458 [label="Check boolean LettieNoFlirt",color=orange];
+		j2858993458 -> j1012556296 [label=true,color=green];
+		j2858993458 -> j1275210309 [label=false,color=brown];
+		j2858993458 -> j1643344114 [label=false,color=brown];
+	j2443181751 [label="こっちがこの関係を遊びだと思ってるって言いたいの？！　自分にとってLettieは大切じゃないって？！",shape=box,color=red];
+		j2443181751 -> j1653065876;
+	j520598141 [label="周りを見なよ。Lettieが持っているものを。周りの家族たちを。Lettieを大事に思う人たちを。",shape=box,color=red];
+		j520598141 -> j1773728656;
+	j2170656458 [label="Lettieからは迷い子に見えても、こっちからは最悪の時に互いを支え合う人たちが見える。それは美しいものだと思う。",shape=box,color=red];
+		j2170656458 -> j2521771874;
+	j2533447993 [label="Check boolean LettieNoFlirt",color=orange];
+		j2533447993 -> j520598141 [label=true,color=green];
+		j2533447993 -> j520598141 [label=false,color=brown];
+		j2533447993 -> j2170656458 [label=false,color=brown];
+		j2533447993 -> j3343806344 [label=false,color=brown];
+	j2398458019 [label="人生はアタシたちが持つ瞬間が大切
+アタシたちが互いを労る瞬間
+そして今は…　それが永遠にある、そうでしょ？
+Gracias, solecito ... neta",shape=box,color=blue];
+		j2398458019 -> "Chat ends.";
+	j1572550499 [label="+20 Chemistry",color=orange];
+		j1572550499 -> j3710202567;
+	j1643344114 [label="それに…　こんなLettieを見るのが辛い理由はもう一つある。[告白する]",shape=box,color=red];
+		j1643344114 -> j2961989245;
+	j3662573944 [label="アタシは…
+あんたにアタシのmentirasを説教されるのは好きになれそうにない
+Sí…　でも…　あんたが正しい
+時々アタシは考えすぎて自分は独りじゃないと忘れる",shape=box,color=blue];
+		j3662573944 -> j826711166;
+	j1275210309 [label="それに、こっちはLettieを家族のように思っているのに、こんなLettieを見るのは辛いよ。",shape=box,color=red];
+		j1275210309 -> j3293377216;
+	j1653065876 [label="実際どうなの？
+そう思っているかって？
+人生ずっと独りで、今までになかったチャンスを手にした人が見える
+何に巻き込まれたのか分かっていないのかも",shape=box,color=blue];
+		j1653065876 -> j326891988;
+		j1653065876 -> j2177903349;
+	j1773728656 [label="Lettieが自らの命を失ったように感じてるのは分かる。家族を。",shape=box,color=red];
+		j1773728656 -> j3577600353;
+	j2521771874 [label="もしそこに交わりたくないなら、勝手にすればいい。選択はLettieにあるんだ。他の誰でもなくLettieにあるんだ。",shape=box,color=red];
+		j2521771874 -> j3993057040;
+	j3343806344 [label="自分にとってLettieがどれだけ大切か分からないほど周りが見えていないのか？！[告白する]",shape=box,color=red];
+		j3343806344 -> j3711119668;
+	j3710202567 [label="アタシは…
+あんたにアタシのmentirasを説教されるのは好きになれそうにない
+Sí…　でも…　あんたが正しい
+時々アタシは戦いに疲れ果てるの、分かる？
+アタシは独りで戦ってるワケじゃないと忘れてた",shape=box,color=blue];
+		j3710202567 -> j3632935937;
+	j2961989245 [label="¿Ay sí?",shape=box,color=blue];
+		j2961989245 -> j3711119668;
+	j826711166 [label="アタシの周りにはfamilia がいるって思い出す必要があるのね
+先行きが暗くなったときに頼れる人が
+Gracias, solecito ... en serio",shape=box,color=blue];
+		j826711166 -> "Chat ends.";
+	j3293377216 [label="+20 Chemistry",color=orange];
+		j3293377216 -> j2113376545;
+	j326891988 [label="あぁそうかい。はいはい、そんなこと言うんだ。自分はナイーブでこの好意は偽りだって。",shape=box,color=red];
+		j326891988 -> j2621394124;
+	j2177903349 [label="こっちからは傷付きながら、その痛みを処理する代わりにケンカを売ってくる人が見える。",shape=box,color=red];
+		j2177903349 -> j3135002578;
+	j3577600353 [label="Check boolean LettieCavia",color=orange];
+		j3577600353 -> j3219620444 [label=true,color=green];
+		j3577600353 -> j2580621320 [label=false,color=brown];
+	j3993057040 [label="Check boolean LettieRats1",color=orange];
+		j3993057040 -> j444945050 [label=true,color=green];
+		j3993057040 -> j1046991424 [label=false,color=brown];
+	j3711119668 [label="自分がバカだとか何だとか、手に負えないとか言う前に、最後まで話を聞いて。",shape=box,color=red];
+		j3711119668 -> j2347375518;
+		j3711119668 -> j685847569;
+		j3711119668 -> j1425983256;
+	j3632935937 [label="人生はアタシたちが持つ瞬間が大切
+アタシたちが互いを労る瞬間
+そして今は…　それが永遠にある、そうでしょ？
+Gracias ... en serio",shape=box,color=blue];
+		j3632935937 -> "Chat ends.";
+	j2113376545 [label="アタシは…
+あんたにアタシのmentirasを説教されるのは好きになれそうにない
+Sí…　でも…　あんたが正しい
+時々アタシは考えすぎて自分は独りじゃないと忘れる",shape=box,color=blue];
+		j2113376545 -> j594149089;
+	j2621394124 [label="Sí
+そう言ってるのよ
+もうvete",shape=box,color=blue];
+		j2621394124 -> j2583963012;
+		j2621394124 -> j1547322088;
+	j3135002578 [label="¡¿Ay, sí?! 
+説明して",shape=box,color=blue];
+		j3135002578 -> j382987100;
+	j3219620444 [label="誰もカビアを救う価値があると思っていなかった。Loidはカビアを死なせるべきだったのか？",shape=box,color=red];
+		j3219620444 -> j1253465305;
+	j2580621320 [label="Check boolean LettieNoHome",color=orange];
+		j2580621320 -> j851569350 [label=true,color=green];
+		j2580621320 -> j1758276332 [label=false,color=brown];
+	j444945050 [label="それに、結局は無意味だとしても、野良の動物こそ救う価値が一番ある、でしょ？",shape=box,color=red];
+		j444945050 -> j1046991424;
+	j1046991424 [label="思いやりの行為、挑戦の行為、それが肝心じゃないのか？",shape=box,color=red];
+		j1046991424 -> j3703448952;
+	j2347375518 [label="Lettieは本当に美しい。強烈に賢い。フィジカルな強さもある。けど自分にとってLettieが大切な理由はそれだけじゃない。",shape=box,color=red];
+		j2347375518 -> j2314855347;
+		j2347375518 -> j3585737597;
+	j685847569 [label="Lettieが自ら築き上げた幾層もの鎧の奥深くには、今まで会った中で一番優しくて思いやりのある人がいる。けどそれが全てじゃない。",shape=box,color=red];
+		j685847569 -> j2218944283;
+		j685847569 -> j3585737597;
+	j1425983256 [label="Lettieは止められない。折れない。怯まない。何ものにも足を引っ張られないようだ。今まで会った中で一番タフな人だよ。そして…",shape=box,color=red];
+		j1425983256 -> j2218944283;
+		j1425983256 -> j2314855347;
+	j594149089 [label="アタシの周りにはfamilia がいるって思い出す必要があるのね
+先行きが暗くなったときに頼れる人が
+Gracias... en serio",shape=box,color=blue];
+		j594149089 -> "Chat ends.";
+	j2583963012 [label="この話はまだ終わってないよ、Lettie。",shape=box,color=red];
+		j2583963012 -> j382987100;
+	j1547322088 [label="もうウンザリだ。Lettieとも終わりだ。[別れる]",shape=box,color=red];
+		j1547322088 -> j486663694;
+	j382987100 [label="Lettieは怖いからこっちを責めるんだ。こんな風にここに閉じ込められたくないから。けど、Lettieは助けてくれる人を遠ざけているだけ。",shape=box,color=red];
+		j382987100 -> j2361523823;
+	j1253465305 [label="与えられた命より死んだほうが良かったか？　以前のTagferなら確実にLettieに同意するだろうね、実験の最中に妻を失ったんだ。",shape=box,color=red];
+		j1253465305 -> j3154456442;
+	j851569350 [label="Lettieには故郷がないと感じたことあるのも知っている。居場所を持ったことがなかった。自分のように。",shape=box,color=red];
+		j851569350 -> j2470317845;
+	j1758276332 [label="皆が置かれてるこの状況は、正直クソだ。共感できる。けどLettieにはこっちにないものが一つある。",shape=box,color=red];
+		j1758276332 -> j191787142;
+	j3703448952 [label="大切なのはそう言った優しさの瞬間、違う？　人々に自身の良い部分を見せられる瞬間。",shape=box,color=red];
+		j3703448952 -> j1832872500;
+	j2314855347 [label="Lettieは今まで会った中で一番親切で思いやりのある人だ。動物に対する愛情や人々のために尽くす様子は、ときめきを感じる。",shape=box,color=red];
+		j2314855347 -> j585050361;
+	j3585737597 [label="Lettieは鉄でできている。Entrati、壁の中のモノ、Viktor、スカルドラ、彼らが何を投げつけようと関係ない。奴らに勝ち目はない。",shape=box,color=red];
+		j3585737597 -> j585050361;
+	j2218944283 [label="Lettieがどれだけ美しいかは当然として、その気になれば小枝みたいにこっちをバキっと折れるんじゃないか考える　笑",shape=box,color=red];
+		j2218944283 -> j585050361;
+	j486663694 [label="Sí
+こうなるとは分かってた
+Vete, babas、もうあんたに費やす時間はない
+niñitosと戯れるなんて間違っていた",shape=box,color=blue];
+		j486663694 -> j30836566;
+	j2361523823 [label="選択はLettieにある。こっちを*本気で*受け入れて手助けさせるか、突き放すか。決めるのはそっちだ。",shape=box,color=red];
+		j2361523823 -> j1122103417;
+	j3154456442 [label="けど、彼らは彼らを新たな家族とした。前に進む理由、生き続ける理由を見つけたんだ。",shape=box,color=red];
+		j3154456442 -> j3747268229;
+	j2470317845 [label="だから、ここがLettieの家族になるかもしれない。Lettieの居場所に。Lettieが望めば。そう受け入れれば。",shape=box,color=red];
+		j2470317845 -> j3747268229;
+	j191787142 [label="Lettieには仲間がいる。*家族*がいる。*友人*がいる。",shape=box,color=red];
+		j191787142 -> j502948877;
+	j1832872500 [label="Mierda",shape=box,color=blue];
+		j1832872500 -> j3139351872;
+	j585050361 [label="要するに…　Lettieのことを大切に思うんだ。とても。友人以上に。同じ気持ちじゃないかもしれない、けど…",shape=box,color=red];
+		j585050361 -> j2245394965;
+	j30836566 [label="Boolean LettieDating is now false.",color=orange];
+		j30836566 -> j4031970331;
+	j1122103417 [label="Mierda",shape=box,color=blue];
+		j1122103417 -> j1816793074;
+	j3747268229 [label="Mierda",shape=box,color=blue];
+		j3747268229 -> j2115736142;
+	j502948877 [label="かつての自分みたいに独りじゃない。自分を苦悩と感情麻痺の螺旋の中へ放り投げた孤独さもない。",shape=box,color=red];
+		j502948877 -> j541021578;
+	j3139351872 [label="+20 Chemistry",color=orange];
+		j3139351872 -> j377299060;
+	j2245394965 [label="Lettieがこう希望を捨ててるのは見てられない。Lettieは幽霊じゃない。fantasmaじゃない。",shape=box,color=red];
+		j2245394965 -> j988871054;
+	j4031970331 [label="Boolean IsDating is now false.",color=orange];
+		j4031970331 -> j3065772033;
+	j1816793074 [label="アタシは…
+あんたにアタシのmentirasを説教されるのは好きになれそうにない
+Sí…　でも…　あんたが正しい
+色々考えすぎて…　あんたに公平な機会を与えてなかった",shape=box,color=blue];
+		j1816793074 -> j3781073608;
+	j2115736142 [label="+20 Chemistry",color=orange];
+		j2115736142 -> j3422305510;
+	j541021578 [label="選択はLettieにある。孤独であるか否か。",shape=box,color=red];
+		j541021578 -> j3747268229;
+	j377299060 [label="アタシは…
+あんたにアタシのmentirasを説教されるのは好きになれそうにない
+Sí…　でも…　あんたが正しい
+時々アタシは戦いに疲れ果てるの、分かる？
+アタシは独りで戦ってるワケじゃないと忘れてた",shape=box,color=blue];
+		j377299060 -> j1616888390;
+	j988871054 [label="LettieはLETTIEだ！　そして…",shape=box,color=red];
+		j988871054 -> j64607049;
+	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
+		j3065772033 -> "Chat ends.";
+	j3781073608 [label="遊びで済ませようとした
+その方が安全と感じていたから
+Lo siento, solecito...",shape=box,color=blue];
+		j3781073608 -> j85759899;
+	j3422305510 [label="アタシは…
+あんたにアタシのmentirasを説教されるのは好きになれそうにない
+Sí…　でも…　あんたが正しい
+時々アタシは考えすぎて自分は独りじゃないと忘れる",shape=box,color=blue];
+		j3422305510 -> j1361032513;
+	j1616888390 [label="人生はアタシたちが持つ瞬間が大切
+アタシたちが互いを労る瞬間
+終着点ではなく
+Gracias ... en serio",shape=box,color=blue];
+		j1616888390 -> j209009916;
+	j64607049 [label="黙って",shape=box,color=blue];
+		j64607049 -> j3918676322;
+	j85759899 [label="償いをさせて
+何するかは想像できるでしょうけど…
+そうさせてくれるなら、だけど？",shape=box,color=blue];
+		j85759899 -> j913005885;
+		j85759899 -> j3835632787;
+	j1361032513 [label="アタシの周りにはfamilia がいるって思い出す必要があるのね
+先行きが暗くなったときに頼れる人が
+Gracias... en serio",shape=box,color=blue];
+		j1361032513 -> j1778865328;
+	j209009916 [label="Boolean LettieKindness is now true.",color=orange];
+		j209009916 -> "Chat ends.";
+	j3918676322 [label="Aguántame tantito",shape=box,color=blue];
+		j3918676322 -> j1807698470;
+		j3918676322 -> j1900977332;
+	j913005885 [label="今はムリ。今ちょっと怒ってる。",shape=box,color=red];
+		j913005885 -> j3915190388;
+	j3835632787 [label="ノーと言えるわけがない　:}",shape=box,color=red];
+		j3835632787 -> j32677279;
+	j1778865328 [label="Boolean LettieNewFamily is now true.",color=orange];
+		j1778865328 -> "Chat ends.";
+	j1807698470 [label="不快な思いをさせたならごめん…",shape=box,color=red];
+		j1807698470 -> j410150051;
+	j1900977332 [label="Lettieが同じ想いを抱いてなくても受け入れるよ。",shape=box,color=red];
+		j1900977332 -> j410150051;
+	j3915190388 [label="Sí
+分かったわ",shape=box,color=blue];
+		j3915190388 -> j1470630329;
+	j32677279 [label="Boolean LettieReal is now true.",color=orange];
+		j32677279 -> j2895199346;
+	j410150051 [label="¡Neta, ya cállate! 
+少し考える時間がいる
+一息つくため
+思考がグチャグチャの時に処理できない",shape=box,color=blue];
+		j410150051 -> j3563114037;
+	j1470630329 [label="+10 Chemistry",color=orange];
+		j1470630329 -> "Chat ends.";
+	j2895199346 [label="+20 Chemistry",color=orange];
+		j2895199346 -> "Chat ends.";
+	j3563114037 [label="+20 Chemistry",color=orange];
+		j3563114037 -> j2622354881;
+	j2622354881 [label="褒め言葉の言い合いはしないの、solecito 
+受け止めきれないから
+明日話しましょう、これの整理はその時よ
+Lo siento",shape=box,color=blue];
+		j2622354881 -> j621831274;
+	j621831274 [label="Boolean LettieConfession is now true.",color=orange];
+		j621831274 -> "Chat ends. Next chat will be LettieConfession.";
+	"Chat ends. Next chat will be LettieConfession." [color=orange];
+}

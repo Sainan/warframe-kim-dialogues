@@ -1,0 +1,125 @@
+digraph {
+	"LettieRank2Convo5 begins." [color=orange];
+		"LettieRank2Convo5 begins." -> j531723218;
+		"LettieRank2Convo5 begins." -> j474393179;
+		"LettieRank2Convo5 begins." -> j3467356616;
+	j531723218 [label="所以……你和埃莉诺之间到底有什么矛盾？",shape=box,color=red];
+		j531723218 -> j2951436252;
+	j474393179 [label="我觉得你应该对埃莉诺宽容一些。",shape=box,color=red];
+		j474393179 -> j1303425273;
+	j3467356616 [label="[无视]",shape=box,color=red];
+		j3467356616 -> "Chat ends.";
+	j2951436252 [label="我们都变成了怪物 
+但那个 bruja 却对此感到高兴
+搅乱我的脑子，来获得一种病态的快感 
+她看得太多，以为自己无所不知",shape=box,color=blue];
+		j2951436252 -> j706378027;
+	j1303425273 [label="¿Ay，sí? 
+那为什么呢？ 
+是那个 bruja 让你来跟我说话的吗",shape=box,color=blue];
+		j1303425273 -> j1421208908;
+		j1303425273 -> j117900921;
+	"Chat ends." [color=orange];
+	j706378027 [label="即使她从未沦为科腐者 
+就算她保持现在这个样子我也不在乎 
+那个 bruja 还是太喜欢这些破事了",shape=box,color=blue];
+		j706378027 -> j4036280087;
+		j706378027 -> j1776868613;
+	j1421208908 [label="不，她没有。我是自己来的。",shape=box,color=red];
+		j1421208908 -> j1776868613;
+		j1421208908 -> j4036280087;
+	j117900921 [label="不管她有没有让我来，我还是觉得你应该对她宽容一点。",shape=box,color=red];
+		j117900921 -> j557086612;
+	j4036280087 [label="仅仅因为她接受了自己的遭遇，并不代表她是个坏人。",shape=box,color=red];
+		j4036280087 -> j2721746027;
+	j1776868613 [label="莱蒂，我只是觉得你对她不够公平。",shape=box,color=red];
+		j1776868613 -> j2963897482;
+	j557086612 [label="我为什么要这样做呢 
+她随时都可能崩溃，然后沦为科腐者 
+即便她没变，那个 bruja 对这一切也太乐在其中了 
+我们现在都是怪物，但区别在于她喜欢这样的自己",shape=box,color=blue];
+		j557086612 -> j1776868613;
+		j557086612 -> j4036280087;
+	j2721746027 [label="接受是一回事
+享受它又是另一回事 
+而且她应该学着不要总是探听别人的隐私，也不要再出现在我的脑子里",shape=box,color=blue];
+		j2721746027 -> j3215196396;
+		j2721746027 -> j923586;
+	j2963897482 [label="¿Ay，sí，verdad? 
+说来听听",shape=box,color=blue];
+		j2963897482 -> j923586;
+		j2963897482 -> j3215196396;
+	j3215196396 [label="莱蒂，她是你的队友。不管你喜不喜欢，你都得和她共事。你需要学会放下你的怨恨。",shape=box,color=red];
+		j3215196396 -> j2110976394;
+	j923586 [label="她失去了声音。她不得不一直听着别人的想法。她还会看到她自己都不懂的奇怪幻觉。",shape=box,color=red];
+		j923586 -> j964117421;
+		j923586 -> j3828076310;
+	j2110976394 [label="行，行 
+babas，那对你有用吗？ 
+你放下所有怨恨了吗？",shape=box,color=blue];
+		j2110976394 -> j734077835;
+	j964117421 [label="而且她是最接近科腐者的人。你可以想象一直能听到那些东西是什么感觉吗？",shape=box,color=red];
+		j964117421 -> j667322303;
+	j3828076310 [label="而且你们所有人都把她当成真正的怪物。你能想象那种感觉吗？",shape=box,color=red];
+		j3828076310 -> j1319148590;
+	j734077835 [label="Check boolean LettieReligion2",color=orange];
+		j734077835 -> j2196477216 [label=true,color=green];
+		j734077835 -> j1839452989 [label=false,color=brown];
+	j667322303 [label="这正是问题所在 
+babas，你一直在帮我论证",shape=box,color=blue];
+		j667322303 -> j4212085862;
+	j1319148590 [label="你能怪她用反抗而不是感到羞辱来回应这样的厌恶吗？",shape=box,color=red];
+		j1319148590 -> j1019263100;
+	j2196477216 [label="面对你的 Xipe Totec 和你的虚空之神所做的一切可怕事情
+你告诉我你没有怨恨 
+Pendejadas",shape=box,color=blue];
+		j2196477216 -> j797054726;
+		j2196477216 -> j2551750641;
+	j1839452989 [label="Check boolean LettieEntrati",color=orange];
+		j1839452989 -> j2612676153 [label=true,color=green];
+		j1839452989 -> j2674008307 [label=false,color=brown];
+	j4212085862 [label="Check boolean LettieReligion2",color=orange];
+		j4212085862 -> j1548286161 [label=true,color=green];
+		j4212085862 -> j1730370660 [label=false,color=brown];
+	j1019263100 [label="Mierda……
+babas，我不喜欢她进入我的脑子 
+但你这么一说……不，我不怪她
+换作我可能也会这么做",shape=box,color=blue];
+		j1019263100 -> j759957381;
+	j797054726 [label="你说得对，我还是有怨恨的。我并不完美。我只是想说你把她当作怪物来对待。你能怪她用反抗来回应厌恶吗？",shape=box,color=red];
+		j797054726 -> j1019263100;
+	j2551750641 [label="你说得对，我确实还怨恨。我并不完美。我只是想说，她是最接近科腐者的人。你能想象一直听到那些东西是什么感觉吗？",shape=box,color=red];
+		j2551750641 -> j667322303;
+	j2612676153 [label="面对英择谛和 Orokin 对你所做的事
+你告诉我你没有怨恨 
+Pendejadas",shape=box,color=blue];
+		j2612676153 -> j797054726;
+		j2612676153 -> j2551750641;
+	j2674008307 [label="Check boolean LettieDuviri",color=orange];
+		j2674008307 -> j3293080241 [label=true,color=green];
+		j2674008307 -> j1783221977 [label=false,color=brown];
+	j1548286161 [label="总有一天他们会披上她的皮肤，就像你的 Xipe Totec 披上少校的皮一样 
+而到那时你已经不在，救不了她",shape=box,color=blue];
+		j1548286161 -> j789289698;
+	j1730370660 [label="终有一天，这些会吞噬她 
+而到那时你已经不在，救不了她",shape=box,color=blue];
+		j1730370660 -> j789289698;
+	j759957381 [label="+20 Chemistry",color=orange];
+		j759957381 -> j3129684483;
+	j3293080241 [label="面对双衍王境和那个伤害过你无数次的地方 
+你告诉我你没有怨恨",shape=box,color=blue];
+		j3293080241 -> j797054726;
+		j3293080241 -> j2551750641;
+	j1783221977 [label="你的生活无非是与 La Flaca 一起跳舞，你告诉我你没有怨恨 
+Pendejadas",shape=box,color=blue];
+		j1783221977 -> j797054726;
+		j1783221977 -> j2551750641;
+	j789289698 [label="Vete 
+走开 
+太多事要做，没时间浪费在这上面",shape=box,color=blue];
+		j789289698 -> "Chat ends.";
+	j3129684483 [label="我跟你说 
+让那个 bruja metiche 尽量别进入我的脑子 
+而我……我会试着对她宽容些，¿sí?",shape=box,color=blue];
+		j3129684483 -> "Chat ends.";
+}

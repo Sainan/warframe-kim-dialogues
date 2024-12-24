@@ -1,0 +1,153 @@
+digraph {
+	"LettieRank1Convo2 begins." [color=orange];
+		"LettieRank1Convo2 begins." -> j681996593;
+	j681996593 [label="Check boolean LettieRatsAsked",color=orange];
+		j681996593 -> j1370471715 [label=true,color=green];
+		j681996593 -> j2760550436 [label=false,color=brown];
+		j681996593 -> j1370471715 [label=false,color=brown];
+	j1370471715 [label="家裡有人想念你嗎？",shape=box,color=red];
+		j1370471715 -> j381704664;
+	j2760550436 [label="所以是什麼原因讓你想養老鼠來當寵物？",shape=box,color=red];
+		j2760550436 -> j1442152414;
+	j381704664 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		j381704664 -> j1977719106;
+	j1442152414 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		j1442152414 -> j2154717222;
+	j1977719106 [label="Check boolean LettieInteresting",color=orange];
+		j1977719106 -> j1390067969 [label=true,color=green];
+		j1977719106 -> j4048563222 [label=false,color=brown];
+	j2154717222 [label="Check boolean LettieInteresting",color=orange];
+		j2154717222 -> j3885866022 [label=true,color=green];
+		j2154717222 -> j2868880529 [label=false,color=brown];
+	j1390067969 [label="這問題好多了 
+學得很快嘛
+不過",shape=box,color=blue];
+		j1390067969 -> j4048563222;
+	j4048563222 [label="沒關係 
+反正我也走不出這個破地方
+那又何必去想他們呢",shape=box,color=blue];
+		j4048563222 -> j2989579777;
+		j4048563222 -> j1895113593;
+		j4048563222 -> j3996780362;
+	j3885866022 [label="（西語）嘿，看到沒？ 
+這問題好多了，呆呆 
+你就學得挺快嘛",shape=box,color=blue];
+		j3885866022 -> j2868880529;
+	j2868880529 [label="你告訴我",shape=box,color=blue];
+		j2868880529 -> j2655915792;
+		j2868880529 -> j3399603746;
+	j2989579777 [label="我們在網路上聊著，你知道有電話可以用的，對吧？",shape=box,color=red];
+		j2989579777 -> j3474650833;
+	j1895113593 [label="有時候唯有那些痛苦的回憶才能支撐我們走下去。",shape=box,color=red];
+		j1895113593 -> j3731344786;
+	j3996780362 [label="呃……好吧…… [結束]",shape=box,color=red];
+		j3996780362 -> "Chat ends.";
+	j2655915792 [label="呃？",shape=box,color=red];
+		j2655915792 -> j2212103885;
+	j3399603746 [label="我想我不喜歡事情的發展方向。[結束]",shape=box,color=red];
+		j3399603746 -> j1206146540;
+	j3474650833 [label="（西語）很可能就是個該死的鬼魂 
+來自墳墓的呼喚，無法改變，無法生存，無法死亡",shape=box,color=blue];
+		j3474650833 -> j3562070830;
+	j3731344786 [label="（西語）是嗎？
+你對痛苦有多了解？",shape=box,color=blue];
+		j3731344786 -> j863386101;
+		j3731344786 -> j1760978965;
+	"Chat ends." [color=orange];
+	j2212103885 [label="我想知道你為什麼覺得我喜歡老鼠 
+說吧",shape=box,color=blue];
+		j2212103885 -> j842727620;
+	j1206146540 [label="（西語）是你的損失",shape=box,color=blue];
+		j1206146540 -> "Chat ends.";
+	j3562070830 [label="我們是什麼？！
+只是鬼魂而已 
+就像一捲被重複使用太多次的錄影帶上的影子",shape=box,color=blue];
+		j3562070830 -> j3449316240;
+	j863386101 [label="你知道被斬首的感覺是什麼嗎？我知道。我已經死過一千遍了。那種感覺很痛苦，女士。",shape=box,color=red];
+		j863386101 -> j3618903132;
+	j1760978965 [label="我不需要向你證明我自己，女士。",shape=box,color=red];
+		j1760978965 -> j3901002884;
+	j842727620 [label="Boolean LettieRats1 is now true.",color=orange];
+		j842727620 -> j1311408224;
+		j842727620 -> j1381793464;
+		j842727620 -> j721394999;
+	j3449316240 [label="不，還是讓他們以為我已經死了比較好 
+我來替他們承擔這些痛苦",shape=box,color=blue];
+		j3449316240 -> j77244609;
+		j3449316240 -> j1450619067;
+	j3618903132 [label="Boolean LettieDuviri is now true.",color=orange];
+		j3618903132 -> j2021892945;
+	j3901002884 [label="我沒有叫你這樣做
+我很忙
+（西語）走開",shape=box,color=blue];
+		j3901002884 -> "Chat ends.";
+	j1311408224 [label="因為牠們聰明、有感情，還很愛玩？",shape=box,color=red];
+		j1311408224 -> j3133104941;
+	j1381793464 [label="因為牠們經常被忽視和誤解？",shape=box,color=red];
+		j1381793464 -> j3133104941;
+	j721394999 [label="莉蒂？我完完全全不認識你。但那些老鼠真是可愛極了。",shape=box,color=red];
+		j721394999 -> j2826183374;
+	j77244609 [label="這裡，仍然有值得活下去的生活。",shape=box,color=red];
+		j77244609 -> j3693174545;
+	j1450619067 [label="你是出於自願來為別人承受痛苦，還是只是因為這是你的責任？",shape=box,color=red];
+		j1450619067 -> j68144920;
+	j2021892945 [label="被瘦女士觸碰後 
+另一個如同我們般的鬼魂
+一次一次又一次地不斷重溫著他們的死亡",shape=box,color=blue];
+		j2021892945 -> j4205760295;
+	j3133104941 [label="（西語）哎，月尊啊，救救我",shape=box,color=blue];
+		j3133104941 -> j3676960281;
+	j2826183374 [label="哈哈哈",shape=box,color=blue];
+		j2826183374 -> j3204723617;
+	j3693174545 [label="當然，當然
+有阿米爾的遊戲、亞瑟的酒、葵的音樂和昆西的畫作",shape=box,color=blue];
+		j3693174545 -> j188061332;
+	j68144920 [label="+20 Chemistry",color=orange];
+		j68144920 -> j3879401349;
+	j4205760295 [label="（西語）是的
+家裡還有家人
+他們最好以為我已經死了",shape=box,color=blue];
+		j4205760295 -> j1450619067;
+		j4205760295 -> j77244609;
+	j3676960281 [label="不 
+你還有別的事情嗎",shape=box,color=blue];
+		j3676960281 -> j3868720574;
+		j3676960281 -> j1293065802;
+	j3204723617 [label="+20 Chemistry",color=orange];
+		j3204723617 -> j821459262;
+	j188061332 [label="空洞的愛好
+空洞的靈魂
+在永恆中消磨時間",shape=box,color=blue];
+		j188061332 -> j4080195858;
+	j3879401349 [label="大概兩者都有吧 
+我在很久以前就作出了選擇
+現在要回頭已經太遲了",shape=box,color=blue];
+		j3879401349 -> j3608311900;
+	j3868720574 [label="呃…...",shape=box,color=red];
+		j3868720574 -> j1030416819;
+	j1293065802 [label="沒事……算了吧……",shape=box,color=red];
+		j1293065802 -> j3488041648;
+	j821459262 [label="來自我們救世主的謙遜 
+我喜歡",shape=box,color=blue];
+		j821459262 -> j3393338924;
+	j4080195858 [label="我還有事要做
+（西語）走開",shape=box,color=blue];
+		j4080195858 -> j2796755127;
+	j3608311900 [label="我還有事要做",shape=box,color=blue];
+		j3608311900 -> j2796755127;
+	j1030416819 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		j1030416819 -> j4191259304;
+	j3488041648 [label="（西語）好吧",shape=box,color=blue];
+		j3488041648 -> "Chat ends.";
+	j3393338924 [label="小時候家裡沒什麼錢 
+到處換地方住 
+老鼠容易養，我媽媽也不介意",shape=box,color=blue];
+		j3393338924 -> j865910765;
+	j2796755127 [label="Boolean LettieFantasma1 is now true.",color=orange];
+		j2796755127 -> "Chat ends.";
+	j4191259304 [label="家裡有人想念你嗎？",shape=box,color=red];
+		j4191259304 -> j4048563222;
+	j865910765 [label="我得回去工作了 
+再見，呆呆",shape=box,color=blue];
+		j865910765 -> "Chat ends.";
+}

@@ -1,0 +1,88 @@
+digraph {
+	"LettieRank4Convo4 begins." [color=orange];
+		"LettieRank4Convo4 begins." -> j2827510990;
+	j2827510990 [label="Check boolean LettieNoFlirt",color=orange];
+		j2827510990 -> "Chat ends." [label=true,color=green];
+		j2827510990 -> j1463871670 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j1463871670 [label="假設問題：如果我想約你出去喝一杯，我回來時有可能會被弄到需要縫針？",shape=box,color=red];
+		j1463871670 -> j2794660236;
+	j2794660236 [label="Check boolean LettieNoDate",color=orange];
+		j2794660236 -> j3997773201 [label=true,color=green];
+		j2794660236 -> j4275244705 [label=false,color=brown];
+	j3997773201 [label="Sí 
+你會",shape=box,color=blue];
+		j3997773201 -> "Chat ends.";
+	j4275244705 [label="嗯？
+Jajaja，不",shape=box,color=blue];
+		j4275244705 -> j2025469841;
+	j2025469841 [label="但我不喝酒，從來不喝
+也不吸毒
+你得更有創意才能進入我的褲子
+或我現在穿著的東西，隨便啦",shape=box,color=blue];
+		j2025469841 -> j1544516416;
+		j2025469841 -> j2078278423;
+	j1544516416 [label="很高興知道。 :) 那麼，有沒有什麼暗示可以讓我贏得你的芳心呢？",shape=box,color=red];
+		j1544516416 -> j299487388;
+	j2078278423 [label="說到這個，我一直想問……你呢……",shape=box,color=red];
+		j2078278423 -> j172385006;
+	j299487388 [label="你應該確定自己是為了什麼而來的，babas
+如果你喜歡甜蜜和溫柔的話，去找葵或阿米爾吧
+我太習慣痛苦，並且太喜歡它了，對我來說那種事不合適",shape=box,color=blue];
+		j299487388 -> j1859186145;
+		j299487388 -> j3038928392;
+	j172385006 [label="¿Qué?",shape=box,color=blue];
+		j172385006 -> j332405520;
+		j172385006 -> j1557473224;
+	j1859186145 [label="是的，女士。算我已經被警告了。",shape=box,color=red];
+		j1859186145 -> j200574632;
+	j3038928392 [label="嗯... 好吧，算了。痛苦並不是我喜歡的東西。",shape=box,color=red];
+		j3038928392 -> j2158853079;
+	j332405520 [label="我一直很好奇，你和其他的原型 Warframe 還有...你知道的...那些...你知道的...部件嗎？",shape=box,color=red];
+		j332405520 -> j3674400512;
+	j1557473224 [label="呃－算了。",shape=box,color=red];
+		j1557473224 -> j3900227308;
+	j200574632 [label="Boolean LettiePain is now true.",color=orange];
+		j200574632 -> j1729953771;
+	j2158853079 [label="+15 Chemistry",color=orange];
+		j2158853079 -> j326726832;
+	j3674400512 [label="JAJAJAJAJA 
+你認真嗎？！
+你不能隨便問人家他們－
+哎呀，babas，我已經很久沒這麼笑過了",shape=box,color=blue];
+		j3674400512 -> j2367016266;
+		j3674400512 -> j3268590503;
+	j3900227308 [label="Va 
+Busy anyway",shape=box,color=blue];
+		j3900227308 -> "Chat ends.";
+	j1729953771 [label="+20 Chemistry",color=orange];
+		j1729953771 -> j1684787442;
+	j326726832 [label="Bueno 
+You're better off that way 
+You can let me know if you change your mind",shape=box,color=blue];
+		j326726832 -> j2362708449;
+	j2367016266 [label="對不起。",shape=box,color=red];
+		j2367016266 -> j2661642708;
+	j3268590503 [label="嗯... 好吧？你真的沒有？",shape=box,color=red];
+		j3268590503 -> j2661642708;
+	j1684787442 [label="嗯，是嗎？
+你覺得你能承受得起？
+我們走著瞧",shape=box,color=blue];
+		j1684787442 -> j641145668;
+	j2362708449 [label="Boolean LettieNoPain is now true.",color=orange];
+		j2362708449 -> j9517111;
+	j2661642708 [label="我告訴你
+也許如果你當個乖乖的 babas
+你或許會知道，嗯？
+只是提醒你
+如果你喜歡甜蜜和溫柔的話，去找葵或阿米爾吧
+我太習慣痛苦，並且太喜歡它了，這種事不適合我",shape=box,color=blue];
+		j2661642708 -> j1859186145;
+		j2661642708 -> j3038928392;
+	j641145668 [label="Now vete 
+Can't be daydreaming when I've got work to do",shape=box,color=blue];
+		j641145668 -> "Chat ends.";
+	j9517111 [label="Now vete 
+I've got work to do",shape=box,color=blue];
+		j9517111 -> "Chat ends.";
+}

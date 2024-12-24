@@ -1,0 +1,16 @@
+digraph {
+	"QuincyBirthdayConvo1 begins." [color=orange];
+		"QuincyBirthdayConvo1 begins." -> j1573903981;
+		"QuincyBirthdayConvo1 begins." -> j1226677952;
+	j1573903981 [label="Feliz cumpleaños, Quincy. Te ves tan bien como siempre.",shape=box,color=red];
+		j1573903981 -> j3873164492;
+	j1226677952 [label="¡Feliz cumpleaños! ¿Ya te sientes viejo?",shape=box,color=red];
+		j1226677952 -> j2765025678;
+	j3873164492 [label="+20 Chemistry",color=orange];
+		j3873164492 -> j672119846;
+	j2765025678 [label="¿me siento viejo? ¡mira quién habla! ¿cuántos años tienes? ¿acaso lo sabes? imbécil",shape=box,color=blue];
+		j2765025678 -> "Chat ends.";
+	j672119846 [label="lo sabes, lol. podría decir lo mismo de ti. espera. ¿¡cuántos años tienes!?",shape=box,color=blue];
+		j672119846 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

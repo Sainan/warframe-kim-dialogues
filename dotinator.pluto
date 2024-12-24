@@ -1,8 +1,6 @@
 local { json } = require "*"
 
-local dict_en <const> = io.contents("dicts/en.json") |> json.decode
-
-local nodes
+local dict, nodes
 
 local function get_node_label(node)
 	switch node.type do
@@ -19,14 +17,14 @@ local function get_node_label(node)
 		case "/EE/Types/Engine/DialogueNode":
 		case "/EE/Types/Engine/PlayerChoiceDialogueNode":
 			do
-				local text = (dict_en[node.name] or node.name)
+				local text = (dict[node.name] or node.name)
 				if node.vars then
 					for k, v in node.vars do
-						text = text:replace("|"..k.."|", dict_en[v] or v)
+						text = text:replace("|"..k.."|", dict[v] or v)
 					end
 				end
 				if node.nickname_override then
-					text = (dict_en[node.nickname_override] or node.nickname_override)..": "..text
+					text = (dict[node.nickname_override] or node.nickname_override)..": "..text
 				end
 				return text
 			end
@@ -182,10 +180,7 @@ local function emit_dot(filename, start)
 	fh:write("}")
 end
 
-io.makedir("flowcharts")
-io.makedir("flowcharts_dot")
-io.makedir("flowcharts_svg")
-for {
+local DIAG_NAMES <const> = {
 	"AoiDialogue_rom.dialogue",
 	"ArthurDialogue_rom.dialogue",
 	"EleanorDialogue_rom.dialogue",
@@ -193,22 +188,44 @@ for {
 	"JabirDialogue_rom.dialogue",
 	"LettieDialogue_rom.dialogue",
 	"QuincyDialogue_rom.dialogue",
-} as diag_name do
-	nodes = io.contents(diag_name..".json") |> json.decode
+}
 
-	io.makedir("flowcharts/"..diag_name)
-	io.makedir("flowcharts_dot/"..diag_name)
-	io.makedir("flowcharts_svg/"..diag_name)
+local diags = {}
+for DIAG_NAMES as diag_name do
+	diags[diag_name] = io.contents(diag_name..".json") |> json.decode
+end
 
-	print(diag_name)
-	for nodes as node do
-		if node.type == "/EE/Types/Engine/StartDialogueNode" then
-			print("\t"..node.name)
-			local prev_dot = io.contents("flowcharts_dot/"..diag_name.."/"..node.name..".dot")
-			emit_dot("flowcharts_dot/"..diag_name.."/"..node.name..".dot", node.id)
-			if prev_dot ~= io.contents("flowcharts_dot/"..diag_name.."/"..node.name..".dot") then
-				os.execute("dot flowcharts_dot/"..diag_name.."/"..node.name..".dot -T png -o flowcharts/"..diag_name.."/"..node.name..".png")
-				os.execute("dot flowcharts_dot/"..diag_name.."/"..node.name..".dot -T svg -o flowcharts_svg/"..diag_name.."/"..node.name..".svg")
+io.makedir("flowcharts")
+io.makedir("flowcharts_dot")
+io.makedir("flowcharts_svg")
+for { "en", "de", "es", "fr", "it", "ja", "ko", "pl", "pt", "ru", "tc", "th", "tr", "uk", "zh" } as lang do
+	print(lang)
+
+	dict = io.contents("dicts/"..lang..".json") |> json.decode
+
+	io.makedir("flowcharts_dot/"..lang)
+	io.makedir("flowcharts_svg/"..lang)
+
+	for DIAG_NAMES as diag_name do
+		print("\t"..diag_name)
+
+		nodes = diags[diag_name]
+
+		io.makedir("flowcharts/"..diag_name)
+		io.makedir("flowcharts_dot/"..lang.."/"..diag_name)
+		io.makedir("flowcharts_svg/"..lang.."/"..diag_name)
+
+		for nodes as node do
+			if node.type == "/EE/Types/Engine/StartDialogueNode" then
+				print("\t\t"..node.name)
+				local prev_dot = io.contents("flowcharts_dot/"..diag_name.."/"..node.name..".dot")
+				emit_dot("flowcharts_dot/"..lang.."/"..diag_name.."/"..node.name..".dot", node.id)
+				if prev_dot ~= io.contents("flowcharts_dot/"..lang.."/"..diag_name.."/"..node.name..".dot") then
+					if lang == "en" then
+						os.execute("dot flowcharts_dot/"..lang.."/"..diag_name.."/"..node.name..".dot -T png -o flowcharts/"..diag_name.."/"..node.name..".png")
+					end
+					os.execute("dot flowcharts_dot/"..lang.."/"..diag_name.."/"..node.name..".dot -T svg -o flowcharts_svg/"..lang.."/"..diag_name.."/"..node.name..".svg")
+				end
 			end
 		end
 	end

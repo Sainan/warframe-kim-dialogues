@@ -1,0 +1,234 @@
+digraph {
+	"LettieRank3Convo4 begins." [color=orange];
+		"LettieRank3Convo4 begins." -> j1492162825;
+		"LettieRank3Convo4 begins." -> j3331074961;
+	j1492162825 [label="Então, onde é o seu lar?",shape=box,color=red];
+		j1492162825 -> j1685373840;
+	j3331074961 [label="Como você se juntou ao Hexa, Lê?",shape=box,color=red];
+		j3331074961 -> j881352259;
+	j1685373840 [label="Cidade de Tenochtitlán, originalmente 
+Mas nos mudamos pra Libertátia quando eu era jovem 
+Você não deve saber onde fica nenhum desses lugares 
+É um lugar bem grande, no exterior daqui",shape=box,color=blue];
+		j1685373840 -> j973825899;
+	j881352259 [label="Do mesmo jeito que a maioria dos outros 
+Eu tava no BRCI com a Aoi, o Arthur e o Quincy 
+Todo mundo precisa de uma médica pra costurar eles depois de levarem chumbo",shape=box,color=blue];
+		j881352259 -> j2966701009;
+		j881352259 -> j3967758834;
+		j881352259 -> j2422707229;
+		j881352259 -> j880398853;
+	j973825899 [label="Check boolean LettieHomeAsked",color=orange];
+		j973825899 -> j1954902188 [label=true,color=green];
+		j973825899 -> j4170657566 [label=false,color=brown];
+	j2966701009 [label="Como você se dá com a Aoi?",shape=box,color=red];
+		j2966701009 -> j3847330963;
+	j3967758834 [label="Me surpreende você aturar o Quincy, você não parece ser um poço de paciência",shape=box,color=red];
+		j3967758834 -> j1760148103;
+	j2422707229 [label="Você chegou a consertar o Arthur direito? Às vezes, parece que ele ainda tem coisa enfiada naquele lugar de tão rabugento que ele é…",shape=box,color=red];
+		j2422707229 -> j465157280;
+	j880398853 [label="BRCI?",shape=box,color=red];
+		j880398853 -> j3180852880;
+	j1954902188 [label="E você, babas? 
+Qual é o lugar que você chama de lar?",shape=box,color=blue];
+		j1954902188 -> j3780456041;
+	j4170657566 [label="Você tem família que sente sua falta?",shape=box,color=red];
+		j4170657566 -> j822986065;
+	j3847330963 [label="+10 Chemistry",color=orange];
+		j3847330963 -> j3707977553;
+	j1760148103 [label="+10 Chemistry",color=orange];
+		j1760148103 -> j3471327677;
+	j465157280 [label="Jajaja 
+Não, esse jeito dele é a única coisa que mantém ele em pé 
+Um homem como ele só é assim porque tem o dever de proteger os outros",shape=box,color=blue];
+		j465157280 -> j4011543518;
+	j3180852880 [label="Batalhão de Resposta à Crise Internacional 
+Um trabalho humanitário basicamente 
+Pensei que seria melhor do que trabalhar pra algum exército mercenário ou algo do tipo 
+Mas porra, eu tava bem errada",shape=box,color=blue];
+		j3180852880 -> j1510941849;
+		j3180852880 -> j2954671611;
+	j3780456041 [label="Check boolean LettieDuviri",color=orange];
+		j3780456041 -> j1094626810 [label=true,color=green];
+		j3780456041 -> j3916088119 [label=false,color=brown];
+	j822986065 [label="Não importa 
+Não posso sair dessa mierda dos infernos de lugar 
+Então, pra que pensar na minha casa?",shape=box,color=blue];
+		j822986065 -> j1224208654;
+		j822986065 -> j3902283610;
+		j822986065 -> j3930981261;
+	j3707977553 [label="A Aoi tem que aprender a cuidar dela mesma 
+Porra, ela passa mais tempo cuidando dos outros do que eu. Nem todo mundo é tão carente assim 
+Nem todo mundo gosta disso",shape=box,color=blue];
+		j3707977553 -> j3435560774;
+	j3471327677 [label="Aquele moleque e seus joguinho, já vi bastante disso 
+Ele não me incomoda",shape=box,color=blue];
+		j3471327677 -> j542711498;
+	j4011543518 [label="Decidi há muito tempo que ia estar ao lado dele até o fim 
+Agora, acho que não tenho muita escolha, né?",shape=box,color=blue];
+		j4011543518 -> j394130418;
+	j1510941849 [label="Como você conheceu o Arthur?",shape=box,color=red];
+		j1510941849 -> j2807975336;
+	j2954671611 [label="Mas por que em Holvânia?",shape=box,color=red];
+		j2954671611 -> j2528696381;
+	j1094626810 [label="Seria lá em Duviri?",shape=box,color=blue];
+		j1094626810 -> j3916088119;
+	j3916088119 [label="Ou por acaso a dica tá no seu apelido? 
+Peregrinando por aí, sem um lar",shape=box,color=blue];
+		j3916088119 -> j808528890;
+		j3916088119 -> j2462274745;
+		j3916088119 -> j396763447;
+	j1224208654 [label="Às vezes, são as memórias dolorosas que nos ajudam a sobreviver",shape=box,color=red];
+		j1224208654 -> j587810988;
+	j3902283610 [label="Estamos conversando pela \"internet\", e você sabe que o \"telefone\" já existe, né?",shape=box,color=red];
+		j3902283610 -> j1349791593;
+	j3930981261 [label="Ok… deixa pra lá, então [Encerrar Conversa]",shape=box,color=red];
+		j3930981261 -> "Chat ends.";
+	j3435560774 [label="Ela acaba se esgotando fazendo isso 
+Já aconteceu antes, e vai acontecer de novo 
+E aí ela fica bem doente por causa disso",shape=box,color=blue];
+		j3435560774 -> j2692892403;
+	j542711498 [label="Ele tem um bom coração 
+E uma mira melhor ainda 
+E sabe como se manter fora de problemas, na maioria das vezes 
+Isso é tudo que quero num companheiro de esquadrão",shape=box,color=blue];
+		j542711498 -> j2692892403;
+	j394130418 [label="Check boolean LettieInteresting",color=orange];
+		j394130418 -> j562381216 [label=true,color=green];
+		j394130418 -> j4266388253 [label=false,color=brown];
+	j2807975336 [label="É uma longa história 
+Mas em resumo,",shape=box,color=blue];
+		j2807975336 -> j4011543518;
+	j2528696381 [label="O problema não era o lugar, era a pessoa que eu seguia 
+O Arthur é o motivo pelo qual eu tô aqui e tava no BRCI pra começar",shape=box,color=blue];
+		j2528696381 -> j4011543518;
+	j808528890 [label="Este lugar não é tão ruim assim, talvez esse se torne meu lar",shape=box,color=red];
+		j808528890 -> j3423572988;
+	j2462274745 [label="Não precisa esfregar na minha cara",shape=box,color=red];
+		j2462274745 -> j3246600483;
+	j396763447 [label="Meu lar é onde eu estiver",shape=box,color=red];
+		j396763447 -> j1286959825;
+	j587810988 [label="Sí? 
+O que você sabe sobre a dor?",shape=box,color=blue];
+		j587810988 -> j3850653873;
+	j1349791593 [label="Bien podría ser un pinche fantasma 
+Um chamado de além do túmulo, incapaz de mudar, viver ou morrer",shape=box,color=blue];
+		j1349791593 -> j3270482004;
+	"Chat ends." [color=orange];
+	j2692892403 [label="Tenho que voltar ao trabalho 
+Não tenho tempo pra ficar fofocando",shape=box,color=blue];
+		j2692892403 -> "Chat ends.";
+	j562381216 [label="+20 Chemistry",color=orange];
+		j562381216 -> j2924802611;
+	j4266388253 [label="+20 Chemistry",color=orange];
+		j4266388253 -> j442852193;
+	j3423572988 [label="Ah, sí? 
+E por qual motivo?",shape=box,color=blue];
+		j3423572988 -> j2880034604;
+	j3246600483 [label="De nada 
+É isso que eu faço 
+Você se acostuma",shape=box,color=blue];
+		j3246600483 -> j1288727366;
+	j1286959825 [label="Parece mi padre 
+Sempre em ação",shape=box,color=blue];
+		j1286959825 -> j3907767822;
+	j3850653873 [label="Boolean LettieDuviri is now true.",color=orange];
+		j3850653873 -> j1672232297;
+	j3270482004 [label="O que somos?! 
+FANTASMAS, e nada mais 
+Como sombras em uma fita cassete velha",shape=box,color=blue];
+		j3270482004 -> j1379714810;
+	j2924802611 [label="Boa pergunta, babas 
+Viu só? 
+Continua com as perguntas interessantes 
+São elas que te levam a algum lugar",shape=box,color=blue];
+		j2924802611 -> "Chat ends.";
+	j442852193 [label="Boa pergunta, babas 
+Continua com as perguntas interessantes 
+São elas que te levam a algum lugar",shape=box,color=blue];
+		j442852193 -> j1872048052;
+	j2880034604 [label="Check boolean LettieNoFlirt",color=orange];
+		j2880034604 -> j763361259 [label=true,color=green];
+		j2880034604 -> j3124140003 [label=true,color=green];
+		j2880034604 -> j3124140003 [label=false,color=brown];
+		j2880034604 -> j763361259 [label=false,color=brown];
+		j2880034604 -> j3797525751 [label=false,color=brown];
+	j1288727366 [label="Ou não 
+Esse problema não é meu",shape=box,color=blue];
+		j1288727366 -> "Chat ends.";
+	j3907767822 [label="Bem… 
+Não vamos ser nós que vamos mudar isso, né?",shape=box,color=blue];
+		j3907767822 -> "Chat ends.";
+	j1672232297 [label="Você sabe como é ter sua cabeça decepada? Eu sei, já morri mais de mil vezes. E dói pra caralho, querida",shape=box,color=red];
+		j1672232297 -> j855557595;
+	j1379714810 [label="Não, é melhor que pensem que já morri 
+Prefiro sofrer sozinha do que fazer eles sofrerem junto comigo",shape=box,color=blue];
+		j1379714810 -> j721416219;
+		j1379714810 -> j1255272798;
+	j1872048052 [label="Boolean LettieInteresting is now true.",color=orange];
+		j1872048052 -> "Chat ends.";
+	j763361259 [label="Pela companhia que tenho aqui",shape=box,color=red];
+		j763361259 -> j4167807084;
+	j3124140003 [label="A comida é boa aqui",shape=box,color=red];
+		j3124140003 -> j2861246459;
+	j3797525751 [label="Ah… por causa de você ;)",shape=box,color=red];
+		j3797525751 -> j743711537;
+	j855557595 [label="Mais uma alma tocada pela La Flaca 
+Mais fantasma, assim como nós aqui 
+Revivendo suas mortes, de novo, e de novo, e de novo",shape=box,color=blue];
+		j855557595 -> j804035692;
+	j721416219 [label="Você carrega a dor dos outros por escolha, ou porque é seu dever?",shape=box,color=red];
+		j721416219 -> j2063080753;
+	j1255272798 [label="Ainda há uma vida pra se viver aqui",shape=box,color=red];
+		j1255272798 -> j4202711313;
+	j4167807084 [label="+15 Chemistry",color=orange];
+		j4167807084 -> j502526042;
+	j2861246459 [label="Sim, claro… 
+Pipoca velha e pizza mofada 
+Ay… faz o que te der na telha, não vai ser eu que vou te segurar",shape=box,color=blue];
+		j2861246459 -> j3596260930;
+	j743711537 [label="+20 Chemistry",color=orange];
+		j743711537 -> j3906399666;
+	j804035692 [label="Sim, tenho família em casa 
+É melhor que pensem que já morri 
+Prefiro sofrer sozinha do que fazer eles sofrerem junto comigo",shape=box,color=blue];
+		j804035692 -> j721416219;
+		j804035692 -> j1255272798;
+	j2063080753 [label="+20 Chemistry",color=orange];
+		j2063080753 -> j1857993493;
+	j4202711313 [label="Claro, com certeza… 
+Com todos os jogos do Amir, as bebidas do Arthur, as músicas da Aoi e as fotos do Quincy",shape=box,color=blue];
+		j4202711313 -> j1069135188;
+	j502526042 [label="Sí, claro 
+Porque lugar mais alegre que esse não existe 
+Mas tudo depende do seu ponto de vista 
+De qualquer forma, me surpreende você não ter ido embora",shape=box,color=blue];
+		j502526042 -> j3596260930;
+	j3596260930 [label="Toda vez que tento impedir alguém de tomar decisões estúpidas, nunca funciona 
+Duvido que vá funcionar com você 
+Então, não vou nem tentar, você sabe onde tá se metendo",shape=box,color=blue];
+		j3596260930 -> j3211393437;
+	j3906399666 [label="Jajaja 
+Ah, é mesmo é? 
+Cuidado com o que você deseja… 
+Mas se é isso que você quer, é bom se preparar",shape=box,color=blue];
+		j3906399666 -> j3596260930;
+	j1857993493 [label="Ambos, eu acho 
+Fiz essa escolha já faz tempo 
+Agora, é tarde demais pra voltar atrás",shape=box,color=blue];
+		j1857993493 -> j3495045143;
+	j1069135188 [label="Atividades sem sentido 
+Almas vazias 
+Só passando o tempo pela eternidade",shape=box,color=blue];
+		j1069135188 -> j829985711;
+	j3211393437 [label="Vai lá então 
+Deixa a Mamá Lê trabalhar agora",shape=box,color=blue];
+		j3211393437 -> "Chat ends.";
+	j3495045143 [label="Tenho trabalho a fazer",shape=box,color=blue];
+		j3495045143 -> j2796755127;
+	j829985711 [label="Tenho trabalho a fazer
+Vete",shape=box,color=blue];
+		j829985711 -> j2796755127;
+	j2796755127 [label="Boolean LettieFantasma1 is now true.",color=orange];
+		j2796755127 -> "Chat ends.";
+}

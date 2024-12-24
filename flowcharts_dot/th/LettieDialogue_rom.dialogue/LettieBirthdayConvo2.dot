@@ -1,0 +1,19 @@
+digraph {
+	"LettieBirthdayConvo2 begins." [color=orange];
+		"LettieBirthdayConvo2 begins." -> j3997335488;
+		"LettieBirthdayConvo2 begins." -> j1715963895;
+	j3997335488 [label="สุขสันต์วันเกิด! มั่นใจเลยว่าทุกคนในเต็นท์แพทย์คงชื่นชมในการทำงานนะ :)",shape=box,color=red];
+		j3997335488 -> j2500380250;
+	j1715963895 [label="สุขสันต์วันเกิดนะ Lettie! วันนี้ได้หยุดงานไหม หรืออย่างน้อยก็ได้นั่งพักบ้างหรือเปล่า",shape=box,color=red];
+		j1715963895 -> j1557276133;
+	j2500380250 [label="Sí
+แน่นอน",shape=box,color=blue];
+		j2500380250 -> "Chat ends.";
+	j1557276133 [label="+20 Chemistry",color=orange];
+		j1557276133 -> j2728372552;
+	"Chat ends." [color=orange];
+	j2728372552 [label="ฮ่าฮ่า
+ก็อยากให้เป็นแบบนั้น
+แต่ก็ได้เลิกงานเร็วนะ นั่นก็ถือว่าดีแล้ว",shape=box,color=blue];
+		j2728372552 -> "Chat ends.";
+}

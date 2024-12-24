@@ -1,0 +1,20 @@
+digraph {
+	"LettieBirthdayConvo1 begins." [color=orange];
+		"LettieBirthdayConvo1 begins." -> j2393759858;
+		"LettieBirthdayConvo1 begins." -> j1484958777;
+	j2393759858 [label="Ehi! Buon compleanno! I tuoi ratti ti hanno regalato qualcosa?",shape=box,color=red];
+		j2393759858 -> j4168346121;
+	j1484958777 [label="Buon compleanno! E cade proprio nei Giorni Stellari. Molto Romantico. :)",shape=box,color=red];
+		j1484958777 -> j3265752488;
+	j4168346121 [label="+20 Chemistry",color=orange];
+		j4168346121 -> j3139013978;
+	j3265752488 [label="Cosa sono i giorni stellari?
+Vabbè. Sono troppo impegnata per quella roba. 
+Adiós",shape=box,color=blue];
+		j3265752488 -> "Chat ends.";
+	j3139013978 [label="Jajaja no 
+Tutto ciò che voglio è dormire un'oretta o una tazza di caffè fresco. È chiedere troppo? 
+Pero, gracias",shape=box,color=blue];
+		j3139013978 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

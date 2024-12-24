@@ -1,0 +1,74 @@
+digraph {
+	"LettieRank2Convo4 begins." [color=orange];
+		"LettieRank2Convo4 begins." -> j3639082738;
+	j3639082738 [label="Check boolean LettieSmallFavor",color=orange];
+		j3639082738 -> j3967156835 [label=true,color=green];
+		j3639082738 -> j2038400820 [label=false,color=brown];
+	j3967156835 [label="Эй, babas 
+У меня есть ещё одна маленькая просьба к тебе",shape=box,color=blue];
+		j3967156835 -> j3344002;
+		j3967156835 -> j3172646213;
+		j3967156835 -> j3888931261;
+	j2038400820 [label="Эй, babas 
+У меня к тебе маленькая просьба",shape=box,color=blue];
+		j2038400820 -> j3888931261;
+		j2038400820 -> j3172646213;
+		j2038400820 -> j3344002;
+	j3344002 [label="Конечно. Что такое?",shape=box,color=red];
+		j3344002 -> j1955422471;
+	j3172646213 [label="Ты же знаешь, что я тебе не принадлежу, верно?",shape=box,color=red];
+		j3172646213 -> j1472320615;
+	j3888931261 [label="Занимайся своим делом. [Завершить]",shape=box,color=red];
+		j3888931261 -> "Chat ends.";
+	j1955422471 [label="+10 Chemistry",color=orange];
+		j1955422471 -> j3462507413;
+	j1472320615 [label="Sí 
+Держу пари, я могла бы заставить тебя умолять за угощения 
+Но ты, наверное, слишком мягок для этого",shape=box,color=blue];
+		j1472320615 -> j2690082473;
+		j1472320615 -> j498598467;
+	"Chat ends." [color=orange];
+	j3462507413 [label="Bueno",shape=box,color=blue];
+		j3462507413 -> j2908007724;
+	j2690082473 [label="Ты… угрожаешь мне или флиртуешь со мной?",shape=box,color=red];
+		j2690082473 -> j697400778;
+	j498598467 [label="Ну давай же.",shape=box,color=red];
+		j498598467 -> j3637823699;
+	j2908007724 [label="У меня слишком много работы, чтобы играть в игры и бегать туда-сюда 
+Эти гражданские собирают пулевые ранения, как Амир собирает компьютеры",shape=box,color=blue];
+		j2908007724 -> j899518421;
+	j697400778 [label="+10 Chemistry",color=orange];
+		j697400778 -> j338135559;
+	j3637823699 [label="+10 Chemistry",color=orange];
+		j3637823699 -> j1452355391;
+	j899518421 [label="Суть в том, что нужны медкомплекты 
+Мне нужно больше 
+Найди их или купи, не важно 
+Принеси мне 
+Te lo agradecería mucho",shape=box,color=blue];
+		j899518421 -> j1162398327;
+		j899518421 -> j2195920196;
+		j899518421 -> j2547410917;
+	j338135559 [label="¿Por qué no ambos? 
+Не отвлекай меня, babas",shape=box,color=blue];
+		j338135559 -> j2908007724;
+	j1452355391 [label="Cuidadito, babas 
+Не отвлекай меня",shape=box,color=blue];
+		j1452355391 -> j2908007724;
+	j1162398327 [label="Я займусь этим.",shape=box,color=red];
+		j1162398327 -> j1350425999;
+	j2195920196 [label="Без обещаний.",shape=box,color=red];
+		j2195920196 -> j622271630;
+	j2547410917 [label="Найди их сама.",shape=box,color=red];
+		j2547410917 -> "Chat ends.";
+	j1350425999 [label="+10 Chemistry",color=orange];
+		j1350425999 -> j2922128226;
+	j622271630 [label="+10 Chemistry",color=orange];
+		j622271630 -> j2164365181;
+	j2922128226 [label="Gracias",shape=box,color=blue];
+		j2922128226 -> j3889308430;
+	j2164365181 [label="Никто и не просил",shape=box,color=blue];
+		j2164365181 -> j3889308430;
+	j3889308430 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j3889308430 -> "Chat ends.";
+}

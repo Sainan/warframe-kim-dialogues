@@ -1,0 +1,19 @@
+digraph {
+	"LettieBirthdayConvo3 begins." [color=orange];
+		"LettieBirthdayConvo3 begins." -> j985350442;
+		"LettieBirthdayConvo3 begins." -> j427684552;
+	j985350442 [label="やあ！　誕生日に何か楽しい予定はある？　早く寝るとか？",shape=box,color=red];
+		j985350442 -> j557098512;
+	j427684552 [label="誕生日おめでとう！　クラブに出かけよう！",shape=box,color=red];
+		j427684552 -> j1757414322;
+	j557098512 [label="+20 Chemistry",color=orange];
+		j557098512 -> j176992671;
+	j1757414322 [label="Jajajaja
+*嫌*",shape=box,color=blue];
+		j1757414322 -> "Chat ends.";
+	j176992671 [label="Jajajajaja
+Aaayyy, sí
+熱いお風呂に昼寝、夢の誕生日ね",shape=box,color=blue];
+		j176992671 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

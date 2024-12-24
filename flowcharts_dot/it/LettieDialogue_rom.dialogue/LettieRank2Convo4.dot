@@ -1,0 +1,74 @@
+digraph {
+	"LettieRank2Convo4 begins." [color=orange];
+		"LettieRank2Convo4 begins." -> j3639082738;
+	j3639082738 [label="Check boolean LettieSmallFavor",color=orange];
+		j3639082738 -> j3664674391 [label=true,color=green];
+		j3639082738 -> j3123616876 [label=false,color=brown];
+	j3664674391 [label="Ehi, babas 
+Ho un altro piccolo favore da chiederti",shape=box,color=blue];
+		j3664674391 -> j1861580598;
+		j3664674391 -> j4032454530;
+		j3664674391 -> j4158063522;
+	j3123616876 [label="Ehi, babas 
+Ho un piccolo favore da chiederti",shape=box,color=blue];
+		j3123616876 -> j4158063522;
+		j3123616876 -> j4032454530;
+		j3123616876 -> j1861580598;
+	j1861580598 [label="Certo. Che succede?",shape=box,color=red];
+		j1861580598 -> j790161831;
+	j4032454530 [label="Sai che non sono il tuo servo, vero?",shape=box,color=red];
+		j4032454530 -> j3999786221;
+	j4158063522 [label="Fatti da sola le tue commissioni. [Fine.]",shape=box,color=red];
+		j4158063522 -> "Chat ends.";
+	j790161831 [label="+10 Chemistry",color=orange];
+		j790161831 -> j1241268304;
+	j3999786221 [label="Sí 
+Scommetto che potrei farti implorare per dei dolcetti 
+Ma probabilmente sei troppo debole per quello",shape=box,color=blue];
+		j3999786221 -> j1399578183;
+		j3999786221 -> j2196011140;
+	"Chat ends." [color=orange];
+	j1241268304 [label="Bueno",shape=box,color=blue];
+		j1241268304 -> j3180778729;
+	j1399578183 [label="Mi... stai minacciando o ci stai provando con me?",shape=box,color=red];
+		j1399578183 -> j11671239;
+	j2196011140 [label="Provaci.",shape=box,color=red];
+		j2196011140 -> j497074813;
+	j3180778729 [label="Ho troppo lavoro da fare per giocare e correre in giro 
+Questi civili collezionano ferite da proiettili come Amir colleziona computer",shape=box,color=blue];
+		j3180778729 -> j1478059132;
+	j11671239 [label="+10 Chemistry",color=orange];
+		j11671239 -> j1901341900;
+	j497074813 [label="+10 Chemistry",color=orange];
+		j497074813 -> j4256911575;
+	j1478059132 [label="Il punto è che mancano i kit medici 
+me ne servono altri 
+Trovali o comprali, non importa 
+Portameli 
+Te lo agradecería mucho",shape=box,color=blue];
+		j1478059132 -> j3822687896;
+		j1478059132 -> j4097845094;
+		j1478059132 -> j3063353642;
+	j1901341900 [label="¿Por qué no ambos? 
+Non distrarmi, babas",shape=box,color=blue];
+		j1901341900 -> j3180778729;
+	j4256911575 [label="Cuidadito, babas 
+Non distrarmi",shape=box,color=blue];
+		j4256911575 -> j3180778729;
+	j3822687896 [label="Ok.",shape=box,color=red];
+		j3822687896 -> j1350425999;
+	j4097845094 [label="Non posso promettertelo.",shape=box,color=red];
+		j4097845094 -> j4114144654;
+	j3063353642 [label="Prenditeli da sola.",shape=box,color=red];
+		j3063353642 -> "Chat ends.";
+	j1350425999 [label="+10 Chemistry",color=orange];
+		j1350425999 -> j2922128226;
+	j4114144654 [label="+10 Chemistry",color=orange];
+		j4114144654 -> j118243235;
+	j2922128226 [label="Gracias",shape=box,color=blue];
+		j2922128226 -> j3889308430;
+	j118243235 [label="Non te l'ho chiesto",shape=box,color=blue];
+		j118243235 -> j3889308430;
+	j3889308430 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j3889308430 -> "Chat ends.";
+}

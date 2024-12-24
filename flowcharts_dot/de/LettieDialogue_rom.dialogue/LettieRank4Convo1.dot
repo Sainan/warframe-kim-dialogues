@@ -1,0 +1,79 @@
+digraph {
+	"LettieRank4Convo1 begins." [color=orange];
+		"LettieRank4Convo1 begins." -> j4164776084;
+		"LettieRank4Convo1 begins." -> j588899379;
+		"LettieRank4Convo1 begins." -> j2543927507;
+	j4164776084 [label="Ich habe nie die ganze Geschichte erfahren, wie du Arthur kennengelernt hast.",shape=box,color=red];
+		j4164776084 -> j1894061484;
+	j588899379 [label="Hast du eine Sekunde Zeit zum Plaudern, Lettie? Oder bist du beschäftigt?",shape=box,color=red];
+		j588899379 -> j108328044;
+	j2543927507 [label="[Ende.]",shape=box,color=red];
+		j2543927507 -> "Chat ends.";
+	j1894061484 [label="Naja, es war eine Sauerei 
+Dachte, du wolltest die blutigen Details nicht wissen 
+Aber, sí, wenn du es wissen willst 
+Dann erzähle ich es dir",shape=box,color=blue];
+		j1894061484 -> j1996413183;
+	j108328044 [label="+5 Chemistry",color=orange];
+		j108328044 -> j1272788408;
+	"Chat ends." [color=orange];
+	j1996413183 [label="Wir waren zusammen in derselben Basis stationiert 
+Er in der britischen und ich in der libertanischen Armee
+Verschiedene Länder, dieselben Feinde",shape=box,color=blue];
+		j1996413183 -> j1851578819;
+	j1272788408 [label="Immer beschäftigt 
+Aber ich kann eine Pause machen 
+¿Qué onda?",shape=box,color=blue];
+		j1272788408 -> j3850653535;
+	j1851578819 [label="Ich war der Feldsani für mein Regiment 
+Wir wurden neben seinem eingesetzt 
+Die Stellung wurde richtig zum cagadero 
+Sehr schnell",shape=box,color=blue];
+		j1851578819 -> j3168945395;
+	j3850653535 [label="Ich habe mich gefragt, wie du und Arthur euch kennengelernt habt.",shape=box,color=red];
+		j3850653535 -> j1894061484;
+	j3168945395 [label="Der Großteil meines Regiments schaffte es nicht
+Die meisten von seinem auch nicht 
+Wir hielten uns zusammen 
+Buchstäblich 
+Ich habe seinen Arm gut zusammengeflickt jaja 
+Als er in den Ruhestand ging und der IKA beitrat
+Folgte ich ihm ohne zu fragen 
+Ich hatte das ganze Drama, das sich in der Armee abspielt, sowieso satt",shape=box,color=blue];
+		j3168945395 -> j3233264830;
+	j3233264830 [label="Ich sagte ihm, ich würde ihm bis ans Ende der Welt folgen 
+Mir war nicht klar, dass ich ihm bis an den Rand von Mictlán folgen würde",shape=box,color=blue];
+		j3233264830 -> j2399923103;
+	j2399923103 [label="Es muss dir so nichtig vorkommen 
+Eine Geschichte wie diese 
+Du kämpfst gegen Monster und Götter 
+Du hast so oft mit La Flaca getanzt",shape=box,color=blue];
+		j2399923103 -> j884186611;
+	j884186611 [label="Boolean LettieArthur1 is now true.",color=orange];
+		j884186611 -> j1818842116;
+		j884186611 -> j2619398432;
+		j884186611 -> j2915771112;
+	j1818842116 [label="Nur weil meine Kämpfe ein wenig spektakulär sind, heißt das nicht, dass ich nicht einschätzen kann, wie schrecklich es gewesen sein muss.",shape=box,color=red];
+		j1818842116 -> j1235455120;
+	j2619398432 [label="Jeder Krieg ist Scheiße, Ende der Geschichte.",shape=box,color=red];
+		j2619398432 -> j716215334;
+	j2915771112 [label="Äh, kleine Leute, kleine Geschichten.",shape=box,color=red];
+		j2915771112 -> j2603294825;
+	j1235455120 [label="+10 Chemistry",color=orange];
+		j1235455120 -> j1596116081;
+	j716215334 [label="+15 Chemistry",color=orange];
+		j716215334 -> j642026029;
+	j2603294825 [label="Seguro",shape=box,color=blue];
+		j2603294825 -> j3065772033;
+	j1596116081 [label="Ay, sí 
+Blendend und dramatisch oder klein und persönlich 
+La Flaca ist am Ende immer gleich 
+Zumindest ... sollte sie das sein 
+Aber nicht für los fantasmas",shape=box,color=blue];
+		j1596116081 -> "Chat ends.";
+	j642026029 [label="Sí, alles das Gleiche 
+Egal wie groß und dämlich die Waffen sind",shape=box,color=blue];
+		j642026029 -> "Chat ends.";
+	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
+		j3065772033 -> "Chat ends.";
+}

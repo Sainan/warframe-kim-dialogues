@@ -1,0 +1,19 @@
+digraph {
+	"LettieBirthdayConvo2 begins." [color=orange];
+		"LettieBirthdayConvo2 begins." -> j910319252;
+		"LettieBirthdayConvo2 begins." -> j817202592;
+	j910319252 [label="生日快樂！我敢打賭醫療帳篷裡的每個人都很感激你還在工作呢。:)",shape=box,color=red];
+		j910319252 -> j2832731472;
+	j817202592 [label="生日快樂，莉蒂！今天有放假嗎？或者至少坐坐喘口氣？",shape=box,color=red];
+		j817202592 -> j1393251664;
+	j2832731472 [label="Sí
+當然",shape=box,color=blue];
+		j2832731472 -> "Chat ends.";
+	j1393251664 [label="+20 Chemistry",color=orange];
+		j1393251664 -> j2716556755;
+	"Chat ends." [color=orange];
+	j2716556755 [label="哈哈！
+我也希望啊
+我確實提早下班了。對我來說這就夠了。",shape=box,color=blue];
+		j2716556755 -> "Chat ends.";
+}

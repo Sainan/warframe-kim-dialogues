@@ -1,0 +1,110 @@
+digraph {
+	"LettieRank1Convo3 begins." [color=orange];
+		"LettieRank1Convo3 begins." -> j4118731842;
+	j4118731842 [label="Babas 
+Осторожно",shape=box,color=blue];
+		j4118731842 -> j406597565;
+		j4118731842 -> j1412674921;
+	j406597565 [label="Это что, приветствие?",shape=box,color=red];
+		j406597565 -> j581961677;
+	j1412674921 [label="Не сейчас, извини. [Завершить]",shape=box,color=red];
+		j1412674921 -> "Chat ends.";
+	j581961677 [label="Да, да, привет, *доброе утро* 
+Или какое бы там ни было время 
+Нужно, ещё бинты 
+Запасы на исходе",shape=box,color=blue];
+		j581961677 -> j4101679837;
+	"Chat ends." [color=orange];
+	j4101679837 [label="Анита залезла в коробку и прогрызла её",shape=box,color=blue];
+		j4101679837 -> j844546946;
+		j4101679837 -> j3815374055;
+	j844546946 [label="Кто такая Анита?",shape=box,color=red];
+		j844546946 -> j2773119003;
+	j3815374055 [label="Понятия не имею, о ком ты, Лэтти.",shape=box,color=red];
+		j3815374055 -> j2773119003;
+	j2773119003 [label="Lo siento, ладно",shape=box,color=blue];
+		j2773119003 -> j2884352970;
+	j2884352970 [label="+5 Chemistry",color=orange];
+		j2884352970 -> j3841226688;
+	j3841226688 [label="Мое новое сердечко (по-испански), моя новая крыса 
+Она всё ещё учится быть послушной",shape=box,color=blue];
+		j3841226688 -> j2604450281;
+	j2604450281 [label="Check boolean LettieRatsAsked",color=orange];
+		j2604450281 -> j1101525122 [label=true,color=green];
+		j2604450281 -> j969352116 [label=true,color=green];
+		j2604450281 -> j2635595311 [label=false,color=brown];
+		j2604450281 -> j1101525122 [label=false,color=brown];
+		j2604450281 -> j969352116 [label=false,color=brown];
+	j1101525122 [label="Если увижу, захвачу немного.",shape=box,color=red];
+		j1101525122 -> j3842525128;
+	j969352116 [label="Тогда ты можешь сама пойти и принести бинты, если твоя крыса их съела.",shape=box,color=red];
+		j969352116 -> j4021318401;
+	j2635595311 [label="Мне любопытно, почему ты держишь крыс как питомцев?",shape=box,color=red];
+		j2635595311 -> j2202941695;
+	j3842525128 [label="+10 Chemistry",color=orange];
+		j3842525128 -> j3459416592;
+	j4021318401 [label="Sí, со всем моим свободным временем 
+Между зашиванием Гекса
+И всеми гражданскими",shape=box,color=blue];
+		j4021318401 -> j807166870;
+	j2202941695 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		j2202941695 -> j3815176138;
+	j3459416592 [label="Gracias
+Я у тебя в долгу 
+Немного",shape=box,color=blue];
+		j3459416592 -> j3889308430;
+	j807166870 [label="Gracias por nada, babas",shape=box,color=blue];
+		j807166870 -> "Chat ends.";
+	j3815176138 [label="Ты скажи мне",shape=box,color=blue];
+		j3815176138 -> j3864385520;
+		j3815176138 -> j180479157;
+	j3889308430 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j3889308430 -> "Chat ends.";
+	j3864385520 [label="Что?",shape=box,color=red];
+		j3864385520 -> j156809167;
+	j180479157 [label="Мне не нравится, куда это всё идёт [Завершить]",shape=box,color=red];
+		j180479157 -> j1922389995;
+	j156809167 [label="Я хочу знать, почему ты думаешь, что мне нравятся крысы 
+Продолжай",shape=box,color=blue];
+		j156809167 -> j3155570661;
+		j156809167 -> j3533608882;
+		j156809167 -> j3678145265;
+	j1922389995 [label="Tú te lo pierdes",shape=box,color=blue];
+		j1922389995 -> "Chat ends.";
+	j3155570661 [label="Потому что они умные, ласковые и игривые?",shape=box,color=red];
+		j3155570661 -> j2462073937;
+	j3533608882 [label="Потому что их часто игнорируют и не понимают?",shape=box,color=red];
+		j3533608882 -> j2462073937;
+	j3678145265 [label="Лэтти? Я не понимаю в тебе ни черта. Но крысы ужасно милые.",shape=box,color=red];
+		j3678145265 -> j4081371252;
+	j2462073937 [label="Эй, Луа, sálvame
+Нет",shape=box,color=blue];
+		j2462073937 -> j2236616399;
+	j4081371252 [label="¡JAJA!",shape=box,color=blue];
+		j4081371252 -> j3251836633;
+	j2236616399 [label="В детстве у меня не было много денег 
+Неплохой район, правда 
+Но и не самый лучший 
+Крыс было легко держать, а mi mamá  было всё равно",shape=box,color=blue];
+		j2236616399 -> j2260331040;
+	j3251836633 [label="+5 Chemistry",color=orange];
+		j3251836633 -> j1541849119;
+	j2260331040 [label="Boolean LettieRats1 is now true.",color=orange];
+		j2260331040 -> j2612416324;
+	j1541849119 [label="Смирение от нашего спасителя
+Мне нравится",shape=box,color=blue];
+		j1541849119 -> j2236616399;
+	j2612416324 [label="Хочешь взять те бинты?",shape=box,color=blue];
+		j2612416324 -> j1685796461;
+		j2612416324 -> j1516125711;
+	j1685796461 [label="Конечно, посмотрю, что смогу сделать.",shape=box,color=red];
+		j1685796461 -> j3199990802;
+	j1516125711 [label="Ты можешь принести их, ведь это твоя крыса.",shape=box,color=red];
+		j1516125711 -> j4021318401;
+	j3199990802 [label="+10 Chemistry",color=orange];
+		j3199990802 -> j2920803743;
+	j2920803743 [label="Gracias 
+Я у тебя в долгу 
+В небольшом",shape=box,color=blue];
+		j2920803743 -> j3889308430;
+}

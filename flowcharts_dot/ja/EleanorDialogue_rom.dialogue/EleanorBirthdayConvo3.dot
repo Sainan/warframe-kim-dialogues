@@ -1,0 +1,16 @@
+digraph {
+	"EleanorBirthdayConvo3 begins." [color=orange];
+		"EleanorBirthdayConvo3 begins." -> j2579438436;
+		"EleanorBirthdayConvo3 begins." -> j902705708;
+	j2579438436 [label="お誕生日おめでとう、Eleanor！　良い一日を願うよ。",shape=box,color=red];
+		j2579438436 -> j314440274;
+	j902705708 [label="…その舌だとバースデーケーキのキャンドル吹くの大変じゃない？",shape=box,color=red];
+		j902705708 -> j3436163323;
+	j314440274 [label="+20 Chemistry",color=orange];
+		j314440274 -> j848326545;
+	j3436163323 [label="もう何年もバースデーケーキを貰っていないと思い出させてくれてありがとう。本当にオモイヤリがあるわ。",shape=box,color=blue];
+		j3436163323 -> "Chat ends.";
+	j848326545 [label="そうね。普段は優しくない人からも、優しく接してもらっている。もしかしたら希望はあるのかしらね？",shape=box,color=blue];
+		j848326545 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

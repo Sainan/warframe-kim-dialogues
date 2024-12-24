@@ -1,0 +1,127 @@
+digraph {
+	"LettieRank4Convo2 begins." [color=orange];
+		"LettieRank4Convo2 begins." -> j1970139256;
+	j1970139256 [label="Parle-moi de ce dieu terrible que tu as réveillé
+Ton Xipe Totec, ton Écorché 
+Que veut-il?",shape=box,color=blue];
+		j1970139256 -> j864292509;
+	j864292509 [label="Check boolean LettieReligion2",color=orange];
+		j864292509 -> j3104078971 [label=true,color=green];
+		j864292509 -> j1317332976 [label=true,color=green];
+		j864292509 -> j1592169286 [label=true,color=green];
+		j864292509 -> j2766991930 [label=true,color=green];
+		j864292509 -> j615974993 [label=false,color=brown];
+		j864292509 -> j2766991930 [label=false,color=brown];
+	j3104078971 [label="La liberté?",shape=box,color=red];
+		j3104078971 -> j3591139671;
+	j1317332976 [label="Nos connaissances?",shape=box,color=red];
+		j1317332976 -> j3591139671;
+	j1592169286 [label="Je ne sais pas.",shape=box,color=red];
+		j1592169286 -> j615834835;
+	j2766991930 [label="Je re [Fin.]",shape=box,color=red];
+		j2766991930 -> "Chat ends.";
+	j615974993 [label="Hein? De quoi parles-tu?",shape=box,color=red];
+		j615974993 -> j3647086228;
+	j3591139671 [label="Tu penses mais tu ne sais pas 
+Ses motivations ne sont pas claires 
+Mais pourtant, tu penses que c'est un ennemi. ¿Por qué?",shape=box,color=blue];
+		j3591139671 -> j3482097452;
+		j3591139671 -> j800368413;
+	j615834835 [label="Tu le traites comme un ennemi 
+Si tu ne sais pas ce qu'il recherche 
+¿Por qué?",shape=box,color=blue];
+		j615834835 -> j3482097452;
+		j615834835 -> j800368413;
+	"Chat ends." [color=orange];
+	j3647086228 [label="Cette créature du Néant qui sacrifie les autres et porte leur peau comme l'ancien dieu Écorché d'autrefois, Xipe Totec",shape=box,color=blue];
+		j3647086228 -> j86016663;
+	j3482097452 [label="Cette CHOSE a décidé que ce serait une expérience amusante de retourner les parents du Zariman contre leurs enfants -",shape=box,color=red];
+		j3482097452 -> j3968906339;
+	j800368413 [label="Tout ce qu'il fait, c'est semer la mort et la destruction. Peu importe ses motivations, cela n'a aucune importance. Crois-moi.",shape=box,color=red];
+		j800368413 -> j478702934;
+	j86016663 [label="Boolean LettieReligion2 is now true.",color=orange];
+		j86016663 -> j2137255320;
+	j3968906339 [label="Et puis, il a donné aux enfants des pouvoirs magiques du Néant pour qu'ils puissent assassiner leurs propres parents afin qu'ils puissent APPRENDRE du massacre.",shape=box,color=red];
+		j3968906339 -> j3362483466;
+		j3968906339 -> j1763578371;
+	j478702934 [label="Non 
+Croire que tu comprends l'esprit d'un dieu?
+Peu importe ton âge 
+Tout ce que tu as vu",shape=box,color=blue];
+		j478702934 -> j1467973773;
+	j2137255320 [label="Qu'est-ce qu'il veut",shape=box,color=blue];
+		j2137255320 -> j3104078971;
+		j2137255320 -> j1317332976;
+		j2137255320 -> j1592169286;
+	j3362483466 [label="Il a eu l'occasion d'apprendre l'amour, le sacrifice, la bonté. Mais il continue à CHOISIR le chaos et le meurtre.",shape=box,color=red];
+		j3362483466 -> j1785830938;
+	j1763578371 [label="Même s'il s'agit simplement d'un enfant qui casse des jouets pour comprendre le monde qui l'entoure, nous sommes ces jouets. Il faut que ça cesse.",shape=box,color=red];
+		j1763578371 -> j787507124;
+	j1467973773 [label="Check boolean LettieEntrati",color=orange];
+		j1467973773 -> j3237416238 [label=true,color=green];
+		j1467973773 -> j2106554779 [label=false,color=brown];
+	j1785830938 [label="Je continuerai à espérer que ce n’est pas un ennemi, mais… je n'ai pas beaucoup de raisons de penser que ce n’en est pas un.",shape=box,color=red];
+		j1785830938 -> j3660115427;
+	j787507124 [label="Je refuse de croire que c'est bénin après tout ce que j'ai vu. Après tout ce qu'il m'a fait.",shape=box,color=red];
+		j787507124 -> j3660115427;
+	j3237416238 [label="Tu n'es pas un dieu, babas 
+Ne prétends pas pouvoir penser comme eux
+Sinon, tu ne vaux pas mieux que ce cabrón d'Entrati",shape=box,color=blue];
+		j3237416238 -> "Chat ends.";
+	j2106554779 [label="Check boolean LettieOrokin",color=orange];
+		j2106554779 -> j102940062 [label=true,color=green];
+		j2106554779 -> j546727970 [label=false,color=brown];
+	j3660115427 [label="Et tu penses que tu peux arrêter un dieu",shape=box,color=blue];
+		j3660115427 -> j61093793;
+	j102940062 [label="Tu n'es pas un dieu, babas 
+Ne prétends pas pouvoir penser comme eux 
+Sinon, tu ne vaux pas mieux que ces cabrones orokins",shape=box,color=blue];
+		j102940062 -> "Chat ends.";
+	j546727970 [label="Tu n'es pas un dieu, babas 
+Ne prétends pas pouvoir penser comme eux",shape=box,color=blue];
+		j546727970 -> "Chat ends.";
+	j61093793 [label="Boolean LettieReligion4 is now true.",color=orange];
+		j61093793 -> j74624568;
+	j74624568 [label="Check boolean ReligionNone",color=orange];
+		j74624568 -> j58413461 [label=true,color=green];
+		j74624568 -> j195952661 [label=true,color=green];
+		j74624568 -> j1641741013 [label=true,color=green];
+		j74624568 -> j868497661 [label=false,color=brown];
+	j58413461 [label="Aucune idée. J'ai tendance à improviser au fur et à mesure. lol",shape=box,color=red];
+		j58413461 -> j2409882359;
+	j195952661 [label="Je pense que je peux essayer. Comme je l'ai fait ici. Et c'est tout ce que nous pouvons faire.",shape=box,color=red];
+		j195952661 -> j3886542855;
+	j1641741013 [label="C'est aux autres d'agir, maintenant. Ma place est ici, en 1999, avec vous tous.",shape=box,color=red];
+		j1641741013 -> j620266737;
+	j868497661 [label="J'ai la foi.",shape=box,color=red];
+		j868497661 -> j4099089503;
+	j2409882359 [label="+20 Chemistry",color=orange];
+		j2409882359 -> j2872557731;
+	j3886542855 [label="+20 Chemistry",color=orange];
+		j3886542855 -> j316389403;
+	j620266737 [label="Estás bromeando, ¿verdad? 
+Au moment où ils appelleront, tu courras
+Tu es un voyageur, un soldat, tu iras sauver l'avenir quand ils auront besoin de toi",shape=box,color=blue];
+		j620266737 -> j1798410879;
+	j4099089503 [label="+20 Chemistry",color=orange];
+		j4099089503 -> j2046747756;
+	j2872557731 [label="Jaja, sí
+J'ai ce sentiment 
+J'apprécie ton honnêteté, babas
+Cela semble fonctionner pour toi, donc je ne te jugerai pas",shape=box,color=blue];
+		j2872557731 -> "Chat ends.";
+	j316389403 [label="Sí
+C'est tout ce que nous pouvons demander, je suppose",shape=box,color=blue];
+		j316389403 -> "Chat ends.";
+	j1798410879 [label="Nous sommes coincés ici 
+Ne me mens pas et ne me dis pas que tu m'emmèneras en promenade, babas 
+Un jour, tu partiras et tu ne reviendras jamais",shape=box,color=blue];
+		j1798410879 -> j1682647635;
+	j2046747756 [label="Ay, sí
+La foi en ce qui n'a pas d'importance, je suppose 
+Tant que ça t'aide à t'en sortir",shape=box,color=blue];
+		j2046747756 -> "Chat ends.";
+	j1682647635 [label="Boolean LettieEscape is now true.",color=orange];
+		j1682647635 -> "Chat ends. Next chat will be LettieEscape.";
+	"Chat ends. Next chat will be LettieEscape." [color=orange];
+}

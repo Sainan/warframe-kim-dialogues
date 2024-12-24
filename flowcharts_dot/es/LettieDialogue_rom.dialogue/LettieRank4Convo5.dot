@@ -1,0 +1,143 @@
+digraph {
+	"LettieRank4Convo5 begins." [color=orange];
+		"LettieRank4Convo5 begins." -> j3575420337;
+	j3575420337 [label="Ay, camarada
+¿Tienes un segundo?",shape=box,color=blue];
+		j3575420337 -> j4002198790;
+		j3575420337 -> j1618547164;
+		j3575420337 -> j3424368102;
+	j4002198790 [label="Usualmente estás muy ocupada. :)",shape=box,color=red];
+		j4002198790 -> j4293667756;
+	j1618547164 [label="Sí, ¿qué pasa?",shape=box,color=red];
+		j1618547164 -> j4249940290;
+	j3424368102 [label="Perdón, me tengo que ir. [Fin.]",shape=box,color=red];
+		j3424368102 -> "Chat ends.";
+	j4293667756 [label="Ay, sí, jajaja usualmente lo estoy
+Solo tengo una pregunta
+Alguien como tú
+¿Llega a extrañar su hogar?",shape=box,color=blue];
+		j4293667756 -> j4020938118;
+		j4293667756 -> j798301529;
+		j4293667756 -> j1887682808;
+	j4249940290 [label="Solo tengo una pregunta
+Alguien como tú
+¿Llega a extrañar su hogar?",shape=box,color=blue];
+		j4249940290 -> j4020938118;
+		j4249940290 -> j798301529;
+		j4249940290 -> j1887682808;
+	"Chat ends." [color=orange];
+	j4020938118 [label="Nunca he tenido un hogar, Lettie.",shape=box,color=red];
+		j4020938118 -> j1415046505;
+	j798301529 [label="¿Qué es lo que quieres decir? con, \"¿alguien como yo?\"",shape=box,color=red];
+		j798301529 -> j2173574436;
+	j1887682808 [label="Los únicos lugares que he tenido a los que puedo llamar \"hogar\" son donde intentaron MATARME. ¿Por qué extrañaría eso?",shape=box,color=red];
+		j1887682808 -> j3217774563;
+	j1415046505 [label="+5 Chemistry",color=orange];
+		j1415046505 -> j3996289248;
+	j2173574436 [label="Alguien sin un hogar verdadero",shape=box,color=blue];
+		j2173574436 -> j2132674260;
+		j2173574436 -> j3081931390;
+	j3217774563 [label="Porque puedes querer algo que nunca has tenido
+O extrañar cosas que ves que otras personas tienen
+A mí me pasa",shape=box,color=blue];
+		j3217774563 -> j1204335152;
+	j3996289248 [label="Sí, ya sé
+Yo igual",shape=box,color=blue];
+		j3996289248 -> j1204335152;
+	j2132674260 [label="Que gran manera de restregármelo, Lettie. Gracias.",shape=box,color=red];
+		j2132674260 -> j1414789783;
+	j3081931390 [label="No puedes extrañar algo que nunca has tenido.",shape=box,color=red];
+		j3081931390 -> j3515135271;
+	j1204335152 [label="Los detalles son diferentes pero tú y yo
+Ninguno de los dos ha tenido un hogar de verdad
+Brincando de lugar a lugar, de base en base
+Sin poderme establecer, sin hacer amigos por mucho tiempo
+Sin saber dónde iba a estar en seis meses, en un año, dos",shape=box,color=blue];
+		j1204335152 -> j1894471540;
+	j1414789783 [label="+5 Chemistry",color=orange];
+		j1414789783 -> j2018565117;
+	j3515135271 [label="No
+Eso es una mentira
+Crecí sin un hogar y siento nostalgia",shape=box,color=blue];
+		j3515135271 -> j1204335152;
+	j1894471540 [label="Boolean LettieNoHome is now true.",color=orange];
+		j1894471540 -> j3327626097;
+	j2018565117 [label="Nonono 
+No lo quise decir así
+Yo igual",shape=box,color=blue];
+		j2018565117 -> j1204335152;
+	j3327626097 [label="Check boolean LettieOrokin",color=orange];
+		j3327626097 -> j3255839187 [label=true,color=green];
+		j3327626097 -> j791670604 [label=false,color=brown];
+		j3327626097 -> j2610758446 [label=false,color=brown];
+	j3255839187 [label="Todo lo que tuve fue mi familia y sus tradiciones
+Pero a veces creo que ellos ni siquiera son parte de mí
+Como tú y esos pinches orokin",shape=box,color=blue];
+		j3255839187 -> j4090589683;
+		j3255839187 -> j235761807;
+	j791670604 [label="Sin embargo, al menos tú tuviste familia. Yo nunca tuve eso.",shape=box,color=red];
+		j791670604 -> j4151369124;
+	j2610758446 [label="Al menos no estabas sola.",shape=box,color=red];
+		j2610758446 -> j4151369124;
+	j4090589683 [label="¿Qué quieres decir?",shape=box,color=red];
+		j4090589683 -> j2205837545;
+	j235761807 [label="Parece que estás muy orgullosa de tus orígenes, me sorprende.",shape=box,color=red];
+		j235761807 -> j3217302679;
+	j4151369124 [label="+5 Chemistry",color=orange];
+		j4151369124 -> j631139764;
+	j2205837545 [label="+5 Chemistry",color=orange];
+		j2205837545 -> j1461689039;
+	j3217302679 [label="+5 Chemistry",color=orange];
+		j3217302679 -> j14731984;
+	j631139764 [label="Sí 
+Tienes razón
+¿Cómo es que no te has vuelto loco? jaja
+No sé cómo le haces, yo hubiera perdido la cabeza",shape=box,color=blue];
+		j631139764 -> j3224492274;
+	j1461689039 [label="Que me dijeran de groserías por el color de mi piel o por como hablo
+Demasiado gringa para ser de Tenochtitlán
+Ser de Tenóchtitlán y no ser considerada gringa
+Ay, equis, estoy balbuceando",shape=box,color=blue];
+		j1461689039 -> j566844435;
+	j14731984 [label="Sí
+Lo estoy porque aprendí que nadie puede arrebatárme eso
+Pero me tomó algo de tiempo sentirme así",shape=box,color=blue];
+		j14731984 -> j1461689039;
+	j3224492274 [label="Tal vez podría
+Atrapada aquí como un fantasma
+Ay, equis, estoy balbuceando",shape=box,color=blue];
+		j3224492274 -> j566844435;
+	j566844435 [label="Extraño un lugar y algo que nunca tuve
+Me pregunto si es la genética
+Algo inculcado en nosotros
+No tiene sentido",shape=box,color=blue];
+		j566844435 -> j1492464155;
+	j1492464155 [label="Es por eso que te pregunté
+Si también lo sentías
+Pero tú eres del futuro
+Tal vez ya le encontraron solución",shape=box,color=blue];
+		j1492464155 -> j4154081014;
+		j1492464155 -> j3348438672;
+	j4154081014 [label="No, creo que sé cómo te sientes. Me dan ataques de tristeza en los que siento la necesidad de ir a un lugar que no existe.",shape=box,color=red];
+		j4154081014 -> j3781815413;
+	j3348438672 [label="Tal vez. Realmente no extraño mi hogar. Me siento triste y sola a veces, pero no es nostalgia por un hogar.",shape=box,color=red];
+		j3348438672 -> j2427378297;
+	j3781815413 [label="+10 Chemistry",color=orange];
+		j3781815413 -> j460317924;
+	j2427378297 [label="+5 Chemistry",color=orange];
+		j2427378297 -> j2209349601;
+	j460317924 [label="Sí
+Eso es a lo que me refiero
+O tal vez es que tenemos el mismo tipo de depresión jajaja",shape=box,color=blue];
+		j460317924 -> j1155206702;
+	j2209349601 [label="Sí
+Tal vez es solo la depresión que está resurgiendo de nuevo
+No debería estar sorprendida 
+Estúpidas arañas",shape=box,color=blue];
+		j2209349601 -> j1155206702;
+	j1155206702 [label="Eh, gracias 
+Hablando de arañas, es hora de que ellas y yo nos vayamos a dormir",shape=box,color=blue];
+		j1155206702 -> j168662028;
+	j168662028 [label="Boolean LettieDepression is now true.",color=orange];
+		j168662028 -> "Chat ends.";
+}

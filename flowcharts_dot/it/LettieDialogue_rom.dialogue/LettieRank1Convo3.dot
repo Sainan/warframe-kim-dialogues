@@ -1,0 +1,104 @@
+digraph {
+	"LettieRank1Convo3 begins." [color=orange];
+		"LettieRank1Convo3 begins." -> j3533394363;
+	j3533394363 [label="Babas 
+Attenzione",shape=box,color=blue];
+		j3533394363 -> j757581920;
+		j3533394363 -> j2035651734;
+	j757581920 [label="È un saluto?",shape=box,color=red];
+		j757581920 -> j2113605972;
+	j2035651734 [label="Non ora, mi dispiace. [Fine.]",shape=box,color=red];
+		j2035651734 -> "Chat ends.";
+	j2113605972 [label="Sì, sì, ciao, *buongiorno* 
+O qualunque ora sia 
+Ho bisogno che tu prenda più garza 
+Le scorte stanno finendo",shape=box,color=blue];
+		j2113605972 -> j1113783450;
+	"Chat ends." [color=orange];
+	j1113783450 [label="Anita è entrata nella scatola e ne ha masticata un po'",shape=box,color=blue];
+		j1113783450 -> j4171411409;
+		j1113783450 -> j1181597934;
+	j4171411409 [label="Chi è Anita?",shape=box,color=red];
+		j4171411409 -> j3162426965;
+	j1181597934 [label="Non ho idea di chi sia, Lettie.",shape=box,color=red];
+		j1181597934 -> j3162426965;
+	j3162426965 [label="Lo siento, giusto",shape=box,color=blue];
+		j3162426965 -> j939855661;
+	j939855661 [label="+5 Chemistry",color=orange];
+		j939855661 -> j3272785105;
+	j3272785105 [label="Il mio nuovo corazoncito, il mio nuovo ratto 
+La sto ancora addestrando",shape=box,color=blue];
+		j3272785105 -> j2604450281;
+	j2604450281 [label="Check boolean LettieRatsAsked",color=orange];
+		j2604450281 -> j2944615984 [label=true,color=green];
+		j2604450281 -> j4265313189 [label=true,color=green];
+		j2604450281 -> j2758988289 [label=false,color=brown];
+		j2604450281 -> j2944615984 [label=false,color=brown];
+		j2604450281 -> j4265313189 [label=false,color=brown];
+	j2944615984 [label="Se ne vedo, ne prenderò un po'.",shape=box,color=red];
+		j2944615984 -> j3117019680;
+	j4265313189 [label="Puoi andarci tu a prendere la garza allora, se l'ha mangiata il tuo ratto.",shape=box,color=red];
+		j4265313189 -> j3079540970;
+	j2758988289 [label="Per curiosità, perché hai dei ratti come animali domestici?",shape=box,color=red];
+		j2758988289 -> j1158155270;
+	j3117019680 [label="+10 Chemistry",color=orange];
+		j3117019680 -> j1251354807;
+	j3079540970 [label="Sì, nel mio tantissimo tempo libero 
+Tra un punto di sutura e l'altro per gli Hex 
+E per tutti i civili",shape=box,color=blue];
+		j3079540970 -> j807166870;
+	j1158155270 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		j1158155270 -> j3371455607;
+	j1251354807 [label="Grazie 
+Ti devo un favore 
+Uno piccolo",shape=box,color=blue];
+		j1251354807 -> j3889308430;
+	j807166870 [label="Gracias por nada, babas",shape=box,color=blue];
+		j807166870 -> "Chat ends.";
+	j3371455607 [label="Dimmelo tu",shape=box,color=blue];
+		j3371455607 -> j3913729297;
+		j3371455607 -> j2834836052;
+	j3889308430 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j3889308430 -> "Chat ends.";
+	j3913729297 [label="Uh?",shape=box,color=red];
+		j3913729297 -> j483857527;
+	j2834836052 [label="Non credo che mi piaccia dove stiamo andando a parare. [Fine]",shape=box,color=red];
+		j2834836052 -> j1922389995;
+	j483857527 [label="Voglio sapere perché pensi che mi piacciano i ratti 
+Continua",shape=box,color=blue];
+		j483857527 -> j803914297;
+		j483857527 -> j998412123;
+		j483857527 -> j378452198;
+	j1922389995 [label="Tú te lo pierdes",shape=box,color=blue];
+		j1922389995 -> "Chat ends.";
+	j803914297 [label="Perché sono intelligenti, affettuosi e giocosi?",shape=box,color=red];
+		j803914297 -> j2389039041;
+	j998412123 [label="Perché spesso vengono trascurati e fraintesi?",shape=box,color=red];
+		j998412123 -> j2389039041;
+	j378452198 [label="Lettie? Per me sei un enorme mistero. Ma i ratti sono adorabili.",shape=box,color=red];
+		j378452198 -> j4255284943;
+	j2389039041 [label="Ay, Lua, sálvame 
+No",shape=box,color=blue];
+		j2389039041 -> j2476830870;
+	j4255284943 [label="¡JAJA!",shape=box,color=blue];
+		j4255284943 -> j3159381454;
+	j2476830870 [label="Da bambina non avevo molti soldi 
+Non ero in un brutto quartiere, davvero 
+Nemmeno uno dei migliori 
+I ratti erano facili da accudire, mi mamá era d'accordo",shape=box,color=blue];
+		j2476830870 -> j3071506356;
+	j3159381454 [label="+5 Chemistry",color=orange];
+		j3159381454 -> j2530943981;
+	j3071506356 [label="Boolean LettieRats1 is now true.",color=orange];
+		j3071506356 -> j3600254541;
+	j2530943981 [label="Umiltà dal nostro salvatore 
+Mi piace",shape=box,color=blue];
+		j2530943981 -> j2476830870;
+	j3600254541 [label="Vuoi prendere quelle garze?",shape=box,color=blue];
+		j3600254541 -> j157176513;
+		j3600254541 -> j4107310683;
+	j157176513 [label="Certo, vedrò cosa posso fare.",shape=box,color=red];
+		j157176513 -> j3117019680;
+	j4107310683 [label="Puoi prenderla tu, visto che è il tuo ratto.",shape=box,color=red];
+		j4107310683 -> j3079540970;
+}

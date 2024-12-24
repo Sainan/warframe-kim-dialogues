@@ -1,0 +1,16 @@
+digraph {
+	"AmirBirthdayConvo1 begins." [color=orange];
+		"AmirBirthdayConvo1 begins." -> j1816719645;
+		"AmirBirthdayConvo1 begins." -> j2526033851;
+	j1816719645 [label="Amir! You have successfully completed another circuit around Sol! Congratulations!",shape=box,color=red];
+		j1816719645 -> j3123457569;
+	j2526033851 [label="It’s your birthday, Amir! Maybe a good time to do some growing up?",shape=box,color=red];
+		j2526033851 -> j3511480818;
+	j3123457569 [label="+20 Chemistry",color=orange];
+		j3123457569 -> j888309493;
+	j3511480818 [label="GASP!! i can't believe you'd just leave something that lying around where my inner child could read it!! WON'T SOMEBODY THINK OF THE CHILDREN?!",shape=box,color=blue];
+		j3511480818 -> "Chat ends.";
+	j888309493 [label="Oh PSHAWW! thaaaanks but it was nothing!! the planet did most of the hard work, I was just along for the ride",shape=box,color=blue];
+		j888309493 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

@@ -1,0 +1,88 @@
+digraph {
+	"LettieRank4Convo4 begins." [color=orange];
+		"LettieRank4Convo4 begins." -> j2827510990;
+	j2827510990 [label="Check boolean LettieNoFlirt",color=orange];
+		j2827510990 -> "Chat ends." [label=true,color=green];
+		j2827510990 -> j353867419 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j353867419 [label="Mam pytanie teoretyczne: Czy gdybym zaprosiłbym cię na drinka, czy skończyłbym w lecznicy?",shape=box,color=red];
+		j353867419 -> j2794660236;
+	j2794660236 [label="Check boolean LettieNoDate",color=orange];
+		j2794660236 -> j195720148 [label=true,color=green];
+		j2794660236 -> j1111182164 [label=false,color=brown];
+	j195720148 [label="Sí 
+Tak by było",shape=box,color=blue];
+		j195720148 -> "Chat ends.";
+	j1111182164 [label="Mm? 
+Jajaja, nie",shape=box,color=blue];
+		j1111182164 -> j2409993924;
+	j2409993924 [label="Ale nie piję, nigdy nie piłam 
+Nie biorę też używek 
+Musisz się bardziej postarać, jeśli chcesz dostać się do moich gaci 
+Czy czegokolwiek co muszę teraz nosić",shape=box,color=blue];
+		j2409993924 -> j1323555449;
+		j2409993924 -> j2030075637;
+	j1323555449 [label="Dobrze wiedzieć :) Jakieś wskazówki, co mogłoby cię przekonać?",shape=box,color=red];
+		j1323555449 -> j3751767243;
+	j2030075637 [label="Skoro o tym mowa... chciałem zapytać...",shape=box,color=red];
+		j2030075637 -> j172385006;
+	j3751767243 [label="Musisz być pewien, że wiesz o co prosisz, babas 
+Jeśli szukasz kogoś uroczego i miłego, pogadaj z Aoi albo Amirem 
+Za dobrze znam się z bólem i za bardzo się z nim polubiłam, żeby wchodzić w takie układy",shape=box,color=blue];
+		j3751767243 -> j3307543466;
+		j3751767243 -> j3280648756;
+	j172385006 [label="¿Qué?",shape=box,color=blue];
+		j172385006 -> j152226915;
+		j172385006 -> j3480708103;
+	j3307543466 [label="Tak proszę pani. Czuję się ostrzeżony.",shape=box,color=red];
+		j3307543466 -> j409835411;
+	j3280648756 [label="Um... Tak, zapomnij. Ból to nie moja bajka.",shape=box,color=red];
+		j3280648756 -> j276688506;
+	j152226915 [label="Zastanawiałem się czy ty i inne protoframe macie... no wiesz... te części... ciała...",shape=box,color=red];
+		j152226915 -> j2838034755;
+	j3480708103 [label="Uch - Nieważne.",shape=box,color=red];
+		j3480708103 -> j1649397131;
+	j409835411 [label="Boolean LettiePain is now true.",color=orange];
+		j409835411 -> j2715656059;
+	j276688506 [label="+15 Chemistry",color=orange];
+		j276688506 -> j2114680295;
+	j2838034755 [label="JAJAJAJAJA 
+Ty na poważnie?! 
+Nie możesz ludzi o to tak po prostu pytać -
+Ajjj babaaaaassss, dawno się tak nie uśmiałam",shape=box,color=blue];
+		j2838034755 -> j224844751;
+		j2838034755 -> j203119244;
+	j1649397131 [label="Va 
+I tak jestem zajęta",shape=box,color=blue];
+		j1649397131 -> "Chat ends.";
+	j2715656059 [label="+20 Chemistry",color=orange];
+		j2715656059 -> j1642474542;
+	j2114680295 [label="Bueno 
+Wyjdzie ci to na lepsze 
+Możesz dać mi znać, gdybyś zmienił zdanie",shape=box,color=blue];
+		j2114680295 -> j578972968;
+	j224844751 [label="Przepraszam.",shape=box,color=red];
+		j224844751 -> j3903564579;
+	j203119244 [label="No więc... Macie?",shape=box,color=red];
+		j203119244 -> j3903564579;
+	j1642474542 [label="Mmm, tak mówisz?
+Myślisz, że sobie poradzisz? 
+Zobaczymy",shape=box,color=blue];
+		j1642474542 -> j1900324587;
+	j578972968 [label="Boolean LettieNoPain is now true.",color=orange];
+		j578972968 -> j4204329226;
+	j3903564579 [label="Wiesz co
+Może i dobry z ciebie babas
+Ale może będziesz miał okazję się przekonać, hmm?
+Ale ostrzegam cię
+Jeśli szukasz kogoś uroczego i miłego, pogadaj z Aoi albo Amirem
+Za dobrze znam się z bólem i za bardzo się z nim polubiłam, żeby wchodzić w takie układy",shape=box,color=blue];
+		j3903564579 -> j3307543466;
+		j3903564579 -> j3280648756;
+	j1900324587 [label="Teraz vete 
+Nie mogę zaprzątać się sobie głowy fantazjami, kiedy praca czeka",shape=box,color=blue];
+		j1900324587 -> "Chat ends.";
+	j4204329226 [label="Teraz vete 
+Praca czeka",shape=box,color=blue];
+		j4204329226 -> "Chat ends.";
+}

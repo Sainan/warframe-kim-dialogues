@@ -1,0 +1,88 @@
+digraph {
+	"LettieRank4Convo4 begins." [color=orange];
+		"LettieRank4Convo4 begins." -> j2827510990;
+	j2827510990 [label="Check boolean LettieNoFlirt",color=orange];
+		j2827510990 -> "Chat ends." [label=true,color=green];
+		j2827510990 -> j1100969667 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j1100969667 [label="Hypothetische Frage: Wenn ich dich auf einen Drink einladen wollte, würde ich mit einer vernähten Wunde enden?",shape=box,color=red];
+		j1100969667 -> j2794660236;
+	j2794660236 [label="Check boolean LettieNoDate",color=orange];
+		j2794660236 -> j1037435079 [label=true,color=green];
+		j2794660236 -> j3304598497 [label=false,color=brown];
+	j1037435079 [label="Sí
+Du würdest",shape=box,color=blue];
+		j1037435079 -> "Chat ends.";
+	j3304598497 [label="Mm? 
+Jajaja, nein",shape=box,color=blue];
+		j3304598497 -> j3151416521;
+	j3151416521 [label="Aber ich trinke nicht, habe ich nie 
+Ich nehme auch keine Drogen 
+Du musst kreativer sein, um in mein Schlüpfer zu kommen 
+Oder was auch immer ich jetzt anziehen muss",shape=box,color=blue];
+		j3151416521 -> j3685152445;
+		j3151416521 -> j4064193772;
+	j3685152445 [label="Gut zu wissen. :) Irgendwelche Tipps, wie ich dich überzeugen kann?",shape=box,color=red];
+		j3685152445 -> j1830420386;
+	j4064193772 [label="Da wir davon reden. Hast du ... Das wollte schon lange fragen ...",shape=box,color=red];
+		j4064193772 -> j172385006;
+	j1830420386 [label="Du solltest dir nur wirklich sicher sein, dass du weißt, was dich erwartet, babas 
+Wenn du es süß und sanft magst, dann sprich mit Aoi oder Amir 
+Ich bin zu sehr an Schmerz gewöhnt und mag diesen zu sehr für so etwas",shape=box,color=blue];
+		j1830420386 -> j1616036468;
+		j1830420386 -> j2772703194;
+	j172385006 [label="¿Qué?",shape=box,color=blue];
+		j172385006 -> j4063131075;
+		j172385006 -> j1906699555;
+	j1616036468 [label="Ja, gnä' Frau. Ich bin gewarnt.",shape=box,color=red];
+		j1616036468 -> j2611990604;
+	j2772703194 [label="Ähm ... Ja, egal. Schmerz ist nicht wirklich mein Ding.",shape=box,color=red];
+		j2772703194 -> j3709471610;
+	j4063131075 [label="Ich bin neugierig, ob du und die anderen Protoframes noch ... du weißt schon ... eure ... du weißt schon ... Teile habt ...",shape=box,color=red];
+		j4063131075 -> j1675804242;
+	j1906699555 [label="Äh - Nichts weiter.",shape=box,color=red];
+		j1906699555 -> j2913598428;
+	j2611990604 [label="Boolean LettiePain is now true.",color=orange];
+		j2611990604 -> j4073178109;
+	j3709471610 [label="+15 Chemistry",color=orange];
+		j3709471610 -> j3427745401;
+	j1675804242 [label="JAJAJAJAJA 
+Ist das dein Ernst?! 
+Du kannst Leute nicht einfach FRAGEN, was sie - 
+Aaaay, babaaaaassss, ich habe schon laaaaange nicht mehr so gelacht",shape=box,color=blue];
+		j1675804242 -> j778773408;
+		j1675804242 -> j1102912640;
+	j2913598428 [label="Va 
+Bin sowieso beschäftigt",shape=box,color=blue];
+		j2913598428 -> "Chat ends.";
+	j4073178109 [label="+20 Chemistry",color=orange];
+		j4073178109 -> j4134417238;
+	j3427745401 [label="Bueno 
+So bist du besser dran 
+Sag mir Bescheid, wenn du deine Meinung änderst",shape=box,color=blue];
+		j3427745401 -> j3100605510;
+	j778773408 [label="Tschuldigung.",shape=box,color=red];
+		j778773408 -> j83078737;
+	j1102912640 [label="Ähm ... also? Habt ihr?",shape=box,color=red];
+		j1102912640 -> j83078737;
+	j4134417238 [label="Mm, ja? 
+Du denkst, du kannst damit fertig werden, oder? 
+Wir werden sehen",shape=box,color=blue];
+		j4134417238 -> j3141127771;
+	j3100605510 [label="Boolean LettieNoPain is now true.",color=orange];
+		j3100605510 -> j546745321;
+	j83078737 [label="Ich sag dir was 
+Wenn babas brav ist 
+Dann findet er es vielleicht heraus, mm? 
+Aber ich warne dich
+Wenn du es süß und sanft magst, dann sprich mit Aoi oder Amir 
+Ich bin zu sehr an Schmerz gewöhnt und mag diesen zu sehr für so was",shape=box,color=blue];
+		j83078737 -> j1616036468;
+		j83078737 -> j2772703194;
+	j3141127771 [label="Jetzt vete 
+Ich kann nicht tagträumen, wenn ich Arbeit zu erledigen habe",shape=box,color=blue];
+		j3141127771 -> "Chat ends.";
+	j546745321 [label="Jetzt vete 
+Ich habe Arbeit zu erledigen",shape=box,color=blue];
+		j546745321 -> "Chat ends.";
+}

@@ -1,0 +1,16 @@
+digraph {
+	"ArthurBirthdayConvo2 begins." [color=orange];
+		"ArthurBirthdayConvo2 begins." -> j2752732669;
+		"ArthurBirthdayConvo2 begins." -> j1985772249;
+	j2752732669 [label="Wszystkiego najlepszego z okazji urodzin dla młodszego brata Eleanor!",shape=box,color=red];
+		j2752732669 -> j1295019598;
+	j1985772249 [label="Wszystkiego najlepszego, Arturze. Jakieś plany?",shape=box,color=red];
+		j1985772249 -> j3215009117;
+	j1295019598 [label="Cudownie. Teraz mam was dwóch, którzy nigdy tego nie odpuszczą.",shape=box,color=blue];
+		j1295019598 -> "Chat ends.";
+	j3215009117 [label="+20 Chemistry",color=orange];
+		j3215009117 -> j1263555092;
+	"Chat ends." [color=orange];
+	j1263555092 [label="Dzięki! Miło, że pamiętasz. Możę skończę dzisiaj pół godziny wcześniej. Jeszcze nie zdecydowałem.",shape=box,color=blue];
+		j1263555092 -> "Chat ends.";
+}

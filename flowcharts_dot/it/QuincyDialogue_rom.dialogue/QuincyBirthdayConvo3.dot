@@ -1,0 +1,16 @@
+digraph {
+	"QuincyBirthdayConvo3 begins." [color=orange];
+		"QuincyBirthdayConvo3 begins." -> j2476494747;
+		"QuincyBirthdayConvo3 begins." -> j2156583616;
+	j2476494747 [label="Vuoi andare in discoteca stasera per festeggiare il tuo compleanno?",shape=box,color=red];
+		j2476494747 -> j3386051138;
+	j2156583616 [label="Che ne dici se per il tuo compleanno trascorriamo una serata tranquilla con gli Hex?",shape=box,color=red];
+		j2156583616 -> j3024442857;
+	j3386051138 [label="+20 Chemistry",color=orange];
+		j3386051138 -> j2810814173;
+	j3024442857 [label="sì, e possiamo pijà dei cappelli de carta e tutto er resto. paaaaalloso",shape=box,color=blue];
+		j3024442857 -> "Chat ends.";
+	j2810814173 [label="ahahahaha 'na cosa è sicura, amico. famo brillà 'sta città!",shape=box,color=blue];
+		j2810814173 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

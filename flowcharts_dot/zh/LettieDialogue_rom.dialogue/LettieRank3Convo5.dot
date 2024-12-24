@@ -1,0 +1,124 @@
+digraph {
+	"LettieRank3Convo5 begins." [color=orange];
+		"LettieRank3Convo5 begins." -> j467900545;
+		"LettieRank3Convo5 begins." -> j1123181779;
+		"LettieRank3Convo5 begins." -> j3467356616;
+	j467900545 [label="你还撑得住吗？",shape=box,color=red];
+		j467900545 -> j4125250441;
+	j1123181779 [label="市民那边情况如何？",shape=box,color=red];
+		j1123181779 -> j2772044271;
+	j3467356616 [label="[无视]",shape=box,color=red];
+		j3467356616 -> "Chat ends.";
+	j4125250441 [label="嗯？ 
+忙得跟旋转门似的 jajaja",shape=box,color=blue];
+		j4125250441 -> j118863726;
+	j2772044271 [label="呃？ 
+我想还行吧 
+市民们无论在哪都一样，时间长了就习惯了",shape=box,color=blue];
+		j2772044271 -> j3665867796;
+		j2772044271 -> j3403213622;
+	"Chat ends." [color=orange];
+	j118863726 [label="在遇到你之前，我觉得人们只是从我这儿经过
+我只是一个在国危部包扎伤口的面孔
+但我是这栋楼的一部分",shape=box,color=blue];
+		j118863726 -> j2881214942;
+	j3665867796 [label="是啊，但这肯定还是很费力劳神吧。",shape=box,color=red];
+		j3665867796 -> j11159227;
+	j3403213622 [label="习惯什么？",shape=box,color=red];
+		j3403213622 -> j1355942693;
+	j2881214942 [label="我很坚强 
+我哪也不去 
+Pero……Estoy muerta 
+有时候感觉全世界的咖啡都不够喝，¿no?",shape=box,color=blue];
+		j2881214942 -> j320871617;
+		j2881214942 -> j1932074025;
+	j11159227 [label="Sí，你根本无法想象 
+有时候全世界的咖啡似乎都不够喝，¿no? 
+Pero，soy dura de roer 
+我哪也不去",shape=box,color=blue];
+		j11159227 -> j320871617;
+		j11159227 -> j1932074025;
+	j1355942693 [label="他们空洞的眼神和麻木的痛苦 
+对他们来说，我只是国危部帐篷里包扎伤口的一个面孔 
+我感觉人们就像穿过旋转门一样从我这里经过 
+ 这还是在你把它变成字面意思之前 jajaja",shape=box,color=blue];
+		j1355942693 -> j3843131114;
+	j320871617 [label="你就算再坚强，也并不意味着我不能关心你。",shape=box,color=red];
+		j320871617 -> j438977797;
+	j1932074025 [label="是啊，不过能一直喝咖啡也没什么不好。哈哈",shape=box,color=red];
+		j1932074025 -> j1374418847;
+	j3843131114 [label="Check boolean LettieNoFlirt",color=orange];
+		j3843131114 -> j4165925612 [label=true,color=green];
+		j3843131114 -> j3535454719 [label=true,color=green];
+		j3843131114 -> j4165925612 [label=false,color=brown];
+		j3843131114 -> j3535454719 [label=false,color=brown];
+		j3843131114 -> j1476378148 [label=false,color=brown];
+	j438977797 [label="Sí，
+知道有人支持我就足够了
+亚瑟就是这样的人 
+不会像碧那样到处跟着，假装是我老妈 
+只是递给我一杯咖啡，问我你好吗？",shape=box,color=blue];
+		j438977797 -> j2707171013;
+	j1374418847 [label="Jajaja，确实没有 
+亚瑟就是这样的人 
+不会像碧那样到处跟着，假装是 mi mamá 
+只是递给我一杯咖啡，问我你好吗？",shape=box,color=blue];
+		j1374418847 -> j2707171013;
+	j4165925612 [label="我的意思是，你对刚失去一切的人们还能抱有什么期待呢？",shape=box,color=red];
+		j4165925612 -> j3993092229;
+	j3535454719 [label="我能理解为什么时间久了，所有人似乎都变得模糊。",shape=box,color=red];
+		j3535454719 -> j2665758541;
+	j1476378148 [label="至少你是一扇非常性感的门。:P",shape=box,color=red];
+		j1476378148 -> j2138912807;
+	j2707171013 [label="Boolean LettieShoulder is now true.",color=orange];
+		j2707171013 -> j2127985891;
+	j3993092229 [label="不是他们的错 
+也不是我的错，babas 
+只是厌倦了这一切",shape=box,color=blue];
+		j3993092229 -> j1686142986;
+	j2665758541 [label="+10 Chemistry",color=orange];
+		j2665758541 -> j1991841462;
+	j2138912807 [label="+20 Chemistry",color=orange];
+		j2138912807 -> j367139169;
+	j2127985891 [label="+20 Chemistry",color=orange];
+		j2127985891 -> j1966850139;
+	j1686142986 [label="Hablando de 
+回去工作吧",shape=box,color=blue];
+		j1686142986 -> "Chat ends.";
+	j1991841462 [label="Sí，这不是他们的错，总是有更多的人涌来 
+以前总觉得这会没完没了
+现在我知道这确实会没完没了 
+月神啊，sálvame",shape=box,color=blue];
+		j1991841462 -> j2814307462;
+	j367139169 [label="JAJA 
+哦，babas，你真会逗女生开心 
+把这句话刻在我的墓碑上吧 
+“Aquí yace la puerta más sexy que hayas visto。”",shape=box,color=blue];
+		j367139169 -> j4291081871;
+	j1966850139 [label="babas，我喜欢这个问题 
+继续问吧 
+偶尔我可能需要这样的关心 
+再来一两杯咖啡也无妨",shape=box,color=blue];
+		j1966850139 -> j3234296588;
+	j2814307462 [label="Hablando de 
+回去工作吧 
+谢谢你分散了我的注意力",shape=box,color=blue];
+		j2814307462 -> "Chat ends.";
+	j4291081871 [label="Gracias por hacerme reír，babas 
+我真的需要这个",shape=box,color=blue];
+		j4291081871 -> j1733762053;
+	j3234296588 [label="Check boolean LettieNoFlirt",color=orange];
+		j3234296588 -> j653087272 [label=true,color=green];
+		j3234296588 -> j360060788 [label=true,color=green];
+		j3234296588 -> j2414508524 [label=false,color=brown];
+		j3234296588 -> j360060788 [label=false,color=brown];
+	j1733762053 [label="那我们回去工作，¿no? 
+我们俩都忙得没空闲聊",shape=box,color=blue];
+		j1733762053 -> "Chat ends.";
+	j653087272 [label="没问题。",shape=box,color=red];
+		j653087272 -> j1733762053;
+	j360060788 [label="我想想办法。",shape=box,color=red];
+		j360060788 -> j1733762053;
+	j2414508524 [label="没问题。<RETRO_EMOJI_HEART>",shape=box,color=red];
+		j2414508524 -> j1733762053;
+}

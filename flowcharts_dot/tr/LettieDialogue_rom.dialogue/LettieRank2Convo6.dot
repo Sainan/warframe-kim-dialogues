@@ -1,0 +1,119 @@
+digraph {
+	"LettieRank2Convo6 begins." [color=orange];
+		"LettieRank2Convo6 begins." -> j2950318430;
+	j2950318430 [label="Check boolean AmirRPG",color=orange];
+		j2950318430 -> j2118241219 [label=true,color=green];
+		j2950318430 -> j392013754 [label=true,color=green];
+		j2950318430 -> "Chat ends." [label=false,color=brown];
+	j2118241219 [label="Hey Lettie, senden bir iyilik isteyeceğim.",shape=box,color=red];
+		j2118241219 -> j2794364090;
+	j392013754 [label="Hey Lettie, masaüstü rol yapma oyunları hakkında ne düşünüyorsun?",shape=box,color=red];
+		j392013754 -> j2800108573;
+	"Chat ends." [color=orange];
+	j2794364090 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
+		j2794364090 -> j82736124;
+	j2800108573 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
+		j2800108573 -> j1085382035;
+	j82736124 [label="Check boolean LettieSmallFavor",color=orange];
+		j82736124 -> j298634566 [label=true,color=green];
+		j82736124 -> j587275848 [label=false,color=brown];
+	j1085382035 [label="Estás bromeando, ¿verdad?",shape=box,color=blue];
+		j1085382035 -> j1772042556;
+	j298634566 [label="Bana yardım ediyorsun 
+Sanırım seni dinleyeceğim 
+Ne oldu, babas?",shape=box,color=blue];
+		j298634566 -> j3453746391;
+		j298634566 -> j3728140689;
+	j587275848 [label="Kan kaybından mı ölüyorsun?",shape=box,color=blue];
+		j587275848 -> j4063667548;
+		j587275848 -> j2658966351;
+	j1772042556 [label="Lárgate",shape=box,color=blue];
+		j1772042556 -> "Chat ends.";
+	j3453746391 [label="Bunun büyük bir zaman kaybı gibi görüneceğini biliyorum, ama Amir hepimizi Masallar & Mesafeler adlı bir oyun oynamaya davet ediyor.",shape=box,color=red];
+		j3453746391 -> j3863107614;
+	j3728140689 [label="Amir gerçekten hepimizin onunla Masallar & Mesafeler oynamamızı istiyor. Bu onun için çok önemli.",shape=box,color=red];
+		j3728140689 -> j1494659908;
+	j4063667548 [label="Neden kan kaybından ölecekmişim gibi hissediyorum?",shape=box,color=red];
+		j4063667548 -> j3912363110;
+	j2658966351 [label="Hayır...?",shape=box,color=red];
+		j2658966351 -> j1432645835;
+	j3863107614 [label="Haklısın 
+Kulağa büyük bir zaman kaybı gibi geliyor 
+Ve paslı bir pense ile kendi dişlerimi çekmek gibi",shape=box,color=blue];
+		j3863107614 -> j1291869444;
+	j1494659908 [label="O escuincle'ın önemli olduğunu düşündüğü şey ile ÖNEMLİ OLAN çok farklı şeyler 
+Bunun için zamanım yok",shape=box,color=blue];
+		j1494659908 -> "Chat ends.";
+	j3912363110 [label="+10 Chemistry",color=orange];
+		j3912363110 -> j2357022919;
+	j1432645835 [label="Ama şu an başka biri can çekişiyor 
+İstediğin şey GERÇEKTEN önemli mi?",shape=box,color=blue];
+		j1432645835 -> j680494484;
+	j1291869444 [label="Ve acılar bana zevk verse de 
+Bu onlardan biri değil",shape=box,color=blue];
+		j1291869444 -> j1518146983;
+		j1291869444 -> j2427790288;
+	j2357022919 [label="Çünkü aptal değilsin",shape=box,color=blue];
+		j2357022919 -> j288833514;
+	j680494484 [label="Bu bir ölüm kalım meselesi değil, bu yüzden. Hayır. Bekleyebilir.",shape=box,color=red];
+		j680494484 -> j1573561201;
+	j1518146983 [label="Ama bana bir iyilik borcun var.",shape=box,color=red];
+		j1518146983 -> j1708625236;
+	j2427790288 [label="Ben... bekle. Nasıl bir acı?",shape=box,color=red];
+		j2427790288 -> j144885650;
+	j288833514 [label="İstediğin şey GERÇEKTEN önemli mi?",shape=box,color=blue];
+		j288833514 -> j2329527002;
+		j288833514 -> j680494484;
+	j1573561201 [label="+10 Chemistry",color=orange];
+		j1573561201 -> j260461344;
+	j1708625236 [label="Evet var 
+Bunu aptalca bir çocuk oyunu için mi kullanacaksın?",shape=box,color=blue];
+		j1708625236 -> j2791731718;
+		j1708625236 -> j1081529442;
+	j144885650 [label="+10 Chemistry",color=orange];
+		j144885650 -> j787224237;
+	j2329527002 [label="Amir için.",shape=box,color=red];
+		j2329527002 -> j1494659908;
+	j260461344 [label="Bueno",shape=box,color=blue];
+		j260461344 -> "Chat ends.";
+	j2791731718 [label="Evet. Buna değer, Amir için çok şey ifade ediyor.",shape=box,color=red];
+		j2791731718 -> j3302331268;
+	j1081529442 [label="Mm... Boş ver. Onu saklayacağım.",shape=box,color=red];
+		j1081529442 -> j2712240303;
+	j787224237 [label="Heh 
+Fazla heyecanlanma babas 
+Te queda grande la yegua",shape=box,color=blue];
+		j787224237 -> "Chat ends.";
+	j3302331268 [label="Boolean LettieSmallFavor is now false.",color=orange];
+		j3302331268 -> j2946959336;
+	j2712240303 [label="+20 Chemistry",color=orange];
+		j2712240303 -> j3290692207;
+	j2946959336 [label="+20 Chemistry",color=orange];
+		j2946959336 -> j3218956263;
+	j3290692207 [label="Akıllıca bir seçim, babas 
+Şimdi vete",shape=box,color=blue];
+		j3290692207 -> "Chat ends.";
+	j3218956263 [label="Sen bilirsin, babas... 
+Bu aptal oyunu oynayacağım 
+Ama sadece işten SONRA 
+Şimdi vete",shape=box,color=blue];
+		j3218956263 -> j952113720;
+	j952113720 [label="Boolean AmirRPGLettie is now true.",color=orange];
+		j952113720 -> j2581000439;
+	j2581000439 [label="Check boolean AmirRPGQuincy",color=orange];
+		j2581000439 -> j3146717934 [label=true,color=green];
+		j2581000439 -> j1692268193 [label=false,color=brown];
+	j3146717934 [label="Check boolean AmirRPGArthur",color=orange];
+		j3146717934 -> j655855753 [label=true,color=green];
+		j3146717934 -> j1692268193 [label=false,color=brown];
+	j1692268193 [label="Boolean AmirRPGAny is now true.",color=orange];
+		j1692268193 -> "Chat ends.";
+	j655855753 [label="Check boolean AmirRPGAoi",color=orange];
+		j655855753 -> j2643568913 [label=true,color=green];
+		j655855753 -> j1692268193 [label=false,color=brown];
+	j2643568913 [label="Check boolean AmirRPGEleanor",color=orange];
+		j2643568913 -> j3798570005 [label=true,color=green];
+		j2643568913 -> j1692268193 [label=false,color=brown];
+	j3798570005 [label="Boolean AmirRPGAll is now true.",color=orange];
+		j3798570005 -> "Chat ends.";
+}

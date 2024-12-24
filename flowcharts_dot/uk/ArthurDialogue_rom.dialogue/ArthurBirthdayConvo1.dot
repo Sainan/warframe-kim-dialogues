@@ -1,0 +1,16 @@
+digraph {
+	"ArthurBirthdayConvo1 begins." [color=orange];
+		"ArthurBirthdayConvo1 begins." -> j1515046024;
+		"ArthurBirthdayConvo1 begins." -> j3963077543;
+	j1515046024 [label="Знаю, ти зайнятий, але просто хотілося привітати з Днем народження. :)",shape=box,color=red];
+		j1515046024 -> j2115509587;
+	j3963077543 [label="Щасливого дня народження! (Ти ж знаєш, що таке «щастя», так?)",shape=box,color=red];
+		j3963077543 -> j2049736271;
+	j2115509587 [label="+20 Chemistry",color=orange];
+		j2115509587 -> j2908033294;
+	j2049736271 [label="Так. А ти знаєш, що таке «гумор», га?",shape=box,color=blue];
+		j2049736271 -> "Chat ends.";
+	j2908033294 [label="Для отримання привітань не буває занадтої зайнятості. Дуже дякую.",shape=box,color=blue];
+		j2908033294 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

@@ -1,0 +1,520 @@
+digraph {
+	"LettieRank5Convo1 begins." [color=orange];
+		"LettieRank5Convo1 begins." -> j758997912;
+	j758997912 [label="Check boolean LettieDating",color=orange];
+		j758997912 -> j1856100168 [label=true,color=green];
+		j758997912 -> j1458605227 [label=true,color=green];
+		j758997912 -> j3199217115 [label=true,color=green];
+		j758997912 -> j3835306556 [label=false,color=brown];
+	j1856100168 [label="¿Estás bien?",shape=box,color=red];
+		j1856100168 -> j3590878596;
+	j1458605227 [label="¿Cómo está hoy mi dulce corazón?",shape=box,color=red];
+		j1458605227 -> j2486141261;
+	j3199217115 [label="¿Cómo está hoy mi chica ruda favorita?",shape=box,color=red];
+		j3199217115 -> j2486141261;
+	j3835306556 [label="Check boolean LettieShoulder",color=orange];
+		j3835306556 -> j1856100168 [label=true,color=green];
+		j3835306556 -> j3199217115 [label=true,color=green];
+		j3835306556 -> j3886371480 [label=false,color=brown];
+		j3835306556 -> j3039709789 [label=false,color=brown];
+	j3590878596 [label="No 
+No estoy bien
+No lo he estado en un largo tiempo
+Pero he tenido que ser la que pretende estarlo
+Siempre he tenido que ser la más fuerte, ¿no es así?",shape=box,color=blue];
+		j3590878596 -> j1147476859;
+	j2486141261 [label="Como una mierda",shape=box,color=blue];
+		j2486141261 -> j3776217321;
+		j2486141261 -> j3272096685;
+	j3886371480 [label="Oye Lettie, ¿te puedo preguntar algo sobre tus ratas?",shape=box,color=red];
+		j3886371480 -> j2637410131;
+	j3039709789 [label="Oye Lettie, ¿cuál es tu comida favorita?",shape=box,color=red];
+		j3039709789 -> j2637410131;
+	j1147476859 [label="Pero qué tal si no quiero serlo
+Qué tal si no lo soy
+Qué tal si me siento como si me estuviera desmoronando
+Lo siento, solecito, no me hablaste para esto",shape=box,color=blue];
+		j1147476859 -> j967011383;
+		j1147476859 -> j335626295;
+	j3776217321 [label="¿Está todo bien?",shape=box,color=red];
+		j3776217321 -> j1930837112;
+	j3272096685 [label="Yo... Mm... vaya. ¿Debería llamarte más tarde?",shape=box,color=red];
+		j3272096685 -> j363830864;
+	j2637410131 [label="Ahora no, babas",shape=box,color=blue];
+		j2637410131 -> j3776217321;
+		j2637410131 -> j2322438699;
+		j2637410131 -> j3120699277;
+	j967011383 [label="Sí, yo solo... quería ver si querías ir por un café.",shape=box,color=red];
+		j967011383 -> j3174762256;
+	j335626295 [label="Estoy aquí para ti, Lettie. Me importas. Háblame.",shape=box,color=red];
+		j335626295 -> j504231798;
+	j1930837112 [label="NO
+Todo no está bien
+Nada ha estado bien desde hace tiempo
+El tiempo ya no significa nada ¿o sí?
+Tú y ese cabrón se encargaron de eso",shape=box,color=blue];
+		j1930837112 -> j616831884;
+	j363830864 [label="Vete 
+No va a haber un después",shape=box,color=blue];
+		j363830864 -> j4233136274;
+		j363830864 -> j2461628219;
+	j2322438699 [label="Si estás ocupada, podemos chatear luego.",shape=box,color=red];
+		j2322438699 -> j363830864;
+	j3120699277 [label="¿Perdón?",shape=box,color=red];
+		j3120699277 -> j3660917900;
+	j3174762256 [label="Sí 
+Suena bien",shape=box,color=blue];
+		j3174762256 -> j602183822;
+	j504231798 [label="No eres mi terapeuta
+No necesitas escuchar como me quejo como una pequeña y tonta niña",shape=box,color=blue];
+		j504231798 -> j1361205681;
+	j616831884 [label="¿Cómo es eso mi culpa?",shape=box,color=red];
+		j616831884 -> j2650258850;
+	j4233136274 [label="¿Hice algo para que te enojaras?",shape=box,color=red];
+		j4233136274 -> j2650258850;
+	j2461628219 [label="¿Pasa algo malo?",shape=box,color=red];
+		j2461628219 -> j4013555575;
+	j3660917900 [label="Ay, sí 
+Si tus disculpas pudieran cubrir las paredes
+Entonces tal vez servirían de algo",shape=box,color=blue];
+		j3660917900 -> "Chat ends.";
+	j602183822 [label="Boolean LettieRealNo is now true.",color=orange];
+		j602183822 -> "Chat ends.";
+	j1361205681 [label="Check boolean LettieDating",color=orange];
+		j1361205681 -> j2393344626 [label=true,color=green];
+		j1361205681 -> j3094354970 [label=false,color=brown];
+	j2650258850 [label="Tú y tu pinche bucle en el tiempo de mierda
+Si no fuera por eso ya estaríamos muertos",shape=box,color=blue];
+		j2650258850 -> j651638268;
+		j2650258850 -> j2068992495;
+	j4013555575 [label="Sí
+Todo ha estado mal desde hace tiempo
+El tiempo ya no significa nada, ¿o sí?
+Tú y ese cabrón se encargaron de eso",shape=box,color=blue];
+		j4013555575 -> j616831884;
+		j4013555575 -> j1790512199;
+	"Chat ends." [color=orange];
+	j2393344626 [label="Lettie, se supone que tu y yo estamos en una relación. Y eso *significa* algo para mí.",shape=box,color=red];
+		j2393344626 -> j679218114;
+	j3094354970 [label="Lettie, se supone que tu y yo tenemos una amistad. Y eso *significa* algo para mí.",shape=box,color=red];
+		j3094354970 -> j679218114;
+	j651638268 [label="Espera. Espera un poco. ¡¿Estás enojada porque no estás muerta?!",shape=box,color=red];
+		j651638268 -> j3300277624;
+	j2068992495 [label="No soy tu saco para golpear, Lettie. Esto es algo que no quiero.",shape=box,color=red];
+		j2068992495 -> j3560862182;
+	j1790512199 [label="Um... estoy empezando a sentir que lo que estás buscando es pelear.",shape=box,color=red];
+		j1790512199 -> j3482676628;
+	j679218114 [label="Creo que eres la persona más fuerte que he conocido en mi *vida*. No eres capaz de quejarte.",shape=box,color=red];
+		j679218114 -> j3239924902;
+		j679218114 -> j473337064;
+	j3300277624 [label="ESTOY ENOJADA PORQUE NO ME PUEDO MORIR, BABAS
+¿Entiendes?
+La vida vale tan poco sin la muerte
+Me he estado peguntando por qué
+¡¿POR QUÉ MOLESTARSE?!",shape=box,color=blue];
+		j3300277624 -> j3310356278;
+	j3560862182 [label="Sí
+Anda, huye, babas",shape=box,color=blue];
+		j3560862182 -> "Chat ends.";
+	j3482676628 [label="Tal vez busco eso
+Tal vez no
+Tal vez ya me harté de todas estas pendejadas",shape=box,color=blue];
+		j3482676628 -> j1581169870;
+		j3482676628 -> j2068992495;
+	j3239924902 [label="Entonces, si quieres hablar. Aquí estoy.",shape=box,color=red];
+		j3239924902 -> j1405796154;
+	j473337064 [label="Habla conmigo.",shape=box,color=red];
+		j473337064 -> j1405796154;
+	j3310356278 [label="¡¿Cuál es el punto?!
+¿Cuál es el punto de todo esto, babas?
+Todos somos fantasmas repitiendo nuestras viejas vidas y muertes
+Caminando a través de los sueños que nunca van a cambiar
+¡¿POR QUÉ?!",shape=box,color=blue];
+		j3310356278 -> j1472711113;
+	j1581169870 [label="Necesito que te calmes y me digas qué es lo que está mal.",shape=box,color=red];
+		j1581169870 -> j3310356278;
+	j1405796154 [label="Check boolean LettieDating",color=orange];
+		j1405796154 -> j2950173298 [label=true,color=green];
+		j1405796154 -> j1864732394 [label=false,color=brown];
+	j1472711113 [label="Estoy aquí
+Curando civiles
+Día tras día
+No importa que no entiendan
+Que si ellos mueren aquí, ahora mismo, solo van a REGRESAR
+Que son solo fantasmas sonámbulos
+Mientras que nosotros estamos conscientes por lo que estamos pasando",shape=box,color=blue];
+		j1472711113 -> j1371924326;
+	j2950173298 [label="Nnnh solecito, odio los cumplidos
+Está bien, está bien... Me encuentro aquí parada viendo la fila de los civiles y me pregunto
+¿Por qué molestarse?, ¿sabes?",shape=box,color=blue];
+		j2950173298 -> j2112033358;
+	j1864732394 [label="Nnnh, compañero, odio los cumplidos
+Está bien, está bien... Me encuentro aquí parada viendo la fila de los civiles y me pregunto
+¿Por qué molestarse?, ¿sabes?",shape=box,color=blue];
+		j1864732394 -> j2112033358;
+	j1371924326 [label="Podría volverme loca
+Matarlos a todos a sangre fría
+Y cuando llegue el siguiente año
+Estarían de regreso, ¿no?",shape=box,color=blue];
+		j1371924326 -> j2538724694;
+		j1371924326 -> j2559938858;
+	j2112033358 [label="Les disparan o los matan
+Si los curo o no, se mueren
+No importa que no entiendan
+Que si ellos mueren, en el siguiente año
+Estarán de regreso",shape=box,color=blue];
+		j2112033358 -> j1977023252;
+	j2538724694 [label="¿Sí? Pero... por favor no lo hagas. Sería muy difícil de explicar a los demás.",shape=box,color=red];
+		j2538724694 -> j1253217508;
+	j2559938858 [label="Pero las cosas aquí aún PUEDEN cambiar. Tal vez no mucho, pero en formas que importan. Mira al rededor.",shape=box,color=red];
+		j2559938858 -> j809567066;
+	j1977023252 [label="Son solo fantasmas sonámbulos en una pesadilla
+Nosotros somos los fantasmas que sabemos quienes somos
+No sé cuál es peor",shape=box,color=blue];
+		j1977023252 -> j1917210403;
+	j1253217508 [label="¿Qué tal si meto un tostador a la tina?
+Y me mató a mí misma
+¡¿Entonces qué?!
+Voy a tener un recuerdo en donde morí
+Una pesadilla",shape=box,color=blue];
+		j1253217508 -> j3784458309;
+	j809567066 [label="Ay, sí 
+Ahora recogemos vagabundos, bueno, algunos fantasmas sufren un poco menos 
+Algunas cosas cambian aquí y allá, seguro
+Pero, ¿qué pasa con lo que nos hiciste?
+Sé que morí en ese otro recuerdo",shape=box,color=blue];
+		j809567066 -> j3784458309;
+	j1917210403 [label="Check boolean LettieShoulder2",color=orange];
+		j1917210403 -> j3522681931 [label=true,color=green];
+		j1917210403 -> j2270434844 [label=false,color=brown];
+	j3784458309 [label="Debiste haberme dejado ahí
+Dejame morir
+No pertenecemos como fantasmas
+Somos antinaturales, la gente no debería de vivir para siempre y deberían de poder morir",shape=box,color=blue];
+		j3784458309 -> j731118395;
+		j3784458309 -> j3248348469;
+	j3522681931 [label="Pero las cosas aquí aún PUEDEN cambiar. Tal vez no mucho, pero en formas que importan. Mira al rededor.",shape=box,color=red];
+		j3522681931 -> j2507774784;
+	j2270434844 [label="¿Pero sabes qué es lo que tienes que te puede ayudar con eso?, una familia. Si eliges permitirte tener una.",shape=box,color=red];
+		j2270434844 -> j3025595357;
+	j731118395 [label="Yo... sé como te sientes, Lettie. En serio. Toda mi vida, he sido la víctima de los planes de alguien más. Los Orokin. El Hombre en la Pared. Y ahora Entrati.",shape=box,color=red];
+		j731118395 -> j1059220702;
+	j3248348469 [label="Tienes opciones, Lettie. Puedes pasar toda la eternidad sintiéndote como una víctima o puedes verlo como la oportunidad que es. Una nueva forma de vida.",shape=box,color=red];
+		j3248348469 -> j243122402;
+	j2507774784 [label="Le hemos dado a esta gente un nuevo hogar. Una nueva esperanza. Tal vez para unos pocos, y tal vez no importa al final...",shape=box,color=red];
+		j2507774784 -> j3202006489;
+	j3025595357 [label="Check boolean LettieNoHome",color=orange];
+		j3025595357 -> j3229966846 [label=true,color=green];
+		j3025595357 -> j3949908326 [label=false,color=brown];
+	j1059220702 [label="Pero tuve la oportunidad, cuando los vi a todos morir. Pude haberlos dejado como víctimas, también... o podría intentar salvarlos.",shape=box,color=red];
+		j1059220702 -> j1070323248;
+	j243122402 [label="Sí, es un bucle en el tiempo. Sí, no hay muchos cambios. ¿Pero sabes qué cambio ES el que importa? Nosotros. Quiénes SOMOS. Qué SABEMOS. Y qué SENTIMOS.",shape=box,color=red];
+		j243122402 -> j3857433782;
+	j3202006489 [label="¿Pero no es esa la razón por la que tu eres una doctora? ¿No es el acto de intentarlo, de esa sensación de esperanza, esa bondad, lo que importa y no el lugar en el que terminamos?",shape=box,color=red];
+		j3202006489 -> j3053231168;
+	j3229966846 [label="Sé que nunca has sentido como es tener un lugar a donde pertenecer. Nunca has tenido un hogar antes, Lettie. Así como yo.",shape=box,color=red];
+		j3229966846 -> j3874015591;
+	j3949908326 [label="Mira a tu alrededor. A los civiles. Al Hex. A mí.",shape=box,color=red];
+		j3949908326 -> j3037716641;
+	j1070323248 [label="Así que talvez no era mi lugar el tomar esa decisión por ti. Si quieres odiarme por eso, está bien. Ódiame por eso.",shape=box,color=red];
+		j1070323248 -> j662587793;
+	j3857433782 [label="Así que no, no es el tipo de vida al cual estabas acostumbrada. No volverás a vivir de manera \"normal\".",shape=box,color=red];
+		j3857433782 -> j3494297846;
+	j3053231168 [label="Boolean LettieKindness is now true.",color=orange];
+		j3053231168 -> j1209355299;
+	j3874015591 [label="Esta podría ser tu familia. Tu hogar. Si así lo deseas. Si LO dejas ser.",shape=box,color=red];
+		j3874015591 -> j3999453193;
+	j3037716641 [label="Esta podría ser tu familia. Si así lo deseas. Si LO dejas ser.",shape=box,color=red];
+		j3037716641 -> j3999453193;
+	j662587793 [label="Pero tú nunca hubieras dejado que el equipo muriera si hubieras podido salvarlos. Porque no los dejarías ser víctimas.",shape=box,color=red];
+		j662587793 -> j2517120238;
+	j3494297846 [label="Pero hay cosas aquí que hacen que valga la pena vivir.",shape=box,color=red];
+		j3494297846 -> j2626220579;
+	j1209355299 [label="Check boolean LettieDating",color=orange];
+		j1209355299 -> j1414619253 [label=true,color=green];
+		j1209355299 -> j307728627 [label=false,color=brown];
+	j3999453193 [label="Boolean LettieNewFamily is now true.",color=orange];
+		j3999453193 -> j402027684;
+	j2517120238 [label="Víctimas salvadas por cuál razón
+Esta no es vida, babas
+Esta pesadilla de fantasmas no es para nada vida",shape=box,color=blue];
+		j2517120238 -> j4171485788;
+	j2626220579 [label="Ay sí 
+Pizza rancia y un centro comercial abandonado 
+Civiles tristes sin hogar
+Y una guerra interminable contra la Scaldra
+Dime por qué vale la pena vivir esta VIDA",shape=box,color=blue];
+		j2626220579 -> j4171485788;
+	j1414619253 [label="+20 Chemistry",color=orange];
+		j1414619253 -> j3751780690;
+	j307728627 [label="Check boolean LettieNoFlirt",color=orange];
+		j307728627 -> j3982970743 [label=true,color=green];
+		j307728627 -> j595471235 [label=false,color=brown];
+	j402027684 [label="Check boolean LettieDating",color=orange];
+		j402027684 -> j1048649062 [label=true,color=green];
+		j402027684 -> j2858993458 [label=false,color=brown];
+	j4171485788 [label="Check boolean LettieDating",color=orange];
+		j4171485788 -> j455400498 [label=true,color=green];
+		j4171485788 -> j3042342568 [label=true,color=green];
+		j4171485788 -> j2941317059 [label=true,color=green];
+		j4171485788 -> j2533447993 [label=false,color=brown];
+	j3751780690 [label="Yo... 
+Creo que no me gusta cuando me cachas en mis mentiras
+Sí... tú... tienes razón
+A veces solo me canso de esta batalla, ¿sabes?
+Se me olvida que no estoy sola en esto",shape=box,color=blue];
+		j3751780690 -> j1935739166;
+	j3982970743 [label="Y solo me duele verte así porque me importas como si fueras parte de mi familia.",shape=box,color=red];
+		j3982970743 -> j1192804067;
+	j595471235 [label="Check boolean IsDating",color=orange];
+		j595471235 -> j3982970743 [label=true,color=green];
+		j595471235 -> j3982970743 [label=false,color=brown];
+		j595471235 -> j1018875461 [label=false,color=brown];
+	j1048649062 [label="+20 Chemistry",color=orange];
+		j1048649062 -> j3734387029;
+	j2858993458 [label="Check boolean LettieNoFlirt",color=orange];
+		j2858993458 -> j1048649062 [label=true,color=green];
+		j2858993458 -> j1205649201 [label=false,color=brown];
+		j2858993458 -> j1018875461 [label=false,color=brown];
+	j455400498 [label="¡¿Crees que esto es solo algo casual para mí?!, ¡¿crees que realmente significas tan poco para mí?!",shape=box,color=red];
+		j455400498 -> j182817208;
+	j3042342568 [label="Mira a tu alrededor. Mira lo que TÚ tienes. La familia que te rodea. A la gente que se preocupa por TI.",shape=box,color=red];
+		j3042342568 -> j3288726395;
+	j2941317059 [label="Tú ves vagabundos, yo veo personas que se muestran amables entre sí en los momentos más difíciles. Y creo que eso es hermoso.",shape=box,color=red];
+		j2941317059 -> j3733983646;
+	j2533447993 [label="Check boolean LettieNoFlirt",color=orange];
+		j2533447993 -> j3042342568 [label=true,color=green];
+		j2533447993 -> j3042342568 [label=false,color=brown];
+		j2533447993 -> j2941317059 [label=false,color=brown];
+		j2533447993 -> j1189558166 [label=false,color=brown];
+	j1935739166 [label="La vida es sobre los momentos que tenemos
+Los momentos que pasamos cuidándonos los unos a los otros
+Y ahora... tenemos una eternidad para estos, ¿no es así?
+Gracias, solecito... neta",shape=box,color=blue];
+		j1935739166 -> "Chat ends.";
+	j1192804067 [label="+20 Chemistry",color=orange];
+		j1192804067 -> j1771973968;
+	j1018875461 [label="Y... hay otra razón por la cual me duele verte así. [Confiesa sentimientos.]",shape=box,color=red];
+		j1018875461 -> j2718012106;
+	j3734387029 [label="Yo... 
+Creo que no me gusta cuando me cachas en mis mentiras
+Sí... tú... tienes razón
+A veces sobre pienso las cosas y olvido que no estoy sola",shape=box,color=blue];
+		j3734387029 -> j3388476632;
+	j1205649201 [label="Y solo me duele verte así porque me importas como si fueras parte de mi familia.",shape=box,color=red];
+		j1205649201 -> j4110981175;
+	j182817208 [label="Tú dime, ¿es eso?
+¿Eso soy para ti?
+Veo a alguien que ha pasado todas sus vidas en soledad y tiene la oportunidad de algo que nunca tuvo
+Tal vez no entiendes en que te estás metiendo",shape=box,color=blue];
+		j182817208 -> j1344429261;
+		j182817208 -> j1814404957;
+	j3288726395 [label="Sé que sientes que perdiste tu vida. Tu familia.",shape=box,color=red];
+		j3288726395 -> j3577600353;
+	j3733983646 [label="Y si quieres excluirte de eso, que así sea. Pero esa es TU decisión, Lettie. Tú estás eligiendo eso y nadie más.",shape=box,color=red];
+		j3733983646 -> j3993057040;
+	j1189558166 [label="¿En serio eres tan inconsciente como para no darte cuenta lo mucho que significas para mí? [Confiesa sentimientos.]",shape=box,color=red];
+		j1189558166 -> j1593469503;
+	j1771973968 [label="Yo... 
+Creo que no me gusta cuando me cachas en mis mentiras
+Sí... tú... tienes razón
+A veces solo me canso de esta batalla, ¿sabes?
+Se me olvida que no estoy sola en esto",shape=box,color=blue];
+		j1771973968 -> j3771142193;
+	j2718012106 [label="¿Ay sí?",shape=box,color=blue];
+		j2718012106 -> j1593469503;
+	j3388476632 [label="Necesito recordar que tengo una familia aquí conmigo
+Gente con la que puedo contar cuando las cosas se tornan difíciles
+Gracias, solecito... en serio",shape=box,color=blue];
+		j3388476632 -> "Chat ends.";
+	j4110981175 [label="+20 Chemistry",color=orange];
+		j4110981175 -> j2506555602;
+	j1344429261 [label="Sí, está bien, seguro. Eso es definitivamente lo que está pasando aquí. Tienes razón. Estoy siendo inocente y mis sentimientos no son reales.",shape=box,color=red];
+		j1344429261 -> j2709728550;
+	j1814404957 [label="Y veo a alguien que está sufriendo e intentando pelear en vez de procesar ese dolor.",shape=box,color=red];
+		j1814404957 -> j2982913579;
+	j3577600353 [label="Check boolean LettieCavia",color=orange];
+		j3577600353 -> j1009480884 [label=true,color=green];
+		j3577600353 -> j2580621320 [label=false,color=brown];
+	j3993057040 [label="Check boolean LettieRats1",color=orange];
+		j3993057040 -> j2287015802 [label=true,color=green];
+		j3993057040 -> j1253236606 [label=false,color=brown];
+	j1593469503 [label="Antes de que me digas que soy idiota, o lo que sea - o de que no puedo contigo, solo espera, y déjame hablar.",shape=box,color=red];
+		j1593469503 -> j2638960706;
+		j1593469503 -> j1302279642;
+		j1593469503 -> j3571457018;
+	j3771142193 [label="La vida es sobre los momentos que tenemos
+Los momentos que pasamos cuidándonos los unos a los otros
+Y ahora... tenemos una eternidad para estos, ¿no es así?
+Gracias... en serio",shape=box,color=blue];
+		j3771142193 -> "Chat ends.";
+	j2506555602 [label="Yo... 
+Creo que no me gusta cuando me cachas en mis mentiras
+Sí... tú... tienes razón
+A veces sobre pienso las cosas y olvido que no estoy sola",shape=box,color=blue];
+		j2506555602 -> j3063038851;
+	j2709728550 [label="Sí
+Me alegra que estés de acuerdo
+Ahora vete",shape=box,color=blue];
+		j2709728550 -> j1429886921;
+		j2709728550 -> j3285655122;
+	j2982913579 [label="¡¿Ay, sí?! 
+Dime",shape=box,color=blue];
+		j2982913579 -> j208628486;
+	j1009480884 [label="Tampoco nadie creyó que valía la pena salvar a los cavia. ¿Debió Loid solo dejarlos morir?",shape=box,color=red];
+		j1009480884 -> j102580643;
+	j2580621320 [label="Check boolean LettieNoHome",color=orange];
+		j2580621320 -> j2341417657 [label=true,color=green];
+		j2580621320 -> j852031250 [label=false,color=brown];
+	j2287015802 [label="Además, incluso si al final es inútil, los animales callejeros son los que más vale la pena rescatar, ¿no es así?",shape=box,color=red];
+		j2287015802 -> j1253236606;
+	j1253236606 [label="¿Acaso no es el punto de todo esto el hecho de que te importa, de que lo INTENTAS?",shape=box,color=red];
+		j1253236606 -> j2965951198;
+	j2638960706 [label="Eres increíblemente hermosa. Eres muy inteligente. Y podrías patearme el trasero. Pero esas no son las únicas razones por las que te has vuelto tan importante para mí.",shape=box,color=red];
+		j2638960706 -> j3681015881;
+		j2638960706 -> j76671075;
+	j1302279642 [label="Muy en el fondo, debajo de todas las capas de armadura que has construido en ti misma, está la persona más buena y compasiva que he conocido. Pero eso no es todo.",shape=box,color=red];
+		j1302279642 -> j578682180;
+		j1302279642 -> j76671075;
+	j3571457018 [label="Eres imparable. Inquebrantable. Nada parece detenerte. Eres la persona más fuerte que he conocido. Y...",shape=box,color=red];
+		j3571457018 -> j578682180;
+		j3571457018 -> j3681015881;
+	j3063038851 [label="Necesito recordar que tengo una familia aquí conmigo
+Gente con la que puedo contar cuando las cosas se tornan difíciles
+Gracias... en serio",shape=box,color=blue];
+		j3063038851 -> "Chat ends.";
+	j1429886921 [label="No hemos terminado con esta conversación, Lettie.",shape=box,color=red];
+		j1429886921 -> j208628486;
+	j3285655122 [label="Ya me cansé de esto. Y ya terminé contigo. [Rompimiento.]",shape=box,color=red];
+		j3285655122 -> j2638253776;
+	j208628486 [label="Me estás corriendo porque estás asustada. Porque no quieres estar atrapada aquí de esta manera. Pero estás alejando a todos los que te pueden ayudar.",shape=box,color=red];
+		j208628486 -> j2188176791;
+	j102580643 [label="¿Habría sido mejor la muerte que la vida que tienen ahora? Tagfer ciertamente hubiera por fin estado de acuerdo contigo, él perdió a su esposa durante el proceso.",shape=box,color=red];
+		j102580643 -> j2295211863;
+	j2341417657 [label="También sé que nunca has sentido como es tener un lugar a donde pertenecer. Nunca has tenido un hogar antes, Lettie. Así como yo.",shape=box,color=red];
+		j2341417657 -> j1529869653;
+	j852031250 [label="Esta situación en la que están todos ustedes, no les voy a mentir, apesta. Créeme, pasé por esto. Pero tienes algo que yo no tengo.",shape=box,color=red];
+		j852031250 -> j3321532492;
+	j2965951198 [label="Son esos momentos de bondad que importan, ¿no es así?, esos lapsos donde le mostramos a los demás lo mejor de nosotros mismos.",shape=box,color=red];
+		j2965951198 -> j1874377347;
+	j3681015881 [label="Eres la persona más bondadosa y cariñosa que he conocido. La manera en la que tratas a los animales y como te esfuerzas por los demás hace que mi corazón se derrita.",shape=box,color=red];
+		j3681015881 -> j3318006238;
+	j76671075 [label="Estás hecha de acero. Y no importa lo que ellos te deparen; Entrati, Hombre en la Pared, Viktor y la Scaldra. No te va a afectar. Pues no tienen oportunidad contra ti.",shape=box,color=red];
+		j76671075 -> j3318006238;
+	j578682180 [label="Detengámonos a pensar en lo hermosa que eres y en cómo podrías romperme como una ramita si quisieras. lol",shape=box,color=red];
+		j578682180 -> j3318006238;
+	j2638253776 [label="Sí
+Supuse que esto iría a pasar
+Vete, babas, ya no tengo tiempo para ti
+Esto me pasa por andar con niñitos, debí haberlo sabido",shape=box,color=blue];
+		j2638253776 -> j30836566;
+	j2188176791 [label="Así que puedes dejarme estar contigo, de verdad, y ayudarte, o me puedes alejar, también. Es tu decisión.",shape=box,color=red];
+		j2188176791 -> j1582739517;
+	j2295211863 [label="Pero encontraron en ellos mismos una nueva familia. Una razón para seguir vivos.",shape=box,color=red];
+		j2295211863 -> j2394068651;
+	j1529869653 [label="¿Y bien?, esta podría ser tu familia. Tu hogar. Si así lo deseas. Si LO dejas ser.",shape=box,color=red];
+		j1529869653 -> j2394068651;
+	j3321532492 [label="Se tienen los unos a los otros. Tienes *familia.* Tienes *amigos.*",shape=box,color=red];
+		j3321532492 -> j1713609918;
+	j1874377347 [label="Mierda",shape=box,color=blue];
+		j1874377347 -> j3447837273;
+	j3318006238 [label="El punto es... que me importas, Lettie. Mucho. Y más que solo una amiga, entiendo si no es mutuo, pero...",shape=box,color=red];
+		j3318006238 -> j1546199710;
+	j30836566 [label="Boolean LettieDating is now false.",color=orange];
+		j30836566 -> j4031970331;
+	j1582739517 [label="Mierda",shape=box,color=blue];
+		j1582739517 -> j586030177;
+	j2394068651 [label="Mierda",shape=box,color=blue];
+		j2394068651 -> j1491527732;
+	j1713609918 [label="No estás sola como yo lo estaba, y esa soledad me envió a una espiral de miseria y vacío.",shape=box,color=red];
+		j1713609918 -> j1718542226;
+	j3447837273 [label="+20 Chemistry",color=orange];
+		j3447837273 -> j908593907;
+	j1546199710 [label="No soporto verte perder la esperanza así. Tú no eres una sombra. No eres un fantasma.",shape=box,color=red];
+		j1546199710 -> j3462090350;
+	j4031970331 [label="Boolean IsDating is now false.",color=orange];
+		j4031970331 -> j3065772033;
+	j586030177 [label="Yo... 
+Creo que no me gusta cuando me cachas en mis mentiras
+Sí... tú... tienes razón
+A veces sobre pienso las cosas y... no te había dado la oportunidad de ayudar",shape=box,color=blue];
+		j586030177 -> j190904466;
+	j1491527732 [label="+20 Chemistry",color=orange];
+		j1491527732 -> j3847324869;
+	j1718542226 [label="Tienes que escoger que quieres. Si quieres estar sola o no.",shape=box,color=red];
+		j1718542226 -> j2394068651;
+	j908593907 [label="Yo... 
+Creo que no me gusta cuando me cachas en mis mentiras
+Sí... tú... tienes razón
+A veces solo me canso de esta batalla, ¿sabes?
+Se me olvida que no estoy sola en esto",shape=box,color=blue];
+		j908593907 -> j880066338;
+	j3462090350 [label="Tú eres LETTIE, y...",shape=box,color=red];
+		j3462090350 -> j3470528075;
+	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
+		j3065772033 -> "Chat ends.";
+	j190904466 [label="Es muy fácil para mí ignorar esto como si fuera algo físico
+Lo hace más sencillo, ¿sabes? 
+Lo siento, solecito...",shape=box,color=blue];
+		j190904466 -> j3888302953;
+	j3847324869 [label="Yo... 
+Creo que no me gusta cuando me cachas en mis mentiras
+Sí... tú... tienes razón
+A veces sobre pienso las cosas y olvido que no estoy sola",shape=box,color=blue];
+		j3847324869 -> j3139670722;
+	j880066338 [label="La vida es sobre los momentos que tenemos
+Los momentos que pasamos cuidándonos los unos a los otros
+No se trata de como acaba
+Gracias... en serio",shape=box,color=blue];
+		j880066338 -> j209009916;
+	j3470528075 [label="Cállate",shape=box,color=blue];
+		j3470528075 -> j3918676322;
+	j3888302953 [label="Quiero recompensarte por esto
+Y creo saber como...
+Si es que me dejas, ¿mm?",shape=box,color=blue];
+		j3888302953 -> j3390312945;
+		j3888302953 -> j2730615816;
+	j3139670722 [label="Necesito recordar que tengo una familia aquí conmigo
+Gente con la que puedo contar cuando las cosas se tornan difíciles
+Gracias... en serio",shape=box,color=blue];
+		j3139670722 -> j1778865328;
+	j209009916 [label="Boolean LettieKindness is now true.",color=orange];
+		j209009916 -> "Chat ends.";
+	j3918676322 [label="Aguántame tantito",shape=box,color=blue];
+		j3918676322 -> j4248450701;
+		j3918676322 -> j997686611;
+	j3390312945 [label="Tal vez después. No estoy de humor ahora mismo.",shape=box,color=red];
+		j3390312945 -> j1591380320;
+	j2730615816 [label="Como si le fuera decir que no a eso. :}",shape=box,color=red];
+		j2730615816 -> j32677279;
+	j1778865328 [label="Boolean LettieNewFamily is now true.",color=orange];
+		j1778865328 -> "Chat ends.";
+	j4248450701 [label="Perdón si te molesta...",shape=box,color=red];
+		j4248450701 -> j1658374199;
+	j997686611 [label="Si no sientes lo mismo, yo entiendo.",shape=box,color=red];
+		j997686611 -> j1658374199;
+	j1591380320 [label="Sí
+Entiendo",shape=box,color=blue];
+		j1591380320 -> j1470630329;
+	j32677279 [label="Boolean LettieReal is now true.",color=orange];
+		j32677279 -> j2895199346;
+	j1658374199 [label="¡Neta, ya cállate! 
+Necesito un momento para pensar
+Para respirar
+No puedo procesar bien las cosas cuando me siento así",shape=box,color=blue];
+		j1658374199 -> j3258693147;
+	j1470630329 [label="+10 Chemistry",color=orange];
+		j1470630329 -> "Chat ends.";
+	j2895199346 [label="+20 Chemistry",color=orange];
+		j2895199346 -> "Chat ends.";
+	j3258693147 [label="+20 Chemistry",color=orange];
+		j3258693147 -> j871901182;
+	j871901182 [label="NO ME gustan los cumplidos, solecito
+Nunca los he sabido recibir
+Hablemos mañana, para que resolvamos esto
+Lo siento",shape=box,color=blue];
+		j871901182 -> j621831274;
+	j621831274 [label="Boolean LettieConfession is now true.",color=orange];
+		j621831274 -> "Chat ends. Next chat will be LettieConfession.";
+	"Chat ends. Next chat will be LettieConfession." [color=orange];
+}

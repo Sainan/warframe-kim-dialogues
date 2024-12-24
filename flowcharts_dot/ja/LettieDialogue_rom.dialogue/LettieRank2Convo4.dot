@@ -1,0 +1,74 @@
+digraph {
+	"LettieRank2Convo4 begins." [color=orange];
+		"LettieRank2Convo4 begins." -> j3639082738;
+	j3639082738 [label="Check boolean LettieSmallFavor",color=orange];
+		j3639082738 -> j2445609520 [label=true,color=green];
+		j3639082738 -> j2661442179 [label=false,color=brown];
+	j2445609520 [label="ねぇ、babas
+またあんたにちょっとお願いしたいことがあるの",shape=box,color=blue];
+		j2445609520 -> j335737702;
+		j2445609520 -> j250926699;
+		j2445609520 -> j2479804979;
+	j2661442179 [label="ねぇ、babas
+あんたにちょっとお願いしたいことがあるの",shape=box,color=blue];
+		j2661442179 -> j2479804979;
+		j2661442179 -> j250926699;
+		j2661442179 -> j335737702;
+	j335737702 [label="いいよ。どうした？",shape=box,color=red];
+		j335737702 -> j4293138288;
+	j250926699 [label="自分はLettieのペットじゃないからね？",shape=box,color=red];
+		j250926699 -> j1265995017;
+	j2479804979 [label="自分の用事は自分でどうぞ。[閉じる]",shape=box,color=red];
+		j2479804979 -> "Chat ends.";
+	j4293138288 [label="+10 Chemistry",color=orange];
+		j4293138288 -> j3773005193;
+	j1265995017 [label="Sí 
+餌をねだるよう躾けられそう
+でもそうするにはヤワすぎるかもね",shape=box,color=blue];
+		j1265995017 -> j1970012768;
+		j1265995017 -> j1180228746;
+	"Chat ends." [color=orange];
+	j3773005193 [label="Bueno",shape=box,color=blue];
+		j3773005193 -> j1832983006;
+	j1970012768 [label="それは…　脅迫？　それとも言い寄ってるの？",shape=box,color=red];
+		j1970012768 -> j2178015160;
+	j1180228746 [label="やってみなよ。",shape=box,color=red];
+		j1180228746 -> j751567066;
+	j1832983006 [label="遊んだり走り回ったりするには仕事が多すぎるの 
+ここいらの市民はAmirがコンピューターを収集するみたいに銃創を集めてくる",shape=box,color=blue];
+		j1832983006 -> j680208053;
+	j2178015160 [label="+10 Chemistry",color=orange];
+		j2178015160 -> j3725788522;
+	j751567066 [label="+10 Chemistry",color=orange];
+		j751567066 -> j2097064645;
+	j680208053 [label="つまり、医療キットのこと 
+もっと必要なの
+探すか買うか、何でも良い 
+持ってきて 
+Te lo agradecería mucho",shape=box,color=blue];
+		j680208053 -> j1192663384;
+		j680208053 -> j1923162692;
+		j680208053 -> j1651534856;
+	j3725788522 [label="¿Por qué no ambos? 
+話をそらさないで、babas",shape=box,color=blue];
+		j3725788522 -> j1832983006;
+	j2097064645 [label="Cuidadito, babas 
+話をそらさないで",shape=box,color=blue];
+		j2097064645 -> j1832983006;
+	j1192663384 [label="任せて。",shape=box,color=red];
+		j1192663384 -> j1350425999;
+	j1923162692 [label="約束はできない。",shape=box,color=red];
+		j1923162692 -> j116987468;
+	j1651534856 [label="自分で集めて。",shape=box,color=red];
+		j1651534856 -> "Chat ends.";
+	j1350425999 [label="+10 Chemistry",color=orange];
+		j1350425999 -> j2922128226;
+	j116987468 [label="+10 Chemistry",color=orange];
+		j116987468 -> j1998952878;
+	j2922128226 [label="Gracias",shape=box,color=blue];
+		j2922128226 -> j3889308430;
+	j1998952878 [label="期待していない",shape=box,color=blue];
+		j1998952878 -> j3889308430;
+	j3889308430 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j3889308430 -> "Chat ends.";
+}

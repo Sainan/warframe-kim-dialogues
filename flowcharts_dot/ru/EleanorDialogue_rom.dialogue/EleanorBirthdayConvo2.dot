@@ -1,0 +1,16 @@
+digraph {
+	"EleanorBirthdayConvo2 begins." [color=orange];
+		"EleanorBirthdayConvo2 begins." -> j3240934942;
+		"EleanorBirthdayConvo2 begins." -> j37165171;
+	j3240934942 [label="Поздравляю с тем, что ты дожила до очередного дня рождения!",shape=box,color=red];
+		j3240934942 -> j2645121152;
+	j37165171 [label="С днём рождения, Элеонора. Мне радотстно, что ты все ещё здесь.",shape=box,color=red];
+		j37165171 -> j615872731;
+	j2645121152 [label="Сначала надо было проверить. Но, к счастью для тебя, я действительно жива. Потому что это могло бы быть чертовски неловко, не так ли?",shape=box,color=blue];
+		j2645121152 -> "Chat ends.";
+	j615872731 [label="+20 Chemistry",color=orange];
+		j615872731 -> j2969183144;
+	"Chat ends." [color=orange];
+	j2969183144 [label="Спасибо, Скиталец. Я тоже.",shape=box,color=blue];
+		j2969183144 -> "Chat ends.";
+}

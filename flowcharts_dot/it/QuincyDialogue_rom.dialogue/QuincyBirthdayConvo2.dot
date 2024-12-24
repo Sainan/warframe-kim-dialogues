@@ -1,0 +1,16 @@
+digraph {
+	"QuincyBirthdayConvo2 begins." [color=orange];
+		"QuincyBirthdayConvo2 begins." -> j1679791686;
+		"QuincyBirthdayConvo2 begins." -> j2899469942;
+	j1679791686 [label="Ehi Quincy! Ho convinto Arthur a darti la serata libera per il tuo compleanno.",shape=box,color=red];
+		j1679791686 -> j1826098051;
+	j2899469942 [label="Passa un buon turno stasera per il tuo compleanno, Quincy.",shape=box,color=red];
+		j2899469942 -> j2412345779;
+	j1826098051 [label="+20 Chemistry",color=orange];
+		j1826098051 -> j3014341166;
+	j2412345779 [label="sì, me piace congelarme le prugne sopra er tetto er giorno der mio compleanno, grz",shape=box,color=blue];
+		j2412345779 -> "Chat ends.";
+	j3014341166 [label="fiiiiiiiigo, 6 er mijore, amico",shape=box,color=blue];
+		j3014341166 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

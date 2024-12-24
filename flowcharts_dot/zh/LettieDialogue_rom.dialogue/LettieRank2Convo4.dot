@@ -1,0 +1,74 @@
+digraph {
+	"LettieRank2Convo4 begins." [color=orange];
+		"LettieRank2Convo4 begins." -> j3639082738;
+	j3639082738 [label="Check boolean LettieSmallFavor",color=orange];
+		j3639082738 -> j3731265662 [label=true,color=green];
+		j3639082738 -> j2310255925 [label=false,color=brown];
+	j3731265662 [label="嘿，babas 
+我想请你再帮个小忙",shape=box,color=blue];
+		j3731265662 -> j3366469910;
+		j3731265662 -> j2103800191;
+		j3731265662 -> j2997750213;
+	j2310255925 [label="嘿，babas 
+我想请你帮个小忙",shape=box,color=blue];
+		j2310255925 -> j2997750213;
+		j2310255925 -> j2103800191;
+		j2310255925 -> j3366469910;
+	j3366469910 [label="可以。怎么了？",shape=box,color=red];
+		j3366469910 -> j1704588682;
+	j2103800191 [label="你知道我可不是你的跑腿吧？",shape=box,color=red];
+		j2103800191 -> j2233335292;
+	j2997750213 [label="自己的事情自己做。[结束]",shape=box,color=red];
+		j2997750213 -> "Chat ends.";
+	j1704588682 [label="+10 Chemistry",color=orange];
+		j1704588682 -> j1108319187;
+	j2233335292 [label="Sí 
+我敢说我能让你求着我要奖励 
+不过你大概会撑不住",shape=box,color=blue];
+		j2233335292 -> j3055605210;
+		j2233335292 -> j1205318514;
+	"Chat ends." [color=orange];
+	j1108319187 [label="Bueno",shape=box,color=blue];
+		j1108319187 -> j2857995902;
+	j3055605210 [label="你……是在威胁我，还是在撩我？",shape=box,color=red];
+		j3055605210 -> j2074503736;
+	j1205318514 [label="放马过来。",shape=box,color=red];
+		j1205318514 -> j2299849903;
+	j2857995902 [label="我有一大堆工作要做，根本没时间玩游戏和到处跑
+这些市民挨子弹就像阿米尔捡电脑一样容易",shape=box,color=blue];
+		j2857995902 -> j734739075;
+	j2074503736 [label="+10 Chemistry",color=orange];
+		j2074503736 -> j2459129837;
+	j2299849903 [label="+10 Chemistry",color=orange];
+		j2299849903 -> j3901159294;
+	j734739075 [label="也就是说，医疗包 
+我需要更多 
+找到它们或购买它们，无所谓
+把它们带给我 
+Te lo agradecería mucho",shape=box,color=blue];
+		j734739075 -> j1691219276;
+		j734739075 -> j1225080010;
+		j734739075 -> j3604538915;
+	j2459129837 [label="¿Por qué no ambos? 
+别让我分心，babas",shape=box,color=blue];
+		j2459129837 -> j2857995902;
+	j3901159294 [label="Cuidadito，babas 
+别分散我的注意力",shape=box,color=blue];
+		j3901159294 -> j2857995902;
+	j1691219276 [label="我在做了。",shape=box,color=red];
+		j1691219276 -> j1350425999;
+	j1225080010 [label="我没法保证。",shape=box,color=red];
+		j1225080010 -> j1666287786;
+	j3604538915 [label="你自己去找吧。",shape=box,color=red];
+		j3604538915 -> "Chat ends.";
+	j1350425999 [label="+10 Chemistry",color=orange];
+		j1350425999 -> j2922128226;
+	j1666287786 [label="+10 Chemistry",color=orange];
+		j1666287786 -> j4185474333;
+	j2922128226 [label="Gracias",shape=box,color=blue];
+		j2922128226 -> j3889308430;
+	j4185474333 [label="我又没让你保证",shape=box,color=blue];
+		j4185474333 -> j3889308430;
+	j3889308430 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j3889308430 -> "Chat ends.";
+}

@@ -1,0 +1,104 @@
+digraph {
+	"LettieRank1Convo3 begins." [color=orange];
+		"LettieRank1Convo3 begins." -> j3168232030;
+	j3168232030 [label="Babas 
+Fica de olho aberto, viu?",shape=box,color=blue];
+		j3168232030 -> j3821946449;
+		j3168232030 -> j2213592311;
+	j3821946449 [label="Isso era pra ser um \"oi\"?",shape=box,color=red];
+		j3821946449 -> j1570910458;
+	j2213592311 [label="Agora não dá, deixa pra depois [Encerrar Conversa]",shape=box,color=red];
+		j2213592311 -> "Chat ends.";
+	j1570910458 [label="Ah, sim, olá, bom dia flor do dia 
+Dia, tarde, noite… tanto faz 
+Preciso que você traga mais gaze 
+Tô ficando sem suprimentos",shape=box,color=blue];
+		j1570910458 -> j4282162399;
+	"Chat ends." [color=orange];
+	j4282162399 [label="A Anita entrou em uma caixa e roeu um monte delas",shape=box,color=blue];
+		j4282162399 -> j2920768461;
+		j4282162399 -> j3254577583;
+	j2920768461 [label="Quem é a Anita?",shape=box,color=red];
+		j2920768461 -> j3064868884;
+	j3254577583 [label="Não faço ideia de quem é essa aí, Lê",shape=box,color=red];
+		j3254577583 -> j3064868884;
+	j3064868884 [label="Lo siento, esqueci de falar",shape=box,color=blue];
+		j3064868884 -> j1453851897;
+	j1453851897 [label="+5 Chemistry",color=orange];
+		j1453851897 -> j1182038723;
+	j1182038723 [label="É minha nova corazoncito, minha nova rata 
+Ela ainda tá aprendendo a se comportar",shape=box,color=blue];
+		j1182038723 -> j2604450281;
+	j2604450281 [label="Check boolean LettieRatsAsked",color=orange];
+		j2604450281 -> j831251887 [label=true,color=green];
+		j2604450281 -> j2999085579 [label=true,color=green];
+		j2604450281 -> j3727208118 [label=false,color=brown];
+		j2604450281 -> j831251887 [label=false,color=brown];
+		j2604450281 -> j2999085579 [label=false,color=brown];
+	j831251887 [label="Se eu ver gaze por aí, eu levo pra você",shape=box,color=red];
+		j831251887 -> j4279127391;
+	j2999085579 [label="Se foi sua rata que roeu, vai você atrás da sua própria gaze",shape=box,color=red];
+		j2999085579 -> j3892079877;
+	j3727208118 [label="Fiquei na dúvida, por que você tem ratos como animais de estimação?",shape=box,color=red];
+		j3727208118 -> j1919838526;
+	j4279127391 [label="+10 Chemistry",color=orange];
+		j4279127391 -> j1454607481;
+	j3892079877 [label="Sí, claro, com todo esse tempo livre que tenho, vou sim 
+Não é como se eu não tivesse que costurar o pessoal do Hexa 
+Ou todos os civis desmembrados por aí",shape=box,color=blue];
+		j3892079877 -> j807166870;
+	j1919838526 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		j1919838526 -> j738517656;
+	j1454607481 [label="Gracias 
+Te devo uma 
+Um pequeno favor",shape=box,color=blue];
+		j1454607481 -> j3889308430;
+	j807166870 [label="Gracias por nada, babas",shape=box,color=blue];
+		j807166870 -> "Chat ends.";
+	j738517656 [label="Me diz você, o que acha?",shape=box,color=blue];
+		j738517656 -> j3511788569;
+		j738517656 -> j660303755;
+	j3889308430 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j3889308430 -> "Chat ends.";
+	j3511788569 [label="Hã?",shape=box,color=red];
+		j3511788569 -> j471733754;
+	j660303755 [label="Não tô gostando do rumo desse papo [Encerrar Conversa]",shape=box,color=red];
+		j660303755 -> j1922389995;
+	j471733754 [label="Quero saber por que você acha que gosto de ratos 
+Vamos lá, me conta",shape=box,color=blue];
+		j471733754 -> j51480216;
+		j471733754 -> j1586196820;
+		j471733754 -> j159020650;
+	j1922389995 [label="Tú te lo pierdes",shape=box,color=blue];
+		j1922389995 -> "Chat ends.";
+	j51480216 [label="Por que são inteligentes, carinhosos e brincalhões?",shape=box,color=red];
+		j51480216 -> j3536737544;
+	j1586196820 [label="Por que são seres negligenciados e incompreendidos?",shape=box,color=red];
+		j1586196820 -> j3536737544;
+	j159020650 [label="Lê, sinceramente, não entendo nada sobre você, mas acho os ratos super fofinhos",shape=box,color=red];
+		j159020650 -> j1085924039;
+	j3536737544 [label="Ay, Lua, sálvame 
+Errou feio, errou rude",shape=box,color=blue];
+		j3536737544 -> j1022222434;
+	j1085924039 [label="JAJAJA!",shape=box,color=blue];
+		j1085924039 -> j86664854;
+	j1022222434 [label="Não cresci com muito dinheiro quando era criança 
+Não era uma vizinhança tão ruim assim 
+Mas também não era flor que se cheire 
+Ratos eram fáceis de manter, e minha mãe não ligava pra eles",shape=box,color=blue];
+		j1022222434 -> j2590588372;
+	j86664854 [label="+5 Chemistry",color=orange];
+		j86664854 -> j3926725890;
+	j2590588372 [label="Boolean LettieRats1 is now true.",color=orange];
+		j2590588372 -> j947993205;
+	j3926725890 [label="Quem diria, a pessoa que salvou a todos nós também é humilde 
+Gostei",shape=box,color=blue];
+		j3926725890 -> j1022222434;
+	j947993205 [label="Você pode arrumar essas bandagens pra mim?",shape=box,color=blue];
+		j947993205 -> j558346443;
+		j947993205 -> j382671603;
+	j558346443 [label="Claro, vou ver o que acho por aí",shape=box,color=red];
+		j558346443 -> j4279127391;
+	j382671603 [label="Se foi sua rata que roeu, você que se vire",shape=box,color=red];
+		j382671603 -> j3892079877;
+}

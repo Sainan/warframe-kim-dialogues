@@ -1,0 +1,16 @@
+digraph {
+	"ArthurBirthdayConvo1 begins." [color=orange];
+		"ArthurBirthdayConvo1 begins." -> j1933179005;
+		"ArthurBirthdayConvo1 begins." -> j3655452088;
+	j1933179005 [label="รู้ว่าคงยุ่งอยู่แต่แค่อยากจะบอกว่าสุขสันต์วันเกิดนะ :)",shape=box,color=red];
+		j1933179005 -> j3466261762;
+	j3655452088 [label="สุขสันต์วันเกิด! (คงรู้ใช่ไหมว่า \"สุขสันต์\" เป็นยังไง)",shape=box,color=red];
+		j3655452088 -> j32792089;
+	j3466261762 [label="+20 Chemistry",color=orange];
+		j3466261762 -> j687687682;
+	j32792089 [label="รู้สิ แล้วรู้ไหมว่าการเป็นคน \"ตลก\" เป็นยังไง",shape=box,color=blue];
+		j32792089 -> "Chat ends.";
+	j687687682 [label="ไม่ยุ่งเกินไปจนไม่มีเวลารับคำอวยพรวันเกิดหรอกนะเพื่อน ขอบใจนะ",shape=box,color=blue];
+		j687687682 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

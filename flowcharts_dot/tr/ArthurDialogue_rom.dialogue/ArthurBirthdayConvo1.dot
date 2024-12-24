@@ -1,0 +1,16 @@
+digraph {
+	"ArthurBirthdayConvo1 begins." [color=orange];
+		"ArthurBirthdayConvo1 begins." -> j1158908620;
+		"ArthurBirthdayConvo1 begins." -> j498734981;
+	j1158908620 [label="Yoğun olduğunu biliyorum, sadece doğum günün kutlu olsun demek istemiştim. :)",shape=box,color=red];
+		j1158908620 -> j4031695916;
+	j498734981 [label="Doğum günün kutlu olsun! (\"Kutlu\" ne demek biliyorsun, değil mi?)",shape=box,color=red];
+		j498734981 -> j3347945011;
+	j4031695916 [label="+20 Chemistry",color=orange];
+		j4031695916 -> j565876295;
+	j3347945011 [label="Evet. \"Komik\" olmanın ne demek olduğunu biliyor musun?",shape=box,color=blue];
+		j3347945011 -> "Chat ends.";
+	j565876295 [label="Doğum günü tebriklerine her zaman açığım dostum. Teşekkür ederim.",shape=box,color=blue];
+		j565876295 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

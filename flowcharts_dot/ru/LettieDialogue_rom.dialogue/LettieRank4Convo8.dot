@@ -1,0 +1,152 @@
+digraph {
+	"LettieRank4Convo8 begins." [color=orange];
+		"LettieRank4Convo8 begins." -> j3421776348;
+	j3421776348 [label="Check boolean AmirRPGLettie",color=orange];
+		j3421776348 -> "Chat ends." [label=true,color=green];
+		j3421776348 -> j2947903416 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2947903416 [label="Check boolean AmirRPG",color=orange];
+		j2947903416 -> j3854007334 [label=true,color=green];
+		j2947903416 -> "Chat ends." [label=false,color=brown];
+	j3854007334 [label="Check boolean AmirRPGLettieAsked",color=orange];
+		j3854007334 -> j2403125547 [label=true,color=green];
+		j3854007334 -> j1910344755 [label=true,color=green];
+		j3854007334 -> j256439419 [label=false,color=brown];
+		j3854007334 -> j1340386339 [label=false,color=brown];
+	j2403125547 [label="Итак… Лэтти, послушай… Я знаю, ты уже сказала «нет» игре Амира, но…",shape=box,color=red];
+		j2403125547 -> j1120450361;
+	j1910344755 [label="Эй, Лэтти, мы же теперь друзья, да? Тебе я вроде даже нравлюсь, да?",shape=box,color=red];
+		j1910344755 -> j1214075081;
+	j256439419 [label="Эй, Лэтти, что ты думаешь о настольных ролевых играх?",shape=box,color=red];
+		j256439419 -> j1620124538;
+	j1340386339 [label="Эй, Лэтти, я хочу попросить тебя об услуге.",shape=box,color=red];
+		j1340386339 -> j1363014712;
+	j1120450361 [label="Aayyyy 
+¿Otra vez, babas?",shape=box,color=blue];
+		j1120450361 -> j3848180352;
+	j1214075081 [label="¿A poco sí?
+más o menos jajaja",shape=box,color=blue];
+		j1214075081 -> j1612618336;
+	j1620124538 [label="Estás bromeando, ¿verdad? 
+Амир заставил тебя спросить, я знаю это",shape=box,color=blue];
+		j1620124538 -> j2332366414;
+		j1620124538 -> j1515000480;
+	j1363014712 [label="¿Ay, sí? 
+Что такое, babas",shape=box,color=blue];
+		j1363014712 -> j1878374742;
+	j3848180352 [label="Я знаю, что такая игра, как «Предания и Просторы», звучит очень глупо, но речь идёт о том, чтобы проводить время вместе.",shape=box,color=red];
+		j3848180352 -> j111354990;
+	j1612618336 [label="Я знаю, что такая игра, как «Предания и Просторы», звучит очень глупо, но это важно для Амира.",shape=box,color=red];
+		j1612618336 -> j523235506;
+	j2332366414 [label="Я не против спросить. Думаю, будет весело!",shape=box,color=red];
+		j2332366414 -> j2073137714;
+	j1515000480 [label="Я не против спросить. Это важно для него.",shape=box,color=red];
+		j1515000480 -> j2073137714;
+	j1878374742 [label="Амир собирает игру в «Предания и Просторы». И я знаю, это звучит глупо, но, прежде чем ты придёшь сюда и ударишь меня",shape=box,color=red];
+		j1878374742 -> j3172585869;
+		j1878374742 -> j14532962;
+	j111354990 [label="+5 Chemistry",color=orange];
+		j111354990 -> j4223989517;
+	j523235506 [label="И?",shape=box,color=blue];
+		j523235506 -> j107196314;
+		j523235506 -> j2419103489;
+	j2073137714 [label="Babas... 
+У меня слишком много дел 
+Чтобы тратить их на игры для детей",shape=box,color=blue];
+		j2073137714 -> j3848180352;
+		j2073137714 -> j1612618336;
+	j3172585869 [label="Это шанс собрать всех вместе и провести время вместе.",shape=box,color=red];
+		j3172585869 -> j2717637157;
+	j14532962 [label="Это действительно важно для Амира",shape=box,color=red];
+		j14532962 -> j4223989517;
+	j4223989517 [label="И?",shape=box,color=blue];
+		j4223989517 -> j2419103489;
+		j4223989517 -> j107196314;
+	j107196314 [label="И это может быть даже немного весело.",shape=box,color=red];
+		j107196314 -> j1252157507;
+	j2419103489 [label="И тебе не помешает передышка.",shape=box,color=red];
+		j2419103489 -> j3493799403;
+	j2717637157 [label="+5 Chemistry",color=orange];
+		j2717637157 -> j4223989517;
+	j1252157507 [label="И?",shape=box,color=blue];
+		j1252157507 -> j3207676375;
+	j3493799403 [label="+5 Chemistry",color=orange];
+		j3493799403 -> j1252157507;
+	j3207676375 [label="Check boolean AmirRPGAny",color=orange];
+		j3207676375 -> j3993845202 [label=true,color=green];
+		j3207676375 -> j2846197658 [label=false,color=brown];
+	j3993845202 [label="...И ты не будешь единственной, кто будет играть с нами?",shape=box,color=red];
+		j3993845202 -> j2927093947;
+	j2846197658 [label="Check boolean LettieSmallFavor",color=orange];
+		j2846197658 -> j4167336849 [label=true,color=green];
+		j2846197658 -> j2500087749 [label=false,color=brown];
+	j2927093947 [label="¿Sí? 
+Кого ещё тебе удалось убедить?",shape=box,color=blue];
+		j2927093947 -> j4049301678;
+	j4167336849 [label="...И ты ведь ДЕЙСТВИТЕЛЬНО должна мне услугу, не так ли?",shape=box,color=red];
+		j4167336849 -> j1281955090;
+	j2500087749 [label="Итак, что ты думаешь?",shape=box,color=red];
+		j2500087749 -> j3929742893;
+	j4049301678 [label="Я и Амир, очевидно. А затем...",shape=box,color=red];
+		j4049301678 -> j2087683001;
+	j1281955090 [label="+10 Chemistry",color=orange];
+		j1281955090 -> j1534941135;
+	j3929742893 [label="Babas... 
+Lo siento, у меня просто слишком много дел 
+Придётся тебе идти без меня",shape=box,color=blue];
+		j3929742893 -> "Chat ends.";
+	j2087683001 [label="Check boolean AmirRPGEleanor",color=orange];
+		j2087683001 -> j2034695823 [label=true,color=green];
+		j2087683001 -> j319274630 [label=false,color=brown];
+	j1534941135 [label="Ssíííííí... 
+Fiiine, babaaass... 
+Но мне лучше об этом не пожалеть...",shape=box,color=blue];
+		j1534941135 -> j2013988001;
+	j2034695823 [label="Элеонор согласилась, хотя я не уверен, помогает это или вредит моему делу...",shape=box,color=red];
+		j2034695823 -> j2709037429;
+	j319274630 [label="Check boolean AmirRPGAoi",color=orange];
+		j319274630 -> j636823702 [label=true,color=green];
+		j319274630 -> j3465699138 [label=false,color=brown];
+	j2013988001 [label="Boolean LettieSmallFavor is now false.",color=orange];
+		j2013988001 -> j3480999907;
+	j2709037429 [label="Ну конечно, bruja хочет потратить время",shape=box,color=blue];
+		j2709037429 -> j319274630;
+	j636823702 [label="Аои сказала, что будет играть",shape=box,color=red];
+		j636823702 -> j523343661;
+	j3465699138 [label="Check boolean AmirRPGQuincy",color=orange];
+		j3465699138 -> j2323117531 [label=true,color=green];
+		j3465699138 -> j2787280832 [label=false,color=brown];
+	j3480999907 [label="Boolean AmirRPGLettie is now true.",color=orange];
+		j3480999907 -> j1494757497;
+	j523343661 [label="Я не удивлена...",shape=box,color=blue];
+		j523343661 -> j3465699138;
+	j2323117531 [label="Куинси тоже участвует",shape=box,color=red];
+		j2323117531 -> j3065268432;
+	j2787280832 [label="Check boolean AmirRPGArthur",color=orange];
+		j2787280832 -> j1869691998 [label=true,color=green];
+		j2787280832 -> j1281955090 [label=false,color=brown];
+	j1494757497 [label="Check boolean AmirRPGQuincy",color=orange];
+		j1494757497 -> j3300136770 [label=true,color=green];
+		j1494757497 -> j1692268193 [label=false,color=brown];
+	j3065268432 [label="¡¿Neta?! 
+КУИНСИ! 
+Сколько тебе пришлось ему заплатить",shape=box,color=blue];
+		j3065268432 -> j2787280832;
+	j1869691998 [label="Артур сказал, что будет играть, хаха",shape=box,color=red];
+		j1869691998 -> j1080092423;
+	j3300136770 [label="Check boolean AmirRPGArthur",color=orange];
+		j3300136770 -> j2327567580 [label=true,color=green];
+		j3300136770 -> j1692268193 [label=false,color=brown];
+	j1692268193 [label="Boolean AmirRPGAny is now true.",color=orange];
+		j1692268193 -> "Chat ends.";
+	j1080092423 [label="ХА! Ну, если mi hermano играет...",shape=box,color=blue];
+		j1080092423 -> j1281955090;
+	j2327567580 [label="Check boolean AmirRPGAoi",color=orange];
+		j2327567580 -> j699228971 [label=true,color=green];
+		j2327567580 -> j1692268193 [label=false,color=brown];
+	j699228971 [label="Check boolean AmirRPGEleanor",color=orange];
+		j699228971 -> j3798570005 [label=true,color=green];
+		j699228971 -> j1692268193 [label=false,color=brown];
+	j3798570005 [label="Boolean AmirRPGAll is now true.",color=orange];
+		j3798570005 -> "Chat ends.";
+}

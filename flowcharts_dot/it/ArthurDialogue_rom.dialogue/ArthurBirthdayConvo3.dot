@@ -1,0 +1,16 @@
+digraph {
+	"ArthurBirthdayConvo3 begins." [color=orange];
+		"ArthurBirthdayConvo3 begins." -> j3164771052;
+		"ArthurBirthdayConvo3 begins." -> j1866225381;
+	j3164771052 [label="Ciao. Volevo solo augurarti buon compleanno. Sono contento di essere qui per questo momento.",shape=box,color=red];
+		j3164771052 -> j3811948477;
+	j1866225381 [label="Buon compleanno. Cerca di impegnarti al massimo per non morire oggi. Rovineresti l'atmosfera.",shape=box,color=red];
+		j1866225381 -> j3909501878;
+	j3811948477 [label="+20 Chemistry",color=orange];
+		j3811948477 -> j4091326689;
+	j3909501878 [label="Senti, so che anche tu hai passato momenti difficili, ma tieniti l'umorismo macabro per un altro momento e luogo.",shape=box,color=blue];
+		j3909501878 -> "Chat ends.";
+	j4091326689 [label="Abbiamo spesso rischiato grosso, non è vero? Grazie per avermi sostenuto, sia oggi che ogni altro giorno dell'anno.",shape=box,color=blue];
+		j4091326689 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

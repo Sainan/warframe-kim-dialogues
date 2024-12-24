@@ -1,0 +1,16 @@
+digraph {
+	"QuincyBirthdayConvo1 begins." [color=orange];
+		"QuincyBirthdayConvo1 begins." -> j724484437;
+		"QuincyBirthdayConvo1 begins." -> j831849325;
+	j724484437 [label="生日快乐，昆西。你看起来一如既往的好。",shape=box,color=red];
+		j724484437 -> j1012724259;
+	j831849325 [label="生日快乐！你感觉到自己老了吗？",shape=box,color=red];
+		j831849325 -> j3154887509;
+	j1012724259 [label="+20 Chemistry",color=orange];
+		j1012724259 -> j2011169132;
+	j3154887509 [label="感觉老了？！你还好意思说，你到底多大，你知道吗？！傻瓜",shape=box,color=blue];
+		j3154887509 -> "Chat ends.";
+	j2011169132 [label="你懂的，哈哈。我也可以这么说你。等等。你到底多大了？！",shape=box,color=blue];
+		j2011169132 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

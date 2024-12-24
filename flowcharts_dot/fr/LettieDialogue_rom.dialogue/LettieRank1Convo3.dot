@@ -1,0 +1,104 @@
+digraph {
+	"LettieRank1Convo3 begins." [color=orange];
+		"LettieRank1Convo3 begins." -> j1848774375;
+	j1848774375 [label="Babas 
+Attention",shape=box,color=blue];
+		j1848774375 -> j2717266411;
+		j1848774375 -> j329148083;
+	j2717266411 [label="C'est un bonjour?",shape=box,color=red];
+		j2717266411 -> j433472998;
+	j329148083 [label="Pas maintenant, pardon. [Fin.]",shape=box,color=red];
+		j329148083 -> "Chat ends.";
+	j433472998 [label="Ouais, ouais, bonjour, *bonsoir* 
+Ou quelle que soit l'heure qu'il est 
+J'ai besoin que tu ailles chercher plus de gaze 
+Je suis à court de matos",shape=box,color=blue];
+		j433472998 -> j2612443493;
+	"Chat ends." [color=orange];
+	j2612443493 [label="Anita est entrée dans une boîte et a tout mâché",shape=box,color=blue];
+		j2612443493 -> j3748039934;
+		j2612443493 -> j780454530;
+	j3748039934 [label="Qui est Anita?",shape=box,color=red];
+		j3748039934 -> j3161124666;
+	j780454530 [label="Je n'ai aucune idée de qui il s'agit, Lettie.",shape=box,color=red];
+		j780454530 -> j3161124666;
+	j3161124666 [label="Lo siento, c'est vrai",shape=box,color=blue];
+		j3161124666 -> j3415150248;
+	j3415150248 [label="+5 Chemistry",color=orange];
+		j3415150248 -> j2659133669;
+	j2659133669 [label="Mon nouveau corazoncito, mon nouveau rat 
+Elle doit encore apprendre à se comporter",shape=box,color=blue];
+		j2659133669 -> j2604450281;
+	j2604450281 [label="Check boolean LettieRatsAsked",color=orange];
+		j2604450281 -> j591269740 [label=true,color=green];
+		j2604450281 -> j812058587 [label=true,color=green];
+		j2604450281 -> j1261883015 [label=false,color=brown];
+		j2604450281 -> j591269740 [label=false,color=brown];
+		j2604450281 -> j812058587 [label=false,color=brown];
+	j591269740 [label="Si j'en vois, j'en prendrai pour toi.",shape=box,color=red];
+		j591269740 -> j3700137738;
+	j812058587 [label="Tu n'as qu'à sortir et récupérer de la gaze, si ton rat l'a mangée.",shape=box,color=red];
+		j812058587 -> j272919411;
+	j1261883015 [label="Par curiosité, pourquoi tu as des rats comme animaux de compagnie?",shape=box,color=red];
+		j1261883015 -> j691136003;
+	j3700137738 [label="+10 Chemistry",color=orange];
+		j3700137738 -> j2768189581;
+	j272919411 [label="Sí, avec tout mon temps libre 
+Entre recoudre l'Hexagone 
+Et tous ces civils",shape=box,color=blue];
+		j272919411 -> j807166870;
+	j691136003 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		j691136003 -> j2587824542;
+	j2768189581 [label="Gracias
+Je t'en dois une 
+Une petite",shape=box,color=blue];
+		j2768189581 -> j3889308430;
+	j807166870 [label="Gracias por nada, babas",shape=box,color=blue];
+		j807166870 -> "Chat ends.";
+	j2587824542 [label="À toi de me le dire",shape=box,color=blue];
+		j2587824542 -> j788572609;
+		j2587824542 -> j3390000257;
+	j3889308430 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j3889308430 -> "Chat ends.";
+	j788572609 [label="Hein?",shape=box,color=red];
+		j788572609 -> j1645746693;
+	j3390000257 [label="J’aime pas la tournure que ça prend. [Fin.]",shape=box,color=red];
+		j3390000257 -> j1922389995;
+	j1645746693 [label="Je veux savoir pourquoi tu penses que j'aime les rats 
+Continue",shape=box,color=blue];
+		j1645746693 -> j4114591031;
+		j1645746693 -> j3247815688;
+		j1645746693 -> j1240950034;
+	j1922389995 [label="Tú te lo pierdes",shape=box,color=blue];
+		j1922389995 -> "Chat ends.";
+	j4114591031 [label="Parce qu’ils sont intelligents, affectueux et joueurs?",shape=box,color=red];
+		j4114591031 -> j2685736996;
+	j3247815688 [label="Parce qu’ils sont souvent négligés et incompris?",shape=box,color=red];
+		j3247815688 -> j2685736996;
+	j1240950034 [label="Lettie? Je ne comprends rien à ton sujet. Mais les rats sont adorables.",shape=box,color=red];
+		j1240950034 -> j1277898370;
+	j2685736996 [label="Ay, Lua, sálvame 
+No",shape=box,color=blue];
+		j2685736996 -> j494544384;
+	j1277898370 [label="¡JAJA!",shape=box,color=blue];
+		j1277898370 -> j670392434;
+	j494544384 [label="On n'avait pas beaucoup d'argent quand j'étais petite
+C'était pas un mauvais quartier, mais
+C'était pas un quartier bourge non plus 
+Les rats étaient faciles à garder, ça ne dérangeait pas mi mamá",shape=box,color=blue];
+		j494544384 -> j3067251040;
+	j670392434 [label="+5 Chemistry",color=orange];
+		j670392434 -> j2275650643;
+	j3067251040 [label="Boolean LettieRats1 is now true.",color=orange];
+		j3067251040 -> j2565773650;
+	j2275650643 [label="L'humilité de notre sauveur 
+J'aime ça",shape=box,color=blue];
+		j2275650643 -> j494544384;
+	j2565773650 [label="Tu veux me trouver ces bandages?",shape=box,color=blue];
+		j2565773650 -> j2860020676;
+		j2565773650 -> j1760248046;
+	j2860020676 [label="Bien sûr, je vais voir ce que je peux faire.",shape=box,color=red];
+		j2860020676 -> j3700137738;
+	j1760248046 [label="Tu peux aller en chercher, c'est ton rat.",shape=box,color=red];
+		j1760248046 -> j272919411;
+}

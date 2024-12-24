@@ -1,0 +1,16 @@
+digraph {
+	"ArthurBirthdayConvo1 begins." [color=orange];
+		"ArthurBirthdayConvo1 begins." -> j2224681583;
+		"ArthurBirthdayConvo1 begins." -> j4149460721;
+	j2224681583 [label="我知道你很忙，但我只想說生日快樂。 : )",shape=box,color=red];
+		j2224681583 -> j2327501679;
+	j4149460721 [label="生日快樂！（你知道「快樂」是什麼，對吧？）",shape=box,color=red];
+		j4149460721 -> j3022570744;
+	j2327501679 [label="+20 Chemistry",color=orange];
+		j2327501679 -> j1382122303;
+	j3022570744 [label="我知道啊。那你知道「有趣」是什麼嗎？",shape=box,color=blue];
+		j3022570744 -> "Chat ends.";
+	j1382122303 [label="夥計，接受生日祝福永遠都嘛有空。謝啦。",shape=box,color=blue];
+		j1382122303 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

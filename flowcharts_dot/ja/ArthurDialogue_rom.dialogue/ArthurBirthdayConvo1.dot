@@ -1,0 +1,16 @@
+digraph {
+	"ArthurBirthdayConvo1 begins." [color=orange];
+		"ArthurBirthdayConvo1 begins." -> j1894249752;
+		"ArthurBirthdayConvo1 begins." -> j2234888654;
+	j1894249752 [label="忙しいのは分かってるけど…　お誕生日おめでとうって伝えたかったんだ。:)",shape=box,color=red];
+		j1894249752 -> j2253281363;
+	j2234888654 [label="ハッピーバースデー！　（「ハッピー」の意味知ってる、よね？）",shape=box,color=red];
+		j2234888654 -> j393502470;
+	j2253281363 [label="+20 Chemistry",color=orange];
+		j2253281363 -> j3770855404;
+	j393502470 [label="知っている。ちなみに「面白い」が何か分かるか？",shape=box,color=blue];
+		j393502470 -> "Chat ends.";
+	j3770855404 [label="お誕生日を祝ってくれるのに忙しすぎるなんてない。ありがとう。",shape=box,color=blue];
+		j3770855404 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

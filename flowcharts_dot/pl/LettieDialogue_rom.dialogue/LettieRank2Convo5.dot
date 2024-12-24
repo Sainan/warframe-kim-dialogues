@@ -1,0 +1,125 @@
+digraph {
+	"LettieRank2Convo5 begins." [color=orange];
+		"LettieRank2Convo5 begins." -> j1381842272;
+		"LettieRank2Convo5 begins." -> j2243821621;
+		"LettieRank2Convo5 begins." -> j55864783;
+	j1381842272 [label="Więc... o co poszło między tobą i Eleanor?",shape=box,color=red];
+		j1381842272 -> j3404651358;
+	j2243821621 [label="Myślę, że musisz trochę odpuścić Eleanor.",shape=box,color=red];
+		j2243821621 -> j1074404330;
+	j55864783 [label="[Ignoruj]",shape=box,color=red];
+		j55864783 -> "Chat ends.";
+	j3404651358 [label="Wszyscy staliśmy się potworami 
+Ale ta bruja cieszy się z tej zmiany 
+Mieszanie w mojej głowie sprawia jej przyjemność
+Widzi za dużo i myśli, że wie wszystko",shape=box,color=blue];
+		j3404651358 -> j1598112922;
+	j1074404330 [label="¿Ay, sí? 
+A dlaczego?
+Czy ta bruja przysłała cię w swoim imieniu?",shape=box,color=blue];
+		j1074404330 -> j4083813829;
+		j1074404330 -> j3083208543;
+	"Chat ends." [color=orange];
+	j1598112922 [label="Nawet jeśli nigdy nie obróci się w Techrot 
+I zostanie jaka już jest
+Ta bruja bawi się za dobrze",shape=box,color=blue];
+		j1598112922 -> j3425550914;
+		j1598112922 -> j197302335;
+	j4083813829 [label="Nie, to moja własna decyzja.",shape=box,color=red];
+		j4083813829 -> j197302335;
+		j4083813829 -> j3425550914;
+	j3083208543 [label="To nie ma znaczenia. Nadal uważam, że powinnaś jej odpuścić.",shape=box,color=red];
+		j3083208543 -> j3735126852;
+	j3425550914 [label="To, że pogodziła się z tym, co się z nią stało, nie czyni jej złą osobą.",shape=box,color=red];
+		j3425550914 -> j2435531396;
+	j197302335 [label="Uważam, że nie jesteś wobec niej sprawiedliwa, Lettie.",shape=box,color=red];
+		j197302335 -> j2681314573;
+	j3735126852 [label="Dlaczego miałabym to zrobić 
+W każdej chwili może zwariować i obrócić się w Techrot
+I nawet jeśli tak się nie stanie, ta bruja bawi się za dobrze
+Wszyscy jesteśmy potworami, ale jej się to PODOBA",shape=box,color=blue];
+		j3735126852 -> j197302335;
+		j3735126852 -> j3425550914;
+	j2435531396 [label="Pogodzić się to jedno 
+Cieszyć się to drugie 
+A ona powinna przestać zachowywać się jak metiche i NIE WŁAZIĆ MI DO GŁOWY",shape=box,color=blue];
+		j2435531396 -> j2119245585;
+		j2435531396 -> j1124237342;
+	j2681314573 [label="¿Ay, sí, verdad? 
+Powiedz mi",shape=box,color=blue];
+		j2681314573 -> j1124237342;
+		j2681314573 -> j2119245585;
+	j2119245585 [label="Jest członkiem drużyny, Lettie. Czy ci się to podoba, czy nie, jesteś z nią związana. Musicie się pogodzić.",shape=box,color=red];
+		j2119245585 -> j3043146023;
+	j1124237342 [label="Straciła głos. Cały czas nasłuchuje myśli innych. Widzi przebłyski rzeczy, których nie rozumie.",shape=box,color=red];
+		j1124237342 -> j3233536216;
+		j1124237342 -> j4124973026;
+	j3043146023 [label="Tak, tak 
+A jak tobie poszło, babas 
+Przebaczyłeś wszystkie grzechy?",shape=box,color=blue];
+		j3043146023 -> j734077835;
+	j3233536216 [label="To ona jest najbliżej związana z Techrotem. Zdajesz sobie sprawę, jak to musi być, słyszeć ich cały czas?",shape=box,color=red];
+		j3233536216 -> j3058681190;
+	j4124973026 [label="A to WY traktujecie ją jak potwora. Masz pojęcie, jak ona musi się z tym czuć?",shape=box,color=red];
+		j4124973026 -> j2463750926;
+	j734077835 [label="Check boolean LettieReligion2",color=orange];
+		j734077835 -> j4197031004 [label=true,color=green];
+		j734077835 -> j1839452989 [label=false,color=brown];
+	j3058681190 [label="W tym właśnie problem 
+Wciąż wkładasz słowa w moje usta, babas",shape=box,color=blue];
+		j3058681190 -> j4212085862;
+	j2463750926 [label="Czy można ją winić, że na takie odrzucenie reaguje buntem, zamiast wstydem?",shape=box,color=red];
+		j2463750926 -> j537851703;
+	j4197031004 [label="Przeciwko twojemu Xipe Totecowi i wszystkiemu, co zdziałała twoja okropna pustka 
+Wmawiasz mi, że nie chowasz urazy 
+Pendejadas",shape=box,color=blue];
+		j4197031004 -> j1693932438;
+		j4197031004 -> j2345164996;
+	j1839452989 [label="Check boolean LettieEntrati",color=orange];
+		j1839452989 -> j37423814 [label=true,color=green];
+		j1839452989 -> j2674008307 [label=false,color=brown];
+	j4212085862 [label="Check boolean LettieReligion2",color=orange];
+		j4212085862 -> j2966926392 [label=true,color=green];
+		j4212085862 -> j191550005 [label=false,color=brown];
+	j537851703 [label="Mierda... 
+Nie chcę jej w swojej głowie, babas 
+Ale kiedy przedstawiasz sprawy w taki sposób... Nie, nie winię jej 
+Też bym tak postąpiła",shape=box,color=blue];
+		j537851703 -> j3920510262;
+	j1693932438 [label="Masz rację, chowam urazę. Nie jestem doskonały. Mówię tylko, że traktujesz ją jak potwora. Dziwisz się, że obrzydzenie spotyka się z buntem?",shape=box,color=red];
+		j1693932438 -> j537851703;
+	j2345164996 [label="Masz rację, chowam urazę. Nie jestem doskonały. Mówię tylko, że to ona jest najbliżej z Techrotem. Zdajesz sobie sprawę, jak to musi być, słyszeć ich cały czas?",shape=box,color=red];
+		j2345164996 -> j3058681190;
+	j37423814 [label="Przeciwko Entratiemu, Orokin, i wszystkiemu, co zrobili
+Wmawiasz mi, że nie chowasz urazy
+Pendejadas",shape=box,color=blue];
+		j37423814 -> j1693932438;
+		j37423814 -> j2345164996;
+	j2674008307 [label="Check boolean LettieDuviri",color=orange];
+		j2674008307 -> j2932763347 [label=true,color=green];
+		j2674008307 -> j239201900 [label=false,color=brown];
+	j2966926392 [label="Pewnego dnia ubiorą jej skórę tak, jak Xipe Totec nosi Major 
+A ciebie nie będzie i nie zdołasz jej uratować",shape=box,color=blue];
+		j2966926392 -> j3228812484;
+	j191550005 [label="Kiedyś ją pochłoną 
+A ciebie nie będzie i nie zdołasz jej uratować",shape=box,color=blue];
+		j191550005 -> j3228812484;
+	j3920510262 [label="+20 Chemistry",color=orange];
+		j3920510262 -> j3166463843;
+	j2932763347 [label="Przeciwko Duviri i całemu bólowi, które to miejsce ci wyrządziło 
+Wmawiasz mi, że nie chowasz urazy",shape=box,color=blue];
+		j2932763347 -> j1693932438;
+		j2932763347 -> j2345164996;
+	j239201900 [label="Twoje życie to ciągły taniec z La Flaca i wmawiasz mi, że nie chowasz urazy 
+Pendejadas",shape=box,color=blue];
+		j239201900 -> j1693932438;
+		j239201900 -> j2345164996;
+	j3228812484 [label="Vete 
+Idź sobie 
+Zmarnowałam na to już za dużo czasu",shape=box,color=blue];
+		j3228812484 -> "Chat ends.";
+	j3166463843 [label="No dobra 
+Niech ta bruja metiche postara się nie wchodzić do mojej głowy 
+A ja... postaram się jej odpuścić, ¿sí?",shape=box,color=blue];
+		j3166463843 -> "Chat ends.";
+}

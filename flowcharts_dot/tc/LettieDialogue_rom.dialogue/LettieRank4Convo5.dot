@@ -1,0 +1,144 @@
+digraph {
+	"LettieRank4Convo5 begins." [color=orange];
+		"LettieRank4Convo5 begins." -> j3508463950;
+	j3508463950 [label="呃，朋友
+你有空嗎？",shape=box,color=blue];
+		j3508463950 -> j486561413;
+		j3508463950 -> j3786595896;
+		j3508463950 -> j2803170413;
+	j486561413 [label="通常你才是超忙的那個。 :)",shape=box,color=red];
+		j486561413 -> j2064372049;
+	j3786595896 [label="是啊，怎麼了？",shape=box,color=red];
+		j3786595896 -> j2746248605;
+	j2803170413 [label="抱歉，我正準備走了。[結束]",shape=box,color=red];
+		j2803170413 -> "Chat ends.";
+	j2064372049 [label="呃，sí, jajaja，我通常是
+只是有個問題
+像你這樣的人
+你會想念家嗎？",shape=box,color=blue];
+		j2064372049 -> j376691686;
+		j2064372049 -> j4089540658;
+		j2064372049 -> j2913039238;
+	j2746248605 [label="只是有個問題
+像你這樣的人
+你會想念家嗎？",shape=box,color=blue];
+		j2746248605 -> j376691686;
+		j2746248605 -> j4089540658;
+		j2746248605 -> j2913039238;
+	"Chat ends." [color=orange];
+	j376691686 [label="我從來沒有真正的家，莉蒂。",shape=box,color=red];
+		j376691686 -> j3440622057;
+	j4089540658 [label="你說的「像我這樣的人」是什麼意思？",shape=box,color=red];
+		j4089540658 -> j79223066;
+	j2913039238 [label="我曾經稱之為「家」的地方，都曾經試圖殺死我。為什麼我要想念它們？",shape=box,color=red];
+		j2913039238 -> j1847471551;
+	j3440622057 [label="+5 Chemistry",color=orange];
+		j3440622057 -> j3793119184;
+	j79223066 [label="一個沒有真正的家的人",shape=box,color=blue];
+		j79223066 -> j4118161812;
+		j79223066 -> j2168982425;
+	j1847471551 [label="因為你可以想要一些從未擁有過的東西
+或者想念那些你看到別人擁有的東西
+我知道我會有這種感覺",shape=box,color=blue];
+		j1847471551 -> j837113463;
+	j3793119184 [label="Sí，我知道
+我也一樣",shape=box,color=blue];
+		j3793119184 -> j837113463;
+	j4118161812 [label="真會讓人難過啊，莉蒂。謝謝。",shape=box,color=red];
+		j4118161812 -> j3998100145;
+	j2168982425 [label="無法想念那些從未擁有過的東西。",shape=box,color=red];
+		j2168982425 -> j1421950412;
+	j837113463 [label="細節不同，但你和我
+我們都沒有真正的家
+從一個地方到另一個地方，從基地到基地
+永遠不會定居，朋友從不會長交
+從不知道六個月、一年、兩年後會在哪裡",shape=box,color=blue];
+		j837113463 -> j1894471540;
+	j3998100145 [label="+5 Chemistry",color=orange];
+		j3998100145 -> j3786161526;
+	j1421950412 [label="不
+那是謊言
+我從小就沒有家，但現在我會想家",shape=box,color=blue];
+		j1421950412 -> j837113463;
+	j1894471540 [label="Boolean LettieNoHome is now true.",color=orange];
+		j1894471540 -> j3327626097;
+	j3786161526 [label="不不不
+我不是這樣的意思
+我說我也一樣",shape=box,color=blue];
+		j3786161526 -> j837113463;
+	j3327626097 [label="Check boolean LettieOrokin",color=orange];
+		j3327626097 -> j2901076977 [label=true,color=green];
+		j3327626097 -> j3452163295 [label=false,color=brown];
+		j3327626097 -> j3306993703 [label=false,color=brown];
+	j2901076977 [label="我唯一曾經擁有的就是我的家人和他們的傳統
+但有時我覺得那些傳統甚至不屬於我
+就像你和那些該死的 Orokin",shape=box,color=blue];
+		j2901076977 -> j4045989105;
+		j2901076977 -> j721124422;
+	j3452163295 [label="至少你還有你的家人，而我什麼都沒有。",shape=box,color=red];
+		j3452163295 -> j1278096215;
+	j3306993703 [label="至少你不是一個人。",shape=box,color=red];
+		j3306993703 -> j1278096215;
+	j4045989105 [label="怎麼了？",shape=box,color=red];
+		j4045989105 -> j547842992;
+	j721124422 [label="你似乎對自己的背景很驕傲，我挺驚訝的。",shape=box,color=red];
+		j721124422 -> j1342673869;
+	j1278096215 [label="+5 Chemistry",color=orange];
+		j1278096215 -> j580101254;
+	j547842992 [label="+5 Chemistry",color=orange];
+		j547842992 -> j1584838662;
+	j1342673869 [label="+5 Chemistry",color=orange];
+		j1342673869 -> j3378379286;
+	j580101254 [label="是的
+你說得對
+你怎麼還沒去舔牆壁呢 jaja 
+我真不知道，我早就失控了",shape=box,color=blue];
+		j580101254 -> j2033610569;
+	j1584838662 [label="Being called slurs because of my skin or how I talk by everybody 
+Too gringa to be Tenochtitlán 
+Too Tenochtitlán to be gringa 
+Ay, equis, I'm babbling",shape=box,color=blue];
+		j1584838662 -> j3462232581;
+	j3378379286 [label="Sí 
+我確實是的，因為我知道沒有人可以把它奪走 
+但我花了很長時間才做到",shape=box,color=blue];
+		j3378379286 -> j1584838662;
+	j2033610569 [label="Maybe I still will 
+Trapped here como un fantasma 
+Ay, equis, I'm babbling",shape=box,color=blue];
+		j2033610569 -> j3462232581;
+	j3462232581 [label="我去想念一個我從未擁有過的地方和事物
+我在想這是不是基因的問題
+某種被我們養育出來的東西
+這太沒道理了",shape=box,color=blue];
+		j3462232581 -> j520206330;
+	j520206330 [label="這就是我問的原因
+看看你是否也有這種感覺
+但你來自未來
+也許到時這一切他們已經修好了",shape=box,color=blue];
+		j520206330 -> j424544596;
+		j520206330 -> j2054448211;
+	j424544596 [label="不，我想我知道你的感覺。我有時會有一陣陣的悲傷，會有一種想去某個不存在的地方的衝動。",shape=box,color=red];
+		j424544596 -> j3180096602;
+	j2054448211 [label="也許吧。我真的不會想家。我有時會感到難過和孤獨，但那不是想家。",shape=box,color=red];
+		j2054448211 -> j2477116462;
+	j3180096602 [label="+10 Chemistry",color=orange];
+		j3180096602 -> j2195463644;
+	j2477116462 [label="+5 Chemistry",color=orange];
+		j2477116462 -> j2943263621;
+	j2195463644 [label="Sí 
+這就是我的意思
+或者也許我們都有一樣的抑鬱情緒 jajaja 
+愚蠢的蜘蛛",shape=box,color=blue];
+		j2195463644 -> j55194301;
+	j2943263621 [label="Sí 
+也許只是我抑鬱的情緒又出現了
+也沒有太驚訝
+愚蠢的蜘蛛",shape=box,color=blue];
+		j2943263621 -> j55194301;
+	j55194301 [label="Ehn, gracias 
+Speaking of spiders, time to put them and me to sleep",shape=box,color=blue];
+		j55194301 -> j168662028;
+	j168662028 [label="Boolean LettieDepression is now true.",color=orange];
+		j168662028 -> "Chat ends.";
+}

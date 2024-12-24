@@ -1,0 +1,16 @@
+digraph {
+	"ArthurBirthdayConvo3 begins." [color=orange];
+		"ArthurBirthdayConvo3 begins." -> j1358025420;
+		"ArthurBirthdayConvo3 begins." -> j3288283681;
+	j1358025420 [label="안녕. 그냥 생일 축하한단 말을 해 주고 싶었어. 내가 네 생일에 살아서 여기 있다는 게 다행이다.",shape=box,color=red];
+		j1358025420 -> j1560420808;
+	j3288283681 [label="생일 축하한다. 생일이니까 안 죽게 한 층 더 노력해 봐. 죽었다간 분위기 망할 거라고.",shape=box,color=red];
+		j3288283681 -> j944395404;
+	j1560420808 [label="+20 Chemistry",color=orange];
+		j1560420808 -> j3825009081;
+	j944395404 [label="어이, 너도 겪은 일이 많다는 건 알지만, 그런 기분 나쁜 유머를 써먹는 데도 때와 장소란 게 있는 거다.",shape=box,color=blue];
+		j944395404 -> "Chat ends.";
+	j3825009081 [label="위험한 순간들도 꽤 있었지, 안 그런가? 늘 나를 지켜 줘서 고맙다, 오늘도, 다른 날들도.",shape=box,color=blue];
+		j3825009081 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

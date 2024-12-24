@@ -1,0 +1,153 @@
+digraph {
+	"LettieRank1Convo2 begins." [color=orange];
+		"LettieRank1Convo2 begins." -> j681996593;
+	j681996593 [label="Check boolean LettieRatsAsked",color=orange];
+		j681996593 -> j2431002669 [label=true,color=green];
+		j681996593 -> j4183656664 [label=false,color=brown];
+		j681996593 -> j2431002669 [label=false,color=brown];
+	j2431002669 [label="Vermisst dich zu Hause jemand?",shape=box,color=red];
+		j2431002669 -> j381704664;
+	j4183656664 [label="Was hat dich dazu veranlasst, Ratten als Haustiere zu halten?",shape=box,color=red];
+		j4183656664 -> j1442152414;
+	j381704664 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		j381704664 -> j1977719106;
+	j1442152414 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		j1442152414 -> j2154717222;
+	j1977719106 [label="Check boolean LettieInteresting",color=orange];
+		j1977719106 -> j1560034835 [label=true,color=green];
+		j1977719106 -> j561157516 [label=false,color=brown];
+	j2154717222 [label="Check boolean LettieInteresting",color=orange];
+		j2154717222 -> j3541969042 [label=true,color=green];
+		j2154717222 -> j1331759818 [label=false,color=brown];
+	j1560034835 [label="Viel bessere Frage 
+Du lernst schnell 
+Aber",shape=box,color=blue];
+		j1560034835 -> j561157516;
+	j561157516 [label="Völlig egal 
+Kann dieses cuchitril nicht verlassen 
+Also wozu über sie nachdenken",shape=box,color=blue];
+		j561157516 -> j1457296711;
+		j561157516 -> j827231253;
+		j561157516 -> j865572741;
+	j3541969042 [label="Ey, siehst du? 
+Viel bessere Frage, babas 
+Du lernst schnell",shape=box,color=blue];
+		j3541969042 -> j1331759818;
+	j1331759818 [label="Sag du es mir",shape=box,color=blue];
+		j1331759818 -> j3023528328;
+		j1331759818 -> j3995386719;
+	j1457296711 [label="Wir reden über das *Internet* und du weißt, dass es *Telefone* gibt, ja?",shape=box,color=red];
+		j1457296711 -> j3768473074;
+	j827231253 [label="Manchmal sind schmerzhafte Erinnerungen, was uns durchbringt.",shape=box,color=red];
+		j827231253 -> j1146155724;
+	j865572741 [label="O ... kay ... [Ende.]",shape=box,color=red];
+		j865572741 -> "Chat ends.";
+	j3023528328 [label="Häh?",shape=box,color=red];
+		j3023528328 -> j1208541938;
+	j3995386719 [label="Ich glaube, mir gefällt diese Richtung nicht. [Ende.]",shape=box,color=red];
+		j3995386719 -> j1922389995;
+	j3768473074 [label="Bien podría ser un pinche fantasma 
+Ruf aus dem Jenseits, kann nichts ändern, nicht leben, nicht sterben",shape=box,color=blue];
+		j3768473074 -> j2688639111;
+	j1146155724 [label="¿Sí? 
+Was weißt du von Schmerz?",shape=box,color=blue];
+		j1146155724 -> j1852690464;
+		j1146155724 -> j867414231;
+	"Chat ends." [color=orange];
+	j1208541938 [label="Ich möchte wissen, warum du glaubst, dass ich Ratten mag 
+Na los",shape=box,color=blue];
+		j1208541938 -> j842727620;
+	j1922389995 [label="Tú te lo pierdes",shape=box,color=blue];
+		j1922389995 -> "Chat ends.";
+	j2688639111 [label="¿¡Was sind wir?! 
+FANTASMAS, nichts weiter 
+Wie Schatten auf einer VHS-Kassette, die zu oft benutzt wurde",shape=box,color=blue];
+		j2688639111 -> j1318727985;
+	j1852690464 [label="Weißt du, wie es sich anfühlt, wenn einem der Kopf abgeschlagen wird? Ich schon. Ich bin tausendmal gestorben. Und es tut *weh*, Lady.",shape=box,color=red];
+		j1852690464 -> j2381342491;
+	j867414231 [label="Ich muss mich dir nicht beweisen, Lady.",shape=box,color=red];
+		j867414231 -> j232316500;
+	j842727620 [label="Boolean LettieRats1 is now true.",color=orange];
+		j842727620 -> j4142632584;
+		j842727620 -> j922422171;
+		j842727620 -> j4033884684;
+	j1318727985 [label="Nein, besser sie denken, ich bin schon tot 
+Ich nehme diesen Schmerz auf mich",shape=box,color=blue];
+		j1318727985 -> j2077944860;
+		j1318727985 -> j2055000516;
+	j2381342491 [label="Boolean LettieDuviri is now true.",color=orange];
+		j2381342491 -> j1383830137;
+	j232316500 [label="Hab dich nicht drum gebeten 
+Ich hab zu tun 
+Vete",shape=box,color=blue];
+		j232316500 -> "Chat ends.";
+	j4142632584 [label="Weil sie intelligent, anhänglich und verspielt sind?",shape=box,color=red];
+		j4142632584 -> j248377142;
+	j922422171 [label="Weil sie oft vernachlässigt und missverstanden werden?",shape=box,color=red];
+		j922422171 -> j248377142;
+	j4033884684 [label="Lettie? Ich verstehe überhaupt nichts über dich. Aber die Ratten sind verdammt niedlich.",shape=box,color=red];
+		j4033884684 -> j4028998366;
+	j2077944860 [label="Das Leben hier ist immer noch lebenswert.",shape=box,color=red];
+		j2077944860 -> j3199864881;
+	j2055000516 [label="Übernimmst du den Schmerz anderer, weil du es willst oder weil es deine Pflicht ist?",shape=box,color=red];
+		j2055000516 -> j2549170492;
+	j1383830137 [label="Berührt von La Flaca 
+Auch ein fantasma, wie der Rest von uns 
+Durchlebt den Tod immer und immer wieder",shape=box,color=blue];
+		j1383830137 -> j1912329483;
+	j248377142 [label="Ay, Lua, sálvame",shape=box,color=blue];
+		j248377142 -> j2731757985;
+	j4028998366 [label="¡JAJAJA!",shape=box,color=blue];
+		j4028998366 -> j2082194440;
+	j3199864881 [label="Klaaar, klaar 
+Mit Amirs Spielen, Arthurs Trinken, Aois Musik und Quincys Photos",shape=box,color=blue];
+		j3199864881 -> j97149296;
+	j2549170492 [label="+20 Chemistry",color=orange];
+		j2549170492 -> j562134427;
+	j1912329483 [label="Sí 
+Hab Familie zu Hause 
+Besser sie denken, ich bin schon tot",shape=box,color=blue];
+		j1912329483 -> j2055000516;
+		j1912329483 -> j2077944860;
+	j2731757985 [label="Nein 
+Möchtest du sonst noch was",shape=box,color=blue];
+		j2731757985 -> j2419093888;
+		j2731757985 -> j217421845;
+	j2082194440 [label="+20 Chemistry",color=orange];
+		j2082194440 -> j214783045;
+	j97149296 [label="Leere Hobbys 
+Leere Seelen 
+Vertreiben sich auf ewig die Zeit",shape=box,color=blue];
+		j97149296 -> j1933948376;
+	j562134427 [label="Beides, denke ich 
+Hab mich dazu vor langer Zeit entschieden 
+Jetzt ist es zu spät zum Umkehren",shape=box,color=blue];
+		j562134427 -> j4185335044;
+	j2419093888 [label="Äh ...",shape=box,color=red];
+		j2419093888 -> j681102954;
+	j217421845 [label="Nein ... vergiss es ...",shape=box,color=red];
+		j217421845 -> j3022833425;
+	j214783045 [label="Demut von unserem Retter 
+Gefällt mir",shape=box,color=blue];
+		j214783045 -> j3172886524;
+	j1933948376 [label="Ich hab zu tun 
+Vete",shape=box,color=blue];
+		j1933948376 -> j2796755127;
+	j4185335044 [label="Ich hab zu tun",shape=box,color=blue];
+		j4185335044 -> j2796755127;
+	j681102954 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		j681102954 -> j3773719023;
+	j3022833425 [label="Va",shape=box,color=blue];
+		j3022833425 -> "Chat ends.";
+	j3172886524 [label="Bin als Kind nicht mit viel Geld aufgewachsen 
+Bin von Basis zu Basis gezogen 
+Ratten waren leicht zu halten, mi mamá hatte nichts dagegen",shape=box,color=blue];
+		j3172886524 -> j3323041229;
+	j2796755127 [label="Boolean LettieFantasma1 is now true.",color=orange];
+		j2796755127 -> "Chat ends.";
+	j3773719023 [label="Vermisst dich zu Hause jemand?",shape=box,color=red];
+		j3773719023 -> j561157516;
+	j3323041229 [label="Muss wieder an die Arbeit 
+Bis später, babas",shape=box,color=blue];
+		j3323041229 -> "Chat ends.";
+}

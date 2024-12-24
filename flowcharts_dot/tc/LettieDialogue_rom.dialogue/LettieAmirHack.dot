@@ -1,0 +1,40 @@
+digraph {
+	"LettieAmirHack begins." [color=orange];
+		"LettieAmirHack begins." -> j2747582127;
+	j2747582127 [label="（西語）我要殺了那個臭小子",shape=box,color=blue];
+		j2747582127 -> j1215723834;
+		j2747582127 -> j1143631184;
+	j1215723834 [label="我覺得你現在很生氣……",shape=box,color=red];
+		j1215723834 -> j2433544390;
+	j1143631184 [label="嗯……你沒收到花生醬嗎……？",shape=box,color=red];
+		j1143631184 -> j2433544390;
+	j2433544390 [label="我該怎麼做
+500 箱番茄醬包
+（西語）告訴那個小子快來這裡！
+讓他親自來處理
+現在！！",shape=box,color=blue];
+		j2433544390 -> j3295691007;
+		j2433544390 -> j259740180;
+	j3295691007 [label="嘿，這都是個誤會。阿米爾是想給你的老鼠送花生醬的。",shape=box,color=red];
+		j3295691007 -> j2131745563;
+	j259740180 [label="這全都是個誤會。他只是想給你送份禮物。",shape=box,color=red];
+		j259740180 -> j3080681592;
+	j2131745563 [label="但是一切都搞砸了，我會幫他處理的。",shape=box,color=red];
+		j2131745563 -> j504525015;
+	j3080681592 [label="我不管
+（西語）¡¡把它拿走！！
+¡¡現在！！",shape=box,color=blue];
+		j3080681592 -> "Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue";
+	j504525015 [label="+20 Chemistry",color=orange];
+		j504525015 -> j734887031;
+	"Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue" [label="Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue",color=orange];
+		"Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue" -> "Chat ends.";
+	j734887031 [label="¿是嗎？
+是給我的小可愛們的嗎？",shape=box,color=blue];
+		j734887031 -> j4177202952;
+	"Chat ends." [color=orange];
+	j4177202952 [label="（西語）¡唉，算了！
+把這一切都拿走吧
+¡¡現在！！",shape=box,color=blue];
+		j4177202952 -> "Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue";
+}

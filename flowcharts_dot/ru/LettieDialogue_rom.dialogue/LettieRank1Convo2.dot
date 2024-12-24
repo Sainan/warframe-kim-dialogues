@@ -1,0 +1,153 @@
+digraph {
+	"LettieRank1Convo2 begins." [color=orange];
+		"LettieRank1Convo2 begins." -> j681996593;
+	j681996593 [label="Check boolean LettieRatsAsked",color=orange];
+		j681996593 -> j4034745430 [label=true,color=green];
+		j681996593 -> j1788458260 [label=false,color=brown];
+		j681996593 -> j4034745430 [label=false,color=brown];
+	j4034745430 [label="Кто-то дома скучает по тебе?",shape=box,color=red];
+		j4034745430 -> j381704664;
+	j1788458260 [label="Что заставило тебя захотеть держать крыс в качестве питомцев?",shape=box,color=red];
+		j1788458260 -> j1442152414;
+	j381704664 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		j381704664 -> j1977719106;
+	j1442152414 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		j1442152414 -> j2154717222;
+	j1977719106 [label="Check boolean LettieInteresting",color=orange];
+		j1977719106 -> j1310542989 [label=true,color=green];
+		j1977719106 -> j2911367264 [label=false,color=brown];
+	j2154717222 [label="Check boolean LettieInteresting",color=orange];
+		j2154717222 -> j132723695 [label=true,color=green];
+		j2154717222 -> j2482443813 [label=false,color=brown];
+	j1310542989 [label="Этот вопрос гораздо лучше 
+Быстро учишься 
+Однако",shape=box,color=blue];
+		j1310542989 -> j2911367264;
+	j2911367264 [label="Неважно 
+Не могу выбраться из этой конуры 
+Так зачем о них думать",shape=box,color=blue];
+		j2911367264 -> j1373544256;
+		j2911367264 -> j3865828713;
+		j2911367264 -> j4047977709;
+	j132723695 [label="Эй, видишь? 
+Этот вопрос звучит гораздо лучше, babas
+Быстро учишься",shape=box,color=blue];
+		j132723695 -> j2482443813;
+	j2482443813 [label="Ты скажи мне",shape=box,color=blue];
+		j2482443813 -> j1335179339;
+		j2482443813 -> j180479157;
+	j1373544256 [label="Мы общаемся в *интернете*, и ты же знаешь, что *телефон* существует, да?",shape=box,color=red];
+		j1373544256 -> j1470786287;
+	j3865828713 [label="Иногда болезненные воспоминания - единственное, что нас держит.",shape=box,color=red];
+		j3865828713 -> j1162555610;
+	j4047977709 [label="О...ладно... [Завершить]",shape=box,color=red];
+		j4047977709 -> "Chat ends.";
+	j1335179339 [label="Что?",shape=box,color=red];
+		j1335179339 -> j3559652763;
+	j180479157 [label="Мне не нравится, куда это всё идёт [Завершить]",shape=box,color=red];
+		j180479157 -> j1922389995;
+	j1470786287 [label="Bien podría ser un pinche fantasma 
+Зов из могилы нельзя изменить, он не может выжить, не может умереть",shape=box,color=blue];
+		j1470786287 -> j3029142694;
+	j1162555610 [label="¿Sí? 
+Что ты знаешь о боли?",shape=box,color=blue];
+		j1162555610 -> j3816144496;
+		j1162555610 -> j1352007098;
+	"Chat ends." [color=orange];
+	j3559652763 [label="Я хочу знать, почему ты думаешь, что мне нравятся крысы 
+Продолжай",shape=box,color=blue];
+		j3559652763 -> j842727620;
+	j1922389995 [label="Tú te lo pierdes",shape=box,color=blue];
+		j1922389995 -> "Chat ends.";
+	j3029142694 [label="¿¡Что мы такое?! 
+FANTASMAS и ничего больше 
+Как тени на видеокассете, которую слишком часто использовали",shape=box,color=blue];
+		j3029142694 -> j2353349734;
+	j3816144496 [label="Ты знаешь, каково это — когда тебе отрубают голову? Я знаю. Мне пришлось умереть тысячу раз. И это *больно*, леди.",shape=box,color=red];
+		j3816144496 -> j3159469889;
+	j1352007098 [label="Мне не нужно доказывать тебе что-то, леди.",shape=box,color=red];
+		j1352007098 -> j1801494261;
+	j842727620 [label="Boolean LettieRats1 is now true.",color=orange];
+		j842727620 -> j4191082296;
+		j842727620 -> j305481679;
+		j842727620 -> j1716187565;
+	j2353349734 [label="Нет, лучше пусть думают, что я уже мертва 
+Я беру эту боль на себя ради них",shape=box,color=blue];
+		j2353349734 -> j361857731;
+		j2353349734 -> j1658432222;
+	j3159469889 [label="Boolean LettieDuviri is now true.",color=orange];
+		j3159469889 -> j1706020923;
+	j1801494261 [label="Я не просила тебя об этом 
+Я занята 
+Vete",shape=box,color=blue];
+		j1801494261 -> "Chat ends.";
+	j4191082296 [label="Потому что они умные, ласковые и игривые?",shape=box,color=red];
+		j4191082296 -> j3313327957;
+	j305481679 [label="Потому что их часто игнорируют и не понимают?",shape=box,color=red];
+		j305481679 -> j3313327957;
+	j1716187565 [label="Лэтти? Я не понимаю в тебе ни черта. Но крысы ужасно милые.",shape=box,color=red];
+		j1716187565 -> j3697829849;
+	j361857731 [label="Здесь всё ещё есть ради чего жить.",shape=box,color=red];
+		j361857731 -> j189528819;
+	j1658432222 [label="Ты принимаешь на себя боль других людей по собственному выбору или из-за долга?",shape=box,color=red];
+		j1658432222 -> j3877728402;
+	j1706020923 [label="Тронутая La Flaca 
+Очередным fantasma, как и мы все 
+Заново переживающая свою смерть снова и снова",shape=box,color=blue];
+		j1706020923 -> j3976148733;
+	j3313327957 [label="Эй, Луа, sálvame",shape=box,color=blue];
+		j3313327957 -> j2980579929;
+	j3697829849 [label="¡JAJAJA!",shape=box,color=blue];
+		j3697829849 -> j3957805290;
+	j189528819 [label="Конечно, конечно 
+С играми Амира, выпивкой Артура, музыкой Аои и фотографиями Куинси",shape=box,color=blue];
+		j189528819 -> j2517822826;
+	j3877728402 [label="+20 Chemistry",color=orange];
+		j3877728402 -> j31098440;
+	j3976148733 [label="Sí 
+Дома есть семья 
+Лучше пусть думают, что я уже мертва",shape=box,color=blue];
+		j3976148733 -> j1658432222;
+		j3976148733 -> j361857731;
+	j2980579929 [label="Нет
+Что-нибудь ещё",shape=box,color=blue];
+		j2980579929 -> j428712517;
+		j2980579929 -> j3855705130;
+	j3957805290 [label="+20 Chemistry",color=orange];
+		j3957805290 -> j1227412268;
+	j2517822826 [label="Пустые увлечения 
+Пустые души 
+Сквозь вечность просто проходит время",shape=box,color=blue];
+		j2517822826 -> j2837796678;
+	j31098440 [label="И то, и другое, полагаю 
+Я выбрала это давно 
+Теперь слишком поздно возвращаться",shape=box,color=blue];
+		j31098440 -> j3311918169;
+	j428712517 [label="Эм...",shape=box,color=red];
+		j428712517 -> j858946350;
+	j3855705130 [label="Нет... забудь об этом...",shape=box,color=red];
+		j3855705130 -> j3022833425;
+	j1227412268 [label="Смирение от нашего спасителя
+Мне нравится",shape=box,color=blue];
+		j1227412268 -> j1234927236;
+	j2837796678 [label="Мне нужно работать 
+Проваливай",shape=box,color=blue];
+		j2837796678 -> j2796755127;
+	j3311918169 [label="Мне нужно работать",shape=box,color=blue];
+		j3311918169 -> j2796755127;
+	j858946350 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		j858946350 -> j2034810546;
+	j3022833425 [label="Va",shape=box,color=blue];
+		j3022833425 -> "Chat ends.";
+	j1234927236 [label="Не росла с большими деньгами в детстве
+Перебираясь с базы на базу
+Крыс было легко держать, а маме было всё равно",shape=box,color=blue];
+		j1234927236 -> j2687706438;
+	j2796755127 [label="Boolean LettieFantasma1 is now true.",color=orange];
+		j2796755127 -> "Chat ends.";
+	j2034810546 [label="Кто-то дома скучает по тебе?",shape=box,color=red];
+		j2034810546 -> j2911367264;
+	j2687706438 [label="Мне нужно вернуться к работе 
+Увидимся, babas",shape=box,color=blue];
+		j2687706438 -> "Chat ends.";
+}

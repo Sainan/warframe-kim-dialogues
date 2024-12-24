@@ -1,0 +1,74 @@
+digraph {
+	"LettieRank2Convo4 begins." [color=orange];
+		"LettieRank2Convo4 begins." -> j3639082738;
+	j3639082738 [label="Check boolean LettieSmallFavor",color=orange];
+		j3639082738 -> j970118799 [label=true,color=green];
+		j3639082738 -> j4168307189 [label=false,color=brown];
+	j970118799 [label="Hej, babas 
+Muszę poprosić cię o kolejną, małą przysługę",shape=box,color=blue];
+		j970118799 -> j3173009244;
+		j970118799 -> j923293500;
+		j970118799 -> j3036769302;
+	j4168307189 [label="Hej, babas 
+Muszę poprosić cię o małą przysługę",shape=box,color=blue];
+		j4168307189 -> j3036769302;
+		j4168307189 -> j923293500;
+		j4168307189 -> j3173009244;
+	j3173009244 [label="Pewnie, o co chodzi?",shape=box,color=red];
+		j3173009244 -> j427012561;
+	j923293500 [label="Pamiętasz, że nie jestem twoim sługusem, nie?",shape=box,color=red];
+		j923293500 -> j938078314;
+	j3036769302 [label="Sama się tym zajmij. [Koniec]",shape=box,color=red];
+		j3036769302 -> "Chat ends.";
+	j427012561 [label="+10 Chemistry",color=orange];
+		j427012561 -> j1321345141;
+	j938078314 [label="Sí 
+Jestem pewna, że mogłabym sprawić, żebyś błagał o smakołyki 
+Ale pewnie jesteś na to za miękki",shape=box,color=blue];
+		j938078314 -> j3519079423;
+		j938078314 -> j85135057;
+	"Chat ends." [color=orange];
+	j1321345141 [label="Bueno",shape=box,color=blue];
+		j1321345141 -> j439972904;
+	j3519079423 [label="Grozisz mi, czy mnie podrywasz?",shape=box,color=red];
+		j3519079423 -> j1505032506;
+	j85135057 [label="Dajesz.",shape=box,color=red];
+		j85135057 -> j3741666423;
+	j439972904 [label="Mam za dużo na głowie, żeby bawić się w gierki
+Ci cywile łapią kule szybciej, niż Amir zbiera komputery",shape=box,color=blue];
+		j439972904 -> j3476287736;
+	j1505032506 [label="+10 Chemistry",color=orange];
+		j1505032506 -> j755115326;
+	j3741666423 [label="+10 Chemistry",color=orange];
+		j3741666423 -> j4093203982;
+	j3476287736 [label="Ale do rzeczy, apteczki 
+Potrzebuję więcej 
+Znajdź je, kup je, bez różnicy
+Potrzebuję ich 
+Te lo agradecería mucho",shape=box,color=blue];
+		j3476287736 -> j1478850667;
+		j3476287736 -> j281980036;
+		j3476287736 -> j740688580;
+	j755115326 [label="¿Por qué no ambos? 
+Nie przeszkadzaj mi, babas",shape=box,color=blue];
+		j755115326 -> j439972904;
+	j4093203982 [label="Cuidadito, babas 
+Nie przeszkadzaj mi",shape=box,color=blue];
+		j4093203982 -> j439972904;
+	j1478850667 [label="Już się za to biorę.",shape=box,color=red];
+		j1478850667 -> j1350425999;
+	j281980036 [label="Niczego nie obiecuję.",shape=box,color=red];
+		j281980036 -> j2959704405;
+	j740688580 [label="Sama je znajdź.",shape=box,color=red];
+		j740688580 -> "Chat ends.";
+	j1350425999 [label="+10 Chemistry",color=orange];
+		j1350425999 -> j2922128226;
+	j2959704405 [label="+10 Chemistry",color=orange];
+		j2959704405 -> j839474228;
+	j2922128226 [label="Gracias",shape=box,color=blue];
+		j2922128226 -> j3889308430;
+	j839474228 [label="Nie śmiem prosić",shape=box,color=blue];
+		j839474228 -> j3889308430;
+	j3889308430 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j3889308430 -> "Chat ends.";
+}

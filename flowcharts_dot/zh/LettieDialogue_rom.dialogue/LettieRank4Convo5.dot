@@ -1,0 +1,144 @@
+digraph {
+	"LettieRank4Convo5 begins." [color=orange];
+		"LettieRank4Convo5 begins." -> j2974370999;
+	j2974370999 [label="哎，朋友 
+你有空吗？",shape=box,color=blue];
+		j2974370999 -> j2192505935;
+		j2974370999 -> j3923983148;
+		j2974370999 -> j932598759;
+	j2192505935 [label="通常你才是那个超级忙的人。:)",shape=box,color=red];
+		j2192505935 -> j807472502;
+	j3923983148 [label="嗯，怎么了？",shape=box,color=red];
+		j3923983148 -> j1725621082;
+	j932598759 [label="抱歉，我马上要走了。[结束]",shape=box,color=red];
+		j932598759 -> "Chat ends.";
+	j807472502 [label="Ay，sí，jajaja，通常是我
+只是有个问题 
+像你这样的人 
+你会想家吗？",shape=box,color=blue];
+		j807472502 -> j2208516267;
+		j807472502 -> j4213436273;
+		j807472502 -> j2627412486;
+	j1725621082 [label="只是有个问题 
+像你这样的人 
+你会想家吗？",shape=box,color=blue];
+		j1725621082 -> j2208516267;
+		j1725621082 -> j4213436273;
+		j1725621082 -> j2627412486;
+	"Chat ends." [color=orange];
+	j2208516267 [label="莱蒂，我从来没有有过真正的家。",shape=box,color=red];
+		j2208516267 -> j877181443;
+	j4213436273 [label="你说的“像我这样的人”是什么意思？",shape=box,color=red];
+		j4213436273 -> j2343066326;
+	j2627412486 [label="我唯一能称之为“家”的地方却试图杀死我。我为什么要想念它们呢？",shape=box,color=red];
+		j2627412486 -> j2168932233;
+	j877181443 [label="+5 Chemistry",color=orange];
+		j877181443 -> j3068740043;
+	j2343066326 [label="没有真正家的人",shape=box,color=blue];
+		j2343066326 -> j966118370;
+		j2343066326 -> j2248556739;
+	j2168932233 [label="因为你可能想要一些你从未拥有过的东西 
+或者惦念着你看到别人拥有的东西 
+我知道我会的",shape=box,color=blue];
+		j2168932233 -> j3107989336;
+	j3068740043 [label="Sí，我知道 
+我也一样",shape=box,color=blue];
+		j3068740043 -> j3107989336;
+	j966118370 [label="真会说话，莱蒂，谢了。",shape=box,color=red];
+		j966118370 -> j3592630641;
+	j2248556739 [label="从没拥有过的东西，怎么可能会想念呢。",shape=box,color=red];
+		j2248556739 -> j3266061595;
+	j3107989336 [label="细节不同，但你和我 
+我们都没有真正的家 
+从一个地方搬到另一个地方，从一个基地搬到另一个基地 
+从不安定下来，从不与人维持长久的友谊 
+永远不知道六个月、一年、两年后自己会在哪里",shape=box,color=blue];
+		j3107989336 -> j1894471540;
+	j3592630641 [label="+5 Chemistry",color=orange];
+		j3592630641 -> j3371512814;
+	j3266061595 [label="不 
+那是假的 
+我从小就没有家，我还是会想家",shape=box,color=blue];
+		j3266061595 -> j3107989336;
+	j1894471540 [label="Boolean LettieNoHome is now true.",color=orange];
+		j1894471540 -> j3327626097;
+	j3371512814 [label="不不不 
+我不是那个意思 
+我也是一样的",shape=box,color=blue];
+		j3371512814 -> j3107989336;
+	j3327626097 [label="Check boolean LettieOrokin",color=orange];
+		j3327626097 -> j4205470420 [label=true,color=green];
+		j3327626097 -> j1014233742 [label=false,color=brown];
+		j3327626097 -> j3317057273 [label=false,color=brown];
+	j4205470420 [label="我唯一拥有的只有我的家人和他们的传统 
+但有时我觉得他们甚至不属于我 
+就像你和那些可恶的 orokin 人一样",shape=box,color=blue];
+		j4205470420 -> j3007662181;
+		j4205470420 -> j2720485965;
+	j1014233742 [label="但至少你还有你的家人。我甚至连这个都没有。",shape=box,color=red];
+		j1014233742 -> j3220839477;
+	j3317057273 [label="至少你不是一个人。",shape=box,color=red];
+		j3317057273 -> j3220839477;
+	j3007662181 [label="怎么说？",shape=box,color=red];
+		j3007662181 -> j1979013195;
+	j2720485965 [label="你看起来对你的背景非常自豪，我很意外。",shape=box,color=red];
+		j2720485965 -> j4034346044;
+	j3220839477 [label="+5 Chemistry",color=orange];
+		j3220839477 -> j2507510826;
+	j1979013195 [label="+5 Chemistry",color=orange];
+		j1979013195 -> j3028186782;
+	j4034346044 [label="+5 Chemistry",color=orange];
+		j4034346044 -> j1926282623;
+	j2507510826 [label="Sí 
+你说得对 
+你居然没去舔墙纸，jaja 
+我真搞不懂，要是是我我早就疯掉了",shape=box,color=blue];
+		j2507510826 -> j668379018;
+	j3028186782 [label="我因为我的肤色和口音，总是被人歧视 
+对特诺奇蒂特兰人来说，我太像个 gringa 人 
+对 gringa 人来说，我又太特诺奇提特兰人 
+哎，equis，我就随口说说",shape=box,color=blue];
+		j3028186782 -> j2800440644;
+	j1926282623 [label="Sí 
+我自豪是因为我明白了没有人能够从我这里夺走它 
+我花了很长时间才明白这一点",shape=box,color=blue];
+		j1926282623 -> j3028186782;
+	j668379018 [label="也许以后还是会疯掉 
+像个 fantasma 一样被困在这里 
+哎，equis，我乱说的",shape=box,color=blue];
+		j668379018 -> j2800440644;
+	j2800440644 [label="我在怀念一个我从未拥有过的地方和事物 
+我在想，这会不会是遗传的 
+某种在我们内心深处的东西 
+但却完全没有道理",shape=box,color=blue];
+		j2800440644 -> j2919162391;
+	j2919162391 [label="所以我才问这个问题 
+看看你是否也有这种感觉 
+但你来自未来 
+说不定到那时他们已经解决了这个问题",shape=box,color=blue];
+		j2919162391 -> j243667468;
+		j2919162391 -> j741293220;
+	j243667468 [label="不，我想我理解你的感受。我……会有时会突然感到悲伤，想去一个根本不存在的地方。",shape=box,color=red];
+		j243667468 -> j2908300770;
+	j741293220 [label="也许吧。我真的不想家。我有时会感到悲伤和孤独，但这不是想家。",shape=box,color=red];
+		j741293220 -> j2405860946;
+	j2908300770 [label="+10 Chemistry",color=orange];
+		j2908300770 -> j1711490035;
+	j2405860946 [label="+5 Chemistry",color=orange];
+		j2405860946 -> j3125434617;
+	j1711490035 [label="Sí 
+这正是我的意思 
+或许我们两个都有同样类型的抑郁症 jajaja 
+愚蠢的蜘蛛",shape=box,color=blue];
+		j1711490035 -> j1410407483;
+	j3125434617 [label="Sí 
+也许只是我的抑郁症又冒头了 
+早就见怪不怪了 
+愚蠢的蜘蛛",shape=box,color=blue];
+		j3125434617 -> j1410407483;
+	j1410407483 [label="嗯，gracias 
+说到蜘蛛，是时候让它们和我一起去睡觉了",shape=box,color=blue];
+		j1410407483 -> j168662028;
+	j168662028 [label="Boolean LettieDepression is now true.",color=orange];
+		j168662028 -> "Chat ends.";
+}

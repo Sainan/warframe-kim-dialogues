@@ -1,0 +1,16 @@
+digraph {
+	"AmirBirthdayConvo1 begins." [color=orange];
+		"AmirBirthdayConvo1 begins." -> j1663303309;
+		"AmirBirthdayConvo1 begins." -> j1359725271;
+	j1663303309 [label="阿米爾！你成功繞完太陽又一圈了！恭喜！",shape=box,color=red];
+		j1663303309 -> j4259200333;
+	j1359725271 [label="今天是你生日，阿米爾！也許是再成長一點的好時機？",shape=box,color=red];
+		j1359725271 -> j593342407;
+	j4259200333 [label="+20 Chemistry",color=orange];
+		j4259200333 -> j836109137;
+	j593342407 [label="唉！我簡直不敢相信你居然把這種對話留在我內心小孩可以看到的地方！難道沒有人關心小孩了嗎？",shape=box,color=blue];
+		j593342407 -> "Chat ends.";
+	j836109137 [label="哦，哪有！謝謝，但這沒什麼！這個星球付出了最大努力，我只是順路而行",shape=box,color=blue];
+		j836109137 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

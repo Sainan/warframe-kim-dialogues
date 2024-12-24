@@ -1,0 +1,153 @@
+digraph {
+	"LettieRank1Convo2 begins." [color=orange];
+		"LettieRank1Convo2 begins." -> j681996593;
+	j681996593 [label="Check boolean LettieRatsAsked",color=orange];
+		j681996593 -> j2773512631 [label=true,color=green];
+		j681996593 -> j1775177370 [label=false,color=brown];
+		j681996593 -> j2773512631 [label=false,color=brown];
+	j2773512631 [label="家里有人想你吗？",shape=box,color=red];
+		j2773512631 -> j381704664;
+	j1775177370 [label="所以是什么让你想养小鼠当宠物的？",shape=box,color=red];
+		j1775177370 -> j1442152414;
+	j381704664 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		j381704664 -> j1977719106;
+	j1442152414 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		j1442152414 -> j2154717222;
+	j1977719106 [label="Check boolean LettieInteresting",color=orange];
+		j1977719106 -> j2953565211 [label=true,color=green];
+		j1977719106 -> j1596735028 [label=false,color=brown];
+	j2154717222 [label="Check boolean LettieInteresting",color=orange];
+		j2154717222 -> j1706478255 [label=true,color=green];
+		j2154717222 -> j2052568832 [label=false,color=brown];
+	j2953565211 [label="这问题问得好多了 
+你学得挺快的 
+但是",shape=box,color=blue];
+		j2953565211 -> j1596735028;
+	j1596735028 [label="这并不重要 
+又离不开这个 cuchitril
+所以何必想他们呢",shape=box,color=blue];
+		j1596735028 -> j1479142081;
+		j1596735028 -> j71145522;
+		j1596735028 -> j413552375;
+	j1706478255 [label="哎，看吧？
+这个问题问得好多了，babas
+你学得真快",shape=box,color=blue];
+		j1706478255 -> j2052568832;
+	j2052568832 [label="你来告诉我",shape=box,color=blue];
+		j2052568832 -> j2378642680;
+		j2052568832 -> j547317887;
+	j1479142081 [label="我们是在*网上*聊天，你知道*电话*这东西，对吧？",shape=box,color=red];
+		j1479142081 -> j1683136068;
+	j71145522 [label="有时候，正是痛苦的记忆才能帮助我们挺过难关。",shape=box,color=red];
+		j71145522 -> j2176540170;
+	j413552375 [label="好……吧…… [结束]",shape=box,color=red];
+		j413552375 -> "Chat ends.";
+	j2378642680 [label="啊？",shape=box,color=red];
+		j2378642680 -> j4031451883;
+	j547317887 [label="我想我不喜欢这个话题的走向。[结束]",shape=box,color=red];
+		j547317887 -> j1922389995;
+	j1683136068 [label="Bien podría ser un pinche fantasma 
+阴间打来电话，无法改变，无法生活，也无法死亡",shape=box,color=blue];
+		j1683136068 -> j4185260719;
+	j2176540170 [label="¿Sí? 
+你懂什么是痛苦？",shape=box,color=blue];
+		j2176540170 -> j1049268526;
+		j2176540170 -> j3244254615;
+	"Chat ends." [color=orange];
+	j4031451883 [label="我想知道你为什么认为我喜欢小鼠 
+继续说",shape=box,color=blue];
+		j4031451883 -> j842727620;
+	j1922389995 [label="Tú te lo pierdes",shape=box,color=blue];
+		j1922389995 -> "Chat ends.";
+	j4185260719 [label="我们究竟是什么？！ 
+FANTASMAS 而已
+像是一盘被用烂了的录像带上的影子",shape=box,color=blue];
+		j4185260719 -> j1920193881;
+	j1049268526 [label="你知道被砍头是什么感觉吗？我知道。我已经死了无数次了。而且*很痛*，女士。",shape=box,color=red];
+		j1049268526 -> j1471531438;
+	j3244254615 [label="女士，我不需要向你证明什么。",shape=box,color=red];
+		j3244254615 -> j310546991;
+	j842727620 [label="Boolean LettieRats1 is now true.",color=orange];
+		j842727620 -> j397755980;
+		j842727620 -> j4186484061;
+		j842727620 -> j3712343165;
+	j1920193881 [label="不，最好让他们以为我已经死了 
+我为他们承受这份痛苦",shape=box,color=blue];
+		j1920193881 -> j4162189150;
+		j1920193881 -> j1542357119;
+	j1471531438 [label="Boolean LettieDuviri is now true.",color=orange];
+		j1471531438 -> j276627827;
+	j310546991 [label="我也没让你证明 
+我很忙 
+Vete",shape=box,color=blue];
+		j310546991 -> "Chat ends.";
+	j397755980 [label="因为它们聪明、亲人，还很好玩？",shape=box,color=red];
+		j397755980 -> j4064588093;
+	j4186484061 [label="因为它们经常被忽视和误解？",shape=box,color=red];
+		j4186484061 -> j4064588093;
+	j3712343165 [label="莱蒂？我真的一点也不了解你。不过那些小鼠真是可爱极了。",shape=box,color=red];
+		j3712343165 -> j3319538256;
+	j4162189150 [label="这里仍然有值得过下去的生活。",shape=box,color=red];
+		j4162189150 -> j208606047;
+	j1542357119 [label="你是自愿为别人承受痛苦，还是因为这是你的责任？",shape=box,color=red];
+		j1542357119 -> j2020253687;
+	j276627827 [label="被 La Flaca 触碰后 
+又一个像我们一样的 fantasma 
+一次又一次地重温他们的死亡",shape=box,color=blue];
+		j276627827 -> j679442712;
+	j4064588093 [label="哎呀，苍天啊，sálvame",shape=box,color=blue];
+		j4064588093 -> j805710553;
+	j3319538256 [label="¡JAJAJA!",shape=box,color=blue];
+		j3319538256 -> j1157090480;
+	j208606047 [label="当然，当然 
+有阿米尔的游戏、亚瑟的酗酒、碧的音乐和昆西的摄影",shape=box,color=blue];
+		j208606047 -> j348570128;
+	j2020253687 [label="+20 Chemistry",color=orange];
+		j2020253687 -> j4139748844;
+	j679442712 [label="Sí 
+家里还有家人 
+还是让他们以为我已经死了比较好",shape=box,color=blue];
+		j679442712 -> j1542357119;
+		j679442712 -> j4162189150;
+	j805710553 [label="不对 
+你还有别的想问的吗",shape=box,color=blue];
+		j805710553 -> j1559617502;
+		j805710553 -> j2105116642;
+	j1157090480 [label="+20 Chemistry",color=orange];
+		j1157090480 -> j798533179;
+	j348570128 [label="空洞的爱好 
+空洞的灵魂 
+在永恒中消磨时间",shape=box,color=blue];
+		j348570128 -> j211840495;
+	j4139748844 [label="两者都有吧 
+我很久以前就做出了选择 
+现在回头已经太晚了",shape=box,color=blue];
+		j4139748844 -> j2583372957;
+	j1559617502 [label="呃……",shape=box,color=red];
+		j1559617502 -> j676367924;
+	j2105116642 [label="没有……算了……",shape=box,color=red];
+		j2105116642 -> j3022833425;
+	j798533179 [label="来自我们救世主的谦逊 
+我喜欢",shape=box,color=blue];
+		j798533179 -> j866204874;
+	j211840495 [label="我还有事情要做 
+Vete",shape=box,color=blue];
+		j211840495 -> j2796755127;
+	j2583372957 [label="我还有事情要做",shape=box,color=blue];
+		j2583372957 -> j2796755127;
+	j676367924 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		j676367924 -> j4109823689;
+	j3022833425 [label="Va",shape=box,color=blue];
+		j3022833425 -> "Chat ends.";
+	j866204874 [label="小时候家里没多少钱 
+一直在各个基地之间搬家 
+小鼠很容易养，我妈妈也不介意",shape=box,color=blue];
+		j866204874 -> j1169875843;
+	j2796755127 [label="Boolean LettieFantasma1 is now true.",color=orange];
+		j2796755127 -> "Chat ends.";
+	j4109823689 [label="家里有人想你吗？",shape=box,color=red];
+		j4109823689 -> j1596735028;
+	j1169875843 [label="我得回去工作了 
+再见，babas",shape=box,color=blue];
+		j1169875843 -> "Chat ends.";
+}
