@@ -66,18 +66,18 @@ local function get_node_name(node)
 	if node.type == "/EE/Types/Engine/EndDialogueNode" or node.type == "/EE/Types/Engine/SpecialCompletionDialogueNode" or node.type == "/EE/Types/Engine/StartDialogueNode" then
 		return '"'..get_node_label(node)..'"'
 	end
-	if node.type ~= "/EE/Types/Engine/PlayerChoiceDialogueNode" then
-		local hash = joaat(get_node_label(node), 0)
-		local n = node
-		while #n.choices == 1 do
-			n = nodes[1 + n.choices[1]]
-			hash = joaat(get_node_label(n), hash)
-			if n.type == "/EE/Types/Engine/EndDialogueNode" then
-				-- This node goes straight to the end.
-				return "j"..tostring(hash)
-			end
+
+	local hash = joaat(get_node_label(node), 0)
+	local n = node
+	while #n.choices == 1 do
+		n = nodes[1 + n.choices[1]]
+		hash = joaat(get_node_label(n), hash)
+		if n.type == "/EE/Types/Engine/EndDialogueNode" then
+			-- This node goes straight to the end.
+			return "j"..tostring(hash)
 		end
 	end
+
 	return tostring(node.id)
 end
 

@@ -30,15 +30,15 @@ I... lash out when I get afraid, babas, and that is not your fault",shape=box,co
 		1866 -> 1868;
 	1869 [label="Boolean LettieAfraid is now true.",color=orange];
 		1869 -> 1090;
-		1869 -> 1091;
+		1869 -> j1022108963;
 	1868 [label="Sí, jaja 
 You aren't wrong 
 I... lash out when I get afraid, babas, and that is not your fault",shape=box,color=blue];
 		1868 -> 1869;
 	1090 [label="What're you afraid of?",shape=box,color=red];
 		1090 -> 1093;
-	1091 [label="*You're* afraid of something? Holy shit, get Eleanor, we have a newspaper article to write.",shape=box,color=red];
-		1091 -> "Chat ends.";
+	j1022108963 [label="*You're* afraid of something? Holy shit, get Eleanor, we have a newspaper article to write.",shape=box,color=red];
+		j1022108963 -> "Chat ends.";
 	1093 [label="Los fantasmas we have become 
 This eternity of... this 
 Of no change, of no death",shape=box,color=blue];
@@ -67,27 +67,27 @@ Like Amir with his little games",shape=box,color=blue];
 	1102 [label="El chamaco is surrounded by those cassettes and keeps saying he has nothing to play",shape=box,color=blue];
 		1102 -> 1103;
 	1101 [label="Check boolean LettieNoFlirt",color=orange];
-		1101 -> 1105 [label=true,color=green];
-		1101 -> 1106 [label=true,color=green];
-		1101 -> 1105 [label=false,color=brown];
-		1101 -> 1106 [label=false,color=brown];
-		1101 -> 1107 [label=false,color=brown];
+		1101 -> j2175280637 [label=true,color=green];
+		1101 -> j4069855872 [label=true,color=green];
+		1101 -> j2175280637 [label=false,color=brown];
+		1101 -> j4069855872 [label=false,color=brown];
+		1101 -> j2403962481 [label=false,color=brown];
 	1103 [label="You'll do the same to us 
 Toss us aside like a game you're tired of 
 Once you've played us enough",shape=box,color=blue];
 		1103 -> 1104;
-	1105 [label="The Hex.",shape=box,color=red];
-		1105 -> j2862484575;
-	1106 [label="Big Bytes Pizza.",shape=box,color=red];
-		1106 -> j953511217;
-	1107 [label="You.",shape=box,color=red];
-		1107 -> j1714284597;
+	j2175280637 [label="The Hex.",shape=box,color=red];
+		j2175280637 -> j2862484575;
+	j4069855872 [label="Big Bytes Pizza.",shape=box,color=red];
+		j4069855872 -> j953511217;
+	j2403962481 [label="You.",shape=box,color=red];
+		j2403962481 -> j1714284597;
 	1104 [label="Check boolean LettieNoFlirt",color=orange];
-		1104 -> 1116 [label=true,color=green];
-		1104 -> 1115 [label=true,color=green];
-		1104 -> 1116 [label=false,color=brown];
-		1104 -> 1115 [label=false,color=brown];
-		1104 -> 1114 [label=false,color=brown];
+		1104 -> j1513235622 [label=true,color=green];
+		1104 -> j2084884768 [label=true,color=green];
+		1104 -> j1513235622 [label=false,color=brown];
+		1104 -> j2084884768 [label=false,color=brown];
+		1104 -> j2784803053 [label=false,color=brown];
 	j2862484575 [label="Mmhm 
 Because we are so special to you 
 You would give up freedom 
@@ -97,12 +97,12 @@ Esas son pendejadas",shape=box,color=blue];
 		j953511217 -> j1514483306;
 	j1714284597 [label="+15 Chemistry",color=orange];
 		j1714284597 -> j2123108713;
-	1116 [label="You can choose to believe me or not.",shape=box,color=red];
-		1116 -> j2716479428;
-	1115 [label="I can't make promises about the future, Lettie. It hasn't been written yet.",shape=box,color=red];
-		1115 -> j2716479428;
-	1114 [label="I'm sure you and I could find ways of keeping things interesting... ;)",shape=box,color=red];
-		1114 -> j1743076222;
+	j1513235622 [label="You can choose to believe me or not.",shape=box,color=red];
+		j1513235622 -> j2716479428;
+	j2084884768 [label="I can't make promises about the future, Lettie. It hasn't been written yet.",shape=box,color=red];
+		j2084884768 -> j2716479428;
+	j2784803053 [label="I'm sure you and I could find ways of keeping things interesting... ;)",shape=box,color=red];
+		j2784803053 -> j1743076222;
 	j1846770271 [label="Back to it for both of us 
 No rest for los fantasmas",shape=box,color=blue];
 		j1846770271 -> "Chat ends.";

@@ -8,16 +8,16 @@ Besides it keeping us from madness",shape=box,color=blue];
 	1872 [label="Check boolean LettieDating",color=orange];
 		1872 -> 1873 [label=true,color=green];
 		1872 -> 1875 [label=true,color=green];
-		1872 -> 1877 [label=true,color=green];
+		1872 -> j3795972415 [label=true,color=green];
 		1872 -> 1874 [label=false,color=brown];
 		1872 -> 1875 [label=false,color=brown];
-		1872 -> 1877 [label=false,color=brown];
+		1872 -> j3795972415 [label=false,color=brown];
 	1873 [label="Hello to you, too, honey. lol",shape=box,color=red];
 		1873 -> 1876;
 	1875 [label="Oh? What's that?",shape=box,color=red];
 		1875 -> 1880;
-	1877 [label="BRB [End.]",shape=box,color=red];
-		1877 -> "Chat ends.";
+	j3795972415 [label="BRB [End.]",shape=box,color=red];
+		j3795972415 -> "Chat ends.";
 	1874 [label="Hello to you, too, Lettie. lol",shape=box,color=red];
 		1874 -> 1879;
 	1876 [label="Sí, sí 
@@ -157,7 +157,7 @@ From something that won't betray my trust or lie to me",shape=box,color=blue];
 		1912 -> 1909 [label=false,color=brown];
 		1912 -> 1910 [label=false,color=brown];
 	1924 [label="Check boolean LettieDating",color=orange];
-		1924 -> 1927 [label=true,color=green];
+		1924 -> j3502298395 [label=true,color=green];
 		1924 -> 1928 [label=false,color=brown];
 	1918 [label="JAJA 
 Lo siento, couldn't resist 
@@ -183,12 +183,12 @@ From something that won't betray my trust or lie to me",shape=box,color=blue];
 		1915 -> 1939;
 	1906 [label="You loved someone who betrayed your trust and abandoned you, like how Entrati did to Loid. Pets will never do that to you.",shape=box,color=red];
 		1906 -> 1916;
-	1927 [label="Well, then you've done a bad job of teaching me... ;)",shape=box,color=red];
-		1927 -> j3964740307;
+	j3502298395 [label="Well, then you've done a bad job of teaching me... ;)",shape=box,color=red];
+		j3502298395 -> j3964740307;
 	1928 [label="Check boolean LettieNoFlirt",color=orange];
-		1928 -> 1931 [label=true,color=green];
-		1928 -> 1932 [label=true,color=green];
-		1928 -> 1932 [label=false,color=brown];
+		1928 -> j2498634047 [label=true,color=green];
+		1928 -> j403747587 [label=true,color=green];
+		1928 -> j403747587 [label=false,color=brown];
 		1928 -> 1933 [label=false,color=brown];
 	1923 [label="Boolean LettieTrust1 is now true.",color=orange];
 		1923 -> 1929;
@@ -204,10 +204,10 @@ From something that won't betray my trust or lie to me",shape=box,color=blue];
 		1916 -> 1921;
 	j3964740307 [label="+15 Chemistry",color=orange];
 		j3964740307 -> j964795734;
-	1931 [label="I know you just fine. I just don't want to play.",shape=box,color=red];
-		1931 -> j3560170433;
-	1932 [label="Yeah, I don't like head games. Have fun with your rats.",shape=box,color=red];
-		1932 -> j3560170433;
+	j2498634047 [label="I know you just fine. I just don't want to play.",shape=box,color=red];
+		j2498634047 -> j3560170433;
+	j403747587 [label="Yeah, I don't like head games. Have fun with your rats.",shape=box,color=red];
+		j403747587 -> j3560170433;
 	1933 [label="Well, then you've done a bad job of teaching me... ;)",shape=box,color=red];
 		1933 -> 1958;
 	1929 [label="No I keep pets because they are pure love
@@ -241,19 +241,19 @@ Cuidadito, or else I will think you are asking me to spend a night with you",sha
 	1944 [label="JAJAJA 
 Ay, solecito, you make me smile 
 But if you want treats you have to be good ¿Sí?",shape=box,color=blue];
-		1944 -> 1947;
-		1944 -> 1948;
+		1944 -> j3851653472;
+		1944 -> j3123883245;
 	1945 [label="Ay, baaaabas 
 Not everything is about you 
 When my day is long and I am sore and tired I do not want to deal with your shit 
 This is EXACTLY why I prefer my panquecitos",shape=box,color=blue];
-		1945 -> 1949;
-		1945 -> 1950;
+		1945 -> j2962245177;
+		1945 -> j2529367207;
 	1946 [label="Check boolean LettieNoFlirt",color=orange];
-		1946 -> 1952 [label=true,color=green];
-		1946 -> 1953 [label=true,color=green];
-		1946 -> 1952 [label=false,color=brown];
-		1946 -> 1953 [label=false,color=brown];
+		1946 -> j1282306209 [label=true,color=green];
+		1946 -> j77430859 [label=true,color=green];
+		1946 -> j1282306209 [label=false,color=brown];
+		1946 -> j77430859 [label=false,color=brown];
 		1946 -> 1954 [label=false,color=brown];
 	1925 [label="So my rats are just... pure love 
 Pure affection 
@@ -266,29 +266,29 @@ But now I have something to look forward to",shape=box,color=blue];
 	1971 [label="Check boolean IsDating",color=orange];
 		1971 -> 1972 [label=true,color=green];
 		1971 -> 1973 [label=false,color=brown];
-	1947 [label="Yes ma'am. ;)",shape=box,color=red];
-		1947 -> j3395211335;
-	1948 [label="Or... what if I wanted to *not* be good?",shape=box,color=red];
-		1948 -> j935988359;
-	1949 [label="The idea of \"dealing with my shit\" shouldn't exhaust you more, we're dating.",shape=box,color=red];
-		1949 -> j3332717490;
-	1950 [label="Then I'll leave you alone with the creatures you really value.",shape=box,color=red];
-		1950 -> j3283651646;
-	1952 [label="Yeah, the last thing I need when I get home after a long day is to be told why I've let someone else down.",shape=box,color=red];
-		1952 -> j1401824289;
-	1953 [label="I definitely know how that feels, that's why I love having my pets around.",shape=box,color=red];
-		1953 -> j1401824289;
+	j3851653472 [label="Yes ma'am. ;)",shape=box,color=red];
+		j3851653472 -> j3395211335;
+	j3123883245 [label="Or... what if I wanted to *not* be good?",shape=box,color=red];
+		j3123883245 -> j935988359;
+	j2962245177 [label="The idea of \"dealing with my shit\" shouldn't exhaust you more, we're dating.",shape=box,color=red];
+		j2962245177 -> j3332717490;
+	j2529367207 [label="Then I'll leave you alone with the creatures you really value.",shape=box,color=red];
+		j2529367207 -> j3283651646;
+	j1282306209 [label="Yeah, the last thing I need when I get home after a long day is to be told why I've let someone else down.",shape=box,color=red];
+		j1282306209 -> j1401824289;
+	j77430859 [label="I definitely know how that feels, that's why I love having my pets around.",shape=box,color=red];
+		j77430859 -> j1401824289;
 	1954 [label="I mean, I definitely wouldn't say no to scratches and treats and love... ;)",shape=box,color=red];
 		1954 -> 1958;
 	1972 [label="And I'm into some fringe things 
 But swinging isn't one, lo siento",shape=box,color=blue];
-		1972 -> 2442;
-		1972 -> 2446;
+		1972 -> j638707127;
+		1972 -> j1908698402;
 	1973 [label="Check boolean LettieConfession",color=orange];
 		1973 -> 1974 [label=true,color=green];
-		1973 -> 1976 [label=true,color=green];
+		1973 -> j638707127 [label=true,color=green];
 		1973 -> 1975 [label=false,color=brown];
-		1973 -> 1976 [label=false,color=brown];
+		1973 -> j638707127 [label=false,color=brown];
 	j3395211335 [label="+5 Chemistry",color=orange];
 		j3395211335 -> j3412850137;
 	j935988359 [label="Jajaja, cuidadito 
@@ -308,14 +308,12 @@ Esto fue un error",shape=box,color=blue];
 		j3283651646 -> j30836566;
 	j1401824289 [label="Boolean LettieLonely is now true.",color=orange];
 		j1401824289 -> j3985893832;
-	2442 [label="Yikes, sorry, I was just playing around. lol",shape=box,color=red];
-		2442 -> j587614181;
-	2446 [label="Darn. Well, there goes that fantasy.",shape=box,color=red];
-		2446 -> j167937512;
+	j638707127 [label="Yikes, sorry, I was just playing around. lol",shape=box,color=red];
+		j638707127 -> j587614181;
+	j1908698402 [label="Darn. Well, there goes that fantasy.",shape=box,color=red];
+		j1908698402 -> j167937512;
 	1974 [label="I mean... you know how I feel.",shape=box,color=red];
 		1974 -> 1977;
-	1976 [label="Yikes, sorry, I was just playing around. lol",shape=box,color=red];
-		1976 -> j587614181;
 	1975 [label="What if... I wanted it to be more than a night? [Confess feelings.]",shape=box,color=red];
 		1975 -> 1978;
 	j3412850137 [label="I need to get back to work 
@@ -352,8 +350,8 @@ Back to work for me",shape=box,color=blue];
 Ayy... this is going to be a mistake... pero... 
 Can't bitch about being lonely and then turn away from you 
 Do you want to give this a try?",shape=box,color=blue];
-		1984 -> 1990;
-		1984 -> 1991;
+		1984 -> j1845452366;
+		1984 -> j4167192093;
 	1983 [label="Check boolean LettieNoDate",color=orange];
 		1983 -> j3078839151 [label=true,color=green];
 		1983 -> 1984 [label=false,color=brown];
@@ -368,10 +366,10 @@ Whether I like it or not jajaja
 Aayyy back to work for me 
 Later, buddy",shape=box,color=blue];
 		j1830167001 -> j843193783;
-	1990 [label="Let's live dangerously. Yeah. :) [Date Lettie.]",shape=box,color=red];
-		1990 -> j1528472006;
-	1991 [label="I've changed my mind, sorry. [Do not date Lettie.]",shape=box,color=red];
-		1991 -> j1514324672;
+	j1845452366 [label="Let's live dangerously. Yeah. :) [Date Lettie.]",shape=box,color=red];
+		j1845452366 -> j1528472006;
+	j4167192093 [label="I've changed my mind, sorry. [Do not date Lettie.]",shape=box,color=red];
+		j4167192093 -> j1514324672;
 	j3078839151 [label="Ay sí 
 And you know what you said 
 Maybe someday I won't be pissed 
@@ -413,17 +411,17 @@ No more, babas",shape=box,color=blue];
 	j4211128900 [label="+5 Chemistry",color=orange];
 		j4211128900 -> j3589276992;
 	2008 [label="Aguántame tantito",shape=box,color=blue];
-		2008 -> 2007;
-		2008 -> 2006;
+		2008 -> j3591718993;
+		2008 -> j2959464709;
 	j3589276992 [label="Jajaja you have no idea 
 I need to get back to work 
 But now I have something to look forward to 
 Gracias, solecito",shape=box,color=blue];
 		j3589276992 -> "Chat ends.";
-	2007 [label="I'm sorry if I upset you...",shape=box,color=red];
-		2007 -> j4026625166;
-	2006 [label="I understand if you don't feel the same way, I get it.",shape=box,color=red];
-		2006 -> j4026625166;
+	j3591718993 [label="I'm sorry if I upset you...",shape=box,color=red];
+		j3591718993 -> j4026625166;
+	j2959464709 [label="I understand if you don't feel the same way, I get it.",shape=box,color=red];
+		j2959464709 -> j4026625166;
 	j4026625166 [label="¡Neta, ya cállate! 
 I need a second to think 
 To breathe 

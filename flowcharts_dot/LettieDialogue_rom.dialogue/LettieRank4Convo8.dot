@@ -87,14 +87,14 @@ Than to waste it on games for children",shape=box,color=blue];
 		1501 -> 1503;
 	1502 [label="Check boolean LettieSmallFavor",color=orange];
 		1502 -> 1504 [label=true,color=green];
-		1502 -> 1505 [label=false,color=brown];
+		1502 -> j1620596760 [label=false,color=brown];
 	1503 [label="¿Sí? 
 Who else have you talked into this?",shape=box,color=blue];
 		1503 -> 1508;
 	1504 [label="...And you DO kind of owe me a favor, don't you?",shape=box,color=red];
 		1504 -> 209;
-	1505 [label="So what do you think?",shape=box,color=red];
-		1505 -> j3013843204;
+	j1620596760 [label="So what do you think?",shape=box,color=red];
+		j1620596760 -> j3013843204;
 	1508 [label="Me and Amir, obviously. And after that...",shape=box,color=red];
 		1508 -> 1509;
 	209 [label="+10 Chemistry",color=orange];

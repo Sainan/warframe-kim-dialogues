@@ -14,17 +14,17 @@ Big sprawling place overseas from here",shape=box,color=blue];
 	829 [label="Same as most of the others 
 I was in the ICR with Aoi, Arthur, and Quincy 
 Everybody needs a medic to glue their ass back together when it gets an extra hole ",shape=box,color=blue];
-		829 -> 831;
-		829 -> 832;
+		829 -> j2365824128;
+		829 -> j1434442131;
 		829 -> 833;
 		829 -> 834;
 	830 [label="Check boolean LettieHomeAsked",color=orange];
 		830 -> 841 [label=true,color=green];
 		830 -> 840 [label=false,color=brown];
-	831 [label="How do you get on with Aoi?",shape=box,color=red];
-		831 -> j4061633103;
-	832 [label="I'm surprised you can put up with Quincy. You don't seem to have a lot of patience.",shape=box,color=red];
-		832 -> j1033292368;
+	j2365824128 [label="How do you get on with Aoi?",shape=box,color=red];
+		j2365824128 -> j4061633103;
+	j1434442131 [label="I'm surprised you can put up with Quincy. You don't seem to have a lot of patience.",shape=box,color=red];
+		j1434442131 -> j1033292368;
 	833 [label="Have you found the hole where Arthur keeps the stick he's lodged up there?",shape=box,color=red];
 		833 -> 837;
 	834 [label="ICR?",shape=box,color=red];
@@ -56,7 +56,7 @@ Can't leave this cuchitril
 So why think about them",shape=box,color=blue];
 		843 -> 853;
 		843 -> 854;
-		843 -> 855;
+		843 -> j1882634953;
 	j2511521399 [label="Aoi has to learn when to care for Aoi 
 Shit, she spends more time babying people than I do Not everybody needs their hand held 
 Not everybody wants it either",shape=box,color=blue];
@@ -76,14 +76,14 @@ And I guess I'm stuck with that choice now, eh",shape=box,color=blue];
 	851 [label="Or is the hint in your name? 
 You have no home",shape=box,color=blue];
 		851 -> 859;
-		851 -> 860;
-		851 -> 861;
+		851 -> j3270705155;
+		851 -> j1418668816;
 	853 [label="Sometimes painful memories are all that get us through.",shape=box,color=red];
 		853 -> 857;
 	854 [label="We're talking on the *internet* and you know the *phone* exists, yeah?",shape=box,color=red];
 		854 -> 852;
-	855 [label="Ok, well... never mind. [End.]",shape=box,color=red];
-		855 -> "Chat ends.";
+	j1882634953 [label="Ok, well... never mind. [End.]",shape=box,color=red];
+		j1882634953 -> "Chat ends.";
 	j2111352851 [label="She burns herself out that way 
 Happened before, it'll happen again 
 Makes herself sick over it",shape=box,color=blue];
@@ -104,10 +104,10 @@ Arthur's why I'm here and in the ICR in the first place",shape=box,color=blue];
 		849 -> 865;
 	859 [label="This place isn't so bad. Maybe I'll make this my home.",shape=box,color=red];
 		859 -> 868;
-	860 [label="Thanks for rubbing it in.",shape=box,color=red];
-		860 -> j3620070593;
-	861 [label="I make my home wherever I am.",shape=box,color=red];
-		861 -> j4279134688;
+	j3270705155 [label="Thanks for rubbing it in.",shape=box,color=red];
+		j3270705155 -> j3620070593;
+	j1418668816 [label="I make my home wherever I am.",shape=box,color=red];
+		j1418668816 -> j4279134688;
 	857 [label="¿Sí? 
 What do you know of pain?",shape=box,color=blue];
 		857 -> 858;
@@ -148,11 +148,11 @@ Stick to the interesting ones
 They get you somewhere",shape=box,color=blue];
 		j2615127821 -> j1872048052;
 	873 [label="Check boolean LettieNoFlirt",color=orange];
-		873 -> 875 [label=true,color=green];
-		873 -> 876 [label=true,color=green];
-		873 -> 876 [label=false,color=brown];
-		873 -> 875 [label=false,color=brown];
-		873 -> 874 [label=false,color=brown];
+		873 -> j3425759318 [label=true,color=green];
+		873 -> j1729925440 [label=true,color=green];
+		873 -> j1729925440 [label=false,color=brown];
+		873 -> j3425759318 [label=false,color=brown];
+		873 -> j97672474 [label=false,color=brown];
 	j984782278 [label="Or not 
 I don't care",shape=box,color=blue];
 		j984782278 -> "Chat ends.";
@@ -163,24 +163,24 @@ Don't let us stop you",shape=box,color=blue];
 		871 -> 887;
 	888 [label="No, better they think I am already dead 
 I take this pain for them",shape=box,color=blue];
-		888 -> 890;
-		888 -> 891;
+		888 -> j855475621;
+		888 -> j3510239100;
 	j1872048052 [label="Boolean LettieInteresting is now true.",color=orange];
 		j1872048052 -> "Chat ends.";
-	875 [label="The company.",shape=box,color=red];
-		875 -> j1284468471;
-	876 [label="The food.",shape=box,color=red];
-		876 -> j2454391168;
-	874 [label="You. ;)",shape=box,color=red];
-		874 -> j2074265229;
+	j3425759318 [label="The company.",shape=box,color=red];
+		j3425759318 -> j1284468471;
+	j1729925440 [label="The food.",shape=box,color=red];
+		j1729925440 -> j2454391168;
+	j97672474 [label="You. ;)",shape=box,color=red];
+		j97672474 -> j2074265229;
 	887 [label="Touched by La Flaca 
 Another fantasma like the rest of us 
 Reliving their deaths again and again and again",shape=box,color=blue];
 		887 -> 889;
-	890 [label="Do you take the pain for other people by choice, or because it's your duty?",shape=box,color=red];
-		890 -> j1215472370;
-	891 [label="There's still life worth living, here.",shape=box,color=red];
-		891 -> j1299587495;
+	j855475621 [label="Do you take the pain for other people by choice, or because it's your duty?",shape=box,color=red];
+		j855475621 -> j1215472370;
+	j3510239100 [label="There's still life worth living, here.",shape=box,color=red];
+		j3510239100 -> j1299587495;
 	j1284468471 [label="+15 Chemistry",color=orange];
 		j1284468471 -> j3310919172;
 	j2454391168 [label="Sí 
@@ -192,8 +192,8 @@ Ay, equis, you do you, I won't stop you",shape=box,color=blue];
 	889 [label="Yeah, there is family at home
 Better they think I am already dead
 I will carry this pain for them",shape=box,color=blue];
-		889 -> 890;
-		889 -> 891;
+		889 -> j855475621;
+		889 -> j3510239100;
 	j1215472370 [label="+20 Chemistry",color=orange];
 		j1215472370 -> j3110993514;
 	j1299587495 [label="Suure, suure 

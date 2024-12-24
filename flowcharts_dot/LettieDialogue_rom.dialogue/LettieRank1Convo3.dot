@@ -4,11 +4,11 @@ digraph {
 	111 [label="Babas 
 Heads up",shape=box,color=blue];
 		111 -> 112;
-		111 -> 113;
+		111 -> j3313077317;
 	112 [label="Is that a hello?",shape=box,color=red];
 		112 -> 114;
-	113 [label="Not now, sorry. [End.]",shape=box,color=red];
-		113 -> "Chat ends.";
+	j3313077317 [label="Not now, sorry. [End.]",shape=box,color=red];
+		j3313077317 -> "Chat ends.";
 	114 [label="Yeah, yeah, hello, *good morning* 
 Or whatever time it is 
 Need you to get more gauze 
@@ -30,15 +30,15 @@ Running low on supplies",shape=box,color=blue];
 She is still learning to behave",shape=box,color=blue];
 		121 -> 122;
 	122 [label="Check boolean LettieRatsAsked",color=orange];
-		122 -> 123 [label=true,color=green];
-		122 -> 124 [label=true,color=green];
+		122 -> j2616692295 [label=true,color=green];
+		122 -> j1633295753 [label=true,color=green];
 		122 -> 125 [label=false,color=brown];
-		122 -> 123 [label=false,color=brown];
-		122 -> 124 [label=false,color=brown];
-	123 [label="If I see any, I'll grab some.",shape=box,color=red];
-		123 -> j90902004;
-	124 [label="You can go out and get the gauze then, if your rat ate it.",shape=box,color=red];
-		124 -> j952219667;
+		122 -> j2616692295 [label=false,color=brown];
+		122 -> j1633295753 [label=false,color=brown];
+	j2616692295 [label="If I see any, I'll grab some.",shape=box,color=red];
+		j2616692295 -> j90902004;
+	j1633295753 [label="You can go out and get the gauze then, if your rat ate it.",shape=box,color=red];
+		j1633295753 -> j952219667;
 	125 [label="I'm curious, why do you keep rats as pets?",shape=box,color=red];
 		125 -> 128;
 	j90902004 [label="+10 Chemistry",color=orange];
@@ -57,13 +57,13 @@ A small one",shape=box,color=blue];
 		j807166870 -> "Chat ends.";
 	135 [label="You tell me",shape=box,color=blue];
 		135 -> 136;
-		135 -> 137;
+		135 -> j942967000;
 	j3889308430 [label="Boolean LettieSmallFavor is now true.",color=orange];
 		j3889308430 -> "Chat ends.";
 	136 [label="Huh?",shape=box,color=red];
 		136 -> 138;
-	137 [label="I don't think I like where this is going. [End.]",shape=box,color=red];
-		137 -> j1922389995;
+	j942967000 [label="I don't think I like where this is going. [End.]",shape=box,color=red];
+		j942967000 -> j1922389995;
 	138 [label="I want to know why you think I like rats 
 Go on",shape=box,color=blue];
 		138 -> 143;
@@ -95,10 +95,10 @@ Rats were easy to keep, mi mamá didn't mind",shape=box,color=blue];
 I like it",shape=box,color=blue];
 		149 -> 150;
 	153 [label="You want to get those bandages?",shape=box,color=blue];
-		153 -> 152;
-		153 -> 145;
-	152 [label="Sure, I'll see what I can do.",shape=box,color=red];
-		152 -> j90902004;
-	145 [label="You can get them, since she's your rat.",shape=box,color=red];
-		145 -> j952219667;
+		153 -> j713326631;
+		153 -> j394546576;
+	j713326631 [label="Sure, I'll see what I can do.",shape=box,color=red];
+		j713326631 -> j90902004;
+	j394546576 [label="You can get them, since she's your rat.",shape=box,color=red];
+		j394546576 -> j952219667;
 }

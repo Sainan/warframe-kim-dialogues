@@ -3,12 +3,12 @@ digraph {
 		"LettieRank2Convo6 begins." -> 508;
 	508 [label="Check boolean AmirRPG",color=orange];
 		508 -> 509 [label=true,color=green];
-		508 -> 510 [label=true,color=green];
+		508 -> j2345243074 [label=true,color=green];
 		508 -> "Chat ends." [label=false,color=brown];
 	509 [label="Hey Lettie, I have a favor to ask you.",shape=box,color=red];
 		509 -> 512;
-	510 [label="Hey Lettie, what do you think about tabletop roleplaying games?",shape=box,color=red];
-		510 -> j2800108573;
+	j2345243074 [label="Hey Lettie, what do you think about tabletop roleplaying games?",shape=box,color=red];
+		j2345243074 -> j2800108573;
 	"Chat ends." [color=orange];
 	512 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
 		512 -> 514;
@@ -23,20 +23,20 @@ digraph {
 So I suppose I'll hear you out 
 What is it, babas?",shape=box,color=blue];
 		515 -> 517;
-		515 -> 521;
+		515 -> j2563156511;
 	516 [label="Are you bleeding to death?",shape=box,color=blue];
 		516 -> 522;
-		516 -> 523;
+		516 -> j468619151;
 	j1772042556 [label="Lárgate",shape=box,color=blue];
 		j1772042556 -> "Chat ends.";
 	517 [label="I know this'll sound like a massive waste of time, but Amir wants to get us all to play a game with him called Fables & Frontiers.",shape=box,color=red];
 		517 -> 525;
-	521 [label="Amir really wants us all to play Fables & Frontiers with him. It's really important to him.",shape=box,color=red];
-		521 -> j1745684023;
+	j2563156511 [label="Amir really wants us all to play Fables & Frontiers with him. It's really important to him.",shape=box,color=red];
+		j2563156511 -> j1745684023;
 	522 [label="Why do I get the feeling I'm about to be?",shape=box,color=red];
 		522 -> 524;
-	523 [label="No...?",shape=box,color=red];
-		523 -> j3538036545;
+	j468619151 [label="No...?",shape=box,color=red];
+		j468619151 -> j3538036545;
 	525 [label="You're right 
 It does sound like a massive waste of time 
 And like pulling my own teeth out with a pair of rusty pliers",shape=box,color=blue];
@@ -48,38 +48,38 @@ I do not have time for this",shape=box,color=blue];
 		524 -> 531;
 	j3538036545 [label="Because someone else IS right now 
 Is what you want ACTUALLY important?",shape=box,color=blue];
-		j3538036545 -> 533;
+		j3538036545 -> j1137759813;
 	527 [label="And while there's pain that I enjoy 
 That's not it",shape=box,color=blue];
 		527 -> 528;
-		527 -> 529;
+		527 -> j167157798;
 	531 [label="Because you aren't stupid",shape=box,color=blue];
 		531 -> 532;
-	533 [label="It's not a matter of life and death, so. No. It can wait.",shape=box,color=red];
-		533 -> j1573561201;
+	j1137759813 [label="It's not a matter of life and death, so. No. It can wait.",shape=box,color=red];
+		j1137759813 -> j1573561201;
 	528 [label="You owe me a favor, though.",shape=box,color=red];
 		528 -> 542;
-	529 [label="I... wait. What about pain?",shape=box,color=red];
-		529 -> j614466659;
+	j167157798 [label="I... wait. What about pain?",shape=box,color=red];
+		j167157798 -> j614466659;
 	532 [label="Is what you want ACTUALLY important?",shape=box,color=blue];
-		532 -> 530;
-		532 -> 533;
+		532 -> j2941422242;
+		532 -> j1137759813;
 	j1573561201 [label="+10 Chemistry",color=orange];
 		j1573561201 -> j260461344;
 	542 [label="I do 
 You're calling it in for a silly child's game of make believe?",shape=box,color=blue];
 		542 -> 544;
-		542 -> 543;
+		542 -> j166041004;
 	j614466659 [label="+10 Chemistry",color=orange];
 		j614466659 -> j1511166277;
-	530 [label="It is to Amir.",shape=box,color=red];
-		530 -> j1745684023;
+	j2941422242 [label="It is to Amir.",shape=box,color=red];
+		j2941422242 -> j1745684023;
 	j260461344 [label="Bueno",shape=box,color=blue];
 		j260461344 -> "Chat ends.";
 	544 [label="I am. It's worth it, this means a lot to Amir.",shape=box,color=red];
 		544 -> 547;
-	543 [label="Mm... Never mind. I'll save it.",shape=box,color=red];
-		543 -> j1730120118;
+	j166041004 [label="Mm... Never mind. I'll save it.",shape=box,color=red];
+		j166041004 -> j1730120118;
 	j1511166277 [label="Heh 
 Don't get too excited babas 
 Te queda grande la yegua",shape=box,color=blue];

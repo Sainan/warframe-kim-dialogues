@@ -2,13 +2,13 @@ digraph {
 	"LettieRank2Convo5 begins." [color=orange];
 		"LettieRank2Convo5 begins." -> 466;
 		"LettieRank2Convo5 begins." -> 468;
-		"LettieRank2Convo5 begins." -> 469;
+		"LettieRank2Convo5 begins." -> j5866127;
 	466 [label="So... what's your problem with Eleanor, anyway?",shape=box,color=red];
 		466 -> 470;
 	468 [label="I think you need to cut Eleanor some slack.",shape=box,color=red];
 		468 -> 471;
-	469 [label="[Ignore.]",shape=box,color=red];
-		469 -> "Chat ends.";
+	j5866127 [label="[Ignore.]",shape=box,color=red];
+		j5866127 -> "Chat ends.";
 	470 [label="We all wound up as monsters 
 But that bruja delights in what we've become 
 Gets a sick glee out of messing about in my head 
@@ -53,27 +53,27 @@ Do tell",shape=box,color=blue];
 		480 -> 482;
 	481 [label="She's lost her voice. She has to listen to everybody's thoughts all the time. She gets weird flashes of things she doesn't understand.",shape=box,color=red];
 		481 -> 483;
-		481 -> 484;
+		481 -> j4288591640;
 	482 [label="Sure, sure 
 How well is that working out for you, babas 
 Have you forgiven all your grudges",shape=box,color=blue];
 		482 -> 486;
 	483 [label="And she's the one who is the closest to the Techrot. Can you imagine what that must feel like, to hear them all the time?",shape=box,color=red];
 		483 -> 496;
-	484 [label="And she has all of YOU treating her like she's the real monster. Can you imagine what that must feel like?",shape=box,color=red];
-		484 -> 485;
+	j4288591640 [label="And she has all of YOU treating her like she's the real monster. Can you imagine what that must feel like?",shape=box,color=red];
+		j4288591640 -> j1369033558;
 	486 [label="Check boolean LettieReligion2",color=orange];
 		486 -> 489 [label=true,color=green];
 		486 -> 487 [label=false,color=brown];
 	496 [label="That is exactly the problem 
 You keep making my arguments for me, babas",shape=box,color=blue];
 		496 -> 498;
-	485 [label="Can you blame her for meeting that kind of disgust with defiance instead of shame?",shape=box,color=red];
-		485 -> j2565156699;
+	j1369033558 [label="Can you blame her for meeting that kind of disgust with defiance instead of shame?",shape=box,color=red];
+		j1369033558 -> j2565156699;
 	489 [label="Against your Xipe Totec and all the terrible things your void god has done 
 You tell me you have no grudges 
 Pendejadas",shape=box,color=blue];
-		489 -> 494;
+		489 -> j386209955;
 		489 -> 495;
 	487 [label="Check boolean LettieEntrati",color=orange];
 		487 -> 490 [label=true,color=green];
@@ -86,14 +86,14 @@ I do not like her in my head, babas
 But when you put it like that... no I do not blame her 
 It is how I would handle it, too",shape=box,color=blue];
 		j2565156699 -> j4090648517;
-	494 [label="You're right, I still hold grudges. I'm not perfect. All I'm saying is that you're treating her like she's a monster. Can you blame her for meeting disgust with defiance?",shape=box,color=red];
-		494 -> j2565156699;
+	j386209955 [label="You're right, I still hold grudges. I'm not perfect. All I'm saying is that you're treating her like she's a monster. Can you blame her for meeting disgust with defiance?",shape=box,color=red];
+		j386209955 -> j2565156699;
 	495 [label="You're right, I still hold grudges. I'm not perfect. All I'm saying is that she's the one who is the closest to the Techrot. Can you imagine what that must feel like, to hear them all the time?",shape=box,color=red];
 		495 -> 496;
 	490 [label="Against Entrati and the Orokin and what they did to you 
 You tell me you have no grudges 
 Pendejadas",shape=box,color=blue];
-		490 -> 494;
+		490 -> j386209955;
 		490 -> 495;
 	488 [label="Check boolean LettieDuviri",color=orange];
 		488 -> 491 [label=true,color=green];
@@ -108,11 +108,11 @@ And you will be gone and not be able to save her",shape=box,color=blue];
 		j4090648517 -> j3142268775;
 	491 [label="Against Duviri and the place that hurt you so many times 
 You tell me you have no grudges",shape=box,color=blue];
-		491 -> 494;
+		491 -> j386209955;
 		491 -> 495;
 	492 [label="Your life has been nothing but dancing with La Flaca and you tell me you have no grudges 
 Pendejadas",shape=box,color=blue];
-		492 -> 494;
+		492 -> j386209955;
 		492 -> 495;
 	j708621710 [label="Vete 
 Go away 

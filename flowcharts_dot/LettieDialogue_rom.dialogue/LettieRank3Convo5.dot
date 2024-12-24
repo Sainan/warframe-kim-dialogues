@@ -2,13 +2,13 @@ digraph {
 	"LettieRank3Convo5 begins." [color=orange];
 		"LettieRank3Convo5 begins." -> 909;
 		"LettieRank3Convo5 begins." -> 910;
-		"LettieRank3Convo5 begins." -> 911;
+		"LettieRank3Convo5 begins." -> j5866127;
 	909 [label="You holding up okay?",shape=box,color=red];
 		909 -> 913;
 	910 [label="How's it going with the civilians?",shape=box,color=red];
 		910 -> 914;
-	911 [label="[Ignore.]",shape=box,color=red];
-		911 -> "Chat ends.";
+	j5866127 [label="[Ignore.]",shape=box,color=red];
+		j5866127 -> "Chat ends.";
 	913 [label="Mm? 
 Like a revolving door jajaja",shape=box,color=blue];
 		913 -> 915;
@@ -48,11 +48,11 @@ And this was before YOU made it literal jajaja",shape=box,color=blue];
 	922 [label="Yeah but a steady stream of coffee doesn't hurt. lol",shape=box,color=red];
 		922 -> 928;
 	923 [label="Check boolean LettieNoFlirt",color=orange];
-		923 -> 924 [label=true,color=green];
-		923 -> 925 [label=true,color=green];
-		923 -> 924 [label=false,color=brown];
-		923 -> 925 [label=false,color=brown];
-		923 -> 926 [label=false,color=brown];
+		923 -> j3826505342 [label=true,color=green];
+		923 -> j1908156710 [label=true,color=green];
+		923 -> j3826505342 [label=false,color=brown];
+		923 -> j1908156710 [label=false,color=brown];
+		923 -> j2189350537 [label=false,color=brown];
 	927 [label="Sí,
 It's enough to know someone has my back 
 Arthur is like that 
@@ -64,12 +64,12 @@ Arthur is like that
 Doesn't hover like Aoi, pretending to be mi mamá 
 Just hands me a cup and says, you good?",shape=box,color=blue];
 		928 -> 933;
-	924 [label="I mean, what were you expecting from people who just lost everything?",shape=box,color=red];
-		924 -> j1820035616;
-	925 [label="I can see why all the people turn into a blur after a while.",shape=box,color=red];
-		925 -> j2985528425;
-	926 [label="At least you're a really sexy door. :P",shape=box,color=red];
-		926 -> j954966432;
+	j3826505342 [label="I mean, what were you expecting from people who just lost everything?",shape=box,color=red];
+		j3826505342 -> j1820035616;
+	j1908156710 [label="I can see why all the people turn into a blur after a while.",shape=box,color=red];
+		j1908156710 -> j2985528425;
+	j2189350537 [label="At least you're a really sexy door. :P",shape=box,color=red];
+		j2189350537 -> j954966432;
 	933 [label="Boolean LettieShoulder is now true.",color=orange];
 		933 -> 944;
 	j1820035616 [label="Not their fault 
@@ -108,17 +108,17 @@ Thanks for the distraction",shape=box,color=blue];
 I needed that",shape=box,color=blue];
 		j4160234731 -> j2498915327;
 	940 [label="Check boolean LettieNoFlirt",color=orange];
-		940 -> 941 [label=true,color=green];
-		940 -> 943 [label=true,color=green];
-		940 -> 942 [label=false,color=brown];
-		940 -> 943 [label=false,color=brown];
+		940 -> j2392606073 [label=true,color=green];
+		940 -> j703035875 [label=true,color=green];
+		940 -> j1056340956 [label=false,color=brown];
+		940 -> j703035875 [label=false,color=brown];
 	j2498915327 [label="Back to work, ¿no? 
 We're both too busy for this",shape=box,color=blue];
 		j2498915327 -> "Chat ends.";
-	941 [label="You got it.",shape=box,color=red];
-		941 -> j2498915327;
-	943 [label="I'll see what I can do.",shape=box,color=red];
-		943 -> j2498915327;
-	942 [label="You got it. <RETRO_EMOJI_HEART>",shape=box,color=red];
-		942 -> j2498915327;
+	j2392606073 [label="You got it.",shape=box,color=red];
+		j2392606073 -> j2498915327;
+	j703035875 [label="I'll see what I can do.",shape=box,color=red];
+		j703035875 -> j2498915327;
+	j1056340956 [label="You got it. <RETRO_EMOJI_HEART>",shape=box,color=red];
+		j1056340956 -> j2498915327;
 }
