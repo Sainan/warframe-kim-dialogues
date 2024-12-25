@@ -26,7 +26,7 @@ local function get_node_label(node)
 				if node.nickname_override then
 					text = (dict[node.nickname_override] or node.nickname_override)..": "..text
 				end
-				return text
+				return text:replace("<RETRO_EMOJI_HEART>", "<3")
 			end
 			break
 		case "/EE/Types/Engine/EndDialogueNode":
