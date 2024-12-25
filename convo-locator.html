@@ -170,7 +170,7 @@
 
 	function normaliseText(text)
 	{
-		return text.toLowerCase().split("’").join("'");
+		return text.toLowerCase().split("‘").join("'").split("’").join("'");
 	}
 
 	function doLocate()
