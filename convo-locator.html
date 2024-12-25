@@ -196,6 +196,7 @@
 								text = text.split("|"+k+"|").join(dicts[lang][v] ?? v);
 							}
 						}
+						text = text.split("<RETRO_EMOJI_HEART>").join("<3");
 
 						if (normaliseText(text).indexOf(query) != -1)
 						{
