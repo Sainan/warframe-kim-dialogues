@@ -2,8 +2,8 @@
 
 All Kinemantik Instant Messaging conversations and various ways to explore them.
 
-- [Convo Locator](https://sainan.github.io/warframe-kim-dialogues/convo-locator.html) — find a conversation based on (part of) a message
-- [Kimulacrum](https://sainan.github.io/warframe-kim-dialogues/kimulacrum.html) — web-based reimplementation of the KIM chat allowing you to take all conversations and paths.
+- [Convo Locator](https://kim.browse.wf/convo-locator.html) — find a conversation based on (part of) a message
+- [Kimulacrum](https://kim.browse.wf/kimulacrum.html) — web-based reimplementation of the KIM chat allowing you to take all conversations and paths.
 - [Flowcharts](flowcharts)
 
 ## Scripts
