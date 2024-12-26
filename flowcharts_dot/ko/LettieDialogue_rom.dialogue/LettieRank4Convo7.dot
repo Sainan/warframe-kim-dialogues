@@ -1,528 +1,535 @@
 digraph {
 	"LettieRank4Convo7 begins." [color=orange];
-		"LettieRank4Convo7 begins." -> j3544524997;
-		"LettieRank4Convo7 begins." -> j2279222356;
-	j3544524997 [label="So how'd you end up getting involved in the whole Arthur/Hex thing?",shape=box,color=red];
-		j3544524997 -> j4198542070;
-	j2279222356 [label="You seem to really... REALLY hate Entrati. Why?",shape=box,color=red];
-		j2279222356 -> j2175398176;
+		"LettieRank4Convo7 begins." -> j1632882522;
+		"LettieRank4Convo7 begins." -> j2696395837;
+	j1632882522 [label="그래서 이 아서네 헥스 분대랑 어떻게 엮이게 된 거야?",shape=box,color=red];
+		j1632882522 -> j4198542070;
+	j2696395837 [label="넌 정말... 정말 엔트라티를 싫어하는구나. 왜 그런건데?",shape=box,color=red];
+		j2696395837 -> j2175398176;
 	j4198542070 [label="Check boolean LettieArthur1",color=orange];
-		j4198542070 -> j1003913311 [label=true,color=green];
-		j4198542070 -> j3406795131 [label=false,color=brown];
+		j4198542070 -> j496404709 [label=true,color=green];
+		j4198542070 -> j2041489197 [label=false,color=brown];
 	j2175398176 [label="Check boolean LettieCavia",color=orange];
 		j2175398176 -> j1722245119 [label=true,color=green];
 		j2175398176 -> j1462679647 [label=false,color=brown];
-	j1003913311 [label="Mm 
-Not a fun story, friend 
-Worse than the bloodbath where Arthur and I became hermanos 
-Not fun to hear 
-Mierda, not fun to tell",shape=box,color=blue];
-		j1003913311 -> j2218279090;
-		j1003913311 -> j226367324;
-	j3406795131 [label="Somos hermanos, Arthur and I 
-We go way back 
-I promised to follow him anywhere 
-Seems like he meant to the edge of Mictlán",shape=box,color=blue];
-		j3406795131 -> j1222424222;
+	j496404709 [label="음 
+유쾌한 이야기는 아니야, 친구 
+아서와 내가 hermanos가 된 그 피바다보다 더 심하지
+듣기에 유쾌하지도 않고 
+Mierda 말해주기도 유쾌하지 않아",shape=box,color=blue];
+		j496404709 -> j1381119204;
+		j496404709 -> j687637126;
+	j2041489197 [label="Somos hermanos, 아서랑 나는
+오래도 된 사이지
+그녀석이 어딜 가든 같이 가겠다고 
+아무래도 그 '어디'라는 게 Mictlán의 끝까지였던 모양이야",shape=box,color=blue];
+		j2041489197 -> j2445632661;
 	j1722245119 [label="Check boolean LettieLoid",color=orange];
 		j1722245119 -> j3683673357 [label=true,color=green];
 		j1722245119 -> j2031439129 [label=false,color=brown];
 	j1462679647 [label="Check boolean LettieLoid",color=orange];
 		j1462679647 -> j2648971353 [label=true,color=green];
 		j1462679647 -> j427738219 [label=false,color=brown];
-	j2218279090 [label="If you're not comfortable telling me, that's fine.",shape=box,color=red];
-		j2218279090 -> j4210569117;
-	j226367324 [label="No problem. Plenty of shit I haven't told you, yet.",shape=box,color=red];
-		j226367324 -> j3211656606;
-	j1222424222 [label="We were stationed together in the same base 
-Him in the Britannic and me with the Libertatian Army 
-Different countries, same enemies",shape=box,color=blue];
-		j1222424222 -> j47088500;
+	j1381119204 [label="말하기 곤란하면 말하지 않아도 괜찮아.",shape=box,color=red];
+		j1381119204 -> j1324323719;
+	j687637126 [label="문제없어. 아직 너한테 말하지 않은게 산더미니까.",shape=box,color=red];
+		j687637126 -> j4294283205;
+	j2445632661 [label="우린 같은 기지에 함께 주둔하고 있었어
+그는 브리타니아 군에 있었고 나는 리베르타시아 군에 있었지
+다른 나라 사람이지만, 같은 적들을 마주해야 했어",shape=box,color=blue];
+		j2445632661 -> j1448114140;
 	j3683673357 [label="Check boolean LettieEntratiFamily",color=orange];
-		j3683673357 -> j3724174103 [label=true,color=green];
-		j3683673357 -> j61478069 [label=false,color=brown];
+		j3683673357 -> j2112443504 [label=true,color=green];
+		j3683673357 -> j42767817 [label=false,color=brown];
 	j2031439129 [label="Check boolean LettieEntratiFamily",color=orange];
-		j2031439129 -> j3942038629 [label=true,color=green];
-		j2031439129 -> j2731622697 [label=false,color=brown];
+		j2031439129 -> j373536263 [label=true,color=green];
+		j2031439129 -> j4270947947 [label=false,color=brown];
 	j2648971353 [label="Check boolean LettieEntratiFamily",color=orange];
-		j2648971353 -> j124097172 [label=true,color=green];
-		j2648971353 -> j1786543602 [label=false,color=brown];
+		j2648971353 -> j2567616282 [label=true,color=green];
+		j2648971353 -> j1784877036 [label=false,color=brown];
 	j427738219 [label="Check boolean LettieEntratiFamily",color=orange];
-		j427738219 -> j2756980496 [label=true,color=green];
-		j427738219 -> j3732579463 [label=false,color=brown];
-	j4210569117 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j4210569117 -> j4137339440;
-	j3211656606 [label="+10 Chemistry",color=orange];
-		j3211656606 -> j1234280406;
-	j47088500 [label="I was the field medic for my regiment
-We were deployed in next to his
-The place went real cagadero
-Real fast",shape=box,color=blue];
-		j47088500 -> j1399801435;
-	j3724174103 [label="Sí 
-Maybe I do 
-But after everything you told me 
-About how he mistreated those poor animals 
-Abandoned his family 
-And that man who loves him 
-How could I not hate that cabrón?!",shape=box,color=blue];
-		j3724174103 -> j2607963402;
-	j61478069 [label="Sí 
-Maybe I do 
-But after everything you told me 
-About how he mistreated those poor animals 
-And that man who loves him 
-How could I not hate that cabrón?!",shape=box,color=blue];
-		j61478069 -> j2607963402;
-	j3942038629 [label="Sí 
-Maybe I do 
-But after everything you told me 
-About how he mistreated those poor animals 
-Abandoned his family 
-How could I not hate that cabrón?!",shape=box,color=blue];
-		j3942038629 -> j2607963402;
-	j2731622697 [label="Sí 
-Maybe I do 
-But after everything you told me 
-About how he mistreated those poor animals 
-How could I not hate that cabrón?!",shape=box,color=blue];
-		j2731622697 -> j2607963402;
-	j124097172 [label="Sí 
-Maybe I do 
-But after everything you told me 
-About how he abandoned his family 
-And that man who loves him 
-How could I not hate that cabrón?!",shape=box,color=blue];
-		j124097172 -> j2639192224;
-	j1786543602 [label="Sí 
-Maybe I do 
-But after everything you told me 
-About how he abandoned that man who loves him 
-How could I not hate that cabrón?!",shape=box,color=blue];
-		j1786543602 -> j2639192224;
-	j2756980496 [label="Sí 
-Maybe I do 
-But after everything you told me 
-About how he abandoned his family 
-How could I not hate that cabrón?!",shape=box,color=blue];
-		j2756980496 -> j2639192224;
-	j3732579463 [label="Sí 
-Maybe I do 
-But after everything you told me
-How could I not hate that cabrón?!",shape=box,color=blue];
-		j3732579463 -> j2639192224;
-	j4137339440 [label="Not about comfort, babas 
-You want to hear about all the times I've had to put someone down or take off a limb 
-The times I've had a mother weeping next to their dead child and had to tell her I couldn't save her 
-I see it all the time 
+		j427738219 -> j805614587 [label=true,color=green];
+		j427738219 -> j2007651261 [label=false,color=brown];
+	j1324323719 [label="Boolean LettieHexAsked is now true.",color=orange];
+		j1324323719 -> j1517106038;
+	j4294283205 [label="+10 Chemistry",color=orange];
+		j4294283205 -> j2515532854;
+	j1448114140 [label="나는 연대의 야전 의무병이었어
+우리는 아서네 연대의 바로 옆에 배치됐고
+삽시간에 거긴 아주 cagadero됐지
+진짜 빨리",shape=box,color=blue];
+		j1448114140 -> j2821673754;
+	j2112443504 [label="Sí 
+그럴 지도 모르지 
+근데 불쌍한 동물들을 학대하고 
+가족을 저버리고 
+자신을 사랑한 그 남자도 버리고 
+네가 말한 이 모든걸 듣고 나서도 
+어떻게 그 cabrón같은 인간을 싫어하지 않을 수 있지?",shape=box,color=blue];
+		j2112443504 -> j2607963402;
+	j42767817 [label="Sí 
+그럴 지도 모르지 
+근데 불쌍한 동물들을 학대하고 
+자신을 사랑한 그 남자도 버리고 
+네가 말한 이 모든걸 듣고 나서도 
+어떻게 그 cabrón같은 인간을 싫어하지 않을 수 있지?",shape=box,color=blue];
+		j42767817 -> j2607963402;
+	j373536263 [label="Sí 
+그럴 지도 모르지 
+근데 불쌍한 동물들을 학대하고 
+가족을 저버리고 
+네가 말한 이 모든걸 듣고 나서도 
+어떻게 그 cabrón같은 인간을 싫어하지 않을 수 있지?",shape=box,color=blue];
+		j373536263 -> j2607963402;
+	j4270947947 [label="Sí 
+그럴 지도 모르지 
+근데 불쌍한 동물들을 학대하고 
+네가 말한 이 모든걸 듣고 나서도 
+어떻게 그 cabrón같은 인간을 싫어하지 않을 수 있지?",shape=box,color=blue];
+		j4270947947 -> j2607963402;
+	j2567616282 [label="Sí 
+그럴 지도 모르지 
+가족을 저버리고 
+자신을 사랑한 그 남자도 버리고 
+네가 말한 이 모든걸 듣고 나서도 
+어떻게 그 cabrón같은 인간을 싫어하지 않을 수 있지?",shape=box,color=blue];
+		j2567616282 -> j2639192224;
+	j1784877036 [label="Sí 
+그럴 지도 모르지 
+자신을 사랑한 그 남자를 버리다니 
+이걸 듣고 나서도 
+어떻게 그 cabrón같은 인간을 싫어하지 않을 수 있지?",shape=box,color=blue];
+		j1784877036 -> j2639192224;
+	j805614587 [label="Sí 
+그럴 지도 모르지 
+가족을 저버리다니 
+이걸 듣고 나서도 
+어떻게 그 cabrón같은 인간을 싫어하지 않을 수 있지?",shape=box,color=blue];
+		j805614587 -> j2639192224;
+	j2007651261 [label="Sí 
+그럴 지도 모르지 
+근데 네가 말한 이 모든걸 듣고 나서도 
+어떻게 그 cabrón같은 인간을 싫어하지 않을 수 있지?",shape=box,color=blue];
+		j2007651261 -> j2639192224;
+	j1517106038 [label="곤란하니 뭐니 하는 문제가 아냐, babas
+지금 네가 듣고 싶어하는 건 내가 누굴 안락사시키거나 팔다리를 절단해야 했던 시기의 일이라고
+죽은 애 옆에 엄마가 울고 있는데 그 엄마한테 애 못 살린다고 말해야 하던 시절이란 말이야
+그런 걸 늘상 봐 왔어
 Me vale madre",shape=box,color=blue];
-		j4137339440 -> j2789540444;
-		j4137339440 -> j1392113892;
-	j1234280406 [label="Sí 
-We all have the things we don't tell people 
-Until we're very certain we can trust them not to change how they feel",shape=box,color=blue];
-		j1234280406 -> j3334597494;
-	j1399801435 [label="Most of my crew didn't make it 
-Most of his didn't either 
-We held each other together 
-Literally 
-I stitched his arm up good jaja 
-When he retired and went into the ICR 
-I followed him without question 
-I was sick of all the drama that goes on in the army anyway",shape=box,color=blue];
-		j1399801435 -> j3199073178;
+		j1517106038 -> j2360062462;
+		j1517106038 -> j3043292641;
+	j2515532854 [label="Sí 
+우리 모두 다른 사람한테 못 말하고 사는 것들이 있어
+상대가 그걸 듣고 나에 대한 감정을 절대 바꾸지 않을 거란 확신이 생길 때까지",shape=box,color=blue];
+		j2515532854 -> j3334597494;
+	j2821673754 [label="대부분의 부대원들은 살아남지 못했어
+아서의 부대 또한 그랬지
+우리는 서로를 붙잡고 버텨야만 했어
+말 그대로
+난 아서 팔을 잘 꿰매줬고 jaja
+아서가 퇴역하고 ICR로 갔을 때
+난 묻지도 따지지도 않고 따라갔지
+어차피 군에서 일어나는 모든 일에 진절머리가 난 상태였어",shape=box,color=blue];
+		j2821673754 -> j3199073178;
 	j2607963402 [label="Check boolean LettieTrust1",color=orange];
-		j2607963402 -> j184041099 [label=true,color=green];
-		j2607963402 -> j1296672872 [label=true,color=green];
-		j2607963402 -> j3899471602 [label=false,color=brown];
-		j2607963402 -> j786644453 [label=false,color=brown];
+		j2607963402 -> j3353206152 [label=true,color=green];
+		j2607963402 -> j3180389220 [label=true,color=green];
+		j2607963402 -> j2387598300 [label=false,color=brown];
+		j2607963402 -> j567232152 [label=false,color=brown];
 	j2639192224 [label="Check boolean LettieTrust1",color=orange];
-		j2639192224 -> j184041099 [label=true,color=green];
-		j2639192224 -> j786644453 [label=true,color=green];
-		j2639192224 -> j2382576337 [label=true,color=green];
-		j2639192224 -> j786644453 [label=false,color=brown];
-		j2639192224 -> j2382576337 [label=false,color=brown];
-	j2789540444 [label="Then what's the problem?",shape=box,color=red];
-		j2789540444 -> j405702629;
-	j1392113892 [label="Okay? I'm sorry?",shape=box,color=red];
-		j1392113892 -> j2884352241;
+		j2639192224 -> j3353206152 [label=true,color=green];
+		j2639192224 -> j567232152 [label=true,color=green];
+		j2639192224 -> j118363138 [label=true,color=green];
+		j2639192224 -> j567232152 [label=false,color=brown];
+		j2639192224 -> j118363138 [label=false,color=brown];
+	j2360062462 [label="그럼 뭐가 문젠데?",shape=box,color=red];
+		j2360062462 -> j881063173;
+	j3043292641 [label="그래? 미안하다?",shape=box,color=red];
+		j3043292641 -> j2884352241;
 	j3334597494 [label="Check boolean LettieNoFlirt",color=orange];
-		j3334597494 -> j3854745701 [label=true,color=green];
-		j3334597494 -> j3877880652 [label=true,color=green];
-		j3334597494 -> j3854745701 [label=false,color=brown];
-		j3334597494 -> j3877880652 [label=false,color=brown];
-		j3334597494 -> j991658793 [label=false,color=brown];
+		j3334597494 -> j618733398 [label=true,color=green];
+		j3334597494 -> j476711808 [label=true,color=green];
+		j3334597494 -> j618733398 [label=false,color=brown];
+		j3334597494 -> j476711808 [label=false,color=brown];
+		j3334597494 -> j3059383083 [label=false,color=brown];
 	j3199073178 [label="Boolean LettieArthur1 is now true.",color=orange];
-		j3199073178 -> j1499819035;
-		j3199073178 -> j280334821;
-	j184041099 [label="The way you talk about him, and because I know how much trust is important to you... It seems personal.",shape=box,color=red];
-		j184041099 -> j95788537;
-	j1296672872 [label="I know how much you hate it when people break the trust of others. Especially animals.",shape=box,color=red];
-		j1296672872 -> j2123016328;
-	j3899471602 [label="People who hurt animals have a special place in hell, absolutely. But it seems like there's more going on than that.",shape=box,color=red];
-		j3899471602 -> j2123016328;
-	j786644453 [label="Yeah, but it seems like a personal grudge you have against him.",shape=box,color=red];
-		j786644453 -> j1957569195;
-	j2382576337 [label="Good enough for me.",shape=box,color=red];
-		j2382576337 -> j3934167029;
-	j405702629 [label="It might change how you look at some of us babas 
-And I don't know if I trust you enough not to walk away",shape=box,color=blue];
-		j405702629 -> j3334597494;
+		j3199073178 -> j2466786608;
+		j3199073178 -> j1451054393;
+	j3353206152 [label="네가 엔트라티에 대해 말하는 방식이나, 네게 신뢰가 얼마나 중요한지를 아는 내 관점으로 봤을 때... 좀 개인적인 감정으로 느껴지는데.",shape=box,color=red];
+		j3353206152 -> j4292232021;
+	j3180389220 [label="누가 남의 신뢰를 깰 때 네가 얼마나 싫어하는지 잘 알고 있지. 특히 동물 관련으로.",shape=box,color=red];
+		j3180389220 -> j2163016820;
+	j2387598300 [label="동물한테 상처 주는 작자들은 지옥에서도 특등석에서 불타야지, 당연히. 하지만 보아하니 이유가 그것만이 아닌 것 같은데.",shape=box,color=red];
+		j2387598300 -> j2163016820;
+	j567232152 [label="그래, 근데 네가 그 작자에게 품는 감정은 개인적 원한에 가까워 보여.",shape=box,color=red];
+		j567232152 -> j1442815138;
+	j118363138 [label="나야 뭐 그거면 됐지.",shape=box,color=red];
+		j118363138 -> j3934167029;
+	j881063173 [label="이 얘길 들으면 네가 우리 중 일부를 보는 방식이 변할 지도 몰라서 그렇지 babas
+그리고 네가 그대로 떠나지 않으리라 믿을 만큼 믿을 수 있을지 잘 모르겠어",shape=box,color=blue];
+		j881063173 -> j3334597494;
 	j2884352241 [label="Sí, como quieras",shape=box,color=blue];
 		j2884352241 -> "Chat ends.";
-	j3854745701 [label="Do you not trust me yet?",shape=box,color=red];
-		j3854745701 -> j3989578047;
-	j3877880652 [label="We've all made mistakes in life. I'm sure it can't be that bad.",shape=box,color=red];
-		j3877880652 -> j4226880971;
-	j991658793 [label="Careful, or else I might start to think you're getting attached to me.",shape=box,color=red];
-		j991658793 -> j1361858393;
-	j1499819035 [label="Then what? How'd you get to be...",shape=box,color=red];
-		j1499819035 -> j810874360;
-	j280334821 [label="War sucks. No matter when, no matter how.",shape=box,color=red];
-		j280334821 -> j4145214825;
-	j95788537 [label="+15 Chemistry",color=orange];
-		j95788537 -> j2044841799;
-	j2123016328 [label="+20 Chemistry",color=orange];
-		j2123016328 -> j3119507267;
-	j1957569195 [label="Sí, I do 
-I have my reasons",shape=box,color=blue];
-		j1957569195 -> j4133119550;
-		j1957569195 -> j3679428508;
+	j618733398 [label="아직도 날 믿지 못하는 거야?",shape=box,color=red];
+		j618733398 -> j1959497993;
+	j476711808 [label="누구나 인생에서 실수를 해. 그렇게 큰 실수는 아닐거라 봐.",shape=box,color=red];
+		j476711808 -> j630361157;
+	j3059383083 [label="조심해, 아니면 난 네가 날 좋아하기 시작했다고 생각할지도 몰라.",shape=box,color=red];
+		j3059383083 -> j1334960152;
+	j2466786608 [label="그 뒤에는? 어떻게...",shape=box,color=red];
+		j2466786608 -> j343942439;
+	j1451054393 [label="전쟁은 비참해. 언제, 어떤 형태로 일어나든.",shape=box,color=red];
+		j1451054393 -> j646785030;
+	j4292232021 [label="+15 Chemistry",color=orange];
+		j4292232021 -> j1176447102;
+	j2163016820 [label="+20 Chemistry",color=orange];
+		j2163016820 -> j228093778;
+	j1442815138 [label="Sí, 그래 
+그럴 만한 이유가 있어",shape=box,color=blue];
+		j1442815138 -> j278218030;
+		j1442815138 -> j3510351742;
 	j3934167029 [label="+10 Chemistry",color=orange];
 		j3934167029 -> j2545343613;
 	"Chat ends." [color=orange];
-	j3989578047 [label="+10 Chemistry",color=orange];
-		j3989578047 -> j205957130;
-	j4226880971 [label="+5 Chemistry",color=orange];
-		j4226880971 -> j3096312898;
-	j1361858393 [label="+10 Chemistry",color=orange];
-		j1361858393 -> j3144973937;
-	j810874360 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j810874360 -> j3854301837;
-	j4145214825 [label="Appreciate that
-Our wars must seem so small
-Yours sound tan espectaculares y llamativas
-Filled with dioses, ángeles y demonios",shape=box,color=blue];
-		j4145214825 -> j2752495184;
-	j2044841799 [label="Ay, sí
-You caught on
-Need a new nickname for you, ¿eh babas? Jaja",shape=box,color=blue];
-		j2044841799 -> j361145228;
-	j3119507267 [label="Ay, sí 
-Animals most of all deserve the best we can give them 
-And when trust is broken like that 
-It makes me want to kill a man 
-Specifically THAT one",shape=box,color=blue];
-		j3119507267 -> j3851817314;
-	j4133119550 [label="Can I ask what he did?",shape=box,color=red];
-		j4133119550 -> j506041623;
-	j3679428508 [label="If you're not comfortable telling me, that's fine.",shape=box,color=red];
-		j3679428508 -> j3874982622;
+	j1959497993 [label="+10 Chemistry",color=orange];
+		j1959497993 -> j1874710633;
+	j630361157 [label="+5 Chemistry",color=orange];
+		j630361157 -> j1703505282;
+	j1334960152 [label="+10 Chemistry",color=orange];
+		j1334960152 -> j1470886716;
+	j343942439 [label="Boolean LettieHexAsked is now true.",color=orange];
+		j343942439 -> j4021459006;
+	j646785030 [label="고마워
+너한텐 이 쪽의 전쟁이 사소해보이겠지
+네 쪽 전쟁은 tan espectaculares y llamativas하고
+온통 dioses, ángeles y demonios로 가득한 것처럼 보여",shape=box,color=blue];
+		j646785030 -> j3202146077;
+	j1176447102 [label="Ay, sí
+눈치챘구나
+새로운 별명이 필요할지도, ¿eh babas? Jaja",shape=box,color=blue];
+		j1176447102 -> j361145228;
+	j228093778 [label="Ay, sí 
+대부분의 동물들은 모두 우리가 줄 수 있는 최고만 받아야만 해
+그리고 신뢰가 그렇게 한 번 꺠지면
+난 사람을 죽여버리고 싶어지지
+특히 그 한 놈을",shape=box,color=blue];
+		j228093778 -> j3851817314;
+	j278218030 [label="그가 무슨 짓을 했는지 알려줄 수 있어?",shape=box,color=red];
+		j278218030 -> j967158313;
+	j3510351742 [label="말하기 곤란하면 말하지 않아도 괜찮아.",shape=box,color=red];
+		j3510351742 -> j1750058067;
 	j2545343613 [label="Sí 
 Ese cabrón se puede ir brincando a la chingada",shape=box,color=blue];
 		j2545343613 -> "Chat ends.";
-	j205957130 [label="Maybe 
-Maybe not 
-Gotten used to having you underfoot, babas 
-Might miss you if you leave 
-Don't let it go to your head",shape=box,color=blue];
-		j205957130 -> "Chat ends.";
-	j3096312898 [label="Maybe 
-Maybe not 
-We'll see 
-But not today",shape=box,color=blue];
-		j3096312898 -> "Chat ends.";
-	j3144973937 [label="Jajaja, sí 
-Maybe I am 
-Or maybe I'm just happy to have someone around who is useful babas",shape=box,color=blue];
-		j3144973937 -> j1479769695;
-	j3854301837 [label="Get to be what, babas 
+	j1874710633 [label="그럴 수도 있고 
+아닐 수도 있고 
+네가 곁에 있는 게 너무 익숙해졌어, babas 
+네가 떠나면 그리울 거야 
+너무 우쭐대진 말고",shape=box,color=blue];
+		j1874710633 -> "Chat ends.";
+	j1703505282 [label="그럴 수도 있고 
+아닐 수도 있고 
+곧 알 수 있게 되겠지 
+근데 오늘은 아니야",shape=box,color=blue];
+		j1703505282 -> "Chat ends.";
+	j1470886716 [label="Jajaja, sí 
+어쩌면 그럴 수도 있지 
+아님 그냥 좀 쓸모 있는 babas가 옆에 있는 게 좋은 걸수도 있고",shape=box,color=blue];
+		j1470886716 -> j3940657534;
+	j4021459006 [label="어떻게 뭐가, babas
 ¿Monstruos?",shape=box,color=blue];
-		j3854301837 -> j2534967988;
-		j3854301837 -> j1086033112;
-		j3854301837 -> j246603334;
-	j2752495184 [label="+10 Chemistry",color=orange];
-		j2752495184 -> j578685666;
+		j4021459006 -> j1256779665;
+		j4021459006 -> j2547850401;
+		j4021459006 -> j1135167420;
+	j3202146077 [label="+10 Chemistry",color=orange];
+		j3202146077 -> j4053811458;
 	j361145228 [label="Boolean LettieTrust2 is now true.",color=orange];
-		j361145228 -> j353305298;
-		j361145228 -> j1158166161;
+		j361145228 -> j2335720207;
+		j361145228 -> j2935915885;
 	j3851817314 [label="Boolean LettieTrust2 is now true.",color=orange];
 		j3851817314 -> j2496314247;
-	j506041623 [label="+10 Chemistry",color=orange];
-		j506041623 -> j797376394;
-	j3874982622 [label="Not about comfort, babas 
-You want to hear about all the times I've had to put someone down or take off a limb 
-The times I've had a mother weeping next to their dead child and had to tell her I couldn't save her 
-I see it all the time 
+	j967158313 [label="+10 Chemistry",color=orange];
+		j967158313 -> j2889818226;
+	j1750058067 [label="곤란하니 뭐니 하는 문제가 아냐, babas
+지금 네가 듣고 싶어하는 건 내가 누굴 안락사시키거나 팔다리를 절단해야 했던 시기의 일이라고
+죽은 애 옆에 엄마가 울고 있는데 그 엄마한테 애 못 살린다고 말해야 하던 시절이란 말이야
+그런 걸 늘상 봐 왔어
 Me vale madre",shape=box,color=blue];
-		j3874982622 -> j2244764382;
-	j1479769695 [label="Gotten used to having you underfoot 
-Might miss you if you leave 
-Don't let it go to your head",shape=box,color=blue];
-		j1479769695 -> "Chat ends.";
-	j2534967988 [label="I was going to say \"Hex\"",shape=box,color=red];
-		j2534967988 -> j80216590;
-	j1086033112 [label="I was going to say \"protoframes\"",shape=box,color=red];
-		j1086033112 -> j3789406573;
-	j246603334 [label="Is that what you think you are?",shape=box,color=red];
-		j246603334 -> j143962683;
-	j578685666 [label="But I guess in the end it's all the same
-People dying in the muck and mud
-Trust broken and lives lost
-And La Flaca takes them home",shape=box,color=blue];
-		j578685666 -> j537791958;
-	j353305298 [label="If you're not comfortable telling me, that's fine.",shape=box,color=red];
-		j353305298 -> j1546779174;
-	j1158166161 [label="What did he *do* to you?",shape=box,color=red];
-		j1158166161 -> j1725123203;
+		j1750058067 -> j1266274322;
+	j3940657534 [label="네가 곁에 있는 게 너무 익숙해졌어, babas 
+네가 떠나면 그리울 거야 
+너무 우쭐대진 말고",shape=box,color=blue];
+		j3940657534 -> "Chat ends.";
+	j1256779665 [label="\"어떻게 헥스가 됐냐\" 라고 말하려고 했어",shape=box,color=red];
+		j1256779665 -> j721351958;
+	j2547850401 [label="\"어떻게 프로토프레임이 됐냐\" 라고 말하려고 했어",shape=box,color=red];
+		j2547850401 -> j3311260350;
+	j1135167420 [label="넌 너 자신을 그렇게 생각하는 거야?",shape=box,color=red];
+		j1135167420 -> j1366141738;
+	j4053811458 [label="하지만 결국 마지막은 다 똑같을 거야
+사람들이 진흙탕 속에서 죽어갈거야
+신뢰가 깨지고 생명이 사라지고
+그리고 La Flaca가 그들을 데리러 오는거야",shape=box,color=blue];
+		j4053811458 -> j537791958;
+	j2335720207 [label="말하기 곤란하면 말하지 않아도 괜찮아.",shape=box,color=red];
+		j2335720207 -> j146220729;
+	j2935915885 [label="그가 너한테 *무슨 짓*을 했는데?",shape=box,color=red];
+		j2935915885 -> j1138429958;
 	j2496314247 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j2496314247 -> j1114282050;
-		j2496314247 -> j2402215704;
-	j797376394 [label="Mm 
-Not a fun story, buddy 
-Not fun to hear 
-Mierda, not fun to tell",shape=box,color=blue];
-		j797376394 -> j2244764382;
-	j2244764382 [label="It's just... 
-Not something I want to get into
-Not today",shape=box,color=blue];
-		j2244764382 -> j4025421707;
-		j2244764382 -> j343162421;
-	j80216590 [label="Hate that name 
-The bruja picked it 
-I don't recall voting on it",shape=box,color=blue];
-		j80216590 -> j2910440960;
-	j3789406573 [label="Stupid word 
-Sounds like you made it up 
-I don't recall voting on it",shape=box,color=blue];
-		j3789406573 -> j2910440960;
-	j143962683 [label="Sí 
-It's what we are 
+		j2496314247 -> j1592591073;
+		j2496314247 -> j4232775852;
+	j2889818226 [label="음 
+유쾌한 이야기는 아니야, 친구야 
+듣기에 유쾌하지도 않고 
+Mierda 말해주기도 유쾌하지 않아",shape=box,color=blue];
+		j2889818226 -> j1266274322;
+	j1266274322 [label="그냥...
+들추고 싶지 않은 얘기야
+적어도 오늘은",shape=box,color=blue];
+		j1266274322 -> j3584366733;
+		j1266274322 -> j3136112622;
+	j721351958 [label="그 이름 싫어 
+그 bruja가 지었다고 
+난 선택권 조차 없었는데",shape=box,color=blue];
+		j721351958 -> j3663341273;
+	j3311260350 [label="바보같은 말이지
+듣기엔 네가 지어낸 것 같은데
+난 그러자고 찬성한 적 없어",shape=box,color=blue];
+		j3311260350 -> j3663341273;
+	j1366141738 [label="Sí 
+그거 맞지 뭐 
 Monstruos, antinaturales 
-Made by that cabrón",shape=box,color=blue];
-		j143962683 -> j3998011074;
+그놈의 cabrón이 만든",shape=box,color=blue];
+		j1366141738 -> j3855995968;
 	j537791958 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j537791958 -> j3304628822;
-		j537791958 -> j2787350684;
-	j1546779174 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j1546779174 -> j2030735937;
-	j1725123203 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j1725123203 -> j2716935231;
-	j1114282050 [label="I don't know what he did to you, but... sounds like it was rough.",shape=box,color=red];
-		j1114282050 -> j2716935231;
-	j2402215704 [label="Can I ask what he did?",shape=box,color=red];
-		j2402215704 -> j2716935231;
-	j4025421707 [label="Why not?",shape=box,color=red];
-		j4025421707 -> j1479769695;
-	j343162421 [label="I get it. Not a problem.",shape=box,color=red];
-		j343162421 -> j63194486;
-	j2910440960 [label="Ay, equis 
-Not worth fighting over 
-Doesn't change what we are 
-Just twisted science experiments 
-Lab rats",shape=box,color=blue];
-		j2910440960 -> j576232559;
-	j3998011074 [label="Like that stitched together creature from that book 
-Just twisted science experiments 
-Lab rats",shape=box,color=blue];
-		j3998011074 -> j576232559;
-	j3304628822 [label="How'd you wind up meeting Entrati, though?",shape=box,color=red];
-		j3304628822 -> j1948602514;
-	j2787350684 [label="Can I ask what happened next?",shape=box,color=red];
-		j2787350684 -> j4170386790;
-	j2030735937 [label="Not about comfort, babas 
-You want to hear about all the times I've had to put someone down or take off a limb 
-The times I've had a mother weeping next to their dead child and had to tell her I couldn't save her 
-I see it all the time 
+		j537791958 -> j1101691889;
+		j537791958 -> j425619289;
+	j146220729 [label="Boolean LettieHexAsked is now true.",color=orange];
+		j146220729 -> j578336930;
+	j1138429958 [label="Boolean LettieHexAsked is now true.",color=orange];
+		j1138429958 -> j2745035017;
+	j1592591073 [label="그가 너한테 무슨 짓을 했는지는 모르겠지만... 힘들었겠다.",shape=box,color=red];
+		j1592591073 -> j2745035017;
+	j4232775852 [label="그가 무슨 짓을 했는지 알려줄 수 있어?",shape=box,color=red];
+		j4232775852 -> j2745035017;
+	j3584366733 [label="왜?",shape=box,color=red];
+		j3584366733 -> j3940657534;
+	j3136112622 [label="알겠어. 괜찮아.",shape=box,color=red];
+		j3136112622 -> j1298721223;
+	j3663341273 [label="Ay, equis 
+뭐 굳이 싸울만한 가치도 없고
+어차피 그런다고 우리 지금 모습이 바뀌진 않아
+그냥 뒤틀린 과학 실험일 뿐이지
+실험실 쥐처럼",shape=box,color=blue];
+		j3663341273 -> j576232559;
+	j3855995968 [label="그 책에서 나오는 조각조각 꿰매 만든 괴물처럼
+그냥 뒤틀린 과학 실험일 뿐이지
+실험실 쥐처럼",shape=box,color=blue];
+		j3855995968 -> j576232559;
+	j1101691889 [label="그런데 엔트라티는 어떻게 만나게 된 거야?",shape=box,color=red];
+		j1101691889 -> j3343284524;
+	j425619289 [label="그 다음엔 무슨 일이 일어났는지 물어도 돼?",shape=box,color=red];
+		j425619289 -> j2931456962;
+	j578336930 [label="곤란하니 뭐니 하는 문제가 아냐, babas
+지금 네가 듣고 싶어하는 건 내가 누굴 안락사시키거나 팔다리를 절단해야 했던 시기의 일이라고
+죽은 애 옆에 엄마가 울고 있는데 그 엄마한테 애 못 살린다고 말해야 하던 시절이란 말이야
+그런 걸 늘상 봐 왔어
 Me vale madre",shape=box,color=blue];
-		j2030735937 -> j917678312;
-	j2716935231 [label="Mm 
-Not a fun story, friend 
-Not fun to hear 
-Mierda, not fun to tell",shape=box,color=blue];
-		j2716935231 -> j917678312;
-	j63194486 [label="+5 Chemistry",color=orange];
-		j63194486 -> j860191297;
+		j578336930 -> j1100552378;
+	j2745035017 [label="음 
+유쾌한 이야기는 아니야, 친구 
+듣기에 유쾌하지도 않고 
+Mierda 말해주기도 유쾌하지 않아",shape=box,color=blue];
+		j2745035017 -> j1100552378;
+	j1298721223 [label="+5 Chemistry",color=orange];
+		j1298721223 -> j147821959;
 	j576232559 [label="Check boolean LettieRats1",color=orange];
 		j576232559 -> j1695584173 [label=true,color=green];
 		j576232559 -> j4178731299 [label=false,color=brown];
-	j1948602514 [label="Mmm why are you asking, ¿babas?
-Has no one told you what happened?",shape=box,color=blue];
-		j1948602514 -> j1213450689;
-		j1948602514 -> j1919024470;
-		j1948602514 -> j2125020426;
-	j4170386790 [label="Sí, you just did jajaja
-But I get what you're asking
-And you've been dancing around the subject like you want to do the tango
-You know I don't want to talk about it
-Has no one told you what happened?",shape=box,color=blue];
-		j4170386790 -> j1213450689;
-		j4170386790 -> j1919024470;
-		j4170386790 -> j2125020426;
-	j917678312 [label="It's just... 
-Not something I want to get into 
-Not today",shape=box,color=blue];
-		j917678312 -> j2441010028;
-		j917678312 -> j1282734677;
-	j860191297 [label="Gracias 
-Gotten used to having you underfoot 
-Might miss you if you leave 
-Don't let it go to your head",shape=box,color=blue];
-		j860191297 -> "Chat ends.";
+	j3343284524 [label="으음 왜 묻는 거지, ¿babas?
+무슨 일이 있었는지 아무도 너한테 말 안 해 줬어?",shape=box,color=blue];
+		j3343284524 -> j3912600539;
+		j3343284524 -> j2193654266;
+		j3343284524 -> j1371432164;
+	j2931456962 [label="Sí, 봐봐라 방금 물어봤잖아 jajaja
+하지만 너가 물어보는 게 뭔진 알겠우
+그리고 뭔 탱고라도 추고 싶은 것처럼 그 얘기 주변만 빙글빙글 돌아갖곤
+내가 그 얘기 안 하고 싶어하는 거 너도 알텐데
+무슨 일 있었는지 아무도 너한테 말 안 해줬어?",shape=box,color=blue];
+		j2931456962 -> j3912600539;
+		j2931456962 -> j2193654266;
+		j2931456962 -> j1371432164;
+	j1100552378 [label="그냥...
+들추고 싶지 않은 얘기야
+적어도 오늘은",shape=box,color=blue];
+		j1100552378 -> j2636079249;
+		j1100552378 -> j2769431276;
+	j147821959 [label="Gracias
+네가 곁에 있는 게 너무 익숙해졌어, babas 
+네가 떠나면 그리울 거야 
+너무 우쭐대진 말고",shape=box,color=blue];
+		j147821959 -> "Chat ends.";
 	j1695584173 [label="Check boolean LettieNoFlirt",color=orange];
-		j1695584173 -> j827148059 [label=true,color=green];
-		j1695584173 -> j1251563958 [label=true,color=green];
-		j1695584173 -> j827148059 [label=false,color=brown];
-		j1695584173 -> j1251563958 [label=false,color=brown];
-		j1695584173 -> j3641085205 [label=false,color=brown];
+		j1695584173 -> j515934497 [label=true,color=green];
+		j1695584173 -> j128382050 [label=true,color=green];
+		j1695584173 -> j515934497 [label=false,color=brown];
+		j1695584173 -> j128382050 [label=false,color=brown];
+		j1695584173 -> j2896197234 [label=false,color=brown];
 	j4178731299 [label="Check boolean LettieRats2",color=orange];
 		j4178731299 -> j1695584173 [label=true,color=green];
 		j4178731299 -> j3581880316 [label=false,color=brown];
-	j1213450689 [label="I'm just trying to get the whole picture.",shape=box,color=red];
-		j1213450689 -> j2254233339;
-	j1919024470 [label="No one else will tell me. They just avoid the subject.",shape=box,color=red];
-		j1919024470 -> j2713063559;
-	j2125020426 [label="I figured you'd be the one to give me a straight answer.",shape=box,color=red];
-		j2125020426 -> j4147866442;
-	j2441010028 [label="Why not?",shape=box,color=red];
-		j2441010028 -> j2795009975;
-	j1282734677 [label="I get it. Not a problem.",shape=box,color=red];
-		j1282734677 -> j355106435;
-	j827148059 [label="You're a far cry from a lab rat, Lettie.",shape=box,color=red];
-		j827148059 -> j2404403174;
-	j1251563958 [label="Well, I think rats are intelligent, social, adorable wonderful animals...",shape=box,color=red];
-		j1251563958 -> j1387364454;
-	j3641085205 [label="Sexiest lab rat *I've* ever seen.",shape=box,color=red];
-		j3641085205 -> j2680856233;
+	j3912600539 [label="그냥 전체적인 상황을 알고 싶을 뿐이야.",shape=box,color=red];
+		j3912600539 -> j2223211905;
+	j2193654266 [label="아무도 나한테 말 안 해줘. 그냥 주제를 회피한단 말이야.",shape=box,color=red];
+		j2193654266 -> j2390460874;
+	j1371432164 [label="너라면 확실하게 대답해 줄 거라고 생각했어.",shape=box,color=red];
+		j1371432164 -> j2194998807;
+	j2636079249 [label="왜?",shape=box,color=red];
+		j2636079249 -> j3962583622;
+	j2769431276 [label="알겠어. 괜찮아.",shape=box,color=red];
+		j2769431276 -> j3813076494;
+	j515934497 [label="너는 실험 쥐와는 거리가 멀어, 레티.",shape=box,color=red];
+		j515934497 -> j265232223;
+	j128382050 [label="뭐, 쥐들은 똑똑하고, 사교적이고, 귀엽고, 멋진 동물이라고 생각하는데...",shape=box,color=red];
+		j128382050 -> j4267837758;
+	j2896197234 [label="그렇다면 지금껏 *내가* 본 실험 쥐 중에 제일 섹시한 쥐인걸.",shape=box,color=red];
+		j2896197234 -> j786347867;
 	j3581880316 [label="Check boolean LettieRats3",color=orange];
 		j3581880316 -> j1695584173 [label=true,color=green];
 		j3581880316 -> j853067559 [label=false,color=brown];
-	j2254233339 [label="+10 Chemistry",color=orange];
-		j2254233339 -> j1822646015;
-	j2713063559 [label="+15 Chemistry",color=orange];
-		j2713063559 -> j1497954087;
-	j4147866442 [label="+20 Chemistry",color=orange];
-		j4147866442 -> j1635020784;
-	j2795009975 [label="Gotten used to having you underfoot 
-Might miss you if you leave 
+	j2223211905 [label="+10 Chemistry",color=orange];
+		j2223211905 -> j637296932;
+	j2390460874 [label="+15 Chemistry",color=orange];
+		j2390460874 -> j1763439884;
+	j2194998807 [label="+20 Chemistry",color=orange];
+		j2194998807 -> j2204068192;
+	j3962583622 [label="네가 곁에 있는 게 너무 익숙해졌어, babas 
+네가 떠나면 그리울 거야 
 No dejes que se te suba a la cabeza",shape=box,color=blue];
-		j2795009975 -> "Chat ends.";
-	j355106435 [label="Gracias
-Gotten used to having you underfoot 
-Might miss you if you leave 
+		j3962583622 -> "Chat ends.";
+	j3813076494 [label="고마워
+네가 곁에 있는 게 너무 익숙해졌어, babas 
+네가 떠나면 그리울 거야 
 No dejes que se te suba a la cabeza",shape=box,color=blue];
-		j355106435 -> "Chat ends.";
-	j2404403174 [label="¿Ay, sí? 
-Experimented on, infected, abused 
-Tossed aside when the use was done 
-Dangerous if left to spread their diseases",shape=box,color=blue];
-		j2404403174 -> j2542076941;
-		j2404403174 -> j2706255141;
-	j1387364454 [label="+10 Chemistry",color=orange];
-		j1387364454 -> j2009304580;
-	j2680856233 [label="+10 Chemistry",color=orange];
-		j2680856233 -> j1475379594;
+		j3813076494 -> "Chat ends.";
+	j265232223 [label="¿Ay, sí? 
+실험당해서, 감염되고, 이용당하고
+이용가치가 다하니까 휙 던져버렸지
+놔두면 병을 퍼뜨리니까 위험하고",shape=box,color=blue];
+		j265232223 -> j777140909;
+		j265232223 -> j440534536;
+	j4267837758 [label="+10 Chemistry",color=orange];
+		j4267837758 -> j2075288788;
+	j786347867 [label="+10 Chemistry",color=orange];
+		j786347867 -> j3780220415;
 	j853067559 [label="Check boolean LettieNoFlirt",color=orange];
-		j853067559 -> j426679622 [label=true,color=green];
-		j853067559 -> j579851419 [label=true,color=green];
-		j853067559 -> j3641085205 [label=false,color=brown];
-		j853067559 -> j426679622 [label=false,color=brown];
-		j853067559 -> j579851419 [label=false,color=brown];
-	j1822646015 [label="Ay, sííí
-I'm sure you are
-And if nobody else will tell you I guess it's up to Mamá Lettie
-Well this story is one I don't like to tell
-Especially because I've gotten used to having you underfoot",shape=box,color=blue];
-		j1822646015 -> j1269416356;
-	j1497954087 [label="Mmm and you wonder why 
-And figure Mamá Lettie would tell you the truth 
-Normally you'd be right, babas 
-But this one I don't like to tell 
-Especially because I've gotten used to having you underfoot",shape=box,color=blue];
-		j1497954087 -> j1269416356;
-	j1635020784 [label="JAJAJA Sííí 
-Normally you'd be right
-But this one? 
-This one I don't like to tell 
-Especially because I've gotten used to having you underfoot",shape=box,color=blue];
-		j1635020784 -> j1269416356;
-	j2542076941 [label="What do you mean, \"spread their diseases?\"",shape=box,color=red];
-		j2542076941 -> j1283188250;
-	j2706255141 [label="A lab rat isn't to blame for the things the scientists force on them.",shape=box,color=red];
-		j2706255141 -> j627344084;
-	j2009304580 [label="Nngh, sí, bien jugado 
-But it doesn't mean they should be allowed to spread their diseases",shape=box,color=blue];
-		j2009304580 -> j2542076941;
-		j2009304580 -> j2706255141;
-	j1475379594 [label="Jajaja, gracias 
-You know how to make me smile 
-But it doesn't mean they should be allowed to spread their diseases",shape=box,color=blue];
-		j1475379594 -> j2542076941;
-		j1475379594 -> j2706255141;
-	j426679622 [label="You're a far cry from a lab rat, Lettie.",shape=box,color=red];
-		j426679622 -> j1637640812;
-	j579851419 [label="Then what're you suggesting we do? Put you all down?",shape=box,color=red];
-		j579851419 -> j3636564305;
-	j1269416356 [label="Might miss you if you leave 
-And this story might make you turn and go 
-So a story for another day 
-Oh and babas 
+		j853067559 -> j3935674856 [label=true,color=green];
+		j853067559 -> j3172130184 [label=true,color=green];
+		j853067559 -> j2896197234 [label=false,color=brown];
+		j853067559 -> j3935674856 [label=false,color=brown];
+		j853067559 -> j3172130184 [label=false,color=brown];
+	j637296932 [label="Ay, sííí
+그러시겠지
+그리고 다른 사람 아무도 말해주려 하지 않거든 아무래도 이 Mamá 레티께 달린 일이지 싶네
+뭐 나도 안 좋아하는 얘기긴 하지만
+특히 네가 내 옆에 있는 데 너무 익숙해졌으니까 더더욱",shape=box,color=blue];
+		j637296932 -> j1374960520;
+	j1763439884 [label="음음 그걸 봐 놓고도 왜 그런지를 궁금해해
+그래놓곤 이 Mamá 레티라면 진실을 알려줄 거라고 생각하고
+보통이라면 네 생각이 맞겠지, babas
+하지만 이 얘긴 내가 안 좋아해
+특히 네가 내 옆에 있는 데 너무 익숙해졌으니까 더더욱",shape=box,color=blue];
+		j1763439884 -> j1374960520;
+	j2204068192 [label="JAJAJA Sííí 
+보통은 네 생각이 맞지
+하지만 이거는?
+내가 별로 얘기하기 싫어하는 주제야
+특히 네가 내 옆에 있는 데 너무 익숙해졌으니까 더더욱",shape=box,color=blue];
+		j2204068192 -> j1374960520;
+	j777140909 [label="\"질병을 퍼뜨린다\"니 그게 무슨말이야?",shape=box,color=red];
+		j777140909 -> j430725370;
+	j440534536 [label="과학자가 쥐들에게 억지로 강요하는 것 뿐이지, 쥐들이 거기에 책임이 있는 게 아니잖아.",shape=box,color=red];
+		j440534536 -> j625359637;
+	j2075288788 [label="Nngh, sí, bien jugado 
+그래도 걔들이 질병을 퍼뜨려도 좋다는 이유는 되지 않아",shape=box,color=blue];
+		j2075288788 -> j777140909;
+		j2075288788 -> j440534536;
+	j3780220415 [label="Jajaja, gracias
+넌 진짜 날 웃게 만드는 방법을 아는구나
+그래도 걔들이 질병을 퍼뜨려도 좋다는 이유는 되지 않아",shape=box,color=blue];
+		j3780220415 -> j777140909;
+		j3780220415 -> j440534536;
+	j3935674856 [label="너는 실험 쥐와는 거리가 멀어, 레티.",shape=box,color=red];
+		j3935674856 -> j2707513884;
+	j3172130184 [label="그럼 대체 어쩌자는 거야? 너희를 전부 안락사시키자고?",shape=box,color=red];
+		j3172130184 -> j2191856510;
+	j1374960520 [label="네가 떠나면 그리워질지도 모르는데
+이 얘길 들으면 그냥 뒤돌아 떠나버릴지도 모르니까
+그러니 다음에 할 이야기로 두자
+오 그리고 babas
 No dejes que se te suba a la cabeza",shape=box,color=blue];
-		j1269416356 -> "Chat ends.";
-	j1283188250 [label="+10 Chemistry",color=orange];
-		j1283188250 -> j2367626460;
-	j627344084 [label="+10 Chemistry",color=orange];
-		j627344084 -> j3318146578;
-	j1637640812 [label="¿Ay, sí? 
-Experimented on, infected, abused 
-Tossed aside when the use was done 
-Dangerous if left to spread their diseases",shape=box,color=blue];
-		j1637640812 -> j2542076941;
-		j1637640812 -> j3760189832;
-	j3636564305 [label="If we weren't trapped in this loop 
-You'd have to or we'd go mad like the bruja metiche did in that nightmare 
-Isn't that right?",shape=box,color=blue];
-		j3636564305 -> j303089073;
-		j3636564305 -> j2127070509;
-	j2367626460 [label="That Entrati cabrón deserves to die a slow and painful death 
-And I hope I get to be the one that delivers him to La Flaca personally",shape=box,color=blue];
-		j2367626460 -> j1650713167;
-	j3318146578 [label="Sí... 
-You understand 
-That Entrati cabrón deserves to die a slow and painful death 
-And I hope I get to be the one that delivers him to La Flaca personally",shape=box,color=blue];
-		j3318146578 -> j1650713167;
-	j3760189832 [label="You're not to blame for any of this, Lettie.",shape=box,color=red];
-		j3760189832 -> j4176430335;
-	j303089073 [label="Yeah. Eventually, you would.",shape=box,color=red];
-		j303089073 -> j4092679339;
-	j2127070509 [label="Well, with transference it could be slowed...",shape=box,color=red];
-		j2127070509 -> j2537051324;
-	j1650713167 [label="Pero it's not a story I'm telling today 
-Too much shit to do 
-And too much shit in that story for today 
-Back to work for both of us",shape=box,color=blue];
-		j1650713167 -> "Chat ends.";
-	j4176430335 [label="Jajaja 
-Are you so sure, ¿babas? 
-You just wait 
-You might change your mind",shape=box,color=blue];
-		j4176430335 -> j1650713167;
-	j4092679339 [label="+10 Chemistry",color=orange];
-		j4092679339 -> j2819533656;
-	j2537051324 [label="Don't lie to me, babas 
-I don't need protecting, you should know that by now",shape=box,color=blue];
-		j2537051324 -> j3508021598;
-	j2819533656 [label="See? 
-Monstruos 
-But it's fine, I suppose 
-Trapped here we cannot do much harm anymore",shape=box,color=blue];
-		j2819533656 -> j921633947;
+		j1374960520 -> "Chat ends.";
+	j430725370 [label="+10 Chemistry",color=orange];
+		j430725370 -> j2251933196;
+	j625359637 [label="+10 Chemistry",color=orange];
+		j625359637 -> j3991157216;
+	j2707513884 [label="¿Ay, sí? 
+실험당해서, 감염되고, 이용당하고
+이용가치가 다하니까 휙 던져버렸지
+놔두면 병을 퍼뜨리니까 위험하고",shape=box,color=blue];
+		j2707513884 -> j1867454063;
+		j2707513884 -> j2055790640;
+	j2191856510 [label="우리가 이 루프에 갇히지 않았다면
+그래야 했겠지, 안 그랬음 그 악몽에서 그 bruja metiche가 그랬던 것처럼 미쳐버렸을 테니까
+안 그래?",shape=box,color=blue];
+		j2191856510 -> j1251935062;
+		j2191856510 -> j2142924126;
+	j2251933196 [label="그 엔트라티 cabrón 새끼는 아주 천천히 그리고 고통스럽게 죽어야 해
+그리고 그놈을 La Flaca에게 직접 가져다 대령하는 사람은 가능한 나였음 좋겠군",shape=box,color=blue];
+		j2251933196 -> j4294959308;
+	j3991157216 [label="Sí... 
+역시 아는구나
+그 엔트라티 cabrón 새끼는 아주 천천히 그리고 고통스럽게 죽어야 해
+그리고 그놈을 La Flaca에게 친히 가져다 대령하는 사람은 가능한 나였음 좋겠군",shape=box,color=blue];
+		j3991157216 -> j4294959308;
+	j1867454063 [label="\"질병을 퍼뜨린다\"니 그게 무슨말이야?",shape=box,color=red];
+		j1867454063 -> j4263748425;
+	j2055790640 [label="이게 다 네 잘못은 아니야, 레티.",shape=box,color=red];
+		j2055790640 -> j3874415316;
+	j1251935062 [label="응. 결국엔 그렇게 되겠지.",shape=box,color=red];
+		j1251935062 -> j2121551396;
+	j2142924126 [label="음, 전이를 통해서 늦출 수는 있을 텐데...",shape=box,color=red];
+		j2142924126 -> j2963631808;
+	j4294959308 [label="Pero 이 얘긴 오늘 하진 않을 거야
+할 게 너무 빌어먹게 많아
+그리고 오늘 바로 하기엔 그 얘기에도 빌어먹을 게 너무 많고
+우리 둘 다 다시 일이나 하러 가자",shape=box,color=blue];
+		j4294959308 -> "Chat ends.";
+	j4263748425 [label="+10 Chemistry",color=orange];
+		j4263748425 -> j2748668207;
+	j3874415316 [label="Jajaja 
+정말 그렇게 생각하냐, ¿babas? 
+두고 봐
+너도 생각을 바꿀 지도 모르니",shape=box,color=blue];
+		j3874415316 -> j4294959308;
+	j2121551396 [label="+10 Chemistry",color=orange];
+		j2121551396 -> j232434947;
+	j2963631808 [label="거짓말하지 마, babas
+난 보호 따위 필요 없어, 지금까지 봤으면 그걸 알 텐데",shape=box,color=blue];
+		j2963631808 -> j3508021598;
+	j2748668207 [label="그 엔트라티 cabrón 새끼는 아주 천천히 그리고 고통스럽게 죽어야 해
+그리고 그놈을 La Flaca에게 친히 가져다 대령하는 사람은 가능한 나였음 좋겠군",shape=box,color=blue];
+		j2748668207 -> j4294959308;
+	j232434947 [label="그렇잖아?
+Monstruos
+뭐 그래도 괜찮을 거야, 아마도
+어차피 여기 갇힌 상태에선 그렇게 커다란 해도 못 끼치겠지",shape=box,color=blue];
+		j232434947 -> j2721311895;
 	j3508021598 [label="Ay, equis 
 Vete",shape=box,color=blue];
 		j3508021598 -> "Chat ends.";
-	j921633947 [label="Ay, equis 
-Back to work for both of us 
+	j2721311895 [label="Ay, equis 
+우리 둘 다 일이나 하러 가야지
 Vete, babas",shape=box,color=blue];
-		j921633947 -> "Chat ends.";
+		j2721311895 -> "Chat ends.";
 }

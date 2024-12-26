@@ -26,11 +26,11 @@ digraph {
 	j1716058142 [label="qui étaient... des gens... BREF",shape=box,color=blue];
 		j1716058142 -> j3029712404;
 	j3029712404 [label="euh. merde. j'ai oublié ma question. donne-moi une seconde",shape=box,color=blue];
-		j3029712404 -> j4071986617;
+		j3029712404 -> j1860379703;
 		j3029712404 -> j1128100080;
 		j3029712404 -> j2576253322;
-	j4071986617 [label="Je vais bien, merci d'avoir demandé. Comment tu vas?",shape=box,color=red];
-		j4071986617 -> j3171797158;
+	j1860379703 [label="Je vais bien, merci d'avoir demandé. Comment vas-tu?",shape=box,color=red];
+		j1860379703 -> j3171797158;
 	j1128100080 [label="Putain, mon pote. Tu vas bien?",shape=box,color=red];
 		j1128100080 -> j3694752467;
 	j2576253322 [label="Ouah, ouais. [Fin.]",shape=box,color=red];
@@ -65,7 +65,7 @@ digraph {
 		j3912307238 -> j1594931747;
 	j81052744 [label="Ouais. Il y a Ordis.",shape=box,color=red];
 		j81052744 -> j2711896477;
-		j81052744 -> j1078923911;
+		j81052744 -> j2145131900;
 	j2454518473 [label="Il y a Necraloid et Otak",shape=box,color=red];
 		j2454518473 -> j465332088;
 		j2454518473 -> j3228802819;
@@ -76,8 +76,8 @@ digraph {
 		j1594931747 -> j2851458245;
 	j2711896477 [label="C'est mon assistant.",shape=box,color=red];
 		j2711896477 -> j2537751259;
-	j1078923911 [label="C'est mon meilleur ami.",shape=box,color=red];
-		j1078923911 -> j3250099039;
+	j2145131900 [label="C'est mon meilleur ami.",shape=box,color=red];
+		j2145131900 -> j2069777044;
 	j465332088 [label="Ils aident sur Deimos et là où ils peuvent.",shape=box,color=red];
 		j465332088 -> j3044137722;
 	j3228802819 [label="Ils font vraiment de leur mieux.",shape=box,color=red];
@@ -91,8 +91,8 @@ digraph {
 	j2537751259 [label="Check boolean AmirOrdis1",color=orange];
 		j2537751259 -> j2019519455 [label=true,color=green];
 		j2537751259 -> j3475790068 [label=false,color=brown];
-	j3250099039 [label="Il surveille le vaisseau, garde un œil sur les choses.",shape=box,color=red];
-		j3250099039 -> j2537751259;
+	j2069777044 [label="Il surveille le vaisseau, garde un œil sur tout.",shape=box,color=red];
+		j2069777044 -> j2537751259;
 	j3044137722 [label="Boolean AmirOtak is now true.",color=orange];
 		j3044137722 -> j2867866365;
 	j3613717714 [label="Boolean AmirCy is now true.",color=orange];

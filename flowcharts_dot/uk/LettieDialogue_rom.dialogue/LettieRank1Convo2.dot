@@ -2,152 +2,152 @@ digraph {
 	"LettieRank1Convo2 begins." [color=orange];
 		"LettieRank1Convo2 begins." -> j681996593;
 	j681996593 [label="Check boolean LettieRatsAsked",color=orange];
-		j681996593 -> j973272468 [label=true,color=green];
-		j681996593 -> j2104355975 [label=false,color=brown];
-		j681996593 -> j973272468 [label=false,color=brown];
-	j973272468 [label="Anyone back home missing you?",shape=box,color=red];
-		j973272468 -> j381704664;
-	j2104355975 [label="So what made you want to keep rats as pets?",shape=box,color=red];
-		j2104355975 -> j1442152414;
+		j681996593 -> j3974853539 [label=true,color=green];
+		j681996593 -> j1424847834 [label=false,color=brown];
+		j681996593 -> j3974853539 [label=false,color=brown];
+	j3974853539 [label="Хтось удома сумує за тобою?",shape=box,color=red];
+		j3974853539 -> j381704664;
+	j1424847834 [label="Чому ти захотіла тримати домашніх пацюків?",shape=box,color=red];
+		j1424847834 -> j1442152414;
 	j381704664 [label="Boolean LettieHomeAsked is now true.",color=orange];
 		j381704664 -> j1977719106;
 	j1442152414 [label="Boolean LettieRatsAsked is now true.",color=orange];
 		j1442152414 -> j2154717222;
 	j1977719106 [label="Check boolean LettieInteresting",color=orange];
-		j1977719106 -> j3789097672 [label=true,color=green];
-		j1977719106 -> j2982088708 [label=false,color=brown];
+		j1977719106 -> j1227200143 [label=true,color=green];
+		j1977719106 -> j625473451 [label=false,color=brown];
 	j2154717222 [label="Check boolean LettieInteresting",color=orange];
-		j2154717222 -> j1445639228 [label=true,color=green];
-		j2154717222 -> j2311387212 [label=false,color=brown];
-	j3789097672 [label="Much better question 
-You learn quick 
-However",shape=box,color=blue];
-		j3789097672 -> j2982088708;
-	j2982088708 [label="Doesn't matter 
-Can't leave this cuchitril 
-So why think about them",shape=box,color=blue];
-		j2982088708 -> j884719727;
-		j2982088708 -> j4259741509;
-		j2982088708 -> j1431469027;
-	j1445639228 [label="Ey, see? 
-Much better question, babas 
-You learn quick",shape=box,color=blue];
-		j1445639228 -> j2311387212;
-	j2311387212 [label="You tell me",shape=box,color=blue];
-		j2311387212 -> j90173675;
-		j2311387212 -> j942967000;
-	j884719727 [label="We're talking on the *internet* and you know the *phone* exists, yeah?",shape=box,color=red];
-		j884719727 -> j2208804894;
-	j4259741509 [label="Sometimes painful memories are all that get us through.",shape=box,color=red];
-		j4259741509 -> j1731471158;
-	j1431469027 [label="O...kay... [End.]",shape=box,color=red];
-		j1431469027 -> "Chat ends.";
-	j90173675 [label="Huh?",shape=box,color=red];
-		j90173675 -> j1358440934;
-	j942967000 [label="I don't think I like where this is going. [End.]",shape=box,color=red];
-		j942967000 -> j1922389995;
-	j2208804894 [label="Bien podría ser un pinche fantasma 
-Call from beyond the grave, can't change, can't live, can't die",shape=box,color=blue];
-		j2208804894 -> j2392254888;
-	j1731471158 [label="¿Sí? 
-What do you know of pain?",shape=box,color=blue];
-		j1731471158 -> j3892216348;
-		j1731471158 -> j4163400820;
+		j2154717222 -> j1822285199 [label=true,color=green];
+		j2154717222 -> j637992499 [label=false,color=brown];
+	j1227200143 [label="Це питання набагато ліпше
+Ти швидко вчишся 
+Однак",shape=box,color=blue];
+		j1227200143 -> j625473451;
+	j625473451 [label="Не має значення 
+Не можу залишити цю cuchitril
+То навіщо думати про них",shape=box,color=blue];
+		j625473451 -> j2697623949;
+		j625473451 -> j1663428557;
+		j625473451 -> j3157021694;
+	j1822285199 [label="От, бачиш? 
+Набагато краще питання, babas 
+Ти швидко вчишся",shape=box,color=blue];
+		j1822285199 -> j637992499;
+	j637992499 [label="Ти мені скажи",shape=box,color=blue];
+		j637992499 -> j3909124109;
+		j637992499 -> j2608555340;
+	j2697623949 [label="Ми спілкуємося в *Інтернеті*, і ти ж знаєш, що існує *телефон*, га?",shape=box,color=red];
+		j2697623949 -> j3989888334;
+	j1663428557 [label="Іноді болісні спогади допомагають нам жити далі.",shape=box,color=red];
+		j1663428557 -> j1586787708;
+	j3157021694 [label="Га… разд… [Кінець.]",shape=box,color=red];
+		j3157021694 -> "Chat ends.";
+	j3909124109 [label="Га?",shape=box,color=red];
+		j3909124109 -> j3335559735;
+	j2608555340 [label="Щось мені не подобається, куди це йде. [Кінець.]",shape=box,color=red];
+		j2608555340 -> j1922389995;
+	j3989888334 [label="Bien podría ser un pinche fantasma
+Дзвінок із потойбіччя, я не можу нічого змінити, не можу жити, не можу померти",shape=box,color=blue];
+		j3989888334 -> j388404913;
+	j1586787708 [label="¿Sí? 
+І що ти знаєш про біль?",shape=box,color=blue];
+		j1586787708 -> j2254071929;
+		j1586787708 -> j1846129925;
 	"Chat ends." [color=orange];
-	j1358440934 [label="I want to know why you think I like rats 
-Go on",shape=box,color=blue];
-		j1358440934 -> j842727620;
+	j3335559735 [label="Я хочу знати, чому ти думаєш я люблю пацюків 
+Кажи",shape=box,color=blue];
+		j3335559735 -> j842727620;
 	j1922389995 [label="Tú te lo pierdes",shape=box,color=blue];
 		j1922389995 -> "Chat ends.";
-	j2392254888 [label="¿¡What are we?! 
-FANTASMAS nothing more 
-Like shadows on a VHS tape used one too many times",shape=box,color=blue];
-		j2392254888 -> j3065840008;
-	j3892216348 [label="Do you know what it feels like to get your head cut off? I do. I've died a thousand times. And it *hurts,* lady.",shape=box,color=red];
-		j3892216348 -> j772685251;
-	j4163400820 [label="I don't have to prove myself to you, lady.",shape=box,color=red];
-		j4163400820 -> j1615096688;
+	j388404913 [label="¿¡Що ми?! 
+FANTASMAS й тільки 
+Як тіні на затертій відеокасеті",shape=box,color=blue];
+		j388404913 -> j708897579;
+	j2254071929 [label="Ти знаєш як це, коли тобі відрубають голову? Я так, зі мною це було тисячі разів. І це *боляче*, панянко.",shape=box,color=red];
+		j2254071929 -> j2766950193;
+	j1846129925 [label="Мені не потрібно тобі щось доводити, панянко.",shape=box,color=red];
+		j1846129925 -> j1094831155;
 	j842727620 [label="Boolean LettieRats1 is now true.",color=orange];
-		j842727620 -> j2683155781;
-		j842727620 -> j721486192;
-		j842727620 -> j2818215080;
-	j3065840008 [label="No, better they think I am already dead 
-I take this pain for them",shape=box,color=blue];
-		j3065840008 -> j3510239100;
-		j3065840008 -> j855475621;
-	j772685251 [label="Boolean LettieDuviri is now true.",color=orange];
-		j772685251 -> j4292010453;
-	j1615096688 [label="I did not ask you to 
-I'm busy 
+		j842727620 -> j168122498;
+		j842727620 -> j559658751;
+		j842727620 -> j3586274899;
+	j708897579 [label="Ні, краще най думають, що я вже мертва
+Я несу цей біль за них",shape=box,color=blue];
+		j708897579 -> j940541397;
+		j708897579 -> j1054337899;
+	j2766950193 [label="Boolean LettieDuviri is now true.",color=orange];
+		j2766950193 -> j2962422333;
+	j1094831155 [label="Я не просила тебе 
+Я зайнята
 Vete",shape=box,color=blue];
-		j1615096688 -> "Chat ends.";
-	j2683155781 [label="Because they're intelligent, affectionate, and playful?",shape=box,color=red];
-		j2683155781 -> j279393767;
-	j721486192 [label="Because they're often neglected and misunderstood?",shape=box,color=red];
-		j721486192 -> j279393767;
-	j2818215080 [label="Lettie? I don't understand the first thing about you. But the rats are cute as hell.",shape=box,color=red];
-		j2818215080 -> j2896234480;
-	j3510239100 [label="There's still life worth living, here.",shape=box,color=red];
-		j3510239100 -> j1299587495;
-	j855475621 [label="Do you take the pain for other people by choice, or because it's your duty?",shape=box,color=red];
-		j855475621 -> j1215472370;
-	j4292010453 [label="Touched by La Flaca 
-Another fantasma like the rest of us 
-Reliving their deaths again and again and again",shape=box,color=blue];
-		j4292010453 -> j3411622881;
-	j279393767 [label="Ay, Lua, sálvame",shape=box,color=blue];
-		j279393767 -> j3498663352;
-	j2896234480 [label="¡JAJAJA!",shape=box,color=blue];
-		j2896234480 -> j1253050768;
-	j1299587495 [label="Suure, suure 
-With Amir's games and Arthur's drinking and Aoi's music and Quincy's pictures",shape=box,color=blue];
-		j1299587495 -> j3703283446;
-	j1215472370 [label="+20 Chemistry",color=orange];
-		j1215472370 -> j3110993514;
-	j3411622881 [label="Sí 
-There is family at home 
-Better they think I am already dead",shape=box,color=blue];
-		j3411622881 -> j855475621;
-		j3411622881 -> j3510239100;
-	j3498663352 [label="No 
-Anything else you wanted",shape=box,color=blue];
-		j3498663352 -> j1274590455;
-		j3498663352 -> j3077796048;
-	j1253050768 [label="+20 Chemistry",color=orange];
-		j1253050768 -> j780517524;
-	j3703283446 [label="Empty hobbies 
-Empty souls 
-Passing time through eternity",shape=box,color=blue];
-		j3703283446 -> j1800583145;
-	j3110993514 [label="Both I suppose 
-I chose a long time ago 
-Now it's too late to go back",shape=box,color=blue];
-		j3110993514 -> j1352221585;
-	j1274590455 [label="Uh...",shape=box,color=red];
-		j1274590455 -> j19862724;
-	j3077796048 [label="No... never mind...",shape=box,color=red];
-		j3077796048 -> j3022833425;
-	j780517524 [label="Humility from our savior 
-I like it",shape=box,color=blue];
-		j780517524 -> j3307486547;
-	j1800583145 [label="I have work to do 
+		j1094831155 -> "Chat ends.";
+	j168122498 [label="Тому що вони розумні, ласкаві та грайливі?",shape=box,color=red];
+		j168122498 -> j3242779499;
+	j559658751 [label="Тому що ними часто нехтують і не розуміють?",shape=box,color=red];
+		j559658751 -> j3242779499;
+	j3586274899 [label="Летті? Ти для мене суцільна загадка. Але пацюки такі милі.",shape=box,color=red];
+		j3586274899 -> j1914936166;
+	j940541397 [label="Тут ще є заради чого жити.",shape=box,color=red];
+		j940541397 -> j2428545315;
+	j1054337899 [label="Ти береш на себе чужий біль за власним бажанням чи через обов’язок?",shape=box,color=red];
+		j1054337899 -> j2128517065;
+	j2962422333 [label="Мене торкалася La Flaca
+Ще одна fantasma, як і всі ми
+Переживаємо смерть по колу, знову і знову",shape=box,color=blue];
+		j2962422333 -> j3752842991;
+	j3242779499 [label="Ay, Луа, sálvame",shape=box,color=blue];
+		j3242779499 -> j2201310057;
+	j1914936166 [label="¡JAJAJA!",shape=box,color=blue];
+		j1914936166 -> j232779390;
+	j2428545315 [label="Так-так
+Тут є ігри Аміра, випивка Артура, музика Аой і фотографії Квінсі",shape=box,color=blue];
+		j2428545315 -> j1997826547;
+	j2128517065 [label="+20 Chemistry",color=orange];
+		j2128517065 -> j2517852762;
+	j3752842991 [label="Sí 
+У мене вдома сім’я 
+Краще нехай думають, що я вже мертва",shape=box,color=blue];
+		j3752842991 -> j1054337899;
+		j3752842991 -> j940541397;
+	j2201310057 [label="Ні 
+Маєш що ще сказати",shape=box,color=blue];
+		j2201310057 -> j3460494811;
+		j2201310057 -> j2697190506;
+	j232779390 [label="+20 Chemistry",color=orange];
+		j232779390 -> j1688322455;
+	j1997826547 [label="Порожні захоплення 
+Порожні душі 
+Гаємо час крізь вічність",shape=box,color=blue];
+		j1997826547 -> j667222908;
+	j2517852762 [label="Мабуть, і те, і інше
+Я давно це обрала
+Тепер пізно щось змінювати",shape=box,color=blue];
+		j2517852762 -> j2956462390;
+	j3460494811 [label="Ем…",shape=box,color=red];
+		j3460494811 -> j212399479;
+	j2697190506 [label="Ні… не зважай…",shape=box,color=red];
+		j2697190506 -> j3022833425;
+	j1688322455 [label="Смирення від нашого рятівника 
+Мені подобається",shape=box,color=blue];
+		j1688322455 -> j1207184727;
+	j667222908 [label="У мене купа роботи 
 Vete",shape=box,color=blue];
-		j1800583145 -> j2796755127;
-	j1352221585 [label="I have work to do",shape=box,color=blue];
-		j1352221585 -> j2796755127;
-	j19862724 [label="Boolean LettieHomeAsked is now true.",color=orange];
-		j19862724 -> j3743840293;
+		j667222908 -> j2796755127;
+	j2956462390 [label="У мене купа роботи",shape=box,color=blue];
+		j2956462390 -> j2796755127;
+	j212399479 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		j212399479 -> j4218873124;
 	j3022833425 [label="Va",shape=box,color=blue];
 		j3022833425 -> "Chat ends.";
-	j3307486547 [label="Didn't grow up with a lot of money as a kid 
-Bouncing from base to base 
-Rats were easy to keep, mi mamá didn't mind",shape=box,color=blue];
-		j3307486547 -> j3608814442;
+	j1207184727 [label="Я виросла в небагатій сім’ї 
+Ми переїжджали від бази до бази 
+Пацюків було легко тримати, та й mi mamá була не проти",shape=box,color=blue];
+		j1207184727 -> j4060373643;
 	j2796755127 [label="Boolean LettieFantasma1 is now true.",color=orange];
 		j2796755127 -> "Chat ends.";
-	j3743840293 [label="Anyone back home missing you?",shape=box,color=red];
-		j3743840293 -> j2982088708;
-	j3608814442 [label="I have to get back to work 
-See ya, babas",shape=box,color=blue];
-		j3608814442 -> "Chat ends.";
+	j4218873124 [label="Хтось удома сумує за тобою?",shape=box,color=red];
+		j4218873124 -> j625473451;
+	j4060373643 [label="Мені треба повертатися до роботи 
+Ще побачимося, babas",shape=box,color=blue];
+		j4060373643 -> "Chat ends.";
 }

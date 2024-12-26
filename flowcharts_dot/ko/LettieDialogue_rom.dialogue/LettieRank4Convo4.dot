@@ -3,86 +3,86 @@ digraph {
 		"LettieRank4Convo4 begins." -> j2827510990;
 	j2827510990 [label="Check boolean LettieNoFlirt",color=orange];
 		j2827510990 -> "Chat ends." [label=true,color=green];
-		j2827510990 -> j2454836907 [label=false,color=brown];
+		j2827510990 -> j3518793138 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j2454836907 [label="Hypothetical question: If I wanted to ask you out for drinks, would I end up with stitches?",shape=box,color=red];
-		j2454836907 -> j2794660236;
+	j3518793138 [label="예를 들어 질문을 해 보자. 내가 너랑 같이 마시러 나가고 싶다고 하면, 꿰맬 데만 늘어나게 되나?",shape=box,color=red];
+		j3518793138 -> j2794660236;
 	j2794660236 [label="Check boolean LettieNoDate",color=orange];
-		j2794660236 -> j3094005127 [label=true,color=green];
-		j2794660236 -> j2281307155 [label=false,color=brown];
-	j3094005127 [label="Sí 
-You would",shape=box,color=blue];
-		j3094005127 -> "Chat ends.";
-	j2281307155 [label="Mm? 
-Jajaja, no",shape=box,color=blue];
-		j2281307155 -> j2645235223;
-	j2645235223 [label="But I don't drink, never have 
-Don't do drugs, either 
-You'll have to be more creative to get into my pants 
-Or whatever it is I have to wear now",shape=box,color=blue];
-		j2645235223 -> j1956124225;
-		j2645235223 -> j979081560;
-	j1956124225 [label="Good to know. :) Any hints on what I can do to win you over, then?",shape=box,color=red];
-		j1956124225 -> j1851430679;
-	j979081560 [label="On that topic, do you... I've been meaning to ask...",shape=box,color=red];
-		j979081560 -> j172385006;
-	j1851430679 [label="You just should be real certain that you know what you're for, babas 
-If you like it sweet and gentle go talk to Aoi or Amir 
-I am too used to pain and like it too much for that kind of thing",shape=box,color=blue];
-		j1851430679 -> j3256638888;
-		j1851430679 -> j4179669636;
+		j2794660236 -> j4159601079 [label=true,color=green];
+		j2794660236 -> j3722538270 [label=false,color=brown];
+	j4159601079 [label="Sí 
+맞아",shape=box,color=blue];
+		j4159601079 -> "Chat ends.";
+	j3722538270 [label="음? 
+Jajaja, 아니",shape=box,color=blue];
+		j3722538270 -> j3891966585;
+	j3891966585 [label="하지만 난 술 안 마시는데, 마셔본 적 없어
+약도 안 해봤고
+내 바지 속을 들춰보려면 그보다 더 창의적이어야지
+바진가 아무튼 지금 내가 입어야 하는 이거",shape=box,color=blue];
+		j3891966585 -> j3251833733;
+		j3891966585 -> j212681454;
+	j3251833733 [label="참고해 둘게. :) 그럼 널 꼬실 수 있는 방법에 대해 뭐 힌트 같은 건 없을까?",shape=box,color=red];
+		j3251833733 -> j991304877;
+	j212681454 [label="그 얘기 말인데, 그... 물어보고 싶었던 게 있는데...",shape=box,color=red];
+		j212681454 -> j172385006;
+	j991304877 [label="너가 어느 쪽이 취향인지 스스로 확실하게 알아야지, babas
+달달하고 부드럽고 그런 게 취향이라면 아오이나 아미르한테나 가
+난 아픈 거에 너무 익숙해져 있고 그런 연애를 하기엔 아픈 걸 너무 좋아해",shape=box,color=blue];
+		j991304877 -> j749402398;
+		j991304877 -> j2761527949;
 	j172385006 [label="¿Qué?",shape=box,color=blue];
-		j172385006 -> j253184262;
-		j172385006 -> j146257256;
-	j3256638888 [label="Yes ma'am. Consider me warned.",shape=box,color=red];
-		j3256638888 -> j3205362221;
-	j4179669636 [label="Um... Yeah, never mind. Pain's not really my thing.",shape=box,color=red];
-		j4179669636 -> j2158853079;
-	j253184262 [label="I've been curious if you and the other protoframes still had... y'know... your... y'know... parts...",shape=box,color=red];
-		j253184262 -> j1556929297;
-	j146257256 [label="Uh - Never mind.",shape=box,color=red];
-		j146257256 -> j3900227308;
-	j3205362221 [label="Boolean LettiePain is now true.",color=orange];
-		j3205362221 -> j1240357983;
-	j2158853079 [label="+15 Chemistry",color=orange];
-		j2158853079 -> j326726832;
-	j1556929297 [label="JAJAJAJAJA 
-Are you serious?! 
-You can't just ASK people what they - 
-Aaaay babaaaaassss I have not laughed so hard in a looooong time",shape=box,color=blue];
-		j1556929297 -> j2658167524;
-		j1556929297 -> j1637323265;
-	j3900227308 [label="Va 
-Busy anyway",shape=box,color=blue];
-		j3900227308 -> "Chat ends.";
-	j1240357983 [label="+20 Chemistry",color=orange];
-		j1240357983 -> j3702546007;
-	j326726832 [label="Bueno 
-You're better off that way 
-You can let me know if you change your mind",shape=box,color=blue];
-		j326726832 -> j2362708449;
-	j2658167524 [label="Sorry.",shape=box,color=red];
-		j2658167524 -> j919750153;
-	j1637323265 [label="Um... well? Do you?",shape=box,color=red];
-		j1637323265 -> j919750153;
-	j3702546007 [label="Mm, yeah? 
-Think you can take it, do you? 
-We'll see",shape=box,color=blue];
-		j3702546007 -> j641145668;
-	j2362708449 [label="Boolean LettieNoPain is now true.",color=orange];
-		j2362708449 -> j9517111;
-	j919750153 [label="I tell you what 
-Maybe if you are a good little babas 
-You just might find out, mm? 
-Just warning you 
-If you like it sweet and gentle go talk to Aoi or Amir 
-I am too used to pain and like it too much for that kind of thing",shape=box,color=blue];
-		j919750153 -> j3256638888;
-		j919750153 -> j4179669636;
-	j641145668 [label="Now vete 
-Can't be daydreaming when I've got work to do",shape=box,color=blue];
-		j641145668 -> "Chat ends.";
-	j9517111 [label="Now vete 
-I've got work to do",shape=box,color=blue];
-		j9517111 -> "Chat ends.";
+		j172385006 -> j4229252619;
+		j172385006 -> j3309673183;
+	j749402398 [label="네에 아가씨. 경고 제대로 받았어.",shape=box,color=red];
+		j749402398 -> j2342665077;
+	j2761527949 [label="음... 그래, 그럼 이쯤 하자. 아픈 건 그렇게 취향이 아니거든.",shape=box,color=red];
+		j2761527949 -> j904235404;
+	j4229252619 [label="궁금했거든, 너랑 다른 프로토프레임들이 아직도... 그... 그거 있잖아... 그... 그 부분...",shape=box,color=red];
+		j4229252619 -> j2118180468;
+	j3309673183 [label="어 - 신경쓰지 마.",shape=box,color=red];
+		j3309673183 -> j652227200;
+	j2342665077 [label="Boolean LettiePain is now true.",color=orange];
+		j2342665077 -> j4025636947;
+	j904235404 [label="+15 Chemistry",color=orange];
+		j904235404 -> j2599405245;
+	j2118180468 [label="JAJAJAJAJA 
+진심이야 지금?!
+아니 사람한테 그런 걸 그냥 물어보면 안 되는 -
+Aaaay babaaaaassss 이렇게 크게 웃어본 것도 진짜 오랜만이다 야ㅏㅏㅏ",shape=box,color=blue];
+		j2118180468 -> j3287444140;
+		j2118180468 -> j3114367917;
+	j652227200 [label="Va 
+어차피 바빠",shape=box,color=blue];
+		j652227200 -> "Chat ends.";
+	j4025636947 [label="+20 Chemistry",color=orange];
+		j4025636947 -> j4000724448;
+	j2599405245 [label="부에노 
+그래 그러는 게 차라리 나아
+마음이 바뀌면 말해줘도 되고",shape=box,color=blue];
+		j2599405245 -> j680567224;
+	j3287444140 [label="미안.",shape=box,color=red];
+		j3287444140 -> j134292030;
+	j3114367917 [label="어음... 그래서? 있어?",shape=box,color=red];
+		j3114367917 -> j134292030;
+	j4000724448 [label="음, 그래?
+감당을 할 수 있다고 생각하는 건가?
+보자고 한 번",shape=box,color=blue];
+		j4000724448 -> j3551626244;
+	j680567224 [label="Boolean LettieNoPain is now true.",color=orange];
+		j680567224 -> j3834737979;
+	j134292030 [label="이런 건 어때
+너가 착한 babas로 잘 있으면
+그냥 물을 필요 없이 알아낼 수도 있을 거 아냐, 응?
+다만 경고하는데
+달달하고 부드럽고 그런 게 취향이라면 아오이나 아미르한테나 가
+난 아픈 거에 너무 익숙해져 있고 그런 연애를 하기엔 아픈 걸 너무 좋아해",shape=box,color=blue];
+		j134292030 -> j749402398;
+		j134292030 -> j2761527949;
+	j3551626244 [label="이제 vete
+할 일이 있는데 몽상만 하고 있을 수는 없지",shape=box,color=blue];
+		j3551626244 -> "Chat ends.";
+	j3834737979 [label="이제 vete
+일 해야 돼",shape=box,color=blue];
+		j3834737979 -> "Chat ends.";
 }

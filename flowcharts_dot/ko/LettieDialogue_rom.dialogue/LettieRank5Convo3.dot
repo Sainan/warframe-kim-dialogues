@@ -2,488 +2,484 @@ digraph {
 	"LettieRank5Convo3 begins." [color=orange];
 		"LettieRank5Convo3 begins." -> j716988010;
 	j716988010 [label="Check boolean LettieDating",color=orange];
-		j716988010 -> j3092299169 [label=true,color=green];
-		j716988010 -> j4189541127 [label=false,color=brown];
-	j3092299169 [label="How did you do it, solecito? 
-How did you spend all that time alone 
-And not go demente",shape=box,color=blue];
-		j3092299169 -> j691931148;
-	j4189541127 [label="How did you do it, friend? 
-How did you spend all that time alone 
-And not go demente",shape=box,color=blue];
-		j4189541127 -> j691931148;
+		j716988010 -> j2779834428 [label=true,color=green];
+		j716988010 -> j2393256660 [label=false,color=brown];
+	j2779834428 [label="어떻게 버텼어, solecito?
+그 길고 긴 시간을 혼자 어떻게 보냈어
+demente 안 되고",shape=box,color=blue];
+		j2779834428 -> j691931148;
+	j2393256660 [label="어떻게 버텼어, 친구?
+그 길고 긴 시간을 혼자 어떻게 보냈어
+demente 안 되고",shape=box,color=blue];
+		j2393256660 -> j691931148;
 	j691931148 [label="Check boolean LettieDuviri",color=orange];
-		j691931148 -> j1964117856 [label=true,color=green];
-		j691931148 -> j3457879497 [label=false,color=brown];
-		j691931148 -> j1702495510 [label=false,color=brown];
-	j1964117856 [label="How long did you spend in that place where you danced with La Flaca 
-Do you even know?",shape=box,color=blue];
-		j1964117856 -> j3457879497;
-		j1964117856 -> j1702495510;
-		j1964117856 -> j3099037282;
-	j3457879497 [label="You mean Duviri? I have no idea... Time lost all meaning.",shape=box,color=red];
-		j3457879497 -> j2231947210;
-	j1702495510 [label="You mean Duviri? I wasn't... I mean, I guess I was *technically* alone.",shape=box,color=red];
-		j1702495510 -> j2012333661;
-	j3099037282 [label="I can't chat right now, sorry. [End.]",shape=box,color=red];
-		j3099037282 -> "Chat ends.";
-	j2231947210 [label="I kind of blocked it out and went numb. So... I guess I did kind of lose my mind.",shape=box,color=red];
-		j2231947210 -> j2643595696;
-	j2012333661 [label="I had people to talk to, even if they weren't... real.",shape=box,color=red];
-		j2012333661 -> j2094008560;
+		j691931148 -> j3751610377 [label=true,color=green];
+		j691931148 -> j3777702140 [label=false,color=brown];
+		j691931148 -> j1800313346 [label=false,color=brown];
+	j3751610377 [label="그 네가 La Flaca하고 춤추던 그 곳에서 얼마나 오래 보낸 거야?
+알기는 해?",shape=box,color=blue];
+		j3751610377 -> j3777702140;
+		j3751610377 -> j1800313346;
+		j3751610377 -> j1244866636;
+	j3777702140 [label="두비리에서 말이야? 잘 모르겠는데... 시간이 의미가 없었거든.",shape=box,color=red];
+		j3777702140 -> j2684430871;
+	j1800313346 [label="두비리에서 말이야? 혼자가 아니라... 아니, 뭐 *엄밀히* 말하자면 혼자가 맞긴 했겠다.",shape=box,color=red];
+		j1800313346 -> j3606790208;
+	j1244866636 [label="지금 얘기 못해, 미안. [종료.]",shape=box,color=red];
+		j1244866636 -> "Chat ends.";
+	j2684430871 [label="들어오는 걸 전부 막고 감각을 차단했어. 그래서... 뭐 말하자면 정신을 놓았던 게 맞긴 하겠네.",shape=box,color=red];
+		j2684430871 -> j1568316466;
+	j3606790208 [label="말동무가 많긴 했지. 설령...허상에 불과할지라도.",shape=box,color=red];
+		j3606790208 -> j101356748;
 	"Chat ends." [color=orange];
-	j2643595696 [label="Sí 
-Maybe you did jaja 
-But you came back and that gives me hope 
-Or at least you are high-functioning crazy jaja 
-And I could be happy with that",shape=box,color=blue];
-		j2643595696 -> j971850866;
-	j2094008560 [label="Ay sí 
-Talking to imaginary friends 
-I used to do that when estaba chiquita 
-Talking to my panquecitos is much more acceptable jaja",shape=box,color=blue];
-		j2094008560 -> j3099453556;
-	j971850866 [label="It got *so* lonely, though... even if I had \"people\" to talk to. It wasn't enough.",shape=box,color=red];
-		j971850866 -> j1830001138;
-	j3099453556 [label="I still talk to myself if I'm not careful. That *really* makes people nervous.",shape=box,color=red];
-		j3099453556 -> j1842183223;
-	j1830001138 [label="Sí 
-I used to think all I needed was my panquecitos 
-A good cup of coffee 
-And a day or two off a week 
-Now I'm not sure",shape=box,color=blue];
-		j1830001138 -> j3073693531;
-		j1830001138 -> j1324056741;
-	j1842183223 [label="¡Jajaja! 
-Cuss myself out in Tenochtitlán slang all the time 
-Always spooks Arthur 
-Thinks I'm gonna stab him or something 
-Silly gringo it'd just make a mess",shape=box,color=blue];
-		j1842183223 -> j832593604;
-		j1842183223 -> j2518019314;
-	j3073693531 [label="What do you mean?",shape=box,color=red];
-		j3073693531 -> j755528787;
-	j1324056741 [label="What's wrong?",shape=box,color=red];
-		j1324056741 -> j755528787;
-	j832593604 [label="I mean, to be fair, when you get going, you *are* pretty terrifying.",shape=box,color=red];
-		j832593604 -> j944479570;
-	j2518019314 [label="Right? You'd just be making more work for yourself.",shape=box,color=red];
-		j2518019314 -> j944479570;
+	j1568316466 [label="Sí 
+그랬을 지도 모르지 jaja 
+하지만 넌 거기서 멀쩡히 돌아왔고 그 덕에 나도 희망이 생겨
+혹은 뭐 적어도 고기능 미친놈인 걸지도 모르고 jaja
+뭐 그거면 난 만족할 것 같고",shape=box,color=blue];
+		j1568316466 -> j1969704442;
+	j101356748 [label="Ay sí 
+상상 속 친구하고 말하는 거 말이지
+estaba chiquita 때 나도 그랬었어
+우리 panquecito들하고 말하는 게 그나마 훨씬 볼만하지 jaja",shape=box,color=blue];
+		j101356748 -> j2488864755;
+	j1969704442 [label="*너무* 외로웠지만 말이야... 대화를 할 \"사람들\"이 있더라도. 그걸론 부족했어.",shape=box,color=red];
+		j1969704442 -> j1078780481;
+	j2488864755 [label="아직도 조심 안 하면 나 혼자 대화하고 있어. 그것 때문에 *정말* 사람들이 불안해하는 모양이더라.",shape=box,color=red];
+		j2488864755 -> j3196577251;
+	j1078780481 [label="Sí 
+나도 우리 panquecitos들 외엔 아무도 필요 없다고 생각하던 시절이 있었어
+거기에 좋은 커피 한 잔
+그리고 일주일에 하루이틀 정도 쉬는 날 하고
+이제는 잘 모르겠지만",shape=box,color=blue];
+		j1078780481 -> j1111988940;
+		j1078780481 -> j2441715146;
+	j3196577251 [label="¡Jajaja! 
+나도 맨날 테노치티틀란 욕으로 혼자 쌍욕하고 있잖아
+맨날 아서가 기겁을 하지
+어느 날 내가 걔를 찌르던지 어쩌든지 할 것 같다고
+바보 같은 gringo같으니 그러면 바닥만 지저분해지잖아",shape=box,color=blue];
+		j3196577251 -> j2163786727;
+		j3196577251 -> j1237230378;
+	j1111988940 [label="무슨 말이야?",shape=box,color=red];
+		j1111988940 -> j755528787;
+	j2441715146 [label="무슨 일이야?",shape=box,color=red];
+		j2441715146 -> j755528787;
+	j2163786727 [label="아니, 사실이 그렇지. 한 번 시작하면 넌 *진짜로* 꽤 무서우니까.",shape=box,color=red];
+		j2163786727 -> j944479570;
+	j1237230378 [label="그치? 할 일만 더 늘어나는걸.",shape=box,color=red];
+		j1237230378 -> j944479570;
 	j755528787 [label="Check boolean LettieDating",color=orange];
-		j755528787 -> j3187907803 [label=true,color=green];
+		j755528787 -> j661784159 [label=true,color=green];
 		j755528787 -> j3706479038 [label=false,color=brown];
 	j944479570 [label="Check boolean LettieDating",color=orange];
-		j944479570 -> j4029786310 [label=true,color=green];
-		j944479570 -> j1229258992 [label=false,color=brown];
-	j3187907803 [label="Used to think I only needed myself 
-Suppose I could still be that way if needed 
-Not saying what we have isn't wonderful 
-It's hard to explain and I am doing poorly",shape=box,color=blue];
-		j3187907803 -> j2224876234;
-		j3187907803 -> j19909616;
+		j944479570 -> j2564619574 [label=true,color=green];
+		j944479570 -> j4025461024 [label=false,color=brown];
+	j661784159 [label="나 혼자만 있으면 다른 건 필요없다고 생각했었어
+필요하다면 아직도 그럴 수는 있겠지
+물론 우리가 함께하는 시간이 멋지지 않다는 건 아니고
+안 그래도 설명하기 참 어려운데 참 못하고 있네",shape=box,color=blue];
+		j661784159 -> j1779227089;
+		j661784159 -> j2818233338;
 	j3706479038 [label="Check boolean ArthurDating",color=orange];
-		j3706479038 -> j3609275452 [label=true,color=green];
+		j3706479038 -> j3602826582 [label=true,color=green];
 		j3706479038 -> j2203024630 [label=false,color=brown];
-	j4029786310 [label="JAJAJA 
+	j2564619574 [label="JAJAJA 
 Aaay, solecito 
-This is what I have been missing 
-How did you get on without this",shape=box,color=blue];
-		j4029786310 -> j936254802;
-		j4029786310 -> j283501458;
-	j1229258992 [label="JAJAJA 
+이게 바로 나한테 부족했던 거였어
+넌 어떻게 이런 거 없이 살 수 있었던 거야",shape=box,color=blue];
+		j2564619574 -> j3711513929;
+		j2564619574 -> j1391546177;
+	j4025461024 [label="JAJAJA 
 Aaay, friend 
-This is what I'm talking about 
-How did you get on without this",shape=box,color=blue];
-		j1229258992 -> j936254802;
-		j1229258992 -> j283501458;
-	j2224876234 [label="I know what we've got going on is a start. But I know we're still on a \"trial period\" in your mind.",shape=box,color=red];
-		j2224876234 -> j3066912134;
-	j19909616 [label="Sometimes when loneliness really gets into you, it doesn't ever let you go, even when you're no longer alone.",shape=box,color=red];
-		j19909616 -> j1217615432;
-	j3609275452 [label="I see you and mi hermano Arthur 
-It's not jealousy 
-I just feel the loneliness suddenly",shape=box,color=blue];
-		j3609275452 -> j303322825;
+이런 게 내가 말하는 거
+넌 어떻게 이런 거 없이 살 수 있었던 거야",shape=box,color=blue];
+		j4025461024 -> j3711513929;
+		j4025461024 -> j1391546177;
+	j1779227089 [label="우리가 하고 있는 건 시작에 불과하다는 걸 알아. 하지만 네 마음 속에선 우리가 아직 \"시험 기간\" 중이라는 것도 알고 있지.",shape=box,color=red];
+		j1779227089 -> j3132299030;
+	j2818233338 [label="가끔 외로움이 제대로 사람을 휩쓸게 되면, 붙잡고 절대 놓아주지 않기도 해. 네가 더 이상 혼자가 아니어도 말이지.",shape=box,color=red];
+		j2818233338 -> j993189345;
+	j3602826582 [label="너랑 mi hermano 아서 사이를 봐서
+질투하는 건 아닌데
+갑자기 외로워진단 거야",shape=box,color=blue];
+		j3602826582 -> j3966348871;
 	j2203024630 [label="Check boolean AoiDating",color=orange];
-		j2203024630 -> j3469434686 [label=true,color=green];
+		j2203024630 -> j1727314440 [label=true,color=green];
 		j2203024630 -> j3177799908 [label=false,color=brown];
-	j936254802 [label="Get on without what?",shape=box,color=red];
-		j936254802 -> j547548756;
-	j283501458 [label="I didn't have a choice.",shape=box,color=red];
-		j283501458 -> j4037965417;
-	j3066912134 [label="Mm that obvious? 
-Must be 
-Not personal, solecito",shape=box,color=blue];
-		j3066912134 -> j2023623271;
-		j3066912134 -> j2985419507;
-	j1217615432 [label="I feel it still, even when I'm sitting around the table with the Hex, laughing and drinking. I'm happy. I'm with everyone. But it's there.",shape=box,color=red];
-		j1217615432 -> j1099323576;
-	j303322825 [label="I am happy for you both 
-Te lo juro 
-He deserves to be with someone finally 
-I just... find a sadness in me",shape=box,color=blue];
-		j303322825 -> j2173112388;
-	j3469434686 [label="I see you and Aoi 
-It's not jealousy 
-I just feel the loneliness suddenly",shape=box,color=blue];
-		j3469434686 -> j1885078468;
+	j3711513929 [label="어떤 거 없이?",shape=box,color=red];
+		j3711513929 -> j3351016459;
+	j1391546177 [label="난 선택의 여지가 없었지.",shape=box,color=red];
+		j1391546177 -> j2817309091;
+	j3132299030 [label="Mm 그 정도로 티가 나?
+분명 그렇겠지
+앙금 같은 게 있어서 그런 건 아냐, solecito",shape=box,color=blue];
+		j3132299030 -> j1584791455;
+		j3132299030 -> j1293249076;
+	j993189345 [label="나도 지금까지, 심지어는 헥스 모두랑 테이블에 둘러앉아 떠들썩하게 웃고 마시면서도 느낄 때가 있는걸. 행복해. 모두랑 같이 있어. 근데도 외로움이 그 자리에 있어.",shape=box,color=red];
+		j993189345 -> j466290096;
+	j3966348871 [label="둘 다 잘 지내서 다행이야
+Te lo juro
+걔도 드디어 누구 하나 함께할 사람이 있어야 마땅하지
+난 그냥... 나 혼자 좀 슬플 뿐이야",shape=box,color=blue];
+		j3966348871 -> j2173112388;
+	j1727314440 [label="너랑 아오이 사이를 봐서
+질투하는 건 아닌데
+갑자기 외로워진단 거야",shape=box,color=blue];
+		j1727314440 -> j2028068496;
 	j3177799908 [label="Check boolean QuincyDating",color=orange];
-		j3177799908 -> j1518102057 [label=true,color=green];
+		j3177799908 -> j3109742733 [label=true,color=green];
 		j3177799908 -> j3241411902 [label=false,color=brown];
-	j547548756 [label="People 
-Being with them 
-Around them 
-Simple shit",shape=box,color=blue];
-		j547548756 -> j1284794367;
-		j547548756 -> j2089708999;
-	j4037965417 [label="Sí... 
-And I did I guess 
-Still do",shape=box,color=blue];
-		j4037965417 -> j1284794367;
-		j4037965417 -> j2089708999;
-	j2023623271 [label="I know. Trust is hard for you.",shape=box,color=red];
-		j2023623271 -> j31971523;
-		j2023623271 -> j500535186;
-	j2985419507 [label="I can be patient.",shape=box,color=red];
-		j2985419507 -> j31971523;
-		j2985419507 -> j500535186;
-	j1099323576 [label="Like someone removed a kidney or a rib from me once, a long time ago. A hollowness that aches on rainy days.",shape=box,color=red];
-		j1099323576 -> j2503747027;
+	j3351016459 [label="사람들
+사람들하고 같이 있고
+틈바구니에 있는 거
+그런 단순한 짓거리들",shape=box,color=blue];
+		j3351016459 -> j4241778566;
+		j3351016459 -> j1343278223;
+	j2817309091 [label="Sí... 
+나도 그랬던 것 같아
+지금도 마찬가지고",shape=box,color=blue];
+		j2817309091 -> j4241778566;
+		j2817309091 -> j1343278223;
+	j1584791455 [label="알아. 신뢰란 건 네겐 정말 어렵지.",shape=box,color=red];
+		j1584791455 -> j157850154;
+		j1584791455 -> j1192408449;
+	j1293249076 [label="언제까지든 기다릴 수 있어.",shape=box,color=red];
+		j1293249076 -> j157850154;
+		j1293249076 -> j1192408449;
+	j466290096 [label="마치 오래 전 누군가가 나한테서 콩팥이나 갈비뼈를 빼간 적이 있는 것처럼. 비 오는 날마다 욱신거리는 공허한 느낌.",shape=box,color=red];
+		j466290096 -> j2165192264;
 	j2173112388 [label="Check boolean LettieNewFamily",color=orange];
-		j2173112388 -> j848081327 [label=true,color=green];
-		j2173112388 -> j1607076243 [label=false,color=brown];
-	j1885078468 [label="I am happy for you both 
-Te lo juro 
-She needs someone to see joy in what she does 
-I just... find a sadness in me",shape=box,color=blue];
-		j1885078468 -> j2173112388;
-	j1518102057 [label="I see you and that niño Quincy 
-It's not jealousy 
-I just feel the loneliness suddenly",shape=box,color=blue];
-		j1518102057 -> j2613571541;
+		j2173112388 -> j1991228910 [label=true,color=green];
+		j2173112388 -> j3218672815 [label=false,color=brown];
+	j2028068496 [label="둘 다 잘 지내서 다행이야
+Te lo juro
+그 애는 자기가 하는 걸 보고 같이 기쁘고 즐거워해 줄 사람이 필요해
+난 그냥... 나 혼자 좀 슬플 뿐이야",shape=box,color=blue];
+		j2028068496 -> j2173112388;
+	j3109742733 [label="너랑 그 niño 퀸시 사이를 봐서
+질투하는 건 아닌데
+갑자기 외로워진단 거야",shape=box,color=blue];
+		j3109742733 -> j1379939477;
 	j3241411902 [label="Check boolean AmirDating",color=orange];
-		j3241411902 -> j3838723743 [label=true,color=green];
+		j3241411902 -> j2413655704 [label=true,color=green];
 		j3241411902 -> j86684457 [label=false,color=brown];
-	j1284794367 [label="Loneliness is a sadness that comes and goes in waves. Or like seasons. So it's an easier pain to ignore.",shape=box,color=red];
-		j1284794367 -> j906300568;
-	j2089708999 [label="You don't have to be alone anymore. If you don't want to be. You can let people in for real.",shape=box,color=red];
-		j2089708999 -> j1590323314;
-	j31971523 [label="But I'm here when you need to shake off the loneliness.",shape=box,color=red];
-		j31971523 -> j1823980135;
-	j500535186 [label="Point being, no need to feel lonely.",shape=box,color=red];
-		j500535186 -> j1823980135;
-	j2503747027 [label="+20 Chemistry",color=orange];
-		j2503747027 -> j1634703327;
-	j848081327 [label="Even when I'm surrounded by all of you 
-My friends and my new family 
-Laughing and sharing memories 
-There is an ache sometimes",shape=box,color=blue];
-		j848081327 -> j3987541502;
-		j848081327 -> j2607514056;
-	j1607076243 [label="Even when I'm surrounded by all of you 
-My friends 
-Laughing and sharing memories 
-There is an ache sometimes",shape=box,color=blue];
-		j1607076243 -> j3987541502;
-		j1607076243 -> j2607514056;
-	j2613571541 [label="I am happy for you both 
-Te lo juro 
-He needs something real in his life 
-I just... find a sadness in me",shape=box,color=blue];
-		j2613571541 -> j2173112388;
-	j3838723743 [label="I see you and that escuincle Amir 
-It's not jealousy 
-I just feel the loneliness suddenly",shape=box,color=blue];
-		j3838723743 -> j411950811;
+	j4241778566 [label="외로움이란 파도처럼 왔다가 가는 슬픔이야. 아니면 계절처럼. 그래서 보다 무시하기 쉬운 고통이지.",shape=box,color=red];
+		j4241778566 -> j437324173;
+	j1343278223 [label="더 이상 혼자이지 않아도 돼. 네가 혼자이고 싶지 않다면. 정말로 사람들을 받아들이면 되는 일인걸.",shape=box,color=red];
+		j1343278223 -> j1590323314;
+	j157850154 [label="하지만 네가 그 외로움을 떨쳐야 할 땐 내가 옆에 있을게.",shape=box,color=red];
+		j157850154 -> j1014907521;
+	j1192408449 [label="내 말은, 넌 외롭다고 느낄 필요가 없다는 거야.",shape=box,color=red];
+		j1192408449 -> j1014907521;
+	j2165192264 [label="+20 Chemistry",color=orange];
+		j2165192264 -> j2100510284;
+	j1991228910 [label="내 친구이자 새로운 가족들인
+너희 틈바구니에 둘러싸여서
+웃고 추억을 나누면서도
+가끔씩 느껴지는 아픔이 있어",shape=box,color=blue];
+		j1991228910 -> j2715051804;
+		j1991228910 -> j3827160140;
+	j3218672815 [label="내 친구들인
+너희 틈바구니에 둘러싸여서
+웃고 추억을 나누면서도
+가끔씩 느껴지는 아픔이 있어",shape=box,color=blue];
+		j3218672815 -> j2715051804;
+		j3218672815 -> j3827160140;
+	j1379939477 [label="둘 다 잘 지내서 다행이야
+Te lo juro
+그 녀석 삶엔 뭔가 하나라도 진짜인 게 필요해
+난 그냥... 나 혼자 좀 슬플 뿐이야",shape=box,color=blue];
+		j1379939477 -> j2173112388;
+	j2413655704 [label="너랑 그 escuincle 아미르 사이를 봐서
+질투하는 건 아닌데
+갑자기 외로워진단 거야",shape=box,color=blue];
+		j2413655704 -> j4166562534;
 	j86684457 [label="Check boolean EleanorDating",color=orange];
-		j86684457 -> j2678853437 [label=true,color=green];
-		j86684457 -> j3530038518 [label=false,color=brown];
-	j906300568 [label="And I think that when loneliness really gets into you, it doesn't ever let you go, even when you're no longer alone.",shape=box,color=red];
-		j906300568 -> j3909223994;
+		j86684457 -> j596173751 [label=true,color=green];
+		j86684457 -> j282249209 [label=false,color=brown];
+	j437324173 [label="그리고 가끔 외로움이 제대로 사람을 휩쓸게 되면, 붙잡고 절대 놓아주지 않기도 하는 것 같아. 네가 더 이상 혼자가 아니어도 말이지.",shape=box,color=red];
+		j437324173 -> j3435764590;
 	j1590323314 [label="Check boolean LettieDating",color=orange];
-		j1590323314 -> j989829937 [label=true,color=green];
-		j1590323314 -> j290304474 [label=true,color=green];
-		j1590323314 -> j3899940792 [label=false,color=brown];
-	j1823980135 [label="Ay, sí, sí... 
-I suppose 
-Hard to explain",shape=box,color=blue];
-		j1823980135 -> j2631822648;
-	j1634703327 [label="Sí, mi corazón 
-You understand",shape=box,color=blue];
-		j1634703327 -> j408541504;
-	j3987541502 [label="I think that when loneliness really gets into you, it doesn't ever let you go, even when you're no longer alone.",shape=box,color=red];
-		j3987541502 -> j1983167273;
-	j2607514056 [label="Sounds like you need to cheer up and allow yourself to be happy. Maybe it's depression, have you ever thought of that?",shape=box,color=red];
-		j2607514056 -> j2682408422;
-	j411950811 [label="I am happy for you both 
-Te lo juro 
-He needs someone who believes in him 
-I just... find a sadness in me",shape=box,color=blue];
-		j411950811 -> j2173112388;
-	j2678853437 [label="I see you and la bruja metiche 
-It's not jealousy 
-I just feel the loneliness suddenly",shape=box,color=blue];
-		j2678853437 -> j3652656844;
-	j3530038518 [label="Loneliness is a sadness that comes like rainstorms 
-Or like seasons 
-It arrives and leaves a mark that fades 
-But it will come again in time",shape=box,color=blue];
-		j3530038518 -> j1408970052;
-	j3909223994 [label="I feel it still, even when I'm sitting around the table with the Hex, laughing and drinking. I'm happy. I'm with everyone. But it's there.",shape=box,color=red];
-		j3909223994 -> j2173827817;
-	j989829937 [label="I know what we've got going on is a start. But I know we're still on a \"trial period\" in your mind.",shape=box,color=red];
-		j989829937 -> j316996688;
-	j290304474 [label="I think that when loneliness really gets into you, it doesn't ever let you go, even when you're no longer alone.",shape=box,color=red];
-		j290304474 -> j4285905857;
-	j3899940792 [label="Sí, sí 
-I know, \"just don't be so sad, Lettie\" 
-You sound like mi mamá",shape=box,color=blue];
-		j3899940792 -> j1138076182;
-	j2631822648 [label="Got to go back to work, solecito",shape=box,color=blue];
-		j2631822648 -> j387594728;
-	j408541504 [label="Boolean LettieReal is now true.",color=orange];
-		j408541504 -> j1060841592;
-	j1983167273 [label="I feel it still, even when I'm sitting around the table with the Hex, laughing and drinking. I'm happy. I'm with everyone. But it's there.",shape=box,color=red];
-		j1983167273 -> j125724177;
-	j2682408422 [label="Alway so ready to tell me what to do with myself 
- No, I know those spiders well, and this is not that
- And I've seen that illness many times in myself and in friends
- Army life, remember?
- Seen too many of us go that way",shape=box,color=blue];
-		j2682408422 -> j1673516063;
-	j3652656844 [label="I am happy for you both 
-Te lo juro 
-She needs someone who accepts her as she is 
-I just... find a sadness in me",shape=box,color=blue];
-		j3652656844 -> j2173112388;
+		j1590323314 -> j1489258517 [label=true,color=green];
+		j1590323314 -> j918258604 [label=true,color=green];
+		j1590323314 -> j739191912 [label=false,color=brown];
+	j1014907521 [label="Ay, sí, sí... 
+아마도 
+설명하기 힘들어",shape=box,color=blue];
+		j1014907521 -> j1455107148;
+	j2100510284 [label="Sí, mi corazón 
+무슨 말인지 알잖아",shape=box,color=blue];
+		j2100510284 -> j1501720493;
+	j2715051804 [label="가끔 외로움이 제대로 사람을 휩쓸게 되면, 붙잡고 절대 놓아주지 않기도 하는 것 같아. 네가 더 이상 혼자가 아니어도 말이지.",shape=box,color=red];
+		j2715051804 -> j2402552403;
+	j3827160140 [label="어쩌면 그냥 힘 좀 내고 스스로에게 행복해도 된다고 말해 줄 필요가 있지 않나 싶어. 우울증일지도 모른다는 생각, 전혀 안 해봤어?",shape=box,color=red];
+		j3827160140 -> j294558065;
+	j4166562534 [label="둘 다 잘 지내서 다행이야
+Te lo juro
+걔는 걔를 믿어줄 누군가가 필요해
+난 그냥... 나 혼자 좀 슬플 뿐이야",shape=box,color=blue];
+		j4166562534 -> j2173112388;
+	j596173751 [label="너랑 그 la bruja metiche 사이를 봐서
+질투하는 건 아닌데
+갑자기 외로워진단 거야",shape=box,color=blue];
+		j596173751 -> j1652829441;
+	j282249209 [label="외로움이란 폭풍우처럼 찾아오는 슬픔이지
+아니면 계절이라거나
+찾아와서는 서서히 사라지는 자국을 남겨
+하지만 시간이 되면 다시 찾아오곤 하지",shape=box,color=blue];
+		j282249209 -> j1408970052;
+	j3435764590 [label="나도 지금까지, 심지어는 헥스 모두랑 테이블에 둘러앉아 떠들썩하게 웃고 마시면서도 느낄 때가 있는걸. 행복해. 모두랑 같이 있어. 근데도 외로움이 그 자리에 있어.",shape=box,color=red];
+		j3435764590 -> j3142471133;
+	j1489258517 [label="우리가 하고 있는 건 시작에 불과하다는 걸 알아. 하지만 네 마음 속에선 우리가 아직 \"시험 기간\" 중이라는 것도 알고 있지.",shape=box,color=red];
+		j1489258517 -> j2005355248;
+	j918258604 [label="가끔 외로움이 제대로 사람을 휩쓸게 되면, 붙잡고 절대 놓아주지 않기도 하는 것 같아. 네가 더 이상 혼자가 아니어도 말이지.",shape=box,color=red];
+		j918258604 -> j896586663;
+	j739191912 [label="Sí, sí 
+그래, \"그냥 슬프지 마, 레티\" 같은 소리
+mi mamá랑 똑같은 소릴 하고 있네",shape=box,color=blue];
+		j739191912 -> j1138076182;
+	j1455107148 [label="다시 일하러 가봐야겠다, solecito",shape=box,color=blue];
+		j1455107148 -> j387594728;
+	j1501720493 [label="Boolean LettieReal is now true.",color=orange];
+		j1501720493 -> j3552970589;
+	j2402552403 [label="나도 지금까지, 심지어는 헥스 모두랑 테이블에 둘러앉아 떠들썩하게 웃고 마시면서도 느낄 때가 있는걸. 행복해. 모두랑 같이 있어. 근데도 외로움이 그 자리에 있어.",shape=box,color=red];
+		j2402552403 -> j1117835890;
+	j294558065 [label="늘상 그렇게 날 가지고 뭘 이래라 저래라 할 생각 만만이지
+아니, 난 이 거미들을 잘 알고, 이건 그런 게 아니야
+그리고 난 그 병을 나 자신한테도 친구들한테서도 많이 봐 왔지
+군대에 있던 시절이 있다고, 기억 안 나?
+우리 중에서도 그거 때문에 가던 애들을 너무 많이 봤지",shape=box,color=blue];
+		j294558065 -> j912407827;
+	j1652829441 [label="둘 다 잘 지내서 다행이야
+Te lo juro
+걔는 자기를 있는 그대로 받아들여 줄 누군가가 필요해
+난 그냥... 나 혼자 좀 슬플 뿐이야",shape=box,color=blue];
+		j1652829441 -> j2173112388;
 	j1408970052 [label="Check boolean LettieNoDate",color=orange];
-		j1408970052 -> j1965527972 [label=true,color=green];
-		j1408970052 -> j592983221 [label=true,color=green];
+		j1408970052 -> j1410711925 [label=true,color=green];
+		j1408970052 -> j1039460757 [label=true,color=green];
 		j1408970052 -> j3154053149 [label=false,color=brown];
-	j2173827817 [label="Like someone removed a kidney or a rib from me once, a long time ago. A hollowness that aches a little on rainy days.",shape=box,color=red];
-		j2173827817 -> j301637411;
-	j316996688 [label="¿Mm that obvious? 
-Must be 
-Not personal, solecito",shape=box,color=blue];
-		j316996688 -> j3337732800;
-		j316996688 -> j4247542781;
-	j4285905857 [label="I feel it still, even when I'm sitting around the table with the Hex, laughing and drinking. I'm happy. I'm with everyone. But it's there.",shape=box,color=red];
-		j4285905857 -> j207133696;
+	j3142471133 [label="마치 오래 전 누군가가 나한테서 콩팥이나 갈비뼈를 빼간 적이 있는 것처럼. 비 오는 날마다 조금씩 욱신거리는 공허한 느낌.",shape=box,color=red];
+		j3142471133 -> j301637411;
+	j2005355248 [label="¿Mm 그 정도로 티가 나?
+분명 그렇겠지
+앙금 같은 게 있어서 그런 건 아냐, solecito",shape=box,color=blue];
+		j2005355248 -> j4059935987;
+		j2005355248 -> j915792633;
+	j896586663 [label="나도 지금까지, 심지어는 헥스 모두랑 테이블에 둘러앉아 떠들썩하게 웃고 마시면서도 느낄 때가 있는걸. 행복해. 모두랑 같이 있어. 근데도 외로움이 그 자리에 있어.",shape=box,color=red];
+		j896586663 -> j1754562950;
 	j1138076182 [label="Check boolean IsDating",color=orange];
-		j1138076182 -> j837529801 [label=true,color=green];
-		j1138076182 -> j2390771543 [label=true,color=green];
+		j1138076182 -> j811251771 [label=true,color=green];
+		j1138076182 -> j2583663890 [label=true,color=green];
 		j1138076182 -> j2606224725 [label=false,color=brown];
 	j387594728 [label="Boolean LettieRealNo is now true.",color=orange];
 		j387594728 -> j1470630329;
-	j1060841592 [label="I have to go back to work 
-But I feel better now 
+	j3552970589 [label="다시 일하러 가봐야돼 
+그래도 기분은 좀 나아졌어 
 Gracias, mi corazón...gracias",shape=box,color=blue];
-		j1060841592 -> "Chat ends.";
-	j125724177 [label="Like someone removed a kidney or a rib from me once, a long time ago. A hollowness that aches a little on rainy days.",shape=box,color=red];
-		j125724177 -> j3785592928;
-	j1673516063 [label="Eating the end of a pistola 
-When you couldn't take the nightmares anymore 
-No, this small sadness is not like that 
-It comes and goes like the rain 
-But thanks for the sympathy",shape=box,color=blue];
-		j1673516063 -> j3065772033;
-	j1965527972 [label="You don't have to be alone. You're surrounded by people who care about you.",shape=box,color=red];
-		j1965527972 -> j2173112388;
-	j592983221 [label="You never struck me as a poet.",shape=box,color=red];
-		j592983221 -> j518522834;
+		j3552970589 -> "Chat ends.";
+	j1117835890 [label="마치 오래 전 누군가가 나한테서 콩팥이나 갈비뼈를 빼간 적이 있는 것처럼. 비 오는 날마다 조금씩 욱신거리는 공허한 느낌.",shape=box,color=red];
+		j1117835890 -> j771716828;
+	j912407827 [label="권총 끝을 물고 당기는 거야
+더 이상 그 악몽을 참을 수 없게 되면 말이야
+아니, 이 작은 슬픔은 그런 게 아냐
+비처럼 왔다가 가는 것 뿐이지
+하지만 동정해줘서 참 고맙다",shape=box,color=blue];
+		j912407827 -> j3065772033;
+	j1410711925 [label="혼자 있을 필요 없어. 널 아끼는 사람이 주위에 둘러싸고 있잖아.",shape=box,color=red];
+		j1410711925 -> j2173112388;
+	j1039460757 [label="네가 시인처럼 보이진 않았는데.",shape=box,color=red];
+		j1039460757 -> j3786039680;
 	j3154053149 [label="Check boolean LettieConfession",color=orange];
-		j3154053149 -> j1965527972 [label=true,color=green];
-		j3154053149 -> j592983221 [label=true,color=green];
-		j3154053149 -> j1965527972 [label=false,color=brown];
-		j3154053149 -> j592983221 [label=false,color=brown];
-		j3154053149 -> j2302631832 [label=false,color=brown];
+		j3154053149 -> j1410711925 [label=true,color=green];
+		j3154053149 -> j1039460757 [label=true,color=green];
+		j3154053149 -> j1410711925 [label=false,color=brown];
+		j3154053149 -> j1039460757 [label=false,color=brown];
+		j3154053149 -> j1076327381 [label=false,color=brown];
 	j301637411 [label="Check boolean LettieDating",color=orange];
-		j301637411 -> j3241622085 [label=true,color=green];
+		j301637411 -> j271944057 [label=true,color=green];
 		j301637411 -> j903956660 [label=false,color=brown];
-	j3337732800 [label="I know. Trust is hard for you.",shape=box,color=red];
-		j3337732800 -> j61645092;
-		j3337732800 -> j3994077799;
-	j4247542781 [label="I can be patient.",shape=box,color=red];
-		j4247542781 -> j61645092;
-		j4247542781 -> j3994077799;
-	j207133696 [label="Like someone removed a kidney or a rib from me once, a long time ago. A hollowness that aches a little on rainy days.",shape=box,color=red];
-		j207133696 -> j1461814737;
-	j837529801 [label="Sounds like you need to cheer up and allow yourself to be happy.",shape=box,color=red];
-		j837529801 -> j4040594230;
-	j2390771543 [label="I think that when loneliness really gets into you, it doesn't ever let you go, even when you're no longer alone.",shape=box,color=red];
-		j2390771543 -> j395281724;
+	j4059935987 [label="알아. 신뢰란 건 네겐 정말 어렵지.",shape=box,color=red];
+		j4059935987 -> j2054814351;
+		j4059935987 -> j3274890115;
+	j915792633 [label="언제까지든 기다릴 수 있어.",shape=box,color=red];
+		j915792633 -> j2054814351;
+		j915792633 -> j3274890115;
+	j1754562950 [label="마치 오래 전 누군가가 나한테서 콩팥이나 갈비뼈를 빼간 적이 있는 것처럼. 비 오는 날마다 조금씩 욱신거리는 공허한 느낌.",shape=box,color=red];
+		j1754562950 -> j942608000;
+	j811251771 [label="어쩌면 그냥 힘 좀 내고 스스로에게 행복해도 된다고 말해 줄 필요가 있지 않나 싶어.",shape=box,color=red];
+		j811251771 -> j353645592;
+	j2583663890 [label="가끔 외로움이 제대로 사람을 휩쓸게 되면, 붙잡고 절대 놓아주지 않기도 하는 것 같아. 네가 더 이상 혼자가 아니어도 말이지.",shape=box,color=red];
+		j2583663890 -> j744982699;
 	j2606224725 [label="Check boolean LettieNoDate",color=orange];
-		j2606224725 -> j837529801 [label=true,color=green];
-		j2606224725 -> j2390771543 [label=true,color=green];
+		j2606224725 -> j811251771 [label=true,color=green];
+		j2606224725 -> j2583663890 [label=true,color=green];
 		j2606224725 -> j1371723557 [label=false,color=brown];
 	j1470630329 [label="+10 Chemistry",color=orange];
 		j1470630329 -> "Chat ends.";
-	j3785592928 [label="+20 Chemistry",color=orange];
-		j3785592928 -> j2451068531;
+	j771716828 [label="+20 Chemistry",color=orange];
+		j771716828 -> j556104115;
 	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
 		j3065772033 -> "Chat ends.";
-	j518522834 [label="Sí 
-And if you tell anyone I got sappy 
-I will gut you like un pescado, ¿entendiste?",shape=box,color=blue];
-		j518522834 -> j2173112388;
-	j2302631832 [label="I... well... you don't *have* to be alone... [Confess Feelings.]",shape=box,color=red];
-		j2302631832 -> j830543141;
-	j3241622085 [label="+20 Chemistry",color=orange];
-		j3241622085 -> j642647110;
+	j3786039680 [label="Sí 
+그리고 내가 이렇게 질질 짰다는 소리를 누구한테라도 하면
+널 그냥 pescado처럼 해체해버릴 거야. ¿entendiste?",shape=box,color=blue];
+		j3786039680 -> j2173112388;
+	j1076327381 [label="난... 글쎄... 너도 *혼자*일 필요는 없는데... [마음을 고백한다.]",shape=box,color=red];
+		j1076327381 -> j3707936315;
+	j271944057 [label="+20 Chemistry",color=orange];
+		j271944057 -> j2686355036;
 	j903956660 [label="Check boolean IsDating",color=orange];
-		j903956660 -> j537500863 [label=true,color=green];
+		j903956660 -> j2462581853 [label=true,color=green];
 		j903956660 -> j4282611158 [label=false,color=brown];
-	j61645092 [label="But I'm here when you need to shake off the loneliness.",shape=box,color=red];
-		j61645092 -> j1971086650;
-	j3994077799 [label="Point being, no need to feel lonely.",shape=box,color=red];
-		j3994077799 -> j1971086650;
-	j1461814737 [label="Boolean LettieReal is now true.",color=orange];
-		j1461814737 -> j2624567456;
-	j4040594230 [label="Mm sí 
-Just that simple",shape=box,color=blue];
-		j4040594230 -> j3433535663;
-	j395281724 [label="I feel it still, even when I'm sitting around the table with the Hex, laughing and drinking. I'm happy. I'm with everyone. But it's there.",shape=box,color=red];
-		j395281724 -> j1772734842;
+	j2054814351 [label="하지만 네가 그 외로움을 떨쳐야 할 땐 내가 옆에 있을게.",shape=box,color=red];
+		j2054814351 -> j4179251283;
+	j3274890115 [label="요점은, 네가 외롭다고 느낄 필요가 없다는 거야.",shape=box,color=red];
+		j3274890115 -> j4179251283;
+	j942608000 [label="Boolean LettieReal is now true.",color=orange];
+		j942608000 -> j706879514;
+	j353645592 [label="음 sí 
+넌 그렇게 간단하단 거지",shape=box,color=blue];
+		j353645592 -> j2687389862;
+	j744982699 [label="나도 지금까지, 심지어는 헥스 모두랑 테이블에 둘러앉아 떠들썩하게 웃고 마시면서도 느낄 때가 있는걸. 행복해. 모두랑 같이 있어. 근데도 외로움이 그 자리에 있어.",shape=box,color=red];
+		j744982699 -> j3618306544;
 	j1371723557 [label="Check boolean LettieNoFlirt",color=orange];
-		j1371723557 -> j837529801 [label=true,color=green];
+		j1371723557 -> j811251771 [label=true,color=green];
 		j1371723557 -> j1825139993 [label=false,color=brown];
-	j2451068531 [label="Sí, you understand 
-Sometimes I can enjoy it almost 
-Like a beautiful sadness 
-Ay, gracias 
-It's nice to know someone understands 
-Sometimes you bleed enough and then the bleeding stops",shape=box,color=blue];
-		j2451068531 -> j4043557330;
-	j830543141 [label="¿Qué?
+	j556104115 [label="Sí, 이해해 주는구나
+가끔은 이걸 거의 즐기게 될 때가 있다니까
+마치 아름다운 슬픔처럼 
+Ay, gracias
+이해해줄 수 있는 사람을 아는 건 좋은 일이야
+가끔은 피를 충분히 많이 흘리고 나면 그냥 피가 멈추는 법이지",shape=box,color=blue];
+		j556104115 -> j3469750009;
+	j3707936315 [label="¿Qué?
 ¿En serio?",shape=box,color=blue];
-		j830543141 -> j3612976318;
-	j642647110 [label="Sí, mi corazón, you understand 
-Sometimes I can enjoy it almost 
-Like a beautiful sadness 
-Sometimes you bleed enough and then the bleeding stops",shape=box,color=blue];
-		j642647110 -> j1782442163;
-	j537500863 [label="+20 Chemistry",color=orange];
-		j537500863 -> j2913205826;
+		j3707936315 -> j1192010174;
+	j2686355036 [label="Sí, mi corazón, 이해해 주는구나
+가끔은 이걸 거의 즐기게 될 때가 있다니까
+마치 아름다운 슬픔처럼
+가끔은 피를 충분히 많이 흘리고 나면 그냥 피가 멈추는 법이지",shape=box,color=blue];
+		j2686355036 -> j3921211958;
+	j2462581853 [label="+20 Chemistry",color=orange];
+		j2462581853 -> j1362573453;
 	j4282611158 [label="Check boolean LettieNoDate",color=orange];
-		j4282611158 -> j537500863 [label=true,color=green];
+		j4282611158 -> j2462581853 [label=true,color=green];
 		j4282611158 -> j2026799377 [label=false,color=brown];
-	j1971086650 [label="+10 Chemistry",color=orange];
-		j1971086650 -> j3407184561;
-	j2624567456 [label="+20 Chemistry",color=orange];
-		j2624567456 -> j1994871036;
-	j3433535663 [label="Got to go back to work",shape=box,color=blue];
-		j3433535663 -> j3065772033;
-	j1772734842 [label="Like someone removed a kidney or a rib from me once, a long time ago. A hollowness that aches a little on rainy days.",shape=box,color=red];
-		j1772734842 -> j537500863;
+	j4179251283 [label="+10 Chemistry",color=orange];
+		j4179251283 -> j4226589414;
+	j706879514 [label="+20 Chemistry",color=orange];
+		j706879514 -> j2076796906;
+	j2687389862 [label="다시 일하러 가야해",shape=box,color=blue];
+		j2687389862 -> j3065772033;
+	j3618306544 [label="마치 오래 전 누군가가 나한테서 콩팥이나 갈비뼈를 빼간 적이 있는 것처럼. 비 오는 날마다 조금씩 욱신거리는 공허한 느낌.",shape=box,color=red];
+		j3618306544 -> j2462581853;
 	j1825139993 [label="Check boolean LettieConfession",color=orange];
-		j1825139993 -> j837529801 [label=true,color=green];
-		j1825139993 -> j2390771543 [label=true,color=green];
-		j1825139993 -> j837529801 [label=false,color=brown];
-		j1825139993 -> j2390771543 [label=false,color=brown];
-		j1825139993 -> j3045528756 [label=false,color=brown];
-	j4043557330 [label="Speaking of 
-Someone is bleeding all over and needs my help 
-Mierda, back to work I go",shape=box,color=blue];
-		j4043557330 -> j843193783;
-	j3612976318 [label="Before you tell me I'm stupid, or whatever - or that I can't handle you, just wait, and let me talk.",shape=box,color=red];
-		j3612976318 -> j3627472690;
-		j3612976318 -> j1074758910;
-		j3612976318 -> j4010190843;
-	j1782442163 [label="Speaking of 
-Someone is bleeding all over the floor and needs my help 
-Mierda, back to work I go",shape=box,color=blue];
-		j1782442163 -> j2612655015;
-	j2913205826 [label="Sí, you understand 
-Sometimes I can enjoy it almost 
-Like a beautiful sadness 
-Sometimes you bleed enough and then the bleeding stops",shape=box,color=blue];
-		j2913205826 -> j1351737434;
+		j1825139993 -> j811251771 [label=true,color=green];
+		j1825139993 -> j2583663890 [label=true,color=green];
+		j1825139993 -> j811251771 [label=false,color=brown];
+		j1825139993 -> j2583663890 [label=false,color=brown];
+		j1825139993 -> j1367779783 [label=false,color=brown];
+	j3469750009 [label="말하고 보니
+누가 바닥을 피바다로 만들어놔서 내 도움이 필요하네
+Mierda, 일 다시 하러 가야겠다",shape=box,color=blue];
+		j3469750009 -> j843193783;
+	j1192010174 [label="내가 바보같다던가, 뭐라던가, 혹은 내가 널 감당 못할 거라던가 - 그런 말 하기 전에, 그냥 잠깐 기다리고, 내 말을 들어 봐.",shape=box,color=red];
+		j1192010174 -> j2925259250;
+		j1192010174 -> j3336208501;
+		j1192010174 -> j114245989;
+	j3921211958 [label="말하고 보니
+누가 바닥을 피바다로 만들어놔서 내 도움이 필요하네
+Mierda, 일 다시 하러 가야겠다",shape=box,color=blue];
+		j3921211958 -> j2612655015;
+	j1362573453 [label="Sí, 이해해 주는구나
+가끔은 이걸 거의 즐기게 될 때가 있다니까
+마치 아름다운 슬픔처럼
+가끔은 피를 충분히 많이 흘리고 나면 그냥 피가 멈추는 법이지",shape=box,color=blue];
+		j1362573453 -> j3469750009;
 	j2026799377 [label="Check boolean LettieNoFlirt",color=orange];
-		j2026799377 -> j537500863 [label=true,color=green];
-		j2026799377 -> j213791232 [label=false,color=brown];
-	j3407184561 [label="Ay, sí, sí... 
-I suppose 
-Hard to explain",shape=box,color=blue];
-		j3407184561 -> j1251132672;
-	j1994871036 [label="Sí, mi corazón, you understand 
-Sometimes I can enjoy it almost 
-Like a beautiful sadness 
-Sometimes you bleed enough and then the bleeding stops",shape=box,color=blue];
-		j1994871036 -> j1351737434;
-	j3045528756 [label="I... well... that's not exactly what I meant... [Confess Feelings.]",shape=box,color=red];
-		j3045528756 -> j830543141;
+		j2026799377 -> j2462581853 [label=true,color=green];
+		j2026799377 -> j250495376 [label=false,color=brown];
+	j4226589414 [label="Ay, sí, sí... 
+아마도 
+설명하기 힘들어",shape=box,color=blue];
+		j4226589414 -> j1330520109;
+	j2076796906 [label="Sí, mi corazón, 이해해 주는구나
+가끔은 이걸 거의 즐기게 될 때가 있다니까
+마치 아름다운 슬픔처럼
+가끔은 피를 충분히 많이 흘리고 나면 그냥 피가 멈추는 법이지",shape=box,color=blue];
+		j2076796906 -> j3469750009;
+	j1367779783 [label="난... 아니... 내 말뜻은 그게 아니었는데... [마음을 고백한다.]",shape=box,color=red];
+		j1367779783 -> j3707936315;
 	j843193783 [label="Boolean LettieWillDate is now true.",color=orange];
 		j843193783 -> "Chat ends.";
-	j3627472690 [label="You're drop-dead gorgeous. You're fiercely intelligent. And you could kick my ass. But that's not the only reasons you've become so important to me.",shape=box,color=red];
-		j3627472690 -> j4243371892;
-		j3627472690 -> j2972207325;
-	j1074758910 [label="Deep down beneath all the layers of armor you've built over yourself, is one of the kindest, most compassionate people I've ever met. But that's not all.",shape=box,color=red];
-		j1074758910 -> j555759664;
-		j1074758910 -> j2972207325;
-	j4010190843 [label="You're unstoppable. Unbreakable. Unflinching. Nothing seems to slow you down. You're one of the toughest people I've ever met. And -",shape=box,color=red];
-		j4010190843 -> j555759664;
-		j4010190843 -> j4243371892;
+	j2925259250 [label="넌 넋나갈 정도로 아름다워. 날카로울 정도로 지적이고. 그리고 여차하면 날 걷어차 버릴 수도 있고. 하지만 네가 내게 이렇게 중요해진 건 그런 이유만이 아니야.",shape=box,color=red];
+		j2925259250 -> j171229021;
+		j2925259250 -> j94723020;
+	j3336208501 [label="네가 스스로 수 겹씩 겹쳐 두른 갑옷 그 깊숙한 아래에는, 내가 지금껏 만난 사람 중 가장 상냥하고, 연민과 공감을 아는 사람이 있어. 하지만 그것만이 아니지.",shape=box,color=red];
+		j3336208501 -> j445930425;
+		j3336208501 -> j94723020;
+	j114245989 [label="넌 그 누구도 막을 수 없는 사람이야. 부술 수도, 움츠리게 만들 수도 없지. 그 어떤 것도 네 발목을 붙잡지는 못하는 것 같아. 내가 지금껏 만난 사람 중 가장 강인한 사람일 거야. 그리고 -",shape=box,color=red];
+		j114245989 -> j445930425;
+		j114245989 -> j171229021;
 	j2612655015 [label="Boolean LettieReal is now true.",color=orange];
 		j2612655015 -> j843193783;
-	j1351737434 [label="Speaking of 
-Someone is bleeding all over the floor and needs my help 
-Mierda, back to work I go",shape=box,color=blue];
-		j1351737434 -> j843193783;
-	j213791232 [label="Sí, you understand 
-Sometimes I can enjoy it almost 
-Like a beautiful sadness 
-But lately... ay, you do not need to hear me whine about being lonely",shape=box,color=blue];
-		j213791232 -> j539674275;
-	j1251132672 [label="Got to go back to work, solecito",shape=box,color=blue];
-		j1251132672 -> j602183822;
-	j4243371892 [label="You're one of the kindest, most caring people I've ever met. The way you tend to your animals and the way you'll go out of your way for people makes my heart melt.",shape=box,color=red];
-		j4243371892 -> j3507088418;
-	j2972207325 [label="You're made of iron. And I know that no matter what they throw at you - Entrati, the Man in the Wall, Viktor and the Scaldra - it doesn't matter. They don't stand a chance.",shape=box,color=red];
-		j2972207325 -> j3507088418;
-	j555759664 [label="Let's stop to consider how damn gorgeous you are, and how you could absolutely break me like a twig if you wanted to. lol",shape=box,color=red];
-		j555759664 -> j3507088418;
+	j250495376 [label="Sí, 이해해 주는구나
+가끔은 이걸 거의 즐기게 될 때가 있다니까
+마치 아름다운 슬픔처럼
+하지만 최근엔... 아니다, 외롭다고 징징거리는 걸 니가 들어줄 필요는 없지",shape=box,color=blue];
+		j250495376 -> j539674275;
+	j1330520109 [label="다시 일하러 가봐야 해, solecito",shape=box,color=blue];
+		j1330520109 -> j602183822;
+	j171229021 [label="너는 내가 지금껏 만난 사람 중 가장 상냥하고, 연민과 공감을 아는 사람이야. 네가 동물들을 돌보고, 사람들을 위해 수없이 애쓰는 모습을 보면 내 마음이 녹는 것 같아.",shape=box,color=red];
+		j171229021 -> j3311537457;
+	j94723020 [label="넌 강철로 만들어진 것 같아. 엔트라티, 벽 속의 남자, 빅토르, 스칼드라 - 그 중 누가 너한테 뭘 던진다고 해도, 전혀 소용 없을 거야. 널 상대론 기회조차 없을 테니까.",shape=box,color=red];
+		j94723020 -> j3311537457;
+	j445930425 [label="네가 얼마나 빌어먹도록 아름다운지도 빼먹지 말자고. 그리고 네가 원한다면 언제든 나뭇가지처럼 나를 부러뜨려 버릴 수 있을 정도로 날 휘어잡는다는 것도.",shape=box,color=red];
+		j445930425 -> j3311537457;
 	j539674275 [label="Check boolean LettieConfession",color=orange];
-		j539674275 -> j1299699909 [label=true,color=green];
-		j539674275 -> j550281891 [label=true,color=green];
-		j539674275 -> j1299699909 [label=false,color=brown];
-		j539674275 -> j550281891 [label=false,color=brown];
-		j539674275 -> j2302631832 [label=false,color=brown];
+		j539674275 -> j3046866271 [label=true,color=green];
+		j539674275 -> j157424798 [label=true,color=green];
+		j539674275 -> j3046866271 [label=false,color=brown];
+		j539674275 -> j157424798 [label=false,color=brown];
+		j539674275 -> j1076327381 [label=false,color=brown];
 	j602183822 [label="Boolean LettieRealNo is now true.",color=orange];
 		j602183822 -> "Chat ends.";
-	j3507088418 [label="Point is... I care about you, Lettie. A lot. And more than just as friend, and I understand if it isn't mutual, but -",shape=box,color=red];
-		j3507088418 -> j4116131205;
-	j1299699909 [label="Talk to me anytime, Lettie. I'm here for you.",shape=box,color=red];
-		j1299699909 -> j2500055724;
-	j550281891 [label="You aren't whining. This is what friends are for. :)",shape=box,color=red];
-		j550281891 -> j2500055724;
-	j4116131205 [label="Shut up",shape=box,color=blue];
-		j4116131205 -> j321521668;
-	j2500055724 [label="+20 Chemistry",color=orange];
-		j2500055724 -> j379043771;
+	j3311537457 [label="그러니까 내 말은... 난 널 아낀다는 거야, 레티. 정말 많이. 그리고 그냥 친구로서만이 아니야. 나랑 같은 마음이 아니더라도 이해하겠지만, 나는 -",shape=box,color=red];
+		j3311537457 -> j3576941492;
+	j3046866271 [label="언제든지 말해줘, 레티. 난 항상 여기 있을 테니까.",shape=box,color=red];
+		j3046866271 -> j374969942;
+	j157424798 [label="징징거리는 거 아냐. 친구란 게 그래서 있는 법인걸. :)",shape=box,color=red];
+		j157424798 -> j374969942;
+	j3576941492 [label="시끄러",shape=box,color=blue];
+		j3576941492 -> j321521668;
+	j374969942 [label="+20 Chemistry",color=orange];
+		j374969942 -> j2641794872;
 	j321521668 [label="Aguántame tantito",shape=box,color=blue];
-		j321521668 -> j2821336148;
-		j321521668 -> j3050904040;
-	j379043771 [label="Gracias 
-Didn't mean to bleed all over the place 
-Which someone is now doing literally all over my floor 
-Mierda back to work I go",shape=box,color=blue];
-		j379043771 -> j843193783;
-	j2821336148 [label="I'm sorry if I upset you...",shape=box,color=red];
-		j2821336148 -> j4041218528;
-	j3050904040 [label="I understand if you don't feel the same way, I get it.",shape=box,color=red];
-		j3050904040 -> j4041218528;
-	j4041218528 [label="¡Neta, ya cállate!
-I need a second to think
-To breathe
-Can't process when I'm tearing up",shape=box,color=blue];
-		j4041218528 -> j605149310;
-	j605149310 [label="+20 Chemistry",color=orange];
-		j605149310 -> j3770839125;
-	j3770839125 [label="I don't DO compliments, solecito
-Never take them well
-Talk tomorrow, sort this shit out then
+		j321521668 -> j2148358842;
+		j321521668 -> j1937471277;
+	j2641794872 [label="Gracias
+이렇게 온 사방에 피칠갑을 할 생각은 없었는데
+말하고 보니 지금 이 쪽 바닥에서 문자 그대로 그러는 사람이 있군
+Mierda 일이나 마저 하러 가야겠다",shape=box,color=blue];
+		j2641794872 -> j843193783;
+	j2148358842 [label="불쾌했다면 미안해...",shape=box,color=red];
+		j2148358842 -> j716749207;
+	j1937471277 [label="네가 같은 마음이 아니더라도, 이해할게.",shape=box,color=red];
+		j1937471277 -> j716749207;
+	j716749207 [label="¡Neta, ya cállate! 
+그냥 생각할 시간이 좀 필요해
+숨 좀 돌리게
+이렇게 눈물 나는 와중에 생각을 할 수 있을 리가 없잖아",shape=box,color=blue];
+		j716749207 -> j2921350937;
+	j2921350937 [label="+20 Chemistry",color=orange];
+		j2921350937 -> j344520271;
+	j344520271 [label="난 칭찬 같은 거랑 상종 안 한다, solecito
+제대로 받아들이는 적이 없고
+내일 얘기하고, 그 때 이 망할 일을 정리해 보자고
 Lo siento",shape=box,color=blue];
-		j3770839125 -> j621831274;
+		j344520271 -> j621831274;
 	j621831274 [label="Boolean LettieConfession is now true.",color=orange];
 		j621831274 -> "Chat ends. Next chat will be LettieConfession.";
 	"Chat ends. Next chat will be LettieConfession." [color=orange];

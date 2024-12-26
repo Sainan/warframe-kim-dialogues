@@ -3,80 +3,80 @@ digraph {
 		"LettieQuincyWingman begins." -> j3964039837;
 	j3964039837 [label="Check boolean IsDating",color=orange];
 		j3964039837 -> "Chat ends." [label=true,color=green];
-		j3964039837 -> j185389989 [label=false,color=brown];
+		j3964039837 -> j3053076172 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j185389989 [label="Hey
-Quincy came to talk to me
-Said you wanted to talk?
+	j3053076172 [label="안녕
+퀸시가 그러던데
+나랑 얘기하고 싶다며?
 ¿Qué pasó?",shape=box,color=blue];
-		j185389989 -> j1277913046;
+		j3053076172 -> j1277913046;
 	j1277913046 [label="Check boolean LettieNoDate",color=orange];
-		j1277913046 -> j1774801472 [label=true,color=green];
-		j1277913046 -> j605525963 [label=true,color=green];
-		j1277913046 -> j3088472410 [label=false,color=brown];
-		j1277913046 -> j605525963 [label=false,color=brown];
-	j1774801472 [label="I just... wanted to say sorry, Lettie. That's all.",shape=box,color=red];
-		j1774801472 -> j3697981924;
-	j605525963 [label="He must have been mistaken. [End.]",shape=box,color=red];
-		j605525963 -> j3597298798;
-	j3088472410 [label="I... well. I have feelings for you.",shape=box,color=red];
-		j3088472410 -> j285831484;
-	j3697981924 [label="JAJA Sí, that's what he said
-I didn't believe him at first
-But now I'm impressed that you've got him working for you, huh?
-Ay, there I go again...",shape=box,color=blue];
-		j3697981924 -> j2015798562;
+		j1277913046 -> j2308938406 [label=true,color=green];
+		j1277913046 -> j2995512552 [label=true,color=green];
+		j1277913046 -> j2975649291 [label=false,color=brown];
+		j1277913046 -> j2995512552 [label=false,color=brown];
+	j2308938406 [label="그냥... 사과하고 싶었을 뿐이야, 레티. 그것뿐이야.",shape=box,color=red];
+		j2308938406 -> j4197183441;
+	j2995512552 [label="걔가 착각했겠지. [종료.]",shape=box,color=red];
+		j2995512552 -> j3597298798;
+	j2975649291 [label="그게... 음. 나 너 좋아해.",shape=box,color=red];
+		j2975649291 -> j285831484;
+	j4197183441 [label="JAJA Sí, 걔가 그러더라
+처음엔 걔를 못 믿었어
+하지만 이젠 걔가 너 대신 말을 전해주게 만들었다는 데 놀랐단 말이야, 응?
+Ay, 또 이러고 있네...",shape=box,color=blue];
+		j4197183441 -> j615745614;
 	j3597298798 [label="Lárgate de aquí, cabrón",shape=box,color=blue];
 		j3597298798 -> "Chat ends.";
 	j285831484 [label="Check boolean LettieHasDated",color=orange];
-		j285831484 -> j584608100 [label=true,color=green];
-		j285831484 -> j2226962620 [label=false,color=brown];
-	j2015798562 [label="You just want to apologize and I'm making it hard for you
-All right
-Apology accepted",shape=box,color=blue];
-		j2015798562 -> j4121139439;
-	j584608100 [label="You had your chance
-And it didn't go so well, did it?
-But... aaaay, sí...
-Hard to admit that I miss you",shape=box,color=blue];
-		j584608100 -> j2321116145;
-	j2226962620 [label="You kept this to yourself the whole time?
+		j285831484 -> j2626112423 [label=true,color=green];
+		j285831484 -> j1431684555 [label=false,color=brown];
+	j615745614 [label="넌 그냥 사과를 하고 싶은 것 뿐일 텐데 내가 힘들게 만들고 있네
+좋아
+사과 받아들일게",shape=box,color=blue];
+		j615745614 -> j780364464;
+	j2626112423 [label="너한테 기회는 있었지
+하지만 잘 안 됐지?
+하지만... aaaay, sí...
+내가 널 그리워했다니 인정하기 힘드네",shape=box,color=blue];
+		j2626112423 -> j1674700326;
+	j1431684555 [label="이걸 내내 혼자 간직하고 있었어?
 ¿Por qué?
-I am right here",shape=box,color=blue];
-		j2226962620 -> j2866864162;
-		j2226962620 -> j700998651;
-	j4121139439 [label="He *also* said you wanted to give things a shot with me
-Us
-A thing, together
+내가 여기 있잖아",shape=box,color=blue];
+		j1431684555 -> j3854340265;
+		j1431684555 -> j1564046032;
+	j780364464 [label="걔가 *또* 그러던데 나랑 한 번 해 보고 싶다며
+우리
+우리 둘이서, 사귀는 거
 ¿Verdad?",shape=box,color=blue];
-		j4121139439 -> j3384544699;
-		j4121139439 -> j1093446194;
-	j2321116145 [label="You want to give this another try?",shape=box,color=blue];
-		j2321116145 -> j3384544699;
-		j2321116145 -> j1093446194;
-	j2866864162 [label="Couldn't tell you.",shape=box,color=red];
-		j2866864162 -> j3143259001;
-	j700998651 [label="No idea.",shape=box,color=red];
-		j700998651 -> j3143259001;
-	j3384544699 [label="Yeah. :) I would.",shape=box,color=red];
-		j3384544699 -> j98426433;
-	j1093446194 [label="Actually, never mind.",shape=box,color=red];
-		j1093446194 -> j2955670583;
-	j3143259001 [label="Well...
-Whatever
-You want to do this?",shape=box,color=blue];
-		j3143259001 -> j3384544699;
-		j3143259001 -> j1093446194;
-	j98426433 [label="+20 Chemistry",color=orange];
-		j98426433 -> j2434285118;
-	j2955670583 [label="¿Babas?
-Sometimes, I want to smack you
-This is one of those times",shape=box,color=blue];
-		j2955670583 -> j3065772033;
-	j2434285118 [label="Sí, okay then
-Let's get on with it, then
-¡Va!, there's work to do",shape=box,color=blue];
-		j2434285118 -> j1224573614;
+		j780364464 -> j3690104711;
+		j780364464 -> j219119344;
+	j1674700326 [label="다시 한 번 더 사귀어 보고 싶어?",shape=box,color=blue];
+		j1674700326 -> j3690104711;
+		j1674700326 -> j219119344;
+	j3854340265 [label="말을 할 수가 없었어.",shape=box,color=red];
+		j3854340265 -> j696580823;
+	j1564046032 [label="잘 모르겠어.",shape=box,color=red];
+		j1564046032 -> j696580823;
+	j3690104711 [label="응. :) 해 보고 싶어.",shape=box,color=red];
+		j3690104711 -> j2162237299;
+	j219119344 [label="사실, 신경쓰지 마.",shape=box,color=red];
+		j219119344 -> j2875022756;
+	j696580823 [label="뭐...
+뭐든간
+정말 이걸 하고 싶어?",shape=box,color=blue];
+		j696580823 -> j3690104711;
+		j696580823 -> j219119344;
+	j2162237299 [label="+20 Chemistry",color=orange];
+		j2162237299 -> j73547363;
+	j2875022756 [label="¿Babas?
+가끔 널 때리고 싶을 때가 있어
+바로 이럴 때 말이야",shape=box,color=blue];
+		j2875022756 -> j3065772033;
+	j73547363 [label="Sí, 알았어 그럼
+얼른 해 보자고
+¡Va! 일할 거 아직 많아",shape=box,color=blue];
+		j73547363 -> j1224573614;
 	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
 		j3065772033 -> "Chat ends.";
 	j1224573614 [label="Boolean LettieNoDate is now false.",color=orange];

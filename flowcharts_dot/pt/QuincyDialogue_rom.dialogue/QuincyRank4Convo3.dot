@@ -15,7 +15,7 @@ digraph {
 	j3809324205 [label="Já tô de saída, foi mal [Encerrar Conversa]",shape=box,color=red];
 		j3809324205 -> "Chat ends.";
 	j1695609319 [label="trauma espacial, tem um tempo livre?",shape=box,color=blue];
-		j1695609319 -> j1092246893;
+		j1695609319 -> j3048215770;
 		j1695609319 -> j2020033145;
 		j1695609319 -> j4219296257;
 	j3829172184 [label="opa, tem um tempo livre?",shape=box,color=blue];
@@ -26,8 +26,8 @@ digraph {
 		j964690120 -> j292458402;
 		j964690120 -> j259530730;
 	"Chat ends." [color=orange];
-	j1092246893 [label="Fala, Trauma Regular. Qual a boa?",shape=box,color=red];
-		j1092246893 -> j3243885385;
+	j3048215770 [label="Fala, Trauma Regular. Qual a boa?",shape=box,color=red];
+		j3048215770 -> j2474275861;
 	j2020033145 [label="Opa :)",shape=box,color=red];
 		j2020033145 -> j964690120;
 	j4219296257 [label="Não dá pra falar agora, foi mal [Encerrar Conversa]",shape=box,color=red];
@@ -38,8 +38,8 @@ digraph {
 		j292458402 -> j1738736910;
 	j259530730 [label="Na real, agora não dá [Encerrar Conversa]",shape=box,color=red];
 		j259530730 -> j2826950488;
-	j3243885385 [label="asuahsuahsuaha q isso, eu tô super de boa. já passei por coisa pior. é… tá, pior q aqui acho q não",shape=box,color=blue];
-		j3243885385 -> j1162180452;
+	j2474275861 [label="asuahsuahsuaha q isso, eu tô super de boa. já passei por coisa pior. é… tá, pior q aqui acho q não",shape=box,color=blue];
+		j2474275861 -> j4205430314;
 	j1881243082 [label="primeira pergunta: em q tipo de vizinhança vc cresceu? era segura? perigosa? lotada? vazia?",shape=box,color=blue];
 		j1881243082 -> j2460702087;
 		j1881243082 -> j1284503759;
@@ -49,8 +49,8 @@ digraph {
 		j1738736910 -> j3044209487;
 	j2826950488 [label="de boa",shape=box,color=blue];
 		j2826950488 -> "Chat ends.";
-	j1162180452 [label="nunca passei por uma treta envolvendo o tecnovírus, viagem espacial e o futuro… mas vc entendeu meu ponto",shape=box,color=blue];
-		j1162180452 -> j1175886422;
+	j4205430314 [label="nunca passei por uma treta envolvendo o tecnovírus, viagem espacial e o futuro… mas vc entendeu meu ponto",shape=box,color=blue];
+		j4205430314 -> j993733959;
 	j2460702087 [label="Segura, mas lotada. Mesmo antes da Zariman, a gente quase não tinha espaço sobrando, mas a gente era uma comunidade unida",shape=box,color=red];
 		j2460702087 -> j3754476571;
 	j1284503759 [label="Perigosa e lotada. A gente ficava tudo espremido nos lugar, e todo mundo queria pegar as coisas dos outros",shape=box,color=red];
@@ -62,8 +62,8 @@ digraph {
 	j3044209487 [label="Check boolean QuincyHexTrade",color=orange];
 		j3044209487 -> j3074016534 [label=true,color=green];
 		j3044209487 -> j2949866697 [label=false,color=brown];
-	j1175886422 [label="quando vc cresce lidando merda e caos o dia todo, vc aprende a lidar com as coisas",shape=box,color=blue];
-		j1175886422 -> j598033569;
+	j993733959 [label="quando vc cresce lidando merda e caos o dia todo, vc aprende a lidar com as coisas",shape=box,color=blue];
+		j993733959 -> j1390703966;
 	j3754476571 [label="Boolean DrifterSafeCrowded is now true.",color=orange];
 		j3754476571 -> j2391267026;
 	j774440161 [label="Boolean DrifterUnsafeCrowded is now true.",color=orange];
@@ -77,8 +77,8 @@ digraph {
 	j2949866697 [label="Check boolean QuincyHexAsked",color=orange];
 		j2949866697 -> j1813248611 [label=true,color=green];
 		j2949866697 -> j1813248611 [label=false,color=brown];
-	j598033569 [label="então rlx, tu n vai me achar chorando no canto q nem o resto dos traumatizados",shape=box,color=blue];
-		j598033569 -> j3789167958;
+	j1390703966 [label="então rlx, tu n vai me achar chorando no canto q nem o resto dos traumatizados",shape=box,color=blue];
+		j1390703966 -> j2894916942;
 	j2391267026 [label="+10 Chemistry",color=orange];
 		j2391267026 -> j3368465246;
 	j2804769292 [label="+10 Chemistry",color=orange];
@@ -94,9 +94,9 @@ digraph {
 		j690981203 -> j2544345985;
 	j1813248611 [label="Então tá, vamo fazer uma troca: você me conta a história de como você veio parar no Hexa, e eu respondo suas perguntas. Topa?",shape=box,color=red];
 		j1813248611 -> j690981203;
-	j3789167958 [label="but talking about my shitty neighborhood growing up ain't why i hit u up, cuz. lol",shape=box,color=blue];
-		j3789167958 -> j3121716785;
-		j3789167958 -> j2450759309;
+	j2894916942 [label="mas n vim aqui pra falar sobre minha vizinhança de merda q tive na infância, relaxa aushaushauhsa",shape=box,color=blue];
+		j2894916942 -> j3121716785;
+		j2894916942 -> j2450759309;
 	j3368465246 [label="eu conhecia uns caras no exército q viviam desse jeito. tudo apertado, mas com uma comunidade bem forte",shape=box,color=blue];
 		j3368465246 -> j2067720205;
 	j1689923101 [label="tá explicado pq vc anda por aqui como se fosse mais um dia normal, tu cresceu vivendo um ambiente bem parecido com essa merda",shape=box,color=blue];

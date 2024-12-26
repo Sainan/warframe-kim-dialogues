@@ -17,8 +17,8 @@ digraph {
 		j2954474355 -> j4260836954 [label=true,color=green];
 		j2954474355 -> j210591680 [label=false,color=brown];
 	j3088093298 [label="Check boolean QuincyDating",color=orange];
-		j3088093298 -> j4018778301 [label=true,color=green];
-		j3088093298 -> j1165881990 [label=false,color=brown];
+		j3088093298 -> j196039086 [label=true,color=green];
+		j3088093298 -> j2835675421 [label=false,color=brown];
 	j2037477050 [label="Так... сейчас подходящее время, чтобы спросить, как ты оказался в числе Гексов?",shape=box,color=red];
 		j2037477050 -> j3088093298;
 	j4260836954 [label="привет, красавчик. Как дела в этот прекрасный день?",shape=box,color=blue];
@@ -29,10 +29,10 @@ digraph {
 		j210591680 -> j2616377784;
 		j210591680 -> j1736142826;
 		j210591680 -> j4068060785;
-	j4018778301 [label="о, привет, красавчик",shape=box,color=blue];
-		j4018778301 -> j1165881990;
-	j1165881990 [label="story's 2 long 2 tell right now, i don't have that much time, sorry",shape=box,color=blue];
-		j1165881990 -> j3525009630;
+	j196039086 [label="о, привет, красавчик",shape=box,color=blue];
+		j196039086 -> j2835675421;
+	j2835675421 [label="история слишком длинная, чтобы рассказать сейчас, у меня нет столько времени, извини",shape=box,color=blue];
+		j2835675421 -> j3525009630;
 	j2616377784 [label="Хорошо. А ты как?",shape=box,color=red];
 		j2616377784 -> j3076338813;
 	j1736142826 [label="Теперь я насторожен.",shape=box,color=red];
@@ -244,14 +244,14 @@ digraph {
 	j3403841955 [label="Я не беру с тебя одолжений, когда рассказываю тебе что-то.",shape=box,color=red];
 		j3403841955 -> j4111105110;
 	j3141232564 [label="Шеф, он не может оставить всё как есть, не так ли?",shape=box,color=blue];
-		j3141232564 -> j1692641455;
+		j3141232564 -> j2763071049;
 		j3141232564 -> j4008407612;
 	j123335239 [label="всё — это обмен. всё — это обмен под поверхностью",shape=box,color=blue];
 		j123335239 -> j1622697590;
 	j4111105110 [label="это твоя проблема хаха",shape=box,color=blue];
 		j4111105110 -> j123335239;
-	j1692641455 [label="Что сделал Артур...?",shape=box,color=red];
-		j1692641455 -> j852468578;
+	j2763071049 [label="Что сделал Артур?..",shape=box,color=red];
+		j2763071049 -> j852468578;
 	j4008407612 [label="Звучит как история для другого разговора.",shape=box,color=red];
 		j4008407612 -> j4180165315;
 	j1622697590 [label="либо ты мне что-то должен, либо я тебе, такой уж порядок жизни",shape=box,color=blue];
@@ -265,7 +265,7 @@ digraph {
 		j26082276 -> j3477257276 [label=false,color=brown];
 	j2250979291 [label="Check boolean QuincyDating",color=orange];
 		j2250979291 -> j3865560455 [label=true,color=green];
-		j2250979291 -> j1736557679 [label=false,color=brown];
+		j2250979291 -> j3368625499 [label=false,color=brown];
 	j3504010516 [label="Но мы же вместе, разве это не меняет ничего?",shape=box,color=red];
 		j3504010516 -> j620335096;
 	j3477257276 [label="Ты когда-нибудь задумывался, почему другие члены Хёльвании не очень близки с тобой?",shape=box,color=red];
@@ -274,8 +274,8 @@ digraph {
 		j2000531260 -> j2815593314;
 	j3865560455 [label="окей, красавчик, мне надо идти. ты напишешь мне потом, да?",shape=box,color=blue];
 		j3865560455 -> "Chat ends.";
-	j1736557679 [label="ёще раз, мне нужно идти. увидимся, братан",shape=box,color=blue];
-		j1736557679 -> "Chat ends.";
+	j3368625499 [label="ещё раз, мне нужно идти. увидимся, кореш",shape=box,color=blue];
+		j3368625499 -> "Chat ends.";
 	j620335096 [label="о, ты, сладкий ребёнок. быть в отношениях с кем-то только ухудшает, а не улучшает их, хаха",shape=box,color=blue];
 		j620335096 -> j1361322471;
 	j3876285734 [label="ну, ладно, космическая травма",shape=box,color=blue];
@@ -288,9 +288,9 @@ digraph {
 		j1710007921 -> "Chat ends.";
 	j1025034816 [label="Check boolean QuincyDating",color=orange];
 		j1025034816 -> j934242738 [label=true,color=green];
-		j1025034816 -> j2060910091 [label=false,color=brown];
+		j1025034816 -> j740006895 [label=false,color=brown];
 	j934242738 [label="oкей, красавчик, мне нужно идти. Напишешь мне позже, да?",shape=box,color=blue];
 		j934242738 -> "Chat ends.";
-	j2060910091 [label="также, мне нужно идти. увидимся, братан",shape=box,color=blue];
-		j2060910091 -> "Chat ends.";
+	j740006895 [label="также, мне нужно идти. увидимся, кореш",shape=box,color=blue];
+		j740006895 -> "Chat ends.";
 }

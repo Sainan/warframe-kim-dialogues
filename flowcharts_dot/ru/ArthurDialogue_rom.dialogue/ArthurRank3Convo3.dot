@@ -12,14 +12,14 @@ digraph {
 		j2648482181 -> j2562128219;
 		j2648482181 -> j4103767651;
 	j3245448257 [label="Check boolean ArthurICR",color=orange];
-		j3245448257 -> j2688338000 [label=true,color=green];
+		j3245448257 -> j3740758512 [label=true,color=green];
 		j3245448257 -> j2442892859 [label=false,color=brown];
 	j2562128219 [label="Почему?",shape=box,color=red];
 		j2562128219 -> j83675588;
 	j4103767651 [label="Еда отстой, не так ли?",shape=box,color=red];
 		j4103767651 -> j1132470162;
-	j2688338000 [label="Почему ты присоединяешься к ним?",shape=box,color=red];
-		j2688338000 -> j2648482181;
+	j3740758512 [label="Почему ты присоединился к ним?",shape=box,color=red];
+		j3740758512 -> j2648482181;
 	j2442892859 [label="Куда?",shape=box,color=red];
 		j2442892859 -> j3024147890;
 	j83675588 [label="Я, скажем так, обиделся на их методологию.",shape=box,color=blue];
@@ -86,7 +86,7 @@ digraph {
 	j2630419588 [label="Ммм... Полувкусные взрывы...",shape=box,color=red];
 		j2630419588 -> j3422222375;
 	j1382192532 [label="Мммм.",shape=box,color=blue];
-		j1382192532 -> j2688338000;
+		j1382192532 -> j3740758512;
 		j1382192532 -> j2741051438;
 	"Chat ends." [color=orange];
 	j3618851344 [label="Конечно.",shape=box,color=blue];

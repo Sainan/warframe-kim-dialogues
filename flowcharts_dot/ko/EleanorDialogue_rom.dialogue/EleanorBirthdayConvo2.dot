@@ -1,16 +1,16 @@
 digraph {
 	"EleanorBirthdayConvo2 begins." [color=orange];
-		"EleanorBirthdayConvo2 begins." -> j1654736591;
-		"EleanorBirthdayConvo2 begins." -> j1836647301;
-	j1654736591 [label="Congratulations on surviving to another birthday!",shape=box,color=red];
-		j1654736591 -> j51524933;
-	j1836647301 [label="Happy Birthday, Eleanor. I’m glad you’re still here.",shape=box,color=red];
-		j1836647301 -> j1441816775;
-	j51524933 [label="You didn’t check. Luckily for you I am indeed alive right now. Because this could have been bloody awkward, couldn’t it?",shape=box,color=blue];
-		j51524933 -> "Chat ends.";
-	j1441816775 [label="+20 Chemistry",color=orange];
-		j1441816775 -> j1920612021;
+		"EleanorBirthdayConvo2 begins." -> j172207115;
+		"EleanorBirthdayConvo2 begins." -> j2465618620;
+	j172207115 [label="또 다른 생일까지 살아남은 걸 축하해!",shape=box,color=red];
+		j172207115 -> j2478538920;
+	j2465618620 [label="생일 축하해, 엘레노어. 네가 아직 여기 있어서 다행이야.",shape=box,color=red];
+		j2465618620 -> j1559935878;
+	j2478538920 [label="아직 확인하지 않았구나. 덕분에 아직도 살아있네. 엄청 어색할 수도 있었을 텐데, 그렇지?",shape=box,color=blue];
+		j2478538920 -> "Chat ends.";
+	j1559935878 [label="+20 Chemistry",color=orange];
+		j1559935878 -> j295246756;
 	"Chat ends." [color=orange];
-	j1920612021 [label="Thank you, dear Drifter. So am I.",shape=box,color=blue];
-		j1920612021 -> "Chat ends.";
+	j295246756 [label="고마워, 친애하는 드리프터. 나도 그래.",shape=box,color=blue];
+		j295246756 -> "Chat ends.";
 }
