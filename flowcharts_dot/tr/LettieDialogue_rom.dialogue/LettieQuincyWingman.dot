@@ -1,90 +1,90 @@
 digraph {
 	"LettieQuincyWingman begins." [color=orange];
-		"LettieQuincyWingman begins." -> j3964039837;
-	j3964039837 [label="Check boolean IsDating",color=orange];
-		j3964039837 -> "Chat ends." [label=true,color=green];
-		j3964039837 -> j1517406641 [label=false,color=brown];
+		"LettieQuincyWingman begins." -> j3451391318;
+	j3451391318 [label="Check boolean IsDating",color=orange];
+		j3451391318 -> "Chat ends." [label=true,color=green];
+		j3451391318 -> j595265905 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j1517406641 [label="Hey
+	j595265905 [label="Hey
 Quincy benimle konuşmaya geldi
 Konuşmak istediğini mi söyledin?
 ¿Qué pasó?",shape=box,color=blue];
-		j1517406641 -> j1277913046;
-	j1277913046 [label="Check boolean LettieNoDate",color=orange];
-		j1277913046 -> j3605334097 [label=true,color=green];
-		j1277913046 -> j2324998174 [label=true,color=green];
-		j1277913046 -> j3481364753 [label=false,color=brown];
-		j1277913046 -> j2324998174 [label=false,color=brown];
-	j3605334097 [label="Sadece... üzgün olduğumu söylemek istedim, Lettie. Hepsi bu kadar.",shape=box,color=red];
-		j3605334097 -> j2284830646;
-	j2324998174 [label="Yanılmış olmalı. [Son.]",shape=box,color=red];
-		j2324998174 -> j3597298798;
-	j3481364753 [label="Ben... şey. Sana karşı hislerim var.",shape=box,color=red];
-		j3481364753 -> j285831484;
-	j2284830646 [label="JAJA Sí, söylediği buydu
+		j595265905 -> j2065325619;
+	j2065325619 [label="Check boolean LettieNoDate",color=orange];
+		j2065325619 -> j3410815443 [label=true,color=green];
+		j2065325619 -> j798256185 [label=true,color=green];
+		j2065325619 -> j2830833112 [label=false,color=brown];
+		j2065325619 -> j798256185 [label=false,color=brown];
+	j3410815443 [label="Sadece... üzgün olduğumu söylemek istedim, Lettie. Hepsi bu kadar.",shape=box,color=red];
+		j3410815443 -> j2896929778;
+	j798256185 [label="Yanılmış olmalı. [Son.]",shape=box,color=red];
+		j798256185 -> j3947662504;
+	j2830833112 [label="Ben... şey. Sana karşı hislerim var.",shape=box,color=red];
+		j2830833112 -> j909510203;
+	j2896929778 [label="JAJA Sí, söylediği buydu
 İlk başta ona inanmadım
 Ama şimdi onu senin için çalıştırıyor olmana hayran kaldım, ha?
 İşte yine başladım...",shape=box,color=blue];
-		j2284830646 -> j3774889910;
-	j3597298798 [label="Lárgate de aquí, cabrón",shape=box,color=blue];
-		j3597298798 -> "Chat ends.";
-	j285831484 [label="Check boolean LettieHasDated",color=orange];
-		j285831484 -> j2372467445 [label=true,color=green];
-		j285831484 -> j1639767395 [label=false,color=brown];
-	j3774889910 [label="Sadece özür dilemek istiyorsun ve ben senin için zorlaştırıyorum
+		j2896929778 -> j2724119;
+	j3947662504 [label="Lárgate de aquí, cabrón",shape=box,color=blue];
+		j3947662504 -> "Chat ends.";
+	j909510203 [label="Check boolean LettieHasDated",color=orange];
+		j909510203 -> j220936754 [label=true,color=green];
+		j909510203 -> j2905260245 [label=false,color=brown];
+	j2724119 [label="Sadece özür dilemek istiyorsun ve ben senin için zorlaştırıyorum
 Tamamdır
 Özrün kabul edildi",shape=box,color=blue];
-		j3774889910 -> j2033231808;
-	j2372467445 [label="Şansını denedin
+		j2724119 -> j3277898032;
+	j220936754 [label="Şansını denedin
 Ve pek de iyi gitmedi, değil mi?
 Ama... aaaay, sí...
 Seni özlediğimi itiraf etmek zor",shape=box,color=blue];
-		j2372467445 -> j2608928546;
-	j1639767395 [label="Bunu her zaman kendine mi sakladın?
+		j220936754 -> j3563425056;
+	j2905260245 [label="Bunu her zaman kendine mi sakladın?
 ¿Por qué?
 Ben tam buradayım",shape=box,color=blue];
-		j1639767395 -> j3492467882;
-		j1639767395 -> j2501089796;
-	j2033231808 [label="*Ayrıca* benimle bir şeyler denemek istediğini de söyledi
+		j2905260245 -> j2449113955;
+		j2905260245 -> j2014613641;
+	j3277898032 [label="*Ayrıca* benimle bir şeyler denemek istediğini de söyledi
 Biz
 Birlikte bir şey
 ¿Verdad?",shape=box,color=blue];
-		j2033231808 -> j2958488488;
-		j2033231808 -> j3833656808;
-	j2608928546 [label="Tekrar denemek istediğinden emin misin?",shape=box,color=blue];
-		j2608928546 -> j2958488488;
-		j2608928546 -> j3833656808;
-	j3492467882 [label="Sana söyleyemem.",shape=box,color=red];
-		j3492467882 -> j2692788874;
-	j2501089796 [label="Hiçbir fikrim yok.",shape=box,color=red];
-		j2501089796 -> j2692788874;
-	j2958488488 [label="Evet. :) İsterim.",shape=box,color=red];
-		j2958488488 -> j1733464579;
-	j3833656808 [label="Aslında, boş ver.",shape=box,color=red];
-		j3833656808 -> j985854665;
-	j2692788874 [label="Peki...
+		j3277898032 -> j2260025176;
+		j3277898032 -> j1454018118;
+	j3563425056 [label="Tekrar denemek istediğinden emin misin?",shape=box,color=blue];
+		j3563425056 -> j2260025176;
+		j3563425056 -> j1454018118;
+	j2449113955 [label="Sana söyleyemem.",shape=box,color=red];
+		j2449113955 -> j627715307;
+	j2014613641 [label="Hiçbir fikrim yok.",shape=box,color=red];
+		j2014613641 -> j627715307;
+	j2260025176 [label="Evet. :) İsterim.",shape=box,color=red];
+		j2260025176 -> j1552134326;
+	j1454018118 [label="Aslında, boş ver.",shape=box,color=red];
+		j1454018118 -> j1796053854;
+	j627715307 [label="Peki...
 Her neyse
 Bunu yapmak istiyor musun?",shape=box,color=blue];
-		j2692788874 -> j2958488488;
-		j2692788874 -> j3833656808;
-	j1733464579 [label="+20 Chemistry",color=orange];
-		j1733464579 -> j597672299;
-	j985854665 [label="¿Babas?
+		j627715307 -> j2260025176;
+		j627715307 -> j1454018118;
+	j1552134326 [label="+20 Chemistry",color=orange];
+		j1552134326 -> j2212747073;
+	j1796053854 [label="¿Babas?
 Bazen seni tokatlamak istiyorum
 Bu da o zamanlardan biri",shape=box,color=blue];
-		j985854665 -> j3065772033;
-	j597672299 [label="Sí, tamam o zaman
+		j1796053854 -> j2703113057;
+	j2212747073 [label="Sí, tamam o zaman
 Hadi başlayalım o zaman
 ¡Va!, yapılacak işler var",shape=box,color=blue];
-		j597672299 -> j1224573614;
-	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
-		j3065772033 -> "Chat ends.";
-	j1224573614 [label="Boolean LettieNoDate is now false.",color=orange];
-		j1224573614 -> j1219159457;
-	j1219159457 [label="Boolean IsDating is now true.",color=orange];
-		j1219159457 -> j1602277889;
-	j1602277889 [label="Boolean LettieDating is now true.",color=orange];
-		j1602277889 -> j2764521140;
-	j2764521140 [label="Boolean LettieHasDated is now true.",color=orange];
-		j2764521140 -> "Chat ends.";
+		j2212747073 -> j4071933913;
+	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2703113057 -> "Chat ends.";
+	j4071933913 [label="Boolean LettieNoDate is now false.",color=orange];
+		j4071933913 -> j444607473;
+	j444607473 [label="Boolean IsDating is now true.",color=orange];
+		j444607473 -> j2763854765;
+	j2763854765 [label="Boolean LettieDating is now true.",color=orange];
+		j2763854765 -> j3003494003;
+	j3003494003 [label="Boolean LettieHasDated is now true.",color=orange];
+		j3003494003 -> "Chat ends.";
 }

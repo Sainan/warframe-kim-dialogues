@@ -1,144 +1,144 @@
 digraph {
 	"LettieConfession begins." [color=orange];
-		"LettieConfession begins." -> j2600981639;
-	j2600981639 [label="Check boolean IsDating",color=orange];
-		j2600981639 -> "Chat ends." [label=true,color=green];
-		j2600981639 -> j3970990280 [label=false,color=brown];
+		"LettieConfession begins." -> j3507132931;
+	j3507132931 [label="Check boolean IsDating",color=orange];
+		j3507132931 -> "Chat ends." [label=true,color=green];
+		j3507132931 -> j3480797259 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j3970990280 [label="Solecito 
+	j3480797259 [label="Solecito 
 你在吗",shape=box,color=blue];
-		j3970990280 -> j3071567939;
-		j3970990280 -> j3467356616;
-	j3071567939 [label="嗯……？",shape=box,color=red];
-		j3071567939 -> j853859366;
-	j3467356616 [label="[无视]",shape=box,color=red];
-		j3467356616 -> "Chat ends.";
-	j853859366 [label="我…… 
+		j3480797259 -> j2402059824;
+		j3480797259 -> j2424094220;
+	j2402059824 [label="嗯……？",shape=box,color=red];
+		j2402059824 -> j307562282;
+	j2424094220 [label="[无视]",shape=box,color=red];
+		j2424094220 -> "Chat ends.";
+	j307562282 [label="我…… 
 想说 
 Primero, lo siento 
 我不应该那样反应的 
 Segundo，你说的话是认真的吗？",shape=box,color=blue];
-		j853859366 -> j1468880474;
-		j853859366 -> j3160316270;
-	j1468880474 [label="我说的每一个字都是认真的。",shape=box,color=red];
-		j1468880474 -> j1312541902;
-	j3160316270 [label="我全都胡说的。",shape=box,color=red];
-		j3160316270 -> j977986829;
-	j1312541902 [label="啊……好吧…… 
+		j307562282 -> j4060371646;
+		j307562282 -> j4036694049;
+	j4060371646 [label="我说的每一个字都是认真的。",shape=box,color=red];
+		j4060371646 -> j4076400449;
+	j4036694049 [label="我全都胡说的。",shape=box,color=red];
+		j4036694049 -> j652509450;
+	j4076400449 [label="啊……好吧…… 
 Mierda",shape=box,color=blue];
-		j1312541902 -> j3457014991;
-		j1312541902 -> j3273149194;
-	j977986829 [label="Boolean LettieNoDate is now true.",color=orange];
-		j977986829 -> j950632043;
-	j3457014991 [label="如果你不这么想，直说无妨，我能接受。",shape=box,color=red];
-		j3457014991 -> j3425983332;
-	j3273149194 [label="我还不确定“mierda”到底是好事还是坏事……",shape=box,color=red];
-		j3273149194 -> j1001352977;
-	j950632043 [label="嗯 
+		j4076400449 -> j2481372414;
+		j4076400449 -> j2231000508;
+	j652509450 [label="Boolean LettieNoDate is now true.",color=orange];
+		j652509450 -> j1877286597;
+	j2481372414 [label="如果你不这么想，直说无妨，我能接受。",shape=box,color=red];
+		j2481372414 -> j2720179985;
+	j2231000508 [label="我还不确定“mierda”到底是好事还是坏事……",shape=box,color=red];
+		j2231000508 -> j2648199258;
+	j1877286597 [label="嗯 
 我早该知道的 
 去和昆西玩吧 
 像那样的 escuincle 似乎更适合你",shape=box,color=blue];
-		j950632043 -> "Chat ends.";
-	j3425983332 [label="Check boolean LettieTrust1",color=orange];
-		j3425983332 -> j3167760487 [label=true,color=green];
-		j3425983332 -> j1906336596 [label=false,color=brown];
-	j1001352977 [label="Jajaja 的意思是“糟了” 
+		j1877286597 -> "Chat ends.";
+	j2720179985 [label="Check boolean LettieTrust1",color=orange];
+		j2720179985 -> j675720518 [label=true,color=green];
+		j2720179985 -> j2449161630 [label=false,color=brown];
+	j2648199258 [label="Jajaja 的意思是“糟了” 
 但我不是说这是一次糟糕的谈话 
 只是——",shape=box,color=blue];
-		j1001352977 -> j3425983332;
-	j3167760487 [label="Check boolean LettieTrust2",color=orange];
-		j3167760487 -> j3299525368 [label=true,color=green];
-		j3167760487 -> j2994541476 [label=false,color=brown];
-	j1906336596 [label="看 
+		j2648199258 -> j2720179985;
+	j675720518 [label="Check boolean LettieTrust2",color=orange];
+		j675720518 -> j585351804 [label=true,color=green];
+		j675720518 -> j116930700 [label=false,color=brown];
+	j2449161630 [label="看 
 信任是我很难给予的东西 
 而对我来说，而在一段关系中信任是最重要的 
 一旦信任破裂，特别是在这种情况下，是无法修复的",shape=box,color=blue];
-		j1906336596 -> j3111619551;
-	j3299525368 [label="你知道我有多难信任别人吗 
+		j2449161630 -> j4275352605;
+	j585351804 [label="你知道我有多难信任别人吗 
 而信任对我来说有多重要 ¿no? 
 嗯……当我和某人交往时，这种信任更加重要",shape=box,color=blue];
-		j3299525368 -> j1524622774;
-	j2994541476 [label="你知道信任是我很难给予的东西 
+		j585351804 -> j506832108;
+	j116930700 [label="你知道信任是我很难给予的东西 
 而对我来说，而在一段关系中信任是最重要的 
 一旦信任破裂，特别是在这种情况下，是无法修复的",shape=box,color=blue];
-		j2994541476 -> j3607292025;
-	j3111619551 [label="Boolean LettieTrust1 is now true.",color=orange];
-		j3111619551 -> j3607292025;
-	j1524622774 [label="solecito，因为我喜欢的那种关系往往会带来痛苦 
+		j116930700 -> j2179358414;
+	j4275352605 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j4275352605 -> j2179358414;
+	j506832108 [label="solecito，因为我喜欢的那种关系往往会带来痛苦 
 如果你明白我的意思的话 
 这只会在我们想要的程度上发生 
 也只会在你愿意接受的范围内发生 
 因为这种事情需要信任",shape=box,color=blue];
-		j1524622774 -> j1272873073;
-	j3607292025 [label="Boolean LettieTrust2 is now true.",color=orange];
-		j3607292025 -> j1524622774;
-	j1272873073 [label="在这种事情中破裂的信任 
+		j506832108 -> j1657432767;
+	j2179358414 [label="Boolean LettieTrust2 is now true.",color=orange];
+		j2179358414 -> j506832108;
+	j1657432767 [label="在这种事情中破裂的信任 
 是无法修复的 
 ¿Me explico?",shape=box,color=blue];
-		j1272873073 -> j3362596321;
-		j1272873073 -> j487391788;
-		j1272873073 -> j1059719271;
-	j3362596321 [label="我不是说不，但我可以问一下……为什么你喜欢痛苦？",shape=box,color=red];
-		j3362596321 -> j390921062;
-	j487391788 [label="只要我们能时不时地轮流的话……",shape=box,color=red];
-		j487391788 -> j643536545;
-	j1059719271 [label="抱歉，我不太喜欢将痛苦和快乐混在一起。",shape=box,color=red];
-		j1059719271 -> j3235445371;
-	j390921062 [label="嗯，不知道 
+		j1657432767 -> j3362949086;
+		j1657432767 -> j4055335779;
+		j1657432767 -> j2869884892;
+	j3362949086 [label="我不是说不，但我可以问一下……为什么你喜欢痛苦？",shape=box,color=red];
+		j3362949086 -> j3455087574;
+	j4055335779 [label="只要我们能时不时地轮流的话……",shape=box,color=red];
+		j4055335779 -> j3747650061;
+	j2869884892 [label="抱歉，我不太喜欢将痛苦和快乐混在一起。",shape=box,color=red];
+		j2869884892 -> j2090034593;
+	j3455087574 [label="嗯，不知道 
 也许是因为这是我能控制的痛苦 
 与我无法控制的痛苦相比",shape=box,color=blue];
-		j390921062 -> j1327103194;
-	j643536545 [label="Jajaja 当然可以 
+		j3455087574 -> j4085785940;
+	j3747650061 [label="Jajaja 当然可以 
 但你得先赢得这份信任 
 我需要先确认我能相信你 
 所以……你怎么说？",shape=box,color=blue];
-		j643536545 -> j1243237472;
-	j3235445371 [label="Ay, sí 
+		j3747650061 -> j1195429479;
+	j2090034593 [label="Ay, sí 
 这不是每个人都能接受的 
 Entiendo，没关系",shape=box,color=blue];
-		j3235445371 -> j277963893;
-	j1327103194 [label="或者因为这是某种强烈的体验 
+		j2090034593 -> j2408660417;
+	j4085785940 [label="或者因为这是某种强烈的体验 
 一种锐利的感觉，可以刺破我每天要面对的那些糟心事 
 这是真实的 
 我可以深入其中 
 让它发声 
 感受它的脉动",shape=box,color=blue];
-		j1327103194 -> j3474470394;
-	j1243237472 [label="想跟我一起大错特错吗？",shape=box,color=blue];
-		j1243237472 -> j2796804635;
-		j1243237472 -> j2228931572;
-	j277963893 [label="+10 Chemistry",color=orange];
-		j277963893 -> j3987431606;
-	j3474470394 [label="并且这需要信任 
+		j4085785940 -> j2673368150;
+	j1195429479 [label="想跟我一起大错特错吗？",shape=box,color=blue];
+		j1195429479 -> j3853567598;
+		j1195429479 -> j2041718128;
+	j2408660417 [label="+10 Chemistry",color=orange];
+		j2408660417 -> j3773725452;
+	j2673368150 [label="并且这需要信任 
 solecito，没有信任它就没办法继续 
 所以……你怎么说？",shape=box,color=blue];
-		j3474470394 -> j1243237472;
-	j2796804635 [label="是的。事实上，我想。:) [和莱蒂约会]",shape=box,color=red];
-		j2796804635 -> j66109680;
-	j2228931572 [label="事实上我需要再好好考虑一下。抱歉。",shape=box,color=red];
-		j2228931572 -> j277963893;
-	j3987431606 [label="如果你改变主意了，告诉我",shape=box,color=blue];
-		j3987431606 -> j843193783;
-	j66109680 [label="+20 Chemistry",color=orange];
-		j66109680 -> j1299582788;
-	j843193783 [label="Boolean LettieWillDate is now true.",color=orange];
-		j843193783 -> "Chat ends.";
-	j1299582788 [label="好吧 
+		j2673368150 -> j1195429479;
+	j3853567598 [label="是的。事实上，我想。:) [和莱蒂约会]",shape=box,color=red];
+		j3853567598 -> j2124362071;
+	j2041718128 [label="事实上我需要再好好考虑一下。抱歉。",shape=box,color=red];
+		j2041718128 -> j2408660417;
+	j3773725452 [label="如果你改变主意了，告诉我",shape=box,color=blue];
+		j3773725452 -> j2129367046;
+	j2124362071 [label="+20 Chemistry",color=orange];
+		j2124362071 -> j407245110;
+	j2129367046 [label="Boolean LettieWillDate is now true.",color=orange];
+		j2129367046 -> "Chat ends.";
+	j407245110 [label="好吧 
 solecito，做好准备 
 我可不会怜香惜玉 
 因为我见识过你的战斗力 
 我知道你能承受",shape=box,color=blue];
-		j1299582788 -> j989210890;
-	j989210890 [label="不过别担心 
+		j407245110 -> j2265323464;
+	j2265323464 [label="不过别担心 
 每次我都会亲亲让它好起来 
 这一点你可以放心",shape=box,color=blue];
-		j989210890 -> j1997269121;
-	j1997269121 [label="Boolean LettieWillDate is now true.",color=orange];
-		j1997269121 -> j383062341;
-	j383062341 [label="Boolean LettieDating is now true.",color=orange];
-		j383062341 -> j4228506648;
-	j4228506648 [label="Boolean IsDating is now true.",color=orange];
-		j4228506648 -> j2764521140;
-	j2764521140 [label="Boolean LettieHasDated is now true.",color=orange];
-		j2764521140 -> "Chat ends.";
+		j2265323464 -> j1300785588;
+	j1300785588 [label="Boolean LettieWillDate is now true.",color=orange];
+		j1300785588 -> j702074970;
+	j702074970 [label="Boolean LettieDating is now true.",color=orange];
+		j702074970 -> j938814249;
+	j938814249 [label="Boolean IsDating is now true.",color=orange];
+		j938814249 -> j3003494003;
+	j3003494003 [label="Boolean LettieHasDated is now true.",color=orange];
+		j3003494003 -> "Chat ends.";
 }

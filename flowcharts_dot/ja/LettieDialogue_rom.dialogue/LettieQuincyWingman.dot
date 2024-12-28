@@ -1,90 +1,90 @@
 digraph {
 	"LettieQuincyWingman begins." [color=orange];
-		"LettieQuincyWingman begins." -> j3964039837;
-	j3964039837 [label="Check boolean IsDating",color=orange];
-		j3964039837 -> "Chat ends." [label=true,color=green];
-		j3964039837 -> j747104769 [label=false,color=brown];
+		"LettieQuincyWingman begins." -> j3451391318;
+	j3451391318 [label="Check boolean IsDating",color=orange];
+		j3451391318 -> "Chat ends." [label=true,color=green];
+		j3451391318 -> j1307631763 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j747104769 [label="ねえ
+	j1307631763 [label="ねえ
 Quincyが話しに来た
 あんたがアタシに話があるって？
 ¿Qué pasó?",shape=box,color=blue];
-		j747104769 -> j1277913046;
-	j1277913046 [label="Check boolean LettieNoDate",color=orange];
-		j1277913046 -> j3519235250 [label=true,color=green];
-		j1277913046 -> j2366711374 [label=true,color=green];
-		j1277913046 -> j1285327209 [label=false,color=brown];
-		j1277913046 -> j2366711374 [label=false,color=brown];
-	j3519235250 [label="ただ…　謝りたかっただけなんだ、Lettie。",shape=box,color=red];
-		j3519235250 -> j4250013087;
-	j2366711374 [label="勘違いしたに違いない。[終わり]",shape=box,color=red];
-		j2366711374 -> j3597298798;
-	j1285327209 [label="その…　うん。Lettieが好きなんだ。",shape=box,color=red];
-		j1285327209 -> j285831484;
-	j4250013087 [label="JAJA Sí, そう言っていた
+		j1307631763 -> j2065325619;
+	j2065325619 [label="Check boolean LettieNoDate",color=orange];
+		j2065325619 -> j1271288515 [label=true,color=green];
+		j2065325619 -> j699291578 [label=true,color=green];
+		j2065325619 -> j1106869351 [label=false,color=brown];
+		j2065325619 -> j699291578 [label=false,color=brown];
+	j1271288515 [label="ただ…　謝りたかっただけなんだ、Lettie。",shape=box,color=red];
+		j1271288515 -> j2520409664;
+	j699291578 [label="勘違いしたに違いない。[終わり]",shape=box,color=red];
+		j699291578 -> j3947662504;
+	j1106869351 [label="その…　うん。Lettieが好きなんだ。",shape=box,color=red];
+		j1106869351 -> j909510203;
+	j2520409664 [label="JAJA Sí, そう言っていた
 最初は信じていなかった
 けれどそれ伝えるために彼を仕向けるとは大したものね
 Ay、またやってしまったわね",shape=box,color=blue];
-		j4250013087 -> j1091566293;
-	j3597298798 [label="Lárgate de aquí, cabrón",shape=box,color=blue];
-		j3597298798 -> "Chat ends.";
-	j285831484 [label="Check boolean LettieHasDated",color=orange];
-		j285831484 -> j3766371867 [label=true,color=green];
-		j285831484 -> j2838965631 [label=false,color=brown];
-	j1091566293 [label="謝りたかっただけでアタシが敷居を高くしていたのね
+		j2520409664 -> j911501336;
+	j3947662504 [label="Lárgate de aquí, cabrón",shape=box,color=blue];
+		j3947662504 -> "Chat ends.";
+	j909510203 [label="Check boolean LettieHasDated",color=orange];
+		j909510203 -> j958047792 [label=true,color=green];
+		j909510203 -> j2569404264 [label=false,color=brown];
+	j911501336 [label="謝りたかっただけでアタシが敷居を高くしていたのね
 わかったわ
 謝罪は受け取ったわ",shape=box,color=blue];
-		j1091566293 -> j3907810533;
-	j3766371867 [label="チャンスはあった
+		j911501336 -> j2793393071;
+	j958047792 [label="チャンスはあった
 うまくいかなかったわよね？
 でも…　aaaay, sí...
 恋しくなかったと言ったら嘘になるわね",shape=box,color=blue];
-		j3766371867 -> j3624535119;
-	j2838965631 [label="それをずっと抱え込んでいたと？
+		j958047792 -> j2604552274;
+	j2569404264 [label="それをずっと抱え込んでいたと？
 ¿Por qué?
 ここにいるのに",shape=box,color=blue];
-		j2838965631 -> j2054622353;
-		j2838965631 -> j31831598;
-	j3907810533 [label="Quincyは*加えて*あんたがアタシと一緒に色々試してみたいとも言っていた
+		j2569404264 -> j4036234151;
+		j2569404264 -> j790929757;
+	j2793393071 [label="Quincyは*加えて*あんたがアタシと一緒に色々試してみたいとも言っていた
 アタシと
 一緒に、何かを
 ¿Verdad?",shape=box,color=blue];
-		j3907810533 -> j4087654622;
-		j3907810533 -> j942700459;
-	j3624535119 [label="もう一回やってみる？",shape=box,color=blue];
-		j3624535119 -> j4087654622;
-		j3624535119 -> j942700459;
-	j2054622353 [label="言えなかった。",shape=box,color=red];
-		j2054622353 -> j383924984;
-	j31831598 [label="分からない。",shape=box,color=red];
-		j31831598 -> j383924984;
-	j4087654622 [label="ああ :) そうしたい。",shape=box,color=red];
-		j4087654622 -> j1447876725;
-	j942700459 [label="うーん、やっぱりいい。",shape=box,color=red];
-		j942700459 -> j3573980127;
-	j383924984 [label="まあ…
+		j2793393071 -> j1867527143;
+		j2793393071 -> j2293412446;
+	j2604552274 [label="もう一回やってみる？",shape=box,color=blue];
+		j2604552274 -> j1867527143;
+		j2604552274 -> j2293412446;
+	j4036234151 [label="言えなかった。",shape=box,color=red];
+		j4036234151 -> j411388393;
+	j790929757 [label="分からない。",shape=box,color=red];
+		j790929757 -> j411388393;
+	j1867527143 [label="ああ :) そうしたい。",shape=box,color=red];
+		j1867527143 -> j680336408;
+	j2293412446 [label="うーん、やっぱりいい。",shape=box,color=red];
+		j2293412446 -> j522867917;
+	j411388393 [label="まあ…
 どっちでもいいわ
 やりたいの？",shape=box,color=blue];
-		j383924984 -> j4087654622;
-		j383924984 -> j942700459;
-	j1447876725 [label="+20 Chemistry",color=orange];
-		j1447876725 -> j2260601941;
-	j3573980127 [label="¿Babas?
+		j411388393 -> j1867527143;
+		j411388393 -> j2293412446;
+	j680336408 [label="+20 Chemistry",color=orange];
+		j680336408 -> j3676172894;
+	j522867917 [label="¿Babas?
 時々、あんたをひっぱたきたくなる
 こういう時にね",shape=box,color=blue];
-		j3573980127 -> j3065772033;
-	j2260601941 [label="Sí, 分かったわ
+		j522867917 -> j2703113057;
+	j3676172894 [label="Sí, 分かったわ
 じゃあやりましょう
 ¡Va!、仕事が多すぎる",shape=box,color=blue];
-		j2260601941 -> j1224573614;
-	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
-		j3065772033 -> "Chat ends.";
-	j1224573614 [label="Boolean LettieNoDate is now false.",color=orange];
-		j1224573614 -> j1219159457;
-	j1219159457 [label="Boolean IsDating is now true.",color=orange];
-		j1219159457 -> j1602277889;
-	j1602277889 [label="Boolean LettieDating is now true.",color=orange];
-		j1602277889 -> j2764521140;
-	j2764521140 [label="Boolean LettieHasDated is now true.",color=orange];
-		j2764521140 -> "Chat ends.";
+		j3676172894 -> j4071933913;
+	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2703113057 -> "Chat ends.";
+	j4071933913 [label="Boolean LettieNoDate is now false.",color=orange];
+		j4071933913 -> j444607473;
+	j444607473 [label="Boolean IsDating is now true.",color=orange];
+		j444607473 -> j2763854765;
+	j2763854765 [label="Boolean LettieDating is now true.",color=orange];
+		j2763854765 -> j3003494003;
+	j3003494003 [label="Boolean LettieHasDated is now true.",color=orange];
+		j3003494003 -> "Chat ends.";
 }

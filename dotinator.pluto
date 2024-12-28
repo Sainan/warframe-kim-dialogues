@@ -65,10 +65,12 @@ local function get_node_name(node)
 		return '"'..get_node_label(node)..'"'
 	end
 
-	local hash = joaat(get_node_label(node), 0)
+	local hash = joaat(node.type, 0)
+	hash = joaat(get_node_label(node), hash)
 	local n = node
 	while #n.choices == 1 do
 		n = nodes[1 + n.choices[1]]
+		hash = joaat(n.type, hash)
 		hash = joaat(get_node_label(n), hash)
 		if n.type == "/EE/Types/Engine/EndDialogueNode" then
 			-- This node goes straight to the end.
@@ -76,7 +78,7 @@ local function get_node_name(node)
 		end
 	end
 
-	-- Merge nodes with the same label + outgoing edges (e.g. LettieRank5Convo4 has 2x "+5 Chemistry" with the same outgoing edges.)
+	-- Merge nodes with the same type + label + outgoing edges (e.g. LettieRank5Convo4 has 2x "+5 Chemistry" with the same outgoing edges.)
 	if node.true_choices then
 		for node.true_choices as choice do
 			hash = joaat(tostring(choice), hash)

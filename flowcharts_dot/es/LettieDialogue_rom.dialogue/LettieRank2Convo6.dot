@@ -1,119 +1,119 @@
 digraph {
 	"LettieRank2Convo6 begins." [color=orange];
-		"LettieRank2Convo6 begins." -> j2950318430;
-	j2950318430 [label="Check boolean AmirRPG",color=orange];
-		j2950318430 -> j1183436896 [label=true,color=green];
-		j2950318430 -> j1252345945 [label=true,color=green];
-		j2950318430 -> "Chat ends." [label=false,color=brown];
-	j1183436896 [label="Oye Lettie, tengo un favor que pedirte.",shape=box,color=red];
-		j1183436896 -> j2794364090;
-	j1252345945 [label="Oye Lettie, ¿qué opinas de los juegos de rol de mesa?",shape=box,color=red];
-		j1252345945 -> j2800108573;
+		"LettieRank2Convo6 begins." -> j1196979813;
+	j1196979813 [label="Check boolean AmirRPG",color=orange];
+		j1196979813 -> j2750742589 [label=true,color=green];
+		j1196979813 -> j1228614530 [label=true,color=green];
+		j1196979813 -> "Chat ends." [label=false,color=brown];
+	j2750742589 [label="Oye Lettie, tengo un favor que pedirte.",shape=box,color=red];
+		j2750742589 -> j1509902606;
+	j1228614530 [label="Oye Lettie, ¿qué opinas de los juegos de rol de mesa?",shape=box,color=red];
+		j1228614530 -> j2642267800;
 	"Chat ends." [color=orange];
-	j2794364090 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
-		j2794364090 -> j82736124;
-	j2800108573 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
-		j2800108573 -> j1085382035;
-	j82736124 [label="Check boolean LettieSmallFavor",color=orange];
-		j82736124 -> j967470815 [label=true,color=green];
-		j82736124 -> j4251756458 [label=false,color=brown];
-	j1085382035 [label="Estás bromeando, ¿verdad?",shape=box,color=blue];
-		j1085382035 -> j1772042556;
-	j967470815 [label="Me has estado ayudando 
+	j1509902606 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
+		j1509902606 -> j1776819313;
+	j2642267800 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
+		j2642267800 -> j1669147446;
+	j1776819313 [label="Check boolean LettieSmallFavor",color=orange];
+		j1776819313 -> j1611259179 [label=true,color=green];
+		j1776819313 -> j1656657764 [label=false,color=brown];
+	j1669147446 [label="Estás bromeando, ¿verdad?",shape=box,color=blue];
+		j1669147446 -> j4236534637;
+	j1611259179 [label="Me has estado ayudando 
 Así que supongo que te escucharé 
 ¿Qué pasa, babas?",shape=box,color=blue];
-		j967470815 -> j232632379;
-		j967470815 -> j1932860232;
-	j4251756458 [label="¿Te estás muriendo desangrado?",shape=box,color=blue];
-		j4251756458 -> j2261694566;
-		j4251756458 -> j14336689;
-	j1772042556 [label="Lárgate",shape=box,color=blue];
-		j1772042556 -> "Chat ends.";
-	j232632379 [label="Sé que esto sonará como una enorme pérdida de tiempo, pero Amir quiere que todos juguemos con él a un juego llamado Fables & Frontiers.",shape=box,color=red];
-		j232632379 -> j3039057760;
-	j1932860232 [label="Amir en serio quiere que todos juguemos Fables & Frontiers con él. Es muy importante para él.",shape=box,color=red];
-		j1932860232 -> j2535606950;
-	j2261694566 [label="¿Por qué siento que eso está a punto de pasarme?",shape=box,color=red];
-		j2261694566 -> j3917434304;
-	j14336689 [label="No...?",shape=box,color=red];
-		j14336689 -> j2005355371;
-	j3039057760 [label="Tienes razón 
+		j1611259179 -> j925676393;
+		j1611259179 -> j3948353448;
+	j1656657764 [label="¿Te estás muriendo desangrado?",shape=box,color=blue];
+		j1656657764 -> j4016482122;
+		j1656657764 -> j2696444023;
+	j4236534637 [label="Lárgate",shape=box,color=blue];
+		j4236534637 -> "Chat ends.";
+	j925676393 [label="Sé que esto sonará como una enorme pérdida de tiempo, pero Amir quiere que todos juguemos con él a un juego llamado Fables & Frontiers.",shape=box,color=red];
+		j925676393 -> j332522902;
+	j3948353448 [label="Amir en serio quiere que todos juguemos Fables & Frontiers con él. Es muy importante para él.",shape=box,color=red];
+		j3948353448 -> j2652517069;
+	j4016482122 [label="¿Por qué siento que eso está a punto de pasarme?",shape=box,color=red];
+		j4016482122 -> j3355996555;
+	j2696444023 [label="No...?",shape=box,color=red];
+		j2696444023 -> j2474130587;
+	j332522902 [label="Tienes razón 
 Suena como a una enorme pérdida de tiempo 
 Es como si me estuviera sacando los dientes con un par de pinzas oxidadas",shape=box,color=blue];
-		j3039057760 -> j1251261812;
-	j2535606950 [label="Lo que ese escuincle piensa que es importante y lo que ES importante son cosas muy diferentes 
+		j332522902 -> j2023369948;
+	j2652517069 [label="Lo que ese escuincle piensa que es importante y lo que ES importante son cosas muy diferentes 
 No tengo tiempo para esto",shape=box,color=blue];
-		j2535606950 -> "Chat ends.";
-	j3917434304 [label="+10 Chemistry",color=orange];
-		j3917434304 -> j721397463;
-	j2005355371 [label="Porque alguien más lo ESTÁ AHORA MISMO 
+		j2652517069 -> "Chat ends.";
+	j3355996555 [label="+10 Chemistry",color=orange];
+		j3355996555 -> j77297085;
+	j2474130587 [label="Porque alguien más lo ESTÁ AHORA MISMO 
 ¿Lo que quieres es REALMENTE importante?",shape=box,color=blue];
-		j2005355371 -> j2738918759;
-	j1251261812 [label="Y mientras hay dolores que disfruto
+		j2474130587 -> j1674600904;
+	j2023369948 [label="Y mientras hay dolores que disfruto
 Ese no es uno de ellos",shape=box,color=blue];
-		j1251261812 -> j4013894425;
-		j1251261812 -> j1512310531;
-	j721397463 [label="Porque no eres estúpido",shape=box,color=blue];
-		j721397463 -> j549624606;
-	j2738918759 [label="No es una cuestión de vida o muerte, así que. No. Puede esperar.",shape=box,color=red];
-		j2738918759 -> j1573561201;
-	j4013894425 [label="Pero me debes un favor.",shape=box,color=red];
-		j4013894425 -> j4245331053;
-	j1512310531 [label="Yo... espera. ¿Cuál dolor es el que disfrutas?",shape=box,color=red];
-		j1512310531 -> j191511915;
-	j549624606 [label="¿Lo que quieres es REALMENTE importante?",shape=box,color=blue];
-		j549624606 -> j1338789222;
-		j549624606 -> j2738918759;
-	j1573561201 [label="+10 Chemistry",color=orange];
-		j1573561201 -> j260461344;
-	j4245331053 [label="Tienes razón
+		j2023369948 -> j3739475701;
+		j2023369948 -> j2975559640;
+	j77297085 [label="Porque no eres estúpido",shape=box,color=blue];
+		j77297085 -> j3607564419;
+	j1674600904 [label="No es una cuestión de vida o muerte, así que. No. Puede esperar.",shape=box,color=red];
+		j1674600904 -> j999874159;
+	j3739475701 [label="Pero me debes un favor.",shape=box,color=red];
+		j3739475701 -> j2596026760;
+	j2975559640 [label="Yo... espera. ¿Cuál dolor es el que disfrutas?",shape=box,color=red];
+		j2975559640 -> j2036585497;
+	j3607564419 [label="¿Lo que quieres es REALMENTE importante?",shape=box,color=blue];
+		j3607564419 -> j529902225;
+		j3607564419 -> j1674600904;
+	j999874159 [label="+10 Chemistry",color=orange];
+		j999874159 -> j3748645904;
+	j2596026760 [label="Tienes razón
 ¿Estás usando ese favor para un tonto juego de fantasía para niños?",shape=box,color=blue];
-		j4245331053 -> j2699770922;
-		j4245331053 -> j2478116253;
-	j191511915 [label="+10 Chemistry",color=orange];
-		j191511915 -> j2342123974;
-	j1338789222 [label="Para Amir, sí lo es.",shape=box,color=red];
-		j1338789222 -> j2535606950;
-	j260461344 [label="Bueno",shape=box,color=blue];
-		j260461344 -> "Chat ends.";
-	j2699770922 [label="Así es. Lo vale, esto significa mucho para Amir.",shape=box,color=red];
-		j2699770922 -> j3844791730;
-	j2478116253 [label="Mmm... Olvídalo. Mejor lo guardo.",shape=box,color=red];
-		j2478116253 -> j3272893270;
-	j2342123974 [label="Je 
+		j2596026760 -> j902439792;
+		j2596026760 -> j644074224;
+	j2036585497 [label="+10 Chemistry",color=orange];
+		j2036585497 -> j2457678813;
+	j529902225 [label="Para Amir, sí lo es.",shape=box,color=red];
+		j529902225 -> j2652517069;
+	j3748645904 [label="Bueno",shape=box,color=blue];
+		j3748645904 -> "Chat ends.";
+	j902439792 [label="Así es. Lo vale, esto significa mucho para Amir.",shape=box,color=red];
+		j902439792 -> j890515330;
+	j644074224 [label="Mmm... Olvídalo. Mejor lo guardo.",shape=box,color=red];
+		j644074224 -> j4164846144;
+	j2457678813 [label="Je 
 No te emociones mucho, babas 
 Te queda grande la yegua",shape=box,color=blue];
-		j2342123974 -> "Chat ends.";
-	j3844791730 [label="Boolean LettieSmallFavor is now false.",color=orange];
-		j3844791730 -> j2721021119;
-	j3272893270 [label="+20 Chemistry",color=orange];
-		j3272893270 -> j568094661;
-	j2721021119 [label="+20 Chemistry",color=orange];
-		j2721021119 -> j3737110988;
-	j568094661 [label="Buena elección, babas 
+		j2457678813 -> "Chat ends.";
+	j890515330 [label="Boolean LettieSmallFavor is now false.",color=orange];
+		j890515330 -> j903057974;
+	j4164846144 [label="+20 Chemistry",color=orange];
+		j4164846144 -> j4055754209;
+	j903057974 [label="+20 Chemistry",color=orange];
+		j903057974 -> j474555337;
+	j4055754209 [label="Buena elección, babas 
 Ahora vete",shape=box,color=blue];
-		j568094661 -> "Chat ends.";
-	j3737110988 [label="Como quieras, babas... 
+		j4055754209 -> "Chat ends.";
+	j474555337 [label="Como quieras, babas... 
 Jugaré a este estúpido juego 
 Pero solo DESPUÉS de trabajar
 Ahora vete",shape=box,color=blue];
-		j3737110988 -> j952113720;
-	j952113720 [label="Boolean AmirRPGLettie is now true.",color=orange];
-		j952113720 -> j2581000439;
-	j2581000439 [label="Check boolean AmirRPGQuincy",color=orange];
-		j2581000439 -> j3146717934 [label=true,color=green];
-		j2581000439 -> j1692268193 [label=false,color=brown];
-	j3146717934 [label="Check boolean AmirRPGArthur",color=orange];
-		j3146717934 -> j655855753 [label=true,color=green];
-		j3146717934 -> j1692268193 [label=false,color=brown];
-	j1692268193 [label="Boolean AmirRPGAny is now true.",color=orange];
-		j1692268193 -> "Chat ends.";
-	j655855753 [label="Check boolean AmirRPGAoi",color=orange];
-		j655855753 -> j2643568913 [label=true,color=green];
-		j655855753 -> j1692268193 [label=false,color=brown];
-	j2643568913 [label="Check boolean AmirRPGEleanor",color=orange];
-		j2643568913 -> j3798570005 [label=true,color=green];
-		j2643568913 -> j1692268193 [label=false,color=brown];
-	j3798570005 [label="Boolean AmirRPGAll is now true.",color=orange];
-		j3798570005 -> "Chat ends.";
+		j474555337 -> j3298870984;
+	j3298870984 [label="Boolean AmirRPGLettie is now true.",color=orange];
+		j3298870984 -> j2274530056;
+	j2274530056 [label="Check boolean AmirRPGQuincy",color=orange];
+		j2274530056 -> j1722720495 [label=true,color=green];
+		j2274530056 -> j1992773596 [label=false,color=brown];
+	j1722720495 [label="Check boolean AmirRPGArthur",color=orange];
+		j1722720495 -> j1055796625 [label=true,color=green];
+		j1722720495 -> j1992773596 [label=false,color=brown];
+	j1992773596 [label="Boolean AmirRPGAny is now true.",color=orange];
+		j1992773596 -> "Chat ends.";
+	j1055796625 [label="Check boolean AmirRPGAoi",color=orange];
+		j1055796625 -> j2036451565 [label=true,color=green];
+		j1055796625 -> j1992773596 [label=false,color=brown];
+	j2036451565 [label="Check boolean AmirRPGEleanor",color=orange];
+		j2036451565 -> j2677000302 [label=true,color=green];
+		j2036451565 -> j1992773596 [label=false,color=brown];
+	j2677000302 [label="Boolean AmirRPGAll is now true.",color=orange];
+		j2677000302 -> "Chat ends.";
 }

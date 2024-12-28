@@ -1,144 +1,144 @@
 digraph {
 	"LettieConfession begins." [color=orange];
-		"LettieConfession begins." -> j2600981639;
-	j2600981639 [label="Check boolean IsDating",color=orange];
-		j2600981639 -> "Chat ends." [label=true,color=green];
-		j2600981639 -> j215752197 [label=false,color=brown];
+		"LettieConfession begins." -> j3507132931;
+	j3507132931 [label="Check boolean IsDating",color=orange];
+		j3507132931 -> "Chat ends." [label=true,color=green];
+		j3507132931 -> j3199151063 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j215752197 [label="Solecito 
+	j3199151063 [label="Solecito 
 Ти тут",shape=box,color=blue];
-		j215752197 -> j2345526808;
-		j215752197 -> j704229613;
-	j2345526808 [label="Так, а що..?",shape=box,color=red];
-		j2345526808 -> j988660141;
-	j704229613 [label="[Не зважати.]",shape=box,color=red];
-		j704229613 -> "Chat ends.";
-	j988660141 [label="Я…
+		j3199151063 -> j992932349;
+		j3199151063 -> j2787749540;
+	j992932349 [label="Так, а що..?",shape=box,color=red];
+		j992932349 -> j623566211;
+	j2787749540 [label="[Не зважати.]",shape=box,color=red];
+		j2787749540 -> "Chat ends.";
+	j623566211 [label="Я…
 Хотіла сказати
 Primero, lo siento
 Я не мала б поводитися так, як це робила
 Segundo, те, що ти відчуваєш до мене, це правда?",shape=box,color=blue];
-		j988660141 -> j362303008;
-		j988660141 -> j323996580;
-	j362303008 [label="Так, кожне слово це правда.",shape=box,color=red];
-		j362303008 -> j2732790588;
-	j323996580 [label="Це все мої вигадки.",shape=box,color=red];
-		j323996580 -> j3979317502;
-	j2732790588 [label="А-а-а-а-а… гаразд…
+		j623566211 -> j377162816;
+		j623566211 -> j3911303535;
+	j377162816 [label="Так, кожне слово це правда.",shape=box,color=red];
+		j377162816 -> j2627996458;
+	j3911303535 [label="Це все мої вигадки.",shape=box,color=red];
+		j3911303535 -> j223558161;
+	j2627996458 [label="А-а-а-а-а… гаразд…
 Mierda",shape=box,color=blue];
-		j2732790588 -> j2770234510;
-		j2732790588 -> j1745701883;
-	j3979317502 [label="Boolean LettieNoDate is now true.",color=orange];
-		j3979317502 -> j4021516735;
-	j2770234510 [label="Якщо ти не відчуваєш того ж, просто скажи, я зможу це прийняти.",shape=box,color=red];
-		j2770234510 -> j3425983332;
-	j1745701883 [label="Я досі не знаю, чи «mierda» це добре або погано…",shape=box,color=red];
-		j1745701883 -> j125364201;
-	j4021516735 [label="М-м 
+		j2627996458 -> j97336856;
+		j2627996458 -> j1183214907;
+	j223558161 [label="Boolean LettieNoDate is now true.",color=orange];
+		j223558161 -> j225066383;
+	j97336856 [label="Якщо ти не відчуваєш того ж, просто скажи, я зможу це прийняти.",shape=box,color=red];
+		j97336856 -> j2720179985;
+	j1183214907 [label="Я досі не знаю, чи «mierda» це добре або погано…",shape=box,color=red];
+		j1183214907 -> j2180496101;
+	j225066383 [label="М-м 
 Мала б здогадатися
 Іди грайся з Квінсі 
 Un escuincle як він тобі більше підходить",shape=box,color=blue];
-		j4021516735 -> "Chat ends.";
-	j3425983332 [label="Check boolean LettieTrust1",color=orange];
-		j3425983332 -> j3167760487 [label=true,color=green];
-		j3425983332 -> j2130502512 [label=false,color=brown];
-	j125364201 [label="Перекладається як «лайно» jajaja
+		j225066383 -> "Chat ends.";
+	j2720179985 [label="Check boolean LettieTrust1",color=orange];
+		j2720179985 -> j675720518 [label=true,color=green];
+		j2720179985 -> j627561464 [label=false,color=brown];
+	j2180496101 [label="Перекладається як «лайно» jajaja
 Але ні, це не погана розмова 
 Просто…",shape=box,color=blue];
-		j125364201 -> j3425983332;
-	j3167760487 [label="Check boolean LettieTrust2",color=orange];
-		j3167760487 -> j2815969837 [label=true,color=green];
-		j3167760487 -> j192464982 [label=false,color=brown];
-	j2130502512 [label="Дивись
+		j2180496101 -> j2720179985;
+	j675720518 [label="Check boolean LettieTrust2",color=orange];
+		j675720518 -> j1802317702 [label=true,color=green];
+		j675720518 -> j2399115521 [label=false,color=brown];
+	j627561464 [label="Дивись
 Мені дуже важко довіряти іншим
 І це для мене найважливіша річ у стосунках
 Порушену довіру неможливо відновити, особливо в такій ситуації",shape=box,color=blue];
-		j2130502512 -> j2705662509;
-	j2815969837 [label="Ти знаєш, як мені важко довіряти людям
+		j627561464 -> j1143038757;
+	j1802317702 [label="Ти знаєш, як мені важко довіряти людям
 І наскільки важлива для мене довіра ¿no?
 Ну… це ще важливіше, коли я вступаю з кимось у стосунки",shape=box,color=blue];
-		j2815969837 -> j650789314;
-	j192464982 [label="Ти знаєш, що мені дуже важко довіряти іншим
+		j1802317702 -> j965385099;
+	j2399115521 [label="Ти знаєш, що мені дуже важко довіряти іншим
 І це для мене найважливіша річ у стосунках
 Порушену довіру неможливо відновити, особливо в такій ситуації",shape=box,color=blue];
-		j192464982 -> j1808326135;
-	j2705662509 [label="Boolean LettieTrust1 is now true.",color=orange];
-		j2705662509 -> j1808326135;
-	j650789314 [label="Тому що стосунки, які мені подобаються, зазвичай болючі, solecito
+		j2399115521 -> j4009826049;
+	j1143038757 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j1143038757 -> j4009826049;
+	j965385099 [label="Тому що стосунки, які мені подобаються, зазвичай болючі, solecito
 Якщо ти мене розумієш…
 Але лише настільки, наскільки ми цього захочемо
 І лише настільки, наскільки ми зможемо витерпіти 
 Для цього потрібна довіра",shape=box,color=blue];
-		j650789314 -> j3990625746;
-	j1808326135 [label="Boolean LettieTrust2 is now true.",color=orange];
-		j1808326135 -> j650789314;
-	j3990625746 [label="А порушена довіра до такого
+		j965385099 -> j1328095683;
+	j4009826049 [label="Boolean LettieTrust2 is now true.",color=orange];
+		j4009826049 -> j965385099;
+	j1328095683 [label="А порушена довіра до такого
 Те, що не можна виправити
 ¿Me explico?",shape=box,color=blue];
-		j3990625746 -> j206495126;
-		j3990625746 -> j1623885677;
-		j3990625746 -> j3292325893;
-	j206495126 [label="Я не кажу ні, але хочу запитати… чому тобі подобається біль?",shape=box,color=red];
-		j206495126 -> j916267237;
-	j1623885677 [label="Тільки якщо ми будемо час від часу мінятися…",shape=box,color=red];
-		j1623885677 -> j47400025;
-	j3292325893 [label="Я не дуже люблю змішувати біль і задоволення, вибач.",shape=box,color=red];
-		j3292325893 -> j2837381833;
-	j916267237 [label="М-м-м, не знаю 
+		j1328095683 -> j2124059588;
+		j1328095683 -> j731647934;
+		j1328095683 -> j108040174;
+	j2124059588 [label="Я не кажу ні, але хочу запитати… чому тобі подобається біль?",shape=box,color=red];
+		j2124059588 -> j1698938154;
+	j731647934 [label="Тільки якщо ми будемо час від часу мінятися…",shape=box,color=red];
+		j731647934 -> j1629640292;
+	j108040174 [label="Я не дуже люблю змішувати біль і задоволення, вибач.",shape=box,color=red];
+		j108040174 -> j2356010622;
+	j1698938154 [label="М-м-м, не знаю 
 Можливо, тому що це біль, який я можу контролювати 
 На відміну від усього болю, який я не можу",shape=box,color=blue];
-		j916267237 -> j4341660;
-	j47400025 [label="Jajaja звичайно 
+		j1698938154 -> j27424260;
+	j1629640292 [label="Jajaja звичайно 
 Але ти маєш це заслужити
 Мені спочатку потрібно знати, що я можу тобі довіряти
 Отже… що скажеш?",shape=box,color=blue];
-		j47400025 -> j1938431952;
-	j2837381833 [label="Ay, sí 
+		j1629640292 -> j3052149120;
+	j2356010622 [label="Ay, sí 
 Це не для всіх 
 Entiendo, нічого страшного",shape=box,color=blue];
-		j2837381833 -> j3303981980;
-	j4341660 [label="Або, можливо, це тому, що це щось палке
+		j2356010622 -> j3366626225;
+	j27424260 [label="Або, можливо, це тому, що це щось палке
 Щось гостре, сильніше за все інше лайно, що трапляється в нашому житті
 Це РЕАЛЬНО
 Я можу впитися в це зубами
 Змусити стогнати
 Відчути пульсування",shape=box,color=blue];
-		j4341660 -> j2771319037;
-	j1938431952 [label="Хочеш наробити зі мною помилок?",shape=box,color=blue];
-		j1938431952 -> j1685363773;
-		j1938431952 -> j649059526;
-	j3303981980 [label="+10 Chemistry",color=orange];
-		j3303981980 -> j3494811315;
-	j2771319037 [label="І це ВИМАГАЄ довіри
+		j27424260 -> j1830126683;
+	j3052149120 [label="Хочеш наробити зі мною помилок?",shape=box,color=blue];
+		j3052149120 -> j4025938353;
+		j3052149120 -> j1686673993;
+	j3366626225 [label="+10 Chemistry",color=orange];
+		j3366626225 -> j122552994;
+	j1830126683 [label="І це ВИМАГАЄ довіри
 Не працює без неї, solecito
 Отже… що ти скажеш?",shape=box,color=blue];
-		j2771319037 -> j1938431952;
-	j1685363773 [label="Так, дуже хочу. :) [Зустрічатися з Летті.]",shape=box,color=red];
-		j1685363773 -> j1010031023;
-	j649059526 [label="Мені треба подумати. Вибач.",shape=box,color=red];
-		j649059526 -> j3303981980;
-	j3494811315 [label="Дай знати, якщо передумаєш",shape=box,color=blue];
-		j3494811315 -> j843193783;
-	j1010031023 [label="+20 Chemistry",color=orange];
-		j1010031023 -> j1105221946;
-	j843193783 [label="Boolean LettieWillDate is now true.",color=orange];
-		j843193783 -> "Chat ends.";
-	j1105221946 [label="Добре
+		j1830126683 -> j3052149120;
+	j4025938353 [label="Так, дуже хочу. :) [Зустрічатися з Летті.]",shape=box,color=red];
+		j4025938353 -> j1036826508;
+	j1686673993 [label="Мені треба подумати. Вибач.",shape=box,color=red];
+		j1686673993 -> j3366626225;
+	j122552994 [label="Дай знати, якщо передумаєш",shape=box,color=blue];
+		j122552994 -> j2129367046;
+	j1036826508 [label="+20 Chemistry",color=orange];
+		j1036826508 -> j1508630096;
+	j2129367046 [label="Boolean LettieWillDate is now true.",color=orange];
+		j2129367046 -> "Chat ends.";
+	j1508630096 [label="Добре
 Готуйся, solecito
 Я буду жорсткою
 Я бачила, як ти б’єшся
 Тому знаю, що ти витримаєш багато",shape=box,color=blue];
-		j1105221946 -> j1726361677;
-	j1726361677 [label="Але не хвилюйся…
+		j1508630096 -> j3250604795;
+	j3250604795 [label="Але не хвилюйся…
 Я потім загладжу це все поцілунками
 Можеш на це розраховувати",shape=box,color=blue];
-		j1726361677 -> j1997269121;
-	j1997269121 [label="Boolean LettieWillDate is now true.",color=orange];
-		j1997269121 -> j383062341;
-	j383062341 [label="Boolean LettieDating is now true.",color=orange];
-		j383062341 -> j4228506648;
-	j4228506648 [label="Boolean IsDating is now true.",color=orange];
-		j4228506648 -> j2764521140;
-	j2764521140 [label="Boolean LettieHasDated is now true.",color=orange];
-		j2764521140 -> "Chat ends.";
+		j3250604795 -> j1300785588;
+	j1300785588 [label="Boolean LettieWillDate is now true.",color=orange];
+		j1300785588 -> j702074970;
+	j702074970 [label="Boolean LettieDating is now true.",color=orange];
+		j702074970 -> j938814249;
+	j938814249 [label="Boolean IsDating is now true.",color=orange];
+		j938814249 -> j3003494003;
+	j3003494003 [label="Boolean LettieHasDated is now true.",color=orange];
+		j3003494003 -> "Chat ends.";
 }

@@ -1,144 +1,144 @@
 digraph {
 	"LettieConfession begins." [color=orange];
-		"LettieConfession begins." -> j2600981639;
-	j2600981639 [label="Check boolean IsDating",color=orange];
-		j2600981639 -> "Chat ends." [label=true,color=green];
-		j2600981639 -> j3124549679 [label=false,color=brown];
+		"LettieConfession begins." -> j3507132931;
+	j3507132931 [label="Check boolean IsDating",color=orange];
+		j3507132931 -> "Chat ends." [label=true,color=green];
+		j3507132931 -> j2401263762 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j3124549679 [label="Solecito
+	j2401263762 [label="Solecito
 いるかしら",shape=box,color=blue];
-		j3124549679 -> j1873422250;
-		j3124549679 -> j3683375032;
-	j1873422250 [label="うん…？",shape=box,color=red];
-		j1873422250 -> j3824031265;
-	j3683375032 [label="[無視する]",shape=box,color=red];
-		j3683375032 -> "Chat ends.";
-	j3824031265 [label="アタシは…
+		j2401263762 -> j3511892857;
+		j2401263762 -> j85835136;
+	j3511892857 [label="うん…？",shape=box,color=red];
+		j3511892857 -> j560850322;
+	j85835136 [label="[無視する]",shape=box,color=red];
+		j85835136 -> "Chat ends.";
+	j560850322 [label="アタシは…
 言いたかったの
 Primero, lo siento 
 あんな言い方するべきじゃなかった
 Segundo、あんたの言ったことは本気？",shape=box,color=blue];
-		j3824031265 -> j750531229;
-		j3824031265 -> j49868140;
-	j750531229 [label="全部本気で言った。",shape=box,color=red];
-		j750531229 -> j2853495298;
-	j49868140 [label="全部でっち上げだったよ。",shape=box,color=red];
-		j49868140 -> j2726718457;
-	j2853495298 [label="Aayyyy... オーケー…
+		j560850322 -> j3366445257;
+		j560850322 -> j3217450162;
+	j3366445257 [label="全部本気で言った。",shape=box,color=red];
+		j3366445257 -> j17827101;
+	j3217450162 [label="全部でっち上げだったよ。",shape=box,color=red];
+		j3217450162 -> j2710989798;
+	j17827101 [label="Aayyyy... オーケー…
 Mierda",shape=box,color=blue];
-		j2853495298 -> j2014647896;
-		j2853495298 -> j2078593771;
-	j2726718457 [label="Boolean LettieNoDate is now true.",color=orange];
-		j2726718457 -> j2253621670;
-	j2014647896 [label="もしお互い同じ気持ちじゃないなら言ってくれ、受け入れるから。",shape=box,color=red];
-		j2014647896 -> j3425983332;
-	j2078593771 [label="「mierda」が良いものかどうか未だに分からないな…",shape=box,color=red];
-		j2078593771 -> j1215486000;
-	j2253621670 [label="んん
+		j17827101 -> j3240553709;
+		j17827101 -> j1307626890;
+	j2710989798 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2710989798 -> j782154427;
+	j3240553709 [label="もしお互い同じ気持ちじゃないなら言ってくれ、受け入れるから。",shape=box,color=red];
+		j3240553709 -> j2720179985;
+	j1307626890 [label="「mierda」が良いものかどうか未だに分からないな…",shape=box,color=red];
+		j1307626890 -> j535749707;
+	j782154427 [label="んん
 やっぱり
 Quincyと遊んでなさい
 Un escuincleの方があんたにお似合いだわ",shape=box,color=blue];
-		j2253621670 -> "Chat ends.";
-	j3425983332 [label="Check boolean LettieTrust1",color=orange];
-		j3425983332 -> j3167760487 [label=true,color=green];
-		j3425983332 -> j1742451110 [label=false,color=brown];
-	j1215486000 [label="Jajaja「クソ」って意味よ
+		j782154427 -> "Chat ends.";
+	j2720179985 [label="Check boolean LettieTrust1",color=orange];
+		j2720179985 -> j675720518 [label=true,color=green];
+		j2720179985 -> j2936923097 [label=false,color=brown];
+	j535749707 [label="Jajaja「クソ」って意味よ
 けどnono、これは悪い会話じゃない
 これは…",shape=box,color=blue];
-		j1215486000 -> j3425983332;
-	j3167760487 [label="Check boolean LettieTrust2",color=orange];
-		j3167760487 -> j363258999 [label=true,color=green];
-		j3167760487 -> j1263906043 [label=false,color=brown];
-	j1742451110 [label="いい
+		j535749707 -> j2720179985;
+	j675720518 [label="Check boolean LettieTrust2",color=orange];
+		j675720518 -> j1958839943 [label=true,color=green];
+		j675720518 -> j934623979 [label=false,color=brown];
+	j2936923097 [label="いい
 信頼はアタシにとって与えるのが難しいものなの
 そしてそれはアタシが関係を持つに至って一番重要なもの
 それを裏切るのは許されないこと、特にこういう状況では",shape=box,color=blue];
-		j1742451110 -> j1278881002;
-	j363258999 [label="アタシが人を信じるのがどれだけ難しいか分かるでしょう
+		j2936923097 -> j782359765;
+	j1958839943 [label="アタシが人を信じるのがどれだけ難しいか分かるでしょう
 そして信頼がアタシにどれだけ重要かも¿no?
 特に…　誰かと付き合うのなら尚更",shape=box,color=blue];
-		j363258999 -> j3789491667;
-	j1263906043 [label="信頼はアタシにとって与えるのがとても難しいものなのは分かるでしょう
+		j1958839943 -> j882810486;
+	j934623979 [label="信頼はアタシにとって与えるのがとても難しいものなのは分かるでしょう
 そしてそれはアタシが関係を持つに至って一番重要なもの
 それを裏切るのは許されないこと、特にこういう状況では",shape=box,color=blue];
-		j1263906043 -> j4279730128;
-	j1278881002 [label="Boolean LettieTrust1 is now true.",color=orange];
-		j1278881002 -> j4279730128;
-	j3789491667 [label="アタシがしたい交際関係には痛みが伴うものなの、solecito
+		j934623979 -> j3028629585;
+	j782359765 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j782359765 -> j3028629585;
+	j882810486 [label="アタシがしたい交際関係には痛みが伴うものなの、solecito
 言いたいことが理解できるかしら
 求めるだけまでを
 そして受け入れられる所までを
 この類のものは信頼を必要とするから",shape=box,color=blue];
-		j3789491667 -> j3866568611;
-	j4279730128 [label="Boolean LettieTrust2 is now true.",color=orange];
-		j4279730128 -> j3789491667;
-	j3866568611 [label="そういうことで信頼を裏切るのは
+		j882810486 -> j2407628109;
+	j3028629585 [label="Boolean LettieTrust2 is now true.",color=orange];
+		j3028629585 -> j882810486;
+	j2407628109 [label="そういうことで信頼を裏切るのは
 修復できないものよ
 ¿Me explico?",shape=box,color=blue];
-		j3866568611 -> j2190465829;
-		j3866568611 -> j3358235479;
-		j3866568611 -> j2163867434;
-	j2190465829 [label="ノーとは言わないけど、聞いていい…　どうして痛みが好きなの？",shape=box,color=red];
-		j2190465829 -> j3075589094;
-	j3358235479 [label="時々交代できるのなら…",shape=box,color=red];
-		j3358235479 -> j3412784673;
-	j2163867434 [label="痛みと快楽を混ぜるのはあまり興味がない、ごめん。",shape=box,color=red];
-		j2163867434 -> j1640001470;
-	j3075589094 [label="んー、分からないわ
+		j2407628109 -> j3951382233;
+		j2407628109 -> j3910252280;
+		j2407628109 -> j66212907;
+	j3951382233 [label="ノーとは言わないけど、聞いていい…　どうして痛みが好きなの？",shape=box,color=red];
+		j3951382233 -> j1278204247;
+	j3910252280 [label="時々交代できるのなら…",shape=box,color=red];
+		j3910252280 -> j513181128;
+	j66212907 [label="痛みと快楽を混ぜるのはあまり興味がない、ごめん。",shape=box,color=red];
+		j66212907 -> j859637957;
+	j1278204247 [label="んー、分からないわ
 アタシが制御できる痛みだからかも
 制御できない痛みに対して",shape=box,color=blue];
-		j3075589094 -> j775706669;
-	j3412784673 [label="Jajajaもちろん
+		j1278204247 -> j3325918388;
+	j513181128 [label="Jajajaもちろん
 でもまずは信頼を得るところから
 あんたを信頼できると知ってから
 それで…　どうする？",shape=box,color=blue];
-		j3412784673 -> j220289779;
-	j1640001470 [label="Ay, sí 
+		j513181128 -> j2949799295;
+	j859637957 [label="Ay, sí 
 万人向きじゃないわ
 Entiendo、邪険にしない",shape=box,color=blue];
-		j1640001470 -> j1885430886;
-	j775706669 [label="もしくはそれが強烈だからかも
+		j859637957 -> j1838562536;
+	j3325918388 [label="もしくはそれが強烈だからかも
 日々対処しなきゃならないクソの残り全て切り裂く鋭いもの
 本物と感じるから
 噛みしめることができるから
 歌わせるから
 鼓動を感じとれるから",shape=box,color=blue];
-		j775706669 -> j1820419636;
-	j220289779 [label="アタシと一緒にヒドイコト、しない？",shape=box,color=blue];
-		j220289779 -> j3295634853;
-		j220289779 -> j669567620;
-	j1885430886 [label="+10 Chemistry",color=orange];
-		j1885430886 -> j1330160673;
-	j1820419636 [label="そしてそれには信頼が要求される
+		j3325918388 -> j3110166082;
+	j2949799295 [label="アタシと一緒にヒドイコト、しない？",shape=box,color=blue];
+		j2949799295 -> j3116095365;
+		j2949799295 -> j3171494496;
+	j1838562536 [label="+10 Chemistry",color=orange];
+		j1838562536 -> j2401922105;
+	j3110166082 [label="そしてそれには信頼が要求される
 それがなければ上手くいかないの、solecito
 それで…　どうする？",shape=box,color=blue];
-		j1820419636 -> j220289779;
-	j3295634853 [label="したいです。:) [Lettieと付き合う]",shape=box,color=red];
-		j3295634853 -> j444153236;
-	j669567620 [label="もう少し考えさせて欲しい。",shape=box,color=red];
-		j669567620 -> j1885430886;
-	j1330160673 [label="気が変わったら教えて",shape=box,color=blue];
-		j1330160673 -> j843193783;
-	j444153236 [label="+20 Chemistry",color=orange];
-		j444153236 -> j3985958819;
-	j843193783 [label="Boolean LettieWillDate is now true.",color=orange];
-		j843193783 -> "Chat ends.";
-	j3985958819 [label="いいわ
+		j3110166082 -> j2949799295;
+	j3116095365 [label="したいです。:) [Lettieと付き合う]",shape=box,color=red];
+		j3116095365 -> j3211154122;
+	j3171494496 [label="もう少し考えさせて欲しい。",shape=box,color=red];
+		j3171494496 -> j1838562536;
+	j2401922105 [label="気が変わったら教えて",shape=box,color=blue];
+		j2401922105 -> j2129367046;
+	j3211154122 [label="+20 Chemistry",color=orange];
+		j3211154122 -> j3299489723;
+	j2129367046 [label="Boolean LettieWillDate is now true.",color=orange];
+		j2129367046 -> "Chat ends.";
+	j3299489723 [label="いいわ
 覚悟して、solecito
 容赦はしないから
 あんたの戦うところ見たから
 受け入れられるのは分かってる",shape=box,color=blue];
-		j3985958819 -> j776827474;
-	j776827474 [label="けど安心して
+		j3299489723 -> j3423678091;
+	j3423678091 [label="けど安心して
 キスで痛みを飛ばしてあげるから
 期待してね",shape=box,color=blue];
-		j776827474 -> j1997269121;
-	j1997269121 [label="Boolean LettieWillDate is now true.",color=orange];
-		j1997269121 -> j383062341;
-	j383062341 [label="Boolean LettieDating is now true.",color=orange];
-		j383062341 -> j4228506648;
-	j4228506648 [label="Boolean IsDating is now true.",color=orange];
-		j4228506648 -> j2764521140;
-	j2764521140 [label="Boolean LettieHasDated is now true.",color=orange];
-		j2764521140 -> "Chat ends.";
+		j3423678091 -> j1300785588;
+	j1300785588 [label="Boolean LettieWillDate is now true.",color=orange];
+		j1300785588 -> j702074970;
+	j702074970 [label="Boolean LettieDating is now true.",color=orange];
+		j702074970 -> j938814249;
+	j938814249 [label="Boolean IsDating is now true.",color=orange];
+		j938814249 -> j3003494003;
+	j3003494003 [label="Boolean LettieHasDated is now true.",color=orange];
+		j3003494003 -> "Chat ends.";
 }

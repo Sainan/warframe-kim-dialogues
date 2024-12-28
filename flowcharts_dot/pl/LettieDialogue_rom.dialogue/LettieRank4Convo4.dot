@@ -1,88 +1,88 @@
 digraph {
 	"LettieRank4Convo4 begins." [color=orange];
-		"LettieRank4Convo4 begins." -> j2827510990;
-	j2827510990 [label="Check boolean LettieNoFlirt",color=orange];
-		j2827510990 -> "Chat ends." [label=true,color=green];
-		j2827510990 -> j353867419 [label=false,color=brown];
+		"LettieRank4Convo4 begins." -> j1158339480;
+	j1158339480 [label="Check boolean LettieNoFlirt",color=orange];
+		j1158339480 -> "Chat ends." [label=true,color=green];
+		j1158339480 -> j3956129826 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j353867419 [label="Mam pytanie teoretyczne: Czy gdybym zaprosiłbym cię na drinka, czy skończyłbym w lecznicy?",shape=box,color=red];
-		j353867419 -> j2794660236;
-	j2794660236 [label="Check boolean LettieNoDate",color=orange];
-		j2794660236 -> j195720148 [label=true,color=green];
-		j2794660236 -> j1111182164 [label=false,color=brown];
-	j195720148 [label="Sí 
+	j3956129826 [label="Mam pytanie teoretyczne: Czy gdybym zaprosiłbym cię na drinka, czy skończyłbym w lecznicy?",shape=box,color=red];
+		j3956129826 -> j3741727461;
+	j3741727461 [label="Check boolean LettieNoDate",color=orange];
+		j3741727461 -> j450116916 [label=true,color=green];
+		j3741727461 -> j1055071471 [label=false,color=brown];
+	j450116916 [label="Sí 
 Tak by było",shape=box,color=blue];
-		j195720148 -> "Chat ends.";
-	j1111182164 [label="Mm? 
+		j450116916 -> "Chat ends.";
+	j1055071471 [label="Mm? 
 Jajaja, nie",shape=box,color=blue];
-		j1111182164 -> j2409993924;
-	j2409993924 [label="Ale nie piję, nigdy nie piłam 
+		j1055071471 -> j3865011982;
+	j3865011982 [label="Ale nie piję, nigdy nie piłam 
 Nie biorę też używek 
 Musisz się bardziej postarać, jeśli chcesz dostać się do moich gaci 
 Czy czegokolwiek co muszę teraz nosić",shape=box,color=blue];
-		j2409993924 -> j1323555449;
-		j2409993924 -> j2030075637;
-	j1323555449 [label="Dobrze wiedzieć :) Jakieś wskazówki, co mogłoby cię przekonać?",shape=box,color=red];
-		j1323555449 -> j3751767243;
-	j2030075637 [label="Skoro o tym mowa... chciałem zapytać...",shape=box,color=red];
-		j2030075637 -> j172385006;
-	j3751767243 [label="Musisz być pewien, że wiesz o co prosisz, babas 
+		j3865011982 -> j374235008;
+		j3865011982 -> j411680531;
+	j374235008 [label="Dobrze wiedzieć :) Jakieś wskazówki, co mogłoby cię przekonać?",shape=box,color=red];
+		j374235008 -> j2526789641;
+	j411680531 [label="Skoro o tym mowa... chciałem zapytać...",shape=box,color=red];
+		j411680531 -> j557481327;
+	j2526789641 [label="Musisz być pewien, że wiesz o co prosisz, babas 
 Jeśli szukasz kogoś uroczego i miłego, pogadaj z Aoi albo Amirem 
 Za dobrze znam się z bólem i za bardzo się z nim polubiłam, żeby wchodzić w takie układy",shape=box,color=blue];
-		j3751767243 -> j3307543466;
-		j3751767243 -> j3280648756;
-	j172385006 [label="¿Qué?",shape=box,color=blue];
-		j172385006 -> j152226915;
-		j172385006 -> j3480708103;
-	j3307543466 [label="Tak proszę pani. Czuję się ostrzeżony.",shape=box,color=red];
-		j3307543466 -> j409835411;
-	j3280648756 [label="Um... Tak, zapomnij. Ból to nie moja bajka.",shape=box,color=red];
-		j3280648756 -> j276688506;
-	j152226915 [label="Zastanawiałem się czy ty i inne protoframe macie... no wiesz... te części... ciała...",shape=box,color=red];
-		j152226915 -> j2838034755;
-	j3480708103 [label="Uch - Nieważne.",shape=box,color=red];
-		j3480708103 -> j1649397131;
-	j409835411 [label="Boolean LettiePain is now true.",color=orange];
-		j409835411 -> j2715656059;
-	j276688506 [label="+15 Chemistry",color=orange];
-		j276688506 -> j2114680295;
-	j2838034755 [label="JAJAJAJAJA 
+		j2526789641 -> j4126308091;
+		j2526789641 -> j3000129040;
+	j557481327 [label="¿Qué?",shape=box,color=blue];
+		j557481327 -> j3855672638;
+		j557481327 -> j979730890;
+	j4126308091 [label="Tak proszę pani. Czuję się ostrzeżony.",shape=box,color=red];
+		j4126308091 -> j136012393;
+	j3000129040 [label="Um... Tak, zapomnij. Ból to nie moja bajka.",shape=box,color=red];
+		j3000129040 -> j1788485261;
+	j3855672638 [label="Zastanawiałem się czy ty i inne protoframe macie... no wiesz... te części... ciała...",shape=box,color=red];
+		j3855672638 -> j4188288277;
+	j979730890 [label="Uch - Nieważne.",shape=box,color=red];
+		j979730890 -> j2487069545;
+	j136012393 [label="Boolean LettiePain is now true.",color=orange];
+		j136012393 -> j2846474185;
+	j1788485261 [label="+15 Chemistry",color=orange];
+		j1788485261 -> j3425507672;
+	j4188288277 [label="JAJAJAJAJA 
 Ty na poważnie?! 
 Nie możesz ludzi o to tak po prostu pytać -
 Ajjj babaaaaassss, dawno się tak nie uśmiałam",shape=box,color=blue];
-		j2838034755 -> j224844751;
-		j2838034755 -> j203119244;
-	j1649397131 [label="Va 
+		j4188288277 -> j818165456;
+		j4188288277 -> j1158145800;
+	j2487069545 [label="Va 
 I tak jestem zajęta",shape=box,color=blue];
-		j1649397131 -> "Chat ends.";
-	j2715656059 [label="+20 Chemistry",color=orange];
-		j2715656059 -> j1642474542;
-	j2114680295 [label="Bueno 
+		j2487069545 -> "Chat ends.";
+	j2846474185 [label="+20 Chemistry",color=orange];
+		j2846474185 -> j4107171436;
+	j3425507672 [label="Bueno 
 Wyjdzie ci to na lepsze 
 Możesz dać mi znać, gdybyś zmienił zdanie",shape=box,color=blue];
-		j2114680295 -> j578972968;
-	j224844751 [label="Przepraszam.",shape=box,color=red];
-		j224844751 -> j3903564579;
-	j203119244 [label="No więc... Macie?",shape=box,color=red];
-		j203119244 -> j3903564579;
-	j1642474542 [label="Mmm, tak mówisz?
+		j3425507672 -> j1773392891;
+	j818165456 [label="Przepraszam.",shape=box,color=red];
+		j818165456 -> j377299641;
+	j1158145800 [label="No więc... Macie?",shape=box,color=red];
+		j1158145800 -> j377299641;
+	j4107171436 [label="Mmm, tak mówisz?
 Myślisz, że sobie poradzisz? 
 Zobaczymy",shape=box,color=blue];
-		j1642474542 -> j1900324587;
-	j578972968 [label="Boolean LettieNoPain is now true.",color=orange];
-		j578972968 -> j4204329226;
-	j3903564579 [label="Wiesz co
+		j4107171436 -> j2319329367;
+	j1773392891 [label="Boolean LettieNoPain is now true.",color=orange];
+		j1773392891 -> j51302616;
+	j377299641 [label="Wiesz co
 Może i dobry z ciebie babas
 Ale może będziesz miał okazję się przekonać, hmm?
 Ale ostrzegam cię
 Jeśli szukasz kogoś uroczego i miłego, pogadaj z Aoi albo Amirem
 Za dobrze znam się z bólem i za bardzo się z nim polubiłam, żeby wchodzić w takie układy",shape=box,color=blue];
-		j3903564579 -> j3307543466;
-		j3903564579 -> j3280648756;
-	j1900324587 [label="Teraz vete 
+		j377299641 -> j4126308091;
+		j377299641 -> j3000129040;
+	j2319329367 [label="Teraz vete 
 Nie mogę zaprzątać się sobie głowy fantazjami, kiedy praca czeka",shape=box,color=blue];
-		j1900324587 -> "Chat ends.";
-	j4204329226 [label="Teraz vete 
+		j2319329367 -> "Chat ends.";
+	j51302616 [label="Teraz vete 
 Praca czeka",shape=box,color=blue];
-		j4204329226 -> "Chat ends.";
+		j51302616 -> "Chat ends.";
 }

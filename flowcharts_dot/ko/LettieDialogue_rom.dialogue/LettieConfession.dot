@@ -1,144 +1,144 @@
 digraph {
 	"LettieConfession begins." [color=orange];
-		"LettieConfession begins." -> j2600981639;
-	j2600981639 [label="Check boolean IsDating",color=orange];
-		j2600981639 -> "Chat ends." [label=true,color=green];
-		j2600981639 -> j2887495622 [label=false,color=brown];
+		"LettieConfession begins." -> j3507132931;
+	j3507132931 [label="Check boolean IsDating",color=orange];
+		j3507132931 -> "Chat ends." [label=true,color=green];
+		j3507132931 -> j1934934745 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j2887495622 [label="Solecito 
+	j1934934745 [label="Solecito 
 너 있지",shape=box,color=blue];
-		j2887495622 -> j2941250272;
-		j2887495622 -> j1627006883;
-	j2941250272 [label="응...?",shape=box,color=red];
-		j2941250272 -> j3364561869;
-	j1627006883 [label="[무시.]",shape=box,color=red];
-		j1627006883 -> "Chat ends.";
-	j3364561869 [label="나...
+		j1934934745 -> j4158335697;
+		j1934934745 -> j1158370802;
+	j4158335697 [label="응...?",shape=box,color=red];
+		j4158335697 -> j211188269;
+	j1158370802 [label="[무시.]",shape=box,color=red];
+		j1158370802 -> "Chat ends.";
+	j211188269 [label="나...
 그냥 말하고 싶어서
 Primero, lo siento
 그런 식으로 반응하면 안 되는 거였어
 Segundo, 너 그 떄 정말 진심으로 말한 거야?",shape=box,color=blue];
-		j3364561869 -> j3807103451;
-		j3364561869 -> j3520004509;
-	j3807103451 [label="진심으로 한 말이야.",shape=box,color=red];
-		j3807103451 -> j1079928166;
-	j3520004509 [label="그냥 다 가짜로 만들어낸 말이야.",shape=box,color=red];
-		j3520004509 -> j4171989563;
-	j1079928166 [label="Aayyyy... 알았어... 
+		j211188269 -> j2654641825;
+		j211188269 -> j3623530469;
+	j2654641825 [label="진심으로 한 말이야.",shape=box,color=red];
+		j2654641825 -> j1330357514;
+	j3623530469 [label="그냥 다 가짜로 만들어낸 말이야.",shape=box,color=red];
+		j3623530469 -> j1488176342;
+	j1330357514 [label="Aayyyy... 알았어... 
 Mierda",shape=box,color=blue];
-		j1079928166 -> j3380079240;
-		j1079928166 -> j1842346464;
-	j4171989563 [label="Boolean LettieNoDate is now true.",color=orange];
-		j4171989563 -> j1393158425;
-	j3380079240 [label="너도 같은 마음이 아니면 그냥 말해. 받아들일 수 있으니까.",shape=box,color=red];
-		j3380079240 -> j3425983332;
-	j1842346464 [label="아직도 \"mierda\"가 좋은 뜻인지 나쁜 뜻인지 잘 모르겠는데...",shape=box,color=red];
-		j1842346464 -> j1922473930;
-	j1393158425 [label="음
+		j1330357514 -> j2308443187;
+		j1330357514 -> j336272258;
+	j1488176342 [label="Boolean LettieNoDate is now true.",color=orange];
+		j1488176342 -> j824951397;
+	j2308443187 [label="너도 같은 마음이 아니면 그냥 말해. 받아들일 수 있으니까.",shape=box,color=red];
+		j2308443187 -> j2720179985;
+	j336272258 [label="아직도 \"mierda\"가 좋은 뜻인지 나쁜 뜻인지 잘 모르겠는데...",shape=box,color=red];
+		j336272258 -> j751406108;
+	j824951397 [label="음
 그래 진작 이럴 줄 알았어야지
 퀸시하고나 놀러가
 그런 Un escuincle이 더 네 타입이겠다",shape=box,color=blue];
-		j1393158425 -> "Chat ends.";
-	j3425983332 [label="Check boolean LettieTrust1",color=orange];
-		j3425983332 -> j3167760487 [label=true,color=green];
-		j3425983332 -> j2801938319 [label=false,color=brown];
-	j1922473930 [label="Jajaja \"젠장\" 이란 뜻이야
+		j824951397 -> "Chat ends.";
+	j2720179985 [label="Check boolean LettieTrust1",color=orange];
+		j2720179985 -> j675720518 [label=true,color=green];
+		j2720179985 -> j1051448349 [label=false,color=brown];
+	j751406108 [label="Jajaja \"젠장\" 이란 뜻이야
 하지만 아니, 지금 얘기가 나빠서는 아냐
 그냥--",shape=box,color=blue];
-		j1922473930 -> j3425983332;
-	j3167760487 [label="Check boolean LettieTrust2",color=orange];
-		j3167760487 -> j2597439380 [label=true,color=green];
-		j3167760487 -> j3548871406 [label=false,color=brown];
-	j2801938319 [label="이것 봐
+		j751406108 -> j2720179985;
+	j675720518 [label="Check boolean LettieTrust2",color=orange];
+		j675720518 -> j1997006332 [label=true,color=green];
+		j675720518 -> j2197972109 [label=false,color=brown];
+	j1051448349 [label="이것 봐
 나한테 신뢰란 건 정말 주기 어려운 거야
 그리고 관계에 있어서 내게 가장 중요한 것이기도 하고
 한 번 깨진 신뢰는 고칠 수 없는 거야, 특히 이런 상황에선",shape=box,color=blue];
-		j2801938319 -> j2627183870;
-	j2597439380 [label="내가 사람을 믿는 게 얼마나 어려운지 알잖아
+		j1051448349 -> j2808082184;
+	j1997006332 [label="내가 사람을 믿는 게 얼마나 어려운지 알잖아
 그리고 신뢰란 게 나한테 얼마나 중요한지도, ¿no?
 뭐... 누군가와 연애 관계를 시작할 땐 그보다도 훨씬 더 중요해지겠네",shape=box,color=blue];
-		j2597439380 -> j2611759803;
-	j3548871406 [label="나한테 신뢰란 건 정말 주기 어려운 거 알잖아
+		j1997006332 -> j3182596692;
+	j2197972109 [label="나한테 신뢰란 건 정말 주기 어려운 거 알잖아
 그리고 관계에 있어서 내게 가장 중요한 것이기도 하고
 한 번 깨진 신뢰는 고칠 수 없는 거야, 특히 이런 상황에선",shape=box,color=blue];
-		j3548871406 -> j3651084351;
-	j2627183870 [label="Boolean LettieTrust1 is now true.",color=orange];
-		j2627183870 -> j3651084351;
-	j2611759803 [label="왜냐면 내가 가지고 싶어 하는 관계는 대개 아프기 때문이지, solecito
+		j2197972109 -> j3572470963;
+	j2808082184 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j2808082184 -> j3572470963;
+	j3182596692 [label="왜냐면 내가 가지고 싶어 하는 관계는 대개 아프기 때문이지, solecito
 내 말이 이해된다면
 우리 둘 다 원하는 만큼만
 그리고 네가 할 생각이 드는 만큼만
 왜냐면 이런 건 신뢰가 필요하기 마련이니까",shape=box,color=blue];
-		j2611759803 -> j3729203917;
-	j3651084351 [label="Boolean LettieTrust2 is now true.",color=orange];
-		j3651084351 -> j2611759803;
-	j3729203917 [label="그리고 이런 데서 신뢰가 깨지면
+		j3182596692 -> j700393713;
+	j3572470963 [label="Boolean LettieTrust2 is now true.",color=orange];
+		j3572470963 -> j3182596692;
+	j700393713 [label="그리고 이런 데서 신뢰가 깨지면
 복구할 수가 없어
 ¿Me explico?",shape=box,color=blue];
-		j3729203917 -> j2051982258;
-		j3729203917 -> j2786888449;
-		j3729203917 -> j973508934;
-	j2051982258 [label="싫다는 건 아닌데, 그... 왜 아픈 걸 좋아하는지 물어봐도 돼?",shape=box,color=red];
-		j2051982258 -> j776710510;
-	j2786888449 [label="가끔씩 역할을 바꿔 할 수만 있다면...",shape=box,color=red];
-		j2786888449 -> j2520045125;
-	j973508934 [label="고통과 쾌락을 섞는 취향은 좀 그렇네, 미안해",shape=box,color=red];
-		j973508934 -> j4153169133;
-	j776710510 [label="음음. 몰라
+		j700393713 -> j3693077875;
+		j700393713 -> j3279150682;
+		j700393713 -> j3216725959;
+	j3693077875 [label="싫다는 건 아닌데, 그... 왜 아픈 걸 좋아하는지 물어봐도 돼?",shape=box,color=red];
+		j3693077875 -> j2073056381;
+	j3279150682 [label="가끔씩 역할을 바꿔 할 수만 있다면...",shape=box,color=red];
+		j3279150682 -> j3914883570;
+	j3216725959 [label="고통과 쾌락을 섞는 취향은 좀 그렇네, 미안해",shape=box,color=red];
+		j3216725959 -> j2166345163;
+	j2073056381 [label="음음. 몰라
 어쩌면 내가 통제할 수 있는 고통이기 때문일거야
 내가 통제할 수 없는 고통에 비하면",shape=box,color=blue];
-		j776710510 -> j2727352244;
-	j2520045125 [label="Jajaja 그거야 당연하지
+		j2073056381 -> j969408243;
+	j3914883570 [label="Jajaja 그거야 당연하지
 하지만 네가 그만큼 잘 해주고 나면
 먼저 내가 널 믿을 수 있는지부터 알아야 해
 그래서... 어떡할래?",shape=box,color=blue];
-		j2520045125 -> j1428552506;
-	j4153169133 [label="Ay, sí 
+		j3914883570 -> j3578990453;
+	j2166345163 [label="Ay, sí 
 누구나 할 수 있는 건 아니니까
 Entiendo, 신경쓸 거 없어 괜찮아",shape=box,color=blue];
-		j4153169133 -> j3301634195;
-	j2727352244 [label="혹은 뭔가 강렬한 거라서 그런 걸지도 몰라
+		j2166345163 -> j1513355402;
+	j969408243 [label="혹은 뭔가 강렬한 거라서 그런 걸지도 몰라
 매일매일 내가 겪어야 하는 온갖 헛짓거리들을 베고 지나가는 날카로운 어떤 것
 현실이잖아
 내가 이를 박고 깨물 수 있잖아
 노래하게 만들고
 그 고동을 느끼고",shape=box,color=blue];
-		j2727352244 -> j1168604914;
-	j1428552506 [label="나랑 이 끔찍한 실수를 저질러 볼래?",shape=box,color=blue];
-		j1428552506 -> j2608544268;
-		j1428552506 -> j1625463717;
-	j3301634195 [label="+10 Chemistry",color=orange];
-		j3301634195 -> j147763109;
-	j1168604914 [label="그리고 거기엔 신뢰가 필수적으로 필요해
+		j969408243 -> j4003061958;
+	j3578990453 [label="나랑 이 끔찍한 실수를 저질러 볼래?",shape=box,color=blue];
+		j3578990453 -> j87427723;
+		j3578990453 -> j1687800811;
+	j1513355402 [label="+10 Chemistry",color=orange];
+		j1513355402 -> j3263681531;
+	j4003061958 [label="그리고 거기엔 신뢰가 필수적으로 필요해
 신뢰 없이는 할 수 없는 거지, solecito
 그래서... 어떡할래?",shape=box,color=blue];
-		j1168604914 -> j1428552506;
-	j2608544268 [label="응, 할래. 하고 싶어. :) [레티와 사귄다.]",shape=box,color=red];
-		j2608544268 -> j3029844850;
-	j1625463717 [label="사실 다시 한 번 생각해봐야겠어, 미안해.",shape=box,color=red];
-		j1625463717 -> j3301634195;
-	j147763109 [label="마음이 바뀌면 말해",shape=box,color=blue];
-		j147763109 -> j843193783;
-	j3029844850 [label="+20 Chemistry",color=orange];
-		j3029844850 -> j399845577;
-	j843193783 [label="Boolean LettieWillDate is now true.",color=orange];
-		j843193783 -> "Chat ends.";
-	j399845577 [label="좋아
+		j4003061958 -> j3578990453;
+	j87427723 [label="응, 할래. 하고 싶어. :) [레티와 사귄다.]",shape=box,color=red];
+		j87427723 -> j3938520907;
+	j1687800811 [label="사실 다시 한 번 생각해봐야겠어, 미안해.",shape=box,color=red];
+		j1687800811 -> j1513355402;
+	j3263681531 [label="마음이 바뀌면 말해",shape=box,color=blue];
+		j3263681531 -> j2129367046;
+	j3938520907 [label="+20 Chemistry",color=orange];
+		j3938520907 -> j3719243470;
+	j2129367046 [label="Boolean LettieWillDate is now true.",color=orange];
+		j2129367046 -> "Chat ends.";
+	j3719243470 [label="좋아
 각오 단단히 해, solecito
 봐주지 않을 거니까
 왜냐면 네가 싸우는 걸 봐 왔거든
 충분히 버틸 수 있는 거 알아",shape=box,color=blue];
-		j399845577 -> j868101288;
-	j868101288 [label="하지만 걱정하지 마
+		j3719243470 -> j2356597785;
+	j2356597785 [label="하지만 걱정하지 마
 그 뒤엔 늘 더 찐하게 키스해줄 테니까
 그건 기대해도 돼",shape=box,color=blue];
-		j868101288 -> j1997269121;
-	j1997269121 [label="Boolean LettieWillDate is now true.",color=orange];
-		j1997269121 -> j383062341;
-	j383062341 [label="Boolean LettieDating is now true.",color=orange];
-		j383062341 -> j4228506648;
-	j4228506648 [label="Boolean IsDating is now true.",color=orange];
-		j4228506648 -> j2764521140;
-	j2764521140 [label="Boolean LettieHasDated is now true.",color=orange];
-		j2764521140 -> "Chat ends.";
+		j2356597785 -> j1300785588;
+	j1300785588 [label="Boolean LettieWillDate is now true.",color=orange];
+		j1300785588 -> j702074970;
+	j702074970 [label="Boolean LettieDating is now true.",color=orange];
+		j702074970 -> j938814249;
+	j938814249 [label="Boolean IsDating is now true.",color=orange];
+		j938814249 -> j3003494003;
+	j3003494003 [label="Boolean LettieHasDated is now true.",color=orange];
+		j3003494003 -> "Chat ends.";
 }

@@ -1,127 +1,127 @@
 digraph {
 	"LettieRank4Convo2 begins." [color=orange];
-		"LettieRank4Convo2 begins." -> j2593995439;
-	j2593995439 [label="告訴我這個你們釋放的可怕神明 
+		"LettieRank4Convo2 begins." -> j4289261539;
+	j4289261539 [label="告訴我這個你們釋放的可怕神明 
 你的希佩托特克，你們的剝皮神
 他到底想要什麼？",shape=box,color=blue];
-		j2593995439 -> j864292509;
-	j864292509 [label="Check boolean LettieReligion2",color=orange];
-		j864292509 -> j4197372639 [label=true,color=green];
-		j864292509 -> j1517726093 [label=true,color=green];
-		j864292509 -> j2514812680 [label=true,color=green];
-		j864292509 -> j331017148 [label=true,color=green];
-		j864292509 -> j3063898237 [label=false,color=brown];
-		j864292509 -> j331017148 [label=false,color=brown];
-	j4197372639 [label="自由？",shape=box,color=red];
-		j4197372639 -> j848565616;
-	j1517726093 [label="知識？",shape=box,color=red];
-		j1517726093 -> j848565616;
-	j2514812680 [label="我不知道。",shape=box,color=red];
-		j2514812680 -> j3501895614;
-	j331017148 [label="馬上回來 [結束]",shape=box,color=red];
-		j331017148 -> "Chat ends.";
-	j3063898237 [label="嗯？你在說什麼？",shape=box,color=red];
-		j3063898237 -> j2352960981;
-	j848565616 [label="你認為但你不知道
+		j4289261539 -> j1356677054;
+	j1356677054 [label="Check boolean LettieReligion2",color=orange];
+		j1356677054 -> j1427610579 [label=true,color=green];
+		j1356677054 -> j2038359196 [label=true,color=green];
+		j1356677054 -> j2980340530 [label=true,color=green];
+		j1356677054 -> j1325415956 [label=true,color=green];
+		j1356677054 -> j290328534 [label=false,color=brown];
+		j1356677054 -> j1325415956 [label=false,color=brown];
+	j1427610579 [label="自由？",shape=box,color=red];
+		j1427610579 -> j2723302305;
+	j2038359196 [label="知識？",shape=box,color=red];
+		j2038359196 -> j2723302305;
+	j2980340530 [label="我不知道。",shape=box,color=red];
+		j2980340530 -> j1776272526;
+	j1325415956 [label="馬上回來 [結束]",shape=box,color=red];
+		j1325415956 -> "Chat ends.";
+	j290328534 [label="嗯？你在說什麼？",shape=box,color=red];
+		j290328534 -> j2954025047;
+	j2723302305 [label="你認為但你不知道
 它的動機不明
 但你卻認為它是敵人，（西語）為什麼？",shape=box,color=blue];
-		j848565616 -> j960731583;
-		j848565616 -> j2589411558;
-	j3501895614 [label="你把它當作敵人對待
+		j2723302305 -> j2575866002;
+		j2723302305 -> j1132936417;
+	j1776272526 [label="你把它當作敵人對待
 然而你不知道它想要什麼
 （西語）為什麼？",shape=box,color=blue];
-		j3501895614 -> j960731583;
-		j3501895614 -> j2589411558;
+		j1776272526 -> j2575866002;
+		j1776272526 -> j1132936417;
 	"Chat ends." [color=orange];
-	j2352960981 [label="這個虛空生物犧牲他人然後像古老的剝皮神希佩托特克一樣穿上他們的皮膚",shape=box,color=blue];
-		j2352960981 -> j1486528274;
-	j960731583 [label="那個東西決定作一場有趣的實驗，把扎日曼的父母與他們的孩子對立起來──",shape=box,color=red];
-		j960731583 -> j573446397;
-	j2589411558 [label="它所做的只是留下死亡和毀滅。無論它的動機是什麼，一切都不重要。信我。",shape=box,color=red];
-		j2589411558 -> j526494596;
-	j1486528274 [label="Boolean LettieReligion2 is now true.",color=orange];
-		j1486528274 -> j4167591482;
-	j573446397 [label="然後賦予孩子們魔法般虛空的力量，讓他們能夠殺死自己的父母，這樣它就能夠從屠殺中學習。",shape=box,color=red];
-		j573446397 -> j3176059266;
-		j573446397 -> j1937124122;
-	j526494596 [label="不
+	j2954025047 [label="這個虛空生物犧牲他人然後像古老的剝皮神希佩托特克一樣穿上他們的皮膚",shape=box,color=blue];
+		j2954025047 -> j1622785017;
+	j2575866002 [label="那個東西決定作一場有趣的實驗，把扎日曼的父母與他們的孩子對立起來──",shape=box,color=red];
+		j2575866002 -> j4204753927;
+	j1132936417 [label="它所做的只是留下死亡和毀滅。無論它的動機是什麼，一切都不重要。信我。",shape=box,color=red];
+		j1132936417 -> j2237438199;
+	j1622785017 [label="Boolean LettieReligion2 is now true.",color=orange];
+		j1622785017 -> j162193582;
+	j4204753927 [label="然後賦予孩子們魔法般虛空的力量，讓他們能夠殺死自己的父母，這樣它就能夠從屠殺中學習。",shape=box,color=red];
+		j4204753927 -> j2674476816;
+		j4204753927 -> j1231198108;
+	j2237438199 [label="不
 你相信你能理解神的心思
 不管你多大年紀
 遇過多少事",shape=box,color=blue];
-		j526494596 -> j1467973773;
-	j4167591482 [label="他到底想要什麼？",shape=box,color=blue];
-		j4167591482 -> j4197372639;
-		j4167591482 -> j1517726093;
-		j4167591482 -> j2514812680;
-	j3176059266 [label="它有機會從愛、犧牲、善良中學習。但看起來它選擇從混亂和謀殺中尋找。",shape=box,color=red];
-		j3176059266 -> j118509974;
-	j1937124122 [label="即使它只是像一個拿著玩具砸來砸去，想要理解周圍世界的嬰兒，但我們就是那些玩具。它必須被制止。",shape=box,color=red];
-		j1937124122 -> j3057871201;
-	j1467973773 [label="Check boolean LettieEntrati",color=orange];
-		j1467973773 -> j3395055596 [label=true,color=green];
-		j1467973773 -> j2106554779 [label=false,color=brown];
-	j118509974 [label="我會繼續心懷希望去相信它並非敵人，但……它沒有給我太多理由去相信它不是。",shape=box,color=red];
-		j118509974 -> j1985322584;
-	j3057871201 [label="在我親眼所見之後，我拒絕相信它是無害的。經歷過它對我做的一切之後，我無法這樣去相信。",shape=box,color=red];
-		j3057871201 -> j1985322584;
-	j3395055596 [label="你不是神，呆呆
+		j2237438199 -> j2154935428;
+	j162193582 [label="他到底想要什麼？",shape=box,color=blue];
+		j162193582 -> j1427610579;
+		j162193582 -> j2038359196;
+		j162193582 -> j2980340530;
+	j2674476816 [label="它有機會從愛、犧牲、善良中學習。但看起來它選擇從混亂和謀殺中尋找。",shape=box,color=red];
+		j2674476816 -> j2454057658;
+	j1231198108 [label="即使它只是像一個拿著玩具砸來砸去，想要理解周圍世界的嬰兒，但我們就是那些玩具。它必須被制止。",shape=box,color=red];
+		j1231198108 -> j4066808182;
+	j2154935428 [label="Check boolean LettieEntrati",color=orange];
+		j2154935428 -> j2818710890 [label=true,color=green];
+		j2154935428 -> j2834367091 [label=false,color=brown];
+	j2454057658 [label="我會繼續心懷希望去相信它並非敵人，但……它沒有給我太多理由去相信它不是。",shape=box,color=red];
+		j2454057658 -> j3313712720;
+	j4066808182 [label="在我親眼所見之後，我拒絕相信它是無害的。經歷過它對我做的一切之後，我無法這樣去相信。",shape=box,color=red];
+		j4066808182 -> j3313712720;
+	j2818710890 [label="你不是神，呆呆
 別假裝你能夠像神一樣思考
 不然你就和那個源拓氏混蛋沒什麼兩樣",shape=box,color=blue];
-		j3395055596 -> "Chat ends.";
-	j2106554779 [label="Check boolean LettieOrokin",color=orange];
-		j2106554779 -> j1622546971 [label=true,color=green];
-		j2106554779 -> j2227949688 [label=false,color=brown];
-	j1985322584 [label="你認為你能阻止神",shape=box,color=blue];
-		j1985322584 -> j61093793;
-	j1622546971 [label="你不是神，呆呆
+		j2818710890 -> "Chat ends.";
+	j2834367091 [label="Check boolean LettieOrokin",color=orange];
+		j2834367091 -> j2886268705 [label=true,color=green];
+		j2834367091 -> j1291220536 [label=false,color=brown];
+	j3313712720 [label="你認為你能阻止神",shape=box,color=blue];
+		j3313712720 -> j1724044313;
+	j2886268705 [label="你不是神，呆呆
 別假裝你能夠像神一樣思考
 不然你就和那些 Orokin 混蛋沒什麼兩樣",shape=box,color=blue];
-		j1622546971 -> "Chat ends.";
-	j2227949688 [label="你不是神，呆呆
+		j2886268705 -> "Chat ends.";
+	j1291220536 [label="你不是神，呆呆
 別假裝你能夠像神一樣思考",shape=box,color=blue];
-		j2227949688 -> "Chat ends.";
-	j61093793 [label="Boolean LettieReligion4 is now true.",color=orange];
-		j61093793 -> j74624568;
-	j74624568 [label="Check boolean ReligionNone",color=orange];
-		j74624568 -> j1983089818 [label=true,color=green];
-		j74624568 -> j1553207734 [label=true,color=green];
-		j74624568 -> j812821477 [label=true,color=green];
-		j74624568 -> j3790739211 [label=false,color=brown];
-	j1983089818 [label="不知道。我通常是邊走邊想。哈哈",shape=box,color=red];
-		j1983089818 -> j2852531630;
-	j1553207734 [label="我覺得我可以試試，就像我在這裡做的那樣。這就是我們任何人都能做到的。",shape=box,color=red];
-		j1553207734 -> j3635790644;
-	j812821477 [label="現在要由別人來決定了。我的位置就在 1999 年這裡，與你們所有人在一起。",shape=box,color=red];
-		j812821477 -> j382133338;
-	j3790739211 [label="我有信心。",shape=box,color=red];
-		j3790739211 -> j3066750024;
-	j2852531630 [label="+20 Chemistry",color=orange];
-		j2852531630 -> j3833134803;
-	j3635790644 [label="+20 Chemistry",color=orange];
-		j3635790644 -> j1996356362;
-	j382133338 [label="（西語）你在開玩笑，對吧？
+		j1291220536 -> "Chat ends.";
+	j1724044313 [label="Boolean LettieReligion4 is now true.",color=orange];
+		j1724044313 -> j4029075512;
+	j4029075512 [label="Check boolean ReligionNone",color=orange];
+		j4029075512 -> j2858557227 [label=true,color=green];
+		j4029075512 -> j1954072181 [label=true,color=green];
+		j4029075512 -> j942349377 [label=true,color=green];
+		j4029075512 -> j3061282478 [label=false,color=brown];
+	j2858557227 [label="不知道。我通常是邊走邊想。哈哈",shape=box,color=red];
+		j2858557227 -> j1234724193;
+	j1954072181 [label="我覺得我可以試試，就像我在這裡做的那樣。這就是我們任何人都能做到的。",shape=box,color=red];
+		j1954072181 -> j4107800738;
+	j942349377 [label="現在要由別人來決定了。我的位置就在 1999 年這裡，與你們所有人在一起。",shape=box,color=red];
+		j942349377 -> j4282970109;
+	j3061282478 [label="我有信心。",shape=box,color=red];
+		j3061282478 -> j2473484382;
+	j1234724193 [label="+20 Chemistry",color=orange];
+		j1234724193 -> j627215833;
+	j4107800738 [label="+20 Chemistry",color=orange];
+		j4107800738 -> j2034514036;
+	j4282970109 [label="（西語）你在開玩笑，對吧？
 一旦他們打電話來，你就會立刻跑過去了
 你是個漂泊者，一個士兵，當他們需要你時，你會去拯救你的未來",shape=box,color=blue];
-		j382133338 -> j1610501910;
-	j3066750024 [label="+20 Chemistry",color=orange];
-		j3066750024 -> j1872130270;
-	j3833134803 [label="哈哈，是的
+		j4282970109 -> j2459413089;
+	j2473484382 [label="+20 Chemistry",color=orange];
+		j2473484382 -> j1523376332;
+	j627215833 [label="哈哈，是的
 我明白那種感覺
 感謝你的坦白，呆呆
 看起來這對你有用，所以我不會評判",shape=box,color=blue];
-		j3833134803 -> "Chat ends.";
-	j1996356362 [label="是的
+		j627215833 -> "Chat ends.";
+	j2034514036 [label="是的
 我想這就是我們所能的所有了",shape=box,color=blue];
-		j1996356362 -> "Chat ends.";
-	j1610501910 [label="我們被困在這裡
+		j2034514036 -> "Chat ends.";
+	j2459413089 [label="我們被困在這裡
 別對我撒謊，別告訴我你會帶我去散步，呆呆
 總有一天你會逃脫，然後再也不回來",shape=box,color=blue];
-		j1610501910 -> j1682647635;
-	j1872130270 [label="（西語）呃，是嗎 
+		j2459413089 -> j1464801759;
+	j1523376332 [label="（西語）呃，是嗎 
 信什麼不太重要，我想 
 只要它們能讓你度過難關",shape=box,color=blue];
-		j1872130270 -> "Chat ends.";
-	j1682647635 [label="Boolean LettieEscape is now true.",color=orange];
-		j1682647635 -> "Chat ends. Next chat will be LettieEscape.";
+		j1523376332 -> "Chat ends.";
+	j1464801759 [label="Boolean LettieEscape is now true.",color=orange];
+		j1464801759 -> "Chat ends. Next chat will be LettieEscape.";
 	"Chat ends. Next chat will be LettieEscape." [color=orange];
 }

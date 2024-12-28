@@ -1,88 +1,88 @@
 digraph {
 	"LettieRank4Convo4 begins." [color=orange];
-		"LettieRank4Convo4 begins." -> j2827510990;
-	j2827510990 [label="Check boolean LettieNoFlirt",color=orange];
-		j2827510990 -> "Chat ends." [label=true,color=green];
-		j2827510990 -> j3518793138 [label=false,color=brown];
+		"LettieRank4Convo4 begins." -> j1158339480;
+	j1158339480 [label="Check boolean LettieNoFlirt",color=orange];
+		j1158339480 -> "Chat ends." [label=true,color=green];
+		j1158339480 -> j1576483326 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j3518793138 [label="예를 들어 질문을 해 보자. 내가 너랑 같이 마시러 나가고 싶다고 하면, 꿰맬 데만 늘어나게 되나?",shape=box,color=red];
-		j3518793138 -> j2794660236;
-	j2794660236 [label="Check boolean LettieNoDate",color=orange];
-		j2794660236 -> j4159601079 [label=true,color=green];
-		j2794660236 -> j3722538270 [label=false,color=brown];
-	j4159601079 [label="Sí 
+	j1576483326 [label="예를 들어 질문을 해 보자. 내가 너랑 같이 마시러 나가고 싶다고 하면, 꿰맬 데만 늘어나게 되나?",shape=box,color=red];
+		j1576483326 -> j3741727461;
+	j3741727461 [label="Check boolean LettieNoDate",color=orange];
+		j3741727461 -> j3098953518 [label=true,color=green];
+		j3741727461 -> j2315526095 [label=false,color=brown];
+	j3098953518 [label="Sí 
 맞아",shape=box,color=blue];
-		j4159601079 -> "Chat ends.";
-	j3722538270 [label="음? 
+		j3098953518 -> "Chat ends.";
+	j2315526095 [label="음? 
 Jajaja, 아니",shape=box,color=blue];
-		j3722538270 -> j3891966585;
-	j3891966585 [label="하지만 난 술 안 마시는데, 마셔본 적 없어
+		j2315526095 -> j3826795296;
+	j3826795296 [label="하지만 난 술 안 마시는데, 마셔본 적 없어
 약도 안 해봤고
 내 바지 속을 들춰보려면 그보다 더 창의적이어야지
 바진가 아무튼 지금 내가 입어야 하는 이거",shape=box,color=blue];
-		j3891966585 -> j3251833733;
-		j3891966585 -> j212681454;
-	j3251833733 [label="참고해 둘게. :) 그럼 널 꼬실 수 있는 방법에 대해 뭐 힌트 같은 건 없을까?",shape=box,color=red];
-		j3251833733 -> j991304877;
-	j212681454 [label="그 얘기 말인데, 그... 물어보고 싶었던 게 있는데...",shape=box,color=red];
-		j212681454 -> j172385006;
-	j991304877 [label="너가 어느 쪽이 취향인지 스스로 확실하게 알아야지, babas
+		j3826795296 -> j2728732579;
+		j3826795296 -> j1573043316;
+	j2728732579 [label="참고해 둘게. :) 그럼 널 꼬실 수 있는 방법에 대해 뭐 힌트 같은 건 없을까?",shape=box,color=red];
+		j2728732579 -> j1589671843;
+	j1573043316 [label="그 얘기 말인데, 그... 물어보고 싶었던 게 있는데...",shape=box,color=red];
+		j1573043316 -> j557481327;
+	j1589671843 [label="너가 어느 쪽이 취향인지 스스로 확실하게 알아야지, babas
 달달하고 부드럽고 그런 게 취향이라면 아오이나 아미르한테나 가
 난 아픈 거에 너무 익숙해져 있고 그런 연애를 하기엔 아픈 걸 너무 좋아해",shape=box,color=blue];
-		j991304877 -> j749402398;
-		j991304877 -> j2761527949;
-	j172385006 [label="¿Qué?",shape=box,color=blue];
-		j172385006 -> j4229252619;
-		j172385006 -> j3309673183;
-	j749402398 [label="네에 아가씨. 경고 제대로 받았어.",shape=box,color=red];
-		j749402398 -> j2342665077;
-	j2761527949 [label="음... 그래, 그럼 이쯤 하자. 아픈 건 그렇게 취향이 아니거든.",shape=box,color=red];
-		j2761527949 -> j904235404;
-	j4229252619 [label="궁금했거든, 너랑 다른 프로토프레임들이 아직도... 그... 그거 있잖아... 그... 그 부분...",shape=box,color=red];
-		j4229252619 -> j2118180468;
-	j3309673183 [label="어 - 신경쓰지 마.",shape=box,color=red];
-		j3309673183 -> j652227200;
-	j2342665077 [label="Boolean LettiePain is now true.",color=orange];
-		j2342665077 -> j4025636947;
-	j904235404 [label="+15 Chemistry",color=orange];
-		j904235404 -> j2599405245;
-	j2118180468 [label="JAJAJAJAJA 
+		j1589671843 -> j2847907990;
+		j1589671843 -> j4100229046;
+	j557481327 [label="¿Qué?",shape=box,color=blue];
+		j557481327 -> j3060597189;
+		j557481327 -> j3555146987;
+	j2847907990 [label="네에 아가씨. 경고 제대로 받았어.",shape=box,color=red];
+		j2847907990 -> j3778930376;
+	j4100229046 [label="음... 그래, 그럼 이쯤 하자. 아픈 건 그렇게 취향이 아니거든.",shape=box,color=red];
+		j4100229046 -> j298347845;
+	j3060597189 [label="궁금했거든, 너랑 다른 프로토프레임들이 아직도... 그... 그거 있잖아... 그... 그 부분...",shape=box,color=red];
+		j3060597189 -> j2642951991;
+	j3555146987 [label="어 - 신경쓰지 마.",shape=box,color=red];
+		j3555146987 -> j3842776460;
+	j3778930376 [label="Boolean LettiePain is now true.",color=orange];
+		j3778930376 -> j2075125762;
+	j298347845 [label="+15 Chemistry",color=orange];
+		j298347845 -> j4020435271;
+	j2642951991 [label="JAJAJAJAJA 
 진심이야 지금?!
 아니 사람한테 그런 걸 그냥 물어보면 안 되는 -
 Aaaay babaaaaassss 이렇게 크게 웃어본 것도 진짜 오랜만이다 야ㅏㅏㅏ",shape=box,color=blue];
-		j2118180468 -> j3287444140;
-		j2118180468 -> j3114367917;
-	j652227200 [label="Va 
+		j2642951991 -> j3906885833;
+		j2642951991 -> j3772631123;
+	j3842776460 [label="Va 
 어차피 바빠",shape=box,color=blue];
-		j652227200 -> "Chat ends.";
-	j4025636947 [label="+20 Chemistry",color=orange];
-		j4025636947 -> j4000724448;
-	j2599405245 [label="부에노 
+		j3842776460 -> "Chat ends.";
+	j2075125762 [label="+20 Chemistry",color=orange];
+		j2075125762 -> j2837426640;
+	j4020435271 [label="부에노 
 그래 그러는 게 차라리 나아
 마음이 바뀌면 말해줘도 되고",shape=box,color=blue];
-		j2599405245 -> j680567224;
-	j3287444140 [label="미안.",shape=box,color=red];
-		j3287444140 -> j134292030;
-	j3114367917 [label="어음... 그래서? 있어?",shape=box,color=red];
-		j3114367917 -> j134292030;
-	j4000724448 [label="음, 그래?
+		j4020435271 -> j892343792;
+	j3906885833 [label="미안.",shape=box,color=red];
+		j3906885833 -> j1635707650;
+	j3772631123 [label="어음... 그래서? 있어?",shape=box,color=red];
+		j3772631123 -> j1635707650;
+	j2837426640 [label="음, 그래?
 감당을 할 수 있다고 생각하는 건가?
 보자고 한 번",shape=box,color=blue];
-		j4000724448 -> j3551626244;
-	j680567224 [label="Boolean LettieNoPain is now true.",color=orange];
-		j680567224 -> j3834737979;
-	j134292030 [label="이런 건 어때
+		j2837426640 -> j517099962;
+	j892343792 [label="Boolean LettieNoPain is now true.",color=orange];
+		j892343792 -> j4106919873;
+	j1635707650 [label="이런 건 어때
 너가 착한 babas로 잘 있으면
 그냥 물을 필요 없이 알아낼 수도 있을 거 아냐, 응?
 다만 경고하는데
 달달하고 부드럽고 그런 게 취향이라면 아오이나 아미르한테나 가
 난 아픈 거에 너무 익숙해져 있고 그런 연애를 하기엔 아픈 걸 너무 좋아해",shape=box,color=blue];
-		j134292030 -> j749402398;
-		j134292030 -> j2761527949;
-	j3551626244 [label="이제 vete
+		j1635707650 -> j2847907990;
+		j1635707650 -> j4100229046;
+	j517099962 [label="이제 vete
 할 일이 있는데 몽상만 하고 있을 수는 없지",shape=box,color=blue];
-		j3551626244 -> "Chat ends.";
-	j3834737979 [label="이제 vete
+		j517099962 -> "Chat ends.";
+	j4106919873 [label="이제 vete
 일 해야 돼",shape=box,color=blue];
-		j3834737979 -> "Chat ends.";
+		j4106919873 -> "Chat ends.";
 }

@@ -1,88 +1,88 @@
 digraph {
 	"LettieRank4Convo4 begins." [color=orange];
-		"LettieRank4Convo4 begins." -> j2827510990;
-	j2827510990 [label="Check boolean LettieNoFlirt",color=orange];
-		j2827510990 -> "Chat ends." [label=true,color=green];
-		j2827510990 -> j3376097706 [label=false,color=brown];
+		"LettieRank4Convo4 begins." -> j1158339480;
+	j1158339480 [label="Check boolean LettieNoFlirt",color=orange];
+		j1158339480 -> "Chat ends." [label=true,color=green];
+		j1158339480 -> j749497725 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j3376097706 [label="仮定の質問。もし自分がLettieを飲みに誘ったら、縫い跡がオチになるかな？",shape=box,color=red];
-		j3376097706 -> j2794660236;
-	j2794660236 [label="Check boolean LettieNoDate",color=orange];
-		j2794660236 -> j578609467 [label=true,color=green];
-		j2794660236 -> j264790016 [label=false,color=brown];
-	j578609467 [label="Sí
+	j749497725 [label="仮定の質問。もし自分がLettieを飲みに誘ったら、縫い跡がオチになるかな？",shape=box,color=red];
+		j749497725 -> j3741727461;
+	j3741727461 [label="Check boolean LettieNoDate",color=orange];
+		j3741727461 -> j3494623289 [label=true,color=green];
+		j3741727461 -> j3242347020 [label=false,color=brown];
+	j3494623289 [label="Sí
 そうなるわ",shape=box,color=blue];
-		j578609467 -> "Chat ends.";
-	j264790016 [label="ん－？
+		j3494623289 -> "Chat ends.";
+	j3242347020 [label="ん－？
 Jajaja、ならないわよ",shape=box,color=blue];
-		j264790016 -> j1971894162;
-	j1971894162 [label="でもアタシは飲まないの、飲んだこともない
+		j3242347020 -> j1851343374;
+	j1851343374 [label="でもアタシは飲まないの、飲んだこともない
 ドラッグもやらない
 ズボンの下が気になるならクリエイティブにしないとダメよ
 今着ているのがズボンか定かではないけど",shape=box,color=blue];
-		j1971894162 -> j4289092102;
-		j1971894162 -> j2512215849;
-	j4289092102 [label="知れてよかった。:) じゃあどうやったらナンパに成功できるかアドバイスして。",shape=box,color=red];
-		j4289092102 -> j1505243958;
-	j2512215849 [label="その件だけど、その…　ずっと気になっていたんだ…",shape=box,color=red];
-		j2512215849 -> j172385006;
-	j1505243958 [label="求めているものをちゃんと理解しなさい、babas
+		j1851343374 -> j6264207;
+		j1851343374 -> j2691436669;
+	j6264207 [label="知れてよかった。:) じゃあどうやったらナンパに成功できるかアドバイスして。",shape=box,color=red];
+		j6264207 -> j2091131979;
+	j2691436669 [label="その件だけど、その…　ずっと気になっていたんだ…",shape=box,color=red];
+		j2691436669 -> j557481327;
+	j2091131979 [label="求めているものをちゃんと理解しなさい、babas
 優しく丁寧がお好みならAoiかAmirに話しかけることね
 アタシは痛みに慣れすぎたし、ソウイウノが大好きなの",shape=box,color=blue];
-		j1505243958 -> j1151239065;
-		j1505243958 -> j607143419;
-	j172385006 [label="¿Qué?",shape=box,color=blue];
-		j172385006 -> j1532018805;
-		j172385006 -> j3070687462;
-	j1151239065 [label="イエスマム。警告心に刻みました。",shape=box,color=red];
-		j1151239065 -> j2469094318;
-	j607143419 [label="うー…　うん、忘れてくれ。痛いのは嫌だ。",shape=box,color=red];
-		j607143419 -> j4234994378;
-	j1532018805 [label="その…　Lettieや他のPROTOFRAMEって…　まだ残っているの？…あの　…えっと…　アレが…",shape=box,color=red];
-		j1532018805 -> j3885891736;
-	j3070687462 [label="えっと…　やっぱ忘れてくれ。",shape=box,color=red];
-		j3070687462 -> j2615181141;
-	j2469094318 [label="Boolean LettiePain is now true.",color=orange];
-		j2469094318 -> j1972903443;
-	j4234994378 [label="+15 Chemistry",color=orange];
-		j4234994378 -> j353239110;
-	j3885891736 [label="JAJAJAJAJA
+		j2091131979 -> j2839321491;
+		j2091131979 -> j3426423471;
+	j557481327 [label="¿Qué?",shape=box,color=blue];
+		j557481327 -> j832881952;
+		j557481327 -> j4262665919;
+	j2839321491 [label="イエスマム。警告心に刻みました。",shape=box,color=red];
+		j2839321491 -> j1775052061;
+	j3426423471 [label="うー…　うん、忘れてくれ。痛いのは嫌だ。",shape=box,color=red];
+		j3426423471 -> j4034921281;
+	j832881952 [label="その…　Lettieや他のPROTOFRAMEって…　まだ残っているの？…あの　…えっと…　アレが…",shape=box,color=red];
+		j832881952 -> j1078002630;
+	j4262665919 [label="えっと…　やっぱ忘れてくれ。",shape=box,color=red];
+		j4262665919 -> j1291499060;
+	j1775052061 [label="Boolean LettiePain is now true.",color=orange];
+		j1775052061 -> j972006688;
+	j4034921281 [label="+15 Chemistry",color=orange];
+		j4034921281 -> j2152654221;
+	j1078002630 [label="JAJAJAJAJA
 本気なの？！
 人に尋ねるようなコトじゃないでｓ
 Aaaay babaaaaassss こんなに激しく笑ったのひっっさしぶりだわ",shape=box,color=blue];
-		j3885891736 -> j3771165261;
-		j3885891736 -> j974779710;
-	j2615181141 [label="Va
+		j1078002630 -> j115637713;
+		j1078002630 -> j3314648062;
+	j1291499060 [label="Va
 こっちは忙しいの",shape=box,color=blue];
-		j2615181141 -> "Chat ends.";
-	j1972903443 [label="+20 Chemistry",color=orange];
-		j1972903443 -> j292593318;
-	j353239110 [label="Bueno
+		j1291499060 -> "Chat ends.";
+	j972006688 [label="+20 Chemistry",color=orange];
+		j972006688 -> j2617335676;
+	j2152654221 [label="Bueno
 そうした方がいいわ
 気が変わったら教えてちょうだい",shape=box,color=blue];
-		j353239110 -> j3594133587;
-	j3771165261 [label="ごめん。",shape=box,color=red];
-		j3771165261 -> j2916992413;
-	j974779710 [label="あー…　で？　どうなの？",shape=box,color=red];
-		j974779710 -> j2916992413;
-	j292593318 [label="ん、そうなの？
+		j2152654221 -> j3486674170;
+	j115637713 [label="ごめん。",shape=box,color=red];
+		j115637713 -> j3395916160;
+	j3314648062 [label="あー…　で？　どうなの？",shape=box,color=red];
+		j3314648062 -> j3395916160;
+	j2617335676 [label="ん、そうなの？
 自分なら耐えれると思ってるのね？
 どうかしら",shape=box,color=blue];
-		j292593318 -> j1346381874;
-	j3594133587 [label="Boolean LettieNoPain is now true.",color=orange];
-		j3594133587 -> j3353687443;
-	j2916992413 [label="じゃあこうしましょ
+		j2617335676 -> j1321938776;
+	j3486674170 [label="Boolean LettieNoPain is now true.",color=orange];
+		j3486674170 -> j2165750401;
+	j3395916160 [label="じゃあこうしましょ
 もしあんたがいいbabasにしていたら
 いずれ分かるかもよ
 でもこれだけは言っとくわ
 優しく丁寧がお好みならAoiかAmirに話しかけなさい
 アタシは痛みに慣れすぎたし、ソウイウノが大好きなの",shape=box,color=blue];
-		j2916992413 -> j1151239065;
-		j2916992413 -> j607143419;
-	j1346381874 [label="さぁvete
+		j3395916160 -> j2839321491;
+		j3395916160 -> j3426423471;
+	j1321938776 [label="さぁvete
 仕事がある時に妄想を膨らませるわけにいかないわ",shape=box,color=blue];
-		j1346381874 -> "Chat ends.";
-	j3353687443 [label="さぁvete
+		j1321938776 -> "Chat ends.";
+	j2165750401 [label="さぁvete
 仕事があるの",shape=box,color=blue];
-		j3353687443 -> "Chat ends.";
+		j2165750401 -> "Chat ends.";
 }

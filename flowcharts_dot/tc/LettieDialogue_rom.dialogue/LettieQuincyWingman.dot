@@ -1,90 +1,90 @@
 digraph {
 	"LettieQuincyWingman begins." [color=orange];
-		"LettieQuincyWingman begins." -> j3964039837;
-	j3964039837 [label="Check boolean IsDating",color=orange];
-		j3964039837 -> "Chat ends." [label=true,color=green];
-		j3964039837 -> j2840700214 [label=false,color=brown];
+		"LettieQuincyWingman begins." -> j3451391318;
+	j3451391318 [label="Check boolean IsDating",color=orange];
+		j3451391318 -> "Chat ends." [label=true,color=green];
+		j3451391318 -> j239260551 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j2840700214 [label="嘿
+	j239260551 [label="嘿
 崑西找過我
 他說你想跟我談談？
 （西語）發生了什麼事？",shape=box,color=blue];
-		j2840700214 -> j1277913046;
-	j1277913046 [label="Check boolean LettieNoDate",color=orange];
-		j1277913046 -> j65509721 [label=true,color=green];
-		j1277913046 -> j4048854173 [label=true,color=green];
-		j1277913046 -> j140999335 [label=false,color=brown];
-		j1277913046 -> j4048854173 [label=false,color=brown];
-	j65509721 [label="我只是……想說聲抱歉，莉蒂。僅此而已。",shape=box,color=red];
-		j65509721 -> j1201096728;
-	j4048854173 [label="他一定是搞錯了。[結束]",shape=box,color=red];
-		j4048854173 -> j2369443391;
-	j140999335 [label="我……嗯。我對你有感覺。",shape=box,color=red];
-		j140999335 -> j285831484;
-	j1201096728 [label="哈哈，是的，他就是這麼說的
+		j239260551 -> j2065325619;
+	j2065325619 [label="Check boolean LettieNoDate",color=orange];
+		j2065325619 -> j2188858892 [label=true,color=green];
+		j2065325619 -> j2606066743 [label=true,color=green];
+		j2065325619 -> j1193755879 [label=false,color=brown];
+		j2065325619 -> j2606066743 [label=false,color=brown];
+	j2188858892 [label="我只是……想說聲抱歉，莉蒂。僅此而已。",shape=box,color=red];
+		j2188858892 -> j100817177;
+	j2606066743 [label="他一定是搞錯了。[結束]",shape=box,color=red];
+		j2606066743 -> j532671626;
+	j1193755879 [label="我……嗯。我對你有感覺。",shape=box,color=red];
+		j1193755879 -> j909510203;
+	j100817177 [label="哈哈，是的，他就是這麼說的
 一開始我不相信他
 但現在我挺佩服你，你居然能讓他為你工作？
 啊，我又開始了……",shape=box,color=blue];
-		j1201096728 -> j428501271;
-	j2369443391 [label="（西語）給我滾開，混蛋",shape=box,color=blue];
-		j2369443391 -> "Chat ends.";
-	j285831484 [label="Check boolean LettieHasDated",color=orange];
-		j285831484 -> j3121822076 [label=true,color=green];
-		j285831484 -> j1753481761 [label=false,color=brown];
-	j428501271 [label="你只是想道歉，我卻讓你為難
+		j100817177 -> j3710619664;
+	j532671626 [label="（西語）給我滾開，混蛋",shape=box,color=blue];
+		j532671626 -> "Chat ends.";
+	j909510203 [label="Check boolean LettieHasDated",color=orange];
+		j909510203 -> j2674900941 [label=true,color=green];
+		j909510203 -> j2439138874 [label=false,color=brown];
+	j3710619664 [label="你只是想道歉，我卻讓你為難
 好吧
 我接受你的道歉",shape=box,color=blue];
-		j428501271 -> j3858638963;
-	j3121822076 [label="你有過機會
+		j3710619664 -> j974750923;
+	j2674900941 [label="你有過機會
 但結果並不太好，是吧？
 但是……唉，是的……
 很難承認我的確很想你",shape=box,color=blue];
-		j3121822076 -> j3706560076;
-	j1753481761 [label="你一直把這件事藏在心裡？
+		j2674900941 -> j971020726;
+	j2439138874 [label="你一直把這件事藏在心裡？
 （西語）為什麼？
 我就在這裡啊",shape=box,color=blue];
-		j1753481761 -> j1546406147;
-		j1753481761 -> j2999877704;
-	j3858638963 [label="他還說你想和我試一試
+		j2439138874 -> j686265999;
+		j2439138874 -> j1733466631;
+	j974750923 [label="他還說你想和我試一試
 我們
 兩個人，一起
 （西語）對吧？",shape=box,color=blue];
-		j3858638963 -> j2320507904;
-		j3858638963 -> j1301961425;
-	j3706560076 [label="你想再試一次嗎？",shape=box,color=blue];
-		j3706560076 -> j2320507904;
-		j3706560076 -> j1301961425;
-	j1546406147 [label="無法告訴你。",shape=box,color=red];
-		j1546406147 -> j19995890;
-	j2999877704 [label="不知道。",shape=box,color=red];
-		j2999877704 -> j19995890;
-	j2320507904 [label="當然，我想。 : )",shape=box,color=red];
-		j2320507904 -> j3883572871;
-	j1301961425 [label="其實，算了吧。",shape=box,color=red];
-		j1301961425 -> j3457676712;
-	j19995890 [label="好吧……
+		j974750923 -> j2676346510;
+		j974750923 -> j2729949203;
+	j971020726 [label="你想再試一次嗎？",shape=box,color=blue];
+		j971020726 -> j2676346510;
+		j971020726 -> j2729949203;
+	j686265999 [label="無法告訴你。",shape=box,color=red];
+		j686265999 -> j1400551138;
+	j1733466631 [label="不知道。",shape=box,color=red];
+		j1733466631 -> j1400551138;
+	j2676346510 [label="當然，我想。 : )",shape=box,color=red];
+		j2676346510 -> j2304357274;
+	j2729949203 [label="其實，算了吧。",shape=box,color=red];
+		j2729949203 -> j2083255675;
+	j1400551138 [label="好吧……
 隨便啦
 你想開始嗎？",shape=box,color=blue];
-		j19995890 -> j2320507904;
-		j19995890 -> j1301961425;
-	j3883572871 [label="+20 Chemistry",color=orange];
-		j3883572871 -> j1912884774;
-	j3457676712 [label="呆呆
+		j1400551138 -> j2676346510;
+		j1400551138 -> j2729949203;
+	j2304357274 [label="+20 Chemistry",color=orange];
+		j2304357274 -> j1537932190;
+	j2083255675 [label="呆呆
 有時候我真的想揍你
 現在就是這樣的時候",shape=box,color=blue];
-		j3457676712 -> j3065772033;
-	j1912884774 [label="嗯，那好吧
+		j2083255675 -> j2703113057;
+	j1537932190 [label="嗯，那好吧
 我們就開始吧！
 走吧，還有工作要做呢",shape=box,color=blue];
-		j1912884774 -> j1224573614;
-	j3065772033 [label="Boolean LettieNoDate is now true.",color=orange];
-		j3065772033 -> "Chat ends.";
-	j1224573614 [label="Boolean LettieNoDate is now false.",color=orange];
-		j1224573614 -> j1219159457;
-	j1219159457 [label="Boolean IsDating is now true.",color=orange];
-		j1219159457 -> j1602277889;
-	j1602277889 [label="Boolean LettieDating is now true.",color=orange];
-		j1602277889 -> j2764521140;
-	j2764521140 [label="Boolean LettieHasDated is now true.",color=orange];
-		j2764521140 -> "Chat ends.";
+		j1537932190 -> j4071933913;
+	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2703113057 -> "Chat ends.";
+	j4071933913 [label="Boolean LettieNoDate is now false.",color=orange];
+		j4071933913 -> j444607473;
+	j444607473 [label="Boolean IsDating is now true.",color=orange];
+		j444607473 -> j2763854765;
+	j2763854765 [label="Boolean LettieDating is now true.",color=orange];
+		j2763854765 -> j3003494003;
+	j3003494003 [label="Boolean LettieHasDated is now true.",color=orange];
+		j3003494003 -> "Chat ends.";
 }

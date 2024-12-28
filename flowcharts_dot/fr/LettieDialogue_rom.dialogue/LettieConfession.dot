@@ -1,144 +1,144 @@
 digraph {
 	"LettieConfession begins." [color=orange];
-		"LettieConfession begins." -> j2600981639;
-	j2600981639 [label="Check boolean IsDating",color=orange];
-		j2600981639 -> "Chat ends." [label=true,color=green];
-		j2600981639 -> j3222250544 [label=false,color=brown];
+		"LettieConfession begins." -> j3507132931;
+	j3507132931 [label="Check boolean IsDating",color=orange];
+		j3507132931 -> "Chat ends." [label=true,color=green];
+		j3507132931 -> j4235669445 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j3222250544 [label="Solecito 
+	j4235669445 [label="Solecito 
 Tu es là",shape=box,color=blue];
-		j3222250544 -> j2520928407;
-		j3222250544 -> j3055069876;
-	j2520928407 [label="Ouais..?",shape=box,color=red];
-		j2520928407 -> j381986222;
-	j3055069876 [label="[Ignorer.]",shape=box,color=red];
-		j3055069876 -> "Chat ends.";
-	j381986222 [label="Je... 
+		j4235669445 -> j492213516;
+		j4235669445 -> j4177999804;
+	j492213516 [label="Ouais..?",shape=box,color=red];
+		j492213516 -> j3735235222;
+	j4177999804 [label="[Ignorer.]",shape=box,color=red];
+		j4177999804 -> "Chat ends.";
+	j3735235222 [label="Je... 
 Je voulais dire 
 Primero, lo siento
 Je n'aurais pas dû réagir comme je l'ai fait 
 Segundo, tu penses ce que tu as dit?",shape=box,color=blue];
-		j381986222 -> j574030904;
-		j381986222 -> j1429458113;
-	j574030904 [label="Je pensais chaque mot.",shape=box,color=red];
-		j574030904 -> j2992837449;
-	j1429458113 [label="J'ai tout inventé.",shape=box,color=red];
-		j1429458113 -> j1154883764;
-	j2992837449 [label="Aayyyy... ok... 
+		j3735235222 -> j3244850376;
+		j3735235222 -> j3987278909;
+	j3244850376 [label="Je pensais chaque mot.",shape=box,color=red];
+		j3244850376 -> j3748077816;
+	j3987278909 [label="J'ai tout inventé.",shape=box,color=red];
+		j3987278909 -> j4289954250;
+	j3748077816 [label="Aayyyy... ok... 
 Mierda",shape=box,color=blue];
-		j2992837449 -> j560911343;
-		j2992837449 -> j2294103272;
-	j1154883764 [label="Boolean LettieNoDate is now true.",color=orange];
-		j1154883764 -> j1014406626;
-	j560911343 [label="Si ce n'est pas réciproque, tu peux simplement me le dire, je peux encaisser.",shape=box,color=red];
-		j560911343 -> j3425983332;
-	j2294103272 [label="Je ne sais toujours pas si \"mierda\" c'est positif ou pas...",shape=box,color=red];
-		j2294103272 -> j2488733256;
-	j1014406626 [label="Mm 
+		j3748077816 -> j638669898;
+		j3748077816 -> j241855420;
+	j4289954250 [label="Boolean LettieNoDate is now true.",color=orange];
+		j4289954250 -> j2805292740;
+	j638669898 [label="Si ce n'est pas réciproque, tu peux simplement me le dire, je peux encaisser.",shape=box,color=red];
+		j638669898 -> j2720179985;
+	j241855420 [label="Je ne sais toujours pas si \"mierda\" c'est positif ou pas...",shape=box,color=red];
+		j241855420 -> j578867226;
+	j2805292740 [label="Mm 
 J'aurais dû le savoir 
 Va jouer avec Quincy 
 Un escuincle comme lui te conviendra bien",shape=box,color=blue];
-		j1014406626 -> "Chat ends.";
-	j3425983332 [label="Check boolean LettieTrust1",color=orange];
-		j3425983332 -> j3167760487 [label=true,color=green];
-		j3425983332 -> j261195836 [label=false,color=brown];
-	j2488733256 [label="Jajaja ça veut dire \"merde\" 
+		j2805292740 -> "Chat ends.";
+	j2720179985 [label="Check boolean LettieTrust1",color=orange];
+		j2720179985 -> j675720518 [label=true,color=green];
+		j2720179985 -> j1934707301 [label=false,color=brown];
+	j578867226 [label="Jajaja ça veut dire \"merde\" 
 Mais non, ce n'était pas négatif 
 C'est juste--",shape=box,color=blue];
-		j2488733256 -> j3425983332;
-	j3167760487 [label="Check boolean LettieTrust2",color=orange];
-		j3167760487 -> j3939666958 [label=true,color=green];
-		j3167760487 -> j2265638631 [label=false,color=brown];
-	j261195836 [label="Écoute 
+		j578867226 -> j2720179985;
+	j675720518 [label="Check boolean LettieTrust2",color=orange];
+		j675720518 -> j4286651090 [label=true,color=green];
+		j675720518 -> j275908675 [label=false,color=brown];
+	j1934707301 [label="Écoute 
 J'ai vraiment beaucoup de difficulté pour faire confiance
 Et c'est la chose la plus importante dans une relation, pour moi 
 La confiance brisée est quelque chose qui ne peut pas être réparé, surtout dans une situation comme celle-ci",shape=box,color=blue];
-		j261195836 -> j1972905789;
-	j3939666958 [label="Tu sais combien il m'est difficile de faire confiance aux gens 
+		j1934707301 -> j727684694;
+	j4286651090 [label="Tu sais combien il m'est difficile de faire confiance aux gens 
 Et combien la confiance est importante pour moi ¿no? 
 Eh bien... c'est encore plus important quand je m'engage dans une relation avec quelqu'un",shape=box,color=blue];
-		j3939666958 -> j1745025101;
-	j2265638631 [label="Tu sais que j'ai vraiment beaucoup de difficulté pour faire confiance
+		j4286651090 -> j1878940772;
+	j275908675 [label="Tu sais que j'ai vraiment beaucoup de difficulté pour faire confiance
 Et c'est la chose la plus importante dans une relation, pour moi 
 La confiance brisée est quelque chose qui ne peut pas être réparé, surtout dans une situation comme celle-ci",shape=box,color=blue];
-		j2265638631 -> j1717934828;
-	j1972905789 [label="Boolean LettieTrust1 is now true.",color=orange];
-		j1972905789 -> j1717934828;
-	j1745025101 [label="Parce qu'une relation avec moi a tendance à faire mal, solecito 
+		j275908675 -> j835336603;
+	j727684694 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j727684694 -> j835336603;
+	j1878940772 [label="Parce qu'une relation avec moi a tendance à faire mal, solecito 
 Si tu vois ce que je veux dire 
 Autant que possible pour nous
 Et aussi loin que possible pour toi
 Parce que ce genre de chose demande de la confiance",shape=box,color=blue];
-		j1745025101 -> j2760358279;
-	j1717934828 [label="Boolean LettieTrust2 is now true.",color=orange];
-		j1717934828 -> j1745025101;
-	j2760358279 [label="Et la confiance brisée dans une situation comme celle-ci 
+		j1878940772 -> j1817776812;
+	j835336603 [label="Boolean LettieTrust2 is now true.",color=orange];
+		j835336603 -> j1878940772;
+	j1817776812 [label="Et la confiance brisée dans une situation comme celle-ci 
 Ne peut pas être réparée 
 ¿Me explico?",shape=box,color=blue];
-		j2760358279 -> j3839998651;
-		j2760358279 -> j4173124779;
-		j2760358279 -> j1110387005;
-	j3839998651 [label="Je ne dis pas non, mais est-ce que je peux demander... pourquoi c'est ton truc, la douleur?",shape=box,color=red];
-		j3839998651 -> j3081308560;
-	j4173124779 [label="Uniquement si on peut changer de rôle de temps en temps...",shape=box,color=red];
-		j4173124779 -> j1063552609;
-	j1110387005 [label="Je n'aime pas vraiment mélanger la douleur et le plaisir, excuse-moi.",shape=box,color=red];
-		j1110387005 -> j912737183;
-	j3081308560 [label="Mmm, je ne sais pas 
+		j1817776812 -> j3013717982;
+		j1817776812 -> j1613069531;
+		j1817776812 -> j3050577490;
+	j3013717982 [label="Je ne dis pas non, mais est-ce que je peux demander... pourquoi c'est ton truc, la douleur?",shape=box,color=red];
+		j3013717982 -> j460062879;
+	j1613069531 [label="Uniquement si on peut changer de rôle de temps en temps...",shape=box,color=red];
+		j1613069531 -> j1085528443;
+	j3050577490 [label="Je n'aime pas vraiment mélanger la douleur et le plaisir, excuse-moi.",shape=box,color=red];
+		j3050577490 -> j3060928489;
+	j460062879 [label="Mmm, je ne sais pas 
 Peut-être parce que c'est une douleur que je peux contrôler 
 Et non une douleur hors de mon contrôle",shape=box,color=blue];
-		j3081308560 -> j3012050398;
-	j1063552609 [label="Jajaja bien sûr 
+		j460062879 -> j1213384887;
+	j1085528443 [label="Jajaja bien sûr 
 Mais une fois que tu l'auras mérité 
 Je dois d'abord savoir que je peux te faire confiance 
 Alors... qu'est-ce que tu en dis?",shape=box,color=blue];
-		j1063552609 -> j1678494741;
-	j912737183 [label="Ay, sí 
+		j1085528443 -> j985510395;
+	j3060928489 [label="Ay, sí 
 Ce n'est pas pour tout le monde 
 Entiendo, pas de problème",shape=box,color=blue];
-		j912737183 -> j1374880470;
-	j3012050398 [label="Ou peut-être parce que c'est quelque chose d'intense 
+		j3060928489 -> j1910957613;
+	j1213384887 [label="Ou peut-être parce que c'est quelque chose d'intense 
 Quelque chose de tranchant qui coupe toutes les conneries auxquelles je dois faire face jour après jour 
 C'est RÉEL 
 Je peux y enfoncer mes dents 
 La faire chanter 
 La sentir vibrer",shape=box,color=blue];
-		j3012050398 -> j3373165441;
-	j1678494741 [label="Tu veux faire une terrible erreur avec moi?",shape=box,color=blue];
-		j1678494741 -> j2007956992;
-		j1678494741 -> j475376859;
-	j1374880470 [label="+10 Chemistry",color=orange];
-		j1374880470 -> j2503906841;
-	j3373165441 [label="Et cela EXIGE de la confiance 
+		j1213384887 -> j1713199703;
+	j985510395 [label="Tu veux faire une terrible erreur avec moi?",shape=box,color=blue];
+		j985510395 -> j218261842;
+		j985510395 -> j3992905902;
+	j1910957613 [label="+10 Chemistry",color=orange];
+		j1910957613 -> j3579852686;
+	j1713199703 [label="Et cela EXIGE de la confiance 
 Ça ne marche pas sans ça, solecito 
 Alors... qu'en dis-tu?",shape=box,color=blue];
-		j3373165441 -> j1678494741;
-	j2007956992 [label="Ouais, carrément :) [Sortir avec Lettie.]",shape=box,color=red];
-		j2007956992 -> j226821666;
-	j475376859 [label="En fait, je dois y réfléchir. Pardon.",shape=box,color=red];
-		j475376859 -> j1374880470;
-	j2503906841 [label="Dis-moi si tu changes d’avis",shape=box,color=blue];
-		j2503906841 -> j843193783;
-	j226821666 [label="+20 Chemistry",color=orange];
-		j226821666 -> j1949948237;
-	j843193783 [label="Boolean LettieWillDate is now true.",color=orange];
-		j843193783 -> "Chat ends.";
-	j1949948237 [label="Très bien 
+		j1713199703 -> j985510395;
+	j218261842 [label="Ouais, carrément :) [Sortir avec Lettie.]",shape=box,color=red];
+		j218261842 -> j2304136839;
+	j3992905902 [label="En fait, je dois y réfléchir. Pardon.",shape=box,color=red];
+		j3992905902 -> j1910957613;
+	j3579852686 [label="Dis-moi si tu changes d’avis",shape=box,color=blue];
+		j3579852686 -> j2129367046;
+	j2304136839 [label="+20 Chemistry",color=orange];
+		j2304136839 -> j3535229831;
+	j2129367046 [label="Boolean LettieWillDate is now true.",color=orange];
+		j2129367046 -> "Chat ends.";
+	j3535229831 [label="Très bien 
 Prépare-toi, solecito 
 Je ne serai pas indulgente avec toi 
 Parce que je t'ai vu te battre 
 Je sais ce que tu peux supporter",shape=box,color=blue];
-		j1949948237 -> j2648232650;
-	j2648232650 [label="Mais ne t'inquiète pas 
+		j3535229831 -> j2746564911;
+	j2746564911 [label="Mais ne t'inquiète pas 
 Je t'embrasserai encore mieux après 
 Tu peux compter là-dessus",shape=box,color=blue];
-		j2648232650 -> j1997269121;
-	j1997269121 [label="Boolean LettieWillDate is now true.",color=orange];
-		j1997269121 -> j383062341;
-	j383062341 [label="Boolean LettieDating is now true.",color=orange];
-		j383062341 -> j4228506648;
-	j4228506648 [label="Boolean IsDating is now true.",color=orange];
-		j4228506648 -> j2764521140;
-	j2764521140 [label="Boolean LettieHasDated is now true.",color=orange];
-		j2764521140 -> "Chat ends.";
+		j2746564911 -> j1300785588;
+	j1300785588 [label="Boolean LettieWillDate is now true.",color=orange];
+		j1300785588 -> j702074970;
+	j702074970 [label="Boolean LettieDating is now true.",color=orange];
+		j702074970 -> j938814249;
+	j938814249 [label="Boolean IsDating is now true.",color=orange];
+		j938814249 -> j3003494003;
+	j3003494003 [label="Boolean LettieHasDated is now true.",color=orange];
+		j3003494003 -> "Chat ends.";
 }

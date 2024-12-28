@@ -1,153 +1,153 @@
 digraph {
 	"LettieRank1Convo2 begins." [color=orange];
-		"LettieRank1Convo2 begins." -> j681996593;
-	j681996593 [label="Check boolean LettieRatsAsked",color=orange];
-		j681996593 -> j1351620797 [label=true,color=green];
-		j681996593 -> j1434648198 [label=false,color=brown];
-		j681996593 -> j1351620797 [label=false,color=brown];
-	j1351620797 [label="故郷でLettieを待っている人はいる？",shape=box,color=red];
-		j1351620797 -> j381704664;
-	j1434648198 [label="それで、どうしてネズミを飼うことにしたんだ？",shape=box,color=red];
-		j1434648198 -> j1442152414;
-	j381704664 [label="Boolean LettieHomeAsked is now true.",color=orange];
-		j381704664 -> j1977719106;
-	j1442152414 [label="Boolean LettieRatsAsked is now true.",color=orange];
-		j1442152414 -> j2154717222;
-	j1977719106 [label="Check boolean LettieInteresting",color=orange];
-		j1977719106 -> j3364294475 [label=true,color=green];
-		j1977719106 -> j1673845641 [label=false,color=brown];
-	j2154717222 [label="Check boolean LettieInteresting",color=orange];
-		j2154717222 -> j2487609975 [label=true,color=green];
-		j2154717222 -> j582645152 [label=false,color=brown];
-	j3364294475 [label="だいぶマシな質問ね
+		"LettieRank1Convo2 begins." -> j89496700;
+	j89496700 [label="Check boolean LettieRatsAsked",color=orange];
+		j89496700 -> j2940965634 [label=true,color=green];
+		j89496700 -> j1057309962 [label=false,color=brown];
+		j89496700 -> j2940965634 [label=false,color=brown];
+	j2940965634 [label="故郷でLettieを待っている人はいる？",shape=box,color=red];
+		j2940965634 -> j3611088737;
+	j1057309962 [label="それで、どうしてネズミを飼うことにしたんだ？",shape=box,color=red];
+		j1057309962 -> j1419769657;
+	j3611088737 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		j3611088737 -> j4029412242;
+	j1419769657 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		j1419769657 -> j27878299;
+	j4029412242 [label="Check boolean LettieInteresting",color=orange];
+		j4029412242 -> j3059416397 [label=true,color=green];
+		j4029412242 -> j2162460496 [label=false,color=brown];
+	j27878299 [label="Check boolean LettieInteresting",color=orange];
+		j27878299 -> j1756780741 [label=true,color=green];
+		j27878299 -> j1592644017 [label=false,color=brown];
+	j3059416397 [label="だいぶマシな質問ね
 飲み込みが早い
 けれど",shape=box,color=blue];
-		j3364294475 -> j1673845641;
-	j1673845641 [label="どうだっていい
+		j3059416397 -> j2162460496;
+	j2162460496 [label="どうだっていい
 このcuchitrilからは出られない
 そいつらの事を考えても意味がない",shape=box,color=blue];
-		j1673845641 -> j249149990;
-		j1673845641 -> j1832016409;
-		j1673845641 -> j3429008533;
-	j2487609975 [label="Ey, ほらね？
+		j2162460496 -> j140411526;
+		j2162460496 -> j1831556007;
+		j2162460496 -> j1645640442;
+	j1756780741 [label="Ey, ほらね？
 だいぶマシな質問ね、babas
 飲み込みが早い",shape=box,color=blue];
-		j2487609975 -> j582645152;
-	j582645152 [label="こっちが聞きたい",shape=box,color=blue];
-		j582645152 -> j2227726729;
-		j582645152 -> j3999661251;
-	j249149990 [label="自分たちは*ネット*で話していて、*電話*があることは知ってるよね？",shape=box,color=red];
-		j249149990 -> j2921185957;
-	j1832016409 [label="乗り越えるために、辛い思い出が必要なときもある。",shape=box,color=red];
-		j1832016409 -> j3795430689;
-	j3429008533 [label="わ…　かった…[閉じる]",shape=box,color=red];
-		j3429008533 -> "Chat ends.";
-	j2227726729 [label="へ？",shape=box,color=red];
-		j2227726729 -> j4118511504;
-	j3999661251 [label="話の流れが気に入らない。[閉じる]",shape=box,color=red];
-		j3999661251 -> j1922389995;
-	j2921185957 [label="Bien podría ser un pinche fantasma 
+		j1756780741 -> j1592644017;
+	j1592644017 [label="こっちが聞きたい",shape=box,color=blue];
+		j1592644017 -> j3536296367;
+		j1592644017 -> j241684953;
+	j140411526 [label="自分たちは*ネット*で話していて、*電話*があることは知ってるよね？",shape=box,color=red];
+		j140411526 -> j3948342052;
+	j1831556007 [label="乗り越えるために、辛い思い出が必要なときもある。",shape=box,color=red];
+		j1831556007 -> j2296503822;
+	j1645640442 [label="わ…　かった…[閉じる]",shape=box,color=red];
+		j1645640442 -> "Chat ends.";
+	j3536296367 [label="へ？",shape=box,color=red];
+		j3536296367 -> j2613258546;
+	j241684953 [label="話の流れが気に入らない。[閉じる]",shape=box,color=red];
+		j241684953 -> j2365690676;
+	j3948342052 [label="Bien podría ser un pinche fantasma 
 あの世からの通話、変われない、生きていない、死ねない",shape=box,color=blue];
-		j2921185957 -> j4112267192;
-	j3795430689 [label="¿Sí?
+		j3948342052 -> j2968178411;
+	j2296503822 [label="¿Sí?
 痛みの何が分かるの？",shape=box,color=blue];
-		j3795430689 -> j377687035;
-		j3795430689 -> j2957682585;
+		j2296503822 -> j4267624129;
+		j2296503822 -> j3191351318;
 	"Chat ends." [color=orange];
-	j4118511504 [label="なぜアタシがネズミを好きだと思うのか知りたい 
+	j2613258546 [label="なぜアタシがネズミを好きだと思うのか知りたい 
 続けて",shape=box,color=blue];
-		j4118511504 -> j842727620;
-	j1922389995 [label="Tú te lo pierdes",shape=box,color=blue];
-		j1922389995 -> "Chat ends.";
-	j4112267192 [label="¿¡アタシたちは何?!
+		j2613258546 -> j3507503232;
+	j2365690676 [label="Tú te lo pierdes",shape=box,color=blue];
+		j2365690676 -> "Chat ends.";
+	j2968178411 [label="¿¡アタシたちは何?!
 ただのfantasma 
 すりきれたVHSテープに出てくる影と一緒",shape=box,color=blue];
-		j4112267192 -> j69278926;
-	j377687035 [label="頭を斬られるとどんな感じか知ってる？　自分は知ってる。千回は死んだ。そしてちゃんと*痛い*。",shape=box,color=red];
-		j377687035 -> j1876148607;
-	j2957682585 [label="Lettieに証明する必要はない。",shape=box,color=red];
-		j2957682585 -> j1094642528;
-	j842727620 [label="Boolean LettieRats1 is now true.",color=orange];
-		j842727620 -> j2125820217;
-		j842727620 -> j3520062801;
-		j842727620 -> j356422605;
-	j69278926 [label="アタシが既に死んでると思われる方がいい
+		j2968178411 -> j2191527215;
+	j4267624129 [label="頭を斬られるとどんな感じか知ってる？　自分は知ってる。千回は死んだ。そしてちゃんと*痛い*。",shape=box,color=red];
+		j4267624129 -> j631782499;
+	j3191351318 [label="Lettieに証明する必要はない。",shape=box,color=red];
+		j3191351318 -> j1469206222;
+	j3507503232 [label="Boolean LettieRats1 is now true.",color=orange];
+		j3507503232 -> j3906483616;
+		j3507503232 -> j1861850787;
+		j3507503232 -> j1060459154;
+	j2191527215 [label="アタシが既に死んでると思われる方がいい
 痛みを背負うのはアタシだけで十分",shape=box,color=blue];
-		j69278926 -> j2765607187;
-		j69278926 -> j1050406020;
-	j1876148607 [label="Boolean LettieDuviri is now true.",color=orange];
-		j1876148607 -> j4204539206;
-	j1094642528 [label="あっそ
+		j2191527215 -> j1487484412;
+		j2191527215 -> j2927440489;
+	j631782499 [label="Boolean LettieDuviri is now true.",color=orange];
+		j631782499 -> j3130441597;
+	j1469206222 [label="あっそ
 忙しいの
 Vete",shape=box,color=blue];
-		j1094642528 -> "Chat ends.";
-	j2125820217 [label="彼らが賢くて、優しくて、陽気だから？",shape=box,color=red];
-		j2125820217 -> j686052877;
-	j3520062801 [label="彼らがよく軽視されたり誤解されるから？",shape=box,color=red];
-		j3520062801 -> j686052877;
-	j356422605 [label="Lettieのことは全く理解できない。けどネズミはとことん可愛いね。",shape=box,color=red];
-		j356422605 -> j651347238;
-	j2765607187 [label="まだ生きる価値がここにある。",shape=box,color=red];
-		j2765607187 -> j2799904854;
-	j1050406020 [label="Lettieは自分の意志で他人の苦痛を背負うの、それとも義務だから？",shape=box,color=red];
-		j1050406020 -> j1075470707;
-	j4204539206 [label="La Flaca に触れたのね
+		j1469206222 -> "Chat ends.";
+	j3906483616 [label="彼らが賢くて、優しくて、陽気だから？",shape=box,color=red];
+		j3906483616 -> j3576455278;
+	j1861850787 [label="彼らがよく軽視されたり誤解されるから？",shape=box,color=red];
+		j1861850787 -> j3576455278;
+	j1060459154 [label="Lettieのことは全く理解できない。けどネズミはとことん可愛いね。",shape=box,color=red];
+		j1060459154 -> j854467454;
+	j1487484412 [label="まだ生きる価値がここにある。",shape=box,color=red];
+		j1487484412 -> j1601769647;
+	j2927440489 [label="Lettieは自分の意志で他人の苦痛を背負うの、それとも義務だから？",shape=box,color=red];
+		j2927440489 -> j574361561;
+	j3130441597 [label="La Flaca に触れたのね
 アタシたちみたいなfantasma 
 死から蘇る 何度も何度も何度も",shape=box,color=blue];
-		j4204539206 -> j2183117080;
-	j686052877 [label="嗚呼ルア sálvame",shape=box,color=blue];
-		j686052877 -> j3076448756;
-	j651347238 [label="¡JAJAJA!",shape=box,color=blue];
-		j651347238 -> j1932883081;
-	j2799904854 [label="はいはい
+		j3130441597 -> j1043918568;
+	j3576455278 [label="嗚呼ルア sálvame",shape=box,color=blue];
+		j3576455278 -> j3634243050;
+	j854467454 [label="¡JAJAJA!",shape=box,color=blue];
+		j854467454 -> j3880370610;
+	j1601769647 [label="はいはい
 Amirのゲーム、Arthurの飲酒、Aoiの音楽、Quincyの写真",shape=box,color=blue];
-		j2799904854 -> j935888513;
-	j1075470707 [label="+20 Chemistry",color=orange];
-		j1075470707 -> j1399664761;
-	j2183117080 [label="Sí 
+		j1601769647 -> j4110826473;
+	j574361561 [label="+20 Chemistry",color=orange];
+		j574361561 -> j3652598264;
+	j1043918568 [label="Sí 
 故郷には家族がいる
 でも死んだと思わせた方がいい",shape=box,color=blue];
-		j2183117080 -> j1050406020;
-		j2183117080 -> j2765607187;
-	j3076448756 [label="違う 
+		j1043918568 -> j2927440489;
+		j1043918568 -> j1487484412;
+	j3634243050 [label="違う 
 他に聞きたいことはあるの",shape=box,color=blue];
-		j3076448756 -> j3609138527;
-		j3076448756 -> j3458326609;
-	j1932883081 [label="+20 Chemistry",color=orange];
-		j1932883081 -> j4104579093;
-	j935888513 [label="虚無な趣味
+		j3634243050 -> j1755116419;
+		j3634243050 -> j3338919257;
+	j3880370610 [label="+20 Chemistry",color=orange];
+		j3880370610 -> j1073448650;
+	j4110826473 [label="虚無な趣味
 虚無な魂
 永遠の時を過ごすの",shape=box,color=blue];
-		j935888513 -> j4062911739;
-	j1399664761 [label="両方ね
+		j4110826473 -> j1910200062;
+	j3652598264 [label="両方ね
 選んだのはずっと昔
 やり直すにはもう遅い",shape=box,color=blue];
-		j1399664761 -> j3336593627;
-	j3609138527 [label="えっと…",shape=box,color=red];
-		j3609138527 -> j3960692783;
-	j3458326609 [label="いや…　ない…",shape=box,color=red];
-		j3458326609 -> j3022833425;
-	j4104579093 [label="救世主からのへりくだりね
+		j3652598264 -> j2063901072;
+	j1755116419 [label="えっと…",shape=box,color=red];
+		j1755116419 -> j807192105;
+	j3338919257 [label="いや…　ない…",shape=box,color=red];
+		j3338919257 -> j2547240352;
+	j1073448650 [label="救世主からのへりくだりね
 気に入ったわ",shape=box,color=blue];
-		j4104579093 -> j1876358068;
-	j4062911739 [label="仕事に戻るわ
+		j1073448650 -> j3548881988;
+	j1910200062 [label="仕事に戻るわ
 Vete",shape=box,color=blue];
-		j4062911739 -> j2796755127;
-	j3336593627 [label="仕事に戻る",shape=box,color=blue];
-		j3336593627 -> j2796755127;
-	j3960692783 [label="Boolean LettieHomeAsked is now true.",color=orange];
-		j3960692783 -> j3413742420;
-	j3022833425 [label="Va",shape=box,color=blue];
-		j3022833425 -> "Chat ends.";
-	j1876358068 [label="子供の頃は裕福じゃなかった
+		j1910200062 -> j1253712857;
+	j2063901072 [label="仕事に戻る",shape=box,color=blue];
+		j2063901072 -> j1253712857;
+	j807192105 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		j807192105 -> j2527899260;
+	j2547240352 [label="Va",shape=box,color=blue];
+		j2547240352 -> "Chat ends.";
+	j3548881988 [label="子供の頃は裕福じゃなかった
 基地から基地へ移って
 ネズミは飼うのが楽、mi mamaも気にしなかった",shape=box,color=blue];
-		j1876358068 -> j2334965204;
-	j2796755127 [label="Boolean LettieFantasma1 is now true.",color=orange];
-		j2796755127 -> "Chat ends.";
-	j3413742420 [label="故郷でLettieを待っている人はいる？",shape=box,color=red];
-		j3413742420 -> j1673845641;
-	j2334965204 [label="仕事に戻らなきゃ
+		j3548881988 -> j4137887722;
+	j1253712857 [label="Boolean LettieFantasma1 is now true.",color=orange];
+		j1253712857 -> "Chat ends.";
+	j2527899260 [label="故郷でLettieを待っている人はいる？",shape=box,color=red];
+		j2527899260 -> j2162460496;
+	j4137887722 [label="仕事に戻らなきゃ
 じゃあね、babas",shape=box,color=blue];
-		j2334965204 -> "Chat ends.";
+		j4137887722 -> "Chat ends.";
 }

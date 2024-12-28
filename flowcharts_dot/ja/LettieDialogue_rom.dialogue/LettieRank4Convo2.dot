@@ -1,127 +1,127 @@
 digraph {
 	"LettieRank4Convo2 begins." [color=orange];
-		"LettieRank4Convo2 begins." -> j1761447316;
-	j1761447316 [label="あんたが解き放ったこの恐ろしい神について教えて
+		"LettieRank4Convo2 begins." -> j455937217;
+	j455937217 [label="あんたが解き放ったこの恐ろしい神について教えて
 あんたのXipe Totec、皮を剥かれた者
 彼は何を求めてるの？",shape=box,color=blue];
-		j1761447316 -> j864292509;
-	j864292509 [label="Check boolean LettieReligion2",color=orange];
-		j864292509 -> j73134123 [label=true,color=green];
-		j864292509 -> j2557346151 [label=true,color=green];
-		j864292509 -> j1331705211 [label=true,color=green];
-		j864292509 -> j2272395885 [label=true,color=green];
-		j864292509 -> j1641823054 [label=false,color=brown];
-		j864292509 -> j2272395885 [label=false,color=brown];
-	j73134123 [label="自由？",shape=box,color=red];
-		j73134123 -> j2892498220;
-	j2557346151 [label="知識？",shape=box,color=red];
-		j2557346151 -> j2892498220;
-	j1331705211 [label="分からない。",shape=box,color=red];
-		j1331705211 -> j4043256950;
-	j2272395885 [label="すぐもどる[閉じる]",shape=box,color=red];
-		j2272395885 -> "Chat ends.";
-	j1641823054 [label="え？　何の話？",shape=box,color=red];
-		j1641823054 -> j282946092;
-	j2892498220 [label="考えてるけど知らないのね
+		j455937217 -> j1356677054;
+	j1356677054 [label="Check boolean LettieReligion2",color=orange];
+		j1356677054 -> j3633883431 [label=true,color=green];
+		j1356677054 -> j3776575160 [label=true,color=green];
+		j1356677054 -> j3464600105 [label=true,color=green];
+		j1356677054 -> j1164437219 [label=true,color=green];
+		j1356677054 -> j176794265 [label=false,color=brown];
+		j1356677054 -> j1164437219 [label=false,color=brown];
+	j3633883431 [label="自由？",shape=box,color=red];
+		j3633883431 -> j3614137351;
+	j3776575160 [label="知識？",shape=box,color=red];
+		j3776575160 -> j3614137351;
+	j3464600105 [label="分からない。",shape=box,color=red];
+		j3464600105 -> j3516944259;
+	j1164437219 [label="すぐもどる[閉じる]",shape=box,color=red];
+		j1164437219 -> "Chat ends.";
+	j176794265 [label="え？　何の話？",shape=box,color=red];
+		j176794265 -> j3364330836;
+	j3614137351 [label="考えてるけど知らないのね
 それの動機は分からない
 それでもなお敵と考えてるの、¿Por qué？",shape=box,color=blue];
-		j2892498220 -> j1694717556;
-		j2892498220 -> j2105426650;
-	j4043256950 [label="でもあんたは彼を敵みたいに扱ってる
+		j3614137351 -> j8607281;
+		j3614137351 -> j1186594159;
+	j3516944259 [label="でもあんたは彼を敵みたいに扱ってる
 彼が何を求めてるかも知らないのに
 ¿Por qué?",shape=box,color=blue];
-		j4043256950 -> j1694717556;
-		j4043256950 -> j2105426650;
+		j3516944259 -> j8607281;
+		j3516944259 -> j1186594159;
 	"Chat ends." [color=orange];
-	j282946092 [label="他の者の皮を剥ぎ犠牲にし、自身がその皮をまとう古代の神、Xipe Totec。あんたのVoidの怪物よ",shape=box,color=blue];
-		j282946092 -> j1082401352;
-	j1694717556 [label="ソイツは面白い実験になると考えたんだ、Zarimanで親と子供を敵対させるのが…",shape=box,color=red];
-		j1694717556 -> j458633187;
-	j2105426650 [label="それが残すのは死と破壊だけ。その動機が何であれ、関係ないんだ。信じて欲しい。",shape=box,color=red];
-		j2105426650 -> j713990364;
-	j1082401352 [label="Boolean LettieReligion2 is now true.",color=orange];
-		j1082401352 -> j1830991970;
-	j458633187 [label="そして子供に自身の親を殺せる魔法のVoidパワーを与えて、虐殺から学びを得たんだ。",shape=box,color=red];
-		j458633187 -> j418087337;
-		j458633187 -> j2101120046;
-	j713990364 [label="できないわ
+	j3364330836 [label="他の者の皮を剥ぎ犠牲にし、自身がその皮をまとう古代の神、Xipe Totec。あんたのVoidの怪物よ",shape=box,color=blue];
+		j3364330836 -> j1550374574;
+	j8607281 [label="ソイツは面白い実験になると考えたんだ、Zarimanで親と子供を敵対させるのが…",shape=box,color=red];
+		j8607281 -> j3727545644;
+	j1186594159 [label="それが残すのは死と破壊だけ。その動機が何であれ、関係ないんだ。信じて欲しい。",shape=box,color=red];
+		j1186594159 -> j3579367685;
+	j1550374574 [label="Boolean LettieReligion2 is now true.",color=orange];
+		j1550374574 -> j1046622425;
+	j3727545644 [label="そして子供に自身の親を殺せる魔法のVoidパワーを与えて、虐殺から学びを得たんだ。",shape=box,color=red];
+		j3727545644 -> j2964623631;
+		j3727545644 -> j1711153958;
+	j3579367685 [label="できないわ
 神の御心を理解できると、そう信じろと？
 年齢なんて関係ない
 どれだけ見てきたかも",shape=box,color=blue];
-		j713990364 -> j1467973773;
-	j1830991970 [label="彼は何を望んでるの",shape=box,color=blue];
-		j1830991970 -> j73134123;
-		j1830991970 -> j2557346151;
-		j1830991970 -> j1331705211;
-	j418087337 [label="愛から、犠牲から、優しさから学ぶ機会だってあった。けどソレは混沌と殺戮を求めることを選んだ。",shape=box,color=red];
-		j418087337 -> j1848158314;
-	j2101120046 [label="たとえソレが、まるで周りの世界を把握するためオモチャをぶつけ合う幼児であっても、犠牲になるオモチャは自分たちだ。だから止めないといけない。",shape=box,color=red];
-		j2101120046 -> j380541906;
-	j1467973773 [label="Check boolean LettieEntrati",color=orange];
-		j1467973773 -> j1743295972 [label=true,color=green];
-		j1467973773 -> j2106554779 [label=false,color=brown];
-	j1848158314 [label="ソレが敵ではないと希望を持ち続ける、けど…　それの対となる理由が見つからない。",shape=box,color=red];
-		j1848158314 -> j2640525700;
-	j380541906 [label="今までの体験、今までされたことからして、ソレが温和だとは信じない。",shape=box,color=red];
-		j380541906 -> j2640525700;
-	j1743295972 [label="あんたは神じゃないわbabas
+		j3579367685 -> j2154935428;
+	j1046622425 [label="彼は何を望んでるの",shape=box,color=blue];
+		j1046622425 -> j3633883431;
+		j1046622425 -> j3776575160;
+		j1046622425 -> j3464600105;
+	j2964623631 [label="愛から、犠牲から、優しさから学ぶ機会だってあった。けどソレは混沌と殺戮を求めることを選んだ。",shape=box,color=red];
+		j2964623631 -> j1901290921;
+	j1711153958 [label="たとえソレが、まるで周りの世界を把握するためオモチャをぶつけ合う幼児であっても、犠牲になるオモチャは自分たちだ。だから止めないといけない。",shape=box,color=red];
+		j1711153958 -> j3726585418;
+	j2154935428 [label="Check boolean LettieEntrati",color=orange];
+		j2154935428 -> j1752708001 [label=true,color=green];
+		j2154935428 -> j2834367091 [label=false,color=brown];
+	j1901290921 [label="ソレが敵ではないと希望を持ち続ける、けど…　それの対となる理由が見つからない。",shape=box,color=red];
+		j1901290921 -> j4005289898;
+	j3726585418 [label="今までの体験、今までされたことからして、ソレが温和だとは信じない。",shape=box,color=red];
+		j3726585418 -> j4005289898;
+	j1752708001 [label="あんたは神じゃないわbabas
 そういう御方だと思い込まないで
 さもなくばあんたはEntratiのcabrón以下",shape=box,color=blue];
-		j1743295972 -> "Chat ends.";
-	j2106554779 [label="Check boolean LettieOrokin",color=orange];
-		j2106554779 -> j3210190418 [label=true,color=green];
-		j2106554779 -> j1791773476 [label=false,color=brown];
-	j2640525700 [label="それであんたは神を止められると思ってるの",shape=box,color=blue];
-		j2640525700 -> j61093793;
-	j3210190418 [label="あんたは神じゃないわbabas
+		j1752708001 -> "Chat ends.";
+	j2834367091 [label="Check boolean LettieOrokin",color=orange];
+		j2834367091 -> j2145711429 [label=true,color=green];
+		j2834367091 -> j1026673679 [label=false,color=brown];
+	j4005289898 [label="それであんたは神を止められると思ってるの",shape=box,color=blue];
+		j4005289898 -> j1724044313;
+	j2145711429 [label="あんたは神じゃないわbabas
 そういう御方だと思い込まないで
 さもなくばあんたはオロキンのcabrones以下",shape=box,color=blue];
-		j3210190418 -> "Chat ends.";
-	j1791773476 [label="あんたは神じゃないわbabas
+		j2145711429 -> "Chat ends.";
+	j1026673679 [label="あんたは神じゃないわbabas
 そういう御方だと思い込まないで",shape=box,color=blue];
-		j1791773476 -> "Chat ends.";
-	j61093793 [label="Boolean LettieReligion4 is now true.",color=orange];
-		j61093793 -> j74624568;
-	j74624568 [label="Check boolean ReligionNone",color=orange];
-		j74624568 -> j2864283778 [label=true,color=green];
-		j74624568 -> j888647955 [label=true,color=green];
-		j74624568 -> j4183721309 [label=true,color=green];
-		j74624568 -> j1750276412 [label=false,color=brown];
-	j2864283778 [label="分からない。こういうのはその場の思いつきですること多いんだ。笑",shape=box,color=red];
-		j2864283778 -> j2475595922;
-	j888647955 [label="試すことはできると思う。ここでしたみたいに。それしかできないから。",shape=box,color=red];
-		j888647955 -> j2544272057;
-	j4183721309 [label="他の人に任せるよ、今は。自分の居場所は皆と同じ、この1999年だ。",shape=box,color=red];
-		j4183721309 -> j2524797913;
-	j1750276412 [label="信じてる。",shape=box,color=red];
-		j1750276412 -> j2901823759;
-	j2475595922 [label="+20 Chemistry",color=orange];
-		j2475595922 -> j4129186283;
-	j2544272057 [label="+20 Chemistry",color=orange];
-		j2544272057 -> j1150540630;
-	j2524797913 [label="Estás bromeando, ¿verdad? 
+		j1026673679 -> "Chat ends.";
+	j1724044313 [label="Boolean LettieReligion4 is now true.",color=orange];
+		j1724044313 -> j4029075512;
+	j4029075512 [label="Check boolean ReligionNone",color=orange];
+		j4029075512 -> j1581145833 [label=true,color=green];
+		j4029075512 -> j4162275310 [label=true,color=green];
+		j4029075512 -> j890925489 [label=true,color=green];
+		j4029075512 -> j1118568056 [label=false,color=brown];
+	j1581145833 [label="分からない。こういうのはその場の思いつきですること多いんだ。笑",shape=box,color=red];
+		j1581145833 -> j862471262;
+	j4162275310 [label="試すことはできると思う。ここでしたみたいに。それしかできないから。",shape=box,color=red];
+		j4162275310 -> j2241576530;
+	j890925489 [label="他の人に任せるよ、今は。自分の居場所は皆と同じ、この1999年だ。",shape=box,color=red];
+		j890925489 -> j3080081881;
+	j1118568056 [label="信じてる。",shape=box,color=red];
+		j1118568056 -> j2119966593;
+	j862471262 [label="+20 Chemistry",color=orange];
+		j862471262 -> j1560826173;
+	j2241576530 [label="+20 Chemistry",color=orange];
+		j2241576530 -> j3408378398;
+	j3080081881 [label="Estás bromeando, ¿verdad? 
 彼らに呼ばれた瞬間あんたは走り出す
 あんたは漂流者、兵士、求められたなら未来を救いに行くの",shape=box,color=blue];
-		j2524797913 -> j336072279;
-	j2901823759 [label="+20 Chemistry",color=orange];
-		j2901823759 -> j2313485804;
-	j4129186283 [label="Jaja, sí
+		j3080081881 -> j1416556883;
+	j2119966593 [label="+20 Chemistry",color=orange];
+		j2119966593 -> j727838979;
+	j1560826173 [label="Jaja, sí
 気持ちは分かるわ
 誠実なのはいい事よ、babas
 上手く行っているみたいだし、責めはしないわ",shape=box,color=blue];
-		j4129186283 -> "Chat ends.";
-	j1150540630 [label="Sí 
+		j1560826173 -> "Chat ends.";
+	j3408378398 [label="Sí 
 アタシたちもそれしか望めないわ",shape=box,color=blue];
-		j1150540630 -> "Chat ends.";
-	j336072279 [label="アタシたちはここに囚われてる
+		j3408378398 -> "Chat ends.";
+	j1416556883 [label="アタシたちはここに囚われてる
 嘘は吐かないで、それともアタシを散歩に連れていくのかしら、babas
 あんたはいつの日か逃げ出して二度と戻ってこない",shape=box,color=blue];
-		j336072279 -> j1682647635;
-	j2313485804 [label="Ay, sí 
+		j1416556883 -> j1464801759;
+	j727838979 [label="Ay, sí 
 感心のないモノへの信仰なのかもね
 それで乗り越えられるなら",shape=box,color=blue];
-		j2313485804 -> "Chat ends.";
-	j1682647635 [label="Boolean LettieEscape is now true.",color=orange];
-		j1682647635 -> "Chat ends. Next chat will be LettieEscape.";
+		j727838979 -> "Chat ends.";
+	j1464801759 [label="Boolean LettieEscape is now true.",color=orange];
+		j1464801759 -> "Chat ends. Next chat will be LettieEscape.";
 	"Chat ends. Next chat will be LettieEscape." [color=orange];
 }
