@@ -141,7 +141,7 @@ local function emit_dot(filename, start)
 					continue -- Don't write transition to EndDialogueNode
 				end
 				fh:write(" [label=")
-				fh:write('"Initiate conversation '..node.refs[1].convo..' in '..node.refs[1].diag..'"')
+				fh:write('"Queue conversation '..node.refs[1].convo..' in '..node.refs[1].diag..'"')
 				fh:write(",color=orange];\n")
 				break
 			default:
