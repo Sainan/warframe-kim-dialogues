@@ -1,0 +1,124 @@
+local { json } = require "*"
+
+class ChatEngine
+	function __construct(public node_id, public bools = {})
+	end
+
+	static function chatNameToNodeId(name)
+		for nodes as node do
+			if node.type == "/EE/Types/Engine/StartDialogueNode" and node.name == name then
+				return node.id
+			end
+		end
+		error()
+	end
+
+	static function boolsArrToSet(arr)
+		local set = {}
+		for arr as bool do set[bool] = true end
+		return set
+	end
+
+	function tick()
+		local choices
+		while true do
+			local node = nodes[1 + self.node_id]
+			switch node.type do
+				case "/EE/Types/Engine/SetBooleanDialogueNode":
+				self.bools[node.name] = true
+				break
+
+				case "/EE/Types/Engine/ResetBooleanDialogueNode":
+				self.bools[node.name] = nil
+				break
+			end
+			choices = self:getNodeChoices(node)
+			if #choices ~= 1 or nodes[1 + choices[1]].type == "/EE/Types/Engine/PlayerChoiceDialogueNode" then
+				--assert(#choices == 0 or nodes[1 + choices[1]].type == "/EE/Types/Engine/PlayerChoiceDialogueNode")
+				break
+			end
+			self.node_id = choices[1]
+		end
+		return #choices ~= 0 ? choices : nil
+	end
+
+	function fork(node_id)
+		local t = {}
+		for bool in self.bools do t[bool] = true end
+		return new ChatEngine(node_id, t)
+	end
+
+	function getNodeChoices(node)
+		local choices = node.choices
+		if #choices == 0 and node.true_choices then
+			choices = self.bools[node.name] ? node.true_choices : node.false_choices
+		end
+		return choices
+	end
+
+	static function getNodeScore(node)
+		if node.chemistry then
+			return node.chemistry
+		end
+		if node.type == "/EE/Types/Engine/SetBooleanDialogueNode" then
+			if "NoDate" in node.name then
+				return -1000000
+			end
+		end
+		return 0
+	end
+
+	function getScore()
+		local node = nodes[1 + self.node_id]
+		local score = ChatEngine.getNodeScore(node)
+		local choices = self:getNodeChoices(node)
+		while #choices == 1 do
+			score += ChatEngine.getNodeScore(node)
+			node = nodes[1 + choices[1]]
+			choices = self:getNodeChoices(node)
+		end
+		local best_choice_score = 0
+		for i = 1, #choices do
+			local choice_score = self:fork(choices[i]):getScore()
+			if choice_score > best_choice_score then
+				best_choice_score = choice_score
+			end
+		end
+		return score + best_choice_score
+	end
+end
+
+local dict_en = io.contents("dicts/en.json") |> json.decode
+
+local inventory = io.contents("inventory.json") |> json.decode
+for inventory.DialogueHistory.Dialogues as dialogue do
+	local name = dialogue.DialogueName:split("/"):back()
+	print(name..":")
+	nodes = io.contents(name..".json") |> json.decode
+ 	for dialogue.Completed as chat do
+ 		io.write("\t"..chat.Id..":")
+ 		local engine = new ChatEngine(ChatEngine.chatNameToNodeId(chat.Id), ChatEngine.boolsArrToSet(chat.Booleans))
+		local i = 1
+		local flawless = true
+		while choices := engine:tick() do
+			local prev_score = engine:getScore()
+			engine.node_id = choices[chat.Choices[i]] or choices[1]
+			local score = engine:getScore()
+			if score < prev_score then
+				if flawless then
+					flawless = false
+					print()
+				end
+				if score < 0 then
+					print($"\t\tChoice {i} was a blunder; you are now friendzoned. (\"{dict_en[nodes[1 + engine.node_id].name]}\")")
+				else
+					print($"\t\tChoice {i} was a mistake: Missing out on {prev_score - score} Chemistry. (\"{dict_en[nodes[1 + engine.node_id].name]}\")")
+				end
+			end
+			++i
+		end
+		if flawless then
+			print(" Well done, you made no mistakes!")
+		end
+ 	end
+end
