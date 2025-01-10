@@ -3,10 +3,10 @@ digraph {
 		"AmirQuincyWingman begins." -> j724089190;
 	j724089190 [label="Check boolean IsDating",color=orange];
 		j724089190 -> "Chat ends." [label=true,color=green];
-		j724089190 -> j3781982017 [label=false,color=brown];
+		j724089190 -> j2822061199 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j3781982017 [label="嘿。嗯。昆西昨天和我谈了谈。他说你们一直在聊，而且你……想说些什么吗？",shape=box,color=blue];
-		j3781982017 -> j1713116651;
+	j2822061199 [label="嘿。嗯。昆西昨天和我谈了谈。他说你们聊过一些事，而且你……想说些什么吗？",shape=box,color=blue];
+		j2822061199 -> j1713116651;
 	j1713116651 [label="Check boolean AmirNoDate",color=orange];
 		j1713116651 -> j1870898810 [label=true,color=green];
 		j1713116651 -> j2568471103 [label=true,color=green];
@@ -32,7 +32,7 @@ digraph {
 		j583040827 -> j2686825975;
 	j2010603894 [label="你知道你其实可以……直接过来和我说话的吧？或者在我们聊天的时候，你有好多次机会，对吧？",shape=box,color=blue];
 		j2010603894 -> j1212126865;
-		j2010603894 -> j1642346977;
+		j2010603894 -> j1717781334;
 	j1328158648 [label="你真的想再试试看吗？",shape=box,color=blue];
 		j1328158648 -> j1287870590;
 		j1328158648 -> j2686825975;
@@ -42,8 +42,8 @@ digraph {
 		j2686825975 -> j2030007698;
 	j1212126865 [label="我根本没意识到。",shape=box,color=red];
 		j1212126865 -> j3177974880;
-	j1642346977 [label="完全没反应过来。",shape=box,color=red];
-		j1642346977 -> j3177974880;
+	j1717781334 [label="我完全没反应过来。",shape=box,color=red];
+		j1717781334 -> j3177974880;
 	j1510643615 [label="耶！",shape=box,color=blue];
 		j1510643615 -> j2970346869;
 	j2030007698 [label="哦，艹——",shape=box,color=blue];

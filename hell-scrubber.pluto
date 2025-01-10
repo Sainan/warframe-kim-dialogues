@@ -125,7 +125,7 @@ for {
 				if type == "/EE/Types/Engine/CheckBooleanScriptDialogueNode" then
 					node.__order:insert("script_name")
 					node.script_name, i = string.unpack("<s4", rom, i) $if DEBUG then print("\tscript_name="..node.script_name) $end
-					i += 0xD4
+					i += 0xD8
 					node.__order:insert("arg1")
 					node.arg1, i = string.unpack("<s4", rom, i) $if DEBUG then print("\targ1="..node.arg1) $end
 					i += 0x10

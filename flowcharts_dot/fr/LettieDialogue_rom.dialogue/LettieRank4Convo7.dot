@@ -17,7 +17,7 @@ Pas une histoire amusante, camarade
 Pire que le bain de sang où Arthur et moi sommes devenus hermanos
 Pas amusante à entendre 
 Mierda, pas amusante à raconter",shape=box,color=blue];
-		j637461918 -> j2106521827;
+		j637461918 -> j1222419155;
 		j637461918 -> j3100058315;
 	j2450678933 [label="Somos hermanos, Arthur et moi 
 Ça remonte loin
@@ -30,8 +30,8 @@ Je ne savais pas que je le suivrais jusqu'au bout de Mictlán",shape=box,color=b
 	j3470538414 [label="Check boolean LettieLoid",color=orange];
 		j3470538414 -> j416292857 [label=true,color=green];
 		j3470538414 -> j504966913 [label=false,color=brown];
-	j2106521827 [label="Si tu n'es pas à l'aise de me le dire, ce n'est pas grave.",shape=box,color=red];
-		j2106521827 -> j3159138807;
+	j1222419155 [label="Si tu n'es pas à l'aise de me le dire, ce n'est pas grave.",shape=box,color=red];
+		j1222419155 -> j342089646;
 	j3100058315 [label="Pas de problème. Il y a plein de choses que je ne t'ai pas encore racontées.",shape=box,color=red];
 		j3100058315 -> j3857509363;
 	j1361626504 [label="Nous étions stationnés ensemble, dans la même base 
@@ -50,8 +50,8 @@ Différents pays, mêmes ennemis",shape=box,color=blue];
 	j504966913 [label="Check boolean LettieEntratiFamily",color=orange];
 		j504966913 -> j2473667742 [label=true,color=green];
 		j504966913 -> j1823755919 [label=false,color=brown];
-	j3159138807 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j3159138807 -> j3679910420;
+	j342089646 [label="Boolean LettieHexAsked is now true.",color=orange];
+		j342089646 -> j651108725;
 	j3857509363 [label="+10 Chemistry",color=orange];
 		j3857509363 -> j2205954349;
 	j3893609651 [label="J'étais le médecin de campagne de mon régiment 
@@ -111,13 +111,13 @@ C'est bien possible
 Mais après tout ce que tu m'as dit
 Comment pourrais-je ne pas détester ce cabrón?!",shape=box,color=blue];
 		j1823755919 -> j507724002;
-	j3679910420 [label="Ce n'est pas une question d'être à l'aise, babas 
+	j651108725 [label="Ce n'est pas une question d'être à l'aise, babas 
 Tu veux entendre parler de toutes les fois où j'ai dû euthanasier quelqu'un ou lui amputer un membre 
-Les fois où j'ai eu une mère qui pleurait à côté de son enfant mort et où j'ai dû lui dire que je ne pouvais pas la sauver 
+Les fois où j'ai eu une mère qui pleurait à côté de son enfant mort et où j'ai dû lui dire que je ne pouvais pas le sauver 
 Je vois ça tout le temps 
 Me vale madre",shape=box,color=blue];
-		j3679910420 -> j530259302;
-		j3679910420 -> j4198377008;
+		j651108725 -> j530259302;
+		j651108725 -> j4198377008;
 	j2205954349 [label="Sí
 Nous avons tous des choses dont nous ne parlons pas aux gens 
 Jusqu'à ce que nous soyons certains de pouvoir leur faire confiance",shape=box,color=blue];
@@ -133,8 +133,8 @@ J'en avais marre de l'armée, de toute façon",shape=box,color=blue];
 		j824038626 -> j225394097;
 	j4106797655 [label="Check boolean LettieTrust1",color=orange];
 		j4106797655 -> j866603139 [label=true,color=green];
-		j4106797655 -> j988593998 [label=true,color=green];
-		j4106797655 -> j964290444 [label=false,color=brown];
+		j4106797655 -> j3879609784 [label=true,color=green];
+		j4106797655 -> j1877422370 [label=false,color=brown];
 		j4106797655 -> j2319913069 [label=false,color=brown];
 	j507724002 [label="Check boolean LettieTrust1",color=orange];
 		j507724002 -> j866603139 [label=true,color=green];
@@ -157,10 +157,10 @@ J'en avais marre de l'armée, de toute façon",shape=box,color=blue];
 		j225394097 -> j170607451;
 	j866603139 [label="La façon dont tu parles de lui, et parce que je sais combien la confiance est importante pour toi... Cela semble personnel.",shape=box,color=red];
 		j866603139 -> j569501067;
-	j988593998 [label="Je sais combien tu détestes quand les gens trahissent la confiance des autres. Surtout les animaux.",shape=box,color=red];
-		j988593998 -> j4121182712;
-	j964290444 [label="Les personnes qui font du mal aux animaux ont une place réservée en enfer, c'est sûr. Mais il semblerait que ce soit bien plus que ça.",shape=box,color=red];
-		j964290444 -> j4121182712;
+	j3879609784 [label="Je sais combien tu détestes quand les gens trahissent la confiance des autres. Surtout les animaux.",shape=box,color=red];
+		j3879609784 -> j1334157440;
+	j1877422370 [label="Les personnes qui font du mal aux animaux ont une place réservée en enfer, c'est sûr. Mais il semblerait que ce soit bien plus que ça.",shape=box,color=red];
+		j1877422370 -> j1334157440;
 	j2319913069 [label="Ouais, mais il semble que tu aies une rancune personnelle contre lui.",shape=box,color=red];
 		j2319913069 -> j4274255377;
 	j4137475162 [label="Ça se tient.",shape=box,color=red];
@@ -182,12 +182,12 @@ Et je ne sais pas si je te fais suffisamment confiance",shape=box,color=blue];
 		j170607451 -> j2343193325;
 	j569501067 [label="+15 Chemistry",color=orange];
 		j569501067 -> j2131380004;
-	j4121182712 [label="+20 Chemistry",color=orange];
-		j4121182712 -> j2882463946;
+	j1334157440 [label="+20 Chemistry",color=orange];
+		j1334157440 -> j3013778073;
 	j4274255377 [label="Sí, en effet 
 J'ai mes raisons",shape=box,color=blue];
 		j4274255377 -> j1444466111;
-		j4274255377 -> j704320098;
+		j4274255377 -> j2840308118;
 	j495880547 [label="+10 Chemistry",color=orange];
 		j495880547 -> j4196049080;
 	"Chat ends." [color=orange];
@@ -208,16 +208,16 @@ Remplies de dioses, ángeles y demonios",shape=box,color=blue];
 Tu as compris.
 Il va te falloir un nouveau surnom, ¿eh babas? Jaja",shape=box,color=blue];
 		j2131380004 -> j1449528014;
-	j2882463946 [label="Oui, oui 
+	j3013778073 [label="Ay, sí
 Les animaux méritent le mieux que nous puissions leur donner 
 Et quand la confiance est brisée comme ça 
 Ça me donne envie de tuer un homme 
 Plus précisément, CELUI-LÀ",shape=box,color=blue];
-		j2882463946 -> j427534995;
+		j3013778073 -> j427534995;
 	j1444466111 [label="Puis-je demander ce qu'il a fait?",shape=box,color=red];
 		j1444466111 -> j3803911357;
-	j704320098 [label="Si tu n'es pas à l'aise de me le dire, ce n'est pas grave.",shape=box,color=red];
-		j704320098 -> j3648431119;
+	j2840308118 [label="Si tu n'es pas à l'aise de me le dire, ce n'est pas grave.",shape=box,color=red];
+		j2840308118 -> j3281205954;
 	j4196049080 [label="Sí 
 Ese cabrón se puede ir brincando a la chingada",shape=box,color=blue];
 		j4196049080 -> "Chat ends.";
@@ -244,18 +244,18 @@ Ou peut-être que je suis juste heureuse d'avoir quelqu'un d'utile à mes côté
 	j2652612547 [label="+10 Chemistry",color=orange];
 		j2652612547 -> j2498859488;
 	j1449528014 [label="Boolean LettieTrust2 is now true.",color=orange];
-		j1449528014 -> j1754059204;
+		j1449528014 -> j1990468303;
 		j1449528014 -> j1333049689;
 	j427534995 [label="Boolean LettieTrust2 is now true.",color=orange];
 		j427534995 -> j1283660927;
 	j3803911357 [label="+10 Chemistry",color=orange];
 		j3803911357 -> j2137533316;
-	j3648431119 [label="Ce n'est pas une question d'être à l'aise, babas 
+	j3281205954 [label="Ce n'est pas une question d'être à l'aise, babas 
 Tu veux entendre parler de toutes les fois où j'ai dû euthanasier quelqu'un ou lui amputer un membre 
-Les fois où j'ai eu une mère qui pleurait à côté de son enfant mort et où j'ai dû lui dire que je ne pouvais pas la sauver 
+Les fois où j'ai eu une mère qui pleurait à côté de son enfant mort et où j'ai dû lui dire que je ne pouvais pas le sauver 
 Je vois ça tout le temps 
 Me vale madre",shape=box,color=blue];
-		j3648431119 -> j3162068384;
+		j3281205954 -> j3162068384;
 	j1595235384 [label="Je me suis habituée à toi
 Tu pourrais me manquer si tu t'en vas 
 No dejes que se te suba a la cabeza",shape=box,color=blue];
@@ -271,8 +271,8 @@ Des gens meurent dans la boue et la crasse
 La confiance est brisée et des vies sont perdues
 Et La Flaca les ramène à la maison",shape=box,color=blue];
 		j2498859488 -> j4096741237;
-	j1754059204 [label="Si tu n'es pas à l'aise de me le dire, ce n'est pas grave.",shape=box,color=red];
-		j1754059204 -> j1536725939;
+	j1990468303 [label="Si tu n'es pas à l'aise de me le dire, ce n'est pas grave.",shape=box,color=red];
+		j1990468303 -> j64368427;
 	j1333049689 [label="Qu'est-ce qu'il t'a *fait*?",shape=box,color=red];
 		j1333049689 -> j3234697686;
 	j1283660927 [label="Boolean LettieHexAsked is now true.",color=orange];
@@ -303,9 +303,9 @@ Fabriqués par ce cabrón",shape=box,color=blue];
 		j134962027 -> j3113146345;
 	j4096741237 [label="Boolean LettieHexAsked is now true.",color=orange];
 		j4096741237 -> j3596798486;
-		j4096741237 -> j751773953;
-	j1536725939 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j1536725939 -> j3649610823;
+		j4096741237 -> j2734570894;
+	j64368427 [label="Boolean LettieHexAsked is now true.",color=orange];
+		j64368427 -> j1545464789;
 	j3234697686 [label="Boolean LettieHexAsked is now true.",color=orange];
 		j3234697686 -> j4205912608;
 	j2823908800 [label="Je ne sais pas ce qu'il t'a fait, mais... on dirait que c'était moche.",shape=box,color=red];
@@ -328,14 +328,14 @@ Des rats de laboratoire",shape=box,color=blue];
 		j3113146345 -> j2720663697;
 	j3596798486 [label="Mais comment as-tu rencontré Entrati?",shape=box,color=red];
 		j3596798486 -> j1342920858;
-	j751773953 [label="Puis-je demander ce qu'il s’est passé ensuite?",shape=box,color=red];
-		j751773953 -> j2964974105;
-	j3649610823 [label="Ce n'est pas une question d'être à l'aise, babas 
+	j2734570894 [label="Puis-je demander ce qu'il s’est passé ensuite?",shape=box,color=red];
+		j2734570894 -> j4057478809;
+	j1545464789 [label="Ce n'est pas une question d'être à l'aise, babas 
 Tu veux entendre parler de toutes les fois où j'ai dû euthanasier quelqu'un ou lui amputer un membre 
-Les fois où j'ai eu une mère qui pleurait à côté de son enfant mort et où j'ai dû lui dire que je ne pouvais pas la sauver 
+Les fois où j'ai eu une mère qui pleurait à côté de son enfant mort et où j'ai dû lui dire que je ne pouvais pas le sauver 
 Je vois ça tout le temps 
 Me vale madre",shape=box,color=blue];
-		j3649610823 -> j2565365060;
+		j1545464789 -> j2565365060;
 	j4205912608 [label="Mmm 
 Pas une histoire amusante, camarade
 Pas amusante à entendre 
@@ -351,14 +351,14 @@ Personne ne t'a dit ce qu'il s'est passé?",shape=box,color=blue];
 		j1342920858 -> j2560439523;
 		j1342920858 -> j3379945287;
 		j1342920858 -> j1646103019;
-	j2964974105 [label="Sí, tu viens de le faire jajaja
+	j4057478809 [label="Sí, tu viens de le faire jajaja
 Mais je comprends ce que tu demandes
-Et tu as dansé autour du sujet comme si tu voulais danser le tango
+Et tu as tourné autour du sujet comme si tu voulais danser le tango
 Tu sais que je ne veux pas en parler
 Personne ne t'a dit ce qu'il s'est passé?",shape=box,color=blue];
-		j2964974105 -> j2560439523;
-		j2964974105 -> j3379945287;
-		j2964974105 -> j1646103019;
+		j4057478809 -> j2560439523;
+		j4057478809 -> j3379945287;
+		j4057478809 -> j1646103019;
 	j2565365060 [label="C'est juste... 
 Ce n'est pas quelque chose dont je veux discuter.
 Pas aujourd'hui",shape=box,color=blue];
