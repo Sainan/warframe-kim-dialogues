@@ -270,14 +270,16 @@
 		}
 		else if (node.type == "/EE/Types/Engine/EndDialogueNode")
 		{
+			let msg = "Chat finished.";
+			if (chemistry) // #chatroom=AoiDialogue_rom.dialogue&dialogue=AoiRank5Convo6&choices=0,0,0,0,1,1,1,1
+			{
+				msg += " +" + chemistry + " Chemistry.";
+			}
 			if (node.name)
 			{
-				addToHistory("System", "Chat finished. The next chat after this would be " + node.name + ".");
+				msg += " The next chat after this would be " + node.name + ".";
 			}
-			else
-			{
-				addToHistory("System", "Chat finished.");
-			}
+			addToHistory("System", msg);
 		}
 		else if (node.type == "/EE/Types/Engine/CheckBooleanDialogueNode")
 		{
