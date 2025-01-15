@@ -92,6 +92,11 @@
 	<div id="choices"></div>
 </body>
 <script>
+	if (location.host == "kim.browse.wf" && location.pathname == "/kimulacrum.html")
+	{
+		location.pathname = "/kimulacrum";
+	}
+
 	window.chatroom = undefined;
 	window.dialogue = undefined;
 	let lang = "en";

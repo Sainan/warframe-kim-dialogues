@@ -32,6 +32,11 @@
 	</div>
 </body>
 <script>
+	if (location.host == "kim.browse.wf" && location.pathname == "/convo-locator.html")
+	{
+		location.pathname = "/convo-locator";
+	}
+
 	const chatroom_to_username = {
 		"ArthurDialogue_rom.dialogue": "Broadsword",
 		"EleanorDialogue_rom.dialogue": "Salem",
