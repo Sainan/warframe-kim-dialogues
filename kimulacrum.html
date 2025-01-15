@@ -43,19 +43,6 @@
 		<tr>
 			<td>
 				<b>Chat Controls</b><br/>
-				<select id="chatroom">
-					<option>SELECT A CHATROOM</option>
-					<option value="ArthurDialogue_rom.dialogue">Broadsword (Arthur)</option>
-					<option value="EleanorDialogue_rom.dialogue">Salem (Eleanor)</option>
-					<option value="LettieDialogue_rom.dialogue">Belladona ~{@ (Lettie)</option>
-					<option value="JabirDialogue_rom.dialogue">H16h V0l7463 (Amir)</option>
-					<option value="AoiDialogue_rom.dialogue">xX GLIMMER Xx (Aoi)</option>
-					<option value="QuincyDialogue_rom.dialogue">Soldja1Shot1kil (Quincy)</option>
-					<option value="HexDialogue_rom.dialogue">The Hex</option>
-				</select>
-				<select id="dialogue">
-					<option>SELECT A DIALOGUE</option>
-				</select>
 				<select id="lang">
 					<option value="en">English</option>
 					<option value="de">Deutsch</option>
@@ -73,6 +60,20 @@
 					<option value="tc">繁體中文</option>
 					<option value="th">แบบไทย</option>
 				</select>
+				<select id="chatroom">
+					<option>SELECT A CHATROOM</option>
+					<option value="ArthurDialogue_rom.dialogue">Broadsword (Arthur)</option>
+					<option value="EleanorDialogue_rom.dialogue">Salem (Eleanor)</option>
+					<option value="LettieDialogue_rom.dialogue">Belladona ~{@ (Lettie)</option>
+					<option value="JabirDialogue_rom.dialogue">H16h V0l7463 (Amir)</option>
+					<option value="AoiDialogue_rom.dialogue">xX GLIMMER Xx (Aoi)</option>
+					<option value="QuincyDialogue_rom.dialogue">Soldja1Shot1kil (Quincy)</option>
+					<option value="HexDialogue_rom.dialogue">The Hex</option>
+				</select>
+				<select id="dialogue">
+					<option>SELECT A DIALOGUE</option>
+				</select>
+				<a id="flowchart-link" target="_blank" class="slv-hidden">(Flowchart)</a>
 			</td>
 			<td>
 				<b>Username</b><br/>
@@ -91,6 +92,8 @@
 	<div id="choices"></div>
 </body>
 <script>
+	window.chatroom = undefined;
+	window.dialogue = undefined;
 	let lang = "en";
 
 	const retro_emoji_paths = [
@@ -422,6 +425,8 @@
 
 	function setActiveDialogue(dialogue)
 	{
+		document.getElementById("flowchart-link").classList.remove("slv-hidden");
+		document.getElementById("flowchart-link").href = "/flowcharts_svg/" + lang + "/" + chatroom + "/" + dialogue + ".svg";
 		window.dialogue = dialogue;
 		clearChat();
 		processNode(nodes[dialogue_name_to_start_node_id[dialogue]]);
@@ -429,8 +434,11 @@
 
 	function recreateChat()
 	{
-		window.replay_choices = window.choice_history;
-		setActiveDialogue(window.dialogue);
+		if (window.dialogue)
+		{
+			window.replay_choices = window.choice_history;
+			setActiveDialogue(window.dialogue);
+		}
 	}
 
 	addToHistory("System", "Loading data...");
@@ -501,6 +509,10 @@
 			{
 				setActiveChatroom(this.value);
 			}
+			else
+			{
+				document.getElementById("flowchart-link").classList.add("slv-hidden");
+			}
 			saveState();
 		};
 		if (document.getElementById("chatroom").value != "SELECT A CHATROOM")
@@ -537,6 +549,14 @@
 						need_recreate = false;
 					}
 				}
+				else
+				{
+					document.getElementById("flowchart-link").classList.add("slv-hidden");
+				}
+			}
+			else
+			{
+				document.getElementById("flowchart-link").classList.add("slv-hidden");
 			}
 			if (need_recreate)
 			{
@@ -558,6 +578,10 @@
 		if (this.value != "SELECT A DIALOGUE")
 		{
 			setActiveDialogue(this.value);
+		}
+		else
+		{
+			document.getElementById("flowchart-link").classList.add("slv-hidden");
 		}
 		saveState();
 	};
