@@ -3,10 +3,10 @@ digraph {
 		"LettieRank4Convo4 begins." -> j1158339480;
 	j1158339480 [label="Check boolean LettieNoFlirt",color=orange];
 		j1158339480 -> "Chat ends." [label=true,color=green];
-		j1158339480 -> j1337858875 [label=false,color=brown];
+		j1158339480 -> j2328649528 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j1337858875 [label="Гипотетический вопрос: если мне захотелось пригласить тебя выпить, закончилось бы это швами?",shape=box,color=red];
-		j1337858875 -> j3741727461;
+	j2328649528 [label="Гипотетический вопрос: если бы мне захотелось пригласить тебя выпить, закончилось бы это швами?",shape=box,color=red];
+		j2328649528 -> j3741727461;
 	j3741727461 [label="Check boolean LettieNoDate",color=orange];
 		j3741727461 -> j2626767957 [label=true,color=green];
 		j3741727461 -> j1769649971 [label=false,color=brown];
