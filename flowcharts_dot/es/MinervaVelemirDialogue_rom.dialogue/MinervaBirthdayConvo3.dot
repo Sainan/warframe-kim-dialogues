@@ -1,0 +1,18 @@
+digraph {
+	"MinervaBirthdayConvo3 begins." [color=orange];
+		"MinervaBirthdayConvo3 begins." -> j4083050690;
+		"MinervaBirthdayConvo3 begins." -> j1343831046;
+	j4083050690 [label="¿Puedo desearte un feliz cumpleaños? ¿O eso es información clasificada?",shape=box,color=red];
+		j4083050690 -> j4054449423;
+	j1343831046 [label="Entonces, ¿hoy es *de verdad* tu cumpleaños? ¿O es solo una fecha falsa, como tu nombre de usuario falso y demás trucos de espionaje?",shape=box,color=red];
+		j1343831046 -> j3546581196;
+	j4054449423 [label="+20 Chemistry",color=orange];
+		j4054449423 -> j3735669137;
+	j3546581196 [label="MomToxicated: Eso es información clasificada.",shape=box,color=blue];
+		j3546581196 -> "Chat ends.";
+	j3735669137 [label="MomToxicated: Je. Si es que hoy *es* mi cumpleaños. ;) ",shape=box,color=blue];
+		j3735669137 -> j1833144133;
+	"Chat ends." [color=orange];
+	j1833144133 [label="MomToxicated: Gracias.",shape=box,color=blue];
+		j1833144133 -> "Chat ends.";
+}

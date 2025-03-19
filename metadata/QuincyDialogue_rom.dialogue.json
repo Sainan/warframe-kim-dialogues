@@ -1,14 +1,39 @@
 {
+    "Tag": "Quincy",
     "CharacterName": "/Lotus/Language/1999/MessengerQuincyName",
     "LocFile": "/Lotus/Language/1999Texting/QuincyRomance.loc",
-    "NpcLocTagPrefix": "TxtQuincy",
+    "SpeakerExports": [
+        {
+            "SpeakerLocTag": "",
+            "NpcLocTagPrefix": "TxtQuincy"
+        }
+    ],
     "AddPhAutomatically": 0,
-    "DialogueDelay": 1.5,
-    "ProfilePicture": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpF.png",
+    "Upgrades": [
+        "/Lotus/Upgrades/Calendar/BaseQuincyUpgrade",
+        "/Lotus/Upgrades/Calendar/BaseQuincyAuraUpgrade"
+    ],
+    "Icons": [
+        {
+            "Tag": "Profile",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpF.png"
+        },
+        {
+            "Tag": "Calendar",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Calendar/Upgrades/Cyte09PixelHeadChroma.png"
+        }
+    ],
+    "Events": [
+        {
+            "Day": 338,
+            "Tag": "Birthday",
+            "LocTag": "",
+            "Icon": ""
+        }
+    ],
     "NickName": "/Lotus/Language/1999/MessengerQuincyUserName",
     "Status": "The Clash - BankRobber",
     "DatingSymbol": "QuincyDating",
-    "Birthday": 338,
     "Ranks": [
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
@@ -83,7 +108,7 @@
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/LovedRank",
             "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank6_1"
+                "/Lotus/Language/1999Texting/Romance/QuincyNotesRank7_1"
             ],
             "RequiredChemistry": 360,
             "RequiredMinimumDialogues": 13,
@@ -156,6 +181,19 @@
         "_breakUpEasterEggSound": "",
         "_syndicateTag": "HexSyndicate",
         "_questRankLimit": 3,
-        "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain"
+        "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain",
+        "_npcAvatar": "",
+        "_actionInst": "",
+        "_cameraSpotInst": "",
+        "_avatarAnimations": [],
+        "_avatarPositionWaypoints": [],
+        "_actionPositionWaypoints": [],
+        "_cameraSpotPositionWaypoints": [],
+        "_doorPortalPortForwarderTag": "",
+        "_nodeIntro": "",
+        "_transmissionIdleDelay": [
+            20,
+            25
+        ]
     }
 }

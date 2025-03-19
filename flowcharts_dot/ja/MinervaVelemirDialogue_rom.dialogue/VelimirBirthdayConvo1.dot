@@ -1,0 +1,18 @@
+digraph {
+	"VelimirBirthdayConvo1 begins." [color=orange];
+		"VelimirBirthdayConvo1 begins." -> j2402146858;
+		"VelimirBirthdayConvo1 begins." -> j1595263302;
+	j2402146858 [label="誕生日に何か面白いことでもする？",shape=box,color=red];
+		j2402146858 -> j231304041;
+	j1595263302 [label="やぁVelimir！　誕生日おめでとう！　少しでも楽しんでもらえたらいいね。",shape=box,color=red];
+		j1595263302 -> j2325682429;
+	j231304041 [label="PapaPolar: おーそうだな、オモシロイさ。地獄で感染トースターとスカルドラ異常者と戦うってのは。",shape=box,color=blue];
+		j231304041 -> j407316355;
+	j2325682429 [label="+20 Chemistry",color=orange];
+		j2325682429 -> j613256927;
+	j407316355 [label="PapaPolar: 大笑いだよ。",shape=box,color=blue];
+		j407316355 -> "Chat ends.";
+	j613256927 [label="PapaPolar: おぉありがとう。全力を尽くそう。周りに友がいるってのは助かるね。:)",shape=box,color=blue];
+		j613256927 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

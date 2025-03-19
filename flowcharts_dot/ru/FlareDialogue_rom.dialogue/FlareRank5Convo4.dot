@@ -1,0 +1,326 @@
+digraph {
+	"FlareRank5Convo4 begins." [color=orange];
+		"FlareRank5Convo4 begins." -> j1880680173;
+	j1880680173 [label="Check boolean FlareLizzieApart",color=orange];
+		j1880680173 -> "Chat ends." [label=true,color=green];
+		j1880680173 -> j3700432097 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j3700432097 [label="Check boolean FlareLizzieTogether",color=orange];
+		j3700432097 -> j3807866708 [label=true,color=green];
+		j3700432097 -> "Chat ends." [label=false,color=brown];
+	j3807866708 [label="Check boolean FlareRank5Convo2a",color=orange];
+		j3807866708 -> j4254523982 [label=true,color=green];
+		j3807866708 -> j2954695501 [label=false,color=brown];
+	j4254523982 [label="Check boolean FlareRank5Convo3",color=orange];
+		j4254523982 -> j3905233057 [label=true,color=green];
+		j4254523982 -> j447298911 [label=false,color=brown];
+	j2954695501 [label="музыка снова льётся рекой",shape=box,color=blue];
+		j2954695501 -> j4109067645;
+	j3905233057 [label="эй, скиталец",shape=box,color=blue];
+		j3905233057 -> j1990315349;
+	j447298911 [label="Дееемооон, ох, Деееемооннн!! Очень срочно требуется мнение",shape=box,color=blue];
+		j447298911 -> j1109903450;
+		j447298911 -> j3648450294;
+	j4109067645 [label="это как... будто она больше не останавливается. не даёт мне спать ни минуты ",shape=box,color=blue];
+		j4109067645 -> j3162829462;
+		j4109067645 -> j1261473009;
+	j1990315349 [label="не понятно, как это описать, словно кровь стала электричеством",shape=box,color=blue];
+		j1990315349 -> j1938393080;
+	j1109903450 [label="Как я могу помочь?",shape=box,color=red];
+		j1109903450 -> j1181888200;
+	j3648450294 [label="Привет, Лиззи. ",shape=box,color=red];
+		j3648450294 -> j1181888200;
+	j3162829462 [label="Это хорошо или плохо?",shape=box,color=red];
+		j3162829462 -> j3009565507;
+	j1261473009 [label="Прошу прощения?",shape=box,color=red];
+		j1261473009 -> j209264178;
+	j1938393080 [label="не было такого вдохновения с тех пор, как группа собралась вместе",shape=box,color=blue];
+		j1938393080 -> j1767705555;
+	j1181888200 [label="Мы... пытаются помочь Любимому с музыкой, но не уверены, хорошо ли получается...",shape=box,color=blue];
+		j1181888200 -> j39063640;
+	j3009565507 [label="это абсолютно прекрасно!!",shape=box,color=blue];
+		j3009565507 -> j1242892192;
+	j209264178 [label="хаха, не извиняйся, это потрясающе!!!",shape=box,color=blue];
+		j209264178 -> j1242892192;
+	j1767705555 [label="надеюсь, удастся сделать это так, чтобы они могли гордиться, где бы они сейчас ни находились",shape=box,color=blue];
+		j1767705555 -> j2186329290;
+	j39063640 [label="можете помочь? с этим... написанием... Песенных Текстов...?",shape=box,color=blue];
+		j39063640 -> j3600374425;
+		j39063640 -> j1421860470;
+	j1242892192 [label="этот зуд не ощущался с тех пор... ну...",shape=box,color=blue];
+		j1242892192 -> j107053542;
+	j2186329290 [label="не было понятно, как двигаться дальше без них, до этого момента",shape=box,color=blue];
+		j2186329290 -> j763184417;
+	j3600374425 [label="Меньшее, что я могу сделать для тебя.",shape=box,color=red];
+		j3600374425 -> j740424126;
+	j1421860470 [label="О, умираю от желания это увидеть. Да. Пожалуйста.",shape=box,color=red];
+		j1421860470 -> j2433583130;
+	j107053542 [label="с тех пор как виктор убил моих друзей",shape=box,color=blue];
+		j107053542 -> j162910811;
+		j107053542 -> j1537142508;
+	j763184417 [label="всегда сыпались неприятные комментарии от астрин, если не хотелось вставать с постели",shape=box,color=blue];
+		j763184417 -> j4015260702;
+	j740424126 [label="ну. вот Наш вклад на данный момент...",shape=box,color=blue];
+		j740424126 -> j2942940126;
+	j2433583130 [label="... известно, когда звучит сарказм, знаете ли...",shape=box,color=blue];
+		j2433583130 -> j740424126;
+	j162910811 [label="Эта песня будет для них?",shape=box,color=red];
+		j162910811 -> j1320419583;
+	j1537142508 [label="О чём песня?",shape=box,color=red];
+		j1537142508 -> j1320158307;
+	j4015260702 [label="они были такими хорошими друзьями. они никогда не позволяли тонуть мне в моих переживаниях, понимаешь?",shape=box,color=blue];
+		j4015260702 -> j2465666068;
+	j2942940126 [label="Check boolean FlareStoryNone",color=orange];
+		j2942940126 -> j2052520432 [label=true,color=green];
+		j2942940126 -> j4226659262 [label=false,color=brown];
+	j1320419583 [label="нет, не думаю. у них уже есть своя песня",shape=box,color=blue];
+		j1320419583 -> j1918771082;
+	j1320158307 [label="я пока не знаю, честно... не узнаю, пока не увижу всё вместе",shape=box,color=blue];
+		j1320158307 -> j1918771082;
+	j2465666068 [label="даже когда мною утверждалось, что это всё, чего когда-либо мне хотелось",shape=box,color=blue];
+		j2465666068 -> j418944738;
+	j2052520432 [label="Whispers call from the great beyond,
+A song of silence, cold and strong.
+I reach for hands that do not exist,
+Yet pull me into death’s abyss.",shape=box,color=blue];
+		j2052520432 -> j1362569568;
+		j2052520432 -> j1854435245;
+		j2052520432 -> j1833631862;
+	j4226659262 [label="Check boolean FlareStoryHero",color=orange];
+		j4226659262 -> j3497370164 [label=true,color=green];
+		j4226659262 -> j2035061969 [label=false,color=brown];
+	j1918771082 [label="к тому же, половина текста вообще не моя",shape=box,color=blue];
+		j1918771082 -> j872824128;
+	j418944738 [label="я бы хотел, чтобы этот ублюдок знал, каких великих людей он отнял у этого мира...",shape=box,color=blue];
+		j418944738 -> j4039452926;
+	j1362569568 [label="<RETRO_EMOJI_OHNO>",shape=box,color=red];
+		j1362569568 -> j2003533142;
+	j1854435245 [label="Великолепно. Добавить нечего.",shape=box,color=red];
+		j1854435245 -> j903350237;
+	j1833631862 [label="Я... ну... эм...",shape=box,color=red];
+		j1833631862 -> j2003533142;
+	j3497370164 [label="You arrived in gold and fire,
+Wings of light, holy pyre.
+Eyes like stars, voice divine,
+A beacon that is surely mine.",shape=box,color=blue];
+		j3497370164 -> j1362569568;
+		j3497370164 -> j1854435245;
+		j3497370164 -> j1833631862;
+	j2035061969 [label="Check boolean FlareStoryVillain",color=orange];
+		j2035061969 -> j671710132 [label=true,color=green];
+		j2035061969 -> j1535004937 [label=false,color=brown];
+	j872824128 [label="она помогает. привносит в них определённую... глубину, я признаю ",shape=box,color=blue];
+		j872824128 -> j1137897502;
+	j4039452926 [label="но именно по этой *причине* мы не останавливаемся, даже когда их нет рядом",shape=box,color=blue];
+		j4039452926 -> j413156686;
+	j2003533142 [label="это не слишком? Нам кажется, это может быть слишком...",shape=box,color=blue];
+		j2003533142 -> j139692889;
+		j2003533142 -> j1008002829;
+		j2003533142 -> j1349487980;
+	j903350237 [label="+5 Chemistry",color=orange];
+		j903350237 -> j3455372367;
+	j671710132 [label="Limbs entwined in writhing blight,
+Flesh dissolves beneath your sight.
+A lover’s kiss, a fatal mark,
+An oath sworn in the depths so dark.",shape=box,color=blue];
+		j671710132 -> j1362569568;
+		j671710132 -> j1854435245;
+		j671710132 -> j1833631862;
+	j1535004937 [label="I am no more, I am the whole,
+A thousand whispers consume my soul.
+I crave the unity, crave the lie,
+To be one with you—my final cry.
+DEEAAAAAATTTTHHHHHHH!!!!!",shape=box,color=blue];
+		j1535004937 -> j1362569568;
+		j1535004937 -> j1854435245;
+		j1535004937 -> j1833631862;
+	j1137897502 [label="получается чуть более дэт-метал, чем обычно бывает по настроению, но эй, каждому своё, хаха",shape=box,color=blue];
+		j1137897502 -> j25935259;
+		j1137897502 -> j3712695503;
+	j413156686 [label="и с лиззи... и из-за тебя... я думаю, у меня хватит сил сделать это",shape=box,color=blue];
+		j413156686 -> j1113460219;
+	j139692889 [label="Вот дерьмо. Хаха",shape=box,color=red];
+		j139692889 -> j1103744771;
+	j1008002829 [label="Не... всё *обойдётся*.",shape=box,color=red];
+		j1008002829 -> j1311953663;
+	j1349487980 [label="Может, это... слегка перебор?",shape=box,color=red];
+		j1349487980 -> j1313361633;
+	j3455372367 [label="<RETRO_EMOJI_CAT>",shape=box,color=blue];
+		j3455372367 -> j3428909021;
+	j25935259 [label="Хотелось бы увидеть, когда закончишь. :)",shape=box,color=red];
+		j25935259 -> j913840957;
+	j3712695503 [label="Можешь что-нибудь показать?",shape=box,color=red];
+		j3712695503 -> j2460921153;
+	j1113460219 [label="Check boolean FlareSol",color=orange];
+		j1113460219 -> j2495084917 [label=true,color=green];
+		j1113460219 -> j1150332665 [label=false,color=brown];
+	j1103744771 [label="это было да?",shape=box,color=blue];
+		j1103744771 -> j1071392238;
+	j1311953663 [label="Нам не нравится это... Творческое Выражение... слишком субъективно для Нашего вкуса...",shape=box,color=blue];
+		j1311953663 -> j3302959001;
+	j1313361633 [label="сбавь обороты?",shape=box,color=blue];
+		j1313361633 -> j1457083967;
+	j3428909021 [label="Этот Демон угождает нам своими похвалами... Мы продолжим в том же духе!",shape=box,color=blue];
+		j3428909021 -> j3302959001;
+	j913840957 [label="конечно",shape=box,color=blue];
+		j913840957 -> j2124707615;
+	j2460921153 [label="Check boolean FlarePainNone",color=orange];
+		j2460921153 -> j1821175803 [label=true,color=green];
+		j2460921153 -> j1755442437 [label=false,color=brown];
+	j2495084917 [label="I wake up and the world feels gray,
+No golden light to start my day.
+I hear your voice, but it’s just a dream,
+Like a memory fading in the beam.",shape=box,color=blue];
+		j2495084917 -> j1864081452;
+	j1150332665 [label="Check boolean FlareLua",color=orange];
+		j1150332665 -> j1789763582 [label=true,color=green];
+		j1150332665 -> j1789763582 [label=false,color=brown];
+	j1071392238 [label="Это было да.",shape=box,color=red];
+		j1071392238 -> j4031404583;
+	j3302959001 [label="Boolean FlareRank5Convo3 is now true.",color=orange];
+		j3302959001 -> j412895162;
+	j1457083967 [label="Сбавь обороты.",shape=box,color=red];
+		j1457083967 -> j4031404583;
+	j2124707615 [label="никогда не нравилось показывать тексты людям заранее. особенно joey",shape=box,color=blue];
+		j2124707615 -> j1708454255;
+	j1821175803 [label="эх. не особо похоже на того, кто пишет стихи. лучше подождать, пока всё будет готово",shape=box,color=blue];
+		j1821175803 -> j2124707615;
+	j1755442437 [label="Check boolean FlarePainStranger",color=orange];
+		j1755442437 -> j604611084 [label=true,color=green];
+		j1755442437 -> j485104509 [label=false,color=brown];
+	j1864081452 [label="песня уже на пути к завершению",shape=box,color=blue];
+		j1864081452 -> j3366824590;
+	j1789763582 [label="I chase the shadows, I feel your name,
+But it’s never the same.
+I reach for you, but you're out of sight,
+Gone with the stars, fading with the night.",shape=box,color=blue];
+		j1789763582 -> j1864081452;
+	j4031404583 [label="обратно к чертёжной доске!",shape=box,color=blue];
+		j4031404583 -> j1311953663;
+	j412895162 [label="+20 Chemistry",color=orange];
+		j412895162 -> "Chat ends. Next chat will be FlareRank6Convo1.";
+	j1708454255 [label="всегда ради забавы. или, по крайней мере, хотелось верить, что так и было",shape=box,color=blue];
+		j1708454255 -> j2279828066;
+	j604611084 [label="да, это всё ещё обрывки, но",shape=box,color=blue];
+		j604611084 -> j2901213234;
+	j485104509 [label="Check boolean FlarePainChronic",color=orange];
+		j485104509 -> j1518200594 [label=true,color=green];
+		j485104509 -> j800347530 [label=false,color=brown];
+	j3366824590 [label="почти готово",shape=box,color=blue];
+		j3366824590 -> j3168450102;
+		j3366824590 -> j2910380014;
+	"Chat ends. Next chat will be FlareRank6Convo1." [color=orange];
+	j2279828066 [label="скорее всего, всегда был немного злой из-за того, что не получилось играть на соло-гитаре. не было ничьей вины, что он так паршиво играл соляки",shape=box,color=blue];
+		j2279828066 -> j3983953411;
+	j2901213234 [label="The morning light cuts through my room,
+But I don’t know who’s waking soon.
+A thousand faces, none feel right,
+I change with every shattered night.",shape=box,color=blue];
+		j2901213234 -> j4075733027;
+	j1518200594 [label="конечно, пока это всё ещё разрозненно, но",shape=box,color=blue];
+		j1518200594 -> j770398860;
+	j800347530 [label="Check boolean FlarePainUnique",color=orange];
+		j800347530 -> j2353400475 [label=true,color=green];
+		j800347530 -> j634374653 [label=false,color=brown];
+	j3168450102 [label="Это даже лучше того, что вышло у Лиззи.",shape=box,color=red];
+		j3168450102 -> j3902819754;
+	j2910380014 [label="Я думаю, это прекрасно.",shape=box,color=red];
+		j2910380014 -> j918416309;
+	j3983953411 [label="становится ли хоть когда-нибудь легче? горечь от тех, кого теряешь?",shape=box,color=blue];
+		j3983953411 -> j1188864352;
+		j3983953411 -> j2818311509;
+		j3983953411 -> j650551529;
+	j4075733027 [label="что думаешь?",shape=box,color=blue];
+		j4075733027 -> j1345843527;
+		j4075733027 -> j2673893095;
+		j4075733027 -> j1389308225;
+	j770398860 [label="Woke up to a battle I never chose,
+A war inside me that never slows.
+Every step feels like broken glass,
+But I smile and say, \"This too shall pass.\"",shape=box,color=blue];
+		j770398860 -> j4075733027;
+	j2353400475 [label="конечно, пока это всё ещё разрозненно, но",shape=box,color=blue];
+		j2353400475 -> j706122543;
+	j634374653 [label="Check boolean FlarePainEmpathy",color=orange];
+		j634374653 -> j2105754594 [label=true,color=green];
+		j634374653 -> j2105754594 [label=false,color=brown];
+	j3902819754 [label="хех. поэзия сложна для людей. она обучается",shape=box,color=blue];
+		j3902819754 -> j192945269;
+	j918416309 [label="спасибо",shape=box,color=blue];
+		j918416309 -> j192945269;
+	j1188864352 [label="Остаётся только надеяться. дам знать, если вдруг случится.",shape=box,color=red];
+		j1188864352 -> j1056914468;
+	j2818311509 [label="Нет. Никогда не становится легче. просто учишься носить этот груз.",shape=box,color=red];
+		j2818311509 -> j3777645361;
+	j650551529 [label="Да. Со временем. Становится.",shape=box,color=red];
+		j650551529 -> j2131207836;
+	j1345843527 [label="Сложно сказать, насколько это хорошая поэзия, но это мне очень нравится.",shape=box,color=red];
+		j1345843527 -> j2663712363;
+	j2673893095 [label="Мне нравиться это!",shape=box,color=red];
+		j2673893095 -> j3238891400;
+	j1389308225 [label="Лучше не бросать основную работу. Ой, подождите. хаха",shape=box,color=red];
+		j1389308225 -> j3828857470;
+	j706122543 [label="There’s a fire in my chest, but it gives no light,
+Just a hunger that keeps me awake at night.
+Like a whisper I can never trace,
+A ghost with no name, but I know its face.",shape=box,color=blue];
+		j706122543 -> j4075733027;
+	j2105754594 [label="конечно, пока это всё ещё разрозненно, но",shape=box,color=blue];
+		j2105754594 -> j726175756;
+	j192945269 [label="вчера попросили Амира приготовить для Лиззи одно из его странных творений... что-то вроде мороженого",shape=box,color=blue];
+		j192945269 -> j666444737;
+	j1056914468 [label="отлично...",shape=box,color=blue];
+		j1056914468 -> j3661467007;
+	j3777645361 [label="так и думалось. спасибо за честность",shape=box,color=blue];
+		j3777645361 -> j3661467007;
+	j2131207836 [label="наверное, с таким бонусным временем будет что-то, чего стоит ожидать...",shape=box,color=blue];
+		j2131207836 -> j3661467007;
+	j2663712363 [label="действительно, это оживает только с музыкой",shape=box,color=blue];
+		j2663712363 -> j3220652575;
+	j3238891400 [label="спасибо",shape=box,color=blue];
+		j3238891400 -> j3220652575;
+	j3828857470 [label="звучит как joey",shape=box,color=blue];
+		j3828857470 -> j1708454255;
+	j726175756 [label="I see the storm behind your eyes,
+Lightning cracks but no one cries.
+You wear your sorrow like a chain,
+But I can feel your hopeless pain.",shape=box,color=blue];
+		j726175756 -> j4075733027;
+	j666444737 [label="это был цвет, которого не существует в природе. похоже, там было больше жевательных медвежат, чем настоящего мороженого ",shape=box,color=blue];
+		j666444737 -> j1461593728;
+	j3661467007 [label="все знали, что там опасно. все считали, что риск того стоил",shape=box,color=blue];
+		j3661467007 -> j1415042050;
+	j3220652575 [label="обычно тексты никому не показываются заранее. joey всегда любил над ними смеяться",shape=box,color=blue];
+		j3220652575 -> j1708454255;
+	j1461593728 [label="на нём было всё это... шоколадное печенье в качестве начинки, и... жареные взрывающиеся присыпки? не знаю",shape=box,color=blue];
+		j1461593728 -> j1426343016;
+	j1415042050 [label="но иногда невозможно не задуматься... ",shape=box,color=blue];
+		j1415042050 -> j4209358244;
+	j1426343016 [label="никогда не думалось, что гитара может мурлыкать",shape=box,color=blue];
+		j1426343016 -> j2478044213;
+	j4209358244 [label="может быть, стоило остаться дома. промолчать. если бы так сделали, все были бы живы",shape=box,color=blue];
+		j4209358244 -> j933337573;
+		j4209358244 -> j3290711096;
+	j2478044213 [label="она просто... выглядела... такой счастливой",shape=box,color=blue];
+		j2478044213 -> j575344609;
+	j933337573 [label="Иногда крик — это всё, что остаётся в этой жизни. Надеюсь, это понимали.",shape=box,color=red];
+		j933337573 -> j2805021554;
+	j3290711096 [label="Если всё время задаваться вопросом \"а что если\", можно сойти с ума. Не нужно позволять чувству вины овладевать собой.",shape=box,color=red];
+		j3290711096 -> j2805021554;
+	j575344609 [label="и только через пару минут стало ясно, что... улыбка растянулась от уха до уха",shape=box,color=blue];
+		j575344609 -> j3872155603;
+	j2805021554 [label="Виноват Виктор. Не мы. Не они.",shape=box,color=red];
+		j2805021554 -> j1209946149;
+	j3872155603 [label="в общем... не совсем понятно, к чему это велось, кроме как просто сказать... спасибо",shape=box,color=blue];
+		j3872155603 -> j103908029;
+	j1209946149 [label="+5 Chemistry",color=orange];
+		j1209946149 -> j15501921;
+	j103908029 [label="до связи",shape=box,color=blue];
+		j103908029 -> j412895162;
+	j15501921 [label="да, это правда. спасибо, друг",shape=box,color=blue];
+		j15501921 -> j4029877747;
+	j4029877747 [label="хм. появились новые идеи для текста. скоро вернусь",shape=box,color=blue];
+		j4029877747 -> j2204681605;
+	j2204681605 [label="Boolean FlareRank5Convo2a is now true.",color=orange];
+		j2204681605 -> j412895162;
+}

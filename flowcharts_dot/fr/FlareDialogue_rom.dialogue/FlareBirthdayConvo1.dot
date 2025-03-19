@@ -1,0 +1,37 @@
+digraph {
+	"FlareBirthdayConvo1 begins." [color=orange];
+		"FlareBirthdayConvo1 begins." -> j3697070526;
+	j3697070526 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j3697070526 -> j2587998593 [label=true,color=green];
+		j3697070526 -> j1828930376 [label=true,color=green];
+		j3697070526 -> j3510548321 [label=true,color=green];
+		j3697070526 -> j3306943592 [label=false,color=brown];
+		j3697070526 -> j2587998593 [label=false,color=brown];
+	j2587998593 [label="Joyeux anniversaire, Flare! Ça doit être un anniversaire morose sans ton groupe.",shape=box,color=red];
+		j2587998593 -> j3088465350;
+	j1828930376 [label="Salut Lizzie, tu as mangé un truc cool pour ton anniversaire?",shape=box,color=red];
+		j1828930376 -> j3598275011;
+	j3510548321 [label="Salut Lizzie ! Joyeux anni--... attends. Est-ce que tu as une date de naissance?",shape=box,color=red];
+		j3510548321 -> j2134283355;
+	j3306943592 [label="Salut Flare, tu fais quelque chose de cool pour ton anniversaire?",shape=box,color=red];
+		j3306943592 -> j2157986892;
+	j3088465350 [label="wow",shape=box,color=blue];
+		j3088465350 -> "Chat ends.";
+	j3598275011 [label="+5 Chemistry",color=orange];
+		j3598275011 -> j2313141656;
+	j2134283355 [label="techniquement, Nous avons d'innombrables jours de naissance, merci beaucoup d'avoir demandé",shape=box,color=blue];
+		j2134283355 -> "Chat ends.";
+	j2157986892 [label="heh, eh bien. je suis dans un centre commercial dans une boucle temporelle, donc... les options sont limitées?",shape=box,color=blue];
+		j2157986892 -> j3310008976;
+	"Chat ends." [color=orange];
+	j2313141656 [label="Oui!! un pneu de voiture entier, une jante et tout, merci d'avoir demandé!!!",shape=box,color=blue];
+		j2313141656 -> j3528610947;
+	j3310008976 [label="+5 Chemistry",color=orange];
+		j3310008976 -> j1632718759;
+	j3528610947 [label="...flare n'a pas arrêté de se plaindre, cela dit...",shape=box,color=blue];
+		j3528610947 -> "Chat ends.";
+	j1632718759 [label="mais amir, lettie, eleanor, aoi et moi passons une soirée sympa en regardant des films d'horreur terribles. quincy est également \"officiellement invité à squatter\"",shape=box,color=blue];
+		j1632718759 -> j4289987866;
+	j4289987866 [label="ça va être chouette",shape=box,color=blue];
+		j4289987866 -> "Chat ends.";
+}

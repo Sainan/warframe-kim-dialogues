@@ -1,0 +1,34 @@
+digraph {
+	"FlareBirthdayConvo2 begins." [color=orange];
+		"FlareBirthdayConvo2 begins." -> j737644427;
+	j737644427 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j737644427 -> j1942660535 [label=true,color=green];
+		j737644427 -> j1192090852 [label=true,color=green];
+		j737644427 -> j754162187 [label=true,color=green];
+		j737644427 -> j1158022162 [label=true,color=green];
+		j737644427 -> j1942660535 [label=false,color=brown];
+		j737644427 -> j1192090852 [label=false,color=brown];
+	j1942660535 [label="弗烈爾，你生日都喜歡怎麼過呢？",shape=box,color=red];
+		j1942660535 -> j2666597691;
+	j1192090852 [label="這個時代的人還在唱生日歌嗎？",shape=box,color=red];
+		j1192090852 -> j4013773925;
+	j754162187 [label="話說回來……莉慈，你到底幾歲？",shape=box,color=red];
+		j754162187 -> j3290097883;
+	j1158022162 [label="生日快樂，你這個詭異、感染的、嚇人的、惡夢般的樂器。",shape=box,color=red];
+		j1158022162 -> j1554847911;
+	j2666597691 [label="平常的話？喝個爛醉，然後和朋友一起去城裡鬼混",shape=box,color=blue];
+		j2666597691 -> j1606974673;
+	j4013773925 [label="會唱，但真的很難聽。所以如果你敢慫恿別人來唱，要記住我可是知道你在哪裡睡的，而且我有個超大聲的喇叭",shape=box,color=blue];
+		j4013773925 -> "Chat ends.";
+	j3290097883 [label="要有禮貌，惡魔，學學禮貌",shape=box,color=blue];
+		j3290097883 -> "Chat ends.";
+	j1554847911 [label="+5 Chemistry",color=orange];
+		j1554847911 -> j870451522;
+	j1606974673 [label="+5 Chemistry",color=orange];
+		j1606974673 -> j3358637566;
+	"Chat ends." [color=orange];
+	j870451522 [label="哎呦，謝啦，小糖糖。有時候這個惡魔說話還挺可愛的呢",shape=box,color=blue];
+		j870451522 -> "Chat ends.";
+	j3358637566 [label="反正我現在的家就是酒吧，所以……想怎樣就怎樣",shape=box,color=blue];
+		j3358637566 -> "Chat ends.";
+}

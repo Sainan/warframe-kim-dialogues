@@ -13,7 +13,7 @@ local function get_node_label(node)
 		case "/EE/Types/Engine/CheckBooleanDialogueNode":
 			return $"Check boolean {node.name}"
 		case "/EE/Types/Engine/CheckBooleanScriptDialogueNode":
-			return $"Check {node.script_name} for boolean {node.arg1}"
+			return node.arg1 ? $"Check {node.script_name} for boolean {node.arg1}" : $"Check {node.script_name} for an unknown boolean"
 		case "/EE/Types/Engine/DialogueNode":
 		case "/EE/Types/Engine/PlayerChoiceDialogueNode":
 			do
@@ -186,10 +186,15 @@ local DIAG_NAMES <const> = {
 	"AoiDialogue_rom.dialogue",
 	"ArthurDialogue_rom.dialogue",
 	"EleanorDialogue_rom.dialogue",
+	"FlareDialogue_rom.dialogue",
 	"HexDialogue_rom.dialogue",
 	"JabirDialogue_rom.dialogue",
+	"KayaDialogue_rom.dialogue",
 	"LettieDialogue_rom.dialogue",
+	"MinervaDialogue_rom.dialogue",
+	"MinervaVelemirDialogue_rom.dialogue",
 	"QuincyDialogue_rom.dialogue",
+	"VelimirDialogue_rom.dialogue",
 }
 
 local diags = {}

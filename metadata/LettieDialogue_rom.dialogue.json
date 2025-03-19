@@ -1,15 +1,40 @@
 {
+    "Tag": "Lettie",
     "CharacterName": "/Lotus/Language/1999/MessengerLettieName",
     "LocFile": "/Lotus/Language/1999Texting/LettieRomance.loc",
-    "NpcLocTagPrefix": "TxtLettie",
+    "SpeakerExports": [
+        {
+            "SpeakerLocTag": "",
+            "NpcLocTagPrefix": "TxtLettie"
+        }
+    ],
     "AddPhAutomatically": 0,
-    "DialogueDelay": 1.5,
     "DateRank": 5,
-    "ProfilePicture": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpB.png",
+    "Upgrades": [
+        "/Lotus/Upgrades/Calendar/BaseLettieUpgrade",
+        "/Lotus/Upgrades/Calendar/BaseLettieAuraUpgrade"
+    ],
+    "Icons": [
+        {
+            "Tag": "Profile",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpB.png"
+        },
+        {
+            "Tag": "Calendar",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Calendar/Upgrades/TrinityPixelHeadChroma.png"
+        }
+    ],
+    "Events": [
+        {
+            "Day": 45,
+            "Tag": "Birthday",
+            "LocTag": "",
+            "Icon": ""
+        }
+    ],
     "NickName": "/Lotus/Language/1999/MessengerLettieUserName",
     "Status": "The Clash - BankRobber",
     "DatingSymbol": "LettieDating",
-    "Birthday": 45,
     "Ranks": [
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
@@ -157,6 +182,19 @@
         "_breakUpEasterEggSound": "",
         "_syndicateTag": "HexSyndicate",
         "_questRankLimit": 3,
-        "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain"
+        "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain",
+        "_npcAvatar": "",
+        "_actionInst": "",
+        "_cameraSpotInst": "",
+        "_avatarAnimations": [],
+        "_avatarPositionWaypoints": [],
+        "_actionPositionWaypoints": [],
+        "_cameraSpotPositionWaypoints": [],
+        "_doorPortalPortForwarderTag": "",
+        "_nodeIntro": "",
+        "_transmissionIdleDelay": [
+            20,
+            25
+        ]
     }
 }

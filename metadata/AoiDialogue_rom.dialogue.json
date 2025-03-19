@@ -1,14 +1,39 @@
 {
+    "Tag": "Aoi",
     "CharacterName": "/Lotus/Language/1999/MessengerAoiName",
     "LocFile": "/Lotus/Language/1999Texting/AoiRomance.loc",
-    "NpcLocTagPrefix": "TxtAoi",
+    "SpeakerExports": [
+        {
+            "SpeakerLocTag": "",
+            "NpcLocTagPrefix": "TxtAoi"
+        }
+    ],
     "AddPhAutomatically": 0,
-    "DialogueDelay": 1.5,
-    "ProfilePicture": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpD.png",
+    "Upgrades": [
+        "/Lotus/Upgrades/Calendar/BaseAoiUpgrade",
+        "/Lotus/Upgrades/Calendar/BaseAoiAuraUpgrade"
+    ],
+    "Icons": [
+        {
+            "Tag": "Profile",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpD.png"
+        },
+        {
+            "Tag": "Calendar",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Calendar/Upgrades/MagPixelHeadChroma.png"
+        }
+    ],
+    "Events": [
+        {
+            "Day": 191,
+            "Tag": "Birthday",
+            "LocTag": "",
+            "Icon": ""
+        }
+    ],
     "NickName": "/Lotus/Language/1999/MessengerAoiUserName",
     "Status": "The Clash - BankRobber",
     "DatingSymbol": "AoiDating",
-    "Birthday": 191,
     "Ranks": [
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
@@ -156,6 +181,19 @@
         "_breakUpEasterEggSound": "",
         "_syndicateTag": "HexSyndicate",
         "_questRankLimit": 3,
-        "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain"
+        "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain",
+        "_npcAvatar": "",
+        "_actionInst": "",
+        "_cameraSpotInst": "",
+        "_avatarAnimations": [],
+        "_avatarPositionWaypoints": [],
+        "_actionPositionWaypoints": [],
+        "_cameraSpotPositionWaypoints": [],
+        "_doorPortalPortForwarderTag": "",
+        "_nodeIntro": "",
+        "_transmissionIdleDelay": [
+            20,
+            25
+        ]
     }
 }

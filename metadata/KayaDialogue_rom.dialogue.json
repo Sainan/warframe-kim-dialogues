@@ -1,0 +1,116 @@
+{
+    "Tag": "Kaya",
+    "CharacterName": "/Lotus/Language/1999/MessengerKayaName",
+    "FirstDialogue": "KayaRank1Convo1",
+    "LocFile": "/Lotus/Language/1999Texting/KayaDialogue.loc",
+    "SpeakerExports": [
+        {
+            "SpeakerLocTag": "",
+            "NpcLocTagPrefix": "TxtKaya"
+        }
+    ],
+    "AddPhAutomatically": 0,
+    "AvailableSyndicateRank": 4,
+    "RequiredSyndicateRank": 5,
+    "Icons": [
+        {
+            "Tag": "Profile",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpH.png"
+        },
+        {
+            "Tag": "Calendar",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Calendar/Upgrades/NovaPixelHeadChroma.png"
+        }
+    ],
+    "Events": [
+        {
+            "Day": 1,
+            "Tag": "Birthday",
+            "LocTag": "",
+            "Icon": ""
+        }
+    ],
+    "NickName": "/Lotus/Language/1999/MessengerKayaUserName",
+    "Ranks": [
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank1_1",
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank1_2",
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank1_3"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 0,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/FriendlyRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank2_1",
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank2_2",
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank2_3"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 3,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/LikedRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank3_1",
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank3_2",
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank3_3"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 6,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/TrustedRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank4_1",
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank4_2",
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank4_3"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 9,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/CloseRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank5_1",
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank5_2",
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank5_3"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 13,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/AssociatesRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank6_1"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 17,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/BestiesRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/KayaNotesRank7_1"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 17,
+            "UnlockCondition": "KayaLarunda",
+            "DialogueBin": 6
+        }
+    ]
+}

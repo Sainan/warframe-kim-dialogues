@@ -1,0 +1,37 @@
+digraph {
+	"FlareBirthdayConvo1 begins." [color=orange];
+		"FlareBirthdayConvo1 begins." -> j3697070526;
+	j3697070526 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j3697070526 -> j3421196351 [label=true,color=green];
+		j3697070526 -> j1863212110 [label=true,color=green];
+		j3697070526 -> j2844267409 [label=true,color=green];
+		j3697070526 -> j222392082 [label=false,color=brown];
+		j3697070526 -> j3421196351 [label=false,color=brown];
+	j3421196351 [label="생일 축하해, 플레어! 밴드 멤버들이 없어서 조용하겠다.",shape=box,color=red];
+		j3421196351 -> j228726181;
+	j1863212110 [label="안녕, 리지. 생일맞이 이벤트로 뭔가 멋진 거 먹었어?",shape=box,color=red];
+		j1863212110 -> j4047030786;
+	j2844267409 [label="안녕 리지! 생일 축ㅎ- 잠깐. 너 생일이 *있긴 했어*?",shape=box,color=red];
+		j2844267409 -> j2079439373;
+	j222392082 [label="안녕 플레어, 생일맞이 이벤트로 뭔가 멋진 거 하고 있어?",shape=box,color=red];
+		j222392082 -> j1302561066;
+	j228726181 [label="와우",shape=box,color=blue];
+		j228726181 -> "Chat ends.";
+	j4047030786 [label="+5 Chemistry",color=orange];
+		j4047030786 -> j1348557080;
+	j2079439373 [label="정확하게 말하자면, 우린 셀 수 없을 정도로 수많은 생일을 가지고 있어. 물어봐 줘서-정말로-고맙다",shape=box,color=blue];
+		j2079439373 -> "Chat ends.";
+	j1302561066 [label="헤, 뭐. 타임 루프 속 쇼핑몰에 갇혀 있으니까...놀 수 있는 선택지가 제한적이지?",shape=box,color=blue];
+		j1302561066 -> j2649582524;
+	"Chat ends." [color=orange];
+	j1348557080 [label="응!!! 자동차 타이어 한 개, 자동차 휠이랑 전부, 물어봐 줘서 고마워!!!",shape=box,color=blue];
+		j1348557080 -> j650723005;
+	j2649582524 [label="+5 Chemistry",color=orange];
+		j2649582524 -> j4229119462;
+	j650723005 [label="... 플레어가 이거에 관해서 불평하는 걸 멈추지 않지만...",shape=box,color=blue];
+		j650723005 -> "Chat ends.";
+	j4229119462 [label="하지만 아미르, 레티, 엘레노어, 아오이랑 나는 끔찍한 공포 영화를 보며 \"여자애들 모임\"의 밤을 보내고 있어. 퀸시도 \"공식적인 초대\"는 받았어",shape=box,color=blue];
+		j4229119462 -> j2851191568;
+	j2851191568 [label="재밌을 것 같아",shape=box,color=blue];
+		j2851191568 -> "Chat ends.";
+}

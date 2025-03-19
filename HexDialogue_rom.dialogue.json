@@ -1,11 +1,8 @@
 [
     {
         "id": 0,
-        "type": "/EE/Types/Engine/StartDialogueNode",
-        "name": "HexRankUpTo2",
-        "choices": [
-            39
-        ]
+        "type": "",
+        "choices": []
     },
     {
         "id": 1,
@@ -27,7 +24,7 @@
         "name": "/Lotus/Language/1999Texting/HexDialogue/TxtHex_HexRankUpTo5_154",
         "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
         "choices": [
-            220
+            15
         ]
     },
     {
@@ -45,9 +42,11 @@
     },
     {
         "id": 6,
-        "type": "/EE/Types/Engine/DialogueNode",
-        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtHex_HexRankUpTo2_22",
-        "choices": []
+        "type": "/EE/Types/Engine/SpecialCompletionDialogueNode",
+        "choices": [
+            5
+        ],
+        "refs": []
     },
     {
         "id": 7,
@@ -108,9 +107,14 @@
     },
     {
         "id": 15,
-        "type": "/EE/Types/Engine/DialogueNode",
-        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtHex_HexRankUpTo1_0",
-        "choices": []
+        "type": "/EE/Types/Engine/ScriptDialogueNode",
+        "choices": [
+            37
+        ],
+        "script_name": "/Lotus/Scripts/1999/HexSyndicateDialog.lua",
+        "script_args": [
+            "HexDialogue_rom.dialogue"
+        ]
     },
     {
         "id": 16,
@@ -420,7 +424,7 @@
         "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
         "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexRankUpTo2_33",
         "choices": [
-            221
+            84
         ]
     },
     {
@@ -473,7 +477,7 @@
         "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
         "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexRankUpTo2_39",
         "choices": [
-            222
+            118
         ]
     },
     {
@@ -729,8 +733,11 @@
     {
         "id": 84,
         "type": "/EE/Types/Engine/DialogueNode",
-        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtHex_HexRankUpTo3_68",
-        "choices": []
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtHex_HexRankUpTo2_155",
+        "nickname_override": "/Lotus/Language/1999/MessengerQuincyUserName",
+        "choices": [
+            173
+        ]
     },
     {
         "id": 85,
@@ -1028,8 +1035,11 @@
     {
         "id": 118,
         "type": "/EE/Types/Engine/DialogueNode",
-        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtHex_HexRankUpTo4_102",
-        "choices": []
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtHex_HexRankUpTo2_156",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            175
+        ]
     },
     {
         "id": 119,
@@ -1251,7 +1261,7 @@
         "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
         "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexRankUpTo4_127",
         "choices": [
-            223
+            150
         ]
     },
     {
@@ -1309,8 +1319,11 @@
     {
         "id": 150,
         "type": "/EE/Types/Engine/DialogueNode",
-        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtHex_HexRankUpTo5_134",
-        "choices": []
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtHex_HexRankUpTo4_157",
+        "nickname_override": "/Lotus/Language/1999/MessengerQuincyUserName",
+        "choices": [
+            208
+        ]
     },
     {
         "id": 151,
@@ -1700,7 +1713,7 @@
         "type": "/EE/Types/Engine/SetBooleanDialogueNode",
         "name": "HexTogether",
         "choices": [
-            219
+            6
         ]
     },
     {
@@ -1708,7 +1721,7 @@
         "type": "/EE/Types/Engine/SetBooleanDialogueNode",
         "name": "HexEachOther",
         "choices": [
-            219
+            6
         ]
     },
     {
@@ -1716,7 +1729,7 @@
         "type": "/EE/Types/Engine/SetBooleanDialogueNode",
         "name": "HexBonding",
         "choices": [
-            219
+            6
         ]
     },
     {
@@ -1873,48 +1886,1096 @@
     },
     {
         "id": 219,
-        "type": "/EE/Types/Engine/SpecialCompletionDialogueNode",
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "name": "HexFlareConvo1",
         "choices": [
-            5
-        ],
-        "refs": []
+            220
+        ]
     },
     {
         "id": 220,
-        "type": "/EE/Types/Engine/ScriptDialogueNode",
-        "choices": [
-            37
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "HexFlareConvo1Done",
+        "choices": [],
+        "true_choices": [
+            221
         ],
-        "script_name": "/Lotus/Scripts/1999/HexSyndicateDialog.lua",
-        "script_args": [
-            "HexDialogue_rom.dialogue"
+        "false_choices": [
+            222
         ]
     },
     {
         "id": 221,
-        "type": "/EE/Types/Engine/DialogueNode",
-        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtHex_HexRankUpTo2_155",
-        "nickname_override": "/Lotus/Language/1999/MessengerQuincyUserName",
-        "choices": [
-            173
-        ]
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
     },
     {
         "id": 222,
         "type": "/EE/Types/Engine/DialogueNode",
-        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtHex_HexRankUpTo2_156",
-        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexFlareConvo1_158",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
         "choices": [
-            175
+            223
         ]
     },
     {
         "id": 223,
         "type": "/EE/Types/Engine/DialogueNode",
-        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtHex_HexRankUpTo4_157",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexFlareConvo1_159",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
+        "choices": [
+            224
+        ]
+    },
+    {
+        "id": 224,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexFlareConvo1_160",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
+        "choices": [
+            225
+        ]
+    },
+    {
+        "id": 225,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexFlareConvo1_161",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
+        "choices": [
+            226
+        ]
+    },
+    {
+        "id": 226,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexFlareConvo1_162",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            227
+        ]
+    },
+    {
+        "id": 227,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtQuincy_HexFlareConvo1_163",
         "nickname_override": "/Lotus/Language/1999/MessengerQuincyUserName",
         "choices": [
-            208
+            228
         ]
+    },
+    {
+        "id": 228,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexFlareConvo1_164",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            229
+        ]
+    },
+    {
+        "id": 229,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtLettie_HexFlareConvo1_165",
+        "nickname_override": "/Lotus/Language/1999/MessengerLettieUserName",
+        "choices": [
+            230
+        ]
+    },
+    {
+        "id": 230,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtEleanor_HexFlareConvo1_166",
+        "nickname_override": "/Lotus/Language/1999/MessengerEleanorUserName",
+        "choices": [
+            231,
+            232
+        ]
+    },
+    {
+        "id": 231,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexFlareConvo1_167",
+        "choices": [
+            233
+        ]
+    },
+    {
+        "id": 232,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexFlareConvo1_168",
+        "choices": [
+            234
+        ]
+    },
+    {
+        "id": 233,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtLettie_HexFlareConvo1_169",
+        "nickname_override": "/Lotus/Language/1999/MessengerLettieUserName",
+        "choices": [
+            235
+        ]
+    },
+    {
+        "id": 234,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtQuincy_HexFlareConvo1_170",
+        "nickname_override": "/Lotus/Language/1999/MessengerQuincyUserName",
+        "choices": [
+            235
+        ]
+    },
+    {
+        "id": 235,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexFlareConvo1_171",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            236
+        ]
+    },
+    {
+        "id": 236,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexFlareConvo1_172",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
+        "choices": [
+            237
+        ]
+    },
+    {
+        "id": 237,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexFlareConvo1_173",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
+        "choices": [
+            238
+        ]
+    },
+    {
+        "id": 238,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexFlareConvo1_174",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            239
+        ]
+    },
+    {
+        "id": 239,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexFlareConvo1_175",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            240
+        ]
+    },
+    {
+        "id": 240,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexFlareConvo1_176",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            241,
+            242,
+            243
+        ]
+    },
+    {
+        "id": 241,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexFlareConvo1_177",
+        "choices": [
+            244
+        ]
+    },
+    {
+        "id": 242,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexFlareConvo1_178",
+        "choices": [
+            244
+        ]
+    },
+    {
+        "id": 243,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexFlareConvo1_179",
+        "choices": [
+            244
+        ]
+    },
+    {
+        "id": 244,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtEleanor_HexFlareConvo1_180",
+        "nickname_override": "/Lotus/Language/1999/MessengerEleanorUserName",
+        "choices": [
+            245
+        ]
+    },
+    {
+        "id": 245,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtQuincy_HexFlareConvo1_181",
+        "nickname_override": "/Lotus/Language/1999/MessengerQuincyUserName",
+        "choices": [
+            246
+        ]
+    },
+    {
+        "id": 246,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtEleanor_HexFlareConvo1_182",
+        "nickname_override": "/Lotus/Language/1999/MessengerEleanorUserName",
+        "choices": [
+            247
+        ]
+    },
+    {
+        "id": 247,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtQuincy_HexFlareConvo1_183",
+        "nickname_override": "/Lotus/Language/1999/MessengerQuincyUserName",
+        "choices": [
+            248
+        ]
+    },
+    {
+        "id": 248,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexFlareConvo1_184",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            249
+        ]
+    },
+    {
+        "id": 249,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexFlareConvo1_185",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            250
+        ]
+    },
+    {
+        "id": 250,
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "name": "HexFlareConvo1Done",
+        "choices": [
+            251
+        ]
+    },
+    {
+        "id": 251,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 252,
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "name": "HexKayaConvo1",
+        "choices": [
+            253
+        ]
+    },
+    {
+        "id": 253,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_186",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            254
+        ]
+    },
+    {
+        "id": 254,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_187",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            255
+        ]
+    },
+    {
+        "id": 255,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_188",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            256
+        ]
+    },
+    {
+        "id": 256,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_189",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            257
+        ]
+    },
+    {
+        "id": 257,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtLettie_HexKayaConvo1_190",
+        "nickname_override": "/Lotus/Language/1999/MessengerLettieUserName",
+        "choices": [
+            258
+        ]
+    },
+    {
+        "id": 258,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexKayaConvo1_191",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
+        "choices": [
+            259
+        ]
+    },
+    {
+        "id": 259,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexKayaConvo1_192",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            260
+        ]
+    },
+    {
+        "id": 260,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtEleanor_HexKayaConvo1_193",
+        "nickname_override": "/Lotus/Language/1999/MessengerEleanorUserName",
+        "choices": [
+            261
+        ]
+    },
+    {
+        "id": 261,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_194",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            262
+        ]
+    },
+    {
+        "id": 262,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_195",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            263
+        ]
+    },
+    {
+        "id": 263,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_196",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            264
+        ]
+    },
+    {
+        "id": 264,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtQuincy_HexKayaConvo1_197",
+        "nickname_override": "/Lotus/Language/1999/MessengerQuincyUserName",
+        "choices": [
+            265
+        ]
+    },
+    {
+        "id": 265,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_198",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            266
+        ]
+    },
+    {
+        "id": 266,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_199",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            267,
+            268,
+            269
+        ]
+    },
+    {
+        "id": 267,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexKayaConvo1_200",
+        "choices": [
+            270
+        ]
+    },
+    {
+        "id": 268,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexKayaConvo1_201",
+        "choices": [
+            271
+        ]
+    },
+    {
+        "id": 269,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexKayaConvo1_202",
+        "choices": [
+            272
+        ]
+    },
+    {
+        "id": 270,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtQuincy_HexKayaConvo1_203",
+        "nickname_override": "/Lotus/Language/1999/MessengerQuincyUserName",
+        "choices": [
+            273
+        ]
+    },
+    {
+        "id": 271,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtEleanor_HexKayaConvo1_204",
+        "nickname_override": "/Lotus/Language/1999/MessengerEleanorUserName",
+        "choices": [
+            274
+        ]
+    },
+    {
+        "id": 272,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_205",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            273
+        ]
+    },
+    {
+        "id": 273,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtLettie_HexKayaConvo1_206",
+        "nickname_override": "/Lotus/Language/1999/MessengerLettieUserName",
+        "choices": [
+            275
+        ]
+    },
+    {
+        "id": 274,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexKayaConvo1_207",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            275
+        ]
+    },
+    {
+        "id": 275,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexKayaConvo1_208",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
+        "choices": [
+            276
+        ]
+    },
+    {
+        "id": 276,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexKayaConvo1_209",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
+        "choices": [
+            277
+        ]
+    },
+    {
+        "id": 277,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtLettie_HexKayaConvo1_210",
+        "nickname_override": "/Lotus/Language/1999/MessengerLettieUserName",
+        "choices": [
+            278
+        ]
+    },
+    {
+        "id": 278,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexKayaConvo1_211",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
+        "choices": [
+            279,
+            280,
+            281
+        ]
+    },
+    {
+        "id": 279,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexKayaConvo1_212",
+        "choices": [
+            282
+        ]
+    },
+    {
+        "id": 280,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexKayaConvo1_213",
+        "choices": [
+            282
+        ]
+    },
+    {
+        "id": 281,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexKayaConvo1_214",
+        "choices": [
+            283
+        ]
+    },
+    {
+        "id": 282,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_215",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            284
+        ]
+    },
+    {
+        "id": 283,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexKayaConvo1_216",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            285,
+            286
+        ]
+    },
+    {
+        "id": 284,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_217",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            287,
+            288
+        ]
+    },
+    {
+        "id": 285,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexKayaConvo1_218",
+        "choices": [
+            289
+        ]
+    },
+    {
+        "id": 286,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexKayaConvo1_219",
+        "choices": [
+            289
+        ]
+    },
+    {
+        "id": 287,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexKayaConvo1_220",
+        "choices": [
+            290
+        ]
+    },
+    {
+        "id": 288,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexKayaConvo1_221",
+        "choices": [
+            290
+        ]
+    },
+    {
+        "id": 289,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexKayaConvo1_222",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            291
+        ]
+    },
+    {
+        "id": 290,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_223",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            292
+        ]
+    },
+    {
+        "id": 291,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexKayaConvo1_224",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
+        "choices": [
+            293
+        ]
+    },
+    {
+        "id": 292,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtLettie_HexKayaConvo1_225",
+        "nickname_override": "/Lotus/Language/1999/MessengerLettieUserName",
+        "choices": [
+            294
+        ]
+    },
+    {
+        "id": 293,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexKayaConvo1_226",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            295
+        ]
+    },
+    {
+        "id": 294,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_227",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            296
+        ]
+    },
+    {
+        "id": 295,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexKayaConvo1_228",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            297
+        ]
+    },
+    {
+        "id": 296,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_229",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            298
+        ]
+    },
+    {
+        "id": 297,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtQuincy_HexKayaConvo1_230",
+        "nickname_override": "/Lotus/Language/1999/MessengerQuincyUserName",
+        "choices": [
+            299
+        ]
+    },
+    {
+        "id": 298,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexKayaConvo1_231",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            300,
+            301
+        ]
+    },
+    {
+        "id": 299,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexKayaConvo1_232",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            302
+        ]
+    },
+    {
+        "id": 300,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexKayaConvo1_233",
+        "choices": [
+            303
+        ]
+    },
+    {
+        "id": 301,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexKayaConvo1_234",
+        "choices": [
+            304
+        ]
+    },
+    {
+        "id": 302,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtEleanor_HexKayaConvo1_235",
+        "nickname_override": "/Lotus/Language/1999/MessengerEleanorUserName",
+        "choices": [
+            305
+        ]
+    },
+    {
+        "id": 303,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 304,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 305,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 306,
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "name": "HexMinVelConvo1",
+        "choices": [
+            307
+        ]
+    },
+    {
+        "id": 307,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexMinVelConvo1_236",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            308
+        ]
+    },
+    {
+        "id": 308,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtEleanor_HexMinVelConvo1_237",
+        "nickname_override": "/Lotus/Language/1999/MessengerEleanorUserName",
+        "choices": [
+            309
+        ]
+    },
+    {
+        "id": 309,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtEleanor_HexMinVelConvo1_238",
+        "nickname_override": "/Lotus/Language/1999/MessengerEleanorUserName",
+        "choices": [
+            310
+        ]
+    },
+    {
+        "id": 310,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexMinVelConvo1_239",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            311
+        ]
+    },
+    {
+        "id": 311,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexMinVelConvo1_240",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            312
+        ]
+    },
+    {
+        "id": 312,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexMinVelConvo1_241",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            313
+        ]
+    },
+    {
+        "id": 313,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexMinVelConvo1_242",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            314
+        ]
+    },
+    {
+        "id": 314,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtQuincy_HexMinVelConvo1_243",
+        "nickname_override": "/Lotus/Language/1999/MessengerQuincyUserName",
+        "choices": [
+            315
+        ]
+    },
+    {
+        "id": 315,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtEleanor_HexMinVelConvo1_244",
+        "nickname_override": "/Lotus/Language/1999/MessengerEleanorUserName",
+        "choices": [
+            316
+        ]
+    },
+    {
+        "id": 316,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexMinVelConvo1_245",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            317
+        ]
+    },
+    {
+        "id": 317,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexMinVelConvo1_246",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
+        "choices": [
+            318,
+            319
+        ]
+    },
+    {
+        "id": 318,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexMinVelConvo1_247",
+        "choices": [
+            320
+        ]
+    },
+    {
+        "id": 319,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexMinVelConvo1_248",
+        "choices": [
+            321
+        ]
+    },
+    {
+        "id": 320,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexMinVelConvo1_249",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            322,
+            323
+        ]
+    },
+    {
+        "id": 321,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexMinVelConvo1_250",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            322,
+            323
+        ]
+    },
+    {
+        "id": 322,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexMinVelConvo1_251",
+        "choices": [
+            324
+        ]
+    },
+    {
+        "id": 323,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexMinVelConvo1_252",
+        "choices": [
+            325
+        ]
+    },
+    {
+        "id": 324,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexMinVelConvo1_253",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            326
+        ]
+    },
+    {
+        "id": 325,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtEleanor_HexMinVelConvo1_254",
+        "nickname_override": "/Lotus/Language/1999/MessengerEleanorUserName",
+        "choices": [
+            326
+        ]
+    },
+    {
+        "id": 326,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtLettie_HexMinVelConvo1_255",
+        "nickname_override": "/Lotus/Language/1999/MessengerLettieUserName",
+        "choices": [
+            327
+        ]
+    },
+    {
+        "id": 327,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "QuincyDating",
+        "choices": [],
+        "true_choices": [
+            328
+        ],
+        "false_choices": [
+            329
+        ]
+    },
+    {
+        "id": 328,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtQuincy_HexMinVelConvo1_256",
+        "nickname_override": "/Lotus/Language/1999/MessengerQuincyUserName",
+        "choices": [
+            330
+        ]
+    },
+    {
+        "id": 329,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtQuincy_HexMinVelConvo1_257",
+        "nickname_override": "/Lotus/Language/1999/MessengerQuincyUserName",
+        "choices": [
+            330
+        ]
+    },
+    {
+        "id": 330,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexMinVelConvo1_258",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            331
+        ]
+    },
+    {
+        "id": 331,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexMinVelConvo1_259",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            332
+        ]
+    },
+    {
+        "id": 332,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexMinVelConvo1_260",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            333
+        ]
+    },
+    {
+        "id": 333,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexMinVelConvo1_261",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            334
+        ]
+    },
+    {
+        "id": 334,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtJabir_HexMinVelConvo1_262",
+        "nickname_override": "/Lotus/Language/1999/MessengerJabirUserName",
+        "choices": [
+            335,
+            336
+        ]
+    },
+    {
+        "id": 335,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexMinVelConvo1_263",
+        "choices": [
+            337
+        ]
+    },
+    {
+        "id": 336,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/Choice_HexMinVelConvo1_264",
+        "choices": [
+            338
+        ]
+    },
+    {
+        "id": 337,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexMinVelConvo1_265",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
+        "choices": [
+            339
+        ]
+    },
+    {
+        "id": 338,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtEleanor_HexMinVelConvo1_266",
+        "nickname_override": "/Lotus/Language/1999/MessengerEleanorUserName",
+        "choices": [
+            337
+        ]
+    },
+    {
+        "id": 339,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexMinVelConvo1_267",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
+        "choices": [
+            340
+        ]
+    },
+    {
+        "id": 340,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtAoi_HexMinVelConvo1_268",
+        "nickname_override": "/Lotus/Language/1999/MessengerAoiUserName",
+        "choices": [
+            341
+        ]
+    },
+    {
+        "id": 341,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexMinVelConvo1_269",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            342
+        ]
+    },
+    {
+        "id": 342,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/HexDialogue/TxtArthur_HexMinVelConvo1_270",
+        "nickname_override": "/Lotus/Language/1999/MessengerArthurUserName",
+        "choices": [
+            343
+        ]
+    },
+    {
+        "id": 343,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
     }
 ]

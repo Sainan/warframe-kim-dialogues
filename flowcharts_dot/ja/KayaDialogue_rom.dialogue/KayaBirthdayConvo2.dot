@@ -1,0 +1,16 @@
+digraph {
+	"KayaBirthdayConvo2 begins." [color=orange];
+		"KayaBirthdayConvo2 begins." -> j2195626787;
+		"KayaBirthdayConvo2 begins." -> j1090840178;
+	j2195626787 [label="誕生日おめでとう、Kaya。「Party of your Lifetime」にふさわしい今日の計画は立てた？　風船？　テープ飾り？　全部用意した？",shape=box,color=red];
+		j2195626787 -> j3709727622;
+	j1090840178 [label="今日の誕生日は何かやる予定があるの？",shape=box,color=red];
+		j1090840178 -> j253060319;
+	j3709727622 [label="うげ。はー。いやよそんなの。子供っぽいことは絶対にやらない。",shape=box,color=blue];
+		j3709727622 -> "Chat ends.";
+	j253060319 [label="+20 Chemistry",color=orange];
+		j253060319 -> j2208582528;
+	"Chat ends." [color=orange];
+	j2208582528 [label="実はあるの。後でLettieが死体の解剖するやり方を教えてくれるんだって。凄くない？！",shape=box,color=blue];
+		j2208582528 -> "Chat ends.";
+}

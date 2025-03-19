@@ -1,0 +1,37 @@
+digraph {
+	"FlareBirthdayConvo1 begins." [color=orange];
+		"FlareBirthdayConvo1 begins." -> j3697070526;
+	j3697070526 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j3697070526 -> j1673979209 [label=true,color=green];
+		j3697070526 -> j3826701697 [label=true,color=green];
+		j3697070526 -> j2986389176 [label=true,color=green];
+		j3697070526 -> j3563270043 [label=false,color=brown];
+		j3697070526 -> j1673979209 [label=false,color=brown];
+	j1673979209 [label="Wszystkiego najlepszego, Flare! Bez zespołu musi być strasznie cicho.",shape=box,color=red];
+		j1673979209 -> j3776371731;
+	j3826701697 [label="Hej Lizzie, zjadłaś coś dobrego na urodziny?",shape=box,color=red];
+		j3826701697 -> j1784137480;
+	j2986389176 [label="Hej Lizzie! Wszystkiego naj- chwila. Czy w ogóle obchodzisz urodziny?",shape=box,color=red];
+		j2986389176 -> j2872329298;
+	j3563270043 [label="Hej Flare, zaplanowałeś coś fajnego na urodziny?",shape=box,color=red];
+		j3563270043 -> j2279688334;
+	j3776371731 [label="łał",shape=box,color=blue];
+		j3776371731 -> "Chat ends.";
+	j1784137480 [label="+5 Chemistry",color=orange];
+		j1784137480 -> j1035800252;
+	j2872329298 [label="w prawdzie rzeczy, mamy niezliczoną liczbę urodzin. Bardzo-Dziękujemy-Za-Troskę",shape=box,color=blue];
+		j2872329298 -> "Chat ends.";
+	j2279688334 [label="heh, cóż. utknąłem w pętli czasu w centrum handlowym... moje opcje są ograniczone?",shape=box,color=blue];
+		j2279688334 -> j2036913434;
+	"Chat ends." [color=orange];
+	j1035800252 [label="tak!! całą oponę, wraz z felgą i całą resztą. dziękujemy Ci za zainteresowanie!!!",shape=box,color=blue];
+		j1035800252 -> j3680349877;
+	j2036913434 [label="+5 Chemistry",color=orange];
+		j2036913434 -> j2305665982;
+	j3680349877 [label="...flare jeszcze nie przestał nam tego wytykać...",shape=box,color=blue];
+		j3680349877 -> "Chat ends.";
+	j2305665982 [label="ale amir, lettie, eleanor, aoi i ja urządzimy sobie \"babski wieczór\". będziemy oglądać horrory klasy b. a quincy otrzymał \"oficjalne zaproszenie na nocowanie\"",shape=box,color=blue];
+		j2305665982 -> j604209055;
+	j604209055 [label="brzmi jak dobra zabawa",shape=box,color=blue];
+		j604209055 -> "Chat ends.";
+}

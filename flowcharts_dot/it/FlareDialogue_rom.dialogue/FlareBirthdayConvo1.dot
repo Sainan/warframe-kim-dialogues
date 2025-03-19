@@ -1,0 +1,37 @@
+digraph {
+	"FlareBirthdayConvo1 begins." [color=orange];
+		"FlareBirthdayConvo1 begins." -> j3697070526;
+	j3697070526 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j3697070526 -> j3003852374 [label=true,color=green];
+		j3697070526 -> j1040513573 [label=true,color=green];
+		j3697070526 -> j2875752765 [label=true,color=green];
+		j3697070526 -> j2517026086 [label=false,color=brown];
+		j3697070526 -> j3003852374 [label=false,color=brown];
+	j3003852374 [label="Buon compleanno, Flare! Deve essere un compleanno tranquillo senza la tua band.",shape=box,color=red];
+		j3003852374 -> j3088465350;
+	j1040513573 [label="Ehi Lizzie, mangerai qualcosa di buono per il tuo compleanno?",shape=box,color=red];
+		j1040513573 -> j1755275681;
+	j2875752765 [label="Ehi Lizzie! Buon Compl-- aspetta. Tu *compi* gli anni?",shape=box,color=red];
+		j2875752765 -> j1175183119;
+	j2517026086 [label="Ehi Flare, farai qualcosa di divertente per il tuo compleanno?",shape=box,color=red];
+		j2517026086 -> j3861110300;
+	j3088465350 [label="wow",shape=box,color=blue];
+		j3088465350 -> "Chat ends.";
+	j1755275681 [label="+5 Chemistry",color=orange];
+		j1755275681 -> j157344887;
+	j1175183119 [label="tecnicamente, Compiamo innumerevoli compleanni, Molte-Grazie-Per-Averlo-Chiesto",shape=box,color=blue];
+		j1175183119 -> "Chat ends.";
+	j3861110300 [label="heh, beh. sono bloccato in un centro commerciale in un loop temporale, quindi... direi che le opzioni sono limitate?",shape=box,color=blue];
+		j3861110300 -> j1930650351;
+	"Chat ends." [color=orange];
+	j157344887 [label="sì! un intero pneumatico, il cerchione e tutto il resto, Grazie per averlo chiesto!!!",shape=box,color=blue];
+		j157344887 -> j3302267573;
+	j1930650351 [label="+5 Chemistry",color=orange];
+		j1930650351 -> j360778323;
+	j3302267573 [label="...flare non ha smesso di lamentarsi, però...",shape=box,color=blue];
+		j3302267573 -> "Chat ends.";
+	j360778323 [label="ma amir, lettie, eleanor, aoi & io stiamo pianificando una serata ''tra ragazze'' a guardare terribili film horror. anche quincy è ''formalmente invitato a partecipare''",shape=box,color=blue];
+		j360778323 -> j499683402;
+	j499683402 [label="dovrebbe essere divertente",shape=box,color=blue];
+		j499683402 -> "Chat ends.";
+}

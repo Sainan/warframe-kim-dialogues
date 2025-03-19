@@ -1,0 +1,23 @@
+digraph {
+	"MinervaBirthdayConvo2 begins." [color=orange];
+		"MinervaBirthdayConvo2 begins." -> j1514441483;
+		"MinervaBirthdayConvo2 begins." -> j2315869912;
+	j1514441483 [label="今日はVelimirと一緒にMinervaの誕生日を過ごす予定なの？",shape=box,color=red];
+		j1514441483 -> j2696256640;
+	j2315869912 [label="今日の誕生日の予定ってある？",shape=box,color=red];
+		j2315869912 -> j1618790860;
+	j2696256640 [label="Check boolean MinVelTogether",color=orange];
+		j2696256640 -> j895518129 [label=true,color=green];
+		j2696256640 -> j3238319778 [label=false,color=brown];
+	j1618790860 [label="MomToxicated: 国際的戦争犯罪を平然とこなして、飲みに行くわ。",shape=box,color=blue];
+		j1618790860 -> j103895682;
+	j895518129 [label="+20 Chemistry",color=orange];
+		j895518129 -> j1348584819;
+	j3238319778 [label="MomToxicated: どうせまた喧嘩で終わるわ。",shape=box,color=blue];
+		j3238319778 -> "Chat ends.";
+	j103895682 [label="MomToxicated: いつものルーティーンよ。",shape=box,color=blue];
+		j103895682 -> "Chat ends.";
+	j1348584819 [label="MomToxicated: そうね。そして詳細はあなたの想像に委ねるわ。;)",shape=box,color=blue];
+		j1348584819 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

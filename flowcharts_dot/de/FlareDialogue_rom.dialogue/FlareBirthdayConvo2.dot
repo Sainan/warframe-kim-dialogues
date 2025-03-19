@@ -1,0 +1,34 @@
+digraph {
+	"FlareBirthdayConvo2 begins." [color=orange];
+		"FlareBirthdayConvo2 begins." -> j737644427;
+	j737644427 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j737644427 -> j1363338103 [label=true,color=green];
+		j737644427 -> j3755039399 [label=true,color=green];
+		j737644427 -> j3668133532 [label=true,color=green];
+		j737644427 -> j3403325228 [label=true,color=green];
+		j737644427 -> j1363338103 [label=false,color=brown];
+		j737644427 -> j3755039399 [label=false,color=brown];
+	j1363338103 [label="Was machst du gern an deinem Geburtstag, Flare?",shape=box,color=red];
+		j1363338103 -> j1527437732;
+	j3755039399 [label="Singt man in dieser Zeit Geburtstagslieder?",shape=box,color=red];
+		j3755039399 -> j636492687;
+	j3668133532 [label="Sag mal ... wie alt *bist* du eigentlich, Lizzie?",shape=box,color=red];
+		j3668133532 -> j3748857890;
+	j3403325228 [label="Alles Gute zum Geburtstag, du bizarres, Befallenes, grauenhaftes albtraumverursachendes Musikinstrument.",shape=box,color=red];
+		j3403325228 -> j540645635;
+	j1527437732 [label="normalerweise? ich trinke bis zum umfallen und ziehe mit freunden um die häuser",shape=box,color=blue];
+		j1527437732 -> j1486138559;
+	j636492687 [label="ja und es ist grauenhaft. wenn du also versuchst, leute dazu zu überreden, mir ein ständchen zu bringen ... ich *weiß* wo du schläfst und ich habe SEHR laute verstärker",shape=box,color=blue];
+		j636492687 -> "Chat ends.";
+	j3748857890 [label="manieren, Dämon. manieren",shape=box,color=blue];
+		j3748857890 -> "Chat ends.";
+	j540645635 [label="+5 Chemistry",color=orange];
+		j540645635 -> j1777473375;
+	j1486138559 [label="+5 Chemistry",color=orange];
+		j1486138559 -> j27116368;
+	"Chat ends." [color=orange];
+	j1777473375 [label="Och, lieben Dank, Schnuckel. Dieser Dämon sagt manchmal die süßesten Dinge zu uns",shape=box,color=blue];
+		j1777473375 -> "Chat ends.";
+	j27116368 [label="wobei ... ich wohne jetzt in einer bar ... also lassen wir es krachen, schätze ich",shape=box,color=blue];
+		j27116368 -> "Chat ends.";
+}

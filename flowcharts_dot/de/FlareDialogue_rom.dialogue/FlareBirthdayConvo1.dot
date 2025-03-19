@@ -1,0 +1,37 @@
+digraph {
+	"FlareBirthdayConvo1 begins." [color=orange];
+		"FlareBirthdayConvo1 begins." -> j3697070526;
+	j3697070526 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j3697070526 -> j284985281 [label=true,color=green];
+		j3697070526 -> j2612508941 [label=true,color=green];
+		j3697070526 -> j3518894482 [label=true,color=green];
+		j3697070526 -> j2751088272 [label=false,color=brown];
+		j3697070526 -> j284985281 [label=false,color=brown];
+	j284985281 [label="Alles Gute zum Geburtstag, Flare! Muss ein ruhiger sein, ohne deine Band.",shape=box,color=red];
+		j284985281 -> j3088465350;
+	j2612508941 [label="Hey Lizzie, hast du was Cooles zum Geburtstag gegessen?",shape=box,color=red];
+		j2612508941 -> j1847198448;
+	j3518894482 [label="Hey Lizzie! Alles Gute zum Geb... Moment. *Hast* du eigentlich Geburtstage?",shape=box,color=red];
+		j3518894482 -> j3880809313;
+	j2751088272 [label="Hey Flare, machst du was Cooles zum Geburtstag?",shape=box,color=red];
+		j2751088272 -> j2506796192;
+	j3088465350 [label="wow",shape=box,color=blue];
+		j3088465350 -> "Chat ends.";
+	j1847198448 [label="+5 Chemistry",color=orange];
+		j1847198448 -> j917467432;
+	j3880809313 [label="technisch gesehen, haben Wir unzählige Geburtstage, vielen-Dank-das-du-fragst",shape=box,color=blue];
+		j3880809313 -> "Chat ends.";
+	j2506796192 [label="ha, naja. ich sitze in einer zeitschleife in einem einkaufszentrum fest, daher ... sind die möglichkeiten begrenzt?",shape=box,color=blue];
+		j2506796192 -> j2976258468;
+	"Chat ends." [color=orange];
+	j917467432 [label="ja!! einen ganzen Autoreifen, felge und reifen komplett, danke, dass Du gefragt hast!!",shape=box,color=blue];
+		j917467432 -> j2738656747;
+	j2976258468 [label="+5 Chemistry",color=orange];
+		j2976258468 -> j2022041311;
+	j2738656747 [label="... Flare beschwert sich allerdings immer noch darüber ...",shape=box,color=blue];
+		j2738656747 -> "Chat ends.";
+	j2022041311 [label="aber amir, lettie, eleanor, aoi & ich haben einen \"mädelsabend\" und schauen uns schlechte horrorfilme an. quincy wurde auch \"eingeladen mit abzuhängen\"",shape=box,color=blue];
+		j2022041311 -> j3575832351;
+	j3575832351 [label="sollte lustig werden",shape=box,color=blue];
+		j3575832351 -> "Chat ends.";
+}

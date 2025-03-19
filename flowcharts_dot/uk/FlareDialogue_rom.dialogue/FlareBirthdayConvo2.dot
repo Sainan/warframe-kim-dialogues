@@ -1,0 +1,34 @@
+digraph {
+	"FlareBirthdayConvo2 begins." [color=orange];
+		"FlareBirthdayConvo2 begins." -> j737644427;
+	j737644427 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j737644427 -> j882388610 [label=true,color=green];
+		j737644427 -> j813566037 [label=true,color=green];
+		j737644427 -> j2246940542 [label=true,color=green];
+		j737644427 -> j424621103 [label=true,color=green];
+		j737644427 -> j882388610 [label=false,color=brown];
+		j737644427 -> j813566037 [label=false,color=brown];
+	j882388610 [label="What do you like to do for your birthday, Flare?",shape=box,color=red];
+		j882388610 -> j2840871959;
+	j813566037 [label="Do they sing birthday songs in this era? ",shape=box,color=red];
+		j813566037 -> j3061189022;
+	j2246940542 [label="So... how old *are* you anyway, Lizzie?",shape=box,color=red];
+		j2246940542 -> j3257453767;
+	j424621103 [label="Happy Birthday, you bizarre, Infested, horrifying, nightmare-inducing musical instrument. ",shape=box,color=red];
+		j424621103 -> j2756893502;
+	j2840871959 [label="normally? drink myself silly and go out on the town with friends",shape=box,color=blue];
+		j2840871959 -> j4273527118;
+	j3061189022 [label="they do, and it's horrendous. so if you try to get people to sing it, i *do* know where you sleep, and i own very loud amps",shape=box,color=blue];
+		j3061189022 -> "Chat ends.";
+	j3257453767 [label="manners, Demon. manners",shape=box,color=blue];
+		j3257453767 -> "Chat ends.";
+	j2756893502 [label="+5 Chemistry",color=orange];
+		j2756893502 -> j273726061;
+	j4273527118 [label="+5 Chemistry",color=orange];
+		j4273527118 -> j1972423627;
+	"Chat ends." [color=orange];
+	j273726061 [label="d'aw, thank You, sugar. This Demon says the sweetest things sometimes",shape=box,color=blue];
+		j273726061 -> "Chat ends.";
+	j1972423627 [label="but i guess now my home is a bar, so... let 'er rip, i suppose",shape=box,color=blue];
+		j1972423627 -> "Chat ends.";
+}

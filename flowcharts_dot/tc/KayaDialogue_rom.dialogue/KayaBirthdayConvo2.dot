@@ -1,0 +1,16 @@
+digraph {
+	"KayaBirthdayConvo2 begins." [color=orange];
+		"KayaBirthdayConvo2 begins." -> j2687629010;
+		"KayaBirthdayConvo2 begins." -> j3232633960;
+	j2687629010 [label="生日快樂，卡婭。今天有打算來場《一生難忘的派對》嗎？氣球？彩帶？一整套流程？",shape=box,color=red];
+		j2687629010 -> j1598818396;
+	j3232633960 [label="你今天生日有什麼計劃嗎？",shape=box,color=red];
+		j3232633960 -> j3909539333;
+	j1598818396 [label="呃。噁，不要。我絕對不會被人抓包在過小孩子般的生日。",shape=box,color=blue];
+		j1598818396 -> "Chat ends.";
+	j3909539333 [label="+20 Chemistry",color=orange];
+		j3909539333 -> j3598345511;
+	"Chat ends." [color=orange];
+	j3598345511 [label="其實有的。莉蒂要示範給我看怎麼解剖屍體，很酷是不是？！",shape=box,color=blue];
+		j3598345511 -> "Chat ends.";
+}

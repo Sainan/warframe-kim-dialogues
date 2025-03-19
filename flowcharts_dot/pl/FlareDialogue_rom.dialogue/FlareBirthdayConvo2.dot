@@ -1,0 +1,34 @@
+digraph {
+	"FlareBirthdayConvo2 begins." [color=orange];
+		"FlareBirthdayConvo2 begins." -> j737644427;
+	j737644427 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j737644427 -> j846392718 [label=true,color=green];
+		j737644427 -> j2780475099 [label=true,color=green];
+		j737644427 -> j1642861336 [label=true,color=green];
+		j737644427 -> j2304316476 [label=true,color=green];
+		j737644427 -> j846392718 [label=false,color=brown];
+		j737644427 -> j2780475099 [label=false,color=brown];
+	j846392718 [label="Co zwykle robisz na urodziny, Flare?",shape=box,color=red];
+		j846392718 -> j135420194;
+	j2780475099 [label="Czy w tej epoce śpiewa się na urodziny? ",shape=box,color=red];
+		j2780475099 -> j1965748845;
+	j1642861336 [label="A więc... ile w ogóle masz lat, Lizzie?",shape=box,color=red];
+		j1642861336 -> j2577365583;
+	j2304316476 [label="Wszystkiego najlepszego, ty dziwaczny, przerażający, koszmarny instrumencie muzyczny. ",shape=box,color=red];
+		j2304316476 -> j2676293052;
+	j135420194 [label="zazwyczaj? idę się schlać w trzy dupy i wylatuję z ekipą na miasto",shape=box,color=blue];
+		j135420194 -> j2936142614;
+	j1965748845 [label="tak i to straszne doświadczenie. jeśli zechcesz namówić innych na śpiewanie, *wiem* gdzie śpisz i mam bardzo potężne głośniki",shape=box,color=blue];
+		j1965748845 -> "Chat ends.";
+	j2577365583 [label="maniery, Demonie. maniery",shape=box,color=blue];
+		j2577365583 -> "Chat ends.";
+	j2676293052 [label="+5 Chemistry",color=orange];
+		j2676293052 -> j2052931651;
+	j2936142614 [label="+5 Chemistry",color=orange];
+		j2936142614 -> j1911045261;
+	"Chat ends." [color=orange];
+	j2052931651 [label="aww, dziękujemy Ci, Cukiereczku. ten Demon mówi czasem najsłodsze rzeczy",shape=box,color=blue];
+		j2052931651 -> "Chat ends.";
+	j1911045261 [label="ale teraz bar jest moim domem więc... do pełna",shape=box,color=blue];
+		j1911045261 -> "Chat ends.";
+}

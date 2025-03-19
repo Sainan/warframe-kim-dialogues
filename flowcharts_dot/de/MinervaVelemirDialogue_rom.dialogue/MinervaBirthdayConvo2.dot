@@ -1,0 +1,23 @@
+digraph {
+	"MinervaBirthdayConvo2 begins." [color=orange];
+		"MinervaBirthdayConvo2 begins." -> j1292116409;
+		"MinervaBirthdayConvo2 begins." -> j2473454493;
+	j1292116409 [label="Wirst du mit Velimir heute an deinem Geburtstag Zeit verbringen können?",shape=box,color=red];
+		j1292116409 -> j2696256640;
+	j2473454493 [label="Hast du heute Pläne für deinen Geburtstag?",shape=box,color=red];
+		j2473454493 -> j348776324;
+	j2696256640 [label="Check boolean MinVelTogether",color=orange];
+		j2696256640 -> j2812193215 [label=true,color=green];
+		j2696256640 -> j683360899 [label=false,color=brown];
+	j348776324 [label="MomToxicated: Beiläufige internationale Kriegsverbrechen. Alkoholische Getränke.",shape=box,color=blue];
+		j348776324 -> j3160559314;
+	j2812193215 [label="+20 Chemistry",color=orange];
+		j2812193215 -> j1602410558;
+	j683360899 [label="MomToxicated: Das würde wahrscheinlich nur zu noch mehr Streit führen.",shape=box,color=blue];
+		j683360899 -> "Chat ends.";
+	j3160559314 [label="MomToxicated: Du weißt schon. Das Übliche.",shape=box,color=blue];
+		j3160559314 -> "Chat ends.";
+	j1602410558 [label="MomToxicated: Das werde ich. Und die Einzelheiten überlasse ich deiner Fantasie. Dort, wo sie hingehören. ;)",shape=box,color=blue];
+		j1602410558 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

@@ -1,0 +1,37 @@
+digraph {
+	"FlareBirthdayConvo1 begins." [color=orange];
+		"FlareBirthdayConvo1 begins." -> j3697070526;
+	j3697070526 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j3697070526 -> j2647545028 [label=true,color=green];
+		j3697070526 -> j3424271855 [label=true,color=green];
+		j3697070526 -> j94064030 [label=true,color=green];
+		j3697070526 -> j1706570098 [label=false,color=brown];
+		j3697070526 -> j2647545028 [label=false,color=brown];
+	j2647545028 [label="Doğum Günün Kutlu Olsun Flare! Grubun olmadan sessiz bir doğum günü olmalı.",shape=box,color=red];
+		j2647545028 -> j806415202;
+	j3424271855 [label="Hey Lizzie, doğum gününde havalı bir şey yedin mi?",shape=box,color=red];
+		j3424271855 -> j3091474801;
+	j94064030 [label="Hey Lizzie! Doğum Günün-- bekle. Senin doğum günün var mı ki?",shape=box,color=red];
+		j94064030 -> j515276747;
+	j1706570098 [label="Hey Flare, doğum günün için havalı bir şeyler yapıyor musun?",shape=box,color=red];
+		j1706570098 -> j190631559;
+	j806415202 [label="vay be",shape=box,color=blue];
+		j806415202 -> "Chat ends.";
+	j3091474801 [label="+5 Chemistry",color=orange];
+		j3091474801 -> j3355743841;
+	j515276747 [label="teknik olarak, sayısız doğum günümüz var. Sorduğun için Çok-Teşekkür-Ederim",shape=box,color=blue];
+		j515276747 -> "Chat ends.";
+	j190631559 [label="heh, şey. zaman döngüsünde bir alışveriş merkezinde sıkışıp kaldım, yani... seçenekler sınırlı gibi?",shape=box,color=blue];
+		j190631559 -> j3456619077;
+	"Chat ends." [color=orange];
+	j3355743841 [label="evet!! bir araba lastiğinin tamamını; jantı ve her şeyiyle beraber, sorduğun için teşekkür ederim!!!",shape=box,color=blue];
+		j3355743841 -> j1227375204;
+	j3456619077 [label="+5 Chemistry",color=orange];
+		j3456619077 -> j4104201719;
+	j1227375204 [label="...gerçi flare bundan şikayet edip durdu...",shape=box,color=blue];
+		j1227375204 -> "Chat ends.";
+	j4104201719 [label="ama amir, lettie, eleanor, aoi ve ben korkunç korku filmleri izleyerek \"kızlar\" gecesi geçiriyoruz. quincy de \"resmi olarak davet edildi\"",shape=box,color=blue];
+		j4104201719 -> j1670836925;
+	j1670836925 [label="eğlenceli olmalı",shape=box,color=blue];
+		j1670836925 -> "Chat ends.";
+}

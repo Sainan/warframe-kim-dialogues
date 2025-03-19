@@ -1,0 +1,20 @@
+digraph {
+	"KayaRank6Convo1 begins." [color=orange];
+		"KayaRank6Convo1 begins." -> j683603636;
+	j683603636 [label="Check boolean KayaLarunda",color=orange];
+		j683603636 -> j1810114998 [label=true,color=green];
+		j683603636 -> j3321667897 [label=false,color=brown];
+	j1810114998 [label="这是一条卡娅·维拉斯科的自动留言。",shape=box,color=blue];
+		j1810114998 -> j3452981311;
+	j3321667897 [label="这是一条卡娅·维拉斯科的自动留言。",shape=box,color=blue];
+		j3321667897 -> j599155789;
+	j3452981311 [label="如果你正在阅读这条留言，无论你身在何处，都可以在自己的时间里找到我。",shape=box,color=blue];
+		j3452981311 -> j2700389315;
+	j599155789 [label="如果你正在阅读这条留言，我已经断开了我的即时通账号，你可以来“老圆桌”外面找到我。",shape=box,color=blue];
+		j599155789 -> j2216222131;
+	j2700389315 [label="活着，笑着，爱着。",shape=box,color=blue];
+		j2700389315 -> "Chat ends.";
+	j2216222131 [label="1999，永远在这里。好耶。",shape=box,color=blue];
+		j2216222131 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

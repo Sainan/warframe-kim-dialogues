@@ -1,15 +1,40 @@
 {
+    "Tag": "Eleanor",
     "CharacterName": "/Lotus/Language/1999/MessengerEleanorName",
     "LocFile": "/Lotus/Language/1999Texting/EleanorRomance.loc",
-    "NpcLocTagPrefix": "TxtEleanor",
+    "SpeakerExports": [
+        {
+            "SpeakerLocTag": "",
+            "NpcLocTagPrefix": "TxtEleanor"
+        }
+    ],
     "AddPhAutomatically": 0,
-    "DialogueDelay": 1.5,
     "DateRank": 5,
-    "ProfilePicture": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpE.png",
+    "Upgrades": [
+        "/Lotus/Upgrades/Calendar/BaseEleanorUpgrade",
+        "/Lotus/Upgrades/Calendar/BaseEleanorAuraUpgrade"
+    ],
+    "Icons": [
+        {
+            "Tag": "Profile",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpE.png"
+        },
+        {
+            "Tag": "Calendar",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Calendar/Upgrades/NyxPixelHeadChroma.png"
+        }
+    ],
+    "Events": [
+        {
+            "Day": 306,
+            "Tag": "Birthday",
+            "LocTag": "",
+            "Icon": ""
+        }
+    ],
     "NickName": "/Lotus/Language/1999/MessengerEleanorUserName",
     "Status": "The Clash - BankRobber",
     "DatingSymbol": "EleanorDating",
-    "Birthday": 306,
     "Ranks": [
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
@@ -157,6 +182,19 @@
         "_breakUpEasterEggSound": "",
         "_syndicateTag": "HexSyndicate",
         "_questRankLimit": 3,
-        "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain"
+        "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain",
+        "_npcAvatar": "",
+        "_actionInst": "",
+        "_cameraSpotInst": "",
+        "_avatarAnimations": [],
+        "_avatarPositionWaypoints": [],
+        "_actionPositionWaypoints": [],
+        "_cameraSpotPositionWaypoints": [],
+        "_doorPortalPortForwarderTag": "",
+        "_nodeIntro": "",
+        "_transmissionIdleDelay": [
+            20,
+            25
+        ]
     }
 }

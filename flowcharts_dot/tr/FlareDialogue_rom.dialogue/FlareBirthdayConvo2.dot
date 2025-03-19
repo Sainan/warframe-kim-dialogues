@@ -1,0 +1,34 @@
+digraph {
+	"FlareBirthdayConvo2 begins." [color=orange];
+		"FlareBirthdayConvo2 begins." -> j737644427;
+	j737644427 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j737644427 -> j3626409497 [label=true,color=green];
+		j737644427 -> j1022268923 [label=true,color=green];
+		j737644427 -> j60686980 [label=true,color=green];
+		j737644427 -> j929877320 [label=true,color=green];
+		j737644427 -> j3626409497 [label=false,color=brown];
+		j737644427 -> j1022268923 [label=false,color=brown];
+	j3626409497 [label="Doğum gününde ne yapmaktan hoşlanırsın, Flare?",shape=box,color=red];
+		j3626409497 -> j3380340458;
+	j1022268923 [label="Bu devirde doğum günü şarkıları söylüyorlar mı? ",shape=box,color=red];
+		j1022268923 -> j4124109996;
+	j60686980 [label="Peki... Lizzie, sen kaç yaşına bastın?",shape=box,color=red];
+		j60686980 -> j604404158;
+	j929877320 [label="Doğum Günün Kutlu Olsun, seni tuhaf, Infested, dehşet verici, kabus yaratan müzik aleti. ",shape=box,color=red];
+		j929877320 -> j1804466992;
+	j3380340458 [label="normalde? kendimi içkiye verip arkadaşlarımla dışarı çıkmayı severim",shape=box,color=blue];
+		j3380340458 -> j1257378263;
+	j4124109996 [label="evet söylüyorlar ve bu korkunç. bu yüzden eğer insanlara bu şarkıyı söyletmeye çalışırsan, nerede uyuduğunu *biliyorum* ve çok yüksek sesli amfilerim var",shape=box,color=blue];
+		j4124109996 -> "Chat ends.";
+	j604404158 [label="çok ayıp İblis. hiç yaş sorulur mu",shape=box,color=blue];
+		j604404158 -> "Chat ends.";
+	j1804466992 [label="+5 Chemistry",color=orange];
+		j1804466992 -> j1628239987;
+	j1257378263 [label="+5 Chemistry",color=orange];
+		j1257378263 -> j3696871400;
+	"Chat ends." [color=orange];
+	j1628239987 [label="teşekkür ederim, şekerim. Bu iblis bazen çok tatlı şeyler söylüyo",shape=box,color=blue];
+		j1628239987 -> "Chat ends.";
+	j3696871400 [label="ama sanırım artık evim bir bar, o yüzden... sanırım burada demleneceğiz",shape=box,color=blue];
+		j3696871400 -> "Chat ends.";
+}

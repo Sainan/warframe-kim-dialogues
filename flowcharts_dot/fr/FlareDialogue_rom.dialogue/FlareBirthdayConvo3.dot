@@ -1,0 +1,32 @@
+digraph {
+	"FlareBirthdayConvo3 begins." [color=orange];
+		"FlareBirthdayConvo3 begins." -> j1381321099;
+	j1381321099 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j1381321099 -> j2026371568 [label=true,color=green];
+		j1381321099 -> j1541643612 [label=true,color=green];
+		j1381321099 -> j1744583577 [label=true,color=green];
+		j1381321099 -> j2580084356 [label=true,color=green];
+		j1381321099 -> j2026371568 [label=false,color=brown];
+		j1381321099 -> j1541643612 [label=false,color=brown];
+	j2026371568 [label="Joyeux anniversaire, Flare! Que dirais-tu de faire quelques parties de flipper dans la salle d'arcade?",shape=box,color=red];
+		j2026371568 -> j3141139895;
+	j1541643612 [label="Salut Flare, les premiers verres sont pour moi. Joyeux anniversaire.",shape=box,color=red];
+		j1541643612 -> j1585418078;
+	j1744583577 [label="Hé Lizzie, c'est l'anniversaire de Flare. Tu pourrais peut-être lui ficher la paix, aujourd'hui?",shape=box,color=red];
+		j1744583577 -> j2532825587;
+	j2580084356 [label="Je t'ai fait un gâteau d'anniversaire. Il est dans la poubelle. En fait, *c'est* la poubelle.",shape=box,color=red];
+		j2580084356 -> j2787246772;
+	j3141139895 [label="je passe",shape=box,color=blue];
+		j3141139895 -> "Chat ends.";
+	j1585418078 [label="+5 Chemistry",color=orange];
+		j1585418078 -> j856164140;
+	j2532825587 [label="peut-être que tu pourrais t'occuper de tes affaires",shape=box,color=blue];
+		j2532825587 -> "Chat ends.";
+	j2787246772 [label="+5 Chemistry",color=orange];
+		j2787246772 -> j2640419005;
+	"Chat ends." [color=orange];
+	j856164140 [label="merci, voyageur de l'espace. c'est bien d'avoir des amis qui se souviennent",shape=box,color=blue];
+		j856164140 -> "Chat ends.";
+	j2640419005 [label="CE DÉMON NOUS GÂTE!! ... Nous commencerons à penser que tu essaies de nous voler à Flare ;) ",shape=box,color=blue];
+		j2640419005 -> "Chat ends.";
+}

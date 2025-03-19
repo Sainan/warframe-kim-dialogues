@@ -18,10 +18,15 @@ for {
 	"AoiDialogue_rom.dialogue",
 	"ArthurDialogue_rom.dialogue",
 	"EleanorDialogue_rom.dialogue",
+	"FlareDialogue_rom.dialogue",
 	"HexDialogue_rom.dialogue",
 	"JabirDialogue_rom.dialogue",
+	"KayaDialogue_rom.dialogue",
 	"LettieDialogue_rom.dialogue",
+	"MinervaDialogue_rom.dialogue",
+	"MinervaVelemirDialogue_rom.dialogue",
 	"QuincyDialogue_rom.dialogue",
+	"VelimirDialogue_rom.dialogue",
 } as diag_name do
 	--print(diag_name)
 	local nodes_array = {}
@@ -125,12 +130,14 @@ for {
 				if type == "/EE/Types/Engine/CheckBooleanScriptDialogueNode" then
 					node.__order:insert("script_name")
 					node.script_name, i = string.unpack("<s4", rom, i) $if DEBUG then print("\tscript_name="..node.script_name) $end
-					i += 0xD8
-					node.__order:insert("arg1")
-					node.arg1, i = string.unpack("<s4", rom, i) $if DEBUG then print("\targ1="..node.arg1) $end
-					i += 0x10
-					node.__order:insert("arg2")
-					node.arg2, i = string.unpack("<s4", rom, i) $if DEBUG then print("\targ2="..node.arg2) $end
+					if node.script_name ~= "/Lotus/Scripts/1999/DialogueScriptNodes.lua" then
+						i += 0x88
+						node.__order:insert("arg1")
+						node.arg1, i = string.unpack("<s4", rom, i) $if DEBUG then print("\targ1="..node.arg1) $end
+						--[[i += 0x10
+						node.__order:insert("arg2")
+						node.arg2, i = string.unpack("<s4", rom, i) $if DEBUG then print("\targ2="..node.arg2) $end]]
+					end
 					i += 8
 				end
 			elseif type == "/EE/Types/Engine/SpecialCompletionDialogueNode" then
@@ -165,7 +172,7 @@ for {
 						node.script_args:insert(arg)
 					end
 				end
-				i += 0x1C
+				i += 0x24
 			end
 		end
 	end

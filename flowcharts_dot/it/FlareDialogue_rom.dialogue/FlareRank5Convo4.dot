@@ -1,0 +1,326 @@
+digraph {
+	"FlareRank5Convo4 begins." [color=orange];
+		"FlareRank5Convo4 begins." -> j1880680173;
+	j1880680173 [label="Check boolean FlareLizzieApart",color=orange];
+		j1880680173 -> "Chat ends." [label=true,color=green];
+		j1880680173 -> j3700432097 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j3700432097 [label="Check boolean FlareLizzieTogether",color=orange];
+		j3700432097 -> j3807866708 [label=true,color=green];
+		j3700432097 -> "Chat ends." [label=false,color=brown];
+	j3807866708 [label="Check boolean FlareRank5Convo2a",color=orange];
+		j3807866708 -> j4254523982 [label=true,color=green];
+		j3807866708 -> j83400649 [label=false,color=brown];
+	j4254523982 [label="Check boolean FlareRank5Convo3",color=orange];
+		j4254523982 -> j485203960 [label=true,color=green];
+		j4254523982 -> j703113533 [label=false,color=brown];
+	j83400649 [label="la musica è tornata a scorrere",shape=box,color=blue];
+		j83400649 -> j1310189186;
+	j485203960 [label="ehi, Drifter",shape=box,color=blue];
+		j485203960 -> j3043897103;
+	j703113533 [label="Deeemoooone oh Deeeemoooonnne!! Abbiamo bisogno del Tuo contributo il più rapidamente possibile",shape=box,color=blue];
+		j703113533 -> j2052889353;
+		j703113533 -> j1661246911;
+	j1310189186 [label="è come... se non si fermasse più. mi tiene insonne a tutte le ore ",shape=box,color=blue];
+		j1310189186 -> j2803469993;
+		j1310189186 -> j269123139;
+	j3043897103 [label="non so come descriverlo, sembra che il mio sangue sia elettrico",shape=box,color=blue];
+		j3043897103 -> j2365542141;
+	j2052889353 [label="Come posso aiutarti?",shape=box,color=red];
+		j2052889353 -> j3980677536;
+	j1661246911 [label="Ciao Lizzie. ",shape=box,color=red];
+		j1661246911 -> j3980677536;
+	j2803469993 [label="È una cosa buona o cattiva?",shape=box,color=red];
+		j2803469993 -> j3881055127;
+	j269123139 [label="scusa?",shape=box,color=red];
+		j269123139 -> j214051563;
+	j2365542141 [label="non ero così ispirato da quando abbiamo messo insieme la band",shape=box,color=blue];
+		j2365542141 -> j3529633606;
+	j3980677536 [label="Stiamo... cercando di aiutare il Nostro Amante a comporre musica, ma non Siamo sicure di essere brave in questo...",shape=box,color=blue];
+		j3980677536 -> j2043356824;
+	j3881055127 [label="è assolutamente meraviglioso!!",shape=box,color=blue];
+		j3881055127 -> j559573402;
+	j214051563 [label="haha non scusarti, è fantastico!!!",shape=box,color=blue];
+		j214051563 -> j559573402;
+	j3529633606 [label="spero di poterli rendere orgogliosi, ovunque siano ora",shape=box,color=blue];
+		j3529633606 -> j1134627039;
+	j2043356824 [label="saresti disposto ad aiutarCi? con questi... Testi delle Canzoni...?",shape=box,color=blue];
+		j2043356824 -> j2752463391;
+		j2043356824 -> j2961884665;
+	j559573402 [label="non ne sentivo più il bisogno da... beh...",shape=box,color=blue];
+		j559573402 -> j1108479408;
+	j1134627039 [label="non sapevo come sarei potuto andare avanti senza di loro, fino ad ora",shape=box,color=blue];
+		j1134627039 -> j991583784;
+	j2752463391 [label="È il minimo che possa fare per te.",shape=box,color=red];
+		j2752463391 -> j1489058499;
+	j2961884665 [label="Oh, sto *morendo* dalla voglia di sentirli. Sì. Grazie.",shape=box,color=red];
+		j2961884665 -> j3027549342;
+	j1108479408 [label="da quando viktor ha ucciso i miei amici",shape=box,color=blue];
+		j1108479408 -> j399822275;
+		j1108479408 -> j3652561157;
+	j991583784 [label="astrin si arrabbiava con me ogni volta che non volevo alzarmi dal letto",shape=box,color=blue];
+		j991583784 -> j1203368792;
+	j1489058499 [label="beh. ecco il Nostro contributo finora...",shape=box,color=blue];
+		j1489058499 -> j2942940126;
+	j3027549342 [label=".... Sappiamo quando Sei sarcastico, sai...",shape=box,color=blue];
+		j3027549342 -> j1489058499;
+	j399822275 [label="La canzone sarà per loro?",shape=box,color=red];
+		j399822275 -> j118361490;
+	j3652561157 [label="Di cosa parla la canzone?",shape=box,color=red];
+		j3652561157 -> j715255545;
+	j1203368792 [label="eravamo molto amici. non mi lasciava mai crogiolarmi nei miei sbalzi d'umore, sai?",shape=box,color=blue];
+		j1203368792 -> j1494775902;
+	j2942940126 [label="Check boolean FlareStoryNone",color=orange];
+		j2942940126 -> j2052520432 [label=true,color=green];
+		j2942940126 -> j4226659262 [label=false,color=brown];
+	j118361490 [label="no, non credo. hanno già la loro canzone",shape=box,color=blue];
+		j118361490 -> j3472134447;
+	j715255545 [label="ancora non lo so, onestamente... non lo saprò finché non la vedrò tutta insieme",shape=box,color=blue];
+		j715255545 -> j3472134447;
+	j1494775902 [label="anche quando insistevo che era tutto ciò che volevo fare",shape=box,color=blue];
+		j1494775902 -> j2230935270;
+	j2052520432 [label="Whispers call from the great beyond,
+A song of silence, cold and strong.
+I reach for hands that do not exist,
+Yet pull me into death’s abyss.",shape=box,color=blue];
+		j2052520432 -> j2724592025;
+		j2052520432 -> j937162112;
+		j2052520432 -> j1249988426;
+	j4226659262 [label="Check boolean FlareStoryHero",color=orange];
+		j4226659262 -> j3497370164 [label=true,color=green];
+		j4226659262 -> j2035061969 [label=false,color=brown];
+	j3472134447 [label="inoltre, metà dei testi non devo nemmeno scriverli io",shape=box,color=blue];
+		j3472134447 -> j1061248926;
+	j2230935270 [label="vorrei che quell'idiota capisse che tipo di belle persone ha preso da questo mondo...",shape=box,color=blue];
+		j2230935270 -> j3982052940;
+	j2724592025 [label="<RETRO_EMOJI_OHNO>",shape=box,color=red];
+		j2724592025 -> j2861476594;
+	j937162112 [label="Brillante. Nessuna nota.",shape=box,color=red];
+		j937162112 -> j1719658897;
+	j1249988426 [label="Io... beh... um...",shape=box,color=red];
+		j1249988426 -> j2861476594;
+	j3497370164 [label="You arrived in gold and fire,
+Wings of light, holy pyre.
+Eyes like stars, voice divine,
+A beacon that is surely mine.",shape=box,color=blue];
+		j3497370164 -> j2724592025;
+		j3497370164 -> j937162112;
+		j3497370164 -> j1249988426;
+	j2035061969 [label="Check boolean FlareStoryVillain",color=orange];
+		j2035061969 -> j671710132 [label=true,color=green];
+		j2035061969 -> j1535004937 [label=false,color=brown];
+	j1061248926 [label="lei è stata d'aiuto. porta una certa... profondità, lo devo ammettere ",shape=box,color=blue];
+		j1061248926 -> j2237037672;
+	j3982052940 [label="ma è esattamente *per questo* che andiamo avanti in loro assenza",shape=box,color=blue];
+		j3982052940 -> j3859978882;
+	j2861476594 [label="è troppo? Pensiamo che forse potrebbe essere troppo...",shape=box,color=blue];
+		j2861476594 -> j3908771055;
+		j2861476594 -> j355777696;
+		j2861476594 -> j2237611770;
+	j1719658897 [label="+5 Chemistry",color=orange];
+		j1719658897 -> j3025335600;
+	j671710132 [label="Limbs entwined in writhing blight,
+Flesh dissolves beneath your sight.
+A lover’s kiss, a fatal mark,
+An oath sworn in the depths so dark.",shape=box,color=blue];
+		j671710132 -> j2724592025;
+		j671710132 -> j937162112;
+		j671710132 -> j1249988426;
+	j1535004937 [label="I am no more, I am the whole,
+A thousand whispers consume my soul.
+I crave the unity, crave the lie,
+To be one with you—my final cry.
+DEEAAAAAATTTTHHHHHHH!!!!!",shape=box,color=blue];
+		j1535004937 -> j2724592025;
+		j1535004937 -> j937162112;
+		j1535004937 -> j1249988426;
+	j2237037672 [label="è un po' più in stile death metal di quello che mi piace di solito, ma ehi, ognuno ha i suoi gusti haha",shape=box,color=blue];
+		j2237037672 -> j1077114598;
+		j2237037672 -> j873636046;
+	j3859978882 [label="e con lizzie... e grazie a te... penso di avere la forza per farlo",shape=box,color=blue];
+		j3859978882 -> j1113460219;
+	j3908771055 [label="Porca miseria. Lol",shape=box,color=red];
+		j3908771055 -> j1434471879;
+	j355777696 [label="Nah... andrà *bene*.",shape=box,color=red];
+		j355777696 -> j2263101439;
+	j2237611770 [label="Forse è un po'... troppo?",shape=box,color=red];
+		j2237611770 -> j1131195676;
+	j3025335600 [label="<RETRO_EMOJI_CAT>",shape=box,color=blue];
+		j3025335600 -> j4087605620;
+	j1077114598 [label="Mi piacerebbe ascoltarla da terminata. :)",shape=box,color=red];
+		j1077114598 -> j1667531653;
+	j873636046 [label="Puoi darmi una piccola anteprima?",shape=box,color=red];
+		j873636046 -> j2460921153;
+	j1113460219 [label="Check boolean FlareSol",color=orange];
+		j1113460219 -> j1215483307 [label=true,color=green];
+		j1113460219 -> j1150332665 [label=false,color=brown];
+	j1434471879 [label="era un sì?",shape=box,color=blue];
+		j1434471879 -> j884412944;
+	j2263101439 [label="Non ci piace questa... Cosa... dell'Essere Creative... è troppo soggettiva per i Nostri gusti...",shape=box,color=blue];
+		j2263101439 -> j3302959001;
+	j1131195676 [label="dobbiamo ridurre l'intensità?",shape=box,color=blue];
+		j1131195676 -> j2340117069;
+	j4087605620 [label="Questo Demone ci compiace con le sue lodi... Continueremo in questa impresa!",shape=box,color=blue];
+		j4087605620 -> j3302959001;
+	j1667531653 [label="certo",shape=box,color=blue];
+		j1667531653 -> j2497686315;
+	j2460921153 [label="Check boolean FlarePainNone",color=orange];
+		j2460921153 -> j1299795130 [label=true,color=green];
+		j2460921153 -> j1755442437 [label=false,color=brown];
+	j1215483307 [label="I wake up and the world feels gray,
+No golden light to start my day.
+I hear your voice, but it’s just a dream,
+Like a memory fading in the beam.",shape=box,color=blue];
+		j1215483307 -> j2814527038;
+	j1150332665 [label="Check boolean FlareLua",color=orange];
+		j1150332665 -> j1477821902 [label=true,color=green];
+		j1150332665 -> j1477821902 [label=false,color=brown];
+	j884412944 [label="Era un sì.",shape=box,color=red];
+		j884412944 -> j826640320;
+	j3302959001 [label="Boolean FlareRank5Convo3 is now true.",color=orange];
+		j3302959001 -> j412895162;
+	j2340117069 [label="Bisogna ridurre sì.",shape=box,color=red];
+		j2340117069 -> j826640320;
+	j2497686315 [label="non mi è mai piaciuto mostrare i miei testi alle persone troppo in anticipo. specialmente a joey",shape=box,color=blue];
+		j2497686315 -> j579198603;
+	j1299795130 [label="eh. non sembri il tipo da poesia. meglio aspettare che sia finita",shape=box,color=blue];
+		j1299795130 -> j2497686315;
+	j1755442437 [label="Check boolean FlarePainStranger",color=orange];
+		j1755442437 -> j2925009205 [label=true,color=green];
+		j1755442437 -> j485104509 [label=false,color=brown];
+	j2814527038 [label="la canzone è quasi terminata",shape=box,color=blue];
+		j2814527038 -> j1771474091;
+	j1477821902 [label="I chase the shadows, I feel your name,
+But it’s never the same.
+I reach for you, but you're out of sight,
+Gone with the stars, fading with the night.",shape=box,color=blue];
+		j1477821902 -> j2814527038;
+	j826640320 [label="rimettiamoci al lavoro!",shape=box,color=blue];
+		j826640320 -> j2263101439;
+	j412895162 [label="+20 Chemistry",color=orange];
+		j412895162 -> "Chat ends. Next chat will be FlareRank6Convo1.";
+	j579198603 [label="comunque, sempre per divertimento. o almeno, mi piaceva fingere che lo fosse",shape=box,color=blue];
+		j579198603 -> j1942977449;
+	j2925009205 [label="certo, non è ancora terminata, ma",shape=box,color=blue];
+		j2925009205 -> j3307393991;
+	j485104509 [label="Check boolean FlarePainChronic",color=orange];
+		j485104509 -> j2879413607 [label=true,color=green];
+		j485104509 -> j800347530 [label=false,color=brown];
+	j1771474091 [label="è quasi pronta",shape=box,color=blue];
+		j1771474091 -> j1164915727;
+		j1771474091 -> j385691172;
+	"Chat ends. Next chat will be FlareRank6Convo1." [color=orange];
+	j1942977449 [label="penso che gli è sempre un po' bruciato il fatto che non ha mai potuto suonare la chitarra solista. non è colpa mia se era scarsissimo nel suonare gli assoli",shape=box,color=blue];
+		j1942977449 -> j2817806343;
+	j3307393991 [label="The morning light cuts through my room,
+But I don’t know who’s waking soon.
+A thousand faces, none feel right,
+I change with every shattered night.",shape=box,color=blue];
+		j3307393991 -> j1848505861;
+	j2879413607 [label="certo, non è ancora terminata, ma",shape=box,color=blue];
+		j2879413607 -> j2923824068;
+	j800347530 [label="Check boolean FlarePainUnique",color=orange];
+		j800347530 -> j3694372164 [label=true,color=green];
+		j800347530 -> j634374653 [label=false,color=brown];
+	j1164915727 [label="Meglio di quello che ha scritto Lizzie.",shape=box,color=red];
+		j1164915727 -> j3377544056;
+	j385691172 [label="Penso che sia meravigliosa.",shape=box,color=red];
+		j385691172 -> j2989253851;
+	j2817806343 [label="migliora mai? il dolore per la perdita delle persone?",shape=box,color=blue];
+		j2817806343 -> j1830681467;
+		j2817806343 -> j397361072;
+		j2817806343 -> j3970856572;
+	j1848505861 [label="cosa ne pensi?",shape=box,color=blue];
+		j1848505861 -> j1781436844;
+		j1848505861 -> j2098352271;
+		j1848505861 -> j636007110;
+	j2923824068 [label="Woke up to a battle I never chose,
+A war inside me that never slows.
+Every step feels like broken glass,
+But I smile and say, \"This too shall pass.\"",shape=box,color=blue];
+		j2923824068 -> j1848505861;
+	j3694372164 [label="certo, non è ancora terminata, ma",shape=box,color=blue];
+		j3694372164 -> j692283472;
+	j634374653 [label="Check boolean FlarePainEmpathy",color=orange];
+		j634374653 -> j1788185117 [label=true,color=green];
+		j634374653 -> j1788185117 [label=false,color=brown];
+	j3377544056 [label="eh. la poesia è dura per gli umani. sta imparando",shape=box,color=blue];
+		j3377544056 -> j1491575820;
+	j2989253851 [label="grazie",shape=box,color=blue];
+		j2989253851 -> j1491575820;
+	j1830681467 [label="Continuo a sperare che accada. Ti farò sapere se accadrà.",shape=box,color=red];
+		j1830681467 -> j695112547;
+	j397361072 [label="No. Non diventa mai più facile. Ti adatti solo a portare il peso.",shape=box,color=red];
+		j397361072 -> j3218457063;
+	j3970856572 [label="Sì. Col tempo.",shape=box,color=red];
+		j3970856572 -> j3611565363;
+	j1781436844 [label="Non me ne intendo di poesia, ma mi piace molto.",shape=box,color=red];
+		j1781436844 -> j3886767508;
+	j2098352271 [label="La adoro!",shape=box,color=red];
+		j2098352271 -> j4002248558;
+	j636007110 [label="Non lasciare il tuo lavoro. Oh, aspetta. lol",shape=box,color=red];
+		j636007110 -> j2098304952;
+	j692283472 [label="There’s a fire in my chest, but it gives no light,
+Just a hunger that keeps me awake at night.
+Like a whisper I can never trace,
+A ghost with no name, but I know its face.",shape=box,color=blue];
+		j692283472 -> j1848505861;
+	j1788185117 [label="certo, non è ancora terminata, ma",shape=box,color=blue];
+		j1788185117 -> j1217586933;
+	j1491575820 [label="ieri ho convinto amir a preparare per lizzie una delle sue strane... creazioni gelatose",shape=box,color=blue];
+		j1491575820 -> j429891212;
+	j695112547 [label="ottimo...",shape=box,color=blue];
+		j695112547 -> j4036146436;
+	j3218457063 [label="sospettavo fosse così. grazie per l'onestà",shape=box,color=blue];
+		j3218457063 -> j4036146436;
+	j3611565363 [label="qualcosa in cui sperare con tutto questo tempo libero, suppongo...",shape=box,color=blue];
+		j3611565363 -> j4036146436;
+	j3886767508 [label="non prende mai veramente vita finché non è messa in musica, sono d'accordo",shape=box,color=blue];
+		j3886767508 -> j1712331487;
+	j4002248558 [label="grazie",shape=box,color=blue];
+		j4002248558 -> j1712331487;
+	j2098304952 [label="sembri joey",shape=box,color=blue];
+		j2098304952 -> j579198603;
+	j1217586933 [label="I see the storm behind your eyes,
+Lightning cracks but no one cries.
+You wear your sorrow like a chain,
+But I can feel your hopeless pain.",shape=box,color=blue];
+		j1217586933 -> j1848505861;
+	j429891212 [label="era di un colore che non esiste in natura. penso che fosse più un orsetto gommoso che un gelato vero e proprio ",shape=box,color=blue];
+		j429891212 -> j172794004;
+	j4036146436 [label="sapevamo tutti che eravamo in pericolo quando siamo venuti qui. abbiamo concordato tutti che valeva la pena correre il rischio",shape=box,color=blue];
+		j4036146436 -> j548751630;
+	j1712331487 [label="in ogni caso di solito non mostro mai in anticipo i miei testi alle persone. joey li prendeva sempre in giro",shape=box,color=blue];
+		j1712331487 -> j579198603;
+	j172794004 [label="aveva tutti questi... biscotti ricoperti di cioccolato dappertutto, e... granelli di zucchero fritti? non lo so",shape=box,color=blue];
+		j172794004 -> j2257174702;
+	j548751630 [label="ma a volte non posso fare a meno di chiedermi... ",shape=box,color=blue];
+		j548751630 -> j1915647481;
+	j2257174702 [label="non avrei mai pensato di sentire una chitarra fare le fusa",shape=box,color=blue];
+		j2257174702 -> j2296741541;
+	j1915647481 [label="se solo fossimo rimasti a casa. in silenzio. forse sarebbero ancora tutti vivi",shape=box,color=blue];
+		j1915647481 -> j2145850697;
+		j1915647481 -> j3052581773;
+	j2296741541 [label="era semplicemente... così... felice",shape=box,color=blue];
+		j2296741541 -> j3293003285;
+	j2145850697 [label="A volte, essere rumorosi è tutto ciò che ci resta in questa vita. Spero lo sapessero.",shape=box,color=red];
+		j2145850697 -> j1176089770;
+	j3052581773 [label="Impazzirai se continuerai a chiederti \"e se\" per l'eternità. Non lasciarti sopraffare dal senso di colpa.",shape=box,color=red];
+		j3052581773 -> j1176089770;
+	j3293003285 [label="e senza accorgermene per ben due minuti... avevo un sorriso a trentadue denti",shape=box,color=blue];
+		j3293003285 -> j3880675796;
+	j1176089770 [label="La colpa è di Viktor. Non tua. Non loro.",shape=box,color=red];
+		j1176089770 -> j3626355186;
+	j3880675796 [label="comunque... non so dove volessi arrivare con questo, se non per dire... grazie",shape=box,color=blue];
+		j3880675796 -> j1863486435;
+	j3626355186 [label="+5 Chemistry",color=orange];
+		j3626355186 -> j720437465;
+	j1863486435 [label="a presto",shape=box,color=blue];
+		j1863486435 -> j412895162;
+	j720437465 [label="sì. hai ragione. grazie, amico",shape=box,color=blue];
+		j720437465 -> j971920251;
+	j971920251 [label="hm. questo mi dà qualche idea in più per i testi. torno subito",shape=box,color=blue];
+		j971920251 -> j2204681605;
+	j2204681605 [label="Boolean FlareRank5Convo2a is now true.",color=orange];
+		j2204681605 -> j412895162;
+}

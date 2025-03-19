@@ -1,0 +1,20 @@
+digraph {
+	"KayaRank6Convo1 begins." [color=orange];
+		"KayaRank6Convo1 begins." -> j683603636;
+	j683603636 [label="Check boolean KayaLarunda",color=orange];
+		j683603636 -> j3775843026 [label=true,color=green];
+		j683603636 -> j3676150111 [label=false,color=brown];
+	j3775843026 [label="Это автоматическое сообщение от КАЙИ ВЕЛАСКО.",shape=box,color=blue];
+		j3775843026 -> j3712848550;
+	j3676150111 [label="Это автоматическое сообщение от КАЙИ ВЕЛАСКО.",shape=box,color=blue];
+		j3676150111 -> j3090180627;
+	j3712848550 [label="Если читаешь это, ищи меня там, где находишь себя, где бы ты ни была.",shape=box,color=blue];
+		j3712848550 -> j903657378;
+	j3090180627 [label="Если ты это читаешь, я отключила свой KIM-аккаунт и меня можно найти за \"Круглым Столом\".",shape=box,color=blue];
+		j3090180627 -> j2794616282;
+	j903657378 [label="Живи, Смейся, Люби.",shape=box,color=blue];
+		j903657378 -> "Chat ends.";
+	j2794616282 [label="1999 навсегда. Ура.",shape=box,color=blue];
+		j2794616282 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

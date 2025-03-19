@@ -1,0 +1,37 @@
+digraph {
+	"FlareBirthdayConvo1 begins." [color=orange];
+		"FlareBirthdayConvo1 begins." -> j3697070526;
+	j3697070526 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j3697070526 -> j595360076 [label=true,color=green];
+		j3697070526 -> j3072088367 [label=true,color=green];
+		j3697070526 -> j108162633 [label=true,color=green];
+		j3697070526 -> j2027589075 [label=false,color=brown];
+		j3697070526 -> j595360076 [label=false,color=brown];
+	j595360076 [label="สุขสันต์วันเกิดนะ Flare! พอไม่มีวงดนตรีอยู่ด้วย ก็คงจะเป็นวันเกิดที่เงียบ ๆ หน่อย",shape=box,color=red];
+		j595360076 -> j355565384;
+	j3072088367 [label="เฮ้ Lizzie มีแผนจะกินอะไรเจ๋ง ๆ ในวันเกิดบ้างไหม",shape=box,color=red];
+		j3072088367 -> j2160181245;
+	j108162633 [label="เฮ้ Lizzie สุขสันต์วันเกิด-- เดี๋ยวนะ มีวันเกิดกับเค้าด้วยเหรอ",shape=box,color=red];
+		j108162633 -> j3421356317;
+	j2027589075 [label="เฮ้ Flare มีแผนจะไปทำอะไรเจ๋ง ๆ ในวันเกิดบ้างไหม",shape=box,color=red];
+		j2027589075 -> j3437985172;
+	j355565384 [label="ว้าว",shape=box,color=blue];
+		j355565384 -> "Chat ends.";
+	j2160181245 [label="+5 Chemistry",color=orange];
+		j2160181245 -> j4119054342;
+	j3421356317 [label="ในทางเทคนิคแล้ว เรามีวันเกิดมากมาย ขอบ-คุณ-มาก-ที่-ถาม",shape=box,color=blue];
+		j3421356317 -> "Chat ends.";
+	j3437985172 [label="เฮ้ อืม การติดอยู่ในห้างในวงจรเวลาแบบนี้... ตัวเลือกมันก็มีจำกัดอยู่นะ",shape=box,color=blue];
+		j3437985172 -> j3259660152;
+	"Chat ends." [color=orange];
+	j4119054342 [label="ใช่!! ทั้งยางรถ ทั้งล้อ ทั้งขอบ ขอบคุณที่ถามนะ!!!",shape=box,color=blue];
+		j4119054342 -> j1326142499;
+	j3259660152 [label="+5 Chemistry",color=orange];
+		j3259660152 -> j1497582835;
+	j1326142499 [label="...แต่ flare ยังคงบ่นเรื่องนั้นไม่หยุดเลย...",shape=box,color=blue];
+		j1326142499 -> "Chat ends.";
+	j1497582835 [label="แต่ amir, lettie, eleanor, aoi และเรากำลังจะจัดคืนของ \"สาว ๆ \" ด้วยการดูหนังสยองขวัญสุดห่วย แถม quincy ยังได้รับเชิญอย่างเป็นทางการให้มางานปาร์ตี้ด้วย",shape=box,color=blue];
+		j1497582835 -> j1851879360;
+	j1851879360 [label="ก็น่าจะสนุกดี",shape=box,color=blue];
+		j1851879360 -> "Chat ends.";
+}

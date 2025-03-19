@@ -1,0 +1,123 @@
+{
+    "Tag": "Melimir",
+    "CharacterName": "/Lotus/Language/1999/MessengerMinVelGroupName",
+    "FirstDialogue": "MinVelRank1Convo1",
+    "LocFile": "/Lotus/Language/1999Texting/MinervaVelemirDialogue.loc",
+    "SpeakerExports": [
+        {
+            "SpeakerLocTag": "/Lotus/Language/1999/MessengerMinervaUserName",
+            "NpcLocTagPrefix": "TxtMinerva"
+        },
+        {
+            "SpeakerLocTag": "/Lotus/Language/1999/MessengerVelimirUserName",
+            "NpcLocTagPrefix": "TxtVelimir"
+        }
+    ],
+    "AddPhAutomatically": 0,
+    "AvailableSyndicateRank": 4,
+    "RequiredSyndicateRank": 5,
+    "Icons": [
+        {
+            "Tag": "Profile",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpI.png"
+        }
+    ],
+    "Events": [
+        {
+            "Day": 74,
+            "Tag": "Birthday",
+            "LocTag": "/Lotus/Language/1999/MessengerMinervaName",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpL.png"
+        },
+        {
+            "Day": 355,
+            "Tag": "Birthday",
+            "LocTag": "/Lotus/Language/1999/MessengerVelimirName",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpK.png"
+        }
+    ],
+    "IsGroupDialogue": 1,
+    "NickName": "/Lotus/Language/1999/MessengerMinVelGroupName",
+    "Ranks": [
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank1_1",
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank1_2",
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank1_3"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 0,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/FriendlyRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank2_1",
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank2_2",
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank2_3"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 3,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/LikedRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank3_1",
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank3_2",
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank3_3"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 6,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/TrustedRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank4_1",
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank4_2",
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank4_3"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 9,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/CloseRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank5_1",
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank5_2",
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank5_3"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 13,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/AssociatesRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank6_1"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 17,
+            "UnlockCondition": "",
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/BestiesRank",
+            "NotesList": [
+                "/Lotus/Language/1999Texting/Romance/MinVelNotesRank7_1"
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 17,
+            "UnlockCondition": "MinVelTogether",
+            "DialogueBin": 6
+        }
+    ]
+}

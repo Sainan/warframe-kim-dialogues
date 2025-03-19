@@ -1,0 +1,20 @@
+digraph {
+	"KayaRank6Convo1 begins." [color=orange];
+		"KayaRank6Convo1 begins." -> j683603636;
+	j683603636 [label="Check boolean KayaLarunda",color=orange];
+		j683603636 -> j421142945 [label=true,color=green];
+		j683603636 -> j898958751 [label=false,color=brown];
+	j421142945 [label="นี่คือข้อความอัตโนมัติจาก KAYA VELASCO",shape=box,color=blue];
+		j421142945 -> j2188817962;
+	j898958751 [label="นี่คือข้อความอัตโนมัติจาก KAYA VELASCO",shape=box,color=blue];
+		j898958751 -> j1340364755;
+	j2188817962 [label="หากกำลังอ่านข้อความนี้ โปรดตามหาตัวหนูในที่ที่คุณจะตามหาตัวเอง ไม่ว่าจะอยู่ที่ไหนก็ตาม",shape=box,color=blue];
+		j2188817962 -> j275874568;
+	j1340364755 [label="หากคุณกำลังอ่านข้อความนี้ แสดงว่าฉันได้ยกเลิกบัญชี KIM แล้ว และคุณสามารถไปตามหาได้ที่ด้านนอกร้าน 'The Round Table'",shape=box,color=blue];
+		j1340364755 -> j1823460815;
+	j275874568 [label="มีชีวิต หัวเราะ รัก",shape=box,color=blue];
+		j275874568 -> "Chat ends.";
+	j1823460815 [label="1999 ตลอดไป เย่",shape=box,color=blue];
+		j1823460815 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

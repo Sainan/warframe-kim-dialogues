@@ -1,0 +1,37 @@
+digraph {
+	"FlareBirthdayConvo1 begins." [color=orange];
+		"FlareBirthdayConvo1 begins." -> j3697070526;
+	j3697070526 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j3697070526 -> j2474045842 [label=true,color=green];
+		j3697070526 -> j4081083643 [label=true,color=green];
+		j3697070526 -> j3712268279 [label=true,color=green];
+		j3697070526 -> j3486840072 [label=false,color=brown];
+		j3697070526 -> j2474045842 [label=false,color=brown];
+	j2474045842 [label="Happy Birthday, Flare! Must be a quiet one without your band around.",shape=box,color=red];
+		j2474045842 -> j3088465350;
+	j4081083643 [label="Hey Lizzie, eat anything cool for your birthday?",shape=box,color=red];
+		j4081083643 -> j2309795458;
+	j3712268279 [label="Hey Lizzie! Happy Bir-- wait. Do you even *have* a birthday?",shape=box,color=red];
+		j3712268279 -> j2112571934;
+	j3486840072 [label="Hey Flare, doing anything cool for your birthday?",shape=box,color=red];
+		j3486840072 -> j1685371978;
+	j3088465350 [label="wow",shape=box,color=blue];
+		j3088465350 -> "Chat ends.";
+	j2309795458 [label="+5 Chemistry",color=orange];
+		j2309795458 -> j1570454258;
+	j2112571934 [label="technically, We have countless birthdays, Thank-You-Very-Much-For-Asking",shape=box,color=blue];
+		j2112571934 -> "Chat ends.";
+	j1685371978 [label="heh, well. i'm stuck in a mall in a time loop, so... options are limited?",shape=box,color=blue];
+		j1685371978 -> j3979644185;
+	"Chat ends." [color=orange];
+	j1570454258 [label="yes!! a whole car tire, rim wheel and all, thank You for asking!!!",shape=box,color=blue];
+		j1570454258 -> j1634495740;
+	j3979644185 [label="+5 Chemistry",color=orange];
+		j3979644185 -> j814983208;
+	j1634495740 [label="...flare has not stopped complaining about it, though...",shape=box,color=blue];
+		j1634495740 -> "Chat ends.";
+	j814983208 [label="but amir, lettie, eleanor, aoi & i are having a \"girls\" night in watching terrible horror movies. quincy is also \"formally invited to crash\"",shape=box,color=blue];
+		j814983208 -> j871967648;
+	j871967648 [label="should be fun",shape=box,color=blue];
+		j871967648 -> "Chat ends.";
+}

@@ -1,13 +1,40 @@
 {
+    "Tag": "Amir",
     "CharacterName": "/Lotus/Language/1999/MessengerJabirName",
     "LocFile": "/Lotus/Language/1999Texting/JabirRomance.loc",
-    "NpcLocTagPrefix": "TxtJabir",
-    "DialogueDelay": 0,
-    "ProfilePicture": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpC.png",
+    "SpeakerExports": [
+        {
+            "SpeakerLocTag": "",
+            "NpcLocTagPrefix": "TxtJabir"
+        }
+    ],
+    "MessageDelay": 0,
+    "MessageLengthDelay": 0.01,
+    "Upgrades": [
+        "/Lotus/Upgrades/Calendar/BaseAmirUpgrade",
+        "/Lotus/Upgrades/Calendar/BaseAmirAuraUpgrade"
+    ],
+    "Icons": [
+        {
+            "Tag": "Profile",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Texts/RetroPfpC.png"
+        },
+        {
+            "Tag": "Calendar",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Calendar/Upgrades/VoltPixelHeadChroma.png"
+        }
+    ],
+    "Events": [
+        {
+            "Day": 143,
+            "Tag": "Birthday",
+            "LocTag": "",
+            "Icon": ""
+        }
+    ],
     "NickName": "/Lotus/Language/1999/MessengerJabirUserName",
     "Status": "The Clash - BankRobber",
     "DatingSymbol": "AmirDating",
-    "Birthday": 143,
     "Ranks": [
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
@@ -155,6 +182,19 @@
         "_breakUpEasterEggSound": "",
         "_syndicateTag": "HexSyndicate",
         "_questRankLimit": 3,
-        "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain"
+        "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain",
+        "_npcAvatar": "",
+        "_actionInst": "",
+        "_cameraSpotInst": "",
+        "_avatarAnimations": [],
+        "_avatarPositionWaypoints": [],
+        "_actionPositionWaypoints": [],
+        "_cameraSpotPositionWaypoints": [],
+        "_doorPortalPortForwarderTag": "",
+        "_nodeIntro": "",
+        "_transmissionIdleDelay": [
+            20,
+            25
+        ]
     }
 }

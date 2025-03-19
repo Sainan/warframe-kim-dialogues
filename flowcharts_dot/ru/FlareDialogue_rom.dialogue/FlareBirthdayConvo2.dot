@@ -1,0 +1,34 @@
+digraph {
+	"FlareBirthdayConvo2 begins." [color=orange];
+		"FlareBirthdayConvo2 begins." -> j737644427;
+	j737644427 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j737644427 -> j499219540 [label=true,color=green];
+		j737644427 -> j2709742440 [label=true,color=green];
+		j737644427 -> j2127019434 [label=true,color=green];
+		j737644427 -> j2766203913 [label=true,color=green];
+		j737644427 -> j499219540 [label=false,color=brown];
+		j737644427 -> j2709742440 [label=false,color=brown];
+	j499219540 [label="А что тебе нравится делать на свой день рождения, Флэр?",shape=box,color=red];
+		j499219540 -> j2366613757;
+	j2709742440 [label="В эту эпоху вообще поют песни на день рождения? ",shape=box,color=red];
+		j2709742440 -> j2037865884;
+	j2127019434 [label="Так... сколько тебе на самом деле, Лиззи?",shape=box,color=red];
+		j2127019434 -> j271451929;
+	j2766203913 [label="С Днём Рождения, тебя чудной, Заражённый, жуткий и вызывающий кошмары музыкальный инструмент. ",shape=box,color=red];
+		j2766203913 -> j1021022798;
+	j2366613757 [label="обычно? пью до упаду и отрываюсь с друзьями в городе",shape=box,color=blue];
+		j2366613757 -> j1464573310;
+	j2037865884 [label="поют, и это отвратительно. поэтому если вдруг решишь устроить хор, я *в курсе*, где ты ночуешь, и мои усилки очень громки",shape=box,color=blue];
+		j2037865884 -> "Chat ends.";
+	j271451929 [label="манеры, Демон. манеры",shape=box,color=blue];
+		j271451929 -> "Chat ends.";
+	j1021022798 [label="+5 Chemistry",color=orange];
+		j1021022798 -> j1913933493;
+	j1464573310 [label="+5 Chemistry",color=orange];
+		j1464573310 -> j4008539245;
+	"Chat ends." [color=orange];
+	j1913933493 [label="ау, спасибо Тебе, сахарок. Этот Демон порой бывает ну таким душкой",shape=box,color=blue];
+		j1913933493 -> "Chat ends.";
+	j4008539245 [label="но теперь, полагаю, мой дом это бар, так что... давайте отрываться, я полагаю",shape=box,color=blue];
+		j4008539245 -> "Chat ends.";
+}

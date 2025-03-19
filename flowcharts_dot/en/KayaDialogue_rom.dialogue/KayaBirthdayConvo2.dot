@@ -1,0 +1,16 @@
+digraph {
+	"KayaBirthdayConvo2 begins." [color=orange];
+		"KayaBirthdayConvo2 begins." -> j3170600901;
+		"KayaBirthdayConvo2 begins." -> j429629873;
+	j3170600901 [label="Happy birthday, Kaya. Planning a \"Party of your Lifetime\" today? Balloons? Streamers? The whole deal?",shape=box,color=red];
+		j3170600901 -> j1155619670;
+	j429629873 [label="Got any plans for your birthday today?",shape=box,color=red];
+		j429629873 -> j2397371302;
+	j1155619670 [label="Ugh. ew, no. I wouldn't be caught dead with that kid stuff.",shape=box,color=blue];
+		j1155619670 -> "Chat ends.";
+	j2397371302 [label="+20 Chemistry",color=orange];
+		j2397371302 -> j337327963;
+	"Chat ends." [color=orange];
+	j337327963 [label="actually yeah. Lettie's gonna show me how to dissect a dead body, isn't that cool?!",shape=box,color=blue];
+		j337327963 -> "Chat ends.";
+}

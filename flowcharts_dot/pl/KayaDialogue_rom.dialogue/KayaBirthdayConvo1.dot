@@ -1,0 +1,16 @@
+digraph {
+	"KayaBirthdayConvo1 begins." [color=orange];
+		"KayaBirthdayConvo1 begins." -> j2253170607;
+		"KayaBirthdayConvo1 begins." -> j3599157426;
+	j2253170607 [label="Hej Kaja. Wszystkiego najlepszego!",shape=box,color=red];
+		j2253170607 -> j2466044541;
+	j3599157426 [label="Wszystkiego najlepszego, Kaja. Czujesz się już starzej?",shape=box,color=red];
+		j3599157426 -> j812538598;
+	j2466044541 [label="+20 Chemistry",color=orange];
+		j2466044541 -> j4079038970;
+	j812538598 [label="Nie starzeję się, prawda? Żadne z nas się nie starzeje. Kręcimy się w koło, jak na karuzeli. Tylko kucyki stoją w płomieniach i wszyscy krzyczą",shape=box,color=blue];
+		j812538598 -> "Chat ends.";
+	j4079038970 [label="wow, pamiętałeś? znaczy, urodziny to nic takiego, kiedy masz więcej niż 8 lat, ale to miłe z twojej strony. dziękuję",shape=box,color=blue];
+		j4079038970 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}
