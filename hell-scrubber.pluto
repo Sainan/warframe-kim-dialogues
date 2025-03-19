@@ -34,7 +34,7 @@ for {
 	do
 		local rom = io.contents("Extracted/Debug/Lotus/Types/Gameplay/1999Wf/Dialogue/"..diag_name.."_H")
 		local i = 1
-		local filename, metadata, num_nodes, type, id, name, nickname_override, num_prev, num_choices, text_en
+		local filename, metadata, num_nodes, type, claimed_id, name, nickname_override, num_prev, num_choices, text_en
 		i += 20 -- skip hash?
 		filename, i = string.unpack("<s4", rom, i)
 		metadata, i = string.unpack("<s4", rom, i)
@@ -45,19 +45,28 @@ for {
 		i += 4 -- skip unk int
 		i += 4 -- skip num dialogues
 		num_nodes, i = string.unpack("<I4", rom, i)
+		local id = 0
 		--print(num_nodes)
-		while id ~= num_nodes do
+		while claimed_id ~= num_nodes do
 			local offset = i
 			type, i = string.unpack("<s4", rom, i) $if DEBUG then print(type) $end
-			id, i = string.unpack("<I4", rom, i) $if DEBUG then print("\tid="..id) $end
+			if type == "" then
+				i += 4
+			else
+				claimed_id, i = string.unpack("<I4", rom, i) $if DEBUG then print("\tid="..id) $end
+			end
 			$if DEBUG then print("\toffset="..(offset-1)) $end
 			local node = {
 				__order = { "id", "type" },
 				id = id,
 				type = type
 			}
-			nodes_map[id] = node
-			nodes_array[++id] = node
+			if type ~= "" then
+				nodes_map[claimed_id] = node
+				nodes_array[++claimed_id] = node
+				++id
+				assert(id == claimed_id)
+			end
 			name, i = string.unpack("<s4", rom, i) $if DEBUG then print("\tname="..name) $end
 			node.__order:insert("name")
 			if name ~= "" then node.name = name end
