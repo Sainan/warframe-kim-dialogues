@@ -3,11 +3,11 @@ digraph {
 		"QuincyRank4Convo5 begins." -> j3703554933;
 	j3703554933 [label="агов, до тебе серйозне питання, якшо маєш секунду",shape=box,color=blue];
 		j3703554933 -> j2196700946;
-		j3703554933 -> j1923348845;
+		j3703554933 -> j3060594708;
 	j2196700946 [label="А що? Що ти підготував для мене на сьогодні?",shape=box,color=red];
 		j2196700946 -> j3530100524;
-	j1923348845 [label="Нема, вибач. [Кінець.]",shape=box,color=red];
-		j1923348845 -> "Chat ends.";
+	j3060594708 [label="Нема, вибач. [Кінець]",shape=box,color=red];
+		j3060594708 -> "Chat ends.";
 	j3530100524 [label="Check boolean QuincyDating",color=orange];
 		j3530100524 -> j2283446291 [label=true,color=green];
 		j3530100524 -> j2785345664 [label=false,color=brown];
