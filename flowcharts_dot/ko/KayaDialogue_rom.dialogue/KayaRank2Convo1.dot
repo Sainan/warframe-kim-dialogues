@@ -54,7 +54,7 @@ digraph {
 		j960515419 -> j1844826281 [label=false,color=brown];
 	j4294415938 [label="Check boolean KayaSetKid",color=orange];
 		j4294415938 -> j1277286202 [label=true,color=green];
-		j4294415938 -> j1729498296 [label=false,color=brown];
+		j4294415938 -> j1997954241 [label=false,color=brown];
 	j208328175 [label="어으. 하나도 재미없어. ",shape=box,color=blue];
 		j208328175 -> j2292283515;
 	j1860375307 [label="바보같은 실수를 저지른 적이 있지. 딱 한 번. ",shape=box,color=blue];
@@ -69,7 +69,8 @@ digraph {
 		j1844826281 -> j2491962010;
 	j1277286202 [label="들어봐, 당신이 날 그저 꼬꼬마로 생각할 거라는 거 알아.",shape=box,color=blue];
 		j1277286202 -> j3506747215;
-	j1729498296 [label="알았어. 당신 말이 옳아.",shape=box,color=blue];
+	j1997954241 [label="알았어. 당신 말이 옳아.",shape=box,color=blue];
+		j1997954241 -> j1189077252;
 	j2292283515 [label="+20 Chemistry",color=orange];
 		j2292283515 -> "Chat ends. Next chat will be KayaRank2Convo2.";
 	j1857984510 [label="그리고 난 실수들을 만들어내지 않는다고.",shape=box,color=blue];
@@ -84,6 +85,8 @@ digraph {
 		j2491962010 -> j2611912671;
 	j3506747215 [label="하지만 ",shape=box,color=blue];
 		j3506747215 -> j1860375307;
+	j1189077252 [label="아마도 그럴걸. 그래서 제대로 하는 방법을 알아야 해. 실수할 수 없어.",shape=box,color=blue];
+		j1189077252 -> j1860375307;
 	"Chat ends. Next chat will be KayaRank2Convo2." [color=orange];
 	j2035659039 [label="그러니 나한테 며칠, 아니 몇 주만 더 달라고. 그러면 이 모든 걸 알아낼 수 있고 그렇게 되면 1999년도랑 작별 인사 나누게 될 거라고.",shape=box,color=blue];
 		j2035659039 -> j3290079724;

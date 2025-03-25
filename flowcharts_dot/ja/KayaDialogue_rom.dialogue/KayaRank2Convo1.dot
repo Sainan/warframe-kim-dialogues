@@ -54,7 +54,7 @@ digraph {
 		j960515419 -> j2226883652 [label=false,color=brown];
 	j4294415938 [label="Check boolean KayaSetKid",color=orange];
 		j4294415938 -> j279357322 [label=true,color=green];
-		j4294415938 -> j2422406987 [label=false,color=brown];
+		j4294415938 -> j4112403187 [label=false,color=brown];
 	j2791035075 [label="うざ。面白くないわ。",shape=box,color=blue];
 		j2791035075 -> j2292283515;
 	j2499352775 [label="昔アホなヘマしたの。一度だけ。",shape=box,color=blue];
@@ -69,7 +69,8 @@ digraph {
 		j2226883652 -> j3650811130;
 	j279357322 [label="あんたがあたしのことただのガキだって思ってるのは分かってる。",shape=box,color=blue];
 		j279357322 -> j4142708235;
-	j2422406987 [label="そうね。それもそう。",shape=box,color=blue];
+	j4112403187 [label="そうね。それもそう。",shape=box,color=blue];
+		j4112403187 -> j2541335978;
 	j2292283515 [label="+20 Chemistry",color=orange];
 		j2292283515 -> "Chat ends. Next chat will be KayaRank2Convo2.";
 	j931142406 [label="そしてあたしはヘマはしないの。",shape=box,color=blue];
@@ -84,6 +85,8 @@ digraph {
 		j3650811130 -> j3208501013;
 	j4142708235 [label="でも",shape=box,color=blue];
 		j4142708235 -> j2499352775;
+	j2541335978 [label="多分そう。だからこそ、ちゃんとやらないといけない。ヘマは踏めない。",shape=box,color=blue];
+		j2541335978 -> j2499352775;
 	"Chat ends. Next chat will be KayaRank2Convo2." [color=orange];
 	j193405577 [label="だから、あと数日、いや数週間だけ待ってて。そしたらこの全部を解決して、1999年ともおさらばよ。",shape=box,color=blue];
 		j193405577 -> j1007523847;

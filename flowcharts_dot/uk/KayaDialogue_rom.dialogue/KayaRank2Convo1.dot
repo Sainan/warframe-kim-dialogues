@@ -54,7 +54,7 @@ digraph {
 		j960515419 -> j2441551816 [label=false,color=brown];
 	j4294415938 [label="Check boolean KayaSetKid",color=orange];
 		j4294415938 -> j2300631060 [label=true,color=green];
-		j4294415938 -> j4082223253 [label=false,color=brown];
+		j4294415938 -> j2560291760 [label=false,color=brown];
 	j4221525003 [label="Ем. Не смішно. ",shape=box,color=blue];
 		j4221525003 -> j2292283515;
 	j1640499340 [label="Я припустилася ТУПОЇ помилки. Лише раз. ",shape=box,color=blue];
@@ -69,7 +69,8 @@ digraph {
 		j2441551816 -> j2544905005;
 	j2300631060 [label="Слухай, я знаю, ти думаєш, що я просто дівча.",shape=box,color=blue];
 		j2300631060 -> j4187767555;
-	j4082223253 [label="Гаразд. Твоя правда.",shape=box,color=blue];
+	j2560291760 [label="Гаразд. Твоя правда.",shape=box,color=blue];
+		j2560291760 -> j4180714171;
 	j2292283515 [label="+20 Chemistry",color=orange];
 		j2292283515 -> "Chat ends. Next chat will be KayaRank2Convo2.";
 	j3603503094 [label="А я не припускаюся помилок.",shape=box,color=blue];
@@ -84,6 +85,8 @@ digraph {
 		j2544905005 -> j1813855774;
 	j4187767555 [label="Але…",shape=box,color=blue];
 		j4187767555 -> j1640499340;
+	j4180714171 [label="Скоріш за все, це небезпечно. І тому я маю знати, як все правильно зробити. Без помилок.",shape=box,color=blue];
+		j4180714171 -> j1640499340;
 	"Chat ends. Next chat will be KayaRank2Convo2." [color=orange];
 	j2636092600 [label="Тож дай мені ще кілька днів, можливо, кілька тижнів, і я розберуся в цьому всьому, і тоді до побачення 1999 рік.",shape=box,color=blue];
 		j2636092600 -> j480546738;

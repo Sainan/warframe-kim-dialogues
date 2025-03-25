@@ -54,7 +54,7 @@ digraph {
 		j960515419 -> j3563686874 [label=false,color=brown];
 	j4294415938 [label="Check boolean KayaSetKid",color=orange];
 		j4294415938 -> j2823472399 [label=true,color=green];
-		j4294415938 -> j2861602724 [label=false,color=brown];
+		j4294415938 -> j2935298078 [label=false,color=brown];
 	j742588971 [label="呃。不好笑。",shape=box,color=blue];
 		j742588971 -> j2292283515;
 	j829937742 [label="曾經，我犯下了一個愚蠢的錯誤。",shape=box,color=blue];
@@ -69,7 +69,8 @@ digraph {
 		j3563686874 -> j131149850;
 	j2823472399 [label="聽著，我知道你認為我只是個孩子。",shape=box,color=blue];
 		j2823472399 -> j1011673130;
-	j2861602724 [label="好吧。你說得對。",shape=box,color=blue];
+	j2935298078 [label="好吧。你說得對。",shape=box,color=blue];
+		j2935298078 -> j3713970722;
 	j2292283515 [label="+20 Chemistry",color=orange];
 		j2292283515 -> "Chat ends. Next chat will be KayaRank2Convo2.";
 	j540071727 [label="而我是不會犯錯的。",shape=box,color=blue];
@@ -84,6 +85,8 @@ digraph {
 		j131149850 -> j1043709236;
 	j1011673130 [label="但──",shape=box,color=blue];
 		j1011673130 -> j829937742;
+	j3713970722 [label="大概吧。而就因為這樣，我更要知道怎麼正確地做這件事。不能犯下任何錯。",shape=box,color=blue];
+		j3713970722 -> j829937742;
 	"Chat ends. Next chat will be KayaRank2Convo2." [color=orange];
 	j3736573149 [label="所以再給我幾天時間，也許幾個星期，我就能把這整件事弄明白，然後就可以跟 1999 年說再見了。",shape=box,color=blue];
 		j3736573149 -> j2357971355;

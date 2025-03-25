@@ -54,7 +54,7 @@ digraph {
 		j960515419 -> j4096358861 [label=false,color=brown];
 	j4294415938 [label="Check boolean KayaSetKid",color=orange];
 		j4294415938 -> j220903015 [label=true,color=green];
-		j4294415938 -> j529212070 [label=false,color=brown];
+		j4294415938 -> j63364744 [label=false,color=brown];
 	j3332960046 [label="Pfff. C'est pas drôle. ",shape=box,color=blue];
 		j3332960046 -> j2292283515;
 	j2003539585 [label="J'ai fait une erreur stupide. Une fois. ",shape=box,color=blue];
@@ -69,7 +69,8 @@ digraph {
 		j4096358861 -> j1070689740;
 	j220903015 [label="Écoute, je sais que tu penses que je ne suis qu'une gamine.",shape=box,color=blue];
 		j220903015 -> j6792077;
-	j529212070 [label="Bon. Tu as raison.",shape=box,color=blue];
+	j63364744 [label="Bon. Tu as raison.",shape=box,color=blue];
+		j63364744 -> j3135466790;
 	j2292283515 [label="+20 Chemistry",color=orange];
 		j2292283515 -> "Chat ends. Next chat will be KayaRank2Convo2.";
 	j1619663835 [label="Et je ne fais pas d'erreurs.",shape=box,color=blue];
@@ -84,6 +85,8 @@ digraph {
 		j1070689740 -> j863256522;
 	j6792077 [label="Mais ",shape=box,color=blue];
 		j6792077 -> j2003539585;
+	j3135466790 [label="C'est probablement le cas. Et c'est pour cela que je dois savoir comment agir correctement. Je ne peux pas faire d'erreurs.",shape=box,color=blue];
+		j3135466790 -> j2003539585;
 	"Chat ends. Next chat will be KayaRank2Convo2." [color=orange];
 	j1826628304 [label="Alors donne-moi encore quelques jours, peut-être quelques semaines, et j'aurai tout compris et ce sera au revoir 1999.",shape=box,color=blue];
 		j1826628304 -> j1432935478;
