@@ -119,7 +119,7 @@
         "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
         "name": "/Lotus/Language/1999Texting/KayaDialogue/Choice_KayaRank1Convo1_13",
         "choices": [
-            1018
+            1022
         ]
     },
     {
@@ -8187,7 +8187,47 @@
     },
     {
         "id": 1018,
+        "type": "/EE/Types/Engine/SpecialCompletionDialogueNode",
+        "choices": [
+            1023
+        ],
+        "refs": [
+            {
+                "diag": "HexDialogue_rom.dialogue",
+                "convo": "HexKayaConvo1"
+            }
+        ]
+    },
+    {
+        "id": 1019,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/KayaDialogue/Choice_KayaBirthdayConvo1_770",
+        "choices": []
+    },
+    {
+        "id": 1020,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/KayaDialogue/Choice_KayaBirthdayConvo1_771",
+        "choices": []
+    },
+    {
+        "id": 1021,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/KayaDialogue/TxtKaya_KayaBirthdayConvo1_772",
+        "choices": []
+    },
+    {
+        "id": 1022,
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "choices": [
+            1018
+        ],
+        "chemistry": 20
+    },
+    {
+        "id": 1023,
         "type": "/EE/Types/Engine/EndDialogueNode",
+        "name": "KayaRank1Convo2",
         "choices": []
     }
 ]
