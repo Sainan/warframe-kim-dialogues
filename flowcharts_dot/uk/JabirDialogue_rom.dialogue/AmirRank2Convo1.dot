@@ -1,9 +1,9 @@
 digraph {
 	"AmirRank2Convo1 begins." [color=orange];
-		"AmirRank2Convo1 begins." -> j2247750784;
-	j2247750784 [label="Check /Lotus/Scripts/1999/HexSyndicateDialog.lua for boolean PlayedCaliberChicks",color=orange];
-		j2247750784 -> j2460932202 [label=true,color=green];
-		j2247750784 -> "Chat ends." [label=false,color=brown];
+		"AmirRank2Convo1 begins." -> j931525414;
+	j931525414 [label="Check /Lotus/Scripts/1999/HexSyndicateDialog.lua:HasCompletedNodeIntro(\"PlayedCaliberChicks\")",color=orange];
+		j931525414 -> j2460932202 [label=true,color=green];
+		j931525414 -> "Chat ends." [label=false,color=brown];
 	j2460932202 [label="намагаєшся перевершити мій рахунок в caliber chicks?",shape=box,color=blue];
 		j2460932202 -> j1084257267;
 	"Chat ends." [color=orange];

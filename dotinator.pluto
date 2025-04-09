@@ -13,7 +13,7 @@ local function get_node_label(node)
 		case "/EE/Types/Engine/CheckBooleanDialogueNode":
 			return $"Check boolean {node.name}"
 		case "/EE/Types/Engine/CheckBooleanScriptDialogueNode":
-			return node.arg1 ? $"Check {node.script_name} for boolean {node.arg1}" : $"Check {node.script_name} for an unknown boolean"
+			return $"Check {node.script_name}:{node.func_name}{json.encode(node.args):replace("[", "("):replace("]", ")")}"
 		case "/EE/Types/Engine/DialogueNode":
 		case "/EE/Types/Engine/PlayerChoiceDialogueNode":
 			do
