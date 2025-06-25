@@ -64,7 +64,7 @@ for {
 			if type ~= "" then
 				nodes_map[claimed_id] = node
 				nodes_array[++claimed_id] = node
-				++id
+				;++id
 				assert(id == claimed_id)
 			end
 			name, i = string.unpack("<s4", rom, i) $if DEBUG then print("\tname="..name) $end
