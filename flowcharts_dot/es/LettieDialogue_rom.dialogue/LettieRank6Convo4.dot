@@ -1,0 +1,111 @@
+digraph {
+	"LettieRank6Convo4 begins." [color=orange];
+		"LettieRank6Convo4 begins." -> j202800200;
+		"LettieRank6Convo4 begins." -> j3485163747;
+	j202800200 [label="[Fin]",shape=box,color=red];
+		j202800200 -> "Chat ends.";
+	j3485163747 [label="¿Cómo te sientes?",shape=box,color=red];
+		j3485163747 -> j1274922743;
+	"Chat ends." [color=orange];
+	j1274922743 [label="Eh, más o menos
+Es uno de esos días
+Pasará, siempre es así",shape=box,color=blue];
+		j1274922743 -> j3556739015;
+		j1274922743 -> j1157546170;
+	j3556739015 [label=":( Lamento escuchar eso.",shape=box,color=red];
+		j3556739015 -> j3541585113;
+	j1157546170 [label="¿Pasa algo?",shape=box,color=red];
+		j1157546170 -> j2081631406;
+	j3541585113 [label="Sólo las arañas
+Volviendo a sentirse como en casa
+Pero ya se irán pronto",shape=box,color=blue];
+		j3541585113 -> j3213049075;
+	j2081631406 [label="No, nada nuevo
+Sólo las arañas
+Volviendo a sentirse como en casa
+Pero ya se irán pronto",shape=box,color=blue];
+		j2081631406 -> j3213049075;
+	j3213049075 [label="A veces quisiera
+Que fuera tan fácil como un problema
+Así podría arreglarlo, ¿sí?
+Hablarlo, golpearlo jajaja",shape=box,color=blue];
+		j3213049075 -> j1380452798;
+	j1380452798 [label="Los problemas se pueden resolver
+Los problemas tienen respuestas
+Los sentimientos no se arreglan
+Créeme, lo he intentado",shape=box,color=blue];
+		j1380452798 -> j907785092;
+		j1380452798 -> j746690281;
+	j907785092 [label="Pero tienes muchas razones para ser feliz.",shape=box,color=red];
+		j907785092 -> j3009422554;
+	j746690281 [label="Aprendí a las malas en Duviri que \"arreglar los sentimientos\" a veces es la peor opción.",shape=box,color=red];
+		j746690281 -> j3319021223;
+	j3009422554 [label="Ay sí, las tengo
+Y sé que las tengo
+Y a veces quisiera
+Que la gente entendiera esa parte de mí
+Que no es fácil de asimilar",shape=box,color=blue];
+		j3009422554 -> j3123317678;
+	j3319021223 [label="Síí...
+Aunque a veces es tentador jajaja
+Sólo quisiera que todo se disipara
+Pero me has dicho qué es lo que pasa 
+Cuando todo se vuelve gris",shape=box,color=blue];
+		j3319021223 -> j2924817959;
+	j3123317678 [label="Desearía poder ser diferente
+Pero soy quien soy
+Y ya dejé de disculparme por eso
+Hace mucho tiempo",shape=box,color=blue];
+		j3123317678 -> "Chat ends.";
+	j2924817959 [label="No le desearía eso a nadie
+Bueno, tal vez a Albrecht
+Pinche güey
+Aunque su corazón ya es demasiado frío así como es",shape=box,color=blue];
+		j2924817959 -> j1343056994;
+		j2924817959 -> j1685907853;
+	j1343056994 [label="¿Qué podemos hacer para distraerte? ¿O prefieres seguir así?",shape=box,color=red];
+		j1343056994 -> j433463703;
+	j1685907853 [label="Solo podemos esperar a que esté jugando a largo plazo.",shape=box,color=red];
+		j1685907853 -> j837052328;
+	j433463703 [label="Ahhh, buena pregunta
+La verdad no lo sé
+Quedarme así suena bien 
+O podríamos salir y matar cosas
+¿Te quedas o vamos a matar cosas? 
+Decisiones, decisiones...",shape=box,color=blue];
+		j433463703 -> j4061354044;
+		j433463703 -> j3275225931;
+	j837052328 [label="Lo único que le deseo, donde quiera que esté ese cabrón
+Es un largo viaje en el elevador
+Conmigo
+Y un bate de béisbol",shape=box,color=blue];
+		j837052328 -> j1306323686;
+	j4061354044 [label="Voto por quedarme.",shape=box,color=red];
+		j4061354044 -> j1419984095;
+	j3275225931 [label="Voto por ir a matar cosas.",shape=box,color=red];
+		j3275225931 -> j129080326;
+	j1306323686 [label="Ese es el escenario mental que me anima
+Jajaja",shape=box,color=blue];
+		j1306323686 -> j3819368348;
+	j1419984095 [label="Buena esa
+Sentarme en el bar con M y V
+Tal vez una partida de cartas
+Haga que ya no piense en eso",shape=box,color=blue];
+		j1419984095 -> j3819368348;
+	j129080326 [label="Jajaja buena esa
+Sacar el dolor de mis pensamientos
+Al poner ese dolor en alguien más",shape=box,color=blue];
+		j129080326 -> j3819368348;
+	j3819368348 [label="Check boolean LettieDating",color=orange];
+		j3819368348 -> j1587771096 [label=true,color=green];
+		j3819368348 -> j496375508 [label=false,color=brown];
+	j1587771096 [label="Check boolean LettieReal",color=orange];
+		j1587771096 -> j1355625237 [label=true,color=green];
+		j1587771096 -> j4256533151 [label=false,color=brown];
+	j496375508 [label="Gracias, camarada",shape=box,color=blue];
+		j496375508 -> "Chat ends.";
+	j1355625237 [label="Gracias, corazón",shape=box,color=blue];
+		j1355625237 -> "Chat ends.";
+	j4256533151 [label="Gracias, solecito",shape=box,color=blue];
+		j4256533151 -> "Chat ends.";
+}

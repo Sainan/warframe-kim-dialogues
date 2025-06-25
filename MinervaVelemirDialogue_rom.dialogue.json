@@ -15519,6 +15519,7 @@
     {
         "id": 1767,
         "type": "/EE/Types/Engine/EndDialogueNode",
+        "name": "MinVelRusalka",
         "choices": []
     },
     {
@@ -16425,5 +16426,797 @@
         "choices": [
             771
         ]
+    },
+    {
+        "id": 1875,
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "name": "MinVelRusalka",
+        "choices": [
+            1876
+        ]
+    },
+    {
+        "id": 1876,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "VelimirEclipse",
+        "choices": [],
+        "true_choices": [
+            1964
+        ],
+        "false_choices": [
+            1877
+        ]
+    },
+    {
+        "id": 1877,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 1878,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1608",
+        "choices": [
+            1879
+        ]
+    },
+    {
+        "id": 1879,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1609",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1880
+        ]
+    },
+    {
+        "id": 1880,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1610",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1881,
+            1882,
+            1883
+        ]
+    },
+    {
+        "id": 1881,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1611",
+        "choices": [
+            1886
+        ]
+    },
+    {
+        "id": 1882,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1612",
+        "choices": [
+            1885
+        ]
+    },
+    {
+        "id": 1883,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1613",
+        "choices": [
+            1884
+        ]
+    },
+    {
+        "id": 1884,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 1885,
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "choices": [
+            1887
+        ],
+        "chemistry": 5
+    },
+    {
+        "id": 1886,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1614",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1888
+        ]
+    },
+    {
+        "id": 1887,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1615",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1889
+        ]
+    },
+    {
+        "id": 1888,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1616",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1892
+        ]
+    },
+    {
+        "id": 1889,
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "choices": [
+            1890
+        ],
+        "chemistry": 5
+    },
+    {
+        "id": 1890,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1617",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1891
+        ]
+    },
+    {
+        "id": 1891,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1618",
+        "choices": [
+            1892
+        ]
+    },
+    {
+        "id": 1892,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1619",
+        "choices": [
+            1893
+        ]
+    },
+    {
+        "id": 1893,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1620",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1894
+        ]
+    },
+    {
+        "id": 1894,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1621",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1895,
+            1896
+        ]
+    },
+    {
+        "id": 1895,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1622",
+        "choices": [
+            1897
+        ]
+    },
+    {
+        "id": 1896,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1623",
+        "choices": [
+            1897
+        ]
+    },
+    {
+        "id": 1897,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1624",
+        "choices": [
+            1898
+        ]
+    },
+    {
+        "id": 1898,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1625",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1899
+        ]
+    },
+    {
+        "id": 1899,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1626",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1900,
+            1901
+        ]
+    },
+    {
+        "id": 1900,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1627",
+        "choices": [
+            1902
+        ]
+    },
+    {
+        "id": 1901,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1628",
+        "choices": [
+            1902
+        ]
+    },
+    {
+        "id": 1902,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1629",
+        "choices": [
+            1903
+        ]
+    },
+    {
+        "id": 1903,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1630",
+        "choices": [
+            1904
+        ]
+    },
+    {
+        "id": 1904,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1631",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1905
+        ]
+    },
+    {
+        "id": 1905,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1632",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1906
+        ]
+    },
+    {
+        "id": 1906,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1633",
+        "choices": [
+            1907
+        ]
+    },
+    {
+        "id": 1907,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1634",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1908
+        ]
+    },
+    {
+        "id": 1908,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1635",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1909,
+            1910
+        ]
+    },
+    {
+        "id": 1909,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1636",
+        "choices": [
+            1911
+        ]
+    },
+    {
+        "id": 1910,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1637",
+        "choices": [
+            1912
+        ]
+    },
+    {
+        "id": 1911,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1638",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1914
+        ]
+    },
+    {
+        "id": 1912,
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "choices": [
+            1915
+        ],
+        "chemistry": 5
+    },
+    {
+        "id": 1913,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1639",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1917
+        ]
+    },
+    {
+        "id": 1914,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1640",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1913
+        ]
+    },
+    {
+        "id": 1915,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1641",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1916
+        ]
+    },
+    {
+        "id": 1916,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1642",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1917
+        ]
+    },
+    {
+        "id": 1917,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1643",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1918
+        ]
+    },
+    {
+        "id": 1918,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1644",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1919
+        ]
+    },
+    {
+        "id": 1919,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1645",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1920
+        ]
+    },
+    {
+        "id": 1920,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1646",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1921,
+            1922
+        ]
+    },
+    {
+        "id": 1921,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1647",
+        "choices": [
+            1923
+        ]
+    },
+    {
+        "id": 1922,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1648",
+        "choices": [
+            1924
+        ]
+    },
+    {
+        "id": 1923,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1649",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1925
+        ]
+    },
+    {
+        "id": 1924,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1650",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1926
+        ]
+    },
+    {
+        "id": 1925,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1651",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1927
+        ]
+    },
+    {
+        "id": 1926,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1652",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1927
+        ]
+    },
+    {
+        "id": 1927,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1653",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1928
+        ]
+    },
+    {
+        "id": 1928,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1654",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1929
+        ]
+    },
+    {
+        "id": 1929,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1655",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1930
+        ]
+    },
+    {
+        "id": 1930,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1656",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1931
+        ]
+    },
+    {
+        "id": 1931,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1657",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1932
+        ]
+    },
+    {
+        "id": 1932,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1658",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1933
+        ]
+    },
+    {
+        "id": 1933,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1659",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1934,
+            1935,
+            1936
+        ]
+    },
+    {
+        "id": 1934,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1660",
+        "choices": [
+            1937
+        ]
+    },
+    {
+        "id": 1935,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1661",
+        "choices": [
+            1938
+        ]
+    },
+    {
+        "id": 1936,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1662",
+        "choices": [
+            1939
+        ]
+    },
+    {
+        "id": 1937,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1663",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1940
+        ]
+    },
+    {
+        "id": 1938,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1664",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1942
+        ]
+    },
+    {
+        "id": 1939,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1665",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1943
+        ]
+    },
+    {
+        "id": 1940,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1666",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1941
+        ]
+    },
+    {
+        "id": 1941,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1667",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1945
+        ]
+    },
+    {
+        "id": 1942,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1668",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1945
+        ]
+    },
+    {
+        "id": 1943,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1669",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1944
+        ]
+    },
+    {
+        "id": 1944,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1670",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1945
+        ]
+    },
+    {
+        "id": 1945,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1671",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1946
+        ]
+    },
+    {
+        "id": 1946,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1672",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1947
+        ]
+    },
+    {
+        "id": 1947,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1673",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1948
+        ]
+    },
+    {
+        "id": 1948,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1674",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1949
+        ]
+    },
+    {
+        "id": 1949,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1675",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1950
+        ]
+    },
+    {
+        "id": 1950,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1676",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1951,
+            1952,
+            1953
+        ]
+    },
+    {
+        "id": 1951,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1677",
+        "choices": [
+            1955
+        ]
+    },
+    {
+        "id": 1952,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1678",
+        "choices": [
+            1956
+        ]
+    },
+    {
+        "id": 1953,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRusalka_1679",
+        "choices": [
+            1957
+        ]
+    },
+    {
+        "id": 1954,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1680",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1959
+        ]
+    },
+    {
+        "id": 1955,
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "choices": [
+            1954
+        ],
+        "chemistry": 5
+    },
+    {
+        "id": 1956,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1681",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1959
+        ]
+    },
+    {
+        "id": 1957,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1682",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1958
+        ]
+    },
+    {
+        "id": 1958,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1683",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1959
+        ]
+    },
+    {
+        "id": 1959,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1684",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1960
+        ]
+    },
+    {
+        "id": 1960,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtMinerva_MinVelRusalka_1685",
+        "nickname_override": "/Lotus/Language/1999/MessengerMinervaUserName",
+        "choices": [
+            1961
+        ]
+    },
+    {
+        "id": 1961,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1686",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1962
+        ]
+    },
+    {
+        "id": 1962,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/TxtVelimir_MinVelRusalka_1687",
+        "nickname_override": "/Lotus/Language/1999/MessengerVelimirUserName",
+        "choices": [
+            1963
+        ]
+    },
+    {
+        "id": 1963,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 1964,
+        "type": "/EE/Types/Engine/CheckBooleanScriptDialogueNode",
+        "choices": [],
+        "true_choices": [
+            1878
+        ],
+        "false_choices": [
+            1965
+        ],
+        "script_name": "/Lotus/Scripts/1999/DialogueScriptNodes.lua",
+        "func_name": "CheckDuviriMitwCollectibles",
+        "args": []
+    },
+    {
+        "id": 1965,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
     }
 ]

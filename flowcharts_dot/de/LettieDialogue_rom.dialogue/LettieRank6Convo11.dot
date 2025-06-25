@@ -1,0 +1,75 @@
+digraph {
+	"LettieRank6Convo11 begins." [color=orange];
+		"LettieRank6Convo11 begins." -> j273575157;
+	j273575157 [label="Check boolean LettieDating",color=orange];
+		j273575157 -> j4208389219 [label=true,color=green];
+		j273575157 -> j1262869445 [label=false,color=brown];
+	j4208389219 [label="Check boolean LettieReal",color=orange];
+		j4208389219 -> j3852523315 [label=true,color=green];
+		j4208389219 -> j495661554 [label=false,color=brown];
+	j1262869445 [label="Freund
+Bist du da?",shape=box,color=blue];
+		j1262869445 -> j633935427;
+		j1262869445 -> j3206119462;
+	j3852523315 [label="Corazón
+Bist du da?",shape=box,color=blue];
+		j3852523315 -> j633935427;
+		j3852523315 -> j3206119462;
+	j495661554 [label="Solecito 
+Bist du da?",shape=box,color=blue];
+		j495661554 -> j3206119462;
+		j495661554 -> j633935427;
+	j633935427 [label="[Triggerwarnung: Verlust eines Haustiers. Zum Beenden klicken.]",shape=box,color=red];
+		j633935427 -> "Chat ends.";
+	j3206119462 [label="Was gibt's?",shape=box,color=red];
+		j3206119462 -> j2531511955;
+	"Chat ends." [color=orange];
+	j2531511955 [label="Es ist Neenah
+Eines meiner Babys
+Heute Morgen holte La Flaca sie",shape=box,color=blue];
+		j2531511955 -> j2648890906;
+		j2531511955 -> j3423806751;
+	j2648890906 [label="Nun ja, sobald das Jahr zurückgesetzt ist, kommt sie zurück, oder?",shape=box,color=red];
+		j2648890906 -> j857198777;
+	j3423806751 [label="Oh nein ... Lettie, es tut mir so leid. :(",shape=box,color=red];
+		j3423806751 -> j3695545502;
+	j857198777 [label="Ja
+Wird sie
+Aber es ändert nichts an der Tatsache, dass die Natur des Lebens
+kurz ist",shape=box,color=blue];
+		j857198777 -> j2184127173;
+	j3695545502 [label="Gracias
+Aber das ist die Natur des Lebens
+Sie ist kurz",shape=box,color=blue];
+		j3695545502 -> j2184127173;
+	j2184127173 [label="Ratten leben im Vergleich zu Menschen kurz
+Menschen leben im Vergleich zu Bäumen kurz
+Bäume leben im Vergleich zu Göttern kurz",shape=box,color=blue];
+		j2184127173 -> j1271828881;
+	j1271828881 [label="Und Käfer leben im Vergleich zu Ratten kurz
+Es ist alles relativ
+Und wir drehen uns einfach immer weiter im Kreis, nicht wahr, jajaja",shape=box,color=blue];
+		j1271828881 -> j2656719618;
+	j2656719618 [label="Ich schätze, wir sind das, was Amir \"Grenzfälle\" nennt
+Oder was auch immer",shape=box,color=blue];
+		j2656719618 -> j3175818866;
+		j2656719618 -> j2645325864;
+	j3175818866 [label="Worauf willst du hinaus?",shape=box,color=red];
+		j3175818866 -> j3167650761;
+	j2645325864 [label="Du bist also nicht traurig?",shape=box,color=red];
+		j2645325864 -> j660069179;
+	j3167650761 [label="Dejar de hacerme mensa y hacer las cosas, jajaja
+Ich denke nicht, ich sage nur
+Wir müssen daran denken, im Moment zu leben",shape=box,color=blue];
+		j3167650761 -> j1988881608;
+	j660069179 [label="Por supuesto que sí
+Ich denke, ich sage nur
+Wir müssen daran denken, im Moment zu leben",shape=box,color=blue];
+		j660069179 -> j1988881608;
+	j1988881608 [label="Deshalb habe ich überhaupt Ratten
+Ihr Leben ist kurz, aber sie vergessen nie, es zu leben
+Erfreuen sich an jedem Krümel, den sie finden können
+Und geben jedes Quäntchen Liebe zurück, das ihnen gegeben wird
+Man weiß nie, wann es weg sein wird",shape=box,color=blue];
+		j1988881608 -> "Chat ends.";
+}

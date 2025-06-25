@@ -1,0 +1,76 @@
+digraph {
+	"LettieRank6Convo11 begins." [color=orange];
+		"LettieRank6Convo11 begins." -> j273575157;
+	j273575157 [label="Check boolean LettieDating",color=orange];
+		j273575157 -> j4208389219 [label=true,color=green];
+		j273575157 -> j2847418141 [label=false,color=brown];
+	j4208389219 [label="Check boolean LettieReal",color=orange];
+		j4208389219 -> j382567831 [label=true,color=green];
+		j4208389219 -> j778080069 [label=false,color=brown];
+	j2847418141 [label="Przyjacielu
+Jesteś tam?",shape=box,color=blue];
+		j2847418141 -> j1318063589;
+		j2847418141 -> j2594041461;
+	j382567831 [label="Corazón
+Jesteś tam?",shape=box,color=blue];
+		j382567831 -> j1318063589;
+		j382567831 -> j2594041461;
+	j778080069 [label="Solecito 
+Jesteś tam?",shape=box,color=blue];
+		j778080069 -> j2594041461;
+		j778080069 -> j1318063589;
+	j1318063589 [label="[Ostrzeżenie: Śmierć pupila. Kliknij, aby zakończyć.]",shape=box,color=red];
+		j1318063589 -> "Chat ends.";
+	j2594041461 [label="Co tam?",shape=box,color=red];
+		j2594041461 -> j1048816325;
+	"Chat ends." [color=orange];
+	j1048816325 [label="Chodzi o Neenah
+Moje maleństwo
+La Flaca przyszła po nią tego ranka",shape=box,color=blue];
+		j1048816325 -> j2956095886;
+		j1048816325 -> j3568692058;
+	j2956095886 [label="Cóż... kiedy rok dobiegnie końca, ona wróci, prawda?",shape=box,color=red];
+		j2956095886 -> j1496107809;
+	j3568692058 [label="O nie... Lettie, tak mi przykro :(",shape=box,color=red];
+		j3568692058 -> j1345007067;
+	j1496107809 [label="Sí
+Wróci
+Ale nie zmienia to faktu
+Że życie jest krótkie",shape=box,color=blue];
+		j1496107809 -> j4059225554;
+	j1345007067 [label="Gracias
+Ale nie zmienia to faktu
+Że życie jest krótkie",shape=box,color=blue];
+		j1345007067 -> j4059225554;
+	j4059225554 [label="Szczury żyją krótko dla ludzi
+Ludzie żyją krótko dla drzew
+Drzewa żyją krótko dla bogów",shape=box,color=blue];
+		j4059225554 -> j2256795533;
+	j2256795533 [label="A owady żyją krótko dla szczurów
+Wszystko jest względne
+A my kręcimy się w koło i w koło, prawda? 
+jajaja",shape=box,color=blue];
+		j2256795533 -> j1410049921;
+	j1410049921 [label="Amir nazwałby nas \"rzadkimi przypadkami\"
+Czy coś w tym stylu",shape=box,color=blue];
+		j1410049921 -> j123373256;
+		j1410049921 -> j3231976320;
+	j123373256 [label="Do czego zmierzasz?",shape=box,color=red];
+		j123373256 -> j3460644781;
+	j3231976320 [label="Nie gniewasz się?",shape=box,color=red];
+		j3231976320 -> j3249741347;
+	j3460644781 [label="Dejar de hacerme mensa y hacer las cosas, jajaja
+Próbuję powiedzieć
+Że musimy pamiętać, żeby żyć",shape=box,color=blue];
+		j3460644781 -> j2047179605;
+	j3249741347 [label="Por supuesto que sí
+Próbuję powiedzieć
+Że musimy pamiętać, żeby żyć",shape=box,color=blue];
+		j3249741347 -> j2047179605;
+	j2047179605 [label="Dlatego zajmuję się szczurami
+Ich życie jest krótkie, ale nie zapominają jak żyć
+Znajdują radość w każdym okruszku
+Oddają każdy skrawek miłości, jaki otrzymają
+Nigdy nie wiadomo, kiedy jej zabraknie",shape=box,color=blue];
+		j2047179605 -> "Chat ends.";
+}

@@ -142,8 +142,13 @@ for {
 					node.__order:insert("args")
 					node.script_name, i = string.unpack("<s4", rom, i) $if DEBUG then print("\tscript_name="..node.script_name) $end
 					if node.script_name == "/Lotus/Scripts/1999/DialogueScriptNodes.lua" then
-						node.func_name = "IsResetCounterGreaterThan"
-						node.args = { 0 }
+						if diag_name == "MinervaVelemirDialogue_rom.dialogue" then
+							node.func_name = "CheckDuviriMitwCollectibles"
+							node.args = {}
+						else
+							node.func_name = "IsResetCounterGreaterThan"
+							node.args = { 0 }
+						end
 					else
 						i += 0x88
 						local arg1
@@ -151,7 +156,7 @@ for {
 						node.func_name = "HasCompletedNodeIntro"
 						node.args = { arg1 }
 					end
-					i += 8
+					i = rom:find("/EE/Types/Engine/", i) - 4
 				end
 			elseif type == "/EE/Types/Engine/SpecialCompletionDialogueNode" then
 				i += 0x4

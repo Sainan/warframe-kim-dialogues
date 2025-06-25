@@ -1,0 +1,155 @@
+digraph {
+	"LettieRank6Convo3 begins." [color=orange];
+		"LettieRank6Convo3 begins." -> j3380400313;
+	j3380400313 [label="Quand on agrandira cet endroit
+La prochaine fois
+J'ai une requête
+Pero no hay prisa, ¿no?",shape=box,color=blue];
+		j3380400313 -> j418307037;
+		j3380400313 -> j12416599;
+		j3380400313 -> j962636925;
+	j418307037 [label="Qu'est-ce qui te ferait plaisir. ;)",shape=box,color=red];
+		j418307037 -> j1580298692;
+	j12416599 [label="Bien sûr. Qu'y a-t-il?",shape=box,color=red];
+		j12416599 -> j423339628;
+	j962636925 [label="Qu'est-ce qui te ferait plaisir? Euh. Dans certaines limites, hein.",shape=box,color=red];
+		j962636925 -> j3781410724;
+	j1580298692 [label="Check boolean LettieNoDate",color=orange];
+		j1580298692 -> j461079596 [label=true,color=green];
+		j1580298692 -> j3902779032 [label=false,color=brown];
+	j423339628 [label="Nous avons un toit, ¿sí?",shape=box,color=blue];
+		j423339628 -> j3278977599;
+		j423339628 -> j1152728809;
+	j3781410724 [label="Check boolean LettieDating",color=orange];
+		j3781410724 -> j3210507066 [label=true,color=green];
+		j3781410724 -> j1506214458 [label=false,color=brown];
+	j461079596 [label="JAJAJAJA
+Je pensais que tu n'étais pas ce genre de personne
+Aaaay, babas...
+Ça commence à me donner envie de repenser à certaines choses...",shape=box,color=blue];
+		j461079596 -> j1543213441;
+		j461079596 -> j2186338395;
+	j3902779032 [label="JAJAJAJA
+On en parle peut-être plus tard, babas
+No me distraigas",shape=box,color=blue];
+		j3902779032 -> j423339628;
+	j3278977599 [label="Une piscine sur le toit?",shape=box,color=red];
+		j3278977599 -> j2733707125;
+	j1152728809 [label="La dernière fois que j'ai vérifié, oui, pourquoi?",shape=box,color=red];
+		j1152728809 -> j4143727980;
+	j3210507066 [label="Check boolean LettieReal",color=orange];
+		j3210507066 -> j982175971 [label=true,color=green];
+		j3210507066 -> j2812727309 [label=false,color=brown];
+	j1506214458 [label="Aayy, tu n'es pas drôle
+Quoi qu'il en soit
+No me distraigas",shape=box,color=blue];
+		j1506214458 -> j423339628;
+	j1543213441 [label="Ha, je plaisante. Ne te fais pas d'illusions.",shape=box,color=red];
+		j1543213441 -> j4071925302;
+	j2186338395 [label="Je peux m'excuser? Pour ce que j'ai dit qui t'a contrariée. Je crois que j'ai bien merdé sans m'en rendre compte.",shape=box,color=red];
+		j2186338395 -> j1267945470;
+	j2733707125 [label="Jajaja non, mais peut-être
+C'est très tentant
+Je pensais que nous pourrions peut-être construire une serre",shape=box,color=blue];
+		j2733707125 -> j3183206838;
+	j4143727980 [label="Je pensais à
+Tout cet espace plat
+Peut-être que nous pourrions construire une serre",shape=box,color=blue];
+		j4143727980 -> j3183206838;
+	j982175971 [label="Aayy, tu n'es pas drôle
+Bon, corazón
+Quoi qu'il en soit
+No me distraigas",shape=box,color=blue];
+		j982175971 -> j423339628;
+	j2812727309 [label="Aayy, tu n'es pas drôle
+Bon, solecito
+Quoi qu'il en soit
+No me distraigas",shape=box,color=blue];
+		j2812727309 -> j423339628;
+	j4071925302 [label="Sí, Sí
+J'avais compris
+No me distraigas",shape=box,color=blue];
+		j4071925302 -> j423339628;
+	j1267945470 [label=".....
+Aaaahhhhhgggh mierda
+Síííííí... bien
+Je ne peux pas continuer à sermonner Arthur pour qu'il passe à autre chose
+Si je ne le fais pas moi-même",shape=box,color=blue];
+		j1267945470 -> j308100356;
+	j3183206838 [label="Je sais que cela n'arrivera pas aujourd'hui ni demain
+Peut-être pas de sitôt
+Mais juste y penser pourrait être bien
+¿Qué te parece?",shape=box,color=blue];
+		j3183206838 -> j2917989184;
+		j3183206838 -> j3424614816;
+		j3183206838 -> j2941029202;
+	j308100356 [label="Boolean LettieNoDate is now false.",color=orange];
+		j308100356 -> j652424076;
+	j2917989184 [label="Oh, nous pourrions faire pousser des légumes frais.",shape=box,color=red];
+		j2917989184 -> j2373748330;
+	j3424614816 [label="Ce serait super pour tes panquecitos. :) Un peu de temps au soleil sans devoir te soucier d'eux.",shape=box,color=red];
+		j3424614816 -> j1502953291;
+	j2941029202 [label="J'aime l'idée! Mais pourquoi une serre?",shape=box,color=red];
+		j2941029202 -> j2828705781;
+	j652424076 [label="Te perdono
+Tu as mon pardon
+Ne me le fais pas regretter, hein, babas?",shape=box,color=blue];
+		j652424076 -> j2084324766;
+	j2373748330 [label="Sí, sí
+De la nourriture fraîche (Si como más pizza voy a gritar)
+Je peux faire pousser des fleurs cempasúchil
+Mais... hé, ne rigole pas",shape=box,color=blue];
+		j2373748330 -> j1901030505;
+	j1502953291 [label="+5 Chemistry",color=orange];
+		j1502953291 -> j2066666162;
+	j2828705781 [label="Les raisons ne manquent pas
+De la nourriture fraîche (Si como más pizza voy a gritar)
+Je peux faire pousser des fleurs cempasúchil
+Mais... hé, ne ris pas",shape=box,color=blue];
+		j2828705781 -> j1901030505;
+	j2084324766 [label="Quoi qu'il en soit
+No me distraigas",shape=box,color=blue];
+		j2084324766 -> j423339628;
+	j1901030505 [label="C'est pour Eleanor",shape=box,color=blue];
+		j1901030505 -> j1592960968;
+		j1901030505 -> j2308274910;
+		j1901030505 -> j3703167285;
+	j2066666162 [label="Aaay, ne me fais pas pleurer
+C'est si mignon de penser à mes panquecitos
+Gracias
+Je pensais à autre chose, aussi
+Mais... hé, ne rigole pas",shape=box,color=blue];
+		j2066666162 -> j1901030505;
+	j1592960968 [label="Je me souviens qu'elle aime les plantes. Je pense qu'elle adorerait ça.",shape=box,color=red];
+		j1592960968 -> j1748936603;
+	j2308274910 [label="C'est super que vous ayez pu arranger les choses. ",shape=box,color=red];
+		j2308274910 -> j2797213069;
+	j3703167285 [label="Pourquoi je rigolerais?",shape=box,color=red];
+		j3703167285 -> j859093488;
+	j1748936603 [label="C'est tellement triste ici
+No necesitamos mantenerlo lúgubre y sucio
+Il vaut mieux qu'elle parle aux plantes plutôt qu'aux...
+Eh bien... aux flingues...",shape=box,color=blue];
+		j1748936603 -> j953082977;
+	j2797213069 [label="Sí
+C'est parfois difficile de laisser aller les choses
+Admettre quand les choses peuvent changer
+Je préfère qu'elle parle aux plantes plutôt que...
+Eh bien... aux flingues...",shape=box,color=blue];
+		j2797213069 -> j953082977;
+	j859093488 [label="Nous n'avons pas toujours été les meilleures amies
+C'est parfois difficile de laisser aller les choses
+Admettre quand les choses peuvent changer
+Je préfère qu'elle parle aux plantes plutôt que...
+Eh bien... aux flingues...",shape=box,color=blue];
+		j859093488 -> j953082977;
+	j953082977 [label="Mais j'ai remarqué que quand elle sourit
+je souris
+Probablement de su onda de bruja jajaja",shape=box,color=blue];
+		j953082977 -> j3490335359;
+	j3490335359 [label="Quoi qu'il en soit
+Je pense que ce serait bien
+Ce centre commercial n'a pas besoin d'être aussi \"mort\".",shape=box,color=blue];
+		j3490335359 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

@@ -1,0 +1,35 @@
+digraph {
+	"AoiRank6Convo6 begins." [color=orange];
+		"AoiRank6Convo6 begins." -> j3297264957;
+	j3297264957 [label="замороженный йогурт д/н",shape=box,color=blue];
+		j3297264957 -> j3146849254;
+		j3297264957 -> j1826699460;
+		j3297264957 -> j789023805;
+		j3297264957 -> j3961429187;
+		j3297264957 -> j2477269012;
+	j3146849254 [label="<RETRO_EMOJI_YUM>",shape=box,color=red];
+		j3146849254 -> j19384767;
+	j1826699460 [label="<RETRO_EMOJI_COW>",shape=box,color=red];
+		j1826699460 -> j684606359;
+	j789023805 [label="Что?",shape=box,color=red];
+		j789023805 -> j4228369970;
+	j3961429187 [label="Н",shape=box,color=red];
+		j3961429187 -> j4278800528;
+	j2477269012 [label="Д",shape=box,color=red];
+		j2477269012 -> j3047038890;
+	j19384767 [label="+5 Chemistry",color=orange];
+		j19384767 -> j1540902119;
+	j684606359 [label="МРРООООООО",shape=box,color=blue];
+		j684606359 -> j2090665744;
+	j4228369970 [label="... по-видимому, в будущем с едой всё отстойно",shape=box,color=blue];
+		j4228369970 -> j2090665744;
+	j4278800528 [label="хмммм",shape=box,color=blue];
+		j4278800528 -> j2090665744;
+	j3047038890 [label="^_^",shape=box,color=blue];
+		j3047038890 -> j2090665744;
+	j1540902119 [label="тоочнооо",shape=box,color=blue];
+		j1540902119 -> j2090665744;
+	j2090665744 [label="это всё спасибо",shape=box,color=blue];
+		j2090665744 -> "Chat ends.";
+	"Chat ends." [color=orange];
+}

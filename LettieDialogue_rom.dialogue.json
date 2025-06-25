@@ -20689,8 +20689,2102 @@
     },
     {
         "id": 2520,
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "name": "LettieRank6Convo2",
+        "choices": [
+            2521
+        ]
+    },
+    {
+        "id": 2521,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "LettieDating",
+        "choices": [],
+        "true_choices": [
+            2522
+        ],
+        "false_choices": [
+            2523
+        ]
+    },
+    {
+        "id": 2522,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "LettieReal",
+        "choices": [],
+        "true_choices": [
+            2524
+        ],
+        "false_choices": [
+            2525
+        ]
+    },
+    {
+        "id": 2523,
         "type": "/EE/Types/Engine/DialogueNode",
-        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank3Convo4_582",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1725",
+        "choices": [
+            2526,
+            2527,
+            2528
+        ]
+    },
+    {
+        "id": 2524,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1726",
+        "choices": [
+            2526,
+            2528,
+            2527
+        ]
+    },
+    {
+        "id": 2525,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1727",
+        "choices": [
+            2526,
+            2528,
+            2527
+        ]
+    },
+    {
+        "id": 2526,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1728",
+        "choices": [
+            2529
+        ]
+    },
+    {
+        "id": 2527,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1729",
+        "choices": [
+            2530
+        ]
+    },
+    {
+        "id": 2528,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1730",
+        "choices": [
+            2531
+        ]
+    },
+    {
+        "id": 2529,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1731",
+        "choices": [
+            2532
+        ]
+    },
+    {
+        "id": 2530,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1732",
+        "choices": [
+            2533,
+            2534,
+            2535
+        ]
+    },
+    {
+        "id": 2531,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1733",
+        "choices": [
+            2536
+        ]
+    },
+    {
+        "id": 2532,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1734",
+        "choices": [
+            2537
+        ]
+    },
+    {
+        "id": 2533,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1735",
+        "choices": [
+            2538
+        ]
+    },
+    {
+        "id": 2534,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1736",
+        "choices": [
+            2539
+        ]
+    },
+    {
+        "id": 2535,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1737",
+        "choices": [
+            2540
+        ]
+    },
+    {
+        "id": 2536,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1738",
+        "choices": [
+            2541
+        ]
+    },
+    {
+        "id": 2537,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1739",
+        "choices": [
+            2542
+        ]
+    },
+    {
+        "id": 2538,
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "choices": [
+            2543
+        ],
+        "chemistry": 5
+    },
+    {
+        "id": 2539,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1740",
+        "choices": [
+            2544
+        ]
+    },
+    {
+        "id": 2540,
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "choices": [
+            2545
+        ],
+        "chemistry": 5
+    },
+    {
+        "id": 2541,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1741",
+        "choices": [
+            2546,
+            2547
+        ]
+    },
+    {
+        "id": 2542,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1742",
+        "choices": [
+            2548,
+            2549
+        ]
+    },
+    {
+        "id": 2543,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1743",
+        "choices": [
+            2550
+        ]
+    },
+    {
+        "id": 2544,
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "choices": [
+            2551
+        ],
+        "chemistry": 5
+    },
+    {
+        "id": 2545,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1744",
+        "choices": [
+            2550
+        ]
+    },
+    {
+        "id": 2546,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1745",
+        "choices": [
+            2552
+        ]
+    },
+    {
+        "id": 2547,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1746",
+        "choices": [
+            2552
+        ]
+    },
+    {
+        "id": 2548,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1747",
+        "choices": [
+            2553
+        ]
+    },
+    {
+        "id": 2549,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1748",
+        "choices": [
+            2554
+        ]
+    },
+    {
+        "id": 2550,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1749",
+        "choices": [
+            2541
+        ]
+    },
+    {
+        "id": 2551,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1750",
+        "choices": [
+            2550
+        ]
+    },
+    {
+        "id": 2552,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1751",
+        "choices": [
+            2555
+        ]
+    },
+    {
+        "id": 2553,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1752",
+        "choices": [
+            2556,
+            2557
+        ]
+    },
+    {
+        "id": 2554,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1753",
+        "choices": [
+            2558,
+            2559
+        ]
+    },
+    {
+        "id": 2555,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1754",
+        "choices": [
+            2560
+        ]
+    },
+    {
+        "id": 2556,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1755",
+        "choices": [
+            2561,
+            2562
+        ]
+    },
+    {
+        "id": 2557,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1756",
+        "choices": [
+            2563
+        ]
+    },
+    {
+        "id": 2558,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1757",
+        "choices": [
+            2564
+        ]
+    },
+    {
+        "id": 2559,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1758",
+        "choices": [
+            2565
+        ]
+    },
+    {
+        "id": 2560,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1759",
+        "choices": [
+            2566
+        ]
+    },
+    {
+        "id": 2561,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1760",
+        "choices": [
+            2567
+        ]
+    },
+    {
+        "id": 2562,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1761",
+        "choices": [
+            2568
+        ]
+    },
+    {
+        "id": 2563,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1762",
+        "choices": [
+            2541
+        ]
+    },
+    {
+        "id": 2564,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1926",
+        "choices": [
+            2569
+        ]
+    },
+    {
+        "id": 2565,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1763",
+        "choices": [
+            2569
+        ]
+    },
+    {
+        "id": 2566,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1764",
+        "choices": [
+            2570,
+            2571
+        ]
+    },
+    {
+        "id": 2567,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1765",
+        "choices": [
+            2572
+        ]
+    },
+    {
+        "id": 2568,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1766",
+        "choices": [
+            2573,
+            2574
+        ]
+    },
+    {
+        "id": 2569,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1767",
+        "choices": [
+            2557,
+            2556
+        ]
+    },
+    {
+        "id": 2570,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1768",
+        "choices": [
+            2777
+        ]
+    },
+    {
+        "id": 2571,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1769",
+        "choices": [
+            2576
+        ]
+    },
+    {
+        "id": 2572,
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "choices": [
+            2577
+        ],
+        "chemistry": 5
+    },
+    {
+        "id": 2573,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1770",
+        "choices": [
+            2578
+        ]
+    },
+    {
+        "id": 2574,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1771",
+        "choices": [
+            2579
+        ]
+    },
+    {
+        "id": 2575,
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "name": "LettieEleanorBar",
+        "choices": [
+            2753
+        ]
+    },
+    {
+        "id": 2576,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1772",
+        "choices": [
+            2581
+        ]
+    },
+    {
+        "id": 2577,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1773",
+        "choices": [
+            2573,
+            2574
+        ]
+    },
+    {
+        "id": 2578,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1774",
+        "choices": [
+            2582
+        ]
+    },
+    {
+        "id": 2579,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1775",
+        "choices": [
+            2582
+        ]
+    },
+    {
+        "id": 2580,
+        "type": "/EE/Types/Engine/EndDialogueNode",
         "choices": []
+    },
+    {
+        "id": 2581,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2582,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "LettieDating",
+        "choices": [],
+        "true_choices": [
+            2583
+        ],
+        "false_choices": [
+            2583,
+            2584
+        ]
+    },
+    {
+        "id": 2583,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1776",
+        "choices": [
+            2585
+        ]
+    },
+    {
+        "id": 2584,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo2_1777",
+        "choices": [
+            2586
+        ]
+    },
+    {
+        "id": 2585,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1778",
+        "choices": [
+            2587
+        ]
+    },
+    {
+        "id": 2586,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1779",
+        "choices": [
+            2588
+        ]
+    },
+    {
+        "id": 2587,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2588,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2589,
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "name": "LettieRank6Convo3",
+        "choices": [
+            2590
+        ]
+    },
+    {
+        "id": 2590,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1780",
+        "choices": [
+            2591,
+            2592,
+            2593
+        ]
+    },
+    {
+        "id": 2591,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo3_1781",
+        "choices": [
+            2594
+        ]
+    },
+    {
+        "id": 2592,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo3_1782",
+        "choices": [
+            2595
+        ]
+    },
+    {
+        "id": 2593,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo3_1783",
+        "choices": [
+            2596
+        ]
+    },
+    {
+        "id": 2594,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "LettieNoDate",
+        "choices": [],
+        "true_choices": [
+            2598
+        ],
+        "false_choices": [
+            2597
+        ]
+    },
+    {
+        "id": 2595,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1784",
+        "choices": [
+            2599,
+            2600
+        ]
+    },
+    {
+        "id": 2596,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "LettieDating",
+        "choices": [],
+        "true_choices": [
+            2602
+        ],
+        "false_choices": [
+            2601
+        ]
+    },
+    {
+        "id": 2597,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1785",
+        "choices": [
+            2595
+        ]
+    },
+    {
+        "id": 2598,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1786",
+        "choices": [
+            2603,
+            2604
+        ]
+    },
+    {
+        "id": 2599,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo3_1787",
+        "choices": [
+            2605
+        ]
+    },
+    {
+        "id": 2600,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo3_1788",
+        "choices": [
+            2606
+        ]
+    },
+    {
+        "id": 2601,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1789",
+        "choices": [
+            2595
+        ]
+    },
+    {
+        "id": 2602,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "LettieReal",
+        "choices": [],
+        "true_choices": [
+            2608
+        ],
+        "false_choices": [
+            2607
+        ]
+    },
+    {
+        "id": 2603,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo3_1790",
+        "choices": [
+            2609
+        ]
+    },
+    {
+        "id": 2604,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo3_1791",
+        "choices": [
+            2610
+        ]
+    },
+    {
+        "id": 2605,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1792",
+        "choices": [
+            2611
+        ]
+    },
+    {
+        "id": 2606,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1793",
+        "choices": [
+            2611
+        ]
+    },
+    {
+        "id": 2607,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1794",
+        "choices": [
+            2595
+        ]
+    },
+    {
+        "id": 2608,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1795",
+        "choices": [
+            2595
+        ]
+    },
+    {
+        "id": 2609,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1796",
+        "choices": [
+            2595
+        ]
+    },
+    {
+        "id": 2610,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1797",
+        "choices": [
+            2612
+        ]
+    },
+    {
+        "id": 2611,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1798",
+        "choices": [
+            2613,
+            2614,
+            2615
+        ]
+    },
+    {
+        "id": 2612,
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "name": "LettieNoDate",
+        "choices": [
+            2616
+        ]
+    },
+    {
+        "id": 2613,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo3_1799",
+        "choices": [
+            2617
+        ]
+    },
+    {
+        "id": 2614,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo3_1800",
+        "choices": [
+            2618
+        ]
+    },
+    {
+        "id": 2615,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo3_1801",
+        "choices": [
+            2619
+        ]
+    },
+    {
+        "id": 2616,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1802",
+        "choices": [
+            2620
+        ]
+    },
+    {
+        "id": 2617,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1803",
+        "choices": [
+            2621
+        ]
+    },
+    {
+        "id": 2618,
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "choices": [
+            2622
+        ],
+        "chemistry": 5
+    },
+    {
+        "id": 2619,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1804",
+        "choices": [
+            2621
+        ]
+    },
+    {
+        "id": 2620,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1805",
+        "choices": [
+            2595
+        ]
+    },
+    {
+        "id": 2621,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1806",
+        "choices": [
+            2623,
+            2624,
+            2625
+        ]
+    },
+    {
+        "id": 2622,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1807",
+        "choices": [
+            2621
+        ]
+    },
+    {
+        "id": 2623,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo3_1808",
+        "choices": [
+            2626
+        ]
+    },
+    {
+        "id": 2624,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo3_1809",
+        "choices": [
+            2627
+        ]
+    },
+    {
+        "id": 2625,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo3_1810",
+        "choices": [
+            2628
+        ]
+    },
+    {
+        "id": 2626,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1811",
+        "choices": [
+            2629
+        ]
+    },
+    {
+        "id": 2627,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1812",
+        "choices": [
+            2629
+        ]
+    },
+    {
+        "id": 2628,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1813",
+        "choices": [
+            2629
+        ]
+    },
+    {
+        "id": 2629,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1814",
+        "choices": [
+            2630
+        ]
+    },
+    {
+        "id": 2630,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo3_1815",
+        "choices": [
+            2631
+        ]
+    },
+    {
+        "id": 2631,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2632,
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "name": "LettieRank6Convo4",
+        "choices": [
+            2633,
+            2634
+        ]
+    },
+    {
+        "id": 2633,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo4_1816",
+        "choices": [
+            2635
+        ]
+    },
+    {
+        "id": 2634,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo4_1817",
+        "choices": [
+            2636
+        ]
+    },
+    {
+        "id": 2635,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2636,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1818",
+        "choices": [
+            2637,
+            2638
+        ]
+    },
+    {
+        "id": 2637,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo4_1819",
+        "choices": [
+            2639
+        ]
+    },
+    {
+        "id": 2638,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo4_1820",
+        "choices": [
+            2640
+        ]
+    },
+    {
+        "id": 2639,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1821",
+        "choices": [
+            2641
+        ]
+    },
+    {
+        "id": 2640,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1822",
+        "choices": [
+            2641
+        ]
+    },
+    {
+        "id": 2641,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1823",
+        "choices": [
+            2642
+        ]
+    },
+    {
+        "id": 2642,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1824",
+        "choices": [
+            2643,
+            2644
+        ]
+    },
+    {
+        "id": 2643,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo4_1825",
+        "choices": [
+            2645
+        ]
+    },
+    {
+        "id": 2644,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo4_1826",
+        "choices": [
+            2646
+        ]
+    },
+    {
+        "id": 2645,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1827",
+        "choices": [
+            2647
+        ]
+    },
+    {
+        "id": 2646,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1828",
+        "choices": [
+            2648
+        ]
+    },
+    {
+        "id": 2647,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1829",
+        "choices": [
+            2649
+        ]
+    },
+    {
+        "id": 2648,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1830",
+        "choices": [
+            2650,
+            2651
+        ]
+    },
+    {
+        "id": 2649,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2650,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo4_1831",
+        "choices": [
+            2652
+        ]
+    },
+    {
+        "id": 2651,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo4_1832",
+        "choices": [
+            2653
+        ]
+    },
+    {
+        "id": 2652,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1833",
+        "choices": [
+            2654,
+            2655
+        ]
+    },
+    {
+        "id": 2653,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1834",
+        "choices": [
+            2656
+        ]
+    },
+    {
+        "id": 2654,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo4_1835",
+        "choices": [
+            2657
+        ]
+    },
+    {
+        "id": 2655,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo4_1836",
+        "choices": [
+            2658
+        ]
+    },
+    {
+        "id": 2656,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1837",
+        "choices": [
+            2659
+        ]
+    },
+    {
+        "id": 2657,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1838",
+        "choices": [
+            2659
+        ]
+    },
+    {
+        "id": 2658,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1839",
+        "choices": [
+            2659
+        ]
+    },
+    {
+        "id": 2659,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "LettieDating",
+        "choices": [],
+        "true_choices": [
+            2661
+        ],
+        "false_choices": [
+            2660
+        ]
+    },
+    {
+        "id": 2660,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1840",
+        "choices": [
+            2662
+        ]
+    },
+    {
+        "id": 2661,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "LettieReal",
+        "choices": [],
+        "true_choices": [
+            2664
+        ],
+        "false_choices": [
+            2663
+        ]
+    },
+    {
+        "id": 2662,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2663,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1841",
+        "choices": [
+            2665
+        ]
+    },
+    {
+        "id": 2664,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo4_1842",
+        "choices": [
+            2666
+        ]
+    },
+    {
+        "id": 2665,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2666,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2667,
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "name": "LettieRank6Convo8",
+        "choices": [
+            2668
+        ]
+    },
+    {
+        "id": 2668,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1843",
+        "choices": [
+            2669,
+            2670
+        ]
+    },
+    {
+        "id": 2669,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo8_1844",
+        "choices": [
+            2671
+        ]
+    },
+    {
+        "id": 2670,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo8_1845",
+        "choices": [
+            2671
+        ]
+    },
+    {
+        "id": 2671,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1846",
+        "choices": [
+            2672
+        ]
+    },
+    {
+        "id": 2672,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1847",
+        "choices": [
+            2673,
+            2674
+        ]
+    },
+    {
+        "id": 2673,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo8_1848",
+        "choices": [
+            2675
+        ]
+    },
+    {
+        "id": 2674,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo8_1849",
+        "choices": [
+            2676
+        ]
+    },
+    {
+        "id": 2675,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1850",
+        "choices": [
+            2677
+        ]
+    },
+    {
+        "id": 2676,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1851",
+        "choices": [
+            2675
+        ]
+    },
+    {
+        "id": 2677,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1852",
+        "choices": [
+            2678
+        ]
+    },
+    {
+        "id": 2678,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1853",
+        "choices": [
+            2679
+        ]
+    },
+    {
+        "id": 2679,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "KayaFutureWin2",
+        "choices": [],
+        "true_choices": [
+            2681
+        ],
+        "false_choices": [
+            2680
+        ]
+    },
+    {
+        "id": 2680,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1854",
+        "choices": [
+            2682,
+            2683
+        ]
+    },
+    {
+        "id": 2681,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1855",
+        "choices": [
+            2684,
+            2685
+        ]
+    },
+    {
+        "id": 2682,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo8_1856",
+        "choices": [
+            2686
+        ]
+    },
+    {
+        "id": 2683,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo8_1857",
+        "choices": [
+            2686
+        ]
+    },
+    {
+        "id": 2684,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo8_1858",
+        "choices": [
+            2687
+        ]
+    },
+    {
+        "id": 2685,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo8_1859",
+        "choices": [
+            2688
+        ]
+    },
+    {
+        "id": 2686,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1860",
+        "choices": [
+            2689
+        ]
+    },
+    {
+        "id": 2687,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1861",
+        "choices": [
+            2690
+        ]
+    },
+    {
+        "id": 2688,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1862",
+        "choices": [
+            2690
+        ]
+    },
+    {
+        "id": 2689,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1863",
+        "choices": [
+            2691
+        ]
+    },
+    {
+        "id": 2690,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1864",
+        "choices": [
+            2692
+        ]
+    },
+    {
+        "id": 2691,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2692,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo8_1865",
+        "choices": [
+            2693
+        ]
+    },
+    {
+        "id": 2693,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2694,
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "name": "LettieRank6Convo5",
+        "choices": [
+            2695
+        ]
+    },
+    {
+        "id": 2695,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo5_1866",
+        "choices": [
+            2696
+        ]
+    },
+    {
+        "id": 2696,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo5_1867",
+        "choices": [
+            2697
+        ]
+    },
+    {
+        "id": 2697,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "LettieDating",
+        "choices": [],
+        "true_choices": [
+            2698
+        ],
+        "false_choices": [
+            2699
+        ]
+    },
+    {
+        "id": 2698,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "LettieReal",
+        "choices": [],
+        "true_choices": [
+            2701
+        ],
+        "false_choices": [
+            2700
+        ]
+    },
+    {
+        "id": 2699,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo5_1868",
+        "choices": [
+            2702
+        ]
+    },
+    {
+        "id": 2700,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo5_1869",
+        "choices": [
+            2703
+        ]
+    },
+    {
+        "id": 2701,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo5_1870",
+        "choices": [
+            2704
+        ]
+    },
+    {
+        "id": 2702,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2703,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2704,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2705,
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "name": "LettieRank6Convo6",
+        "choices": [
+            2706
+        ]
+    },
+    {
+        "id": 2706,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo6_1871",
+        "choices": [
+            2707,
+            2708
+        ]
+    },
+    {
+        "id": 2707,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo6_1872",
+        "choices": [
+            2709
+        ]
+    },
+    {
+        "id": 2708,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo6_1873",
+        "choices": [
+            2710
+        ]
+    },
+    {
+        "id": 2709,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo6_1874",
+        "choices": [
+            2711
+        ]
+    },
+    {
+        "id": 2710,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo6_1875",
+        "choices": [
+            2711
+        ]
+    },
+    {
+        "id": 2711,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo6_1876",
+        "choices": [
+            2712
+        ]
+    },
+    {
+        "id": 2712,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo6_1877",
+        "choices": [
+            2713
+        ]
+    },
+    {
+        "id": 2713,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2714,
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "name": "LettieRank6Convo7",
+        "choices": [
+            2715
+        ]
+    },
+    {
+        "id": 2715,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo7_1878",
+        "choices": [
+            2716
+        ]
+    },
+    {
+        "id": 2716,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo7_1879",
+        "choices": [
+            2717
+        ]
+    },
+    {
+        "id": 2717,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2718,
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "name": "LettieRank6Convo9",
+        "choices": [
+            2719
+        ]
+    },
+    {
+        "id": 2719,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo9_1880",
+        "choices": [
+            2720,
+            2721
+        ]
+    },
+    {
+        "id": 2720,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo9_1881",
+        "choices": [
+            2722
+        ]
+    },
+    {
+        "id": 2721,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo9_1882",
+        "choices": [
+            2723
+        ]
+    },
+    {
+        "id": 2722,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo9_1883",
+        "choices": [
+            2724,
+            2725,
+            2726,
+            2727
+        ]
+    },
+    {
+        "id": 2723,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo9_1884",
+        "choices": [
+            2724,
+            2725,
+            2726,
+            2727
+        ]
+    },
+    {
+        "id": 2724,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo9_1885",
+        "choices": [
+            2728
+        ]
+    },
+    {
+        "id": 2725,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo9_1886",
+        "choices": [
+            2729
+        ]
+    },
+    {
+        "id": 2726,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo9_1887",
+        "choices": [
+            2730
+        ]
+    },
+    {
+        "id": 2727,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo9_1888",
+        "choices": [
+            2731
+        ]
+    },
+    {
+        "id": 2728,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo9_1889",
+        "choices": [
+            2732
+        ]
+    },
+    {
+        "id": 2729,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo9_1890",
+        "choices": [
+            2733,
+            2734,
+            2735,
+            2736
+        ]
+    },
+    {
+        "id": 2730,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo9_1891",
+        "choices": [
+            2737,
+            2738
+        ]
+    },
+    {
+        "id": 2731,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo9_1892",
+        "choices": [
+            2733,
+            2736,
+            2735,
+            2734
+        ]
+    },
+    {
+        "id": 2732,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2733,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo9_1893",
+        "choices": [
+            2739
+        ]
+    },
+    {
+        "id": 2734,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo9_1894",
+        "choices": [
+            2740
+        ]
+    },
+    {
+        "id": 2735,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo9_1895",
+        "choices": [
+            2740
+        ]
+    },
+    {
+        "id": 2736,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo9_1896",
+        "choices": [
+            2740
+        ]
+    },
+    {
+        "id": 2737,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo9_1897",
+        "choices": [
+            2731
+        ]
+    },
+    {
+        "id": 2738,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo9_1898",
+        "choices": [
+            2729
+        ]
+    },
+    {
+        "id": 2739,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo9_1899",
+        "choices": [
+            2741
+        ]
+    },
+    {
+        "id": 2740,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo9_1900",
+        "choices": [
+            2742,
+            2743
+        ]
+    },
+    {
+        "id": 2741,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2742,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo9_1901",
+        "choices": [
+            2744
+        ]
+    },
+    {
+        "id": 2743,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo9_1902",
+        "choices": [
+            2745
+        ]
+    },
+    {
+        "id": 2744,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo9_1903",
+        "choices": [
+            2746
+        ]
+    },
+    {
+        "id": 2745,
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "choices": [
+            2747
+        ],
+        "chemistry": 5
+    },
+    {
+        "id": 2746,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2747,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo9_1904",
+        "choices": [
+            2748
+        ]
+    },
+    {
+        "id": 2748,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo9_1905",
+        "choices": [
+            2749
+        ]
+    },
+    {
+        "id": 2749,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2750,
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "name": "LettieRank6Convo10",
+        "choices": [
+            2751
+        ]
+    },
+    {
+        "id": 2751,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo10_1906",
+        "choices": [
+            2752
+        ]
+    },
+    {
+        "id": 2752,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo10_1907",
+        "choices": [
+            2575
+        ]
+    },
+    {
+        "id": 2753,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2754,
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "name": "LettieRank6Convo11",
+        "choices": [
+            2755
+        ]
+    },
+    {
+        "id": 2755,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "LettieDating",
+        "choices": [],
+        "true_choices": [
+            2756
+        ],
+        "false_choices": [
+            2757
+        ]
+    },
+    {
+        "id": 2756,
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "name": "LettieReal",
+        "choices": [],
+        "true_choices": [
+            2759
+        ],
+        "false_choices": [
+            2758
+        ]
+    },
+    {
+        "id": 2757,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo11_1908",
+        "choices": [
+            2760,
+            2761
+        ]
+    },
+    {
+        "id": 2758,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo11_1909",
+        "choices": [
+            2761,
+            2760
+        ]
+    },
+    {
+        "id": 2759,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo11_1910",
+        "choices": [
+            2760,
+            2761
+        ]
+    },
+    {
+        "id": 2760,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo11_1911",
+        "choices": [
+            2762
+        ]
+    },
+    {
+        "id": 2761,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo11_1912",
+        "choices": [
+            2763
+        ]
+    },
+    {
+        "id": 2762,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2763,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo11_1913",
+        "choices": [
+            2764,
+            2765
+        ]
+    },
+    {
+        "id": 2764,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo11_1914",
+        "choices": [
+            2766
+        ]
+    },
+    {
+        "id": 2765,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo11_1915",
+        "choices": [
+            2767
+        ]
+    },
+    {
+        "id": 2766,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo11_1916",
+        "choices": [
+            2768
+        ]
+    },
+    {
+        "id": 2767,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo11_1917",
+        "choices": [
+            2768
+        ]
+    },
+    {
+        "id": 2768,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo11_1918",
+        "choices": [
+            2769
+        ]
+    },
+    {
+        "id": 2769,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo11_1919",
+        "choices": [
+            2770
+        ]
+    },
+    {
+        "id": 2770,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo11_1920",
+        "choices": [
+            2771,
+            2772
+        ]
+    },
+    {
+        "id": 2771,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo11_1921",
+        "choices": [
+            2773
+        ]
+    },
+    {
+        "id": 2772,
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/Choice_LettieRank6Convo11_1922",
+        "choices": [
+            2774
+        ]
+    },
+    {
+        "id": 2773,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo11_1923",
+        "choices": [
+            2775
+        ]
+    },
+    {
+        "id": 2774,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo11_1924",
+        "choices": [
+            2775
+        ]
+    },
+    {
+        "id": 2775,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo11_1925",
+        "choices": [
+            2776
+        ]
+    },
+    {
+        "id": 2776,
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "choices": []
+    },
+    {
+        "id": 2777,
+        "type": "/EE/Types/Engine/DialogueNode",
+        "name": "/Lotus/Language/1999Texting/LettieRomance/TxtLettie_LettieRank6Convo2_1927",
+        "choices": [
+            2580
+        ]
     }
 ]
