@@ -1,12 +1,13 @@
 digraph {
 	"FlareBirthdayConvo1 begins." [color=orange];
-		"FlareBirthdayConvo1 begins." -> j3697070526;
-	j3697070526 [label="Check boolean FlareLizzieIntroComplete",color=orange];
-		j3697070526 -> j3003852374 [label=true,color=green];
-		j3697070526 -> j1040513573 [label=true,color=green];
-		j3697070526 -> j2875752765 [label=true,color=green];
-		j3697070526 -> j2517026086 [label=false,color=brown];
-		j3697070526 -> j3003852374 [label=false,color=brown];
+		"FlareBirthdayConvo1 begins." -> j2019808001;
+	j2019808001 [label="Check boolean FlareLizzieIntroComplete",color=orange];
+		j2019808001 -> j3003852374 [label=true,color=green];
+		j2019808001 -> j1040513573 [label=true,color=green];
+		j2019808001 -> j2875752765 [label=true,color=green];
+		j2019808001 -> j2517026086 [label=true,color=green];
+		j2019808001 -> j2517026086 [label=false,color=brown];
+		j2019808001 -> j3003852374 [label=false,color=brown];
 	j3003852374 [label="Buon compleanno, Flare! Deve essere un compleanno tranquillo senza la tua band.",shape=box,color=red];
 		j3003852374 -> j3088465350;
 	j1040513573 [label="Ehi Lizzie, mangerai qualcosa di buono per il tuo compleanno?",shape=box,color=red];
