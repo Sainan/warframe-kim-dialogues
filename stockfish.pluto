@@ -1,7 +1,7 @@
 local { json } = require "*"
 
 class ChatEngine
-	function __construct(public node_id, public bools = {})
+	function __construct(public node_id, public bools = {}, public visited = {})
 	end
 
 	static function chatNameToNodeId(name)
@@ -22,6 +22,7 @@ class ChatEngine
 	function tick()
 		local choices
 		while true do
+			self.visited[self.node_id] = true
 			local node = nodes[1 + self.node_id]
 			switch node.type do
 				case "/EE/Types/Engine/SetBooleanDialogueNode":
@@ -43,9 +44,15 @@ class ChatEngine
 	end
 
 	function fork(node_id)
-		local t = {}
-		for bool in self.bools do t[bool] = true end
-		return new ChatEngine(node_id, t)
+		local copy = new ChatEngine(node_id)
+		for bool in self.bools do
+			copy.bools[bool] = true
+		end
+		for visited_node_id in self.visited do
+			copy.visited[visited_node_id] = true
+		end
+		copy.visited[node_id] = true
+		return copy
 	end
 
 	function getNodeChoices(node)
@@ -79,9 +86,12 @@ class ChatEngine
 		end
 		local best_choice_score = 0
 		for i = 1, #choices do
-			local choice_score = self:fork(choices[i]):getScore()
-			if choice_score > best_choice_score then
-				best_choice_score = choice_score
+			local node_id = choices[i]
+			if not self.visited[node_id] then
+				local choice_score = self:fork(node_id):getScore()
+				if choice_score > best_choice_score then
+					best_choice_score = choice_score
+				end
 			end
 		end
 		return score + best_choice_score
