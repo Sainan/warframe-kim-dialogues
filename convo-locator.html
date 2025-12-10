@@ -38,13 +38,22 @@
 	}
 
 	const chatroom_to_username = {
+		"AoiDialogue_rom.dialogue": "xX GLIMMER Xx",
 		"ArthurDialogue_rom.dialogue": "Broadsword",
 		"EleanorDialogue_rom.dialogue": "Salem",
-		"LettieDialogue_rom.dialogue": "Belladona ~{@",
-		"JabirDialogue_rom.dialogue": "H16h V0l7463",
-		"AoiDialogue_rom.dialogue": "xX GLIMMER Xx",
-		"QuincyDialogue_rom.dialogue": "Soldja1Shot1kil",
+		"FlareDialogue_rom.dialogue": "Liminus_Star",
 		"HexDialogue_rom.dialogue": "The Hex",
+		"JabirDialogue_rom.dialogue": "H16h V0l7463",
+		"KayaDialogue_rom.dialogue": "KOLTrial_5115",
+		"LettieDialogue_rom.dialogue": "Belladona ~{@",
+		//"MinervaDialogue_rom.dialogue": "MomToxicated",
+		"MinervaVelemirDialogue_rom.dialogue": "Minerva, Velimir",
+		"QuincyDialogue_rom.dialogue": "Soldja1Shot1kil",
+		//"VelimirDialogue_rom.dialogue": "PapaPolar",
+		"LoidDialogue_rom.dialogue": "POM2_LAB1",
+		"LyonDialogue_rom.dialogue": "Lyon",
+		"MarieDialogue_rom.dialogue": "Marie",
+		"RoatheDialogue_rom.dialogue": "Roathe",
 	};
 
 	Promise.all([
@@ -63,16 +72,20 @@
 		fetch("dicts/tr.json").then(res => res.json()),
 		fetch("dicts/uk.json").then(res => res.json()),
 		fetch("dicts/zh.json").then(res => res.json()),
-		fetch("ArthurDialogue_rom.dialogue.json").then(res => res.json()),
-		fetch("EleanorDialogue_rom.dialogue.json").then(res => res.json()),
-		fetch("LettieDialogue_rom.dialogue.json").then(res => res.json()),
-		fetch("JabirDialogue_rom.dialogue.json").then(res => res.json()),
-		fetch("AoiDialogue_rom.dialogue.json").then(res => res.json()),
-		fetch("QuincyDialogue_rom.dialogue.json").then(res => res.json()),
-		fetch("HexDialogue_rom.dialogue.json").then(res => res.json())
+		fetch("data/ArthurDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("data/EleanorDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("data/LettieDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("data/JabirDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("data/AoiDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("data/QuincyDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("data/HexDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("data/LoidDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("data/LyonDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("data/MarieDialogue_rom.dialogue.json").then(res => res.json()),
+		fetch("data/RoatheDialogue_rom.dialogue.json").then(res => res.json())
 	]).then(([
 		dict_en, dict_de, dict_es, dict_fr, dict_it, dict_ja, dict_ko, dict_pl, dict_pt, dict_ru, dict_tc, dict_th, dict_tr, dict_uk, dict_zh,
-		ArthurDialogue_rom, EleanorDialogue_rom, LettieDialogue_rom, JabirDialogue_rom, AoiDialogue_rom, QuincyDialogue_rom, HexDialogue_rom
+		ArthurDialogue_rom, EleanorDialogue_rom, LettieDialogue_rom, JabirDialogue_rom, AoiDialogue_rom, QuincyDialogue_rom, HexDialogue_rom, LoidDialogue_rom, LyonDialogue_rom, MarieDialogue_rom, RoatheDialogue_rom
 	]) => {
 		window.dicts = {
 			en: dict_en,
@@ -99,16 +112,20 @@
 			"AoiDialogue_rom.dialogue": { nodes: AoiDialogue_rom, convos: {} },
 			"QuincyDialogue_rom.dialogue": { nodes: QuincyDialogue_rom, convos: {} },
 			"HexDialogue_rom.dialogue": { nodes: HexDialogue_rom, convos: {} },
+			"LoidDialogue_rom.dialogue": { nodes: LoidDialogue_rom, convos: {} },
+			"LyonDialogue_rom.dialogue": { nodes: LyonDialogue_rom, convos: {} },
+			"MarieDialogue_rom.dialogue": { nodes: MarieDialogue_rom, convos: {} },
+			"RoatheDialogue_rom.dialogue": { nodes: RoatheDialogue_rom, convos: {} },
 		};
 		for (const [chatroom_name, chatroom] of Object.entries(chatrooms))
 		{
 			for (const node of chatroom.nodes)
 			{
-				if (node.type == "/EE/Types/Engine/StartDialogueNode")
+				if (node.Content && !node.Content.startsWith("/") && !node.Incoming && node.Outgoing)
 				{
-					const convo = node.name;
+					const convo = node.Content;
 					//convo_to_chatroom[convo] = chatroom_name;
-					const pending = [ node.id ];
+					const pending = [ node.Id ];
 					const done = [];
 					while (pending.length != 0)
 					{
@@ -119,22 +136,35 @@
 						}
 						done.push(node_id);
 						const n = chatroom.nodes[node_id];
-						if (n.true_choices)
+						if (n.Outgoing)
 						{
-							for (const choice of n.true_choices)
-							{
-								pending.push(choice);
-							}
-							for (const choice of n.false_choices)
+							for (const choice of n.Outgoing)
 							{
 								pending.push(choice);
 							}
 						}
-						else
+						else if (n.TrueNodes)
 						{
-							for (const choice of n.choices)
+							for (const choice of n.TrueNodes)
 							{
 								pending.push(choice);
+							}
+							if (n.FalseNodes)
+							{
+								for (const choice of n.FalseNodes)
+								{
+									pending.push(choice);
+								}
+							}
+						}
+						else if (n.Outputs)
+						{
+							for (const output of n.Outputs)
+							{
+								for (const choice of output.Outgoing)
+								{
+									pending.push(choice);
+								}
 							}
 						}
 					}
@@ -191,29 +221,25 @@
 			{
 				for (const node of chatroom.nodes)
 				{
-					if (node.type == "/EE/Types/Engine/DialogueNode" || node.type == "/EE/Types/Engine/PlayerChoiceDialogueNode")
+					let text;
+					if (node.Content)
 					{
-						let text = dicts[lang][node.name] ?? node.name;
-						if (node.vars)
-						{
-							for (const [k, v] of Object.entries(node.vars))
-							{
-								text = text.split("|"+k+"|").join(dicts[lang][v] ?? v);
-							}
-						}
+						text = dicts[lang][node.Content] ?? node.Content;
 						text = text.split("<RETRO_EMOJI_HEART>").join("<3");
-
+					}
+					if (text)
+					{
 						if (normaliseText(text).indexOf(query) != -1)
 						{
-							const convo = node_id_to_convo(chatroom, node.id);
+							const convo = node_id_to_convo(chatroom, node.Id);
 
 							let sender_name = "Drifter";
-							if (node.type == "/EE/Types/Engine/DialogueNode")
+							if (text.indexOf("/Choice_") == -1)
 							{
 								sender_name = chatroom_to_username[chatroom_name];
-								if (node.nickname_override)
+								if (node.Speaker)
 								{
-									sender_name = node.nickname_override;
+									sender_name = node.Speaker;
 									if (dicts[lang][sender_name])
 									{
 										sender_name = dicts[lang][sender_name];
@@ -235,14 +261,6 @@
 								a.href = "./flowcharts_svg/" + lang + "/" + chatroom_name + "/" + convo + ".svg";
 								a.target = "_blank";
 								a.textContent = "Flowchart";
-								p.appendChild(a);
-							}
-							p.innerHTML += " • ";
-							{
-								const a = document.createElement("a");
-								a.href = "kimulacrum#chatroom=" + chatroom_name + "&dialogue=" + convo;
-								a.target = "_blank";
-								a.textContent = "Kimulacrum";
 								p.appendChild(a);
 							}
 							p.innerHTML += ")";
