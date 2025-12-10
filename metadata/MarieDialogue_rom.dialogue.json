@@ -1,0 +1,341 @@
+{
+    "Tag": "Marie",
+    "Pack": "Triad",
+    "CharacterName": "/Lotus/Language/1999/MessengerMarieName",
+    "LocFile": "/Lotus/Language/1999Texting/MarieRomance.loc",
+    "AddPhAutomatically": 0,
+    "Icons": [
+        {
+            "Tag": "Profile",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Tau/Texts/RetroPfpB.png"
+        }
+    ],
+    "NickName": "/Lotus/Language/1999/MessengerMarieUserName",
+    "DatingSymbol": "MarieDating",
+    "Ranks": [
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
+            "FirstDialogue": "MarieRank1Convo5",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotesRank1_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotesRank1_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 0,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/FriendlyRank",
+            "FirstDialogue": "",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotesRank2_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotesRank2_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 20,
+            "RequiredMinimumDialogues": 3,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/LikedRank",
+            "FirstDialogue": "MarieRank3Convo1",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotesRank3_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotesRank3_2",
+                    "UnlockConditions": [],
+                    "LockConditions": [
+                        "LoidFamilyComplete"
+                    ]
+                }
+            ],
+            "RequiredChemistry": 45,
+            "RequiredMinimumDialogues": 6,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/TrustedRank",
+            "FirstDialogue": "",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotesRank4_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_NoDate",
+                    "UnlockConditions": [
+                        "MarieNoDate"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotesRank4_3",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 80,
+            "RequiredMinimumDialogues": 10,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/CloseRank",
+            "FirstDialogue": "MarieRank5Convo1",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_NoDate",
+                    "UnlockConditions": [
+                        "MarieNoDate"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_WillDate",
+                    "UnlockConditions": [
+                        "MarieWillDate"
+                    ],
+                    "LockConditions": [
+                        "MarieNoDate",
+                        "MarieDating"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_Dating",
+                    "UnlockConditions": [
+                        "MarieDating"
+                    ],
+                    "LockConditions": [
+                        "MarieNoDate"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_EntratiA",
+                    "UnlockConditions": [
+                        "MarieEntratiCompleteA",
+                        "\"\""
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_EntratiB",
+                    "UnlockConditions": [
+                        "MarieEntratiCompleteB"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_EntratiC",
+                    "UnlockConditions": [
+                        "MarieEntratiCompleteC"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_FamilyFail",
+                    "UnlockConditions": [
+                        "MarieFamilyFail"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_FamilySuccess",
+                    "UnlockConditions": [
+                        "MarieFamilySuccess"
+                    ],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 120,
+            "RequiredMinimumDialogues": 15,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/BestiesRank",
+            "FirstDialogue": "",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotesRank6_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotesRank6_NoDate",
+                    "UnlockConditions": [
+                        "MarieNoDate"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_EntratiA",
+                    "UnlockConditions": [
+                        "MarieEntratiCompleteA"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_EntratiB",
+                    "UnlockConditions": [
+                        "MarieEntratiCompleteB"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_EntratiC",
+                    "UnlockConditions": [
+                        "MarieEntratiCompleteC"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_FamilyFail",
+                    "UnlockConditions": [
+                        "MarieFamilyFail"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_FamilySuccess",
+                    "UnlockConditions": [
+                        "MarieFamilySuccess"
+                    ],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 160,
+            "RequiredMinimumDialogues": 21,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/LovedRank",
+            "FirstDialogue": "",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotesRank7_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_EntratiA",
+                    "UnlockConditions": [
+                        "MarieEntratiCompleteA"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_EntratiB",
+                    "UnlockConditions": [
+                        "MarieEntratiCompleteB"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_EntratiC",
+                    "UnlockConditions": [
+                        "MarieEntratiCompleteC"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_FamilyFail",
+                    "UnlockConditions": [
+                        "MarieFamilyFail"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotes_FamilySuccess",
+                    "UnlockConditions": [
+                        "MarieFamilySuccess"
+                    ],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 160,
+            "RequiredMinimumDialogues": 21,
+            "Conditions": [
+                {
+                    "Booleans": [
+                        "MarieDating"
+                    ]
+                }
+            ],
+            "DialogueBin": 6
+        }
+    ],
+    "RankLimiterScript": {
+        "Script": "/Lotus/Scripts/1999/HexSyndicateDialog.lua",
+        "Function": "GetRankLimit",
+        "_dogTagSyndicate": "",
+        "_dogTagSyndicateDialogueWRes": "",
+        "_lichWeaponsManifest": "",
+        "_lichWeaponVendorCurrencyType": "",
+        "_arthurDialogue": "",
+        "_amirDialogue": "",
+        "_aoiDialogue": "",
+        "_eleanorDialogue": "",
+        "_lettieDialogue": "",
+        "_quincyDialogue": "",
+        "_dialogueWRes": "",
+        "_marieDialogue": "",
+        "_roatheDialogue": "",
+        "_lyonDialogue": "",
+        "_greetingTransmission": "",
+        "_onYourMindTransmission": "",
+        "_togetherResponseTransmission": "",
+        "_breakUpStartTransmission": "",
+        "_goodbyeTransmission": "",
+        "_breakUpTransmission": "",
+        "_breakUpUnsureTransmission": "",
+        "_kissCinematic": "",
+        "_cinematicInputFilter": "",
+        "_breakUpFadeTimer": 1,
+        "_breakUpFadeSound": "",
+        "_breakUpEasterEggChance": 0.02,
+        "_breakUpEasterEggSound": "",
+        "_questRankLimit": 0,
+        "_questKey": "",
+        "_npcAvatar": "",
+        "_actionInst": "",
+        "_cameraSpotInst": "",
+        "_avatarAnimations": [],
+        "_avatarPositionWaypoints": [],
+        "_actionPositionWaypoints": [],
+        "_cameraSpotPositionWaypoints": [],
+        "_doorPortalPortForwarderTag": "",
+        "_nodeIntro": "",
+        "_transmissionIdleDelay": [
+            20,
+            25
+        ],
+        "_dioramaDisplayPurchases": [],
+        "_dioramaDisplays": [],
+        "_dioramaCue": "",
+        "_dioramaSound": ""
+    }
+}

@@ -1,5 +1,6 @@
 {
     "Tag": "Aoi",
+    "Pack": "Hex",
     "CharacterName": "/Lotus/Language/1999/MessengerAoiName",
     "LocFile": "/Lotus/Language/1999Texting/AoiRomance.loc",
     "SpeakerExports": [
@@ -9,6 +10,7 @@
         }
     ],
     "AddPhAutomatically": 0,
+    "Syndicate": "HexSyndicate",
     "Upgrades": [
         "/Lotus/Upgrades/Calendar/BaseAoiUpgrade",
         "/Lotus/Upgrades/Calendar/BaseAoiAuraUpgrade"
@@ -38,88 +40,209 @@
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank1_1",
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank1_2",
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank1_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank1_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank1_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank1_Boring",
+                    "UnlockConditions": [
+                        "AoiBoring"
+                    ],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 0,
             "RequiredMinimumDialogues": 0,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/FriendlyRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank2_1",
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank2_2",
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank2_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank2_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank2_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank1_Boring",
+                    "UnlockConditions": [
+                        "AoiBoring"
+                    ],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 40,
             "RequiredMinimumDialogues": 2,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/LikedRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank3_1",
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank3_2",
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank3_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank3_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank3_3",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank3_Pixie",
+                    "UnlockConditions": [
+                        "AoiManicPixie"
+                    ],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 90,
             "RequiredMinimumDialogues": 4,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/TrustedRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank4_1",
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank4_2",
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank4_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank4_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank4_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotes_NoDate",
+                    "UnlockConditions": [
+                        "AoiNoDate"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank4_4",
+                    "UnlockConditions": [],
+                    "LockConditions": [
+                        "AoiNoDate",
+                        "AoiDating"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotes_Dating",
+                    "UnlockConditions": [
+                        "AoiDating"
+                    ],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 160,
             "RequiredMinimumDialogues": 7,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/CloseRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank5_1",
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank5_2",
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank5_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank5_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank5_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank5_4",
+                    "UnlockConditions": [],
+                    "LockConditions": [
+                        "AoiNoDate",
+                        "AoiDating"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotes_NoDate",
+                    "UnlockConditions": [
+                        "AoiNoDate"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotes_Dating",
+                    "UnlockConditions": [
+                        "AoiDating"
+                    ],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 250,
             "RequiredMinimumDialogues": 10,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/BestiesRank",
             "FirstDialogue": "AoiRank6Convo1",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank6_1"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank6_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank6_NoDate",
+                    "UnlockConditions": [
+                        "AoiNoDate"
+                    ],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 360,
             "RequiredMinimumDialogues": 13,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/LovedRank",
             "FirstDialogue": "AoiRank6Convo1",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/AoiNotesRank7_1"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/AoiNotesRank7_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 360,
             "RequiredMinimumDialogues": 13,
-            "UnlockCondition": "AoiDating",
+            "Conditions": [
+                {
+                    "Booleans": [
+                        "AoiDating"
+                    ]
+                }
+            ],
             "DialogueBin": 6
         }
     ],
@@ -175,6 +298,9 @@
         "_lettieDialogue": "",
         "_quincyDialogue": "",
         "_dialogueWRes": "",
+        "_marieDialogue": "",
+        "_roatheDialogue": "",
+        "_lyonDialogue": "",
         "_greetingTransmission": "",
         "_onYourMindTransmission": "",
         "_togetherResponseTransmission": "",
@@ -182,11 +308,12 @@
         "_goodbyeTransmission": "",
         "_breakUpTransmission": "",
         "_breakUpUnsureTransmission": "",
+        "_kissCinematic": "",
+        "_cinematicInputFilter": "",
         "_breakUpFadeTimer": 1,
         "_breakUpFadeSound": "",
         "_breakUpEasterEggChance": 0.02,
         "_breakUpEasterEggSound": "",
-        "_syndicateTag": "HexSyndicate",
         "_questRankLimit": 3,
         "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain",
         "_npcAvatar": "",
@@ -201,6 +328,10 @@
         "_transmissionIdleDelay": [
             20,
             25
-        ]
+        ],
+        "_dioramaDisplayPurchases": [],
+        "_dioramaDisplays": [],
+        "_dioramaCue": "",
+        "_dioramaSound": ""
     }
 }

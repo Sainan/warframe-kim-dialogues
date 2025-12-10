@@ -19,5 +19,5 @@ The stockfish script will look through your chatlogs to tell you which choices w
 ## Scripts
 
 - extract.bat: Invokes [Warframe Exporter](https://github.com/Puxtril/Warframe-Exporter) to extract the raw `*Dialogue_rom.dialogue` files. Makes some assumptions specific to my environment.
-- Hell-Scrubber: Parses the raw `*Dialogue_rom.dialogue` files into the JSON files you can see here. Makes some assumptions specific to my environment.
+- Descender: Parses the raw `*Dialogue_rom.dialogue` files into the JSON files you can find in the data & metadata folders. Makes some assumptions specific to my environment.
 - Dotinator: Converts the JSON files into DOT format then invokes Graphviz to make the flowchart PNGs.

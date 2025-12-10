@@ -1,5 +1,6 @@
 {
     "Tag": "Lettie",
+    "Pack": "Hex",
     "CharacterName": "/Lotus/Language/1999/MessengerLettieName",
     "LocFile": "/Lotus/Language/1999Texting/LettieRomance.loc",
     "SpeakerExports": [
@@ -10,6 +11,7 @@
     ],
     "AddPhAutomatically": 0,
     "DateRank": 5,
+    "Syndicate": "HexSyndicate",
     "Upgrades": [
         "/Lotus/Upgrades/Calendar/BaseLettieUpgrade",
         "/Lotus/Upgrades/Calendar/BaseLettieAuraUpgrade"
@@ -39,88 +41,187 @@
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank1_1",
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank1_2",
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank1_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank1_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank1_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 0,
             "RequiredMinimumDialogues": 0,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/FriendlyRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank2_1",
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank2_2",
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank2_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank2_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank2_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 40,
             "RequiredMinimumDialogues": 2,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/LikedRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank3_1",
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank3_2",
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank3_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank3_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank3_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotes_NoDate",
+                    "UnlockConditions": [
+                        "LettieNoDate"
+                    ],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 90,
             "RequiredMinimumDialogues": 4,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/TrustedRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank4_1",
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank4_2",
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank4_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank4_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank4_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotes_NoDate",
+                    "UnlockConditions": [
+                        "LettieNoDate"
+                    ],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 160,
             "RequiredMinimumDialogues": 7,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/CloseRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank5_1",
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank5_2",
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank5_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank5_1",
+                    "UnlockConditions": [
+                        "LettieWillDate"
+                    ],
+                    "LockConditions": [
+                        "LettieNoDate"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank5_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotes_NoDate",
+                    "UnlockConditions": [
+                        "LettieNoDate"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotes_WillDate",
+                    "UnlockConditions": [
+                        "LettieWillDate"
+                    ],
+                    "LockConditions": [
+                        "\"\""
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotes_Dating",
+                    "UnlockConditions": [
+                        "LettieDating"
+                    ],
+                    "LockConditions": [
+                        "\"\""
+                    ]
+                }
             ],
             "RequiredChemistry": 250,
             "RequiredMinimumDialogues": 10,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/BestiesRank",
             "FirstDialogue": "LettieRank6Convo1",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank6_1"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank6_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank6_NoDate",
+                    "UnlockConditions": [
+                        "LettieNoDate"
+                    ],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 360,
             "RequiredMinimumDialogues": 13,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/LovedRank",
             "FirstDialogue": "LettieRank6Convo1",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/LettieNotesRank7_1"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank7_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 360,
             "RequiredMinimumDialogues": 13,
-            "UnlockCondition": "LettieDating",
+            "Conditions": [
+                {
+                    "Booleans": [
+                        "LettieDating"
+                    ]
+                }
+            ],
             "DialogueBin": 6
         }
     ],
@@ -176,6 +277,9 @@
         "_lettieDialogue": "",
         "_quincyDialogue": "",
         "_dialogueWRes": "",
+        "_marieDialogue": "",
+        "_roatheDialogue": "",
+        "_lyonDialogue": "",
         "_greetingTransmission": "",
         "_onYourMindTransmission": "",
         "_togetherResponseTransmission": "",
@@ -183,11 +287,12 @@
         "_goodbyeTransmission": "",
         "_breakUpTransmission": "",
         "_breakUpUnsureTransmission": "",
+        "_kissCinematic": "",
+        "_cinematicInputFilter": "",
         "_breakUpFadeTimer": 1,
         "_breakUpFadeSound": "",
         "_breakUpEasterEggChance": 0.02,
         "_breakUpEasterEggSound": "",
-        "_syndicateTag": "HexSyndicate",
         "_questRankLimit": 3,
         "_questKey": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain",
         "_npcAvatar": "",
@@ -202,6 +307,10 @@
         "_transmissionIdleDelay": [
             20,
             25
-        ]
+        ],
+        "_dioramaDisplayPurchases": [],
+        "_dioramaDisplays": [],
+        "_dioramaCue": "",
+        "_dioramaSound": ""
     }
 }

@@ -1,5 +1,6 @@
 {
     "Tag": "Flare",
+    "Pack": "Roundtable",
     "CharacterName": "/Lotus/Language/1999/MessengerFlareName",
     "FirstDialogue": "FlareRank1Convo1",
     "LocFile": "/Lotus/Language/1999Texting/FlareDialogue.loc",
@@ -10,6 +11,7 @@
         }
     ],
     "AddPhAutomatically": 0,
+    "Syndicate": "HexSyndicate",
     "AvailableSyndicateRank": 4,
     "RequiredSyndicateRank": 4,
     "Icons": [
@@ -35,88 +37,173 @@
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank1_1",
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank1_2",
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank1_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank1_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank1_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank1_3",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 0,
             "RequiredMinimumDialogues": 0,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/FriendlyRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank2_1",
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank2_2",
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank2_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank2_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank2_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank2_3",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 0,
             "RequiredMinimumDialogues": 3,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/LikedRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank3_1",
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank3_2",
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank3_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank3_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank3_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank3_3",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 0,
             "RequiredMinimumDialogues": 6,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/TrustedRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank4_1",
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank4_2",
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank4_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank4_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotes_Together",
+                    "UnlockConditions": [
+                        "FlareSuccess"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank4_3",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 0,
             "RequiredMinimumDialogues": 9,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/CloseRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank5_1",
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank5_2",
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank5_3"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank5_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotes_Together",
+                    "UnlockConditions": [
+                        "FlareSuccess"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank5_3",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotes_Apart",
+                    "UnlockConditions": [
+                        "FlareLizzieApart"
+                    ],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 0,
             "RequiredMinimumDialogues": 13,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/AssociatesRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank6_1"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank6_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 0,
             "RequiredMinimumDialogues": 18,
-            "UnlockCondition": "",
+            "Conditions": [],
             "DialogueBin": 0
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/BestiesRank",
             "FirstDialogue": "",
-            "NotesList": [
-                "/Lotus/Language/1999Texting/Romance/FlareNotesRank7_1"
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/FlareNotesRank7_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
             ],
             "RequiredChemistry": 0,
             "RequiredMinimumDialogues": 18,
-            "UnlockCondition": "LizzieShawzin",
+            "Conditions": [
+                {
+                    "Booleans": [
+                        "LizzieShawzin"
+                    ]
+                }
+            ],
             "DialogueBin": 6
         }
     ]

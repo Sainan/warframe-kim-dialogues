@@ -1,0 +1,410 @@
+{
+    "Tag": "Roathe",
+    "Pack": "Triad",
+    "CharacterName": "/Lotus/Language/1999/MessengerRoatheName",
+    "LocFile": "/Lotus/Language/1999Texting/RoatheRomance.loc",
+    "AddPhAutomatically": 0,
+    "Icons": [
+        {
+            "Tag": "Profile",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Tau/Texts/RetroPfpD.png"
+        }
+    ],
+    "NickName": "/Lotus/Language/1999/MessengerRoatheUserName",
+    "DatingSymbol": "RoatheDating",
+    "Ranks": [
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
+            "FirstDialogue": "RoatheRank1Convo1",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank1_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank1_2",
+                    "UnlockConditions": [
+                        "RoatheDeal"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank1_3",
+                    "UnlockConditions": [
+                        "RoatheNoDeal"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank1_4",
+                    "UnlockConditions": [
+                        "RoatheKnowsReset"
+                    ],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 0,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/FriendlyRank",
+            "FirstDialogue": "RoatheRank2Convo1",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank2_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank2_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank1_2",
+                    "UnlockConditions": [
+                        "RoatheDeal"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank1_3",
+                    "UnlockConditions": [
+                        "RoatheNoDeal"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_Reset2",
+                    "UnlockConditions": [
+                        "RoatheKnowsReset2"
+                    ],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 20,
+            "RequiredMinimumDialogues": 3,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/LikedRank",
+            "FirstDialogue": "",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank3_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank1_2",
+                    "UnlockConditions": [
+                        "RoatheDeal"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank1_3",
+                    "UnlockConditions": [
+                        "RoatheNoDeal"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_Reset2",
+                    "UnlockConditions": [
+                        "RoatheKnowsReset2"
+                    ],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 45,
+            "RequiredMinimumDialogues": 6,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/TrustedRank",
+            "FirstDialogue": "RoatheRank4Convo7",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank4_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_NoDate",
+                    "UnlockConditions": [
+                        "RoatheNoDate"
+                    ],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 80,
+            "RequiredMinimumDialogues": 10,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/CloseRank",
+            "FirstDialogue": "RoatheRank5Convo1",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_Redeemed",
+                    "UnlockConditions": [
+                        "RoatheRedeemed"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_Villain",
+                    "UnlockConditions": [
+                        "RoatheVillain"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_Fail",
+                    "UnlockConditions": [
+                        "RoatheFail"
+                    ],
+                    "LockConditions": [
+                        "RoatheFailStall",
+                        "RoatheFailUltimate",
+                        "RoatheWillReset"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_FailUltimate",
+                    "UnlockConditions": [
+                        "RoatheFailUltimate"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_FailStall",
+                    "UnlockConditions": [
+                        "RoatheFailStall"
+                    ],
+                    "LockConditions": [
+                        "RoatheFailUltimate"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_FailNot21",
+                    "UnlockConditions": [
+                        "RoatheFailNot21"
+                    ],
+                    "LockConditions": [
+                        "RoatheFailUltimate"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_FailUnloved",
+                    "UnlockConditions": [
+                        "RoatheFailUnloved"
+                    ],
+                    "LockConditions": [
+                        "RoatheFailUltimate"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_WillReset",
+                    "UnlockConditions": [
+                        "RoatheWillReset"
+                    ],
+                    "LockConditions": [
+                        "RoatheFailUltimate"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_FamilyFail",
+                    "UnlockConditions": [
+                        "RoatheFamilyFail"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_FamilyDelay",
+                    "UnlockConditions": [
+                        "RoatheFamilyDelay"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank5_1",
+                    "UnlockConditions": [],
+                    "LockConditions": [
+                        "RoatheNoDate",
+                        "RoatheDating"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank5_2",
+                    "UnlockConditions": [
+                        "RoatheDating"
+                    ],
+                    "LockConditions": [
+                        "RoatheNoDate"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_NoDate",
+                    "UnlockConditions": [
+                        "RoatheNoDate"
+                    ],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 120,
+            "RequiredMinimumDialogues": 15,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/BestiesRank",
+            "FirstDialogue": "",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank6_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank6_NoDate",
+                    "UnlockConditions": [
+                        "RoatheNoDate"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_Villain",
+                    "UnlockConditions": [
+                        "RoatheVillain"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_Redeemed",
+                    "UnlockConditions": [
+                        "RoatheRedeemed"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank6_Loid",
+                    "UnlockConditions": [
+                        "LoidFamilySuccess"
+                    ],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 160,
+            "RequiredMinimumDialogues": 21,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/LovedRank",
+            "FirstDialogue": "",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank7_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_Villain",
+                    "UnlockConditions": [
+                        "RoatheVillain"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotes_Redeemed",
+                    "UnlockConditions": [
+                        "RoatheRedeemed"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank6_Loid",
+                    "UnlockConditions": [
+                        "LoidFamilySuccess"
+                    ],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 160,
+            "RequiredMinimumDialogues": 21,
+            "Conditions": [
+                {
+                    "Booleans": [
+                        "RoatheDating",
+                        "RoatheVillain"
+                    ]
+                },
+                {
+                    "Booleans": [
+                        "RoatheDating",
+                        "RoatheRedeemed"
+                    ]
+                }
+            ],
+            "DialogueBin": 6
+        }
+    ],
+    "RankLimiterScript": {
+        "Script": "/Lotus/Scripts/1999/HexSyndicateDialog.lua",
+        "Function": "GetRankLimit",
+        "_dogTagSyndicate": "",
+        "_dogTagSyndicateDialogueWRes": "",
+        "_lichWeaponsManifest": "",
+        "_lichWeaponVendorCurrencyType": "",
+        "_arthurDialogue": "",
+        "_amirDialogue": "",
+        "_aoiDialogue": "",
+        "_eleanorDialogue": "",
+        "_lettieDialogue": "",
+        "_quincyDialogue": "",
+        "_dialogueWRes": "",
+        "_marieDialogue": "",
+        "_roatheDialogue": "",
+        "_lyonDialogue": "",
+        "_greetingTransmission": "",
+        "_onYourMindTransmission": "",
+        "_togetherResponseTransmission": "",
+        "_breakUpStartTransmission": "",
+        "_goodbyeTransmission": "",
+        "_breakUpTransmission": "",
+        "_breakUpUnsureTransmission": "",
+        "_kissCinematic": "",
+        "_cinematicInputFilter": "",
+        "_breakUpFadeTimer": 1,
+        "_breakUpFadeSound": "",
+        "_breakUpEasterEggChance": 0.02,
+        "_breakUpEasterEggSound": "",
+        "_questRankLimit": 0,
+        "_questKey": "",
+        "_npcAvatar": "",
+        "_actionInst": "",
+        "_cameraSpotInst": "",
+        "_avatarAnimations": [],
+        "_avatarPositionWaypoints": [],
+        "_actionPositionWaypoints": [],
+        "_cameraSpotPositionWaypoints": [],
+        "_doorPortalPortForwarderTag": "",
+        "_nodeIntro": "",
+        "_transmissionIdleDelay": [
+            20,
+            25
+        ],
+        "_dioramaDisplayPurchases": [],
+        "_dioramaDisplays": [],
+        "_dioramaCue": "",
+        "_dioramaSound": ""
+    }
+}

@@ -1,23 +1,37 @@
 [
     {
-        "id": 0,
-        "type": "/EE/Types/Engine/StartDialogueNode",
-        "name": "MinVelRank1Convo1",
-        "choices": [
+        "Id": 0,
+        "Content": "MinVelRank1Convo1",
+        "Outgoing": [
             1
+        ],
+        "GraphPos": [
+            433,
+            112
         ]
     },
     {
-        "id": 1,
-        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
-        "name": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRank1Convo1_0",
-        "choices": [
+        "Id": 1,
+        "Content": "/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRank1Convo1_0",
+        "Incoming": [
+            0
+        ],
+        "Outgoing": [
             2
+        ],
+        "GraphPos": [
+            731,
+            112
         ]
     },
     {
-        "id": 2,
-        "type": "/EE/Types/Engine/EndDialogueNode",
-        "choices": []
+        "Id": 2,
+        "Incoming": [
+            1
+        ],
+        "GraphPos": [
+            1022,
+            113
+        ]
     }
 ]

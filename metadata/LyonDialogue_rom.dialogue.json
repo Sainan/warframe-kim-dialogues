@@ -1,0 +1,277 @@
+{
+    "Tag": "Lyon",
+    "Pack": "Triad",
+    "CharacterName": "/Lotus/Language/1999/MessengerLyonName",
+    "LocFile": "/Lotus/Language/1999Texting/LyonRomance.loc",
+    "AddPhAutomatically": 0,
+    "Icons": [
+        {
+            "Tag": "Profile",
+            "Icon": "/Lotus/Interface/Graphics/Retro/Tau/Texts/RetroPfpC.png"
+        }
+    ],
+    "NickName": "/Lotus/Language/1999/MessengerLyonUserName",
+    "DatingSymbol": "LyonDating",
+    "FirstRank": 3,
+    "Ranks": [
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/NeutralRank",
+            "FirstDialogue": "",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_NoTalk",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 0,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/FriendlyRank",
+            "FirstDialogue": "",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_NoTalk",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 0,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/LikedRank",
+            "FirstDialogue": "LyonRank3Convo1",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotesRank3_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotesRank3_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 0,
+            "RequiredMinimumDialogues": 0,
+            "Conditions": [
+                {
+                    "Booleans": [
+                        "MarieLyonAvailable"
+                    ]
+                }
+            ],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/TrustedRank",
+            "FirstDialogue": "",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotesRank4_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotesRank4_2",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 30,
+            "RequiredMinimumDialogues": 4,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/CloseRank",
+            "FirstDialogue": "LyonRank5Convo1",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotesRank5_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_WillDate",
+                    "UnlockConditions": [
+                        "LyonWillDate"
+                    ],
+                    "LockConditions": [
+                        "LyonNoDate",
+                        "LyonDating"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_Dating",
+                    "UnlockConditions": [
+                        "LyonDating"
+                    ],
+                    "LockConditions": [
+                        "LyonNoDate"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_NoDate",
+                    "UnlockConditions": [
+                        "LyonNoDate"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_ConfessFail",
+                    "UnlockConditions": [
+                        "LyonConfessionFail"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_FamilyFail",
+                    "UnlockConditions": [
+                        "LyonFamilyFail"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_FamilySuccess",
+                    "UnlockConditions": [
+                        "LyonFamilySuccess"
+                    ],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 65,
+            "RequiredMinimumDialogues": 9,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/BestiesRank",
+            "FirstDialogue": "",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotesRank6_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotesRank6_NoDate",
+                    "UnlockConditions": [
+                        "LyonNoDate"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_FamilyFail",
+                    "UnlockConditions": [
+                        "LyonFamilyFail"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_FamilySuccess",
+                    "UnlockConditions": [
+                        "LyonFamilySuccess"
+                    ],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 105,
+            "RequiredMinimumDialogues": 15,
+            "Conditions": [],
+            "DialogueBin": 0
+        },
+        {
+            "RankName": "/Lotus/Language/1999Texting/Romance/LovedRank",
+            "FirstDialogue": "",
+            "Notes": [
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotesRank7_1",
+                    "UnlockConditions": [],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_FamilyFail",
+                    "UnlockConditions": [
+                        "LyonFamilyFail"
+                    ],
+                    "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_FamilySuccess",
+                    "UnlockConditions": [
+                        "LyonFamilySuccess"
+                    ],
+                    "LockConditions": []
+                }
+            ],
+            "RequiredChemistry": 105,
+            "RequiredMinimumDialogues": 15,
+            "Conditions": [
+                {
+                    "Booleans": [
+                        "LyonDating"
+                    ]
+                }
+            ],
+            "DialogueBin": 6
+        }
+    ],
+    "RankLimiterScript": {
+        "Script": "/Lotus/Scripts/1999/HexSyndicateDialog.lua",
+        "Function": "GetRankLimit",
+        "_dogTagSyndicate": "",
+        "_dogTagSyndicateDialogueWRes": "",
+        "_lichWeaponsManifest": "",
+        "_lichWeaponVendorCurrencyType": "",
+        "_arthurDialogue": "",
+        "_amirDialogue": "",
+        "_aoiDialogue": "",
+        "_eleanorDialogue": "",
+        "_lettieDialogue": "",
+        "_quincyDialogue": "",
+        "_dialogueWRes": "",
+        "_marieDialogue": "",
+        "_roatheDialogue": "",
+        "_lyonDialogue": "",
+        "_greetingTransmission": "",
+        "_onYourMindTransmission": "",
+        "_togetherResponseTransmission": "",
+        "_breakUpStartTransmission": "",
+        "_goodbyeTransmission": "",
+        "_breakUpTransmission": "",
+        "_breakUpUnsureTransmission": "",
+        "_kissCinematic": "",
+        "_cinematicInputFilter": "",
+        "_breakUpFadeTimer": 1,
+        "_breakUpFadeSound": "",
+        "_breakUpEasterEggChance": 0.02,
+        "_breakUpEasterEggSound": "",
+        "_questRankLimit": 0,
+        "_questKey": "",
+        "_npcAvatar": "",
+        "_actionInst": "",
+        "_cameraSpotInst": "",
+        "_avatarAnimations": [],
+        "_avatarPositionWaypoints": [],
+        "_actionPositionWaypoints": [],
+        "_cameraSpotPositionWaypoints": [],
+        "_doorPortalPortForwarderTag": "",
+        "_nodeIntro": "",
+        "_transmissionIdleDelay": [
+            20,
+            25
+        ],
+        "_dioramaDisplayPurchases": [],
+        "_dioramaDisplays": [],
+        "_dioramaCue": "",
+        "_dioramaSound": ""
+    }
+}

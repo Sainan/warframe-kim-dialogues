@@ -1,0 +1,76 @@
+local json = require "pluto:json"
+local EeNotationParser = loadfile("../ee-notation-parser/EeNotationParser.pluto")()
+
+local ALL_DIALOGUES <const> = {
+	"AoiDialogue_rom.dialogue",
+	"ArthurDialogue_rom.dialogue",
+	"EleanorDialogue_rom.dialogue",
+	"FlareDialogue_rom.dialogue",
+	"HexDialogue_rom.dialogue",
+	"JabirDialogue_rom.dialogue",
+	"KayaDialogue_rom.dialogue",
+	"LettieDialogue_rom.dialogue",
+	"LoidDialogue_rom.dialogue",
+	"LyonDialogue_rom.dialogue",
+	"MarieDialogue_rom.dialogue",
+	"MinervaDialogue_rom.dialogue",
+	"MinervaVelemirDialogue_rom.dialogue",
+	"QuincyDialogue_rom.dialogue",
+	"RoatheDialogue_rom.dialogue",
+	"VelimirDialogue_rom.dialogue",
+}
+
+print "Extracting metadata..."
+for ALL_DIALOGUES as diag_name do
+	local rom = io.contents("Extracted/Debug/Lotus/Types/Gameplay/1999Wf/Dialogue/"..diag_name.."_H")
+	local i = 1
+	local filename, metadata
+	i += 20 -- skip hash?
+	filename, i = string.unpack("<s4", rom, i)
+	metadata, i = string.unpack("<s4", rom, i)
+	io.contents("metadata/"..diag_name..".json", json.encode(EeNotationParser.parse(metadata), true))
+end
+
+print "Loading dicts..."
+local LANGS <const> = { "en", "de", "es", "fr", "it", "ja", "ko", "pl", "pt", "ru", "tc", "th", "tr", "uk", "zh" }
+local full_dicts = {}
+local partial_dicts = {}
+for LANGS as lang do
+	full_dicts[lang] = io.contents("../warframe-languages-bin-data/"..lang..".json") |> json.decode
+	partial_dicts[lang] = {}
+end
+
+print "Extracting data..."
+for ALL_DIALOGUES as diag_name do
+	local rom = io.contents("Extracted/Debug/Lotus/Types/Gameplay/1999Wf/Dialogue/"..diag_name.."_B")
+	local nodes = {}
+	local node
+	local i = rom:find("Id=0\n")
+	while true do
+		node, i = string.unpack("z", rom, i)
+		if node == "" then
+			break
+		end
+		node = EeNotationParser.parse(node)
+		nodes:insert(node)
+		if node.Content and full_dicts.en[node.Content] then
+			--assert(full_dicts.en[node.Content], node.Content)
+			for LANGS as lang do
+				partial_dicts[lang][node.Content] = full_dicts[lang][node.Content]
+			end
+		end
+		if node.Speaker and full_dicts.en[node.Speaker] then
+			--assert(full_dicts.en[node.Speaker], node.Speaker)
+			for LANGS as lang do
+				partial_dicts[lang][node.Speaker] = full_dicts[lang][node.Speaker]
+			end
+		end
+	end
+	io.contents("data/"..diag_name..".json", json.encode(nodes, true))
+end
+
+print "Savings dicts..."
+for LANGS as lang do
+	partial_dicts[lang].__order = partial_dicts[lang]:keys():sort()
+	io.contents("dicts/"..lang..".json", json.encode(partial_dicts[lang], true))
+end
