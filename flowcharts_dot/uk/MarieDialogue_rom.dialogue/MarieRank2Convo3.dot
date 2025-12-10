@@ -1,0 +1,30 @@
+digraph {
+	585 [label="MarieRank2Convo3 begins.",color=orange];
+		585 -> 586;
+	586 [label="Ліон досі не спілкується з тобою ?",shape=box,color=blue];
+		586 -> 587;
+		586 -> 589;
+		586 -> 588;
+	587 [label="Ні. Але все норм. Я розумію. Йому потрібен час.",shape=box,color=red];
+		587 -> 590;
+	589 [label="На жаль, ні.",shape=box,color=red];
+		589 -> 592;
+	588 [label="[Завершити розмову]",shape=box,color=red];
+		588 -> 591;
+	590 [label="+5 Chemistry",color=orange];
+		590 -> 593;
+	592 [label="Той час настане. Я впевнена. Тобі просто треба трішки потерпіти.",shape=box,color=blue];
+		592 -> 594;
+	591 [label="Chat ends.",color=orange];
+	593 [label="Які ж милі слова, merci pour ta bienveillance à ce regard.",shape=box,color=blue];
+		593 -> 595;
+	594 [label="+15 Chemistry",color=orange];
+		594 -> 596;
+	595 [label="Коли він зрештою зважиться на розмову з тобою, то це триватиме дуже довго. ",shape=box,color=blue];
+		595 -> 594;
+	596 [label="Я маю віру в це.",shape=box,color=blue];
+		596 -> 597;
+	597 [label="Та поки ми чекаємо на діяння віри, згадаймо про мою наполегливість !",shape=box,color=blue];
+		597 -> 598;
+	598 [label="Chat ends.",color=orange];
+}

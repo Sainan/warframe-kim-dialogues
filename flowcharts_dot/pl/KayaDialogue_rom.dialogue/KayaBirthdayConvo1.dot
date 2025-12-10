@@ -1,16 +1,17 @@
 digraph {
-	"KayaBirthdayConvo1 begins." [color=orange];
-		"KayaBirthdayConvo1 begins." -> j2253170607;
-		"KayaBirthdayConvo1 begins." -> j3599157426;
-	j2253170607 [label="Hej Kaja. Wszystkiego najlepszego!",shape=box,color=red];
-		j2253170607 -> j2466044541;
-	j3599157426 [label="Wszystkiego najlepszego, Kaja. Czujesz się już starzej?",shape=box,color=red];
-		j3599157426 -> j812538598;
-	j2466044541 [label="+20 Chemistry",color=orange];
-		j2466044541 -> j4079038970;
-	j812538598 [label="Nie starzeję się, prawda? Żadne z nas się nie starzeje. Kręcimy się w koło, jak na karuzeli. Tylko kucyki stoją w płomieniach i wszyscy krzyczą",shape=box,color=blue];
-		j812538598 -> "Chat ends.";
-	j4079038970 [label="wow, pamiętałeś? znaczy, urodziny to nic takiego, kiedy masz więcej niż 8 lat, ale to miłe z twojej strony. dziękuję",shape=box,color=blue];
-		j4079038970 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	987 [label="KayaBirthdayConvo1 begins.",color=orange];
+		987 -> 999;
+		987 -> 1000;
+	999 [label="Hej Kaja. Wszystkiego najlepszego!",shape=box,color=red];
+		999 -> 1005;
+	1000 [label="Wszystkiego najlepszego, Kaja. Czujesz się już starzej?",shape=box,color=red];
+		1000 -> 1006;
+	1005 [label="+20 Chemistry",color=orange];
+		1005 -> 988;
+	1006 [label="Nie starzeję się, prawda? Żadne z nas się nie starzeje. Kręcimy się w koło, jak na karuzeli. Tylko kucyki stoją w płomieniach i wszyscy krzyczą",shape=box,color=blue];
+		1006 -> 1007;
+	988 [label="wow, pamiętałeś? znaczy, urodziny to nic takiego, kiedy masz więcej niż 8 lat, ale to miłe z twojej strony. dziękuję",shape=box,color=blue];
+		988 -> 989;
+	1007 [label="Chat ends.",color=orange];
+	989 [label="Chat ends.",color=orange];
 }

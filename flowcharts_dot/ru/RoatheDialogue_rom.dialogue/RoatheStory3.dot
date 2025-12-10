@@ -1,0 +1,27 @@
+digraph {
+	2157 [label="RoatheStory3 begins.",color=orange];
+		2157 -> 5645;
+	5645 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5645 -> 2155 [label=true,color=green];
+		5645 -> 5644 [label=false,color=brown];
+	2155 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2155 -> 2149 [label="x >= 3",color=purple];
+		2155 -> 2151 [label="false",color=purple];
+	5644 [label="Chat ends.",color=orange];
+	2149 [label="ОРОКИН",shape=box,color=blue];
+		2149 -> 2150;
+	2151 [label="Chat ends.",color=orange];
+	2150 [label="Транскрипт: Долгое время у Империи Орокин не было врагов. Её армия существовала лишь для того, чтобы преследовать мелкие обиды, дом против дома, Исполнитель против Исполнителя.",shape=box,color=blue];
+		2150 -> 2153;
+	2153 [label="Когда Владеющие Разумом напали, мы познали единство, в котором нам долго отказывали. Даксы обнажили свои мечи против чего-то иного, нежели наглый крестьянин или вороватый торговец.",shape=box,color=blue];
+		2153 -> 2154;
+	2154 [label="Императоры, бессмертные номинальные правители Империи, чья власть была возложена на Исполнителей, пробудились на своих пыльных золотых тронах.",shape=box,color=blue];
+		2154 -> 5683;
+	5683 [label="War, magnificent war! At last, the Empire meant something. Defined by an extinction more imminent than the Sun’s eventual death, we drank deep of the nectar of life.",shape=box,color=blue];
+		5683 -> 2152;
+	2152 [label="Add 1 to HellStory",color=orange];
+		2152 -> 2330;
+	2330 [label="{\"Id\":2330,\"Incoming\":[2152],\"Outgoing\":[2156],\"GraphPos\":[3600,-10586],\"CompletionType\":1}",color=orange];
+		2330 -> 2156;
+	2156 [label="Chat ends.",color=orange];
+}

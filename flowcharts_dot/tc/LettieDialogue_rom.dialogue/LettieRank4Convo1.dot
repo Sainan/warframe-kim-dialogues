@@ -1,38 +1,38 @@
 digraph {
-	"LettieRank4Convo1 begins." [color=orange];
-		"LettieRank4Convo1 begins." -> j1362526325;
-		"LettieRank4Convo1 begins." -> j2705489213;
-		"LettieRank4Convo1 begins." -> j1350559949;
-	j1362526325 [label="其實呢，我從來沒聽過你和亞瑟怎麼認識的完整故事。",shape=box,color=red];
-		j1362526325 -> j428461520;
-	j2705489213 [label="你有空聊一會兒嗎，莉蒂？還是你很忙？",shape=box,color=red];
-		j2705489213 -> j3772263205;
-	j1350559949 [label="[結束]",shape=box,color=red];
-		j1350559949 -> "Chat ends.";
-	j428461520 [label="嗯，過程有點混亂 
+	1002 [label="LettieRank4Convo1 begins.",color=orange];
+		1002 -> 1003;
+		1002 -> 1004;
+		1002 -> 1005;
+	1003 [label="其實呢，我從來沒聽過你和亞瑟怎麼認識的完整故事。",shape=box,color=red];
+		1003 -> 1011;
+	1004 [label="你有空聊一會兒嗎，莉蒂？還是你很忙？",shape=box,color=red];
+		1004 -> 1008;
+	1005 [label="[結束]",shape=box,color=red];
+		1005 -> 1006;
+	1011 [label="嗯，過程有點混亂 
 我猜你不想知道那些血腥的細節
 不過，可以，如果你想知道的話
 我也可以告訴你",shape=box,color=blue];
-		j428461520 -> j2554847291;
-	j3772263205 [label="+5 Chemistry",color=orange];
-		j3772263205 -> j1778569787;
-	"Chat ends." [color=orange];
-	j2554847291 [label="我們曾經在同一個基地駐扎
+		1011 -> 1012;
+	1008 [label="+5 Chemistry",color=orange];
+		1008 -> 1009;
+	1006 [label="Chat ends.",color=orange];
+	1012 [label="我們曾經在同一個基地駐扎
 他在不列坦，我在自由國軍隊
 不同的國家，同樣的敵人",shape=box,color=blue];
-		j2554847291 -> j1496832071;
-	j1778569787 [label="總是很忙 
+		1012 -> 1013;
+	1009 [label="總是很忙 
 但我可以休息一下 
 （西語）怎麼了？",shape=box,color=blue];
-		j1778569787 -> j222996600;
-	j1496832071 [label="我是我團隊的野戰醫護 
+		1009 -> 1010;
+	1013 [label="我是我團隊的野戰醫護 
 我們和他的部隊幾乎是並肩部署的 
 那地方很快就變成了一團糟 
 真的很快",shape=box,color=blue];
-		j1496832071 -> j1906883201;
-	j222996600 [label="我在想你和亞瑟是怎麼認識的。",shape=box,color=red];
-		j222996600 -> j428461520;
-	j1906883201 [label="我的大部分隊員都沒能活下來
+		1013 -> 1014;
+	1010 [label="我在想你和亞瑟是怎麼認識的。",shape=box,color=red];
+		1010 -> 1011;
+	1014 [label="我的大部分隊員都沒能活下來
 他的隊員也大多沒能活過來
 我們彼此支持
 字面上的支持
@@ -40,40 +40,43 @@ digraph {
 當他退役並加入危應部隊時
 我毫不猶豫地跟著他
 反正我已經厭倦了軍隊裡中的一切戲劇事件",shape=box,color=blue];
-		j1906883201 -> j370498903;
-	j370498903 [label="我告訴他我會跟著他走到天涯海角
+		1014 -> 1015;
+	1015 [label="我告訴他我會跟著他走到天涯海角
 沒想到我會跟著他走到冥界邊緣",shape=box,color=blue];
-		j370498903 -> j1051789497;
-	j1051789497 [label="對你來說這肯定會顯得那麼微不足道吧
+		1015 -> 1016;
+	1016 [label="對你來說這肯定會顯得那麼微不足道吧
 像這樣的故事
 你與怪物和神明戰鬥過
 你已經與瘦女士共舞了那麼多次",shape=box,color=blue];
-		j1051789497 -> j3207784194;
-	j3207784194 [label="Boolean LettieArthur1 is now true.",color=orange];
-		j3207784194 -> j1911617934;
-		j3207784194 -> j3099569563;
-		j3207784194 -> j746837454;
-	j1911617934 [label="僅僅因為我的戰鬥有點史詩式的，並不意味著我不能理解那情況有多糟糕。",shape=box,color=red];
-		j1911617934 -> j352737280;
-	j3099569563 [label="所有戰爭都是屁話，故事到此為止。",shape=box,color=red];
-		j3099569563 -> j4014527412;
-	j746837454 [label="嗯，小人物，小故事。",shape=box,color=red];
-		j746837454 -> j2585322972;
-	j352737280 [label="+10 Chemistry",color=orange];
-		j352737280 -> j175124363;
-	j4014527412 [label="+15 Chemistry",color=orange];
-		j4014527412 -> j962575600;
-	j2585322972 [label="（西語）是的",shape=box,color=blue];
-		j2585322972 -> j2703113057;
-	j175124363 [label="呃，是嗎 
+		1016 -> 1017;
+	1017 [label="Update boolean LettieArthur1",color=orange];
+		1017 -> 1018;
+		1017 -> 1019;
+		1017 -> 1020;
+	1018 [label="僅僅因為我的戰鬥有點史詩式的，並不意味著我不能理解那情況有多糟糕。",shape=box,color=red];
+		1018 -> 1021;
+	1019 [label="所有戰爭都是屁話，故事到此為止。",shape=box,color=red];
+		1019 -> 1022;
+	1020 [label="嗯，小人物，小故事。",shape=box,color=red];
+		1020 -> 1023;
+	1021 [label="+10 Chemistry",color=orange];
+		1021 -> 1024;
+	1022 [label="+15 Chemistry",color=orange];
+		1022 -> 1025;
+	1023 [label="（西語）是的",shape=box,color=blue];
+		1023 -> 1026;
+	1024 [label="呃，是嗎 
 閃亮奪目還是小巧私秘
 最後瘦女士也是一樣的
 至少……她應該要是
 但對於鬼魂們來說，或許並非如此",shape=box,color=blue];
-		j175124363 -> "Chat ends.";
-	j962575600 [label="是的，它們都一樣 
+		1024 -> 1027;
+	1025 [label="是的，它們都一樣 
 槍越大，人越蠢",shape=box,color=blue];
-		j962575600 -> "Chat ends.";
-	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
-		j2703113057 -> "Chat ends.";
+		1025 -> 1028;
+	1026 [label="Update boolean LettieNoDate",color=orange];
+		1026 -> 1029;
+	1027 [label="Chat ends.",color=orange];
+	1028 [label="Chat ends.",color=orange];
+	1029 [label="Chat ends.",color=orange];
 }

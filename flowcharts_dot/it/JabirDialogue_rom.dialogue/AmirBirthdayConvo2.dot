@@ -1,16 +1,21 @@
 digraph {
-	"AmirBirthdayConvo2 begins." [color=orange];
-		"AmirBirthdayConvo2 begins." -> j2982167434;
-		"AmirBirthdayConvo2 begins." -> j4251921826;
-	j2982167434 [label="Buon compleanno, Amir. Non ti ho preso niente.",shape=box,color=red];
-		j2982167434 -> j2459151511;
-	j4251921826 [label="Ciao, Amir. Buon compleanno. Spero che ti stia divertendo!",shape=box,color=red];
-		j4251921826 -> j1641940235;
-	j2459151511 [label="oh. beh. credo che sia il pensiero che conta. ... e il minimo sforzo. ... grazie",shape=box,color=blue];
-		j2459151511 -> "Chat ends.";
-	j1641940235 [label="+20 Chemistry",color=orange];
-		j1641940235 -> j1385048029;
-	"Chat ends." [color=orange];
-	j1385048029 [label="SÌ OGGI È UNA GIORNATA SPLENDIDA SONO SVEGLIO DALLE 00:01, ABBIAMO BEVUTO BEVANDE ENERGETICHE E GIOCATO NELLA SALA GIOCHI E AOI MI HA FATTO UNA STANZA DI PELUCHE E CI HO VOMITATO DENTRO",shape=box,color=blue];
-		j1385048029 -> "Chat ends.";
+	3572 [label="AmirBirthdayConvo2 begins.",color=orange];
+		3572 -> 3578;
+		3572 -> 3579;
+	3578 [label="Buon compleanno, Amir. Non ti ho preso niente.",shape=box,color=red];
+		3578 -> 3577;
+	3579 [label="Ciao, Amir. Buon compleanno. Spero che ti stia divertendo!",shape=box,color=red];
+		3579 -> 3573;
+	3577 [label="oh. beh. credo che sia il pensiero che conta. ... e il minimo sforzo. ... grazie",shape=box,color=blue];
+		3577 -> 3596;
+	3573 [label="+20 Chemistry",color=orange];
+		3573 -> 3576;
+	3596 [label="{\"Id\":3596,\"Incoming\":[3577],\"Outgoing\":[3574],\"GraphPos\":[-14787,-21152],\"CompletionType\":1}",color=orange];
+		3596 -> 3574;
+	3576 [label="SÌ OGGI È UNA GIORNATA SPLENDIDA SONO SVEGLIO DALLE 00:01, ABBIAMO BEVUTO BEVANDE ENERGETICHE E GIOCATO NELLA SALA GIOCHI E AOI MI HA FATTO UNA STANZA DI PELUCHE E CI HO VOMITATO DENTRO",shape=box,color=blue];
+		3576 -> 3597;
+	3574 [label="Chat ends.",color=orange];
+	3597 [label="{\"Id\":3597,\"Incoming\":[3576],\"Outgoing\":[3575],\"GraphPos\":[-14371,-21328],\"CompletionType\":1}",color=orange];
+		3597 -> 3575;
+	3575 [label="Chat ends.",color=orange];
 }

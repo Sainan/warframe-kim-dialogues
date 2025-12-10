@@ -1,0 +1,31 @@
+digraph {
+	2184 [label="RoatheStory6 begins.",color=orange];
+		2184 -> 5651;
+	5651 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5651 -> 2183 [label=true,color=green];
+		5651 -> 5650 [label=false,color=brown];
+	2183 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2183 -> 2181 [label="x >= 6",color=purple];
+		2183 -> 2182 [label="false",color=purple];
+	5650 [label="Chat ends.",color=orange];
+	2181 [label="SM: SENTIENT",shape=box,color=blue];
+		2181 -> 2180;
+	2182 [label="Chat ends.",color=orange];
+	2180 [label="Transkript: Sentient'leri 'onlar' olarak değil, daha çok 'o' olarak düşündük. ",shape=box,color=blue];
+		2180 -> 5691;
+	5691 [label="Bize saldıran ordularla karşı karşıya kaldık, onların bireysel yaşamlarına, kan hücrelerinin yaşamlarına gösterilen saygıdan daha fazla saygı gösterilmiyordu.",shape=box,color=blue];
+		5691 -> 2178;
+	2178 [label="Onlar yayılan, kötü niyetli bir kitlenin vücudundaki hücrelerdi.",shape=box,color=blue];
+		2178 -> 5690;
+	5690 [label="Sanırım, Infested ile yaşadığımız deneyimlerden çok etkilenmiştik - bu, oldukça farklı bir türden bir kovan zihin idi.",shape=box,color=blue];
+		5690 -> 2179;
+	2179 [label="Sentient'lere evrimleşme yetkisi verilmişti ve bu evrimin son noktası için tek modelleri bizdik.",shape=box,color=blue];
+		2179 -> 5687;
+	5687 [label="Orokin'i yok etmek için değil, onların yerini almak ve nihayetinde onları mükemmelleştirmek için… Origin Sistemine geri dönüyorlardı.",shape=box,color=blue];
+		5687 -> 2177;
+	2177 [label="Add 1 to HellStory",color=orange];
+		2177 -> 2333;
+	2333 [label="{\"Id\":2333,\"Incoming\":[2177],\"Outgoing\":[2185],\"GraphPos\":[5237,-9572],\"CompletionType\":1}",color=orange];
+		2333 -> 2185;
+	2185 [label="Chat ends.",color=orange];
+}

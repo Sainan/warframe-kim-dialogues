@@ -1,16 +1,17 @@
 digraph {
-	"KayaBirthdayConvo2 begins." [color=orange];
-		"KayaBirthdayConvo2 begins." -> j3396931182;
-		"KayaBirthdayConvo2 begins." -> j3942765795;
-	j3396931182 [label="Feliz aniversário, Kaya. Está planejando uma \"Festa da sua Vida\" hoje? Com balões? Serpentinas? E tudo mais? ",shape=box,color=red];
-		j3396931182 -> j3741614742;
-	j3942765795 [label="Algum plano pro seu aniversário hoje? ",shape=box,color=red];
-		j3942765795 -> j2538083620;
-	j3741614742 [label="Aff, eca, não mesmo. Sem chance de me pegarem com essas coisas infantis, nem mortinha",shape=box,color=blue];
-		j3741614742 -> "Chat ends.";
-	j2538083620 [label="+20 Chemistry",color=orange];
-		j2538083620 -> j2899573652;
-	"Chat ends." [color=orange];
-	j2899573652 [label="Na verdade, sim. A Lê vai me mostrar como dissecar um cadáver, não é demais?!",shape=box,color=blue];
-		j2899573652 -> "Chat ends.";
+	992 [label="KayaBirthdayConvo2 begins.",color=orange];
+		992 -> 1001;
+		992 -> 1002;
+	1001 [label="Feliz aniversário, Kaya. Está planejando uma \"Festa da sua Vida\" hoje? Com balões? Serpentinas? E tudo mais? ",shape=box,color=red];
+		1001 -> 991;
+	1002 [label="Algum plano pro seu aniversário hoje? ",shape=box,color=red];
+		1002 -> 1008;
+	991 [label="Aff, eca, não mesmo. Sem chance de me pegarem com essas coisas infantis, nem mortinha",shape=box,color=blue];
+		991 -> 990;
+	1008 [label="+20 Chemistry",color=orange];
+		1008 -> 1009;
+	990 [label="Chat ends.",color=orange];
+	1009 [label="Na verdade, sim. A Lê vai me mostrar como dissecar um cadáver, não é demais?!",shape=box,color=blue];
+		1009 -> 1010;
+	1010 [label="Chat ends.",color=orange];
 }

@@ -1,16 +1,17 @@
 digraph {
-	"KayaBirthdayConvo1 begins." [color=orange];
-		"KayaBirthdayConvo1 begins." -> j1367085108;
-		"KayaBirthdayConvo1 begins." -> j2976729203;
-	j1367085108 [label="Эй, Кайя. С днюхой!",shape=box,color=red];
-		j1367085108 -> j56395404;
-	j2976729203 [label="С днём рождения, Кайя. Каково это – стать старше?",shape=box,color=red];
-		j2976729203 -> j1623750769;
-	j56395404 [label="+20 Chemistry",color=orange];
-		j56395404 -> j1251805017;
-	j1623750769 [label="Разве я взрослею? Да никто из нас не взрослеет. Мы просто по кругу катаемся на этой дьявольской карусели, словно горящие пони, которые орут",shape=box,color=blue];
-		j1623750769 -> "Chat ends.";
-	j1251805017 [label="ого, ты помнила? Ну, после восьми лет ДР уже не такое большое дело, но это мило, спасибо",shape=box,color=blue];
-		j1251805017 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	987 [label="KayaBirthdayConvo1 begins.",color=orange];
+		987 -> 999;
+		987 -> 1000;
+	999 [label="Эй, Кайя. С днюхой!",shape=box,color=red];
+		999 -> 1005;
+	1000 [label="С днём рождения, Кайя. Каково это – стать старше?",shape=box,color=red];
+		1000 -> 1006;
+	1005 [label="+20 Chemistry",color=orange];
+		1005 -> 988;
+	1006 [label="Разве я взрослею? Да никто из нас не взрослеет. Мы просто по кругу катаемся на этой дьявольской карусели, словно горящие пони, которые орут",shape=box,color=blue];
+		1006 -> 1007;
+	988 [label="ого, ты помнила? Ну, после восьми лет ДР уже не такое большое дело, но это мило, спасибо",shape=box,color=blue];
+		988 -> 989;
+	1007 [label="Chat ends.",color=orange];
+	989 [label="Chat ends.",color=orange];
 }

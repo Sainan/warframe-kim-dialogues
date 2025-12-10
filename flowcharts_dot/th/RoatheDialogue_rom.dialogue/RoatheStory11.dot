@@ -1,0 +1,31 @@
+digraph {
+	2232 [label="RoatheStory11 begins.",color=orange];
+		2232 -> 5660;
+	5660 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5660 -> 2233 [label=true,color=green];
+		5660 -> 5661 [label=false,color=brown];
+	2233 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2233 -> 2228 [label="x >= 11",color=purple];
+		2233 -> 2234 [label="false",color=purple];
+	5661 [label="Chat ends.",color=orange];
+	2228 [label="VM: DIVISION",shape=box,color=blue];
+		2228 -> 2235;
+	2234 [label="Chat ends.",color=orange];
+	2235 [label="บันทึก: หลังจากครั้งแรกที่ Sentient รุกรานระบบ และการตอบโต้ที่สร้างหายนะของ Orokin ความเงียบงันแปลกประหลาดก็เข้าปกคลุม",shape=box,color=blue];
+		2235 -> 2230;
+	2230 [label="เราไม่ได้รับข่าวคราวจากผู้คนของเราที่ติดค้างอยู่ใน Tau และไม่มีทางรู้เลยว่าเป็นเพราะสัญญาณถูกรบกวนหรือทุกคนถูกทำลายไปหมดแล้ว",shape=box,color=blue];
+		2230 -> 2226;
+	2226 [label="ข้าถูกร้องขอให้แสดงความคิดเห็น ในฐานะนักยุทธศาสตร์ ถูกคาดหวังให้เข้าใจศัตรู",shape=box,color=blue];
+		2226 -> 2231;
+	2231 [label="ในตอนนั้น Sentient สามารถทำลายสถานีปลายทางโซลาร์เรลที่อยู่เหนือ Tau ได้ทุกเมื่อ แต่เส้นทางนั้นยังคงทำงานอยู่",shape=box,color=blue];
+		2231 -> 5702;
+	5702 [label="ทำไมถึงเป็นเช่นนั้นล่ะ พวกมันจะได้อะไรจากการเปิดประตูทิ้งไว้",shape=box,color=blue];
+		5702 -> 5703;
+	5703 [label="พวกมันร่วมมือกันรุกราน หรือยังมีใครบางคนหวังที่จะอยู่ร่วมกันอย่างสันติ",shape=box,color=blue];
+		5703 -> 2229;
+	2229 [label="Add 1 to HellStory",color=orange];
+		2229 -> 2338;
+	2338 [label="{\"Id\":2338,\"Incoming\":[2229],\"Outgoing\":[2227],\"GraphPos\":[4367,-7448],\"CompletionType\":1}",color=orange];
+		2338 -> 2227;
+	2227 [label="Chat ends.",color=orange];
+}

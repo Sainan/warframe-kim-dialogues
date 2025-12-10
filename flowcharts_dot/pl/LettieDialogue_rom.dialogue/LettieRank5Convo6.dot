@@ -1,87 +1,88 @@
 digraph {
-	"LettieRank5Convo6 begins." [color=orange];
-		"LettieRank5Convo6 begins." -> j1229414268;
-	j1229414268 [label="Check boolean LettieDating",color=orange];
-		j1229414268 -> j3605276955 [label=true,color=green];
-		j1229414268 -> "Chat ends." [label=false,color=brown];
-	j3605276955 [label="Solecito 
+	2251 [label="LettieRank5Convo6 begins.",color=orange];
+		2251 -> 2252;
+	2252 [label="Check boolean LettieDating",color=orange];
+		2252 -> 2254 [label=true,color=green];
+		2252 -> 2253 [label=false,color=brown];
+	2254 [label="Solecito 
 Opowiedz mi więcej o przyszłości",shape=box,color=blue];
-		j3605276955 -> j125216312;
-	"Chat ends." [color=orange];
-	j125216312 [label="Przyszłości, w której bogowie są głodni, ale nie mają dla ciebie znaczenia 
+		2254 -> 2255;
+	2253 [label="Chat ends.",color=orange];
+	2255 [label="Przyszłości, w której bogowie są głodni, ale nie mają dla ciebie znaczenia 
 Przyszłości, którą dla nas porzuciłeś 
 O wojnach i odległych światach",shape=box,color=blue];
-		j125216312 -> j79880005;
-		j125216312 -> j2675048164;
-	j79880005 [label="Wszystko w porządku, Lettie?",shape=box,color=red];
-		j79880005 -> j3193980116;
-	j2675048164 [label="Musisz się trochę lepiej określić...",shape=box,color=red];
-		j2675048164 -> j2507323069;
-	j3193980116 [label="Ay, no 
+		2255 -> 2256;
+		2255 -> 2257;
+	2256 [label="Wszystko w porządku, Lettie?",shape=box,color=red];
+		2256 -> 2258;
+	2257 [label="Musisz się trochę lepiej określić...",shape=box,color=red];
+		2257 -> 2259;
+	2258 [label="Ay, no 
 Dzisiaj tylko melancholia 
 Pająki powróciły 
 No importa, ya no te molesto",shape=box,color=blue];
-		j3193980116 -> j1027157091;
-	j2507323069 [label="Ay, lo siento 
+		2258 -> 2260;
+	2259 [label="Ay, lo siento 
 Pająki powróciły 
 A z nimi melancholia 
 I najwyraźniej robię się melodramatyczna jajaja 
 No importa, ya no te molesto",shape=box,color=blue];
-		j2507323069 -> j1027157091;
-	j1027157091 [label="Check boolean LettieDepression",color=orange];
-		j1027157091 -> j294635053 [label=true,color=green];
-		j1027157091 -> j1951434848 [label=true,color=green];
-		j1027157091 -> j1178901864 [label=true,color=green];
-		j1027157091 -> j781800716 [label=false,color=brown];
-		j1027157091 -> j1951434848 [label=false,color=brown];
-		j1027157091 -> j1178901864 [label=false,color=brown];
-	j294635053 [label="Wspominałaś już wcześniej o pająkach. Zgaduję, że to metafora dla depresji?",shape=box,color=red];
-		j294635053 -> j270755522;
-	j1951434848 [label="Dowód na to, że pająki to kiepskie zwierzaki?",shape=box,color=red];
-		j1951434848 -> j863979139;
-	j1178901864 [label="Okej, nie ma sprawy.",shape=box,color=red];
-		j1178901864 -> "Chat ends.";
-	j781800716 [label="Pająki...?",shape=box,color=red];
-		j781800716 -> j2982331950;
-	j270755522 [label="Ay sí 
+		2259 -> 2260;
+	2260 [label="Check boolean LettieDepression",color=orange];
+		2260 -> 2261 [label=true,color=green];
+		2260 -> 2263 [label=true,color=green];
+		2260 -> 2264 [label=true,color=green];
+		2260 -> 2262 [label=false,color=brown];
+		2260 -> 2263 [label=false,color=brown];
+		2260 -> 2264 [label=false,color=brown];
+	2261 [label="Wspominałaś już wcześniej o pająkach. Zgaduję, że to metafora dla depresji?",shape=box,color=red];
+		2261 -> 2266;
+	2263 [label="Dowód na to, że pająki to kiepskie zwierzaki?",shape=box,color=red];
+		2263 -> 2313;
+	2264 [label="Okej, nie ma sprawy.",shape=box,color=red];
+		2264 -> 2265;
+	2262 [label="Pająki...?",shape=box,color=red];
+		2262 -> 2267;
+	2266 [label="Ay sí 
 Prześladują mnie całe życie 
 Małe gnojki w mojej głowie, wypełniają ją kłamstwami",shape=box,color=blue];
-		j270755522 -> j3790590183;
-	j863979139 [label="JAJAJA 
+		2266 -> 2272;
+	2313 [label="JAJAJA 
 Nie mam pojęcia 
 Te pająki nie są prawdziwe 
 To tylko nazwa dla głosów w głowie, które szepczą mi kłamstwa",shape=box,color=blue];
-		j863979139 -> j3356597427;
-		j863979139 -> j1016658934;
-		j863979139 -> j2043969670;
-	j2982331950 [label="Ay sí 
+		2313 -> 2269;
+		2313 -> 2270;
+		2313 -> 2271;
+	2265 [label="Chat ends.",color=orange];
+	2267 [label="Ay sí 
 Nie miałam okazji wyjaśnić 
 Pająkami nazywam myśli w głowie, które wypełniają ją kłamstwami",shape=box,color=blue];
-		j2982331950 -> j3356597427;
-		j2982331950 -> j1016658934;
-		j2982331950 -> j2043969670;
-	j3790590183 [label="Szepczą mi do ucha rzeczy, w które wierzę w chwilach słabości",shape=box,color=blue];
-		j3790590183 -> j3728401534;
-		j3790590183 -> j157850255;
-	j3356597427 [label="Co masz na myśli przez \"szepczą ci do ucha\"?",shape=box,color=red];
-		j3356597427 -> j3790590183;
-	j1016658934 [label="Słyszysz głosy...?",shape=box,color=red];
-		j1016658934 -> j731040347;
-	j2043969670 [label="Próbowałaś je ignorować?",shape=box,color=red];
-		j2043969670 -> j4002640627;
-	j3728401534 [label="Co ci szepczą?",shape=box,color=red];
-		j3728401534 -> j2982689772;
-	j157850255 [label="To brzmi okropnie... Przykro mi.",shape=box,color=red];
-		j157850255 -> j3163771142;
-	j731040347 [label="Aaaay babaaas NIE DOSŁOWNIE 
+		2267 -> 2269;
+		2267 -> 2270;
+		2267 -> 2271;
+	2272 [label="Szepczą mi do ucha rzeczy, w które wierzę w chwilach słabości",shape=box,color=blue];
+		2272 -> 2276;
+		2272 -> 2277;
+	2269 [label="Co masz na myśli przez \"szepczą ci do ucha\"?",shape=box,color=red];
+		2269 -> 2272;
+	2270 [label="Słyszysz głosy...?",shape=box,color=red];
+		2270 -> 2273;
+	2271 [label="Próbowałaś je ignorować?",shape=box,color=red];
+		2271 -> 2274;
+	2276 [label="Co ci szepczą?",shape=box,color=red];
+		2276 -> 2282;
+	2277 [label="To brzmi okropnie... Przykro mi.",shape=box,color=red];
+		2277 -> 2278;
+	2273 [label="Aaaay babaaas NIE DOSŁOWNIE 
 Szepczą mi do ucha rzeczy, w które wierzę w chwilach słabości",shape=box,color=blue];
-		j731040347 -> j3728401534;
-		j731040347 -> j157850255;
-	j4002640627 [label="¡¿Qué?! 
+		2273 -> 2276;
+		2273 -> 2277;
+	2274 [label="¡¿Qué?! 
 Cóż za genialny pomysł 
 Spróbuję już teraz",shape=box,color=blue];
-		j4002640627 -> "Chat ends.";
-	j2982689772 [label="Nie uda ci się 
+		2274 -> 2275;
+	2282 [label="Nie uda ci się 
 Nikt cię nie lubi 
 Jesteś brzydka 
 Jesteś gruba 
@@ -89,101 +90,108 @@ Jesteś beztalenciem
 Jesteś nieudacznikiem 
 Radość wkrótce przeminie 
 Nie zasługujesz na to",shape=box,color=blue];
-		j2982689772 -> j2333794390;
-		j2982689772 -> j84442202;
-		j2982689772 -> j535896581;
-	j3163771142 [label="Mm 
+		2282 -> 2283;
+		2282 -> 2284;
+		2282 -> 2285;
+	2278 [label="Mm 
 Czasami bywa zabawnie",shape=box,color=blue];
-		j3163771142 -> j56864556;
-	j2333794390 [label="Przynajmniej wiesz, że te pająki to kłamcy... brzmią jak skończone dupki.",shape=box,color=red];
-		j2333794390 -> j233014367;
-	j84442202 [label="Moje szepczą mi jeszcze gorsze rzeczy... poszczęściło ci się.",shape=box,color=red];
-		j84442202 -> j4148298077;
-	j535896581 [label="Myślałaś o lekach albo terapii? Depresja to poważna sprawa.",shape=box,color=red];
-		j535896581 -> j3311610797;
-	j56864556 [label="Muszę wracać do pracy 
+		2278 -> 2279;
+	2275 [label="Chat ends.",color=orange];
+	2283 [label="Przynajmniej wiesz, że te pająki to kłamcy... brzmią jak skończone dupki.",shape=box,color=red];
+		2283 -> 2286;
+	2284 [label="Moje szepczą mi jeszcze gorsze rzeczy... poszczęściło ci się.",shape=box,color=red];
+		2284 -> 2287;
+	2285 [label="Myślałaś o lekach albo terapii? Depresja to poważna sprawa.",shape=box,color=red];
+		2285 -> 2288;
+	2279 [label="Muszę wracać do pracy 
 Lo siento, nienawidzę wylewać swoich żali na ciebie",shape=box,color=blue];
-		j56864556 -> j1933300832;
-	j233014367 [label="Mali pinches cabronas
+		2279 -> 2280;
+	2286 [label="Mali pinches cabronas
 To niewielki smutek, ale jest jak trucizna, jeśli urośnie w siłę 
 Mi mamá zmagała się z tym całe życie i widziałam, ile ją to kosztowało",shape=box,color=blue];
-		j233014367 -> j3381882667;
-	j4148298077 [label="Więc dobrze wiesz, jakto jest, mi corazón
+		2286 -> 2289;
+	2287 [label="Więc dobrze wiesz, jakto jest, mi corazón
 Mali pinches cabronas
 Ale pamiętaj, że zawsze kłamią 
 To niewielki smutek, ale jest jak trucizna, jeśli urośnie w siłę 
 Mi mamá zmagała się z tym całe życie i widziałam, ile ją to kosztowało",shape=box,color=blue];
-		j4148298077 -> j945817555;
-	j3311610797 [label="Ay sí 
+		2287 -> 2290;
+	2288 [label="Ay sí 
 Mi mamá zmagała się z tym całe życie 
 Widziałam, ile ją to kosztowało 
 Na szczęście ze mną nie jest tak źle, nie wychodzi z nich nic poważnego 
 Próbowałam wcześniej leków, ale znienawidziłam to zamglenie",shape=box,color=blue];
-		j3311610797 -> j3434316421;
-	j1933300832 [label="+10 Chemistry",color=orange];
-		j1933300832 -> "Chat ends.";
-	j3381882667 [label="A teraz dlaczego nazywam je pająkami 
+		2288 -> 2291;
+	2280 [label="+10 Chemistry",color=orange];
+		2280 -> 2281;
+	2289 [label="A teraz dlaczego nazywam je pająkami 
 Bo możesz zwinąć gazetę 
 I je ZMIAŻDŻYĆ 
 Są małe i delikatne",shape=box,color=blue];
-		j3381882667 -> j2869585619;
-		j3381882667 -> j774778905;
-	j945817555 [label="A teraz dlaczego nazywam je pająkami 
+		2289 -> 2292;
+		2289 -> 2293;
+	2290 [label="A teraz dlaczego nazywam je pająkami 
 Bo możesz zwinąć gazetę 
 I je ZMIAŻDŻYĆ 
 Są małe i delikatne",shape=box,color=blue];
-		j945817555 -> j2950003432;
-		j945817555 -> j3290371684;
-	j3434316421 [label="Nie chcę zatańczyć z La Flaca, nie martw się 
+		2290 -> 2294;
+		2290 -> 2295;
+	2291 [label="Nie chcę zatańczyć z La Flaca, nie martw się 
 I pragnę też bólu, który nie wiąże się z przyjemnością jajaja
 To odrobina smutku, pająki są małe",shape=box,color=blue];
-		j3434316421 -> j513239489;
-		j3434316421 -> j2545955013;
-	j2869585619 [label="Nie polubisz się z Wenus...",shape=box,color=red];
-		j2869585619 -> j3951949302;
-	j774778905 [label="Dokładnie tak. A teraz mogę ci pomóc uporać się z nimi.",shape=box,color=red];
-		j774778905 -> j3122877211;
-	j2950003432 [label="Nie polubisz się z Wenus...",shape=box,color=red];
-		j2950003432 -> j1790295555;
-	j3290371684 [label="Dokładnie tak. A teraz możemy pomóc sobie uporać się z nimi.",shape=box,color=red];
-		j3290371684 -> j1750880556;
-	j513239489 [label="Ufam ci, ale wiesz, kiedy zwrócić się po pomoc? Prawda?",shape=box,color=red];
-		j513239489 -> j4040609576;
-	j2545955013 [label="Gdyby kiedyś było gorzej... dasz mi znać, prawda? Nawet gdybyśmy nie byli już razem?",shape=box,color=red];
-		j2545955013 -> j4040609576;
-	j3951949302 [label="¿Qué?",shape=box,color=blue];
-		j3951949302 -> j2135170578;
-	j3122877211 [label="+15 Chemistry",color=orange];
-		j3122877211 -> j1318168642;
-	j1790295555 [label="¿Qué?",shape=box,color=blue];
-		j1790295555 -> j3243364557;
-	j1750880556 [label="+20 Chemistry",color=orange];
-		j1750880556 -> j3564488161;
-	j4040609576 [label="+20 Chemistry",color=orange];
-		j4040609576 -> j783281680;
-	j2135170578 [label="Nieważne. Przynajmniej w tej chwili będę w stanie pomóc ci z pająkami.",shape=box,color=red];
-		j2135170578 -> j3122877211;
-	j1318168642 [label="Sí, solecito 
+		2291 -> 2296;
+		2291 -> 2297;
+	2281 [label="Chat ends.",color=orange];
+	2292 [label="Nie polubisz się z Wenus...",shape=box,color=red];
+		2292 -> 2298;
+	2293 [label="Dokładnie tak. A teraz mogę ci pomóc uporać się z nimi.",shape=box,color=red];
+		2293 -> 2304;
+	2294 [label="Nie polubisz się z Wenus...",shape=box,color=red];
+		2294 -> 2299;
+	2295 [label="Dokładnie tak. A teraz możemy pomóc sobie uporać się z nimi.",shape=box,color=red];
+		2295 -> 2308;
+	2296 [label="Ufam ci, ale wiesz, kiedy zwrócić się po pomoc? Prawda?",shape=box,color=red];
+		2296 -> 2311;
+	2297 [label="Gdyby kiedyś było gorzej... dasz mi znać, prawda? Nawet gdybyśmy nie byli już razem?",shape=box,color=red];
+		2297 -> 2311;
+	2298 [label="¿Qué?",shape=box,color=blue];
+		2298 -> 2301;
+	2304 [label="+15 Chemistry",color=orange];
+		2304 -> 2303;
+	2299 [label="¿Qué?",shape=box,color=blue];
+		2299 -> 2302;
+	2308 [label="+20 Chemistry",color=orange];
+		2308 -> 2306;
+	2311 [label="+20 Chemistry",color=orange];
+		2311 -> 2300;
+	2301 [label="Nieważne. Przynajmniej w tej chwili będę w stanie pomóc ci z pająkami.",shape=box,color=red];
+		2301 -> 2304;
+	2303 [label="Sí, solecito 
 Dziękuję ci 
 A teraz jak zwykle muszę wracać do pracy",shape=box,color=blue];
-		j1318168642 -> "Chat ends.";
-	j3243364557 [label="Nieważne. Przynajmniej w tej chwili możemy uporać się z pająkami.",shape=box,color=red];
-		j3243364557 -> j1750880556;
-	j3564488161 [label="Sí, mi corazón, dokładnie 
+		2303 -> 2305;
+	2302 [label="Nieważne. Przynajmniej w tej chwili możemy uporać się z pająkami.",shape=box,color=red];
+		2302 -> 2308;
+	2306 [label="Sí, mi corazón, dokładnie 
 Niech się dzieje, co chce 
 Dziękuję ci za tę rozmowę 
 A teraz jak zwykle muszę wracać do pracy",shape=box,color=blue];
-		j3564488161 -> j1472871842;
-	j783281680 [label="Sí, mi corazón, obiecuję 
+		2306 -> 2307;
+	2300 [label="Sí, mi corazón, obiecuję 
 Poradzimy sobie ze wszystkim 
 Zapamiętam tę chwilę i twoje wsparcie 
 A potem zawinę je w rolkę i uporam się z tymi pająkami jajaja",shape=box,color=blue];
-		j783281680 -> j1004543327;
-	j1472871842 [label="Boolean LettieReal is now true.",color=orange];
-		j1472871842 -> "Chat ends.";
-	j1004543327 [label="Szczerze mówiąc...
+		2300 -> 2310;
+	2305 [label="Chat ends.",color=orange];
+	2307 [label="Update boolean LettieReal",color=orange];
+		2307 -> 2309;
+	2310 [label="Szczerze mówiąc...
 Gracias 
 Ale teraz muszę wracać do pracy 
 Ve",shape=box,color=blue];
-		j1004543327 -> j1472871842;
+		2310 -> 2268;
+	2309 [label="Chat ends.",color=orange];
+	2268 [label="Update boolean LettieReal",color=orange];
+		2268 -> 2312;
+	2312 [label="Chat ends.",color=orange];
 }

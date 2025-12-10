@@ -1,0 +1,37 @@
+digraph {
+	2214 [label="RoatheStory9 begins.",color=orange];
+		2214 -> 5656;
+	5656 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5656 -> 2206 [label=true,color=green];
+		5656 -> 5657 [label=false,color=brown];
+	2206 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2206 -> 2210 [label="x >= 9",color=purple];
+		2206 -> 2209 [label="false",color=purple];
+	5657 [label="Chat ends.",color=orange];
+	2210 [label="SM: KOMUTANLAR",shape=box,color=blue];
+		2210 -> 2208;
+	2209 [label="Chat ends.",color=orange];
+	2208 [label="Transkript: Şimdi onları hatırlıyorum. Gülen Orokin gençliğinden oluşan gruplar.",shape=box,color=blue];
+		2208 -> 2212;
+	2212 [label="Henüz bozulmamış komuta kıyafetleri giymiş soylular.",shape=box,color=blue];
+		2212 -> 2205;
+	2205 [label="Çocukluk arkadaşları artık Dax lejyonları, Grineer, sıfır madde hücreleri, kendi kendini kopyalayan kanserleştiriciler, ilkel biyodron örümcekler ve ilkel asker konteynırlarından oluşan orduların başında.",shape=box,color=blue];
+		2205 -> 2213;
+	2213 [label="Emrinde aç şeytanlar olan altın oğlanlar ve kızlar.",shape=box,color=blue];
+		2213 -> 2215;
+	2215 [label="Onların kibirleri, zihnime acı bir ter gibi damlıyor. İçip şarkı söylediler, gelecek zamanları övündüler.",shape=box,color=blue];
+		2215 -> 5696;
+	5696 [label="Kendilerine isim yapacaklardı. Ailelerini yücelteceklerdi.",shape=box,color=blue];
+		5696 -> 5697;
+	5697 [label="Birçoğu öldü. Cesetleri bile geri getirilmedi.",shape=box,color=blue];
+		5697 -> 5698;
+	5698 [label="Düşmanın sırlarımızı öğrenmesini önlemek için, ölüm anında sıvılaştırılmak üzere Kuva şokuyla sarsıldılar.",shape=box,color=blue];
+		5698 -> 5699;
+	5699 [label="Bir neslin umudu, Grineer botlarının çiğnediği yağlı bir su birikintisine dönüştü.",shape=box,color=blue];
+		5699 -> 2211;
+	2211 [label="Add 1 to HellStory",color=orange];
+		2211 -> 2336;
+	2336 [label="{\"Id\":2336,\"Incoming\":[2211],\"Outgoing\":[2207],\"GraphPos\":[5512,-8267],\"CompletionType\":1}",color=orange];
+		2336 -> 2207;
+	2207 [label="Chat ends.",color=orange];
+}

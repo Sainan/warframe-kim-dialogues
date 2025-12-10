@@ -1,88 +1,92 @@
 digraph {
-	"LettieRank4Convo4 begins." [color=orange];
-		"LettieRank4Convo4 begins." -> j1158339480;
-	j1158339480 [label="Check boolean LettieNoFlirt",color=orange];
-		j1158339480 -> "Chat ends." [label=true,color=green];
-		j1158339480 -> j3734075058 [label=false,color=brown];
-	"Chat ends." [color=orange];
-	j3734075058 [label="Hypothetische Frage: Wenn ich dich auf einen Drink einladen wollte, würde ich mit einer vernähten Wunde enden?",shape=box,color=red];
-		j3734075058 -> j3741727461;
-	j3741727461 [label="Check boolean LettieNoDate",color=orange];
-		j3741727461 -> j1638910468 [label=true,color=green];
-		j3741727461 -> j2734427198 [label=false,color=brown];
-	j1638910468 [label="Sí
+	1203 [label="LettieRank4Convo4 begins.",color=orange];
+		1203 -> 1204;
+	1204 [label="Check boolean LettieNoFlirt",color=orange];
+		1204 -> 1205 [label=true,color=green];
+		1204 -> 1206 [label=false,color=brown];
+	1205 [label="Chat ends.",color=orange];
+	1206 [label="Hypothetische Frage: Wenn ich dich auf einen Drink einladen wollte, würde ich mit einer vernähten Wunde enden?",shape=box,color=red];
+		1206 -> 1207;
+	1207 [label="Check boolean LettieNoDate",color=orange];
+		1207 -> 1208 [label=true,color=green];
+		1207 -> 1210 [label=false,color=brown];
+	1208 [label="Sí
 Du würdest",shape=box,color=blue];
-		j1638910468 -> "Chat ends.";
-	j2734427198 [label="Mm? 
+		1208 -> 1209;
+	1210 [label="Mm? 
 Jajaja, nein",shape=box,color=blue];
-		j2734427198 -> j271645278;
-	j271645278 [label="Aber ich trinke nicht, habe ich nie 
+		1210 -> 1211;
+	1209 [label="Chat ends.",color=orange];
+	1211 [label="Aber ich trinke nicht, habe ich nie 
 Ich nehme auch keine Drogen 
 Du musst kreativer sein, um in mein Schlüpfer zu kommen 
 Oder was auch immer ich jetzt anziehen muss",shape=box,color=blue];
-		j271645278 -> j2905292746;
-		j271645278 -> j1144149692;
-	j2905292746 [label="Gut zu wissen. :) Irgendwelche Tipps, wie ich dich überzeugen kann?",shape=box,color=red];
-		j2905292746 -> j2334548275;
-	j1144149692 [label="Da wir davon reden. Hast du ... Das wollte schon lange fragen ...",shape=box,color=red];
-		j1144149692 -> j557481327;
-	j2334548275 [label="Du solltest dir nur wirklich sicher sein, dass du weißt, was dich erwartet, babas 
+		1211 -> 1212;
+		1211 -> 1213;
+	1212 [label="Gut zu wissen. :) Irgendwelche Tipps, wie ich dich überzeugen kann?",shape=box,color=red];
+		1212 -> 1215;
+	1213 [label="Da wir davon reden. Hast du ... Das wollte schon lange fragen ...",shape=box,color=red];
+		1213 -> 1216;
+	1215 [label="Du solltest dir nur wirklich sicher sein, dass du weißt, was dich erwartet, babas 
 Wenn du es süß und sanft magst, dann sprich mit Aoi oder Amir 
 Ich bin zu sehr an Schmerz gewöhnt und mag diesen zu sehr für so etwas",shape=box,color=blue];
-		j2334548275 -> j47216713;
-		j2334548275 -> j1787714542;
-	j557481327 [label="¿Qué?",shape=box,color=blue];
-		j557481327 -> j2425783871;
-		j557481327 -> j636536956;
-	j47216713 [label="Ja, gnä' Frau. Ich bin gewarnt.",shape=box,color=red];
-		j47216713 -> j195808440;
-	j1787714542 [label="Ähm ... Ja, egal. Schmerz ist nicht wirklich mein Ding.",shape=box,color=red];
-		j1787714542 -> j3381237174;
-	j2425783871 [label="Ich bin neugierig, ob du und die anderen Protoframes noch ... du weißt schon ... eure ... du weißt schon ... Teile habt ...",shape=box,color=red];
-		j2425783871 -> j1872527080;
-	j636536956 [label="Äh - Nichts weiter.",shape=box,color=red];
-		j636536956 -> j3006846604;
-	j195808440 [label="Boolean LettiePain is now true.",color=orange];
-		j195808440 -> j1979704728;
-	j3381237174 [label="+15 Chemistry",color=orange];
-		j3381237174 -> j3674506582;
-	j1872527080 [label="JAJAJAJAJA 
+		1215 -> 1225;
+		1215 -> 1226;
+	1216 [label="¿Qué?",shape=box,color=blue];
+		1216 -> 1217;
+		1216 -> 1218;
+	1225 [label="Ja, gnä' Frau. Ich bin gewarnt.",shape=box,color=red];
+		1225 -> 1227;
+	1226 [label="Ähm ... Ja, egal. Schmerz ist nicht wirklich mein Ding.",shape=box,color=red];
+		1226 -> 1232;
+	1217 [label="Ich bin neugierig, ob du und die anderen Protoframes noch ... du weißt schon ... eure ... du weißt schon ... Teile habt ...",shape=box,color=red];
+		1217 -> 1219;
+	1218 [label="Äh - Nichts weiter.",shape=box,color=red];
+		1218 -> 1220;
+	1227 [label="Update boolean LettiePain",color=orange];
+		1227 -> 1231;
+	1232 [label="+15 Chemistry",color=orange];
+		1232 -> 1229;
+	1219 [label="JAJAJAJAJA 
 Ist das dein Ernst?! 
 Du kannst Leute nicht einfach FRAGEN, was sie - 
 Aaaay, babaaaaassss, ich habe schon laaaaange nicht mehr so gelacht",shape=box,color=blue];
-		j1872527080 -> j3809217124;
-		j1872527080 -> j4081660635;
-	j3006846604 [label="Va 
+		1219 -> 1222;
+		1219 -> 1223;
+	1220 [label="Va 
 Bin sowieso beschäftigt",shape=box,color=blue];
-		j3006846604 -> "Chat ends.";
-	j1979704728 [label="+20 Chemistry",color=orange];
-		j1979704728 -> j3441992392;
-	j3674506582 [label="Bueno 
+		1220 -> 1221;
+	1231 [label="+20 Chemistry",color=orange];
+		1231 -> 1230;
+	1229 [label="Bueno 
 So bist du besser dran 
 Sag mir Bescheid, wenn du deine Meinung änderst",shape=box,color=blue];
-		j3674506582 -> j1271026572;
-	j3809217124 [label="Tschuldigung.",shape=box,color=red];
-		j3809217124 -> j1947564337;
-	j4081660635 [label="Ähm ... also? Habt ihr?",shape=box,color=red];
-		j4081660635 -> j1947564337;
-	j3441992392 [label="Mm, ja? 
+		1229 -> 1228;
+	1222 [label="Tschuldigung.",shape=box,color=red];
+		1222 -> 1224;
+	1223 [label="Ähm ... also? Habt ihr?",shape=box,color=red];
+		1223 -> 1224;
+	1221 [label="Chat ends.",color=orange];
+	1230 [label="Mm, ja? 
 Du denkst, du kannst damit fertig werden, oder? 
 Wir werden sehen",shape=box,color=blue];
-		j3441992392 -> j3287075363;
-	j1271026572 [label="Boolean LettieNoPain is now true.",color=orange];
-		j1271026572 -> j3677010230;
-	j1947564337 [label="Ich sag dir was 
+		1230 -> 1233;
+	1228 [label="Update boolean LettieNoPain",color=orange];
+		1228 -> 1234;
+	1224 [label="Ich sag dir was 
 Wenn babas brav ist 
 Dann findet er es vielleicht heraus, mm? 
 Aber ich warne dich
 Wenn du es süß und sanft magst, dann sprich mit Aoi oder Amir 
 Ich bin zu sehr an Schmerz gewöhnt und mag diesen zu sehr für so was",shape=box,color=blue];
-		j1947564337 -> j47216713;
-		j1947564337 -> j1787714542;
-	j3287075363 [label="Jetzt vete 
+		1224 -> 1225;
+		1224 -> 1226;
+	1233 [label="Jetzt vete 
 Ich kann nicht tagträumen, wenn ich Arbeit zu erledigen habe",shape=box,color=blue];
-		j3287075363 -> "Chat ends.";
-	j3677010230 [label="Jetzt vete 
+		1233 -> 1235;
+	1234 [label="Jetzt vete 
 Ich habe Arbeit zu erledigen",shape=box,color=blue];
-		j3677010230 -> "Chat ends.";
+		1234 -> 1236;
+	1235 [label="Chat ends.",color=orange];
+	1236 [label="Chat ends.",color=orange];
 }

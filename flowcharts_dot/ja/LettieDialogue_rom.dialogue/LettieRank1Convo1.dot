@@ -1,133 +1,137 @@
 digraph {
-	"LettieRank1Convo1 begins." [color=orange];
-		"LettieRank1Convo1 begins." -> j83861770;
-		"LettieRank1Convo1 begins." -> j3854858573;
-	j83861770 [label="ねぇLettie、どうしてメディックになったの？",shape=box,color=red];
-		j83861770 -> j1312382157;
-	j3854858573 [label="ねぇLettie、ホルバニアに来たきっかけは？",shape=box,color=red];
-		j3854858573 -> j3765914868;
-	j1312382157 [label="それがアタシの仕事だから
+	0 [label="LettieRank1Convo1 begins.",color=orange];
+		0 -> 4;
+		0 -> 7;
+	4 [label="ねぇLettie、どうしてメディックになったの？",shape=box,color=red];
+		4 -> 6;
+	7 [label="ねぇLettie、ホルバニアに来たきっかけは？",shape=box,color=red];
+		7 -> 11;
+	6 [label="それがアタシの仕事だから
 そっちは
 どうでも良いけど",shape=box,color=blue];
-		j1312382157 -> j718866559;
-		j1312382157 -> j3778443920;
-		j1312382157 -> j3599958590;
-	j3765914868 [label="Eh？",shape=box,color=blue];
-		j3765914868 -> j1106547640;
-	j718866559 [label="選択の余地はなかった。",shape=box,color=red];
-		j718866559 -> j3477207990;
-	j3778443920 [label="邪魔した？",shape=box,color=red];
-		j3778443920 -> j1747492539;
-	j3599958590 [label="邪魔みたいだし、もう行くよ。",shape=box,color=red];
-		j3599958590 -> j2547240352;
-	j1106547640 [label="あんたはどうしてここに来たの",shape=box,color=blue];
-		j1106547640 -> j718866559;
-		j1106547640 -> j3778443920;
-		j1106547640 -> j3599958590;
-	j3477207990 [label="共通点ね
+		6 -> 19;
+		6 -> 20;
+		6 -> 21;
+	11 [label="Eh？",shape=box,color=blue];
+		11 -> 12;
+	19 [label="選択の余地はなかった。",shape=box,color=red];
+		19 -> 13;
+	20 [label="邪魔した？",shape=box,color=red];
+		20 -> 14;
+	21 [label="邪魔みたいだし、もう行くよ。",shape=box,color=red];
+		21 -> 15;
+	12 [label="あんたはどうしてここに来たの",shape=box,color=blue];
+		12 -> 19;
+		12 -> 20;
+		12 -> 21;
+	13 [label="共通点ね
 そしてつまらない質問はよして、babas",shape=box,color=blue];
-		j3477207990 -> j2850246855;
-		j3477207990 -> j3226761891;
-	j1747492539 [label="どうして
+		13 -> 18;
+		13 -> 17;
+	14 [label="どうして
 なんでそう思うの
 忙しいわけでもないし
 ただ怪我人を縫い上げてるだけ",shape=box,color=blue];
-		j1747492539 -> j3226761891;
-		j1747492539 -> j2850246855;
-	j2547240352 [label="Va",shape=box,color=blue];
-		j2547240352 -> "Chat ends.";
-	j2850246855 [label="じゃあ何について話すべきかな？",shape=box,color=red];
-		j2850246855 -> j1797880453;
-	j3226761891 [label="ただ仲良くしようとしただけなんだ、ごめん。",shape=box,color=red];
-		j3226761891 -> j2460526262;
-	"Chat ends." [color=orange];
-	j1797880453 [label="Eh, lo siento
+		14 -> 17;
+		14 -> 18;
+	15 [label="Va",shape=box,color=blue];
+		15 -> 1;
+	18 [label="じゃあ何について話すべきかな？",shape=box,color=red];
+		18 -> 5;
+	17 [label="ただ仲良くしようとしただけなんだ、ごめん。",shape=box,color=red];
+		17 -> 16;
+	1 [label="Chat ends.",color=orange];
+	5 [label="Eh, lo siento
 昨夜はあまり眠れなかった
 だからあまりつまらない質問に答える余裕がない",shape=box,color=blue];
-		j1797880453 -> j4063361687;
-		j1797880453 -> j1928308061;
-	j2460526262 [label="Ay, equis
+		5 -> 2;
+		5 -> 3;
+	16 [label="Ay, equis
 構わない
 昨夜はあまり眠れなかったの",shape=box,color=blue];
-		j2460526262 -> j2198891676;
-		j2460526262 -> j4063361687;
-	j4063361687 [label="自分もだ。",shape=box,color=red];
-		j4063361687 -> j2759751187;
-	j1928308061 [label="つまらない質問だったしね（笑）他に何話せばいいか分からないんだ",shape=box,color=red];
-		j1928308061 -> j300465671;
-	j2198891676 [label="どうして？",shape=box,color=red];
-		j2198891676 -> j436915728;
-	j2759751187 [label="+10 Chemistry",color=orange];
-		j2759751187 -> j750886354;
-	j300465671 [label="ならヒント
+		16 -> 8;
+		16 -> 2;
+	2 [label="自分もだ。",shape=box,color=red];
+		2 -> 22;
+	3 [label="つまらない質問だったしね（笑）他に何話せばいいか分からないんだ",shape=box,color=red];
+		3 -> 26;
+	8 [label="どうして？",shape=box,color=red];
+		8 -> 147;
+	22 [label="+10 Chemistry",color=orange];
+		22 -> 24;
+	26 [label="ならヒント
 アタシの日常に割り込むなら
 面白くしてみて、¿si?",shape=box,color=blue];
-		j300465671 -> j509805292;
-	j436915728 [label="+5 Chemistry",color=orange];
-		j436915728 -> j3050472185;
-	j750886354 [label="最悪よね",shape=box,color=blue];
-		j750886354 -> j2474030770;
-	j509805292 [label="Check boolean LettieRats1",color=orange];
-		j509805292 -> j1465258236 [label=true,color=green];
-		j509805292 -> j2015007616 [label=false,color=brown];
-	j3050472185 [label="いつものこと",shape=box,color=blue];
-		j3050472185 -> j2474030770;
-	j2474030770 [label="何か要件あるの
+		26 -> 10;
+	147 [label="+5 Chemistry",color=orange];
+		147 -> 23;
+	24 [label="最悪よね",shape=box,color=blue];
+		24 -> 25;
+	10 [label="Check boolean LettieRats1",color=orange];
+		10 -> 30 [label=true,color=green];
+		10 -> 9 [label=false,color=brown];
+	23 [label="いつものこと",shape=box,color=blue];
+		23 -> 25;
+	25 [label="何か要件あるの
 それともただの暇潰し",shape=box,color=blue];
-		j2474030770 -> j2608865283;
-		j2474030770 -> j2424630802;
-		j2474030770 -> j479170180;
-	j1465258236 [label="ネズミについての質問の方がマシだった",shape=box,color=blue];
-		j1465258236 -> j2228461764;
-	j2015007616 [label="Check boolean LettieFantasma1",color=orange];
-		j2015007616 -> j2724640291 [label=true,color=green];
-		j2015007616 -> j2228461764 [label=false,color=brown];
-	j2608865283 [label="ただ挨拶しようとしただけ。",shape=box,color=red];
-		j2608865283 -> j1845218902;
-	j2424630802 [label="どうしてるのかなって気になっただけ。",shape=box,color=red];
-		j2424630802 -> j3759716033;
-	j479170180 [label="暇潰しだね。",shape=box,color=red];
-		j479170180 -> j792834568;
-	j2228461764 [label="面白くね。了解。じゃあ…　考えてくる…　面白いこと…",shape=box,color=red];
-		j2228461764 -> j2179501014;
-	j2724640291 [label="故郷についての質問の方がマシだった",shape=box,color=blue];
-		j2724640291 -> j2228461764;
-	j1845218902 [label="Hola 
+		25 -> 27;
+		25 -> 28;
+		25 -> 29;
+	30 [label="ネズミについての質問の方がマシだった",shape=box,color=blue];
+		30 -> 32;
+	9 [label="Check boolean LettieFantasma1",color=orange];
+		9 -> 31 [label=true,color=green];
+		9 -> 32 [label=false,color=brown];
+	27 [label="ただ挨拶しようとしただけ。",shape=box,color=red];
+		27 -> 33;
+	28 [label="どうしてるのかなって気になっただけ。",shape=box,color=red];
+		28 -> 34;
+	29 [label="暇潰しだね。",shape=box,color=red];
+		29 -> 35;
+	32 [label="面白くね。了解。じゃあ…　考えてくる…　面白いこと…",shape=box,color=red];
+		32 -> 49;
+	31 [label="故郷についての質問の方がマシだった",shape=box,color=blue];
+		31 -> 32;
+	33 [label="Hola 
 どうも",shape=box,color=blue];
-		j1845218902 -> j3271264270;
-		j1845218902 -> j1886625464;
-	j3759716033 [label="忙しい
+		33 -> 39;
+		33 -> 38;
+	34 [label="忙しい
 疲れた
 ストレス気味",shape=box,color=blue];
-		j3759716033 -> j3451888562;
-	j792834568 [label="あっそ
+		34 -> 37;
+	35 [label="あっそ
 こっちは忙しいの",shape=box,color=blue];
-		j792834568 -> j3176223222;
-	j2179501014 [label="Boolean LettieInteresting is now true.",color=orange];
-		j2179501014 -> j1780676929;
-	j3271264270 [label="邪魔したね、悪かった。",shape=box,color=red];
-		j3271264270 -> j3748645904;
-	j1886625464 [label="何か手伝えることはある？",shape=box,color=red];
-		j1886625464 -> j1628598728;
-	j3451888562 [label="いつもの",shape=box,color=blue];
-		j3451888562 -> j1886625464;
-		j3451888562 -> j3271264270;
-	j3176223222 [label="戻ることにするわ",shape=box,color=blue];
-		j3176223222 -> "Chat ends.";
-	j1780676929 [label="+20 Chemistry",color=orange];
-		j1780676929 -> j1368267468;
-	j3748645904 [label="Bueno",shape=box,color=blue];
-		j3748645904 -> "Chat ends.";
-	j1628598728 [label="+10 Chemistry",color=orange];
-		j1628598728 -> j3934507081;
-	j1368267468 [label="Buena suerte",shape=box,color=blue];
-		j1368267468 -> "Chat ends.";
-	j3934507081 [label="地元民にテックロットとスカルドラの間に立ち入らないよう説得して
+		35 -> 36;
+	49 [label="Update boolean LettieInteresting",color=orange];
+		49 -> 48;
+	39 [label="邪魔したね、悪かった。",shape=box,color=red];
+		39 -> 41;
+	38 [label="何か手伝えることはある？",shape=box,color=red];
+		38 -> 45;
+	37 [label="いつもの",shape=box,color=blue];
+		37 -> 38;
+		37 -> 39;
+	36 [label="戻ることにするわ",shape=box,color=blue];
+		36 -> 40;
+	48 [label="+20 Chemistry",color=orange];
+		48 -> 50;
+	41 [label="Bueno",shape=box,color=blue];
+		41 -> 42;
+	45 [label="+10 Chemistry",color=orange];
+		45 -> 43;
+	40 [label="Chat ends.",color=orange];
+	50 [label="Buena suerte",shape=box,color=blue];
+		50 -> 51;
+	42 [label="Chat ends.",color=orange];
+	43 [label="地元民にテックロットとスカルドラの間に立ち入らないよう説得して
 Eso sería genial",shape=box,color=blue];
-		j3934507081 -> j265573061;
-	j265573061 [label="それ以外？
+		43 -> 44;
+	51 [label="Chat ends.",color=orange];
+	44 [label="それ以外？
 考えてみる",shape=box,color=blue];
-		j265573061 -> j2570747018;
-	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
-		j2570747018 -> "Chat ends.";
+		44 -> 46;
+	46 [label="Update boolean LettieSmallFavor",color=orange];
+		46 -> 47;
+	47 [label="Chat ends.",color=orange];
 }

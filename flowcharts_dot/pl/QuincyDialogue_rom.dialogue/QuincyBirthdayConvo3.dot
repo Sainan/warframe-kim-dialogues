@@ -1,16 +1,21 @@
 digraph {
-	"QuincyBirthdayConvo3 begins." [color=orange];
-		"QuincyBirthdayConvo3 begins." -> j720564396;
-		"QuincyBirthdayConvo3 begins." -> j4117245683;
-	j720564396 [label="Chcesz dziś wieczorem wybrać się do klubów, w swoje urodziny?",shape=box,color=red];
-		j720564396 -> j574812509;
-	j4117245683 [label="Co powiesz na to, żebyśmy zorganizowali spokojny wieczór z okazji twoich urodzin razem ze wszystkim z Hex?",shape=box,color=red];
-		j4117245683 -> j645253113;
-	j574812509 [label="+20 Chemistry",color=orange];
-		j574812509 -> j2819886259;
-	j645253113 [label="ta i możemy założyć małe papierowe czapeczki i inne takie. no chyyyba nieee",shape=box,color=blue];
-		j645253113 -> "Chat ends.";
-	j2819886259 [label="hahahaha wiesz co, podpalmy to miasto, brachu!",shape=box,color=blue];
-		j2819886259 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3534 [label="QuincyBirthdayConvo3 begins.",color=orange];
+		3534 -> 3550;
+		3534 -> 3553;
+	3550 [label="Chcesz dziś wieczorem wybrać się do klubów, w swoje urodziny?",shape=box,color=red];
+		3550 -> 3551;
+	3553 [label="Co powiesz na to, żebyśmy zorganizowali spokojny wieczór z okazji twoich urodzin razem ze wszystkim z Hex?",shape=box,color=red];
+		3553 -> 3555;
+	3551 [label="+20 Chemistry",color=orange];
+		3551 -> 3549;
+	3555 [label="ta i możemy założyć małe papierowe czapeczki i inne takie. no chyyyba nieee",shape=box,color=blue];
+		3555 -> 3156;
+	3549 [label="hahahaha wiesz co, podpalmy to miasto, brachu!",shape=box,color=blue];
+		3549 -> 3168;
+	3156 [label="{\"Id\":3156,\"Incoming\":[3555],\"Outgoing\":[3554],\"GraphPos\":[1144,-4045],\"CompletionType\":1}",color=orange];
+		3156 -> 3554;
+	3168 [label="{\"Id\":3168,\"Incoming\":[3549],\"Outgoing\":[3552],\"GraphPos\":[1510,-4198],\"CompletionType\":1}",color=orange];
+		3168 -> 3552;
+	3554 [label="Chat ends.",color=orange];
+	3552 [label="Chat ends.",color=orange];
 }

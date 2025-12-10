@@ -1,16 +1,21 @@
 digraph {
-	"AmirBirthdayConvo3 begins." [color=orange];
-		"AmirBirthdayConvo3 begins." -> j3191624648;
-		"AmirBirthdayConvo3 begins." -> j288434048;
-	j3191624648 [label="Гей, Аміре. Вітаю з Днем народження. Біп-буп чи як воно там.",shape=box,color=red];
-		j3191624648 -> j649683753;
-	j288434048 [label="ПРИВІТ АМІРЕ ВІТАЮ З РІЧНИЦЕЮ ТВОГО ПОЧАТКУ ІСНУВАННЯ",shape=box,color=red];
-		j288434048 -> j3584199870;
-	j649683753 [label="аміра тут нема тут лише розумна програма яку написав амір щоб не пропускати нещирі злісні побажання на свята о дивіться уже одне є",shape=box,color=blue];
-		j649683753 -> "Chat ends.";
-	j3584199870 [label="+20 Chemistry",color=orange];
-		j3584199870 -> j1908236872;
-	"Chat ends." [color=orange];
-	j1908236872 [label="ВІДПОВІДНА ВЗАЄМНА КУЛЬТУРНО ОБУМОВЛЕНА ЗАЯВА ПРО ВИСЛОВЛЕННЯ ГЛИБОКОЇ ПОДЯКИ ТА ЩИРОЇ ВДЯЧНОСТІ",shape=box,color=blue];
-		j1908236872 -> "Chat ends.";
+	3580 [label="AmirBirthdayConvo3 begins.",color=orange];
+		3580 -> 3585;
+		3580 -> 3586;
+	3585 [label="Гей, Аміре. Вітаю з Днем народження. Біп-буп чи як воно там.",shape=box,color=red];
+		3585 -> 3584;
+	3586 [label="ПРИВІТ АМІРЕ ВІТАЮ З РІЧНИЦЕЮ ТВОГО ПОЧАТКУ ІСНУВАННЯ",shape=box,color=red];
+		3586 -> 3587;
+	3584 [label="аміра тут нема тут лише розумна програма яку написав амір щоб не пропускати нещирі злісні побажання на свята о дивіться уже одне є",shape=box,color=blue];
+		3584 -> 3598;
+	3587 [label="+20 Chemistry",color=orange];
+		3587 -> 3583;
+	3598 [label="{\"Id\":3598,\"Incoming\":[3584],\"Outgoing\":[3581],\"GraphPos\":[-14748,-20693],\"CompletionType\":1}",color=orange];
+		3598 -> 3581;
+	3583 [label="ВІДПОВІДНА ВЗАЄМНА КУЛЬТУРНО ОБУМОВЛЕНА ЗАЯВА ПРО ВИСЛОВЛЕННЯ ГЛИБОКОЇ ПОДЯКИ ТА ЩИРОЇ ВДЯЧНОСТІ",shape=box,color=blue];
+		3583 -> 3599;
+	3581 [label="Chat ends.",color=orange];
+	3599 [label="{\"Id\":3599,\"Incoming\":[3583],\"Outgoing\":[3582],\"GraphPos\":[-14347,-20820],\"CompletionType\":1}",color=orange];
+		3599 -> 3582;
+	3582 [label="Chat ends.",color=orange];
 }

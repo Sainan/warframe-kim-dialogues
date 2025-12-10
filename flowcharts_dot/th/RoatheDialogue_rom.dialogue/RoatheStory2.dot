@@ -1,0 +1,33 @@
+digraph {
+	2138 [label="RoatheStory2 begins.",color=orange];
+		2138 -> 5641;
+	5641 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5641 -> 2145 [label=true,color=green];
+		5641 -> 5643 [label=false,color=brown];
+	2145 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2145 -> 2139 [label="x >= 2",color=purple];
+		2145 -> 2141 [label="false",color=purple];
+	5643 [label="Chat ends.",color=orange];
+	2139 [label="VM: CONNECTION",shape=box,color=blue];
+		2139 -> 2140;
+	2141 [label="Chat ends.",color=orange];
+	2140 [label="บันทึก: เมื่อพวก Sentient สร้างทางโซลาร์เรลไปยัง Tau สำเร็จ เราไม่ได้มีพิธีรีตองยิ่งใหญ่อะไรนัก แค่เริ่มใช้งานอย่างเรียบง่าย",shape=box,color=blue];
+		2140 -> 2143;
+	2143 [label="แต่ก็จัดพิธีขึ้นมาอย่างเร่งรีบ เพราะอย่างไร Orokin ก็ต้องการมองเห็นความโอ่อ่าและพิธีใด ๆ",shape=box,color=blue];
+		2143 -> 2144;
+	2144 [label="ในตอนนั้นเกิดความโกลาหลครั้งใหญ่เกี่ยวกับยานขนส่งลำแรกที่เดินทางข้ามฟาก",shape=box,color=blue];
+		2144 -> 2147;
+	2147 [label="เพราะมีเรือลาดตระเวนที่สง่างามของผู้บริหาร Tormis เป็นตัวเลือก และการเลือก Tormis ให้ออกเดินทางนั้น เปรียบเสมือนการตำหนิผู้บริหาร Tuvul เกี่ยวกับอุบัติเหตุที่น่าสยดสยองของ Zariman Ten Zero ",shape=box,color=blue];
+		2147 -> 2137;
+	2137 [label="เมื่อ Tormis ออกเดินทางไปและกลับมาพร้อมความทรงจำอันล้ำค่าที่ประดับประดาด้วยอัญมณีแห่งระบบใหม่และโลกใบใหม่สำหรับตั้งถิ่นฐาน ",shape=box,color=blue];
+		2137 -> 5682;
+	5682 [label="หลังจากนั้นไม่กี่วัน กองเรืออาณานิคมก็ออกเดินทาง มุ่งหน้าสู่ชายฝั่งที่บริสุทธิ์",shape=box,color=blue];
+		5682 -> 2148;
+	2148 [label="การโจมตีของ Sentient ที่ตามมาทำให้บรรยากาศเสียหมดเลย",shape=box,color=blue];
+		2148 -> 2142;
+	2142 [label="Add 1 to HellStory",color=orange];
+		2142 -> 2329;
+	2329 [label="{\"Id\":2329,\"Incoming\":[2142],\"Outgoing\":[2146],\"GraphPos\":[5096,-10871],\"CompletionType\":1}",color=orange];
+		2329 -> 2146;
+	2146 [label="Chat ends.",color=orange];
+}

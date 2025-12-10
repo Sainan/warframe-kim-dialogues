@@ -1,144 +1,148 @@
 digraph {
-	"LettieConfession begins." [color=orange];
-		"LettieConfession begins." -> j3507132931;
-	j3507132931 [label="Check boolean IsDating",color=orange];
-		j3507132931 -> "Chat ends." [label=true,color=green];
-		j3507132931 -> j2129955208 [label=false,color=brown];
-	"Chat ends." [color=orange];
-	j2129955208 [label="Solecito 
+	1719 [label="LettieConfession begins.",color=orange];
+		1719 -> 1720;
+	1720 [label="Check boolean IsDating",color=orange];
+		1720 -> 1721 [label=true,color=green];
+		1720 -> 1722 [label=false,color=brown];
+	1721 [label="Chat ends.",color=orange];
+	1722 [label="Solecito 
 Orada mısın",shape=box,color=blue];
-		j2129955208 -> j3949866301;
-		j2129955208 -> j1155504604;
-	j3949866301 [label="Evet..?",shape=box,color=red];
-		j3949866301 -> j2648778487;
-	j1155504604 [label="[Görmezden gel.]",shape=box,color=red];
-		j1155504604 -> "Chat ends.";
-	j2648778487 [label="Ben... 
+		1722 -> 1723;
+		1722 -> 1724;
+	1723 [label="Evet..?",shape=box,color=red];
+		1723 -> 1726;
+	1724 [label="[Görmezden gel.]",shape=box,color=red];
+		1724 -> 1725;
+	1726 [label="Ben... 
 Şunu söylemek istiyorum
 Primero, lo siento 
 O şekilde tepki vermemeliydim 
 İkincisi, söylediklerinde ciddi misin?",shape=box,color=blue];
-		j2648778487 -> j1600413046;
-		j2648778487 -> j1151779825;
-	j1600413046 [label="Hem de her kelimesinde.",shape=box,color=red];
-		j1600413046 -> j2971285132;
-	j1151779825 [label="Hepsini uydurdum.",shape=box,color=red];
-		j1151779825 -> j2748127657;
-	j2971285132 [label="Aayyyy... tamam... 
+		1726 -> 1727;
+		1726 -> 1728;
+	1725 [label="Chat ends.",color=orange];
+	1727 [label="Hem de her kelimesinde.",shape=box,color=red];
+		1727 -> 1732;
+	1728 [label="Hepsini uydurdum.",shape=box,color=red];
+		1728 -> 1729;
+	1732 [label="Aayyyy... tamam... 
 Mierda",shape=box,color=blue];
-		j2971285132 -> j3639769060;
-		j2971285132 -> j1502168414;
-	j2748127657 [label="Boolean LettieNoDate is now true.",color=orange];
-		j2748127657 -> j2351085050;
-	j3639769060 [label="Karşılıklı değilse bana söyleyebilirsin, ben de kabul ederim.",shape=box,color=red];
-		j3639769060 -> j2720179985;
-	j1502168414 [label="\"Mierda\"nın iyi bir şey olup olmadığını hâlâ bilmiyorum...",shape=box,color=red];
-		j1502168414 -> j1481233530;
-	j2351085050 [label="Mm 
+		1732 -> 1734;
+		1732 -> 1733;
+	1729 [label="Update boolean LettieNoDate",color=orange];
+		1729 -> 1730;
+	1734 [label="Karşılıklı değilse bana söyleyebilirsin, ben de kabul ederim.",shape=box,color=red];
+		1734 -> 1736;
+	1733 [label="\"Mierda\"nın iyi bir şey olup olmadığını hâlâ bilmiyorum...",shape=box,color=red];
+		1733 -> 1735;
+	1730 [label="Mm 
 Anlamalıydım 
 Git Quincy ile oyna 
 Böyle bir escuincle senin tipine daha uygun olur",shape=box,color=blue];
-		j2351085050 -> "Chat ends.";
-	j2720179985 [label="Check boolean LettieTrust1",color=orange];
-		j2720179985 -> j675720518 [label=true,color=green];
-		j2720179985 -> j2378376870 [label=false,color=brown];
-	j1481233530 [label="Jajaja \"bok\" demek 
+		1730 -> 1731;
+	1736 [label="Check boolean LettieTrust1",color=orange];
+		1736 -> 1737 [label=true,color=green];
+		1736 -> 1738 [label=false,color=brown];
+	1735 [label="Jajaja \"bok\" demek 
 Ama hayır, bu kötü anlamda değil 
 Sadece--",shape=box,color=blue];
-		j1481233530 -> j2720179985;
-	j675720518 [label="Check boolean LettieTrust2",color=orange];
-		j675720518 -> j3890463335 [label=true,color=green];
-		j675720518 -> j3653575055 [label=false,color=brown];
-	j2378376870 [label="Bak 
+		1735 -> 1736;
+	1731 [label="Chat ends.",color=orange];
+	1737 [label="Check boolean LettieTrust2",color=orange];
+		1737 -> 1739 [label=true,color=green];
+		1737 -> 1740 [label=false,color=brown];
+	1738 [label="Bak 
 Güven benim için vermesi çok zor bir şeydir 
 Ve benim için bir ilişkideki en önemli şeydir 
 Kırılan güven, özellikle böyle bir durumda onarılamayacak bir şeydir",shape=box,color=blue];
-		j2378376870 -> j1156611891;
-	j3890463335 [label="İnsanlara güvenmenin benim için ne kadar zor olduğunu biliyorsun. 
+		1738 -> 1741;
+	1739 [label="İnsanlara güvenmenin benim için ne kadar zor olduğunu biliyorsun. 
 Ve güvenin benim benim için ne kadar önemli olduğunu da biliyorsun ¿no?
 Şey... biriyle bir ilişki yaşayacaksam bu daha da önemli",shape=box,color=blue];
-		j3890463335 -> j3057585167;
-	j3653575055 [label="Güven, benim için vermesi çok zor olan bir şeydir. 
+		1739 -> 1743;
+	1740 [label="Güven, benim için vermesi çok zor olan bir şeydir. 
 Ve bu benim için bir ilişkideki en önemli şeydir. 
 Kırılan güven, özellikle böyle bir durumda onarılması mümkün olmayan bir şeydir",shape=box,color=blue];
-		j3653575055 -> j4041599426;
-	j1156611891 [label="Boolean LettieTrust1 is now true.",color=orange];
-		j1156611891 -> j4041599426;
-	j3057585167 [label="Çünkü benim sevdiğim türden ilişkiler incitmeye meyillidir, solecito 
+		1740 -> 1742;
+	1741 [label="Update boolean LettieTrust1",color=orange];
+		1741 -> 1742;
+	1743 [label="Çünkü benim sevdiğim türden ilişkiler incitmeye meyillidir, solecito 
 Eğer ne demek istediğimi anladıysan 
 Sadece bunu istediğimiz kadar 
 Ve sadece gitmek istediğin kadar ileri
 Çünkü bu tür şeyler güven gerektirir",shape=box,color=blue];
-		j3057585167 -> j1601844317;
-	j4041599426 [label="Boolean LettieTrust2 is now true.",color=orange];
-		j4041599426 -> j3057585167;
-	j1601844317 [label="Ve böyle bir şeye olan güvenin kırılması 
+		1743 -> 1745;
+	1742 [label="Update boolean LettieTrust2",color=orange];
+		1742 -> 1743;
+	1745 [label="Ve böyle bir şeye olan güvenin kırılması 
 Tamir edilemez 
 ¿Me explico?",shape=box,color=blue];
-		j1601844317 -> j536811785;
-		j1601844317 -> j531560140;
-		j1601844317 -> j1671245949;
-	j536811785 [label="Hayır demiyorum, ama sorabilir miyim... neden acı senin olayın?",shape=box,color=red];
-		j536811785 -> j3212330098;
-	j531560140 [label="Arada sırada sırayla yaparsak olur...",shape=box,color=red];
-		j531560140 -> j3035067026;
-	j1671245949 [label="Üzgünüm, acıyla zevki karıştırmayı pek sevmiyorum.",shape=box,color=red];
-		j1671245949 -> j2400711401;
-	j3212330098 [label="Mmm, bilmiyorum 
+		1745 -> 1744;
+		1745 -> 1746;
+		1745 -> 1748;
+	1744 [label="Hayır demiyorum, ama sorabilir miyim... neden acı senin olayın?",shape=box,color=red];
+		1744 -> 1747;
+	1746 [label="Arada sırada sırayla yaparsak olur...",shape=box,color=red];
+		1746 -> 1749;
+	1748 [label="Üzgünüm, acıyla zevki karıştırmayı pek sevmiyorum.",shape=box,color=red];
+		1748 -> 1754;
+	1747 [label="Mmm, bilmiyorum 
 Belki de kontrol edebildiğim bir acı olduğu içindir 
 Kontrol edemediğim tüm acılara karşı",shape=box,color=blue];
-		j3212330098 -> j3575602556;
-	j3035067026 [label="Jajaja tabii ki. 
+		1747 -> 1750;
+	1749 [label="Jajaja tabii ki. 
 Ama ilk hak etmen lazım
 Önce sana güvenebileceğimi bilmeliyim
 Ee, ne diyorsun?",shape=box,color=blue];
-		j3035067026 -> j1239317693;
-	j2400711401 [label="Ay, sí 
+		1749 -> 1752;
+	1754 [label="Ay, sí 
 Herkese göre değil 
 Entiendo, zarar yok, faul yok",shape=box,color=blue];
-		j2400711401 -> j149689905;
-	j3575602556 [label="Ya da belki de yoğun bir şey olduğu içindir
+		1754 -> 1758;
+	1750 [label="Ya da belki de yoğun bir şey olduğu içindir
 Her gün uğraşmak zorunda kaldığım diğer tüm saçmalıkları kesip atacak keskin bir şey 
 Bu GERÇEK
 Dişlerimi geçirebilirim 
 Şarkı söyletebilirim
 Nabzını hissedebilirim",shape=box,color=blue];
-		j3575602556 -> j3693007708;
-	j1239317693 [label="Benimle korkunç bir hata yapmak istiyor musun?",shape=box,color=blue];
-		j1239317693 -> j1833831057;
-		j1239317693 -> j2099849115;
-	j149689905 [label="+10 Chemistry",color=orange];
-		j149689905 -> j2546981132;
-	j3693007708 [label="Ve bu güven GEREKTİRİR 
+		1750 -> 1751;
+	1752 [label="Benimle korkunç bir hata yapmak istiyor musun?",shape=box,color=blue];
+		1752 -> 1753;
+		1752 -> 1756;
+	1758 [label="+10 Chemistry",color=orange];
+		1758 -> 1757;
+	1751 [label="Ve bu güven GEREKTİRİR 
 Güven olmadan işe yaramaz, solecito 
 Peki... ne diyorsun?",shape=box,color=blue];
-		j3693007708 -> j1239317693;
-	j1833831057 [label="Evet. Bunu isterim aslında. :) [Lettie ile buluş.]",shape=box,color=red];
-		j1833831057 -> j2358926018;
-	j2099849115 [label="Aslında bunu düşünmem gerek. Özür dilerim.",shape=box,color=red];
-		j2099849115 -> j149689905;
-	j2546981132 [label="Fikrini değiştirirsen bana haber ver",shape=box,color=blue];
-		j2546981132 -> j2129367046;
-	j2358926018 [label="+20 Chemistry",color=orange];
-		j2358926018 -> j527146291;
-	j2129367046 [label="Boolean LettieWillDate is now true.",color=orange];
-		j2129367046 -> "Chat ends.";
-	j527146291 [label="Tamamdır 
+		1751 -> 1752;
+	1753 [label="Evet. Bunu isterim aslında. :) [Lettie ile buluş.]",shape=box,color=red];
+		1753 -> 1766;
+	1756 [label="Aslında bunu düşünmem gerek. Özür dilerim.",shape=box,color=red];
+		1756 -> 1758;
+	1757 [label="Fikrini değiştirirsen bana haber ver",shape=box,color=blue];
+		1757 -> 1759;
+	1766 [label="+20 Chemistry",color=orange];
+		1766 -> 1755;
+	1759 [label="Update boolean LettieWillDate",color=orange];
+		1759 -> 1760;
+	1755 [label="Tamamdır 
 Kendini hazırla, solecito 
 Sana yumuşak davranmayacağım
 Çünkü seni dövüşürken gördüm
 Bunu kaldırabileceğini biliyorum",shape=box,color=blue];
-		j527146291 -> j1841986988;
-	j1841986988 [label="Ama endişelenme 
+		1755 -> 1761;
+	1760 [label="Chat ends.",color=orange];
+	1761 [label="Ama endişelenme 
 Sonrasında iyileştirmek için öpeceğim 
 Buna güvenebilirsin",shape=box,color=blue];
-		j1841986988 -> j1300785588;
-	j1300785588 [label="Boolean LettieWillDate is now true.",color=orange];
-		j1300785588 -> j702074970;
-	j702074970 [label="Boolean LettieDating is now true.",color=orange];
-		j702074970 -> j938814249;
-	j938814249 [label="Boolean IsDating is now true.",color=orange];
-		j938814249 -> j3003494003;
-	j3003494003 [label="Boolean LettieHasDated is now true.",color=orange];
-		j3003494003 -> "Chat ends.";
+		1761 -> 1762;
+	1762 [label="Update boolean LettieWillDate",color=orange];
+		1762 -> 1763;
+	1763 [label="Update boolean LettieDating",color=orange];
+		1763 -> 1764;
+	1764 [label="Update boolean IsDating",color=orange];
+		1764 -> 1765;
+	1765 [label="Update boolean LettieHasDated",color=orange];
+		1765 -> 1767;
+	1767 [label="Chat ends.",color=orange];
 }

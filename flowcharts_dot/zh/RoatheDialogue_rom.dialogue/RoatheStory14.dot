@@ -1,0 +1,29 @@
+digraph {
+	2258 [label="RoatheStory14 begins.",color=orange];
+		2258 -> 5666;
+	5666 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5666 -> 2261 [label=true,color=green];
+		5666 -> 5667 [label=false,color=brown];
+	2261 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2261 -> 2257 [label="x >= 14",color=purple];
+		2261 -> 2260 [label="false",color=purple];
+	5667 [label="Chat ends.",color=orange];
+	2257 [label="语音留言：适应性",shape=box,color=blue];
+		2257 -> 2259;
+	2260 [label="Chat ends.",color=orange];
+	2259 [label="文字记录：许多 Sentient 在每次遭遇战之间都会进化，所以我们永远无法确定下一次面对的还是不是同一种敌人。但也有一些 Sentient 保持着稳定的形态，仿佛它们很久以前就达到了某种巅峰状态。",shape=box,color=blue];
+		2259 -> 5709;
+	5709 [label="它们是完美的杀手，带来的冷酷恐怖与鲨鱼如出一辙。",shape=box,color=blue];
+		5709 -> 2256;
+	2256 [label="这简直是疯了。我刚完善了针对 Sentient 的螃蟹飞船的战术，螃蟹飞船就被蠕虫飞船取代了，我该如何制定应对策略呢？",shape=box,color=blue];
+		2256 -> 2253;
+	2253 [label="而那些蠕虫状的飞船，又会多久被某种新的怪物所取代？",shape=box,color=blue];
+		2253 -> 5710;
+	5710 [label="我们所能做的只有倒退。先进科技反而是致命的。古老的传统，那些历经岁月洗礼的荣誉与纪律之路，理应得到应有的尊重。",shape=box,color=blue];
+		5710 -> 2255;
+	2255 [label="Add 1 to HellStory",color=orange];
+		2255 -> 2341;
+	2341 [label="{\"Id\":2341,\"Incoming\":[2255],\"Outgoing\":[2254],\"GraphPos\":[4071,-6212],\"CompletionType\":1}",color=orange];
+		2341 -> 2254;
+	2254 [label="Chat ends.",color=orange];
+}

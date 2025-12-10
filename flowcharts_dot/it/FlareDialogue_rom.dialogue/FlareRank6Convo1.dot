@@ -1,440 +1,444 @@
 digraph {
-	"FlareRank6Convo1 begins." [color=orange];
-		"FlareRank6Convo1 begins." -> j3739350251;
-	j3739350251 [label="Check boolean FlareLizzieApart",color=orange];
-		j3739350251 -> "Chat ends." [label=true,color=green];
-		j3739350251 -> j3461956840 [label=false,color=brown];
-	"Chat ends." [color=orange];
-	j3461956840 [label="Check boolean FlareLizzieTogether",color=orange];
-		j3461956840 -> j4187414972 [label=true,color=green];
-		j3461956840 -> "Chat ends." [label=false,color=brown];
-	j4187414972 [label="DEeeeeemoooonnnneee!! Ooohhh DEEEEMOOOONNNEEEEEE!!! Abbiamo una sorpresa per Te :D ",shape=box,color=blue];
-		j4187414972 -> j3069227176;
-	j3069227176 [label="scusa, volevo avvertirti. oggi è davvero emozionata",shape=box,color=blue];
-		j3069227176 -> j321470345;
-		j3069227176 -> j3547679556;
-		j3069227176 -> j3813126582;
-	j321470345 [label="Perché è su di giri?",shape=box,color=red];
-		j321470345 -> j646987664;
-	j3547679556 [label="Ahah, nessun problema. Sono solo contento di vedervi andare d'accordo.",shape=box,color=red];
-		j3547679556 -> j285691279;
-	j3813126582 [label="Sinceramente è piuttosto adorabile. :)",shape=box,color=red];
-		j3813126582 -> j2914141555;
-	j646987664 [label="la canzone è finita. beh, il testo è finito",shape=box,color=blue];
-		j646987664 -> j2420738183;
-	j285691279 [label="sì. è... adorabile. davvero adorabile in realtà. è una buona partner",shape=box,color=blue];
-		j285691279 -> j3923979492;
-	j2914141555 [label="heh. certo. se togliamo la parte \"horror mangia uomini\", è adorabile",shape=box,color=blue];
-		j2914141555 -> j1274802986;
-	j2420738183 [label="vuoi sentirlo?",shape=box,color=blue];
-		j2420738183 -> j2787579610;
-		j2420738183 -> j3885235241;
-	j3923979492 [label="quando non sta cercando di convincermi a mangiare componenti di computer a caso",shape=box,color=blue];
-		j3923979492 -> j591528247;
-	j1274802986 [label="non è quello che Hai detto ieri sera.... <RETRO_EMOJI_SNEAKY>",shape=box,color=blue];
-		j1274802986 -> j591528247;
-	j2787579610 [label="Mi piacerebbe molto!",shape=box,color=red];
-		j2787579610 -> j3212931006;
-	j3885235241 [label="Non mi piace molto la poesia, mi dispiace. Aspetterò che abbia la musica.",shape=box,color=red];
-		j3885235241 -> j1953961218;
-	j591528247 [label="*comunque* torniamo al dunque ",shape=box,color=blue];
-		j591528247 -> j646987664;
-	j3212931006 [label="eccolo",shape=box,color=blue];
-		j3212931006 -> j11490693;
-	j1953961218 [label="k",shape=box,color=blue];
-		j1953961218 -> j1653441255;
-	j11490693 [label="Check boolean FlareSol",color=orange];
-		j11490693 -> j1229185918 [label=true,color=green];
-		j11490693 -> j3311874374 [label=false,color=brown];
-	j1653441255 [label=".... Questo Demone Ci delude... ",shape=box,color=blue];
-		j1653441255 -> "Chat ends.";
-	j1229185918 [label="Check boolean FlarePainStranger",color=orange];
-		j1229185918 -> j3853195615 [label=true,color=green];
-		j1229185918 -> j159267307 [label=false,color=brown];
-	j3311874374 [label="Check boolean FlareLua",color=orange];
-		j3311874374 -> j3547038517 [label=true,color=green];
-		j3311874374 -> j3547038517 [label=false,color=brown];
-	j3853195615 [label="Endless whispers, your voice like a curse
+	2420 [label="FlareRank6Convo1 begins.",color=orange];
+		2420 -> 2421;
+	2421 [label="Check boolean FlareLizzieApart",color=orange];
+		2421 -> 2423 [label=true,color=green];
+		2421 -> 2422 [label=false,color=brown];
+	2423 [label="Chat ends.",color=orange];
+	2422 [label="Check boolean FlareLizzieTogether",color=orange];
+		2422 -> 2424 [label=true,color=green];
+		2422 -> 2425 [label=false,color=brown];
+	2424 [label="DEeeeeemoooonnnneee!! Ooohhh DEEEEMOOOONNNEEEEEE!!! Abbiamo una sorpresa per Te :D ",shape=box,color=blue];
+		2424 -> 2426;
+	2425 [label="Chat ends.",color=orange];
+	2426 [label="scusa, volevo avvertirti. oggi è davvero emozionata",shape=box,color=blue];
+		2426 -> 2427;
+		2426 -> 2428;
+		2426 -> 2429;
+	2427 [label="Perché è su di giri?",shape=box,color=red];
+		2427 -> 2430;
+	2428 [label="Ahah, nessun problema. Sono solo contento di vedervi andare d'accordo.",shape=box,color=red];
+		2428 -> 2431;
+	2429 [label="Sinceramente è piuttosto adorabile. :)",shape=box,color=red];
+		2429 -> 2432;
+	2430 [label="la canzone è finita. beh, il testo è finito",shape=box,color=blue];
+		2430 -> 2433;
+	2431 [label="sì. è... adorabile. davvero adorabile in realtà. è una buona partner",shape=box,color=blue];
+		2431 -> 2434;
+	2432 [label="heh. certo. se togliamo la parte \"horror mangia uomini\", è adorabile",shape=box,color=blue];
+		2432 -> 2435;
+	2433 [label="vuoi sentirlo?",shape=box,color=blue];
+		2433 -> 2436;
+		2433 -> 2437;
+	2434 [label="quando non sta cercando di convincermi a mangiare componenti di computer a caso",shape=box,color=blue];
+		2434 -> 2438;
+	2435 [label="non è quello che Hai detto ieri sera.... <RETRO_EMOJI_SNEAKY>",shape=box,color=blue];
+		2435 -> 2438;
+	2436 [label="Mi piacerebbe molto!",shape=box,color=red];
+		2436 -> 2439;
+	2437 [label="Non mi piace molto la poesia, mi dispiace. Aspetterò che abbia la musica.",shape=box,color=red];
+		2437 -> 2440;
+	2438 [label="*comunque* torniamo al dunque ",shape=box,color=blue];
+		2438 -> 2430;
+	2439 [label="eccolo",shape=box,color=blue];
+		2439 -> 2441;
+	2440 [label="k",shape=box,color=blue];
+		2440 -> 2442;
+	2441 [label="Check boolean FlareSol",color=orange];
+		2441 -> 2443 [label=true,color=green];
+		2441 -> 2444 [label=false,color=brown];
+	2442 [label=".... Questo Demone Ci delude... ",shape=box,color=blue];
+		2442 -> 2445;
+	2443 [label="Check boolean FlarePainStranger",color=orange];
+		2443 -> 2446 [label=true,color=green];
+		2443 -> 2447 [label=false,color=brown];
+	2444 [label="Check boolean FlareLua",color=orange];
+		2444 -> 2448 [label=true,color=green];
+		2444 -> 2448 [label=false,color=brown];
+	2445 [label="Chat ends.",color=orange];
+	2446 [label="Endless whispers, your voice like a curse
 Gold-tipped fingers pull me into the dirt
 Your kiss like fire, burns straight through my veins
 Every morning, I don’t know my name",shape=box,color=blue];
-		j3853195615 -> j904886397;
-	j159267307 [label="Check boolean FlarePainChronic",color=orange];
-		j159267307 -> j69273870 [label=true,color=green];
-		j159267307 -> j1886570010 [label=false,color=brown];
-	j3547038517 [label="Check boolean FlarePainStranger",color=orange];
-		j3547038517 -> j657366639 [label=true,color=green];
-		j3547038517 -> j4001662270 [label=false,color=brown];
-	j904886397 [label="Check boolean FlareStoryVillain",color=orange];
-		j904886397 -> j1379029166 [label=true,color=green];
-		j904886397 -> j1870422903 [label=false,color=brown];
-	j69273870 [label="Woke up screaming, drowning in the light
+		2446 -> 2449;
+	2447 [label="Check boolean FlarePainChronic",color=orange];
+		2447 -> 2450 [label=true,color=green];
+		2447 -> 2451 [label=false,color=brown];
+	2448 [label="Check boolean FlarePainStranger",color=orange];
+		2448 -> 2452 [label=true,color=green];
+		2448 -> 2453 [label=false,color=brown];
+	2449 [label="Check boolean FlareStoryVillain",color=orange];
+		2449 -> 2454 [label=true,color=green];
+		2449 -> 2455 [label=false,color=brown];
+	2450 [label="Woke up screaming, drowning in the light
 Golden rays cut deep like a blade of white
 Every morning, I don’t know my pain
 Don’t know if I’ll stand or break in the rain",shape=box,color=blue];
-		j69273870 -> j904886397;
-	j1886570010 [label="Check boolean FlarePainUnique",color=orange];
-		j1886570010 -> j323637198 [label=true,color=green];
-		j1886570010 -> j857119930 [label=false,color=brown];
-	j657366639 [label="Endless whispers, your voice like a curse
+		2450 -> 2449;
+	2451 [label="Check boolean FlarePainUnique",color=orange];
+		2451 -> 2456 [label=true,color=green];
+		2451 -> 2457 [label=false,color=brown];
+	2452 [label="Endless whispers, your voice like a curse
 Silver-tipped fingers pull me into the dirt
 Your kiss like ice, burns straight through my veins
 In my nightmares I don’t know my name",shape=box,color=blue];
-		j657366639 -> j1908806570;
-	j4001662270 [label="Check boolean FlarePainChronic",color=orange];
-		j4001662270 -> j2022198648 [label=true,color=green];
-		j4001662270 -> j3675329191 [label=false,color=brown];
-	j1379029166 [label="Curse my name, I am the devil today
+		2452 -> 2458;
+	2453 [label="Check boolean FlarePainChronic",color=orange];
+		2453 -> 2459 [label=true,color=green];
+		2453 -> 2460 [label=false,color=brown];
+	2454 [label="Curse my name, I am the devil today
 Do I rise as the villain or just fade away?",shape=box,color=blue];
-		j1379029166 -> j3428908214;
-	j1870422903 [label="Check boolean FlareStoryHero",color=orange];
-		j1870422903 -> j3192758126 [label=true,color=green];
-		j1870422903 -> j1877297320 [label=false,color=brown];
-	j323637198 [label="Woke up in fire, burned by the dawn
+		2454 -> 2461;
+	2455 [label="Check boolean FlareStoryHero",color=orange];
+		2455 -> 2462 [label=true,color=green];
+		2455 -> 2463 [label=false,color=brown];
+	2456 [label="Woke up in fire, burned by the dawn
 Golden light cuts, but I still hold on
 Every breath is a battle, every step is a war
 But you call my name, and I’m left wanting more",shape=box,color=blue];
-		j323637198 -> j904886397;
-	j857119930 [label="Check boolean FlarePainEmpathy",color=orange];
-		j857119930 -> j2373329546 [label=true,color=green];
-		j857119930 -> j880775258 [label=false,color=brown];
-	j1908806570 [label="Check boolean FlareStoryVillain",color=orange];
-		j1908806570 -> j3080166619 [label=true,color=green];
-		j1908806570 -> j4192447210 [label=false,color=brown];
-	j2022198648 [label="Woke up screaming, drowning in the night
+		2456 -> 2449;
+	2457 [label="Check boolean FlarePainEmpathy",color=orange];
+		2457 -> 2465 [label=true,color=green];
+		2457 -> 2464 [label=false,color=brown];
+	2458 [label="Check boolean FlareStoryVillain",color=orange];
+		2458 -> 2466 [label=true,color=green];
+		2458 -> 2467 [label=false,color=brown];
+	2459 [label="Woke up screaming, drowning in the night
 Silvered rays cut deep like a blade of white
 Every nightmare, I don’t know my pain
 Don’t know if I’ll stand or break in the rain",shape=box,color=blue];
-		j2022198648 -> j1908806570;
-	j3675329191 [label="Check boolean FlarePainUnique",color=orange];
-		j3675329191 -> j3922271708 [label=true,color=green];
-		j3675329191 -> j2637123773 [label=false,color=brown];
-	j3428908214 [label="Check boolean FlarePainStranger",color=orange];
-		j3428908214 -> j622139563 [label=true,color=green];
-		j3428908214 -> j3908336105 [label=false,color=brown];
-	j3192758126 [label="Pray to me, I am the saint today
+		2459 -> 2458;
+	2460 [label="Check boolean FlarePainUnique",color=orange];
+		2460 -> 2468 [label=true,color=green];
+		2460 -> 2469 [label=false,color=brown];
+	2461 [label="Check boolean FlarePainStranger",color=orange];
+		2461 -> 2470 [label=true,color=green];
+		2461 -> 2471 [label=false,color=brown];
+	2462 [label="Pray to me, I am the saint today
 Do I rise as the hero or just fade away?",shape=box,color=blue];
-		j3192758126 -> j3428908214;
-	j1877297320 [label="Check boolean FlareStoryNone",color=orange];
-		j1877297320 -> j1383387126 [label=true,color=green];
-		j1877297320 -> j1383387126 [label=false,color=brown];
-	j2373329546 [label="I see the fire behind your eyes
+		2462 -> 2461;
+	2463 [label="Check boolean FlareStoryNone",color=orange];
+		2463 -> 2472 [label=true,color=green];
+		2463 -> 2472 [label=false,color=brown];
+	2465 [label="I see the fire behind your eyes
 Caged Sol drowning in daylight skies
 You smile like sin, but I see the ache
 Every touch, every breath—how much can you take?",shape=box,color=blue];
-		j2373329546 -> j904886397;
-	j880775258 [label="I saw when Sol cracked open wide
+		2465 -> 2449;
+	2464 [label="I saw when Sol cracked open wide
 Spilled like honey, gold inside
 A million voices whisper sweet
 Through hollow halls and tangled dreams",shape=box,color=blue];
-		j880775258 -> j904886397;
-	j3080166619 [label="Curse my name, I am the devil today
+		2464 -> 2449;
+	2466 [label="Curse my name, I am the devil today
 Do I rise as the villain or just fade away?",shape=box,color=blue];
-		j3080166619 -> j2321641489;
-	j4192447210 [label="Check boolean FlareStoryHero",color=orange];
-		j4192447210 -> j1562493975 [label=true,color=green];
-		j4192447210 -> j2106164143 [label=false,color=brown];
-	j3922271708 [label="Woke up in fire, burned by the night
+		2466 -> 2473;
+	2467 [label="Check boolean FlareStoryHero",color=orange];
+		2467 -> 2474 [label=true,color=green];
+		2467 -> 2475 [label=false,color=brown];
+	2468 [label="Woke up in fire, burned by the night
 Silver light cuts, this is my plight
 Every breath is a battle, every step is a war
 But you call my name, and I’m left wanting more",shape=box,color=blue];
-		j3922271708 -> j1908806570;
-	j2637123773 [label="Check boolean FlarePainEmpathy",color=orange];
-		j2637123773 -> j4186633388 [label=true,color=green];
-		j2637123773 -> j2128194968 [label=false,color=brown];
-	j622139563 [label="I’m dancing in the Void, lost in your flame
+		2468 -> 2458;
+	2469 [label="Check boolean FlarePainEmpathy",color=orange];
+		2469 -> 2477 [label=true,color=green];
+		2469 -> 2476 [label=false,color=brown];
+	2470 [label="I’m dancing in the Void, lost in your flame
 Every morning, I wake up a brand-new name
 Are you my savior or the end of me?
 Holding Sol high, but drowning in the sea
 Oh, love me or leave me, just don’t set me free",shape=box,color=blue];
-		j622139563 -> j3066374918;
-	j3908336105 [label="Check boolean FlarePainChronic",color=orange];
-		j3908336105 -> j3076960946 [label=true,color=green];
-		j3908336105 -> j1108137744 [label=false,color=brown];
-	j1383387126 [label="Oh, am I the sinner or the saint today?
+		2470 -> 2478;
+	2471 [label="Check boolean FlarePainChronic",color=orange];
+		2471 -> 2479 [label=true,color=green];
+		2471 -> 2480 [label=false,color=brown];
+	2472 [label="Oh, am I the sinner or the saint today?
 Do I rise like the phoenix or just fade away?",shape=box,color=blue];
-		j1383387126 -> j3428908214;
-	j2321641489 [label="Check boolean FlarePainStranger",color=orange];
-		j2321641489 -> j494762080 [label=true,color=green];
-		j2321641489 -> j3900974630 [label=false,color=brown];
-	j1562493975 [label="Pray to me, I am the saint today
+		2472 -> 2461;
+	2473 [label="Check boolean FlarePainStranger",color=orange];
+		2473 -> 2481 [label=true,color=green];
+		2473 -> 2482 [label=false,color=brown];
+	2474 [label="Pray to me, I am the saint today
 Do I rise as the hero or just fade away?",shape=box,color=blue];
-		j1562493975 -> j2321641489;
-	j2106164143 [label="Check boolean FlareStoryNone",color=orange];
-		j2106164143 -> j2672235709 [label=true,color=green];
-		j2106164143 -> j2672235709 [label=false,color=brown];
-	j4186633388 [label="I see the ice behind your eyes
+		2474 -> 2473;
+	2475 [label="Check boolean FlareStoryNone",color=orange];
+		2475 -> 2483 [label=true,color=green];
+		2475 -> 2483 [label=false,color=brown];
+	2477 [label="I see the ice behind your eyes
 Caged Lua drowning in midnight skies
 You smile like sin, but I see the ache
 Every touch, every breath—how much can you take?",shape=box,color=blue];
-		j4186633388 -> j1908806570;
-	j2128194968 [label="I saw when Lua cracked open wide
+		2477 -> 2458;
+	2476 [label="I saw when Lua cracked open wide
 Spilled like sugar, silver inside
 A million voices whisper sweet
 Through hollow halls and tangled dreams",shape=box,color=blue];
-		j2128194968 -> j1908806570;
-	j3066374918 [label="Hungry wings spread wide in the dawn
+		2476 -> 2458;
+	2478 [label="Hungry wings spread wide in the dawn
 You carve your fate on my skin with your claws
 One breath, I’m holy—next breath, I fall
 Can’t tell if I’m everything or nothing at all",shape=box,color=blue];
-		j3066374918 -> j2729667313;
-	j3076960946 [label="You taste like fire, you sing like sin
+		2478 -> 2484;
+	2479 [label="You taste like fire, you sing like sin
 You pull me close and draw me in
 Love me or leave me, I’ll hurt either way
 Every dawn is a war, but with you, I might stay",shape=box,color=blue];
-		j3076960946 -> j2894849685;
-	j1108137744 [label="Check boolean FlarePainUnique",color=orange];
-		j1108137744 -> j3100528801 [label=true,color=green];
-		j1108137744 -> j812880635 [label=false,color=brown];
-	j494762080 [label="I’m dancing in the Void, caught in your chains
+		2479 -> 2485;
+	2480 [label="Check boolean FlarePainUnique",color=orange];
+		2480 -> 2486 [label=true,color=green];
+		2480 -> 2487 [label=false,color=brown];
+	2481 [label="I’m dancing in the Void, caught in your chains
 In my nightmares I've lost all my names
 Are you my savior or the end of me?
 You hold Lua high, but drown in the sea
 Oh, love me or leave me, just don’t set me free",shape=box,color=blue];
-		j494762080 -> j3192221809;
-	j3900974630 [label="Check boolean FlarePainChronic",color=orange];
-		j3900974630 -> j3023331703 [label=true,color=green];
-		j3900974630 -> j3492093567 [label=false,color=brown];
-	j2672235709 [label="Oh, am I the sinner or the saint today?
+		2481 -> 2488;
+	2482 [label="Check boolean FlarePainChronic",color=orange];
+		2482 -> 2489 [label=true,color=green];
+		2482 -> 2490 [label=false,color=brown];
+	2483 [label="Oh, am I the sinner or the saint today?
 Do I rise like the phoenix or just fade away?",shape=box,color=blue];
-		j2672235709 -> j2321641489;
-	j2729667313 [label="Check boolean FlareStoryVillain",color=orange];
-		j2729667313 -> j1592343371 [label=true,color=green];
-		j2729667313 -> j3710448588 [label=false,color=brown];
-	j2894849685 [label="Your touch is poison, your kiss is divine
+		2483 -> 2473;
+	2484 [label="Check boolean FlareStoryVillain",color=orange];
+		2484 -> 2491 [label=true,color=green];
+		2484 -> 2492 [label=false,color=brown];
+	2485 [label="Your touch is poison, your kiss is divine
 A demon with hands that rewrite my spine
 Some days I’m crawling, some days I fly
 Say that you'll hold me when I can’t touch the sky",shape=box,color=blue];
-		j2894849685 -> j2729667313;
-	j3100528801 [label="Your hands trace secrets under my skin
+		2485 -> 2484;
+	2486 [label="Your hands trace secrets under my skin
 Etching your vows where the scars have been
 Some days I stand, some days I crawl
 But you make me feel like I have it all",shape=box,color=blue];
-		j3100528801 -> j502986993;
-	j812880635 [label="Check boolean FlarePainEmpathy",color=orange];
-		j812880635 -> j93281034 [label=true,color=green];
-		j812880635 -> j1320578348 [label=false,color=brown];
-	j3192221809 [label="Hungry wings spread wide in the night
+		2486 -> 2493;
+	2487 [label="Check boolean FlarePainEmpathy",color=orange];
+		2487 -> 2495 [label=true,color=green];
+		2487 -> 2494 [label=false,color=brown];
+	2488 [label="Hungry wings spread wide in the night
 You carve your fate on my skin with your bite
 One breath, I’m holy—next breath, I fall
 Can’t tell if I’m everything or nothing at all",shape=box,color=blue];
-		j3192221809 -> j1941418009;
-	j3023331703 [label="I’m burning, I’m breaking, I’m lost in your eyes
+		2488 -> 2496;
+	2489 [label="I’m burning, I’m breaking, I’m lost in your eyes
 You are the Void where dying Lua hides
 Love me or leave me, I’ll hurt either way
 Every night is a war, but with you, I might stay",shape=box,color=blue];
-		j3023331703 -> j2423568202;
-	j3492093567 [label="Check boolean FlarePainUnique",color=orange];
-		j3492093567 -> j189047381 [label=true,color=green];
-		j3492093567 -> j3828935203 [label=false,color=brown];
-	j1592343371 [label="Today I am the villain, I am the one to blame
+		2489 -> 2497;
+	2490 [label="Check boolean FlarePainUnique",color=orange];
+		2490 -> 2498 [label=true,color=green];
+		2490 -> 2499 [label=false,color=brown];
+	2491 [label="Today I am the villain, I am the one to blame
 Do I chase the light or get lost in the shame?",shape=box,color=blue];
-		j1592343371 -> j4249965;
-	j3710448588 [label="Check boolean FlareStoryHero",color=orange];
-		j3710448588 -> j2964796620 [label=true,color=green];
-		j3710448588 -> j828767743 [label=false,color=brown];
-	j502986993 [label="I kiss the Void, I taste the light
+		2491 -> 2500;
+	2492 [label="Check boolean FlareStoryHero",color=orange];
+		2492 -> 2501 [label=true,color=green];
+		2492 -> 2502 [label=false,color=brown];
+	2493 [label="I kiss the Void, I taste the light
 You pull me close, and I feel all right
 Wearing Sol like a crown of gold
 But your touch is rotted, growing mold",shape=box,color=blue];
-		j502986993 -> j2729667313;
-	j93281034 [label="Your touch is thunder, your kiss is a storm
+		2493 -> 2484;
+	2495 [label="Your touch is thunder, your kiss is a storm
 But inside you’re screaming, trying to stay warm
 I see the cracks beneath your skin
 The battle you fight but never win",shape=box,color=blue];
-		j93281034 -> j161006306;
-	j1320578348 [label="You taste like fire, you sing like sin
+		2495 -> 2504;
+	2494 [label="You taste like fire, you sing like sin
 You pull me close and draw me in
 Oh, love me or leave me, just don’t set me free
 I’d rather be yours than remember me",shape=box,color=blue];
-		j1320578348 -> j1550683749;
-	j1941418009 [label="Check boolean FlareStoryVillain",color=orange];
-		j1941418009 -> j3267145913 [label=true,color=green];
-		j1941418009 -> j1934034599 [label=false,color=brown];
-	j2423568202 [label="Your touch is poison, your kiss is divine
+		2494 -> 2503;
+	2496 [label="Check boolean FlareStoryVillain",color=orange];
+		2496 -> 2505 [label=true,color=green];
+		2496 -> 2506 [label=false,color=brown];
+	2497 [label="Your touch is poison, your kiss is divine
 A demon with hands that rewrite my spine
 Some nights I’m crawling, some nights I fly
 Say that you'll hold me when I can’t touch the sky",shape=box,color=blue];
-		j2423568202 -> j1941418009;
-	j189047381 [label="Your hands trace secrets under my skin
+		2497 -> 2496;
+	2498 [label="Your hands trace secrets under my skin
 Etching dark vows where the scars have been
 Some nights I stand, some nights I crawl
 But you make me feel like I have it all",shape=box,color=blue];
-		j189047381 -> j3128586281;
-	j3828935203 [label="Check boolean FlarePainEmpathy",color=orange];
-		j3828935203 -> j4273505571 [label=true,color=green];
-		j3828935203 -> j3517702395 [label=false,color=brown];
-	j4249965 [label="Golden halos and serpentine grins
+		2498 -> 2507;
+	2499 [label="Check boolean FlarePainEmpathy",color=orange];
+		2499 -> 2509 [label=true,color=green];
+		2499 -> 2508 [label=false,color=brown];
+	2500 [label="Golden halos and serpentine grins
 Every love song ends where it begins
 Will I rise? Will I fall?
 Will I rise? Will I fall?",shape=box,color=blue];
-		j4249965 -> j1624932636;
-	j2964796620 [label="Today I am the hero, not the one to blame
+		2500 -> 2510;
+	2501 [label="Today I am the hero, not the one to blame
 Do I hold the light or get lost in the flames?",shape=box,color=blue];
-		j2964796620 -> j4249965;
-	j828767743 [label="Check boolean FlareStoryNone",color=orange];
-		j828767743 -> j888829109 [label=true,color=green];
-		j828767743 -> j888829109 [label=false,color=brown];
-	j161006306 [label="A heart like Sol but you live in the Void
+		2501 -> 2500;
+	2502 [label="Check boolean FlareStoryNone",color=orange];
+		2502 -> 2511 [label=true,color=green];
+		2502 -> 2511 [label=false,color=brown];
+	2504 [label="A heart like Sol but you live in the Void
 Lighting the sky just to be destroyed
 I feel your fire, I know your pain
 I burn just like you, we bleed the same",shape=box,color=blue];
-		j161006306 -> j2729667313;
-	j1550683749 [label="I feel you crawling under my skin
+		2504 -> 2484;
+	2503 [label="I feel you crawling under my skin
 A thousand hands, a voice within
 Oh, am I the keeper or the sacrifice?
 Am I your sickness or paradise?",shape=box,color=blue];
-		j1550683749 -> j2729667313;
-	j3267145913 [label="Today I am the villain, I am the one to blame
+		2503 -> 2484;
+	2505 [label="Today I am the villain, I am the one to blame
 Do I chase the stars or get lost in the shame?",shape=box,color=blue];
-		j3267145913 -> j336078534;
-	j1934034599 [label="Check boolean FlareStoryHero",color=orange];
-		j1934034599 -> j4151901599 [label=true,color=green];
-		j1934034599 -> j406023769 [label=false,color=brown];
-	j3128586281 [label="I kiss the Void, I taste the night
+		2505 -> 2512;
+	2506 [label="Check boolean FlareStoryHero",color=orange];
+		2506 -> 2513 [label=true,color=green];
+		2506 -> 2514 [label=false,color=brown];
+	2507 [label="I kiss the Void, I taste the night
 You pull me close, and I feel all right
 You wear Lua like a crown of old
 But your touch is ice, dead, and cold",shape=box,color=blue];
-		j3128586281 -> j1941418009;
-	j4273505571 [label="Your touch is chaos, but it makes me whole
+		2507 -> 2496;
+	2509 [label="Your touch is chaos, but it makes me whole
 A sinner’s prayer carved into my bones
 Every wound, I wear it too
 Every scream, I hear it in you",shape=box,color=blue];
-		j4273505571 -> j3223006956;
-	j3517702395 [label="You taste like ice, you sing like sin
+		2509 -> 2516;
+	2508 [label="You taste like ice, you sing like sin
 You pull me close and draw me in
 Oh, love me or leave me, just don’t set me free
 I’d rather be yours than remember me",shape=box,color=blue];
-		j3517702395 -> j1636997071;
-	j1624932636 [label="----",shape=box,color=blue];
-		j1624932636 -> j2902986783;
-	j888829109 [label="Oh, am I the hero or the one to blame?
+		2508 -> 2515;
+	2510 [label="----",shape=box,color=blue];
+		2510 -> 2517;
+	2511 [label="Oh, am I the hero or the one to blame?
 Do I chase the light or get lost in the flames?",shape=box,color=blue];
-		j888829109 -> j4249965;
-	j336078534 [label="Silver halos and serpentine grins
+		2511 -> 2500;
+	2512 [label="Silver halos and serpentine grins
 Every love song ends where it begins
 Will I rise? Will I fall?
 Will I rise? Will I fall?",shape=box,color=blue];
-		j336078534 -> j1624932636;
-	j4151901599 [label="Today I am the hero, feel it in my soul
+		2512 -> 2510;
+	2513 [label="Today I am the hero, feel it in my soul
 Or is it all a lie to fill the hole?",shape=box,color=blue];
-		j4151901599 -> j336078534;
-	j406023769 [label="Check boolean FlareStoryNone",color=orange];
-		j406023769 -> j2789509824 [label=true,color=green];
-		j406023769 -> j2789509824 [label=false,color=brown];
-	j3223006956 [label="A heart like the Lua, but you live in the Void
+		2513 -> 2512;
+	2514 [label="Check boolean FlareStoryNone",color=orange];
+		2514 -> 2518 [label=true,color=green];
+		2514 -> 2518 [label=false,color=brown];
+	2516 [label="A heart like the Lua, but you live in the Void
 Lighting the sky just to be destroyed
 I feel your ice, I know your pain
 I burn just like you, we bleed the same",shape=box,color=blue];
-		j3223006956 -> j1941418009;
-	j1636997071 [label="I feel you crawling under my skin
+		2516 -> 2496;
+	2515 [label="I feel you crawling under my skin
 A thousand hands, a voice within
 Oh, am I the keeper or the sacrifice?
 Am I your sickness or paradise?",shape=box,color=blue];
-		j1636997071 -> j1941418009;
-	j2902986783 [label="allora? cosa ne pensi? ha ancora bisogno di un titolo e della musica come ho detto, ma-",shape=box,color=blue];
-		j2902986783 -> j741659618;
-	j2789509824 [label="Oh, am I the hero or the one to blame?
+		2515 -> 2496;
+	2517 [label="allora? cosa ne pensi? ha ancora bisogno di un titolo e della musica come ho detto, ma-",shape=box,color=blue];
+		2517 -> 2519;
+	2518 [label="Oh, am I the hero or the one to blame?
 Do I chase the stars or get lost in the shame?",shape=box,color=blue];
-		j2789509824 -> j336078534;
-	j741659618 [label="SÌ, COSA NE PENSI? QUESTO DEMONIO È ORGOGLIOSO DI NOI? <RETRO_EMOJI_CAT>",shape=box,color=blue];
-		j741659618 -> j2548266395;
-		j741659618 -> j1644437737;
-		j741659618 -> j4024319110;
-	j2548266395 [label="Non sono gli On-lyne, ma, ehi. ;)",shape=box,color=red];
-		j2548266395 -> j2676628695;
-	j1644437737 [label="Wow. È fantastico, mi piace tantissimo!! ",shape=box,color=red];
-		j1644437737 -> j633202583;
-	j4024319110 [label="Davvero fantastico!",shape=box,color=red];
-		j4024319110 -> j633202583;
-	j2676628695 [label="sì sì, molto divertente",shape=box,color=blue];
-		j2676628695 -> j2802911623;
-		j2676628695 -> j243015754;
-	j633202583 [label="sta di nuovo facendo le fusa. devo trovare un modo per inserirle in una traccia musicale",shape=box,color=blue];
-		j633202583 -> j2802911623;
-		j633202583 -> j243015754;
-	j2802911623 [label="Quindi, qual è il prossimo passo?",shape=box,color=red];
-		j2802911623 -> j1767597163;
-	j243015754 [label="Quando pensi che comporrai la musica?",shape=box,color=red];
-		j243015754 -> j1767597163;
-	j1767597163 [label="in realtà pensavo che potessi aiutarci con quello",shape=box,color=blue];
-		j1767597163 -> j3882418945;
-	j3882418945 [label="Check boolean FlareInstrumentNo",color=orange];
-		j3882418945 -> j1711420304 [label=true,color=green];
-		j3882418945 -> j4012652908 [label=false,color=brown];
-	j1711420304 [label="so che hai detto che non suoni uno strumento",shape=box,color=blue];
-		j1711420304 -> j1154521556;
-	j4012652908 [label="Check boolean FlareInstrumentYes",color=orange];
-		j4012652908 -> j2993808067 [label=true,color=green];
-		j4012652908 -> j2085529574 [label=false,color=brown];
-	j1154521556 [label="Ci siamo offerte di insegnare a Questo Demone come suonare... Non Vediamo l'Ora di avere le mani di Questo Demone sul Nostro corpo... ;)",shape=box,color=blue];
-		j1154521556 -> j392186893;
-	j2993808067 [label="so che hai detto che suoni lo ''shawzin'' che è come la chitarra",shape=box,color=blue];
-		j2993808067 -> j602486370;
-	j2085529574 [label="Check boolean FlareInstrumentTry",color=orange];
-		j2085529574 -> j3455810640 [label=true,color=green];
-		j2085529574 -> j992868365 [label=false,color=brown];
-	j392186893 [label="io... oh. oh, questa gelosia. è inaspettata",shape=box,color=blue];
-		j392186893 -> j1371664917;
-	j602486370 [label="lizzie e io ci chiedevamo se ti piacerebbe aiutarci a comporre la canzone",shape=box,color=blue];
-		j602486370 -> j1288765187;
-	j3455810640 [label="so che hai detto che strimpelli lo ''shawzin'', che è simile a una chitarra",shape=box,color=blue];
-		j3455810640 -> j602486370;
-	j992868365 [label="mi chiedevo, suoni la chitarra?",shape=box,color=blue];
-		j992868365 -> j1096584127;
-		j992868365 -> j2364305315;
-		j992868365 -> j22784563;
-	j1371664917 [label="non so se mi piace ",shape=box,color=blue];
-		j1371664917 -> j577814890;
-	j1288765187 [label="senza fretta. puoi lavorarci con calma",shape=box,color=blue];
-		j1288765187 -> j3075433826;
-	j1096584127 [label="Non... non lo chiamerei suonare. Ci provo, ma non sono molto bravo. Si chiama shawzin.",shape=box,color=red];
-		j1096584127 -> j602486370;
-	j2364305315 [label="Sì. Si chiama shawzin.",shape=box,color=red];
-		j2364305315 -> j602486370;
-	j22784563 [label="No, sinceramente.",shape=box,color=red];
-		j22784563 -> j2178869382;
-	j577814890 [label="*comunque* analizzerò questa scoperta più tardi",shape=box,color=blue];
-		j577814890 -> j602486370;
-	j3075433826 [label="lei sarà lì per aiutarti",shape=box,color=blue];
-		j3075433826 -> j1868018353;
-		j3075433826 -> j1548938385;
-	j2178869382 [label="Potremmo Insegnare a Questo Demone come suonare... Non siamo contrarie ad avere le mani di Questo Demone sul Nostro corpo... ;)",shape=box,color=blue];
-		j2178869382 -> j392186893;
-	j1868018353 [label="Mi - mi stai offrendo di farmi suonare Lizzie?",shape=box,color=red];
-		j1868018353 -> j3396865036;
-	j1548938385 [label="Ma non avrai bisogno di lei?",shape=box,color=red];
-		j1548938385 -> j4237859089;
-	j3396865036 [label="vuooooooi SuonarCi, Caro Demoooone?",shape=box,color=blue];
-		j3396865036 -> j1705838394;
-		j3396865036 -> j927604068;
-		j3396865036 -> j20446754;
-	j4237859089 [label="non preoccuparti, Caro Demone, Siamo Molte. Abbastanza per tutti",shape=box,color=blue];
-		j4237859089 -> j3769103778;
-	j1705838394 [label="Penso che rinuncerò, ma ti ringrazio.",shape=box,color=red];
-		j1705838394 -> j3867312005;
-	j927604068 [label="Sembra fantastico, grazie!",shape=box,color=red];
-		j927604068 -> j2509000306;
-	j20446754 [label="Mi piacerebbe. :)",shape=box,color=red];
-		j20446754 -> j2509000306;
-	j3769103778 [label="in breve, dice che può fare entrambe le cose. sto cercando di non pensarci troppo, onestamente",shape=box,color=blue];
-		j3769103778 -> j4118333393;
-	j3867312005 [label="Questo Demone è contradditorio... Arrivi fino a qui e poi... fai... quello? ",shape=box,color=blue];
-		j3867312005 -> "Chat ends.";
-	j2509000306 [label="Boolean LizzieShawzin is now true.",color=orange];
-		j2509000306 -> j2912078740;
-	j4118333393 [label="entro in una specie di crisi esistenziale quando lo faccio",shape=box,color=blue];
-		j4118333393 -> j2017977537;
-	j2912078740 [label="fantastico",shape=box,color=blue];
-		j2912078740 -> j2018637669;
-	j2017977537 [label="allora. vuoi aiutare lizzie a comporre la canzone? prenderla in prestito di tanto in tanto?",shape=box,color=blue];
-		j2017977537 -> j1705838394;
-		j2017977537 -> j20446754;
-		j2017977537 -> j927604068;
-	j2018637669 [label="e, ehi. se non era chiaro, grazie. per tutto. per aver aiutato me, e lizzie, e... per essere un vero amico",shape=box,color=blue];
-		j2018637669 -> j491528154;
-	j491528154 [label="saremo qui ogni volta che avrai bisogno di noi, viaggiatore spaziale",shape=box,color=blue];
-		j491528154 -> j1238567313;
-	j1238567313 [label="ovunque Ci porterà ;)",shape=box,color=blue];
-		j1238567313 -> "Chat ends.";
+		2518 -> 2512;
+	2519 [label="SÌ, COSA NE PENSI? QUESTO DEMONIO È ORGOGLIOSO DI NOI? <RETRO_EMOJI_CAT>",shape=box,color=blue];
+		2519 -> 2520;
+		2519 -> 2521;
+		2519 -> 2522;
+	2520 [label="Non sono gli On-lyne, ma, ehi. ;)",shape=box,color=red];
+		2520 -> 2523;
+	2521 [label="Wow. È fantastico, mi piace tantissimo!! ",shape=box,color=red];
+		2521 -> 2524;
+	2522 [label="Davvero fantastico!",shape=box,color=red];
+		2522 -> 2524;
+	2523 [label="sì sì, molto divertente",shape=box,color=blue];
+		2523 -> 2525;
+		2523 -> 2526;
+	2524 [label="sta di nuovo facendo le fusa. devo trovare un modo per inserirle in una traccia musicale",shape=box,color=blue];
+		2524 -> 2525;
+		2524 -> 2526;
+	2525 [label="Quindi, qual è il prossimo passo?",shape=box,color=red];
+		2525 -> 2527;
+	2526 [label="Quando pensi che comporrai la musica?",shape=box,color=red];
+		2526 -> 2527;
+	2527 [label="in realtà pensavo che potessi aiutarci con quello",shape=box,color=blue];
+		2527 -> 2528;
+	2528 [label="Check boolean FlareInstrumentNo",color=orange];
+		2528 -> 2530 [label=true,color=green];
+		2528 -> 2529 [label=false,color=brown];
+	2530 [label="so che hai detto che non suoni uno strumento",shape=box,color=blue];
+		2530 -> 2533;
+	2529 [label="Check boolean FlareInstrumentYes",color=orange];
+		2529 -> 2532 [label=true,color=green];
+		2529 -> 2531 [label=false,color=brown];
+	2533 [label="Ci siamo offerte di insegnare a Questo Demone come suonare... Non Vediamo l'Ora di avere le mani di Questo Demone sul Nostro corpo... ;)",shape=box,color=blue];
+		2533 -> 2537;
+	2532 [label="so che hai detto che suoni lo ''shawzin'' che è come la chitarra",shape=box,color=blue];
+		2532 -> 2536;
+	2531 [label="Check boolean FlareInstrumentTry",color=orange];
+		2531 -> 2535 [label=true,color=green];
+		2531 -> 2534 [label=false,color=brown];
+	2537 [label="io... oh. oh, questa gelosia. è inaspettata",shape=box,color=blue];
+		2537 -> 2542;
+	2536 [label="lizzie e io ci chiedevamo se ti piacerebbe aiutarci a comporre la canzone",shape=box,color=blue];
+		2536 -> 2541;
+	2535 [label="so che hai detto che strimpelli lo ''shawzin'', che è simile a una chitarra",shape=box,color=blue];
+		2535 -> 2536;
+	2534 [label="mi chiedevo, suoni la chitarra?",shape=box,color=blue];
+		2534 -> 2538;
+		2534 -> 2539;
+		2534 -> 2540;
+	2542 [label="non so se mi piace ",shape=box,color=blue];
+		2542 -> 2545;
+	2541 [label="senza fretta. puoi lavorarci con calma",shape=box,color=blue];
+		2541 -> 2544;
+	2538 [label="Non... non lo chiamerei suonare. Ci provo, ma non sono molto bravo. Si chiama shawzin.",shape=box,color=red];
+		2538 -> 2536;
+	2539 [label="Sì. Si chiama shawzin.",shape=box,color=red];
+		2539 -> 2536;
+	2540 [label="No, sinceramente.",shape=box,color=red];
+		2540 -> 2543;
+	2545 [label="*comunque* analizzerò questa scoperta più tardi",shape=box,color=blue];
+		2545 -> 2536;
+	2544 [label="lei sarà lì per aiutarti",shape=box,color=blue];
+		2544 -> 2546;
+		2544 -> 2547;
+	2543 [label="Potremmo Insegnare a Questo Demone come suonare... Non siamo contrarie ad avere le mani di Questo Demone sul Nostro corpo... ;)",shape=box,color=blue];
+		2543 -> 2537;
+	2546 [label="Mi - mi stai offrendo di farmi suonare Lizzie?",shape=box,color=red];
+		2546 -> 2548;
+	2547 [label="Ma non avrai bisogno di lei?",shape=box,color=red];
+		2547 -> 2549;
+	2548 [label="vuooooooi SuonarCi, Caro Demoooone?",shape=box,color=blue];
+		2548 -> 2550;
+		2548 -> 2551;
+		2548 -> 2552;
+	2549 [label="non preoccuparti, Caro Demone, Siamo Molte. Abbastanza per tutti",shape=box,color=blue];
+		2549 -> 2553;
+	2550 [label="Penso che rinuncerò, ma ti ringrazio.",shape=box,color=red];
+		2550 -> 2554;
+	2551 [label="Sembra fantastico, grazie!",shape=box,color=red];
+		2551 -> 2555;
+	2552 [label="Mi piacerebbe. :)",shape=box,color=red];
+		2552 -> 2555;
+	2553 [label="in breve, dice che può fare entrambe le cose. sto cercando di non pensarci troppo, onestamente",shape=box,color=blue];
+		2553 -> 2556;
+	2554 [label="Questo Demone è contradditorio... Arrivi fino a qui e poi... fai... quello? ",shape=box,color=blue];
+		2554 -> 2557;
+	2555 [label="Update boolean LizzieShawzin",color=orange];
+		2555 -> 2558;
+	2556 [label="entro in una specie di crisi esistenziale quando lo faccio",shape=box,color=blue];
+		2556 -> 2559;
+	2557 [label="Chat ends.",color=orange];
+	2558 [label="fantastico",shape=box,color=blue];
+		2558 -> 2560;
+	2559 [label="allora. vuoi aiutare lizzie a comporre la canzone? prenderla in prestito di tanto in tanto?",shape=box,color=blue];
+		2559 -> 2550;
+		2559 -> 2552;
+		2559 -> 2551;
+	2560 [label="e, ehi. se non era chiaro, grazie. per tutto. per aver aiutato me, e lizzie, e... per essere un vero amico",shape=box,color=blue];
+		2560 -> 2561;
+	2561 [label="saremo qui ogni volta che avrai bisogno di noi, viaggiatore spaziale",shape=box,color=blue];
+		2561 -> 2562;
+	2562 [label="ovunque Ci porterà ;)",shape=box,color=blue];
+		2562 -> 2563;
+	2563 [label="Chat ends.",color=orange];
 }

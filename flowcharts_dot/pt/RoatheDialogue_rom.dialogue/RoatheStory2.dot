@@ -1,0 +1,33 @@
+digraph {
+	2138 [label="RoatheStory2 begins.",color=orange];
+		2138 -> 5641;
+	5641 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5641 -> 2145 [label=true,color=green];
+		5641 -> 5643 [label=false,color=brown];
+	2145 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2145 -> 2139 [label="x >= 2",color=purple];
+		2145 -> 2141 [label="false",color=purple];
+	5643 [label="Chat ends.",color=orange];
+	2139 [label="ÁUDIO: CONEXÃO",shape=box,color=blue];
+		2139 -> 2140;
+	2141 [label="Chat ends.",color=orange];
+	2140 [label="Quando os Sentients concluíram o Trilho Solar para Tau, não houve uma grande cerimônia. Ele simplesmente começou a operar.",shape=box,color=blue];
+		2140 -> 2143;
+	2143 [label="Claro, uma cerimônia foi improvisada, pois nenhum Orokin que se preze assoaria o nariz sem um mínimo de pompa e circunstância.",shape=box,color=blue];
+		2143 -> 2144;
+	2144 [label="Houve um grande alvoroço em torno do primeiro transporte a fazer a travessia.",shape=box,color=blue];
+		2144 -> 2147;
+	2147 [label="Era o imponente cruzador do Executor Tormis, e a escolha de Tormis como expedicionário poderia ser interpretada como uma repreensão coletiva ao Executor Tuvul pelo grotesco acidente da Zariman 10-0.",shape=box,color=blue];
+		2147 -> 2137;
+	2137 [label="Tormis partiu e retornou, trazendo consigo memórias maravilhosas de um novo Sistema e novos mundos para colonizar. ",shape=box,color=blue];
+		2137 -> 5682;
+	5682 [label="Em poucos dias, uma flotilha de naves colonizadoras partiu, ansiosa para pisar na costa virgem.",shape=box,color=blue];
+		5682 -> 2148;
+	2148 [label="O subsequente ataque Sentient estragou um pouco o clima.",shape=box,color=blue];
+		2148 -> 2142;
+	2142 [label="Add 1 to HellStory",color=orange];
+		2142 -> 2329;
+	2329 [label="{\"Id\":2329,\"Incoming\":[2142],\"Outgoing\":[2146],\"GraphPos\":[5096,-10871],\"CompletionType\":1}",color=orange];
+		2329 -> 2146;
+	2146 [label="Chat ends.",color=orange];
+}

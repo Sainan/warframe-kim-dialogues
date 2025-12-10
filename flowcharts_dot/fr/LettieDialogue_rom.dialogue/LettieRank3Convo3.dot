@@ -1,170 +1,172 @@
 digraph {
-	"LettieRank3Convo3 begins." [color=orange];
-		"LettieRank3Convo3 begins." -> j530668553;
-	j530668553 [label="Avant toute cette folie
+	758 [label="LettieRank3Convo3 begins.",color=orange];
+		758 -> 759;
+	759 [label="Avant toute cette folie
 D'où venais-tu, ¿babas ?",shape=box,color=blue];
-		j530668553 -> j1663276440;
-		j530668553 -> j4040257594;
-	j1663276440 [label="La folie a commencé assez tôt. Tu veux dire avant Maintenant, avant Duviri ou avant le Zariman?",shape=box,color=red];
-		j1663276440 -> j1999719761;
-	j4040257594 [label="Excuse-moi, je ne peux pas tchatter. [Fin.]",shape=box,color=red];
-		j4040257594 -> "Chat ends.";
-	j1999719761 [label="Jajaja 
+		759 -> 760;
+		759 -> 762;
+	760 [label="La folie a commencé assez tôt. Tu veux dire avant Maintenant, avant Duviri ou avant le Zariman?",shape=box,color=red];
+		760 -> 764;
+	762 [label="Excuse-moi, je ne peux pas tchatter. [Fin.]",shape=box,color=red];
+		762 -> 763;
+	764 [label="Jajaja 
 Tu as raison, ça a commencé tôt 
 Mais d'où as-tu le sentiment de venir?",shape=box,color=blue];
-		j1999719761 -> j1331243072;
-		j1999719761 -> j2687394019;
-		j1999719761 -> j531185540;
-		j1999719761 -> j3659827785;
-		j1999719761 -> j1248763609;
-	"Chat ends." [color=orange];
-	j1331243072 [label="Duviri, je suppose.",shape=box,color=red];
-		j1331243072 -> j1867380866;
-	j2687394019 [label="Le Zariman, je suppose.",shape=box,color=red];
-		j2687394019 -> j4171859115;
-	j531185540 [label="Tu vas rire de moi... mais c'est ici l'endroit le plus proche d'un \"chez-moi\" que j'ai jamais eu.",shape=box,color=red];
-		j531185540 -> j2917173256;
-	j3659827785 [label="Je ne \"viens\" pas vraiment de quelque part.",shape=box,color=red];
-		j3659827785 -> j2389115789;
-	j1248763609 [label="Honnêtement? Je... ne sais pas. Les Orokins ont en quelque sorte effacé la plupart des archives de l'Ancienne Terre. Je n'ai donc aucun moyen de savoir où je me trouve exactement dans le futur.",shape=box,color=red];
-		j1248763609 -> j2972348897;
-	j1867380866 [label="Boolean LettieHomeDuviri is now true.",color=orange];
-		j1867380866 -> j692088420;
-	j4171859115 [label="Boolean LettieHomeZariman is now true.",color=orange];
-		j4171859115 -> j503561161;
-	j2917173256 [label="Boolean LettieHome1999 is now true.",color=orange];
-		j2917173256 -> j3540187806;
-	j2389115789 [label="Boolean LettieHomeNowhere is now true.",color=orange];
-		j2389115789 -> j2756971854;
-	j2972348897 [label="Ça doit être difficile
+		764 -> 766;
+		764 -> 767;
+		764 -> 768;
+		764 -> 769;
+		764 -> 770;
+	763 [label="Chat ends.",color=orange];
+	766 [label="Duviri, je suppose.",shape=box,color=red];
+		766 -> 771;
+	767 [label="Le Zariman, je suppose.",shape=box,color=red];
+		767 -> 772;
+	768 [label="Tu vas rire de moi... mais c'est ici l'endroit le plus proche d'un \"chez-moi\" que j'ai jamais eu.",shape=box,color=red];
+		768 -> 773;
+	769 [label="Je ne \"viens\" pas vraiment de quelque part.",shape=box,color=red];
+		769 -> 774;
+	770 [label="Honnêtement? Je... ne sais pas. Les Orokins ont en quelque sorte effacé la plupart des archives de l'Ancienne Terre. Je n'ai donc aucun moyen de savoir où je me trouve exactement dans le futur.",shape=box,color=red];
+		770 -> 779;
+	771 [label="Update boolean LettieHomeDuviri",color=orange];
+		771 -> 775;
+	772 [label="Update boolean LettieHomeZariman",color=orange];
+		772 -> 776;
+	773 [label="Update boolean LettieHome1999",color=orange];
+		773 -> 777;
+	774 [label="Update boolean LettieHomeNowhere",color=orange];
+		774 -> 778;
+	779 [label="Ça doit être difficile
 De se sentir comme si on ne venait de nulle part",shape=box,color=blue];
-		j2972348897 -> j1481575187;
-	j692088420 [label="Malgré ce que Duviri t'a infligé?",shape=box,color=blue];
-		j692088420 -> j1639579595;
-		j692088420 -> j2764429985;
-	j503561161 [label="C'est le vaisseau, ¿no? 
+		779 -> 784;
+	775 [label="Malgré ce que Duviri t'a infligé?",shape=box,color=blue];
+		775 -> 780;
+		775 -> 781;
+	776 [label="C'est le vaisseau, ¿no? 
 N'est-il pas abandonné, maintenant?",shape=box,color=blue];
-		j503561161 -> j3996527425;
-		j503561161 -> j71472583;
-	j3540187806 [label="Pourquoi penses-tu que je me moquerais de toi?",shape=box,color=blue];
-		j3540187806 -> j2972348897;
-	j2756971854 [label="Sí, toi qui erres 
+		776 -> 782;
+		776 -> 783;
+	777 [label="Pourquoi penses-tu que je me moquerais de toi?",shape=box,color=blue];
+		777 -> 779;
+	778 [label="Sí, toi qui erres 
 Qui n'as pas de foyer",shape=box,color=blue];
-		j2756971854 -> j2972348897;
-	j1481575187 [label="Ma famille a beaucoup déménagé puis j'ai rejoint l'armée 
+		778 -> 779;
+	784 [label="Ma famille a beaucoup déménagé puis j'ai rejoint l'armée 
 Puis la RCI. Je ne m'intégrais nulle part 
 Je comprends donc, d'une certaine manière, ce sentiment",shape=box,color=blue];
-		j1481575187 -> j1317494094;
-	j1639579595 [label="Parfois, on ne peut pas choisir ce que nos foyers nous ont fait.",shape=box,color=red];
-		j1639579595 -> j3665928267;
-	j2764429985 [label="Ce que Duviri m'a infligé, je me le suis fait à moi-même. Ce ne sont que des cauchemars qui se répétaient sans cesse dans ma tête.",shape=box,color=red];
-		j2764429985 -> j638434787;
-	j3996527425 [label="C'est... une question compliquée. Il a ses propres fantômes.",shape=box,color=red];
-		j3996527425 -> j638434787;
-	j71472583 [label="Non, il n'est pas abandonné. Il garde des souvenirs des gens qui y vivaient.",shape=box,color=red];
-		j71472583 -> j638434787;
-	j1317494094 [label="Mais il y a un peuple et une culture auxquels je peux m'identifier
+		784 -> 788;
+	780 [label="Parfois, on ne peut pas choisir ce que nos foyers nous ont fait.",shape=box,color=red];
+		780 -> 785;
+	781 [label="Ce que Duviri m'a infligé, je me le suis fait à moi-même. Ce ne sont que des cauchemars qui se répétaient sans cesse dans ma tête.",shape=box,color=red];
+		781 -> 792;
+	782 [label="C'est... une question compliquée. Il a ses propres fantômes.",shape=box,color=red];
+		782 -> 792;
+	783 [label="Non, il n'est pas abandonné. Il garde des souvenirs des gens qui y vivaient.",shape=box,color=red];
+		783 -> 792;
+	788 [label="Mais il y a un peuple et une culture auxquels je peux m'identifier
 Même s'ils sont loin",shape=box,color=blue];
-		j1317494094 -> j2143131072;
-		j1317494094 -> j3664886671;
-	j3665928267 [label="Sí, je ne le sais que trop bien 
+		788 -> 790;
+		788 -> 791;
+	785 [label="Sí, je ne le sais que trop bien 
 Ma famille a beaucoup déménagé puis j'ai rejoint l'armée 
 Puis la RCI. Je ne m'intégrais nulle part",shape=box,color=blue];
-		j3665928267 -> j546808165;
-	j638434787 [label="Plus de fantasmas, plus de morts qui te suivent
+		785 -> 786;
+	792 [label="Plus de fantasmas, plus de morts qui te suivent
 Dire je pensais bien connaître La Flaca",shape=box,color=blue];
-		j638434787 -> j1074292325;
-		j638434787 -> j1740212914;
-	j2143131072 [label="Mon autre option est Duviri et... non. Mon histoire avec cet endroit est... trop compliquée.",shape=box,color=red];
-		j2143131072 -> j638434787;
-	j3664886671 [label="Mon autre option est le Zariman et ce n'est pas plus joyeux. Il est rempli d'autant de fantômes et de cauchemars. Sauf que là-bas, beaucoup plus de gens ont été tués.",shape=box,color=red];
-		j3664886671 -> j638434787;
-	j546808165 [label="Mais je n'ai jamais subi ce que cet endroit t'a fait, babas 
+		792 -> 796;
+		792 -> 797;
+	790 [label="Mon autre option est Duviri et... non. Mon histoire avec cet endroit est... trop compliquée.",shape=box,color=red];
+		790 -> 792;
+	791 [label="Mon autre option est le Zariman et ce n'est pas plus joyeux. Il est rempli d'autant de fantômes et de cauchemars. Sauf que là-bas, beaucoup plus de gens ont été tués.",shape=box,color=red];
+		791 -> 792;
+	786 [label="Mais je n'ai jamais subi ce que cet endroit t'a fait, babas 
 Je te respecte de continuer à penser que c'est de là que tu viens",shape=box,color=blue];
-		j546808165 -> j2221257250;
-		j546808165 -> j3664886671;
-	j1074292325 [label="J'ai sa ligne directe.",shape=box,color=red];
-		j1074292325 -> j1650128807;
-	j1740212914 [label="Les fantômes me suivent partout où je vais. Parfois, je me demande si je n'en suis pas un moi-même.",shape=box,color=red];
-		j1740212914 -> j2887299795;
-	j2221257250 [label="C'est l'endroit que je connais le mieux, et celui qui me connaît le mieux, je suppose.",shape=box,color=red];
-		j2221257250 -> j1734879298;
-	j1650128807 [label="Jaja, on dirait
+		786 -> 787;
+		786 -> 791;
+	796 [label="J'ai sa ligne directe.",shape=box,color=red];
+		796 -> 802;
+	797 [label="Les fantômes me suivent partout où je vais. Parfois, je me demande si je n'en suis pas un moi-même.",shape=box,color=red];
+		797 -> 803;
+	787 [label="C'est l'endroit que je connais le mieux, et celui qui me connaît le mieux, je suppose.",shape=box,color=red];
+		787 -> 789;
+	802 [label="Jaja, on dirait
 Mais tes fantômes me donnent de l'espoir",shape=box,color=blue];
-		j1650128807 -> j1726099497;
-	j2887299795 [label="Mon pauvre babas et ses fantômes
+		802 -> 798;
+	803 [label="Mon pauvre babas et ses fantômes
 Mais tu me donnes de l'espoir",shape=box,color=blue];
-		j2887299795 -> j1544336498;
-	j1734879298 [label="+10 Chemistry",color=orange];
-		j1734879298 -> j2023649321;
-	j1726099497 [label="En quoi mes fantômes peuvent-ils te donner de l’espoir?",shape=box,color=red];
-		j1726099497 -> j2490124672;
-	j1544336498 [label="Quel bonheur de voir que ma souffrance t'apporte de la joie.",shape=box,color=red];
-		j1544336498 -> j1945290486;
-	j2023649321 [label="Oui, ça a quelque chose à voir avec l'habitude
+		803 -> 804;
+	789 [label="+10 Chemistry",color=orange];
+		789 -> 793;
+	798 [label="En quoi mes fantômes peuvent-ils te donner de l’espoir?",shape=box,color=red];
+		798 -> 819;
+	804 [label="Quel bonheur de voir que ma souffrance t'apporte de la joie.",shape=box,color=red];
+		804 -> 805;
+	793 [label="Oui, ça a quelque chose à voir avec l'habitude
 Je suppose qu'avec le temps, cet endroit me semblera comme un foyer
 Mierda, j'espère que ce sera dans très longtemps",shape=box,color=blue];
-		j2023649321 -> j178714718;
-		j2023649321 -> j2037743293;
-	j2490124672 [label="Je te vois avec les autres de l'Hexagone 
+		793 -> 794;
+		793 -> 795;
+	819 [label="Je te vois avec les autres de l'Hexagone 
 Je te vois rire et trouver du bonheur 
 Tu es un fantasma, comme moi, comme nous 
 Mais tu trouves toujours un SENS",shape=box,color=blue];
-		j2490124672 -> j1613030211;
-	j1945290486 [label="Check boolean LettieNoFlirt",color=orange];
-		j1945290486 -> j637332750 [label=true,color=green];
-		j1945290486 -> j763709535 [label=false,color=brown];
-	j178714718 [label="Tu es coriace. Tout ira bien.",shape=box,color=red];
-		j178714718 -> j1245671203;
-	j2037743293 [label="Hé. Au moins, tu es en meilleure compagnie que je ne l'étais.",shape=box,color=red];
-		j2037743293 -> j1452689601;
-	j1613030211 [label="Boolean LettieFantasma3 is now true.",color=orange];
-		j1613030211 -> j455732985;
-	j637332750 [label="+10 Chemistry",color=orange];
-		j637332750 -> j1030823178;
-	j763709535 [label="Check boolean LettieFlirt",color=orange];
-		j763709535 -> j154827582 [label=true,color=green];
-		j763709535 -> j154827582 [label=false,color=brown];
-	j1245671203 [label="Pues, a ver",shape=box,color=blue];
-		j1245671203 -> "Chat ends.";
-	j1452689601 [label="Peut-être 
+		819 -> 820;
+	805 [label="Check boolean LettieNoFlirt",color=orange];
+		805 -> 810 [label=true,color=green];
+		805 -> 806 [label=false,color=brown];
+	794 [label="Tu es coriace. Tout ira bien.",shape=box,color=red];
+		794 -> 799;
+	795 [label="Hé. Au moins, tu es en meilleure compagnie que je ne l'étais.",shape=box,color=red];
+		795 -> 801;
+	820 [label="Update boolean LettieFantasma3",color=orange];
+		820 -> 822;
+	810 [label="+10 Chemistry",color=orange];
+		810 -> 807;
+	806 [label="Check boolean LettieFlirt",color=orange];
+		806 -> 811 [label=true,color=green];
+		806 -> 811 [label=false,color=brown];
+	799 [label="Pues, a ver",shape=box,color=blue];
+		799 -> 800;
+	801 [label="Peut-être 
 Tu me donnes de l'espoir à ce niveau, babas",shape=box,color=blue];
-		j1452689601 -> j2490124672;
-	j455732985 [label="+10 Chemistry",color=orange];
-		j455732985 -> j514082142;
-	j1030823178 [label="JAJA 
+		801 -> 819;
+	822 [label="+10 Chemistry",color=orange];
+		822 -> 821;
+	807 [label="JAJA 
 No, pequeño babas 
 Tu peux toujours sourire",shape=box,color=blue];
-		j1030823178 -> j2490124672;
-	j154827582 [label="+10 Chemistry",color=orange];
-		j154827582 -> j1233899679;
-	j514082142 [label="Il y a de l'espoir
+		807 -> 819;
+	811 [label="+10 Chemistry",color=orange];
+		811 -> 808;
+	800 [label="Chat ends.",color=orange];
+	821 [label="Il y a de l'espoir
 Et je prendrai tout fragment d'espoir à ma portée
 Merci, babas",shape=box,color=blue];
-		j514082142 -> "Chat ends.";
-	j1233899679 [label="Oh, babas, ne te tracasse pas 
+		821 -> 823;
+	808 [label="Oh, babas, ne te tracasse pas 
 On alternera les rôles :-)",shape=box,color=blue];
-		j1233899679 -> j1351752467;
-		j1233899679 -> j1853159437;
-		j1233899679 -> j3119117416;
-	j1351752467 [label="Hein?",shape=box,color=red];
-		j1351752467 -> j545761303;
-	j1853159437 [label="Je - Oh. *Oh.* Hé. Eh bien.",shape=box,color=red];
-		j1853159437 -> j2491764702;
-	j3119117416 [label="Je... ne t'aime pas comme ça, excuse-moi, Lettie.",shape=box,color=red];
-		j3119117416 -> j304953437;
-	j545761303 [label="... Tu le découvriras 
+		808 -> 812;
+		808 -> 813;
+		808 -> 814;
+	823 [label="Chat ends.",color=orange];
+	812 [label="Hein?",shape=box,color=red];
+		812 -> 815;
+	813 [label="Je - Oh. *Oh.* Hé. Eh bien.",shape=box,color=red];
+		813 -> 816;
+	814 [label="Je... ne t'aime pas comme ça, excuse-moi, Lettie.",shape=box,color=red];
+		814 -> 817;
+	815 [label="... Tu le découvriras 
  J'ai la foi 
  Mais il ne s'agit pas de ta souffrance 
  Pas aujourd'hui",shape=box,color=blue];
-		j545761303 -> j2490124672;
-	j2491764702 [label="Mais il ne s'agit pas de ta souffrance 
+		815 -> 819;
+	816 [label="Mais il ne s'agit pas de ta souffrance 
 Pas aujourd'hui",shape=box,color=blue];
-		j2491764702 -> j2490124672;
-	j304953437 [label="Boolean LettieNoFlirt is now true.",color=orange];
-		j304953437 -> j3315185123;
-	j3315185123 [label="Lo siento, je m'amusais juste 
+		816 -> 819;
+	817 [label="Update boolean LettieNoFlirt",color=orange];
+		817 -> 818;
+	818 [label="Lo siento, je m'amusais juste 
 Ça n'arrivera plus 
 De plus, il ne s'agit pas de ta souffrance",shape=box,color=blue];
-		j3315185123 -> j2490124672;
+		818 -> 819;
 }

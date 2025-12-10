@@ -1,0 +1,33 @@
+digraph {
+	2162 [label="RoatheStory4 begins.",color=orange];
+		2162 -> 5647;
+	5647 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5647 -> 2166 [label=true,color=green];
+		5647 -> 5646 [label=false,color=brown];
+	2166 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2166 -> 2163 [label="x >= 4",color=purple];
+		2166 -> 2165 [label="false",color=purple];
+	5646 [label="Chat ends.",color=orange];
+	2163 [label="VM: HUBRIS",shape=box,color=blue];
+		2163 -> 2164;
+	2165 [label="Chat ends.",color=orange];
+	2164 [label="Transcript: We did not expect to lose. ",shape=box,color=blue];
+		2164 -> 5732;
+	5732 [label="After the Sentients' first expeditionary strike, we had prepared a punitive counterblast.",shape=box,color=blue];
+		5732 -> 2159;
+	2159 [label="The Gilderglass Enchantress rose out of Ceres fog on lethal wings, a galleon laden heavy with drones and silver-armoured myrmidons.",shape=box,color=blue];
+		2159 -> 2160;
+	2160 [label="Circuitry, fine as mist formed a delicate lace beneath their translucent plating. ",shape=box,color=blue];
+		2160 -> 5693;
+	5693 [label="So vast she was that she barely cleared the edges of the Solar Rail.",shape=box,color=blue];
+		5693 -> 2167;
+	2167 [label="The Sentients made sure we saw the outcome. They sang, and our technology failed. Our warriors struggled and suffocated inside their shining suits.",shape=box,color=blue];
+		2167 -> 5684;
+	5684 [label="The crew of the Gilderglass Enchantress roasted alive as she swan-dived engineless through the skies of Tau, a complex and costly firework.",shape=box,color=blue];
+		5684 -> 2158;
+	2158 [label="Add 1 to HellStory",color=orange];
+		2158 -> 2331;
+	2331 [label="{\"Id\":2331,\"Incoming\":[2158],\"Outgoing\":[2161],\"GraphPos\":[5059,-10280],\"CompletionType\":1}",color=orange];
+		2331 -> 2161;
+	2161 [label="Chat ends.",color=orange];
+}

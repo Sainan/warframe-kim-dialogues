@@ -1,225 +1,232 @@
 digraph {
-	"LettieRank5Convo7 begins." [color=orange];
-		"LettieRank5Convo7 begins." -> j4288606571;
-	j4288606571 [label="Check boolean LettieDating",color=orange];
-		j4288606571 -> j130146917 [label=true,color=green];
-		j4288606571 -> "Chat ends." [label=false,color=brown];
-	j130146917 [label="Wenn du mir geraubt wirst 
+	2314 [label="LettieRank5Convo7 begins.",color=orange];
+		2314 -> 2315;
+	2315 [label="Check boolean LettieDating",color=orange];
+		2315 -> 2317 [label=true,color=green];
+		2315 -> 2316 [label=false,color=brown];
+	2317 [label="Wenn du mir geraubt wirst 
 Wem werde ich das zu verdanken haben? 
 Was wird dich mir nehmen?",shape=box,color=blue];
-		j130146917 -> j3601039604;
-		j130146917 -> j3679270792;
-	"Chat ends." [color=orange];
-	j3601039604 [label="Ich sage das mit aller Liebe und Respekt - Du bist *scheiße* darin, Gespräche anzufangen.",shape=box,color=red];
-		j3601039604 -> j1697913954;
-	j3679270792 [label="Bitte, fang nochmal von vorne an. Was ist die Frage?",shape=box,color=red];
-		j3679270792 -> j2869274854;
-	j1697913954 [label="+5 Chemistry",color=orange];
-		j1697913954 -> j731048833;
-	j2869274854 [label="Ich bin einfach neugierig zu wissen, wenn die Zukunft dich von mir wegnimmt 
+		2317 -> 2318;
+		2317 -> 2319;
+	2316 [label="Chat ends.",color=orange];
+	2318 [label="Ich sage das mit aller Liebe und Respekt - Du bist *scheiße* darin, Gespräche anzufangen.",shape=box,color=red];
+		2318 -> 2322;
+	2319 [label="Bitte, fang nochmal von vorne an. Was ist die Frage?",shape=box,color=red];
+		2319 -> 2321;
+	2322 [label="+5 Chemistry",color=orange];
+		2322 -> 2320;
+	2321 [label="Ich bin einfach neugierig zu wissen, wenn die Zukunft dich von mir wegnimmt 
 Welches Gesicht wird sie annehmen und warum",shape=box,color=blue];
-		j2869274854 -> j2322174186;
-		j2869274854 -> j3972688022;
-	j731048833 [label="¡JAJAJA SÍ! 
+		2321 -> 2323;
+		2321 -> 2325;
+	2320 [label="¡JAJAJA SÍ! 
 Das bin ich wirklich, lo siento 
 Ich bin einfach neugierig zu wissen, wenn die Zukunft dich von mir wegnimmt 
 Welches Gesicht wird sie annehmen und warum",shape=box,color=blue];
-		j731048833 -> j2322174186;
-		j731048833 -> j3972688022;
-	j2322174186 [label="Selbst wenn ich gehen müsste – wer sagt, dass ich nicht zurückkomme?",shape=box,color=red];
-		j2322174186 -> j2386988258;
-	j3972688022 [label="Du hasst es, wenn ich Annahmen über dich stelle.",shape=box,color=red];
-		j3972688022 -> j4067712156;
-	j2386988258 [label="Du wirst es vielleicht versuchen 
+		2320 -> 2323;
+		2320 -> 2325;
+	2323 [label="Selbst wenn ich gehen müsste – wer sagt, dass ich nicht zurückkomme?",shape=box,color=red];
+		2323 -> 2324;
+	2325 [label="Du hasst es, wenn ich Annahmen über dich stelle.",shape=box,color=red];
+		2325 -> 2326;
+	2324 [label="Du wirst es vielleicht versuchen 
 Und vielleicht wirst du sogar Erfolg haben 
 Du bist sehr schwer umzubringen, jaja 
 Aber ich kenne mich mit Soldaten aus, solecito 
 Und Soldaten kommen nicht immer aus dem Krieg zurück 
 Also sag mir warum",shape=box,color=blue];
-		j2386988258 -> j3234434887;
-	j4067712156 [label="Sí das stimmt 
+		2324 -> 2328;
+	2326 [label="Sí das stimmt 
 Aber ich kenne mich mit Soldaten aus, solecito 
 Und du bist ein Soldat, ob du willst oder nicht
 Werden Soldaten abkommandiert, um \"die Welt zu retten\"
 Dann tun sie es 
 Also sag mir warum",shape=box,color=blue];
-		j4067712156 -> j3234434887;
-	j3234434887 [label="Check boolean LettieReligion2",color=orange];
-		j3234434887 -> j1164122272 [label=true,color=green];
-		j3234434887 -> j4083016111 [label=true,color=green];
-		j3234434887 -> j1775185585 [label=true,color=green];
-		j3234434887 -> j958606964 [label=true,color=green];
-		j3234434887 -> j1164122272 [label=false,color=brown];
-		j3234434887 -> j3671340380 [label=false,color=brown];
-		j3234434887 -> j1292591485 [label=false,color=brown];
-		j3234434887 -> j958606964 [label=false,color=brown];
-	j1164122272 [label="Entrati. Ich denke, ich bin noch nicht fertig damit, ihn zu jagen.",shape=box,color=red];
-		j1164122272 -> j1154998493;
-	j4083016111 [label="Mein Xipe Totec. Ich weiß aus erster Hand, warum er aufgehalten werden *muss*.",shape=box,color=red];
-		j4083016111 -> j2079742784;
-	j1775185585 [label="Tau. Wenn Entrati dorthin unterwegs ist, *wird* mein Xipe Totec ihm folgen. Und er ist zu wichtig, um ihnen überlassen zu werden.",shape=box,color=red];
-		j1775185585 -> j3204689239;
-	j958606964 [label="Ich werde NIEMALS gehen. Ende der Geschichte.",shape=box,color=red];
-		j958606964 -> j2656430067;
-	j3671340380 [label="Der Mann in der Wand. Ich weiß aus erster Hand, warum er aufgehalten werden *muss*.",shape=box,color=red];
-		j3671340380 -> j2079742784;
-	j1292591485 [label="Tau. Wenn Entrati dorthin unterwegs ist, *wird* der Mann in der Wand ihm folgen. Und er ist zu wichtig, um ihnen überlassen zu werden.",shape=box,color=red];
-		j1292591485 -> j3204689239;
-	j1154998493 [label="Als ob ich noch mehr Gründe bräuchte, diesen cabrón zu hassen
+		2326 -> 2328;
+	2328 [label="Check boolean LettieReligion2",color=orange];
+		2328 -> 2327 [label=true,color=green];
+		2328 -> 2329 [label=true,color=green];
+		2328 -> 2330 [label=true,color=green];
+		2328 -> 2333 [label=true,color=green];
+		2328 -> 2327 [label=false,color=brown];
+		2328 -> 2331 [label=false,color=brown];
+		2328 -> 2332 [label=false,color=brown];
+		2328 -> 2333 [label=false,color=brown];
+	2327 [label="Entrati. Ich denke, ich bin noch nicht fertig damit, ihn zu jagen.",shape=box,color=red];
+		2327 -> 2334;
+	2329 [label="Mein Xipe Totec. Ich weiß aus erster Hand, warum er aufgehalten werden *muss*.",shape=box,color=red];
+		2329 -> 2335;
+	2330 [label="Tau. Wenn Entrati dorthin unterwegs ist, *wird* mein Xipe Totec ihm folgen. Und er ist zu wichtig, um ihnen überlassen zu werden.",shape=box,color=red];
+		2330 -> 2336;
+	2333 [label="Ich werde NIEMALS gehen. Ende der Geschichte.",shape=box,color=red];
+		2333 -> 2337;
+	2331 [label="Der Mann in der Wand. Ich weiß aus erster Hand, warum er aufgehalten werden *muss*.",shape=box,color=red];
+		2331 -> 2335;
+	2332 [label="Tau. Wenn Entrati dorthin unterwegs ist, *wird* der Mann in der Wand ihm folgen. Und er ist zu wichtig, um ihnen überlassen zu werden.",shape=box,color=red];
+		2332 -> 2336;
+	2334 [label="Als ob ich noch mehr Gründe bräuchte, diesen cabrón zu hassen
 Jetzt gibst du mir einen weiteren
 Aber er wird noch mehr Orte und Leben ruinieren 
 So wie er schon so viele andere ruiniert hat",shape=box,color=blue];
-		j1154998493 -> j2220908351;
-	j2079742784 [label="Deine Geschichte mit dem gehäuteten Gott des Voids ... sí
+		2334 -> 2338;
+	2335 [label="Deine Geschichte mit dem gehäuteten Gott des Voids ... sí
 Ich fürchte, es ist noch nicht vorbei 
 Und wer bin ich, zu glauben, ich sei wichtig genug, um dem im Weg zu stehen",shape=box,color=blue];
-		j2079742784 -> j3208874366;
-	j3204689239 [label="Check boolean LettieSentients",color=orange];
-		j3204689239 -> j3120057233 [label=true,color=green];
-		j3204689239 -> j1500115809 [label=false,color=brown];
-	j2656430067 [label="Dachte nicht, dass du so naiv bist
+		2335 -> 2339;
+	2336 [label="Check boolean LettieSentients",color=orange];
+		2336 -> 2340 [label=true,color=green];
+		2336 -> 2341 [label=false,color=brown];
+	2337 [label="Dachte nicht, dass du so naiv bist
 Diese Sache zwischen uns ist eindeutig ein Fehler, babas 
 Du bist zu jung für mich, denke ich 
 Wenn du die Realität von all dem nicht verstehen kannst",shape=box,color=blue];
-		j2656430067 -> j2548450594;
-	j2220908351 [label="Ay, sí
+		2337 -> 2342;
+	2338 [label="Ay, sí
 Falls nicht einer von uns ihm eine Kugel in den Schädel jagt, dann solltest du es tun 
 Und ich hoffe, wenn du gehst und ihn dafür bezahlen lässt 
 Dass du zu uns zurückkommst 
 Und zu mir",shape=box,color=blue];
-		j2220908351 -> j2743157374;
-	j3208874366 [label="Wenn du deinen gehäuteten Gott endlich besiegt hast
+		2338 -> 2364;
+	2339 [label="Wenn du deinen gehäuteten Gott endlich besiegt hast
 Wirst du dich vielleicht an uns hier in diesem cuchitril erinnern
 Und wirst zu uns zurückkommen 
 Und zu mir",shape=box,color=blue];
-		j3208874366 -> j2159415325;
-	j3120057233 [label="Dieses Tau. Dorthin wurden die ... Sentients geschickt ¿no? 
+		2339 -> 2365;
+	2340 [label="Dieses Tau. Dorthin wurden die ... Sentients geschickt ¿no? 
 Diese künstliche Rasse, erschaffen von falschen Göttern, den Orokin",shape=box,color=blue];
-		j3120057233 -> j1143906062;
-	j1500115809 [label="Erzähl mir von diesem Tau 
+		2340 -> 2350;
+	2341 [label="Erzähl mir von diesem Tau 
 Was ist es 
 Sag mir, warum es dich mir wegnehmen würde",shape=box,color=blue];
-		j1500115809 -> j3180928567;
-	j2548450594 [label="Boolean LettieDating is now false.",color=orange];
-		j2548450594 -> j4086907321;
-	j2743157374 [label="Ich verspreche, dass ich WIEDERKOMME, FALLS ich gehe.",shape=box,color=red];
-		j2743157374 -> j3216283722;
-	j2159415325 [label="Ich kann nur versprechen, dass ich mein Bestes geben werde.",shape=box,color=red];
-		j2159415325 -> j1840291050;
-	j1143906062 [label="Ja, aber wir hätten uns sonst nie kennengelernt. Oder angefangen, miteinander auszugehen. Hat ... also auch etwas Gutes?",shape=box,color=red];
-		j1143906062 -> j3698124246;
-	j3180928567 [label="Tau ist ein Planet in einem anderen Sonnensystem, zu dem die Orokin eine von ihnen erschaffene synthetische Rasse schickten, um ihn für uns umzugestalten.",shape=box,color=red];
-		j3180928567 -> j2198138024;
-	j4086907321 [label="Boolean IsDating is now false.",color=orange];
-		j4086907321 -> j2703113057;
-	j3216283722 [label="+10 Chemistry",color=orange];
-		j3216283722 -> j1275813539;
-	j1840291050 [label="+20 Chemistry",color=orange];
-		j1840291050 -> j3654057250;
-	j3698124246 [label="Jajaja sí 
+		2341 -> 2346;
+	2342 [label="Update boolean LettieDating",color=orange];
+		2342 -> 2343;
+	2364 [label="Ich verspreche, dass ich WIEDERKOMME, FALLS ich gehe.",shape=box,color=red];
+		2364 -> 2368;
+	2365 [label="Ich kann nur versprechen, dass ich mein Bestes geben werde.",shape=box,color=red];
+		2365 -> 2371;
+	2350 [label="Ja, aber wir hätten uns sonst nie kennengelernt. Oder angefangen, miteinander auszugehen. Hat ... also auch etwas Gutes?",shape=box,color=red];
+		2350 -> 2352;
+	2346 [label="Tau ist ein Planet in einem anderen Sonnensystem, zu dem die Orokin eine von ihnen erschaffene synthetische Rasse schickten, um ihn für uns umzugestalten.",shape=box,color=red];
+		2346 -> 2347;
+	2343 [label="Update boolean IsDating",color=orange];
+		2343 -> 2344;
+	2368 [label="+10 Chemistry",color=orange];
+		2368 -> 2366;
+	2371 [label="+20 Chemistry",color=orange];
+		2371 -> 2367;
+	2352 [label="Jajaja sí 
 Etwas Gutes
 Aber warum? 
 Warum ist dieser Ort so wichtig, dass er dich mir eines Tages nehmen wird",shape=box,color=blue];
-		j3698124246 -> j360344613;
-		j3698124246 -> j3056345380;
-		j3698124246 -> j190584514;
-	j2198138024 [label="Diese Rasse waren die Sentients. Aber die Sentients wandten sich gegen die Orokin. Sie kamen hierher zurück und führten Krieg gegen sie.",shape=box,color=red];
-		j2198138024 -> j3197113595;
-	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
-		j2703113057 -> "Chat ends.";
-	j1275813539 [label="Wie viele soldaditos haben das versprochen 
+		2352 -> 2354;
+		2352 -> 2355;
+		2352 -> 2356;
+	2347 [label="Diese Rasse waren die Sentients. Aber die Sentients wandten sich gegen die Orokin. Sie kamen hierher zurück und führten Krieg gegen sie.",shape=box,color=red];
+		2347 -> 2348;
+	2344 [label="Update boolean LettieNoDate",color=orange];
+		2344 -> 2345;
+	2366 [label="Wie viele soldaditos haben das versprochen 
 Und starben eine Stunde später in einem Graben
 Aay, aber ich weiß, du meinst es ernst, was du sagst 
 Du wirst es versuchen",shape=box,color=blue];
-		j1275813539 -> "Chat ends.";
-	j3654057250 [label="Das ist ein Versprechen, dem ich vertrauen kann
+		2366 -> 2369;
+	2367 [label="Das ist ein Versprechen, dem ich vertrauen kann
 Das ist ein Versprechen, an das ich glaube 
 Gracias, mi corazón",shape=box,color=blue];
-		j3654057250 -> j1472871842;
-	j360344613 [label="Ich bin mir nicht sicher. Aber wenn Entrati *und* der Mann in der Wand dorthin unterwegs sind ... muss es wichtig sein.",shape=box,color=red];
-		j360344613 -> j2811266282;
-	j3056345380 [label="Es war die einzige Hoffnung für das Überleben der Menschheit. Und ehrlich gesagt, ist es wahrscheinlich immer noch.",shape=box,color=red];
-		j3056345380 -> j606145833;
-	j190584514 [label="Ich bin mir nicht sicher. Aber die Sentients haben ein paar kryptische Dinge von sich gegeben.",shape=box,color=red];
-		j190584514 -> j620885569;
-	j3197113595 [label="Und es war dieser Krieg, der die Orokin überhaupt erst dazu brachte, den Befall - und die Warframes - zu erschaffen. Um die Sentients zu bekämpfen.",shape=box,color=red];
-		j3197113595 -> j950388721;
-	j1472871842 [label="Boolean LettieReal is now true.",color=orange];
-		j1472871842 -> "Chat ends.";
-	j2811266282 [label="Sí
+		2367 -> 2370;
+	2354 [label="Ich bin mir nicht sicher. Aber wenn Entrati *und* der Mann in der Wand dorthin unterwegs sind ... muss es wichtig sein.",shape=box,color=red];
+		2354 -> 2357;
+	2355 [label="Es war die einzige Hoffnung für das Überleben der Menschheit. Und ehrlich gesagt, ist es wahrscheinlich immer noch.",shape=box,color=red];
+		2355 -> 2358;
+	2356 [label="Ich bin mir nicht sicher. Aber die Sentients haben ein paar kryptische Dinge von sich gegeben.",shape=box,color=red];
+		2356 -> 2360;
+	2348 [label="Und es war dieser Krieg, der die Orokin überhaupt erst dazu brachte, den Befall - und die Warframes - zu erschaffen. Um die Sentients zu bekämpfen.",shape=box,color=red];
+		2348 -> 2349;
+	2345 [label="Chat ends.",color=orange];
+	2369 [label="Chat ends.",color=orange];
+	2370 [label="Update boolean LettieReal",color=orange];
+		2370 -> 2372;
+	2357 [label="Sí
 Und ich hoffe, wenn du gehst und ihn dafür bezahlen lässt 
 Dass du zu uns zurückkommst 
 Und zu mir",shape=box,color=blue];
-		j2811266282 -> j2743157374;
-		j2811266282 -> j2159415325;
-	j606145833 [label="Ay nein 
+		2357 -> 2364;
+		2357 -> 2365;
+	2358 [label="Ay nein 
 Damit wir einen zweiten Planeten wie diesen hier zerstören 
 Ich glaube, ich stimme den Sentients zu jajaja 
 Außerdem scheinen wir im Weltraum ganz gut zurechtzukommen ¿no?",shape=box,color=blue];
-		j606145833 -> j577433373;
-		j606145833 -> j4261661975;
-	j620885569 [label="¿Cómo qué?
+		2358 -> 2362;
+		2358 -> 2363;
+	2360 [label="¿Cómo qué?
 ¿Wie was?",shape=box,color=blue];
-		j620885569 -> j128135516;
-		j620885569 -> j470269453;
-	j950388721 [label="Wenn es also Tau und diese Sentients nicht gäbe 
+		2360 -> 2359;
+		2360 -> 2361;
+	2349 [label="Wenn es also Tau und diese Sentients nicht gäbe 
 Diese künstliche Rasse, erschaffen von diesen falschen Göttern, den Orokin 
 Dann wäre nichts von diesem pendejadas jemals passiert",shape=box,color=blue];
-		j950388721 -> j1143906062;
-		j950388721 -> j2120953650;
-	j577433373 [label="Wie du meinst. lol",shape=box,color=red];
-		j577433373 -> j761295800;
-	j4261661975 [label="Mit dieser Entscheidung solltest du vielleicht warten, bis du die Zukunft kennengelernt hast.",shape=box,color=red];
-		j4261661975 -> j761295800;
-	j128135516 [label="\"Alles ist still und ruhig. Leise und leer ist der Leib der Himmel.\"",shape=box,color=red];
-		j128135516 -> j977394515;
-	j470269453 [label="\"Nur ein Gerüst, nur geformt, werden sie genannt. Da war kein, ihre Mutter, das war kein, ihr Vater.\"",shape=box,color=red];
-		j470269453 -> j977394515;
-	j2120953650 [label="Könnte man sagen.",shape=box,color=red];
-		j2120953650 -> j3662862733;
-	j761295800 [label="+10 Chemistry",color=orange];
-		j761295800 -> j436484318;
-	j977394515 [label="¡¿QUÉ?! 
+		2349 -> 2350;
+		2349 -> 2351;
+	2372 [label="Chat ends.",color=orange];
+	2362 [label="Wie du meinst. lol",shape=box,color=red];
+		2362 -> 2375;
+	2363 [label="Mit dieser Entscheidung solltest du vielleicht warten, bis du die Zukunft kennengelernt hast.",shape=box,color=red];
+		2363 -> 2375;
+	2359 [label="\"Alles ist still und ruhig. Leise und leer ist der Leib der Himmel.\"",shape=box,color=red];
+		2359 -> 2376;
+	2361 [label="\"Nur ein Gerüst, nur geformt, werden sie genannt. Da war kein, ihre Mutter, das war kein, ihr Vater.\"",shape=box,color=red];
+		2361 -> 2376;
+	2351 [label="Könnte man sagen.",shape=box,color=red];
+		2351 -> 2353;
+	2375 [label="+10 Chemistry",color=orange];
+		2375 -> 2373;
+	2376 [label="¡¿QUÉ?! 
 WAS HAST DU GERADE GESAGT?! 
 WARTE, WARTE, WARTE, WARTE, WARTE, WARTE",shape=box,color=blue];
-		j977394515 -> j2418443605;
-	j3662862733 [label="Aber warum? 
+		2376 -> 2377;
+	2353 [label="Aber warum? 
 Warum ist dieser Ort so wichtig, dass er dich mir eines Tages nehmen wird",shape=box,color=blue];
-		j3662862733 -> j360344613;
-		j3662862733 -> j3056345380;
-		j3662862733 -> j190584514;
-	j436484318 [label="Für mich geht es wieder an die Arbeit 
+		2353 -> 2354;
+		2353 -> 2355;
+		2353 -> 2356;
+	2373 [label="Für mich geht es wieder an die Arbeit 
 Wieder, wie immer 
 Endet nie ... wird es nie",shape=box,color=blue];
-		j436484318 -> "Chat ends.";
-	j2418443605 [label="¿POR QUÉ? Warum zitieren Kreaturen aus der fernen Zukunft ¿a los PUEBLOS ANTIGUOS? 
+		2373 -> 2374;
+	2377 [label="¿POR QUÉ? Warum zitieren Kreaturen aus der fernen Zukunft ¿a los PUEBLOS ANTIGUOS? 
 ¿Qué chingados está pasando ahora?",shape=box,color=blue];
-		j2418443605 -> j4171611029;
-		j2418443605 -> j1508014323;
-	j4171611029 [label="Ähm. Wie bitte? Was haben sie zitiert?",shape=box,color=red];
-		j4171611029 -> j3507591564;
-	j1508014323 [label="Lettie, ich kann schon wieder nicht folgen. Wiederhol das.",shape=box,color=red];
-		j1508014323 -> j3507591564;
-	j3507591564 [label="AGGHHHH, das ergibt KEINEN SINN 
+		2377 -> 2378;
+		2377 -> 2379;
+	2374 [label="Chat ends.",color=orange];
+	2378 [label="Ähm. Wie bitte? Was haben sie zitiert?",shape=box,color=red];
+		2378 -> 2380;
+	2379 [label="Lettie, ich kann schon wieder nicht folgen. Wiederhol das.",shape=box,color=red];
+		2379 -> 2380;
+	2380 [label="AGGHHHH, das ergibt KEINEN SINN 
 Diese Worte sind die Worte der Uralten von Chichén Itzá. WO HAST DU SIE HER?!",shape=box,color=blue];
-		j3507591564 -> j3709970657;
-	j3709970657 [label="DAS SIND WORTE AUS EINEM HEILIGEN TEXT VON LOS PUEBLOS ANTIGUOS 
+		2380 -> 2381;
+	2381 [label="DAS SIND WORTE AUS EINEM HEILIGEN TEXT VON LOS PUEBLOS ANTIGUOS 
 \"¡¿CÓMO Y POR QUÉ!?\"",shape=box,color=blue];
-		j3709970657 -> j1129756389;
-		j3709970657 -> j1490811204;
-	j1129756389 [label="Ich - ich - ich weiß es nicht. Ich habe keine Ahnung. Ich kann nur raten.",shape=box,color=red];
-		j1129756389 -> j313827787;
-	j1490811204 [label="Zeitreisen ...?",shape=box,color=red];
-		j1490811204 -> j313827787;
-	j313827787 [label="+20 Chemistry",color=orange];
-		j313827787 -> j4050900262;
-	j4050900262 [label="Ich trinke nicht 
+		2381 -> 2382;
+		2381 -> 2383;
+	2382 [label="Ich - ich - ich weiß es nicht. Ich habe keine Ahnung. Ich kann nur raten.",shape=box,color=red];
+		2382 -> 2387;
+	2383 [label="Zeitreisen ...?",shape=box,color=red];
+		2383 -> 2387;
+	2387 [label="+20 Chemistry",color=orange];
+		2387 -> 2384;
+	2384 [label="Ich trinke nicht 
 Aber würde ich, wäre es jetzt an der Zeit 
 Aaayyyy, dieser Unsinn wird von Tag zu Tag schlimmer",shape=box,color=blue];
-		j4050900262 -> j343453521;
-	j343453521 [label="Ich ... muss mich hinsetzen, mi corazón 
+		2384 -> 2385;
+	2385 [label="Ich ... muss mich hinsetzen, mi corazón 
 Sprich eine Weile nicht mit mir über die Zukunft, ¿Sí? 
 Ich glaube, ich habe schon lange genug davon 
 Bereitet mir verdammte Kopfschmerzen",shape=box,color=blue];
-		j343453521 -> j1472871842;
+		2385 -> 2386;
+	2386 [label="Update boolean LettieReal",color=orange];
+		2386 -> 2388;
+	2388 [label="Chat ends.",color=orange];
 }

@@ -1,0 +1,37 @@
+digraph {
+	2214 [label="RoatheStory9 begins.",color=orange];
+		2214 -> 5656;
+	5656 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5656 -> 2206 [label=true,color=green];
+		5656 -> 5657 [label=false,color=brown];
+	2206 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2206 -> 2210 [label="x >= 9",color=purple];
+		2206 -> 2209 [label="false",color=purple];
+	5657 [label="Chat ends.",color=orange];
+	2210 [label="ボイスメール：指揮官",shape=box,color=blue];
+		2210 -> 2208;
+	2209 [label="Chat ends.",color=orange];
+	2208 [label="思い出した。笑声を上げるオロキンの若者集団。",shape=box,color=blue];
+		2208 -> 2212;
+	2212 [label="綺麗に仕立てられた、指揮官の衣装をまとった貴族たち。",shape=box,color=blue];
+		2212 -> 2205;
+	2205 [label="幼い日を共にしたものが、ダクス、グリニア、反物質セル、自己複製装置、原始的なバイオドローンブレードスパイダー、キャニスター部隊を指揮していた。",shape=box,color=blue];
+		2205 -> 2213;
+	2213 [label="貪欲な悪魔たちに操られた、黄金の少年少女たち。",shape=box,color=blue];
+		2213 -> 2215;
+	2215 [label="その露わな傲慢さには虫唾が走った。酒を飲み、歌い、来るべき時代を誇示していた。",shape=box,color=blue];
+		2215 -> 5696;
+	5696 [label="いつか名声を博すだろうと。家族を新たな地位へ導くと。",shape=box,color=blue];
+		5696 -> 5697;
+	5697 [label="その多くが戦死した。遺体さえも返還されなかった。",shape=box,color=blue];
+		5697 -> 5698;
+	5698 [label="敵に秘密を漏らさぬよう、彼らはクバショックで液状化させられたのだ。",shape=box,color=blue];
+		5698 -> 5699;
+	5699 [label="一世代の希望は油まみれの水たまりと化して、それをグリニアのブーツが踏みつぶした。",shape=box,color=blue];
+		5699 -> 2211;
+	2211 [label="Add 1 to HellStory",color=orange];
+		2211 -> 2336;
+	2336 [label="{\"Id\":2336,\"Incoming\":[2211],\"Outgoing\":[2207],\"GraphPos\":[5512,-8267],\"CompletionType\":1}",color=orange];
+		2336 -> 2207;
+	2207 [label="Chat ends.",color=orange];
+}

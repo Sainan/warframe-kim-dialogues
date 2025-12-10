@@ -1,16 +1,21 @@
 digraph {
-	"QuincyBirthdayConvo3 begins." [color=orange];
-		"QuincyBirthdayConvo3 begins." -> j540203761;
-		"QuincyBirthdayConvo3 begins." -> j4180619701;
-	j540203761 [label="Хочеш пройтися клубами у свій день народження?",shape=box,color=red];
-		j540203761 -> j4251991719;
-	j4180619701 [label="Як стосовно тихого вечора разом із «Прокльоном» у твій день народження?",shape=box,color=red];
-		j4180619701 -> j3538238062;
-	j4251991719 [label="+20 Chemistry",color=orange];
-		j4251991719 -> j3542036499;
-	j3538238062 [label="ага, можемо вдягти маленькі паперові ковпачки і смужки натягнуть. зануууудство",shape=box,color=blue];
-		j3538238062 -> "Chat ends.";
-	j3542036499 [label="хахахах а ти шариш. запалімо це МІСТО, ха!",shape=box,color=blue];
-		j3542036499 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3534 [label="QuincyBirthdayConvo3 begins.",color=orange];
+		3534 -> 3550;
+		3534 -> 3553;
+	3550 [label="Хочеш пройтися клубами у свій день народження?",shape=box,color=red];
+		3550 -> 3551;
+	3553 [label="Як стосовно тихого вечора разом із «Прокльоном» у твій день народження?",shape=box,color=red];
+		3553 -> 3555;
+	3551 [label="+20 Chemistry",color=orange];
+		3551 -> 3549;
+	3555 [label="ага, можемо вдягти маленькі паперові ковпачки і смужки натягнуть. зануууудство",shape=box,color=blue];
+		3555 -> 3156;
+	3549 [label="хахахах а ти шариш. запалімо це МІСТО, ха!",shape=box,color=blue];
+		3549 -> 3168;
+	3156 [label="{\"Id\":3156,\"Incoming\":[3555],\"Outgoing\":[3554],\"GraphPos\":[1144,-4045],\"CompletionType\":1}",color=orange];
+		3156 -> 3554;
+	3168 [label="{\"Id\":3168,\"Incoming\":[3549],\"Outgoing\":[3552],\"GraphPos\":[1510,-4198],\"CompletionType\":1}",color=orange];
+		3168 -> 3552;
+	3554 [label="Chat ends.",color=orange];
+	3552 [label="Chat ends.",color=orange];
 }

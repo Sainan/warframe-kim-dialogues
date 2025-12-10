@@ -1,16 +1,21 @@
 digraph {
-	"EleanorBirthdayConvo3 begins." [color=orange];
-		"EleanorBirthdayConvo3 begins." -> j1545487456;
-		"EleanorBirthdayConvo3 begins." -> j267686316;
-	j1545487456 [label="Wszystkiego najlepszego, Eleanor! Mam nadzieję, że dobrze się bawisz!",shape=box,color=red];
-		j1545487456 -> j2878554724;
-	j267686316 [label="… czy ten język przeszkadza ci w zdmuchnięciu świeczek z tortu urodzinowego?",shape=box,color=red];
-		j267686316 -> j1262906528;
-	j2878554724 [label="+20 Chemistry",color=orange];
-		j2878554724 -> j4158464111;
-	j1262906528 [label="Dzięki za przypomnienie, że od lat nie jadłam tortu urodzinowego. Wybitne zagranie.",shape=box,color=blue];
-		j1262906528 -> "Chat ends.";
-	j4158464111 [label="Oczywiście. Wszyscy są tacy mili, nawet ci, którzy zazwyczaj nie są. Może jest jeszcze dla nas nadzieja?",shape=box,color=blue];
-		j4158464111 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	2832 [label="EleanorBirthdayConvo3 begins.",color=orange];
+		2832 -> 2833;
+		2832 -> 2836;
+	2833 [label="Wszystkiego najlepszego, Eleanor! Mam nadzieję, że dobrze się bawisz!",shape=box,color=red];
+		2833 -> 784;
+	2836 [label="… czy ten język przeszkadza ci w zdmuchnięciu świeczek z tortu urodzinowego?",shape=box,color=red];
+		2836 -> 785;
+	784 [label="+20 Chemistry",color=orange];
+		784 -> 2835;
+	785 [label="Dzięki za przypomnienie, że od lat nie jadłam tortu urodzinowego. Wybitne zagranie.",shape=box,color=blue];
+		785 -> 2843;
+	2835 [label="Oczywiście. Wszyscy są tacy mili, nawet ci, którzy zazwyczaj nie są. Może jest jeszcze dla nas nadzieja?",shape=box,color=blue];
+		2835 -> 2838;
+	2843 [label="{\"Id\":2843,\"Incoming\":[785],\"Outgoing\":[783],\"GraphPos\":[1879,-2636],\"CompletionType\":1}",color=orange];
+		2843 -> 783;
+	2838 [label="{\"Id\":2838,\"Incoming\":[2835],\"Outgoing\":[2834],\"GraphPos\":[1883,-2830],\"CompletionType\":1}",color=orange];
+		2838 -> 2834;
+	783 [label="Chat ends.",color=orange];
+	2834 [label="Chat ends.",color=orange];
 }

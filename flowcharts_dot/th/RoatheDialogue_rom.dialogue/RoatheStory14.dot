@@ -1,0 +1,29 @@
+digraph {
+	2258 [label="RoatheStory14 begins.",color=orange];
+		2258 -> 5666;
+	5666 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5666 -> 2261 [label=true,color=green];
+		5666 -> 5667 [label=false,color=brown];
+	2261 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2261 -> 2257 [label="x >= 14",color=purple];
+		2261 -> 2260 [label="false",color=purple];
+	5667 [label="Chat ends.",color=orange];
+	2257 [label="VM: ADAPTATION",shape=box,color=blue];
+		2257 -> 2259;
+	2260 [label="Chat ends.",color=orange];
+	2259 [label="บันทึก: ระหว่างที่เผชิญหน้ากันพวก Sentient จำนวนมากมีวิวัฒนาการ ดังนั้นเราไม่มีทางแน่ใจได้เลยว่าจะได้เผชิญหน้ากับศัตรูเดิมซ้ำสองครั้ง แต่บางตัวก็ยังคงสภาพเดิม ราวกับว่าเคยไปถึงจุดสูงสุดเมื่อนานมาแล้ว",shape=box,color=blue];
+		2259 -> 5709;
+	5709 [label="เป็นนักฆ่าที่สมบูรณ์แบบ พวกมันเย็นชาอย่างน่ากลัวเช่นเดียวกับฉลาม",shape=box,color=blue];
+		5709 -> 2256;
+	2256 [label="คือความบ้าคลั่ง ข้าจะวางกลยุทธ์รับมือกับพฤติกรรมของเรือ Sentient ได้อย่างไร ในเมื่อกลยุทธ์ที่ข้าวางไว้ไม่มีทางสมบูรณ์แบบไปกว่าเรือปูที่กลายเป็นเรือหนอน",shape=box,color=blue];
+		2256 -> 2253;
+	2253 [label="และอีกไม่นานเรือหนอนเหล่านั้นจะกลายเป็นสัตว์ประหลาดตัวใหม่",shape=box,color=blue];
+		2253 -> 5710;
+	5710 [label="สิ่งที่เราทำได้คือถอยหลัง ความก้าวหน้าเป็นสิ่งเลวร้าย ส่วนประเพณีเก่าแก่ เส้นทางแห่งเกียรติยศและระเบียบวินัยที่ศักดิ์สิทธิ์ตามกาลเวลา ล้วนเป็นสิ่งที่ควรได้รับความเคารพ",shape=box,color=blue];
+		5710 -> 2255;
+	2255 [label="Add 1 to HellStory",color=orange];
+		2255 -> 2341;
+	2341 [label="{\"Id\":2341,\"Incoming\":[2255],\"Outgoing\":[2254],\"GraphPos\":[4071,-6212],\"CompletionType\":1}",color=orange];
+		2341 -> 2254;
+	2254 [label="Chat ends.",color=orange];
+}

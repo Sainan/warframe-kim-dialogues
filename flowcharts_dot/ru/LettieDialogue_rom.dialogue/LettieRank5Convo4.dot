@@ -1,445 +1,459 @@
 digraph {
-	"LettieRank5Convo4 begins." [color=orange];
-		"LettieRank5Convo4 begins." -> j2749854;
-	j2749854 [label="Наверное, есть одна хорошая вещь 
+	1870 [label="LettieRank5Convo4 begins.",color=orange];
+		1870 -> 1871;
+	1871 [label="Наверное, есть одна хорошая вещь 
 В том, чтобы быть fantasmas, заточёнными вечно на краю Mictlán 
 Помимо того, что это удерживает нас от безумия",shape=box,color=blue];
-		j2749854 -> j3478694017;
-	j3478694017 [label="Check boolean LettieDating",color=orange];
-		j3478694017 -> j1366847295 [label=true,color=green];
-		j3478694017 -> j4190185341 [label=true,color=green];
-		j3478694017 -> j1836191492 [label=true,color=green];
-		j3478694017 -> j973697752 [label=false,color=brown];
-		j3478694017 -> j4190185341 [label=false,color=brown];
-		j3478694017 -> j1836191492 [label=false,color=brown];
-	j1366847295 [label="Привет и тебе, дорогая. ха-ха",shape=box,color=red];
-		j1366847295 -> j2940911593;
-	j4190185341 [label="О? Что это?",shape=box,color=red];
-		j4190185341 -> j461216941;
-	j1836191492 [label="Я сейчас вернусь. [Завершить]",shape=box,color=red];
-		j1836191492 -> "Chat ends.";
-	j973697752 [label="Привет и тебе, Лэтти. ха-ха",shape=box,color=red];
-		j973697752 -> j759695342;
-	j2940911593 [label="SÍ, sÍ 
+		1871 -> 1872;
+	1872 [label="Check boolean LettieDating",color=orange];
+		1872 -> 1873 [label=true,color=green];
+		1872 -> 1875 [label=true,color=green];
+		1872 -> 1877 [label=true,color=green];
+		1872 -> 1874 [label=false,color=brown];
+		1872 -> 1875 [label=false,color=brown];
+		1872 -> 1877 [label=false,color=brown];
+	1873 [label="Привет и тебе, дорогая. ха-ха",shape=box,color=red];
+		1873 -> 1876;
+	1875 [label="О? Что это?",shape=box,color=red];
+		1875 -> 1880;
+	1877 [label="Я сейчас вернусь. [Завершить]",shape=box,color=red];
+		1877 -> 1878;
+	1874 [label="Привет и тебе, Лэтти. ха-ха",shape=box,color=red];
+		1874 -> 1879;
+	1876 [label="SÍ, sÍ 
 Да, да
 Holiiii solecito jajaja",shape=box,color=blue];
-		j2940911593 -> j461216941;
-	j461216941 [label="Mis panquecitos 
+		1876 -> 1880;
+	1880 [label="Mis panquecitos 
 Мои крысы 
 Они ведь никогда не умрут, да?",shape=box,color=blue];
-		j461216941 -> j3638052566;
-	"Chat ends." [color=orange];
-	j759695342 [label="SÍ, sÍ 
+		1880 -> 1881;
+	1878 [label="Chat ends.",color=orange];
+	1879 [label="SÍ, sÍ 
 Да, да 
 Привет, друг jajaja",shape=box,color=blue];
-		j759695342 -> j461216941;
-	j3638052566 [label="Они будут жить вечно со мной 
+		1879 -> 1880;
+	1881 [label="Они будут жить вечно со мной 
 Даже если случится несчастный случай или эта gata mutante достанет их 
 Придёт Новый год 
 И будто ничего не случилось, ¿no?",shape=box,color=blue];
-		j3638052566 -> j131212922;
-		j3638052566 -> j2252934148;
-	j131212922 [label="Хм. Да. Я об этом не думал. Петля распространяется и на животных тоже.",shape=box,color=red];
-		j131212922 -> j2662247993;
-	j2252934148 [label="И я не думаю, что животным это так важно, как людям. То есть, я не думаю, что это их беспокоит.",shape=box,color=red];
-		j2252934148 -> j2662247993;
-	j2662247993 [label="SÍ 
+		1881 -> 1882;
+		1881 -> 1883;
+	1882 [label="Хм. Да. Я об этом не думал. Петля распространяется и на животных тоже.",shape=box,color=red];
+		1882 -> 1884;
+	1883 [label="И я не думаю, что животным это так важно, как людям. То есть, я не думаю, что это их беспокоит.",shape=box,color=red];
+		1883 -> 1884;
+	1884 [label="SÍ 
 Это значит, что я всегда снова возвращаюсь к обучению Anita не есть то, что нельзя jajaja 
 И Tláloc никогда не перестанет кусаться",shape=box,color=blue];
-		j2662247993 -> j194614344;
-	j194614344 [label="Но это значит, что если я потеряю их 
+		1884 -> 1885;
+	1885 [label="Но это значит, что если я потеряю их 
 Они вскоре вернутся 
 Приятно знать, что я всегда буду не одна",shape=box,color=blue];
-		j194614344 -> j1319721791;
-	j1319721791 [label="Check boolean LettieRats2",color=orange];
-		j1319721791 -> j1398526246 [label=true,color=green];
-		j1319721791 -> j2225367557 [label=true,color=green];
-		j1319721791 -> j3621962970 [label=false,color=brown];
-	j1398526246 [label="Эм. Больно?",shape=box,color=red];
-		j1398526246 -> j2333592907;
-	j2225367557 [label="У меня уже имелись подозрения, что ты предпочитаешь животных людям, но, думаю, это подтверждает мои догадки.",shape=box,color=red];
-		j2225367557 -> j1227781036;
-	j3621962970 [label="Я предполагаю, Anita и Tláloc— это имена двух твоих крыс?",shape=box,color=red];
-		j3621962970 -> j4068410164;
-	j2333592907 [label="¡JAJA! 
+		1885 -> 1886;
+	1886 [label="Check boolean LettieRats2",color=orange];
+		1886 -> 1887 [label=true,color=green];
+		1886 -> 1889 [label=true,color=green];
+		1886 -> 1890 [label=false,color=brown];
+	1887 [label="Эм. Больно?",shape=box,color=red];
+		1887 -> 1888;
+	1889 [label="У меня уже имелись подозрения, что ты предпочитаешь животных людям, но, думаю, это подтверждает мои догадки.",shape=box,color=red];
+		1889 -> 1891;
+	1890 [label="Я предполагаю, Anita и Tláloc— это имена двух твоих крыс?",shape=box,color=red];
+		1890 -> 1893;
+	1888 [label="¡JAJA! 
 Lo siento, lo siento 
 Просто... 
 Люди никогда не были постоянной частью моей жизни 
 А животные были",shape=box,color=blue];
-		j2333592907 -> j1200088022;
-	j1227781036 [label="SÍ, я полагаю 
+		1888 -> 1894;
+	1891 [label="SÍ, я полагаю 
 Люди никогда не были постоянной частью моей жизни 
 А животные были",shape=box,color=blue];
-		j1227781036 -> j2507608775;
-		j1227781036 -> j2212442855;
-	j4068410164 [label="Boolean LettieRats2 is now true.",color=orange];
-		j4068410164 -> j4000843204;
-	j1200088022 [label="+5 Chemistry",color=orange];
-		j1200088022 -> j2507608775;
-		j1200088022 -> j2212442855;
-	j2507608775 [label="Да, думаю, я наконец начинаю понимать тебя.",shape=box,color=red];
-		j2507608775 -> j3345599287;
-	j2212442855 [label="Почему ты так думаешь?",shape=box,color=red];
-		j2212442855 -> j259669502;
-	j4000843204 [label="Мм? 
+		1891 -> 1897;
+		1891 -> 1898;
+	1893 [label="Update boolean LettieRats2",color=orange];
+		1893 -> 1892;
+	1894 [label="+5 Chemistry",color=orange];
+		1894 -> 1897;
+		1894 -> 1898;
+	1897 [label="Да, думаю, я наконец начинаю понимать тебя.",shape=box,color=red];
+		1897 -> 1899;
+	1898 [label="Почему ты так думаешь?",shape=box,color=red];
+		1898 -> 1900;
+	1892 [label="Мм? 
 Разве я ещё не рассказывала тебе? 
 ¡Lo siento! Si 
 Vaquero, Anita, Neenah, и Tláloc",shape=box,color=blue];
-		j4000843204 -> j506411580;
-	j3345599287 [label="¿Ay, sÍ? 
+		1892 -> 1895;
+	1899 [label="¿Ay, sÍ? 
 Ну давай 
 Расскажи, почему я предпочитаю животных людям 
 Puedes hacer el papel de mi terapeuta",shape=box,color=blue];
-		j3345599287 -> j2851763892;
-	j259669502 [label="Моя голова для меня не загадка 
+		1899 -> 1901;
+	1900 [label="Моя голова для меня не загадка 
 Я знаю, почему, jaja 
 А ты знаешь?",shape=box,color=blue];
-		j259669502 -> j2851763892;
-	j506411580 [label="У меня были домашние крысы с тех пор, как я была una niña 
+		1900 -> 1901;
+	1895 [label="У меня были домашние крысы с тех пор, как я была una niña 
 Они были постоянной частью моей жизни 
 Больше, чем люди",shape=box,color=blue];
-		j506411580 -> j1200088022;
-	j2851763892 [label="Check boolean LettieTrust1",color=orange];
-		j2851763892 -> j2924756852 [label=true,color=green];
-		j2851763892 -> j3459923539 [label=false,color=brown];
-		j2851763892 -> j3713059693 [label=false,color=brown];
-	j2924756852 [label="Check boolean LettieEntratiFamily",color=orange];
-		j2924756852 -> j387017893 [label=true,color=green];
-		j2924756852 -> j4267954037 [label=true,color=green];
-		j2924756852 -> j4160521335 [label=true,color=green];
-		j2924756852 -> j3713059693 [label=true,color=green];
-		j2924756852 -> j3459923539 [label=true,color=green];
-		j2924756852 -> j3276047934 [label=false,color=brown];
-	j3459923539 [label="Знаешь, для кого-то, кто так много шутит над Амиром, ты сама любишь играть в игры.",shape=box,color=red];
-		j3459923539 -> j1917080916;
-	j3713059693 [label="Если это тест, то для меня это полная неожиданность..",shape=box,color=red];
-		j3713059693 -> j3968994455;
-	j387017893 [label="Я думаю, у тебя был тяжёлый период, когда каждый раз, когда ты кому-то доверяла, это доверие предавали. Никакой большой трагедии, никакой серьёзной травмы. Просто череда неудач.",shape=box,color=red];
-		j387017893 -> j806835988;
-	j4267954037 [label="Ты боишься быть оставленной, как Энтрати оставил свою семью. Поэтому ты заводишь питомцев — они не могут тебя покинуть.",shape=box,color=red];
-		j4267954037 -> j2922540263;
-	j4160521335 [label="Любить питомца легче, чем любить человека. Им нужно только, чтобы о них заботились. Эти отношения просты — чистые, без лишней сложности, как с людьми.",shape=box,color=red];
-		j4160521335 -> j2675323990;
-	j3276047934 [label="Check boolean LettieReligion2",color=orange];
-		j3276047934 -> j387017893 [label=true,color=green];
-		j3276047934 -> j2326221649 [label=true,color=green];
-		j3276047934 -> j4160521335 [label=true,color=green];
-		j3276047934 -> j3713059693 [label=true,color=green];
-		j3276047934 -> j3459923539 [label=true,color=green];
-		j3276047934 -> j3543748376 [label=false,color=brown];
-	j1917080916 [label="Если ты думаешь, что это те игры, в которые я люблю играть 
+		1895 -> 1896;
+	1901 [label="Check boolean LettieTrust1",color=orange];
+		1901 -> 1902 [label=true,color=green];
+		1901 -> 1910 [label=false,color=brown];
+		1901 -> 1909 [label=false,color=brown];
+	1896 [label="+5 Chemistry",color=orange];
+		1896 -> 1897;
+		1896 -> 1898;
+	1902 [label="Check boolean LettieEntratiFamily",color=orange];
+		1902 -> 1903 [label=true,color=green];
+		1902 -> 1904 [label=true,color=green];
+		1902 -> 1908 [label=true,color=green];
+		1902 -> 1909 [label=true,color=green];
+		1902 -> 1910 [label=true,color=green];
+		1902 -> 1911 [label=false,color=brown];
+	1910 [label="Знаешь, для кого-то, кто так много шутит над Амиром, ты сама любишь играть в игры.",shape=box,color=red];
+		1910 -> 1919;
+	1909 [label="Если это тест, то для меня это полная неожиданность..",shape=box,color=red];
+		1909 -> 1926;
+	1903 [label="Я думаю, у тебя был тяжёлый период, когда каждый раз, когда ты кому-то доверяла, это доверие предавали. Никакой большой трагедии, никакой серьёзной травмы. Просто череда неудач.",shape=box,color=red];
+		1903 -> 1920;
+	1904 [label="Ты боишься быть оставленной, как Энтрати оставил свою семью. Поэтому ты заводишь питомцев — они не могут тебя покинуть.",shape=box,color=red];
+		1904 -> 1914;
+	1908 [label="Любить питомца легче, чем любить человека. Им нужно только, чтобы о них заботились. Эти отношения просты — чистые, без лишней сложности, как с людьми.",shape=box,color=red];
+		1908 -> 1922;
+	1911 [label="Check boolean LettieReligion2",color=orange];
+		1911 -> 1903 [label=true,color=green];
+		1911 -> 1905 [label=true,color=green];
+		1911 -> 1908 [label=true,color=green];
+		1911 -> 1909 [label=true,color=green];
+		1911 -> 1910 [label=true,color=green];
+		1911 -> 1912 [label=false,color=brown];
+	1919 [label="Если ты думаешь, что это те игры, в которые я люблю играть 
 То ты меня совсем не знаешь",shape=box,color=blue];
-		j1917080916 -> j623227052;
-	j3968994455 [label="+10 Chemistry",color=orange];
-		j3968994455 -> j3651705928;
-	j806835988 [label="+10 Chemistry",color=orange];
-		j806835988 -> j3497118460;
-	j2922540263 [label="Моя семья никогда не покидала меня 
+		1919 -> 1924;
+	1926 [label="+10 Chemistry",color=orange];
+		1926 -> 1918;
+	1920 [label="+10 Chemistry",color=orange];
+		1920 -> 1907;
+	1914 [label="Моя семья никогда не покидала меня 
 Я покинула их, чтобы пойти в армию, а потом в МСР 
 Нет, иногда я просто хочу простой любви в своей жизни 
 От кого-то, кто не предаст моего доверия и не солжёт",shape=box,color=blue];
-		j2922540263 -> j2088479096;
-	j2675323990 [label="+5 Chemistry",color=orange];
-		j2675323990 -> j2434313785;
-	j2326221649 [label="Ты потеряла многих людей в своей жизни из-за La Flaca. Людей, о которых ты заботилась. Питомцы умирают, но это более ожидаемо — как-то легче? Так что ты справляешься с этим лучше.",shape=box,color=red];
-		j2326221649 -> j30267674;
-	j3543748376 [label="Check boolean LettieLoid",color=orange];
-		j3543748376 -> j387017893 [label=true,color=green];
-		j3543748376 -> j1398690616 [label=true,color=green];
-		j3543748376 -> j4160521335 [label=true,color=green];
-		j3543748376 -> j3713059693 [label=true,color=green];
-		j3543748376 -> j3459923539 [label=true,color=green];
-		j3543748376 -> j387017893 [label=false,color=brown];
-		j3543748376 -> j4160521335 [label=false,color=brown];
-		j3543748376 -> j3713059693 [label=false,color=brown];
-		j3543748376 -> j3459923539 [label=false,color=brown];
-	j623227052 [label="Check boolean LettieDating",color=orange];
-		j623227052 -> j3417952403 [label=true,color=green];
-		j623227052 -> j1663250087 [label=false,color=brown];
-	j3651705928 [label="JAJA 
+		1914 -> 1939;
+	1922 [label="+5 Chemistry",color=orange];
+		1922 -> 1917;
+	1905 [label="Ты потеряла многих людей в своей жизни из-за La Flaca. Людей, о которых ты заботилась. Питомцы умирают, но это более ожидаемо — как-то легче? Так что ты справляешься с этим лучше.",shape=box,color=red];
+		1905 -> 1915;
+	1912 [label="Check boolean LettieLoid",color=orange];
+		1912 -> 1903 [label=true,color=green];
+		1912 -> 1906 [label=true,color=green];
+		1912 -> 1908 [label=true,color=green];
+		1912 -> 1909 [label=true,color=green];
+		1912 -> 1910 [label=true,color=green];
+		1912 -> 1903 [label=false,color=brown];
+		1912 -> 1908 [label=false,color=brown];
+		1912 -> 1909 [label=false,color=brown];
+		1912 -> 1910 [label=false,color=brown];
+	1924 [label="Check boolean LettieDating",color=orange];
+		1924 -> 1927 [label=true,color=green];
+		1924 -> 1928 [label=false,color=brown];
+	1918 [label="JAJA 
 Прости, не удержалась.
 Я редко сближаюсь с людьми, захотела узнать, что ты думаешь 
 Хотя это прозвучало немного стервозно, jajaa",shape=box,color=blue];
-		j3651705928 -> j431568333;
-	j3497118460 [label="Чёрт, неужели я настолько предсказуема? 
+		1918 -> 1923;
+	1907 [label="Чёрт, неужели я настолько предсказуема? 
  Я-то думала, что являюсь большой загадкой jajaja 
  Sí... во многом правда твоя
  Но, как и в жизни, это целый клубок причин",shape=box,color=blue];
-		j3497118460 -> j2088479096;
-	j2088479096 [label="Ничего плохого в том, чтобы хотеть прийти домой после долгого дня и быть встреченной существами, которые хотят только ласки, угощений и любви",shape=box,color=blue];
-		j2088479096 -> j1422503800;
-	j2434313785 [label="Ay sí 
+		1907 -> 1939;
+	1939 [label="Ничего плохого в том, чтобы хотеть прийти домой после долгого дня и быть встреченной существами, которые хотят только ласки, угощений и любви",shape=box,color=blue];
+		1939 -> 1940;
+	1917 [label="Ay sí 
 Tú me entiendes 
 Иногда я просто хочу простой любви в своей жизни 
 От кого-то, кто не предаст моего доверия и не солжёт",shape=box,color=blue];
-		j2434313785 -> j2088479096;
-	j30267674 [label="Ты явно никогда не теряла питомца, babas 
+		1917 -> 1939;
+	1915 [label="Ты явно никогда не теряла питомца, babas 
 Потерять их — это как потерять часть своей души 
 Нет, иногда я просто хочу простой любви в своей жизни 
 От кого-то, кто не предаст моего доверия и не солжёт",shape=box,color=blue];
-		j30267674 -> j2088479096;
-	j1398690616 [label="Ты любила кого-то, кто предал твоё доверие и бросил тебя, как Энтрати сделал с Лойд. А питомцы никогда так не поступят.",shape=box,color=red];
-		j1398690616 -> j1516458461;
-	j3417952403 [label="Ну, тогда ты плохо меня учила... ;)",shape=box,color=red];
-		j3417952403 -> j1160131825;
-	j1663250087 [label="Check boolean LettieNoFlirt",color=orange];
-		j1663250087 -> j3663919677 [label=true,color=green];
-		j1663250087 -> j1689650147 [label=true,color=green];
-		j1663250087 -> j1689650147 [label=false,color=brown];
-		j1663250087 -> j2430248862 [label=false,color=brown];
-	j431568333 [label="Boolean LettieTrust1 is now true.",color=orange];
-		j431568333 -> j2216186784;
-	j1422503800 [label="Check boolean LettieDating",color=orange];
-		j1422503800 -> j3114400118 [label=true,color=green];
-		j1422503800 -> j3972553000 [label=true,color=green];
-		j1422503800 -> j3208700982 [label=false,color=brown];
-	j1516458461 [label="JAJAJA я бы хотела 
+		1915 -> 1939;
+	1906 [label="Ты любила кого-то, кто предал твоё доверие и бросил тебя, как Энтрати сделал с Лойд. А питомцы никогда так не поступят.",shape=box,color=red];
+		1906 -> 1916;
+	1927 [label="Ну, тогда ты плохо меня учила... ;)",shape=box,color=red];
+		1927 -> 1937;
+	1928 [label="Check boolean LettieNoFlirt",color=orange];
+		1928 -> 1931 [label=true,color=green];
+		1928 -> 1932 [label=true,color=green];
+		1928 -> 1932 [label=false,color=brown];
+		1928 -> 1933 [label=false,color=brown];
+	1923 [label="Update boolean LettieTrust1",color=orange];
+		1923 -> 1929;
+	1940 [label="Check boolean LettieDating",color=orange];
+		1940 -> 1941 [label=true,color=green];
+		1940 -> 1942 [label=true,color=green];
+		1940 -> 1943 [label=false,color=brown];
+	1916 [label="JAJAJA я бы хотела 
 Alguna tragedia de amantes condenados 
 Что-то, о чём можно написать пьесу 
 Нет, иногда я просто хочу простой любви в своей жизни 
 От кого-то, кто не предаст моего доверия и не солжёт",shape=box,color=blue];
-		j1516458461 -> j269016659;
-	j1160131825 [label="+15 Chemistry",color=orange];
-		j1160131825 -> j3339925869;
-	j3663919677 [label="Я знаю тебя достаточно хорошо. Я просто не хочу играть.",shape=box,color=red];
-		j3663919677 -> j556154860;
-	j1689650147 [label="Да, я не люблю психологические игры. Веселись со своими крысами.",shape=box,color=red];
-		j1689650147 -> j556154860;
-	j2430248862 [label="Ну, тогда ты плохо меня учила... ;)",shape=box,color=red];
-		j2430248862 -> j4275642859;
-	j2216186784 [label="Нет, я завожу питомцев, потому что они — чистая любовь
+		1916 -> 1921;
+	1937 [label="+15 Chemistry",color=orange];
+		1937 -> 1930;
+	1931 [label="Я знаю тебя достаточно хорошо. Я просто не хочу играть.",shape=box,color=red];
+		1931 -> 1934;
+	1932 [label="Да, я не люблю психологические игры. Веселись со своими крысами.",shape=box,color=red];
+		1932 -> 1934;
+	1933 [label="Ну, тогда ты плохо меня учила... ;)",shape=box,color=red];
+		1933 -> 1958;
+	1929 [label="Нет, я завожу питомцев, потому что они — чистая любовь
 Чистая привязанность
 Никакой сложности, никакой запутанности
 Никакой лжи, предательства, секретов",shape=box,color=blue];
-		j2216186784 -> j2088479096;
-	j3114400118 [label="Я имею в виду, я точно не отказался бы от ласки, угощений и любви...",shape=box,color=red];
-		j3114400118 -> j2181964335;
-	j3972553000 [label="Извини, если мешаю твоему стилю.",shape=box,color=red];
-		j3972553000 -> j1901381429;
-	j3208700982 [label="И знать, что когда ты их любишь, они будут любить тебя в ответ, несмотря ни на что 
+		1929 -> 1939;
+	1941 [label="Я имею в виду, я точно не отказался бы от ласки, угощений и любви...",shape=box,color=red];
+		1941 -> 1944;
+	1942 [label="Извини, если мешаю твоему стилю.",shape=box,color=red];
+		1942 -> 1945;
+	1943 [label="И знать, что когда ты их любишь, они будут любить тебя в ответ, несмотря ни на что 
 Не нужно волноваться, что они причинят тебе боль или что ты недостаточно хороша 
 Или что ты слишком устала и измотана, чтобы разбираться с их делами",shape=box,color=blue];
-		j3208700982 -> j1860501283;
-	j269016659 [label="Не было какого-то большого момента 
+		1943 -> 1946;
+	1921 [label="Не было какого-то большого момента 
 Нет имени, которое я могу ненавидеть 
 Просто много маленьких моментов, связанных вместе 
 Как чётки для молитв на Lua 
 Один за другим они образуют нить, ¿no?",shape=box,color=blue];
-		j269016659 -> j2020494547;
-	j3339925869 [label="Ay sí
+		1921 -> 1925;
+	1930 [label="Ay sí
 Очевидно, что так
 И мне нужно исправить эту ошибку",shape=box,color=blue];
-		j3339925869 -> j2336940701;
-	j556154860 [label="Ay equis",shape=box,color=blue];
-		j556154860 -> "Chat ends.";
-	j4275642859 [label="JAJAAA я тоже 
+		1930 -> 1935;
+	1934 [label="Ay equis",shape=box,color=blue];
+		1934 -> 1936;
+	1958 [label="JAJAAA я тоже 
 Cuidadito, а то подумаю, что ты зовёшь меня провести ночь с тобой",shape=box,color=blue];
-		j4275642859 -> j249200213;
-	j2181964335 [label="JAJAJA 
+		1958 -> 1971;
+	1944 [label="JAJAJA 
 Ay, solecito, ты заставляешь меня улыбаться 
 Но если хочешь угощений, будь хорошим, ¿Sí?",shape=box,color=blue];
-		j2181964335 -> j2388409387;
-		j2181964335 -> j2573486778;
-	j1901381429 [label="Ay, baaaabas 
+		1944 -> 1947;
+		1944 -> 1948;
+	1945 [label="Ay, baaaabas 
 Не всё в этом мире вертится вокруг тебя 
 Когда мой день длинный, а я устала и вымотана я не хочу разбираться с твоей чушью 
 Вот именно поэтому я предпочитаю своих panquecitos",shape=box,color=blue];
-		j1901381429 -> j22626282;
-		j1901381429 -> j3140659473;
-	j1860501283 [label="Check boolean LettieNoFlirt",color=orange];
-		j1860501283 -> j2282989950 [label=true,color=green];
-		j1860501283 -> j979145995 [label=true,color=green];
-		j1860501283 -> j2282989950 [label=false,color=brown];
-		j1860501283 -> j979145995 [label=false,color=brown];
-		j1860501283 -> j149952609 [label=false,color=brown];
-	j2020494547 [label="Так что мои крысы — это просто... чистая любовь 
+		1945 -> 1949;
+		1945 -> 1950;
+	1946 [label="Check boolean LettieNoFlirt",color=orange];
+		1946 -> 1952 [label=true,color=green];
+		1946 -> 1953 [label=true,color=green];
+		1946 -> 1952 [label=false,color=brown];
+		1946 -> 1953 [label=false,color=brown];
+		1946 -> 1954 [label=false,color=brown];
+	1925 [label="Так что мои крысы — это просто... чистая любовь 
 Чистая привязанность 
 Никакой сложности, никакой запутанности 
 Никакой лжи, предательства, секретов",shape=box,color=blue];
-		j2020494547 -> j2088479096;
-	j2336940701 [label="Мне нужно вернуться к работе
+		1925 -> 1939;
+	1935 [label="Мне нужно вернуться к работе
 Но теперь у меня есть кое-что, чего я с нетерпением жду",shape=box,color=blue];
-		j2336940701 -> "Chat ends.";
-	j249200213 [label="Check boolean IsDating",color=orange];
-		j249200213 -> j446104042 [label=true,color=green];
-		j249200213 -> j3634973042 [label=false,color=brown];
-	j2388409387 [label="Да, мадам. ;)",shape=box,color=red];
-		j2388409387 -> j4072135252;
-	j2573486778 [label="Или... что, если я *не* захочу вести себя хорошо?",shape=box,color=red];
-		j2573486778 -> j4240929454;
-	j22626282 [label="Мысль о том, что тебе придётся «разбираться с моей чушью», не должна утомлять тебя ещё больше, мы же встречаемся.",shape=box,color=red];
-		j22626282 -> j2710694590;
-	j3140659473 [label="Тогда я оставлю тебя наедине с существами, которых ты действительно ценишь.",shape=box,color=red];
-		j3140659473 -> j960573495;
-	j2282989950 [label="Да, последнее, что мне нужно, когда я возвращаюсь домой после долгого дня, — это выслушивать, как я опять кого-то подвёл.",shape=box,color=red];
-		j2282989950 -> j356089657;
-	j979145995 [label="Я прекрасно знаю, каково это, поэтому люблю своих питомцев.",shape=box,color=red];
-		j979145995 -> j356089657;
-	j149952609 [label="Я имею в виду, я точно не отказался бы от ласки, угощений и любви... ;)",shape=box,color=red];
-		j149952609 -> j4275642859;
-	j446104042 [label="А я интересуюсь всякими странными вещами 
+		1935 -> 1938;
+	1936 [label="Chat ends.",color=orange];
+	1971 [label="Check boolean IsDating",color=orange];
+		1971 -> 1972 [label=true,color=green];
+		1971 -> 1973 [label=false,color=brown];
+	1947 [label="Да, мадам. ;)",shape=box,color=red];
+		1947 -> 1960;
+	1948 [label="Или... что, если я *не* захочу вести себя хорошо?",shape=box,color=red];
+		1948 -> 1951;
+	1949 [label="Мысль о том, что тебе придётся «разбираться с моей чушью», не должна утомлять тебя ещё больше, мы же встречаемся.",shape=box,color=red];
+		1949 -> 1955;
+	1950 [label="Тогда я оставлю тебя наедине с существами, которых ты действительно ценишь.",shape=box,color=red];
+		1950 -> 1956;
+	1952 [label="Да, последнее, что мне нужно, когда я возвращаюсь домой после долгого дня, — это выслушивать, как я опять кого-то подвёл.",shape=box,color=red];
+		1952 -> 1957;
+	1953 [label="Я прекрасно знаю, каково это, поэтому люблю своих питомцев.",shape=box,color=red];
+		1953 -> 1957;
+	1954 [label="Я имею в виду, я точно не отказался бы от ласки, угощений и любви... ;)",shape=box,color=red];
+		1954 -> 1958;
+	1938 [label="Chat ends.",color=orange];
+	1972 [label="А я интересуюсь всякими странными вещами 
 Но вот свинг — это не моё, lo siento",shape=box,color=blue];
-		j446104042 -> j1705268108;
-		j446104042 -> j3010482892;
-	j3634973042 [label="Check boolean LettieConfession",color=orange];
-		j3634973042 -> j966405348 [label=true,color=green];
-		j3634973042 -> j2103609516 [label=true,color=green];
-		j3634973042 -> j621295664 [label=false,color=brown];
-		j3634973042 -> j2103609516 [label=false,color=brown];
-	j4072135252 [label="+5 Chemistry",color=orange];
-		j4072135252 -> j2077577707;
-	j4240929454 [label="Jajaja, cuidadito 
+		1972 -> 2442;
+		1972 -> 2446;
+	1973 [label="Check boolean LettieConfession",color=orange];
+		1973 -> 1974 [label=true,color=green];
+		1973 -> 1976 [label=true,color=green];
+		1973 -> 1975 [label=false,color=brown];
+		1973 -> 1976 [label=false,color=brown];
+	1960 [label="+5 Chemistry",color=orange];
+		1960 -> 1959;
+	1951 [label="Jajaja, cuidadito 
 Ты играешь с огнём 
 Но, думаю, ты это уже знаешь",shape=box,color=blue];
-		j4240929454 -> j4072135252;
-	j2710694590 [label="Если ты не понимаешь 
+		1951 -> 1960;
+	1955 [label="Если ты не понимаешь 
 Как быть с кем-то может быть обременительно, независимо от того, насколько ты заботишься о нём 
 Твоя инфантильность помешает тебе быть со мной 
 Иди поиграй с Амиром или Аои 
 Esto fue un error",shape=box,color=blue];
-		j2710694590 -> j2548450594;
-	j960573495 [label="Sí, пожалуйста, так и сделай 
+		1955 -> 1962;
+	1956 [label="Sí, пожалуйста, так и сделай 
 И пока ты этим занимаешься 
 Можешь не возвращаться, babas 
 Esto fue un error",shape=box,color=blue];
-		j960573495 -> j2548450594;
-	j356089657 [label="Boolean LettieLonely is now true.",color=orange];
-		j356089657 -> j2762724309;
-	j1705268108 [label="Ой, прости, это была шутка. ха-ха",shape=box,color=red];
-		j1705268108 -> j4197672047;
-	j3010482892 [label="Чёрт. Ну, прощайся с этой фантазией.",shape=box,color=red];
-		j3010482892 -> j3641996300;
-	j966405348 [label="Я имею в виду... ты знаешь, что я чувствую.",shape=box,color=red];
-		j966405348 -> j3913475475;
-	j2103609516 [label="Ой, прости, это была шутка. ха-ха",shape=box,color=red];
-		j2103609516 -> j1999996595;
-	j621295664 [label="Что если... я хочу, чтобы это было больше, чем одна ночь? [Сделать признание]",shape=box,color=red];
-		j621295664 -> j3967585037;
-	j2077577707 [label="Мне нужно вернуться к работе 
+		1956 -> 1962;
+	1957 [label="Update boolean LettieLonely",color=orange];
+		1957 -> 1968;
+	2442 [label="Ой, прости, это была шутка. ха-ха",shape=box,color=red];
+		2442 -> 2444;
+	2446 [label="Чёрт. Ну, прощайся с этой фантазией.",shape=box,color=red];
+		2446 -> 2447;
+	1974 [label="Я имею в виду... ты знаешь, что я чувствую.",shape=box,color=red];
+		1974 -> 1977;
+	1976 [label="Ой, прости, это была шутка. ха-ха",shape=box,color=red];
+		1976 -> 1980;
+	1975 [label="Что если... я хочу, чтобы это было больше, чем одна ночь? [Сделать признание]",shape=box,color=red];
+		1975 -> 1978;
+	1959 [label="Мне нужно вернуться к работе 
  Но теперь у меня есть кое-что, чего я с нетерпением жду
  Gracias, solecito",shape=box,color=blue];
-		j2077577707 -> "Chat ends.";
-	j2548450594 [label="Boolean LettieDating is now false.",color=orange];
-		j2548450594 -> j4086907321;
-	j2762724309 [label="+5 Chemistry",color=orange];
-		j2762724309 -> j1071182819;
-	j4197672047 [label="+5 Chemistry",color=orange];
-		j4197672047 -> j2382822690;
-	j3641996300 [label="Sí 
+		1959 -> 1961;
+	1962 [label="Update boolean LettieDating",color=orange];
+		1962 -> 1963;
+	1968 [label="+5 Chemistry",color=orange];
+		1968 -> 1966;
+	2444 [label="+5 Chemistry",color=orange];
+		2444 -> 2443;
+	2447 [label="Sí 
 Извини, что разочаровала",shape=box,color=blue];
-		j3641996300 -> "Chat ends.";
-	j3913475475 [label="Check boolean LettieWillDate",color=orange];
-		j3913475475 -> j1872267967 [label=true,color=green];
-		j3913475475 -> j3575091671 [label=false,color=brown];
-	j1999996595 [label="+5 Chemistry",color=orange];
-		j1999996595 -> j122512647;
-	j3967585037 [label="¿Qué? 
+		2447 -> 2448;
+	1977 [label="Check boolean LettieWillDate",color=orange];
+		1977 -> 1984 [label=true,color=green];
+		1977 -> 1983 [label=false,color=brown];
+	1980 [label="+5 Chemistry",color=orange];
+		1980 -> 1979;
+	1978 [label="¿Qué? 
 ¿En serio?",shape=box,color=blue];
-		j3967585037 -> j3723360501;
-	j4086907321 [label="Boolean IsDating is now false.",color=orange];
-		j4086907321 -> j2703113057;
-	j1071182819 [label="Ay sí 
+		1978 -> 1982;
+	1961 [label="Chat ends.",color=orange];
+	1963 [label="Update boolean IsDating",color=orange];
+		1963 -> 1964;
+	1966 [label="Ay sí 
 Ты прав 
 Но это делает жизнь немного одинокой
 Как бы сильно я их не любила, они всё-таки не заменяют людей",shape=box,color=blue];
-		j1071182819 -> j3211743483;
-	j2382822690 [label="Jajaja ay sí 
+		1966 -> 1967;
+	2443 [label="Jajaja ay sí 
 Трудно понять сарказм 
 Пора возвращаться к работе",shape=box,color=blue];
-		j2382822690 -> "Chat ends.";
-	j1872267967 [label="Sí я хочу 
+		2443 -> 2445;
+	2448 [label="Chat ends.",color=orange];
+	1984 [label="Sí я хочу 
 Ayy... это будет ошибкой... pero... 
 Нельзя жаловаться на одиночество, а потом отворачиваться от тебя 
 Хочешь попробовать?",shape=box,color=blue];
-		j1872267967 -> j764244339;
-		j1872267967 -> j812412339;
-	j3575091671 [label="Check boolean LettieNoDate",color=orange];
-		j3575091671 -> j1437277363 [label=true,color=green];
-		j3575091671 -> j1872267967 [label=false,color=brown];
-	j122512647 [label="Jajaja ay sí 
+		1984 -> 1990;
+		1984 -> 1991;
+	1983 [label="Check boolean LettieNoDate",color=orange];
+		1983 -> 1985 [label=true,color=green];
+		1983 -> 1984 [label=false,color=brown];
+	1979 [label="Jajaja ay sí 
 Сложно понять сарказм 
 Возвращаюсь к работе",shape=box,color=blue];
-		j122512647 -> "Chat ends.";
-	j3723360501 [label="Прежде чем ты скажешь что-то про мою тупость или что угодно ещё — или что я не смогу справиться с тобой, просто подожди и дай мне высказаться.",shape=box,color=red];
-		j3723360501 -> j1118785461;
-		j3723360501 -> j3606480455;
-		j3723360501 -> j2144721022;
-	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
-		j2703113057 -> "Chat ends.";
-	j3211743483 [label="Но я думаю, что у меня всегда будет этот хаос под ногами 
+		1979 -> 1981;
+	1982 [label="Прежде чем ты скажешь что-то про мою тупость или что угодно ещё — или что я не смогу справиться с тобой, просто подожди и дай мне высказаться.",shape=box,color=red];
+		1982 -> 1989;
+		1982 -> 1988;
+		1982 -> 1987;
+	1964 [label="Update boolean LettieNoDate",color=orange];
+		1964 -> 1965;
+	1967 [label="Но я думаю, что у меня всегда будет этот хаос под ногами 
 Хочу я этого или нет, jajaja 
 Aayyy пора работать 
 До встречи, приятель",shape=box,color=blue];
-		j3211743483 -> j2129367046;
-	j764244339 [label="Давай рискнём. Да. :) [Встречаться с Лэтти]",shape=box,color=red];
-		j764244339 -> j1262109112;
-	j812412339 [label="Извини, теперь я так не думаю. [Не встречаться с Лэтти]",shape=box,color=red];
-		j812412339 -> j918735385;
-	j1437277363 [label="Ay sí 
+		1967 -> 1969;
+	2445 [label="Chat ends.",color=orange];
+	1990 [label="Давай рискнём. Да. :) [Встречаться с Лэтти]",shape=box,color=red];
+		1990 -> 1995;
+	1991 [label="Извини, теперь я так не думаю. [Не встречаться с Лэтти]",shape=box,color=red];
+		1991 -> 1992;
+	1985 [label="Ay sí 
 И ты знаешь, что ты сказал 
 Может, когда-нибудь я перестану злиться 
 Pero не сегодня",shape=box,color=blue];
-		j1437277363 -> "Chat ends.";
-	j1118785461 [label="Ты невероятно красива. Ты невероятно умна. И ты можешь сломать меня пополам, если захочешь. Но это не единственная причина, почему ты стала так важна для меня.",shape=box,color=red];
-		j1118785461 -> j3061569880;
-		j1118785461 -> j4125001874;
-	j3606480455 [label="Глубоко под всеми слоями твоей брони скрывается один из самых добрых и сострадательных людей, которых мне когда-либо удалось встретить. Но это ещё не всё.",shape=box,color=red];
-		j3606480455 -> j3423424120;
-		j3606480455 -> j4125001874;
-	j2144721022 [label="Ты неостановима. Несокрушима. Непоколебима. Кажется, ничто не может тебя замедлить. Ты одна из самых сильных людей из всех что мне удалось увидеть. И...",shape=box,color=red];
-		j2144721022 -> j3423424120;
-		j2144721022 -> j3061569880;
-	j2129367046 [label="Boolean LettieWillDate is now true.",color=orange];
-		j2129367046 -> "Chat ends.";
-	j1262109112 [label="Boolean LettieWillDate is now true.",color=orange];
-		j1262109112 -> j1093654079;
-	j918735385 [label="Boolean LettieNoDate is now true.",color=orange];
-		j918735385 -> j1003419539;
-	j3061569880 [label="Ты одна из самых добрых и заботливых личностей, которых мне удалось повстречать. То, как ты заботишься о своих животных и идёшь на всё ради других, заставляет моё сердце таять.",shape=box,color=red];
-		j3061569880 -> j799599049;
-	j4125001874 [label="Ты сделана из стали. И я знаю, что что бы они ни бросили тебе — Энтрати, Человек в Стене, Виктор и Скальдра — это неважно. У них нет шансов.",shape=box,color=red];
-		j4125001874 -> j799599049;
-	j3423424120 [label="Давай остановимся на том, насколько ты чертовски красива и как ты могла бы сломать меня, как ветку, если бы захотела. ха-ха",shape=box,color=red];
-		j3423424120 -> j799599049;
-	j1093654079 [label="Boolean LettieDating is now true.",color=orange];
-		j1093654079 -> j4090165793;
-	j1003419539 [label="Encendido, apagado, encendido, apagado 
+		1985 -> 1986;
+	1981 [label="Chat ends.",color=orange];
+	1989 [label="Ты невероятно красива. Ты невероятно умна. И ты можешь сломать меня пополам, если захочешь. Но это не единственная причина, почему ты стала так важна для меня.",shape=box,color=red];
+		1989 -> 2009;
+		1989 -> 2013;
+	1988 [label="Глубоко под всеми слоями твоей брони скрывается один из самых добрых и сострадательных людей, которых мне когда-либо удалось встретить. Но это ещё не всё.",shape=box,color=red];
+		1988 -> 2010;
+		1988 -> 2013;
+	1987 [label="Ты неостановима. Несокрушима. Непоколебима. Кажется, ничто не может тебя замедлить. Ты одна из самых сильных людей из всех что мне удалось увидеть. И...",shape=box,color=red];
+		1987 -> 2010;
+		1987 -> 2009;
+	1965 [label="Chat ends.",color=orange];
+	1969 [label="Update boolean LettieWillDate",color=orange];
+		1969 -> 1970;
+	1995 [label="Update boolean LettieWillDate",color=orange];
+		1995 -> 1996;
+	1992 [label="Update boolean LettieNoDate",color=orange];
+		1992 -> 1993;
+	1986 [label="Chat ends.",color=orange];
+	2009 [label="Ты одна из самых добрых и заботливых личностей, которых мне удалось повстречать. То, как ты заботишься о своих животных и идёшь на всё ради других, заставляет моё сердце таять.",shape=box,color=red];
+		2009 -> 2012;
+	2013 [label="Ты сделана из стали. И я знаю, что что бы они ни бросили тебе — Энтрати, Человек в Стене, Виктор и Скальдра — это неважно. У них нет шансов.",shape=box,color=red];
+		2013 -> 2012;
+	2010 [label="Давай остановимся на том, насколько ты чертовски красива и как ты могла бы сломать меня, как ветку, если бы захотела. ха-ха",shape=box,color=red];
+		2010 -> 2012;
+	1970 [label="Chat ends.",color=orange];
+	1996 [label="Update boolean LettieDating",color=orange];
+		1996 -> 1997;
+	1993 [label="Encendido, apagado, encendido, apagado 
 Включить, выключить, включить, выключить
 Хватит, babas",shape=box,color=blue];
-		j1003419539 -> "Chat ends.";
-	j799599049 [label="Суть в том… я забочусь о тебе, Лэтти. Очень. И больше, чем просто как друг. Я понимаю, если это не взаимно, но…",shape=box,color=red];
-		j799599049 -> j1786434259;
-	j4090165793 [label="Boolean IsDating is now true.",color=orange];
-		j4090165793 -> j2777057878;
-	j1786434259 [label="Заткнись",shape=box,color=blue];
-		j1786434259 -> j3178856581;
-	j2777057878 [label="+5 Chemistry",color=orange];
-		j2777057878 -> j770411664;
-	j3178856581 [label="Aguántame tantito",shape=box,color=blue];
-		j3178856581 -> j2535800601;
-		j3178856581 -> j2095453736;
-	j770411664 [label="Jajaja ты не представляешь 
+		1993 -> 1994;
+	2012 [label="Суть в том… я забочусь о тебе, Лэтти. Очень. И больше, чем просто как друг. Я понимаю, если это не взаимно, но…",shape=box,color=red];
+		2012 -> 2011;
+	1997 [label="Update boolean IsDating",color=orange];
+		1997 -> 1999;
+	1994 [label="Chat ends.",color=orange];
+	2011 [label="Заткнись",shape=box,color=blue];
+		2011 -> 2008;
+	1999 [label="+5 Chemistry",color=orange];
+		1999 -> 1998;
+	2008 [label="Aguántame tantito",shape=box,color=blue];
+		2008 -> 2007;
+		2008 -> 2006;
+	1998 [label="Jajaja ты не представляешь 
 Мне нужно вернуться к работе 
 Но теперь у меня есть кое-что, чего я с нетерпением жду 
 Gracias, solecito",shape=box,color=blue];
-		j770411664 -> "Chat ends.";
-	j2535800601 [label="Прости, если я тебя огорчаю...",shape=box,color=red];
-		j2535800601 -> j1974747081;
-	j2095453736 [label="Я пойму, если ты не чувствуешь того же, всё в порядке.",shape=box,color=red];
-		j2095453736 -> j1974747081;
-	j1974747081 [label="¡Neta, ya cállate! 
+		1998 -> 2000;
+	2007 [label="Прости, если я тебя огорчаю...",shape=box,color=red];
+		2007 -> 2005;
+	2006 [label="Я пойму, если ты не чувствуешь того же, всё в порядке.",shape=box,color=red];
+		2006 -> 2005;
+	2000 [label="Chat ends.",color=orange];
+	2005 [label="¡Neta, ya cállate! 
 Мне нужно немного подумать 
 Чтобы перевести дух 
 Я не могу собраться, пока плачу",shape=box,color=blue];
-		j1974747081 -> j307699387;
-	j307699387 [label="+20 Chemistry",color=orange];
-		j307699387 -> j3021464223;
-	j3021464223 [label="Я не умею ПРИНИМАТЬ комплименты, solecito 
+		2005 -> 2001;
+	2001 [label="+20 Chemistry",color=orange];
+		2001 -> 2004;
+	2004 [label="Я не умею ПРИНИМАТЬ комплименты, solecito 
 Никогда не умела 
 Поговорим завтра, разберёмся со всем этим тогда 
 Lo siento",shape=box,color=blue];
-		j3021464223 -> j2564553015;
-	j2564553015 [label="Boolean LettieConfession is now true.",color=orange];
-		j2564553015 -> "Chat ends. Next chat will be LettieConfession.";
-	"Chat ends. Next chat will be LettieConfession." [color=orange];
+		2004 -> 2003;
+	2003 [label="Update boolean LettieConfession",color=orange];
+		2003 -> 2002;
+	2002 [label="Chat ends. Next chat will be LettieConfession.",color=orange];
 }

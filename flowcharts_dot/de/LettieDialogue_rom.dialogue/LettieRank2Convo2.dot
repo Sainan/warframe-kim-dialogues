@@ -1,102 +1,106 @@
 digraph {
-	"LettieRank2Convo2 begins." [color=orange];
-		"LettieRank2Convo2 begins." -> j3779285499;
-		"LettieRank2Convo2 begins." -> j1952648604;
-	j3779285499 [label="Wie heißen deine Hausratten?",shape=box,color=red];
-		j3779285499 -> j1257332982;
-	j1952648604 [label="Wie viele Hausratten hast du?",shape=box,color=red];
-		j1952648604 -> j1381547261;
-	j1257332982 [label="Mm?",shape=box,color=blue];
-		j1257332982 -> j52086590;
-	j1381547261 [label="Mm? 
+	306 [label="LettieRank2Convo2 begins.",color=orange];
+		306 -> 307;
+		306 -> 308;
+	307 [label="Wie heißen deine Hausratten?",shape=box,color=red];
+		307 -> 309;
+	308 [label="Wie viele Hausratten hast du?",shape=box,color=red];
+		308 -> 310;
+	309 [label="Mm?",shape=box,color=blue];
+		309 -> 311;
+	310 [label="Mm? 
 4",shape=box,color=blue];
-		j1381547261 -> j52086590;
-	j52086590 [label="Boolean LettieRats2 is now true.",color=orange];
-		j52086590 -> j2495083731;
-	j2495083731 [label="Vaquero, Anita, Neenah und Tláloc",shape=box,color=blue];
-		j2495083731 -> j118802633;
-		j2495083731 -> j3058313856;
-	j118802633 [label="Wonach hast du ihre Namen ausgewählt?",shape=box,color=red];
-		j118802633 -> j595499339;
-	j3058313856 [label="Du solltest eine nach mir benennen. :)",shape=box,color=red];
-		j3058313856 -> j3630498871;
-	j595499339 [label="Vaquero bedeutet Cowboy 
+		310 -> 311;
+	311 [label="Update boolean LettieRats2",color=orange];
+		311 -> 312;
+	312 [label="Vaquero, Anita, Neenah und Tláloc",shape=box,color=blue];
+		312 -> 313;
+		312 -> 314;
+	313 [label="Wonach hast du ihre Namen ausgewählt?",shape=box,color=red];
+		313 -> 315;
+	314 [label="Du solltest eine nach mir benennen. :)",shape=box,color=red];
+		314 -> 316;
+	315 [label="Vaquero bedeutet Cowboy 
 Anita ist eine Freundin zu Hause 
 Neenah war eine Freundin, die jetzt weg ist 
 Tláloc nach einem alten Gott des Regens",shape=box,color=blue];
-		j595499339 -> j2959666040;
-	j3630498871 [label="Heh 
+		315 -> 317;
+	316 [label="Heh 
 Eine Babas nennen
 Hoffentlich fängt sie nicht an, die Tapete abzulecken",shape=box,color=blue];
-		j3630498871 -> j2399113879;
-		j3630498871 -> j3756781849;
-	j2959666040 [label="Tláloc ist ein *Arsch* 
+		316 -> 318;
+		316 -> 319;
+	317 [label="Tláloc ist ein *Arsch* 
 Die Ratte, nicht der Gott, jaja 
 Ich brauche diese Art von schlechtem Mojo nicht",shape=box,color=blue];
-		j2959666040 -> j1079820295;
-		j2959666040 -> j2343010770;
-	j2399113879 [label="Was *bedeutet* Babas überhaupt?",shape=box,color=red];
-		j2399113879 -> j2127241914;
-	j3756781849 [label="Ha ha. Ich weiß, was das bedeutet, weißt du.",shape=box,color=red];
-		j3756781849 -> j3000290778;
-	j1079820295 [label="Ich habe noch nie von Tláloc gehört. Gab es ihn vor Lua und Sol? Vor dem Dualismus?",shape=box,color=red];
-		j1079820295 -> j2731021002;
-	j2343010770 [label="Warum ein Arsch? lol",shape=box,color=red];
-		j2343010770 -> j4070376889;
-	j2127241914 [label="Keine Sorge 
+		317 -> 322;
+		317 -> 323;
+	318 [label="Was *bedeutet* Babas überhaupt?",shape=box,color=red];
+		318 -> 324;
+	319 [label="Ha ha. Ich weiß, was das bedeutet, weißt du.",shape=box,color=red];
+		319 -> 320;
+	322 [label="Ich habe noch nie von Tláloc gehört. Gab es ihn vor Lua und Sol? Vor dem Dualismus?",shape=box,color=red];
+		322 -> 326;
+	323 [label="Warum ein Arsch? lol",shape=box,color=red];
+		323 -> 327;
+	324 [label="Keine Sorge 
 Es könnte schlimmer sein",shape=box,color=blue];
-		j2127241914 -> j4133367629;
-		j2127241914 -> j3905216899;
-	j3000290778 [label="Gut",shape=box,color=blue];
-		j3000290778 -> "Chat ends.";
-	j2731021002 [label="Boolean LettieReligion2 is now true.",color=orange];
-		j2731021002 -> j1138545568;
-	j4070376889 [label="Boolean LettieReligion2 is now true.",color=orange];
-		j4070376889 -> j4219316644;
-	j4133367629 [label="Okay ... ich vertraue dir.",shape=box,color=red];
-		j4133367629 -> j1542753201;
-	j3905216899 [label="Ich glaube dir nicht.",shape=box,color=red];
-		j3905216899 -> j1730212137;
-	"Chat ends." [color=orange];
-	j1138545568 [label="Sí, vor langer, langer Zeit verehrte mein Volk alte Götter, von denen einige ... blutrünstig waren",shape=box,color=blue];
-		j1138545568 -> j714161344;
-		j1138545568 -> j4088389257;
-	j4219316644 [label="Er beißt gerne 
+		324 -> 332;
+		324 -> 333;
+	320 [label="Gut",shape=box,color=blue];
+		320 -> 321;
+	326 [label="Update boolean LettieReligion2",color=orange];
+		326 -> 328;
+	327 [label="Update boolean LettieReligion2",color=orange];
+		327 -> 329;
+	332 [label="Okay ... ich vertraue dir.",shape=box,color=red];
+		332 -> 335;
+	333 [label="Ich glaube dir nicht.",shape=box,color=red];
+		333 -> 337;
+	321 [label="Chat ends.",color=orange];
+	328 [label="Sí, vor langer, langer Zeit verehrte mein Volk alte Götter, von denen einige ... blutrünstig waren",shape=box,color=blue];
+		328 -> 330;
+		328 -> 331;
+	329 [label="Er beißt gerne 
 Er ist wie die antiken Menschen und ihre Götter, von denen einige ... blutrünstig waren",shape=box,color=blue];
-		j4219316644 -> j4088389257;
-		j4219316644 -> j714161344;
-	j1542753201 [label="+20 Chemistry",color=orange];
-		j1542753201 -> j3748645904;
-	j1730212137 [label="Mir egal",shape=box,color=blue];
-		j1730212137 -> "Chat ends.";
-	j714161344 [label="Was meinst du mit \"blutrünstig\"?",shape=box,color=red];
-		j714161344 -> j1526853668;
-	j4088389257 [label="Klingt, ähm, angenehm.",shape=box,color=red];
-		j4088389257 -> j1526853668;
-	j3748645904 [label="Bueno",shape=box,color=blue];
-		j3748645904 -> "Chat ends.";
-	j1526853668 [label="Xipe Totec, der Gehäutete, der Gott der Wiedergeburt, der Landwirtschaft und des Krieges",shape=box,color=blue];
-		j1526853668 -> j3072848385;
-		j1526853668 -> j3618719463;
-	j3072848385 [label="Der Gehäutete ...?",shape=box,color=red];
-		j3072848385 -> j2961420815;
-	j3618719463 [label="Er klingt nicht SO schlecht ...",shape=box,color=red];
-		j3618719463 -> j2961420815;
-	j2961420815 [label="Bei den jährlichen Festen zu seinen Ehren wurden Kriegsgefangene gehäutet und Männer trugen die Haut wie ihre eigene und nahmen in seinem Namen Opfergaben von den Menschen in den Städten an
+		329 -> 331;
+		329 -> 330;
+	335 [label="+20 Chemistry",color=orange];
+		335 -> 334;
+	337 [label="Mir egal",shape=box,color=blue];
+		337 -> 338;
+	330 [label="Was meinst du mit \"blutrünstig\"?",shape=box,color=red];
+		330 -> 339;
+	331 [label="Klingt, ähm, angenehm.",shape=box,color=red];
+		331 -> 339;
+	334 [label="Bueno",shape=box,color=blue];
+		334 -> 336;
+	338 [label="Chat ends.",color=orange];
+	339 [label="Xipe Totec, der Gehäutete, der Gott der Wiedergeburt, der Landwirtschaft und des Krieges",shape=box,color=blue];
+		339 -> 340;
+		339 -> 341;
+	336 [label="Chat ends.",color=orange];
+	340 [label="Der Gehäutete ...?",shape=box,color=red];
+		340 -> 342;
+	341 [label="Er klingt nicht SO schlecht ...",shape=box,color=red];
+		341 -> 342;
+	342 [label="Bei den jährlichen Festen zu seinen Ehren wurden Kriegsgefangene gehäutet und Männer trugen die Haut wie ihre eigene und nahmen in seinem Namen Opfergaben von den Menschen in den Städten an
 Wie ich schon sagte 
 Von Zeit zu Zeit waren sie blutrünstig",shape=box,color=blue];
-		j2961420815 -> j1202133989;
-		j2961420815 -> j1846747944;
-	j1202133989 [label="Großartig. Danke für den Albtraumtreibstoff.",shape=box,color=red];
-		j1202133989 -> j1783358073;
-	j1846747944 [label="Menschen sind seltsam.",shape=box,color=red];
-		j1846747944 -> j485678546;
-	j1783358073 [label="+10 Chemistry",color=orange];
-		j1783358073 -> j2744980338;
-	j485678546 [label="+20 Chemistry",color=orange];
-		j485678546 -> j2126313195;
-	j2744980338 [label="De nada",shape=box,color=blue];
-		j2744980338 -> "Chat ends.";
-	j2126313195 [label="Stimme ich zu",shape=box,color=blue];
-		j2126313195 -> "Chat ends.";
+		342 -> 343;
+		342 -> 344;
+	343 [label="Großartig. Danke für den Albtraumtreibstoff.",shape=box,color=red];
+		343 -> 347;
+	344 [label="Menschen sind seltsam.",shape=box,color=red];
+		344 -> 348;
+	347 [label="+10 Chemistry",color=orange];
+		347 -> 345;
+	348 [label="+20 Chemistry",color=orange];
+		348 -> 346;
+	345 [label="De nada",shape=box,color=blue];
+		345 -> 349;
+	346 [label="Stimme ich zu",shape=box,color=blue];
+		346 -> 350;
+	349 [label="Chat ends.",color=orange];
+	350 [label="Chat ends.",color=orange];
 }

@@ -1,217 +1,224 @@
 digraph {
-	"LettieRank1Convo4 begins." [color=orange];
-		"LettieRank1Convo4 begins." -> j2495036255;
-	j2495036255 [label="现在还有神吗 
+	160 [label="LettieRank1Convo4 begins.",color=orange];
+		160 -> 161;
+	161 [label="现在还有神吗 
 还是你们全都忘光了",shape=box,color=blue];
-		j2495036255 -> j1944206720;
-		j2495036255 -> j1972983418;
-		j2495036255 -> j1093171537;
-		j2495036255 -> j294645815;
-	j1944206720 [label="不好意思，你能再说一遍吗？",shape=box,color=red];
-		j1944206720 -> j3244737332;
-	j1972983418 [label="你这聊天开场真有一套，你知道吗？",shape=box,color=red];
-		j1972983418 -> j1102589338;
-	j1093171537 [label="这话题我可不敢碰……[结束]",shape=box,color=red];
-		j1093171537 -> "Chat ends.";
-	j294645815 [label="没忘记，我们根本就没有神。Orokin 不算。",shape=box,color=red];
-		j294645815 -> j3453269931;
-	j3244737332 [label="¿Neta，babas? 
+		161 -> 162;
+		161 -> 163;
+		161 -> 164;
+		161 -> 165;
+	162 [label="不好意思，你能再说一遍吗？",shape=box,color=red];
+		162 -> 166;
+	163 [label="你这聊天开场真有一套，你知道吗？",shape=box,color=red];
+		163 -> 171;
+	164 [label="这话题我可不敢碰……[结束]",shape=box,color=red];
+		164 -> 173;
+	165 [label="没忘记，我们根本就没有神。奥罗金不算。",shape=box,color=red];
+		165 -> 176;
+	166 [label="¿Neta，babas? 
 那些神，babas——太阳神和月神 
 人们还记得他们吗？",shape=box,color=blue];
-		j3244737332 -> j3505119139;
-		j3244737332 -> j1729177188;
-		j3244737332 -> j638654540;
-	j1102589338 [label="呵呵，sí 
+		166 -> 167;
+		166 -> 168;
+		166 -> 169;
+	171 [label="呵呵，sí 
 你会习惯的 
 或者不会",shape=box,color=blue];
-		j1102589338 -> j3180866591;
-	"Chat ends." [color=orange];
-	j3453269931 [label="你们没有神…… 
-那 Orokin 是什么？",shape=box,color=blue];
-		j3453269931 -> j2126616671;
-	j3505119139 [label="我……不想打击你，但太阳神和月神不是神。一个是恒星，另一个只是经历过一些事的石头",shape=box,color=red];
-		j3505119139 -> j4236534637;
-	j1729177188 [label="他们不再被当作神来崇拜了，我很抱歉。但月球还是有些神圣的。",shape=box,color=red];
-		j1729177188 -> j4209869345;
-	j638654540 [label="我只能说我自己的例子，我从小就被教育要崇拜 Orokin。后来我懂事了。",shape=box,color=red];
-		j638654540 -> j3453269931;
-	j3180866591 [label="+5 Chemistry",color=orange];
-		j3180866591 -> j2353522927;
-	j2126616671 [label="Boolean LettieOrokin1 is now true.",color=orange];
-		j2126616671 -> j1137746954;
-		j2126616671 -> j3841107516;
-	j4236534637 [label="Lárgate",shape=box,color=blue];
-		j4236534637 -> "Chat ends.";
-	j4209869345 [label="你说的有些神圣
+		171 -> 170;
+	173 [label="Chat ends.",color=orange];
+	176 [label="你们没有神…… 
+那奥罗金是什么？",shape=box,color=blue];
+		176 -> 177;
+	167 [label="我……不想打击你，但太阳神和月神不是神。一个是恒星，另一个只是经历过一些事的石头",shape=box,color=red];
+		167 -> 174;
+	168 [label="他们不再被当作神来崇拜了，我很抱歉。但月球还是有些神圣的。",shape=box,color=red];
+		168 -> 184;
+	169 [label="我只能说我自己的例子，我从小就被教育要崇拜奥罗金。后来我懂事了。",shape=box,color=red];
+		169 -> 176;
+	170 [label="+5 Chemistry",color=orange];
+		170 -> 172;
+	177 [label="Update boolean LettieOrokin1",color=orange];
+		177 -> 178;
+		177 -> 179;
+	174 [label="Lárgate",shape=box,color=blue];
+		174 -> 175;
+	184 [label="你说的有些神圣
 是什么意思",shape=box,color=blue];
-		j4209869345 -> j1124738738;
-		j4209869345 -> j2431878321;
-	j2353522927 [label="那么？ 
+		184 -> 185;
+		184 -> 186;
+	172 [label="那么？ 
 他们还在被崇拜吗",shape=box,color=blue];
-		j2353522927 -> j3505119139;
-		j2353522927 -> j1729177188;
-		j2353522927 -> j638654540;
-	j1137746954 [label="他们是一群以为自己高人一等的混蛋。就这些。",shape=box,color=red];
-		j1137746954 -> j2995146148;
-	j3841107516 [label="他们是一群统治始源星系的人。他们自认为是神。",shape=box,color=red];
-		j3841107516 -> j2995146148;
-	j1124738738 [label="月球……嗯……它有一段时间被推入了虚空。",shape=box,color=red];
-		j1124738738 -> j1226268182;
-	j2431878321 [label="这很复杂。说来话长。简而言之，它仍然很重要，但不是被崇拜的对象。",shape=box,color=red];
-		j2431878321 -> j729520883;
-	j2995146148 [label="这不是第一次有人自封为王
+		172 -> 167;
+		172 -> 168;
+		172 -> 169;
+	178 [label="他们是一群以为自己高人一等的混蛋。就这些。",shape=box,color=red];
+		178 -> 180;
+	179 [label="他们是一群统治始源星系的人。他们自认为是神。",shape=box,color=red];
+		179 -> 180;
+	175 [label="Chat ends.",color=orange];
+	185 [label="月球……嗯……它有一段时间被推入了虚空。",shape=box,color=red];
+		185 -> 187;
+	186 [label="这很复杂。说来话长。简而言之，它仍然很重要，但不是被崇拜的对象。",shape=box,color=red];
+		186 -> 193;
+	180 [label="这不是第一次有人自封为王
 还自认为神圣",shape=box,color=blue];
-		j2995146148 -> j690668201;
-	j1226268182 [label="如果真像你说的那样 
+		180 -> 181;
+	187 [label="如果真像你说的那样 
 你把她放在哪里了？！",shape=box,color=blue];
-		j1226268182 -> j221199521;
-		j1226268182 -> j612711400;
-	j729520883 [label="那你崇拜什么",shape=box,color=blue];
-		j729520883 -> j549321086;
-		j729520883 -> j2259888097;
-		j729520883 -> j1141114258;
-		j729520883 -> j2279675207;
-	j690668201 [label="也不会是最后一次 
+		187 -> 188;
+		187 -> 189;
+	193 [label="那你崇拜什么",shape=box,color=blue];
+		193 -> 194;
+		193 -> 195;
+		193 -> 196;
+		193 -> 197;
+	181 [label="也不会是最后一次 
 下次我们再聊聊他们 
 我现在得去忙了",shape=box,color=blue];
-		j690668201 -> j374273682;
-	j221199521 [label="虚空有点像一个非维度？有时是黑白的。很奇怪。还有点刺痛感。",shape=box,color=red];
-		j221199521 -> j1859437059;
-	j612711400 [label="哇，慢着。我没把她放在哪里！我跟这事没关系！",shape=box,color=red];
-		j612711400 -> j1206536564;
-	j549321086 [label="宇宙。虚空。一切。",shape=box,color=red];
-		j549321086 -> j699999088;
-	j2259888097 [label="什么都不崇拜。",shape=box,color=red];
-		j2259888097 -> j2540760809;
-	j1141114258 [label="我相信自己和我周围的人。",shape=box,color=red];
-		j1141114258 -> j944936856;
-	j2279675207 [label="这是我的私事。",shape=box,color=red];
-		j2279675207 -> j1764199779;
-	j374273682 [label="+15 Chemistry",color=orange];
-		j374273682 -> "Chat ends.";
-	j1859437059 [label="但当时我还在双衍王境里，反复死亡，而 Lotus 决定把月球放进虚空。",shape=box,color=red];
-		j1859437059 -> j1811373516;
-	j1206536564 [label="当所有这些荒唐事发生的时候，我被遗弃在一艘宇宙飞船上，还被困在我自己的地狱里。",shape=box,color=red];
-		j1206536564 -> j1811373516;
-	j699999088 [label="Boolean ReligionAll is now true.",color=orange];
-		j699999088 -> j717451380;
-	j2540760809 [label="Boolean ReligionNone is now true.",color=orange];
-		j2540760809 -> j2013816714;
-	j944936856 [label="Boolean ReligionSelf is now true.",color=orange];
-		j944936856 -> j2767880659;
-	j1764199779 [label="Boolean ReligionHidden is now true.",color=orange];
-		j1764199779 -> j2254885816;
-	j1811373516 [label="Check boolean LettieDuviri",color=orange];
-		j1811373516 -> j2164098861 [label=true,color=green];
-		j1811373516 -> j2634098814 [label=false,color=brown];
-	j717451380 [label="不断重复的死亡会让人变成这样。",shape=box,color=red];
-		j717451380 -> j739624385;
-	j2013816714 [label="不断重复的死亡会让人变成这样。",shape=box,color=red];
-		j2013816714 -> j2613632335;
-	j2767880659 [label="不断重复的死亡会让人变成这样。",shape=box,color=red];
-		j2767880659 -> j2156254996;
-	j2254885816 [label="不断重复的死亡会让人变成这样。",shape=box,color=red];
-		j2254885816 -> j3195772872;
-	j2164098861 [label="Sí 
+		181 -> 182;
+	188 [label="虚空有点像一个非维度？有时是黑白的。很奇怪。还有点刺痛感。",shape=box,color=red];
+		188 -> 872;
+	189 [label="哇，慢着。我没把她放在哪里！我跟这事没关系！",shape=box,color=red];
+		189 -> 192;
+	194 [label="宇宙。虚空。一切。",shape=box,color=red];
+		194 -> 198;
+	195 [label="什么都不崇拜。",shape=box,color=red];
+		195 -> 199;
+	196 [label="我相信自己和我周围的人。",shape=box,color=red];
+		196 -> 200;
+	197 [label="这是我的私事。",shape=box,color=red];
+		197 -> 201;
+	182 [label="+15 Chemistry",color=orange];
+		182 -> 183;
+	872 [label="但当时我还在双衍王境里，反复死亡，而 Lotus 决定把月球放进虚空。",shape=box,color=red];
+		872 -> 212;
+	192 [label="当所有这些荒唐事发生的时候，我被遗弃在一艘宇宙飞船上，还被困在我自己的地狱里。",shape=box,color=red];
+		192 -> 212;
+	198 [label="Update boolean ReligionAll",color=orange];
+		198 -> 2455;
+	199 [label="Update boolean ReligionNone",color=orange];
+		199 -> 2456;
+	200 [label="Update boolean ReligionSelf",color=orange];
+		200 -> 2457;
+	201 [label="Update boolean ReligionHidden",color=orange];
+		201 -> 2458;
+	183 [label="Chat ends.",color=orange];
+	212 [label="Check boolean LettieDuviri",color=orange];
+		212 -> 213 [label=true,color=green];
+		212 -> 214 [label=false,color=brown];
+	2455 [label="不断重复的死亡会让人变成这样。",shape=box,color=red];
+		2455 -> 206;
+	2456 [label="不断重复的死亡会让人变成这样。",shape=box,color=red];
+		2456 -> 203;
+	2457 [label="不断重复的死亡会让人变成这样。",shape=box,color=red];
+		2457 -> 204;
+	2458 [label="不断重复的死亡会让人变成这样。",shape=box,color=red];
+		2458 -> 207;
+	213 [label="Sí 
 你的死亡王国
 再多说说",shape=box,color=blue];
-		j2164098861 -> j4226398152;
-		j2164098861 -> j3600365305;
-		j2164098861 -> j1934662947;
-	j2634098814 [label="哦对 
+		213 -> 215;
+		213 -> 216;
+		213 -> 217;
+	214 [label="哦对 
 那么“地狱”是什么样子的 
 它燃烧了吗？",shape=box,color=blue];
-		j2634098814 -> j4226398152;
-		j2634098814 -> j3600365305;
-		j2634098814 -> j1934662947;
-		j2634098814 -> j3787568151;
-	j739624385 [label="+5 Chemistry",color=orange];
-		j739624385 -> j1370292248;
-	j2613632335 [label="没有信仰本身就是一种信仰
+		214 -> 215;
+		214 -> 216;
+		214 -> 217;
+		214 -> 218;
+	206 [label="+5 Chemistry",color=orange];
+		206 -> 202;
+	203 [label="没有信仰本身就是一种信仰
 任何反对这一点的人都是蠢人",shape=box,color=blue];
-		j2613632335 -> j3515040117;
-	j2156254996 [label="这听起来更像是励志口号，不像是信仰 
+		203 -> 2459;
+	204 [label="这听起来更像是励志口号，不像是信仰 
 但不管怎样，如果它能让你晚上睡得安稳的话也不错",shape=box,color=blue];
-		j2156254996 -> j3515040117;
-	j3195772872 [label="+5 Chemistry",color=orange];
-		j3195772872 -> j1968717588;
-	j4226398152 [label="双衍王境是我在某种程度上……创造的另一个维度？有点像是，因我而存在？",shape=box,color=red];
-		j4226398152 -> j3570656569;
-	j3600365305 [label="你真是个奇怪的女人……",shape=box,color=red];
-		j3600365305 -> j191031049;
-	j1934662947 [label="不关你的事。",shape=box,color=red];
-		j1934662947 -> j2057140;
-	j3787568151 [label="没有，幸好他们没那么对我。",shape=box,color=red];
-		j3787568151 -> j1752016641;
-	j1370292248 [label="认识到自己在这一切面前是渺小的很重要 
+		204 -> 2459;
+	207 [label="+5 Chemistry",color=orange];
+		207 -> 205;
+	215 [label="双衍王境是我在某种程度上……创造的另一个维度？有点像是，因我而存在？",shape=box,color=red];
+		215 -> 219;
+	216 [label="你真是个奇怪的女人……",shape=box,color=red];
+		216 -> 220;
+	217 [label="不关你的事。",shape=box,color=red];
+		217 -> 221;
+	218 [label="没有，幸好他们没那么对我。",shape=box,color=red];
+		218 -> 222;
+	202 [label="认识到自己在这一切面前是渺小的很重要 
 我尊重这一点",shape=box,color=blue];
-		j1370292248 -> j3515040117;
-	j3515040117 [label="但我很好奇
+		202 -> 2459;
+	2459 [label="但我很好奇
 你的死亡王国
 再多说说",shape=box,color=blue];
-		j3515040117 -> j547942567;
-	j1968717588 [label="我尊重这一点",shape=box,color=blue];
-		j1968717588 -> j3515040117;
-	j3570656569 [label="它是从我脑海中的虚空抽离出来的，然后变成了现实。一个受惊小孩的显化。",shape=box,color=red];
-		j3570656569 -> j2873671989;
-	j191031049 [label="嗯 
+		2459 -> 2460;
+	205 [label="我尊重这一点",shape=box,color=blue];
+		205 -> 2459;
+	219 [label="它是从我脑海中的虚空抽离出来的，然后变成了现实。一个受惊小孩的显化。",shape=box,color=red];
+		219 -> 231;
+	220 [label="嗯 
 见过很多痛苦 
 估计它对你也这样",shape=box,color=blue];
-		j191031049 -> "Chat ends.";
-	j2057140 [label="你说得对
+		220 -> 223;
+	221 [label="你说得对
 确实不关我的事",shape=box,color=blue];
-		j2057140 -> "Chat ends.";
-	j1752016641 [label="他们？",shape=box,color=blue];
-		j1752016641 -> j2739818336;
-		j1752016641 -> j1167723738;
-	j547942567 [label="Boolean LettieDuviri is now true.",color=orange];
-		j547942567 -> j4226398152;
-		j547942567 -> j3600365305;
-		j547942567 -> j1934662947;
-	j2873671989 [label="但当我长大想离开时，一切都出错了。他们开始一次又一次地杀我。",shape=box,color=red];
-		j2873671989 -> j77174806;
-	j2739818336 [label="士魂大帝和他的小弟们。",shape=box,color=red];
-		j2739818336 -> j2516136157;
-	j1167723738 [label="他们。我。都一样。说来话长。",shape=box,color=red];
-		j1167723738 -> j2779126919;
-	j77174806 [label="故事成了现实。
+		221 -> 224;
+	222 [label="他们？",shape=box,color=blue];
+		222 -> 225;
+		222 -> 226;
+	2460 [label="Update boolean LettieDuviri",color=orange];
+		2460 -> 215;
+		2460 -> 216;
+		2460 -> 217;
+	231 [label="但当我长大想离开时，一切都出错了。他们开始一次又一次地杀我。",shape=box,color=red];
+		231 -> 241;
+	223 [label="Chat ends.",color=orange];
+	224 [label="Chat ends.",color=orange];
+	225 [label="士魂大帝和他的小弟们。",shape=box,color=red];
+		225 -> 227;
+	226 [label="他们。我。都一样。说来话长。",shape=box,color=red];
+		226 -> 228;
+	241 [label="故事成了现实。
 La Flaca 认得你的脸",shape=box,color=blue];
-		j77174806 -> j2386787956;
-	j2516136157 [label="这个名字对我来说毫无意义 
+		241 -> 242;
+	227 [label="这个名字对我来说毫无意义 
 我想知道他的灵魂 
 伤害你的*他们*是谁",shape=box,color=blue];
-		j2516136157 -> j1932023704;
-		j2516136157 -> j2142893908;
-	j2779126919 [label="从某种角度来说，我觉得我能理解 
+		227 -> 229;
+		227 -> 230;
+	228 [label="从某种角度来说，我觉得我能理解 
 情况虽然不同 
 但痛苦是一样的",shape=box,color=blue];
-		j2779126919 -> j3089030245;
-	j2386787956 [label="Boolean LettieDuviri is now true.",color=orange];
-		j2386787956 -> j1560462056;
-	j1932023704 [label="他不是真实的。他是一个虚构的人物，虚空从我的脑海中夺走了他，而我的存在让他变成了现实。",shape=box,color=red];
-		j1932023704 -> j2873671989;
-	j2142893908 [label="你现在愿意跟我说说你最黑暗的时刻吗？",shape=box,color=red];
-		j2142893908 -> j1955508191;
-	j3089030245 [label="Boolean LettieDuviri is now true.",color=orange];
-		j3089030245 -> j3545051875;
-	j1560462056 [label="Boolean LettieFantasma1 is now true.",color=orange];
-		j1560462056 -> j3458865641;
-	j1955508191 [label="+10 Chemistry",color=orange];
-		j1955508191 -> j32238978;
-	j3545051875 [label="Boolean LettieFantasma1 is now true.",color=orange];
-		j3545051875 -> j1043404741;
-	j3458865641 [label="+10 Chemistry",color=orange];
-		j3458865641 -> j3660960804;
-	j32238978 [label="不，我们还不够熟 
+		228 -> 234;
+	242 [label="Update boolean LettieDuviri",color=orange];
+		242 -> 243;
+	229 [label="他不是真实的。他是一个虚构的人物，虚空从我的脑海中夺走了他，而我的存在让他变成了现实。",shape=box,color=red];
+		229 -> 231;
+	230 [label="你现在愿意跟我说说你最黑暗的时刻吗？",shape=box,color=red];
+		230 -> 238;
+	234 [label="Update boolean LettieDuviri",color=orange];
+		234 -> 235;
+	243 [label="Update boolean LettieFantasma1",color=orange];
+		243 -> 245;
+	238 [label="+10 Chemistry",color=orange];
+		238 -> 232;
+	235 [label="Update boolean LettieFantasma1",color=orange];
+		235 -> 233;
+	245 [label="+10 Chemistry",color=orange];
+		245 -> 244;
+	232 [label="不，我们还不够熟 
 有道理
 那改天吧",shape=box,color=blue];
-		j32238978 -> j2620081815;
-	j1043404741 [label="+10 Chemistry",color=orange];
-		j1043404741 -> j1548505863;
-	j3660960804 [label="Babas，也许我们之间的共同点比我想象的要多",shape=box,color=blue];
-		j3660960804 -> "Chat ends.";
-	j2620081815 [label="Boolean LettieDuviri is now true.",color=orange];
-		j2620081815 -> "Chat ends.";
-	j1548505863 [label="babas，也许我们之间的共同点比我想象的要多",shape=box,color=blue];
-		j1548505863 -> "Chat ends.";
+		232 -> 239;
+	233 [label="+10 Chemistry",color=orange];
+		233 -> 236;
+	244 [label="Babas，也许我们之间的共同点比我想象的要多",shape=box,color=blue];
+		244 -> 246;
+	239 [label="Update boolean LettieDuviri",color=orange];
+		239 -> 240;
+	236 [label="babas，也许我们之间的共同点比我想象的要多",shape=box,color=blue];
+		236 -> 237;
+	246 [label="Chat ends.",color=orange];
+	240 [label="Chat ends.",color=orange];
+	237 [label="Chat ends.",color=orange];
 }

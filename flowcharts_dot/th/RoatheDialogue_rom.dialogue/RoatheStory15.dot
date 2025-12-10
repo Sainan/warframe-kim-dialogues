@@ -1,0 +1,27 @@
+digraph {
+	2266 [label="RoatheStory15 begins.",color=orange];
+		2266 -> 5669;
+	5669 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5669 -> 2268 [label=true,color=green];
+		5669 -> 5668 [label=false,color=brown];
+	2268 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2268 -> 2262 [label="x >= 15",color=purple];
+		2268 -> 2267 [label="false",color=purple];
+	5668 [label="Chat ends.",color=orange];
+	2262 [label="VM: LIES",shape=box,color=blue];
+		2262 -> 2269;
+	2267 [label="Chat ends.",color=orange];
+	2269 [label="บันทึก: ข้าเชี่ยวชาญอาวุธหลายประเภท แต่มีอาวุธอย่างหนึ่งที่ถนัดที่สุด นั่นคือคำโกหก",shape=box,color=blue];
+		2269 -> 5711;
+	5711 [label="ข้ามักจะใช้มันโจมตีกองกำลังของข้าเอง ข้าฟาดทุกคนในกองจนแหลกละเอียดด้วยคำโกหกเกี่ยวกับหน้าที่และวินัย",shape=box,color=blue];
+		5711 -> 5712;
+	5712 [label="ข้าข่มอารมณ์ทุกคนด้วยคำโกหกที่ว่าเราเอาชนะสงครามได้ ข้าแทงพวกเขาด้วยคำโกหกที่ข้าโปรดปรานนั่นคือความเคารพนับถือที่สุดที่ข้ามีต่อพวกเขา",shape=box,color=blue];
+		5712 -> 2265;
+	2265 [label="และข้าหันอาวุธนั้นมาโจมตีตัวเองเมื่ออยู่ตามลำพังในที่ส่วนตัว โอ้ ทำให้ตัวข้าเสียเลือดเสียเอง",shape=box,color=blue];
+		2265 -> 2264;
+	2264 [label="Add 1 to HellStory",color=orange];
+		2264 -> 2342;
+	2342 [label="{\"Id\":2342,\"Incoming\":[2264],\"Outgoing\":[2263],\"GraphPos\":[3446,-5796],\"CompletionType\":1}",color=orange];
+		2342 -> 2263;
+	2263 [label="Chat ends. Next chat will be RoatheStory16.",color=orange];
+}

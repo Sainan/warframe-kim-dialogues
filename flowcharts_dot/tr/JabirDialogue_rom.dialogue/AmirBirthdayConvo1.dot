@@ -1,16 +1,21 @@
 digraph {
-	"AmirBirthdayConvo1 begins." [color=orange];
-		"AmirBirthdayConvo1 begins." -> j4068503055;
-		"AmirBirthdayConvo1 begins." -> j392211049;
-	j4068503055 [label="Amir! Sol'un etrafında bir turunu daha başarıyla tamamladın! Tebrikler!",shape=box,color=red];
-		j4068503055 -> j1387457731;
-	j392211049 [label="Bugün doğum günün, Amir! Belki de büyümek için iyi bir zamandır?",shape=box,color=red];
-		j392211049 -> j1420378024;
-	j1387457731 [label="+20 Chemistry",color=orange];
-		j1387457731 -> j3715589184;
-	j1420378024 [label="AHHH!! içimdeki çocuğun her an okuyabileceği bir şeyi öylece ortalıkta bırakmana inanamıyorum!! NEDEN KİMSE ÇOCUKLARI ÖNEMSEMEZ Kİ?!",shape=box,color=blue];
-		j1420378024 -> "Chat ends.";
-	j3715589184 [label="Ah PSHAAH! teşekkürler ama bu önemli bir şey değil ki!! işin zor kısmını gezegen yaptı, ben sadece yolculuğun bir parçasıyım",shape=box,color=blue];
-		j3715589184 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3564 [label="AmirBirthdayConvo1 begins.",color=orange];
+		3564 -> 3565;
+		3564 -> 3566;
+	3565 [label="Amir! Sol'un etrafında bir turunu daha başarıyla tamamladın! Tebrikler!",shape=box,color=red];
+		3565 -> 3567;
+	3566 [label="Bugün doğum günün, Amir! Belki de büyümek için iyi bir zamandır?",shape=box,color=red];
+		3566 -> 3568;
+	3567 [label="+20 Chemistry",color=orange];
+		3567 -> 3569;
+	3568 [label="AHHH!! içimdeki çocuğun her an okuyabileceği bir şeyi öylece ortalıkta bırakmana inanamıyorum!! NEDEN KİMSE ÇOCUKLARI ÖNEMSEMEZ Kİ?!",shape=box,color=blue];
+		3568 -> 3595;
+	3569 [label="Ah PSHAAH! teşekkürler ama bu önemli bir şey değil ki!! işin zor kısmını gezegen yaptı, ben sadece yolculuğun bir parçasıyım",shape=box,color=blue];
+		3569 -> 3594;
+	3595 [label="{\"Id\":3595,\"Incoming\":[3568],\"Outgoing\":[3571],\"GraphPos\":[-14760,-21632],\"CompletionType\":1}",color=orange];
+		3595 -> 3571;
+	3594 [label="{\"Id\":3594,\"Incoming\":[3569],\"Outgoing\":[3570],\"GraphPos\":[-14377,-21757],\"CompletionType\":1}",color=orange];
+		3594 -> 3570;
+	3571 [label="Chat ends.",color=orange];
+	3570 [label="Chat ends.",color=orange];
 }

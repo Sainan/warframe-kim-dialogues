@@ -1,0 +1,33 @@
+digraph {
+	2129 [label="RoatheStory1 begins.",color=orange];
+		2129 -> 5640;
+	5640 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5640 -> 2133 [label=true,color=green];
+		5640 -> 5642 [label=false,color=brown];
+	2133 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2133 -> 2130 [label="x >= 1",color=purple];
+		2133 -> 2134 [label="false",color=purple];
+	5642 [label="Chat ends.",color=orange];
+	2130 [label="MV: NITOKH",shape=box,color=blue];
+		2130 -> 2132;
+	2134 [label="Chat ends.",color=orange];
+	2132 [label="Trascrizione: La sua follia era seducente perché ovvia.",shape=box,color=blue];
+		2132 -> 5636;
+	5636 [label="Con lei si sapeva sempre dove ci si trovava - proprio sull'orlo del grande abisso.",shape=box,color=blue];
+		5636 -> 5635;
+	5635 [label="\"Salta dentro\", mi dicevano i suoi occhi, scintillanti di gioia per un colossale scherzo cosmico.",shape=box,color=blue];
+		5635 -> 5637;
+	5637 [label="Attraverso alle sue visioni folli potevo sfuggire alla lunga, desolata stagnazione dell'esistenza degli Orokin.",shape=box,color=blue];
+		5637 -> 2136;
+	2136 [label="Tutti i nostri sensi erano stati saturati fino all'intorpidimento secoli prima. Eppure lei era ancora, a suo modo, fresca.",shape=box,color=blue];
+		2136 -> 5638;
+	5638 [label="Eterna. Illimitata nella sua fame. Una sera mi chiamò al suo bagno. Attraversai a grandi passi le pozze d'acqua profumata e sangue che si mescolavano e mi misi diligentemente sull'attenti.",shape=box,color=blue];
+		5638 -> 5639;
+	5639 [label="'Mi annoio, Roathe. Uccidiamo tutti gli altri Orokin e prendiamo il controllo.'",shape=box,color=blue];
+		5639 -> 2135;
+	2135 [label="Add 1 to HellStory",color=orange];
+		2135 -> 2328;
+	2328 [label="{\"Id\":2328,\"Incoming\":[2135],\"Outgoing\":[2131],\"GraphPos\":[4730,-11318],\"CompletionType\":1}",color=orange];
+		2328 -> 2131;
+	2131 [label="Chat ends.",color=orange];
+}

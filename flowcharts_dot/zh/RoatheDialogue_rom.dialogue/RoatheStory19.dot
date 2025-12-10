@@ -1,0 +1,33 @@
+digraph {
+	2307 [label="RoatheStory19 begins.",color=orange];
+		2307 -> 5676;
+	5676 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5676 -> 2304 [label=true,color=green];
+		5676 -> 5677 [label=false,color=brown];
+	2304 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2304 -> 2302 [label="x >= 19",color=purple];
+		2304 -> 2306 [label="false",color=purple];
+	5677 [label="Chat ends.",color=orange];
+	2302 [label="语音留言：外交",shape=box,color=blue];
+		2302 -> 5720;
+	2306 [label="Chat ends.",color=orange];
+	5720 [label="在七人众执行者中，Ballas 自诩为平等者中的第一人。",shape=box,color=blue];
+		5720 -> 5721;
+	5721 [label="他一向擅长外交，总能用甜言蜜语劝服众人，化解其他人之间的怨恨和争端。",shape=box,color=blue];
+		5721 -> 2301;
+	2301 [label="令我欣喜若狂的是，我发现他现在就像一朵被夹在两丛荆棘之间的玫瑰。 ",shape=box,color=blue];
+		2301 -> 5734;
+	5734 [label="以尼托为首的主战派朝着一个方向努力，而以斯卡恩为首的主和派则朝着另一个方向努力。",shape=box,color=blue];
+		5734 -> 2300;
+	2300 [label="Ballas 不得不做出抉择，而无论他选择站在哪一边，都将招致另外一群人的强烈仇恨。",shape=box,color=blue];
+		2300 -> 2305;
+	2305 [label="出于我无法揣测的原因，他选择了和平；最终票数为四比三，于是，那些曾经的豺狼虎豹 Sentient 突然变成了盟友和朋友。",shape=box,color=blue];
+		2305 -> 2308;
+	2308 [label="“无论如何，他都会改变主意的，”尼托承诺道，与此同时，我被派去寻找深藏在禁卫中的不满分子。",shape=box,color=blue];
+		2308 -> 2299;
+	2299 [label="Add 1 to HellStory",color=orange];
+		2299 -> 2346;
+	2346 [label="{\"Id\":2346,\"Incoming\":[2299],\"Outgoing\":[2303],\"GraphPos\":[4753,-4136],\"CompletionType\":1}",color=orange];
+		2346 -> 2303;
+	2303 [label="Chat ends.",color=orange];
+}

@@ -1,16 +1,21 @@
 digraph {
-	"QuincyBirthdayConvo2 begins." [color=orange];
-		"QuincyBirthdayConvo2 begins." -> j3355239991;
-		"QuincyBirthdayConvo2 begins." -> j3443566488;
-	j3355239991 [label="嘿，昆西！我跟亚瑟说了，让他在你生日那天给你放假一晚。",shape=box,color=red];
-		j3355239991 -> j3447398035;
-	j3443566488 [label="昆西，祝你在生日夜的值班愉快。",shape=box,color=red];
-		j3443566488 -> j1490147748;
-	j3447398035 [label="+20 Chemistry",color=orange];
-		j3447398035 -> j1345030518;
-	j1490147748 [label="是呀，我可太爱在自己生日这天在屋顶上冻成狗，我谢谢你啊",shape=box,color=blue];
-		j1490147748 -> "Chat ends.";
-	j1345030518 [label="太——棒了，伙计，你最好了",shape=box,color=blue];
-		j1345030518 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3533 [label="QuincyBirthdayConvo2 begins.",color=orange];
+		3533 -> 3543;
+		3533 -> 3546;
+	3543 [label="嘿，昆西！我跟亚瑟说了，让他在你生日那天给你放假一晚。",shape=box,color=red];
+		3543 -> 3544;
+	3546 [label="昆西，祝你在生日夜的值班愉快。",shape=box,color=red];
+		3546 -> 3548;
+	3544 [label="+20 Chemistry",color=orange];
+		3544 -> 3542;
+	3548 [label="是呀，我可太爱在自己生日这天在屋顶上冻成狗，我谢谢你啊",shape=box,color=blue];
+		3548 -> 3169;
+	3542 [label="太——棒了，伙计，你最好了",shape=box,color=blue];
+		3542 -> 3135;
+	3169 [label="{\"Id\":3169,\"Incoming\":[3548],\"Outgoing\":[3547],\"GraphPos\":[1150,-4494],\"CompletionType\":1}",color=orange];
+		3169 -> 3547;
+	3135 [label="{\"Id\":3135,\"Incoming\":[3542],\"Outgoing\":[3545],\"GraphPos\":[1492,-4648],\"CompletionType\":1}",color=orange];
+		3135 -> 3545;
+	3547 [label="Chat ends.",color=orange];
+	3545 [label="Chat ends.",color=orange];
 }

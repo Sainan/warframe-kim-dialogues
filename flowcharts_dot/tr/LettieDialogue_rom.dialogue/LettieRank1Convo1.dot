@@ -1,133 +1,137 @@
 digraph {
-	"LettieRank1Convo1 begins." [color=orange];
-		"LettieRank1Convo1 begins." -> j3302063491;
-		"LettieRank1Convo1 begins." -> j1865538719;
-	j3302063491 [label="Hey Lettie, sağlıkçı olmaya nasıl karar verdin?",shape=box,color=red];
-		j3302063491 -> j3416046934;
-	j1865538719 [label="Hey Lettie, seni Höllvania'ya ne getirdi?",shape=box,color=red];
-		j1865538719 -> j1047740600;
-	j3416046934 [label="Bu benim işim 
+	0 [label="LettieRank1Convo1 begins.",color=orange];
+		0 -> 4;
+		0 -> 7;
+	4 [label="Hey Lettie, sağlıkçı olmaya nasıl karar verdin?",shape=box,color=red];
+		4 -> 6;
+	7 [label="Hey Lettie, seni Höllvania'ya ne getirdi?",shape=box,color=red];
+		7 -> 11;
+	6 [label="Bu benim işim 
 Bir işe neden girersin ki
 İş neyse onu yaparsın",shape=box,color=blue];
-		j3416046934 -> j521579339;
-		j3416046934 -> j3130031998;
-		j3416046934 -> j1861047986;
-	j1047740600 [label="Eh?",shape=box,color=blue];
-		j1047740600 -> j4216370271;
-	j521579339 [label="Açıkçası başka bir seçeneğim yoktu.",shape=box,color=red];
-		j521579339 -> j1339858679;
-	j3130031998 [label="Seni rahatsız mı ediyorum?",shape=box,color=red];
-		j3130031998 -> j430966091;
-	j1861047986 [label="Belli ki seni rahatsız ediyorum, seni yalnız bırakayım.",shape=box,color=red];
-		j1861047986 -> j2547240352;
-	j4216370271 [label="Sen niye geldin",shape=box,color=blue];
-		j4216370271 -> j521579339;
-		j4216370271 -> j3130031998;
-		j4216370271 -> j1861047986;
-	j1339858679 [label="O zaman ortak bir noktamız var 
+		6 -> 19;
+		6 -> 20;
+		6 -> 21;
+	11 [label="Eh?",shape=box,color=blue];
+		11 -> 12;
+	19 [label="Açıkçası başka bir seçeneğim yoktu.",shape=box,color=red];
+		19 -> 13;
+	20 [label="Seni rahatsız mı ediyorum?",shape=box,color=red];
+		20 -> 14;
+	21 [label="Belli ki seni rahatsız ediyorum, seni yalnız bırakayım.",shape=box,color=red];
+		21 -> 15;
+	12 [label="Sen niye geldin",shape=box,color=blue];
+		12 -> 19;
+		12 -> 20;
+		12 -> 21;
+	13 [label="O zaman ortak bir noktamız var 
 Ayrıca aptalca sorular sormamalısın, babas",shape=box,color=blue];
-		j1339858679 -> j757457598;
-		j1339858679 -> j214701501;
-	j430966091 [label="Neden 
+		13 -> 18;
+		13 -> 17;
+	14 [label="Neden 
 Bu fikre neden kapıldın 
 Meşgul falan değilim 
 İnsanları birleştirmeye çalışıyorum",shape=box,color=blue];
-		j430966091 -> j214701501;
-		j430966091 -> j757457598;
-	j2547240352 [label="Va",shape=box,color=blue];
-		j2547240352 -> "Chat ends.";
-	j757457598 [label="Bunun yerine seninle ne hakkında konuşmalıyım?",shape=box,color=red];
-		j757457598 -> j3473493197;
-	j214701501 [label="Dostça davranmaya çalışıyorum, kusura bakma.",shape=box,color=red];
-		j214701501 -> j2306715180;
-	"Chat ends." [color=orange];
-	j3473493197 [label="Eh, lo siento 
+		14 -> 17;
+		14 -> 18;
+	15 [label="Va",shape=box,color=blue];
+		15 -> 1;
+	18 [label="Bunun yerine seninle ne hakkında konuşmalıyım?",shape=box,color=red];
+		18 -> 5;
+	17 [label="Dostça davranmaya çalışıyorum, kusura bakma.",shape=box,color=red];
+		17 -> 16;
+	1 [label="Chat ends.",color=orange];
+	5 [label="Eh, lo siento 
 Dün gece pek uyuyamadım 
 Bu yüzden kötü sorulara pek sabrım yok",shape=box,color=blue];
-		j3473493197 -> j2879709354;
-		j3473493197 -> j2539742972;
-	j2306715180 [label="Ay, equis 
+		5 -> 2;
+		5 -> 3;
+	16 [label="Ay, equis 
 Sorun yok 
 Dün gece uykumu iyi alamadım",shape=box,color=blue];
-		j2306715180 -> j592057260;
-		j2306715180 -> j2879709354;
-	j2879709354 [label="Benim de.",shape=box,color=red];
-		j2879709354 -> j4152753575;
-	j2539742972 [label="Yine de *kötü* sorulardı. Başka ne hakkında konuşacağımı bilmiyorum",shape=box,color=red];
-		j2539742972 -> j1732148456;
-	j592057260 [label="Neden?",shape=box,color=red];
-		j592057260 -> j3534613187;
-	j4152753575 [label="+10 Chemistry",color=orange];
-		j4152753575 -> j1526001537;
-	j1732148456 [label="O zaman sana bir ipucu 
+		16 -> 8;
+		16 -> 2;
+	2 [label="Benim de.",shape=box,color=red];
+		2 -> 22;
+	3 [label="Yine de *kötü* sorulardı. Başka ne hakkında konuşacağımı bilmiyorum",shape=box,color=red];
+		3 -> 26;
+	8 [label="Neden?",shape=box,color=red];
+		8 -> 147;
+	22 [label="+10 Chemistry",color=orange];
+		22 -> 24;
+	26 [label="O zaman sana bir ipucu 
 Eğer günümü böleceksen 
 Bunu ilginç hale getir, ¿si?",shape=box,color=blue];
-		j1732148456 -> j509805292;
-	j3534613187 [label="+5 Chemistry",color=orange];
-		j3534613187 -> j416703576;
-	j1526001537 [label="Çok kötü değil mi",shape=box,color=blue];
-		j1526001537 -> j1170824444;
-	j509805292 [label="Check boolean LettieRats1",color=orange];
-		j509805292 -> j3831124497 [label=true,color=green];
-		j509805292 -> j2015007616 [label=false,color=brown];
-	j416703576 [label="Hiç iyi alamam zaten",shape=box,color=blue];
-		j416703576 -> j1170824444;
-	j1170824444 [label="Bir şey mi istiyorsun 
+		26 -> 10;
+	147 [label="+5 Chemistry",color=orange];
+		147 -> 23;
+	24 [label="Çok kötü değil mi",shape=box,color=blue];
+		24 -> 25;
+	10 [label="Check boolean LettieRats1",color=orange];
+		10 -> 30 [label=true,color=green];
+		10 -> 9 [label=false,color=brown];
+	23 [label="Hiç iyi alamam zaten",shape=box,color=blue];
+		23 -> 25;
+	25 [label="Bir şey mi istiyorsun 
 Yoksa sadece vakit mi öldürüyorsun",shape=box,color=blue];
-		j1170824444 -> j3502496918;
-		j1170824444 -> j1453261259;
-		j1170824444 -> j775177431;
-	j3831124497 [label="Sıçanlarla ilgili soruda daha iyiydin",shape=box,color=blue];
-		j3831124497 -> j3065166590;
-	j2015007616 [label="Check boolean LettieFantasma1",color=orange];
-		j2015007616 -> j4045790715 [label=true,color=green];
-		j2015007616 -> j3065166590 [label=false,color=brown];
-	j3502496918 [label="Sadece merhaba demeye çalışıyorum, hepsi bu.",shape=box,color=red];
-		j3502496918 -> j2020939575;
-	j1453261259 [label="Sadece nasıl olduğunu görmek istedim.",shape=box,color=red];
-		j1453261259 -> j4123694701;
-	j775177431 [label="Öylesine vakit öldürüyorum.",shape=box,color=red];
-		j775177431 -> j619212376;
-	j3065166590 [label="İlginç hale getirmek. Anlaşıldı. Ben... gidip... ilginç bir şeyler düşüneyim...",shape=box,color=red];
-		j3065166590 -> j2179501014;
-	j4045790715 [label="Ev ile alakalı soruda daha iyiydin",shape=box,color=blue];
-		j4045790715 -> j3065166590;
-	j2020939575 [label="O zaman 
+		25 -> 27;
+		25 -> 28;
+		25 -> 29;
+	30 [label="Sıçanlarla ilgili soruda daha iyiydin",shape=box,color=blue];
+		30 -> 32;
+	9 [label="Check boolean LettieFantasma1",color=orange];
+		9 -> 31 [label=true,color=green];
+		9 -> 32 [label=false,color=brown];
+	27 [label="Sadece merhaba demeye çalışıyorum, hepsi bu.",shape=box,color=red];
+		27 -> 33;
+	28 [label="Sadece nasıl olduğunu görmek istedim.",shape=box,color=red];
+		28 -> 34;
+	29 [label="Öylesine vakit öldürüyorum.",shape=box,color=red];
+		29 -> 35;
+	32 [label="İlginç hale getirmek. Anlaşıldı. Ben... gidip... ilginç bir şeyler düşüneyim...",shape=box,color=red];
+		32 -> 49;
+	31 [label="Ev ile alakalı soruda daha iyiydin",shape=box,color=blue];
+		31 -> 32;
+	33 [label="O zaman 
 Hola",shape=box,color=blue];
-		j2020939575 -> j2494227943;
-		j2020939575 -> j4238216438;
-	j4123694701 [label="Meşgul 
+		33 -> 39;
+		33 -> 38;
+	34 [label="Meşgul 
 Yorgun 
 Stresli",shape=box,color=blue];
-		j4123694701 -> j3454528736;
-	j619212376 [label="Keyfini çıkar 
+		34 -> 37;
+	35 [label="Keyfini çıkar 
 Benim yapmam gereken işler var",shape=box,color=blue];
-		j619212376 -> j1903479305;
-	j2179501014 [label="Boolean LettieInteresting is now true.",color=orange];
-		j2179501014 -> j1780676929;
-	j2494227943 [label="O zaman seni rahatsız etmeyeyim.",shape=box,color=red];
-		j2494227943 -> j3748645904;
-	j4238216438 [label="Yardımcı olabileceğim bir şey var mı?",shape=box,color=red];
-		j4238216438 -> j2048903887;
-	j3454528736 [label="Her zamanki gibi",shape=box,color=blue];
-		j3454528736 -> j4238216438;
-		j3454528736 -> j2494227943;
-	j1903479305 [label="İşe geri dönüyorum",shape=box,color=blue];
-		j1903479305 -> "Chat ends.";
-	j1780676929 [label="+20 Chemistry",color=orange];
-		j1780676929 -> j1368267468;
-	j3748645904 [label="Bueno",shape=box,color=blue];
-		j3748645904 -> "Chat ends.";
-	j2048903887 [label="+10 Chemistry",color=orange];
-		j2048903887 -> j1758507825;
-	j1368267468 [label="Buena suerte",shape=box,color=blue];
-		j1368267468 -> "Chat ends.";
-	j1758507825 [label="Yerel halkı Techrot ve scaldra'nın kavgasına girmemeye ikna et 
+		35 -> 36;
+	49 [label="Update boolean LettieInteresting",color=orange];
+		49 -> 48;
+	39 [label="O zaman seni rahatsız etmeyeyim.",shape=box,color=red];
+		39 -> 41;
+	38 [label="Yardımcı olabileceğim bir şey var mı?",shape=box,color=red];
+		38 -> 45;
+	37 [label="Her zamanki gibi",shape=box,color=blue];
+		37 -> 38;
+		37 -> 39;
+	36 [label="İşe geri dönüyorum",shape=box,color=blue];
+		36 -> 40;
+	48 [label="+20 Chemistry",color=orange];
+		48 -> 50;
+	41 [label="Bueno",shape=box,color=blue];
+		41 -> 42;
+	45 [label="+10 Chemistry",color=orange];
+		45 -> 43;
+	40 [label="Chat ends.",color=orange];
+	50 [label="Buena suerte",shape=box,color=blue];
+		50 -> 51;
+	42 [label="Chat ends.",color=orange];
+	43 [label="Yerel halkı Techrot ve scaldra'nın kavgasına girmemeye ikna et 
 Eso sería genial",shape=box,color=blue];
-		j1758507825 -> j881521682;
-	j881521682 [label="Bunun dışında? 
+		43 -> 44;
+	51 [label="Chat ends.",color=orange];
+	44 [label="Bunun dışında? 
 Düşüneceğim",shape=box,color=blue];
-		j881521682 -> j2570747018;
-	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
-		j2570747018 -> "Chat ends.";
+		44 -> 46;
+	46 [label="Update boolean LettieSmallFavor",color=orange];
+		46 -> 47;
+	47 [label="Chat ends.",color=orange];
 }

@@ -1,128 +1,128 @@
 digraph {
-	"LettieRank4Convo7 begins." [color=orange];
-		"LettieRank4Convo7 begins." -> j1655154063;
-		"LettieRank4Convo7 begins." -> j3437250660;
-	j1655154063 [label="Entonces, ¿cómo es que terminaste involucrándote en todo el asunto de Arthur/Hex?",shape=box,color=red];
-		j1655154063 -> j4293324513;
-	j3437250660 [label="Parece que REALMENTE odias demasiado... a Entrati. ¿Por qué?",shape=box,color=red];
-		j3437250660 -> j2824785799;
-	j4293324513 [label="Check boolean LettieArthur1",color=orange];
-		j4293324513 -> j420802568 [label=true,color=green];
-		j4293324513 -> j641358009 [label=false,color=brown];
-	j2824785799 [label="Check boolean LettieCavia",color=orange];
-		j2824785799 -> j552733088 [label=true,color=green];
-		j2824785799 -> j3470538414 [label=false,color=brown];
-	j420802568 [label="Mm
+	1303 [label="LettieRank4Convo7 begins.",color=orange];
+		1303 -> 1304;
+		1303 -> 1308;
+	1304 [label="Entonces, ¿cómo es que terminaste involucrándote en todo el asunto de Arthur/Hex?",shape=box,color=red];
+		1304 -> 1306;
+	1308 [label="Parece que REALMENTE odias demasiado... a Entrati. ¿Por qué?",shape=box,color=red];
+		1308 -> 1309;
+	1306 [label="Check boolean LettieArthur1",color=orange];
+		1306 -> 1305 [label=true,color=green];
+		1306 -> 1307 [label=false,color=brown];
+	1309 [label="Check boolean LettieCavia",color=orange];
+		1309 -> 1310 [label=true,color=green];
+		1309 -> 1311 [label=false,color=brown];
+	1305 [label="Mm
 No es algo divertido de contar, camarada
 Es peor que la sanguinaria batalla en donde Arthur y yo nos convertimos en hermanos
 No es agradable de escuchar
 Mierda, no es para nada agradable",shape=box,color=blue];
-		j420802568 -> j1985693288;
-		j420802568 -> j266009572;
-	j641358009 [label="Arthur y yo somos hermanos
+		1305 -> 1326;
+		1305 -> 1327;
+	1307 [label="Arthur y yo somos hermanos
 Nos conocemos desde hace mucho
 Le prometí seguirlo a donde sea
 Parece ser que él se refería hasta las orillas del Mictlán",shape=box,color=blue];
-		j641358009 -> j2269062781;
-	j552733088 [label="Check boolean LettieLoid",color=orange];
-		j552733088 -> j1096171844 [label=true,color=green];
-		j552733088 -> j4040708208 [label=false,color=brown];
-	j3470538414 [label="Check boolean LettieLoid",color=orange];
-		j3470538414 -> j416292857 [label=true,color=green];
-		j3470538414 -> j504966913 [label=false,color=brown];
-	j1985693288 [label="Si no te sientes cómoda diciéndome, está bien.",shape=box,color=red];
-		j1985693288 -> j1020436252;
-	j266009572 [label="No hay problema. Hay mucha mierda que aún no te he dicho.",shape=box,color=red];
-		j266009572 -> j149694925;
-	j2269062781 [label="Estábamos asignados a la misma base 
+		1307 -> 1332;
+	1310 [label="Check boolean LettieLoid",color=orange];
+		1310 -> 1312 [label=true,color=green];
+		1310 -> 1313 [label=false,color=brown];
+	1311 [label="Check boolean LettieLoid",color=orange];
+		1311 -> 1314 [label=true,color=green];
+		1311 -> 1315 [label=false,color=brown];
+	1326 [label="Si no te sientes cómoda diciéndome, está bien.",shape=box,color=red];
+		1326 -> 1328;
+	1327 [label="No hay problema. Hay mucha mierda que aún no te he dicho.",shape=box,color=red];
+		1327 -> 1331;
+	1332 [label="Estábamos asignados a la misma base 
 Él en el ejército británico y yo en el libertatiano 
 Diferentes países, mismos enemigos",shape=box,color=blue];
-		j2269062781 -> j3161411703;
-	j1096171844 [label="Check boolean LettieEntratiFamily",color=orange];
-		j1096171844 -> j3753207136 [label=true,color=green];
-		j1096171844 -> j257808194 [label=false,color=brown];
-	j4040708208 [label="Check boolean LettieEntratiFamily",color=orange];
-		j4040708208 -> j4025868591 [label=true,color=green];
-		j4040708208 -> j892011534 [label=false,color=brown];
-	j416292857 [label="Check boolean LettieEntratiFamily",color=orange];
-		j416292857 -> j544903421 [label=true,color=green];
-		j416292857 -> j2105038174 [label=false,color=brown];
-	j504966913 [label="Check boolean LettieEntratiFamily",color=orange];
-		j504966913 -> j2068897857 [label=true,color=green];
-		j504966913 -> j2767317059 [label=false,color=brown];
-	j1020436252 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j1020436252 -> j2598094222;
-	j149694925 [label="+10 Chemistry",color=orange];
-		j149694925 -> j4181846684;
-	j3161411703 [label="Yo era la doctora de campo de mi regimiento 
+		1332 -> 1333;
+	1312 [label="Check boolean LettieEntratiFamily",color=orange];
+		1312 -> 1316 [label=true,color=green];
+		1312 -> 1317 [label=false,color=brown];
+	1313 [label="Check boolean LettieEntratiFamily",color=orange];
+		1313 -> 1318 [label=true,color=green];
+		1313 -> 1319 [label=false,color=brown];
+	1314 [label="Check boolean LettieEntratiFamily",color=orange];
+		1314 -> 1321 [label=true,color=green];
+		1314 -> 1322 [label=false,color=brown];
+	1315 [label="Check boolean LettieEntratiFamily",color=orange];
+		1315 -> 1323 [label=true,color=green];
+		1315 -> 1324 [label=false,color=brown];
+	1328 [label="Update boolean LettieHexAsked",color=orange];
+		1328 -> 1329;
+	1331 [label="+10 Chemistry",color=orange];
+		1331 -> 1330;
+	1333 [label="Yo era la doctora de campo de mi regimiento 
 Nos desplegaron junto al suyo
 El lugar se volvió un verdadero cagadero 
 Muy rápido",shape=box,color=blue];
-		j3161411703 -> j1736061510;
-	j3753207136 [label="Sí 
+		1333 -> 1334;
+	1316 [label="Sí 
 Tal vez es demasiado
 Pero después de todo lo que me dijiste
 Sobre como maltrató a esos pobres animales
 Abandonó a su familia
 Y al hombre que lo ama
 ¡¿Cómo no podría odiar a ese cabrón?!",shape=box,color=blue];
-		j3753207136 -> j4106797655;
-	j257808194 [label="Sí 
+		1316 -> 1320;
+	1317 [label="Sí 
 Tal vez es demasiado
 Pero después de todo lo que me dijiste
 Sobre como maltrató a esos pobres animales
 Y al hombre que lo ama
 ¡¿Cómo no podría odiar a ese cabrón?!",shape=box,color=blue];
-		j257808194 -> j4106797655;
-	j4025868591 [label="Sí 
+		1317 -> 1320;
+	1318 [label="Sí 
 Tal vez es demasiado
 Pero después de todo lo que me dijiste
 Sobre como maltrató a esos pobres animales
 Abandonó a su familia
 ¡¿Cómo no podría odiar a ese cabrón?!",shape=box,color=blue];
-		j4025868591 -> j4106797655;
-	j892011534 [label="Sí 
+		1318 -> 1320;
+	1319 [label="Sí 
 Tal vez es demasiado
 Pero después de todo lo que me dijiste
 Sobre como maltrató a esos pobres animales
 ¡¿Cómo no podría odiar a ese cabrón?!",shape=box,color=blue];
-		j892011534 -> j4106797655;
-	j544903421 [label="Sí 
+		1319 -> 1320;
+	1321 [label="Sí 
 Tal vez es demasiado
 Pero después de todo lo que me dijiste
 Sobre como abandonó a su familia
 Y al hombre que lo ama
 ¡¿Cómo no podría odiar a ese cabrón?!",shape=box,color=blue];
-		j544903421 -> j507724002;
-	j2105038174 [label="Sí 
+		1321 -> 1325;
+	1322 [label="Sí 
 Tal vez es demasiado
 Pero después de todo lo que me dijiste
 Sobre como abandonó al hombre que lo ama
 ¡¿Cómo no podría odiar a ese cabrón?!",shape=box,color=blue];
-		j2105038174 -> j507724002;
-	j2068897857 [label="Sí 
+		1322 -> 1325;
+	1323 [label="Sí 
 Tal vez es demasiado
 Pero después de todo lo que me dijiste
 Sobre como abandonó a su familia
 ¡¿Cómo no podría odiar a ese cabrón?!",shape=box,color=blue];
-		j2068897857 -> j507724002;
-	j2767317059 [label="Sí 
+		1323 -> 1325;
+	1324 [label="Sí 
 Tal vez es demasiado
 Pero después de todo lo que me dijiste
 ¡¿Cómo no podría odiar a ese cabrón?!",shape=box,color=blue];
-		j2767317059 -> j507724002;
-	j2598094222 [label="No es que no me sienta cómoda, babas
+		1324 -> 1325;
+	1329 [label="No es que no me sienta cómoda, babas
 Es que quieres escuchar sobre todas las veces donde he tenido que dejar ir a alguien o cortar alguna extremidad
 Todas las veces que he tenido a una madre sollozando a lado del cuerpo inerte de su infante solo para decirle que no pude salvarlo
 Veo eso todo el tiempo
 Me vale madre",shape=box,color=blue];
-		j2598094222 -> j1763211606;
-		j2598094222 -> j3672774235;
-	j4181846684 [label="Sí 
+		1329 -> 1336;
+		1329 -> 1335;
+	1330 [label="Sí 
 Todos tenemos cosas que no les decimos a los demás
 Hasta que estamos seguros de que podemos confiar en que no van a cambiar la forma en que nos ven",shape=box,color=blue];
-		j4181846684 -> j350353099;
-	j1736061510 [label="La mayoría de mi tripulación no lo logró
+		1330 -> 1340;
+	1334 [label="La mayoría de mi tripulación no lo logró
 Muchos de la suya tampoco 
 Nos mantuvimos unidos 
 Literalmente 
@@ -130,395 +130,437 @@ Le cosí su brazo jaja
 Cuando él se retiró y se fue a la RCI
 Lo seguí sin preguntar
 De todos modos, estaba cansada de todo el drama que había en el ejército",shape=box,color=blue];
-		j1736061510 -> j225394097;
-	j4106797655 [label="Check boolean LettieTrust1",color=orange];
-		j4106797655 -> j2409378448 [label=true,color=green];
-		j4106797655 -> j1366142391 [label=true,color=green];
-		j4106797655 -> j1502953631 [label=false,color=brown];
-		j4106797655 -> j2285718701 [label=false,color=brown];
-	j507724002 [label="Check boolean LettieTrust1",color=orange];
-		j507724002 -> j2409378448 [label=true,color=green];
-		j507724002 -> j2285718701 [label=true,color=green];
-		j507724002 -> j3864865632 [label=true,color=green];
-		j507724002 -> j2285718701 [label=false,color=brown];
-		j507724002 -> j3864865632 [label=false,color=brown];
-	j1763211606 [label="¿Entonces cuál es el problema?",shape=box,color=red];
-		j1763211606 -> j480193478;
-	j3672774235 [label="¿Está bien?, ¿perdón?",shape=box,color=red];
-		j3672774235 -> j1263770990;
-	j350353099 [label="Check boolean LettieNoFlirt",color=orange];
-		j350353099 -> j3294564298 [label=true,color=green];
-		j350353099 -> j506422858 [label=true,color=green];
-		j350353099 -> j3294564298 [label=false,color=brown];
-		j350353099 -> j506422858 [label=false,color=brown];
-		j350353099 -> j1317586340 [label=false,color=brown];
-	j225394097 [label="Boolean LettieArthur1 is now true.",color=orange];
-		j225394097 -> j3682512833;
-		j225394097 -> j3307803871;
-	j2409378448 [label="Por la manera en la que hablas de él, y porque sé qué tan importante es la confianza para ti... parece ser personal.",shape=box,color=red];
-		j2409378448 -> j2119689453;
-	j1366142391 [label="Sé lo mucho que odias cuando la gente rompe la confianza de otros. Especialmente la de los animales.",shape=box,color=red];
-		j1366142391 -> j961070565;
-	j1502953631 [label="Que la gente que lastima animales tiene un lugar especial en el infierno, definitivamente. Pero parece ser que hay algo más ahí.",shape=box,color=red];
-		j1502953631 -> j961070565;
-	j2285718701 [label="Sí, pero parece ser un rencor personal el cual tienes contra él.",shape=box,color=red];
-		j2285718701 -> j3091462718;
-	j3864865632 [label="Suficiente para mí.",shape=box,color=red];
-		j3864865632 -> j495880547;
-	j480193478 [label="Puede que cambie la forma en la que ves a algunos de nosotros, babas
+		1334 -> 1341;
+	1320 [label="Check boolean LettieTrust1",color=orange];
+		1320 -> 1342 [label=true,color=green];
+		1320 -> 1343 [label=true,color=green];
+		1320 -> 1344 [label=false,color=brown];
+		1320 -> 1345 [label=false,color=brown];
+	1325 [label="Check boolean LettieTrust1",color=orange];
+		1325 -> 1346 [label=true,color=green];
+		1325 -> 1347 [label=true,color=green];
+		1325 -> 1348 [label=true,color=green];
+		1325 -> 1347 [label=false,color=brown];
+		1325 -> 1348 [label=false,color=brown];
+	1336 [label="¿Entonces cuál es el problema?",shape=box,color=red];
+		1336 -> 1339;
+	1335 [label="¿Está bien?, ¿perdón?",shape=box,color=red];
+		1335 -> 1337;
+	1340 [label="Check boolean LettieNoFlirt",color=orange];
+		1340 -> 1404 [label=true,color=green];
+		1340 -> 1405 [label=true,color=green];
+		1340 -> 1404 [label=false,color=brown];
+		1340 -> 1405 [label=false,color=brown];
+		1340 -> 1406 [label=false,color=brown];
+	1341 [label="Update boolean LettieArthur1",color=orange];
+		1341 -> 1389;
+		1341 -> 1390;
+	1342 [label="Por la manera en la que hablas de él, y porque sé qué tan importante es la confianza para ti... parece ser personal.",shape=box,color=red];
+		1342 -> 1359;
+	1343 [label="Sé lo mucho que odias cuando la gente rompe la confianza de otros. Especialmente la de los animales.",shape=box,color=red];
+		1343 -> 1360;
+	1344 [label="Que la gente que lastima animales tiene un lugar especial en el infierno, definitivamente. Pero parece ser que hay algo más ahí.",shape=box,color=red];
+		1344 -> 1360;
+	1345 [label="Sí, pero parece ser un rencor personal el cual tienes contra él.",shape=box,color=red];
+		1345 -> 1354;
+	1346 [label="Por la manera en la que hablas de él, y porque sé qué tan importante es la confianza para ti... parece ser personal.",shape=box,color=red];
+		1346 -> 1359;
+	1347 [label="Sí, pero parece ser un rencor personal el cual tienes contra él.",shape=box,color=red];
+		1347 -> 1354;
+	1348 [label="Suficiente para mí.",shape=box,color=red];
+		1348 -> 1350;
+	1339 [label="Puede que cambie la forma en la que ves a algunos de nosotros, babas
 No sé si confío en ti lo suficiente como para saber si es que no vas a alejarte",shape=box,color=blue];
-		j480193478 -> j350353099;
-	j1263770990 [label="Sí, como quieras",shape=box,color=blue];
-		j1263770990 -> "Chat ends.";
-	j3294564298 [label="¿Sigues sin confiar en mí?",shape=box,color=red];
-		j3294564298 -> j2770447619;
-	j506422858 [label="Todos hemos cometido errores en la vida. No creo que sea algo tan malo.",shape=box,color=red];
-		j506422858 -> j2938503517;
-	j1317586340 [label="Ten cuidado, o puede que empiece a pensar que te estás encariñando conmigo.",shape=box,color=red];
-		j1317586340 -> j2110151604;
-	j3682512833 [label="¿Entonces qué?, ¿cómo es que llegaron a ser...?",shape=box,color=red];
-		j3682512833 -> j1228952619;
-	j3307803871 [label="La guerra apesta. No importa cuándo, no importa cómo.",shape=box,color=red];
-		j3307803871 -> j623488510;
-	j2119689453 [label="+15 Chemistry",color=orange];
-		j2119689453 -> j1813283745;
-	j961070565 [label="+20 Chemistry",color=orange];
-		j961070565 -> j4158332932;
-	j3091462718 [label="Sí, lo tengo
+		1339 -> 1340;
+	1337 [label="Sí, como quieras",shape=box,color=blue];
+		1337 -> 1338;
+	1404 [label="¿Sigues sin confiar en mí?",shape=box,color=red];
+		1404 -> 1411;
+	1405 [label="Todos hemos cometido errores en la vida. No creo que sea algo tan malo.",shape=box,color=red];
+		1405 -> 1415;
+	1406 [label="Ten cuidado, o puede que empiece a pensar que te estás encariñando conmigo.",shape=box,color=red];
+		1406 -> 1413;
+	1389 [label="¿Entonces qué?, ¿cómo es que llegaron a ser...?",shape=box,color=red];
+		1389 -> 1391;
+	1390 [label="La guerra apesta. No importa cuándo, no importa cómo.",shape=box,color=red];
+		1390 -> 1394;
+	1359 [label="+15 Chemistry",color=orange];
+		1359 -> 1352;
+	1360 [label="+20 Chemistry",color=orange];
+		1360 -> 1353;
+	1354 [label="Sí, lo tengo
 Tengo mis razones",shape=box,color=blue];
-		j3091462718 -> j305388317;
-		j3091462718 -> j1270772942;
-	j495880547 [label="+10 Chemistry",color=orange];
-		j495880547 -> j4196049080;
-	"Chat ends." [color=orange];
-	j2770447619 [label="+10 Chemistry",color=orange];
-		j2770447619 -> j798684141;
-	j2938503517 [label="+5 Chemistry",color=orange];
-		j2938503517 -> j2524652086;
-	j2110151604 [label="+10 Chemistry",color=orange];
-		j2110151604 -> j1177497191;
-	j1228952619 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j1228952619 -> j1310072640;
-	j623488510 [label="Aprecio eso
+		1354 -> 1357;
+		1354 -> 1358;
+	1350 [label="+10 Chemistry",color=orange];
+		1350 -> 1349;
+	1338 [label="Chat ends.",color=orange];
+	1411 [label="+10 Chemistry",color=orange];
+		1411 -> 1407;
+	1415 [label="+5 Chemistry",color=orange];
+		1415 -> 1408;
+	1413 [label="+10 Chemistry",color=orange];
+		1413 -> 1409;
+	1391 [label="Update boolean LettieHexAsked",color=orange];
+		1391 -> 1392;
+	1394 [label="Aprecio eso
 Nuestras guerras parecen ser pequeñas
 Las tuyas suenan tan espectaculares y llamativas
 Llenas de dioses, ángeles y demonios",shape=box,color=blue];
-		j623488510 -> j2157877972;
-	j1813283745 [label="Ay, sí
+		1394 -> 1393;
+	1352 [label="Ay, sí
 Te diste cuenta
 Necesito un nuevo apodo para ti, ¿eh babas? Jaja",shape=box,color=blue];
-		j1813283745 -> j1449528014;
-	j4158332932 [label="Ay, sí 
+		1352 -> 1355;
+	1353 [label="Ay, sí 
 Los animales más que nada merecen lo mejor que podamos darles 
 Y cuando la confianza se rompe así 
 Me dan ganas de matar a cierto hombre 
 Específicamente a ESE",shape=box,color=blue];
-		j4158332932 -> j427534995;
-	j305388317 [label="¿Puedo preguntar qué te hizo?",shape=box,color=red];
-		j305388317 -> j3836989365;
-	j1270772942 [label="Si no te sientes cómoda diciéndome, está bien.",shape=box,color=red];
-		j1270772942 -> j2666079853;
-	j4196049080 [label="Sí 
+		1353 -> 1356;
+	1357 [label="¿Puedo preguntar qué te hizo?",shape=box,color=red];
+		1357 -> 1371;
+	1358 [label="Si no te sientes cómoda diciéndome, está bien.",shape=box,color=red];
+		1358 -> 1370;
+	1349 [label="Sí 
 Ese cabrón se puede ir brincando a la chingada",shape=box,color=blue];
-		j4196049080 -> "Chat ends.";
-	j798684141 [label="Tal vez
+		1349 -> 1351;
+	1407 [label="Tal vez
 Tal vez no
 Ya me acostumbré a que me estés estorbando
 Puede que te vaya a extrañar si es que te alejas
 No dejes que se te suba a la cabeza",shape=box,color=blue];
-		j798684141 -> "Chat ends.";
-	j2524652086 [label="Tal vez
+		1407 -> 1412;
+	1408 [label="Tal vez
 Tal vez no
 Ya veremos
 Pero no hoy",shape=box,color=blue];
-		j2524652086 -> "Chat ends.";
-	j1177497191 [label="Jajaja, sí 
+		1408 -> 1416;
+	1409 [label="Jajaja, sí 
 Tal vez lo estoy
 O tal vez es solo que estoy feliz de tener a alguien cerca que es útil, babas",shape=box,color=blue];
-		j1177497191 -> j2920270981;
-	j1310072640 [label="Llegaron a ser qué, babas 
+		1409 -> 1410;
+	1392 [label="Llegaron a ser qué, babas 
 ¿Monstruos?",shape=box,color=blue];
-		j1310072640 -> j4151077936;
-		j1310072640 -> j2080386401;
-		j1310072640 -> j4079130947;
-	j2157877972 [label="+10 Chemistry",color=orange];
-		j2157877972 -> j3765096638;
-	j1449528014 [label="Boolean LettieTrust2 is now true.",color=orange];
-		j1449528014 -> j3310755436;
-		j1449528014 -> j4215087003;
-	j427534995 [label="Boolean LettieTrust2 is now true.",color=orange];
-		j427534995 -> j1283660927;
-	j3836989365 [label="+10 Chemistry",color=orange];
-		j3836989365 -> j3734182836;
-	j2666079853 [label="No es que no me sienta cómoda, babas
+		1392 -> 1396;
+		1392 -> 1397;
+		1392 -> 1398;
+	1393 [label="+10 Chemistry",color=orange];
+		1393 -> 1395;
+	1355 [label="Update boolean LettieTrust2",color=orange];
+		1355 -> 1361;
+		1355 -> 1362;
+	1356 [label="Update boolean LettieTrust2",color=orange];
+		1356 -> 1363;
+	1371 [label="+10 Chemistry",color=orange];
+		1371 -> 1369;
+	1370 [label="No es que no me sienta cómoda, babas
 Es que quieres escuchar sobre todas las veces donde he tenido que dejar ir a alguien o cortar alguna extremidad
 Todas las veces que he tenido a una madre sollozando a lado del cuerpo inerte de su infante solo para decirle que no pude salvarlo
 Veo eso todo el tiempo
 Me vale madre",shape=box,color=blue];
-		j2666079853 -> j1168449588;
-	j2920270981 [label="Ya me acostumbré a que me estés estorbando
+		1370 -> 1372;
+	1351 [label="Chat ends.",color=orange];
+	1412 [label="Chat ends.",color=orange];
+	1416 [label="Chat ends.",color=orange];
+	1410 [label="Ya me acostumbré a que me estés estorbando
 Puede que te vaya a extrañar si es que te alejas
 No dejes que se te suba a la cabeza",shape=box,color=blue];
-		j2920270981 -> "Chat ends.";
-	j4151077936 [label="Iba a decir, a ser \"Hex\"",shape=box,color=red];
-		j4151077936 -> j454895201;
-	j2080386401 [label="Iba a decir, a ser \"protoframes\"",shape=box,color=red];
-		j2080386401 -> j4062527490;
-	j4079130947 [label="¿Eso es lo qué piensas que eres?",shape=box,color=red];
-		j4079130947 -> j945568395;
-	j3765096638 [label="Pero supongo que al final todo es igual
+		1410 -> 1414;
+	1396 [label="Iba a decir, a ser \"Hex\"",shape=box,color=red];
+		1396 -> 1399;
+	1397 [label="Iba a decir, a ser \"protoframes\"",shape=box,color=red];
+		1397 -> 1400;
+	1398 [label="¿Eso es lo qué piensas que eres?",shape=box,color=red];
+		1398 -> 1401;
+	1395 [label="Pero supongo que al final todo es igual
 Gente muriendo en el barro y el lodo
 Con la confianza rota y vidas perdidas
 Y La Flaca llevándoselos a casa",shape=box,color=blue];
-		j3765096638 -> j4096741237;
-	j3310755436 [label="Si no te sientes cómoda diciéndome, está bien.",shape=box,color=red];
-		j3310755436 -> j1123846402;
-	j4215087003 [label="¿Qué te *hizo* él?",shape=box,color=red];
-		j4215087003 -> j3860169114;
-	j1283660927 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j1283660927 -> j2333021879;
-		j1283660927 -> j3716373978;
-	j3734182836 [label="Mm
+		1395 -> 1458;
+	1361 [label="Si no te sientes cómoda diciéndome, está bien.",shape=box,color=red];
+		1361 -> 1364;
+	1362 [label="¿Qué te *hizo* él?",shape=box,color=red];
+		1362 -> 1365;
+	1363 [label="Update boolean LettieHexAsked",color=orange];
+		1363 -> 1366;
+		1363 -> 1367;
+	1369 [label="Mm
 No es algo divertido de contar, compañero
 No es agradable de escuchar 
 Mierda, no es para nada agradable",shape=box,color=blue];
-		j3734182836 -> j1168449588;
-	j1168449588 [label="Es solo que... 
+		1369 -> 1372;
+	1372 [label="Es solo que... 
 No es algo de lo que quisiera hablar
 No hoy",shape=box,color=blue];
-		j1168449588 -> j1561745117;
-		j1168449588 -> j4063360759;
-	j454895201 [label="Odio ese nombre
+		1372 -> 1373;
+		1372 -> 1374;
+	1414 [label="Chat ends.",color=orange];
+	1399 [label="Odio ese nombre
 La bruja lo eligió
 No recuerdo haber votado",shape=box,color=blue];
-		j454895201 -> j4257899114;
-	j4062527490 [label="Palabra estúpida
+		1399 -> 1402;
+	1400 [label="Palabra estúpida
 Suena a que te la inventaste
 No recuerdo haber votado por ella",shape=box,color=blue];
-		j4062527490 -> j4257899114;
-	j945568395 [label="Sí 
+		1400 -> 1402;
+	1401 [label="Sí 
 Es lo que somos 
 Monstruos, antinaturales 
 Hechos por ese cabrón",shape=box,color=blue];
-		j945568395 -> j3349205912;
-	j4096741237 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j4096741237 -> j137711597;
-		j4096741237 -> j2490297496;
-	j1123846402 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j1123846402 -> j1427935957;
-	j3860169114 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j3860169114 -> j3294070801;
-	j2333021879 [label="No sé qué te hizo él, pero... parece serio.",shape=box,color=red];
-		j2333021879 -> j3294070801;
-	j3716373978 [label="¿Puedo preguntar qué te hizo?",shape=box,color=red];
-		j3716373978 -> j3294070801;
-	j1561745117 [label="¿Por qué no?",shape=box,color=red];
-		j1561745117 -> j2920270981;
-	j4063360759 [label="Entiendo. No hay problema.",shape=box,color=red];
-		j4063360759 -> j2911200970;
-	j4257899114 [label="Ay, equis 
+		1401 -> 1403;
+	1458 [label="Update boolean LettieHexAsked",color=orange];
+		1458 -> 1460;
+		1458 -> 1461;
+	1364 [label="Update boolean LettieHexAsked",color=orange];
+		1364 -> 1375;
+	1365 [label="Update boolean LettieHexAsked",color=orange];
+		1365 -> 1376;
+	1366 [label="No sé qué te hizo él, pero... parece serio.",shape=box,color=red];
+		1366 -> 1368;
+	1367 [label="¿Puedo preguntar qué te hizo?",shape=box,color=red];
+		1367 -> 1368;
+	1373 [label="¿Por qué no?",shape=box,color=red];
+		1373 -> 1385;
+	1374 [label="Entiendo. No hay problema.",shape=box,color=red];
+		1374 -> 1384;
+	1402 [label="Ay, equis 
 No vale la pena pelear por ello
 No cambia lo que somos
 Solo experimentos científicos retorcidos
 Ratas de laboratorio",shape=box,color=blue];
-		j4257899114 -> j2720663697;
-	j3349205912 [label="Como esa creatura de los libros que está toda cosida
+		1402 -> 1417;
+	1403 [label="Como esa creatura de los libros que está toda cosida
 Solo experimentos científicos retorcidos
 Ratas de laboratorio",shape=box,color=blue];
-		j3349205912 -> j2720663697;
-	j137711597 [label="¿Y cómo es que llegaste a conocer a Entrati?",shape=box,color=red];
-		j137711597 -> j1664467618;
-	j2490297496 [label="¿Puedo preguntarte qué pasó después?",shape=box,color=red];
-		j2490297496 -> j577647261;
-	j1427935957 [label="No es que no me sienta cómoda, babas
+		1403 -> 1417;
+	1460 [label="¿Y cómo es que llegaste a conocer a Entrati?",shape=box,color=red];
+		1460 -> 1459;
+	1461 [label="¿Puedo preguntarte qué pasó después?",shape=box,color=red];
+		1461 -> 1462;
+	1375 [label="No es que no me sienta cómoda, babas
 Es que quieres escuchar sobre todas las veces donde he tenido que dejar ir a alguien o cortar alguna extremidad
 Todas las veces que he tenido a una madre sollozando a lado del cuerpo inerte de su infante solo para decirle que no pude salvarlo
 Veo eso todo el tiempo
 Me vale madre",shape=box,color=blue];
-		j1427935957 -> j3470616997;
-	j3294070801 [label="Mm
+		1375 -> 1377;
+	1376 [label="Mm
 No es algo divertido de contar, camarada
 No es agradable de escuchar 
 Mierda, no es para nada agradable",shape=box,color=blue];
-		j3294070801 -> j3470616997;
-	j2911200970 [label="+5 Chemistry",color=orange];
-		j2911200970 -> j1047397155;
-	j2720663697 [label="Check boolean LettieRats1",color=orange];
-		j2720663697 -> j1349383781 [label=true,color=green];
-		j2720663697 -> j1767513069 [label=false,color=brown];
-	j1664467618 [label="Mmm, ¿por qué estás preguntando?, ¿babas?
+		1376 -> 1377;
+	1368 [label="Mm
+No es algo divertido de contar, camarada
+No es agradable de escuchar 
+Mierda, no es para nada agradable",shape=box,color=blue];
+		1368 -> 1377;
+	1385 [label="Ya me acostumbré a que me estés estorbando
+Puede que te vaya a extrañar si es que te alejas
+No dejes que se te suba a la cabeza",shape=box,color=blue];
+		1385 -> 1386;
+	1384 [label="+5 Chemistry",color=orange];
+		1384 -> 1388;
+	1417 [label="Check boolean LettieRats1",color=orange];
+		1417 -> 1420 [label=true,color=green];
+		1417 -> 1418 [label=false,color=brown];
+	1459 [label="Mmm, ¿por qué estás preguntando?, ¿babas?
 ¿Nadie te ha contado qué es lo que pasó?",shape=box,color=blue];
-		j1664467618 -> j2827510988;
-		j1664467618 -> j3598707936;
-		j1664467618 -> j2239394037;
-	j577647261 [label="Sí, lo acabas de hacer jajaja
+		1459 -> 1463;
+		1459 -> 1464;
+		1459 -> 1465;
+	1462 [label="Sí, lo acabas de hacer jajaja
 Pero sé qué es lo que estás preguntando
 Has estado rondando el tema como si bailaras tango
 Sabes que no quiero hablar de ello
 ¿Nadie te ha contado qué es lo que pasó?",shape=box,color=blue];
-		j577647261 -> j2827510988;
-		j577647261 -> j3598707936;
-		j577647261 -> j2239394037;
-	j3470616997 [label="Es solo que... 
+		1462 -> 1463;
+		1462 -> 1464;
+		1462 -> 1465;
+	1377 [label="Es solo que... 
 No es algo de lo que quisiera hablar
 No hoy",shape=box,color=blue];
-		j3470616997 -> j1561745117;
-		j3470616997 -> j3897527241;
-	j1047397155 [label="Gracias
+		1377 -> 1379;
+		1377 -> 1378;
+	1386 [label="Chat ends.",color=orange];
+	1388 [label="Gracias
 Ya me acostumbré a que me estés estorbando
 Puede que te vaya a extrañar si es que te alejas
 No dejes que se te suba a la cabeza",shape=box,color=blue];
-		j1047397155 -> "Chat ends.";
-	j1349383781 [label="Check boolean LettieNoFlirt",color=orange];
-		j1349383781 -> j1121963516 [label=true,color=green];
-		j1349383781 -> j104365161 [label=true,color=green];
-		j1349383781 -> j1121963516 [label=false,color=brown];
-		j1349383781 -> j104365161 [label=false,color=brown];
-		j1349383781 -> j2187378327 [label=false,color=brown];
-	j1767513069 [label="Check boolean LettieRats2",color=orange];
-		j1767513069 -> j1349383781 [label=true,color=green];
-		j1767513069 -> j2998697729 [label=false,color=brown];
-	j2827510988 [label="Solo estoy tratando de ver todo el panorama.",shape=box,color=red];
-		j2827510988 -> j997685810;
-	j3598707936 [label="Nadie me dice. Solo evaden el tema.",shape=box,color=red];
-		j3598707936 -> j1735224020;
-	j2239394037 [label="Creí que tu serías la que me daría una respuesta directa.",shape=box,color=red];
-		j2239394037 -> j3788544330;
-	j3897527241 [label="Entiendo. No hay problema.",shape=box,color=red];
-		j3897527241 -> j1047397155;
-	j1121963516 [label="Estás muy lejos de ser una rata de laboratorio, Lettie.",shape=box,color=red];
-		j1121963516 -> j1247124825;
-	j104365161 [label="Bueno, yo creo que las ratas son inteligentes, sociales, adorables, unos animales maravillosos...",shape=box,color=red];
-		j104365161 -> j2973435785;
-	j2187378327 [label="La rata de laboratorio más sexy que *he visto* jamás.",shape=box,color=red];
-		j2187378327 -> j4147406737;
-	j2998697729 [label="Check boolean LettieRats3",color=orange];
-		j2998697729 -> j1349383781 [label=true,color=green];
-		j2998697729 -> j4030809656 [label=false,color=brown];
-	j997685810 [label="+10 Chemistry",color=orange];
-		j997685810 -> j2629988231;
-	j1735224020 [label="+15 Chemistry",color=orange];
-		j1735224020 -> j3530524428;
-	j3788544330 [label="+20 Chemistry",color=orange];
-		j3788544330 -> j4043158843;
-	j1247124825 [label="¿Ay, sí? 
+		1388 -> 1387;
+	1420 [label="Check boolean LettieNoFlirt",color=orange];
+		1420 -> 1422 [label=true,color=green];
+		1420 -> 1424 [label=true,color=green];
+		1420 -> 1422 [label=false,color=brown];
+		1420 -> 1424 [label=false,color=brown];
+		1420 -> 1425 [label=false,color=brown];
+	1418 [label="Check boolean LettieRats2",color=orange];
+		1418 -> 1420 [label=true,color=green];
+		1418 -> 1419 [label=false,color=brown];
+	1463 [label="Solo estoy tratando de ver todo el panorama.",shape=box,color=red];
+		1463 -> 1469;
+	1464 [label="Nadie me dice. Solo evaden el tema.",shape=box,color=red];
+		1464 -> 1470;
+	1465 [label="Creí que tu serías la que me daría una respuesta directa.",shape=box,color=red];
+		1465 -> 1471;
+	1379 [label="¿Por qué no?",shape=box,color=red];
+		1379 -> 1380;
+	1378 [label="Entiendo. No hay problema.",shape=box,color=red];
+		1378 -> 1381;
+	1387 [label="Chat ends.",color=orange];
+	1422 [label="Estás muy lejos de ser una rata de laboratorio, Lettie.",shape=box,color=red];
+		1422 -> 1423;
+	1424 [label="Bueno, yo creo que las ratas son inteligentes, sociales, adorables, unos animales maravillosos...",shape=box,color=red];
+		1424 -> 1434;
+	1425 [label="La rata de laboratorio más sexy que *he visto* jamás.",shape=box,color=red];
+		1425 -> 1435;
+	1419 [label="Check boolean LettieRats3",color=orange];
+		1419 -> 1420 [label=true,color=green];
+		1419 -> 1421 [label=false,color=brown];
+	1469 [label="+10 Chemistry",color=orange];
+		1469 -> 1466;
+	1470 [label="+15 Chemistry",color=orange];
+		1470 -> 1467;
+	1471 [label="+20 Chemistry",color=orange];
+		1471 -> 1468;
+	1380 [label="Ya me acostumbré a que me estés estorbando
+Puede que te vaya a extrañar si es que te alejas
+No dejes que se te suba a la cabeza",shape=box,color=blue];
+		1380 -> 1382;
+	1381 [label="Gracias
+Ya me acostumbré a que me estés estorbando
+Puede que te vaya a extrañar si es que te alejas
+No dejes que se te suba a la cabeza",shape=box,color=blue];
+		1381 -> 1383;
+	1423 [label="¿Ay, sí? 
 Usadas para hacer experimentos, infectadas, abusadas
 Desechadas cuando ya no son de utilidad
 Peligrosas por esparcir enfermedades",shape=box,color=blue];
-		j1247124825 -> j3062345966;
-		j1247124825 -> j2484166373;
-	j2973435785 [label="+10 Chemistry",color=orange];
-		j2973435785 -> j2737231542;
-	j4147406737 [label="+10 Chemistry",color=orange];
-		j4147406737 -> j1526068711;
-	j4030809656 [label="Check boolean LettieNoFlirt",color=orange];
-		j4030809656 -> j3555892487 [label=true,color=green];
-		j4030809656 -> j3149657805 [label=true,color=green];
-		j4030809656 -> j2187378327 [label=false,color=brown];
-		j4030809656 -> j3555892487 [label=false,color=brown];
-		j4030809656 -> j3149657805 [label=false,color=brown];
-	j2629988231 [label="Ay, sííí
+		1423 -> 1432;
+		1423 -> 1433;
+	1434 [label="+10 Chemistry",color=orange];
+		1434 -> 1426;
+	1435 [label="+10 Chemistry",color=orange];
+		1435 -> 1427;
+	1421 [label="Check boolean LettieNoFlirt",color=orange];
+		1421 -> 1428 [label=true,color=green];
+		1421 -> 1429 [label=true,color=green];
+		1421 -> 1425 [label=false,color=brown];
+		1421 -> 1428 [label=false,color=brown];
+		1421 -> 1429 [label=false,color=brown];
+	1466 [label="Ay, sííí
 Estoy segura de que eso es lo que tratas de hacer
 Y si nadie más quiere decirte supongo que depende de Mamá Lettie
 Bueno, esta historia es una que no me gusta contar
 Especialmente porque ya me acostumbre a que me estés estorbando",shape=box,color=blue];
-		j2629988231 -> j3467040744;
-	j3530524428 [label="Mmm y me pregunto por qué
+		1466 -> 1472;
+	1467 [label="Mmm y me pregunto por qué
 Y creíste que Mamá Lettie te diría la verdad
 Normalmente estarías en lo correcto, babas
 Pero esta es una historia que no me gusta contar
 Especialmente porque ya me acostumbre a que me estés estorbando",shape=box,color=blue];
-		j3530524428 -> j3467040744;
-	j4043158843 [label="JAJAJA Sííí 
+		1467 -> 1472;
+	1468 [label="JAJAJA Sííí 
 Normalmente estarías en lo correcto
 ¿Pero esta?
 Es una que no me gusta contar
 Especialmente porque ya me acostumbre a que me estés estorbando",shape=box,color=blue];
-		j4043158843 -> j3467040744;
-	j3062345966 [label="¿A qué te refieres con, \"esparcir enfermedades\"?",shape=box,color=red];
-		j3062345966 -> j2074468875;
-	j2484166373 [label="Una rata de laboratorio no tiene la culpa de las cosas que los científicos les hacen.",shape=box,color=red];
-		j2484166373 -> j43439533;
-	j2737231542 [label="Nngh, sí, bien jugado 
+		1468 -> 1472;
+	1382 [label="Chat ends.",color=orange];
+	1383 [label="Chat ends.",color=orange];
+	1432 [label="¿A qué te refieres con, \"esparcir enfermedades\"?",shape=box,color=red];
+		1432 -> 1455;
+	1433 [label="Una rata de laboratorio no tiene la culpa de las cosas que los científicos les hacen.",shape=box,color=red];
+		1433 -> 1454;
+	1426 [label="Nngh, sí, bien jugado 
 Pero eso no significa que deberían de dejarlas esparcir enfermedades",shape=box,color=blue];
-		j2737231542 -> j3062345966;
-		j2737231542 -> j2484166373;
-	j1526068711 [label="Jajaja, gracias 
+		1426 -> 1432;
+		1426 -> 1433;
+	1427 [label="Jajaja, gracias 
 Sabes como hacerme sonreír
 Pero eso no significa que deberían de dejarlas esparcir enfermedades",shape=box,color=blue];
-		j1526068711 -> j3062345966;
-		j1526068711 -> j2484166373;
-	j3555892487 [label="Estás muy lejos de ser una rata de laboratorio, Lettie.",shape=box,color=red];
-		j3555892487 -> j858406033;
-	j3149657805 [label="Entonces, ¿qué propones que hagamos?, ¿qué los sacrifiquemos a todos ustedes?",shape=box,color=red];
-		j3149657805 -> j2019911886;
-	j3467040744 [label="Puede que te vaya a extrañar si es que te alejas
+		1427 -> 1432;
+		1427 -> 1433;
+	1428 [label="Estás muy lejos de ser una rata de laboratorio, Lettie.",shape=box,color=red];
+		1428 -> 1430;
+	1429 [label="Entonces, ¿qué propones que hagamos?, ¿qué los sacrifiquemos a todos ustedes?",shape=box,color=red];
+		1429 -> 1431;
+	1472 [label="Puede que te vaya a extrañar si es que te alejas
 Y esta historia puede que haga que des media vuelta y te vayas
 Así que es una historia para otro día
 Ah y babas
 No dejes que se te suba a la cabeza",shape=box,color=blue];
-		j3467040744 -> "Chat ends.";
-	j2074468875 [label="+10 Chemistry",color=orange];
-		j2074468875 -> j1996121349;
-	j43439533 [label="+10 Chemistry",color=orange];
-		j43439533 -> j776555865;
-	j858406033 [label="¿Ay, sí? 
+		1472 -> 1473;
+	1455 [label="+10 Chemistry",color=orange];
+		1455 -> 1452;
+	1454 [label="+10 Chemistry",color=orange];
+		1454 -> 1453;
+	1430 [label="¿Ay, sí? 
 Usadas para hacer experimentos, infectadas, abusadas
 Desechadas cuando ya no son de utilidad
 Peligrosas por esparcir enfermedades",shape=box,color=blue];
-		j858406033 -> j1839806520;
-		j858406033 -> j848954999;
-	j2019911886 [label="Si no estuviéramos atrapados en este bucle 
+		1430 -> 1436;
+		1430 -> 1437;
+	1431 [label="Si no estuviéramos atrapados en este bucle 
 Tendrías que hacerlo o nos volveríamos locos, así como la bruja metiche en esa pesadilla 
 ¿No es así?",shape=box,color=blue];
-		j2019911886 -> j2967819925;
-		j2019911886 -> j3229627972;
-	j1996121349 [label="Ese cabrón del Entrati merece una muerte lenta y dolorosa
+		1431 -> 1438;
+		1431 -> 1439;
+	1473 [label="Chat ends.",color=orange];
+	1452 [label="Ese cabrón del Entrati merece una muerte lenta y dolorosa
 Y espero ser yo quien lo mandé personalmente con La Flaca",shape=box,color=blue];
-		j1996121349 -> j2470861200;
-	j776555865 [label="Sí...
+		1452 -> 1456;
+	1453 [label="Sí...
 Eso mismo
 Ese cabrón del Entrati merece una muerte lenta y dolorosa
 Y espero ser yo quien lo mande personalmente con La Flaca",shape=box,color=blue];
-		j776555865 -> j2470861200;
-	j1839806520 [label="¿A qué te refieres con, \"esparcir enfermedades\"?",shape=box,color=red];
-		j1839806520 -> j879320829;
-	j848954999 [label="Nada de esto es tú culpa, Lettie.",shape=box,color=red];
-		j848954999 -> j1486553886;
-	j2967819925 [label="Sí. Con el tiempo, te volverías loca.",shape=box,color=red];
-		j2967819925 -> j4065357840;
-	j3229627972 [label="Bueno, con la transferencia podría retrasar eso...",shape=box,color=red];
-		j3229627972 -> j3289263059;
-	j2470861200 [label="Pero es una historia que no te voy a contar hoy
+		1453 -> 1456;
+	1436 [label="¿A qué te refieres con, \"esparcir enfermedades\"?",shape=box,color=red];
+		1436 -> 1441;
+	1437 [label="Nada de esto es tú culpa, Lettie.",shape=box,color=red];
+		1437 -> 1442;
+	1438 [label="Sí. Con el tiempo, te volverías loca.",shape=box,color=red];
+		1438 -> 1445;
+	1439 [label="Bueno, con la transferencia podría retrasar eso...",shape=box,color=red];
+		1439 -> 1446;
+	1456 [label="Pero es una historia que no te voy a contar hoy
 Hay muchas cosas por hacer
 Y hay mucha mierda en esa historia para el día de hoy
 Los dos tenemos que volver al trabajo",shape=box,color=blue];
-		j2470861200 -> "Chat ends.";
-	j879320829 [label="+10 Chemistry",color=orange];
-		j879320829 -> j2166694072;
-	j1486553886 [label="Jajaja 
+		1456 -> 1457;
+	1441 [label="+10 Chemistry",color=orange];
+		1441 -> 1440;
+	1442 [label="Jajaja 
 ¿Estás seguro, babas? 
 Solo espera
 Puede que cambies de opinión",shape=box,color=blue];
-		j1486553886 -> j2470861200;
-	j4065357840 [label="+10 Chemistry",color=orange];
-		j4065357840 -> j4002226469;
-	j3289263059 [label="No me mientas, babas
+		1442 -> 1443;
+	1445 [label="+10 Chemistry",color=orange];
+		1445 -> 1449;
+	1446 [label="No me mientas, babas
 No necesito que me protejas, ya deberías de saberlo",shape=box,color=blue];
-		j3289263059 -> j3082093694;
-	j2166694072 [label="Ese cabrón del Entrati merece una muerte lenta y dolorosa
+		1446 -> 1447;
+	1457 [label="Chat ends.",color=orange];
+	1440 [label="Ese cabrón del Entrati merece una muerte lenta y dolorosa
 Y espero ser yo quien lo mande personalmente con La Flaca",shape=box,color=blue];
-		j2166694072 -> j2470861200;
-	j4002226469 [label="¿Ves?
+		1440 -> 1443;
+	1443 [label="Pero es una historia que no te voy a contar hoy
+Hay muchas cosas por hacer
+Y hay mucha mierda en esa historia para el día de hoy
+Los dos tenemos que volver al trabajo",shape=box,color=blue];
+		1443 -> 1444;
+	1449 [label="¿Ves?
 Monstruos 
 Pero está bien, supongo
 No es que le hagamos mal a nadie aquí atrapados",shape=box,color=blue];
-		j4002226469 -> j497381103;
-	j3082093694 [label="Ay, equis 
+		1449 -> 1450;
+	1447 [label="Ay, equis 
 Vete",shape=box,color=blue];
-		j3082093694 -> "Chat ends.";
-	j497381103 [label="Ay, equis 
+		1447 -> 1448;
+	1444 [label="Chat ends.",color=orange];
+	1450 [label="Ay, equis 
 Los dos tenemos que volver al trabajo
 Vete, babas",shape=box,color=blue];
-		j497381103 -> "Chat ends.";
+		1450 -> 1451;
+	1448 [label="Chat ends.",color=orange];
+	1451 [label="Chat ends.",color=orange];
 }

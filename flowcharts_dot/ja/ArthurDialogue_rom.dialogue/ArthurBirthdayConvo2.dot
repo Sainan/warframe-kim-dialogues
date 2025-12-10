@@ -1,16 +1,21 @@
 digraph {
-	"ArthurBirthdayConvo2 begins." [color=orange];
-		"ArthurBirthdayConvo2 begins." -> j3241841759;
-		"ArthurBirthdayConvo2 begins." -> j1892058188;
-	j3241841759 [label="お誕生日おめでとう、Eleanorの弟さん！",shape=box,color=red];
-		j3241841759 -> j3817182005;
-	j1892058188 [label="Arthur、お誕生日おめでとう。予定はある？",shape=box,color=red];
-		j1892058188 -> j1722994754;
-	j3817182005 [label="止めろ。それをからかう奴が増えるのは御免だ。",shape=box,color=blue];
-		j3817182005 -> "Chat ends.";
-	j1722994754 [label="+20 Chemistry",color=orange];
-		j1722994754 -> j1301166770;
-	"Chat ends." [color=orange];
-	j1301166770 [label="ありがとう。覚えていてくれたんだな。今日は30分早退しようかと考えている。まだ決めてはいないが。",shape=box,color=blue];
-		j1301166770 -> "Chat ends.";
+	3191 [label="ArthurBirthdayConvo2 begins.",color=orange];
+		3191 -> 3205;
+		3191 -> 3203;
+	3205 [label="お誕生日おめでとう、Eleanorの弟さん！",shape=box,color=red];
+		3205 -> 3200;
+	3203 [label="Arthur、お誕生日おめでとう。予定はある？",shape=box,color=red];
+		3203 -> 3204;
+	3200 [label="止めろ。それをからかう奴が増えるのは御免だ。",shape=box,color=blue];
+		3200 -> 3224;
+	3204 [label="+20 Chemistry",color=orange];
+		3204 -> 3202;
+	3224 [label="{\"Id\":3224,\"Incoming\":[3200],\"Outgoing\":[3201],\"GraphPos\":[-30896,-13827],\"CompletionType\":1}",color=orange];
+		3224 -> 3201;
+	3202 [label="ありがとう。覚えていてくれたんだな。今日は30分早退しようかと考えている。まだ決めてはいないが。",shape=box,color=blue];
+		3202 -> 3223;
+	3201 [label="Chat ends.",color=orange];
+	3223 [label="{\"Id\":3223,\"Incoming\":[3202],\"Outgoing\":[3206],\"GraphPos\":[-30893,-13986],\"CompletionType\":1}",color=orange];
+		3223 -> 3206;
+	3206 [label="Chat ends.",color=orange];
 }

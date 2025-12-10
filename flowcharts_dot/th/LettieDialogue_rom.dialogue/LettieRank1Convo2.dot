@@ -1,153 +1,158 @@
 digraph {
-	"LettieRank1Convo2 begins." [color=orange];
-		"LettieRank1Convo2 begins." -> j89496700;
-	j89496700 [label="Check boolean LettieRatsAsked",color=orange];
-		j89496700 -> j305219124 [label=true,color=green];
-		j89496700 -> j544856754 [label=false,color=brown];
-		j89496700 -> j305219124 [label=false,color=brown];
-	j305219124 [label="มีใครที่บ้านคิดถึงเจ้าบ้างหรือเปล่า?",shape=box,color=red];
-		j305219124 -> j3611088737;
-	j544856754 [label="แล้วอะไรทำให้อยากเลี้ยงหนูไว้เป็นสัตว์เลี้ยงล่ะ?",shape=box,color=red];
-		j544856754 -> j1419769657;
-	j3611088737 [label="Boolean LettieHomeAsked is now true.",color=orange];
-		j3611088737 -> j4029412242;
-	j1419769657 [label="Boolean LettieRatsAsked is now true.",color=orange];
-		j1419769657 -> j27878299;
-	j4029412242 [label="Check boolean LettieInteresting",color=orange];
-		j4029412242 -> j1842451350 [label=true,color=green];
-		j4029412242 -> j630667333 [label=false,color=brown];
-	j27878299 [label="Check boolean LettieInteresting",color=orange];
-		j27878299 -> j908436219 [label=true,color=green];
-		j27878299 -> j2148695010 [label=false,color=brown];
-	j1842451350 [label="เป็นคำถามที่ดีกว่าเยอะเลย 
+	52 [label="LettieRank1Convo2 begins.",color=orange];
+		52 -> 211;
+	211 [label="Check boolean LettieRatsAsked",color=orange];
+		211 -> 53 [label=true,color=green];
+		211 -> 54 [label=false,color=brown];
+		211 -> 53 [label=false,color=brown];
+	53 [label="มีใครที่บ้านคิดถึงเจ้าบ้างหรือเปล่า?",shape=box,color=red];
+		53 -> 55;
+	54 [label="แล้วอะไรทำให้อยากเลี้ยงหนูไว้เป็นสัตว์เลี้ยงล่ะ?",shape=box,color=red];
+		54 -> 56;
+	55 [label="Update boolean LettieHomeAsked",color=orange];
+		55 -> 57;
+	56 [label="Update boolean LettieRatsAsked",color=orange];
+		56 -> 58;
+	57 [label="Check boolean LettieInteresting",color=orange];
+		57 -> 59 [label=true,color=green];
+		57 -> 62 [label=false,color=brown];
+	58 [label="Check boolean LettieInteresting",color=orange];
+		58 -> 60 [label=true,color=green];
+		58 -> 61 [label=false,color=brown];
+	59 [label="เป็นคำถามที่ดีกว่าเยอะเลย 
 เรียนรู้ได้เร็วดีนี่ 
 แต่ว่า",shape=box,color=blue];
-		j1842451350 -> j630667333;
-	j630667333 [label="ไม่สำคัญหรอก 
+		59 -> 62;
+	62 [label="ไม่สำคัญหรอก 
 ยังไงก็ออกจาก cuchitril นี่ไปไม่ได้ 
 เพราะงั้นจะไปคิดถึงพวกเขาทำไม",shape=box,color=blue];
-		j630667333 -> j1262730881;
-		j630667333 -> j431603857;
-		j630667333 -> j3936844539;
-	j908436219 [label="Ey ใช้ได้เลย 
+		62 -> 67;
+		62 -> 66;
+		62 -> 65;
+	60 [label="Ey ใช้ได้เลย 
 คำถามนี่ดีกว่าเยอะเลยนะ babas 
 เรียนรู้ได้เร็วดีนี่",shape=box,color=blue];
-		j908436219 -> j2148695010;
-	j2148695010 [label="ลองว่ามาดิ",shape=box,color=blue];
-		j2148695010 -> j1825213630;
-		j2148695010 -> j224999128;
-	j1262730881 [label="เรากำลังคุยกันทาง *อินเทอร์เน็ต* อยู่และรู้ใช่ไหมว่ามี *โทรศัพท์* ด้วยนะ",shape=box,color=red];
-		j1262730881 -> j307466729;
-	j431603857 [label="บางครั้งความทรงจำที่เจ็บปวดก็เป็นสิ่งเดียวที่ช่วยให้เราผ่านพ้นไปได้นะ",shape=box,color=red];
-		j431603857 -> j1513029588;
-	j3936844539 [label="โอ... เค... [จบ]",shape=box,color=red];
-		j3936844539 -> "Chat ends.";
-	j1825213630 [label="ฮะ?",shape=box,color=red];
-		j1825213630 -> j2904342139;
-	j224999128 [label="ข้าไม่คิดว่าจะชอบอะไรแบบนี้นะ [จบ]",shape=box,color=red];
-		j224999128 -> j2365690676;
-	j307466729 [label="Bien podría ser un pinche fantasma 
+		60 -> 61;
+	61 [label="ลองว่ามาดิ",shape=box,color=blue];
+		61 -> 91;
+		61 -> 80;
+	67 [label="เรากำลังคุยกันทาง *อินเทอร์เน็ต* อยู่และรู้ใช่ไหมว่ามี *โทรศัพท์* ด้วยนะ",shape=box,color=red];
+		67 -> 70;
+	66 [label="บางครั้งความทรงจำที่เจ็บปวดก็เป็นสิ่งเดียวที่ช่วยให้เราผ่านพ้นไปได้นะ",shape=box,color=red];
+		66 -> 69;
+	65 [label="โอ... เค... [จบ]",shape=box,color=red];
+		65 -> 68;
+	91 [label="ฮะ?",shape=box,color=red];
+		91 -> 93;
+	80 [label="ข้าไม่คิดว่าจะชอบอะไรแบบนี้นะ [จบ]",shape=box,color=red];
+		80 -> 2440;
+	70 [label="Bien podría ser un pinche fantasma 
 เสียงเรียกจากอีกฟากของหลุมศพ เปลี่ยนไม่ได้ อยู่ไม่ได้ ตายไม่ได้",shape=box,color=blue];
-		j307466729 -> j3818948515;
-	j1513029588 [label="¿Sí? 
+		70 -> 81;
+	69 [label="¿Sí? 
 แล้วรู้อะไรบ้างเกี่ยวกับความเจ็บปวดล่ะ",shape=box,color=blue];
-		j1513029588 -> j1057365137;
-		j1513029588 -> j1656562493;
-	"Chat ends." [color=orange];
-	j2904342139 [label="ก็อยากรู้ว่าทำไมถึงคิดว่าข้าชอบหนู 
-ว่าต่อเลยสิ",shape=box,color=blue];
-		j2904342139 -> j3507503232;
-	j2365690676 [label="Tú te lo pierdes",shape=box,color=blue];
-		j2365690676 -> "Chat ends.";
-	j3818948515 [label="¿¡เราเป็นอะไร?! 
+		69 -> 72;
+		69 -> 74;
+	68 [label="Chat ends.",color=orange];
+	93 [label="ฉันอยากรู้ว่าทำไมถึงคิดว่าฉันชอบหนู 
+ว่าต่อเลย",shape=box,color=blue];
+		93 -> 104;
+	2440 [label="Tú te lo pierdes",shape=box,color=blue];
+		2440 -> 2441;
+	81 [label="¿¡เราเป็นอะไร?! 
 ก็แค่ FANTASMAS เท่านั้นแหละ 
 เหมือนเงาบนเทป VHS ที่ใช้บ่อยเกินไป",shape=box,color=blue];
-		j3818948515 -> j1703672919;
-	j1057365137 [label="รู้ไหมว่าการถูกตัดหัวรู้สึกยังไง ข้ารู้เพราะตายมาเป็นพันครั้งแล้ว และมันก็ *เจ็บปวด* นะคุณผู้หญิง",shape=box,color=red];
-		j1057365137 -> j2879636608;
-	j1656562493 [label="ข้าไม่จำเป็นต้องพิสูจน์ตัวเองให้เห็นหรอกนะคุณผู้หญิง",shape=box,color=red];
-		j1656562493 -> j321851484;
-	j3507503232 [label="Boolean LettieRats1 is now true.",color=orange];
-		j3507503232 -> j1908999769;
-		j3507503232 -> j3369149820;
-		j3507503232 -> j3054869976;
-	j1703672919 [label="เพราะงั้นให้พวกเขาคิดว่าข้าตายไปแล้วดีกว่า 
-แล้วข้าจะรับความเจ็บปวดนี้แทนเอง",shape=box,color=blue];
-		j1703672919 -> j3921007272;
-		j1703672919 -> j4215793123;
-	j2879636608 [label="Boolean LettieDuviri is now true.",color=orange];
-		j2879636608 -> j3115766092;
-	j321851484 [label="ก็ไม่ได้ขอให้ทำนี่ 
-ข้ายุ่งอยู่ 
+		81 -> 82;
+	72 [label="รู้ไหมว่าการถูกตัดหัวรู้สึกยังไง ข้ารู้เพราะตายมาเป็นพันครั้งแล้ว และมันก็ *เจ็บปวด* นะคุณผู้หญิง",shape=box,color=red];
+		72 -> 71;
+	74 [label="ข้าไม่จำเป็นต้องพิสูจน์ตัวเองให้เห็นหรอกนะคุณผู้หญิง",shape=box,color=red];
+		74 -> 73;
+	104 [label="Update boolean LettieRats1",color=orange];
+		104 -> 95;
+		104 -> 96;
+		104 -> 97;
+	2441 [label="Chat ends.",color=orange];
+	82 [label="เพราะงั้นให้พวกเขาคิดว่าฉันตายไปแล้วดีกว่า 
+แล้วฉันจะรับความเจ็บปวดนี้แทนเอง",shape=box,color=blue];
+		82 -> 79;
+		82 -> 78;
+	71 [label="Update boolean LettieDuviri",color=orange];
+		71 -> 76;
+	73 [label="ก็ไม่ได้ขอให้ทำนี่ 
+ฉันยุ่งอยู่นะ 
 Vete",shape=box,color=blue];
-		j321851484 -> "Chat ends.";
-	j1908999769 [label="เพราะว่ามันฉลาด น่ารัก และขี้เล่น?",shape=box,color=red];
-		j1908999769 -> j3097725758;
-	j3369149820 [label="เพราะว่าพวกมันมักจะถูกละเลยและเข้าใจผิด?",shape=box,color=red];
-		j3369149820 -> j3097725758;
-	j3054869976 [label="Lettie ข้าไม่เข้าใจอะไรเกี่ยวกับเจ้าเลย แต่หนูพวกนี้มันน่ารักชะมัด",shape=box,color=red];
-		j3054869976 -> j2299832730;
-	j3921007272 [label="ที่นี่ยังมีชีวิตที่คุ้มค่าพอที่จะอยู่นะ",shape=box,color=red];
-		j3921007272 -> j2717443037;
-	j4215793123 [label="เจ้ารับความเจ็บปวดแทนผู้อื่นด้วยความสมัครใจหรือเพราะว่ามันเป็นหน้าที่?",shape=box,color=red];
-		j4215793123 -> j440178429;
-	j3115766092 [label="ถูกสัมผัสโดย La Flaca 
+		73 -> 75;
+	95 [label="เพราะว่ามันฉลาด น่ารัก และขี้เล่น?",shape=box,color=red];
+		95 -> 94;
+	96 [label="เพราะว่าพวกมันมักจะถูกละเลยและเข้าใจผิด?",shape=box,color=red];
+		96 -> 94;
+	97 [label="Lettie ข้าไม่เข้าใจอะไรเกี่ยวกับเจ้าเลย แต่หนูพวกนี้มันน่ารักชะมัด",shape=box,color=red];
+		97 -> 105;
+	79 [label="ที่นี่ยังมีชีวิตที่คุ้มค่าพอที่จะอยู่นะ",shape=box,color=red];
+		79 -> 84;
+	78 [label="เจ้ารับความเจ็บปวดแทนผู้อื่นด้วยความสมัครใจหรือเพราะว่ามันเป็นหน้าที่?",shape=box,color=red];
+		78 -> 85;
+	76 [label="ถูกสัมผัสโดย La Flaca 
 เป็นอีก fantasma เช่นเดียวกับพวกเราทุกคน 
 ฟื้นจากความตายซ้ำแล้วซ้ำอีก",shape=box,color=blue];
-		j3115766092 -> j2035713609;
-	j3097725758 [label="Ay, Lua, sálvame",shape=box,color=blue];
-		j3097725758 -> j879351076;
-	j2299832730 [label="¡JAJAJA!",shape=box,color=blue];
-		j2299832730 -> j2829773306;
-	j2717443037 [label="ช่ายยยยสิ ช่ายย 
+		76 -> 77;
+	75 [label="Chat ends.",color=orange];
+	94 [label="Ay, Lua, sálvame",shape=box,color=blue];
+		94 -> 98;
+	105 [label="¡JAJAJA!",shape=box,color=blue];
+		105 -> 99;
+	84 [label="ช่ายยยยสิ ช่ายย 
 อยู่กับเกมของ Amir การดื่มเหล้าของ Arthur ดนตรีของ Aoi และรูปภาพของ Quincy",shape=box,color=blue];
-		j2717443037 -> j32266662;
-	j440178429 [label="+20 Chemistry",color=orange];
-		j440178429 -> j735354072;
-	j2035713609 [label="Sí 
+		84 -> 89;
+	85 [label="+20 Chemistry",color=orange];
+		85 -> 83;
+	77 [label="Sí 
 มีครอบครัวอยู่ที่บ้าน 
-คงดีกว่าที่ให้พวกเขาคิดว่าข้าตายไปแล้ว",shape=box,color=blue];
-		j2035713609 -> j4215793123;
-		j2035713609 -> j3921007272;
-	j879351076 [label="ไม่ใช่ 
+แต่คงดีกว่าที่ให้พวกเขาคิดว่าฉันตายไปแล้ว",shape=box,color=blue];
+		77 -> 78;
+		77 -> 79;
+	98 [label="ไม่ใช่ 
 ต้องการอะไรอีกหรือเปล่า",shape=box,color=blue];
-		j879351076 -> j3791329302;
-		j879351076 -> j3032252693;
-	j2829773306 [label="+20 Chemistry",color=orange];
-		j2829773306 -> j2864966077;
-	j32266662 [label="งานอดิเรกที่เปล่าประโยชน์ 
+		98 -> 100;
+		98 -> 101;
+	99 [label="+20 Chemistry",color=orange];
+		99 -> 106;
+	89 [label="งานอดิเรกที่เปล่าประโยชน์ 
 จิตวิญญาณที่ว่างเปล่า 
 ฆ่าเวลาผ่านไปจนชั่วนิรันดร์",shape=box,color=blue];
-		j32266662 -> j433359559;
-	j735354072 [label="คิดว่าทั้งสองแบบนั่นแหละ 
-ข้าเลือกแบบนี้มานาน 
+		89 -> 90;
+	83 [label="คิดว่าทั้งสองแบบนั่นแหละ 
+ฉันเลือกแบบนี้มานาน 
 และตอนนี้ก็สายเกินไปที่จะถอยกลับแล้ว",shape=box,color=blue];
-		j735354072 -> j3802782857;
-	j3791329302 [label="เอ่อ…",shape=box,color=red];
-		j3791329302 -> j1601537058;
-	j3032252693 [label="ไม่... ไม่เป็นไร...",shape=box,color=red];
-		j3032252693 -> j2547240352;
-	j2864966077 [label="ผู้ช่วยชีวิตเรามีความถ่อมตัวอยู่นะเนี่ย 
-ข้าชอบนะ",shape=box,color=blue];
-		j2864966077 -> j673112320;
-	j433359559 [label="ข้ามีงานต้องทำ 
+		83 -> 86;
+	100 [label="เอ่อ…",shape=box,color=red];
+		100 -> 63;
+	101 [label="ไม่... ไม่เป็นไร...",shape=box,color=red];
+		101 -> 102;
+	106 [label="ผู้ช่วยชีวิตเรามีความถ่อมตัวอยู่นะเนี่ย 
+ฉันชอบนะ",shape=box,color=blue];
+		106 -> 107;
+	90 [label="ฉันมีงานต้องทำ 
 Vete",shape=box,color=blue];
-		j433359559 -> j1253712857;
-	j3802782857 [label="ข้ามีงานต้องทำ",shape=box,color=blue];
-		j3802782857 -> j1253712857;
-	j1601537058 [label="Boolean LettieHomeAsked is now true.",color=orange];
-		j1601537058 -> j2096523881;
-	j2547240352 [label="Va",shape=box,color=blue];
-		j2547240352 -> "Chat ends.";
-	j673112320 [label="ตอนเด็กไม่ได้เกิดมาบนกองเงินกองทอง 
+		90 -> 87;
+	86 [label="ฉันมีงานต้องทำ",shape=box,color=blue];
+		86 -> 87;
+	63 [label="Update boolean LettieHomeAsked",color=orange];
+		63 -> 64;
+	102 [label="Va",shape=box,color=blue];
+		102 -> 103;
+	107 [label="ตอนเด็กไม่ได้เกิดมาบนกองเงินกองทอง 
 ต้องย้ายจากที่นึงไปอีกที่บ่อย ๆ 
 หนูมันเลี้ยงง่ายน่ะ mi mamá ก็ไม่ว่าอะไรด้วย",shape=box,color=blue];
-		j673112320 -> j3832356733;
-	j1253712857 [label="Boolean LettieFantasma1 is now true.",color=orange];
-		j1253712857 -> "Chat ends.";
-	j2096523881 [label="มีใครที่บ้านคิดถึงเจ้าบ้างหรือเปล่า?",shape=box,color=red];
-		j2096523881 -> j630667333;
-	j3832356733 [label="ต้องกลับไปทำงานแล้ว 
+		107 -> 108;
+	87 [label="Update boolean LettieFantasma1",color=orange];
+		87 -> 88;
+	64 [label="มีใครที่บ้านคิดถึงเจ้าบ้างหรือเปล่า?",shape=box,color=red];
+		64 -> 62;
+	103 [label="Chat ends.",color=orange];
+	108 [label="ต้องกลับไปทำงานแล้ว 
 เจอกันใหม่นะ babas",shape=box,color=blue];
-		j3832356733 -> "Chat ends.";
+		108 -> 109;
+	88 [label="Chat ends.",color=orange];
+	109 [label="Chat ends.",color=orange];
 }

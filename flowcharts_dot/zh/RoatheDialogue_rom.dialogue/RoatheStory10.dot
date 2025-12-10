@@ -1,0 +1,33 @@
+digraph {
+	2223 [label="RoatheStory10 begins.",color=orange];
+		2223 -> 5658;
+	5658 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5658 -> 2224 [label=true,color=green];
+		5658 -> 5659 [label=false,color=brown];
+	2224 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2224 -> 2219 [label="x >= 10",color=purple];
+		2224 -> 2225 [label="false",color=purple];
+	5659 [label="Chat ends.",color=orange];
+	2219 [label="语音留言：惩罚",shape=box,color=blue];
+		2219 -> 2218;
+	2225 [label="Chat ends.",color=orange];
+	2218 [label="文字记录：早在战前，脾气暴躁、思维缜密、言辞尖刻的斯卡恩就率先提出了这个计划。“我们必须离开巢穴，因为巢穴已经着火了。”",shape=box,color=blue];
+		2218 -> 2221;
+	2221 [label="由于过度开发和鲁莽的实验，我们已将星系破坏殆尽，使其无法再生。",shape=box,color=blue];
+		2221 -> 2216;
+	2216 [label="如今，向新的领域扩张是我们唯一的选择。 ",shape=box,color=blue];
+		2216 -> 5733;
+	5733 [label="他也参与了虚空中那些懦弱之塔的落成典礼。",shape=box,color=blue];
+		5733 -> 2222;
+	2222 [label="他心中对 Sentient 回归的恐惧是如此强烈，以至于他只能想象退守到虚空之海中的岛屿。",shape=box,color=blue];
+		2222 -> 5700;
+	5700 [label="我们是多么低估了 Sentient 的勇气啊。",shape=box,color=blue];
+		5700 -> 5701;
+	5701 [label="它们甘愿承受虚空的灼热烈焰，仅仅是为了有机会惩罚我们。",shape=box,color=blue];
+		5701 -> 2220;
+	2220 [label="Add 1 to HellStory",color=orange];
+		2220 -> 2337;
+	2337 [label="{\"Id\":2337,\"Incoming\":[2220],\"Outgoing\":[2217],\"GraphPos\":[4843,-7852],\"CompletionType\":1}",color=orange];
+		2337 -> 2217;
+	2217 [label="Chat ends.",color=orange];
+}

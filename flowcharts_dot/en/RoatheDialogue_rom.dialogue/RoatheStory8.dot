@@ -1,0 +1,33 @@
+digraph {
+	2201 [label="RoatheStory8 begins.",color=orange];
+		2201 -> 5655;
+	5655 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5655 -> 2196 [label=true,color=green];
+		5655 -> 5654 [label=false,color=brown];
+	2196 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2196 -> 2200 [label="x >= 8",color=purple];
+		2196 -> 2199 [label="false",color=purple];
+	5654 [label="Chat ends.",color=orange];
+	2200 [label="VM: STANDARD",shape=box,color=blue];
+		2200 -> 2198;
+	2199 [label="Chat ends.",color=orange];
+	2198 [label="Transcript: Nothing quite speaks to the pomposity with which we creatures treat the carnage of war quite as succinctly as the bannermen.",shape=box,color=blue];
+		2198 -> 5694;
+	5694 [label="Those who must be protected at all costs - and followed without question.",shape=box,color=blue];
+		5694 -> 5695;
+	5695 [label="And who may be threatened, I might add, to follow orders that no sane soldier would ever complete, lest they somehow come to suffer some more terrible fate. ",shape=box,color=blue];
+		5695 -> 2203;
+	2203 [label="Laughable though that is.",shape=box,color=blue];
+		2203 -> 5731;
+	5731 [label="It was always their forms my eye was drawn to amongst the rest, though their mangled bodies were no different from any other. ",shape=box,color=blue];
+		5731 -> 2195;
+	2195 [label="It was always the standard they still bore, glittering in its Orokin gold, and smeared in dappled crimson.",shape=box,color=blue];
+		2195 -> 2204;
+	2204 [label="I always ensured it stood proud upon the field before I departed.",shape=box,color=blue];
+		2204 -> 2202;
+	2202 [label="Add 1 to HellStory",color=orange];
+		2202 -> 2335;
+	2335 [label="{\"Id\":2335,\"Incoming\":[2202],\"Outgoing\":[2197],\"GraphPos\":[4863,-8750],\"CompletionType\":1}",color=orange];
+		2335 -> 2197;
+	2197 [label="Chat ends.",color=orange];
+}

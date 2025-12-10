@@ -1,0 +1,34 @@
+digraph {
+	3871 [label="MarieLyonRepair begins.",color=orange];
+		3871 -> 3872;
+	3872 [label="Check boolean MarieFamilyFail",color=orange];
+		3872 -> 3873 [label=true,color=green];
+		3872 -> 3874 [label=false,color=brown];
+	3873 [label="我的靈魂弟兄派我來找你說話。他懇求我重新考慮我在 Loid 先生的事情上不幫助你的決定。",shape=box,color=blue];
+		3873 -> 3875;
+		3873 -> 3876;
+		3873 -> 3877;
+	3874 [label="Chat ends.",color=orange];
+	3875 [label="瑪麗，我真的希望你能幫助我們。",shape=box,color=red];
+		3875 -> 3878;
+	3876 [label="瑪麗，我們需要你。沒有你，一切都沒用。拜託。你能原諒我嗎？",shape=box,color=red];
+		3876 -> 3879;
+	3877 [label="我很抱歉我讓你不高興。但請不要把氣出在 Loid 或樓上的家人身上。",shape=box,color=red];
+		3877 -> 3880;
+	3878 [label="我只是來告訴你，你不應該利用里昂的善良來彌補你自己的失敗。",shape=box,color=blue];
+		3878 -> 3881;
+	3879 [label="好的……我可以原諒你。我當時對你的憤怒本來就不該由其他人承受。",shape=box,color=blue];
+		3879 -> 3882;
+	3880 [label="好的。在這件事上，你是對的。我當時對你的憤怒本來就不該由其他人承受。",shape=box,color=blue];
+		3880 -> 3883;
+	3881 [label="Chat ends.",color=orange];
+	3882 [label="所以，我說，好吧。我會協助你。你會得到我的幫助。",shape=box,color=blue];
+		3882 -> 3884;
+	3883 [label="那份憤怒我已經後悔，也原諒你了。",shape=box,color=blue];
+		3883 -> 3882;
+	3884 [label="Update boolean MarieFamilySuccess",color=orange];
+		3884 -> 3885;
+	3885 [label="Update boolean MarieFamilyFail",color=orange];
+		3885 -> 3886;
+	3886 [label="Chat ends.",color=orange];
+}

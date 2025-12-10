@@ -1,16 +1,21 @@
 digraph {
-	"QuincyBirthdayConvo1 begins." [color=orange];
-		"QuincyBirthdayConvo1 begins." -> j3321255835;
-		"QuincyBirthdayConvo1 begins." -> j454132397;
-	j3321255835 [label="誕生日おめでとう、Quincy。今日もイカしてるね。",shape=box,color=red];
-		j3321255835 -> j3808613713;
-	j454132397 [label="誕生日おめでとう！　衰えは感じる？",shape=box,color=red];
-		j454132397 -> j2705441297;
-	j3808613713 [label="+20 Chemistry",color=orange];
-		j3808613713 -> j803506918;
-	j2705441297 [label="衰えだと？！　オマエに言われたかねえよ。そもそも何歳なんだよ、分かんのか？　バカがよ",shape=box,color=blue];
-		j2705441297 -> "Chat ends.";
-	j803506918 [label="あたぼうよ　笑　オマエもイイ感じだぜ。待てよ。オマエそもそも何歳なんだ？！",shape=box,color=blue];
-		j803506918 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3532 [label="QuincyBirthdayConvo1 begins.",color=orange];
+		3532 -> 3535;
+		3532 -> 3536;
+	3535 [label="誕生日おめでとう、Quincy。今日もイカしてるね。",shape=box,color=red];
+		3535 -> 3537;
+	3536 [label="誕生日おめでとう！　衰えは感じる？",shape=box,color=red];
+		3536 -> 3540;
+	3537 [label="+20 Chemistry",color=orange];
+		3537 -> 3538;
+	3540 [label="衰えだと？！　オマエに言われたかねえよ。そもそも何歳なんだよ、分かんのか？　バカがよ",shape=box,color=blue];
+		3540 -> 3239;
+	3538 [label="あたぼうよ　笑　オマエもイイ感じだぜ。待てよ。オマエそもそも何歳なんだ？！",shape=box,color=blue];
+		3538 -> 3227;
+	3239 [label="{\"Id\":3239,\"Incoming\":[3540],\"Outgoing\":[3541],\"GraphPos\":[1228,-4984],\"CompletionType\":1}",color=orange];
+		3239 -> 3541;
+	3227 [label="{\"Id\":3227,\"Incoming\":[3538],\"Outgoing\":[3539],\"GraphPos\":[1576,-5137],\"CompletionType\":1}",color=orange];
+		3227 -> 3539;
+	3541 [label="Chat ends.",color=orange];
+	3539 [label="Chat ends.",color=orange];
 }

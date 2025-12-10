@@ -1,0 +1,27 @@
+digraph {
+	2157 [label="RoatheStory3 begins.",color=orange];
+		2157 -> 5645;
+	5645 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5645 -> 2155 [label=true,color=green];
+		5645 -> 5644 [label=false,color=brown];
+	2155 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2155 -> 2149 [label="x >= 3",color=purple];
+		2155 -> 2151 [label="false",color=purple];
+	5644 [label="Chat ends.",color=orange];
+	2149 [label="ข้อความเสียง: OROKIN",shape=box,color=blue];
+		2149 -> 2150;
+	2151 [label="Chat ends.",color=orange];
+	2150 [label="บันทึก: จักรวรรดิ Orokin ไม่มีศัตรูมานานแล้ว กองทัพที่มีดำรงอยู่เพียงเพื่อไล่ล่าความขัดข้องใจเล็ก ๆ น้อย ๆ เท่านั้น บ้านปะทะกับบ้าน ผู้บริหารสู้กับผู้บริหาร",shape=box,color=blue];
+		2150 -> 2153;
+	2153 [label="เมื่อเหล่า Sentient โจมตี เรารู้ถึงความสามัคคีที่เราปฏิเสธกันมานาน Dax ชักดาบออกมาต่อสู้กับสิ่งอื่นที่ไม่ใช่ชาวนาผู้เย่อหยิ่งหรือพ่อค้าขี้โกง",shape=box,color=blue];
+		2153 -> 2154;
+	2154 [label="เหล่าจักรพรรดิ ผู้ปกครองจักรวรรดิ ผู้เป็นอมตะที่อำนาจตกอยู่ในมือผู้บริหาร ตื่นขึ้นอย่างงุ่มง่ามบนบัลลังก์ทองคำที่เต็มไปด้วยฝุ่น",shape=box,color=blue];
+		2154 -> 5683;
+	5683 [label="สงคราม สงครามที่ยิ่งใหญ่! ในที่สุด จักรวรรดิก็มีความหมาย ที่ถูกกำหนดโดยการสูญสิ้นที่ใกล้เข้ามายิ่งกว่าการดับสูญของดวงอาทิตย์ ในที่สุดเราก็ได้ดื่มด่ำกับน้ำทิพย์แห่งชีวิตอย่างเต็มที่",shape=box,color=blue];
+		5683 -> 2152;
+	2152 [label="Add 1 to HellStory",color=orange];
+		2152 -> 2330;
+	2330 [label="{\"Id\":2330,\"Incoming\":[2152],\"Outgoing\":[2156],\"GraphPos\":[3600,-10586],\"CompletionType\":1}",color=orange];
+		2330 -> 2156;
+	2156 [label="Chat ends.",color=orange];
+}

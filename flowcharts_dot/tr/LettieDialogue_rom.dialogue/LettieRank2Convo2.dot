@@ -1,102 +1,106 @@
 digraph {
-	"LettieRank2Convo2 begins." [color=orange];
-		"LettieRank2Convo2 begins." -> j415916248;
-		"LettieRank2Convo2 begins." -> j4176889815;
-	j415916248 [label="Evcil sıçanlarının isimleri neler?",shape=box,color=red];
-		j415916248 -> j3246819529;
-	j4176889815 [label="Kaç tane evcil sıçanın var?",shape=box,color=red];
-		j4176889815 -> j3988797338;
-	j3246819529 [label="Mm?",shape=box,color=blue];
-		j3246819529 -> j4145559361;
-	j3988797338 [label="Mm? 
+	306 [label="LettieRank2Convo2 begins.",color=orange];
+		306 -> 307;
+		306 -> 308;
+	307 [label="Evcil sıçanlarının isimleri neler?",shape=box,color=red];
+		307 -> 309;
+	308 [label="Kaç tane evcil sıçanın var?",shape=box,color=red];
+		308 -> 310;
+	309 [label="Mm?",shape=box,color=blue];
+		309 -> 311;
+	310 [label="Mm? 
 4",shape=box,color=blue];
-		j3988797338 -> j4145559361;
-	j4145559361 [label="Boolean LettieRats2 is now true.",color=orange];
-		j4145559361 -> j105054146;
-	j105054146 [label="Vaquero, Anita, Neenah, ve Tláloc",shape=box,color=blue];
-		j105054146 -> j1878388003;
-		j105054146 -> j1079389256;
-	j1878388003 [label="Onların isimlerini nasıl seçtin?",shape=box,color=red];
-		j1878388003 -> j74661742;
-	j1079389256 [label="Bir tanesine benim adımı vermelisin. :)",shape=box,color=red];
-		j1079389256 -> j3977432686;
-	j74661742 [label="Vaquero kovboy demektir 
+		310 -> 311;
+	311 [label="Update boolean LettieRats2",color=orange];
+		311 -> 312;
+	312 [label="Vaquero, Anita, Neenah, ve Tláloc",shape=box,color=blue];
+		312 -> 313;
+		312 -> 314;
+	313 [label="Onların isimlerini nasıl seçtin?",shape=box,color=red];
+		313 -> 315;
+	314 [label="Bir tanesine benim adımı vermelisin. :)",shape=box,color=red];
+		314 -> 316;
+	315 [label="Vaquero kovboy demektir 
 Anita memleketten bir arkadaş 
 Neenah artık aramızda olmayan bir arkadaştı 
 Tláloc ise eski bir yağmur tanrısı",shape=box,color=blue];
-		j74661742 -> j2199854251;
-	j3977432686 [label="Heh 
+		315 -> 317;
+	316 [label="Heh 
 Adını Babas koy 
 Umarım duvar kağıdını yalamaya başlamaz",shape=box,color=blue];
-		j3977432686 -> j2132711362;
-		j3977432686 -> j2129534818;
-	j2199854251 [label="Tláloc bir *aptal* 
+		316 -> 318;
+		316 -> 319;
+	317 [label="Tláloc bir *aptal* 
 Sıçan, tanrı değil jaja 
 Bu tür kötü bir büyüye ihtiyacım yok",shape=box,color=blue];
-		j2199854251 -> j2346216773;
-		j2199854251 -> j3819213077;
-	j2132711362 [label="Peki, Babas *ne* anlama geliyor?",shape=box,color=red];
-		j2132711362 -> j1612774451;
-	j2129534818 [label="Har har. Bunun ne anlama geldiğini biliyorum, anlarsın ya.",shape=box,color=red];
-		j2129534818 -> j2682333094;
-	j2346216773 [label="Tláloc'u daha önce hiç duymamıştım. Lua ve Sol'dan önce mi geldi? Düalizmden önce mi?",shape=box,color=red];
-		j2346216773 -> j414469658;
-	j3819213077 [label="Onu bir pislik yapan ne? haha",shape=box,color=red];
-		j3819213077 -> j1102073388;
-	j1612774451 [label="Endişelenme
+		317 -> 322;
+		317 -> 323;
+	318 [label="Peki, Babas *ne* anlama geliyor?",shape=box,color=red];
+		318 -> 324;
+	319 [label="Har har. Bunun ne anlama geldiğini biliyorum, anlarsın ya.",shape=box,color=red];
+		319 -> 320;
+	322 [label="Tláloc'u daha önce hiç duymamıştım. Lua ve Sol'dan önce mi geldi? Düalizmden önce mi?",shape=box,color=red];
+		322 -> 326;
+	323 [label="Onu bir pislik yapan ne? haha",shape=box,color=red];
+		323 -> 327;
+	324 [label="Endişelenme
 Daha kötü de olabilirdi",shape=box,color=blue];
-		j1612774451 -> j2074607527;
-		j1612774451 -> j4017195284;
-	j2682333094 [label="Güzel",shape=box,color=blue];
-		j2682333094 -> "Chat ends.";
-	j414469658 [label="Boolean LettieReligion2 is now true.",color=orange];
-		j414469658 -> j2510658972;
-	j1102073388 [label="Boolean LettieReligion2 is now true.",color=orange];
-		j1102073388 -> j609918181;
-	j2074607527 [label="Tamam... Sana güveniyorum.",shape=box,color=red];
-		j2074607527 -> j1542753201;
-	j4017195284 [label="Sana inanmıyorum.",shape=box,color=red];
-		j4017195284 -> j3567313191;
-	"Chat ends." [color=orange];
-	j2510658972 [label="Si, çok uzun zaman önce, halkım eski tanrılara tapardı, bazıları... kanlı olabilir",shape=box,color=blue];
-		j2510658972 -> j2942596348;
-		j2510658972 -> j2203515777;
-	j609918181 [label="Isırmayı sever
+		324 -> 332;
+		324 -> 333;
+	320 [label="Güzel",shape=box,color=blue];
+		320 -> 321;
+	326 [label="Update boolean LettieReligion2",color=orange];
+		326 -> 328;
+	327 [label="Update boolean LettieReligion2",color=orange];
+		327 -> 329;
+	332 [label="Tamam... Sana güveniyorum.",shape=box,color=red];
+		332 -> 335;
+	333 [label="Sana inanmıyorum.",shape=box,color=red];
+		333 -> 337;
+	321 [label="Chat ends.",color=orange];
+	328 [label="Si, çok uzun zaman önce, halkım eski tanrılara tapardı, bazıları... kanlı olabilir",shape=box,color=blue];
+		328 -> 330;
+		328 -> 331;
+	329 [label="Isırmayı sever
 Eski insanlar ve onların tanrıları gibi, bazıları... kanlı olabilir",shape=box,color=blue];
-		j609918181 -> j2203515777;
-		j609918181 -> j2942596348;
-	j1542753201 [label="+20 Chemistry",color=orange];
-		j1542753201 -> j3748645904;
-	j3567313191 [label="Benim için sorun yok",shape=box,color=blue];
-		j3567313191 -> "Chat ends.";
-	j2942596348 [label="\"Kanlı\" derken neyi kastediyorsun?",shape=box,color=red];
-		j2942596348 -> j535487948;
-	j2203515777 [label="Kulağa hoş geliyor.",shape=box,color=red];
-		j2203515777 -> j535487948;
-	j3748645904 [label="Bueno",shape=box,color=blue];
-		j3748645904 -> "Chat ends.";
-	j535487948 [label="Xipe Totec, Derisi Yüzülmüş Olan, yeniden doğuşun, tarımın ve savaşın tanrısıydı",shape=box,color=blue];
-		j535487948 -> j4125934693;
-		j535487948 -> j2122992930;
-	j4125934693 [label="Derisi Yüzülmüş Olan...?",shape=box,color=red];
-		j4125934693 -> j1906275872;
-	j2122992930 [label="Kulağa O KADAR da kötü gelmiyor...",shape=box,color=red];
-		j2122992930 -> j1906275872;
-	j1906275872 [label="Onu kutlamak için her yıl düzenlenen festivalde savaş esirlerinin derileri yüzülür, erkeklerden oluşan gruplar onların etlerini kendi etleri gibi giyer ve şehir halkından onun adına sunular kabul ederdi 
+		329 -> 331;
+		329 -> 330;
+	335 [label="+20 Chemistry",color=orange];
+		335 -> 334;
+	337 [label="Benim için sorun yok",shape=box,color=blue];
+		337 -> 338;
+	330 [label="\"Kanlı\" derken neyi kastediyorsun?",shape=box,color=red];
+		330 -> 339;
+	331 [label="Kulağa hoş geliyor.",shape=box,color=red];
+		331 -> 339;
+	334 [label="Bueno",shape=box,color=blue];
+		334 -> 336;
+	338 [label="Chat ends.",color=orange];
+	339 [label="Xipe Totec, Derisi Yüzülmüş Olan, yeniden doğuşun, tarımın ve savaşın tanrısıydı",shape=box,color=blue];
+		339 -> 340;
+		339 -> 341;
+	336 [label="Chat ends.",color=orange];
+	340 [label="Derisi Yüzülmüş Olan...?",shape=box,color=red];
+		340 -> 342;
+	341 [label="Kulağa O KADAR da kötü gelmiyor...",shape=box,color=red];
+		341 -> 342;
+	342 [label="Onu kutlamak için her yıl düzenlenen festivalde savaş esirlerinin derileri yüzülür, erkeklerden oluşan gruplar onların etlerini kendi etleri gibi giyer ve şehir halkından onun adına sunular kabul ederdi 
 Dediğim gibi 
 Zaman zaman kanlı olabilirler",shape=box,color=blue];
-		j1906275872 -> j4212678152;
-		j1906275872 -> j4012374179;
-	j4212678152 [label="Peki. Kabuslarımı körüklediğin için teşekkürler.",shape=box,color=red];
-		j4212678152 -> j1783358073;
-	j4012374179 [label="İnsanlar cidden tuhaf.",shape=box,color=red];
-		j4012374179 -> j3356425238;
-	j1783358073 [label="+10 Chemistry",color=orange];
-		j1783358073 -> j2744980338;
-	j3356425238 [label="+20 Chemistry",color=orange];
-		j3356425238 -> j3930543106;
-	j2744980338 [label="De nada",shape=box,color=blue];
-		j2744980338 -> "Chat ends.";
-	j3930543106 [label="Aynı fikirdeyim",shape=box,color=blue];
-		j3930543106 -> "Chat ends.";
+		342 -> 343;
+		342 -> 344;
+	343 [label="Peki. Kabuslarımı körüklediğin için teşekkürler.",shape=box,color=red];
+		343 -> 347;
+	344 [label="İnsanlar cidden tuhaf.",shape=box,color=red];
+		344 -> 348;
+	347 [label="+10 Chemistry",color=orange];
+		347 -> 345;
+	348 [label="+20 Chemistry",color=orange];
+		348 -> 346;
+	345 [label="De nada",shape=box,color=blue];
+		345 -> 349;
+	346 [label="Aynı fikirdeyim",shape=box,color=blue];
+		346 -> 350;
+	349 [label="Chat ends.",color=orange];
+	350 [label="Chat ends.",color=orange];
 }

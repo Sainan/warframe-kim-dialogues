@@ -1,225 +1,232 @@
 digraph {
-	"LettieRank5Convo7 begins." [color=orange];
-		"LettieRank5Convo7 begins." -> j4288606571;
-	j4288606571 [label="Check boolean LettieDating",color=orange];
-		j4288606571 -> j2301918599 [label=true,color=green];
-		j4288606571 -> "Chat ends." [label=false,color=brown];
-	j2301918599 [label="如果有人从我身边夺走了你 
+	2314 [label="LettieRank5Convo7 begins.",color=orange];
+		2314 -> 2315;
+	2315 [label="Check boolean LettieDating",color=orange];
+		2315 -> 2317 [label=true,color=green];
+		2315 -> 2316 [label=false,color=brown];
+	2317 [label="如果有人从我身边夺走了你 
 我该感谢谁？ 
 是什么会把你夺走？",shape=box,color=blue];
-		j2301918599 -> j375088538;
-		j2301918599 -> j3445010480;
-	"Chat ends." [color=orange];
-	j375088538 [label="我要满怀爱意和敬意地说这句话——你在开场聊天方面真是*太糟糕了*。",shape=box,color=red];
-		j375088538 -> j4185869169;
-	j3445010480 [label="抱歉，倒回去一下，你到底在问我什么？",shape=box,color=red];
-		j3445010480 -> j4268192064;
-	j4185869169 [label="+5 Chemistry",color=orange];
-		j4185869169 -> j2155571599;
-	j4268192064 [label="我只是很好奇，当未来把你从我身边带走时 
+		2317 -> 2318;
+		2317 -> 2319;
+	2316 [label="Chat ends.",color=orange];
+	2318 [label="我要满怀爱意和敬意地说这句话——你在开场聊天方面真是*太糟糕了*。",shape=box,color=red];
+		2318 -> 2322;
+	2319 [label="抱歉，倒回去一下，你到底在问我什么？",shape=box,color=red];
+		2319 -> 2321;
+	2322 [label="+5 Chemistry",color=orange];
+		2322 -> 2320;
+	2321 [label="我只是很好奇，当未来把你从我身边带走时 
 它会以什么方式，又是因为什么",shape=box,color=blue];
-		j4268192064 -> j1681178440;
-		j4268192064 -> j1015834619;
-	j2155571599 [label="¡JAJAJA SÍ！ 
+		2321 -> 2323;
+		2321 -> 2325;
+	2320 [label="¡JAJAJA SÍ！ 
 我真的很糟糕，lo siento 
 我只是很好奇，当未来把你从我身边带走时 
 它会以什么方式，又是因为什么",shape=box,color=blue];
-		j2155571599 -> j1681178440;
-		j2155571599 -> j1015834619;
-	j1681178440 [label="即使我不得不离开——谁说我不会回来的？",shape=box,color=red];
-		j1681178440 -> j672078570;
-	j1015834619 [label="你讨厌我对跟你有关的事情妄下定论。",shape=box,color=red];
-		j1015834619 -> j1383945714;
-	j672078570 [label="也许你会尝试 
+		2320 -> 2323;
+		2320 -> 2325;
+	2323 [label="即使我不得不离开——谁说我不会回来的？",shape=box,color=red];
+		2323 -> 2324;
+	2325 [label="你讨厌我对跟你有关的事情妄下定论。",shape=box,color=red];
+		2325 -> 2326;
+	2324 [label="也许你会尝试 
 也许你甚至会成功 
 你很难被杀死 jaja 
 但我很了解军人，solecito 
 军人并不总是从战场回来 
 所以告诉我会是因为什么原因",shape=box,color=blue];
-		j672078570 -> j3234434887;
-	j1383945714 [label="Sí 我讨厌
+		2324 -> 2328;
+	2326 [label="Sí 我讨厌
 但我也很了解士兵，solecito 
 无论你喜不喜欢，你都是一名士兵 
 当士兵被叫去“拯救世界”时 
 他们就会去做 
 所以告诉我会是因为什么原因",shape=box,color=blue];
-		j1383945714 -> j3234434887;
-	j3234434887 [label="Check boolean LettieReligion2",color=orange];
-		j3234434887 -> j518726374 [label=true,color=green];
-		j3234434887 -> j3250556536 [label=true,color=green];
-		j3234434887 -> j3938172688 [label=true,color=green];
-		j3234434887 -> j510730235 [label=true,color=green];
-		j3234434887 -> j518726374 [label=false,color=brown];
-		j3234434887 -> j2086525013 [label=false,color=brown];
-		j3234434887 -> j599445955 [label=false,color=brown];
-		j3234434887 -> j510730235 [label=false,color=brown];
-	j518726374 [label="因为英择谛。我感觉我追逐他的日子可能还没结束。",shape=box,color=red];
-		j518726374 -> j3112096045;
-	j3250556536 [label="因为我的 Xipe Totec。我亲身经历过，知道为什么*一定要*阻止它。",shape=box,color=red];
-		j3250556536 -> j3012711251;
-	j3938172688 [label="因为 Tau。如果那是英择谛要去的地方，我们的 Xipe Totec 也会跟着他去。而且这个地方太重要了，不能让他们得手。",shape=box,color=red];
-		j3938172688 -> j3204689239;
-	j510730235 [label="我永远都不会离开。故事结束。",shape=box,color=red];
-		j510730235 -> j147668430;
-	j2086525013 [label="因为墙中人。我亲身经历过，知道为什么*一定要*阻止它。",shape=box,color=red];
-		j2086525013 -> j3012711251;
-	j599445955 [label="因为 Tau 星系。如果那是英择谛要去的地方，墙中人。也*会*跟着他去。而且这个地方太重要了，不能让他们得手。",shape=box,color=red];
-		j599445955 -> j3204689239;
-	j3112096045 [label="我还需要更多理由去恨那个 cabrón 吗 
+		2326 -> 2328;
+	2328 [label="Check boolean LettieReligion2",color=orange];
+		2328 -> 2327 [label=true,color=green];
+		2328 -> 2329 [label=true,color=green];
+		2328 -> 2330 [label=true,color=green];
+		2328 -> 2333 [label=true,color=green];
+		2328 -> 2327 [label=false,color=brown];
+		2328 -> 2331 [label=false,color=brown];
+		2328 -> 2332 [label=false,color=brown];
+		2328 -> 2333 [label=false,color=brown];
+	2327 [label="因为英择谛。我感觉我追逐他的日子可能还没结束。",shape=box,color=red];
+		2327 -> 2334;
+	2329 [label="因为我的 Xipe Totec。我亲身经历过，知道为什么*一定要*阻止它。",shape=box,color=red];
+		2329 -> 2335;
+	2330 [label="因为 Tau。如果那是英择谛要去的地方，我们的 Xipe Totec 也会跟着他去。而且这个地方太重要了，不能让他们得手。",shape=box,color=red];
+		2330 -> 2336;
+	2333 [label="我永远都不会离开。故事结束。",shape=box,color=red];
+		2333 -> 2337;
+	2331 [label="因为墙中人。我亲身经历过，知道为什么*一定要*阻止它。",shape=box,color=red];
+		2331 -> 2335;
+	2332 [label="因为 Tau 星系。如果那是英择谛要去的地方，墙中人。也*会*跟着他去。而且这个地方太重要了，不能让他们得手。",shape=box,color=red];
+		2332 -> 2336;
+	2334 [label="我还需要更多理由去恨那个 cabrón 吗 
 现在你又给我增加了一个 
 但是他会毁掉更多的地方，更多的生命 
 就像他毁掉了很多其他的一样",shape=box,color=blue];
-		j3112096045 -> j1334518900;
-	j3012711251 [label="你与虚空剥皮神的故事……sí 
+		2334 -> 2338;
+	2335 [label="你与虚空剥皮神的故事……sí 
 我担心这还没有结束 
 我又凭什么认为自己重要到可以阻止它呢",shape=box,color=blue];
-		j3012711251 -> j334381304;
-	j3204689239 [label="Check boolean LettieSentients",color=orange];
-		j3204689239 -> j3381968233 [label=true,color=green];
-		j3204689239 -> j1754479716 [label=false,color=brown];
-	j147668430 [label="没想到你这么天真 
+		2335 -> 2339;
+	2336 [label="Check boolean LettieSentients",color=orange];
+		2336 -> 2340 [label=true,color=green];
+		2336 -> 2341 [label=false,color=brown];
+	2337 [label="没想到你这么天真 
 babas，我们的关系显然是个错误 
 我觉得你对我来说太嫩了 
 如果你不能理解这一切现实的话",shape=box,color=blue];
-		j147668430 -> j2548450594;
-	j1334518900 [label="Ay, sí 
+		2337 -> 2342;
+	2338 [label="Ay, sí 
 如果不是我们中的一个人给他的脑袋来一枪，那应该是由你来 
 我希望你去让他付出代价后 
 能回到我们这里 
 也回到我身边",shape=box,color=blue];
-		j1334518900 -> j488555963;
-	j334381304 [label="也许当你最终战胜了你的那位剥皮神 
+		2338 -> 2364;
+	2339 [label="也许当你最终战胜了你的那位剥皮神 
 你不会忘记我们这些还留在 cuchitril 里的人 
 你会回到我们这里 
 回到我身边",shape=box,color=blue];
-		j334381304 -> j1793809251;
-	j3381968233 [label="这个 Tau，这不就是那些……Sentient 被送去的地方，¿no? 
-就是那个由假神 Orokin 创造出来的假种族",shape=box,color=blue];
-		j3381968233 -> j1058760498;
-	j1754479716 [label="告诉我这个 Tau 星系
+		2339 -> 2365;
+	2340 [label="这个 Tau，这不就是那些……Sentient 被送去的地方，¿no? 
+就是那个由假神奥罗金创造出来的假种族",shape=box,color=blue];
+		2340 -> 2350;
+	2341 [label="告诉我这个 Tau 星系
 它是什么 
 告诉我为什么它会把你从我身边带走",shape=box,color=blue];
-		j1754479716 -> j3948724860;
-	j2548450594 [label="Boolean LettieDating is now false.",color=orange];
-		j2548450594 -> j4086907321;
-	j488555963 [label="我保证如果我去了，我一定会回来的。",shape=box,color=red];
-		j488555963 -> j2861083174;
-	j1793809251 [label="我只能保证会尽全力去尝试。",shape=box,color=red];
-		j1793809251 -> j1540268917;
-	j1058760498 [label="是的，但那样的话我们就永远不会相遇了。也不会开始约会了。所以……有一点点好处？",shape=box,color=red];
-		j1058760498 -> j2117192733;
-	j3948724860 [label="Tau 是另一个太阳系中的一颗行星，Orokin 派遣他们创造的合成种族去那里进行地球化改造，为我们预备环境。",shape=box,color=red];
-		j3948724860 -> j2986176090;
-	j4086907321 [label="Boolean IsDating is now false.",color=orange];
-		j4086907321 -> j2703113057;
-	j2861083174 [label="+10 Chemistry",color=orange];
-		j2861083174 -> j5307772;
-	j1540268917 [label="+20 Chemistry",color=orange];
-		j1540268917 -> j3081218594;
-	j2117192733 [label="Jajaja sí 
+		2341 -> 2346;
+	2342 [label="Update boolean LettieDating",color=orange];
+		2342 -> 2343;
+	2364 [label="我保证如果我去了，我一定会回来的。",shape=box,color=red];
+		2364 -> 2368;
+	2365 [label="我只能保证会尽全力去尝试。",shape=box,color=red];
+		2365 -> 2371;
+	2350 [label="是的，但那样的话我们就永远不会相遇了。也不会开始约会了。所以……有一点点好处？",shape=box,color=red];
+		2350 -> 2352;
+	2346 [label="Tau 是另一个太阳系中的一颗行星，奥罗金派遣他们创造的合成种族去那里进行地球化改造，为我们预备环境。",shape=box,color=red];
+		2346 -> 2347;
+	2343 [label="Update boolean IsDating",color=orange];
+		2343 -> 2344;
+	2368 [label="+10 Chemistry",color=orange];
+		2368 -> 2366;
+	2371 [label="+20 Chemistry",color=orange];
+		2371 -> 2367;
+	2352 [label="Jajaja sí 
 一点点好处
 但为什么？ 
 为什么这个地方那么重要，以至于有一天它会把你从我身边带走",shape=box,color=blue];
-		j2117192733 -> j2078003332;
-		j2117192733 -> j1890651273;
-		j2117192733 -> j2233963271;
-	j2986176090 [label="这个种族被称为 Sentient。但是 Sentient 背叛了 Orokin。他们回到这里并向 Orokin 发动了战争。",shape=box,color=red];
-		j2986176090 -> j1651454318;
-	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
-		j2703113057 -> "Chat ends.";
-	j5307772 [label="有多少 soldaditos 发过这样的誓言 
+		2352 -> 2354;
+		2352 -> 2355;
+		2352 -> 2356;
+	2347 [label="这个种族被称为 Sentient。但是 Sentient 背叛了奥罗金。他们回到这里并向奥罗金发动了战争。",shape=box,color=red];
+		2347 -> 2348;
+	2344 [label="Update boolean LettieNoDate",color=orange];
+		2344 -> 2345;
+	2366 [label="有多少 soldaditos 发过这样的誓言 
 然后一小时后就死在沟里了呢 
 哎，但我知道你说的是真心话 
 你会尽力的",shape=box,color=blue];
-		j5307772 -> "Chat ends.";
-	j3081218594 [label="这是我可以信任的承诺 
+		2366 -> 2369;
+	2367 [label="这是我可以信任的承诺 
 也是我愿意相信的承诺 
 Gracias, mi corazón",shape=box,color=blue];
-		j3081218594 -> j1472871842;
-	j2078003332 [label="我不清楚。但如果英择谛*和*墙中人要去那里……那一定很重要。",shape=box,color=red];
-		j2078003332 -> j1251978509;
-	j1890651273 [label="它曾人类生存的唯一希望。老实说，或许现在仍然是。",shape=box,color=red];
-		j1890651273 -> j547033612;
-	j2233963271 [label="我不清楚。但 Sentient 说过一些神秘的话。",shape=box,color=red];
-		j2233963271 -> j822534853;
-	j1651454318 [label="正是这场战争促使 Orokin 最初创造出感染者——和战甲，来对抗 Sentient。",shape=box,color=red];
-		j1651454318 -> j4249438121;
-	j1472871842 [label="Boolean LettieReal is now true.",color=orange];
-		j1472871842 -> "Chat ends.";
-	j1251978509 [label="Sí 
+		2367 -> 2370;
+	2354 [label="我不清楚。但如果英择谛*和*墙中人要去那里……那一定很重要。",shape=box,color=red];
+		2354 -> 2357;
+	2355 [label="它曾人类生存的唯一希望。老实说，或许现在仍然是。",shape=box,color=red];
+		2355 -> 2358;
+	2356 [label="我不清楚。但 Sentient 说过一些神秘的话。",shape=box,color=red];
+		2356 -> 2360;
+	2348 [label="正是这场战争促使奥罗金最初创造出感染者——和战甲，来对抗 Sentient。",shape=box,color=red];
+		2348 -> 2349;
+	2345 [label="Chat ends.",color=orange];
+	2369 [label="Chat ends.",color=orange];
+	2370 [label="Update boolean LettieReal",color=orange];
+		2370 -> 2372;
+	2357 [label="Sí 
 我希望你去让他付出代价后 
 能回到我们这里 
 也回到我身边",shape=box,color=blue];
-		j1251978509 -> j488555963;
-		j1251978509 -> j1793809251;
-	j547033612 [label="哎呀，不 
+		2357 -> 2364;
+		2357 -> 2365;
+	2358 [label="哎呀，不 
 所以我们可以像这个星球一样毁掉第二个星球吗
 我想我赞同 sentient 了 jajaja 
 再说，我们在太空中似乎做得还不错，¿no?",shape=box,color=blue];
-		j547033612 -> j2405117675;
-		j547033612 -> j578388810;
-	j822534853 [label="¿Cómo qué? 
+		2358 -> 2362;
+		2358 -> 2363;
+	2360 [label="¿Cómo qué? 
 比如？",shape=box,color=blue];
-		j822534853 -> j961292526;
-		j822534853 -> j3086491540;
-	j4249438121 [label="所以，如果没有这个 Tau 和这些 Sentient 
-这个由 orokin 人这些假神创造的假种族
+		2360 -> 2359;
+		2360 -> 2361;
+	2349 [label="所以，如果没有这个 Tau 和这些 Sentient 
+这个由奥罗金人这些假神创造的假种族
 所有这些 pendejadas 都不会发生",shape=box,color=blue];
-		j4249438121 -> j1058760498;
-		j4249438121 -> j2993569022;
-	j2405117675 [label="合情合理。哈哈",shape=box,color=red];
-		j2405117675 -> j2459663416;
-	j578388810 [label="也许在你做出决定之前，应该先等着看看未来。",shape=box,color=red];
-		j578388810 -> j2459663416;
-	j961292526 [label="“平静中万籁俱寂。寂静与空洞孕育于苍穹。”",shape=box,color=red];
-		j961292526 -> j2178683573;
-	j3086491540 [label="“仅赋其形，谓之为塑；本为无母，亦无其父。”",shape=box,color=red];
-		j3086491540 -> j2178683573;
-	j2993569022 [label="基本上是这样。",shape=box,color=red];
-		j2993569022 -> j2476410362;
-	j2459663416 [label="+10 Chemistry",color=orange];
-		j2459663416 -> j1708887515;
-	j2178683573 [label="¡¿QUÉ?! 
+		2349 -> 2350;
+		2349 -> 2351;
+	2372 [label="Chat ends.",color=orange];
+	2362 [label="合情合理。哈哈",shape=box,color=red];
+		2362 -> 2375;
+	2363 [label="也许在你做出决定之前，应该先等着看看未来。",shape=box,color=red];
+		2363 -> 2375;
+	2359 [label="“平静中万籁俱寂。寂静与空洞孕育于苍穹。”",shape=box,color=red];
+		2359 -> 2376;
+	2361 [label="“仅赋其形，谓之为塑；本为无母，亦无其父。”",shape=box,color=red];
+		2361 -> 2376;
+	2351 [label="基本上是这样。",shape=box,color=red];
+		2351 -> 2353;
+	2375 [label="+10 Chemistry",color=orange];
+		2375 -> 2373;
+	2376 [label="¡¿QUÉ?! 
 你刚才说什么？! 
 等一下等一下等一下等一下等一下",shape=box,color=blue];
-		j2178683573 -> j728352543;
-	j2476410362 [label="但为什么？ 
+		2376 -> 2377;
+	2353 [label="但为什么？ 
 为什么这个地方那么重要，以至于有一天它会把你从我身边带走",shape=box,color=blue];
-		j2476410362 -> j2078003332;
-		j2476410362 -> j1890651273;
-		j2476410362 -> j2233963271;
-	j1708887515 [label="我又得回去工作了 
+		2353 -> 2354;
+		2353 -> 2355;
+		2353 -> 2356;
+	2373 [label="我又得回去工作了 
 一如既往 
 没完……没了……",shape=box,color=blue];
-		j1708887515 -> "Chat ends.";
-	j728352543 [label="¿POR QUÉ? 为什么来自遥远未来的生物会引用 ¿a los PUEBLOS ANTIGUOS? 
+		2373 -> 2374;
+	2377 [label="¿POR QUÉ? 为什么来自遥远未来的生物会引用 ¿a los PUEBLOS ANTIGUOS? 
 ¿Qué chingados está pasando ahora?",shape=box,color=blue];
-		j728352543 -> j2688966343;
-		j728352543 -> j797465502;
-	j2688966343 [label="嗯。不好意思。什么？他们引用了什么？",shape=box,color=red];
-		j2688966343 -> j1217139562;
-	j797465502 [label="莱蒂，你又把我弄糊涂了。再说一遍吧。",shape=box,color=red];
-		j797465502 -> j1217139562;
-	j1217139562 [label="啊啊啊啊这说不通啊 
+		2377 -> 2378;
+		2377 -> 2379;
+	2374 [label="Chat ends.",color=orange];
+	2378 [label="嗯。不好意思。什么？他们引用了什么？",shape=box,color=red];
+		2378 -> 2380;
+	2379 [label="莱蒂，你又把我弄糊涂了。再说一遍吧。",shape=box,color=red];
+		2379 -> 2380;
+	2380 [label="啊啊啊啊这说不通啊 
 这些是古代人 Chichén Itzá 人的话。你从哪里听到它们的？！",shape=box,color=blue];
-		j1217139562 -> j537906963;
-	j537906963 [label="那些是来自 LOS PUEBLOS ANTIGUOS 的神圣经文 
+		2380 -> 2381;
+	2381 [label="那些是来自 LOS PUEBLOS ANTIGUOS 的神圣经文 
 “¡¿CÓMO Y POR QUÉ!?”",shape=box,color=blue];
-		j537906963 -> j962563841;
-		j537906963 -> j2877070546;
-	j962563841 [label="我——我不——我不知道。我一点头绪都没有。我只能瞎猜。",shape=box,color=red];
-		j962563841 -> j3811754702;
-	j2877070546 [label="难道是时间旅行……？",shape=box,color=red];
-		j2877070546 -> j3811754702;
-	j3811754702 [label="+20 Chemistry",color=orange];
-		j3811754702 -> j2391228640;
-	j2391228640 [label="我从来不喝酒 
+		2381 -> 2382;
+		2381 -> 2383;
+	2382 [label="我——我不——我不知道。我一点头绪都没有。我只能瞎猜。",shape=box,color=red];
+		2382 -> 2387;
+	2383 [label="难道是时间旅行……？",shape=box,color=red];
+		2383 -> 2387;
+	2387 [label="+20 Chemistry",color=orange];
+		2387 -> 2384;
+	2384 [label="我从来不喝酒 
 但如果要喝的话，现在就是时候了 
 哎呀，这些荒谬的事情一天比一天离谱",shape=box,color=blue];
-		j2391228640 -> j449099902;
-	j449099902 [label="我……需要去坐下来，mi corazón 
+		2384 -> 2385;
+	2385 [label="我……需要去坐下来，mi corazón 
 暂时不要跟我谈论未来的事，¿Sí? 
 我想我早就受够了 
 让我头疼得要命",shape=box,color=blue];
-		j449099902 -> j1472871842;
+		2385 -> 2386;
+	2386 [label="Update boolean LettieReal",color=orange];
+		2386 -> 2388;
+	2388 [label="Chat ends.",color=orange];
 }

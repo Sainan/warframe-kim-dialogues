@@ -1,18 +1,19 @@
 digraph {
-	"VelimirBirthdayConvo1 begins." [color=orange];
-		"VelimirBirthdayConvo1 begins." -> j3121490221;
-		"VelimirBirthdayConvo1 begins." -> j565455679;
-	j3121490221 [label="Робитимеш щось веселе на свій День народження?",shape=box,color=red];
-		j3121490221 -> j2899532644;
-	j565455679 [label="Привіт, Велимире! З Днем народження, здоровило! Сподіваюся, ти насолодишся ним хоч трохи.",shape=box,color=red];
-		j565455679 -> j2075029512;
-	j2899532644 [label="PapaPolar: ага, 100 %. житиму в кошмарі наяву й розбиратимуся із зараженими тостерами й скальдрівськими психопатами.",shape=box,color=blue];
-		j2899532644 -> j3758578691;
-	j2075029512 [label="+20 Chemistry",color=orange];
-		j2075029512 -> j3294667411;
-	j3758578691 [label="PapaPolar: просто відро веселощів.",shape=box,color=blue];
-		j3758578691 -> "Chat ends.";
-	j3294667411 [label="PapaPolar: о, дякую, дружаньо. намагатимуся. добре, коли поруч є друзі :)",shape=box,color=blue];
-		j3294667411 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	1798 [label="VelimirBirthdayConvo1 begins.",color=orange];
+		1798 -> 1799;
+		1798 -> 1800;
+	1799 [label="Робитимеш щось веселе на свій День народження?",shape=box,color=red];
+		1799 -> 1801;
+	1800 [label="Привіт, Велимире! З Днем народження, здоровило! Сподіваюся, ти насолодишся ним хоч трохи.",shape=box,color=red];
+		1800 -> 1802;
+	1801 [label="PapaPolar: ага, 100 %. житиму в кошмарі наяву й розбиратимуся із зараженими тостерами й скальдрівськими психопатами.",shape=box,color=blue];
+		1801 -> 1803;
+	1802 [label="+20 Chemistry",color=orange];
+		1802 -> 1804;
+	1803 [label="PapaPolar: просто відро веселощів.",shape=box,color=blue];
+		1803 -> 1805;
+	1804 [label="PapaPolar: о, дякую, дружаньо. намагатимуся. добре, коли поруч є друзі :)",shape=box,color=blue];
+		1804 -> 1806;
+	1805 [label="Chat ends.",color=orange];
+	1806 [label="Chat ends.",color=orange];
 }

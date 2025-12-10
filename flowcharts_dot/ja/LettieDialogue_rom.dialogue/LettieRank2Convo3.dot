@@ -1,197 +1,205 @@
 digraph {
-	"LettieRank2Convo3 begins." [color=orange];
-		"LettieRank2Convo3 begins." -> j1666291197;
-	j1666291197 [label="Check boolean LettieOrokin1",color=orange];
-		j1666291197 -> j557612234 [label=true,color=green];
-		j1666291197 -> j404941698 [label=false,color=brown];
-	j557612234 [label="前言ったオロキン、Entratiもその一人
+	352 [label="LettieRank2Convo3 begins.",color=orange];
+		352 -> 353;
+	353 [label="Check boolean LettieOrokin1",color=orange];
+		353 -> 354 [label=true,color=green];
+		353 -> 355 [label=false,color=brown];
+	354 [label="前言ったオロキン、Entratiもその一人
 そうなの? 
 なるほど、彼は自分が神だと思って他人の命を弄んでる",shape=box,color=blue];
-		j557612234 -> j1501623633;
-		j557612234 -> j3959824276;
-	j404941698 [label="Entratiは何様のつもり
+		354 -> 356;
+		354 -> 357;
+	355 [label="Entratiは何様のつもり
 ここに来て命を弄んで
 pinche güeyは何様のつもり？！",shape=box,color=blue];
-		j404941698 -> j2393539547;
-		j404941698 -> j3568518659;
-		j404941698 -> j3959824276;
-	j1501623633 [label="ある意味そうかも？　半分正解かな。Void実験の後、オロキンは彼を敬慕した。でも彼は以前にどう扱われていたか苦々しく思っていて…　うまく説明しづらい。",shape=box,color=red];
-		j1501623633 -> j1345190443;
-		j1501623633 -> j2393539547;
-	j3959824276 [label="行かないと、すまない。[閉じる]",shape=box,color=red];
-		j3959824276 -> "Chat ends.";
-	j2393539547 [label="けれど、彼は大義のためにやっていると考えている。",shape=box,color=red];
-		j2393539547 -> j2034447368;
-	j3568518659 [label="彼はオロキンと親しく付き合っていた。自分が神であると信じていた。",shape=box,color=red];
-		j3568518659 -> j3648530731;
-	j1345190443 [label="彼は単にそういう人なんだと思う。カビアに会ってみるべきだ。",shape=box,color=red];
-		j1345190443 -> j3137140593;
-	"Chat ends." [color=orange];
-	j2034447368 [label="Boolean LettieEntrati is now true.",color=orange];
-		j2034447368 -> j3917390745;
-	j3648530731 [label="オロキン？",shape=box,color=blue];
-		j3648530731 -> j4157639181;
-	j3137140593 [label="Boolean LettieCavia is now true.",color=orange];
-		j3137140593 -> j2585837905;
-	j3917390745 [label="それが大儀なら、ケツを向けてやる",shape=box,color=blue];
-		j3917390745 -> j2531884483;
-		j3917390745 -> j1890445147;
-	j4157639181 [label="Boolean LettieOrokin1 is now true.",color=orange];
-		j4157639181 -> j1247232738;
-		j4157639181 -> j1803766539;
-	j2585837905 [label="カビアって誰",shape=box,color=blue];
-		j2585837905 -> j1714048948;
-	j2531884483 [label="どうだろう、Lettieにお尻向けられたらそれはそれでいいかも ;)",shape=box,color=red];
-		j2531884483 -> j3070359591;
-	j1890445147 [label="理不尽かもだけど、壁の中のモノを止めることは重要なんだ。",shape=box,color=red];
-		j1890445147 -> j593413589;
-	j1247232738 [label="未来での支配階級。彼らは自身らを神だと民に崇拝させた。",shape=box,color=red];
-		j1247232738 -> j1651492336;
-	j1803766539 [label="奴らは自身が他の誰より上にいると考えていたクソ野郎たちだ。これ以上言うことはないね。",shape=box,color=red];
-		j1803766539 -> j1651492336;
-	j1714048948 [label="友達たちだ。Entratiの実験でVoidに送り込まれた動物たち。",shape=box,color=red];
-		j1714048948 -> j416251139;
-	j3070359591 [label="+5 Chemistry",color=orange];
-		j3070359591 -> j4257149918;
-	j593413589 [label="正しいことをしてるとは限らない
+		355 -> 360;
+		355 -> 361;
+		355 -> 362;
+	356 [label="ある意味そうかも？　半分正解かな。Void実験の後、オロキンは彼を敬慕した。でも彼は以前にどう扱われていたか苦々しく思っていて…　うまく説明しづらい。",shape=box,color=red];
+		356 -> 359;
+		356 -> 360;
+	357 [label="行かないと、すまない。[閉じる]",shape=box,color=red];
+		357 -> 358;
+	360 [label="けれど、彼は大義のためにやっていると考えている。",shape=box,color=red];
+		360 -> 367;
+	361 [label="彼はオロキンと親しく付き合っていた。自分が神であると信じていた。",shape=box,color=red];
+		361 -> 364;
+	362 [label="行かないと、すまない。[閉じる]",shape=box,color=red];
+		362 -> 363;
+	359 [label="彼は単にそういう人なんだと思う。カビアに会ってみるべきだ。",shape=box,color=red];
+		359 -> 366;
+	358 [label="Chat ends.",color=orange];
+	367 [label="Update boolean LettieEntrati",color=orange];
+		367 -> 369;
+	364 [label="オロキン？",shape=box,color=blue];
+		364 -> 365;
+	363 [label="Chat ends.",color=orange];
+	366 [label="Update boolean LettieCavia",color=orange];
+		366 -> 368;
+	369 [label="それが大儀なら、ケツを向けてやる",shape=box,color=blue];
+		369 -> 371;
+		369 -> 372;
+	365 [label="Update boolean LettieOrokin1",color=orange];
+		365 -> 373;
+		365 -> 374;
+	368 [label="カビアって誰",shape=box,color=blue];
+		368 -> 370;
+	371 [label="どうだろう、Lettieにお尻向けられたらそれはそれでいいかも ;)",shape=box,color=red];
+		371 -> 375;
+	372 [label="理不尽かもだけど、壁の中のモノを止めることは重要なんだ。",shape=box,color=red];
+		372 -> 377;
+	373 [label="未来での支配階級。彼らは自身らを神だと民に崇拝させた。",shape=box,color=red];
+		373 -> 378;
+	374 [label="奴らは自身が他の誰より上にいると考えていたクソ野郎たちだ。これ以上言うことはないね。",shape=box,color=red];
+		374 -> 378;
+	370 [label="友達たちだ。Entratiの実験でVoidに送り込まれた動物たち。",shape=box,color=red];
+		370 -> 376;
+	375 [label="+5 Chemistry",color=orange];
+		375 -> 380;
+	377 [label="正しいことをしてるとは限らない
 彼みたいなpendejosは皆そうだ 
 脇目もふらず自分の問題に猪突猛進 
 他の人みんなを巻き添えにして",shape=box,color=blue];
-		j593413589 -> j3062880016;
-	j1651492336 [label="ヒトが王として着飾りして
+		377 -> 385;
+	378 [label="ヒトが王として着飾りして
 自身を神聖と考えるのは珍しい話じゃないわ",shape=box,color=blue];
-		j1651492336 -> j2848575326;
-	j416251139 [label="これ以上Entratiを憎むとは思わなかった… 
+		378 -> 382;
+	376 [label="これ以上Entratiを憎むとは思わなかった… 
 実験動物？！",shape=box,color=blue];
-		j416251139 -> j464490195;
-	j4257149918 [label="JAJA 
+		376 -> 379;
+	380 [label="JAJA 
 言うわね",shape=box,color=blue];
-		j4257149918 -> j438164173;
-	j3062880016 [label="誰をどれだけ傷つけてもお構いなし
+		380 -> 381;
+	385 [label="誰をどれだけ傷つけてもお構いなし
 皆が彼の使命の名の下に巻き添えになっているだけ",shape=box,color=blue];
-		j3062880016 -> j1515163177;
-	j2848575326 [label="Entratiがしていることがまさにそれ
+		385 -> 390;
+	382 [label="Entratiがしていることがまさにそれ
 自分を神だと思って動いてる
 彼みたいなpendejosは皆そうだ 
 脇目もふらず自分の問題に猪突猛進 
 他の人みんなを巻き添えにして",shape=box,color=blue];
-		j2848575326 -> j3062880016;
-	j464490195 [label="彼らはVoidに送り込まれ、知性を得て戻ってきた。",shape=box,color=red];
-		j464490195 -> j1653458390;
-	j438164173 [label="そういうpendejosは皆同じ
+		382 -> 385;
+	379 [label="彼らはVoidに送り込まれ、知性を得て戻ってきた。",shape=box,color=red];
+		379 -> 383;
+	381 [label="そういうpendejosは皆同じ
 問題解決以外のことは目に入らずに他の人が巻き添えを喰らう
 誰をどれだけ傷つけようがお構いなし
 思い通りにするためなら宇宙だって燃やすわ",shape=box,color=blue];
-		j438164173 -> j1515163177;
-	j1515163177 [label="彼のような人のせいでアタシたちのような人が殺される",shape=box,color=blue];
-		j1515163177 -> j1708658087;
-	j1653458390 [label="Voidは…　そういう奇妙なことができる。",shape=box,color=red];
-		j1653458390 -> j2698086387;
-	j1708658087 [label="彼*本人*はその大義に殉じはしない
+		381 -> 390;
+	390 [label="彼のような人のせいでアタシたちのような人が殺される",shape=box,color=blue];
+		390 -> 394;
+	383 [label="Voidは…　そういう奇妙なことができる。",shape=box,color=red];
+		383 -> 384;
+	394 [label="彼*本人*はその大義に殉じはしない
 *自分*の命だけは絶対に犠牲にしない
 周りの命だけよ",shape=box,color=blue];
-		j1708658087 -> j587881811;
-	j2698086387 [label="当ててみようか、彼はそれも見捨てた
+		394 -> 396;
+	384 [label="当ててみようか、彼はそれも見捨てた
 何が起きたかを目にして、もういらないと言って置いていった",shape=box,color=blue];
-		j2698086387 -> j64818668;
-		j2698086387 -> j3658937502;
-	j587881811 [label="結局どちらが化け物なのかしらね",shape=box,color=blue];
-		j587881811 -> j4093723113;
-		j587881811 -> j3209591037;
-	j64818668 [label="ああ、その通りだ。彼らは今や…　トラウマを背負った、人の知性を持つ動物だ。",shape=box,color=red];
-		j64818668 -> j2041196083;
-	j3658937502 [label="Entratiは壁の中のモノを止めようとしている。それは重要なんだ。",shape=box,color=red];
-		j3658937502 -> j601778534;
-	j4093723113 [label="彼が壁の中のモノを止めるためなら何でもする理由は分かる。",shape=box,color=red];
-		j4093723113 -> j2363832357;
-	j3209591037 [label="壁の中のモノを止めるには、彼が必要だ。けれど、だからといって信頼しているわけじゃない。気に入っているわけでもない。",shape=box,color=red];
-		j3209591037 -> j100797098;
-	j2041196083 [label="嗚呼、pobres ángeles inocentes 
+		384 -> 386;
+		384 -> 387;
+	396 [label="結局どちらが化け物なのかしらね",shape=box,color=blue];
+		396 -> 397;
+		396 -> 398;
+	386 [label="ああ、その通りだ。彼らは今や…　トラウマを背負った、人の知性を持つ動物だ。",shape=box,color=red];
+		386 -> 388;
+	387 [label="Entratiは壁の中のモノを止めようとしている。それは重要なんだ。",shape=box,color=red];
+		387 -> 389;
+	397 [label="彼が壁の中のモノを止めるためなら何でもする理由は分かる。",shape=box,color=red];
+		397 -> 402;
+	398 [label="壁の中のモノを止めるには、彼が必要だ。けれど、だからといって信頼しているわけじゃない。気に入っているわけでもない。",shape=box,color=red];
+		398 -> 401;
+	388 [label="嗚呼、pobres ángeles inocentes 
 あんたの言う通り、アタシなら可愛がるわね
 アタシたちに動物は相応しくない
 彼らの愛は純粋で見返りに求めるのも愛だから",shape=box,color=blue];
-		j2041196083 -> j51376169;
-		j2041196083 -> j3105922806;
-	j601778534 [label="それを否定はしない
+		388 -> 391;
+		388 -> 392;
+	389 [label="それを否定はしない
 けれど彼のようなpendejosはいつも完全な善のためと言って最悪をしでかす
 誰がどれだけ傷つこうが気に掛けない、勝って好き勝手している限り",shape=box,color=blue];
-		j601778534 -> j1515163177;
-	j2363832357 [label="神々を解ったふりをしてはいけない 
+		389 -> 390;
+	402 [label="神々を解ったふりをしてはいけない 
 彼らはアタシたち以上のもので、違うと考えるのは愚かよ",shape=box,color=blue];
-		j2363832357 -> j3201214572;
-	j100797098 [label="+10 Chemistry",color=orange];
-		j100797098 -> j3100171995;
-	j51376169 [label="カビアを助けるためにできる限りのことをしてる。正直、大半の人間よりカビアのほうが好き。笑",shape=box,color=red];
-		j51376169 -> j3085388912;
-	j3105922806 [label="いつかの日かLettieを連れて会いにいけるかもしれない。",shape=box,color=red];
-		j3105922806 -> j976104818;
-	j3201214572 [label="Check boolean LettieReligion2",color=orange];
-		j3201214572 -> j2448246345 [label=true,color=green];
-		j3201214572 -> j3485120567 [label=false,color=brown];
-	j3100171995 [label="ならいい
+		402 -> 404;
+	401 [label="+10 Chemistry",color=orange];
+		401 -> 403;
+	391 [label="カビアを助けるためにできる限りのことをしてる。正直、大半の人間よりカビアのほうが好き。笑",shape=box,color=red];
+		391 -> 399;
+	392 [label="いつかの日かLettieを連れて会いにいけるかもしれない。",shape=box,color=red];
+		392 -> 393;
+	404 [label="Check boolean LettieReligion2",color=orange];
+		404 -> 409 [label=true,color=green];
+		404 -> 410 [label=false,color=brown];
+	403 [label="ならいい
 あのpendejoを侮ってはいけない
 でも神というものの本質がわかっていると思い込まないように気を付けて",shape=box,color=blue];
-		j3100171995 -> j3201214572;
-	j3085388912 [label="Boolean LettieRats1 is now true.",color=orange];
-		j3085388912 -> j150201081;
-	j976104818 [label="そうしたら嬉しいわ
+		403 -> 404;
+	399 [label="Update boolean LettieRats1",color=orange];
+		399 -> 395;
+	393 [label="そうしたら嬉しいわ
 Gracias",shape=box,color=blue];
-		j976104818 -> j3085388912;
-	j2448246345 [label="Xipe Totecも誇りに思うわね
+		393 -> 399;
+	409 [label="Xipe Totecも誇りに思うわね
 けれど皮を剥がれた者のように、そちらの古き神があんたの顔を被らないように気を付けて",shape=box,color=blue];
-		j2448246345 -> j4044484781;
-	j3485120567 [label="彼が追っているというモノ
+		409 -> 419;
+	410 [label="彼が追っているというモノ
 それは古の血腥い神々と同じように人の皮をまとっている",shape=box,color=blue];
-		j3485120567 -> j3482222047;
-	j150201081 [label="+10 Chemistry",color=orange];
-		j150201081 -> j4035160789;
-	j4044484781 [label="そうなったら少し悲しくなるかも",shape=box,color=blue];
-		j4044484781 -> j2588934890;
-		j4044484781 -> j2279048435;
-	j3482222047 [label="皮を剥がれた者のXipe Totecは敵の皮を被る
+		410 -> 411;
+	395 [label="+10 Chemistry",color=orange];
+		395 -> 400;
+	419 [label="そうなったら少し悲しくなるかも",shape=box,color=blue];
+		419 -> 420;
+		419 -> 421;
+	411 [label="皮を剥がれた者のXipe Totecは敵の皮を被る
 あんたの壁の中のモノもそうね",shape=box,color=blue];
-		j3482222047 -> j104780390;
-	j4035160789 [label="これがペットを飼う理由よ
+		411 -> 414;
+	400 [label="これがペットを飼う理由よ
 ネズミは淋しい時に傍にいてくれる
 人間に疲れた時、そこにいる
 小さな愛おしい魂よ、ただ愛を求める",shape=box,color=blue];
-		j4035160789 -> j3365611502;
-	j2588934890 [label="ああ、ありがとう。",shape=box,color=red];
-		j2588934890 -> j876375855;
-	j2279048435 [label="そっちもお大事に、Lettie。",shape=box,color=red];
-		j2279048435 -> j2194127644;
-	j104780390 [label="だから自分の行動には気をつけて
+		400 -> 405;
+	420 [label="ああ、ありがとう。",shape=box,color=red];
+		420 -> 422;
+	421 [label="そっちもお大事に、Lettie。",shape=box,color=red];
+		421 -> 423;
+	414 [label="だから自分の行動には気をつけて
 さもないと次はあんたの顔が被られるから
 ¿Yeah, babas?",shape=box,color=blue];
-		j104780390 -> j4044484781;
-	j3365611502 [label="それとチェダーチーズクラウンね jaja
+		414 -> 419;
+	405 [label="それとチェダーチーズクラウンね jaja
 でもほとんどは愛",shape=box,color=blue];
-		j3365611502 -> j154690103;
-	j876375855 [label="仕事に戻らないとね
+		405 -> 406;
+	422 [label="仕事に戻らないとね
 Nos vemos, babas",shape=box,color=blue];
-		j876375855 -> "Chat ends.";
-	j2194127644 [label="チュッ
+		422 -> 424;
+	423 [label="チュッ
 仕事に戻らないとね
 Nos vemos, babas",shape=box,color=blue];
-		j2194127644 -> "Chat ends.";
-	j154690103 [label="けれどもしEntratiにまた会うことがあれば
+		423 -> 425;
+	406 [label="けれどもしEntratiにまた会うことがあれば
 無惨な目に遭わせるわ
 動物たちに与えた苦痛全てを償わせる
 完全にわからせてやるわ",shape=box,color=blue];
-		j154690103 -> j3200410023;
-		j154690103 -> j3362918176;
-	j3200410023 [label="自分も手伝うよ。",shape=box,color=red];
-		j3200410023 -> j372290317;
-	j3362918176 [label="壁の中のモノを対処し終えたら、彼を好きにするといい。",shape=box,color=red];
-		j3362918176 -> j1556402785;
-	j372290317 [label="+10 Chemistry",color=orange];
-		j372290317 -> j1556402785;
-	j1556402785 [label="ようやく転移に使い道ができるわね",shape=box,color=blue];
-		j1556402785 -> j1804210677;
-	j1804210677 [label="それかあんたに取り押さえてもらうわ
+		406 -> 407;
+		406 -> 408;
+	424 [label="Chat ends.",color=orange];
+	425 [label="Chat ends.",color=orange];
+	407 [label="自分も手伝うよ。",shape=box,color=red];
+		407 -> 412;
+	408 [label="壁の中のモノを対処し終えたら、彼を好きにするといい。",shape=box,color=red];
+		408 -> 761;
+	412 [label="+10 Chemistry",color=orange];
+		412 -> 2439;
+	761 [label="ようやく転移に使い道ができるわね",shape=box,color=blue];
+		761 -> 413;
+	2439 [label="ようやく転移に使い道ができるわね",shape=box,color=blue];
+		2439 -> 413;
+	413 [label="それかあんたに取り押さえてもらうわ
 フフッ、あり得ない未来に興奮してきてるわ",shape=box,color=blue];
-		j1804210677 -> j210979967;
-	j210979967 [label="仕事に戻らないとね
+		413 -> 416;
+	416 [label="仕事に戻らないとね
 Nos vemos",shape=box,color=blue];
-		j210979967 -> "Chat ends.";
+		416 -> 418;
+	418 [label="Chat ends.",color=orange];
 }

@@ -1,18 +1,19 @@
 digraph {
-	"MinervaBirthdayConvo3 begins." [color=orange];
-		"MinervaBirthdayConvo3 begins." -> j1705012178;
-		"MinervaBirthdayConvo3 begins." -> j3436414875;
-	j1705012178 [label="Чи можу я привітати тебе з Днем народження? Чи це підпадає під категорію засекреченої інформації?",shape=box,color=red];
-		j1705012178 -> j1439236964;
-	j3436414875 [label="Отже, сьогодні *насправді* твій День народження? Чи це фальшива дата, як і твоє ім’я та інші шпигунські штучки?",shape=box,color=red];
-		j3436414875 -> j261315905;
-	j1439236964 [label="+20 Chemistry",color=orange];
-		j1439236964 -> j2627786780;
-	j261315905 [label="MomToxicated: Це засекречено.",shape=box,color=blue];
-		j261315905 -> "Chat ends.";
-	j2627786780 [label="MomToxicated: Ха. Якщо це взагалі мій День народження. ;) ",shape=box,color=blue];
-		j2627786780 -> j3406750788;
-	"Chat ends." [color=orange];
-	j3406750788 [label="MomToxicated: Дякую.",shape=box,color=blue];
-		j3406750788 -> "Chat ends.";
+	1789 [label="MinervaBirthdayConvo3 begins.",color=orange];
+		1789 -> 1790;
+		1789 -> 1791;
+	1790 [label="Чи можу я привітати тебе з Днем народження? Чи це підпадає під категорію засекреченої інформації?",shape=box,color=red];
+		1790 -> 1792;
+	1791 [label="Отже, сьогодні *насправді* твій День народження? Чи це фальшива дата, як і твоє ім’я та інші шпигунські штучки?",shape=box,color=red];
+		1791 -> 1793;
+	1792 [label="+20 Chemistry",color=orange];
+		1792 -> 1794;
+	1793 [label="MomToxicated: Це засекречено.",shape=box,color=blue];
+		1793 -> 1795;
+	1794 [label="MomToxicated: Ха. Якщо це взагалі мій День народження. ;) ",shape=box,color=blue];
+		1794 -> 1796;
+	1795 [label="Chat ends.",color=orange];
+	1796 [label="MomToxicated: Дякую.",shape=box,color=blue];
+		1796 -> 1797;
+	1797 [label="Chat ends.",color=orange];
 }

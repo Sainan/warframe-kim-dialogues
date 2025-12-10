@@ -1,16 +1,17 @@
 digraph {
-	"KayaBirthdayConvo1 begins." [color=orange];
-		"KayaBirthdayConvo1 begins." -> j880263981;
-		"KayaBirthdayConvo1 begins." -> j1535390891;
-	j880263981 [label="Ey, Kaya. ¡Feliz cumpleaños!",shape=box,color=red];
-		j880263981 -> j1393956205;
-	j1535390891 [label="Feliz cumpleaños, Kaya. ¿Qué se siente ser mayor?",shape=box,color=red];
-		j1535390891 -> j2209272810;
-	j1393956205 [label="+20 Chemistry",color=orange];
-		j1393956205 -> j229276573;
-	j2209272810 [label="No soy mayor, ¿verdad? Ninguno de nosotros lo es. Simplemente damos vueltas en círculos en este carrusel como lindos ponis enloquecidos.",shape=box,color=blue];
-		j2209272810 -> "Chat ends.";
-	j229276573 [label="Vaya, ¿te acordaste? Quiero decir, los cumpleaños no son gran cosa después de los 8, pero eso es muy dulce de tu parte, gracias.",shape=box,color=blue];
-		j229276573 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	987 [label="KayaBirthdayConvo1 begins.",color=orange];
+		987 -> 999;
+		987 -> 1000;
+	999 [label="Ey, Kaya. ¡Feliz cumpleaños!",shape=box,color=red];
+		999 -> 1005;
+	1000 [label="Feliz cumpleaños, Kaya. ¿Qué se siente ser mayor?",shape=box,color=red];
+		1000 -> 1006;
+	1005 [label="+20 Chemistry",color=orange];
+		1005 -> 988;
+	1006 [label="No soy mayor, ¿verdad? Ninguno de nosotros lo es. Simplemente damos vueltas en círculos en este carrusel como lindos ponis enloquecidos.",shape=box,color=blue];
+		1006 -> 1007;
+	988 [label="Vaya, ¿te acordaste? Quiero decir, los cumpleaños no son gran cosa después de los 8, pero eso es muy dulce de tu parte, gracias.",shape=box,color=blue];
+		988 -> 989;
+	1007 [label="Chat ends.",color=orange];
+	989 [label="Chat ends.",color=orange];
 }

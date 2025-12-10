@@ -1,0 +1,33 @@
+digraph {
+	2307 [label="RoatheStory19 begins.",color=orange];
+		2307 -> 5676;
+	5676 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5676 -> 2304 [label=true,color=green];
+		5676 -> 5677 [label=false,color=brown];
+	2304 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2304 -> 2302 [label="x >= 19",color=purple];
+		2304 -> 2306 [label="false",color=purple];
+	5677 [label="Chat ends.",color=orange];
+	2302 [label="VM: DIPLOMACY",shape=box,color=blue];
+		2302 -> 5720;
+	2306 [label="Chat ends.",color=orange];
+	5720 [label="บันทึก: ในบรรดาผู้บริหารทั้งเจ็ด Ballas วางตนเป็นอันดับหนึ่งเหนือคนอื่น ๆ ",shape=box,color=blue];
+		5720 -> 5721;
+	5721 [label="เขาเป็นนักการทูตและนักเกลี้ยกล่อมเสียงหวาน ที่มักจะแก้ไขความคับข้องใจและความขัดแย้งของคนอื่น ๆ ได้เสมอ",shape=box,color=blue];
+		5721 -> 2301;
+	2301 [label="ข้ายินดีอย่างที่สุดที่พบว่าบัดนี้เขากลายเป็นกุหลาบที่ติดอยู่ท่ามกลางพุ่มหนามสองพุ่ม ",shape=box,color=blue];
+		2301 -> 5734;
+	5734 [label="ข้างหนึ่งคือ ฝ่ายผู้กระหายสงครามที่นำโดย Nitokh อีกข้างคือ ฝ่ายสันตินิยมภายใต้การนำของ Scarne",shape=box,color=blue];
+		5734 -> 2300;
+	2300 [label="ซึ่ง Ballas จำเป็นต้องตัดสินใจและอาจสร้างความเกลียดชังอย่างรุนแรงจากฝ่ายใดก็ตามที่เขาไม่ได้เข้าข้าง",shape=box,color=blue];
+		2300 -> 2305;
+	2305 [label="และเพราะเหตุผลที่ไม่อาจคาดเดาได้ เขาได้เลือกสันติภาพ ด้วยเสียงสี่ต่อสาม ดังนั้น Sentient ผู้หิวโหยจึงกลายเป็นพันธมิตรและมิตรสหายในทันที",shape=box,color=blue];
+		2305 -> 2308;
+	2308 [label="\"ไม่ทางใดก็ทางหนึ่ง เขาจะกลับคืนมา\" Nitokh ให้สัญญา ขณะที่ข้าถูกส่งไปตามหาผู้ไม่พอใจในหมู่ทหาร Dax ที่ออกไปรักษาการณ์",shape=box,color=blue];
+		2308 -> 2299;
+	2299 [label="Add 1 to HellStory",color=orange];
+		2299 -> 2346;
+	2346 [label="{\"Id\":2346,\"Incoming\":[2299],\"Outgoing\":[2303],\"GraphPos\":[4753,-4136],\"CompletionType\":1}",color=orange];
+		2346 -> 2303;
+	2303 [label="Chat ends.",color=orange];
+}

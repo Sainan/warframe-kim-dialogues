@@ -1,18 +1,19 @@
 digraph {
-	"KayaBirthdayConvo3 begins." [color=orange];
-		"KayaBirthdayConvo3 begins." -> j2933971932;
-		"KayaBirthdayConvo3 begins." -> j2106463641;
-	j2933971932 [label="Was macht ihr Kids heutzutage so an Geburtstagen?",shape=box,color=red];
-		j2933971932 -> j4264617090;
-	j2106463641 [label="Profi-Tipp: Merke dir deinen Geburtstag für etwas ganz Wichtiges. Du wirst es vergessen ... in ungefähr 500 Jahren.",shape=box,color=red];
-		j2106463641 -> j3713406996;
-	j4264617090 [label="ägh.",shape=box,color=blue];
-		j4264617090 -> "Chat ends.";
-	j3713406996 [label="ooooh jaaaaa, ich werde jetzt doch nicht älter, oder? Ich werde denselben Geburtstag immer und immer wieder haben",shape=box,color=blue];
-		j3713406996 -> j2619879859;
-	"Chat ends." [color=orange];
-	j2619879859 [label="+20 Chemistry",color=orange];
-		j2619879859 -> j3268507861;
-	j3268507861 [label="das. ist. so. COOL.",shape=box,color=blue];
-		j3268507861 -> "Chat ends.";
+	995 [label="KayaBirthdayConvo3 begins.",color=orange];
+		995 -> 1003;
+		995 -> 1004;
+	1003 [label="Was macht ihr Kids heutzutage so an Geburtstagen?",shape=box,color=red];
+		1003 -> 994;
+	1004 [label="Profi-Tipp: Merke dir deinen Geburtstag für etwas ganz Wichtiges. Du wirst es vergessen ... in ungefähr 500 Jahren.",shape=box,color=red];
+		1004 -> 1011;
+	994 [label="ägh.",shape=box,color=blue];
+		994 -> 993;
+	1011 [label="ooooh jaaaaa, ich werde jetzt doch nicht älter, oder? Ich werde denselben Geburtstag immer und immer wieder haben",shape=box,color=blue];
+		1011 -> 1012;
+	993 [label="Chat ends.",color=orange];
+	1012 [label="+20 Chemistry",color=orange];
+		1012 -> 1013;
+	1013 [label="das. ist. so. COOL.",shape=box,color=blue];
+		1013 -> 1014;
+	1014 [label="Chat ends.",color=orange];
 }

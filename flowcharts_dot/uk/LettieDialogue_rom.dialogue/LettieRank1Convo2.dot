@@ -1,153 +1,158 @@
 digraph {
-	"LettieRank1Convo2 begins." [color=orange];
-		"LettieRank1Convo2 begins." -> j89496700;
-	j89496700 [label="Check boolean LettieRatsAsked",color=orange];
-		j89496700 -> j644849822 [label=true,color=green];
-		j89496700 -> j2721597606 [label=false,color=brown];
-		j89496700 -> j644849822 [label=false,color=brown];
-	j644849822 [label="Хтось удома сумує за тобою?",shape=box,color=red];
-		j644849822 -> j3611088737;
-	j2721597606 [label="Чому ти захотіла тримати домашніх пацюків?",shape=box,color=red];
-		j2721597606 -> j1419769657;
-	j3611088737 [label="Boolean LettieHomeAsked is now true.",color=orange];
-		j3611088737 -> j4029412242;
-	j1419769657 [label="Boolean LettieRatsAsked is now true.",color=orange];
-		j1419769657 -> j27878299;
-	j4029412242 [label="Check boolean LettieInteresting",color=orange];
-		j4029412242 -> j3233251527 [label=true,color=green];
-		j4029412242 -> j4090575822 [label=false,color=brown];
-	j27878299 [label="Check boolean LettieInteresting",color=orange];
-		j27878299 -> j1904082570 [label=true,color=green];
-		j27878299 -> j3452418562 [label=false,color=brown];
-	j3233251527 [label="Це питання набагато ліпше
+	52 [label="LettieRank1Convo2 begins.",color=orange];
+		52 -> 211;
+	211 [label="Check boolean LettieRatsAsked",color=orange];
+		211 -> 53 [label=true,color=green];
+		211 -> 54 [label=false,color=brown];
+		211 -> 53 [label=false,color=brown];
+	53 [label="Хтось удома сумує за тобою?",shape=box,color=red];
+		53 -> 55;
+	54 [label="Чому ти захотіла тримати домашніх пацюків?",shape=box,color=red];
+		54 -> 56;
+	55 [label="Update boolean LettieHomeAsked",color=orange];
+		55 -> 57;
+	56 [label="Update boolean LettieRatsAsked",color=orange];
+		56 -> 58;
+	57 [label="Check boolean LettieInteresting",color=orange];
+		57 -> 59 [label=true,color=green];
+		57 -> 62 [label=false,color=brown];
+	58 [label="Check boolean LettieInteresting",color=orange];
+		58 -> 60 [label=true,color=green];
+		58 -> 61 [label=false,color=brown];
+	59 [label="Це питання набагато ліпше
 Ти швидко вчишся 
 Однак",shape=box,color=blue];
-		j3233251527 -> j4090575822;
-	j4090575822 [label="Не має значення 
+		59 -> 62;
+	62 [label="Не має значення 
 Не можу залишити цю cuchitril
 То навіщо думати про них",shape=box,color=blue];
-		j4090575822 -> j4160491035;
-		j4090575822 -> j1440154523;
-		j4090575822 -> j354706544;
-	j1904082570 [label="От, бачиш? 
+		62 -> 67;
+		62 -> 66;
+		62 -> 65;
+	60 [label="От, бачиш? 
 Набагато краще питання, babas 
 Ти швидко вчишся",shape=box,color=blue];
-		j1904082570 -> j3452418562;
-	j3452418562 [label="Ти мені скажи",shape=box,color=blue];
-		j3452418562 -> j1048412147;
-		j3452418562 -> j186088435;
-	j4160491035 [label="Ми спілкуємося в *Інтернеті*, і ти ж знаєш, що існує *телефон*, га?",shape=box,color=red];
-		j4160491035 -> j627347534;
-	j1440154523 [label="Іноді болісні спогади допомагають нам жити далі.",shape=box,color=red];
-		j1440154523 -> j53243050;
-	j354706544 [label="Га… разд… [Кінець]",shape=box,color=red];
-		j354706544 -> "Chat ends.";
-	j1048412147 [label="Га?",shape=box,color=red];
-		j1048412147 -> j3715384948;
-	j186088435 [label="Щось мені не подобається, куди це йде. [Кінець]",shape=box,color=red];
-		j186088435 -> j2365690676;
-	j627347534 [label="Bien podría ser un pinche fantasma
+		60 -> 61;
+	61 [label="Ти мені скажи",shape=box,color=blue];
+		61 -> 91;
+		61 -> 80;
+	67 [label="Ми спілкуємося в *Інтернеті*, і ти ж знаєш, що існує *телефон*, га?",shape=box,color=red];
+		67 -> 70;
+	66 [label="Іноді болісні спогади допомагають нам жити далі.",shape=box,color=red];
+		66 -> 69;
+	65 [label="Га… разд… [Завершити розмову]",shape=box,color=red];
+		65 -> 68;
+	91 [label="Га?",shape=box,color=red];
+		91 -> 93;
+	80 [label="Щось мені не подобається, куди це йде. [Завершити розмову]",shape=box,color=red];
+		80 -> 2440;
+	70 [label="Bien podría ser un pinche fantasma
 Дзвінок із потойбіччя, я не можу нічого змінити, не можу жити, не можу померти",shape=box,color=blue];
-		j627347534 -> j3508587569;
-	j53243050 [label="¿Sí? 
+		70 -> 81;
+	69 [label="¿Sí? 
 І що ти знаєш про біль?",shape=box,color=blue];
-		j53243050 -> j2007179318;
-		j53243050 -> j72174075;
-	"Chat ends." [color=orange];
-	j3715384948 [label="Я хочу знати, чому ти думаєш я люблю пацюків 
+		69 -> 72;
+		69 -> 74;
+	68 [label="Chat ends.",color=orange];
+	93 [label="Я хочу знати, чому ти думаєш я люблю пацюків 
 Кажи",shape=box,color=blue];
-		j3715384948 -> j3507503232;
-	j2365690676 [label="Tú te lo pierdes",shape=box,color=blue];
-		j2365690676 -> "Chat ends.";
-	j3508587569 [label="¿¡Що ми?! 
+		93 -> 104;
+	2440 [label="Tú te lo pierdes",shape=box,color=blue];
+		2440 -> 2441;
+	81 [label="¿¡Що ми?! 
 FANTASMAS й тільки 
 Як тіні на затертій відеокасеті",shape=box,color=blue];
-		j3508587569 -> j830454443;
-	j2007179318 [label="Ти знаєш як це, коли тобі відрубають голову? Я так, зі мною це було тисячі разів. І це *боляче*, панянко.",shape=box,color=red];
-		j2007179318 -> j1227815904;
-	j72174075 [label="Мені не потрібно тобі щось доводити, панянко.",shape=box,color=red];
-		j72174075 -> j3107869735;
-	j3507503232 [label="Boolean LettieRats1 is now true.",color=orange];
-		j3507503232 -> j1564151691;
-		j3507503232 -> j1638199749;
-		j3507503232 -> j3261083942;
-	j830454443 [label="Ні, краще най думають, що я вже мертва
+		81 -> 82;
+	72 [label="Ти знаєш як це, коли тобі відрубають голову? Я так, зі мною це було тисячі разів. І це *боляче*, панянко.",shape=box,color=red];
+		72 -> 71;
+	74 [label="Мені не потрібно тобі щось доводити, панянко.",shape=box,color=red];
+		74 -> 73;
+	104 [label="Update boolean LettieRats1",color=orange];
+		104 -> 95;
+		104 -> 96;
+		104 -> 97;
+	2441 [label="Chat ends.",color=orange];
+	82 [label="Ні, краще най думають, що я вже мертва
 Я несу цей біль за них",shape=box,color=blue];
-		j830454443 -> j13709419;
-		j830454443 -> j1984733144;
-	j1227815904 [label="Boolean LettieDuviri is now true.",color=orange];
-		j1227815904 -> j2686405035;
-	j3107869735 [label="Я не просила тебе 
+		82 -> 79;
+		82 -> 78;
+	71 [label="Update boolean LettieDuviri",color=orange];
+		71 -> 76;
+	73 [label="Я не просила тебе 
 Я зайнята
 Vete",shape=box,color=blue];
-		j3107869735 -> "Chat ends.";
-	j1564151691 [label="Тому що вони розумні, ласкаві та грайливі?",shape=box,color=red];
-		j1564151691 -> j3126385574;
-	j1638199749 [label="Тому що ними часто нехтують і не розуміють?",shape=box,color=red];
-		j1638199749 -> j3126385574;
-	j3261083942 [label="Летті? Ти для мене суцільна загадка. Але пацюки такі милі.",shape=box,color=red];
-		j3261083942 -> j3357801036;
-	j13709419 [label="Тут ще є заради чого жити.",shape=box,color=red];
-		j13709419 -> j444287335;
-	j1984733144 [label="Ти береш на себе чужий біль за власним бажанням чи через обов’язок?",shape=box,color=red];
-		j1984733144 -> j2007206273;
-	j2686405035 [label="Мене торкалася La Flaca
+		73 -> 75;
+	95 [label="Тому що вони розумні, ласкаві та грайливі?",shape=box,color=red];
+		95 -> 94;
+	96 [label="Тому що ними часто нехтують і не розуміють?",shape=box,color=red];
+		96 -> 94;
+	97 [label="Летті? Ти для мене суцільна загадка. Але пацюки такі милі.",shape=box,color=red];
+		97 -> 105;
+	79 [label="Тут ще є заради чого жити.",shape=box,color=red];
+		79 -> 84;
+	78 [label="Ти береш на себе чужий біль за власним бажанням чи через обов’язок?",shape=box,color=red];
+		78 -> 85;
+	76 [label="Мене торкалася La Flaca
 Ще одна fantasma, як і всі ми
 Переживаємо смерть по колу, знову і знову",shape=box,color=blue];
-		j2686405035 -> j156341429;
-	j3126385574 [label="Ay, Луа, sálvame",shape=box,color=blue];
-		j3126385574 -> j2214907257;
-	j3357801036 [label="¡JAJAJA!",shape=box,color=blue];
-		j3357801036 -> j2356233938;
-	j444287335 [label="Так-так
+		76 -> 77;
+	75 [label="Chat ends.",color=orange];
+	94 [label="Ay, Луа, sálvame",shape=box,color=blue];
+		94 -> 98;
+	105 [label="¡JAJAJA!",shape=box,color=blue];
+		105 -> 99;
+	84 [label="Так-так
 Тут є ігри Аміра, випивка Артура, музика Аой і фотографії Квінсі",shape=box,color=blue];
-		j444287335 -> j1614066518;
-	j2007206273 [label="+20 Chemistry",color=orange];
-		j2007206273 -> j2445850444;
-	j156341429 [label="Sí 
+		84 -> 89;
+	85 [label="+20 Chemistry",color=orange];
+		85 -> 83;
+	77 [label="Sí 
 У мене вдома сім’я 
 Краще нехай думають, що я вже мертва",shape=box,color=blue];
-		j156341429 -> j1984733144;
-		j156341429 -> j13709419;
-	j2214907257 [label="Ні 
+		77 -> 78;
+		77 -> 79;
+	98 [label="Ні 
 Маєш що ще сказати",shape=box,color=blue];
-		j2214907257 -> j3917413267;
-		j2214907257 -> j1733312159;
-	j2356233938 [label="+20 Chemistry",color=orange];
-		j2356233938 -> j2838991360;
-	j1614066518 [label="Порожні захоплення 
+		98 -> 100;
+		98 -> 101;
+	99 [label="+20 Chemistry",color=orange];
+		99 -> 106;
+	89 [label="Порожні захоплення 
 Порожні душі 
 Гаємо час крізь вічність",shape=box,color=blue];
-		j1614066518 -> j3376627480;
-	j2445850444 [label="Мабуть, і те, і інше
+		89 -> 90;
+	83 [label="Мабуть, і те, і інше
 Я давно це обрала
 Тепер пізно щось змінювати",shape=box,color=blue];
-		j2445850444 -> j1729315693;
-	j3917413267 [label="Ем…",shape=box,color=red];
-		j3917413267 -> j4143714835;
-	j1733312159 [label="Ні… не зважай…",shape=box,color=red];
-		j1733312159 -> j2547240352;
-	j2838991360 [label="Рятує нас і зберігає скромність
+		83 -> 86;
+	100 [label="Ем…",shape=box,color=red];
+		100 -> 63;
+	101 [label="Ні… не зважай…",shape=box,color=red];
+		101 -> 102;
+	106 [label="Рятує нас і зберігає скромність
 Мені подобається",shape=box,color=blue];
-		j2838991360 -> j1139296606;
-	j3376627480 [label="У мене купа роботи 
+		106 -> 107;
+	90 [label="У мене купа роботи 
 Vete",shape=box,color=blue];
-		j3376627480 -> j1253712857;
-	j1729315693 [label="У мене купа роботи",shape=box,color=blue];
-		j1729315693 -> j1253712857;
-	j4143714835 [label="Boolean LettieHomeAsked is now true.",color=orange];
-		j4143714835 -> j102527133;
-	j2547240352 [label="Va",shape=box,color=blue];
-		j2547240352 -> "Chat ends.";
-	j1139296606 [label="Я виросла в небагатій сім’ї 
+		90 -> 87;
+	86 [label="У мене купа роботи",shape=box,color=blue];
+		86 -> 87;
+	63 [label="Update boolean LettieHomeAsked",color=orange];
+		63 -> 64;
+	102 [label="Va",shape=box,color=blue];
+		102 -> 103;
+	107 [label="Я виросла в небагатій сім’ї 
 Ми переїжджали від бази до бази 
 Пацюків було легко тримати, та й mi mamá була не проти",shape=box,color=blue];
-		j1139296606 -> j613218160;
-	j1253712857 [label="Boolean LettieFantasma1 is now true.",color=orange];
-		j1253712857 -> "Chat ends.";
-	j102527133 [label="Хтось удома сумує за тобою?",shape=box,color=red];
-		j102527133 -> j4090575822;
-	j613218160 [label="Мені треба повертатися до роботи 
+		107 -> 108;
+	87 [label="Update boolean LettieFantasma1",color=orange];
+		87 -> 88;
+	64 [label="Хтось удома сумує за тобою?",shape=box,color=red];
+		64 -> 62;
+	103 [label="Chat ends.",color=orange];
+	108 [label="Мені треба повертатися до роботи 
 Ще побачимося, babas",shape=box,color=blue];
-		j613218160 -> "Chat ends.";
+		108 -> 109;
+	88 [label="Chat ends.",color=orange];
+	109 [label="Chat ends.",color=orange];
 }

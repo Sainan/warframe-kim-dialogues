@@ -1,88 +1,92 @@
 digraph {
-	"LettieRank4Convo4 begins." [color=orange];
-		"LettieRank4Convo4 begins." -> j1158339480;
-	j1158339480 [label="Check boolean LettieNoFlirt",color=orange];
-		j1158339480 -> "Chat ends." [label=true,color=green];
-		j1158339480 -> j629651314 [label=false,color=brown];
-	"Chat ends." [color=orange];
-	j629651314 [label="Гіпотетичне запитання: якщо я запрошу тебе випити, чи знадобляться мені після цього шви?",shape=box,color=red];
-		j629651314 -> j3741727461;
-	j3741727461 [label="Check boolean LettieNoDate",color=orange];
-		j3741727461 -> j3093601069 [label=true,color=green];
-		j3741727461 -> j1515960057 [label=false,color=brown];
-	j3093601069 [label="Sí 
+	1203 [label="LettieRank4Convo4 begins.",color=orange];
+		1203 -> 1204;
+	1204 [label="Check boolean LettieNoFlirt",color=orange];
+		1204 -> 1205 [label=true,color=green];
+		1204 -> 1206 [label=false,color=brown];
+	1205 [label="Chat ends.",color=orange];
+	1206 [label="Гіпотетичне запитання: якщо я запрошу тебе випити, чи знадобляться мені після цього шви?",shape=box,color=red];
+		1206 -> 1207;
+	1207 [label="Check boolean LettieNoDate",color=orange];
+		1207 -> 1208 [label=true,color=green];
+		1207 -> 1210 [label=false,color=brown];
+	1208 [label="Sí 
 Знадобляться",shape=box,color=blue];
-		j3093601069 -> "Chat ends.";
-	j1515960057 [label="М-м? 
+		1208 -> 1209;
+	1210 [label="М-м? 
 Jajaja, та ні",shape=box,color=blue];
-		j1515960057 -> j2604510085;
-	j2604510085 [label="Але я не п’ю, ніколи не пила
+		1210 -> 1211;
+	1209 [label="Chat ends.",color=orange];
+	1211 [label="Але я не п’ю, ніколи не пила
 Я також не вживаю наркотиків
 Тобі доведеться бути креативніше, щоб стягнути з мене штани
 Або те, що на мені зараз",shape=box,color=blue];
-		j2604510085 -> j1586933983;
-		j2604510085 -> j1538334900;
-	j1586933983 [label="Знатиму. :) Дай підказки, що я можу зробити, щоб завоювати тебе?",shape=box,color=red];
-		j1586933983 -> j1628865962;
-	j1538334900 [label="До речі… мені давно цікаво запитати…",shape=box,color=red];
-		j1538334900 -> j557481327;
-	j1628865962 [label="Тобі просто потрібно розуміти, на що ти йдеш, babas
+		1211 -> 1212;
+		1211 -> 1213;
+	1212 [label="Знатиму. :) Дай підказки, що я можу зробити, щоб завоювати тебе?",shape=box,color=red];
+		1212 -> 1215;
+	1213 [label="До речі… мені давно цікаво запитати…",shape=box,color=red];
+		1213 -> 1216;
+	1215 [label="Тобі просто потрібно розуміти, на що ти йдеш, babas
 Якщо ти хочеш когось милого та ніжного, краще поговори з Аой або Аміром
 Я надто звикла до болю, і мені подобаються такі розваги",shape=box,color=blue];
-		j1628865962 -> j4293054827;
-		j1628865962 -> j2881902754;
-	j557481327 [label="¿Qué?",shape=box,color=blue];
-		j557481327 -> j1018586849;
-		j557481327 -> j1692630537;
-	j4293054827 [label="Так, панянко. Мене попереджено.",shape=box,color=red];
-		j4293054827 -> j2920390235;
-	j2881902754 [label="Ем… так, забудь. Я не дуже люблю біль.",shape=box,color=red];
-		j2881902754 -> j603426258;
-	j1018586849 [label="Мені було цікаво, чи ти та інші протофрейми все ще маєте… знаєш… ваші частини… там внизу…",shape=box,color=red];
-		j1018586849 -> j178090950;
-	j1692630537 [label="Е-е. Не зважай.",shape=box,color=red];
-		j1692630537 -> j1399689372;
-	j2920390235 [label="Boolean LettiePain is now true.",color=orange];
-		j2920390235 -> j2578486699;
-	j603426258 [label="+15 Chemistry",color=orange];
-		j603426258 -> j1536638684;
-	j178090950 [label="JAJAJAJAJA 
+		1215 -> 1225;
+		1215 -> 1226;
+	1216 [label="¿Qué?",shape=box,color=blue];
+		1216 -> 1217;
+		1216 -> 1218;
+	1225 [label="Так, панянко. Мене попереджено.",shape=box,color=red];
+		1225 -> 1227;
+	1226 [label="Ем… так, забудь. Я не дуже люблю біль.",shape=box,color=red];
+		1226 -> 1232;
+	1217 [label="Мені було цікаво, чи ти та інші протофрейми все ще маєте… знаєш… ваші частини… там внизу…",shape=box,color=red];
+		1217 -> 1219;
+	1218 [label="Е-е. Не зважай.",shape=box,color=red];
+		1218 -> 1220;
+	1227 [label="Update boolean LettiePain",color=orange];
+		1227 -> 1231;
+	1232 [label="+15 Chemistry",color=orange];
+		1232 -> 1229;
+	1219 [label="JAJAJAJAJA 
 Ти це серйозно?! 
 Ти не можеш просто ПИТАТИ людей, що у них там внизу 
 А-а-а-а, babaaaaassss, я так сильно не реготала вже багато часу",shape=box,color=blue];
-		j178090950 -> j2354196603;
-		j178090950 -> j423022903;
-	j1399689372 [label="Va 
+		1219 -> 1222;
+		1219 -> 1223;
+	1220 [label="Va 
 Я зайнята",shape=box,color=blue];
-		j1399689372 -> "Chat ends.";
-	j2578486699 [label="+20 Chemistry",color=orange];
-		j2578486699 -> j143624962;
-	j1536638684 [label="Bueno 
+		1220 -> 1221;
+	1231 [label="+20 Chemistry",color=orange];
+		1231 -> 1230;
+	1229 [label="Bueno 
 Це на краще 
 Дай знати, якщо передумаєш",shape=box,color=blue];
-		j1536638684 -> j3220648475;
-	j2354196603 [label="Перепрошую.",shape=box,color=red];
-		j2354196603 -> j2206450031;
-	j423022903 [label="Ем… та все ж? Маєте?",shape=box,color=red];
-		j423022903 -> j2206450031;
-	j143624962 [label="М-м, так? 
+		1229 -> 1228;
+	1222 [label="Перепрошую.",shape=box,color=red];
+		1222 -> 1224;
+	1223 [label="Ем… та все ж? Маєте?",shape=box,color=red];
+		1223 -> 1224;
+	1221 [label="Chat ends.",color=orange];
+	1230 [label="М-м, так? 
 Думаєш, що зможеш це витримати, чи не так? 
 Я хочу це побачити",shape=box,color=blue];
-		j143624962 -> j3175207021;
-	j3220648475 [label="Boolean LettieNoPain is now true.",color=orange];
-		j3220648475 -> j3241565517;
-	j2206450031 [label="Скажу тобі ось що 
+		1230 -> 1233;
+	1228 [label="Update boolean LettieNoPain",color=orange];
+		1228 -> 1234;
+	1224 [label="Скажу тобі ось що 
 Можливо, якщо ти поводитимешся добре 
 То я дозволю тобі перевірити, м-м? 
 Просто попереджаю тебе 
 Якщо ти хочеш когось милого та ніжного, краще поговори з Аой або Аміром
 Я надто звикла до болю, і мені подобаються такі розваги",shape=box,color=blue];
-		j2206450031 -> j4293054827;
-		j2206450031 -> j2881902754;
-	j3175207021 [label="Тепер vete
+		1224 -> 1225;
+		1224 -> 1226;
+	1233 [label="Тепер vete
 Я не можу тут фантазувати, поки у мене купа роботи",shape=box,color=blue];
-		j3175207021 -> "Chat ends.";
-	j3241565517 [label="А тепер vete 
+		1233 -> 1235;
+	1234 [label="А тепер vete 
 У мене купа роботи",shape=box,color=blue];
-		j3241565517 -> "Chat ends.";
+		1234 -> 1236;
+	1235 [label="Chat ends.",color=orange];
+	1236 [label="Chat ends.",color=orange];
 }

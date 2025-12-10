@@ -1,0 +1,24 @@
+digraph {
+	18 [label="LoidFamily begins.",color=orange];
+		18 -> 19;
+	19 [label="Evaluate expressions",color=orange];
+		19 -> 20 [label="MarieFamilySuccess, LyonFamilySuccess, RoatheFamilySuccess",color=purple];
+		19 -> 21 [label="false",color=purple];
+	20 [label="ดริฟเตอร์ ข้ายอมแพ้ Roathe, Marie และ Lyon ทำให้ข้าเชื่อว่าในที่สุดเวลานั้นก็มาถึง",shape=box,color=blue];
+		20 -> 22;
+	21 [label="Chat ends.",color=orange];
+	22 [label="ข้าหวาดกลัวสิ่งที่ข้าต้องทำลงไปถึงกระดูก แท้จริงแล้ว นั่นอาจเป็นสิ่งที่ถูกพรากไป เมื่อข้าถูกฉีกเป็นชิ้นเล็กชิ้นน้อยด้วยความโกรธเกรี้ยว หาก Gomaitru และครอบครัวของนางค้นพบว่ามีอะไรเกิดขึ้นที่ใต้เท้าของพวกเขามาตลอด",shape=box,color=blue];
+		22 -> 23;
+	23 [label="แปลกจริง ๆ ที่เรียกนางด้วยชื่อนั้นในตอนนี้ แต่ระหว่างเรามีหลายสิ่งเปลี่ยนไปมาก และอีกไม่นานก็จะเปลี่ยนไปอีกมากมายเช่นกัน",shape=box,color=blue];
+		23 -> 24;
+		23 -> 25;
+	24 [label="นี่มันเลยเวลามานานแล้ว เจ้าไม่เป็นไรหรอก",shape=box,color=red];
+		24 -> 26;
+	25 [label="เจ้าทำเรื่องนี้ได้",shape=box,color=red];
+		25 -> 26;
+	26 [label="อืม ได้โปรดช่วยมาดูให้แน่ใจด้วยเถอะนะว่าเครื่องในของข้าไม่ได้ถูกเอาไปทำเป็นของตกแต่งเทศกาลในเนคราลิสก์ ข้าเกรงว่าเมื่อทุกอย่างเรียบร้อยแล้ว ข้าอาจต้องการความมั่นใจสักหน่อย",shape=box,color=blue];
+		26 -> 27;
+	27 [label="Update boolean LoidFamilyComplete",color=orange];
+		27 -> 28;
+	28 [label="Chat ends.",color=orange];
+}

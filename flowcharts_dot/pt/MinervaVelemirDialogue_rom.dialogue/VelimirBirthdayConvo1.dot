@@ -1,18 +1,19 @@
 digraph {
-	"VelimirBirthdayConvo1 begins." [color=orange];
-		"VelimirBirthdayConvo1 begins." -> j2334852825;
-		"VelimirBirthdayConvo1 begins." -> j2425455290;
-	j2334852825 [label="Vai fazer algo de legal hoje no seu aniversário?",shape=box,color=red];
-		j2334852825 -> j3065088479;
-	j2425455290 [label="E aí, Velimir! Feliz aniversário, grandalhão! Espero que você aproveite o dia",shape=box,color=red];
-		j2425455290 -> j25150196;
-	j3065088479 [label="PapaPolar: ah sim, claro. viver no inferno e lidar com torradeiras infestadas e os psicopatas da scaldra",shape=box,color=blue];
-		j3065088479 -> j1970211942;
-	j25150196 [label="+20 Chemistry",color=orange];
-		j25150196 -> j1532227473;
-	j1970211942 [label="PapaPolar: belo dia à frente",shape=box,color=blue];
-		j1970211942 -> "Chat ends.";
-	j1532227473 [label="PapaPolar: ownn valeu, camarada. vou fazer o possível pra isso, ter amigos por perto ajuda bastante :)",shape=box,color=blue];
-		j1532227473 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	1798 [label="VelimirBirthdayConvo1 begins.",color=orange];
+		1798 -> 1799;
+		1798 -> 1800;
+	1799 [label="Vai fazer algo de legal hoje no seu aniversário?",shape=box,color=red];
+		1799 -> 1801;
+	1800 [label="E aí, Velimir! Feliz aniversário, grandalhão! Espero que você aproveite o dia",shape=box,color=red];
+		1800 -> 1802;
+	1801 [label="PapaPolar: ah sim, claro. viver no inferno e lidar com torradeiras infestadas e os psicopatas da scaldra",shape=box,color=blue];
+		1801 -> 1803;
+	1802 [label="+20 Chemistry",color=orange];
+		1802 -> 1804;
+	1803 [label="PapaPolar: belo dia à frente",shape=box,color=blue];
+		1803 -> 1805;
+	1804 [label="PapaPolar: ownn valeu, camarada. vou fazer o possível pra isso, ter amigos por perto ajuda bastante :)",shape=box,color=blue];
+		1804 -> 1806;
+	1805 [label="Chat ends.",color=orange];
+	1806 [label="Chat ends.",color=orange];
 }

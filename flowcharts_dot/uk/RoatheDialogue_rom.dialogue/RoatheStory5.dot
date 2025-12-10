@@ -1,0 +1,31 @@
+digraph {
+	2175 [label="RoatheStory5 begins.",color=orange];
+		2175 -> 5649;
+	5649 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5649 -> 2174 [label=true,color=green];
+		5649 -> 5648 [label=false,color=brown];
+	2174 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2174 -> 2176 [label="x >= 5",color=purple];
+		2174 -> 2173 [label="false",color=purple];
+	5648 [label="Chat ends.",color=orange];
+	2176 [label="ВИНАХІД",shape=box,color=blue];
+		2176 -> 2172;
+	2173 [label="Chat ends.",color=orange];
+	2172 [label="Витяг: Тепер я згадав, що бойові мистецтва архімедії спершу були представлені як розваги. ",shape=box,color=blue];
+		2172 -> 5692;
+	5692 [label="Як для розбещених роззяв, котрі спостерігають за стратою злочинців на аренах цирків.",shape=box,color=blue];
+		5692 -> 2169;
+	2169 [label="Ми уявляли, що винаходимо нові захопливі способи розправитися з набагато слабшими ворогами.",shape=box,color=blue];
+		2169 -> 2170;
+	2170 [label="Які ж пихаті дурні. Насправді ми творили інновації у відчаї, усвідомлюючи власну безпорадність перед мінливими супротивниками.",shape=box,color=blue];
+		2170 -> 5685;
+	5685 [label="Вони рвали нас, мов юрма дітей, що пожирає свою розбухлу матір.",shape=box,color=blue];
+		5685 -> 5686;
+	5686 [label="Висушені, розчавлені між сторінками часу, ми просто виявилися еволюційно відсталішими.",shape=box,color=blue];
+		5686 -> 2168;
+	2168 [label="Add 1 to HellStory",color=orange];
+		2168 -> 2332;
+	2332 [label="{\"Id\":2332,\"Incoming\":[2168],\"Outgoing\":[2171],\"GraphPos\":[4580,-9977],\"CompletionType\":1}",color=orange];
+		2332 -> 2171;
+	2171 [label="Chat ends.",color=orange];
+}

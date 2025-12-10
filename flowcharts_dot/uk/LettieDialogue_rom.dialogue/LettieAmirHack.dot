@@ -1,40 +1,40 @@
 digraph {
-	"LettieAmirHack begins." [color=orange];
-		"LettieAmirHack begins." -> j2316161106;
-	j2316161106 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
-		j2316161106 -> j149072727;
-		j2316161106 -> j1953550832;
-	j149072727 [label="Щось ти якась розлючена…",shape=box,color=red];
-		j149072727 -> j3171584988;
-	j1953550832 [label="Гм… ти не отримала арахісове масло… ?",shape=box,color=red];
-		j1953550832 -> j3171584988;
-	j3171584988 [label="ЩО Я МАЮ РОБИТИ
+	1768 [label="LettieAmirHack begins.",color=orange];
+		1768 -> 1769;
+	1769 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
+		1769 -> 1770;
+		1769 -> 1771;
+	1770 [label="Щось ти якась розлючена…",shape=box,color=red];
+		1770 -> 1772;
+	1771 [label="Гм… ти не отримала арахісове масло… ?",shape=box,color=red];
+		1771 -> 1772;
+	1772 [label="ЩО Я МАЮ РОБИТИ
 З 500 ЯЩИКАМИ КЕТЧУПУ
 ¡DILE A ESE NIÑO QUE VENGA AQUÍ AHORA MISMO!
 ВІН МАЄ ВИПРАВИТИ ЦЕ
 НЕГАЙНО!!",shape=box,color=blue];
-		j3171584988 -> j2103012460;
-		j3171584988 -> j1696973341;
-	j2103012460 [label="Гей, це схоже на помилку. Амір намагався надіслати арахісове масло для твоїх пацюків.",shape=box,color=red];
-		j2103012460 -> j1354275069;
-	j1696973341 [label="Це непорозуміння. Він намагався надіслати тобі подарунок.",shape=box,color=red];
-		j1696973341 -> j3915581986;
-	j1354275069 [label="Але щось пішло не так. Я допоможу йому все виправити.",shape=box,color=red];
-		j1354275069 -> j206240123;
-	j3915581986 [label="МЕНІ ВСЕ ОДНО
+		1772 -> 1773;
+		1772 -> 1774;
+	1773 [label="Гей, це схоже на помилку. Амір намагався надіслати арахісове масло для твоїх пацюків.",shape=box,color=red];
+		1773 -> 1775;
+	1774 [label="Це непорозуміння. Він намагався надіслати тобі подарунок.",shape=box,color=red];
+		1774 -> 1776;
+	1775 [label="Але щось пішло не так. Я допоможу йому все виправити.",shape=box,color=red];
+		1775 -> 1780;
+	1776 [label="МЕНІ ВСЕ ОДНО
 ¡¡SÁCALAS DE AQUÍ!! 
 ¡¡AHORA!!",shape=box,color=blue];
-		j3915581986 -> "Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue";
-	j206240123 [label="+20 Chemistry",color=orange];
-		j206240123 -> j3036234881;
-	"Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue" [label="Queue conversation AmirHack3 in JabirDialogue_rom.dialogue",color=orange];
-		"Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue" -> "Chat ends.";
-	j3036234881 [label="¿SÍ? 
+		1776 -> 1777;
+	1780 [label="+20 Chemistry",color=orange];
+		1780 -> 1778;
+	1777 [label="{\"Id\":1777,\"Incoming\":[1779,1776],\"Outgoing\":[1781],\"GraphPos\":[2847,54171],\"CompletionType\":2,\"OtherDialogueInfos\":[{\"Dialogue\":\"/Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue\",\"Tag\":\"AmirHack3\",\"Value\":0}]}",color=orange];
+		1777 -> 1781;
+	1778 [label="¿SÍ? 
 Це було для mis panquecitos?",shape=box,color=blue];
-		j3036234881 -> j3457608661;
-	"Chat ends." [color=orange];
-	j3457608661 [label="¡Ay equis! 
+		1778 -> 1779;
+	1781 [label="Chat ends.",color=orange];
+	1779 [label="¡Ay equis! 
 Просто забери це все звідси 
 ¡¡AHORA!!",shape=box,color=blue];
-		j3457608661 -> "Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue";
+		1779 -> 1777;
 }

@@ -1,19 +1,24 @@
 digraph {
-	"LettieBirthdayConvo2 begins." [color=orange];
-		"LettieBirthdayConvo2 begins." -> j1518259554;
-		"LettieBirthdayConvo2 begins." -> j4142948988;
-	j1518259554 [label="Doğum günün kutlu olsun! Eminim tıbbi çadırındaki herkes çalışmanı takdir ediyordur :)",shape=box,color=red];
-		j1518259554 -> j1254870956;
-	j4142948988 [label="Doğum günün kutlu olsun, Lettie! Bugün izinli misin? Ya da en azından oturacak vaktin var mı?",shape=box,color=red];
-		j4142948988 -> j1139411119;
-	j1254870956 [label="Sí
+	2500 [label="LettieBirthdayConvo2 begins.",color=orange];
+		2500 -> 2513;
+		2500 -> 2507;
+	2513 [label="Doğum günün kutlu olsun! Eminim tıbbi çadırındaki herkes çalışmanı takdir ediyordur :)",shape=box,color=red];
+		2513 -> 2511;
+	2507 [label="Doğum günün kutlu olsun, Lettie! Bugün izinli misin? Ya da en azından oturacak vaktin var mı?",shape=box,color=red];
+		2507 -> 2505;
+	2511 [label="Sí
 Elbette",shape=box,color=blue];
-		j1254870956 -> "Chat ends.";
-	j1139411119 [label="+20 Chemistry",color=orange];
-		j1139411119 -> j164949839;
-	"Chat ends." [color=orange];
-	j164949839 [label="Hah!
+		2511 -> 2518;
+	2505 [label="+20 Chemistry",color=orange];
+		2505 -> 2502;
+	2518 [label="{\"Id\":2518,\"Incoming\":[2511],\"Outgoing\":[2515],\"GraphPos\":[771,-1070],\"CompletionType\":1}",color=orange];
+		2518 -> 2515;
+	2502 [label="Hah!
 Keşke
 Yine de erken çıkıyorum. Benim için yeterli.",shape=box,color=blue];
-		j164949839 -> "Chat ends.";
+		2502 -> 2519;
+	2515 [label="Chat ends.",color=orange];
+	2519 [label="{\"Id\":2519,\"Incoming\":[2502],\"Outgoing\":[2506],\"GraphPos\":[1153,-1288],\"CompletionType\":1}",color=orange];
+		2519 -> 2506;
+	2506 [label="Chat ends.",color=orange];
 }

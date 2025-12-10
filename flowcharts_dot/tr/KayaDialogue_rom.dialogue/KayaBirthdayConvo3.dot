@@ -1,18 +1,19 @@
 digraph {
-	"KayaBirthdayConvo3 begins." [color=orange];
-		"KayaBirthdayConvo3 begins." -> j1303364530;
-		"KayaBirthdayConvo3 begins." -> j309997288;
-	j1303364530 [label="Siz çocuklar bu devirde doğum günlerinde ne yapıyorsunuz?",shape=box,color=red];
-		j1303364530 -> j3068962808;
-	j309997288 [label="Önemli tüyo: Doğum tarihini çok önemli bir şeye kaydet. Bunu yaklaşık 500 yıl sonra unutacaksın.",shape=box,color=red];
-		j309997288 -> j3592659747;
-	j3068962808 [label="pöff.",shape=box,color=blue];
-		j3068962808 -> "Chat ends.";
-	j3592659747 [label="aaaah eveeeet artık yaşlanmayacağım, değil mi? Aynı doğum gününü tekrar tekrar yaşayacağım",shape=box,color=blue];
-		j3592659747 -> j310171388;
-	"Chat ends." [color=orange];
-	j310171388 [label="+20 Chemistry",color=orange];
-		j310171388 -> j1869232042;
-	j1869232042 [label="bu. çok. HAVALI.",shape=box,color=blue];
-		j1869232042 -> "Chat ends.";
+	995 [label="KayaBirthdayConvo3 begins.",color=orange];
+		995 -> 1003;
+		995 -> 1004;
+	1003 [label="Siz çocuklar bu devirde doğum günlerinde ne yapıyorsunuz?",shape=box,color=red];
+		1003 -> 994;
+	1004 [label="Önemli tüyo: Doğum tarihini çok önemli bir şeye kaydet. Bunu yaklaşık 500 yıl sonra unutacaksın.",shape=box,color=red];
+		1004 -> 1011;
+	994 [label="pöff.",shape=box,color=blue];
+		994 -> 993;
+	1011 [label="aaaah eveeeet artık yaşlanmayacağım, değil mi? Aynı doğum gününü tekrar tekrar yaşayacağım",shape=box,color=blue];
+		1011 -> 1012;
+	993 [label="Chat ends.",color=orange];
+	1012 [label="+20 Chemistry",color=orange];
+		1012 -> 1013;
+	1013 [label="bu. çok. HAVALI.",shape=box,color=blue];
+		1013 -> 1014;
+	1014 [label="Chat ends.",color=orange];
 }

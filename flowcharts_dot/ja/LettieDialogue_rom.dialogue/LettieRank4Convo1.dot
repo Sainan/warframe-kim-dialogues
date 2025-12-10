@@ -1,38 +1,38 @@
 digraph {
-	"LettieRank4Convo1 begins." [color=orange];
-		"LettieRank4Convo1 begins." -> j2094873014;
-		"LettieRank4Convo1 begins." -> j2311201972;
-		"LettieRank4Convo1 begins." -> j738393015;
-	j2094873014 [label="それで、LettieがArthurと出会った話まだ聞いていないけど。",shape=box,color=red];
-		j2094873014 -> j4130469399;
-	j2311201972 [label="ちょっとチャットできる、Lettie？　それとも忙しい？",shape=box,color=red];
-		j2311201972 -> j1144579142;
-	j738393015 [label="[閉じる]",shape=box,color=red];
-		j738393015 -> "Chat ends.";
-	j4130469399 [label="Eh、酷かったわよ
+	1002 [label="LettieRank4Convo1 begins.",color=orange];
+		1002 -> 1003;
+		1002 -> 1004;
+		1002 -> 1005;
+	1003 [label="それで、LettieがArthurと出会った話まだ聞いていないけど。",shape=box,color=red];
+		1003 -> 1011;
+	1004 [label="ちょっとチャットできる、Lettie？　それとも忙しい？",shape=box,color=red];
+		1004 -> 1008;
+	1005 [label="[閉じる]",shape=box,color=red];
+		1005 -> 1006;
+	1011 [label="Eh、酷かったわよ
 血まみれの詳細は欲しくないと思ってた
 けど、sí、知りたいなら
 教えるわ",shape=box,color=blue];
-		j4130469399 -> j1470598920;
-	j1144579142 [label="+5 Chemistry",color=orange];
-		j1144579142 -> j2973530282;
-	"Chat ends." [color=orange];
-	j1470598920 [label="アタシたちは同じ基地で一緒に駐屯していた
+		1011 -> 1012;
+	1008 [label="+5 Chemistry",color=orange];
+		1008 -> 1009;
+	1006 [label="Chat ends.",color=orange];
+	1012 [label="アタシたちは同じ基地で一緒に駐屯していた
 彼はブリタニア軍でアタシはリバタチア軍
 国は違えど、共通の敵",shape=box,color=blue];
-		j1470598920 -> j2572259683;
-	j2973530282 [label="いつでも忙しい
+		1012 -> 1013;
+	1009 [label="いつでも忙しい
 けど休憩は必要
 ¿Qué onda?",shape=box,color=blue];
-		j2973530282 -> j2409888603;
-	j2572259683 [label="アタシは連隊に仕える戦場医だった
+		1009 -> 1010;
+	1013 [label="アタシは連隊に仕える戦場医だった
 彼のとこの隣に配備された
 そして戦場はcagaderoになった
 一瞬の出来事よ",shape=box,color=blue];
-		j2572259683 -> j1232169406;
-	j2409888603 [label="Arthurとはどうやって出会ったの？",shape=box,color=red];
-		j2409888603 -> j4130469399;
-	j1232169406 [label="アタシの隊員のほとんどは生き残れなかった 
+		1013 -> 1014;
+	1010 [label="Arthurとはどうやって出会ったの？",shape=box,color=red];
+		1010 -> 1011;
+	1014 [label="アタシの隊員のほとんどは生き残れなかった 
 彼の隊員も
 アタシたちはお互いを繋ぎながら支えた
 文字通りにね
@@ -40,40 +40,43 @@ digraph {
 彼が引退して国危対に入隊したとき 
 アタシは何も異論をとなえず彼を追った 
 軍隊で起こるドラマにはうんざりしていたから",shape=box,color=blue];
-		j1232169406 -> j2923897421;
-	j2923897421 [label="彼を地球の果てまで付いていくと伝えた
+		1014 -> 1015;
+	1015 [label="彼を地球の果てまで付いていくと伝えた
 それがまさかMictlánのフチまで行く事になるなんてね",shape=box,color=blue];
-		j2923897421 -> j2204330982;
-	j2204330982 [label="あんたにとっては本当に些細なことでしょうね
+		1015 -> 1016;
+	1016 [label="あんたにとっては本当に些細なことでしょうね
 こんなお話
 怪物や神と戦うあんたからすれば
 La Flacaと何度も踊っている身からすれば",shape=box,color=blue];
-		j2204330982 -> j3207784194;
-	j3207784194 [label="Boolean LettieArthur1 is now true.",color=orange];
-		j3207784194 -> j1961412614;
-		j3207784194 -> j3409945317;
-		j3207784194 -> j1112542065;
-	j1961412614 [label="自分の戦いが少し華々しいからと言って、ソレがどれほど悲惨だったか理解できないワケじゃない。",shape=box,color=red];
-		j1961412614 -> j2980856271;
-	j3409945317 [label="戦争は全部クソだ、それで終わり。",shape=box,color=red];
-		j3409945317 -> j3386646055;
-	j1112542065 [label="うん、些細な人と些細な話。",shape=box,color=red];
-		j1112542065 -> j4124326144;
-	j2980856271 [label="+10 Chemistry",color=orange];
-		j2980856271 -> j2447625360;
-	j3386646055 [label="+15 Chemistry",color=orange];
-		j3386646055 -> j2867253492;
-	j4124326144 [label="Seguro",shape=box,color=blue];
-		j4124326144 -> j2703113057;
-	j2447625360 [label="Ay, sí
+		1016 -> 1017;
+	1017 [label="Update boolean LettieArthur1",color=orange];
+		1017 -> 1018;
+		1017 -> 1019;
+		1017 -> 1020;
+	1018 [label="自分の戦いが少し華々しいからと言って、ソレがどれほど悲惨だったか理解できないワケじゃない。",shape=box,color=red];
+		1018 -> 1021;
+	1019 [label="戦争は全部クソだ、それで終わり。",shape=box,color=red];
+		1019 -> 1022;
+	1020 [label="うん、些細な人と些細な話。",shape=box,color=red];
+		1020 -> 1023;
+	1021 [label="+10 Chemistry",color=orange];
+		1021 -> 1024;
+	1022 [label="+15 Chemistry",color=orange];
+		1022 -> 1025;
+	1023 [label="Seguro",shape=box,color=blue];
+		1023 -> 1026;
+	1024 [label="Ay, sí
 明るく派手か小さく個人的か
 結末はLa Flacaなのは全て同じ
 少なくとも…　そうあるべきよ
 けどlos fantasmasにとっては違う",shape=box,color=blue];
-		j2447625360 -> "Chat ends.";
-	j2867253492 [label="Sí、どれも全て同じね
+		1024 -> 1027;
+	1025 [label="Sí、どれも全て同じね
 どれだけ銃が馬鹿げて大きくなっても",shape=box,color=blue];
-		j2867253492 -> "Chat ends.";
-	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
-		j2703113057 -> "Chat ends.";
+		1025 -> 1028;
+	1026 [label="Update boolean LettieNoDate",color=orange];
+		1026 -> 1029;
+	1027 [label="Chat ends.",color=orange];
+	1028 [label="Chat ends.",color=orange];
+	1029 [label="Chat ends.",color=orange];
 }

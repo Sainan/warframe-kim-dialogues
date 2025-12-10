@@ -1,0 +1,31 @@
+digraph {
+	2273 [label="RoatheStory16 begins.",color=orange];
+		2273 -> 5671;
+	5671 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5671 -> 2277 [label=true,color=green];
+		5671 -> 5670 [label=false,color=brown];
+	2277 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2277 -> 2276 [label="x >= 16",color=purple];
+		2277 -> 2274 [label="false",color=purple];
+	5670 [label="Chat ends.",color=orange];
+	2276 [label="ÁUDIO: SACRIFÍCIO",shape=box,color=blue];
+		2276 -> 2275;
+	2274 [label="Chat ends.",color=orange];
+	2275 [label="Traivon, vi você arremessar sua Railjack nas garras da Praghasa. Distraída, devorando avidamente você e seus homens, ela nem percebeu minha nave se afastando em alta velocidade.",shape=box,color=blue];
+		2275 -> 5713;
+	5713 [label="Você deu a vida pelo seu superior. Senti seu altruísmo como um tapa na cara.",shape=box,color=blue];
+		5713 -> 5714;
+	5714 [label="Maryna, você me deu seu corpo. Juntos, naquela trincheira, bebemos Kuva. Minhas mãos tremiam e minha garganta cortada sangrava, mas consegui beber gotas o suficiente.",shape=box,color=blue];
+		5714 -> 2278;
+	2278 [label="Lembro-me da sua última saudação, o desvanecimento. Então, abri os olhos, que antes eram seus, e vi meu cadáver estripado, morto na lama.",shape=box,color=blue];
+		2278 -> 2272;
+	2272 [label="Rostig, algo errado no processo de clonagem, foi o que me disseram. O que mais poderia fazer um Grineer ficar em sua torreta enquanto queima vivo? Até um rato entende o que é autopreservação!",shape=box,color=blue];
+		2272 -> 2279;
+	2279 [label="Não, seu \"defeito\" o colocava acima deles.",shape=box,color=blue];
+		2279 -> 2271;
+	2271 [label="Add 1 to HellStory",color=orange];
+		2271 -> 2343;
+	2343 [label="{\"Id\":2343,\"Incoming\":[2271],\"Outgoing\":[2270],\"GraphPos\":[4809,-5333],\"CompletionType\":1}",color=orange];
+		2343 -> 2270;
+	2270 [label="Chat ends.",color=orange];
+}

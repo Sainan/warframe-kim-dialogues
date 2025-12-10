@@ -1,18 +1,19 @@
 digraph {
-	"MinervaBirthdayConvo1 begins." [color=orange];
-		"MinervaBirthdayConvo1 begins." -> j332833953;
-		"MinervaBirthdayConvo1 begins." -> j2808369545;
-	j332833953 [label="今日は何か特別な事する？",shape=box,color=red];
-		j332833953 -> j3756549693;
-	j2808369545 [label="誕生日おめでとう！　絶対興奮してるでしょ。",shape=box,color=red];
-		j2808369545 -> j820079595;
-	j3756549693 [label="MomToxicated: Eleanorと他の女性陣から「絶対忘れる夜」を約束されたわ。",shape=box,color=blue];
-		j3756549693 -> j2969931993;
-	j820079595 [label="MomToxicated: 誕生日はある時点を過ぎるとワクワクが失せるの、けどその楽観的発言には感謝するわ。",shape=box,color=blue];
-		j820079595 -> "Chat ends.";
-	j2969931993 [label="+20 Chemistry",color=orange];
-		j2969931993 -> j3116465216;
-	"Chat ends." [color=orange];
-	j3116465216 [label="MomToxicated: かなり期待しているわ。",shape=box,color=blue];
-		j3116465216 -> "Chat ends.";
+	1768 [label="MinervaBirthdayConvo1 begins.",color=orange];
+		1768 -> 1769;
+		1768 -> 1770;
+	1769 [label="今日は何か特別な事する？",shape=box,color=red];
+		1769 -> 1771;
+	1770 [label="誕生日おめでとう！　絶対興奮してるでしょ。",shape=box,color=red];
+		1770 -> 1772;
+	1771 [label="MomToxicated: Eleanorと他の女性陣から「絶対忘れる夜」を約束されたわ。",shape=box,color=blue];
+		1771 -> 1773;
+	1772 [label="MomToxicated: 誕生日はある時点を過ぎるとワクワクが失せるの、けどその楽観的発言には感謝するわ。",shape=box,color=blue];
+		1772 -> 1774;
+	1773 [label="+20 Chemistry",color=orange];
+		1773 -> 1775;
+	1774 [label="Chat ends.",color=orange];
+	1775 [label="MomToxicated: かなり期待しているわ。",shape=box,color=blue];
+		1775 -> 1776;
+	1776 [label="Chat ends.",color=orange];
 }

@@ -1,0 +1,31 @@
+digraph {
+	2232 [label="RoatheStory11 begins.",color=orange];
+		2232 -> 5660;
+	5660 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5660 -> 2233 [label=true,color=green];
+		5660 -> 5661 [label=false,color=brown];
+	2233 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2233 -> 2228 [label="x >= 11",color=purple];
+		2233 -> 2234 [label="false",color=purple];
+	5661 [label="Chat ends.",color=orange];
+	2228 [label="语音留言：分开",shape=box,color=blue];
+		2228 -> 2235;
+	2234 [label="Chat ends.",color=orange];
+	2235 [label="文字记录：在 Sentient 首次入侵星系以及 Orokin 的灾难性反击之后，一片奇异的寂静笼罩着一切。",shape=box,color=blue];
+		2235 -> 2230;
+	2230 [label="我们与被困在 Tau 的同胞没有任何联系，也无法得知他们的信号是被干扰了还是彻底中断了。",shape=box,color=blue];
+		2230 -> 2226;
+	2226 [label="结果大家都来找我征求意见。作为战略家，我必须了解敌人。",shape=box,color=blue];
+		2226 -> 2231;
+	2231 [label="Sentient 随时都可能摧毁 Tau 星球上空的星际航道终点站，然而轨道还在运行。",shape=box,color=blue];
+		2231 -> 5702;
+	5702 [label="为什么？他们敞开大门能得到什么好处？",shape=box,color=blue];
+		5702 -> 5703;
+	5703 [label="他们是团结一致地采取侵略行动，还是其中仍有人抱有和平共处的希望？",shape=box,color=blue];
+		5703 -> 2229;
+	2229 [label="Add 1 to HellStory",color=orange];
+		2229 -> 2338;
+	2338 [label="{\"Id\":2338,\"Incoming\":[2229],\"Outgoing\":[2227],\"GraphPos\":[4367,-7448],\"CompletionType\":1}",color=orange];
+		2338 -> 2227;
+	2227 [label="Chat ends.",color=orange];
+}

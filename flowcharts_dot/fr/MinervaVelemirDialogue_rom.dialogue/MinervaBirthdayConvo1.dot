@@ -1,18 +1,19 @@
 digraph {
-	"MinervaBirthdayConvo1 begins." [color=orange];
-		"MinervaBirthdayConvo1 begins." -> j3336891872;
-		"MinervaBirthdayConvo1 begins." -> j2042710033;
-	j3336891872 [label="Tu fais quelque chose de spécial, aujourd’hui? ",shape=box,color=red];
-		j3336891872 -> j1781792562;
-	j2042710033 [label="Joyeux anniversaire!! Tu dois être super contente.",shape=box,color=red];
-		j2042710033 -> j3295308499;
-	j1781792562 [label="MomToxicated: Eleanor et le reste de ces dames m'ont promis une \"nuit que j'oublierai certainement\".",shape=box,color=blue];
-		j1781792562 -> j2625921800;
-	j3295308499 [label="MomToxicated: Les anniversaires cessent d’être amusants après un certain temps, mais j’apprécie ton optimisme.",shape=box,color=blue];
-		j3295308499 -> "Chat ends.";
-	j2625921800 [label="+20 Chemistry",color=orange];
-		j2625921800 -> j4093096433;
-	"Chat ends." [color=orange];
-	j4093096433 [label="MomToxicated: Et je ne pourrais pas être plus enthousiaste.",shape=box,color=blue];
-		j4093096433 -> "Chat ends.";
+	1768 [label="MinervaBirthdayConvo1 begins.",color=orange];
+		1768 -> 1769;
+		1768 -> 1770;
+	1769 [label="Tu fais quelque chose de spécial, aujourd’hui? ",shape=box,color=red];
+		1769 -> 1771;
+	1770 [label="Joyeux anniversaire!! Tu dois être super contente.",shape=box,color=red];
+		1770 -> 1772;
+	1771 [label="MomToxicated: Eleanor et le reste de ces dames m'ont promis une \"nuit que j'oublierai certainement\".",shape=box,color=blue];
+		1771 -> 1773;
+	1772 [label="MomToxicated: Les anniversaires cessent d’être amusants après un certain temps, mais j’apprécie ton optimisme.",shape=box,color=blue];
+		1772 -> 1774;
+	1773 [label="+20 Chemistry",color=orange];
+		1773 -> 1775;
+	1774 [label="Chat ends.",color=orange];
+	1775 [label="MomToxicated: Et je ne pourrais pas être plus enthousiaste.",shape=box,color=blue];
+		1775 -> 1776;
+	1776 [label="Chat ends.",color=orange];
 }

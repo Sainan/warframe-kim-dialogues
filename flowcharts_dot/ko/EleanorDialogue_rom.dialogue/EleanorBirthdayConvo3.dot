@@ -1,16 +1,21 @@
 digraph {
-	"EleanorBirthdayConvo3 begins." [color=orange];
-		"EleanorBirthdayConvo3 begins." -> j186379282;
-		"EleanorBirthdayConvo3 begins." -> j3093622308;
-	j186379282 [label="생일 축하해, 엘레노어! 좋은 하루 보내고 있기를!",shape=box,color=red];
-		j186379282 -> j2345333776;
-	j3093622308 [label="... 혹시 그 혀가 방해가 되어서 생일 케이크 촛불을 끄는 게 어려울까?",shape=box,color=red];
-		j3093622308 -> j3354241433;
-	j2345333776 [label="+20 Chemistry",color=orange];
-		j2345333776 -> j39800633;
-	j3354241433 [label="지난 몇 년 동안 생일 케이크를 가져본 적이 없다는 걸 상기시켜 줘서 고맙네. 아주 생각이 깊어.",shape=box,color=blue];
-		j3354241433 -> "Chat ends.";
-	j39800633 [label="그래. 평소에 그렇지 않은 사람들까지, 모두가 친절했어. 우리에게는 아직 희망이 있는 걸까?",shape=box,color=blue];
-		j39800633 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	2832 [label="EleanorBirthdayConvo3 begins.",color=orange];
+		2832 -> 2833;
+		2832 -> 2836;
+	2833 [label="생일 축하해, 엘레노어! 좋은 하루 보내고 있기를!",shape=box,color=red];
+		2833 -> 784;
+	2836 [label="... 혹시 그 혀가 방해가 되어서 생일 케이크 촛불을 끄는 게 어려울까?",shape=box,color=red];
+		2836 -> 785;
+	784 [label="+20 Chemistry",color=orange];
+		784 -> 2835;
+	785 [label="지난 몇 년 동안 생일 케이크를 가져본 적이 없다는 걸 상기시켜 줘서 고맙네. 아주 생각이 깊어.",shape=box,color=blue];
+		785 -> 2843;
+	2835 [label="그래. 평소에 그렇지 않은 사람들까지, 모두가 친절했어. 우리에게는 아직 희망이 있는 걸까?",shape=box,color=blue];
+		2835 -> 2838;
+	2843 [label="{\"Id\":2843,\"Incoming\":[785],\"Outgoing\":[783],\"GraphPos\":[1879,-2636],\"CompletionType\":1}",color=orange];
+		2843 -> 783;
+	2838 [label="{\"Id\":2838,\"Incoming\":[2835],\"Outgoing\":[2834],\"GraphPos\":[1883,-2830],\"CompletionType\":1}",color=orange];
+		2838 -> 2834;
+	783 [label="Chat ends.",color=orange];
+	2834 [label="Chat ends.",color=orange];
 }

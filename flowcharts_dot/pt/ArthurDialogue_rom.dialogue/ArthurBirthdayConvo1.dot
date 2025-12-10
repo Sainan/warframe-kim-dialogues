@@ -1,16 +1,21 @@
 digraph {
-	"ArthurBirthdayConvo1 begins." [color=orange];
-		"ArthurBirthdayConvo1 begins." -> j100084598;
-		"ArthurBirthdayConvo1 begins." -> j98106979;
-	j100084598 [label="Sei que você tá ocupado, mas eu só queria te desejar feliz aniversário :)",shape=box,color=red];
-		j100084598 -> j1046226294;
-	j98106979 [label="Feliz aniversário! (você sabe o que significa ser \"feliz\", né?)",shape=box,color=red];
-		j98106979 -> j2815769544;
-	j1046226294 [label="+20 Chemistry",color=orange];
-		j1046226294 -> j1551352029;
-	j2815769544 [label="Sei sim. E você, sabe o que significa o termo \"sem graça\"?",shape=box,color=blue];
-		j2815769544 -> "Chat ends.";
-	j1551352029 [label="Nunca ocupado demais pra receber um feliz aniversário, cara. Muito obrigado",shape=box,color=blue];
-		j1551352029 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3190 [label="ArthurBirthdayConvo1 begins.",color=orange];
+		3190 -> 3193;
+		3190 -> 3194;
+	3193 [label="Sei que você tá ocupado, mas eu só queria te desejar feliz aniversário :)",shape=box,color=red];
+		3193 -> 3195;
+	3194 [label="Feliz aniversário! (você sabe o que significa ser \"feliz\", né?)",shape=box,color=red];
+		3194 -> 3198;
+	3195 [label="+20 Chemistry",color=orange];
+		3195 -> 3196;
+	3198 [label="Sei sim. E você, sabe o que significa o termo \"sem graça\"?",shape=box,color=blue];
+		3198 -> 3222;
+	3196 [label="Nunca ocupado demais pra receber um feliz aniversário, cara. Muito obrigado",shape=box,color=blue];
+		3196 -> 3221;
+	3222 [label="{\"Id\":3222,\"Incoming\":[3198],\"Outgoing\":[3199],\"GraphPos\":[-30892,-14264],\"CompletionType\":1}",color=orange];
+		3222 -> 3199;
+	3221 [label="{\"Id\":3221,\"Incoming\":[3196],\"Outgoing\":[3197],\"GraphPos\":[-30889,-14423],\"CompletionType\":1}",color=orange];
+		3221 -> 3197;
+	3199 [label="Chat ends.",color=orange];
+	3197 [label="Chat ends.",color=orange];
 }

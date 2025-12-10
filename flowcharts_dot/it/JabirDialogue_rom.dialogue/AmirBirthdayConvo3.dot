@@ -1,16 +1,21 @@
 digraph {
-	"AmirBirthdayConvo3 begins." [color=orange];
-		"AmirBirthdayConvo3 begins." -> j1189513564;
-		"AmirBirthdayConvo3 begins." -> j273783117;
-	j1189513564 [label="Ciao, Amir. Buon compleanno. Bip bop o chessò io.",shape=box,color=red];
-		j1189513564 -> j1470545051;
-	j273783117 [label="SALUTI AMIR CONGRATULAZIONI PER L'ANNIVERSARIO DEL TUO INIZIO DI ESISTENZA",shape=box,color=red];
-		j273783117 -> j2522776317;
-	j1470545051 [label="amir non è qui in questo momento stai interagendo con un firewall intelligente che amir ha scritto per filtrare gli auguri di compleanno non sinceri oh guarda eccone uno",shape=box,color=blue];
-		j1470545051 -> "Chat ends.";
-	j2522776317 [label="+20 Chemistry",color=orange];
-		j2522776317 -> j3465410280;
-	"Chat ends." [color=orange];
-	j3465410280 [label="APPROPRIATA DICHIARAZIONE CULTURALE DI APPREZZAMENTO AFFETTUOSO E PROFONDA RICONOSCENZA",shape=box,color=blue];
-		j3465410280 -> "Chat ends.";
+	3580 [label="AmirBirthdayConvo3 begins.",color=orange];
+		3580 -> 3585;
+		3580 -> 3586;
+	3585 [label="Ciao, Amir. Buon compleanno. Bip bop o chessò io.",shape=box,color=red];
+		3585 -> 3584;
+	3586 [label="SALUTI AMIR CONGRATULAZIONI PER L'ANNIVERSARIO DEL TUO INIZIO DI ESISTENZA",shape=box,color=red];
+		3586 -> 3587;
+	3584 [label="amir non è qui in questo momento stai interagendo con un firewall intelligente che amir ha scritto per filtrare gli auguri di compleanno non sinceri oh guarda eccone uno",shape=box,color=blue];
+		3584 -> 3598;
+	3587 [label="+20 Chemistry",color=orange];
+		3587 -> 3583;
+	3598 [label="{\"Id\":3598,\"Incoming\":[3584],\"Outgoing\":[3581],\"GraphPos\":[-14748,-20693],\"CompletionType\":1}",color=orange];
+		3598 -> 3581;
+	3583 [label="APPROPRIATA DICHIARAZIONE CULTURALE DI APPREZZAMENTO AFFETTUOSO E PROFONDA RICONOSCENZA",shape=box,color=blue];
+		3583 -> 3599;
+	3581 [label="Chat ends.",color=orange];
+	3599 [label="{\"Id\":3599,\"Incoming\":[3583],\"Outgoing\":[3582],\"GraphPos\":[-14347,-20820],\"CompletionType\":1}",color=orange];
+		3599 -> 3582;
+	3582 [label="Chat ends.",color=orange];
 }

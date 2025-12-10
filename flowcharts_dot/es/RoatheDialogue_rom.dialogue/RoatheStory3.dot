@@ -1,0 +1,27 @@
+digraph {
+	2157 [label="RoatheStory3 begins.",color=orange];
+		2157 -> 5645;
+	5645 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5645 -> 2155 [label=true,color=green];
+		5645 -> 5644 [label=false,color=brown];
+	2155 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2155 -> 2149 [label="x >= 3",color=purple];
+		2155 -> 2151 [label="false",color=purple];
+	5644 [label="Chat ends.",color=orange];
+	2149 [label="MV: OROKIN",shape=box,color=blue];
+		2149 -> 2150;
+	2151 [label="Chat ends.",color=orange];
+	2150 [label="Transcripción: Durante mucho tiempo, el Imperio orokin no tuvo enemigos. Su ejército sólo existía para satisfacer pequeñas rencillas, casa contra casa, ejecutor contra ejecutor.",shape=box,color=blue];
+		2150 -> 2153;
+	2153 [label="Cuando los conscientes atacaron, descubrimos una unidad que nos había sido negada durante mucho tiempo. Los Dax desenvainaron sus espadas contra algo mucho más que un granjero desafiante o un comerciante ladrón.",shape=box,color=blue];
+		2153 -> 2154;
+	2154 [label="Los Emperadores, los gobernantes inmortales del imperio, cuyo poder residía en los ejecutores, despertaron tambaleándose en sus polvorientos tronos dorados.",shape=box,color=blue];
+		2154 -> 5683;
+	5683 [label="¡Guerra, magnífica guerra! Por fin, el imperio significaba algo. Definido por una extinción más inminente que la muerte definitiva del Sol, bebimos profundamente del néctar de la vida.",shape=box,color=blue];
+		5683 -> 2152;
+	2152 [label="Add 1 to HellStory",color=orange];
+		2152 -> 2330;
+	2330 [label="{\"Id\":2330,\"Incoming\":[2152],\"Outgoing\":[2156],\"GraphPos\":[3600,-10586],\"CompletionType\":1}",color=orange];
+		2330 -> 2156;
+	2156 [label="Chat ends.",color=orange];
+}

@@ -1,144 +1,145 @@
 digraph {
-	"LettieRank4Convo5 begins." [color=orange];
-		"LettieRank4Convo5 begins." -> j588530438;
-	j588530438 [label="Ay, amico 
+	1237 [label="LettieRank4Convo5 begins.",color=orange];
+		1237 -> 1238;
+	1238 [label="Ay, amico 
 Hai un secondo?",shape=box,color=blue];
-		j588530438 -> j288798751;
-		j588530438 -> j2304213628;
-		j588530438 -> j3111759357;
-	j288798751 [label="Di solito sei tu quella super impegnata. :)",shape=box,color=red];
-		j288798751 -> j2725870687;
-	j2304213628 [label="Sì, che succede?",shape=box,color=red];
-		j2304213628 -> j1521317887;
-	j3111759357 [label="Scusa, stavo per andarmene. [Fine.]",shape=box,color=red];
-		j3111759357 -> "Chat ends.";
-	j2725870687 [label="Ay, sí, jajaja di solito lo sono 
+		1238 -> 1239;
+		1238 -> 1240;
+		1238 -> 1241;
+	1239 [label="Di solito sei tu quella super impegnata. :)",shape=box,color=red];
+		1239 -> 1243;
+	1240 [label="Sì, che succede?",shape=box,color=red];
+		1240 -> 1244;
+	1241 [label="Scusa, stavo per andarmene. [Fine.]",shape=box,color=red];
+		1241 -> 1242;
+	1243 [label="Ay, sí, jajaja di solito lo sono 
 Avevo giusto una domanda 
 Per uno come te 
 Hai mai sentito nostalgia di casa?",shape=box,color=blue];
-		j2725870687 -> j753104244;
-		j2725870687 -> j1232824588;
-		j2725870687 -> j3283742498;
-	j1521317887 [label="Avevo giusto una domanda 
+		1243 -> 1245;
+		1243 -> 1246;
+		1243 -> 1247;
+	1244 [label="Avevo giusto una domanda 
 Per uno come te 
 Hai mai sentito nostalgia di casa?",shape=box,color=blue];
-		j1521317887 -> j753104244;
-		j1521317887 -> j1232824588;
-		j1521317887 -> j3283742498;
-	"Chat ends." [color=orange];
-	j753104244 [label="Non ho mai avuto una vera casa, Lettie.",shape=box,color=red];
-		j753104244 -> j2040121478;
-	j1232824588 [label="Cosa intendi dire con \"uno come me\"?",shape=box,color=red];
-		j1232824588 -> j282540223;
-	j3283742498 [label="Gli unici posti che ho dovuto chiamare \"casa\" hanno cercato di UCCIDERMI. Perché dovrei sentirne la mancanza?",shape=box,color=red];
-		j3283742498 -> j1892316435;
-	j2040121478 [label="+5 Chemistry",color=orange];
-		j2040121478 -> j3289297240;
-	j282540223 [label="Qualcuno senza una vera casa",shape=box,color=blue];
-		j282540223 -> j1366535359;
-		j282540223 -> j3649798762;
-	j1892316435 [label="Perché puoi desiderare qualcosa che non hai mai avuto 
+		1244 -> 1245;
+		1244 -> 1246;
+		1244 -> 1247;
+	1242 [label="Chat ends.",color=orange];
+	1245 [label="Non ho mai avuto una vera casa, Lettie.",shape=box,color=red];
+		1245 -> 1252;
+	1246 [label="Cosa intendi dire con \"uno come me\"?",shape=box,color=red];
+		1246 -> 1249;
+	1247 [label="Gli unici posti che ho dovuto chiamare \"casa\" hanno cercato di UCCIDERMI. Perché dovrei sentirne la mancanza?",shape=box,color=red];
+		1247 -> 1250;
+	1252 [label="+5 Chemistry",color=orange];
+		1252 -> 1248;
+	1249 [label="Qualcuno senza una vera casa",shape=box,color=blue];
+		1249 -> 1253;
+		1249 -> 1254;
+	1250 [label="Perché puoi desiderare qualcosa che non hai mai avuto 
 O cose che vedi avere ad altre persone 
 Almeno per me è così",shape=box,color=blue];
-		j1892316435 -> j2015616374;
-	j3289297240 [label="Sí, lo so 
+		1250 -> 1258;
+	1248 [label="Sí, lo so 
 Sono come te",shape=box,color=blue];
-		j3289297240 -> j2015616374;
-	j1366535359 [label="Ottima maniera di infierire, Lettie. Grazie.",shape=box,color=red];
-		j1366535359 -> j3375415525;
-	j3649798762 [label="Non puoi sentire la mancanza di ciò che non hai mai avuto.",shape=box,color=red];
-		j3649798762 -> j2297005426;
-	j2015616374 [label="I dettagli sono diversi, ma tu ed io 
+		1248 -> 1258;
+	1253 [label="Ottima maniera di infierire, Lettie. Grazie.",shape=box,color=red];
+		1253 -> 1255;
+	1254 [label="Non puoi sentire la mancanza di ciò che non hai mai avuto.",shape=box,color=red];
+		1254 -> 1256;
+	1258 [label="I dettagli sono diversi, ma tu ed io 
 Nessuno dei due aveva una vera casa 
 Rimbalzando da un posto all'altro, da una base all'altra 
 Senza mai stabilirci, senza mai stringere delle forti amicizie 
 Senza mai sapere dove sarò tra sei mesi, un anno, due",shape=box,color=blue];
-		j2015616374 -> j3743883771;
-	j3375415525 [label="+5 Chemistry",color=orange];
-		j3375415525 -> j2375334554;
-	j2297005426 [label="No 
+		1258 -> 1259;
+	1255 [label="+5 Chemistry",color=orange];
+		1255 -> 1257;
+	1256 [label="No 
 Questa è una bugia 
 Sono cresciuta senza una casa e ho nostalgia di casa",shape=box,color=blue];
-		j2297005426 -> j2015616374;
-	j3743883771 [label="Boolean LettieNoHome is now true.",color=orange];
-		j3743883771 -> j3455817849;
-	j2375334554 [label="Nonono 
+		1256 -> 1258;
+	1259 [label="Update boolean LettieNoHome",color=orange];
+		1259 -> 1260;
+	1257 [label="Nonono 
 Non intendevo dire questo 
 Sono come te",shape=box,color=blue];
-		j2375334554 -> j2015616374;
-	j3455817849 [label="Check boolean LettieOrokin",color=orange];
-		j3455817849 -> j3250747889 [label=true,color=green];
-		j3455817849 -> j2765783641 [label=false,color=brown];
-		j3455817849 -> j2999493653 [label=false,color=brown];
-	j3250747889 [label="Tutto quello che avevo era la mia famiglia e le sue tradizioni 
+		1257 -> 1258;
+	1260 [label="Check boolean LettieOrokin",color=orange];
+		1260 -> 1261 [label=true,color=green];
+		1260 -> 1262 [label=false,color=brown];
+		1260 -> 1263 [label=false,color=brown];
+	1261 [label="Tutto quello che avevo era la mia famiglia e le sue tradizioni 
 Ma a volte penso che non mi appartenessero nemmeno 
 Come te e quei pinches orokin",shape=box,color=blue];
-		j3250747889 -> j2570036405;
-		j3250747889 -> j4001690183;
-	j2765783641 [label="Almeno avevi la tua famiglia, però. Io non avevo nemmeno quella.",shape=box,color=red];
-		j2765783641 -> j2328899928;
-	j2999493653 [label="Almeno non eri da sola.",shape=box,color=red];
-		j2999493653 -> j2328899928;
-	j2570036405 [label="In che modo?",shape=box,color=red];
-		j2570036405 -> j1127167830;
-	j4001690183 [label="Sembri davvero orgogliosa delle tue origini, sono sorpreso.",shape=box,color=red];
-		j4001690183 -> j2893298738;
-	j2328899928 [label="+5 Chemistry",color=orange];
-		j2328899928 -> j2314324818;
-	j1127167830 [label="+5 Chemistry",color=orange];
-		j1127167830 -> j4092005855;
-	j2893298738 [label="+5 Chemistry",color=orange];
-		j2893298738 -> j3031213218;
-	j2314324818 [label="Sì 
+		1261 -> 1266;
+		1261 -> 1267;
+	1262 [label="Almeno avevi la tua famiglia, però. Io non avevo nemmeno quella.",shape=box,color=red];
+		1262 -> 1270;
+	1263 [label="Almeno non eri da sola.",shape=box,color=red];
+		1263 -> 1270;
+	1266 [label="In che modo?",shape=box,color=red];
+		1266 -> 1271;
+	1267 [label="Sembri davvero orgogliosa delle tue origini, sono sorpreso.",shape=box,color=red];
+		1267 -> 2467;
+	1270 [label="+5 Chemistry",color=orange];
+		1270 -> 1264;
+	1271 [label="+5 Chemistry",color=orange];
+		1271 -> 1269;
+	2467 [label="+5 Chemistry",color=orange];
+		2467 -> 1268;
+	1264 [label="Sì 
 Hai ragione 
 Come hai fatto a non iniziare a leccare la carta da parati jaja 
 Non so come hai fatto io avrei perso la testa",shape=box,color=blue];
-		j2314324818 -> j1418551278;
-	j4092005855 [label="Essere insultata da tutti per la mia pelle o per come parlo 
+		1264 -> 1265;
+	1269 [label="Essere insultata da tutti per la mia pelle o per come parlo 
 Troppo gringa per essere Tenochtitlán 
 Troppo Tenochtitlán per essere gringa 
 Ay, equis, sto blaterando",shape=box,color=blue];
-		j4092005855 -> j2273189183;
-	j3031213218 [label="Sì 
+		1269 -> 1272;
+	1268 [label="Sì 
 Lo sono perché ho imparato che nessuno può portarmele via 
 Ma ci ho messo molto tempo per arrivarci",shape=box,color=blue];
-		j3031213218 -> j4092005855;
-	j1418551278 [label="Forse potrei ancora
+		1268 -> 1269;
+	1265 [label="Forse potrei ancora
 Intrappolata qui come un fantasma 
 Ay, equis, sto blaterando",shape=box,color=blue];
-		j1418551278 -> j2273189183;
-	j2273189183 [label="Mi manca un posto e una cosa che non ho mai avuto 
+		1265 -> 1272;
+	1272 [label="Mi manca un posto e una cosa che non ho mai avuto 
 Mi chiedo se sia genetico 
 Qualcosa cresciuto in noi 
 Non ha senso",shape=box,color=blue];
-		j2273189183 -> j753585864;
-	j753585864 [label="Ecco perché chiedevo 
+		1272 -> 1273;
+	1273 [label="Ecco perché chiedevo 
 Per vedere se l'avessi anche tu 
 Ma tu vieni dal futuro 
 Forse l'hanno risolto",shape=box,color=blue];
-		j753585864 -> j2616502848;
-		j753585864 -> j1879541992;
-	j2616502848 [label="No, credo di sapere come ti senti. Io... ho questi attacchi di tristezza in cui sento il bisogno di andare in un posto che non esiste.",shape=box,color=red];
-		j2616502848 -> j1232378994;
-	j1879541992 [label="Forse. Non ho davvero nostalgia di casa. A volte mi sento triste e solo, ma non è nostalgia di casa.",shape=box,color=red];
-		j1879541992 -> j3319382045;
-	j1232378994 [label="+10 Chemistry",color=orange];
-		j1232378994 -> j3820047278;
-	j3319382045 [label="+5 Chemistry",color=orange];
-		j3319382045 -> j3451603253;
-	j3820047278 [label="Sì 
+		1273 -> 1274;
+		1273 -> 1275;
+	1274 [label="No, credo di sapere come ti senti. Io... ho questi attacchi di tristezza in cui sento il bisogno di andare in un posto che non esiste.",shape=box,color=red];
+		1274 -> 1279;
+	1275 [label="Forse. Non ho davvero nostalgia di casa. A volte mi sento triste e solo, ma non è nostalgia di casa.",shape=box,color=red];
+		1275 -> 1278;
+	1279 [label="+10 Chemistry",color=orange];
+		1279 -> 1276;
+	1278 [label="+5 Chemistry",color=orange];
+		1278 -> 1277;
+	1276 [label="Sì 
 Questo è quello che intendo 
 O forse abbiamo entrambi lo stesso tipo di depressione jajaja 
 Stupidi ragni",shape=box,color=blue];
-		j3820047278 -> j1882819033;
-	j3451603253 [label="Sì 
+		1276 -> 1280;
+	1277 [label="Sì 
 Forse è solo la mia depressione che si ripresenta 
 Non sarei sorpresa 
 Stupidi Ragni",shape=box,color=blue];
-		j3451603253 -> j1882819033;
-	j1882819033 [label="Ehn, gracias 
+		1277 -> 1280;
+	1280 [label="Ehn, gracias 
 A proposito di ragni, è ora di mettere a letto loro e me stessa",shape=box,color=blue];
-		j1882819033 -> j1574806976;
-	j1574806976 [label="Boolean LettieDepression is now true.",color=orange];
-		j1574806976 -> "Chat ends.";
+		1280 -> 1281;
+	1281 [label="Update boolean LettieDepression",color=orange];
+		1281 -> 1282;
+	1282 [label="Chat ends.",color=orange];
 }

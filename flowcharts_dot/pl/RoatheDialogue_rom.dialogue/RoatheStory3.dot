@@ -1,0 +1,27 @@
+digraph {
+	2157 [label="RoatheStory3 begins.",color=orange];
+		2157 -> 5645;
+	5645 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5645 -> 2155 [label=true,color=green];
+		5645 -> 5644 [label=false,color=brown];
+	2155 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2155 -> 2149 [label="x >= 3",color=purple];
+		2155 -> 2151 [label="false",color=purple];
+	5644 [label="Chat ends.",color=orange];
+	2149 [label="VM: OROKIN",shape=box,color=blue];
+		2149 -> 2150;
+	2151 [label="Chat ends.",color=orange];
+	2150 [label="Transkrypcja: Przez długi czas Imperium Orokin nie miało wrogów. Jego armia istniała jedynie po to, by odpowiadać na drobne urazy, ród przeciwko rodowi, Egzekutor przeciwko Egzekutorowi.",shape=box,color=blue];
+		2150 -> 2153;
+	2153 [label="Kiedy zaatakowali Świadomi, poczuliśmy jedność, której tak długo nam odmawiano. Daksowie sięgnęli po miecze przeciwko czemuś innemu niż bezczelny wieśniak czy złodziejski handlarz.",shape=box,color=blue];
+		2153 -> 2154;
+	2154 [label="Imperatorowie, nieśmiertelni tytularni władcy Imperium, których władza spoczywała w rękach Egzekutorów, obudzili się na swoich zakurzonych złotych tronach.",shape=box,color=blue];
+		2154 -> 5683;
+	5683 [label="Wojna, wspaniała wojna! Wreszcie Imperium coś znaczyło. Zdefiniowani przez zagładę bardziej nieuchronną niż ostateczna śmierć Słońca, piliśmy obficie nektar życia.",shape=box,color=blue];
+		5683 -> 2152;
+	2152 [label="Add 1 to HellStory",color=orange];
+		2152 -> 2330;
+	2330 [label="{\"Id\":2330,\"Incoming\":[2152],\"Outgoing\":[2156],\"GraphPos\":[3600,-10586],\"CompletionType\":1}",color=orange];
+		2330 -> 2156;
+	2156 [label="Chat ends.",color=orange];
+}

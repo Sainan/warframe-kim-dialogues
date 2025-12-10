@@ -1,0 +1,33 @@
+digraph {
+	2162 [label="RoatheStory4 begins.",color=orange];
+		2162 -> 5647;
+	5647 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5647 -> 2166 [label=true,color=green];
+		5647 -> 5646 [label=false,color=brown];
+	2166 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2166 -> 2163 [label="x >= 4",color=purple];
+		2166 -> 2165 [label="false",color=purple];
+	5646 [label="Chat ends.",color=orange];
+	2163 [label="SN: HOCHMUT",shape=box,color=blue];
+		2163 -> 2164;
+	2165 [label="Chat ends.",color=orange];
+	2164 [label="Transkript: Eine Niederlage wurde nicht erwartet.",shape=box,color=blue];
+		2164 -> 5732;
+	5732 [label="Nach dem ersten Angriff der Sentients hatten wir einen vernichtenden Gegenschlag vorbereitet.",shape=box,color=blue];
+		5732 -> 2159;
+	2159 [label="Die Gildenglas-Magierin erhob sich mit tödlichen Schwingen aus dem Nebel von Ceres, eine Galeone, schwer beladen mit Drohnen und silbergepanzerten Myrmidons.",shape=box,color=blue];
+		2159 -> 2160;
+	2160 [label="Feine Schaltkreise bildeten ein zartes Netz unter ihrer durchscheinenden Panzerung.",shape=box,color=blue];
+		2160 -> 5693;
+	5693 [label="Sie war so gewaltig, dass sie kaum durch die Solarschiene passte.",shape=box,color=blue];
+		5693 -> 2167;
+	2167 [label="Die Sentients sorgten dafür, dass wir das Ergebnis sahen. Sie sangen, und unsere Technologie versagte. Unsere Krieger kämpften und erstickten in ihren glänzenden Anzügen.",shape=box,color=blue];
+		2167 -> 5684;
+	5684 [label="Die Besatzung der Gildenglas-Magierin verbrannte bei lebendigem Leib, als sie antriebslos durch die Lüfte von Tau stürzte – ein komplexes und kostspieliges Feuerwerk.",shape=box,color=blue];
+		5684 -> 2158;
+	2158 [label="Add 1 to HellStory",color=orange];
+		2158 -> 2331;
+	2331 [label="{\"Id\":2331,\"Incoming\":[2158],\"Outgoing\":[2161],\"GraphPos\":[5059,-10280],\"CompletionType\":1}",color=orange];
+		2331 -> 2161;
+	2161 [label="Chat ends.",color=orange];
+}

@@ -1,20 +1,25 @@
 digraph {
-	"LettieBirthdayConvo1 begins." [color=orange];
-		"LettieBirthdayConvo1 begins." -> j3889763410;
-		"LettieBirthdayConvo1 begins." -> j97104726;
-	j3889763410 [label="誕生日おめでとう！　ネズミは何かくれた？",shape=box,color=red];
-		j3889763410 -> j427841012;
-	j97104726 [label="誕生日おめでと！　しかも星の日に。ほんとロマンチック。:)",shape=box,color=red];
-		j97104726 -> j795723756;
-	j427841012 [label="+20 Chemistry",color=orange];
-		j427841012 -> j968363114;
-	j795723756 [label="星の日って？
+	458 [label="LettieBirthdayConvo1 begins.",color=orange];
+		458 -> 457;
+		458 -> 456;
+	457 [label="誕生日おめでとう！　ネズミは何かくれた？",shape=box,color=red];
+		457 -> 460;
+	456 [label="誕生日おめでと！　しかも星の日に。ほんとロマンチック。:)",shape=box,color=red];
+		456 -> 1298;
+	460 [label="+20 Chemistry",color=orange];
+		460 -> 1300;
+	1298 [label="星の日って？
 まぁいいわ。そんな暇はないし。
 Adiós",shape=box,color=blue];
-		j795723756 -> "Chat ends.";
-	j968363114 [label="Jajaja いいえ
+		1298 -> 2517;
+	1300 [label="Jajaja いいえ
 アタシが欲しいのは一時間の寝坊か淹れたてコーヒーだけ。求めすぎ？
 Pero, gracias",shape=box,color=blue];
-		j968363114 -> "Chat ends.";
-	"Chat ends." [color=orange];
+		1300 -> 2516;
+	2517 [label="{\"Id\":2517,\"Incoming\":[1298],\"Outgoing\":[1297],\"GraphPos\":[797,-1598],\"CompletionType\":1}",color=orange];
+		2517 -> 1297;
+	2516 [label="{\"Id\":2516,\"Incoming\":[1300],\"Outgoing\":[459],\"GraphPos\":[1161,-1810],\"CompletionType\":1}",color=orange];
+		2516 -> 459;
+	1297 [label="Chat ends.",color=orange];
+	459 [label="Chat ends.",color=orange];
 }

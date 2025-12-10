@@ -1,133 +1,140 @@
 digraph {
-	"LettieRank2Convo1 begins." [color=orange];
-		"LettieRank2Convo1 begins." -> j2549990084;
-	j2549990084 [label="Check boolean LettieDuviri",color=orange];
-		j2549990084 -> j828359537 [label=true,color=green];
-		j2549990084 -> j3432840313 [label=false,color=brown];
-	j828359537 [label="你經歷的那些死亡
+	248 [label="LettieRank2Convo1 begins.",color=orange];
+		248 -> 249;
+	249 [label="Check boolean LettieDuviri",color=orange];
+		249 -> 250 [label=true,color=green];
+		249 -> 252 [label=false,color=brown];
+	250 [label="你經歷的那些死亡
 會痛嗎？",shape=box,color=blue];
-		j828359537 -> j4265462143;
-		j828359537 -> j1503526296;
-		j828359537 -> j376248778;
-	j3432840313 [label="告訴我，呆呆
+		250 -> 254;
+		250 -> 255;
+		250 -> 256;
+	252 [label="告訴我，呆呆
 你對死亡了解多少？",shape=box,color=blue];
-		j3432840313 -> j4265462143;
-		j3432840313 -> j1503526296;
-		j3432840313 -> j376248778;
-	j4265462143 [label="我以為只有我自己比較病態…… 你還好嗎？",shape=box,color=red];
-		j4265462143 -> j1140669615;
-	j1503526296 [label="哈哈。女士，別讓我開始聊。你呢？",shape=box,color=red];
-		j1503526296 -> j1140669615;
-	j376248778 [label="你真的需要多出去走走。",shape=box,color=red];
-		j376248778 -> j378123607;
-	j1140669615 [label="瘦女士和我很熟",shape=box,color=blue];
-		j1140669615 -> j606813512;
-		j1140669615 -> j1445203708;
-	j378123607 [label="（西語）隨便",shape=box,color=blue];
-		j378123607 -> "Chat ends.";
-	j606813512 [label="瘦女士是死亡？",shape=box,color=red];
-		j606813512 -> j2217091005;
-	j1445203708 [label="誰是瘦女士？",shape=box,color=red];
-		j1445203708 -> j2858454303;
-	"Chat ends." [color=orange];
-	j2217091005 [label="是的
+		252 -> 254;
+		252 -> 255;
+		252 -> 256;
+	254 [label="我以為只有我自己比較病態…… 你還好嗎？",shape=box,color=red];
+		254 -> 257;
+	255 [label="哈哈。女士，別讓我開始聊。你呢？",shape=box,color=red];
+		255 -> 257;
+	256 [label="你真的需要多出去走走。",shape=box,color=red];
+		256 -> 258;
+	257 [label="瘦女士和我很熟",shape=box,color=blue];
+		257 -> 260;
+		257 -> 261;
+	258 [label="（西語）隨便",shape=box,color=blue];
+		258 -> 259;
+	260 [label="瘦女士是死亡？",shape=box,color=red];
+		260 -> 262;
+	261 [label="誰是瘦女士？",shape=box,color=red];
+		261 -> 263;
+	259 [label="Chat ends.",color=orange];
+	262 [label="是的
 沒想到你這麼快就猜到了",shape=box,color=blue];
-		j2217091005 -> j1237787409;
-	j2858454303 [label="瘦瘦的女士 
+		262 -> 264;
+	263 [label="瘦瘦的女士 
 死亡",shape=box,color=blue];
-		j2858454303 -> j1506329364;
-	j1237787409 [label="Boolean LettieFantasma2 is now true.",color=orange];
-		j1237787409 -> j3278757066;
-	j1506329364 [label="Boolean LettieFantasma2 is now true.",color=orange];
-		j1506329364 -> j3278757066;
-	j3278757066 [label="+5 Chemistry",color=orange];
-		j3278757066 -> j4172637695;
-	j4172637695 [label="我尊重她 
+		263 -> 265;
+	264 [label="Update boolean LettieFantasma2",color=orange];
+		264 -> 266;
+	265 [label="Update boolean LettieFantasma2",color=orange];
+		265 -> 267;
+	266 [label="+5 Chemistry",color=orange];
+		266 -> 268;
+	267 [label="+5 Chemistry",color=orange];
+		267 -> 268;
+	268 [label="我尊重她 
 即使有時候我不想喜歡她 
 但她保護著我在乎的人",shape=box,color=blue];
-		j4172637695 -> j4268386380;
-	j4268386380 [label="Boolean LettieReligion1 is now true.",color=orange];
-		j4268386380 -> j2897489347;
-		j4268386380 -> j1545212252;
-	j2897489347 [label="但你是醫護。你不是要去治療別人嗎？你怎麼能「尊重」死亡？",shape=box,color=red];
-		j2897489347 -> j246649666;
-	j1545212252 [label="死亡不是一個人，而是必定會發生的事。",shape=box,color=red];
-		j1545212252 -> j4158018727;
-	j246649666 [label="你的想法完全錯了",shape=box,color=blue];
-		j246649666 -> j4087927951;
-	j4158018727 [label="（西語）好吧",shape=box,color=blue];
-		j4158018727 -> "Chat ends.";
-	j4087927951 [label="Check boolean LettieDuviri",color=orange];
-		j4087927951 -> j3345149313 [label=true,color=green];
-		j4087927951 -> j1878332769 [label=false,color=brown];
-	j3345149313 [label="你死過的那幾百次
+		268 -> 269;
+	269 [label="Update boolean LettieReligion1",color=orange];
+		269 -> 270;
+		269 -> 271;
+	270 [label="但你是醫護。你不是要去治療別人嗎？你怎麼能「尊重」死亡？",shape=box,color=red];
+		270 -> 274;
+	271 [label="死亡不是一個人，而是必定會發生的事。",shape=box,color=red];
+		271 -> 272;
+	274 [label="你的想法完全錯了",shape=box,color=blue];
+		274 -> 275;
+	272 [label="（西語）好吧",shape=box,color=blue];
+		272 -> 273;
+	275 [label="Check boolean LettieDuviri",color=orange];
+		275 -> 276 [label=true,color=green];
+		275 -> 277 [label=false,color=brown];
+	273 [label="Chat ends.",color=orange];
+	276 [label="你死過的那幾百次
 你會怪她結束了你的痛苦嗎？
 是她讓你受苦，還是那些傷害你的人應該被譴責？",shape=box,color=blue];
-		j3345149313 -> j1836720423;
-	j1878332769 [label="我的工作是確保她在該來的時候才過來把人帶走
+		276 -> 278;
+	277 [label="我的工作是確保她在該來的時候才過來把人帶走
 而不是讓她在我手中把人搶走
 提早一秒也不行",shape=box,color=blue];
-		j1878332769 -> j1836720423;
-	j1836720423 [label="但當她來的時候 
+		277 -> 278;
+	278 [label="但當她來的時候 
 我會讓她知道她是受歡迎的 
 她會帶走痛苦，呆呆
 她不應該被人害怕，而是應該受到尊重",shape=box,color=blue];
-		j1836720423 -> j3467738423;
-		j1836720423 -> j1076822760;
-		j1836720423 -> j2852539436;
-	j3467738423 [label="我在渡域時，當我知道自己快要死的時候，我反而會鬆一口氣，因為一切都完結了。",shape=box,color=red];
-		j3467738423 -> j1467735112;
-	j1076822760 [label="我想我有一點點能理解。即使我不喜歡死亡的這個想法。",shape=box,color=red];
-		j1076822760 -> j2604729140;
-	j2852539436 [label="我現在……要結束這段對話了。",shape=box,color=red];
-		j2852539436 -> j3440461917;
-	j1467735112 [label="無論痛苦會有多劇烈，黑暗終歸還是會來，一切都會結束。",shape=box,color=red];
-		j1467735112 -> j3017405500;
-	j2604729140 [label="嗯，是的",shape=box,color=blue];
-		j2604729140 -> j317769222;
-	j3440461917 [label="（西語）隨便你，膽小鬼",shape=box,color=blue];
-		j3440461917 -> "Chat ends.";
-	j3017405500 [label="+10 Chemistry",color=orange];
-		j3017405500 -> j2745725876;
-	j317769222 [label="+5 Chemistry",color=orange];
-		j317769222 -> j877447848;
-	j2745725876 [label="是的，看到了嗎？
+		278 -> 279;
+		278 -> 280;
+		278 -> 281;
+	279 [label="我在渡域時，當我知道自己快要死的時候，我反而會鬆一口氣，因為一切都完結了。",shape=box,color=red];
+		279 -> 285;
+	280 [label="我想我有一點點能理解。即使我不喜歡死亡的這個想法。",shape=box,color=red];
+		280 -> 92;
+	281 [label="我現在……要結束這段對話了。",shape=box,color=red];
+		281 -> 282;
+	285 [label="無論痛苦會有多劇烈，黑暗終歸還是會來，一切都會結束。",shape=box,color=red];
+		285 -> 286;
+	92 [label="嗯，是的",shape=box,color=blue];
+		92 -> 284;
+	282 [label="（西語）隨便你，膽小鬼",shape=box,color=blue];
+		282 -> 283;
+	286 [label="+10 Chemistry",color=orange];
+		286 -> 287;
+	284 [label="+5 Chemistry",color=orange];
+		284 -> 292;
+	283 [label="Chat ends.",color=orange];
+	287 [label="是的，看到了嗎？
 你懂的",shape=box,color=blue];
-		j2745725876 -> j2112623886;
-		j2745725876 -> j2554020271;
-	j877447848 [label="這就是為什麼我要治療
+		287 -> 288;
+		287 -> 289;
+	292 [label="這就是為什麼我要治療
 為了確保瘦女士沒帶錯人
 並且她只能帶走她需要帶走的人
 而不是其他任何人",shape=box,color=blue];
-		j877447848 -> j270075277;
-	j2112623886 [label="但我也知道我會再經歷一次。",shape=box,color=red];
-		j2112623886 -> j1252872024;
-	j2554020271 [label="但我不認為這意味著每個人都應該要死。哈哈",shape=box,color=red];
-		j2554020271 -> j877447848;
-	j270075277 [label="我們都見過摯愛之人因為別人的行為而被她過早帶走……",shape=box,color=blue];
-		j270075277 -> j3808556547;
-		j270075277 -> j2572238999;
-	j1252872024 [label="+5 Chemistry",color=orange];
-		j1252872024 -> j3258929511;
-	j3808556547 [label="是的。",shape=box,color=red];
-		j3808556547 -> j330065548;
-	j2572238999 [label="為此我願意敬酒。",shape=box,color=red];
-		j2572238999 -> j3737347371;
-	j3258929511 [label="對那些有信仰的人來說
+		292 -> 294;
+	288 [label="但我也知道我會再經歷一次。",shape=box,color=red];
+		288 -> 303;
+	289 [label="但我不認為這意味著每個人都應該要死。哈哈",shape=box,color=red];
+		289 -> 292;
+	294 [label="我們都見過摯愛之人因為別人的行為而被她過早帶走……",shape=box,color=blue];
+		294 -> 295;
+		294 -> 296;
+	303 [label="+5 Chemistry",color=orange];
+		303 -> 291;
+	295 [label="是的。",shape=box,color=red];
+		295 -> 300;
+	296 [label="為此我願意敬酒。",shape=box,color=red];
+		296 -> 297;
+	291 [label="對那些有信仰的人來說
 我們也是
 也許不像你那麼字面上的意思，哈哈
 雖然……現在我們也是鬼魂了",shape=box,color=blue];
-		j3258929511 -> j3550226252;
-	j330065548 [label="有趣有趣
+		291 -> 293;
+	300 [label="有趣有趣
 但我得回去工作了",shape=box,color=blue];
-		j330065548 -> "Chat ends.";
-	j3737347371 [label="+5 Chemistry",color=orange];
-		j3737347371 -> j3892858376;
-	j3550226252 [label="被困在和你一樣的無盡循環中……
+		300 -> 301;
+	297 [label="+5 Chemistry",color=orange];
+		297 -> 298;
+	293 [label="被困在和你一樣的無盡循環中……
 不在冥界的懷抱之內",shape=box,color=blue];
-		j3550226252 -> j134441384;
-	j3892858376 [label="好的",shape=box,color=blue];
-		j3892858376 -> "Chat ends.";
-	j134441384 [label="我得回去工作了",shape=box,color=blue];
-		j134441384 -> "Chat ends.";
+		293 -> 302;
+	301 [label="Chat ends.",color=orange];
+	298 [label="好的",shape=box,color=blue];
+		298 -> 299;
+	302 [label="我得回去工作了",shape=box,color=blue];
+		302 -> 304;
+	299 [label="Chat ends.",color=orange];
+	304 [label="Chat ends.",color=orange];
 }

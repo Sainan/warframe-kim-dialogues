@@ -1,519 +1,530 @@
 digraph {
-	"LettieRank5Convo1 begins." [color=orange];
-		"LettieRank5Convo1 begins." -> j1469346148;
-	j1469346148 [label="Check boolean LettieDating",color=orange];
-		j1469346148 -> j389909632 [label=true,color=green];
-		j1469346148 -> j2374249722 [label=true,color=green];
-		j1469346148 -> j361807768 [label=true,color=green];
-		j1469346148 -> j3933229792 [label=false,color=brown];
-	j389909632 [label="Trzymasz się?",shape=box,color=red];
-		j389909632 -> j2141049078;
-	j2374249722 [label="Jak się dzisiaj masz, kochanie?",shape=box,color=red];
-		j2374249722 -> j4104466870;
-	j361807768 [label="Jak się dzisiaj ma najzajebistsza lekarka?",shape=box,color=red];
-		j361807768 -> j4104466870;
-	j3933229792 [label="Check boolean LettieShoulder",color=orange];
-		j3933229792 -> j389909632 [label=true,color=green];
-		j3933229792 -> j361807768 [label=true,color=green];
-		j3933229792 -> j3516902584 [label=false,color=brown];
-		j3933229792 -> j2033296427 [label=false,color=brown];
-	j2141049078 [label="No 
+	1532 [label="LettieRank5Convo1 begins.",color=orange];
+		1532 -> 1533;
+	1533 [label="Check boolean LettieDating",color=orange];
+		1533 -> 1535 [label=true,color=green];
+		1533 -> 1536 [label=true,color=green];
+		1533 -> 1537 [label=true,color=green];
+		1533 -> 1534 [label=false,color=brown];
+	1535 [label="Trzymasz się?",shape=box,color=red];
+		1535 -> 1540;
+	1536 [label="Jak się dzisiaj masz, kochanie?",shape=box,color=red];
+		1536 -> 1541;
+	1537 [label="Jak się dzisiaj ma najzajebistsza lekarka?",shape=box,color=red];
+		1537 -> 1541;
+	1534 [label="Check boolean LettieShoulder",color=orange];
+		1534 -> 1535 [label=true,color=green];
+		1534 -> 1537 [label=true,color=green];
+		1534 -> 1538 [label=false,color=brown];
+		1534 -> 1539 [label=false,color=brown];
+	1540 [label="No 
 Nie trzymam się 
 Nie trzymałam się od długiego czasu 
 Ale muszę zachowywać pozory 
 Zawsze muszę być tą silną w grupie, nie?",shape=box,color=blue];
-		j2141049078 -> j3439846751;
-	j4104466870 [label="Do dupy",shape=box,color=blue];
-		j4104466870 -> j2854784830;
-		j4104466870 -> j733944588;
-	j3516902584 [label="Hej Lettie, mogę zapytać o twoje szczury?",shape=box,color=red];
-		j3516902584 -> j975418736;
-	j2033296427 [label="Hej Lettie, jakie jedzenie lubisz najbardziej?",shape=box,color=red];
-		j2033296427 -> j975418736;
-	j3439846751 [label="A co jeśli nie chcę być 
+		1540 -> 1543;
+	1541 [label="Do dupy",shape=box,color=blue];
+		1541 -> 1544;
+		1541 -> 1545;
+	1538 [label="Hej Lettie, mogę zapytać o twoje szczury?",shape=box,color=red];
+		1538 -> 1542;
+	1539 [label="Hej Lettie, jakie jedzenie lubisz najbardziej?",shape=box,color=red];
+		1539 -> 1542;
+	1543 [label="A co jeśli nie chcę być 
 Co jeśli nie jestem 
 Co jeśli czuję się, jakbym miała zaraz się rozlecieć i -- 
 Lo siento, solecito, nie o to mnie pytasz",shape=box,color=blue];
-		j3439846751 -> j1014733202;
-		j3439846751 -> j3779221067;
-	j2854784830 [label="Wszystko w porządku?",shape=box,color=red];
-		j2854784830 -> j4290869480;
-	j733944588 [label="Ja - yyy - ups. Odezwę się później?",shape=box,color=red];
-		j733944588 -> j1959872843;
-	j975418736 [label="Nie teraz babas",shape=box,color=blue];
-		j975418736 -> j2854784830;
-		j975418736 -> j2451572790;
-		j975418736 -> j2371824366;
-	j1014733202 [label="Tak... chciałem zapytać, czy wyskoczyłabyś ze mną na kawę.",shape=box,color=red];
-		j1014733202 -> j1123156808;
-	j3779221067 [label="Zależy mi na tobie, Lettie. Mogę jakoś pomóc?",shape=box,color=red];
-		j3779221067 -> j3252788891;
-	j4290869480 [label="NIE 
+		1543 -> 1552;
+		1543 -> 1553;
+	1544 [label="Wszystko w porządku?",shape=box,color=red];
+		1544 -> 1548;
+	1545 [label="Ja - yyy - ups. Odezwę się później?",shape=box,color=red];
+		1545 -> 1549;
+	1542 [label="Nie teraz babas",shape=box,color=blue];
+		1542 -> 1544;
+		1542 -> 1546;
+		1542 -> 1547;
+	1552 [label="Tak... chciałem zapytać, czy wyskoczyłabyś ze mną na kawę.",shape=box,color=red];
+		1552 -> 1554;
+	1553 [label="Zależy mi na tobie, Lettie. Mogę jakoś pomóc?",shape=box,color=red];
+		1553 -> 1556;
+	1548 [label="NIE 
 Nie jest okej 
 Nie było od długiego czasu 
 Ale czas nie ma już znaczenia, prawda?! 
 Ty i ten cabrón o to zadbaliście",shape=box,color=blue];
-		j4290869480 -> j1639590870;
-	j1959872843 [label="Vete 
+		1548 -> 1561;
+	1549 [label="Vete 
 Nie będzie innej okazji",shape=box,color=blue];
-		j1959872843 -> j4112229488;
-		j1959872843 -> j1665073755;
-	j2451572790 [label="Odezwę się później, jeśli nie masz czasu.",shape=box,color=red];
-		j2451572790 -> j1959872843;
-	j2371824366 [label="Przepraszam?",shape=box,color=red];
-		j2371824366 -> j2098272827;
-	j1123156808 [label="Sí 
+		1549 -> 1558;
+		1549 -> 1559;
+	1546 [label="Odezwę się później, jeśli nie masz czasu.",shape=box,color=red];
+		1546 -> 1549;
+	1547 [label="Przepraszam?",shape=box,color=red];
+		1547 -> 1550;
+	1554 [label="Sí 
 Brzmi dobrze",shape=box,color=blue];
-		j1123156808 -> j1195005912;
-	j3252788891 [label="Nie jesteś moim terapeutą 
+		1554 -> 1555;
+	1556 [label="Nie jesteś moim terapeutą 
 Nie musisz słuchać mojego użalania się nad sobą",shape=box,color=blue];
-		j3252788891 -> j3717407868;
-	j1639590870 [label="W jaki sposób jest to moja wina?",shape=box,color=red];
-		j1639590870 -> j1382138814;
-	j4112229488 [label="Coś cię wkurzyło?",shape=box,color=red];
-		j4112229488 -> j1382138814;
-	j1665073755 [label="Co się stało?",shape=box,color=red];
-		j1665073755 -> j164114611;
-	j2098272827 [label="Ay, sí
+		1556 -> 1557;
+	1561 [label="W jaki sposób jest to moja wina?",shape=box,color=red];
+		1561 -> 1564;
+	1558 [label="Coś cię wkurzyło?",shape=box,color=red];
+		1558 -> 1564;
+	1559 [label="Co się stało?",shape=box,color=red];
+		1559 -> 1560;
+	1550 [label="Ay, sí
 Twoimi przeprosinami można wytapetować ściany 
 Może wtedy byłyby czegokolwiek warte",shape=box,color=blue];
-		j2098272827 -> "Chat ends.";
-	j1195005912 [label="Boolean LettieRealNo is now true.",color=orange];
-		j1195005912 -> "Chat ends.";
-	j3717407868 [label="Check boolean LettieDating",color=orange];
-		j3717407868 -> j593791713 [label=true,color=green];
-		j3717407868 -> j4123143500 [label=false,color=brown];
-	j1382138814 [label="Ty i te twoje pinche bzdury z czasem 
+		1550 -> 1551;
+	1555 [label="Update boolean LettieRealNo",color=orange];
+		1555 -> 1565;
+	1557 [label="Check boolean LettieDating",color=orange];
+		1557 -> 1566 [label=true,color=green];
+		1557 -> 1567 [label=false,color=brown];
+	1564 [label="Ty i te twoje pinche bzdury z czasem 
 Gdyby nie to, bylibyśmy martwi",shape=box,color=blue];
-		j1382138814 -> j3818146342;
-		j1382138814 -> j3579887448;
-	j164114611 [label="Sí
+		1564 -> 1571;
+		1564 -> 1572;
+	1560 [label="Sí
 Od długiego czasu coś mnie gryzie 
 Ale czas nie ma już znaczenia, prawda?! 
 Ty i ten cabrón o to zadbaliście",shape=box,color=blue];
-		j164114611 -> j1639590870;
-		j164114611 -> j22640825;
-	"Chat ends." [color=orange];
-	j593791713 [label="Lettie, jesteśmy razem. To dla mnie *coś* znaczy.",shape=box,color=red];
-		j593791713 -> j2886210848;
-	j4123143500 [label="Lettie, jesteśmy przyjaciółmi. Zależy mi na tobie. To wiele dla mnie znaczy.",shape=box,color=red];
-		j4123143500 -> j2886210848;
-	j3818146342 [label="Chwila. Co? Jesteś wściekła, bo nie umarłaś?!",shape=box,color=red];
-		j3818146342 -> j4223101332;
-	j3579887448 [label="Nie będę znosić wyżywania się na mnie, Lettie. Nie potrzebuję tego.",shape=box,color=red];
-		j3579887448 -> j4078022549;
-	j22640825 [label="Um... Mam wrażenie, że szukasz zaczepki.",shape=box,color=red];
-		j22640825 -> j2908134975;
-	j2886210848 [label="Myślę, że jesteś jedną z najsilniejszych osób, jakie poznałem w całym swoim życiu. Nie jesteś zdolna do użalania się.",shape=box,color=red];
-		j2886210848 -> j718417856;
-		j2886210848 -> j3764212506;
-	j4223101332 [label="JESTEM WŚCIEKŁA BO NIE MOGĘ UMRZEĆ, BABAS 
+		1560 -> 1561;
+		1560 -> 1562;
+	1551 [label="Chat ends.",color=orange];
+	1565 [label="Chat ends.",color=orange];
+	1566 [label="Lettie, jesteśmy razem. To dla mnie *coś* znaczy.",shape=box,color=red];
+		1566 -> 1568;
+	1567 [label="Lettie, jesteśmy przyjaciółmi. Zależy mi na tobie. To wiele dla mnie znaczy.",shape=box,color=red];
+		1567 -> 1568;
+	1571 [label="Chwila. Co? Jesteś wściekła, bo nie umarłaś?!",shape=box,color=red];
+		1571 -> 1576;
+	1572 [label="Nie będę znosić wyżywania się na mnie, Lettie. Nie potrzebuję tego.",shape=box,color=red];
+		1572 -> 1574;
+	1562 [label="Um... Mam wrażenie, że szukasz zaczepki.",shape=box,color=red];
+		1562 -> 1563;
+	1568 [label="Myślę, że jesteś jedną z najsilniejszych osób, jakie poznałem w całym swoim życiu. Nie jesteś zdolna do użalania się.",shape=box,color=red];
+		1568 -> 1569;
+		1568 -> 1570;
+	1576 [label="JESTEM WŚCIEKŁA BO NIE MOGĘ UMRZEĆ, BABAS 
 Nie rozumiesz tego 
 Jak niewiele znaczy życie bez śmierci 
 Wciąż zadaję sobie pytanie 
 PO CO TO WSZYSTKO?!",shape=box,color=blue];
-		j4223101332 -> j2313691274;
-	j4078022549 [label="Sí 
+		1576 -> 1581;
+	1574 [label="Sí 
 Uciekaj w popłochu, babas",shape=box,color=blue];
-		j4078022549 -> "Chat ends.";
-	j2908134975 [label="Może tak 
+		1574 -> 1575;
+	1563 [label="Może tak 
 Może nie 
 Może po prostu mam już dość tych pendejadas",shape=box,color=blue];
-		j2908134975 -> j653031133;
-		j2908134975 -> j3579887448;
-	j718417856 [label="Więc jeśli potrzebujesz pogadać? Jestem tutaj.",shape=box,color=red];
-		j718417856 -> j2943419579;
-	j3764212506 [label="Powiedz mi, o co chodzi.",shape=box,color=red];
-		j3764212506 -> j2943419579;
-	j2313691274 [label="Jaki jest sens?! 
+		1563 -> 1573;
+		1563 -> 1572;
+	1569 [label="Więc jeśli potrzebujesz pogadać? Jestem tutaj.",shape=box,color=red];
+		1569 -> 1577;
+	1570 [label="Powiedz mi, o co chodzi.",shape=box,color=red];
+		1570 -> 1577;
+	1581 [label="Jaki jest sens?! 
 Jaki jest sens tego wszystkiego, babas 
 Wszyscy jesteśmy fantasmas, odgrywamy swoje stare życia i stare śmierci 
 Przeżywamy sny, które nigdy się nie zmieniają 
 PO CO?!",shape=box,color=blue];
-		j2313691274 -> j1435566065;
-	j653031133 [label="Weź głęboki wdech i powiedz mi, o co chodzi.",shape=box,color=red];
-		j653031133 -> j2313691274;
-	j2943419579 [label="Check boolean LettieDating",color=orange];
-		j2943419579 -> j1203388197 [label=true,color=green];
-		j2943419579 -> j2232735542 [label=false,color=brown];
-	j1435566065 [label="Siedzę tutaj 
+		1581 -> 1582;
+	1575 [label="Chat ends.",color=orange];
+	1573 [label="Weź głęboki wdech i powiedz mi, o co chodzi.",shape=box,color=red];
+		1573 -> 1581;
+	1577 [label="Check boolean LettieDating",color=orange];
+		1577 -> 1578 [label=true,color=green];
+		1577 -> 1579 [label=false,color=brown];
+	1582 [label="Siedzę tutaj 
 Składam cywili do kupy 
 Dzień po dniu 
 Nie zdają sobie sprawy, że to nie ma znaczenia 
 Że jeśli umrą teraz, po prostu WRÓCĄ 
 Że są tylko wędrującymi fantasmas 
 A my wiemy, jakie cierpienie przeżywamy",shape=box,color=blue];
-		j1435566065 -> j1091227849;
-	j1203388197 [label="Nnnh solecito nienawidzę komplementów 
+		1582 -> 1585;
+	1578 [label="Nnnh solecito nienawidzę komplementów 
 Dobra, w porządku... Po prostu widzę kolejkę czekających cywili i zastanawiam się 
 Po co to robię?",shape=box,color=blue];
-		j1203388197 -> j668646126;
-	j2232735542 [label="Nnnh kolego, nienawidzę komplementów 
+		1578 -> 1580;
+	1579 [label="Nnnh kolego, nienawidzę komplementów 
 Dobra, w porządku... Po prostu widzę kolejkę czekających cywili i zastanawiam się 
 Po co to robię?",shape=box,color=blue];
-		j2232735542 -> j668646126;
-	j1091227849 [label="Mogłabym oszaleć 
+		1579 -> 1580;
+	1585 [label="Mogłabym oszaleć 
 Zamordować ich wszystkich z zimną krwią 
 A wszyscy powróciliby z nowym rokiem, ¿no?",shape=box,color=blue];
-		j1091227849 -> j898685918;
-		j1091227849 -> j2297533751;
-	j668646126 [label="Zostają postrzeleni, albo zabici 
+		1585 -> 1586;
+		1585 -> 1587;
+	1580 [label="Zostają postrzeleni, albo zabici 
 Poskładam ich do kupy, albo nie, i umierają 
 Nie zdają sobie sprawy, że to nie ma znaczenia 
 Jeśli umrą 
 Wraz z nowym rokiem wszystko zaczyna się na nowo",shape=box,color=blue];
-		j668646126 -> j2805478869;
-	j898685918 [label="Tak? Ale proszę, nie rób tego. Trudno byłoby to wyjaśnić innym.",shape=box,color=red];
-		j898685918 -> j171676181;
-	j2297533751 [label="Sytuacja MOŻE się zmienić. Może niewiele, ale w znaczący sposób. Rozejrzyj się.",shape=box,color=red];
-		j2297533751 -> j768888031;
-	j2805478869 [label="To tylko fantasmas, lunatykujące przez ten koszmar 
+		1580 -> 1583;
+	1586 [label="Tak? Ale proszę, nie rób tego. Trudno byłoby to wyjaśnić innym.",shape=box,color=red];
+		1586 -> 1588;
+	1587 [label="Sytuacja MOŻE się zmienić. Może niewiele, ale w znaczący sposób. Rozejrzyj się.",shape=box,color=red];
+		1587 -> 1589;
+	1583 [label="To tylko fantasmas, lunatykujące przez ten koszmar 
 A my jesteśmy los fantasmas i znamy swój los 
 Nie wiem co jest gorsze",shape=box,color=blue];
-		j2805478869 -> j3958753546;
-	j171676181 [label="Co jeśli zabrałabym toster do kąpieli 
+		1583 -> 1584;
+	1588 [label="Co jeśli zabrałabym toster do kąpieli 
 Zabiła się 
 Co wtedy? 
 Wiem, że umarłam w innym wspomnieniu 
 Tym koszmarze",shape=box,color=blue];
-		j171676181 -> j911484897;
-	j768888031 [label="Ay, sí 
+		1588 -> 1590;
+	1589 [label="Ay, sí 
 Teraz zbieramy niedobitków, bueno, kilka fantasmas cierpi mniej 
 Coś się zmienia tu i tam 
 Ale co z tym, czym nas uczyniłeś 
 Wiem, że umarłam w tamtym innym wspomnieniu",shape=box,color=blue];
-		j768888031 -> j911484897;
-	j3958753546 [label="Check boolean LettieShoulder2",color=orange];
-		j3958753546 -> j1947674079 [label=true,color=green];
-		j3958753546 -> j1388938932 [label=false,color=brown];
-	j911484897 [label="Powinieneś był mnie tam zostawić 
+		1589 -> 1590;
+	1584 [label="Check boolean LettieShoulder2",color=orange];
+		1584 -> 1593 [label=true,color=green];
+		1584 -> 1591 [label=false,color=brown];
+	1590 [label="Powinieneś był mnie tam zostawić 
 Dać mi umrzeć 
 Nie pasujemy tutaj jako fantasmas 
 Jesteśmy antinaturales, ludzie nie powinni żyć wiecznie, powinni móc umrzeć",shape=box,color=blue];
-		j911484897 -> j1674441094;
-		j911484897 -> j847276911;
-	j1947674079 [label="Sytuacja MOŻE się zmienić. Może niewiele, ale w znaczący sposób. Rozejrzyj się.",shape=box,color=red];
-		j1947674079 -> j2576829323;
-	j1388938932 [label="Ale wiesz, co masz tutaj, co może ci pomóc przez to przejść? Rodzinę. Jeśli pozwolisz sobie nas tak widzieć.",shape=box,color=red];
-		j1388938932 -> j2837183612;
-	j1674441094 [label="Wiem, jak się czujesz, Lettie. Całe swoje życie byłem ofiarą czyichś planów. Orokin. Pan ze Ściany. Teraz Entrati.",shape=box,color=red];
-		j1674441094 -> j244689391;
-	j847276911 [label="Masz wybór, Lettie. Możesz spędzić wieczność jako ofiara, albo spojrzeć na to jako na szansę nowego życia.",shape=box,color=red];
-		j847276911 -> j1688796556;
-	j2576829323 [label="Daliśmy tym ludziom nowy dom. Nową nadzieję. Może tylko kilku z nich, a może koniec końców nie ma to znaczenia...",shape=box,color=red];
-		j2576829323 -> j1189657934;
-	j2837183612 [label="Check boolean LettieNoHome",color=orange];
-		j2837183612 -> j3419215762 [label=true,color=green];
-		j2837183612 -> j1056703206 [label=false,color=brown];
-	j244689391 [label="Ale miałem wybór, kiedy patrzyłem, jak wszyscy umieracie. Mogłem pozwolić wam zostać ofiarami... albo mogłem was uratować.",shape=box,color=red];
-		j244689391 -> j243595182;
-	j1688796556 [label="Tak, to pętla czasu. Niewiele się zmienia. Ale wiesz, co znaczącego się zmienia? My. To kim jesteśmy. To co wiemy. To co czujemy.",shape=box,color=red];
-		j1688796556 -> j1026857009;
-	j1189657934 [label="Ale czy nie dlatego jesteś lekarzem? Czyż najważniejszym nie są same próby, poczucie nadziei i chęć pomocy, a nie ich rezultaty?",shape=box,color=red];
-		j1189657934 -> j687322874;
-	j3419215762 [label="Wiem, że czujesz się, jakbyś nie miała swojego miejsca na świecie. Nigdy nie miałaś prawdziwego domu, Lettie, zupełnie jak ja.",shape=box,color=red];
-		j3419215762 -> j531800251;
-	j1056703206 [label="Rozejrzyj się. Spójrz na cywili. Na Hex. Na mnie.",shape=box,color=red];
-		j1056703206 -> j1418661132;
-	j243595182 [label="Więc może nie powinienem był podejmować tej decyzji za ciebie. Chcesz mnie za to znienawidzić? Proszę, droga wolna.",shape=box,color=red];
-		j243595182 -> j2884612258;
-	j1026857009 [label="Więc nie, to nie jest życie, do jakiego jesteś przyzwyczajona. Już nigdy nie wrócisz do \"normalności\".",shape=box,color=red];
-		j1026857009 -> j2182624950;
-	j687322874 [label="Boolean LettieKindness is now true.",color=orange];
-		j687322874 -> j3679117757;
-	j531800251 [label="To może być twoja rodzina. Twój dom. Jeśli tego zechcesz. Jeśli na to POZWOLISZ.",shape=box,color=red];
-		j531800251 -> j672275895;
-	j1418661132 [label="To może być twoja rodzina, jeśli tego zechcesz. Jeśli na to POZWOLISZ.",shape=box,color=red];
-		j1418661132 -> j672275895;
-	j2884612258 [label="Ale ty nigdy byś nie zostawiła swoich towarzyszy na śmierć, kiedy mogłaś ich uratować. Nie pozwoliłabyś im zostać ofiarami.",shape=box,color=red];
-		j2884612258 -> j3369690856;
-	j2182624950 [label="Są inne rzeczy, dla których warto żyć.",shape=box,color=red];
-		j2182624950 -> j3894862229;
-	j3679117757 [label="Check boolean LettieDating",color=orange];
-		j3679117757 -> j3775231774 [label=true,color=green];
-		j3679117757 -> j4054493583 [label=false,color=brown];
-	j672275895 [label="Boolean LettieNewFamily is now true.",color=orange];
-		j672275895 -> j3188996890;
-	j3369690856 [label="Uratowane ofiary, ale po co 
+		1590 -> 1604;
+		1590 -> 1605;
+	1593 [label="Sytuacja MOŻE się zmienić. Może niewiele, ale w znaczący sposób. Rozejrzyj się.",shape=box,color=red];
+		1593 -> 1594;
+	1591 [label="Ale wiesz, co masz tutaj, co może ci pomóc przez to przejść? Rodzinę. Jeśli pozwolisz sobie nas tak widzieć.",shape=box,color=red];
+		1591 -> 1592;
+	1604 [label="Wiem, jak się czujesz, Lettie. Całe swoje życie byłem ofiarą czyichś planów. Orokin. Pan ze Ściany. Teraz Entrati.",shape=box,color=red];
+		1604 -> 1606;
+	1605 [label="Masz wybór, Lettie. Możesz spędzić wieczność jako ofiara, albo spojrzeć na to jako na szansę nowego życia.",shape=box,color=red];
+		1605 -> 1607;
+	1594 [label="Daliśmy tym ludziom nowy dom. Nową nadzieję. Może tylko kilku z nich, a może koniec końców nie ma to znaczenia...",shape=box,color=red];
+		1594 -> 1596;
+	1592 [label="Check boolean LettieNoHome",color=orange];
+		1592 -> 1597 [label=true,color=green];
+		1592 -> 1598 [label=false,color=brown];
+	1606 [label="Ale miałem wybór, kiedy patrzyłem, jak wszyscy umieracie. Mogłem pozwolić wam zostać ofiarami... albo mogłem was uratować.",shape=box,color=red];
+		1606 -> 1614;
+	1607 [label="Tak, to pętla czasu. Niewiele się zmienia. Ale wiesz, co znaczącego się zmienia? My. To kim jesteśmy. To co wiemy. To co czujemy.",shape=box,color=red];
+		1607 -> 1615;
+	1596 [label="Ale czy nie dlatego jesteś lekarzem? Czyż najważniejszym nie są same próby, poczucie nadziei i chęć pomocy, a nie ich rezultaty?",shape=box,color=red];
+		1596 -> 1601;
+	1597 [label="Wiem, że czujesz się, jakbyś nie miała swojego miejsca na świecie. Nigdy nie miałaś prawdziwego domu, Lettie, zupełnie jak ja.",shape=box,color=red];
+		1597 -> 1599;
+	1598 [label="Rozejrzyj się. Spójrz na cywili. Na Hex. Na mnie.",shape=box,color=red];
+		1598 -> 1600;
+	1614 [label="Więc może nie powinienem był podejmować tej decyzji za ciebie. Chcesz mnie za to znienawidzić? Proszę, droga wolna.",shape=box,color=red];
+		1614 -> 1623;
+	1615 [label="Więc nie, to nie jest życie, do jakiego jesteś przyzwyczajona. Już nigdy nie wrócisz do \"normalności\".",shape=box,color=red];
+		1615 -> 1624;
+	1601 [label="Update boolean LettieKindness",color=orange];
+		1601 -> 1602;
+	1599 [label="To może być twoja rodzina. Twój dom. Jeśli tego zechcesz. Jeśli na to POZWOLISZ.",shape=box,color=red];
+		1599 -> 1603;
+	1600 [label="To może być twoja rodzina, jeśli tego zechcesz. Jeśli na to POZWOLISZ.",shape=box,color=red];
+		1600 -> 1603;
+	1623 [label="Ale ty nigdy byś nie zostawiła swoich towarzyszy na śmierć, kiedy mogłaś ich uratować. Nie pozwoliłabyś im zostać ofiarami.",shape=box,color=red];
+		1623 -> 1636;
+	1624 [label="Są inne rzeczy, dla których warto żyć.",shape=box,color=red];
+		1624 -> 1637;
+	1602 [label="Check boolean LettieDating",color=orange];
+		1602 -> 1610 [label=true,color=green];
+		1602 -> 1612 [label=false,color=brown];
+	1603 [label="Update boolean LettieNewFamily",color=orange];
+		1603 -> 1608;
+	1636 [label="Uratowane ofiary, ale po co 
 To nie jest życie, babas 
 Ten koszmar to nie życie",shape=box,color=blue];
-		j3369690856 -> j3120021396;
-	j3894862229 [label="Ay sí 
+		1636 -> 1639;
+	1637 [label="Ay sí 
 Stara pizza i porzucony budynek 
 Smutni, zapomniani cywile 
 Niekończąca się wojna ze scaldrą 
 Powiedz mi, dlaczego takie ŻYCIE jest warte przeżycia",shape=box,color=blue];
-		j3894862229 -> j3120021396;
-	j3775231774 [label="+20 Chemistry",color=orange];
-		j3775231774 -> j2683109169;
-	j4054493583 [label="Check boolean LettieNoFlirt",color=orange];
-		j4054493583 -> j3752519299 [label=true,color=green];
-		j4054493583 -> j2101007801 [label=false,color=brown];
-	j3188996890 [label="Check boolean LettieDating",color=orange];
-		j3188996890 -> j1510687067 [label=true,color=green];
-		j3188996890 -> j1744086563 [label=false,color=brown];
-	j3120021396 [label="Check boolean LettieDating",color=orange];
-		j3120021396 -> j400376522 [label=true,color=green];
-		j3120021396 -> j889581341 [label=true,color=green];
-		j3120021396 -> j1769710837 [label=true,color=green];
-		j3120021396 -> j968646835 [label=false,color=brown];
-	j2683109169 [label="Ja... 
+		1637 -> 1639;
+	1610 [label="+20 Chemistry",color=orange];
+		1610 -> 1595;
+	1612 [label="Check boolean LettieNoFlirt",color=orange];
+		1612 -> 1617 [label=true,color=green];
+		1612 -> 1616 [label=false,color=brown];
+	1608 [label="Check boolean LettieDating",color=orange];
+		1608 -> 1627 [label=true,color=green];
+		1608 -> 1613 [label=false,color=brown];
+	1639 [label="Check boolean LettieDating",color=orange];
+		1639 -> 1640 [label=true,color=green];
+		1639 -> 1641 [label=true,color=green];
+		1639 -> 1643 [label=true,color=green];
+		1639 -> 1642 [label=false,color=brown];
+	1595 [label="Ja... 
 Nie wiem, czy lubię, kiedy dostrzegasz moje mentiras 
 Sí... masz rację 
 Czasami po prostu mam dość tej walki, rozumiesz? 
 Zapominam, że nie walczę sama",shape=box,color=blue];
-		j2683109169 -> j3134899150;
-	j3752519299 [label="I po prostu boli mnie, gdy widzę cię w takim stanie, kiedy troszczę się o ciebie jak o rodzinę.",shape=box,color=red];
-		j3752519299 -> j300315474;
-	j2101007801 [label="Check boolean IsDating",color=orange];
-		j2101007801 -> j3752519299 [label=true,color=green];
-		j2101007801 -> j3752519299 [label=false,color=brown];
-		j2101007801 -> j2566436207 [label=false,color=brown];
-	j1510687067 [label="+20 Chemistry",color=orange];
-		j1510687067 -> j678578743;
-	j1744086563 [label="Check boolean LettieNoFlirt",color=orange];
-		j1744086563 -> j1510687067 [label=true,color=green];
-		j1744086563 -> j112305379 [label=false,color=brown];
-		j1744086563 -> j2566436207 [label=false,color=brown];
-	j400376522 [label="Myślisz, że to tylko przelotny romans?! Naprawdę myślisz, że tak mało dla mnie znaczysz?!",shape=box,color=red];
-		j400376522 -> j3133900767;
-	j889581341 [label="Rozejrzyj się. Zobacz co masz. Otaczającą cię rodzinę. Ludzi, którym na TOBIE zależy.",shape=box,color=red];
-		j889581341 -> j766313776;
-	j1769710837 [label="Widzisz niedobitków, ja widzę ludzi próbujących sobie pomóc w trudnych chwilach. I to jest piękne.",shape=box,color=red];
-		j1769710837 -> j2833432486;
-	j968646835 [label="Check boolean LettieNoFlirt",color=orange];
-		j968646835 -> j889581341 [label=true,color=green];
-		j968646835 -> j889581341 [label=false,color=brown];
-		j968646835 -> j1769710837 [label=false,color=brown];
-		j968646835 -> j1384512105 [label=false,color=brown];
-	j3134899150 [label="W życiu piękne są tylko chwile 
+		1595 -> 1609;
+	1617 [label="I po prostu boli mnie, gdy widzę cię w takim stanie, kiedy troszczę się o ciebie jak o rodzinę.",shape=box,color=red];
+		1617 -> 1632;
+	1616 [label="Check boolean IsDating",color=orange];
+		1616 -> 1617 [label=true,color=green];
+		1616 -> 1617 [label=false,color=brown];
+		1616 -> 1625 [label=false,color=brown];
+	1627 [label="+20 Chemistry",color=orange];
+		1627 -> 1626;
+	1613 [label="Check boolean LettieNoFlirt",color=orange];
+		1613 -> 1627 [label=true,color=green];
+		1613 -> 1619 [label=false,color=brown];
+		1613 -> 1625 [label=false,color=brown];
+	1640 [label="Myślisz, że to tylko przelotny romans?! Naprawdę myślisz, że tak mało dla mnie znaczysz?!",shape=box,color=red];
+		1640 -> 1646;
+	1641 [label="Rozejrzyj się. Zobacz co masz. Otaczającą cię rodzinę. Ludzi, którym na TOBIE zależy.",shape=box,color=red];
+		1641 -> 1648;
+	1643 [label="Widzisz niedobitków, ja widzę ludzi próbujących sobie pomóc w trudnych chwilach. I to jest piękne.",shape=box,color=red];
+		1643 -> 1652;
+	1642 [label="Check boolean LettieNoFlirt",color=orange];
+		1642 -> 1641 [label=true,color=green];
+		1642 -> 1641 [label=false,color=brown];
+		1642 -> 1643 [label=false,color=brown];
+		1642 -> 1644 [label=false,color=brown];
+	1609 [label="W życiu piękne są tylko chwile 
 Chwile spędzone dbając o siebie nawzajem 
 A teraz... mamy ich całą wieczność, prawda? 
 Gracias, solecito... neta",shape=box,color=blue];
-		j3134899150 -> "Chat ends.";
-	j300315474 [label="+20 Chemistry",color=orange];
-		j300315474 -> j690649452;
-	j2566436207 [label="I jest jeszcze jeden powód, dlaczego tak boli mnie patrzeć na ciebie w takim stanie. [Wyznaj uczucia]",shape=box,color=red];
-		j2566436207 -> j3842669821;
-	j678578743 [label="Ja... 
+		1609 -> 1611;
+	1632 [label="+20 Chemistry",color=orange];
+		1632 -> 1618;
+	1625 [label="I jest jeszcze jeden powód, dlaczego tak boli mnie patrzeć na ciebie w takim stanie. [Wyznaj uczucia]",shape=box,color=red];
+		1625 -> 1638;
+	1626 [label="Ja... 
 Nie wiem, czy lubię, kiedy dostrzegasz moje mentiras 
 Sí... masz rację 
 Czasami zamykam się w sobie i zapominam, że nie jestem sama",shape=box,color=blue];
-		j678578743 -> j2577473010;
-	j112305379 [label="I po prostu boli mnie, gdy widzę cię w takim stanie, kiedy troszczę się o ciebie jak o rodzinę.",shape=box,color=red];
-		j112305379 -> j2919940133;
-	j3133900767 [label="Ty mi powiedz? 
+		1626 -> 1628;
+	1619 [label="I po prostu boli mnie, gdy widzę cię w takim stanie, kiedy troszczę się o ciebie jak o rodzinę.",shape=box,color=red];
+		1619 -> 1635;
+	1646 [label="Ty mi powiedz? 
 Ile znaczę? 
 Ja widzę kogoś, kto spędził całe swoje życie sam i ma szansę na coś, czego nigdy wcześniej nie zaznał 
 Może nie rozumie, w co się wpakował",shape=box,color=blue];
-		j3133900767 -> j3339102355;
-		j3133900767 -> j3692834482;
-	j766313776 [label="Wiem, że czujesz się, jakbyś straciła swoje życie. Swoją rodzinę.",shape=box,color=red];
-		j766313776 -> j2017082177;
-	j2833432486 [label="I jeśli chcesz się od tego odciąć, proszę bardzo. Ale to TWOJA decyzja, Lettie. Ty ją podejmiesz i nikt inny.",shape=box,color=red];
-		j2833432486 -> j3313996384;
-	j1384512105 [label="Czy naprawdę nie dociera do ciebie, że próbuję powiedzieć, jak wiele dla mnie znaczysz?! [Wyznaj uczucia]",shape=box,color=red];
-		j1384512105 -> j558188467;
-	j690649452 [label="Ja... 
+		1646 -> 1645;
+		1646 -> 1647;
+	1648 [label="Wiem, że czujesz się, jakbyś straciła swoje życie. Swoją rodzinę.",shape=box,color=red];
+		1648 -> 1649;
+	1652 [label="I jeśli chcesz się od tego odciąć, proszę bardzo. Ale to TWOJA decyzja, Lettie. Ty ją podejmiesz i nikt inny.",shape=box,color=red];
+		1652 -> 1653;
+	1644 [label="Czy naprawdę nie dociera do ciebie, że próbuję powiedzieć, jak wiele dla mnie znaczysz?! [Wyznaj uczucia]",shape=box,color=red];
+		1644 -> 1654;
+	1611 [label="Chat ends.",color=orange];
+	1618 [label="Ja... 
 Nie wiem, czy lubię, kiedy dostrzegasz moje mentiras 
 Sí... masz rację 
 Czasami po prostu mam dość tej walki, rozumiesz? 
 Zapominam, że nie walczę sama",shape=box,color=blue];
-		j690649452 -> j4009275322;
-	j3842669821 [label="¿Ay sí?",shape=box,color=blue];
-		j3842669821 -> j558188467;
-	j2577473010 [label="Muszę pamiętać, że mam tu rodzinę 
+		1618 -> 1630;
+	1638 [label="¿Ay sí?",shape=box,color=blue];
+		1638 -> 1654;
+	1628 [label="Muszę pamiętać, że mam tu rodzinę 
 Ludzi, na których mogę polegać, kiedy wiszą nade mną czarne chmury 
 Gracias, solecito... en serio",shape=box,color=blue];
-		j2577473010 -> "Chat ends.";
-	j2919940133 [label="+20 Chemistry",color=orange];
-		j2919940133 -> j2387584400;
-	j3339102355 [label="Okej, w porządku. Więc o to chodzi. Masz rację. Po prostu jestem naiwny i moje uczucia nie są prawdziwe.",shape=box,color=red];
-		j3339102355 -> j1126602921;
-	j3692834482 [label="I widzi kogoś, kto cierpi i wdaje się w bójki, zamiast uporać się z tym bólem.",shape=box,color=red];
-		j3692834482 -> j3228587128;
-	j2017082177 [label="Check boolean LettieCavia",color=orange];
-		j2017082177 -> j3710567001 [label=true,color=green];
-		j2017082177 -> j1316773623 [label=false,color=brown];
-	j3313996384 [label="Check boolean LettieRats1",color=orange];
-		j3313996384 -> j897410829 [label=true,color=green];
-		j3313996384 -> j2200499029 [label=false,color=brown];
-	j558188467 [label="Zanim nazwiesz mnie idiotą, czy cokolwiek - albo, że nie radzę sobie z tobą, poczekaj chwilę, daj mi się wysłowić.",shape=box,color=red];
-		j558188467 -> j2142248532;
-		j558188467 -> j3427670853;
-		j558188467 -> j3788734207;
-	j4009275322 [label="W życiu piękne są tylko chwile 
+		1628 -> 1629;
+	1635 [label="+20 Chemistry",color=orange];
+		1635 -> 1620;
+	1645 [label="Okej, w porządku. Więc o to chodzi. Masz rację. Po prostu jestem naiwny i moje uczucia nie są prawdziwe.",shape=box,color=red];
+		1645 -> 1651;
+	1647 [label="I widzi kogoś, kto cierpi i wdaje się w bójki, zamiast uporać się z tym bólem.",shape=box,color=red];
+		1647 -> 1655;
+	1649 [label="Check boolean LettieCavia",color=orange];
+		1649 -> 1656 [label=true,color=green];
+		1649 -> 1650 [label=false,color=brown];
+	1653 [label="Check boolean LettieRats1",color=orange];
+		1653 -> 1659 [label=true,color=green];
+		1653 -> 1660 [label=false,color=brown];
+	1654 [label="Zanim nazwiesz mnie idiotą, czy cokolwiek - albo, że nie radzę sobie z tobą, poczekaj chwilę, daj mi się wysłowić.",shape=box,color=red];
+		1654 -> 1701;
+		1654 -> 1702;
+		1654 -> 1703;
+	1630 [label="W życiu piękne są tylko chwile 
 Chwile spędzone dbając o siebie nawzajem 
 A teraz... mamy ich całą wieczność, prawda? 
 Gracias... en serio",shape=box,color=blue];
-		j4009275322 -> "Chat ends.";
-	j2387584400 [label="Ja... 
+		1630 -> 1631;
+	1629 [label="Chat ends.",color=orange];
+	1620 [label="Ja... 
 Nie wiem, czy lubię, kiedy dostrzegasz moje mentiras 
 Sí... masz rację 
 Czasami zamykam się w sobie i zapominam, że nie jestem sama",shape=box,color=blue];
-		j2387584400 -> j1075491806;
-	j1126602921 [label="Sí 
+		1620 -> 1633;
+	1651 [label="Sí 
 Cieszę się, że się zgadzamy 
 Teraz vete",shape=box,color=blue];
-		j1126602921 -> j3136085274;
-		j1126602921 -> j3647588985;
-	j3228587128 [label="¡¿Ay, sí?! 
+		1651 -> 1661;
+		1651 -> 1662;
+	1655 [label="¡¿Ay, sí?! 
 Powiedz mi",shape=box,color=blue];
-		j3228587128 -> j228278903;
-	j3710567001 [label="Nikt nie uważał Cavii za godną uratowania. Czy Loid powinien był pozwolić im umrzeć?",shape=box,color=red];
-		j3710567001 -> j411747429;
-	j1316773623 [label="Check boolean LettieNoHome",color=orange];
-		j1316773623 -> j4158781515 [label=true,color=green];
-		j1316773623 -> j3356531218 [label=false,color=brown];
-	j897410829 [label="Poza tym nawet jeśli ostatecznie nie będzie to miało sensu, to właśnie bezdomne zwierzęta są tymi, które najbardziej warto ratować, prawda?",shape=box,color=red];
-		j897410829 -> j2200499029;
-	j2200499029 [label="Bo czy nie chodzi o samą troskę, o samo PRÓBOWANIE?",shape=box,color=red];
-		j2200499029 -> j1040381003;
-	j2142248532 [label="Jesteś niezwykle piękna, inteligentna, mogłabyś skopać mi tyłek. A to tylko niektóre z powodów, dlaczego tak wiele dla mnie znaczysz.",shape=box,color=red];
-		j2142248532 -> j1808698585;
-		j2142248532 -> j2344385676;
-	j3427670853 [label="Głęboko za murem, który wokół siebie zbudowałaś, znajduje się jedna z najmilszych, najbardziej współczujących osób, jakie kiedykolwiek poznałem. Ale to nie wszystko.",shape=box,color=red];
-		j3427670853 -> j3116553581;
-		j3427670853 -> j2344385676;
-	j3788734207 [label="Jesteś niepokonana. Niepowstrzymana. Nieustępliwa. Nic nie jest zdolne cię spowolnić. Jesteś jedną z najwytrwalszych osób, jakie poznałem i -",shape=box,color=red];
-		j3788734207 -> j3116553581;
-		j3788734207 -> j1808698585;
-	j1075491806 [label="Muszę pamiętać, że mam tu rodzinę 
+		1655 -> 1668;
+	1656 [label="Nikt nie uważał Cavii za godną uratowania. Czy Loid powinien był pozwolić im umrzeć?",shape=box,color=red];
+		1656 -> 1682;
+	1650 [label="Check boolean LettieNoHome",color=orange];
+		1650 -> 1657 [label=true,color=green];
+		1650 -> 1658 [label=false,color=brown];
+	1659 [label="Poza tym nawet jeśli ostatecznie nie będzie to miało sensu, to właśnie bezdomne zwierzęta są tymi, które najbardziej warto ratować, prawda?",shape=box,color=red];
+		1659 -> 1660;
+	1660 [label="Bo czy nie chodzi o samą troskę, o samo PRÓBOWANIE?",shape=box,color=red];
+		1660 -> 1694;
+	1701 [label="Jesteś niezwykle piękna, inteligentna, mogłabyś skopać mi tyłek. A to tylko niektóre z powodów, dlaczego tak wiele dla mnie znaczysz.",shape=box,color=red];
+		1701 -> 1705;
+		1701 -> 1706;
+	1702 [label="Głęboko za murem, który wokół siebie zbudowałaś, znajduje się jedna z najmilszych, najbardziej współczujących osób, jakie kiedykolwiek poznałem. Ale to nie wszystko.",shape=box,color=red];
+		1702 -> 1704;
+		1702 -> 1706;
+	1703 [label="Jesteś niepokonana. Niepowstrzymana. Nieustępliwa. Nic nie jest zdolne cię spowolnić. Jesteś jedną z najwytrwalszych osób, jakie poznałem i -",shape=box,color=red];
+		1703 -> 1704;
+		1703 -> 1705;
+	1631 [label="Chat ends.",color=orange];
+	1633 [label="Muszę pamiętać, że mam tu rodzinę 
 Ludzi, na których mogę polegać, kiedy wiszą nade mną czarne chmury 
 Gracias... en serio",shape=box,color=blue];
-		j1075491806 -> "Chat ends.";
-	j3136085274 [label="To jeszcze nie koniec tej rozmowy, Lettie.",shape=box,color=red];
-		j3136085274 -> j228278903;
-	j3647588985 [label="Nie mam na to siły. Mam ciebie dość. [Koniec]",shape=box,color=red];
-		j3647588985 -> j1573690420;
-	j228278903 [label="Wyżywasz się na mnie, bo się boisz. Bo nie chcesz być tu uwięziona. Ale odpychasz każdego, kto może ci pomóc.",shape=box,color=red];
-		j228278903 -> j1639633832;
-	j411747429 [label="Czy śmierć byłaby lepsza od takiego życia? Tagfer z pewnością kiedyś by się zgodził - stracił żonę podczas eksperymentu.",shape=box,color=red];
-		j411747429 -> j3488123167;
-	j4158781515 [label="Wiem też, że czujesz się, jakbyś nie miała swojego miejsca na świecie. Nigdy nie miałaś prawdziwego domu, Lettie, zupełnie jak ja.",shape=box,color=red];
-		j4158781515 -> j4040858571;
-	j3356531218 [label="Sytuacja w której utknęliście - nie będę kłamać, jest do dupy. Uwierz mi, znam to. Ale macie jedną rzecz, której ja nie miałem.",shape=box,color=red];
-		j3356531218 -> j1841764085;
-	j1040381003 [label="W życiu należy cenić chwile dobroci, prawda? Chwile, w których możemy pokazać ludziom lepszą część siebie.",shape=box,color=red];
-		j1040381003 -> j202352526;
-	j1808698585 [label="Jesteś jedną z najmilszych, najbardziej troskliwych osób, jakie kiedykolwiek poznałem. To, jak dbasz o zwierzęta i to, jak starasz się dbać o ludzi, sprawia, że robi mi się cieplej na sercu.",shape=box,color=red];
-		j1808698585 -> j3429184597;
-	j2344385676 [label="Jesteś twarda jak stal. Nie wiem, jakie wyzwanie świat mógłby ci rzucić - Entrati, Pan ze Ściany, Wiktor i Scaldra - to nie ma znaczenia. Nie mają z tobą szans.",shape=box,color=red];
-		j2344385676 -> j3429184597;
-	j3116553581 [label="Zatrzymajmy się na chwilę, żeby docenić, jaka jesteś piękna i to, że byłabyś zdolna złożyć mnie w pół, gdybyś tego chciała. lol",shape=box,color=red];
-		j3116553581 -> j3429184597;
-	j1573690420 [label="Sí 
+		1633 -> 1634;
+	1661 [label="To jeszcze nie koniec tej rozmowy, Lettie.",shape=box,color=red];
+		1661 -> 1668;
+	1662 [label="Nie mam na to siły. Mam ciebie dość. [Koniec]",shape=box,color=red];
+		1662 -> 1663;
+	1668 [label="Wyżywasz się na mnie, bo się boisz. Bo nie chcesz być tu uwięziona. Ale odpychasz każdego, kto może ci pomóc.",shape=box,color=red];
+		1668 -> 1670;
+	1682 [label="Czy śmierć byłaby lepsza od takiego życia? Tagfer z pewnością kiedyś by się zgodził - stracił żonę podczas eksperymentu.",shape=box,color=red];
+		1682 -> 1685;
+	1657 [label="Wiem też, że czujesz się, jakbyś nie miała swojego miejsca na świecie. Nigdy nie miałaś prawdziwego domu, Lettie, zupełnie jak ja.",shape=box,color=red];
+		1657 -> 1683;
+	1658 [label="Sytuacja w której utknęliście - nie będę kłamać, jest do dupy. Uwierz mi, znam to. Ale macie jedną rzecz, której ja nie miałem.",shape=box,color=red];
+		1658 -> 1684;
+	1694 [label="W życiu należy cenić chwile dobroci, prawda? Chwile, w których możemy pokazać ludziom lepszą część siebie.",shape=box,color=red];
+		1694 -> 1695;
+	1705 [label="Jesteś jedną z najmilszych, najbardziej troskliwych osób, jakie kiedykolwiek poznałem. To, jak dbasz o zwierzęta i to, jak starasz się dbać o ludzi, sprawia, że robi mi się cieplej na sercu.",shape=box,color=red];
+		1705 -> 1707;
+	1706 [label="Jesteś twarda jak stal. Nie wiem, jakie wyzwanie świat mógłby ci rzucić - Entrati, Pan ze Ściany, Wiktor i Scaldra - to nie ma znaczenia. Nie mają z tobą szans.",shape=box,color=red];
+		1706 -> 1707;
+	1704 [label="Zatrzymajmy się na chwilę, żeby docenić, jaka jesteś piękna i to, że byłabyś zdolna złożyć mnie w pół, gdybyś tego chciała. lol",shape=box,color=red];
+		1704 -> 1707;
+	1634 [label="Chat ends.",color=orange];
+	1663 [label="Sí 
 Spodziewałam się, że do tego dojdzie 
 Vete, babas, nie mam już na ciebie czasu 
 Powinnam była wiedzieć, żeby nie bawić się z niñitos",shape=box,color=blue];
-		j1573690420 -> j2548450594;
-	j1639633832 [label="Więc możesz dać mi sobie pomóc, albo możesz mnie odrzucić. To twoja decyzja.",shape=box,color=red];
-		j1639633832 -> j515777999;
-	j3488123167 [label="Ale oni znaleźli sobie nową rodzinę. Powód, żeby wytrwać, żeby dalej żyć.",shape=box,color=red];
-		j3488123167 -> j1164720400;
-	j4040858571 [label="Więc? To może być twoja rodzina. Twój dom. Jeśli tego zechcesz. Jeśli na to POZWOLISZ.",shape=box,color=red];
-		j4040858571 -> j1164720400;
-	j1841764085 [label="Macie siebie. Macie *rodzinę*. Macie *przyjaciół*.",shape=box,color=red];
-		j1841764085 -> j1506188741;
-	j202352526 [label="Mierda",shape=box,color=blue];
-		j202352526 -> j3077321186;
-	j3429184597 [label="Chodzi o to... że zależy mi na tobie, Lettie. Bardzo mi zależy. Bardziej niż na przyjacielu i rozumiem, że nie czujesz się tak wobec mnie ale -",shape=box,color=red];
-		j3429184597 -> j1796680384;
-	j2548450594 [label="Boolean LettieDating is now false.",color=orange];
-		j2548450594 -> j4086907321;
-	j515777999 [label="Mierda",shape=box,color=blue];
-		j515777999 -> j3487216547;
-	j1164720400 [label="Mierda",shape=box,color=blue];
-		j1164720400 -> j2208216799;
-	j1506188741 [label="Nie jesteś sama, tak jak ja - a ta samotność wpędziła mnie w spiralę żalu i obojętności.",shape=box,color=red];
-		j1506188741 -> j2535078274;
-	j3077321186 [label="+20 Chemistry",color=orange];
-		j3077321186 -> j716335686;
-	j1796680384 [label="Nie mogę patrzeć, jak porzucasz nadzieję. Nie jesteś duchem. Żadna z ciebie fantasma.",shape=box,color=red];
-		j1796680384 -> j2636400704;
-	j4086907321 [label="Boolean IsDating is now false.",color=orange];
-		j4086907321 -> j2703113057;
-	j3487216547 [label="Ja... 
+		1663 -> 1664;
+	1670 [label="Więc możesz dać mi sobie pomóc, albo możesz mnie odrzucić. To twoja decyzja.",shape=box,color=red];
+		1670 -> 1669;
+	1685 [label="Ale oni znaleźli sobie nową rodzinę. Powód, żeby wytrwać, żeby dalej żyć.",shape=box,color=red];
+		1685 -> 1688;
+	1683 [label="Więc? To może być twoja rodzina. Twój dom. Jeśli tego zechcesz. Jeśli na to POZWOLISZ.",shape=box,color=red];
+		1683 -> 1688;
+	1684 [label="Macie siebie. Macie *rodzinę*. Macie *przyjaciół*.",shape=box,color=red];
+		1684 -> 1686;
+	1695 [label="Mierda",shape=box,color=blue];
+		1695 -> 1698;
+	1707 [label="Chodzi o to... że zależy mi na tobie, Lettie. Bardzo mi zależy. Bardziej niż na przyjacielu i rozumiem, że nie czujesz się tak wobec mnie ale -",shape=box,color=red];
+		1707 -> 1709;
+	1664 [label="Update boolean LettieDating",color=orange];
+		1664 -> 1665;
+	1669 [label="Mierda",shape=box,color=blue];
+		1669 -> 1671;
+	1688 [label="Mierda",shape=box,color=blue];
+		1688 -> 1692;
+	1686 [label="Nie jesteś sama, tak jak ja - a ta samotność wpędziła mnie w spiralę żalu i obojętności.",shape=box,color=red];
+		1686 -> 1687;
+	1698 [label="+20 Chemistry",color=orange];
+		1698 -> 1699;
+	1709 [label="Nie mogę patrzeć, jak porzucasz nadzieję. Nie jesteś duchem. Żadna z ciebie fantasma.",shape=box,color=red];
+		1709 -> 1710;
+	1665 [label="Update boolean IsDating",color=orange];
+		1665 -> 1666;
+	1671 [label="Ja... 
 Nie wiem, czy lubię, kiedy dostrzegasz moje mentiras 
 Sí... masz rację 
 Czasami zamykam się w sobie i... nie dałam ci szansy",shape=box,color=blue];
-		j3487216547 -> j1189910699;
-	j2208216799 [label="+20 Chemistry",color=orange];
-		j2208216799 -> j103703607;
-	j2535078274 [label="Musisz zadecydować, czy chcesz być sama, czy nie.",shape=box,color=red];
-		j2535078274 -> j1164720400;
-	j716335686 [label="Ja... 
+		1671 -> 1672;
+	1692 [label="+20 Chemistry",color=orange];
+		1692 -> 1689;
+	1687 [label="Musisz zadecydować, czy chcesz być sama, czy nie.",shape=box,color=red];
+		1687 -> 1688;
+	1699 [label="Ja... 
 Nie wiem, czy lubię, kiedy dostrzegasz moje mentiras 
 Sí... masz rację 
 Czasami po prostu mam dość tej walki, rozumiesz? 
 Zapominam, że nie walczę sama",shape=box,color=blue];
-		j716335686 -> j161838140;
-	j2636400704 [label="Jesteś LETTIE i -",shape=box,color=red];
-		j2636400704 -> j3853362036;
-	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
-		j2703113057 -> "Chat ends.";
-	j1189910699 [label="Łatwo jest traktować to jako coś czysto fizycznego 
+		1699 -> 1696;
+	1710 [label="Jesteś LETTIE i -",shape=box,color=red];
+		1710 -> 1708;
+	1666 [label="Update boolean LettieNoDate",color=orange];
+		1666 -> 1667;
+	1672 [label="Łatwo jest traktować to jako coś czysto fizycznego 
 W ten sposób jest bezpieczniej, wiesz? 
 Lo siento, solecito...",shape=box,color=blue];
-		j1189910699 -> j3091912166;
-	j103703607 [label="Ja... 
+		1672 -> 1673;
+	1689 [label="Ja... 
 Nie wiem, czy lubię, kiedy dostrzegasz moje mentiras 
 Sí... masz rację 
 Czasami zamykam się w sobie i zapominam, że nie jestem sama",shape=box,color=blue];
-		j103703607 -> j2762132752;
-	j161838140 [label="W życiu piękne są tylko chwile 
+		1689 -> 1690;
+	1696 [label="W życiu piękne są tylko chwile 
 Chwile spędzone dbając o siebie nawzajem 
 Nie koniec podróży 
 Gracias... en serio",shape=box,color=blue];
-		j161838140 -> j3208138621;
-	j3853362036 [label="Zamknij się",shape=box,color=blue];
-		j3853362036 -> j1081959714;
-	j3091912166 [label="Chcę ci to jakoś wynagrodzić 
+		1696 -> 1697;
+	1708 [label="Zamknij się",shape=box,color=blue];
+		1708 -> 1711;
+	1667 [label="Chat ends.",color=orange];
+	1673 [label="Chcę ci to jakoś wynagrodzić 
 I chyba wiem jak... 
 Jeśli mi pozwolisz, hmm?",shape=box,color=blue];
-		j3091912166 -> j4191802862;
-		j3091912166 -> j3776503937;
-	j2762132752 [label="Muszę pamiętać, że mam tu rodzinę 
+		1673 -> 1674;
+		1673 -> 1675;
+	1690 [label="Muszę pamiętać, że mam tu rodzinę 
 Ludzi, na których mogę polegać, kiedy wiszą nade mną czarne chmury 
 Gracias... en serio",shape=box,color=blue];
-		j2762132752 -> j3419229027;
-	j3208138621 [label="Boolean LettieKindness is now true.",color=orange];
-		j3208138621 -> "Chat ends.";
-	j1081959714 [label="Aguántame tantito",shape=box,color=blue];
-		j1081959714 -> j2215939272;
-		j1081959714 -> j3006834640;
-	j4191802862 [label="Może później. Nie jestem w nastroju.",shape=box,color=red];
-		j4191802862 -> j3194901135;
-	j3776503937 [label="Jak mógłbym odmówić :}",shape=box,color=red];
-		j3776503937 -> j1185532220;
-	j3419229027 [label="Boolean LettieNewFamily is now true.",color=orange];
-		j3419229027 -> "Chat ends.";
-	j2215939272 [label="Przepraszam, jeśli cię zdenerwowałem...",shape=box,color=red];
-		j2215939272 -> j2067924353;
-	j3006834640 [label="Rozumiem, jeśli nie czujesz tego samego.",shape=box,color=red];
-		j3006834640 -> j2067924353;
-	j3194901135 [label="Sí 
+		1690 -> 1691;
+	1697 [label="Update boolean LettieKindness",color=orange];
+		1697 -> 1700;
+	1711 [label="Aguántame tantito",shape=box,color=blue];
+		1711 -> 1712;
+		1711 -> 1713;
+	1674 [label="Może później. Nie jestem w nastroju.",shape=box,color=red];
+		1674 -> 1676;
+	1675 [label="Jak mógłbym odmówić :}",shape=box,color=red];
+		1675 -> 1677;
+	1691 [label="Update boolean LettieNewFamily",color=orange];
+		1691 -> 1693;
+	1700 [label="Chat ends.",color=orange];
+	1712 [label="Przepraszam, jeśli cię zdenerwowałem...",shape=box,color=red];
+		1712 -> 1714;
+	1713 [label="Rozumiem, jeśli nie czujesz tego samego.",shape=box,color=red];
+		1713 -> 1714;
+	1676 [label="Sí 
 Rozumiem",shape=box,color=blue];
-		j3194901135 -> j1933300832;
-	j1185532220 [label="Boolean LettieReal is now true.",color=orange];
-		j1185532220 -> j367054140;
-	j2067924353 [label="¡Neta, ya cállate! 
+		1676 -> 1678;
+	1677 [label="Update boolean LettieReal",color=orange];
+		1677 -> 1679;
+	1693 [label="Chat ends.",color=orange];
+	1714 [label="¡Neta, ya cállate! 
 Potrzebuję chwili, żeby pomyśleć 
 Odetchnąć 
 Nie mogę się z tym uporać, kiedy płaczę",shape=box,color=blue];
-		j2067924353 -> j3167574614;
-	j1933300832 [label="+10 Chemistry",color=orange];
-		j1933300832 -> "Chat ends.";
-	j367054140 [label="+20 Chemistry",color=orange];
-		j367054140 -> "Chat ends.";
-	j3167574614 [label="+20 Chemistry",color=orange];
-		j3167574614 -> j1903421959;
-	j1903421959 [label="Nie radzę sobie z komplementami, solecito 
+		1714 -> 1718;
+	1678 [label="+10 Chemistry",color=orange];
+		1678 -> 1680;
+	1679 [label="+20 Chemistry",color=orange];
+		1679 -> 1681;
+	1718 [label="+20 Chemistry",color=orange];
+		1718 -> 1715;
+	1680 [label="Chat ends.",color=orange];
+	1681 [label="Chat ends.",color=orange];
+	1715 [label="Nie radzę sobie z komplementami, solecito 
 Nigdy sobie nie radziłam 
 Uporamy się z tym jutro 
 Lo siento",shape=box,color=blue];
-		j1903421959 -> j2564553015;
-	j2564553015 [label="Boolean LettieConfession is now true.",color=orange];
-		j2564553015 -> "Chat ends. Next chat will be LettieConfession.";
-	"Chat ends. Next chat will be LettieConfession." [color=orange];
+		1715 -> 1716;
+	1716 [label="Update boolean LettieConfession",color=orange];
+		1716 -> 1717;
+	1717 [label="Chat ends. Next chat will be LettieConfession.",color=orange];
 }

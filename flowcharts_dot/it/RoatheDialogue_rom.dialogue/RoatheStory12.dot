@@ -1,0 +1,29 @@
+digraph {
+	2243 [label="RoatheStory12 begins.",color=orange];
+		2243 -> 5662;
+	5662 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5662 -> 2240 [label=true,color=green];
+		5662 -> 5663 [label=false,color=brown];
+	2240 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2240 -> 2242 [label="x >= 12",color=purple];
+		2240 -> 2241 [label="false",color=purple];
+	5663 [label="Chat ends.",color=orange];
+	2242 [label="MV: FUOCO",shape=box,color=blue];
+		2242 -> 2244;
+	2241 [label="Chat ends.",color=orange];
+	2244 [label="Trascrizione: Mostruosità ed eccessi ci avevano servito egregiamente in passato. Ci si aspettava che li applicassi come tattiche di guerra.",shape=box,color=blue];
+		2244 -> 2239;
+	2239 [label="Come avevamo domato l'Infestazione ai tempi dei nostri antenati? Squarciando il cuore dell'atomo come un bocciolo di rosa, ovviamente!",shape=box,color=blue];
+		2239 -> 2236;
+	2236 [label="Come uno solo, i Sette mi ordinarono di diventare un Diavolo con un tridente di testate, un seminatore con radiazioni dilaganti.",shape=box,color=blue];
+		2236 -> 5704;
+	5704 [label="Fu il giorno in cui scoprimmo che i Sentient non solo erano in grado di annullare la nostra tecnologia, ma anche di prenderne il controllo.",shape=box,color=blue];
+		5704 -> 5705;
+	5705 [label="Lo stormo di piccoli e malvagi droni che avevamo inviato tornò indietro volando allegramente ancora carico di bombe, ridacchiando in sillabe sconosciute, esplodendo in mezzo alle stesse navi madre che li avevano inviati.",shape=box,color=blue];
+		5705 -> 2238;
+	2238 [label="Add 1 to HellStory",color=orange];
+		2238 -> 2339;
+	2339 [label="{\"Id\":2339,\"Incoming\":[2238],\"Outgoing\":[2237],\"GraphPos\":[4376,-7089],\"CompletionType\":1}",color=orange];
+		2339 -> 2237;
+	2237 [label="Chat ends.",color=orange];
+}

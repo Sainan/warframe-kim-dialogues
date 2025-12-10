@@ -1,0 +1,31 @@
+digraph {
+	2289 [label="RoatheStory17 begins.",color=orange];
+		2289 -> 5672;
+	5672 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5672 -> 2288 [label=true,color=green];
+		5672 -> 5673 [label=false,color=brown];
+	2288 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2288 -> 2287 [label="x >= 17",color=purple];
+		2288 -> 2284 [label="false",color=purple];
+	5673 [label="Chat ends.",color=orange];
+	2287 [label="ข้อความเสียง: WARFRAME",shape=box,color=blue];
+		2287 -> 2286;
+	2284 [label="Chat ends.",color=orange];
+	2286 [label="บันทึก: ในตอนแรก Warframe ดูเหมือนจะเป็นงานศิลปะมากกว่าจะเป็นอาวุธที่ถูกต้องตามกฎหมาย",shape=box,color=blue];
+		2286 -> 2285;
+	2285 [label="สงครามที่เกิดขึ้นแทบไม่มีทางเอาชนะ ส่วนพวก Sentient ก็ดูแล้วจะไม่มีทางปราบได้เลย ดังนั้น เราจึงสร้างนักรบประหลาดและเหนือจริงขึ้นมา พร้อมติดอาวุธโบราณให้มัน",shape=box,color=blue];
+		2285 -> 2282;
+	2282 [label="อย่างน้อยความพ่ายแพ้ของเราก็จะงดงาม น่าจดจำ",shape=box,color=blue];
+		2282 -> 2283;
+	2283 [label="แต่สิ่งที่เหนือความคาดหมาย คือ พวกมันกลับเอาชนะได้ จากนั้นไม่นาน เรื่องราวความกล้าหาญที่ไม่น่าเชื่ออย่างน่าเหลือเชื่อก็ถูกถ่ายทอดออกมาจากแนวหน้า",shape=box,color=blue];
+		2283 -> 5715;
+	5715 [label="Warframe ปรากฏตัวขึ้นจากฟากฟ้า ราวกับเทวดา เพื่อปลดปล่อยเชลยศึก และทำลายล้างป้อมปราการของ Sentient แม้อยู่เพียงลำพังก็ยังสร้างปาฏิหาริย์ แต่เมื่ออยู่รวมกันเป็นกลุ่ม มันเหมือนเป็นเทพเจ้าเลย",shape=box,color=blue];
+		5715 -> 5716;
+	5716 [label="จึงไม่น่าแปลกใจนักที่จะมีใครมองว่ามันเป็นเพียงการโฆษณาชวนเชื่อ",shape=box,color=blue];
+		5716 -> 2281;
+	2281 [label="Add 1 to HellStory",color=orange];
+		2281 -> 2344;
+	2344 [label="{\"Id\":2344,\"Incoming\":[2281],\"Outgoing\":[2280],\"GraphPos\":[4697,-4956],\"CompletionType\":1}",color=orange];
+		2344 -> 2280;
+	2280 [label="Chat ends.",color=orange];
+}

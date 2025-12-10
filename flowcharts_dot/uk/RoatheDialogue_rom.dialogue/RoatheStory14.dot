@@ -1,0 +1,29 @@
+digraph {
+	2258 [label="RoatheStory14 begins.",color=orange];
+		2258 -> 5666;
+	5666 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5666 -> 2261 [label=true,color=green];
+		5666 -> 5667 [label=false,color=brown];
+	2261 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2261 -> 2257 [label="x >= 14",color=purple];
+		2261 -> 2260 [label="false",color=purple];
+	5667 [label="Chat ends.",color=orange];
+	2257 [label="ПРИСТОСУВАННЯ",shape=box,color=blue];
+		2257 -> 2259;
+	2260 [label="Chat ends.",color=orange];
+	2259 [label="Витяг: Багато свідомих еволюціонували в сутичках, тому ми не мали впевненості, що зустрінемося з одним і тим самим ворогом двічі. Але інші лишалися в незмінній формі, наче вже давно досягли якоїсь певної точки.",shape=box,color=blue];
+		2259 -> 5709;
+	5709 [label="Досконалі вбивці, вони мали таку ж крижану жаху, що й акула.",shape=box,color=blue];
+		5709 -> 2256;
+	2256 [label="Це було якесь божевілля. Як я можу напарцьовувати стратегії боїв із крабоподібними зорельотами свідомих, якщо одразу після винайдення такої ці судна замінили кротовинні зорельоти?",shape=box,color=blue];
+		2256 -> 2253;
+	2253 [label="І скільки протримаються ці кротовинні зорельоти, перш ніж їх замінить якесь нове жахіття?",shape=box,color=blue];
+		2253 -> 5710;
+	5710 [label="Усе, що нам лишалося — відкотитися назад. Прогрес виявився фатальним. Старі традиції, благословенні часом шляхи честі й дисципліни, вимагали свого.",shape=box,color=blue];
+		5710 -> 2255;
+	2255 [label="Add 1 to HellStory",color=orange];
+		2255 -> 2341;
+	2341 [label="{\"Id\":2341,\"Incoming\":[2255],\"Outgoing\":[2254],\"GraphPos\":[4071,-6212],\"CompletionType\":1}",color=orange];
+		2341 -> 2254;
+	2254 [label="Chat ends.",color=orange];
+}

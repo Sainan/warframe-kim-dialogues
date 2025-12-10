@@ -1,16 +1,21 @@
 digraph {
-	"QuincyBirthdayConvo1 begins." [color=orange];
-		"QuincyBirthdayConvo1 begins." -> j2662110446;
-		"QuincyBirthdayConvo1 begins." -> j2512022109;
-	j2662110446 [label="Buon compleanno, Quincy. Bello come sempre.",shape=box,color=red];
-		j2662110446 -> j3465286625;
-	j2512022109 [label="Buon compleanno! Ti senti già vecchio?",shape=box,color=red];
-		j2512022109 -> j472742608;
-	j3465286625 [label="+20 Chemistry",color=orange];
-		j3465286625 -> j811771315;
-	j472742608 [label="sentì già vecchio?! c'hai er coraggio de parlà, quant'anni c'hai, lo sai almeno?! cojone",shape=box,color=blue];
-		j472742608 -> "Chat ends.";
-	j811771315 [label="ovvio, lol. potrei dì la stessa cosa de te. aspetta un attimo. quanti anni hai?!",shape=box,color=blue];
-		j811771315 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3532 [label="QuincyBirthdayConvo1 begins.",color=orange];
+		3532 -> 3535;
+		3532 -> 3536;
+	3535 [label="Buon compleanno, Quincy. Bello come sempre.",shape=box,color=red];
+		3535 -> 3537;
+	3536 [label="Buon compleanno! Ti senti già vecchio?",shape=box,color=red];
+		3536 -> 3540;
+	3537 [label="+20 Chemistry",color=orange];
+		3537 -> 3538;
+	3540 [label="sentì già vecchio?! c'hai er coraggio de parlà, quant'anni c'hai, lo sai almeno?! cojone",shape=box,color=blue];
+		3540 -> 3239;
+	3538 [label="ovvio, lol. potrei dì la stessa cosa de te. aspetta un attimo. quanti anni hai?!",shape=box,color=blue];
+		3538 -> 3227;
+	3239 [label="{\"Id\":3239,\"Incoming\":[3540],\"Outgoing\":[3541],\"GraphPos\":[1228,-4984],\"CompletionType\":1}",color=orange];
+		3239 -> 3541;
+	3227 [label="{\"Id\":3227,\"Incoming\":[3538],\"Outgoing\":[3539],\"GraphPos\":[1576,-5137],\"CompletionType\":1}",color=orange];
+		3227 -> 3539;
+	3541 [label="Chat ends.",color=orange];
+	3539 [label="Chat ends.",color=orange];
 }

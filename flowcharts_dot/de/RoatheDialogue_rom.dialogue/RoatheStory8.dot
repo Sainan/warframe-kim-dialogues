@@ -1,0 +1,33 @@
+digraph {
+	2201 [label="RoatheStory8 begins.",color=orange];
+		2201 -> 5655;
+	5655 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5655 -> 2196 [label=true,color=green];
+		5655 -> 5654 [label=false,color=brown];
+	2196 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2196 -> 2200 [label="x >= 8",color=purple];
+		2196 -> 2199 [label="false",color=purple];
+	5654 [label="Chat ends.",color=orange];
+	2200 [label="SN: BANNER",shape=box,color=blue];
+		2200 -> 2198;
+	2199 [label="Chat ends.",color=orange];
+	2198 [label="Transkript: Nichts verdeutlicht die Prunksucht, mit der wir Kreaturen das Kriegsgemetzel betrachten, so treffend wie die Bannerträger.",shape=box,color=blue];
+		2198 -> 5694;
+	5694 [label="Jene, die um jeden Preis beschützt und denen bedingungslos gefolgt werden muss.",shape=box,color=blue];
+		5694 -> 5695;
+	5695 [label="Und die, nebenbei bemerkt, gezwungen werden können, Befehle auszuführen, die kein vernünftiger Soldat je befolgen würde, aus Angst, ein noch schrecklicheres Schicksal zu erleiden.",shape=box,color=blue];
+		5695 -> 2203;
+	2203 [label="Lächerlich, wie das auch klingen mag.",shape=box,color=blue];
+		2203 -> 5731;
+	5731 [label="Ihre Gestalten zogen meinen Blick inmitten der anderen immer an, obwohl ihre zerfetzten Körper sich nicht unterschieden.",shape=box,color=blue];
+		5731 -> 2195;
+	2195 [label="Es war stets die Standarte, die sie noch trugen, glänzend im Gold der Orokin besudelt mit gesprenkeltem Purpurrot.",shape=box,color=blue];
+		2195 -> 2204;
+	2204 [label="Ich sorgte stets dafür, dass sie stolz auf dem Schlachtfeld stand, bevor ich es verließ.",shape=box,color=blue];
+		2204 -> 2202;
+	2202 [label="Add 1 to HellStory",color=orange];
+		2202 -> 2335;
+	2335 [label="{\"Id\":2335,\"Incoming\":[2202],\"Outgoing\":[2197],\"GraphPos\":[4863,-8750],\"CompletionType\":1}",color=orange];
+		2335 -> 2197;
+	2197 [label="Chat ends.",color=orange];
+}

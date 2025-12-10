@@ -1,440 +1,444 @@
 digraph {
-	"FlareRank6Convo1 begins." [color=orange];
-		"FlareRank6Convo1 begins." -> j3739350251;
-	j3739350251 [label="Check boolean FlareLizzieApart",color=orange];
-		j3739350251 -> "Chat ends." [label=true,color=green];
-		j3739350251 -> j3461956840 [label=false,color=brown];
-	"Chat ends." [color=orange];
-	j3461956840 [label="Check boolean FlareLizzieTogether",color=orange];
-		j3461956840 -> j3354727953 [label=true,color=green];
-		j3461956840 -> "Chat ends." [label=false,color=brown];
-	j3354727953 [label="惡魔——！！喔喔——惡魔——！！我們有個驚喜給你 :D",shape=box,color=blue];
-		j3354727953 -> j3446539809;
-	j3446539809 [label="抱歉，我本來應該先提醒你的。她今天真的超興奮",shape=box,color=blue];
-		j3446539809 -> j3266087211;
-		j3446539809 -> j3506937250;
-		j3446539809 -> j2766870070;
-	j3266087211 [label="是什麼讓她今天這麼興奮？",shape=box,color=red];
-		j3266087211 -> j494851108;
-	j3506937250 [label="哈哈，沒事啦。我只是很高興看到你們兩個相處得不錯。",shape=box,color=red];
-		j3506937250 -> j3512782584;
-	j2766870070 [label="老實說，這樣挺萌的。:)",shape=box,color=red];
-		j2766870070 -> j4018743085;
-	j494851108 [label="歌已經完成了，或者說，至少歌詞寫完了",shape=box,color=blue];
-		j494851108 -> j1749509640;
-	j3512782584 [label="是啊，還不錯……其實是的很不錯，她算是一個很不錯的搭檔",shape=box,color=blue];
-		j3512782584 -> j116498729;
-	j4018743085 [label="呵，對啊……從那種「吃人怪物」式的風格來說，確實挺可愛的",shape=box,color=blue];
-		j4018743085 -> j2337639552;
-	j1749509640 [label="想聽聽嗎？",shape=box,color=blue];
-		j1749509640 -> j1362138794;
-		j1749509640 -> j2398392234;
-	j116498729 [label="只要她不是在勸我去吃掉那些奇奇怪怪的電腦零件時",shape=box,color=blue];
-		j116498729 -> j804635573;
-	j2337639552 [label="你昨天晚上可不是這麼說的哦……<RETRO_EMOJI_SNEAKY>",shape=box,color=blue];
-		j2337639552 -> j804635573;
-	j1362138794 [label="我超想聽！",shape=box,color=red];
-		j1362138794 -> j3989061783;
-	j2398392234 [label="我對詩真的沒什麼興趣，抱歉。還是等它譜上旋律再說吧。",shape=box,color=red];
-		j2398392234 -> j1773934733;
-	j804635573 [label="*怎樣也好*，先回到正題",shape=box,color=blue];
-		j804635573 -> j494851108;
-	j3989061783 [label="開始了",shape=box,color=blue];
-		j3989061783 -> j11490693;
-	j1773934733 [label="好的",shape=box,color=blue];
-		j1773934733 -> j2238854555;
-	j11490693 [label="Check boolean FlareSol",color=orange];
-		j11490693 -> j1229185918 [label=true,color=green];
-		j11490693 -> j3311874374 [label=false,color=brown];
-	j2238854555 [label="……這惡魔真讓我們失望啊……",shape=box,color=blue];
-		j2238854555 -> "Chat ends.";
-	j1229185918 [label="Check boolean FlarePainStranger",color=orange];
-		j1229185918 -> j2704896500 [label=true,color=green];
-		j1229185918 -> j159267307 [label=false,color=brown];
-	j3311874374 [label="Check boolean FlareLua",color=orange];
-		j3311874374 -> j3547038517 [label=true,color=green];
-		j3311874374 -> j3547038517 [label=false,color=brown];
-	j2704896500 [label="綿綿低語，聲聲若咒
+	2420 [label="FlareRank6Convo1 begins.",color=orange];
+		2420 -> 2421;
+	2421 [label="Check boolean FlareLizzieApart",color=orange];
+		2421 -> 2423 [label=true,color=green];
+		2421 -> 2422 [label=false,color=brown];
+	2423 [label="Chat ends.",color=orange];
+	2422 [label="Check boolean FlareLizzieTogether",color=orange];
+		2422 -> 2424 [label=true,color=green];
+		2422 -> 2425 [label=false,color=brown];
+	2424 [label="惡魔——！！喔喔——惡魔——！！我們有個驚喜給你 :D",shape=box,color=blue];
+		2424 -> 2426;
+	2425 [label="Chat ends.",color=orange];
+	2426 [label="抱歉，我本來應該先提醒你的。她今天真的超興奮",shape=box,color=blue];
+		2426 -> 2427;
+		2426 -> 2428;
+		2426 -> 2429;
+	2427 [label="是什麼讓她今天這麼興奮？",shape=box,color=red];
+		2427 -> 2430;
+	2428 [label="哈哈，沒事啦。我只是很高興看到你們兩個相處得不錯。",shape=box,color=red];
+		2428 -> 2431;
+	2429 [label="老實說，這樣挺萌的。:)",shape=box,color=red];
+		2429 -> 2432;
+	2430 [label="歌已經完成了，或者說，至少歌詞寫完了",shape=box,color=blue];
+		2430 -> 2433;
+	2431 [label="是啊，還不錯……其實是的很不錯，她算是一個很不錯的搭檔",shape=box,color=blue];
+		2431 -> 2434;
+	2432 [label="呵，對啊……從那種「吃人怪物」式的風格來說，確實挺可愛的",shape=box,color=blue];
+		2432 -> 2435;
+	2433 [label="想聽聽嗎？",shape=box,color=blue];
+		2433 -> 2436;
+		2433 -> 2437;
+	2434 [label="只要她不是在勸我去吃掉那些奇奇怪怪的電腦零件時",shape=box,color=blue];
+		2434 -> 2438;
+	2435 [label="你昨天晚上可不是這麼說的哦……<RETRO_EMOJI_SNEAKY>",shape=box,color=blue];
+		2435 -> 2438;
+	2436 [label="我超想聽！",shape=box,color=red];
+		2436 -> 2439;
+	2437 [label="我對詩真的沒什麼興趣，抱歉。還是等它譜上旋律再說吧。",shape=box,color=red];
+		2437 -> 2440;
+	2438 [label="*怎樣也好*，先回到正題",shape=box,color=blue];
+		2438 -> 2430;
+	2439 [label="開始了",shape=box,color=blue];
+		2439 -> 2441;
+	2440 [label="好的",shape=box,color=blue];
+		2440 -> 2442;
+	2441 [label="Check boolean FlareSol",color=orange];
+		2441 -> 2443 [label=true,color=green];
+		2441 -> 2444 [label=false,color=brown];
+	2442 [label="……這惡魔真讓我們失望啊……",shape=box,color=blue];
+		2442 -> 2445;
+	2443 [label="Check boolean FlarePainStranger",color=orange];
+		2443 -> 2446 [label=true,color=green];
+		2443 -> 2447 [label=false,color=brown];
+	2444 [label="Check boolean FlareLua",color=orange];
+		2444 -> 2448 [label=true,color=green];
+		2444 -> 2448 [label=false,color=brown];
+	2445 [label="Chat ends.",color=orange];
+	2446 [label="綿綿低語，聲聲若咒
 金鑲指尖將我壓進泥溝
 火焰之吻，血脈燒透流竄
 朝朝晨曦，茫忘我名",shape=box,color=blue];
-		j2704896500 -> j904886397;
-	j159267307 [label="Check boolean FlarePainChronic",color=orange];
-		j159267307 -> j3038538272 [label=true,color=green];
-		j159267307 -> j1886570010 [label=false,color=brown];
-	j3547038517 [label="Check boolean FlarePainStranger",color=orange];
-		j3547038517 -> j1013072163 [label=true,color=green];
-		j3547038517 -> j4001662270 [label=false,color=brown];
-	j904886397 [label="Check boolean FlareStoryVillain",color=orange];
-		j904886397 -> j1041004383 [label=true,color=green];
-		j904886397 -> j1870422903 [label=false,color=brown];
-	j3038538272 [label="於驚恐中醒來，被芒塵所掩蓋
+		2446 -> 2449;
+	2447 [label="Check boolean FlarePainChronic",color=orange];
+		2447 -> 2450 [label=true,color=green];
+		2447 -> 2451 [label=false,color=brown];
+	2448 [label="Check boolean FlarePainStranger",color=orange];
+		2448 -> 2452 [label=true,color=green];
+		2448 -> 2453 [label=false,color=brown];
+	2449 [label="Check boolean FlareStoryVillain",color=orange];
+		2449 -> 2454 [label=true,color=green];
+		2449 -> 2455 [label=false,color=brown];
+	2450 [label="於驚恐中醒來，被芒塵所掩蓋
 金輝烈光如白刃深裁
 朝朝晨曦忘痛痛之形
 或心死若潰兵，或雨風仍逆迎",shape=box,color=blue];
-		j3038538272 -> j904886397;
-	j1886570010 [label="Check boolean FlarePainUnique",color=orange];
-		j1886570010 -> j2120216899 [label=true,color=green];
-		j1886570010 -> j857119930 [label=false,color=brown];
-	j1013072163 [label="綿綿低語，聲聲若咒
+		2450 -> 2449;
+	2451 [label="Check boolean FlarePainUnique",color=orange];
+		2451 -> 2456 [label=true,color=green];
+		2451 -> 2457 [label=false,color=brown];
+	2452 [label="綿綿低語，聲聲若咒
 銀鑲指尖將我壓進泥溝
 寒冰一吻，血脈燒透流竄
 夢魘夜夜，茫忘我名",shape=box,color=blue];
-		j1013072163 -> j1908806570;
-	j4001662270 [label="Check boolean FlarePainChronic",color=orange];
-		j4001662270 -> j3528763904 [label=true,color=green];
-		j4001662270 -> j3675329191 [label=false,color=brown];
-	j1041004383 [label="詛咒我名，今朝化身厲鬼
+		2452 -> 2458;
+	2453 [label="Check boolean FlarePainChronic",color=orange];
+		2453 -> 2459 [label=true,color=green];
+		2453 -> 2460 [label=false,color=brown];
+	2454 [label="詛咒我名，今朝化身厲鬼
 是以魔名崛起，抑或隨風而逝？",shape=box,color=blue];
-		j1041004383 -> j3428908214;
-	j1870422903 [label="Check boolean FlareStoryHero",color=orange];
-		j1870422903 -> j3363289135 [label=true,color=green];
-		j1870422903 -> j1877297320 [label=false,color=brown];
-	j2120216899 [label="於烈焰中醒來，被曙光所灼災
+		2454 -> 2461;
+	2455 [label="Check boolean FlareStoryHero",color=orange];
+		2455 -> 2462 [label=true,color=green];
+		2455 -> 2463 [label=false,color=brown];
+	2456 [label="於烈焰中醒來，被曙光所灼災
 金光深裁，但我拳在人在
 一息一戰，一步一役
 然你呼喚我名，而我欲求更多",shape=box,color=blue];
-		j2120216899 -> j904886397;
-	j857119930 [label="Check boolean FlarePainEmpathy",color=orange];
-		j857119930 -> j3254306282 [label=true,color=green];
-		j857119930 -> j1355364590 [label=false,color=brown];
-	j1908806570 [label="Check boolean FlareStoryVillain",color=orange];
-		j1908806570 -> j1519069360 [label=true,color=green];
-		j1908806570 -> j4192447210 [label=false,color=brown];
-	j3528763904 [label="於驚恐中醒來，被芒塵所掩蓋
+		2456 -> 2449;
+	2457 [label="Check boolean FlarePainEmpathy",color=orange];
+		2457 -> 2465 [label=true,color=green];
+		2457 -> 2464 [label=false,color=brown];
+	2458 [label="Check boolean FlareStoryVillain",color=orange];
+		2458 -> 2466 [label=true,color=green];
+		2458 -> 2467 [label=false,color=brown];
+	2459 [label="於驚恐中醒來，被芒塵所掩蓋
 銀輝烈光如白刃深裁
 夢魘夜夜而痛痛忘形
 或雨風仍逆迎，或心死若潰兵",shape=box,color=blue];
-		j3528763904 -> j1908806570;
-	j3675329191 [label="Check boolean FlarePainUnique",color=orange];
-		j3675329191 -> j3135851602 [label=true,color=green];
-		j3675329191 -> j2637123773 [label=false,color=brown];
-	j3428908214 [label="Check boolean FlarePainStranger",color=orange];
-		j3428908214 -> j1497851132 [label=true,color=green];
-		j3428908214 -> j3908336105 [label=false,color=brown];
-	j3363289135 [label="禱以我名，今朝我為聖者
+		2459 -> 2458;
+	2460 [label="Check boolean FlarePainUnique",color=orange];
+		2460 -> 2468 [label=true,color=green];
+		2460 -> 2469 [label=false,color=brown];
+	2461 [label="Check boolean FlarePainStranger",color=orange];
+		2461 -> 2470 [label=true,color=green];
+		2461 -> 2471 [label=false,color=brown];
+	2462 [label="禱以我名，今朝我為聖者
 以英雄之名崛起，抑或隨風而逝？",shape=box,color=blue];
-		j3363289135 -> j3428908214;
-	j1877297320 [label="Check boolean FlareStoryNone",color=orange];
-		j1877297320 -> j2642907937 [label=true,color=green];
-		j1877297320 -> j2642907937 [label=false,color=brown];
-	j3254306282 [label="我見你眼中火焰
+		2462 -> 2461;
+	2463 [label="Check boolean FlareStoryNone",color=orange];
+		2463 -> 2472 [label=true,color=green];
+		2463 -> 2472 [label=false,color=brown];
+	2465 [label="我見你眼中火焰
 日尊囚禁而淹沒於白日藍天
 你笑如罪，卻隱隱帶痛
 一觸，一息——你能忍耐何時？",shape=box,color=blue];
-		j3254306282 -> j904886397;
-	j1355364590 [label="猶見日尊碎裂無垠
+		2465 -> 2449;
+	2464 [label="猶見日尊碎裂無垠
 如甜蜜灑落，黃金內藏
 百萬聲音語輕酣甜
 穿越空廳，纏繞夢境",shape=box,color=blue];
-		j1355364590 -> j904886397;
-	j1519069360 [label="詛咒我名，今朝化身厲鬼
+		2464 -> 2449;
+	2466 [label="詛咒我名，今朝化身厲鬼
 是以魔名崛起，抑或隨風而逝？",shape=box,color=blue];
-		j1519069360 -> j2321641489;
-	j4192447210 [label="Check boolean FlareStoryHero",color=orange];
-		j4192447210 -> j297291135 [label=true,color=green];
-		j4192447210 -> j2106164143 [label=false,color=brown];
-	j3135851602 [label="於烈焰中醒來，被晚霞所灼災
+		2466 -> 2473;
+	2467 [label="Check boolean FlareStoryHero",color=orange];
+		2467 -> 2474 [label=true,color=green];
+		2467 -> 2475 [label=false,color=brown];
+	2468 [label="於烈焰中醒來，被晚霞所灼災
 銀光深裁，我命無解
 一息一戰，一步一役
 然你呼喚我名，而我欲求更多",shape=box,color=blue];
-		j3135851602 -> j1908806570;
-	j2637123773 [label="Check boolean FlarePainEmpathy",color=orange];
-		j2637123773 -> j1550902051 [label=true,color=green];
-		j2637123773 -> j1126152968 [label=false,color=brown];
-	j1497851132 [label="我在虛空中舞動，我在你火焰中迷失
+		2468 -> 2458;
+	2469 [label="Check boolean FlarePainEmpathy",color=orange];
+		2469 -> 2477 [label=true,color=green];
+		2469 -> 2476 [label=false,color=brown];
+	2470 [label="我在虛空中舞動，我在你火焰中迷失
 每一個清晨，我以新名字重生
 你是我的救贖，還是宣讀我的遺囑
 高舉日尊，卻在大海中淹沒無蹤
 哦，愛我或棄我，唯獨別讓我自由",shape=box,color=blue];
-		j1497851132 -> j1883539819;
-	j3908336105 [label="Check boolean FlarePainChronic",color=orange];
-		j3908336105 -> j3175133838 [label=true,color=green];
-		j3908336105 -> j1108137744 [label=false,color=brown];
-	j2642907937 [label="哦，今天我是罪人還是聖人？
+		2470 -> 2478;
+	2471 [label="Check boolean FlarePainChronic",color=orange];
+		2471 -> 2479 [label=true,color=green];
+		2471 -> 2480 [label=false,color=brown];
+	2472 [label="哦，今天我是罪人還是聖人？
 我會黯然消逝或如鳳凰重生？",shape=box,color=blue];
-		j2642907937 -> j3428908214;
-	j2321641489 [label="Check boolean FlarePainStranger",color=orange];
-		j2321641489 -> j2547123403 [label=true,color=green];
-		j2321641489 -> j3900974630 [label=false,color=brown];
-	j297291135 [label="禱以我名，今朝我為聖者
+		2472 -> 2461;
+	2473 [label="Check boolean FlarePainStranger",color=orange];
+		2473 -> 2481 [label=true,color=green];
+		2473 -> 2482 [label=false,color=brown];
+	2474 [label="禱以我名，今朝我為聖者
 以英雄之名崛起，抑或隨風而逝？",shape=box,color=blue];
-		j297291135 -> j2321641489;
-	j2106164143 [label="Check boolean FlareStoryNone",color=orange];
-		j2106164143 -> j2797255431 [label=true,color=green];
-		j2106164143 -> j2797255431 [label=false,color=brown];
-	j1550902051 [label="我見你眼中冰寒
+		2474 -> 2473;
+	2475 [label="Check boolean FlareStoryNone",color=orange];
+		2475 -> 2483 [label=true,color=green];
+		2475 -> 2483 [label=false,color=brown];
+	2477 [label="我見你眼中冰寒
 月尊囚禁而淹沒於午夜黑幕
 你笑如罪，卻隱隱帶痛
 一觸，一息——你能忍耐何時？",shape=box,color=blue];
-		j1550902051 -> j1908806570;
-	j1126152968 [label="猶見日尊碎裂無垠
+		2477 -> 2458;
+	2476 [label="猶見日尊碎裂無垠
 如白糖灑落，銀光內藏
 百萬聲音語輕酣甜
 穿越空廳，纏繞夢境",shape=box,color=blue];
-		j1126152968 -> j1908806570;
-	j1883539819 [label="飢餓的翅膀在晨曦中展開
+		2476 -> 2458;
+	2478 [label="飢餓的翅膀在晨曦中展開
 你在我肌膚上用爪痕刻下命運
 一息而神——再息隕落
 不知我為萬象，或終為無物",shape=box,color=blue];
-		j1883539819 -> j2729667313;
-	j3175133838 [label="你味道如火，你歌聲如罪
+		2478 -> 2484;
+	2479 [label="你味道如火，你歌聲如罪
 你拉我靠近，你將我吞噬
 愛我棄我，終亦傷我
 晨曦即戰曲，然與你，我或留下",shape=box,color=blue];
-		j3175133838 -> j1102171372;
-	j1108137744 [label="Check boolean FlarePainUnique",color=orange];
-		j1108137744 -> j982486730 [label=true,color=green];
-		j1108137744 -> j812880635 [label=false,color=brown];
-	j2547123403 [label="我在虛空中舞動，我被你枷鎖捆綁
+		2479 -> 2485;
+	2480 [label="Check boolean FlarePainUnique",color=orange];
+		2480 -> 2486 [label=true,color=green];
+		2480 -> 2487 [label=false,color=brown];
+	2481 [label="我在虛空中舞動，我被你枷鎖捆綁
 每一場夢魘，我失去每一個名字
 你是我的救贖，或宣判我的終結？
 你高舉月尊，卻淹沒於大海之中
 哦，愛我或棄我，唯獨別讓我自由",shape=box,color=blue];
-		j2547123403 -> j1997043136;
-	j3900974630 [label="Check boolean FlarePainChronic",color=orange];
-		j3900974630 -> j1400960699 [label=true,color=green];
-		j3900974630 -> j3492093567 [label=false,color=brown];
-	j2797255431 [label="哦，今天我是罪人還是聖人？
+		2481 -> 2488;
+	2482 [label="Check boolean FlarePainChronic",color=orange];
+		2482 -> 2489 [label=true,color=green];
+		2482 -> 2490 [label=false,color=brown];
+	2483 [label="哦，今天我是罪人還是聖人？
 我會黯然消逝或如鳳凰重生？",shape=box,color=blue];
-		j2797255431 -> j2321641489;
-	j2729667313 [label="Check boolean FlareStoryVillain",color=orange];
-		j2729667313 -> j108573397 [label=true,color=green];
-		j2729667313 -> j3710448588 [label=false,color=brown];
-	j1102171372 [label="你觸碰如毒，你吻似神恩
+		2483 -> 2473;
+	2484 [label="Check boolean FlareStoryVillain",color=orange];
+		2484 -> 2491 [label=true,color=green];
+		2484 -> 2492 [label=false,color=brown];
+	2485 [label="你觸碰如毒，你吻似神恩
 惡魔之手，改寫我脊背的命運
 我時而在日光匍匐，我時而在日光翱翔
 我無法觸及晴空，你說你會緊擁",shape=box,color=blue];
-		j1102171372 -> j2729667313;
-	j982486730 [label="你的雙手輕描，秘密藏於肌間
+		2485 -> 2484;
+	2486 [label="你的雙手輕描，秘密藏於肌間
 在舊傷的痕跡上刻下你不變的誓言
 我時而在日光屹立，我時而在日光匍匐
 但你讓我覺得，我擁有整個世界",shape=box,color=blue];
-		j982486730 -> j4199782307;
-	j812880635 [label="Check boolean FlarePainEmpathy",color=orange];
-		j812880635 -> j2658153808 [label=true,color=green];
-		j812880635 -> j1788056809 [label=false,color=brown];
-	j1997043136 [label="飢餓的翅膀在影空中展開
+		2486 -> 2493;
+	2487 [label="Check boolean FlarePainEmpathy",color=orange];
+		2487 -> 2495 [label=true,color=green];
+		2487 -> 2494 [label=false,color=brown];
+	2488 [label="飢餓的翅膀在影空中展開
 你在我肌膚上用咬痕刻下命運
 一息而神——再息隕落
 不知我為萬象，或終為無物",shape=box,color=blue];
-		j1997043136 -> j1941418009;
-	j1400960699 [label="我在燃燒，我在破碎，我在你的眼眸迷失
+		2488 -> 2496;
+	2489 [label="我在燃燒，我在破碎，我在你的眼眸迷失
 你是虛空，垂死的月尊在其隱匿
 愛我棄我，終亦傷我
 夜幕即戰曲，然與你，我或留下",shape=box,color=blue];
-		j1400960699 -> j4215321185;
-	j3492093567 [label="Check boolean FlarePainUnique",color=orange];
-		j3492093567 -> j2845817350 [label=true,color=green];
-		j3492093567 -> j3828935203 [label=false,color=brown];
-	j108573397 [label="今天我是惡人，我是該受罰的人
+		2489 -> 2497;
+	2490 [label="Check boolean FlarePainUnique",color=orange];
+		2490 -> 2498 [label=true,color=green];
+		2490 -> 2499 [label=false,color=brown];
+	2491 [label="今天我是惡人，我是該受罰的人
 我該追尋光明，還是該羞恥沉淪？",shape=box,color=blue];
-		j108573397 -> j1595684144;
-	j3710448588 [label="Check boolean FlareStoryHero",color=orange];
-		j3710448588 -> j3204269121 [label=true,color=green];
-		j3710448588 -> j828767743 [label=false,color=brown];
-	j4199782307 [label="我親吻虛無，我嘗盡光輝
+		2491 -> 2500;
+	2492 [label="Check boolean FlareStoryHero",color=orange];
+		2492 -> 2501 [label=true,color=green];
+		2492 -> 2502 [label=false,color=brown];
+	2493 [label="我親吻虛無，我嘗盡光輝
 你將我拉近，我便心安如歸
 日尊如金冠戴於我頂
 但你的觸碰已腐朽，生長黴斑",shape=box,color=blue];
-		j4199782307 -> j2729667313;
-	j2658153808 [label="你觸碰如雷電，你輕吻如暴風
+		2493 -> 2484;
+	2495 [label="你觸碰如雷電，你輕吻如暴風
 你內心在尖叫，你掙扎圖溫暖
 我看見你皮膚下的裂痕
 那場永無勝算的奮戰",shape=box,color=blue];
-		j2658153808 -> j3035778480;
-	j1788056809 [label="你味道如火，你歌聲如罪
+		2495 -> 2504;
+	2494 [label="你味道如火，你歌聲如罪
 你拉我靠近，你將我吞噬
 愛我或棄我，唯獨別讓我自由
 我寧願屬於你，忘卻我自己",shape=box,color=blue];
-		j1788056809 -> j3320215945;
-	j1941418009 [label="Check boolean FlareStoryVillain",color=orange];
-		j1941418009 -> j224090484 [label=true,color=green];
-		j1941418009 -> j1934034599 [label=false,color=brown];
-	j4215321185 [label="你觸碰如毒，你吻似神恩
+		2494 -> 2503;
+	2496 [label="Check boolean FlareStoryVillain",color=orange];
+		2496 -> 2505 [label=true,color=green];
+		2496 -> 2506 [label=false,color=brown];
+	2497 [label="你觸碰如毒，你吻似神恩
 惡魔之手，改寫我脊背的命運
 我時而在晚色匍匐，我時而在晚色翱翔
 我無法觸及星空，你說你會緊擁",shape=box,color=blue];
-		j4215321185 -> j1941418009;
-	j2845817350 [label="你的雙手輕描，秘密藏於肌間
+		2497 -> 2496;
+	2498 [label="你的雙手輕描，秘密藏於肌間
 在舊傷的痕跡上刻下你暗黑的誓言
 我時而在晚色屹立，我時而在晚色匍匐
 但你讓我覺得，我擁有整個世界",shape=box,color=blue];
-		j2845817350 -> j1466459340;
-	j3828935203 [label="Check boolean FlarePainEmpathy",color=orange];
-		j3828935203 -> j2944284896 [label=true,color=green];
-		j3828935203 -> j1767701059 [label=false,color=brown];
-	j1595684144 [label="金光環繞，蛇形笑臉
+		2498 -> 2507;
+	2499 [label="Check boolean FlarePainEmpathy",color=orange];
+		2499 -> 2509 [label=true,color=green];
+		2499 -> 2508 [label=false,color=brown];
+	2500 [label="金光環繞，蛇形笑臉
 每一首情歌，終回到每一個起點
 我會崛起嗎？我會墮落嗎？
 我會崛起嗎？我會墮落嗎？",shape=box,color=blue];
-		j1595684144 -> j2771468177;
-	j3204269121 [label="今天我是英雄，再非那受罰的人
+		2500 -> 2510;
+	2501 [label="今天我是英雄，再非那受罰的人
 我該抓緊光明，還是迷失於火焰？",shape=box,color=blue];
-		j3204269121 -> j1595684144;
-	j828767743 [label="Check boolean FlareStoryNone",color=orange];
-		j828767743 -> j1860361787 [label=true,color=green];
-		j828767743 -> j1860361787 [label=false,color=brown];
-	j3035778480 [label="心如日尊，卻活於虛無
+		2501 -> 2500;
+	2502 [label="Check boolean FlareStoryNone",color=orange];
+		2502 -> 2511 [label=true,color=green];
+		2502 -> 2511 [label=false,color=brown];
+	2504 [label="心如日尊，卻活於虛無
 照亮天空，卻命定摧殘
 我感受你的烈焰，我懂得你的痛苦
 我與你同燃，流淌相同的血",shape=box,color=blue];
-		j3035778480 -> j2729667313;
-	j3320215945 [label="我感受到你在我肌膚下蠕動
+		2504 -> 2484;
+	2503 [label="我感受到你在我肌膚下蠕動
 千雙手掌，一把聲音
 哦，我是守護者，還是犧牲品？
 我是你的病痛還是樂土？",shape=box,color=blue];
-		j3320215945 -> j2729667313;
-	j224090484 [label="今天我是惡人，我是該受罰的人
+		2503 -> 2484;
+	2505 [label="今天我是惡人，我是該受罰的人
 我該追趕星辰，還是該羞恥沉淪？",shape=box,color=blue];
-		j224090484 -> j3250385603;
-	j1934034599 [label="Check boolean FlareStoryHero",color=orange];
-		j1934034599 -> j536252157 [label=true,color=green];
-		j1934034599 -> j406023769 [label=false,color=brown];
-	j1466459340 [label="我親吻虛無，我嘗盡黑夜
+		2505 -> 2512;
+	2506 [label="Check boolean FlareStoryHero",color=orange];
+		2506 -> 2513 [label=true,color=green];
+		2506 -> 2514 [label=false,color=brown];
+	2507 [label="我親吻虛無，我嘗盡黑夜
 你將我拉近，我便心安如歸
 月尊如古老冠冕
 但你的觸碰如冰，死寂且寒冷",shape=box,color=blue];
-		j1466459340 -> j1941418009;
-	j2944284896 [label="你觸碰如混沌，卻讓我完整
+		2507 -> 2496;
+	2509 [label="你觸碰如混沌，卻讓我完整
 罪人的祈禱刻入我骨髓
 每道傷痕，我皆共擁
 每聲尖叫，我皆傾聽",shape=box,color=blue];
-		j2944284896 -> j2010904680;
-	j1767701059 [label="你味道如冰，你歌聲如罪
+		2509 -> 2516;
+	2508 [label="你味道如冰，你歌聲如罪
 你拉我靠近，你將我吞噬
 愛我或棄我，唯獨別讓我自由
 我寧願屬於你，忘卻我自己",shape=box,color=blue];
-		j1767701059 -> j2064068688;
-	j2771468177 [label="————",shape=box,color=blue];
-		j2771468177 -> j528443238;
-	j1860361787 [label="哦，我是英雄，還是該受責備？
+		2508 -> 2515;
+	2510 [label="————",shape=box,color=blue];
+		2510 -> 2517;
+	2511 [label="哦，我是英雄，還是該受責備？
 該追逐光明，還是迷失於火焰中？",shape=box,color=blue];
-		j1860361787 -> j1595684144;
-	j3250385603 [label="銀光環繞，蛇形笑臉
+		2511 -> 2500;
+	2512 [label="銀光環繞，蛇形笑臉
 每一首情歌，終回到每一個起點
 我會崛起嗎？我會墮落嗎？
 我會崛起嗎？我會墮落嗎？",shape=box,color=blue];
-		j3250385603 -> j2771468177;
-	j536252157 [label="今天我為英雄，此感於心
+		2512 -> 2510;
+	2513 [label="今天我為英雄，此感於心
 或一切皆謊言，填補淵深",shape=box,color=blue];
-		j536252157 -> j3250385603;
-	j406023769 [label="Check boolean FlareStoryNone",color=orange];
-		j406023769 -> j537610878 [label=true,color=green];
-		j406023769 -> j537610878 [label=false,color=brown];
-	j2010904680 [label="心如月尊，卻活於虛無
+		2513 -> 2512;
+	2514 [label="Check boolean FlareStoryNone",color=orange];
+		2514 -> 2518 [label=true,color=green];
+		2514 -> 2518 [label=false,color=brown];
+	2516 [label="心如月尊，卻活於虛無
 照亮天空，卻命定摧殘
 我感受你的寒骨，我懂得你的痛苦
 我與你同燃，流淌相同的血",shape=box,color=blue];
-		j2010904680 -> j1941418009;
-	j2064068688 [label="我感受到你在我肌膚下蠕動
+		2516 -> 2496;
+	2515 [label="我感受到你在我肌膚下蠕動
 千雙手掌，一把聲音
 哦，我是守護者，還是犧牲品？
 我是你的病痛還是樂土？",shape=box,color=blue];
-		j2064068688 -> j1941418009;
-	j528443238 [label="那麼？你覺得怎樣？還差個標題和旋律，就像我之前提過的，不過——",shape=box,color=blue];
-		j528443238 -> j3236729584;
-	j537610878 [label="哦，我是英雄，還是該受責備？
+		2515 -> 2496;
+	2517 [label="那麼？你覺得怎樣？還差個標題和旋律，就像我之前提過的，不過——",shape=box,color=blue];
+		2517 -> 2519;
+	2518 [label="哦，我是英雄，還是該受責備？
 該追逐星辰，還是迷失於恥辱？",shape=box,color=blue];
-		j537610878 -> j3250385603;
-	j3236729584 [label="那麼，你覺得如何？這位惡魔會為我們感到驕傲嗎？<RETRO_EMOJI_CAT>",shape=box,color=blue];
-		j3236729584 -> j2953500374;
-		j3236729584 -> j1536193529;
-		j3236729584 -> j3873444698;
-	j2953500374 [label="這雖然不是線上男孩，但嘿，怎麼樣？ ;)",shape=box,color=red];
-		j2953500374 -> j3740768073;
-	j1536193529 [label="天啊，這也太厲害了吧！我超愛！！",shape=box,color=red];
-		j1536193529 -> j1784561217;
-	j3873444698 [label="這也太酷了吧！",shape=box,color=red];
-		j3873444698 -> j1784561217;
-	j3740768073 [label="是是是，真搞笑",shape=box,color=blue];
-		j3740768073 -> j558961304;
-		j3740768073 -> j3802268691;
-	j1784561217 [label="她又在發出咕嚕聲了，我得想辦法把這加進音樂裡",shape=box,color=blue];
-		j1784561217 -> j558961304;
-		j1784561217 -> j3802268691;
-	j558961304 [label="那麼，下一步是什麼？",shape=box,color=red];
-		j558961304 -> j584702633;
-	j3802268691 [label="你什麼時候會開始作曲？",shape=box,color=red];
-		j3802268691 -> j584702633;
-	j584702633 [label="其實我們覺得你或許可以幫我們這個忙",shape=box,color=blue];
-		j584702633 -> j3882418945;
-	j3882418945 [label="Check boolean FlareInstrumentNo",color=orange];
-		j3882418945 -> j1137594209 [label=true,color=green];
-		j3882418945 -> j4012652908 [label=false,color=brown];
-	j1137594209 [label="我記得你說過，你不會樂器",shape=box,color=blue];
-		j1137594209 -> j3868854872;
-	j4012652908 [label="Check boolean FlareInstrumentYes",color=orange];
-		j4012652908 -> j1185392654 [label=true,color=green];
-		j4012652908 -> j2085529574 [label=false,color=brown];
-	j3868854872 [label="我們已經準備好教這位惡魔彈奏了……能讓這位惡魔雙手觸碰我們，實在讓我們興奮不已…… ;)",shape=box,color=blue];
-		j3868854872 -> j708852238;
-	j1185392654 [label="你說過你會彈「三線琴」，那種有點像吉他的樂器",shape=box,color=blue];
-		j1185392654 -> j1794621515;
-	j2085529574 [label="Check boolean FlareInstrumentTry",color=orange];
-		j2085529574 -> j1182817806 [label=true,color=green];
-		j2085529574 -> j3587510599 [label=false,color=brown];
-	j708852238 [label="我……哦，天啊，我居然吃醋了。沒想到啊",shape=box,color=blue];
-		j708852238 -> j977681223;
-	j1794621515 [label="莉慈和我想問問你願不願意幫忙作曲",shape=box,color=blue];
-		j1794621515 -> j3650002394;
-	j1182817806 [label="你說過你算是懂彈「三線琴」的，就是那種有點像吉他的樂器",shape=box,color=blue];
-		j1182817806 -> j1794621515;
-	j3587510599 [label="我很好奇，你會彈吉他嗎？",shape=box,color=blue];
-		j3587510599 -> j3445789200;
-		j3587510599 -> j455975967;
-		j3587510599 -> j332861124;
-	j977681223 [label="我不確定我喜不喜歡這種感覺",shape=box,color=blue];
-		j977681223 -> j1826750800;
-	j3650002394 [label="別急，慢慢來，你可以按自己的節奏來",shape=box,color=blue];
-		j3650002394 -> j4187881327;
-	j3445789200 [label="嗯……我不太會稱之為玩。我有玩過，但技術不怎麼樣。那玩意叫做三線琴。",shape=box,color=red];
-		j3445789200 -> j1794621515;
-	j455975967 [label="我有，它叫三線琴。",shape=box,color=red];
-		j455975967 -> j1794621515;
-	j332861124 [label="老實說，沒有。",shape=box,color=red];
-		j332861124 -> j4035166763;
-	j1826750800 [label="*總之*之後再慢慢研究它吧",shape=box,color=blue];
-		j1826750800 -> j1794621515;
-	j4187881327 [label="她會在旁邊幫你",shape=box,color=blue];
-		j4187881327 -> j2183658591;
-		j4187881327 -> j2280296732;
-	j4035166763 [label="我們可以教這個惡魔如何彈奏……只要想到這個惡魔的雙手即將接觸我們的身體，就讓我們興奮不已…… ;)",shape=box,color=blue];
-		j4035166763 -> j708852238;
-	j2183658591 [label="你——你是說讓我玩莉慈？",shape=box,color=red];
-		j2183658591 -> j3549504683;
-	j2280296732 [label="但是你不是需要她嗎？",shape=box,color=red];
-		j2280296732 -> j278166768;
-	j3549504683 [label="你——想——跟——我們——玩——嗎，親愛的惡魔？",shape=box,color=blue];
-		j3549504683 -> j609691250;
-		j3549504683 -> j4008387614;
-		j3549504683 -> j2341324349;
-	j278166768 [label="無須擔心，親愛的惡魔，我們可是多到不勝數，足夠分配呢",shape=box,color=blue];
-		j278166768 -> j486535952;
-	j609691250 [label="我想還是算了，但還是謝謝你。",shape=box,color=red];
-		j609691250 -> j2352120316;
-	j4008387614 [label="這聽起來很酷，謝謝！",shape=box,color=red];
-		j4008387614 -> j1980960547;
-	j2341324349 [label="我超願意！:)",shape=box,color=red];
-		j2341324349 -> j1980960547;
-	j486535952 [label="簡單來說，她表示自己可以同時做這兩件事。說實話，我現在不想深究",shape=box,color=blue];
-		j486535952 -> j951062913;
-	j2352120316 [label="這個惡魔太令人費解了……你好不容易走到這裡，然後……居然就這麼來了一手？",shape=box,color=blue];
-		j2352120316 -> "Chat ends.";
-	j1980960547 [label="Boolean LizzieShawzin is now true.",color=orange];
-		j1980960547 -> j3612203433;
-	j951062913 [label="每次這樣做我都會開始思考人生的意義，然後崩潰",shape=box,color=blue];
-		j951062913 -> j4130003937;
-	j3612203433 [label="太棒了",shape=box,color=blue];
-		j3612203433 -> j137982880;
-	j4130003937 [label="那麼，你願意幫忙和莉慈一起作曲嗎？偶爾借用她一下？",shape=box,color=blue];
-		j4130003937 -> j609691250;
-		j4130003937 -> j2341324349;
-		j4130003937 -> j4008387614;
-	j137982880 [label="嘿，或許我之前沒說得清楚的話，謝謝。謝謝你所做的一切，謝謝你幫助我，幫助莉慈……更重要的是，謝謝你成為我的朋友",shape=box,color=blue];
-		j137982880 -> j4099899917;
-	j4099899917 [label="無論何時，只要你需要我們，我們都會在這裡，太空旅人",shape=box,color=blue];
-		j4099899917 -> j3773801680;
-	j3773801680 [label="無論它會把我們帶到哪裡 ;)",shape=box,color=blue];
-		j3773801680 -> "Chat ends.";
+		2518 -> 2512;
+	2519 [label="那麼，你覺得如何？這位惡魔會為我們感到驕傲嗎？<RETRO_EMOJI_CAT>",shape=box,color=blue];
+		2519 -> 2520;
+		2519 -> 2521;
+		2519 -> 2522;
+	2520 [label="這雖然不是線上男孩，但嘿，怎麼樣？ ;)",shape=box,color=red];
+		2520 -> 2523;
+	2521 [label="天啊，這也太厲害了吧！我超愛！！",shape=box,color=red];
+		2521 -> 2524;
+	2522 [label="這也太酷了吧！",shape=box,color=red];
+		2522 -> 2524;
+	2523 [label="是是是，真搞笑",shape=box,color=blue];
+		2523 -> 2525;
+		2523 -> 2526;
+	2524 [label="她又在發出咕嚕聲了，我得想辦法把這加進音樂裡",shape=box,color=blue];
+		2524 -> 2525;
+		2524 -> 2526;
+	2525 [label="那麼，下一步是什麼？",shape=box,color=red];
+		2525 -> 2527;
+	2526 [label="你什麼時候會開始作曲？",shape=box,color=red];
+		2526 -> 2527;
+	2527 [label="其實我們覺得你或許可以幫我們這個忙",shape=box,color=blue];
+		2527 -> 2528;
+	2528 [label="Check boolean FlareInstrumentNo",color=orange];
+		2528 -> 2530 [label=true,color=green];
+		2528 -> 2529 [label=false,color=brown];
+	2530 [label="我記得你說過，你不會樂器",shape=box,color=blue];
+		2530 -> 2533;
+	2529 [label="Check boolean FlareInstrumentYes",color=orange];
+		2529 -> 2532 [label=true,color=green];
+		2529 -> 2531 [label=false,color=brown];
+	2533 [label="我們已經準備好教這位惡魔彈奏了……能讓這位惡魔雙手觸碰我們，實在讓我們興奮不已…… ;)",shape=box,color=blue];
+		2533 -> 2537;
+	2532 [label="你說過你會彈「三線琴」，那種有點像吉他的樂器",shape=box,color=blue];
+		2532 -> 2536;
+	2531 [label="Check boolean FlareInstrumentTry",color=orange];
+		2531 -> 2535 [label=true,color=green];
+		2531 -> 2534 [label=false,color=brown];
+	2537 [label="我……哦，天啊，我居然吃醋了。沒想到啊",shape=box,color=blue];
+		2537 -> 2542;
+	2536 [label="莉慈和我想問問你願不願意幫忙作曲",shape=box,color=blue];
+		2536 -> 2541;
+	2535 [label="你說過你算是懂彈「三線琴」的，就是那種有點像吉他的樂器",shape=box,color=blue];
+		2535 -> 2536;
+	2534 [label="我很好奇，你會彈吉他嗎？",shape=box,color=blue];
+		2534 -> 2538;
+		2534 -> 2539;
+		2534 -> 2540;
+	2542 [label="我不確定我喜不喜歡這種感覺",shape=box,color=blue];
+		2542 -> 2545;
+	2541 [label="別急，慢慢來，你可以按自己的節奏來",shape=box,color=blue];
+		2541 -> 2544;
+	2538 [label="嗯……我不太會稱之為玩。我有玩過，但技術不怎麼樣。那玩意叫做三線琴。",shape=box,color=red];
+		2538 -> 2536;
+	2539 [label="我有，它叫三線琴。",shape=box,color=red];
+		2539 -> 2536;
+	2540 [label="老實說，沒有。",shape=box,color=red];
+		2540 -> 2543;
+	2545 [label="*總之*之後再慢慢研究它吧",shape=box,color=blue];
+		2545 -> 2536;
+	2544 [label="她會在旁邊幫你",shape=box,color=blue];
+		2544 -> 2546;
+		2544 -> 2547;
+	2543 [label="我們可以教這個惡魔如何彈奏……只要想到這個惡魔的雙手即將接觸我們的身體，就讓我們興奮不已…… ;)",shape=box,color=blue];
+		2543 -> 2537;
+	2546 [label="你——你是說讓我玩莉慈？",shape=box,color=red];
+		2546 -> 2548;
+	2547 [label="但是你不是需要她嗎？",shape=box,color=red];
+		2547 -> 2549;
+	2548 [label="你——想——跟——我們——玩——嗎，親愛的惡魔？",shape=box,color=blue];
+		2548 -> 2550;
+		2548 -> 2551;
+		2548 -> 2552;
+	2549 [label="無須擔心，親愛的惡魔，我們可是多到不勝數，足夠分配呢",shape=box,color=blue];
+		2549 -> 2553;
+	2550 [label="我想還是算了，但還是謝謝你。",shape=box,color=red];
+		2550 -> 2554;
+	2551 [label="這聽起來很酷，謝謝！",shape=box,color=red];
+		2551 -> 2555;
+	2552 [label="我超願意！:)",shape=box,color=red];
+		2552 -> 2555;
+	2553 [label="簡單來說，她表示自己可以同時做這兩件事。說實話，我現在不想深究",shape=box,color=blue];
+		2553 -> 2556;
+	2554 [label="這個惡魔太令人費解了……你好不容易走到這裡，然後……居然就這麼來了一手？",shape=box,color=blue];
+		2554 -> 2557;
+	2555 [label="Update boolean LizzieShawzin",color=orange];
+		2555 -> 2558;
+	2556 [label="每次這樣做我都會開始思考人生的意義，然後崩潰",shape=box,color=blue];
+		2556 -> 2559;
+	2557 [label="Chat ends.",color=orange];
+	2558 [label="太棒了",shape=box,color=blue];
+		2558 -> 2560;
+	2559 [label="那麼，你願意幫忙和莉慈一起作曲嗎？偶爾借用她一下？",shape=box,color=blue];
+		2559 -> 2550;
+		2559 -> 2552;
+		2559 -> 2551;
+	2560 [label="嘿，或許我之前沒說得清楚的話，謝謝。謝謝你所做的一切，謝謝你幫助我，幫助莉慈……更重要的是，謝謝你成為我的朋友",shape=box,color=blue];
+		2560 -> 2561;
+	2561 [label="無論何時，只要你需要我們，我們都會在這裡，太空旅人",shape=box,color=blue];
+		2561 -> 2562;
+	2562 [label="無論它會把我們帶到哪裡 ;)",shape=box,color=blue];
+		2562 -> 2563;
+	2563 [label="Chat ends.",color=orange];
 }

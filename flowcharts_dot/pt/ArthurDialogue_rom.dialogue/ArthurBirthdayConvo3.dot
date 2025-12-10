@@ -1,16 +1,21 @@
 digraph {
-	"ArthurBirthdayConvo3 begins." [color=orange];
-		"ArthurBirthdayConvo3 begins." -> j3643108993;
-		"ArthurBirthdayConvo3 begins." -> j4292746578;
-	j3643108993 [label="Olá, só queria te desejar feliz aniversário! É uma honra estar aqui nesse dia",shape=box,color=red];
-		j3643108993 -> j153684184;
-	j4292746578 [label="Feliz aniversário. Vê se tenta não morrer hoje, ia ficar um climão bem chato",shape=box,color=red];
-		j4292746578 -> j3058061706;
-	j153684184 [label="+20 Chemistry",color=orange];
-		j153684184 -> j837518490;
-	j3058061706 [label="Olha, eu sei que você já passou por muita coisa, mas tem hora certa pra esse tipo de humor doentio, e essa não é uma delas",shape=box,color=blue];
-		j3058061706 -> "Chat ends.";
-	j837518490 [label="A gente já passou por muita treta junto, né? Valeu cara, não só por isso… mas por tudo",shape=box,color=blue];
-		j837518490 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3192 [label="ArthurBirthdayConvo3 begins.",color=orange];
+		3192 -> 3210;
+		3192 -> 3212;
+	3210 [label="Olá, só queria te desejar feliz aniversário! É uma honra estar aqui nesse dia",shape=box,color=red];
+		3210 -> 3211;
+	3212 [label="Feliz aniversário. Vê se tenta não morrer hoje, ia ficar um climão bem chato",shape=box,color=red];
+		3212 -> 3207;
+	3211 [label="+20 Chemistry",color=orange];
+		3211 -> 3209;
+	3207 [label="Olha, eu sei que você já passou por muita coisa, mas tem hora certa pra esse tipo de humor doentio, e essa não é uma delas",shape=box,color=blue];
+		3207 -> 3000;
+	3209 [label="A gente já passou por muita treta junto, né? Valeu cara, não só por isso… mas por tudo",shape=box,color=blue];
+		3209 -> 3225;
+	3000 [label="{\"Id\":3000,\"Incoming\":[3207],\"Outgoing\":[3208],\"GraphPos\":[-30902,-13388],\"CompletionType\":1}",color=orange];
+		3000 -> 3208;
+	3225 [label="{\"Id\":3225,\"Incoming\":[3209],\"Outgoing\":[3213],\"GraphPos\":[-30899,-13547],\"CompletionType\":1}",color=orange];
+		3225 -> 3213;
+	3208 [label="Chat ends.",color=orange];
+	3213 [label="Chat ends.",color=orange];
 }

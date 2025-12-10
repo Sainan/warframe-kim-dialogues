@@ -1,0 +1,34 @@
+digraph {
+	2129 [label="RoatheStory1 begins.",color=orange];
+		2129 -> 5640;
+	5640 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5640 -> 2133 [label=true,color=green];
+		5640 -> 5642 [label=false,color=brown];
+	2133 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2133 -> 2130 [label="x >= 1",color=purple];
+		2133 -> 2134 [label="false",color=purple];
+	5642 [label="Chat ends.",color=orange];
+	2130 [label="ボイスメール：NITOKH",shape=box,color=blue];
+		2130 -> 2132;
+	2134 [label="Chat ends.",color=orange];
+	2132 [label="彼女の狂気は、それが明白だったからこそ、人を魅了した。",shape=box,color=blue];
+		2132 -> 5636;
+	5636 [label="彼女といると、自分がどこに立っているかが明らかになる：大いなる深淵の断崖に。",shape=box,color=blue];
+		5636 -> 5635;
+	5635 [label="飛び込めと、彼女の瞳は喜びに輝きながら、そう語りかけた。",shape=box,color=blue];
+		5635 -> 5637;
+	5637 [label="
+彼女の狂気を通して、我はオロキンの長く暗い停滞から逃れることができた。",shape=box,color=blue];
+		5637 -> 2136;
+	2136 [label="我々の感覚は、何世紀も前に麻痺しきっていた。それでも、彼女は彼女なりに、新鮮だった。",shape=box,color=blue];
+		2136 -> 5638;
+	5638 [label="永久に、絶えない飢えがあった。ある晩、彼女は我を風呂に呼んだ。香水と血が混じり合う水たまりを闊歩し、忠実に直立不動の姿勢を取った。",shape=box,color=blue];
+		5638 -> 5639;
+	5639 [label="「退屈だ、Roathe。他のオロキンどもを皆殺しにして、支配しよう。」",shape=box,color=blue];
+		5639 -> 2135;
+	2135 [label="Add 1 to HellStory",color=orange];
+		2135 -> 2328;
+	2328 [label="{\"Id\":2328,\"Incoming\":[2135],\"Outgoing\":[2131],\"GraphPos\":[4730,-11318],\"CompletionType\":1}",color=orange];
+		2328 -> 2131;
+	2131 [label="Chat ends.",color=orange];
+}

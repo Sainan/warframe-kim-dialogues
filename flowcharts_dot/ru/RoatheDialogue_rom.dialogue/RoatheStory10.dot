@@ -1,0 +1,33 @@
+digraph {
+	2223 [label="RoatheStory10 begins.",color=orange];
+		2223 -> 5658;
+	5658 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5658 -> 2224 [label=true,color=green];
+		5658 -> 5659 [label=false,color=brown];
+	2224 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2224 -> 2219 [label="x >= 10",color=purple];
+		2224 -> 2225 [label="false",color=purple];
+	5659 [label="Chat ends.",color=orange];
+	2219 [label="VM: PUNISHMENT",shape=box,color=blue];
+		2219 -> 2218;
+	2225 [label="Chat ends.",color=orange];
+	2218 [label="Транскрипт: Именно Скарне, вспыльчивый, остроумный и язвительный, первым предложил этот план ещё до войны. «Мы должны покинуть гнездо, ведь гнездо в огне».",shape=box,color=blue];
+		2218 -> 2221;
+	2221 [label="Из‑за чрезмерной эксплуатации и безрассудных экспериментов мы испортили Систему так, что надежды на её восстановление больше не было.",shape=box,color=blue];
+		2221 -> 2216;
+	2216 [label="Расширение к новым горизонтам теперь было нашим единственным выходом. ",shape=box,color=blue];
+		2216 -> 5733;
+	5733 [label="He, too, inaugurated the cowardly Towers in the Void.",shape=box,color=blue];
+		5733 -> 2222;
+	2222 [label="Страх перед возвращением Владеющих Разумом был в нём настолько силён, что он мог представить себе только отступление к островам Бездны.",shape=box,color=blue];
+		2222 -> 5700;
+	5700 [label="How little credit we gave the Sentients for courage.",shape=box,color=blue];
+		5700 -> 5701;
+	5701 [label="They willingly endured the Void’s scalding fire purely for the chance to punish us.",shape=box,color=blue];
+		5701 -> 2220;
+	2220 [label="Add 1 to HellStory",color=orange];
+		2220 -> 2337;
+	2337 [label="{\"Id\":2337,\"Incoming\":[2220],\"Outgoing\":[2217],\"GraphPos\":[4843,-7852],\"CompletionType\":1}",color=orange];
+		2337 -> 2217;
+	2217 [label="Chat ends.",color=orange];
+}

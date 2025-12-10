@@ -1,528 +1,566 @@
 digraph {
-	"LettieRank4Convo7 begins." [color=orange];
-		"LettieRank4Convo7 begins." -> j3299666565;
-		"LettieRank4Convo7 begins." -> j1518082921;
-	j3299666565 [label="แล้วเจ้าเข้ามาเกี่ยวข้องกับเรื่องของ Arthur/Hex ได้ยังไงกัน",shape=box,color=red];
-		j3299666565 -> j4293324513;
-	j1518082921 [label="เจ้าดูเหมือนจะเกลียด Entrati มาก ๆ เลย ทำไมล่ะ?",shape=box,color=red];
-		j1518082921 -> j2824785799;
-	j4293324513 [label="Check boolean LettieArthur1",color=orange];
-		j4293324513 -> j3844506987 [label=true,color=green];
-		j4293324513 -> j52319864 [label=false,color=brown];
-	j2824785799 [label="Check boolean LettieCavia",color=orange];
-		j2824785799 -> j552733088 [label=true,color=green];
-		j2824785799 -> j3470538414 [label=false,color=brown];
-	j3844506987 [label="อืม 
+	1303 [label="LettieRank4Convo7 begins.",color=orange];
+		1303 -> 1304;
+		1303 -> 1308;
+	1304 [label="แล้วเจ้าเข้ามาเกี่ยวข้องกับเรื่องของ Arthur/Hex ได้ยังไงกัน",shape=box,color=red];
+		1304 -> 1306;
+	1308 [label="เจ้าดูเหมือนจะเกลียด Entrati มาก ๆ เลย ทำไมล่ะ?",shape=box,color=red];
+		1308 -> 1309;
+	1306 [label="Check boolean LettieArthur1",color=orange];
+		1306 -> 1305 [label=true,color=green];
+		1306 -> 1307 [label=false,color=brown];
+	1309 [label="Check boolean LettieCavia",color=orange];
+		1309 -> 1310 [label=true,color=green];
+		1309 -> 1311 [label=false,color=brown];
+	1305 [label="อืม 
 ไม่ใช่เรื่องสนุกเลยเพื่อน 
-แย่กว่าการนองเลือดที่ Arthur กับข้ากลายเป็น hermanos อีก 
+แย่กว่าการนองเลือดที่ Arthur กับฉันกลายเป็น hermanos อีก 
 ไม่สนุกเลยที่จะฟัง 
 Mierda ไม่สนุกเลยที่จะเล่า",shape=box,color=blue];
-		j3844506987 -> j1736388226;
-		j3844506987 -> j1826997355;
-	j52319864 [label="Somos hermanos, Arthur กับข้า 
+		1305 -> 1326;
+		1305 -> 1327;
+	1307 [label="Somos hermanos, Arthur กับฉัน 
 เรารู้จักกันมานานมาก 
-ข้าสัญญาว่าจะติดตามเขาไปทุกที่ 
+ฉันสัญญาว่าจะติดตามเขาไปทุกที่ 
 ดูเหมือนว่าเขาตั้งใจจะไปที่ขอบของ Mictlán",shape=box,color=blue];
-		j52319864 -> j2765312311;
-	j552733088 [label="Check boolean LettieLoid",color=orange];
-		j552733088 -> j1096171844 [label=true,color=green];
-		j552733088 -> j4040708208 [label=false,color=brown];
-	j3470538414 [label="Check boolean LettieLoid",color=orange];
-		j3470538414 -> j416292857 [label=true,color=green];
-		j3470538414 -> j504966913 [label=false,color=brown];
-	j1736388226 [label="ถ้าไม่สบายใจที่จะเล่าให้ฟังก็ไม่เป็นไรนะ",shape=box,color=red];
-		j1736388226 -> j2811037218;
-	j1826997355 [label="ไม่เป็นไร ข้าเองก็มีเรื่องบ้า ๆ มากมายที่ยังไม่เคยเล่าให้เจ้าฟังเลย",shape=box,color=red];
-		j1826997355 -> j3902965858;
-	j2765312311 [label="เราประจำการอยู่ในฐานเดียวกัน 
-เขาอยู่ในกองทัพ Britannic ส่วนข้าอยู่ในกองทัพ Libertatia 
-คนละประเทศกัน แต่ศัตรูกลุ่มเดียวกัน",shape=box,color=blue];
-		j2765312311 -> j128942239;
-	j1096171844 [label="Check boolean LettieEntratiFamily",color=orange];
-		j1096171844 -> j4149722053 [label=true,color=green];
-		j1096171844 -> j1537974150 [label=false,color=brown];
-	j4040708208 [label="Check boolean LettieEntratiFamily",color=orange];
-		j4040708208 -> j147590431 [label=true,color=green];
-		j4040708208 -> j1822349158 [label=false,color=brown];
-	j416292857 [label="Check boolean LettieEntratiFamily",color=orange];
-		j416292857 -> j648315336 [label=true,color=green];
-		j416292857 -> j3772871953 [label=false,color=brown];
-	j504966913 [label="Check boolean LettieEntratiFamily",color=orange];
-		j504966913 -> j4045345946 [label=true,color=green];
-		j504966913 -> j1103922511 [label=false,color=brown];
-	j2811037218 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j2811037218 -> j536383023;
-	j3902965858 [label="+10 Chemistry",color=orange];
-		j3902965858 -> j1566681551;
-	j128942239 [label="ข้าเป็นแพทย์สนามของกรมทหาร
+		1307 -> 1332;
+	1310 [label="Check boolean LettieLoid",color=orange];
+		1310 -> 1312 [label=true,color=green];
+		1310 -> 1313 [label=false,color=brown];
+	1311 [label="Check boolean LettieLoid",color=orange];
+		1311 -> 1314 [label=true,color=green];
+		1311 -> 1315 [label=false,color=brown];
+	1326 [label="ถ้าไม่สบายใจที่จะเล่าให้ฟังก็ไม่เป็นไรนะ",shape=box,color=red];
+		1326 -> 1328;
+	1327 [label="ไม่เป็นไร ข้าเองก็มีเรื่องบ้า ๆ มากมายที่ยังไม่เคยเล่าให้เจ้าฟังเลย",shape=box,color=red];
+		1327 -> 1331;
+	1332 [label="เราประจำการอยู่ในฐานเดียวกัน 
+เขาอยู่ในกองทัพ Britannic ส่วนฉันอยู่ในกองทัพ Libertatia 
+คนละประเทศกัน แต่มีศัตรูกลุ่มเดียวกัน",shape=box,color=blue];
+		1332 -> 1333;
+	1312 [label="Check boolean LettieEntratiFamily",color=orange];
+		1312 -> 1316 [label=true,color=green];
+		1312 -> 1317 [label=false,color=brown];
+	1313 [label="Check boolean LettieEntratiFamily",color=orange];
+		1313 -> 1318 [label=true,color=green];
+		1313 -> 1319 [label=false,color=brown];
+	1314 [label="Check boolean LettieEntratiFamily",color=orange];
+		1314 -> 1321 [label=true,color=green];
+		1314 -> 1322 [label=false,color=brown];
+	1315 [label="Check boolean LettieEntratiFamily",color=orange];
+		1315 -> 1323 [label=true,color=green];
+		1315 -> 1324 [label=false,color=brown];
+	1328 [label="Update boolean LettieHexAsked",color=orange];
+		1328 -> 1329;
+	1331 [label="+10 Chemistry",color=orange];
+		1331 -> 1330;
+	1333 [label="ฉันเป็นแพทย์สนามของกรมทหาร
 พวกเราถูกส่งไปประจำการที่ข้าง ๆ กับหน่วยของเขา
 แล้วที่แห่งนั้นก็ cagadero 
 เร็วมากจริง ๆ",shape=box,color=blue];
-		j128942239 -> j3238990212;
-	j4149722053 [label="Sí 
+		1333 -> 1334;
+	1316 [label="Sí 
 ก็คงเป็นแบบนั้น 
-หลังจากที่ฟังเรื่องทุกอย่างที่เอ็งเล่ามา 
+หลังจากที่ฟังเรื่องทุกอย่างที่เธอเล่ามา 
 ที่มันทำร้ายสัตว์ที่น่าสงสารพวกนั้น 
 ที่ทิ้งครอบครัวไป 
 และทิ้งชายที่รักมันไป 
 แล้วจะไม่ให้เกลียดไอ้ cabrón นั่นได้ยังไงกัน",shape=box,color=blue];
-		j4149722053 -> j4106797655;
-	j1537974150 [label="Sí 
+		1316 -> 1320;
+	1317 [label="Sí 
 ก็คงเป็นแบบนั้น 
-หลังจากที่ฟังเรื่องทุกอย่างที่เอ็งเล่ามา 
+หลังจากที่ฟังเรื่องทุกอย่างที่เธอเล่ามา 
 ที่มันทำร้ายสัตว์ที่น่าสงสารพวกนั้น 
 และทิ้งชายที่รักมันไป 
 แล้วจะไม่ให้เกลียดไอ้ cabrón นั่นได้ยังไงกัน",shape=box,color=blue];
-		j1537974150 -> j4106797655;
-	j147590431 [label="Sí 
+		1317 -> 1320;
+	1318 [label="Sí 
 ก็คงเป็นแบบนั้น 
-หลังจากที่ฟังเรื่องทุกอย่างที่เอ็งเล่ามา 
+หลังจากที่ฟังเรื่องทุกอย่างที่เธอเล่ามา  
 ที่มันทำร้ายสัตว์ที่น่าสงสารพวกนั้น 
 ที่ทิ้งครอบครัวไป 
 แล้วจะไม่ให้เกลียดไอ้ cabrón นั่นได้ยังไงกัน",shape=box,color=blue];
-		j147590431 -> j4106797655;
-	j1822349158 [label="Sí 
+		1318 -> 1320;
+	1319 [label="Sí 
 ก็คงเป็นแบบนั้น 
-หลังจากที่ฟังเรื่องทุกอย่างที่เอ็งเล่ามา 
+หลังจากที่ฟังเรื่องทุกอย่างที่เธอเล่ามา  
 ที่มันทำร้ายสัตว์ที่น่าสงสารพวกนั้น 
 แล้วจะไม่ให้เกลียดไอ้ cabrón นั่นได้ยังไงกัน",shape=box,color=blue];
-		j1822349158 -> j4106797655;
-	j648315336 [label="Sí 
+		1319 -> 1320;
+	1321 [label="Sí 
 ก็คงเป็นแบบนั้น 
-หลังจากที่ฟังเรื่องทุกอย่างที่เอ็งเล่ามา 
+หลังจากที่ฟังเรื่องทุกอย่างที่เธอเล่ามา  
 ที่ทิ้งครอบครัวไป 
 และทิ้งชายที่รักมันไป 
 แล้วจะไม่ให้เกลียดไอ้ cabrón นั่นได้ยังไงกัน",shape=box,color=blue];
-		j648315336 -> j507724002;
-	j3772871953 [label="Sí 
+		1321 -> 1325;
+	1322 [label="Sí 
 ก็คงเป็นแบบนั้น 
-หลังจากที่ฟังเรื่องทุกอย่างที่เอ็งเล่ามา 
+หลังจากที่ฟังเรื่องทุกอย่างที่เธอเล่ามา  
 ที่ทิ้งชายที่รักมันไป 
 แล้วจะไม่ให้เกลียดไอ้ cabrón นั่นได้ยังไงกัน",shape=box,color=blue];
-		j3772871953 -> j507724002;
-	j4045345946 [label="Sí 
+		1322 -> 1325;
+	1323 [label="Sí 
 ก็คงเป็นแบบนั้น 
-หลังจากที่ฟังเรื่องทุกอย่างที่เอ็งเล่ามา 
+หลังจากที่ฟังเรื่องทุกอย่างที่เธอเล่ามา  
 ที่ทิ้งครอบครัวไป 
 แล้วจะไม่ให้เกลียดไอ้ cabrón นั่นได้ยังไงกัน",shape=box,color=blue];
-		j4045345946 -> j507724002;
-	j1103922511 [label="Sí 
+		1323 -> 1325;
+	1324 [label="Sí 
 ก็คงเป็นแบบนั้น 
-หลังจากที่ฟังเรื่องทุกอย่างที่เอ็งเล่ามา
+หลังจากที่ฟังเรื่องทุกอย่างที่เธอเล่ามา 
 แล้วจะไม่ให้เกลียดไอ้ cabrón นั่นได้ยังไงกัน",shape=box,color=blue];
-		j1103922511 -> j507724002;
-	j536383023 [label="ไม่เกี่ยวกับความสบายใจนะ babas 
+		1324 -> 1325;
+	1329 [label="ไม่เกี่ยวกับความสบายใจนะ babas 
 อยากได้ยินเหรอเรื่องที่ฉันต้องทำให้ใครจากไปอย่างสงบหรือตัดแขนขาออก 
 หรือเวลาที่แม่ร้องไห้ข้าง ๆ ลูกที่ตายไปแล้วและต้องบอกว่าฉันไม่สามารถช่วยอะไรได้ 
 ฉันเห็นแบบนั้นตลอดเวลาเลย 
 Me vale madre",shape=box,color=blue];
-		j536383023 -> j661273324;
-		j536383023 -> j1928224656;
-	j1566681551 [label="Sí 
+		1329 -> 1336;
+		1329 -> 1335;
+	1330 [label="Sí 
 เราทุกคนต่างก็มีสิ่งที่เราไม่ได้บอกคนอื่น 
 จนกว่าเราจะแน่ใจจริง ๆ ว่าจะไว้ใจได้ว่า ความรู้สึกที่พวกเขามีจะไม่เปลี่ยนไป",shape=box,color=blue];
-		j1566681551 -> j350353099;
-	j3238990212 [label="ลูกทีมของข้าส่วนใหญ่ไม่รอด 
+		1330 -> 1340;
+	1334 [label="ลูกทีมของฉันส่วนใหญ่ไม่รอด 
 ลูกทีมของเขาส่วนใหญ่ก็เช่นกัน 
 เราจับมือกันไว้ 
 จริง ๆ 
-ข้าเย็บแขนให้เขาอย่างดีเลยนะ jaja 
+ฉันเย็บแขนให้เขาอย่างดีเลยนะ jaja 
 เมื่อเขาเกษียณอายุและเข้า ICR 
-ข้าก็ติดตามไปด้วยโดยไม่ตั้งคำถาม 
-ยังไงข้าเบื่อกับเรื่องดราม่าที่เกิดขึ้นในกองทัพอยู่แล้ว",shape=box,color=blue];
-		j3238990212 -> j225394097;
-	j4106797655 [label="Check boolean LettieTrust1",color=orange];
-		j4106797655 -> j692798778 [label=true,color=green];
-		j4106797655 -> j3179534337 [label=true,color=green];
-		j4106797655 -> j2304899875 [label=false,color=brown];
-		j4106797655 -> j3868375992 [label=false,color=brown];
-	j507724002 [label="Check boolean LettieTrust1",color=orange];
-		j507724002 -> j692798778 [label=true,color=green];
-		j507724002 -> j3868375992 [label=true,color=green];
-		j507724002 -> j1790890012 [label=true,color=green];
-		j507724002 -> j3868375992 [label=false,color=brown];
-		j507724002 -> j1790890012 [label=false,color=brown];
-	j661273324 [label="แล้วปัญหามันอยู่ตรงไหนล่ะ?",shape=box,color=red];
-		j661273324 -> j83912591;
-	j1928224656 [label="โอเคมั้ย? ขอโทษนะ",shape=box,color=red];
-		j1928224656 -> j1263770990;
-	j350353099 [label="Check boolean LettieNoFlirt",color=orange];
-		j350353099 -> j303675719 [label=true,color=green];
-		j350353099 -> j1112098227 [label=true,color=green];
-		j350353099 -> j303675719 [label=false,color=brown];
-		j350353099 -> j1112098227 [label=false,color=brown];
-		j350353099 -> j2707961720 [label=false,color=brown];
-	j225394097 [label="Boolean LettieArthur1 is now true.",color=orange];
-		j225394097 -> j905306634;
-		j225394097 -> j1701813847;
-	j692798778 [label="วิธีที่เจ้าพูดถึงเขา และเพราะข้ารู้ว่าความไว้ใจสำคัญต่อเจ้ามากแค่ไหน... มันดูเป็นเรื่องส่วนตัวนะ",shape=box,color=red];
-		j692798778 -> j2668752836;
-	j3179534337 [label="ข้ารู้ว่าเจ้าเกลียดเมื่อมีคนทำลายความไว้ใจของคนอื่น โดยเฉพาะกับสัตว์",shape=box,color=red];
-		j3179534337 -> j2246575135;
-	j2304899875 [label="คนที่ทำร้ายสัตว์มีสถานที่พิเศษในนรกแน่นอน แต่ดูเหมือนว่าจะมีอะไรมากกว่านั้นเกิดขึ้นนะ",shape=box,color=red];
-		j2304899875 -> j2246575135;
-	j3868375992 [label="ใช่ แต่ดูเหมือนว่าเจ้าจะมีความแค้นกับเขาเป็นการส่วนตัว",shape=box,color=red];
-		j3868375992 -> j3482970249;
-	j1790890012 [label="นั่นก็เพียงพอแล้ว",shape=box,color=red];
-		j1790890012 -> j495880547;
-	j83912591 [label="มันอาจทำให้มองเราบางคนเปลี่ยนไปเลยนะ babas 
+ฉันก็ติดตามไปด้วยโดยไม่ตั้งคำถาม 
+ยังไงฉันก็เบื่อกับเรื่องดราม่าที่เกิดขึ้นในกองทัพอยู่แล้ว",shape=box,color=blue];
+		1334 -> 1341;
+	1320 [label="Check boolean LettieTrust1",color=orange];
+		1320 -> 1342 [label=true,color=green];
+		1320 -> 1343 [label=true,color=green];
+		1320 -> 1344 [label=false,color=brown];
+		1320 -> 1345 [label=false,color=brown];
+	1325 [label="Check boolean LettieTrust1",color=orange];
+		1325 -> 1346 [label=true,color=green];
+		1325 -> 1347 [label=true,color=green];
+		1325 -> 1348 [label=true,color=green];
+		1325 -> 1347 [label=false,color=brown];
+		1325 -> 1348 [label=false,color=brown];
+	1336 [label="แล้วปัญหามันอยู่ตรงไหนล่ะ?",shape=box,color=red];
+		1336 -> 1339;
+	1335 [label="โอเคมั้ย? ขอโทษนะ",shape=box,color=red];
+		1335 -> 1337;
+	1340 [label="Check boolean LettieNoFlirt",color=orange];
+		1340 -> 1404 [label=true,color=green];
+		1340 -> 1405 [label=true,color=green];
+		1340 -> 1404 [label=false,color=brown];
+		1340 -> 1405 [label=false,color=brown];
+		1340 -> 1406 [label=false,color=brown];
+	1341 [label="Update boolean LettieArthur1",color=orange];
+		1341 -> 1389;
+		1341 -> 1390;
+	1342 [label="วิธีที่เจ้าพูดถึงเขา และเพราะข้ารู้ว่าความไว้ใจสำคัญต่อเจ้ามากแค่ไหน... มันดูเป็นเรื่องส่วนตัวนะ",shape=box,color=red];
+		1342 -> 1359;
+	1343 [label="ข้ารู้ว่าเจ้าเกลียดเมื่อมีคนทำลายความไว้ใจของคนอื่น โดยเฉพาะกับสัตว์",shape=box,color=red];
+		1343 -> 1360;
+	1344 [label="คนที่ทำร้ายสัตว์มีสถานที่พิเศษในนรกแน่นอน แต่ดูเหมือนว่าจะมีอะไรมากกว่านั้นเกิดขึ้นนะ",shape=box,color=red];
+		1344 -> 1360;
+	1345 [label="ใช่ แต่ดูเหมือนว่าเจ้าจะมีความแค้นกับเขาเป็นการส่วนตัว",shape=box,color=red];
+		1345 -> 1354;
+	1346 [label="วิธีที่เจ้าพูดถึงเขา และเพราะข้ารู้ว่าความไว้ใจสำคัญต่อเจ้ามากแค่ไหน... มันดูเป็นเรื่องส่วนตัวนะ",shape=box,color=red];
+		1346 -> 1359;
+	1347 [label="ใช่ แต่ดูเหมือนว่าเจ้าจะมีความแค้นกับเขาเป็นการส่วนตัว",shape=box,color=red];
+		1347 -> 1354;
+	1348 [label="นั่นก็เพียงพอแล้ว",shape=box,color=red];
+		1348 -> 1350;
+	1339 [label="มันอาจทำให้มองเราบางคนเปลี่ยนไปเลยนะ babas 
 และไม่รู้ว่าจะไว้ใจกันได้มากพอหรือเปล่าว่าจะไม่เดินจากกันไป",shape=box,color=blue];
-		j83912591 -> j350353099;
-	j1263770990 [label="Sí, como quieras",shape=box,color=blue];
-		j1263770990 -> "Chat ends.";
-	j303675719 [label="ยังไม่เชื่อใจข้าอีกเหรอ?",shape=box,color=red];
-		j303675719 -> j1368627072;
-	j1112098227 [label="เราทุกคนเคยทำผิดพลาดในชีวิตมาแล้วทั้งนั้น ข้ามั่นใจว่ามันคงไม่เลวร้ายขนาดนั้นหรอก",shape=box,color=red];
-		j1112098227 -> j1572344274;
-	j2707961720 [label="ระวังหน่อยนะ ไม่งั้นข้าอาจเริ่มคิดว่าเจ้ากำลังชอบข้าเข้าแล้ว",shape=box,color=red];
-		j2707961720 -> j168259062;
-	j905306634 [label="แล้วไงต่อ? แล้วกลายมาเป็น... ได้ยังไง",shape=box,color=red];
-		j905306634 -> j782488181;
-	j1701813847 [label="สงครามมันห่วยหมดแหละ ไม่ว่าเมื่อไร ไม่ว่ายังไงก็ตาม",shape=box,color=red];
-		j1701813847 -> j3188063312;
-	j2668752836 [label="+15 Chemistry",color=orange];
-		j2668752836 -> j3143661545;
-	j2246575135 [label="+20 Chemistry",color=orange];
-		j2246575135 -> j1143368264;
-	j3482970249 [label="Sí ข้ามี 
-ข้ามีเหตุผลของข้า",shape=box,color=blue];
-		j3482970249 -> j2305896242;
-		j3482970249 -> j2616340512;
-	j495880547 [label="+10 Chemistry",color=orange];
-		j495880547 -> j4196049080;
-	"Chat ends." [color=orange];
-	j1368627072 [label="+10 Chemistry",color=orange];
-		j1368627072 -> j1999382343;
-	j1572344274 [label="+5 Chemistry",color=orange];
-		j1572344274 -> j2256636506;
-	j168259062 [label="+10 Chemistry",color=orange];
-		j168259062 -> j2007433069;
-	j782488181 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j782488181 -> j3589466382;
-	j3188063312 [label="ขอบใจนะ
+		1339 -> 1340;
+	1337 [label="Sí, como quieras",shape=box,color=blue];
+		1337 -> 1338;
+	1404 [label="ยังไม่เชื่อใจข้าอีกเหรอ?",shape=box,color=red];
+		1404 -> 1411;
+	1405 [label="เราทุกคนเคยทำผิดพลาดในชีวิตมาแล้วทั้งนั้น ข้ามั่นใจว่ามันคงไม่เลวร้ายขนาดนั้นหรอก",shape=box,color=red];
+		1405 -> 1415;
+	1406 [label="ระวังหน่อยนะ ไม่งั้นข้าอาจเริ่มคิดว่าเจ้ากำลังชอบข้าเข้าแล้ว",shape=box,color=red];
+		1406 -> 1413;
+	1389 [label="แล้วไงต่อ? แล้วกลายมาเป็น... ได้ยังไง",shape=box,color=red];
+		1389 -> 1391;
+	1390 [label="สงครามมันห่วยหมดแหละ ไม่ว่าเมื่อไร ไม่ว่ายังไงก็ตาม",shape=box,color=red];
+		1390 -> 1394;
+	1359 [label="+15 Chemistry",color=orange];
+		1359 -> 1352;
+	1360 [label="+20 Chemistry",color=orange];
+		1360 -> 1353;
+	1354 [label="Sí ฉันมี 
+ฉันมีเหตุผลของฉัน",shape=box,color=blue];
+		1354 -> 1357;
+		1354 -> 1358;
+	1350 [label="+10 Chemistry",color=orange];
+		1350 -> 1349;
+	1338 [label="Chat ends.",color=orange];
+	1411 [label="+10 Chemistry",color=orange];
+		1411 -> 1407;
+	1415 [label="+5 Chemistry",color=orange];
+		1415 -> 1408;
+	1413 [label="+10 Chemistry",color=orange];
+		1413 -> 1409;
+	1391 [label="Update boolean LettieHexAsked",color=orange];
+		1391 -> 1392;
+	1394 [label="ขอบใจนะ
 สงครามของเราคงดูเล็กมากเลย
-เพราะเสียงของเอ็งฟังดู tan espectaculares y llamativas
+เพราะเสียงของเธอฟังดู tan espectaculares y llamativas
 เต็มไปด้วย dioses, ángeles y demonios",shape=box,color=blue];
-		j3188063312 -> j656732659;
-	j3143661545 [label="Ay, sí
+		1394 -> 1393;
+	1352 [label="Ay, sí
 จับได้แล้วสินะ
 อยากได้ชื่อเล่นใหม่มั้ยล่ะ ¿eh babas? Jaja",shape=box,color=blue];
-		j3143661545 -> j1449528014;
-	j1143368264 [label="Ay, sí 
+		1352 -> 1355;
+	1353 [label="Ay, sí 
 สัตว์ทั้งหลายสมควรได้รับสิ่งที่ดีที่สุดที่เราสามารถให้ได้ 
 และเมื่อความไว้ใจถูกทำลายลงไป 
-มันก็ทำให้ข้าอยากฆ่าคน 
+มันก็ทำให้ฉันอยากฆ่าคน 
 โดยเฉพาะไอ้คนแบบนั้น",shape=box,color=blue];
-		j1143368264 -> j427534995;
-	j2305896242 [label="ถามได้ไหมว่าเขาทำอะไร",shape=box,color=red];
-		j2305896242 -> j2698134791;
-	j2616340512 [label="ถ้าไม่สบายใจที่จะเล่าให้ฟังก็ไม่เป็นไรนะ",shape=box,color=red];
-		j2616340512 -> j3488900809;
-	j4196049080 [label="Sí 
+		1353 -> 1356;
+	1357 [label="ถามได้ไหมว่าเขาทำอะไร",shape=box,color=red];
+		1357 -> 1371;
+	1358 [label="ถ้าไม่สบายใจที่จะเล่าให้ฟังก็ไม่เป็นไรนะ",shape=box,color=red];
+		1358 -> 1370;
+	1349 [label="Sí 
 Ese cabrón se puede ir brincando a la chingada",shape=box,color=blue];
-		j4196049080 -> "Chat ends.";
-	j1999382343 [label="อาจจะ 
+		1349 -> 1351;
+	1407 [label="อาจจะ 
 หรืออาจจะไม่ 
-เริ่มชินกับการที่มีเอ็งคอยเกะกะอยู่ข้าง ๆ แล้ว 
-อาจคิดถึงนะถ้าเอ็งจากไป 
+เริ่มชินกับการที่มีเธอคอยเกะกะอยู่ข้าง ๆ แล้ว 
+อาจคิดถึงนะถ้าเธอจากไป 
 แต่อย่าเหลิงเชียว",shape=box,color=blue];
-		j1999382343 -> "Chat ends.";
-	j2256636506 [label="อาจจะ 
+		1407 -> 1412;
+	1408 [label="อาจจะ 
 อาจจะไม่ 
 เดี๋ยวก็รู้ 
 แต่คงไม่ใช่วันนี้",shape=box,color=blue];
-		j2256636506 -> "Chat ends.";
-	j2007433069 [label="Jajaja, sí 
+		1408 -> 1416;
+	1409 [label="Jajaja, sí 
 บางทีอาจจะใช่ก็ได้ 
-หรือบางทีข้าอาจจะแค่มีความสุขที่มีใครสักคนอยู่รอบ ๆ ตัวคอยช่วยเหลืออยู่ข้าง ๆ นะ babas",shape=box,color=blue];
-		j2007433069 -> j3629972228;
-	j3589466382 [label="กลายเป็นอะไร babas 
+หรือบางทีฉันอาจจะแค่มีความสุขที่มีใครสักคนอยู่รอบ ๆ ตัวคอยช่วยเหลืออยู่ข้าง ๆ นะ babas",shape=box,color=blue];
+		1409 -> 1410;
+	1392 [label="กลายเป็นอะไร babas 
 ¿Monstruos?",shape=box,color=blue];
-		j3589466382 -> j4043171492;
-		j3589466382 -> j1031430479;
-		j3589466382 -> j2312545081;
-	j656732659 [label="+10 Chemistry",color=orange];
-		j656732659 -> j2923442641;
-	j1449528014 [label="Boolean LettieTrust2 is now true.",color=orange];
-		j1449528014 -> j1636827245;
-		j1449528014 -> j112796444;
-	j427534995 [label="Boolean LettieTrust2 is now true.",color=orange];
-		j427534995 -> j1283660927;
-	j2698134791 [label="+10 Chemistry",color=orange];
-		j2698134791 -> j2284510754;
-	j3488900809 [label="ไม่เกี่ยวกับความสบายใจนะ babas 
+		1392 -> 1396;
+		1392 -> 1397;
+		1392 -> 1398;
+	1393 [label="+10 Chemistry",color=orange];
+		1393 -> 1395;
+	1355 [label="Update boolean LettieTrust2",color=orange];
+		1355 -> 1361;
+		1355 -> 1362;
+	1356 [label="Update boolean LettieTrust2",color=orange];
+		1356 -> 1363;
+	1371 [label="+10 Chemistry",color=orange];
+		1371 -> 1369;
+	1370 [label="ไม่เกี่ยวกับความสบายใจนะ babas 
 อยากได้ยินเหรอเรื่องที่ฉันต้องทำให้ใครจากไปอย่างสงบหรือตัดแขนขาออก 
 หรือเวลาที่แม่ร้องไห้ข้าง ๆ ลูกที่ตายไปแล้วและต้องบอกว่าฉันไม่สามารถช่วยอะไรได้ 
 ฉันเห็นแบบนั้นตลอดเวลาเลย 
 Me vale madre",shape=box,color=blue];
-		j3488900809 -> j2612352479;
-	j3629972228 [label="เริ่มชินกับการที่มีเอ็งคอยเกะกะอยู่ข้าง ๆ แล้ว 
-อาจคิดถึงนะถ้าเอ็งจากไป 
+		1370 -> 1372;
+	1351 [label="Chat ends.",color=orange];
+	1412 [label="Chat ends.",color=orange];
+	1416 [label="Chat ends.",color=orange];
+	1410 [label="เริ่มชินกับการที่มีเธอคอยเกะกะอยู่ข้าง ๆ แล้ว 
+อาจคิดถึงนะถ้าเธอจากไป 
 แต่อย่าเหลิงเชียว",shape=box,color=blue];
-		j3629972228 -> "Chat ends.";
-	j4043171492 [label="ข้าจะพูดว่าเป็น \"Hex\"",shape=box,color=red];
-		j4043171492 -> j43568614;
-	j1031430479 [label="ข้าจะพูดว่าเป็น \"Protoframe\"",shape=box,color=red];
-		j1031430479 -> j4014380823;
-	j2312545081 [label="นั่นคือสิ่งที่เจ้าคิดว่าเจ้าเป็นงั้นเหรอ?",shape=box,color=red];
-		j2312545081 -> j1418724962;
-	j2923442641 [label="แต่คิดว่าสุดท้ายก็คงเหมือนกัน
+		1410 -> 1414;
+	1396 [label="ข้าจะพูดว่าเป็น \"Hex\"",shape=box,color=red];
+		1396 -> 1399;
+	1397 [label="ข้าจะพูดว่าเป็น \"Protoframe\"",shape=box,color=red];
+		1397 -> 1400;
+	1398 [label="นั่นคือสิ่งที่เจ้าคิดว่าเจ้าเป็นงั้นเหรอ?",shape=box,color=red];
+		1398 -> 1401;
+	1395 [label="แต่คิดว่าสุดท้ายก็คงเหมือนกัน
 ผู้คนต้องตายในโคลนตม
 ความไว้วางใจถูกทำลายและต้องสูญเสียชีวิตไป
 และ La Flaca ก็นำพาพวกเขากลับบ้าน",shape=box,color=blue];
-		j2923442641 -> j4096741237;
-	j1636827245 [label="ถ้าไม่สบายใจที่จะเล่าให้ฟังก็ไม่เป็นไรนะ",shape=box,color=red];
-		j1636827245 -> j2321148923;
-	j112796444 [label="เขา *ทำ* อะไรกับเจ้าเหรอ?",shape=box,color=red];
-		j112796444 -> j3670133435;
-	j1283660927 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j1283660927 -> j3092722733;
-		j1283660927 -> j2233597355;
-	j2284510754 [label="อืม 
+		1395 -> 1458;
+	1361 [label="ถ้าไม่สบายใจที่จะเล่าให้ฟังก็ไม่เป็นไรนะ",shape=box,color=red];
+		1361 -> 1364;
+	1362 [label="เขา *ทำ* อะไรกับเจ้าเหรอ?",shape=box,color=red];
+		1362 -> 1365;
+	1363 [label="Update boolean LettieHexAsked",color=orange];
+		1363 -> 1366;
+		1363 -> 1367;
+	1369 [label="อืม 
 ไม่ใช่เรื่องสนุกเลยเพื่อน 
 ไม่สนุกเลยที่จะฟัง 
 Mierda ไม่สนุกเลยที่จะเล่า",shape=box,color=blue];
-		j2284510754 -> j2612352479;
-	j2612352479 [label="มันก็แค่... 
-ไม่ใช่สิ่งที่ข้าอยากจะพูดถึง
+		1369 -> 1372;
+	1372 [label="มันก็แค่... 
+ไม่ใช่สิ่งที่ฉันอยากจะพูดถึง
 ไม่ใช่วันนี้",shape=box,color=blue];
-		j2612352479 -> j1122819042;
-		j2612352479 -> j3054964772;
-	j43568614 [label="เกลียดชื่อนั้นว่ะ 
+		1372 -> 1373;
+		1372 -> 1374;
+	1414 [label="Chat ends.",color=orange];
+	1399 [label="เกลียดชื่อนั้นว่ะ 
 Bruja เลือกชื่อนั้น 
-ข้าจำไม่ได้ว่าเคยโหวตชื่อนั้นหรือเปล่า",shape=box,color=blue];
-		j43568614 -> j3183084505;
-	j4014380823 [label="คำโง่ ๆ 
+ฉันจำไม่ได้ว่าเคยโหวตชื่อนั้นหรือเปล่า",shape=box,color=blue];
+		1399 -> 1402;
+	1400 [label="คำโง่ ๆ 
 ฟังดูเหมือนคิดขึ้นมาเอง 
-ข้าจำไม่ได้ว่าเคยโหวตมันหรือเปล่า",shape=box,color=blue];
-		j4014380823 -> j3183084505;
-	j1418724962 [label="Sí 
+ฉันจำไม่ได้ว่าเคยโหวตมันหรือเปล่า",shape=box,color=blue];
+		1400 -> 1402;
+	1401 [label="Sí 
 มันคือสิ่งที่เราเป็น 
 Monstruos, antinaturales 
 ที่ถูกสร้างโดยไอ้ cabrón นั่น",shape=box,color=blue];
-		j1418724962 -> j1717223558;
-	j4096741237 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j4096741237 -> j1791481038;
-		j4096741237 -> j212458692;
-	j2321148923 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j2321148923 -> j2196491449;
-	j3670133435 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j3670133435 -> j1910944154;
-	j3092722733 [label="ข้าไม่รู้ว่าเขาทำอะไรกับเจ้า แต่... ดูเหมือนว่ามันจะเป็นเรื่องรุนแรงนะ",shape=box,color=red];
-		j3092722733 -> j1910944154;
-	j2233597355 [label="ถามได้ไหมว่าเขาทำอะไร",shape=box,color=red];
-		j2233597355 -> j1910944154;
-	j1122819042 [label="ทำไมล่ะ",shape=box,color=red];
-		j1122819042 -> j3629972228;
-	j3054964772 [label="เข้าใจแล้ว ไม่เป็นไร",shape=box,color=red];
-		j3054964772 -> j3039104561;
-	j3183084505 [label="Ay, equis 
+		1401 -> 1403;
+	1458 [label="Update boolean LettieHexAsked",color=orange];
+		1458 -> 1460;
+		1458 -> 1461;
+	1364 [label="Update boolean LettieHexAsked",color=orange];
+		1364 -> 1375;
+	1365 [label="Update boolean LettieHexAsked",color=orange];
+		1365 -> 1376;
+	1366 [label="ข้าไม่รู้ว่าเขาทำอะไรกับเจ้า แต่... ดูเหมือนว่ามันจะเป็นเรื่องรุนแรงนะ",shape=box,color=red];
+		1366 -> 1368;
+	1367 [label="ถามได้ไหมว่าเขาทำอะไร",shape=box,color=red];
+		1367 -> 1368;
+	1373 [label="ทำไมล่ะ",shape=box,color=red];
+		1373 -> 1385;
+	1374 [label="เข้าใจแล้ว ไม่เป็นไร",shape=box,color=red];
+		1374 -> 1384;
+	1402 [label="Ay, equis 
 ไม่คุ้มที่จะทะเลาะกัน 
 ไม่ได้เปลี่ยนในสิ่งที่เราเป็น 
 ก็แค่ผลการทดลองทางวิทยาศาสตร์ที่บิดเบี้ยว 
 เป็นแค่หนูทดลอง",shape=box,color=blue];
-		j3183084505 -> j2720663697;
-	j1717223558 [label="เหมือนสิ่งมีชีวิตที่ถูกเย็บติดกันจากหนังสือเล่มนั้น 
+		1402 -> 1417;
+	1403 [label="เหมือนสิ่งมีชีวิตที่ถูกเย็บติดกันจากหนังสือเล่มนั้น 
 เป็นการทดลองทางวิทยาศาสตร์ที่บิดเบี้ยว 
 เป็นหนูทดลอง",shape=box,color=blue];
-		j1717223558 -> j2720663697;
-	j1791481038 [label="แล้วเจ้าไปพบกับ Entrati ได้ยังไงล่ะ?",shape=box,color=red];
-		j1791481038 -> j3438635186;
-	j212458692 [label="ถามได้ไหมว่าเกิดอะไรขึ้นต่อจากนั้น?",shape=box,color=red];
-		j212458692 -> j952642050;
-	j2196491449 [label="ไม่เกี่ยวกับความสบายใจนะ babas 
+		1403 -> 1417;
+	1460 [label="แล้วเจ้าไปพบกับ Entrati ได้ยังไงล่ะ?",shape=box,color=red];
+		1460 -> 1459;
+	1461 [label="ถามได้ไหมว่าเกิดอะไรขึ้นต่อจากนั้น?",shape=box,color=red];
+		1461 -> 1462;
+	1375 [label="ไม่เกี่ยวกับความสบายใจนะ babas 
 อยากได้ยินเหรอเรื่องที่ฉันต้องทำให้ใครจากไปอย่างสงบหรือตัดแขนขาออก 
 หรือเวลาที่แม่ร้องไห้ข้าง ๆ ลูกที่ตายไปแล้วและต้องบอกว่าฉันไม่สามารถช่วยอะไรได้ 
 ฉันเห็นแบบนั้นตลอดเวลาเลย 
 Me vale madre",shape=box,color=blue];
-		j2196491449 -> j2825846511;
-	j1910944154 [label="อืม 
+		1375 -> 1377;
+	1376 [label="อืม 
 ไม่ใช่เรื่องสนุกเลยเพื่อน 
 ไม่สนุกเลยที่จะฟัง 
 Mierda ไม่สนุกเลยที่จะเล่า",shape=box,color=blue];
-		j1910944154 -> j2825846511;
-	j3039104561 [label="+5 Chemistry",color=orange];
-		j3039104561 -> j1884678381;
-	j2720663697 [label="Check boolean LettieRats1",color=orange];
-		j2720663697 -> j1349383781 [label=true,color=green];
-		j2720663697 -> j1767513069 [label=false,color=brown];
-	j3438635186 [label="อืม ทำไมถึงถามล่ะ ¿babas?
-ไม่มีใครบอกเหรอว่าเกิดอะไรขึ้น",shape=box,color=blue];
-		j3438635186 -> j688071236;
-		j3438635186 -> j2951483874;
-		j3438635186 -> j2991198606;
-	j952642050 [label="Sí, ก็เพิ่งทำอยู่นี่ไง jajaja
-แต่ก็เข้าใจที่ถามนะ
-เพราะเห็นเอ็งเที่ยวเต้นถามไปรอบ ๆ เหมือนอยากเต้นแทงโก้เลย
-แต่ข้าไม่อยากพูดถึงเรื่องนี้
-ไม่มีใครบอกเลยเหรอว่าเกิดอะไรขึ้น",shape=box,color=blue];
-		j952642050 -> j688071236;
-		j952642050 -> j2951483874;
-		j952642050 -> j2991198606;
-	j2825846511 [label="มันก็แค่... 
-ไม่ใช่สิ่งที่ข้าอยากจะพูดถึง
-ไม่ใช่วันนี้",shape=box,color=blue];
-		j2825846511 -> j4165937807;
-		j2825846511 -> j2801913777;
-	j1884678381 [label="Gracias 
-เริ่มชินกับการที่มีเอ็งคอยเกะกะอยู่ข้าง ๆ แล้ว 
-อาจคิดถึงนะถ้าเอ็งจากไป 
+		1376 -> 1377;
+	1368 [label="อืม 
+ไม่ใช่เรื่องสนุกเลยเพื่อน 
+ไม่สนุกเลยที่จะฟัง 
+Mierda ไม่สนุกเลยที่จะเล่า",shape=box,color=blue];
+		1368 -> 1377;
+	1385 [label="เริ่มชินกับการที่มีเธอคอยเกะกะอยู่ข้าง ๆ แล้ว 
+อาจคิดถึงนะถ้าเธอจากไป 
 แต่อย่าเหลิงเชียว",shape=box,color=blue];
-		j1884678381 -> "Chat ends.";
-	j1349383781 [label="Check boolean LettieNoFlirt",color=orange];
-		j1349383781 -> j681747020 [label=true,color=green];
-		j1349383781 -> j2163037101 [label=true,color=green];
-		j1349383781 -> j681747020 [label=false,color=brown];
-		j1349383781 -> j2163037101 [label=false,color=brown];
-		j1349383781 -> j4063870155 [label=false,color=brown];
-	j1767513069 [label="Check boolean LettieRats2",color=orange];
-		j1767513069 -> j1349383781 [label=true,color=green];
-		j1767513069 -> j2998697729 [label=false,color=brown];
-	j688071236 [label="แค่พยายามอยากมองเห็นภาพรวมทั้งหมดน่ะ",shape=box,color=red];
-		j688071236 -> j442208117;
-	j2951483874 [label="ไม่มีใครคิดจะบอกข้าเลย พวกเขาเลี่ยงประเด็นนี้กันหมด",shape=box,color=red];
-		j2951483874 -> j4251427542;
-	j2991198606 [label="ข้าคิดว่าเจ้าน่าจะเป็นคนที่ให้คำตอบข้าตรง ๆ ได้",shape=box,color=red];
-		j2991198606 -> j1977250116;
-	j4165937807 [label="ทำไมล่ะ",shape=box,color=red];
-		j4165937807 -> j1176144700;
-	j2801913777 [label="เข้าใจแล้ว ไม่เป็นไร",shape=box,color=red];
-		j2801913777 -> j3914808093;
-	j681747020 [label="เจ้าห่างจากคำว่าหนูทดลองไปไกลเลย Lettie",shape=box,color=red];
-		j681747020 -> j2878354732;
-	j2163037101 [label="อืม ข้าคิดว่าหนูเป็นสัตว์ที่ฉลาด เข้ากับสังคมได้ และน่ารักนะ",shape=box,color=red];
-		j2163037101 -> j271114009;
-	j4063870155 [label="เป็นหนูทดลองที่เซ็กซี่ที่สุดที่เคยเห็นมาเลย",shape=box,color=red];
-		j4063870155 -> j1027767559;
-	j2998697729 [label="Check boolean LettieRats3",color=orange];
-		j2998697729 -> j1349383781 [label=true,color=green];
-		j2998697729 -> j4030809656 [label=false,color=brown];
-	j442208117 [label="+10 Chemistry",color=orange];
-		j442208117 -> j3300024131;
-	j4251427542 [label="+15 Chemistry",color=orange];
-		j4251427542 -> j987384044;
-	j1977250116 [label="+20 Chemistry",color=orange];
-		j1977250116 -> j1551307481;
-	j1176144700 [label="เริ่มชินกับการที่มีเอ็งคอยเกะกะอยู่ข้าง ๆ แล้ว 
-อาจคิดถึงนะถ้าเอ็งจากไป 
+		1385 -> 1386;
+	1384 [label="+5 Chemistry",color=orange];
+		1384 -> 1388;
+	1417 [label="Check boolean LettieRats1",color=orange];
+		1417 -> 1420 [label=true,color=green];
+		1417 -> 1418 [label=false,color=brown];
+	1459 [label="อืม ทำไมถึงถามล่ะ ¿babas?
+ไม่มีใครบอกเหรอว่าเกิดอะไรขึ้น",shape=box,color=blue];
+		1459 -> 1463;
+		1459 -> 1464;
+		1459 -> 1465;
+	1462 [label="Sí, เธอก็ทำอยู่นี่ไง jajaja
+แต่ที่ถามมาก็เข้าใจอยู่ 
+เพราะเห็นเที่ยวเต้นถามไปรอบ ๆ เหมือนอยากเต้นแทงโก้เลย
+ฉันไม่อยากพูดถึงเรื่องนี้นักหรอก
+ไม่มีใครบอกเลยเหรอว่าเกิดอะไรขึ้น",shape=box,color=blue];
+		1462 -> 1463;
+		1462 -> 1464;
+		1462 -> 1465;
+	1377 [label="มันก็แค่... 
+ไม่ใช่สิ่งที่ฉันอยากจะพูดถึง
+ไม่ใช่วันนี้",shape=box,color=blue];
+		1377 -> 1379;
+		1377 -> 1378;
+	1386 [label="Chat ends.",color=orange];
+	1388 [label="Gracias 
+เริ่มชินกับการที่มีเธอคอยเกะกะอยู่ข้าง ๆ แล้ว 
+อาจคิดถึงนะถ้าเธอจากไป 
+แต่อย่าเหลิงเชียว",shape=box,color=blue];
+		1388 -> 1387;
+	1420 [label="Check boolean LettieNoFlirt",color=orange];
+		1420 -> 1422 [label=true,color=green];
+		1420 -> 1424 [label=true,color=green];
+		1420 -> 1422 [label=false,color=brown];
+		1420 -> 1424 [label=false,color=brown];
+		1420 -> 1425 [label=false,color=brown];
+	1418 [label="Check boolean LettieRats2",color=orange];
+		1418 -> 1420 [label=true,color=green];
+		1418 -> 1419 [label=false,color=brown];
+	1463 [label="แค่พยายามอยากมองเห็นภาพรวมทั้งหมดน่ะ",shape=box,color=red];
+		1463 -> 1469;
+	1464 [label="ไม่มีใครคิดจะบอกข้าเลย พวกเขาเลี่ยงประเด็นนี้กันหมด",shape=box,color=red];
+		1464 -> 1470;
+	1465 [label="ข้าคิดว่าเจ้าน่าจะเป็นคนที่ให้คำตอบข้าตรง ๆ ได้",shape=box,color=red];
+		1465 -> 1471;
+	1379 [label="ทำไมล่ะ",shape=box,color=red];
+		1379 -> 1380;
+	1378 [label="เข้าใจแล้ว ไม่เป็นไร",shape=box,color=red];
+		1378 -> 1381;
+	1387 [label="Chat ends.",color=orange];
+	1422 [label="เจ้าห่างจากคำว่าหนูทดลองไปไกลเลย Lettie",shape=box,color=red];
+		1422 -> 1423;
+	1424 [label="อืม ข้าคิดว่าหนูเป็นสัตว์ที่ฉลาด เข้ากับสังคมได้ และน่ารักนะ",shape=box,color=red];
+		1424 -> 1434;
+	1425 [label="เป็นหนูทดลองที่เซ็กซี่ที่สุดที่เคยเห็นมาเลย",shape=box,color=red];
+		1425 -> 1435;
+	1419 [label="Check boolean LettieRats3",color=orange];
+		1419 -> 1420 [label=true,color=green];
+		1419 -> 1421 [label=false,color=brown];
+	1469 [label="+10 Chemistry",color=orange];
+		1469 -> 1466;
+	1470 [label="+15 Chemistry",color=orange];
+		1470 -> 1467;
+	1471 [label="+20 Chemistry",color=orange];
+		1471 -> 1468;
+	1380 [label="เริ่มชินกับการที่มีเธอคอยเกะกะอยู่ข้าง ๆ แล้ว 
+อาจคิดถึงนะถ้าเธอจากไป 
 No dejes que se te suba a la cabeza",shape=box,color=blue];
-		j1176144700 -> "Chat ends.";
-	j3914808093 [label="Gracias
-เริ่มชินกับการที่มีเอ็งคอยเกะกะอยู่ข้าง ๆ แล้ว 
-อาจคิดถึงนะถ้าเอ็งจากไป 
+		1380 -> 1382;
+	1381 [label="Gracias
+เริ่มชินกับการที่มีเธอคอยเกะกะอยู่ข้าง ๆ แล้ว 
+อาจคิดถึงนะถ้าเธอจากไป 
 No dejes que se te suba a la cabeza",shape=box,color=blue];
-		j3914808093 -> "Chat ends.";
-	j2878354732 [label="¿Ay, sí? 
+		1381 -> 1383;
+	1423 [label="¿Ay, sí? 
 ถูกทดลอง ติดเชื้อ ถูกทารุณ 
 ถูกโยนทิ้งไปเมื่อใช้เสร็จแล้ว 
 มีอันตรายหากปล่อยทิ้งไว้จนโรคแพร่กระจาย",shape=box,color=blue];
-		j2878354732 -> j3138603818;
-		j2878354732 -> j917575622;
-	j271114009 [label="+10 Chemistry",color=orange];
-		j271114009 -> j1946202273;
-	j1027767559 [label="+10 Chemistry",color=orange];
-		j1027767559 -> j1317669671;
-	j4030809656 [label="Check boolean LettieNoFlirt",color=orange];
-		j4030809656 -> j2036437817 [label=true,color=green];
-		j4030809656 -> j3628122753 [label=true,color=green];
-		j4030809656 -> j4063870155 [label=false,color=brown];
-		j4030809656 -> j2036437817 [label=false,color=brown];
-		j4030809656 -> j3628122753 [label=false,color=brown];
-	j3300024131 [label="Ay, sííí
+		1423 -> 1432;
+		1423 -> 1433;
+	1434 [label="+10 Chemistry",color=orange];
+		1434 -> 1426;
+	1435 [label="+10 Chemistry",color=orange];
+		1435 -> 1427;
+	1421 [label="Check boolean LettieNoFlirt",color=orange];
+		1421 -> 1428 [label=true,color=green];
+		1421 -> 1429 [label=true,color=green];
+		1421 -> 1425 [label=false,color=brown];
+		1421 -> 1428 [label=false,color=brown];
+		1421 -> 1429 [label=false,color=brown];
+	1466 [label="Ay, sííí
 รู้ว่าพยายามอยู่
-และถ้าไม่มีใครยอมเล่า ข้าเดาว่าคงต้องขึ้นอยู่กับ Mamá Lettie แล้ว
-พอดีว่านี่เป็นเรื่องที่ข้าไม่อยากเล่า
-โดยเฉพาะอย่างยิ่งเพราะข้าชินกับการที่มีเอ็งคอยเกะกะอยู่ข้าง ๆ แล้วด้วย",shape=box,color=blue];
-		j3300024131 -> j1736840836;
-	j987384044 [label="อืมมม แล้วเอ็งก็สงสัยว่าทำไม 
-นึกว่า Mamá Lettie น่าจะบอกความจริงให้เอ็งฟังแล้ว 
-ปกติแล้วเอ็งพูดถูกนะ babas 
-แต่เรื่องนี้ข้าไม่อยากบอก 
-โดยเฉพาะอย่างยิ่งเพราะข้าชินกับการที่มีเอ็งคอยเกะกะอยู่ข้าง ๆ แล้ว",shape=box,color=blue];
-		j987384044 -> j1736840836;
-	j1551307481 [label="JAJAJA Sííí 
-ปกติแล้วเอ็งพูดถูกนะ babas 
+และถ้าไม่มีใครยอมเล่า ฉันเดาว่าคงต้องขึ้นอยู่กับ Mamá Lettie แล้ว
+พอดีว่านี่เป็นเรื่องที่ฉันไม่อยากเล่า
+โดยเฉพาะอย่างยิ่งในตอนที่ฉันชินกับการที่มีเธอคอยเกะกะอยู่ข้าง ๆ แบบนี้",shape=box,color=blue];
+		1466 -> 1472;
+	1467 [label="อืมมม นั่นเลยทำให้เธอสงสัยว่าทำไม 
+นึกว่า Mamá Lettie น่าจะบอกความจริงให้เธอฟังไปแล้ว 
+ปกติแล้วเธอก็พูดถูกนะ babas 
+แต่เรื่องนี้ฉันไม่อยากเล่านักหรอก 
+โดยเฉพาะอย่างยิ่งในตอนที่ฉันชินกับการที่มีเธอคอยเกะกะอยู่ข้าง ๆ แบบนี้",shape=box,color=blue];
+		1467 -> 1472;
+	1468 [label="JAJAJA Sííí 
+ปกติแล้วเธอก็พูดถูกนะ babas 
 แต่เรื่องนี้
-ข้าไม่อยากบอกเลย 
-โดยเฉพาะอย่างยิ่งเพราะข้าชินกับการที่มีเอ็งคอยเกะกะอยู่ข้าง ๆ แล้ว",shape=box,color=blue];
-		j1551307481 -> j1736840836;
-	j3138603818 [label="“แพร่กระจายโรค” หมายความว่าไง?",shape=box,color=red];
-		j3138603818 -> j1377537476;
-	j917575622 [label="หนูทดลองไม่ควรต้องรับผิดชอบต่อสิ่งที่นักวิทยาศาสตร์บังคับให้มันทำ",shape=box,color=red];
-		j917575622 -> j860075400;
-	j1946202273 [label="Nngh, sí, bien jugado 
+ฉันไม่อยากเล่าเลย 
+โดยเฉพาะอย่างยิ่งในตอนที่ฉันชินกับการที่มีเธอคอยเกะกะอยู่ข้าง ๆ แบบนี้",shape=box,color=blue];
+		1468 -> 1472;
+	1382 [label="Chat ends.",color=orange];
+	1383 [label="Chat ends.",color=orange];
+	1432 [label="“แพร่กระจายโรค” หมายความว่าไง?",shape=box,color=red];
+		1432 -> 1455;
+	1433 [label="หนูทดลองไม่ควรต้องรับผิดชอบต่อสิ่งที่นักวิทยาศาสตร์บังคับให้มันทำ",shape=box,color=red];
+		1433 -> 1454;
+	1426 [label="Nngh, sí, bien jugado 
 แต่ไม่ได้หมายความว่ามีสิทธิ์ที่จะแพร่เชื้อโรคนะ",shape=box,color=blue];
-		j1946202273 -> j3138603818;
-		j1946202273 -> j917575622;
-	j1317669671 [label="Jajaja, gracias 
-เอ็งมักรู้วิธีที่ทำให้ข้ายิ้มได้ 
+		1426 -> 1432;
+		1426 -> 1433;
+	1427 [label="Jajaja, gracias 
+เธอมักรู้วิธีที่ทำให้ฉันยิ้มได้ 
 แต่ไม่ได้หมายความว่ามีสิทธิ์ที่จะแพร่เชื้อโรคนะ",shape=box,color=blue];
-		j1317669671 -> j3138603818;
-		j1317669671 -> j917575622;
-	j2036437817 [label="เจ้าห่างจากคำว่าหนูทดลองไปไกลเลย Lettie",shape=box,color=red];
-		j2036437817 -> j1194463712;
-	j3628122753 [label="แล้วต้องทำยังไงล่ะ ต้องทำให้พวกเจ้าทุกคนจากไปอย่างสงบเหรอ",shape=box,color=red];
-		j3628122753 -> j231378492;
-	j1736840836 [label="อาจคิดถึงนะถ้าเอ็งจากไป 
-และเรื่องนี้อาจจะทำให้เอ็งรีบหันหลังแล้วเดินจากไปก็ได้ 
+		1427 -> 1432;
+		1427 -> 1433;
+	1428 [label="เจ้าห่างจากคำว่าหนูทดลองไปไกลเลย Lettie",shape=box,color=red];
+		1428 -> 1430;
+	1429 [label="แล้วต้องทำยังไงล่ะ ต้องทำให้พวกเจ้าทุกคนจากไปอย่างสงบเหรอ",shape=box,color=red];
+		1429 -> 1431;
+	1472 [label="อาจคิดถึงนะถ้าเธอจากไป 
+และเรื่องนี้อาจจะทำให้เธอรีบหันหลังแล้วเดินจากไปเลยก็ได้ 
 เพราะงั้นไว้เล่าวันอื่นเถอะ 
 อ้อ babas 
 No dejes que se te suba a la cabeza",shape=box,color=blue];
-		j1736840836 -> "Chat ends.";
-	j1377537476 [label="+10 Chemistry",color=orange];
-		j1377537476 -> j1713114834;
-	j860075400 [label="+10 Chemistry",color=orange];
-		j860075400 -> j582839111;
-	j1194463712 [label="¿Ay, sí? 
+		1472 -> 1473;
+	1455 [label="+10 Chemistry",color=orange];
+		1455 -> 1452;
+	1454 [label="+10 Chemistry",color=orange];
+		1454 -> 1453;
+	1430 [label="¿Ay, sí? 
 ถูกทดลอง ติดเชื้อ ถูกทารุณ 
 ถูกโยนทิ้งไปเมื่อใช้เสร็จแล้ว 
 มีอันตรายหากปล่อยทิ้งไว้จนโรคแพร่กระจาย",shape=box,color=blue];
-		j1194463712 -> j3138603818;
-		j1194463712 -> j2217676294;
-	j231378492 [label="ถ้าเราไม่ติดอยู่ในวังวนนี้ 
-เอ็งก็ต้องทำแบบนั้น ไม่งั้นเราคงจะบ้าคลั่งเหมือนที่ Bruja Metiche เป็นในฝันร้ายนั่น 
-จริงมั้ย?",shape=box,color=blue];
-		j231378492 -> j68456787;
-		j231378492 -> j245920356;
-	j1713114834 [label="ไอ้ Entrati cabrón นั่นสมควรตายอย่างช้า ๆ และเจ็บปวด 
-และหวังว่าข้าจะได้เป็นคนส่งมันไปที่ La Flaca ด้วยตัวเอง",shape=box,color=blue];
-		j1713114834 -> j2862862998;
-	j582839111 [label="Sí... 
+		1430 -> 1436;
+		1430 -> 1437;
+	1431 [label="ถ้าเราไม่ติดอยู่ในวังวนนี้ 
+เธอก็ต้องทำแบบนั้น ไม่งั้นเราคงจะบ้าคลั่งเหมือนที่ Bruja Metiche เป็นในฝันร้ายนั่น 
+จริงไหม",shape=box,color=blue];
+		1431 -> 1438;
+		1431 -> 1439;
+	1473 [label="Chat ends.",color=orange];
+	1452 [label="ไอ้ Entrati cabrón นั่นสมควรตายอย่างช้า ๆ และเจ็บปวด 
+และหวังว่าฉันจะได้เป็นคนส่งมันไปที่ La Flaca ด้วยตัวเอง",shape=box,color=blue];
+		1452 -> 1456;
+	1453 [label="Sí... 
 เข้าใจดีนี่ 
 ไอ้ Entrati cabrón นั่นสมควรตายอย่างช้า ๆ และเจ็บปวด 
-และหวังว่าข้าจะได้เป็นคนส่งมันไปที่ La Flaca ด้วยตัวเอง",shape=box,color=blue];
-		j582839111 -> j2862862998;
-	j2217676294 [label="เรื่องทั้งหมดนี่โทษเจ้าไม่ได้นะ Lettie",shape=box,color=red];
-		j2217676294 -> j2278362358;
-	j68456787 [label="อือ ท้ายที่สุดเจ้าอาจจะเป็นแบบนั้น",shape=box,color=red];
-		j68456787 -> j1633623173;
-	j245920356 [label="อืม ถ้าทำการถ่ายโอน มันอาจจะช้าลงก็ได้...",shape=box,color=red];
-		j245920356 -> j701280142;
-	j2862862998 [label="Pero ข้าคงจะไม่เล่าเรื่องนั้นในวันนี้ 
+และหวังว่าฉันจะได้เป็นคนส่งมันไปที่ La Flaca ด้วยตัวเอง",shape=box,color=blue];
+		1453 -> 1456;
+	1436 [label="“แพร่กระจายโรค” หมายความว่าไง?",shape=box,color=red];
+		1436 -> 1441;
+	1437 [label="เรื่องทั้งหมดนี่โทษเจ้าไม่ได้นะ Lettie",shape=box,color=red];
+		1437 -> 1442;
+	1438 [label="อือ ท้ายที่สุดเจ้าอาจจะเป็นแบบนั้น",shape=box,color=red];
+		1438 -> 1445;
+	1439 [label="อืม ถ้าทำการถ่ายโอน มันอาจจะช้าลงก็ได้...",shape=box,color=red];
+		1439 -> 1446;
+	1456 [label="Pero ฉันคงจะไม่เล่าเรื่องนั้นในวันนี้ 
 มีเรื่องยุ่ง ๆ ต้องทำอีกเยอะเลย 
 และเรื่องแย่ ๆ นั่นพูดวันนี้ไม่ไหวหรอก 
 เราทั้งคู่กลับไปทำงานกันเถอะ",shape=box,color=blue];
-		j2862862998 -> "Chat ends.";
-	j2278362358 [label="Jajaja 
+		1456 -> 1457;
+	1441 [label="+10 Chemistry",color=orange];
+		1441 -> 1440;
+	1442 [label="Jajaja 
 แน่ใจขนาดนั้นเลยเหรอ ¿babas? 
 รอก่อนเถอะ 
-เอ็งอาจจะเปลี่ยนใจก็ได้นะ",shape=box,color=blue];
-		j2278362358 -> j2862862998;
-	j1633623173 [label="+10 Chemistry",color=orange];
-		j1633623173 -> j2097792986;
-	j701280142 [label="อย่ามาโกหกนะ babas 
-ข้าไม่ต้องการการปกป้อง เอ็งน่าจะรู้เรื่องนี้ดีอยู่แล้ว",shape=box,color=blue];
-		j701280142 -> j3082093694;
-	j2097792986 [label="เห็นมั้ย 
+เธออาจจะเปลี่ยนใจก็ได้นะ",shape=box,color=blue];
+		1442 -> 1443;
+	1445 [label="+10 Chemistry",color=orange];
+		1445 -> 1449;
+	1446 [label="อย่ามาโกหกนะ babas 
+ฉันไม่ต้องการการปกป้อง เธอเองน่าจะรู้เรื่องนี้ดีอยู่แล้ว",shape=box,color=blue];
+		1446 -> 1447;
+	1457 [label="Chat ends.",color=orange];
+	1440 [label="ไอ้ Entrati cabrón นั่นสมควรตายอย่างช้า ๆ และเจ็บปวด 
+และหวังว่าฉันจะได้เป็นคนส่งมันไปที่ La Flaca ด้วยตัวเอง",shape=box,color=blue];
+		1440 -> 1443;
+	1443 [label="Pero ฉันคงจะไม่เล่าเรื่องนั้นในวันนี้ 
+มีเรื่องยุ่ง ๆ ต้องทำอีกเยอะเลย 
+และเรื่องแย่ ๆ นั่นพูดวันนี้ไม่ไหวหรอก 
+เราทั้งคู่กลับไปทำงานกันเถอะ",shape=box,color=blue];
+		1443 -> 1444;
+	1449 [label="เห็นมั้ย 
 Monstruos 
 แต่คงไม่เป็นไรมั้ง 
 เราติดอยู่ที่นี่ ก็ไม่เป็นอันตรายกับใครมากนักหรอก",shape=box,color=blue];
-		j2097792986 -> j1630914429;
-	j3082093694 [label="Ay, equis 
+		1449 -> 1450;
+	1447 [label="Ay, equis 
 Vete",shape=box,color=blue];
-		j3082093694 -> "Chat ends.";
-	j1630914429 [label="Ay, equis 
+		1447 -> 1448;
+	1444 [label="Chat ends.",color=orange];
+	1450 [label="Ay, equis 
 เราทั้งคู่กลับไปทำงานกันเถอะ 
 Vete, babas",shape=box,color=blue];
-		j1630914429 -> "Chat ends.";
+		1450 -> 1451;
+	1448 [label="Chat ends.",color=orange];
+	1451 [label="Chat ends.",color=orange];
 }

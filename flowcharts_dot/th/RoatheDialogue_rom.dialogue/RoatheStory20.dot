@@ -1,0 +1,33 @@
+digraph {
+	2317 [label="RoatheStory20 begins.",color=orange];
+		2317 -> 5678;
+	5678 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5678 -> 2318 [label=true,color=green];
+		5678 -> 5679 [label=false,color=brown];
+	2318 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2318 -> 2312 [label="x >= 20",color=purple];
+		2318 -> 2315 [label="false",color=purple];
+	5679 [label="Chat ends.",color=orange];
+	2312 [label="VM: SUBMISSION",shape=box,color=blue];
+		2312 -> 2311;
+	2315 [label="Chat ends.",color=orange];
+	2311 [label="บันทึก: ข้าเข้าใจตั้งแต่แรกเริ่ม ทั้งในสนามรบและในห้องนอนว่า เส้นทางสู่ชัยชนะนั้นต้องทำให้ดูเหมือนว่าจะยอมจำนน",shape=box,color=blue];
+		2311 -> 5722;
+	5722 [label="ในที่ที่ศัตรูเห็นว่าเรายอมศิโรราบ ที่ที่เรามั่นใจว่าเมื่อเขาผลัก เราจะล้มเขาได้อย่างง่ายดาย",shape=box,color=blue];
+		5722 -> 5723;
+	5723 [label="ทุกคนต่างเรียกข้าว่า \"ลูกสมุน\" หรือไม่ก็ \"สุนัขเลี้ยง\" Nitokh คิดว่าตัวเองควบคุมได้ แต่ข้านำทางนางอย่างแนบเนียน ",shape=box,color=blue];
+		5723 -> 2310;
+	2310 [label="Roathe ผู้มือเปื้อนเลือด Roathe ยักษ์ที่อ้วนพีบนร่างของลูกน้อง ใช้ชีวิตสุรุ่ยสุร่าย",shape=box,color=blue];
+		2310 -> 2314;
+	2314 [label="ราวกับว่าข้าต่อสู้เพียงเพื่อชัยชนะ! ไม่หรอก จักรวรรดิ Orokin ต้องล่มสลาย",shape=box,color=blue];
+		2314 -> 5724;
+	5724 [label="และเพื่อจะทำให้เป็นเช่นนั้น สงครามต้องดำเนินต่อไป มีเพียงความพ่ายแพ้อย่างเด็ดขาดและลบล้างไม่ได้เท่านั้นที่จะโค่นล้มการ์กอยล์สีทองทั้งเจ็ดตนได้",shape=box,color=blue];
+		5724 -> 2316;
+	2316 [label="แม้แต่ Nitokh ก็ยังไม่รู้หัวใจที่แท้จริงของข้า นางคิดว่าข้าปรารถนาที่จะปกครองเคียงข้างนาง",shape=box,color=blue];
+		2316 -> 2309;
+	2309 [label="Add 1 to HellStory",color=orange];
+		2309 -> 2347;
+	2347 [label="{\"Id\":2347,\"Incoming\":[2309],\"Outgoing\":[2313],\"GraphPos\":[4758,-3705],\"CompletionType\":1}",color=orange];
+		2347 -> 2313;
+	2313 [label="Chat ends.",color=orange];
+}

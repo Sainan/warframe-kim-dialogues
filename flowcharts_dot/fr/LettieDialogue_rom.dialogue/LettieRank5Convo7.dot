@@ -1,225 +1,232 @@
 digraph {
-	"LettieRank5Convo7 begins." [color=orange];
-		"LettieRank5Convo7 begins." -> j4288606571;
-	j4288606571 [label="Check boolean LettieDating",color=orange];
-		j4288606571 -> j4246492473 [label=true,color=green];
-		j4288606571 -> "Chat ends." [label=false,color=brown];
-	j4246492473 [label="Si on t'arrache à moi 
+	2314 [label="LettieRank5Convo7 begins.",color=orange];
+		2314 -> 2315;
+	2315 [label="Check boolean LettieDating",color=orange];
+		2315 -> 2317 [label=true,color=green];
+		2315 -> 2316 [label=false,color=brown];
+	2317 [label="Si on t'arrache à moi 
 Qui devrai-je remercier pour ça? 
 Qu'est-ce qui va t'enlever?",shape=box,color=blue];
-		j4246492473 -> j1325430317;
-		j4246492473 -> j1123617925;
-	"Chat ends." [color=orange];
-	j1325430317 [label="Je vais dire ça avec tout l'amour et le respect du monde: tu es nulle pour entamer des conversations.",shape=box,color=red];
-		j1325430317 -> j2525987508;
-	j1123617925 [label="Minute, excuse-moi, qu'est-ce que tu me demandes?",shape=box,color=red];
-		j1123617925 -> j3064922351;
-	j2525987508 [label="+5 Chemistry",color=orange];
-		j2525987508 -> j1627855793;
-	j3064922351 [label="Je suis juste tellement curieuse de savoir quand le futur t'enlèvera
+		2317 -> 2318;
+		2317 -> 2319;
+	2316 [label="Chat ends.",color=orange];
+	2318 [label="Je vais dire ça avec tout l'amour et le respect du monde: tu es nulle pour entamer des conversations.",shape=box,color=red];
+		2318 -> 2322;
+	2319 [label="Minute, excuse-moi, qu'est-ce que tu me demandes?",shape=box,color=red];
+		2319 -> 2321;
+	2322 [label="+5 Chemistry",color=orange];
+		2322 -> 2320;
+	2321 [label="Je suis juste tellement curieuse de savoir quand le futur t'enlèvera
 Comment ça se passera et pourquoi",shape=box,color=blue];
-		j3064922351 -> j2186683786;
-		j3064922351 -> j2431192857;
-	j1627855793 [label="¡JAJAJA SÍ!
+		2321 -> 2323;
+		2321 -> 2325;
+	2320 [label="¡JAJAJA SÍ!
 C'est sûr, lo siento
 Je suis juste tellement curieuse de savoir quand le futur t'enlèvera
 Comment ça se passera et pourquoi",shape=box,color=blue];
-		j1627855793 -> j2186683786;
-		j1627855793 -> j2431192857;
-	j2186683786 [label="Même si je devais partir, qui dit que je ne reviendrais pas?",shape=box,color=red];
-		j2186683786 -> j268072447;
-	j2431192857 [label="Tu détestes quand je fais des suppositions sur toi.",shape=box,color=red];
-		j2431192857 -> j1989878945;
-	j268072447 [label="Peut-être que tu essaierais 
+		2320 -> 2323;
+		2320 -> 2325;
+	2323 [label="Même si je devais partir, qui dit que je ne reviendrais pas?",shape=box,color=red];
+		2323 -> 2324;
+	2325 [label="Tu détestes quand je fais des suppositions sur toi.",shape=box,color=red];
+		2325 -> 2326;
+	2324 [label="Peut-être que tu essaierais 
 Et peut-être que tu réussirais même 
 Tu es très difficile à tuer jaja 
 Mais je connais très bien les soldats, solecito 
 Et les soldats ne reviennent pas toujours de la guerre 
 Alors, dis-moi pourquoi",shape=box,color=blue];
-		j268072447 -> j3234434887;
-	j1989878945 [label="Sí, en effet
+		2324 -> 2328;
+	2326 [label="Sí, en effet
 Mais je connais aussi très bien les soldats, solecito
 Et tu es un soldat, que tu le veuilles ou non 
 Quand les soldats sont appelés pour \"sauver le monde\" 
 C'est ce qu'ils font 
 Alors, dis-moi pourquoi",shape=box,color=blue];
-		j1989878945 -> j3234434887;
-	j3234434887 [label="Check boolean LettieReligion2",color=orange];
-		j3234434887 -> j487864672 [label=true,color=green];
-		j3234434887 -> j2626860531 [label=true,color=green];
-		j3234434887 -> j3650784892 [label=true,color=green];
-		j3234434887 -> j1379897673 [label=true,color=green];
-		j3234434887 -> j487864672 [label=false,color=brown];
-		j3234434887 -> j1039591984 [label=false,color=brown];
-		j3234434887 -> j1992016374 [label=false,color=brown];
-		j3234434887 -> j1379897673 [label=false,color=brown];
-	j487864672 [label="Entrati. J'ai l'impression que je n'ai peut-être pas fini de le poursuivre.",shape=box,color=red];
-		j487864672 -> j3920303327;
-	j2626860531 [label="Mon Xipe Totec. Je sais mieux que personne pourquoi il *doit* être arrêté.",shape=box,color=red];
-		j2626860531 -> j2919972062;
-	j3650784892 [label="Tau. Si c'est là qu'Entrati se dirige, mon Xipe Totec le suivra. Et c'est trop important, je ne peux pas le permettre.",shape=box,color=red];
-		j3650784892 -> j3204689239;
-	j1379897673 [label="Je ne partirai JAMAIS. Fin de l'histoire.",shape=box,color=red];
-		j1379897673 -> j3965132581;
-	j1039591984 [label="L'Homme dans le Mur. Je sais mieux que personne pourquoi il *doit* être arrêté.",shape=box,color=red];
-		j1039591984 -> j2919972062;
-	j1992016374 [label="Tau. Si c'est là qu'Entrati se dirige, l'Homme dans le Mur le suivra. Et c'est trop important, je ne peux pas le permettre.",shape=box,color=red];
-		j1992016374 -> j3204689239;
-	j3920303327 [label="Comme si j'avais besoin de plus de raisons pour détester ce cabrón 
+		2326 -> 2328;
+	2328 [label="Check boolean LettieReligion2",color=orange];
+		2328 -> 2327 [label=true,color=green];
+		2328 -> 2329 [label=true,color=green];
+		2328 -> 2330 [label=true,color=green];
+		2328 -> 2333 [label=true,color=green];
+		2328 -> 2327 [label=false,color=brown];
+		2328 -> 2331 [label=false,color=brown];
+		2328 -> 2332 [label=false,color=brown];
+		2328 -> 2333 [label=false,color=brown];
+	2327 [label="Entrati. J'ai l'impression que je n'ai peut-être pas fini de le poursuivre.",shape=box,color=red];
+		2327 -> 2334;
+	2329 [label="Mon Xipe Totec. Je sais mieux que personne pourquoi il *doit* être arrêté.",shape=box,color=red];
+		2329 -> 2335;
+	2330 [label="Tau. Si c'est là qu'Entrati se dirige, mon Xipe Totec le suivra. Et c'est trop important, je ne peux pas le permettre.",shape=box,color=red];
+		2330 -> 2336;
+	2333 [label="Je ne partirai JAMAIS. Fin de l'histoire.",shape=box,color=red];
+		2333 -> 2337;
+	2331 [label="L'Homme dans le Mur. Je sais mieux que personne pourquoi il *doit* être arrêté.",shape=box,color=red];
+		2331 -> 2335;
+	2332 [label="Tau. Si c'est là qu'Entrati se dirige, l'Homme dans le Mur le suivra. Et c'est trop important, je ne peux pas le permettre.",shape=box,color=red];
+		2332 -> 2336;
+	2334 [label="Comme si j'avais besoin de plus de raisons pour détester ce cabrón 
 Maintenant, tu m'en donnes une de plus 
 Mais il va ruiner plus d'endroits et plus de vies 
 Comme il en a ruiné tant d'autres",shape=box,color=blue];
-		j3920303327 -> j2486193317;
-	j2919972062 [label="Ton histoire avec le dieu écorché du Néant... sí
+		2334 -> 2338;
+	2335 [label="Ton histoire avec le dieu écorché du Néant... sí
 J'ai peur qu'elle ne soit pas terminée 
 Et qui suis-je pour penser que je suis assez importante pour m'y opposer",shape=box,color=blue];
-		j2919972062 -> j635813058;
-	j3204689239 [label="Check boolean LettieSentients",color=orange];
-		j3204689239 -> j3498549688 [label=true,color=green];
-		j3204689239 -> j4132762640 [label=false,color=brown];
-	j3965132581 [label="Quelle naïveté
+		2335 -> 2339;
+	2336 [label="Check boolean LettieSentients",color=orange];
+		2336 -> 2340 [label=true,color=green];
+		2336 -> 2341 [label=false,color=brown];
+	2337 [label="Quelle naïveté
 Cette histoire entre nous est clairement une erreur, babas 
 Tu es trop jeune pour moi, je pense 
 Si tu ne peux pas voir la réalité en face",shape=box,color=blue];
-		j3965132581 -> j2548450594;
-	j2486193317 [label="Ay, sí 
+		2337 -> 2342;
+	2338 [label="Ay, sí 
 Si ce n'est pas l'un d'entre nous qui doit lui mettre une balle dans le crâne, ce devrait être toi 
 Et j'espère qu'une fois que tu lui auras fait payer, 
 Tu reviendras vers nous 
 Et vers moi",shape=box,color=blue];
-		j2486193317 -> j3897967119;
-	j635813058 [label="Peut-être que lorsque tu auras finalement vaincu ton dieu écorché 
+		2338 -> 2364;
+	2339 [label="Peut-être que lorsque tu auras finalement vaincu ton dieu écorché 
 Tu ne nous oublieras pas ici dans ce cuchitril 
 Tu reviendras vers nous 
 Et vers moi",shape=box,color=blue];
-		j635813058 -> j1669298430;
-	j3498549688 [label="Tau. C'est là que les... sentients ont été envoyés, ¿no?
+		2339 -> 2365;
+	2340 [label="Tau. C'est là que les... sentients ont été envoyés, ¿no?
 Cette fausse race créée par les faux dieux, les Orokins",shape=box,color=blue];
-		j3498549688 -> j4113633158;
-	j4132762640 [label="Parle-moi de Tau 
+		2340 -> 2350;
+	2341 [label="Parle-moi de Tau 
 Qu'est-ce que c'est 
 Dis-moi pourquoi ça t'éloignerait de moi",shape=box,color=blue];
-		j4132762640 -> j1618868161;
-	j2548450594 [label="Boolean LettieDating is now false.",color=orange];
-		j2548450594 -> j4086907321;
-	j3897967119 [label="Je te promets que SI j'y vais, je reviendrai.",shape=box,color=red];
-		j3897967119 -> j3754870858;
-	j1669298430 [label="Tout ce que je peux promettre, c'est de faire de mon mieux.",shape=box,color=red];
-		j1669298430 -> j1963952790;
-	j4113633158 [label="Ouais, mais alors on ne se serait jamais rencontrés. On ne serait jamais sortis ensemble. Alors... il y a un bon côté?",shape=box,color=red];
-		j4113633158 -> j4036677513;
-	j1618868161 [label="Tau est une planète d'un autre système solaire, où les Orokins ont envoyé une race synthétique qu'ils ont créée afin de la terraformer pour nous.",shape=box,color=red];
-		j1618868161 -> j998510366;
-	j4086907321 [label="Boolean IsDating is now false.",color=orange];
-		j4086907321 -> j2703113057;
-	j3754870858 [label="+10 Chemistry",color=orange];
-		j3754870858 -> j1690255922;
-	j1963952790 [label="+20 Chemistry",color=orange];
-		j1963952790 -> j3406016213;
-	j4036677513 [label="Jajaja sí 
+		2341 -> 2346;
+	2342 [label="Update boolean LettieDating",color=orange];
+		2342 -> 2343;
+	2364 [label="Je te promets que SI j'y vais, je reviendrai.",shape=box,color=red];
+		2364 -> 2368;
+	2365 [label="Tout ce que je peux promettre, c'est de faire de mon mieux.",shape=box,color=red];
+		2365 -> 2371;
+	2350 [label="Ouais, mais alors on ne se serait jamais rencontrés. On ne serait jamais sortis ensemble. Alors... il y a un bon côté?",shape=box,color=red];
+		2350 -> 2352;
+	2346 [label="Tau est une planète d'un autre système solaire, où les Orokins ont envoyé une race synthétique qu'ils ont créée afin de la terraformer pour nous.",shape=box,color=red];
+		2346 -> 2347;
+	2343 [label="Update boolean IsDating",color=orange];
+		2343 -> 2344;
+	2368 [label="+10 Chemistry",color=orange];
+		2368 -> 2366;
+	2371 [label="+20 Chemistry",color=orange];
+		2371 -> 2367;
+	2352 [label="Jajaja sí 
 C'est le bon côté 
 Mais pourquoi? 
 Pourquoi cet endroit est-il si important qu'il t'enlèvera à moi un jour",shape=box,color=blue];
-		j4036677513 -> j977286583;
-		j4036677513 -> j358568766;
-		j4036677513 -> j897743928;
-	j998510366 [label="Cette race s'appelait Sentients. Mais les Sentients se sont retournés contre les Orokins. Ils sont revenus ici et leur ont déclaré la guerre.",shape=box,color=red];
-		j998510366 -> j3947457311;
-	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
-		j2703113057 -> "Chat ends.";
-	j1690255922 [label="Combien de soldaditos ont fait cette promesse 
+		2352 -> 2354;
+		2352 -> 2355;
+		2352 -> 2356;
+	2347 [label="Cette race s'appelait Sentients. Mais les Sentients se sont retournés contre les Orokins. Ils sont revenus ici et leur ont déclaré la guerre.",shape=box,color=red];
+		2347 -> 2348;
+	2344 [label="Update boolean LettieNoDate",color=orange];
+		2344 -> 2345;
+	2366 [label="Combien de soldaditos ont fait cette promesse 
 Et sont morts dans un fossé une heure plus tard 
 Aaay mais je sais que tu le penses quand tu le dis 
 Tu vas essayer",shape=box,color=blue];
-		j1690255922 -> "Chat ends.";
-	j3406016213 [label="C'est une promesse à laquelle je peux croire
+		2366 -> 2369;
+	2367 [label="C'est une promesse à laquelle je peux croire
 C'est une promesse à laquelle je veux croire
 Merci, mi corazón",shape=box,color=blue];
-		j3406016213 -> j1472871842;
-	j977286583 [label="Difficile à dire. Mais si Entrati *et* l'Homme dans le Mur vont là-bas... ça doit être important.",shape=box,color=red];
-		j977286583 -> j3639741139;
-	j358568766 [label="C'était le seul espoir de survie de l'humanité. Et c'est peut-être encore le cas, honnêtement.",shape=box,color=red];
-		j358568766 -> j2581076678;
-	j897743928 [label="Difficile à dire. Mais les Sentients ont dit des choses énigmatiques.",shape=box,color=red];
-		j897743928 -> j3040831752;
-	j3947457311 [label="Et c'est cette guerre qui a poussé les Orokins à créer l'Infestation et les Warframes. Pour combattre les Sentients.",shape=box,color=red];
-		j3947457311 -> j460552448;
-	j1472871842 [label="Boolean LettieReal is now true.",color=orange];
-		j1472871842 -> "Chat ends.";
-	j3639741139 [label="Oui 
+		2367 -> 2370;
+	2354 [label="Difficile à dire. Mais si Entrati *et* l'Homme dans le Mur vont là-bas... ça doit être important.",shape=box,color=red];
+		2354 -> 2357;
+	2355 [label="C'était le seul espoir de survie de l'humanité. Et c'est peut-être encore le cas, honnêtement.",shape=box,color=red];
+		2355 -> 2358;
+	2356 [label="Difficile à dire. Mais les Sentients ont dit des choses énigmatiques.",shape=box,color=red];
+		2356 -> 2360;
+	2348 [label="Et c'est cette guerre qui a poussé les Orokins à créer l'Infestation et les Warframes. Pour combattre les Sentients.",shape=box,color=red];
+		2348 -> 2349;
+	2345 [label="Chat ends.",color=orange];
+	2369 [label="Chat ends.",color=orange];
+	2370 [label="Update boolean LettieReal",color=orange];
+		2370 -> 2372;
+	2357 [label="Oui 
 Et j'espère qu'une fois que tu auras été lui faire payer 
 Tu reviendras vers nous 
 Et vers moi",shape=box,color=blue];
-		j3639741139 -> j3897967119;
-		j3639741139 -> j1669298430;
-	j2581076678 [label="Ay no 
+		2357 -> 2364;
+		2357 -> 2365;
+	2358 [label="Ay no 
 Alors on pourra détruire une deuxième planète comme celle-ci 
 Je pense que je suis d'accord avec les sentients jajaja 
 De plus, on dirait qu'on s'en est très bien sortis dans l'espace, ¿no?",shape=box,color=blue];
-		j2581076678 -> j7077720;
-		j2581076678 -> j1151142235;
-	j3040831752 [label="¿Cómo qué? 
+		2358 -> 2362;
+		2358 -> 2363;
+	2360 [label="¿Cómo qué? 
 ¿Comme quoi?",shape=box,color=blue];
-		j3040831752 -> j2500970256;
-		j3040831752 -> j3514253761;
-	j460552448 [label="Donc, s'il n'y avait pas eu Tau et ces Sentients 
+		2360 -> 2359;
+		2360 -> 2361;
+	2349 [label="Donc, s'il n'y avait pas eu Tau et ces Sentients 
 Cette fausse race créée par ces faux dieux Orokins 
 Ces pendejadas ne seraient jamais arrivées",shape=box,color=blue];
-		j460552448 -> j4113633158;
-		j460552448 -> j551044627;
-	j7077720 [label="C'est pas faux. lol",shape=box,color=red];
-		j7077720 -> j798055885;
-	j1151142235 [label="Tu devrais peut-être attendre de voir le futur avant de dire ça.",shape=box,color=red];
-		j1151142235 -> j798055885;
-	j2500970256 [label="\"Tout est calme et silencieux. Vide et tranquille est le ciel en son sein.\"",shape=box,color=red];
-		j2500970256 -> j1180953502;
-	j3514253761 [label="\"À peine protégés, à peine formés, les dit-on. Il n'y avait pas leur mère, il n'y avait pas leur père.\"",shape=box,color=red];
-		j3514253761 -> j1180953502;
-	j551044627 [label="Essentiellement.",shape=box,color=red];
-		j551044627 -> j4278506378;
-	j798055885 [label="+10 Chemistry",color=orange];
-		j798055885 -> j630109873;
-	j1180953502 [label="¡¿QUÉ?! 
+		2349 -> 2350;
+		2349 -> 2351;
+	2372 [label="Chat ends.",color=orange];
+	2362 [label="C'est pas faux. lol",shape=box,color=red];
+		2362 -> 2375;
+	2363 [label="Tu devrais peut-être attendre de voir le futur avant de dire ça.",shape=box,color=red];
+		2363 -> 2375;
+	2359 [label="\"Tout est calme et silencieux. Vide et tranquille est le ciel en son sein.\"",shape=box,color=red];
+		2359 -> 2376;
+	2361 [label="\"À peine protégés, à peine formés, les dit-on. Il n'y avait pas leur mère, il n'y avait pas leur père.\"",shape=box,color=red];
+		2361 -> 2376;
+	2351 [label="Essentiellement.",shape=box,color=red];
+		2351 -> 2353;
+	2375 [label="+10 Chemistry",color=orange];
+		2375 -> 2373;
+	2376 [label="¡¿QUÉ?! 
 QU'EST-CE QUE TU VIENS DE DIRE?! 
 ATTENDS ATTENDS ATTENDS ATTENDS ATTENDS",shape=box,color=blue];
-		j1180953502 -> j2353363137;
-	j4278506378 [label="Mais pourquoi? 
+		2376 -> 2377;
+	2353 [label="Mais pourquoi? 
 Pourquoi cet endroit est-il si important qu'il t'enlèvera à moi un jour",shape=box,color=blue];
-		j4278506378 -> j977286583;
-		j4278506378 -> j358568766;
-		j4278506378 -> j897743928;
-	j630109873 [label="Retour au travail pour moi 
+		2353 -> 2354;
+		2353 -> 2355;
+		2353 -> 2356;
+	2373 [label="Retour au travail pour moi 
 Encore et toujours 
 Ça ne finira... jamais",shape=box,color=blue];
-		j630109873 -> "Chat ends.";
-	j2353363137 [label="¿POR QUÉ? pourquoi les créatures d'un futur lointain citent-elles ¿a los PUEBLOS ANTIGUOS? 
+		2373 -> 2374;
+	2377 [label="¿POR QUÉ? pourquoi les créatures d'un futur lointain citent-elles ¿a los PUEBLOS ANTIGUOS? 
 ¿Qué chingados está pasando ahora?",shape=box,color=blue];
-		j2353363137 -> j3455526867;
-		j2353363137 -> j3090399658;
-	j3455526867 [label="Euh, attends. Comment? Citer quoi?",shape=box,color=red];
-		j3455526867 -> j2016411590;
-	j3090399658 [label="Lettie, je ne te suis pas. Rembobine.",shape=box,color=red];
-		j3090399658 -> j2016411590;
-	j2016411590 [label="AGGHHHHH ça n'a aucun sens 
+		2377 -> 2378;
+		2377 -> 2379;
+	2374 [label="Chat ends.",color=orange];
+	2378 [label="Euh, attends. Comment? Citer quoi?",shape=box,color=red];
+		2378 -> 2380;
+	2379 [label="Lettie, je ne te suis pas. Rembobine.",shape=box,color=red];
+		2379 -> 2380;
+	2380 [label="AGGHHHHH ça n'a aucun sens 
 Ces mots proviennent de textes de l'ancien peuple de Chichén Itzá. OÙ AS-TU TROUVÉ ÇA?!",shape=box,color=blue];
-		j2016411590 -> j186332771;
-	j186332771 [label="CEUX-CI PROVIENNENT D'UN TEXTE SACRÉ DE LOS PUEBLOS ANTIGUOS 
+		2380 -> 2381;
+	2381 [label="CEUX-CI PROVIENNENT D'UN TEXTE SACRÉ DE LOS PUEBLOS ANTIGUOS 
 \"¡¿CÓMO Y POR QUÉ !?\"",shape=box,color=blue];
-		j186332771 -> j3784619878;
-		j186332771 -> j1892940120;
-	j3784619878 [label="Je... je ne... je ne sais pas. Je n’en ai aucune idée. Je ne peux que tenter de deviner.",shape=box,color=red];
-		j3784619878 -> j3714164690;
-	j1892940120 [label="Voyage dans le temps...?",shape=box,color=red];
-		j1892940120 -> j3714164690;
-	j3714164690 [label="+20 Chemistry",color=orange];
-		j3714164690 -> j2453913123;
-	j2453913123 [label="Je ne bois pas 
+		2381 -> 2382;
+		2381 -> 2383;
+	2382 [label="Je... je ne... je ne sais pas. Je n’en ai aucune idée. Je ne peux que tenter de deviner.",shape=box,color=red];
+		2382 -> 2387;
+	2383 [label="Voyage dans le temps...?",shape=box,color=red];
+		2383 -> 2387;
+	2387 [label="+20 Chemistry",color=orange];
+		2387 -> 2384;
+	2384 [label="Je ne bois pas 
 Mais si c'était le cas, ce serait le moment idéal
 Aaayyyy cette folie empire de jour en jour",shape=box,color=blue];
-		j2453913123 -> j407046590;
-	j407046590 [label="Je... dois m'asseoir, mi corazón 
+		2384 -> 2385;
+	2385 [label="Je... dois m'asseoir, mi corazón 
 Ne me parle pas du futur pendant un moment, ¿Sí? 
 Je crois que j'en ai mon compte pour l'instant
 Ça me donne une sacrée migraine",shape=box,color=blue];
-		j407046590 -> j1472871842;
+		2385 -> 2386;
+	2386 [label="Update boolean LettieReal",color=orange];
+		2386 -> 2388;
+	2388 [label="Chat ends.",color=orange];
 }

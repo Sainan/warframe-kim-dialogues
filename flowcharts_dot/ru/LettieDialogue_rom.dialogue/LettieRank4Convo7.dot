@@ -1,128 +1,128 @@
 digraph {
-	"LettieRank4Convo7 begins." [color=orange];
-		"LettieRank4Convo7 begins." -> j1148540829;
-		"LettieRank4Convo7 begins." -> j2299938515;
-	j1148540829 [label="Как ты оказалась вовлечена во всё это дело с Артуром и Гексом?",shape=box,color=red];
-		j1148540829 -> j4293324513;
-	j2299938515 [label="Кажется, ты действительно... ОЧЕНЬ ненавидишь Энтрати. Почему?",shape=box,color=red];
-		j2299938515 -> j2824785799;
-	j4293324513 [label="Check boolean LettieArthur1",color=orange];
-		j4293324513 -> j1058878501 [label=true,color=green];
-		j4293324513 -> j3480849192 [label=false,color=brown];
-	j2824785799 [label="Check boolean LettieCavia",color=orange];
-		j2824785799 -> j552733088 [label=true,color=green];
-		j2824785799 -> j3470538414 [label=false,color=brown];
-	j1058878501 [label="Мм 
+	1303 [label="LettieRank4Convo7 begins.",color=orange];
+		1303 -> 1304;
+		1303 -> 1308;
+	1304 [label="Как ты оказалась вовлечена во всё это дело с Артуром и Гексом?",shape=box,color=red];
+		1304 -> 1306;
+	1308 [label="Кажется, ты действительно... ОЧЕНЬ ненавидишь Энтрати. Почему?",shape=box,color=red];
+		1308 -> 1309;
+	1306 [label="Check boolean LettieArthur1",color=orange];
+		1306 -> 1305 [label=true,color=green];
+		1306 -> 1307 [label=false,color=brown];
+	1309 [label="Check boolean LettieCavia",color=orange];
+		1309 -> 1310 [label=true,color=green];
+		1309 -> 1311 [label=false,color=brown];
+	1305 [label="Мм 
 Это не весёлая история, друг 
 Хуже, чем кровавая баня, где мы с Артуром стали hermanos 
 Не весело слушать 
 Mierda, не весело рассказывать",shape=box,color=blue];
-		j1058878501 -> j934784109;
-		j1058878501 -> j2547421439;
-	j3480849192 [label="Somos hermanos, Артур и я 
+		1305 -> 1326;
+		1305 -> 1327;
+	1307 [label="Somos hermanos, Артур и я 
 Мы давно знакомы 
 Я обещала следовать за ним куда угодно 
 Похоже, он имел в виду до края Mictlán",shape=box,color=blue];
-		j3480849192 -> j3300897004;
-	j552733088 [label="Check boolean LettieLoid",color=orange];
-		j552733088 -> j1096171844 [label=true,color=green];
-		j552733088 -> j4040708208 [label=false,color=brown];
-	j3470538414 [label="Check boolean LettieLoid",color=orange];
-		j3470538414 -> j416292857 [label=true,color=green];
-		j3470538414 -> j504966913 [label=false,color=brown];
-	j934784109 [label="Если тебе некомфортно говорить об этом, ничего страшного.",shape=box,color=red];
-		j934784109 -> j1216689033;
-	j2547421439 [label="Без проблем. Есть вещи, которые я ещё не рассказал тебе.",shape=box,color=red];
-		j2547421439 -> j217433989;
-	j3300897004 [label="Мы были на одной базе 
+		1307 -> 1332;
+	1310 [label="Check boolean LettieLoid",color=orange];
+		1310 -> 1312 [label=true,color=green];
+		1310 -> 1313 [label=false,color=brown];
+	1311 [label="Check boolean LettieLoid",color=orange];
+		1311 -> 1314 [label=true,color=green];
+		1311 -> 1315 [label=false,color=brown];
+	1326 [label="Если тебе некомфортно говорить об этом, ничего страшного.",shape=box,color=red];
+		1326 -> 1328;
+	1327 [label="Без проблем. Есть вещи, которые я ещё не рассказал тебе.",shape=box,color=red];
+		1327 -> 1331;
+	1332 [label="Мы были на одной базе 
 Он в Британии, а я в армии Либертатии 
 Разные страны, те же враги",shape=box,color=blue];
-		j3300897004 -> j1308592519;
-	j1096171844 [label="Check boolean LettieEntratiFamily",color=orange];
-		j1096171844 -> j1590436914 [label=true,color=green];
-		j1096171844 -> j3709474246 [label=false,color=brown];
-	j4040708208 [label="Check boolean LettieEntratiFamily",color=orange];
-		j4040708208 -> j1035382287 [label=true,color=green];
-		j4040708208 -> j3104578835 [label=false,color=brown];
-	j416292857 [label="Check boolean LettieEntratiFamily",color=orange];
-		j416292857 -> j3004820193 [label=true,color=green];
-		j416292857 -> j476454146 [label=false,color=brown];
-	j504966913 [label="Check boolean LettieEntratiFamily",color=orange];
-		j504966913 -> j471914090 [label=true,color=green];
-		j504966913 -> j408618646 [label=false,color=brown];
-	j1216689033 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j1216689033 -> j4162403246;
-	j217433989 [label="+10 Chemistry",color=orange];
-		j217433989 -> j3104847043;
-	j1308592519 [label="Я была полевым медиком в моём полку 
+		1332 -> 1333;
+	1312 [label="Check boolean LettieEntratiFamily",color=orange];
+		1312 -> 1316 [label=true,color=green];
+		1312 -> 1317 [label=false,color=brown];
+	1313 [label="Check boolean LettieEntratiFamily",color=orange];
+		1313 -> 1318 [label=true,color=green];
+		1313 -> 1319 [label=false,color=brown];
+	1314 [label="Check boolean LettieEntratiFamily",color=orange];
+		1314 -> 1321 [label=true,color=green];
+		1314 -> 1322 [label=false,color=brown];
+	1315 [label="Check boolean LettieEntratiFamily",color=orange];
+		1315 -> 1323 [label=true,color=green];
+		1315 -> 1324 [label=false,color=brown];
+	1328 [label="Update boolean LettieHexAsked",color=orange];
+		1328 -> 1329;
+	1331 [label="+10 Chemistry",color=orange];
+		1331 -> 1330;
+	1333 [label="Я была полевым медиком в моём полку 
 Наши подразделения стояли рядом 
 Там начался полный cagadero
 Очень быстро",shape=box,color=blue];
-		j1308592519 -> j3444777659;
-	j1590436914 [label="Sí 
+		1333 -> 1334;
+	1316 [label="Sí 
 Может быть, я и правда так думаю 
 Но после всего, что ты рассказал мне 
 О том, как он мучил тех бедных животных 
 Бросил свою семью 
 И того человека, который его любит 
 Как я могу не ненавидеть этого cabrón?!",shape=box,color=blue];
-		j1590436914 -> j4106797655;
-	j3709474246 [label="Sí 
+		1316 -> 1320;
+	1317 [label="Sí 
 Может быть, я и правда так думаю 
 Но после всего, что ты рассказал мне 
 О том, как он мучил тех бедных животных 
 И того человека, который его любит 
 Как я могу не ненавидеть этого cabrón?!",shape=box,color=blue];
-		j3709474246 -> j4106797655;
-	j1035382287 [label="Sí 
+		1317 -> 1320;
+	1318 [label="Sí 
 Может быть, я и правда так думаю 
 Но после всего, что ты рассказал мне 
 О том, как он мучил тех бедных животных 
 Бросил свою семью 
 Как я могу не ненавидеть этого cabrón?!",shape=box,color=blue];
-		j1035382287 -> j4106797655;
-	j3104578835 [label="Sí 
+		1318 -> 1320;
+	1319 [label="Sí 
 Может быть, я и правда так думаю 
 Но после всего, что ты рассказал мне 
 О том, как он мучил тех бедных животных 
 Как я могу не ненавидеть этого cabrón?!",shape=box,color=blue];
-		j3104578835 -> j4106797655;
-	j3004820193 [label="Sí 
+		1319 -> 1320;
+	1321 [label="Sí 
 Может быть, я и правда так думаю 
 Но после всего, что ты рассказал мне 
 Как бросил свою семью 
 И того человека, который его любит 
 Как я могу не ненавидеть этого cabrón?!",shape=box,color=blue];
-		j3004820193 -> j507724002;
-	j476454146 [label="Sí 
+		1321 -> 1325;
+	1322 [label="Sí 
 Может быть, я и правда так думаю 
 Но после всего, что ты рассказал мне 
 О том, как бросил того человека, который его любит 
 Как я могу не ненавидеть этого cabrón?!",shape=box,color=blue];
-		j476454146 -> j507724002;
-	j471914090 [label="Sí 
+		1322 -> 1325;
+	1323 [label="Sí 
 Может быть, я и правда так думаю 
 Но после всего, что ты рассказал мне 
 О том, как бросил свою семью 
 Как я могу не ненавидеть этого cabrón?!",shape=box,color=blue];
-		j471914090 -> j507724002;
-	j408618646 [label="Sí 
+		1323 -> 1325;
+	1324 [label="Sí 
 Может быть, я и правда так думаю 
 Но после всего, что ты рассказал мне 
 Как я могу не ненавидеть этого cabrón?!",shape=box,color=blue];
-		j408618646 -> j507724002;
-	j4162403246 [label="Дело не в комфорте, babas 
+		1324 -> 1325;
+	1329 [label="Дело не в комфорте, babas 
 Ты хочешь услышать о том, сколько раз мне приходилось усыплять кого-то или отрезать конечности 
 О том, как я видела плачущую мать рядом с мёртвым ребёнком и говорила ей, что не могу его спасти 
 Я вижу это всё время 
 Me vale madre",shape=box,color=blue];
-		j4162403246 -> j3081709380;
-		j4162403246 -> j1899154180;
-	j3104847043 [label="Sí 
+		1329 -> 1336;
+		1329 -> 1335;
+	1330 [label="Sí 
 У нас у всех есть вещи, которые мы не рассказываем 
 Пока не будем уверены, что человек не изменит своего отношения к нам",shape=box,color=blue];
-		j3104847043 -> j350353099;
-	j3444777659 [label="Большинство моей команды не выжили 
+		1330 -> 1340;
+	1334 [label="Большинство моей команды не выжили 
 Большинство его тоже 
 Мы поддерживали друг друга 
 В буквальном смысле 
@@ -130,399 +130,437 @@ Me vale madre",shape=box,color=blue];
 Когда он ушёл из армии и пошёл в МСР 
 Я пошла за ним без вопросов 
 Мне уже надоели все эти драмы, которые происходят в армии",shape=box,color=blue];
-		j3444777659 -> j225394097;
-	j4106797655 [label="Check boolean LettieTrust1",color=orange];
-		j4106797655 -> j2279996603 [label=true,color=green];
-		j4106797655 -> j18466137 [label=true,color=green];
-		j4106797655 -> j2326957132 [label=false,color=brown];
-		j4106797655 -> j1701821619 [label=false,color=brown];
-	j507724002 [label="Check boolean LettieTrust1",color=orange];
-		j507724002 -> j2279996603 [label=true,color=green];
-		j507724002 -> j1701821619 [label=true,color=green];
-		j507724002 -> j4201948455 [label=true,color=green];
-		j507724002 -> j1701821619 [label=false,color=brown];
-		j507724002 -> j4201948455 [label=false,color=brown];
-	j3081709380 [label="Так в чём проблема?",shape=box,color=red];
-		j3081709380 -> j264288499;
-	j1899154180 [label="Ладно? Прости?",shape=box,color=red];
-		j1899154180 -> j1263770990;
-	j350353099 [label="Check boolean LettieNoFlirt",color=orange];
-		j350353099 -> j3416996940 [label=true,color=green];
-		j350353099 -> j2792832053 [label=true,color=green];
-		j350353099 -> j3416996940 [label=false,color=brown];
-		j350353099 -> j2792832053 [label=false,color=brown];
-		j350353099 -> j2844021770 [label=false,color=brown];
-	j225394097 [label="Boolean LettieArthur1 is now true.",color=orange];
-		j225394097 -> j1338305584;
-		j225394097 -> j4160879397;
-	j2279996603 [label="То, как ты говоришь о нём, и то, как я знаю, насколько для тебя важно доверие... Похоже, дело личное.",shape=box,color=red];
-		j2279996603 -> j251398282;
-	j18466137 [label="Я знаю, как ты ненавидишь, когда кто-то предаёт доверие других. Особенно животных.",shape=box,color=red];
-		j18466137 -> j2221158278;
-	j2326957132 [label="Люди, которые причиняют боль животным, имеют особое место в аду, без сомнений. Но кажется, тут что-то большее.",shape=box,color=red];
-		j2326957132 -> j2221158278;
-	j1701821619 [label="Да, но похоже, у тебя против него личная обида.",shape=box,color=red];
-		j1701821619 -> j4015463197;
-	j4201948455 [label="Хорошо, это меня устраивает.",shape=box,color=red];
-		j4201948455 -> j495880547;
-	j264288499 [label="Это может изменить твоё мнение о нас babas 
+		1334 -> 1341;
+	1320 [label="Check boolean LettieTrust1",color=orange];
+		1320 -> 1342 [label=true,color=green];
+		1320 -> 1343 [label=true,color=green];
+		1320 -> 1344 [label=false,color=brown];
+		1320 -> 1345 [label=false,color=brown];
+	1325 [label="Check boolean LettieTrust1",color=orange];
+		1325 -> 1346 [label=true,color=green];
+		1325 -> 1347 [label=true,color=green];
+		1325 -> 1348 [label=true,color=green];
+		1325 -> 1347 [label=false,color=brown];
+		1325 -> 1348 [label=false,color=brown];
+	1336 [label="Так в чём проблема?",shape=box,color=red];
+		1336 -> 1339;
+	1335 [label="Ладно? Прости?",shape=box,color=red];
+		1335 -> 1337;
+	1340 [label="Check boolean LettieNoFlirt",color=orange];
+		1340 -> 1404 [label=true,color=green];
+		1340 -> 1405 [label=true,color=green];
+		1340 -> 1404 [label=false,color=brown];
+		1340 -> 1405 [label=false,color=brown];
+		1340 -> 1406 [label=false,color=brown];
+	1341 [label="Update boolean LettieArthur1",color=orange];
+		1341 -> 1389;
+		1341 -> 1390;
+	1342 [label="То, как ты говоришь о нём, и то, как я знаю, насколько для тебя важно доверие... Похоже, дело личное.",shape=box,color=red];
+		1342 -> 1359;
+	1343 [label="Я знаю, как ты ненавидишь, когда кто-то предаёт доверие других. Особенно животных.",shape=box,color=red];
+		1343 -> 1360;
+	1344 [label="Люди, которые причиняют боль животным, имеют особое место в аду, без сомнений. Но кажется, тут что-то большее.",shape=box,color=red];
+		1344 -> 1360;
+	1345 [label="Да, но похоже, у тебя против него личная обида.",shape=box,color=red];
+		1345 -> 1354;
+	1346 [label="То, как ты говоришь о нём, и то, как я знаю, насколько для тебя важно доверие... Похоже, дело личное.",shape=box,color=red];
+		1346 -> 1359;
+	1347 [label="Да, но похоже, у тебя против него личная обида.",shape=box,color=red];
+		1347 -> 1354;
+	1348 [label="Хорошо, это меня устраивает.",shape=box,color=red];
+		1348 -> 1350;
+	1339 [label="Это может изменить твоё мнение о нас babas 
 И я не уверена, что могу доверять тебе настолько, чтобы быть уверенной, что ты не отвернёшься от меня.",shape=box,color=blue];
-		j264288499 -> j350353099;
-	j1263770990 [label="Sí, como quieras",shape=box,color=blue];
-		j1263770990 -> "Chat ends.";
-	j3416996940 [label="Ты до сих пор мне не доверяешь?",shape=box,color=red];
-		j3416996940 -> j4143501104;
-	j2792832053 [label="Мы все совершали ошибки в жизни. У меня есть уверенность в том, что, может, это не так уж и плохо.",shape=box,color=red];
-		j2792832053 -> j258765571;
-	j2844021770 [label="Осторожнее, а то я могу подумать, что ты ко мне привязываешься.",shape=box,color=red];
-		j2844021770 -> j357993544;
-	j1338305584 [label="А потом что? Как ты дошла до...",shape=box,color=red];
-		j1338305584 -> j812397342;
-	j4160879397 [label="Война отвратительна. Всегда, в любом её проявлении.",shape=box,color=red];
-		j4160879397 -> j152317730;
-	j251398282 [label="+15 Chemistry",color=orange];
-		j251398282 -> j1489557273;
-	j2221158278 [label="+20 Chemistry",color=orange];
-		j2221158278 -> j1926238872;
-	j4015463197 [label="Sí, так и есть
+		1339 -> 1340;
+	1337 [label="Sí, como quieras",shape=box,color=blue];
+		1337 -> 1338;
+	1404 [label="Ты до сих пор мне не доверяешь?",shape=box,color=red];
+		1404 -> 1411;
+	1405 [label="Мы все совершали ошибки в жизни. У меня есть уверенность в том, что, может, это не так уж и плохо.",shape=box,color=red];
+		1405 -> 1415;
+	1406 [label="Осторожнее, а то я могу подумать, что ты ко мне привязываешься.",shape=box,color=red];
+		1406 -> 1413;
+	1389 [label="А потом что? Как ты дошла до...",shape=box,color=red];
+		1389 -> 1391;
+	1390 [label="Война отвратительна. Всегда, в любом её проявлении.",shape=box,color=red];
+		1390 -> 1394;
+	1359 [label="+15 Chemistry",color=orange];
+		1359 -> 1352;
+	1360 [label="+20 Chemistry",color=orange];
+		1360 -> 1353;
+	1354 [label="Sí, так и есть
 У меня есть свои причины",shape=box,color=blue];
-		j4015463197 -> j1596456389;
-		j4015463197 -> j2582552812;
-	j495880547 [label="+10 Chemistry",color=orange];
-		j495880547 -> j4196049080;
-	"Chat ends." [color=orange];
-	j4143501104 [label="+10 Chemistry",color=orange];
-		j4143501104 -> j702237820;
-	j258765571 [label="+5 Chemistry",color=orange];
-		j258765571 -> j2982941184;
-	j357993544 [label="+10 Chemistry",color=orange];
-		j357993544 -> j2839486233;
-	j812397342 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j812397342 -> j1199677434;
-	j152317730 [label="Ценю это
+		1354 -> 1357;
+		1354 -> 1358;
+	1350 [label="+10 Chemistry",color=orange];
+		1350 -> 1349;
+	1338 [label="Chat ends.",color=orange];
+	1411 [label="+10 Chemistry",color=orange];
+		1411 -> 1407;
+	1415 [label="+5 Chemistry",color=orange];
+		1415 -> 1408;
+	1413 [label="+10 Chemistry",color=orange];
+		1413 -> 1409;
+	1391 [label="Update boolean LettieHexAsked",color=orange];
+		1391 -> 1392;
+	1394 [label="Ценю это
 Наши войны, должно быть, кажутся такими мелкими
 Твои звучат tan espectaculares y llamativas
 Полными dioses, ángeles y demonios",shape=box,color=blue];
-		j152317730 -> j2230962957;
-	j1489557273 [label="Ay, sí
+		1394 -> 1393;
+	1352 [label="Ay, sí
 Тебе удалось понять
 Нужно новое прозвище для тебя, ¿eh babas? Jaja",shape=box,color=blue];
-		j1489557273 -> j1449528014;
-	j1926238872 [label="Ay, sí 
+		1352 -> 1355;
+	1353 [label="Ay, sí 
 Животные больше всех заслуживают лучшего, что мы можем им дать 
 И когда доверие ломается вот так 
 Мне хочется убить человека 
 Конкретно ТОГО",shape=box,color=blue];
-		j1926238872 -> j427534995;
-	j1596456389 [label="Могу я спросить, что он сделал?",shape=box,color=red];
-		j1596456389 -> j553252289;
-	j2582552812 [label="Если тебе некомфортно говорить об этом, ничего страшного.",shape=box,color=red];
-		j2582552812 -> j2879401607;
-	j4196049080 [label="Sí 
+		1353 -> 1356;
+	1357 [label="Могу я спросить, что он сделал?",shape=box,color=red];
+		1357 -> 1371;
+	1358 [label="Если тебе некомфортно говорить об этом, ничего страшного.",shape=box,color=red];
+		1358 -> 1370;
+	1349 [label="Sí 
 Ese cabrón se puede ir brincando a la chingada",shape=box,color=blue];
-		j4196049080 -> "Chat ends.";
-	j702237820 [label="Может быть 
+		1349 -> 1351;
+	1407 [label="Может быть 
 Может, и нет 
 Привыкла, что ты всегда под ногами, babas 
 Может, я буду скучать, если ты уйдёшь 
 Не позволяй этому завладеть твоим разумом",shape=box,color=blue];
-		j702237820 -> "Chat ends.";
-	j2982941184 [label="Может быть 
+		1407 -> 1412;
+	1408 [label="Может быть 
 Может, и нет 
 Посмотрим 
 Но не сегодня",shape=box,color=blue];
-		j2982941184 -> "Chat ends.";
-	j2839486233 [label="Jajaja, sí 
+		1408 -> 1416;
+	1409 [label="Jajaja, sí 
 Может, я и правда так думаю 
 А может, я просто рада, что кто-то рядом, кто полезен, babas",shape=box,color=blue];
-		j2839486233 -> j3302804871;
-	j1199677434 [label="Дошла до чего, babas 
+		1409 -> 1410;
+	1392 [label="Дошла до чего, babas 
 ¿Monstruos?",shape=box,color=blue];
-		j1199677434 -> j786254256;
-		j1199677434 -> j1536089721;
-		j1199677434 -> j3565835474;
-	j2230962957 [label="+10 Chemistry",color=orange];
-		j2230962957 -> j247286559;
-	j1449528014 [label="Boolean LettieTrust2 is now true.",color=orange];
-		j1449528014 -> j2200811530;
-		j1449528014 -> j411554970;
-	j427534995 [label="Boolean LettieTrust2 is now true.",color=orange];
-		j427534995 -> j1283660927;
-	j553252289 [label="+10 Chemistry",color=orange];
-		j553252289 -> j513464457;
-	j2879401607 [label="Дело не в комфорте, babas 
+		1392 -> 1396;
+		1392 -> 1397;
+		1392 -> 1398;
+	1393 [label="+10 Chemistry",color=orange];
+		1393 -> 1395;
+	1355 [label="Update boolean LettieTrust2",color=orange];
+		1355 -> 1361;
+		1355 -> 1362;
+	1356 [label="Update boolean LettieTrust2",color=orange];
+		1356 -> 1363;
+	1371 [label="+10 Chemistry",color=orange];
+		1371 -> 1369;
+	1370 [label="Дело не в комфорте, babas 
 Ты хочешь услышать о том, сколько раз мне приходилось усыплять кого-то или отрезать конечности 
 О том, как я видела плачущую мать рядом с мёртвым ребёнком и говорила ей, что не могу его спасти 
 Я вижу это всё время 
 Me vale madre",shape=box,color=blue];
-		j2879401607 -> j683670219;
-	j3302804871 [label="Привыкла, что ты всегда под ногами 
+		1370 -> 1372;
+	1351 [label="Chat ends.",color=orange];
+	1412 [label="Chat ends.",color=orange];
+	1416 [label="Chat ends.",color=orange];
+	1410 [label="Привыкла, что ты всегда под ногами 
 Может, я буду скучать, если ты уйдёшь 
 Не позволяй этому завладеть твоим разумом",shape=box,color=blue];
-		j3302804871 -> "Chat ends.";
-	j786254256 [label="У меня на уме было слово «Гекс»",shape=box,color=red];
-		j786254256 -> j3617022202;
-	j1536089721 [label="У меня на уме было слово «Протофреймы»",shape=box,color=red];
-		j1536089721 -> j1423789461;
-	j3565835474 [label="Это то, кем ты себя считаешь?",shape=box,color=red];
-		j3565835474 -> j1126103108;
-	j247286559 [label="Но, думаю, в конце концов всё одинаково
+		1410 -> 1414;
+	1396 [label="У меня на уме было слово «Гекс»",shape=box,color=red];
+		1396 -> 1399;
+	1397 [label="У меня на уме было слово «Протофреймы»",shape=box,color=red];
+		1397 -> 1400;
+	1398 [label="Это то, кем ты себя считаешь?",shape=box,color=red];
+		1398 -> 1401;
+	1395 [label="Но, думаю, в конце концов всё одинаково
 Люди умирают в грязи и глине
 Доверие разрушено, жизни потеряны
 И La Flaca забирает их домой",shape=box,color=blue];
-		j247286559 -> j4096741237;
-	j2200811530 [label="Если тебе некомфортно говорить об этом, ничего страшного.",shape=box,color=red];
-		j2200811530 -> j149974802;
-	j411554970 [label="Что он *сделал* с тобой?",shape=box,color=red];
-		j411554970 -> j1135134160;
-	j1283660927 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j1283660927 -> j3552685553;
-		j1283660927 -> j3155085128;
-	j513464457 [label="Мм 
+		1395 -> 1458;
+	1361 [label="Если тебе некомфортно говорить об этом, ничего страшного.",shape=box,color=red];
+		1361 -> 1364;
+	1362 [label="Что он *сделал* с тобой?",shape=box,color=red];
+		1362 -> 1365;
+	1363 [label="Update boolean LettieHexAsked",color=orange];
+		1363 -> 1366;
+		1363 -> 1367;
+	1369 [label="Мм 
 Это не весёлая история
 Не весело слышать 
 Mierda, не весело рассказывать",shape=box,color=blue];
-		j513464457 -> j683670219;
-	j683670219 [label="Это просто... 
+		1369 -> 1372;
+	1372 [label="Это просто... 
 Не то, о чём я хочу говорить.
 Не сегодня",shape=box,color=blue];
-		j683670219 -> j4163203454;
-		j683670219 -> j3221011741;
-	j3617022202 [label="Ненавижу это имя 
+		1372 -> 1373;
+		1372 -> 1374;
+	1414 [label="Chat ends.",color=orange];
+	1399 [label="Ненавижу это имя 
 Эта bruja его выбрала 
 Не помню, чтобы за это голосовали",shape=box,color=blue];
-		j3617022202 -> j827783110;
-	j1423789461 [label="Глупое слово 
+		1399 -> 1402;
+	1400 [label="Глупое слово 
 Звучит так, словно ты его выдумал 
 Не помню, чтобы за это голосовали",shape=box,color=blue];
-		j1423789461 -> j827783110;
-	j1126103108 [label="Sí 
+		1400 -> 1402;
+	1401 [label="Sí 
 Это то, что мы являемся 
 Monstruos, antinaturales 
 Сделанные тем cabrón",shape=box,color=blue];
-		j1126103108 -> j1529162120;
-	j4096741237 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j4096741237 -> j3403521250;
-		j4096741237 -> j3439381396;
-	j149974802 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j149974802 -> j3746217737;
-	j1135134160 [label="Boolean LettieHexAsked is now true.",color=orange];
-		j1135134160 -> j4045058822;
-	j3552685553 [label="Я не знаю, что он сделал с тобой, но... похоже, это было тяжело.",shape=box,color=red];
-		j3552685553 -> j4045058822;
-	j3155085128 [label="Могу я спросить, что он сделал?",shape=box,color=red];
-		j3155085128 -> j4045058822;
-	j4163203454 [label="Почему нет?",shape=box,color=red];
-		j4163203454 -> j3302804871;
-	j3221011741 [label="Понимаю. Без проблем.",shape=box,color=red];
-		j3221011741 -> j3964615772;
-	j827783110 [label="Ay, equis 
+		1401 -> 1403;
+	1458 [label="Update boolean LettieHexAsked",color=orange];
+		1458 -> 1460;
+		1458 -> 1461;
+	1364 [label="Update boolean LettieHexAsked",color=orange];
+		1364 -> 1375;
+	1365 [label="Update boolean LettieHexAsked",color=orange];
+		1365 -> 1376;
+	1366 [label="Я не знаю, что он сделал с тобой, но... похоже, это было тяжело.",shape=box,color=red];
+		1366 -> 1368;
+	1367 [label="Могу я спросить, что он сделал?",shape=box,color=red];
+		1367 -> 1368;
+	1373 [label="Почему нет?",shape=box,color=red];
+		1373 -> 1385;
+	1374 [label="Понимаю. Без проблем.",shape=box,color=red];
+		1374 -> 1384;
+	1402 [label="Ay, equis 
 Не стоит спорить 
 Это не изменит того, кто мы есть 
 Просто изуродованные научные эксперименты 
 Лабораторные крысы",shape=box,color=blue];
-		j827783110 -> j2720663697;
-	j1529162120 [label="Как то сшитое существо из книги 
+		1402 -> 1417;
+	1403 [label="Как то сшитое существо из книги 
 Просто изуродованные научные эксперименты 
 Лабораторные крысы",shape=box,color=blue];
-		j1529162120 -> j2720663697;
-	j3403521250 [label="Как же ты встретилась с Энтрати, а?",shape=box,color=red];
-		j3403521250 -> j840120128;
-	j3439381396 [label="Могу я спросить, что было дальше?",shape=box,color=red];
-		j3439381396 -> j1920099338;
-	j3746217737 [label="Дело не в комфорте, babas 
+		1403 -> 1417;
+	1460 [label="Как же ты встретилась с Энтрати, а?",shape=box,color=red];
+		1460 -> 1459;
+	1461 [label="Могу я спросить, что было дальше?",shape=box,color=red];
+		1461 -> 1462;
+	1375 [label="Дело не в комфорте, babas 
 Ты хочешь услышать о том, сколько раз мне приходилось усыплять кого-то или отрезать конечности 
 О том, как я видела плачущую мать рядом с мёртвым ребёнком и говорила ей, что не могу его спасти 
 Я вижу это всё время 
 Me vale madre",shape=box,color=blue];
-		j3746217737 -> j2693439225;
-	j4045058822 [label="Мм 
+		1375 -> 1377;
+	1376 [label="Мм 
 Это не весёлая история 
 Не весело слышать 
 Mierda, не весело рассказывать",shape=box,color=blue];
-		j4045058822 -> j2693439225;
-	j3964615772 [label="+5 Chemistry",color=orange];
-		j3964615772 -> j1171005898;
-	j2720663697 [label="Check boolean LettieRats1",color=orange];
-		j2720663697 -> j1349383781 [label=true,color=green];
-		j2720663697 -> j1767513069 [label=false,color=brown];
-	j840120128 [label="Мм, почему ты спрашиваешь, ¿babas?
+		1376 -> 1377;
+	1368 [label="Мм 
+Это не весёлая история 
+Не весело слышать 
+Mierda, не весело рассказывать",shape=box,color=blue];
+		1368 -> 1377;
+	1385 [label="Привыкла, что ты всегда под ногами 
+Может, я буду скучать, если ты уйдёшь 
+Не позволяй этому завладеть твоим разумом",shape=box,color=blue];
+		1385 -> 1386;
+	1384 [label="+5 Chemistry",color=orange];
+		1384 -> 1388;
+	1417 [label="Check boolean LettieRats1",color=orange];
+		1417 -> 1420 [label=true,color=green];
+		1417 -> 1418 [label=false,color=brown];
+	1459 [label="Мм, почему ты спрашиваешь, ¿babas?
 Тебе никто не рассказывал, что произошло?",shape=box,color=blue];
-		j840120128 -> j2062233098;
-		j840120128 -> j3038886134;
-		j840120128 -> j2540714752;
-	j1920099338 [label="Sí, у тебя только что получилось это сделать jajaja
+		1459 -> 1463;
+		1459 -> 1464;
+		1459 -> 1465;
+	1462 [label="Sí, у тебя только что получилось это сделать jajaja
 Но я понимаю, что ты пытаешься спросить
 И ты ходишь вокруг да около, как будто хочешь станцевать танго
 Ты же знаешь, я не хочу об этом говорить
 Тебе никто не рассказал, что произошло?",shape=box,color=blue];
-		j1920099338 -> j2062233098;
-		j1920099338 -> j3038886134;
-		j1920099338 -> j2540714752;
-	j2693439225 [label="Это просто... 
+		1462 -> 1463;
+		1462 -> 1464;
+		1462 -> 1465;
+	1377 [label="Это просто... 
 Это не то, что я хочу обсуждать 
 Не сегодня",shape=box,color=blue];
-		j2693439225 -> j1095878323;
-		j2693439225 -> j361383103;
-	j1171005898 [label="Gracias 
+		1377 -> 1379;
+		1377 -> 1378;
+	1386 [label="Chat ends.",color=orange];
+	1388 [label="Gracias 
 Привыкла, что ты всегда под ногами 
 Может, я буду скучать, если ты уйдёшь 
 Не позволяй этому завладеть твоим разумом",shape=box,color=blue];
-		j1171005898 -> "Chat ends.";
-	j1349383781 [label="Check boolean LettieNoFlirt",color=orange];
-		j1349383781 -> j4123227103 [label=true,color=green];
-		j1349383781 -> j2242924740 [label=true,color=green];
-		j1349383781 -> j4123227103 [label=false,color=brown];
-		j1349383781 -> j2242924740 [label=false,color=brown];
-		j1349383781 -> j3452580577 [label=false,color=brown];
-	j1767513069 [label="Check boolean LettieRats2",color=orange];
-		j1767513069 -> j1349383781 [label=true,color=green];
-		j1767513069 -> j2998697729 [label=false,color=brown];
-	j2062233098 [label="Я просто пытаюсь сложить полную картину.",shape=box,color=red];
-		j2062233098 -> j4016099205;
-	j3038886134 [label="Никто мне этого не скажет. Они просто хотят избежать этой темы.",shape=box,color=red];
-		j3038886134 -> j3892213826;
-	j2540714752 [label="Я полагаю, что ты та, кто ответит мне прямо.",shape=box,color=red];
-		j2540714752 -> j3680459403;
-	j1095878323 [label="Почему нет?",shape=box,color=red];
-		j1095878323 -> j2409519932;
-	j361383103 [label="Понимаю. Без проблем.",shape=box,color=red];
-		j361383103 -> j1443366808;
-	j4123227103 [label="Ты совсем не похожа на лабораторную крысу, Лэтти.",shape=box,color=red];
-		j4123227103 -> j3447979911;
-	j2242924740 [label="Ну, я думаю, крысы — это умные, социальные, очаровательные замечательные животные...",shape=box,color=red];
-		j2242924740 -> j1198643324;
-	j3452580577 [label="Самая сексуальная лабораторная крыса, которую *когда-либо* видели.",shape=box,color=red];
-		j3452580577 -> j4064331660;
-	j2998697729 [label="Check boolean LettieRats3",color=orange];
-		j2998697729 -> j1349383781 [label=true,color=green];
-		j2998697729 -> j4030809656 [label=false,color=brown];
-	j4016099205 [label="+10 Chemistry",color=orange];
-		j4016099205 -> j1452394452;
-	j3892213826 [label="+15 Chemistry",color=orange];
-		j3892213826 -> j3946785263;
-	j3680459403 [label="+20 Chemistry",color=orange];
-		j3680459403 -> j1687361700;
-	j2409519932 [label="Привыкла, что ты всегда под ногами 
+		1388 -> 1387;
+	1420 [label="Check boolean LettieNoFlirt",color=orange];
+		1420 -> 1422 [label=true,color=green];
+		1420 -> 1424 [label=true,color=green];
+		1420 -> 1422 [label=false,color=brown];
+		1420 -> 1424 [label=false,color=brown];
+		1420 -> 1425 [label=false,color=brown];
+	1418 [label="Check boolean LettieRats2",color=orange];
+		1418 -> 1420 [label=true,color=green];
+		1418 -> 1419 [label=false,color=brown];
+	1463 [label="Я просто пытаюсь сложить полную картину.",shape=box,color=red];
+		1463 -> 1469;
+	1464 [label="Никто мне этого не скажет. Они просто хотят избежать этой темы.",shape=box,color=red];
+		1464 -> 1470;
+	1465 [label="Я полагаю, что ты та, кто ответит мне прямо.",shape=box,color=red];
+		1465 -> 1471;
+	1379 [label="Почему нет?",shape=box,color=red];
+		1379 -> 1380;
+	1378 [label="Понимаю. Без проблем.",shape=box,color=red];
+		1378 -> 1381;
+	1387 [label="Chat ends.",color=orange];
+	1422 [label="Ты совсем не похожа на лабораторную крысу, Лэтти.",shape=box,color=red];
+		1422 -> 1423;
+	1424 [label="Ну, я думаю, крысы — это умные, социальные, очаровательные замечательные животные...",shape=box,color=red];
+		1424 -> 1434;
+	1425 [label="Самая сексуальная лабораторная крыса, которую *когда-либо* видели.",shape=box,color=red];
+		1425 -> 1435;
+	1419 [label="Check boolean LettieRats3",color=orange];
+		1419 -> 1420 [label=true,color=green];
+		1419 -> 1421 [label=false,color=brown];
+	1469 [label="+10 Chemistry",color=orange];
+		1469 -> 1466;
+	1470 [label="+15 Chemistry",color=orange];
+		1470 -> 1467;
+	1471 [label="+20 Chemistry",color=orange];
+		1471 -> 1468;
+	1380 [label="Привыкла, что ты всегда под ногами 
 Может, я буду скучать, если ты уйдёшь 
 No dejes que se te suba a la cabeza",shape=box,color=blue];
-		j2409519932 -> "Chat ends.";
-	j1443366808 [label="Gracias
+		1380 -> 1382;
+	1381 [label="Gracias
 Привыкла, что ты всегда под ногами 
 Может, я буду скучать, если ты уйдёшь 
 No dejes que se te suba a la cabeza",shape=box,color=blue];
-		j1443366808 -> "Chat ends.";
-	j3447979911 [label="¿Ay, sí? 
+		1381 -> 1383;
+	1423 [label="¿Ay, sí? 
 Испытывали, заражали, издевались 
 Выбросили после завершения использования 
 Опасны, потому что могут распространять свои болезни",shape=box,color=blue];
-		j3447979911 -> j3722749108;
-		j3447979911 -> j2220240821;
-	j1198643324 [label="+10 Chemistry",color=orange];
-		j1198643324 -> j3812070425;
-	j4064331660 [label="+10 Chemistry",color=orange];
-		j4064331660 -> j2553669650;
-	j4030809656 [label="Check boolean LettieNoFlirt",color=orange];
-		j4030809656 -> j3319107748 [label=true,color=green];
-		j4030809656 -> j3251114611 [label=true,color=green];
-		j4030809656 -> j3452580577 [label=false,color=brown];
-		j4030809656 -> j3319107748 [label=false,color=brown];
-		j4030809656 -> j3251114611 [label=false,color=brown];
-	j1452394452 [label="Ay, sííí
+		1423 -> 1432;
+		1423 -> 1433;
+	1434 [label="+10 Chemistry",color=orange];
+		1434 -> 1426;
+	1435 [label="+10 Chemistry",color=orange];
+		1435 -> 1427;
+	1421 [label="Check boolean LettieNoFlirt",color=orange];
+		1421 -> 1428 [label=true,color=green];
+		1421 -> 1429 [label=true,color=green];
+		1421 -> 1425 [label=false,color=brown];
+		1421 -> 1428 [label=false,color=brown];
+		1421 -> 1429 [label=false,color=brown];
+	1466 [label="Ay, sííí
 Уверена, что так
 И если никто другой не расскажет, полагаю, это работа Mamá Лэтти
 Но эта история одна из тех, которые мне не нравится рассказывать
 Особенно потому, что я уже привыкла к твоему присутствию",shape=box,color=blue];
-		j1452394452 -> j418473665;
-	j3946785263 [label="Ммм, и ты ещё удивляешься, почему 
+		1466 -> 1472;
+	1467 [label="Ммм, и ты ещё удивляешься, почему 
 И думаешь, что Mamá Лэтти расскажет тебе правду 
 Обычно тебе удавалось угадывать, babas 
 Но эту историю мне не нравится рассказывать 
 Особенно потому, что я привыкла к твоему присутствию",shape=box,color=blue];
-		j3946785263 -> j418473665;
-	j1687361700 [label="JAJAJA Sííí 
+		1467 -> 1472;
+	1468 [label="JAJAJA Sííí 
 Обычно правда была на твоей стороне
 Но эту? 
 Эту мне не нравится рассказывать 
 Особенно потому, что я привыкла к твоему присутствию",shape=box,color=blue];
-		j1687361700 -> j418473665;
-	j3722749108 [label="Что ты имеешь в виду под «распространять их болезни»?",shape=box,color=red];
-		j3722749108 -> j2109272765;
-	j2220240821 [label="Лабораторная крыса не виновата в том, что учёные делают с ней.",shape=box,color=red];
-		j2220240821 -> j491785786;
-	j3812070425 [label="Nngh, sí, bien jugado 
+		1468 -> 1472;
+	1382 [label="Chat ends.",color=orange];
+	1383 [label="Chat ends.",color=orange];
+	1432 [label="Что ты имеешь в виду под «распространять их болезни»?",shape=box,color=red];
+		1432 -> 1455;
+	1433 [label="Лабораторная крыса не виновата в том, что учёные делают с ней.",shape=box,color=red];
+		1433 -> 1454;
+	1426 [label="Nngh, sí, bien jugado 
 Но это не значит, что им нужно позволять распространять их болезни",shape=box,color=blue];
-		j3812070425 -> j3722749108;
-		j3812070425 -> j2220240821;
-	j2553669650 [label="Jajaja, gracias 
+		1426 -> 1432;
+		1426 -> 1433;
+	1427 [label="Jajaja, gracias 
 Ты умеешь заставить меня улыбнуться 
 Но это не значит, что им нужно позволять распространять их болезни",shape=box,color=blue];
-		j2553669650 -> j3722749108;
-		j2553669650 -> j2220240821;
-	j3319107748 [label="Ты совсем не похожа на лабораторную крысу, Лэтти.",shape=box,color=red];
-		j3319107748 -> j3356750670;
-	j3251114611 [label="Тогда что ты предлагаешь нам сделать? Уничтожить вас всех?",shape=box,color=red];
-		j3251114611 -> j2035302684;
-	j418473665 [label="Могу начать скучать, если ты уйдёшь 
+		1427 -> 1432;
+		1427 -> 1433;
+	1428 [label="Ты совсем не похожа на лабораторную крысу, Лэтти.",shape=box,color=red];
+		1428 -> 1430;
+	1429 [label="Тогда что ты предлагаешь нам сделать? Уничтожить вас всех?",shape=box,color=red];
+		1429 -> 1431;
+	1472 [label="Могу начать скучать, если ты уйдёшь 
 И эта история может заставить тебя развернуться и уйти 
 Так что это история для другого дня 
 Ах да, babas 
 Не позволяй этому вскружить тебе голову",shape=box,color=blue];
-		j418473665 -> "Chat ends.";
-	j2109272765 [label="+10 Chemistry",color=orange];
-		j2109272765 -> j1401878086;
-	j491785786 [label="+10 Chemistry",color=orange];
-		j491785786 -> j2582667403;
-	j3356750670 [label="¿Ay, sí? 
+		1472 -> 1473;
+	1455 [label="+10 Chemistry",color=orange];
+		1455 -> 1452;
+	1454 [label="+10 Chemistry",color=orange];
+		1454 -> 1453;
+	1430 [label="¿Ay, sí? 
 Испытывали, заражали, издевались 
 Выбросили после завершения использования 
 Опасны, потому что могут распространять свои болезни",shape=box,color=blue];
-		j3356750670 -> j3722749108;
-		j3356750670 -> j2987373602;
-	j2035302684 [label="Если бы мы не были заперты в этой петле 
+		1430 -> 1436;
+		1430 -> 1437;
+	1431 [label="Если бы мы не были заперты в этой петле 
 Вам пришлось бы это сделать, иначе мы бы сошли с ума, как та bruja metiche в кошмаре
 Разве не так?",shape=box,color=blue];
-		j2035302684 -> j2205475042;
-		j2035302684 -> j2388170366;
-	j1401878086 [label="Тот cabrón Энтрати заслуживает медленной и мучительной смерти 
+		1431 -> 1438;
+		1431 -> 1439;
+	1473 [label="Chat ends.",color=orange];
+	1452 [label="Тот cabrón Энтрати заслуживает медленной и мучительной смерти 
 И я надеюсь, что именно я доставлю его к La Flaca лично",shape=box,color=blue];
-		j1401878086 -> j3392675207;
-	j2582667403 [label="Sí... 
+		1452 -> 1456;
+	1453 [label="Sí... 
 Ты понимаешь 
 Тот cabrón Энтрати заслуживает медленной и мучительной смерти 
 И я надеюсь, что именно я доставлю его к La Flaca лично",shape=box,color=blue];
-		j2582667403 -> j3392675207;
-	j2987373602 [label="Ты ни в чём из этого не виновата, Лэтти.",shape=box,color=red];
-		j2987373602 -> j1798705603;
-	j2205475042 [label="Да. В конечном счёте, ты это сделаешь.",shape=box,color=red];
-		j2205475042 -> j622598572;
-	j2388170366 [label="Ну, с переносом это можно было бы замедлить...",shape=box,color=red];
-		j2388170366 -> j4234306538;
-	j3392675207 [label="Но это не pero история, которую я расскажу сегодня 
+		1453 -> 1456;
+	1436 [label="Что ты имеешь в виду под «распространять их болезни»?",shape=box,color=red];
+		1436 -> 1441;
+	1437 [label="Ты ни в чём из этого не виновата, Лэтти.",shape=box,color=red];
+		1437 -> 1442;
+	1438 [label="Да. В конечном счёте, ты это сделаешь.",shape=box,color=red];
+		1438 -> 1445;
+	1439 [label="Ну, с переносом это можно было бы замедлить...",shape=box,color=red];
+		1439 -> 1446;
+	1456 [label="Но это не pero история, которую я расскажу сегодня 
 Слишком много дел, которые нужно сделать 
 И слишком много дерьма в той истории для сегодня 
 Возвращаемся к работе, оба",shape=box,color=blue];
-		j3392675207 -> "Chat ends.";
-	j1798705603 [label="Jajaja 
+		1456 -> 1457;
+	1441 [label="+10 Chemistry",color=orange];
+		1441 -> 1440;
+	1442 [label="Jajaja 
 Ты так уверен, ¿babas? 
 Подожди немного 
 Ты можешь передумать",shape=box,color=blue];
-		j1798705603 -> j3392675207;
-	j622598572 [label="+10 Chemistry",color=orange];
-		j622598572 -> j896048410;
-	j4234306538 [label="Не ври мне, babas 
+		1442 -> 1443;
+	1445 [label="+10 Chemistry",color=orange];
+		1445 -> 1449;
+	1446 [label="Не ври мне, babas 
 Мне не нужна защита, ты уже должен это знать",shape=box,color=blue];
-		j4234306538 -> j3082093694;
-	j896048410 [label="Видишь? 
+		1446 -> 1447;
+	1457 [label="Chat ends.",color=orange];
+	1440 [label="Тот cabrón Энтрати заслуживает медленной и мучительной смерти 
+И я надеюсь, что именно я доставлю его к La Flaca лично",shape=box,color=blue];
+		1440 -> 1443;
+	1443 [label="Но это не pero история, которую я расскажу сегодня 
+Слишком много дел, которые нужно сделать 
+И слишком много дерьма в той истории для сегодня 
+Возвращаемся к работе, оба",shape=box,color=blue];
+		1443 -> 1444;
+	1449 [label="Видишь? 
 Монстры 
 Но, полагаю, это нормально. 
 Запертые здесь, мы больше не можем причинить много вреда",shape=box,color=blue];
-		j896048410 -> j2663716369;
-	j3082093694 [label="Ay, equis 
+		1449 -> 1450;
+	1447 [label="Ay, equis 
 Vete",shape=box,color=blue];
-		j3082093694 -> "Chat ends.";
-	j2663716369 [label="Ay, equis 
+		1447 -> 1448;
+	1444 [label="Chat ends.",color=orange];
+	1450 [label="Ay, equis 
 Возвращаемся к работе, оба 
 Vete, babas",shape=box,color=blue];
-		j2663716369 -> "Chat ends.";
+		1450 -> 1451;
+	1448 [label="Chat ends.",color=orange];
+	1451 [label="Chat ends.",color=orange];
 }

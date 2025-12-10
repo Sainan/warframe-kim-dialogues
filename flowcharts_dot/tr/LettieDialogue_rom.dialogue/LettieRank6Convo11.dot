@@ -1,75 +1,76 @@
 digraph {
-	"LettieRank6Convo11 begins." [color=orange];
-		"LettieRank6Convo11 begins." -> j273575157;
-	j273575157 [label="Check boolean LettieDating",color=orange];
-		j273575157 -> j4208389219 [label=true,color=green];
-		j273575157 -> j3492998605 [label=false,color=brown];
-	j4208389219 [label="Check boolean LettieReal",color=orange];
-		j4208389219 -> j2030809533 [label=true,color=green];
-		j4208389219 -> j1765391721 [label=false,color=brown];
-	j3492998605 [label="Dostum
+	2754 [label="LettieRank6Convo11 begins.",color=orange];
+		2754 -> 2755;
+	2755 [label="Check boolean LettieDating",color=orange];
+		2755 -> 2756 [label=true,color=green];
+		2755 -> 2757 [label=false,color=brown];
+	2756 [label="Check boolean LettieReal",color=orange];
+		2756 -> 2759 [label=true,color=green];
+		2756 -> 2758 [label=false,color=brown];
+	2757 [label="Dostum
 Orada mısın?",shape=box,color=blue];
-		j3492998605 -> j329886440;
-		j3492998605 -> j3964668030;
-	j2030809533 [label="Corazón
+		2757 -> 2760;
+		2757 -> 2761;
+	2759 [label="Corazón
 Orada mısın?",shape=box,color=blue];
-		j2030809533 -> j329886440;
-		j2030809533 -> j3964668030;
-	j1765391721 [label="Solecito
+		2759 -> 2760;
+		2759 -> 2761;
+	2758 [label="Solecito
 Orada mısın?",shape=box,color=blue];
-		j1765391721 -> j3964668030;
-		j1765391721 -> j329886440;
-	j329886440 [label="[Dikkat: Evcil hayvan kaybı. Sohbeti sonlandırmak için tıklayın.]",shape=box,color=red];
-		j329886440 -> "Chat ends.";
-	j3964668030 [label="Naber?",shape=box,color=red];
-		j3964668030 -> j2781285661;
-	"Chat ends." [color=orange];
-	j2781285661 [label="Neenah
+		2758 -> 2761;
+		2758 -> 2760;
+	2760 [label="[Dikkat: Evcil hayvan kaybı. Sohbeti sonlandırmak için tıklayın.]",shape=box,color=red];
+		2760 -> 2762;
+	2761 [label="Naber?",shape=box,color=red];
+		2761 -> 2763;
+	2762 [label="Chat ends.",color=orange];
+	2763 [label="Neenah
 Bebeklerimden biri
 Bu sabah, La Flaca onun için geldi",shape=box,color=blue];
-		j2781285661 -> j46819953;
-		j2781285661 -> j2412282686;
-	j46819953 [label="Ama... yıl sıfırlanınca o da geri dönecek, değil mi?",shape=box,color=red];
-		j46819953 -> j3918494028;
-	j2412282686 [label="Ah, hayır... Lettie, çok üzgünüm. :(",shape=box,color=red];
-		j2412282686 -> j2929088604;
-	j3918494028 [label="Sí
+		2763 -> 2764;
+		2763 -> 2765;
+	2764 [label="Ama... yıl sıfırlanınca o da geri dönecek, değil mi?",shape=box,color=red];
+		2764 -> 2766;
+	2765 [label="Ah, hayır... Lettie, çok üzgünüm. :(",shape=box,color=red];
+		2765 -> 2767;
+	2766 [label="Sí
 Geri dönecek
 Ama bu
 Hayatın kısa olduğu gerçeğini değiştirmiyor",shape=box,color=blue];
-		j3918494028 -> j2384108664;
-	j2929088604 [label="Gracias
+		2766 -> 2768;
+	2767 [label="Gracias
 Ama hayatın doğası bu
 Kısa",shape=box,color=blue];
-		j2929088604 -> j2384108664;
-	j2384108664 [label="Sıçanlar insanlara göre kısa yaşar
+		2767 -> 2768;
+	2768 [label="Sıçanlar insanlara göre kısa yaşar
 İnsanlar ağaçlara göre kısa yaşar
 Ağaçlar tanrılara göre kısa yaşar",shape=box,color=blue];
-		j2384108664 -> j478719915;
-	j478719915 [label="Ve böcekler de sıçanlara göre kısa yaşar
+		2768 -> 2769;
+	2769 [label="Ve böcekler de sıçanlara göre kısa yaşar
 Hepsi göreceli
 Ama biz ise bu döngüde dönüp duruyoruz değil mi jajaja",shape=box,color=blue];
-		j478719915 -> j86984722;
-	j86984722 [label="Sanırım biz Amir'in \"uç durumlar\" dediği kişileriz
+		2769 -> 2770;
+	2770 [label="Sanırım biz Amir'in \"uç durumlar\" dediği kişileriz
 Ya da her neyse",shape=box,color=blue];
-		j86984722 -> j3750633247;
-		j86984722 -> j1432365963;
-	j3750633247 [label="Nereye varmaya çalışıyorsun?",shape=box,color=red];
-		j3750633247 -> j3751152338;
-	j1432365963 [label="Yani üzgün değil misin?",shape=box,color=red];
-		j1432365963 -> j1520654994;
-	j3751152338 [label="Dejar de hacerme mensa y hacer las cosas, jajaja
+		2770 -> 2771;
+		2770 -> 2772;
+	2771 [label="Nereye varmaya çalışıyorsun?",shape=box,color=red];
+		2771 -> 2773;
+	2772 [label="Yani üzgün değil misin?",shape=box,color=red];
+		2772 -> 2774;
+	2773 [label="Dejar de hacerme mensa y hacer las cosas, jajaja
 Söylemeye çalıştığım şey
 Anı yaşamamız ve yaşadıklarımızı unutmamamız gerek",shape=box,color=blue];
-		j3751152338 -> j1131415901;
-	j1520654994 [label="Por supuesto que sí
+		2773 -> 2775;
+	2774 [label="Por supuesto que sí
 Sanırım sadece şunu söylüyorum
 Anı yaşamamız ve yaşadıklarımızı unutmamamız gerek",shape=box,color=blue];
-		j1520654994 -> j1131415901;
-	j1131415901 [label="Zaten bu yüzden sıçanları besliyorum
+		2774 -> 2775;
+	2775 [label="Zaten bu yüzden sıçanları besliyorum
 Hayatları kısa ama yaşamayı asla unutmuyorlar
 Bulabildikleri her kırıntıda neşe bulmak için
 Ve kendilerine ödenen her damla sevgiyi geri vermek için yaşıyorlar
 Hayatın ne zaman biteceğini asla bilemezsin",shape=box,color=blue];
-		j1131415901 -> "Chat ends.";
+		2775 -> 2776;
+	2776 [label="Chat ends.",color=orange];
 }

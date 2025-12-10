@@ -1,0 +1,33 @@
+digraph {
+	2201 [label="RoatheStory8 begins.",color=orange];
+		2201 -> 5655;
+	5655 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5655 -> 2196 [label=true,color=green];
+		5655 -> 5654 [label=false,color=brown];
+	2196 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2196 -> 2200 [label="x >= 8",color=purple];
+		2196 -> 2199 [label="false",color=purple];
+	5654 [label="Chat ends.",color=orange];
+	2200 [label="VM: STANDARD",shape=box,color=blue];
+		2200 -> 2198;
+	2199 [label="Chat ends.",color=orange];
+	2198 [label="บันทึก: ไม่มีอะไรจะบรรยายถึงความโอหังที่เราเหล่าสัตว์โลกปฏิบัติต่อการสังหารหมู่ในสงครามได้กระชับเท่ากับเหล่าผู้ถือธง",shape=box,color=blue];
+		2198 -> 5694;
+	5694 [label="ผู้ที่ต้องได้รับการปกป้องไม่ว่าจะต้องแลกด้วยอะไรก็ตาม และต้องปฏิบัติตามอย่างไม่มีข้อสงสัย",shape=box,color=blue];
+		5694 -> 5695;
+	5695 [label="และขอเสริมว่า นั่นอาจเป็นผู้ที่ถูกข่มขู่ให้ปฏิบัติตามคำสั่งที่ไม่มีทหารสติดีคนใดจะทำตาม มิฉะนั้นจะต้องประสบชะตากรรมอันเลวร้ายยิ่งกว่านี้ ",shape=box,color=blue];
+		5695 -> 2203;
+	2203 [label="แม้จะน่าขันก็ตาม",shape=box,color=blue];
+		2203 -> 5731;
+	5731 [label="แต่สายตาของข้ามักจับจ้องไปที่รูปร่างของพวกมัน แม้ว่าร่างกายที่บิดเบี้ยวนั่นจะไม่ต่างจากคนอื่น ๆ เลย ",shape=box,color=blue];
+		5731 -> 2195;
+	2195 [label="นั่นเป็นมาตรฐานที่พวกมันยังคงยึดถืออยู่เสมอ เปล่งประกายด้วยสีทองของ Orokin และเปื้อนไปด้วยสีแดงฉาน",shape=box,color=blue];
+		2195 -> 2204;
+	2204 [label="โดยข้าเองคอยดูแลให้มันยืนตระหง่านอยู่บนสนามรบก่อนจากไปเสมอ",shape=box,color=blue];
+		2204 -> 2202;
+	2202 [label="Add 1 to HellStory",color=orange];
+		2202 -> 2335;
+	2335 [label="{\"Id\":2335,\"Incoming\":[2202],\"Outgoing\":[2197],\"GraphPos\":[4863,-8750],\"CompletionType\":1}",color=orange];
+		2335 -> 2197;
+	2197 [label="Chat ends.",color=orange];
+}

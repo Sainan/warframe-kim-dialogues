@@ -1,437 +1,459 @@
 digraph {
-	"LettieRank5Convo4 begins." [color=orange];
-		"LettieRank5Convo4 begins." -> j3205261582;
-	j3205261582 [label="一つ良い点があると思うの
+	1870 [label="LettieRank5Convo4 begins.",color=orange];
+		1870 -> 1871;
+	1871 [label="一つ良い点があると思うの
 Mictlánの果てで永遠に囚われたfantasmasになることに
 それがアタシたちを狂気から遠ざけてるのに加えて",shape=box,color=blue];
-		j3205261582 -> j3478694017;
-	j3478694017 [label="Check boolean LettieDating",color=orange];
-		j3478694017 -> j4158162227 [label=true,color=green];
-		j3478694017 -> j701501381 [label=true,color=green];
-		j3478694017 -> j2007985040 [label=true,color=green];
-		j3478694017 -> j517597328 [label=false,color=brown];
-		j3478694017 -> j701501381 [label=false,color=brown];
-		j3478694017 -> j2007985040 [label=false,color=brown];
-	j4158162227 [label="そっちこそハロー、ハニー。笑",shape=box,color=red];
-		j4158162227 -> j341029499;
-	j701501381 [label="それは何？",shape=box,color=red];
-		j701501381 -> j4225010584;
-	j2007985040 [label="すぐもどる [閉じる]",shape=box,color=red];
-		j2007985040 -> "Chat ends.";
-	j517597328 [label="そっちこそハロー、Lettie。笑",shape=box,color=red];
-		j517597328 -> j575729804;
-	j341029499 [label="Sí, sí 
+		1871 -> 1872;
+	1872 [label="Check boolean LettieDating",color=orange];
+		1872 -> 1873 [label=true,color=green];
+		1872 -> 1875 [label=true,color=green];
+		1872 -> 1877 [label=true,color=green];
+		1872 -> 1874 [label=false,color=brown];
+		1872 -> 1875 [label=false,color=brown];
+		1872 -> 1877 [label=false,color=brown];
+	1873 [label="そっちこそハロー、ハニー。笑",shape=box,color=red];
+		1873 -> 1876;
+	1875 [label="それは何？",shape=box,color=red];
+		1875 -> 1880;
+	1877 [label="すぐもどる [閉じる]",shape=box,color=red];
+		1877 -> 1878;
+	1874 [label="そっちこそハロー、Lettie。笑",shape=box,color=red];
+		1874 -> 1879;
+	1876 [label="Sí, sí 
 はいはい
 Holiiii solecito jajaja",shape=box,color=blue];
-		j341029499 -> j4225010584;
-	j4225010584 [label="Mis panquecitos
+		1876 -> 1880;
+	1880 [label="Mis panquecitos
 アタシのネズミたち
 今や彼らは死なない、でしょう？",shape=box,color=blue];
-		j4225010584 -> j1705590468;
-	"Chat ends." [color=orange];
-	j575729804 [label="Sí, sí 
+		1880 -> 1881;
+	1878 [label="Chat ends.",color=orange];
+	1879 [label="Sí, sí 
 はいはい 
 やあ友よ jajaja",shape=box,color=blue];
-		j575729804 -> j4225010584;
-	j1705590468 [label="アタシと共に永遠に生きる
+		1879 -> 1880;
+	1881 [label="アタシと共に永遠に生きる
 事故に遭っても、あのgata mutanteに捕らえられても
 新年には
 まるで何もなかったように、¿no?",shape=box,color=blue];
-		j1705590468 -> j445161086;
-		j1705590468 -> j1921151306;
-	j445161086 [label="はぁ。そうだね。考えたこともなかった。ループは動物にも及ぶんだ。",shape=box,color=red];
-		j445161086 -> j777936254;
-	j1921151306 [label="それと動物は人間と同じような気にし方はしないだろうな。つまり、悩まされることはない。",shape=box,color=red];
-		j1921151306 -> j777936254;
-	j777936254 [label="SÍ
+		1881 -> 1882;
+		1881 -> 1883;
+	1882 [label="はぁ。そうだね。考えたこともなかった。ループは動物にも及ぶんだ。",shape=box,color=red];
+		1882 -> 1884;
+	1883 [label="それと動物は人間と同じような気にし方はしないだろうな。つまり、悩まされることはない。",shape=box,color=red];
+		1883 -> 1884;
+	1884 [label="SÍ
 つまりアタシは常にAnitaの躾けをしないといけないのね jajaja
 それとTlálocがかじるのを止めない",shape=box,color=blue];
-		j777936254 -> j346330739;
-	j346330739 [label="けどつまりもし彼らを失っても
+		1884 -> 1885;
+	1885 [label="けどつまりもし彼らを失っても
 すぐに戻って来るということ
 アタシには常にコンパニオンがいると知れるのはいいことね",shape=box,color=blue];
-		j346330739 -> j1319721791;
-	j1319721791 [label="Check boolean LettieRats2",color=orange];
-		j1319721791 -> j2790991376 [label=true,color=green];
-		j1319721791 -> j2509807444 [label=true,color=green];
-		j1319721791 -> j817884384 [label=false,color=brown];
-	j2790991376 [label="痛いとこつくね。",shape=box,color=red];
-		j2790991376 -> j1707202729;
-	j2509807444 [label="Lettieはヒトよりペットの方が好きだと疑ってたけど、間違いないみたい。",shape=box,color=red];
-		j2509807444 -> j3152770666;
-	j817884384 [label="AnitaとTlálocはLettieのネズミ二匹の名前？",shape=box,color=red];
-		j817884384 -> j477546499;
-	j1707202729 [label="¡JAJA! 
+		1885 -> 1886;
+	1886 [label="Check boolean LettieRats2",color=orange];
+		1886 -> 1887 [label=true,color=green];
+		1886 -> 1889 [label=true,color=green];
+		1886 -> 1890 [label=false,color=brown];
+	1887 [label="痛いとこつくね。",shape=box,color=red];
+		1887 -> 1888;
+	1889 [label="Lettieはヒトよりペットの方が好きだと疑ってたけど、間違いないみたい。",shape=box,color=red];
+		1889 -> 1891;
+	1890 [label="AnitaとTlálocはLettieのネズミ二匹の名前？",shape=box,color=red];
+		1890 -> 1893;
+	1888 [label="¡JAJA! 
 Lo siento, lo siento 
 ただちょっと
 アタシの人生で人間は一貫してなかったの
 動物は違った",shape=box,color=blue];
-		j1707202729 -> j1200088022;
-	j3152770666 [label="Sí、そうね
+		1888 -> 1894;
+	1891 [label="Sí、そうね
 アタシの人生で人間は一貫してなかったの
 動物は違った",shape=box,color=blue];
-		j3152770666 -> j2265545996;
-		j3152770666 -> j889927217;
-	j477546499 [label="Boolean LettieRats2 is now true.",color=orange];
-		j477546499 -> j1130518845;
-	j1200088022 [label="+5 Chemistry",color=orange];
-		j1200088022 -> j2265545996;
-		j1200088022 -> j889927217;
-	j2265545996 [label="ああ、やっとLettieのことが分かり始めた気がする。",shape=box,color=red];
-		j2265545996 -> j116213164;
-	j889927217 [label="どうしてそうだと思うの？",shape=box,color=red];
-		j889927217 -> j4190785386;
-	j1130518845 [label="ん？
+		1891 -> 1897;
+		1891 -> 1898;
+	1893 [label="Update boolean LettieRats2",color=orange];
+		1893 -> 1892;
+	1894 [label="+5 Chemistry",color=orange];
+		1894 -> 1897;
+		1894 -> 1898;
+	1897 [label="ああ、やっとLettieのことが分かり始めた気がする。",shape=box,color=red];
+		1897 -> 1899;
+	1898 [label="どうしてそうだと思うの？",shape=box,color=red];
+		1898 -> 1900;
+	1892 [label="ん？
 まだ言ってなかった？
 ¡Lo siento! Si 
 Vaquero、Anita、NeenahにTláloc",shape=box,color=blue];
-		j1130518845 -> j3039266287;
-	j116213164 [label="¿Ay, sí? 
+		1892 -> 1895;
+	1899 [label="¿Ay, sí? 
 じゃあ言ってみて
 なぜアタシが人間より動物が好きなのか
 Puedes hacer el papel de mi terapeuta",shape=box,color=blue];
-		j116213164 -> j2851763892;
-	j4190785386 [label="これはアタシにとっては謎じゃないわ
+		1899 -> 1901;
+	1900 [label="これはアタシにとっては謎じゃないわ
 理由は知ってるわ、jaja
 あんたはどうなの？",shape=box,color=blue];
-		j4190785386 -> j2851763892;
-	j3039266287 [label="アタシがuna niñaの頃からペットのネズミを飼ってる
+		1900 -> 1901;
+	1895 [label="アタシがuna niñaの頃からペットのネズミを飼ってる
 アタシの人生で彼らは一貫してた
 人間よりずっと",shape=box,color=blue];
-		j3039266287 -> j1200088022;
-	j2851763892 [label="Check boolean LettieTrust1",color=orange];
-		j2851763892 -> j2924756852 [label=true,color=green];
-		j2851763892 -> j167137127 [label=false,color=brown];
-		j2851763892 -> j296535531 [label=false,color=brown];
-	j2924756852 [label="Check boolean LettieEntratiFamily",color=orange];
-		j2924756852 -> j3876179165 [label=true,color=green];
-		j2924756852 -> j3670818912 [label=true,color=green];
-		j2924756852 -> j612869513 [label=true,color=green];
-		j2924756852 -> j296535531 [label=true,color=green];
-		j2924756852 -> j167137127 [label=true,color=green];
-		j2924756852 -> j3276047934 [label=false,color=brown];
-	j167137127 [label="ふーん、Amirをあれほどからかってるのに、Lettieは駆け引きと言うゲームが好きなんだね。",shape=box,color=red];
-		j167137127 -> j1786142695;
-	j296535531 [label="テストあるなんて知らなかった。",shape=box,color=red];
-		j296535531 -> j3470369020;
-	j3876179165 [label="Lettieは誰かを信じるたびに裏切られる不運の連続を経験したんだと思う。大きなお涙頂戴話じゃない。大きなトラウマじゃない。単なる不運の連続。",shape=box,color=red];
-		j3876179165 -> j2670516274;
-	j3670818912 [label="Lettieは捨てられるのが怖いんだ、Entratiが家族を捨てたように。だからペットを飼う、Lettieから離れられないから。",shape=box,color=red];
-		j3670818912 -> j650935450;
-	j612869513 [label="ペットを愛するのは人を愛するのより楽だ。彼らは大切にされたいだけ。彼らとの関係はシンプル、クリーンで、人間と違って面倒はない。",shape=box,color=red];
-		j612869513 -> j9386161;
-	j3276047934 [label="Check boolean LettieReligion2",color=orange];
-		j3276047934 -> j3876179165 [label=true,color=green];
-		j3276047934 -> j900616681 [label=true,color=green];
-		j3276047934 -> j612869513 [label=true,color=green];
-		j3276047934 -> j296535531 [label=true,color=green];
-		j3276047934 -> j167137127 [label=true,color=green];
-		j3276047934 -> j3543748376 [label=false,color=brown];
-	j1786142695 [label="もしこれがゲームだと思うなら
+		1895 -> 1896;
+	1901 [label="Check boolean LettieTrust1",color=orange];
+		1901 -> 1902 [label=true,color=green];
+		1901 -> 1910 [label=false,color=brown];
+		1901 -> 1909 [label=false,color=brown];
+	1896 [label="+5 Chemistry",color=orange];
+		1896 -> 1897;
+		1896 -> 1898;
+	1902 [label="Check boolean LettieEntratiFamily",color=orange];
+		1902 -> 1903 [label=true,color=green];
+		1902 -> 1904 [label=true,color=green];
+		1902 -> 1908 [label=true,color=green];
+		1902 -> 1909 [label=true,color=green];
+		1902 -> 1910 [label=true,color=green];
+		1902 -> 1911 [label=false,color=brown];
+	1910 [label="ふーん、Amirをあれほどからかってるのに、Lettieは駆け引きと言うゲームが好きなんだね。",shape=box,color=red];
+		1910 -> 1919;
+	1909 [label="テストあるなんて知らなかった。",shape=box,color=red];
+		1909 -> 1926;
+	1903 [label="Lettieは誰かを信じるたびに裏切られる不運の連続を経験したんだと思う。大きなお涙頂戴話じゃない。大きなトラウマじゃない。単なる不運の連続。",shape=box,color=red];
+		1903 -> 1920;
+	1904 [label="Lettieは捨てられるのが怖いんだ、Entratiが家族を捨てたように。だからペットを飼う、Lettieから離れられないから。",shape=box,color=red];
+		1904 -> 1914;
+	1908 [label="ペットを愛するのは人を愛するのより楽だ。彼らは大切にされたいだけ。彼らとの関係はシンプル、クリーンで、人間と違って面倒はない。",shape=box,color=red];
+		1908 -> 1922;
+	1911 [label="Check boolean LettieReligion2",color=orange];
+		1911 -> 1903 [label=true,color=green];
+		1911 -> 1905 [label=true,color=green];
+		1911 -> 1908 [label=true,color=green];
+		1911 -> 1909 [label=true,color=green];
+		1911 -> 1910 [label=true,color=green];
+		1911 -> 1912 [label=false,color=brown];
+	1919 [label="もしこれがゲームだと思うなら
 あんたは自身が思ってるほどアタシのこと分かってないわ",shape=box,color=blue];
-		j1786142695 -> j623227052;
-	j3470369020 [label="+10 Chemistry",color=orange];
-		j3470369020 -> j3423298790;
-	j2670516274 [label="+10 Chemistry",color=orange];
-		j2670516274 -> j2912813040;
-	j650935450 [label="アタシの家族はアタシを置いてかなかった
+		1919 -> 1924;
+	1926 [label="+10 Chemistry",color=orange];
+		1926 -> 1918;
+	1920 [label="+10 Chemistry",color=orange];
+		1920 -> 1907;
+	1914 [label="アタシの家族はアタシを置いてかなかった
 アタシが彼らを置いて軍に、それから国危対に入った
 いえ、時にアタシはシンプルな愛が欲しいだけ
 アタシの信頼を裏切らずウソを吐かないものからの",shape=box,color=blue];
-		j650935450 -> j3912517139;
-	j9386161 [label="+5 Chemistry",color=orange];
-		j9386161 -> j281899605;
-	j900616681 [label="Lettieは人生で多くの人をLa Flacaに失った。大切な人を。ペットは死ぬけど、幾分予想しやすいし、何となく楽だから？　だからそれに上手く対処できる。",shape=box,color=red];
-		j900616681 -> j4267895258;
-	j3543748376 [label="Check boolean LettieLoid",color=orange];
-		j3543748376 -> j3876179165 [label=true,color=green];
-		j3543748376 -> j4119942221 [label=true,color=green];
-		j3543748376 -> j612869513 [label=true,color=green];
-		j3543748376 -> j296535531 [label=true,color=green];
-		j3543748376 -> j167137127 [label=true,color=green];
-		j3543748376 -> j3876179165 [label=false,color=brown];
-		j3543748376 -> j612869513 [label=false,color=brown];
-		j3543748376 -> j296535531 [label=false,color=brown];
-		j3543748376 -> j167137127 [label=false,color=brown];
-	j623227052 [label="Check boolean LettieDating",color=orange];
-		j623227052 -> j4227599614 [label=true,color=green];
-		j623227052 -> j1663250087 [label=false,color=brown];
-	j3423298790 [label="JAJA 
+		1914 -> 1939;
+	1922 [label="+5 Chemistry",color=orange];
+		1922 -> 1917;
+	1905 [label="Lettieは人生で多くの人をLa Flacaに失った。大切な人を。ペットは死ぬけど、幾分予想しやすいし、何となく楽だから？　だからそれに上手く対処できる。",shape=box,color=red];
+		1905 -> 1915;
+	1912 [label="Check boolean LettieLoid",color=orange];
+		1912 -> 1903 [label=true,color=green];
+		1912 -> 1906 [label=true,color=green];
+		1912 -> 1908 [label=true,color=green];
+		1912 -> 1909 [label=true,color=green];
+		1912 -> 1910 [label=true,color=green];
+		1912 -> 1903 [label=false,color=brown];
+		1912 -> 1908 [label=false,color=brown];
+		1912 -> 1909 [label=false,color=brown];
+		1912 -> 1910 [label=false,color=brown];
+	1924 [label="Check boolean LettieDating",color=orange];
+		1924 -> 1927 [label=true,color=green];
+		1924 -> 1928 [label=false,color=brown];
+	1918 [label="JAJA 
 Lo siento、我慢できなかった
 人と親しくすることはあまりないの、あんたの考えを知りたかった
 でもイジワルな印象を与えたわね、jajaa",shape=box,color=blue];
-		j3423298790 -> j2071351746;
-	j2912813040 [label="Mierda、アタシはそんな分かりやすい女なのかしら？
+		1918 -> 1923;
+	1907 [label="Mierda、アタシはそんな分かりやすい女なのかしら？
 ミステリアスで通りたかったのにね jajaja
 Sí…　でも概ね間違いじゃないわ
 でも人生みたいにね、色々巻き付いているのよ",shape=box,color=blue];
-		j2912813040 -> j3912517139;
-	j3912517139 [label="長い一日のあと家に帰って、戯れやおやつ、愛情を欲しがってる生き物に迎えて欲しいと思うことは悪いことではないわ",shape=box,color=blue];
-		j3912517139 -> j1422503800;
-	j281899605 [label="Ay sí 
+		1907 -> 1939;
+	1939 [label="長い一日のあと家に帰って、戯れやおやつ、愛情を欲しがってる生き物に迎えて欲しいと思うことは悪いことではないわ",shape=box,color=blue];
+		1939 -> 1940;
+	1917 [label="Ay sí 
 Tú me entiendes 
 時にアタシはシンプルな愛が欲しいだけ
 アタシの信頼を裏切らずウソを吐かないものからの",shape=box,color=blue];
-		j281899605 -> j3912517139;
-	j4267895258 [label="あんたは明らかにペットを亡くしたことがないのね、babas
+		1917 -> 1939;
+	1915 [label="あんたは明らかにペットを亡くしたことがないのね、babas
 彼らが亡くなるのは自身の魂の一部が失くなるようなもの
 いえ、時にアタシはシンプルな愛が欲しいだけ
 アタシの信頼を裏切らずウソを吐かないものからの",shape=box,color=blue];
-		j4267895258 -> j3912517139;
-	j4119942221 [label="Lettieは誰かを愛したけど、信頼が裏切られ捨てられた。EntratiがLoidにしたように。ペットは絶対そんなことはしない。",shape=box,color=red];
-		j4119942221 -> j3446274955;
-	j4227599614 [label="そうか、じゃあLettieの躾けが足りないのかもね… ;)",shape=box,color=red];
-		j4227599614 -> j1740647569;
-	j1663250087 [label="Check boolean LettieNoFlirt",color=orange];
-		j1663250087 -> j387772178 [label=true,color=green];
-		j1663250087 -> j802069119 [label=true,color=green];
-		j1663250087 -> j802069119 [label=false,color=brown];
-		j1663250087 -> j3881789993 [label=false,color=brown];
-	j2071351746 [label="Boolean LettieTrust1 is now true.",color=orange];
-		j2071351746 -> j1338677293;
-	j1422503800 [label="Check boolean LettieDating",color=orange];
-		j1422503800 -> j4234525224 [label=true,color=green];
-		j1422503800 -> j366115482 [label=true,color=green];
-		j1422503800 -> j1764250809 [label=false,color=brown];
-	j3446274955 [label="JAJAJA そうだったいいのにね
+		1915 -> 1939;
+	1906 [label="Lettieは誰かを愛したけど、信頼が裏切られ捨てられた。EntratiがLoidにしたように。ペットは絶対そんなことはしない。",shape=box,color=red];
+		1906 -> 1916;
+	1927 [label="そうか、じゃあLettieの躾けが足りないのかもね… ;)",shape=box,color=red];
+		1927 -> 1937;
+	1928 [label="Check boolean LettieNoFlirt",color=orange];
+		1928 -> 1931 [label=true,color=green];
+		1928 -> 1932 [label=true,color=green];
+		1928 -> 1932 [label=false,color=brown];
+		1928 -> 1933 [label=false,color=brown];
+	1923 [label="Update boolean LettieTrust1",color=orange];
+		1923 -> 1929;
+	1940 [label="Check boolean LettieDating",color=orange];
+		1940 -> 1941 [label=true,color=green];
+		1940 -> 1942 [label=true,color=green];
+		1940 -> 1943 [label=false,color=brown];
+	1916 [label="JAJAJA そうだったいいのにね
 Alguna tragedia de amantes condenados
 戯曲を書けそうね
 いえ、時にアタシはシンプルな愛が欲しいだけ
 アタシの信頼を裏切らずウソを吐かないものからの",shape=box,color=blue];
-		j3446274955 -> j4110991525;
-	j1740647569 [label="+15 Chemistry",color=orange];
-		j1740647569 -> j3390490189;
-	j387772178 [label="Lettieのことはよく知ってる。ただ駆け引きをしたくないだけ。",shape=box,color=red];
-		j387772178 -> j556154860;
-	j802069119 [label="ああ、心理ゲームは好きじゃない。ネズミと遊んでてくれ。",shape=box,color=red];
-		j802069119 -> j556154860;
-	j3881789993 [label="そうか、じゃあLettieの躾けが足りないのかもね… ;)",shape=box,color=red];
-		j3881789993 -> j2341360808;
-	j1338677293 [label="いいえ、アタシがペットを飼うのは純粋に愛するものだから
+		1916 -> 1921;
+	1937 [label="+15 Chemistry",color=orange];
+		1937 -> 1930;
+	1931 [label="Lettieのことはよく知ってる。ただ駆け引きをしたくないだけ。",shape=box,color=red];
+		1931 -> 1934;
+	1932 [label="ああ、心理ゲームは好きじゃない。ネズミと遊んでてくれ。",shape=box,color=red];
+		1932 -> 1934;
+	1933 [label="そうか、じゃあLettieの躾けが足りないのかもね… ;)",shape=box,color=red];
+		1933 -> 1958;
+	1929 [label="いいえ、アタシがペットを飼うのは純粋に愛するものだから
 純粋な愛情
 面倒はなく複雑でもない
 ウソはない 裏切りはない 秘密はない",shape=box,color=blue];
-		j1338677293 -> j3912517139;
-	j4234525224 [label="確かに、Lettieから戯れやおやつ、愛情が欲しいかも…",shape=box,color=red];
-		j4234525224 -> j3192247157;
-	j366115482 [label="自分がLettieの生き方を束縛してるならごめん。",shape=box,color=red];
-		j366115482 -> j747803211;
-	j1764250809 [label="そして彼らを愛すれば、何があっても彼らも愛を返すと知ったなら
+		1929 -> 1939;
+	1941 [label="確かに、Lettieから戯れやおやつ、愛情が欲しいかも…",shape=box,color=red];
+		1941 -> 1944;
+	1942 [label="自分がLettieの生き方を束縛してるならごめん。",shape=box,color=red];
+		1942 -> 1945;
+	1943 [label="そして彼らを愛すれば、何があっても彼らも愛を返すと知ったなら
 彼らがあんたを傷付けるか、あるいは自らが力不足か、なんて心配はいらない
 疲れすぎて彼らの後始末に腹を立てる心配も",shape=box,color=blue];
-		j1764250809 -> j1860501283;
-	j4110991525 [label="大きな出来事はなかった
+		1943 -> 1946;
+	1921 [label="大きな出来事はなかった
 憎める名前はない
 小さなものがいっぱい集まっただけ
 まるでルアの数珠のネックレスみたいに
 一つ一つが紐になるの、¿no?",shape=box,color=blue];
-		j4110991525 -> j3487571674;
-	j3390490189 [label="Ay sí
+		1921 -> 1925;
+	1930 [label="Ay sí
 そうみたいね
 お仕置きが必要かもね",shape=box,color=blue];
-		j3390490189 -> j1545958056;
-	j556154860 [label="Ay equis",shape=box,color=blue];
-		j556154860 -> "Chat ends.";
-	j2341360808 [label="JAJAAA アタシもね
+		1930 -> 1935;
+	1934 [label="Ay equis",shape=box,color=blue];
+		1934 -> 1936;
+	1958 [label="JAJAAA アタシもね
 Cuidadito、じゃなければアタシと一晩過ごしたいと誘っていると受け取るわよ",shape=box,color=blue];
-		j2341360808 -> j249200213;
-	j3192247157 [label="JAJAJA
+		1958 -> 1971;
+	1944 [label="JAJAJA
 Ay, solecito、あんたのお蔭で笑顔よ
 けどおやつが欲しいならイイ子にしなきゃね ¿Sí?",shape=box,color=blue];
-		j3192247157 -> j533987013;
-		j3192247157 -> j1432835164;
-	j747803211 [label="Ay, baaaabas 
+		1944 -> 1947;
+		1944 -> 1948;
+	1945 [label="Ay, baaaabas 
 それは自己中心的な考えよ
 一日長く働き通して疲れきった時にあんたの戯れ言は聞きたくない
 これがまさにアタシがpanquecitosの方が好きな理由",shape=box,color=blue];
-		j747803211 -> j3453454638;
-		j747803211 -> j3307585832;
-	j1860501283 [label="Check boolean LettieNoFlirt",color=orange];
-		j1860501283 -> j591012381 [label=true,color=green];
-		j1860501283 -> j3963457053 [label=true,color=green];
-		j1860501283 -> j591012381 [label=false,color=brown];
-		j1860501283 -> j3963457053 [label=false,color=brown];
-		j1860501283 -> j577750709 [label=false,color=brown];
-	j3487571674 [label="だからアタシのネズミはただ…　純粋に愛するもの
+		1945 -> 1949;
+		1945 -> 1950;
+	1946 [label="Check boolean LettieNoFlirt",color=orange];
+		1946 -> 1952 [label=true,color=green];
+		1946 -> 1953 [label=true,color=green];
+		1946 -> 1952 [label=false,color=brown];
+		1946 -> 1953 [label=false,color=brown];
+		1946 -> 1954 [label=false,color=brown];
+	1925 [label="だからアタシのネズミはただ…　純粋に愛するもの
 純粋な愛情
 面倒はなく複雑でもない
 ウソはない 裏切りはない 秘密はない",shape=box,color=blue];
-		j3487571674 -> j3912517139;
-	j1545958056 [label="仕事に戻らないと
+		1925 -> 1939;
+	1935 [label="仕事に戻らないと
 でも楽しみが出来たわ",shape=box,color=blue];
-		j1545958056 -> "Chat ends.";
-	j249200213 [label="Check boolean IsDating",color=orange];
-		j249200213 -> j591881306 [label=true,color=green];
-		j249200213 -> j3634973042 [label=false,color=brown];
-	j533987013 [label="イエスマム。;)",shape=box,color=red];
-		j533987013 -> j1105483428;
-	j1432835164 [label="でも…　ワルい子になりたかったら？",shape=box,color=red];
-		j1432835164 -> j3339664520;
-	j3453454638 [label="「戯れ言」でこれ以上疲弊する必要はないだろ、自分たちは付き合ってるんだ。",shape=box,color=red];
-		j3453454638 -> j1250314521;
-	j3307585832 [label="じゃあLettieにとって本当に大切な生き物と一緒に取り残してあげるよ。",shape=box,color=red];
-		j3307585832 -> j2643087786;
-	j591012381 [label="そうだね、長い一日の後に帰宅した時、何故他の人をがっかりさせたのかと説教されたくない",shape=box,color=red];
-		j591012381 -> j2379877386;
-	j3963457053 [label="その気持ちはよく分かる、だからこそペットを飼うのが大好きなんだ。",shape=box,color=red];
-		j3963457053 -> j2379877386;
-	j577750709 [label="確かに、戯れやおやつ、愛情が欲しいかも… ;)",shape=box,color=red];
-		j577750709 -> j2341360808;
-	j591881306 [label="そしてアタシは過激なものが好きなの
+		1935 -> 1938;
+	1936 [label="Chat ends.",color=orange];
+	1971 [label="Check boolean IsDating",color=orange];
+		1971 -> 1972 [label=true,color=green];
+		1971 -> 1973 [label=false,color=brown];
+	1947 [label="イエスマム。;)",shape=box,color=red];
+		1947 -> 1960;
+	1948 [label="でも…　ワルい子になりたかったら？",shape=box,color=red];
+		1948 -> 1951;
+	1949 [label="「戯れ言」でこれ以上疲弊する必要はないだろ、自分たちは付き合ってるんだ。",shape=box,color=red];
+		1949 -> 1955;
+	1950 [label="じゃあLettieにとって本当に大切な生き物と一緒に取り残してあげるよ。",shape=box,color=red];
+		1950 -> 1956;
+	1952 [label="そうだね、長い一日の後に帰宅した時、何故他の人をがっかりさせたのかと説教されたくない",shape=box,color=red];
+		1952 -> 1957;
+	1953 [label="その気持ちはよく分かる、だからこそペットを飼うのが大好きなんだ。",shape=box,color=red];
+		1953 -> 1957;
+	1954 [label="確かに、戯れやおやつ、愛情が欲しいかも… ;)",shape=box,color=red];
+		1954 -> 1958;
+	1938 [label="Chat ends.",color=orange];
+	1972 [label="そしてアタシは過激なものが好きなの
 けどぶっきらぼうなのは嫌よ、lo siento",shape=box,color=blue];
-		j591881306 -> j4091993353;
-		j591881306 -> j1528736065;
-	j3634973042 [label="Check boolean LettieConfession",color=orange];
-		j3634973042 -> j1303684448 [label=true,color=green];
-		j3634973042 -> j4091993353 [label=true,color=green];
-		j3634973042 -> j1813329582 [label=false,color=brown];
-		j3634973042 -> j4091993353 [label=false,color=brown];
-	j1105483428 [label="+5 Chemistry",color=orange];
-		j1105483428 -> j4286713750;
-	j3339664520 [label="Jajaja, cuidadito
+		1972 -> 2442;
+		1972 -> 2446;
+	1973 [label="Check boolean LettieConfession",color=orange];
+		1973 -> 1974 [label=true,color=green];
+		1973 -> 1976 [label=true,color=green];
+		1973 -> 1975 [label=false,color=brown];
+		1973 -> 1976 [label=false,color=brown];
+	1960 [label="+5 Chemistry",color=orange];
+		1960 -> 1959;
+	1951 [label="Jajaja, cuidadito
 火遊びは危険よ
 けど今ならそれが分かるでしょう",shape=box,color=blue];
-		j3339664520 -> j1105483428;
-	j1250314521 [label="解っていないようね 
+		1951 -> 1960;
+	1955 [label="解っていないようね 
 一緒にいることがどれだけ重荷になりえるか、どれほど大切に思っていても
 アタシと付き合うには青すぎる
 AmirかAoiとでも遊んでなさい
 Esto fue un error",shape=box,color=blue];
-		j1250314521 -> j2548450594;
-	j2643087786 [label="Sí どうぞどうぞ
+		1955 -> 1962;
+	1956 [label="Sí どうぞどうぞ
 そしてそれのついでに
 いなくなってもいいわよ babas
 Esto fue un error",shape=box,color=blue];
-		j2643087786 -> j2548450594;
-	j2379877386 [label="Boolean LettieLonely is now true.",color=orange];
-		j2379877386 -> j793271357;
-	j4091993353 [label="えっと、ゴメン、冗談だって（笑）",shape=box,color=red];
-		j4091993353 -> j3054779525;
-	j1528736065 [label="えー…　ちょっと幻滅",shape=box,color=red];
-		j1528736065 -> j3391080191;
-	j1303684448 [label="でも…　こっちの気持ちは分かってるだろ。",shape=box,color=red];
-		j1303684448 -> j3913475475;
-	j1813329582 [label="もし…　一夜以上を望んでるとしたらどうする？[告白する]",shape=box,color=red];
-		j1813329582 -> j4006940936;
-	j4286713750 [label="仕事に戻らないと
+		1956 -> 1962;
+	1957 [label="Update boolean LettieLonely",color=orange];
+		1957 -> 1968;
+	2442 [label="えっと、ゴメン、冗談だって（笑）",shape=box,color=red];
+		2442 -> 2444;
+	2446 [label="えー…　ちょっと幻滅",shape=box,color=red];
+		2446 -> 2447;
+	1974 [label="でも…　こっちの気持ちは分かってるだろ。",shape=box,color=red];
+		1974 -> 1977;
+	1976 [label="えっと、ゴメン、冗談だって（笑）",shape=box,color=red];
+		1976 -> 1980;
+	1975 [label="もし…　一夜以上を望んでるとしたらどうする？[告白する]",shape=box,color=red];
+		1975 -> 1978;
+	1959 [label="仕事に戻らないと
 でも楽しみが出来たわ
 Gracias, solecito",shape=box,color=blue];
-		j4286713750 -> "Chat ends.";
-	j2548450594 [label="Boolean LettieDating is now false.",color=orange];
-		j2548450594 -> j4086907321;
-	j793271357 [label="+5 Chemistry",color=orange];
-		j793271357 -> j138107177;
-	j3054779525 [label="+5 Chemistry",color=orange];
-		j3054779525 -> j3587611571;
-	j3391080191 [label="Sí 
+		1959 -> 1961;
+	1962 [label="Update boolean LettieDating",color=orange];
+		1962 -> 1963;
+	1968 [label="+5 Chemistry",color=orange];
+		1968 -> 1966;
+	2444 [label="+5 Chemistry",color=orange];
+		2444 -> 2443;
+	2447 [label="Sí 
 期待外れでごめんね",shape=box,color=blue];
-		j3391080191 -> "Chat ends.";
-	j3913475475 [label="Check boolean LettieWillDate",color=orange];
-		j3913475475 -> j855523551 [label=true,color=green];
-		j3913475475 -> j3575091671 [label=false,color=brown];
-	j4006940936 [label="¿Qué? 
+		2447 -> 2448;
+	1977 [label="Check boolean LettieWillDate",color=orange];
+		1977 -> 1984 [label=true,color=green];
+		1977 -> 1983 [label=false,color=brown];
+	1980 [label="+5 Chemistry",color=orange];
+		1980 -> 1979;
+	1978 [label="¿Qué? 
 ¿En serio?",shape=box,color=blue];
-		j4006940936 -> j1163174864;
-	j4086907321 [label="Boolean IsDating is now false.",color=orange];
-		j4086907321 -> j2703113057;
-	j138107177 [label="Ay sí
+		1978 -> 1982;
+	1961 [label="Chat ends.",color=orange];
+	1963 [label="Update boolean IsDating",color=orange];
+		1963 -> 1964;
+	1966 [label="Ay sí
 分かってるじゃない
 けどそれは時に人生を孤独にする
 アタシがどれだけ彼らを愛そうと、人と同じ繋がりは得られない",shape=box,color=blue];
-		j138107177 -> j3142517865;
-	j3587611571 [label="Jajaja ay sí 
+		1966 -> 1967;
+	2443 [label="Jajaja ay sí 
 皮肉は読めないわね
 仕事に戻るわ",shape=box,color=blue];
-		j3587611571 -> "Chat ends.";
-	j855523551 [label="Sí 分かってるわ
+		2443 -> 2445;
+	2448 [label="Chat ends.",color=orange];
+	1984 [label="Sí 分かってるわ
 Ay…　これは失敗に終わるわよ… pero…
 一人が淋しいと愚痴をこぼした後にあんたを突き放せないわね
 試してみたいの？",shape=box,color=blue];
-		j855523551 -> j4185419351;
-		j855523551 -> j1061468831;
-	j3575091671 [label="Check boolean LettieNoDate",color=orange];
-		j3575091671 -> j17445874 [label=true,color=green];
-		j3575091671 -> j855523551 [label=false,color=brown];
-	j1163174864 [label="自分がバカだとか何だとか、手に負えないとか言う前に、最後まで話を聞いて。",shape=box,color=red];
-		j1163174864 -> j2518854510;
-		j1163174864 -> j3436271332;
-		j1163174864 -> j1938544985;
-	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
-		j2703113057 -> "Chat ends.";
-	j3142517865 [label="けどアタシにはヘックスがついているものね
+		1984 -> 1990;
+		1984 -> 1991;
+	1983 [label="Check boolean LettieNoDate",color=orange];
+		1983 -> 1985 [label=true,color=green];
+		1983 -> 1984 [label=false,color=brown];
+	1979 [label="Jajaja ay sí 
+皮肉は読めないわね
+仕事に戻るわ",shape=box,color=blue];
+		1979 -> 1981;
+	1982 [label="自分がバカだとか何だとか、手に負えないとか言う前に、最後まで話を聞いて。",shape=box,color=red];
+		1982 -> 1989;
+		1982 -> 1988;
+		1982 -> 1987;
+	1964 [label="Update boolean LettieNoDate",color=orange];
+		1964 -> 1965;
+	1967 [label="けどアタシにはヘックスがついているものね
 好む好まざる関係なく jajaja
 Aayyy 仕事に戻るわ
 後でね",shape=box,color=blue];
-		j3142517865 -> j2129367046;
-	j4185419351 [label="そうだね、危険に生きよう。:) [Lettieと付き合う]",shape=box,color=red];
-		j4185419351 -> j713493328;
-	j1061468831 [label="気が変わった、すまない。[Lettieと付き合わない]",shape=box,color=red];
-		j1061468831 -> j1134917178;
-	j17445874 [label="Ay sí 
+		1967 -> 1969;
+	2445 [label="Chat ends.",color=orange];
+	1990 [label="そうだね、危険に生きよう。:) [Lettieと付き合う]",shape=box,color=red];
+		1990 -> 1995;
+	1991 [label="気が変わった、すまない。[Lettieと付き合わない]",shape=box,color=red];
+		1991 -> 1992;
+	1985 [label="Ay sí 
 そして自分が何を言ったか解ってるわね
 いつかそれに怒らない日が来るかも
 Pero 今日はその日じゃない",shape=box,color=blue];
-		j17445874 -> "Chat ends.";
-	j2518854510 [label="Lettieは本当に美しい。強烈に賢い。フィジカルな強さもある。けど自分にとってLettieが大切な理由はそれだけじゃない。",shape=box,color=red];
-		j2518854510 -> j1412239153;
-		j2518854510 -> j1724712218;
-	j3436271332 [label="Lettieが自ら築き上げた幾層もの鎧の奥深くには、今まで会った中で一番優しくて思いやりのある人がいる。けどそれが全てじゃない。",shape=box,color=red];
-		j3436271332 -> j3072816336;
-		j3436271332 -> j1724712218;
-	j1938544985 [label="Lettieは止められない。折れない。怯まない。何ものにも足を引っ張られないようだ。今まで会った中で一番タフな人だよ。そして…",shape=box,color=red];
-		j1938544985 -> j3072816336;
-		j1938544985 -> j1412239153;
-	j2129367046 [label="Boolean LettieWillDate is now true.",color=orange];
-		j2129367046 -> "Chat ends.";
-	j713493328 [label="Boolean LettieWillDate is now true.",color=orange];
-		j713493328 -> j4293049487;
-	j1134917178 [label="Boolean LettieNoDate is now true.",color=orange];
-		j1134917178 -> j4213744573;
-	j1412239153 [label="Lettieは今まで会った中で一番親切で思いやりのある人だ。動物に対する愛情や人々のために尽くす様子は、ときめきを感じる。",shape=box,color=red];
-		j1412239153 -> j1274354248;
-	j1724712218 [label="Lettieは鉄でできている。Entrati、壁の中のモノ、Viktor、スカルドラ、彼らが何を投げつけようと関係ない。奴らに勝ち目はない。",shape=box,color=red];
-		j1724712218 -> j1274354248;
-	j3072816336 [label="Lettieがどれだけ美しいかは当然として、その気になれば小枝みたいにこっちをバキっと折れるんじゃないか考える　笑",shape=box,color=red];
-		j3072816336 -> j1274354248;
-	j4293049487 [label="Boolean LettieDating is now true.",color=orange];
-		j4293049487 -> j1988976319;
-	j4213744573 [label="Encendido, apagado, encendido, apagado 
+		1985 -> 1986;
+	1981 [label="Chat ends.",color=orange];
+	1989 [label="Lettieは本当に美しい。強烈に賢い。フィジカルな強さもある。けど自分にとってLettieが大切な理由はそれだけじゃない。",shape=box,color=red];
+		1989 -> 2009;
+		1989 -> 2013;
+	1988 [label="Lettieが自ら築き上げた幾層もの鎧の奥深くには、今まで会った中で一番優しくて思いやりのある人がいる。けどそれが全てじゃない。",shape=box,color=red];
+		1988 -> 2010;
+		1988 -> 2013;
+	1987 [label="Lettieは止められない。折れない。怯まない。何ものにも足を引っ張られないようだ。今まで会った中で一番タフな人だよ。そして…",shape=box,color=red];
+		1987 -> 2010;
+		1987 -> 2009;
+	1965 [label="Chat ends.",color=orange];
+	1969 [label="Update boolean LettieWillDate",color=orange];
+		1969 -> 1970;
+	1995 [label="Update boolean LettieWillDate",color=orange];
+		1995 -> 1996;
+	1992 [label="Update boolean LettieNoDate",color=orange];
+		1992 -> 1993;
+	1986 [label="Chat ends.",color=orange];
+	2009 [label="Lettieは今まで会った中で一番親切で思いやりのある人だ。動物に対する愛情や人々のために尽くす様子は、ときめきを感じる。",shape=box,color=red];
+		2009 -> 2012;
+	2013 [label="Lettieは鉄でできている。Entrati、壁の中のモノ、Viktor、スカルドラ、彼らが何を投げつけようと関係ない。奴らに勝ち目はない。",shape=box,color=red];
+		2013 -> 2012;
+	2010 [label="Lettieがどれだけ美しいかは当然として、その気になれば小枝みたいにこっちをバキっと折れるんじゃないか考える　笑",shape=box,color=red];
+		2010 -> 2012;
+	1970 [label="Chat ends.",color=orange];
+	1996 [label="Update boolean LettieDating",color=orange];
+		1996 -> 1997;
+	1993 [label="Encendido, apagado, encendido, apagado 
 オン、オフ、オン、オフ
 もういいわ、babas",shape=box,color=blue];
-		j4213744573 -> "Chat ends.";
-	j1274354248 [label="要するに…　Lettieのことを大切に思うんだ。とても。友人以上に。同じ気持ちじゃないかもしれない、けど…",shape=box,color=red];
-		j1274354248 -> j88459110;
-	j1988976319 [label="Boolean IsDating is now true.",color=orange];
-		j1988976319 -> j3596526588;
-	j88459110 [label="黙って",shape=box,color=blue];
-		j88459110 -> j3178856581;
-	j3596526588 [label="+5 Chemistry",color=orange];
-		j3596526588 -> j2431866755;
-	j3178856581 [label="Aguántame tantito",shape=box,color=blue];
-		j3178856581 -> j2132551151;
-		j3178856581 -> j3892896019;
-	j2431866755 [label="Jajaja 耐えられるかしらね
+		1993 -> 1994;
+	2012 [label="要するに…　Lettieのことを大切に思うんだ。とても。友人以上に。同じ気持ちじゃないかもしれない、けど…",shape=box,color=red];
+		2012 -> 2011;
+	1997 [label="Update boolean IsDating",color=orange];
+		1997 -> 1999;
+	1994 [label="Chat ends.",color=orange];
+	2011 [label="黙って",shape=box,color=blue];
+		2011 -> 2008;
+	1999 [label="+5 Chemistry",color=orange];
+		1999 -> 1998;
+	2008 [label="Aguántame tantito",shape=box,color=blue];
+		2008 -> 2007;
+		2008 -> 2006;
+	1998 [label="Jajaja 耐えられるかしらね
 仕事に戻らないと
 でも楽しみが出来たわ
 Gracias, solecito",shape=box,color=blue];
-		j2431866755 -> "Chat ends.";
-	j2132551151 [label="不快な思いをさせたならごめん…",shape=box,color=red];
-		j2132551151 -> j3815726012;
-	j3892896019 [label="Lettieが同じ想いを抱いてなくても受け入れるよ。",shape=box,color=red];
-		j3892896019 -> j3815726012;
-	j3815726012 [label="¡Neta, ya cállate! 
+		1998 -> 2000;
+	2007 [label="不快な思いをさせたならごめん…",shape=box,color=red];
+		2007 -> 2005;
+	2006 [label="Lettieが同じ想いを抱いてなくても受け入れるよ。",shape=box,color=red];
+		2006 -> 2005;
+	2000 [label="Chat ends.",color=orange];
+	2005 [label="¡Neta, ya cállate! 
 少し考える時間がいる
 一息つくため
 思考がグチャグチャの時に処理できない",shape=box,color=blue];
-		j3815726012 -> j171647169;
-	j171647169 [label="+20 Chemistry",color=orange];
-		j171647169 -> j4168898440;
-	j4168898440 [label="褒め言葉の言い合いはしないの、solecito 
+		2005 -> 2001;
+	2001 [label="+20 Chemistry",color=orange];
+		2001 -> 2004;
+	2004 [label="褒め言葉の言い合いはしないの、solecito 
 受け止めきれないから
 明日話しましょう、これの整理はその時よ
 Lo siento",shape=box,color=blue];
-		j4168898440 -> j2564553015;
-	j2564553015 [label="Boolean LettieConfession is now true.",color=orange];
-		j2564553015 -> "Chat ends. Next chat will be LettieConfession.";
-	"Chat ends. Next chat will be LettieConfession." [color=orange];
+		2004 -> 2003;
+	2003 [label="Update boolean LettieConfession",color=orange];
+		2003 -> 2002;
+	2002 [label="Chat ends. Next chat will be LettieConfession.",color=orange];
 }

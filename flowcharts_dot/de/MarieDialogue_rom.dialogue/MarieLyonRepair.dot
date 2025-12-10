@@ -1,0 +1,34 @@
+digraph {
+	3871 [label="MarieLyonRepair begins.",color=orange];
+		3871 -> 3872;
+	3872 [label="Check boolean MarieFamilyFail",color=orange];
+		3872 -> 3873 [label=true,color=green];
+		3872 -> 3874 [label=false,color=brown];
+	3873 [label="Mein Seelenbruder schickt mich zu dir. Er bittet mich inständig, ma décision, dir in der Angelegenheit von Monsieur Loid nicht beizustehen, zu überdenken.",shape=box,color=blue];
+		3873 -> 3875;
+		3873 -> 3876;
+		3873 -> 3877;
+	3874 [label="Chat ends.",color=orange];
+	3875 [label="Ich wünschte wirklich, du würdest uns helfen, Marie.",shape=box,color=red];
+		3875 -> 3878;
+	3876 [label="Wir brauchen dich, Marie. Ohne dich ist alles sinnlos. Bitte. Kannst du mir verzeihen?",shape=box,color=red];
+		3876 -> 3879;
+	3877 [label="Es tut mir leid, dass ich dich enttäuscht habe. Aber bitte, lass es nicht an Loid aus. Oder an der Familie oben.",shape=box,color=red];
+		3877 -> 3880;
+	3878 [label="Ich bin lediglich hier, um dir zu sagen, dass du Lyons Freundlichkeit nicht ausnutzen solltest, um deine eigenen Fehler auszubügeln.",shape=box,color=blue];
+		3878 -> 3881;
+	3879 [label="Oui ... das kann ich. Meine momentane Wut auf dich sollte ohnehin nicht auf andere abfärben.",shape=box,color=blue];
+		3879 -> 3882;
+	3880 [label="Oui ... damit hast du recht. Meine momentane Wut auf dich sollte nicht auf andere abfärben.",shape=box,color=blue];
+		3880 -> 3883;
+	3881 [label="Chat ends.",color=orange];
+	3882 [label="Daher, sage ich, na gut. Ich werde dir helfen. Tu auras mon aide.",shape=box,color=blue];
+		3882 -> 3884;
+	3883 [label="Zorn den ich bereue, daher vergebe ich dir.",shape=box,color=blue];
+		3883 -> 3882;
+	3884 [label="Update boolean MarieFamilySuccess",color=orange];
+		3884 -> 3885;
+	3885 [label="Update boolean MarieFamilyFail",color=orange];
+		3885 -> 3886;
+	3886 [label="Chat ends.",color=orange];
+}

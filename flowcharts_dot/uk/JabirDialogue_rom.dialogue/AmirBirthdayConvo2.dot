@@ -1,16 +1,21 @@
 digraph {
-	"AmirBirthdayConvo2 begins." [color=orange];
-		"AmirBirthdayConvo2 begins." -> j1227419952;
-		"AmirBirthdayConvo2 begins." -> j3251371829;
-	j1227419952 [label="З днем народження, Аміре. Від мене тобі велике нічого.",shape=box,color=red];
-		j1227419952 -> j3003726607;
-	j3251371829 [label="Агов, Аміре. З Днем народження. Сподіваюся, ти розважаєшся!",shape=box,color=red];
-		j3251371829 -> j1368953259;
-	j3003726607 [label="ох. ну. думаю це дуже важлива думка яку треба було донести… ще й затратити мінімум зусиль… дяк",shape=box,color=blue];
-		j3003726607 -> "Chat ends.";
-	j1368953259 [label="+20 Chemistry",color=orange];
-		j1368953259 -> j3350502227;
-	"Chat ends." [color=orange];
-	j3350502227 [label="САМЕ ТАК СЬОГОДНІ ЧУДОВИЙ ДЕНЬ Я НЕ СПЛЮ З 00:01 У НАС ТУТ ЕНЕРГЕТИКИ І АРКАДИ І АОЙ МЕНІ ЗРОБИЛА КІМНАТУ З ПЛЮШАМИ І МЕНЕ ЗНУДИЛО В КІМНАТІ З ПЛЮШАМИ",shape=box,color=blue];
-		j3350502227 -> "Chat ends.";
+	3572 [label="AmirBirthdayConvo2 begins.",color=orange];
+		3572 -> 3578;
+		3572 -> 3579;
+	3578 [label="З днем народження, Аміре. Від мене тобі велике нічого.",shape=box,color=red];
+		3578 -> 3577;
+	3579 [label="Агов, Аміре. З Днем народження. Сподіваюся, ти розважаєшся!",shape=box,color=red];
+		3579 -> 3573;
+	3577 [label="ох. ну. думаю це дуже важлива думка яку треба було донести… ще й затратити мінімум зусиль… дяк",shape=box,color=blue];
+		3577 -> 3596;
+	3573 [label="+20 Chemistry",color=orange];
+		3573 -> 3576;
+	3596 [label="{\"Id\":3596,\"Incoming\":[3577],\"Outgoing\":[3574],\"GraphPos\":[-14787,-21152],\"CompletionType\":1}",color=orange];
+		3596 -> 3574;
+	3576 [label="САМЕ ТАК СЬОГОДНІ ЧУДОВИЙ ДЕНЬ Я НЕ СПЛЮ З 00:01 У НАС ТУТ ЕНЕРГЕТИКИ І АРКАДИ І АОЙ МЕНІ ЗРОБИЛА КІМНАТУ З ПЛЮШАМИ І МЕНЕ ЗНУДИЛО В КІМНАТІ З ПЛЮШАМИ",shape=box,color=blue];
+		3576 -> 3597;
+	3574 [label="Chat ends.",color=orange];
+	3597 [label="{\"Id\":3597,\"Incoming\":[3576],\"Outgoing\":[3575],\"GraphPos\":[-14371,-21328],\"CompletionType\":1}",color=orange];
+		3597 -> 3575;
+	3575 [label="Chat ends.",color=orange];
 }

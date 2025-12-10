@@ -1,0 +1,104 @@
+digraph {
+	2778 [label="LettieConsent begins.",color=orange];
+		2778 -> 2779;
+	2779 [label="Check boolean LettieDating",color=orange];
+		2779 -> 2780 [label=true,color=green];
+		2779 -> 2781 [label=false,color=brown];
+	2780 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
+		2780 -> 2782 [label=true,color=green];
+		2780 -> 2814 [label=false,color=brown];
+	2781 [label="Chat ends.",color=orange];
+	2782 [label="Check boolean LettieConsentComplete",color=orange];
+		2782 -> 2786 [label=true,color=green];
+		2782 -> 2785 [label=false,color=brown];
+		2782 -> 2784 [label=false,color=brown];
+	2814 [label="Check boolean LettiePolyamorySuccess",color=orange];
+		2814 -> 2782 [label=true,color=green];
+		2814 -> 2783 [label=false,color=brown];
+	2786 [label="Chat ends.",color=orange];
+	2785 [label="Salut Lettie. Tu es occupée? [Demander le consentement pour avoir plusieurs partenaires.]",shape=box,color=red];
+		2785 -> 2788;
+	2784 [label="[Fin.]",shape=box,color=red];
+		2784 -> 2787;
+	2783 [label="Chat ends.",color=orange];
+	2788 [label="Toujours
+Mais pour toi?
+¿Qué?",shape=box,color=blue];
+		2788 -> 2790;
+	2787 [label="Update boolean LettieConsentComplete",color=orange];
+		2787 -> 2789;
+	2790 [label="Je veux te parler de quelque chose et je veux m'assurer que ça ne te dérange pas.",shape=box,color=red];
+		2790 -> 2791;
+	2789 [label="Chat ends.",color=orange];
+	2791 [label="Il est important pour moi que tu n'aies pas l'impression que je te mens ou que je suis malhonnête avec toi de quelque manière que ce soit.",shape=box,color=red];
+		2791 -> 2792;
+		2791 -> 2793;
+		2791 -> 2794;
+	2792 [label="S'il te plaît, ne me fais pas de mal.",shape=box,color=red];
+		2792 -> 2795;
+	2793 [label="S'il te plaît, ne te fâche pas.",shape=box,color=red];
+		2793 -> 2796;
+	2794 [label="J'espère que tu comprends.",shape=box,color=red];
+		2794 -> 2797;
+	2795 [label="Jajajajaj
+On en a déjà parlé
+Je ne te fais mal que comme tu aimes
+De quoi tu parles, là?",shape=box,color=blue];
+		2795 -> 2798;
+	2796 [label="¿Sí?
+Et me fâcher à propos de quoi?",shape=box,color=blue];
+		2796 -> 2798;
+	2797 [label="¿Sí?
+Et qu'y a-t-il à comprendre?",shape=box,color=blue];
+		2797 -> 2798;
+	2798 [label="Je ne veux pas te mettre dans une situation qui pourrait te déplaire. Je sais que nous n'en avons jamais parlé. Alors, si tu dis non, ce n'est pas grave. Je voulais juste que tu le saches.",shape=box,color=red];
+		2798 -> 2799;
+	2799 [label="Ce que nous avons est important pour moi, très important, et c'est réel. Je ne veux pas que tu en doutes.",shape=box,color=red];
+		2799 -> 2800;
+	2800 [label="Aah, entiendo...
+Je suppose que je veux juste savoir
+Est-ce que c'est quelqu'un à qui tu tiens vraiment, solecito?
+¿Quiénes son?",shape=box,color=blue];
+		2800 -> 2801;
+		2800 -> 2802;
+	2801 [label="Oui. Mais je tiens aussi énormément à toi.",shape=box,color=red];
+		2801 -> 2803;
+	2802 [label="J'aurais dû me douter que tu comprendrais rapidement.",shape=box,color=red];
+		2802 -> 2804;
+	2803 [label="Ay, sí
+Difficile de t'en vouloir, tu vois tant de choses
+Tu voyages tellement
+Ça me va très bien",shape=box,color=blue];
+		2803 -> 2805;
+	2804 [label="J'ai triché
+Eleanor m'avait prévenue
+Jajaja quelle commère",shape=box,color=blue];
+		2804 -> 2806;
+	2805 [label="Mais personne de l'Hexagone
+Mi familia no, ¿por favor?
+Je devrais me frotter avec des lingettes désinfectantes pendant une semaine",shape=box,color=blue];
+		2805 -> 2807;
+	2806 [label="Difficile de t'en vouloir, tu vois tant de choses
+Tu voyages tellement
+Ça me va très bien",shape=box,color=blue];
+		2806 -> 2805;
+	2807 [label="+20 Chemistry",color=orange];
+		2807 -> 2808;
+	2808 [label="Tu comptes énormément pour moi, solecito
+Et si cette personne fait ton bonheur?
+Alors je suis heureuse aussi
+C'est aussi simple que ça",shape=box,color=blue];
+		2808 -> 2809;
+	2809 [label="Oh
+Et trouve un moyen de l'inviter ici un jour
+Je veux qu'on se rencontre",shape=box,color=blue];
+		2809 -> 2810;
+		2809 -> 2811;
+	2810 [label="Oui madame. :)",shape=box,color=red];
+		2810 -> 2812;
+	2811 [label="Je vais voir ce que je peux faire.",shape=box,color=red];
+		2811 -> 2812;
+	2812 [label="Update boolean LettieConsentComplete",color=orange];
+		2812 -> 2813;
+	2813 [label="Chat ends.",color=orange];
+}

@@ -1,20 +1,25 @@
 digraph {
-	"LettieBirthdayConvo1 begins." [color=orange];
-		"LettieBirthdayConvo1 begins." -> j183204772;
-		"LettieBirthdayConvo1 begins." -> j4216357810;
-	j183204772 [label="嘿！生日快乐！你的小鼠给你送了什么吗？",shape=box,color=red];
-		j183204772 -> j2876149620;
-	j4216357810 [label="生日快乐！而且还是在星日这天。多浪漫啊。:)",shape=box,color=red];
-		j4216357810 -> j4018164338;
-	j2876149620 [label="+20 Chemistry",color=orange];
-		j2876149620 -> j3659503031;
-	j4018164338 [label="星日是什么？
+	458 [label="LettieBirthdayConvo1 begins.",color=orange];
+		458 -> 457;
+		458 -> 456;
+	457 [label="嘿！生日快乐！你的小鼠给你送了什么吗？",shape=box,color=red];
+		457 -> 460;
+	456 [label="生日快乐！而且还是在星日这天。多浪漫啊。:)",shape=box,color=red];
+		456 -> 1298;
+	460 [label="+20 Chemistry",color=orange];
+		460 -> 1300;
+	1298 [label="星日是什么？
 随便吧。太忙了，没时间管这个。
 Adiós",shape=box,color=blue];
-		j4018164338 -> "Chat ends.";
-	j3659503031 [label="Jajaja 没有
+		1298 -> 2517;
+	1300 [label="Jajaja 没有
 我只想多睡一个小时或者喝一杯现煮的咖啡。要求太多了吗？ 
 Pero，gracias",shape=box,color=blue];
-		j3659503031 -> "Chat ends.";
-	"Chat ends." [color=orange];
+		1300 -> 2516;
+	2517 [label="{\"Id\":2517,\"Incoming\":[1298],\"Outgoing\":[1297],\"GraphPos\":[797,-1598],\"CompletionType\":1}",color=orange];
+		2517 -> 1297;
+	2516 [label="{\"Id\":2516,\"Incoming\":[1300],\"Outgoing\":[459],\"GraphPos\":[1161,-1810],\"CompletionType\":1}",color=orange];
+		2516 -> 459;
+	1297 [label="Chat ends.",color=orange];
+	459 [label="Chat ends.",color=orange];
 }

@@ -1,86 +1,87 @@
 digraph {
-	"LettieRank5Convo6 begins." [color=orange];
-		"LettieRank5Convo6 begins." -> j1229414268;
-	j1229414268 [label="Check boolean LettieDating",color=orange];
-		j1229414268 -> j2789692117 [label=true,color=green];
-		j1229414268 -> "Chat ends." [label=false,color=brown];
-	j2789692117 [label="Solecito 
+	2251 [label="LettieRank5Convo6 begins.",color=orange];
+		2251 -> 2252;
+	2252 [label="Check boolean LettieDating",color=orange];
+		2252 -> 2254 [label=true,color=green];
+		2252 -> 2253 [label=false,color=brown];
+	2254 [label="Solecito 
 跟我多说说这个未来的事情吧",shape=box,color=blue];
-		j2789692117 -> j2359811925;
-	"Chat ends." [color=orange];
-	j2359811925 [label="那个神明们饥饿但对你毫无意义的未来 
+		2254 -> 2255;
+	2253 [label="Chat ends.",color=orange];
+	2255 [label="那个神明们饥饿但对你毫无意义的未来 
 那个你说你为了我们而放弃的未来 
 那些战争和遥远世界的未来",shape=box,color=blue];
-		j2359811925 -> j2950460524;
-		j2359811925 -> j2549835901;
-	j2950460524 [label="莱蒂，你还好吗？",shape=box,color=red];
-		j2950460524 -> j647679279;
-	j2549835901 [label="你得再说具体一点……",shape=box,color=red];
-		j2549835901 -> j668528246;
-	j647679279 [label="哎，不好
+		2255 -> 2256;
+		2255 -> 2257;
+	2256 [label="莱蒂，你还好吗？",shape=box,color=red];
+		2256 -> 2258;
+	2257 [label="你得再说具体一点……",shape=box,color=red];
+		2257 -> 2259;
+	2258 [label="哎，不好
 今天心情很忧郁
 蜘蛛又开始作怪了
 No importa, ya no te molesto",shape=box,color=blue];
-		j647679279 -> j1027157091;
-	j668528246 [label="Ay, lo siento
+		2258 -> 2260;
+	2259 [label="Ay, lo siento
 蜘蛛又开始作怪了
 让我变得忧郁
 还显得很抓马 jajaja
 No importa, ya no te molesto",shape=box,color=blue];
-		j668528246 -> j1027157091;
-	j1027157091 [label="Check boolean LettieDepression",color=orange];
-		j1027157091 -> j3386455563 [label=true,color=green];
-		j1027157091 -> j30409104 [label=true,color=green];
-		j1027157091 -> j793751220 [label=true,color=green];
-		j1027157091 -> j1577266855 [label=false,color=brown];
-		j1027157091 -> j30409104 [label=false,color=brown];
-		j1027157091 -> j793751220 [label=false,color=brown];
-	j3386455563 [label="你之前提到过蜘蛛。我想，这是抑郁的隐喻吧？",shape=box,color=red];
-		j3386455563 -> j1948938685;
-	j30409104 [label="我想这大概证明了蜘蛛真的不适合当宠物？",shape=box,color=red];
-		j30409104 -> j1041316344;
-	j793751220 [label="好的，没问题。",shape=box,color=red];
-		j793751220 -> "Chat ends.";
-	j1577266855 [label="蜘蛛……？",shape=box,color=red];
-		j1577266855 -> j3285992530;
-	j1948938685 [label="Ay sí
+		2259 -> 2260;
+	2260 [label="Check boolean LettieDepression",color=orange];
+		2260 -> 2261 [label=true,color=green];
+		2260 -> 2263 [label=true,color=green];
+		2260 -> 2264 [label=true,color=green];
+		2260 -> 2262 [label=false,color=brown];
+		2260 -> 2263 [label=false,color=brown];
+		2260 -> 2264 [label=false,color=brown];
+	2261 [label="你之前提到过蜘蛛。我想，这是抑郁的隐喻吧？",shape=box,color=red];
+		2261 -> 2266;
+	2263 [label="我想这大概证明了蜘蛛真的不适合当宠物？",shape=box,color=red];
+		2263 -> 2313;
+	2264 [label="好的，没问题。",shape=box,color=red];
+		2264 -> 2265;
+	2262 [label="蜘蛛……？",shape=box,color=red];
+		2262 -> 2267;
+	2266 [label="Ay sí
 这些是我生活中一直有的东西
 那些总在我脑袋里骗我的小东西",shape=box,color=blue];
-		j1948938685 -> j3166072588;
-	j1041316344 [label="JAJAJA
+		2266 -> 2272;
+	2313 [label="JAJAJA
 不知道
 这些蜘蛛不是真的
 它们只是我对脑袋里那些骗我的小东西的称呼",shape=box,color=blue];
-		j1041316344 -> j2102600697;
-		j1041316344 -> j3290310342;
-		j1041316344 -> j2869805102;
-	j3285992530 [label="Ay sí
+		2313 -> 2269;
+		2313 -> 2270;
+		2313 -> 2271;
+	2265 [label="Chat ends.",color=orange];
+	2267 [label="Ay sí
 还没有解释过
 我把脑袋里那些骗我的小东西叫作蜘蛛",shape=box,color=blue];
-		j3285992530 -> j2102600697;
-		j3285992530 -> j3290310342;
-		j3285992530 -> j2869805102;
-	j3166072588 [label="那些小东西总是在跟我说悄悄话，当我犯傻的时候就信以为真，然后就上当了",shape=box,color=blue];
-		j3166072588 -> j3147412825;
-		j3166072588 -> j1003827404;
-	j2102600697 [label="你说的“它们骗你”是什么意思？",shape=box,color=red];
-		j2102600697 -> j3166072588;
-	j3290310342 [label="你听到了声音……？",shape=box,color=red];
-		j3290310342 -> j154126556;
-	j2869805102 [label="你试过忽略它们吗？",shape=box,color=red];
-		j2869805102 -> j667412190;
-	j3147412825 [label="它们对你说了什么悄悄话？",shape=box,color=red];
-		j3147412825 -> j2018128501;
-	j1003827404 [label="听起来好惨……抱歉。",shape=box,color=red];
-		j1003827404 -> j2936533591;
-	j154126556 [label="啊啊啊，babaaas，不是字面意思
+		2267 -> 2269;
+		2267 -> 2270;
+		2267 -> 2271;
+	2272 [label="那些小东西总是在跟我说悄悄话，当我犯傻的时候就信以为真，然后就上当了",shape=box,color=blue];
+		2272 -> 2276;
+		2272 -> 2277;
+	2269 [label="你说的“它们骗你”是什么意思？",shape=box,color=red];
+		2269 -> 2272;
+	2270 [label="你听到了声音……？",shape=box,color=red];
+		2270 -> 2273;
+	2271 [label="你试过忽略它们吗？",shape=box,color=red];
+		2271 -> 2274;
+	2276 [label="它们对你说了什么悄悄话？",shape=box,color=red];
+		2276 -> 2282;
+	2277 [label="听起来好惨……抱歉。",shape=box,color=red];
+		2277 -> 2278;
+	2273 [label="啊啊啊，babaaas，不是字面意思
 那些小东西总是在我脑袋里说悄悄话，当我犯傻的时候就信以为真，然后就上当了",shape=box,color=blue];
-		j154126556 -> j3147412825;
-		j154126556 -> j1003827404;
-	j667412190 [label="Qué？！真是个聪明的主意
+		2273 -> 2276;
+		2273 -> 2277;
+	2274 [label="Qué？！真是个聪明的主意
 我现在就试试看",shape=box,color=blue];
-		j667412190 -> "Chat ends.";
-	j2018128501 [label="你会失败
+		2274 -> 2275;
+	2282 [label="你会失败
 没有人喜欢你
 你很丑
 你很胖
@@ -88,100 +89,107 @@ No importa, ya no te molesto",shape=box,color=blue];
 你没有技能
 这种幸福很快就会结束
 你不值得拥有这些",shape=box,color=blue];
-		j2018128501 -> j2609176786;
-		j2018128501 -> j139926047;
-		j2018128501 -> j1764110546;
-	j2936533591 [label="嗯
+		2282 -> 2283;
+		2282 -> 2284;
+		2282 -> 2285;
+	2278 [label="嗯
 它也有好的时候",shape=box,color=blue];
-		j2936533591 -> j2333013776;
-	j2609176786 [label="至少你知道蜘蛛是在骗人，不过……它们听上去真的像个混蛋。",shape=box,color=red];
-		j2609176786 -> j373727754;
-	j139926047 [label="我的那些说得更刻薄……你已经很幸运了。",shape=box,color=red];
-		j139926047 -> j3397425533;
-	j1764110546 [label="你有没有考虑过吃药或治疗？抑郁症可以变得很严重。",shape=box,color=red];
-		j1764110546 -> j2005904896;
-	j2333013776 [label="我得回去工作了
+		2278 -> 2279;
+	2275 [label="Chat ends.",color=orange];
+	2283 [label="至少你知道蜘蛛是在骗人，不过……它们听上去真的像个混蛋。",shape=box,color=red];
+		2283 -> 2286;
+	2284 [label="我的那些说得更刻薄……你已经很幸运了。",shape=box,color=red];
+		2284 -> 2287;
+	2285 [label="你有没有考虑过吃药或治疗？抑郁症可以变得很严重。",shape=box,color=red];
+		2285 -> 2288;
+	2279 [label="我得回去工作了
 Lo siento，讨厌在你面前发牢骚",shape=box,color=blue];
-		j2333013776 -> j1933300832;
-	j373727754 [label="它们是小小的 pinches cabronas
+		2279 -> 2280;
+	2286 [label="它们是小小的 pinches cabronas
 这种悲伤虽然很小，但如果你任由其积聚，它就会成为一种毒药 
 Mi mamá 一生都饱受其苦，所以我亲眼看到了它所带来的伤害",shape=box,color=blue];
-		j373727754 -> j208148548;
-	j3397425533 [label="那你真的是明白那是什么感觉，mi corazón
+		2286 -> 2289;
+	2287 [label="那你真的是明白那是什么感觉，mi corazón
 它们是小小的 pinches cabronas
 但请永远记住，它们是骗子
 这种悲伤虽然很小，但如果你任由其积聚，它就会成为一种毒药 
 Mi mamá 一生都在经历这个，所以我亲眼看到了它所带来的伤害",shape=box,color=blue];
-		j3397425533 -> j2628664174;
-	j2005904896 [label="Ay sí
+		2287 -> 2290;
+	2288 [label="Ay sí
 Mi mamá 一生都在经历这个 
 所以我亲眼看到了它所带来的伤害
 幸运的是，我的情况没有那么糟糕，没有发展成很严重的问题
 我试过用药，但讨厌它带来的脑雾",shape=box,color=blue];
-		j2005904896 -> j332740538;
-	j1933300832 [label="+10 Chemistry",color=orange];
-		j1933300832 -> "Chat ends.";
-	j208148548 [label="但这就是为什么我称它们为蜘蛛
+		2288 -> 2291;
+	2280 [label="+10 Chemistry",color=orange];
+		2280 -> 2281;
+	2289 [label="但这就是为什么我称它们为蜘蛛
 因为你可以拿一张报纸卷成筒
 然后把它们拍扁
 它们很小，很容易被摧毁",shape=box,color=blue];
-		j208148548 -> j3815549692;
-		j208148548 -> j527511897;
-	j2628664174 [label="但这就是为什么我称它们为蜘蛛
+		2289 -> 2292;
+		2289 -> 2293;
+	2290 [label="但这就是为什么我称它们为蜘蛛
 因为你可以拿一张报纸卷成筒
 然后把它们拍扁
 它们很小，很容易被摧毁",shape=box,color=blue];
-		j2628664174 -> j3903294666;
-		j2628664174 -> j2260009469;
-	j332740538 [label="我不想和 La Flaca 共舞，别担心
+		2290 -> 2294;
+		2290 -> 2295;
+	2291 [label="我不想和 La Flaca 共舞，别担心
 我也不想要那种没有快乐的痛苦 jajaja
 这是一种温和的悲伤，蜘蛛很小",shape=box,color=blue];
-		j332740538 -> j857592090;
-		j332740538 -> j343896295;
-	j3815549692 [label="那你应该不会喜欢金星……",shape=box,color=red];
-		j3815549692 -> j255230935;
-	j527511897 [label="很有道理。现在，我可以帮你拍死蜘蛛了。",shape=box,color=red];
-		j527511897 -> j1365592593;
-	j3903294666 [label="那你应该不会喜欢金星……",shape=box,color=red];
-		j3903294666 -> j2354980613;
-	j2260009469 [label="很有道理。现在，我可以帮你拍死蜘蛛了。",shape=box,color=red];
-		j2260009469 -> j845076109;
-	j857592090 [label="我相信你。但你知道什么时候该寻求帮助，对吧？",shape=box,color=red];
-		j857592090 -> j1809538208;
-	j343896295 [label="如果情况变糟……你会告诉我的，对吧？即使我们不再在一起了？",shape=box,color=red];
-		j343896295 -> j1809538208;
-	j255230935 [label="¿Qué?",shape=box,color=blue];
-		j255230935 -> j670854498;
-	j1365592593 [label="+15 Chemistry",color=orange];
-		j1365592593 -> j1220035225;
-	j2354980613 [label="¿Qué?",shape=box,color=blue];
-		j2354980613 -> j3928653723;
-	j845076109 [label="+20 Chemistry",color=orange];
-		j845076109 -> j4007249803;
-	j1809538208 [label="+20 Chemistry",color=orange];
-		j1809538208 -> j3794055685;
-	j670854498 [label="没什么。至少现在我可以帮你拍死蜘蛛了。",shape=box,color=red];
-		j670854498 -> j1365592593;
-	j1220035225 [label="Sí, solecito
+		2291 -> 2296;
+		2291 -> 2297;
+	2281 [label="Chat ends.",color=orange];
+	2292 [label="那你应该不会喜欢金星……",shape=box,color=red];
+		2292 -> 2298;
+	2293 [label="很有道理。现在，我可以帮你拍死蜘蛛了。",shape=box,color=red];
+		2293 -> 2304;
+	2294 [label="那你应该不会喜欢金星……",shape=box,color=red];
+		2294 -> 2299;
+	2295 [label="很有道理。现在，我可以帮你拍死蜘蛛了。",shape=box,color=red];
+		2295 -> 2308;
+	2296 [label="我相信你。但你知道什么时候该寻求帮助，对吧？",shape=box,color=red];
+		2296 -> 2311;
+	2297 [label="如果情况变糟……你会告诉我的，对吧？即使我们不再在一起了？",shape=box,color=red];
+		2297 -> 2311;
+	2298 [label="¿Qué?",shape=box,color=blue];
+		2298 -> 2301;
+	2304 [label="+15 Chemistry",color=orange];
+		2304 -> 2303;
+	2299 [label="¿Qué?",shape=box,color=blue];
+		2299 -> 2302;
+	2308 [label="+20 Chemistry",color=orange];
+		2308 -> 2306;
+	2311 [label="+20 Chemistry",color=orange];
+		2311 -> 2300;
+	2301 [label="没什么。至少现在我可以帮你拍死蜘蛛了。",shape=box,color=red];
+		2301 -> 2304;
+	2303 [label="Sí, solecito
 我为此感谢你
 但现在我得像往常一样回去工作了",shape=box,color=blue];
-		j1220035225 -> "Chat ends.";
-	j3928653723 [label="没什么。至少现在我们可以一起拍死蜘蛛了。",shape=box,color=red];
-		j3928653723 -> j845076109;
-	j4007249803 [label="Sí, mi corazón，没错
+		2303 -> 2305;
+	2302 [label="没什么。至少现在我们可以一起拍死蜘蛛了。",shape=box,color=red];
+		2302 -> 2308;
+	2306 [label="Sí, mi corazón，没错
 无论我们之间发生什么
 感谢这一刻
 但现在我得像往常一样回去工作了",shape=box,color=blue];
-		j4007249803 -> j1472871842;
-	j3794055685 [label="Sí, mi corazón，我保证
+		2306 -> 2307;
+	2300 [label="Sí, mi corazón，我保证
 无论我们之间发生什么
 我会记住这一刻，记住你的关心，然后卷起报纸狠狠拍死那些蜘蛛 jajaja",shape=box,color=blue];
-		j3794055685 -> j1672013618;
-	j1472871842 [label="Boolean LettieReal is now true.",color=orange];
-		j1472871842 -> "Chat ends.";
-	j1672013618 [label="真心的……
+		2300 -> 2310;
+	2305 [label="Chat ends.",color=orange];
+	2307 [label="Update boolean LettieReal",color=orange];
+		2307 -> 2309;
+	2310 [label="真心的……
 Gracias
 但是我现在得回去工作了
 Ve",shape=box,color=blue];
-		j1672013618 -> j1472871842;
+		2310 -> 2268;
+	2309 [label="Chat ends.",color=orange];
+	2268 [label="Update boolean LettieReal",color=orange];
+		2268 -> 2312;
+	2312 [label="Chat ends.",color=orange];
 }

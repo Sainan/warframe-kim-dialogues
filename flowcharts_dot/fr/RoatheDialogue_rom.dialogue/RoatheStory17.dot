@@ -1,0 +1,31 @@
+digraph {
+	2289 [label="RoatheStory17 begins.",color=orange];
+		2289 -> 5672;
+	5672 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5672 -> 2288 [label=true,color=green];
+		5672 -> 5673 [label=false,color=brown];
+	2288 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2288 -> 2287 [label="x >= 17",color=purple];
+		2288 -> 2284 [label="false",color=purple];
+	5673 [label="Chat ends.",color=orange];
+	2287 [label="VM: WARFRAMES",shape=box,color=blue];
+		2287 -> 2286;
+	2284 [label="Chat ends.",color=orange];
+	2286 [label="Transcription: au départ, les Warframes semblaient davantage relever d’une démarche artistique que d’une véritable arme.",shape=box,color=blue];
+		2286 -> 2285;
+	2285 [label="La guerre était pratiquement perdue; les Sentients étaient invincibles; créons donc ces guerriers étranges et surréalistes et équipons-les d'armes d'une lignée ancestrale.",shape=box,color=blue];
+		2285 -> 2282;
+	2282 [label="Au moins, notre défaite sera belle. Mémorable.",shape=box,color=blue];
+		2282 -> 2283;
+	2283 [label="Mais contre toute attente, ils triomphèrent. Bientôt, des récits d'un héroïsme invraisemblable parvinrent du front.",shape=box,color=blue];
+		2283 -> 5715;
+	5715 [label="Warframes had appeared from the sky, angel-like, liberating captives and devastating Sentient strongholds. Even alone they were miracles; in groups, they were gods.",shape=box,color=blue];
+		5715 -> 5716;
+	5716 [label="Little wonder, then, that they were seen as mere propaganda.",shape=box,color=blue];
+		5716 -> 2281;
+	2281 [label="Add 1 to HellStory",color=orange];
+		2281 -> 2344;
+	2344 [label="{\"Id\":2344,\"Incoming\":[2281],\"Outgoing\":[2280],\"GraphPos\":[4697,-4956],\"CompletionType\":1}",color=orange];
+		2344 -> 2280;
+	2280 [label="Chat ends.",color=orange];
+}

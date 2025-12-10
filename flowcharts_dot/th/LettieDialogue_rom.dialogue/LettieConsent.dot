@@ -1,0 +1,104 @@
+digraph {
+	2778 [label="LettieConsent begins.",color=orange];
+		2778 -> 2779;
+	2779 [label="Check boolean LettieDating",color=orange];
+		2779 -> 2780 [label=true,color=green];
+		2779 -> 2781 [label=false,color=brown];
+	2780 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
+		2780 -> 2782 [label=true,color=green];
+		2780 -> 2814 [label=false,color=brown];
+	2781 [label="Chat ends.",color=orange];
+	2782 [label="Check boolean LettieConsentComplete",color=orange];
+		2782 -> 2786 [label=true,color=green];
+		2782 -> 2785 [label=false,color=brown];
+		2782 -> 2784 [label=false,color=brown];
+	2814 [label="Check boolean LettiePolyamorySuccess",color=orange];
+		2814 -> 2782 [label=true,color=green];
+		2814 -> 2783 [label=false,color=brown];
+	2786 [label="Chat ends.",color=orange];
+	2785 [label="เฮ้... Lettie ยุ่งอยู่หรือเปล่า [ขอความยินยอมมีคู่หลายคน]",shape=box,color=red];
+		2785 -> 2788;
+	2784 [label="[จบ]",shape=box,color=red];
+		2784 -> 2787;
+	2783 [label="Chat ends.",color=orange];
+	2788 [label="ตลอดเวลานั่นแหละ
+แต่มีเวลาสำหรับเธอนะ
+¿Qué?",shape=box,color=blue];
+		2788 -> 2790;
+	2787 [label="Update boolean LettieConsentComplete",color=orange];
+		2787 -> 2789;
+	2790 [label="พอดีมีเรื่องอยากคุยด้วยหน่อยและอยากถามให้แน่ใจว่าเจ้าจะโอเคกับเรื่องนั้น",shape=box,color=red];
+		2790 -> 2791;
+	2789 [label="Chat ends.",color=orange];
+	2791 [label="ที่สำคัญคือไม่อยากให้รู้สึกว่าข้ากำลังโกหกหรือไม่ซื่อสัตย์",shape=box,color=red];
+		2791 -> 2792;
+		2791 -> 2793;
+		2791 -> 2794;
+	2792 [label="อย่าทำร้ายกันนะ",shape=box,color=red];
+		2792 -> 2795;
+	2793 [label="อย่าโกรธนะ",shape=box,color=red];
+		2793 -> 2796;
+	2794 [label="หวังว่าจะเข้าใจนะ",shape=box,color=red];
+		2794 -> 2797;
+	2795 [label="Jajajajaj
+เราคุยกันเรื่องนี้แล้วนี่
+ฉันจะทำให้เธอเจ็บในแบบที่เธอชอบเท่านั้น
+แล้วนี่กำลังพูดถึงเรื่องอะไรอยู่",shape=box,color=blue];
+		2795 -> 2798;
+	2796 [label="¿Sí?
+แล้วจะโกรธเรื่องอะไรล่ะ",shape=box,color=blue];
+		2796 -> 2798;
+	2797 [label="¿Sí?
+แล้วจะให้เข้าใจเรื่องอะไรล่ะ",shape=box,color=blue];
+		2797 -> 2798;
+	2798 [label="ไม่อยากให้เจ้ารู้สึกเหมือนตกอยู่ในสถานการณ์ที่ไม่โอเค เราไม่เคยคุยกันเรื่องนี้มาก่อน ดังนั้นถ้าจะปฏิเสธก็ไม่เป็นไรนะ",shape=box,color=red];
+		2798 -> 2799;
+	2799 [label="สิ่งที่เรามีนั้นสำคัญ สำคัญมากจริง ๆ และมันเป็นของจริง โปรดอย่าสงสัยในเรื่องนี้เลย",shape=box,color=red];
+		2799 -> 2800;
+	2800 [label="Aah, entiendo...
+แค่อยากรู้ว่า
+เธอสนใจเขาจริง ๆ เหรอ solecito?
+¿Quiénes son?",shape=box,color=blue];
+		2800 -> 2801;
+		2800 -> 2802;
+	2801 [label="สนใจเขา แต่ก็ใส่ใจเจ้ามากเช่นกัน",shape=box,color=red];
+		2801 -> 2803;
+	2802 [label="คิดอยู่แล้วว่าเจ้าคงพอจะเดาออกได้ทันที",shape=box,color=red];
+		2802 -> 2804;
+	2803 [label="Ay, sí
+โทษเธอไม่ได้หรอก ในเมื่อเธอเห็นอะไรมามากมาย
+เดินทางมามากมาย
+ก็โอเคนะ",shape=box,color=blue];
+		2803 -> 2805;
+	2804 [label="ฉันโกงน่ะ
+Eleanor เตือนฉันแล้ว
+Jajaja ยัยนั่นขี้นินทาจะตาย",shape=box,color=blue];
+		2804 -> 2806;
+	2805 [label="แต่คงไม่ใช่คนใน hex นะ
+Mi familia no, ¿por favor?
+ไม่งั้นฉันคงต้องไปหาอะไรมาขัดตัวเองทั้งอาทิตย์แน่",shape=box,color=blue];
+		2805 -> 2807;
+	2806 [label="โทษเธอไม่ได้หรอก ในเมื่อเธอเห็นอะไรมามากมาย
+เดินทางมามากมาย
+ก็โอเคนะ",shape=box,color=blue];
+		2806 -> 2805;
+	2807 [label="+20 Chemistry",color=orange];
+		2807 -> 2808;
+	2808 [label="เธอเป็นคนสำคัญของฉันนะ solecito
+แล้วถ้าเขาทำให้เธอมีความสุข
+งั้นเราก็คงเหมือนกัน
+ง่าย ๆ แค่นั้นเอง",shape=box,color=blue];
+		2808 -> 2809;
+	2809 [label="อ้อ
+และลองหาทางพาเขามาที่นี่ในสักวันนะ
+ฉันอยากเจอ",shape=box,color=blue];
+		2809 -> 2810;
+		2809 -> 2811;
+	2810 [label="ครับคุณผู้หญิง :)",shape=box,color=red];
+		2810 -> 2812;
+	2811 [label="เดี๋ยวจะลองดูว่าทำอะไรได้บ้าง",shape=box,color=red];
+		2811 -> 2812;
+	2812 [label="Update boolean LettieConsentComplete",color=orange];
+		2812 -> 2813;
+	2813 [label="Chat ends.",color=orange];
+}

@@ -1,102 +1,106 @@
 digraph {
-	"LettieRank2Convo2 begins." [color=orange];
-		"LettieRank2Convo2 begins." -> j2031544249;
-		"LettieRank2Convo2 begins." -> j2702404842;
-	j2031544249 [label="ペットのネズミたちの名前はなんていうんだ？",shape=box,color=red];
-		j2031544249 -> j2484551217;
-	j2702404842 [label="ペットのネズミは何匹飼っているんだ？",shape=box,color=red];
-		j2702404842 -> j1155263654;
-	j2484551217 [label="ん？",shape=box,color=blue];
-		j2484551217 -> j1895530188;
-	j1155263654 [label="ん？ 
+	306 [label="LettieRank2Convo2 begins.",color=orange];
+		306 -> 307;
+		306 -> 308;
+	307 [label="ペットのネズミたちの名前はなんていうんだ？",shape=box,color=red];
+		307 -> 309;
+	308 [label="ペットのネズミは何匹飼っているんだ？",shape=box,color=red];
+		308 -> 310;
+	309 [label="ん？",shape=box,color=blue];
+		309 -> 311;
+	310 [label="ん？ 
 4",shape=box,color=blue];
-		j1155263654 -> j1895530188;
-	j1895530188 [label="Boolean LettieRats2 is now true.",color=orange];
-		j1895530188 -> j3412111740;
-	j3412111740 [label="Vaquero、Anita、Neenah、それとTláloc",shape=box,color=blue];
-		j3412111740 -> j101374829;
-		j3412111740 -> j1133451088;
-	j101374829 [label="名前はどうやって決めた？",shape=box,color=red];
-		j101374829 -> j3792172100;
-	j1133451088 [label="一匹には自分の名前をつけるべきだ。:)",shape=box,color=red];
-		j1133451088 -> j673906741;
-	j3792172100 [label="Vaqueroはカウボーイ
+		310 -> 311;
+	311 [label="Update boolean LettieRats2",color=orange];
+		311 -> 312;
+	312 [label="Vaquero、Anita、Neenah、それとTláloc",shape=box,color=blue];
+		312 -> 313;
+		312 -> 314;
+	313 [label="名前はどうやって決めた？",shape=box,color=red];
+		313 -> 315;
+	314 [label="一匹には自分の名前をつけるべきだ。:)",shape=box,color=red];
+		314 -> 316;
+	315 [label="Vaqueroはカウボーイ
 Anitaは地元の友人
 Neenahは亡くなった友人
 Tlálocは古代の雨神から",shape=box,color=blue];
-		j3792172100 -> j49539816;
-	j673906741 [label="フッ
+		315 -> 317;
+	316 [label="フッ
 Babasにするわ
 壁紙を舐めなければいいのだけど",shape=box,color=blue];
-		j673906741 -> j3297521506;
-		j673906741 -> j63948501;
-	j49539816 [label="Tlálocは*クソガキ*よ
+		316 -> 318;
+		316 -> 319;
+	317 [label="Tlálocは*クソガキ*よ
 神じゃなくてネズミの方ね jaja 
 縁起でもないのはいらない",shape=box,color=blue];
-		j49539816 -> j3237992885;
-		j49539816 -> j833897441;
-	j3297521506 [label="ところで、Babasって*どういう*意味なんだ？",shape=box,color=red];
-		j3297521506 -> j1427950801;
-	j63948501 [label="はいはいワロタ。元ネタ知っているからね。",shape=box,color=red];
-		j63948501 -> j314427462;
-	j3237992885 [label=" Tlálocのことを聞いたことがない。ルアとソルより前からいたの？　二元論の前から？",shape=box,color=red];
-		j3237992885 -> j2151232165;
-	j833897441 [label="彼のどこがクソガキなの？　笑",shape=box,color=red];
-		j833897441 -> j2095409474;
-	j1427950801 [label="気にしないで
+		317 -> 322;
+		317 -> 323;
+	318 [label="ところで、Babasって*どういう*意味なんだ？",shape=box,color=red];
+		318 -> 324;
+	319 [label="はいはいワロタ。元ネタ知っているからね。",shape=box,color=red];
+		319 -> 320;
+	322 [label=" Tlálocのことを聞いたことがない。ルアとソルより前からいたの？　二元論の前から？",shape=box,color=red];
+		322 -> 326;
+	323 [label="彼のどこがクソガキなの？　笑",shape=box,color=red];
+		323 -> 327;
+	324 [label="気にしないで
 もっとヒドイ呼び名でもいいのよ",shape=box,color=blue];
-		j1427950801 -> j1497030775;
-		j1427950801 -> j2056494647;
-	j314427462 [label="よろしい",shape=box,color=blue];
-		j314427462 -> "Chat ends.";
-	j2151232165 [label="Boolean LettieReligion2 is now true.",color=orange];
-		j2151232165 -> j3903990852;
-	j2095409474 [label="Boolean LettieReligion2 is now true.",color=orange];
-		j2095409474 -> j99531013;
-	j1497030775 [label="分かった…　信じるよ。",shape=box,color=red];
-		j1497030775 -> j1542753201;
-	j2056494647 [label="それは信じない。",shape=box,color=red];
-		j2056494647 -> j2051208532;
-	"Chat ends." [color=orange];
-	j3903990852 [label="Sí, 昔々、アタシの民族は古代の神々を信仰していて、その一部は…　血腥い",shape=box,color=blue];
-		j3903990852 -> j148594205;
-		j3903990852 -> j749091188;
-	j99531013 [label="噛むのが好き
+		324 -> 332;
+		324 -> 333;
+	320 [label="よろしい",shape=box,color=blue];
+		320 -> 321;
+	326 [label="Update boolean LettieReligion2",color=orange];
+		326 -> 328;
+	327 [label="Update boolean LettieReligion2",color=orange];
+		327 -> 329;
+	332 [label="分かった…　信じるよ。",shape=box,color=red];
+		332 -> 335;
+	333 [label="それは信じない。",shape=box,color=red];
+		333 -> 337;
+	321 [label="Chat ends.",color=orange];
+	328 [label="Sí, 昔々、アタシの民族は古代の神々を信仰していて、その一部は…　血腥い",shape=box,color=blue];
+		328 -> 330;
+		328 -> 331;
+	329 [label="噛むのが好き
 古代の人々と、その神々の…　血腥いものと同じように",shape=box,color=blue];
-		j99531013 -> j749091188;
-		j99531013 -> j148594205;
-	j1542753201 [label="+20 Chemistry",color=orange];
-		j1542753201 -> j3748645904;
-	j2051208532 [label="あっそ",shape=box,color=blue];
-		j2051208532 -> "Chat ends.";
-	j148594205 [label="「血腥い」ってどういう意味？",shape=box,color=red];
-		j148594205 -> j2260538779;
-	j749091188 [label="おっかない話だね。",shape=box,color=red];
-		j749091188 -> j2260538779;
-	j3748645904 [label="Bueno",shape=box,color=blue];
-		j3748645904 -> "Chat ends.";
-	j2260538779 [label="Xipe Totec、皮を剥かれた者、再生と、農業の、そして戦争の神",shape=box,color=blue];
-		j2260538779 -> j1682113544;
-		j2260538779 -> j2214804132;
-	j1682113544 [label="皮を剥かれた者…？",shape=box,color=red];
-		j1682113544 -> j3261008336;
-	j2214804132 [label="そこまで悪いようには聞こえないけど…",shape=box,color=red];
-		j2214804132 -> j3261008336;
-	j3261008336 [label="毎年の彼を言祝ぐ祭礼で、戦争捕虜が皮を剥かれ、男達は剥がれた皮を着て彼の名のもとに街の住人から貢ぎ物を受け取った
+		329 -> 331;
+		329 -> 330;
+	335 [label="+20 Chemistry",color=orange];
+		335 -> 334;
+	337 [label="あっそ",shape=box,color=blue];
+		337 -> 338;
+	330 [label="「血腥い」ってどういう意味？",shape=box,color=red];
+		330 -> 339;
+	331 [label="おっかない話だね。",shape=box,color=red];
+		331 -> 339;
+	334 [label="Bueno",shape=box,color=blue];
+		334 -> 336;
+	338 [label="Chat ends.",color=orange];
+	339 [label="Xipe Totec、皮を剥かれた者、再生と、農業の、そして戦争の神",shape=box,color=blue];
+		339 -> 340;
+		339 -> 341;
+	336 [label="Chat ends.",color=orange];
+	340 [label="皮を剥かれた者…？",shape=box,color=red];
+		340 -> 342;
+	341 [label="そこまで悪いようには聞こえないけど…",shape=box,color=red];
+		341 -> 342;
+	342 [label="毎年の彼を言祝ぐ祭礼で、戦争捕虜が皮を剥かれ、男達は剥がれた皮を着て彼の名のもとに街の住人から貢ぎ物を受け取った
 もう一回言うわ
 彼らは血腥くなることもある",shape=box,color=blue];
-		j3261008336 -> j1084609241;
-		j3261008336 -> j6591631;
-	j1084609241 [label="その…　悪夢に出てきそうな話をありがとう。",shape=box,color=red];
-		j1084609241 -> j1783358073;
-	j6591631 [label="人間って謎だ。",shape=box,color=red];
-		j6591631 -> j3522965508;
-	j1783358073 [label="+10 Chemistry",color=orange];
-		j1783358073 -> j2744980338;
-	j3522965508 [label="+20 Chemistry",color=orange];
-		j3522965508 -> j520950328;
-	j2744980338 [label="De nada",shape=box,color=blue];
-		j2744980338 -> "Chat ends.";
-	j520950328 [label="本当にそうね",shape=box,color=blue];
-		j520950328 -> "Chat ends.";
+		342 -> 343;
+		342 -> 344;
+	343 [label="その…　悪夢に出てきそうな話をありがとう。",shape=box,color=red];
+		343 -> 347;
+	344 [label="人間って謎だ。",shape=box,color=red];
+		344 -> 348;
+	347 [label="+10 Chemistry",color=orange];
+		347 -> 345;
+	348 [label="+20 Chemistry",color=orange];
+		348 -> 346;
+	345 [label="De nada",shape=box,color=blue];
+		345 -> 349;
+	346 [label="本当にそうね",shape=box,color=blue];
+		346 -> 350;
+	349 [label="Chat ends.",color=orange];
+	350 [label="Chat ends.",color=orange];
 }

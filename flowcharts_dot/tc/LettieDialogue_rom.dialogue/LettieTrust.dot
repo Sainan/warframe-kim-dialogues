@@ -1,40 +1,43 @@
 digraph {
-	"LettieTrust begins." [color=orange];
-		"LettieTrust begins." -> j2376833518;
-	j2376833518 [label="呆呆",shape=box,color=blue];
-		j2376833518 -> j3466436736;
-		j2376833518 -> j3102889003;
-	j3466436736 [label="是的，莉蒂？",shape=box,color=red];
-		j3466436736 -> j3202448088;
-	j3102889003 [label="[無視]",shape=box,color=red];
-		j3102889003 -> "Chat ends.";
-	j3202448088 [label="我要澄清一件事
+	648 [label="LettieTrust begins.",color=orange];
+		648 -> 650;
+	650 [label="呆呆",shape=box,color=blue];
+		650 -> 649;
+		650 -> 651;
+	649 [label="是的，莉蒂？",shape=box,color=red];
+		649 -> 654;
+	651 [label="[無視]",shape=box,color=red];
+		651 -> 652;
+	654 [label="我要澄清一件事
 我不是個膽小鬼 
 也不是個臭懦夫
 但……你有一件事是對的",shape=box,color=blue];
-		j3202448088 -> j4032258042;
-	"Chat ends." [color=orange];
-	j4032258042 [label="我不信任人
+		654 -> 655;
+	652 [label="Chat ends.",color=orange];
+	655 [label="我不信任人
 就這麼簡單
 （西語）懂了嗎？",shape=box,color=blue];
-		j4032258042 -> j1568518369;
-		j4032258042 -> j1972074157;
-		j4032258042 -> j358551338;
-	j1568518369 [label="嗯… 是嗎？",shape=box,color=red];
-		j1568518369 -> j2839500716;
-	j1972074157 [label="了解。",shape=box,color=red];
-		j1972074157 -> j3968724517;
-	j358551338 [label="連我都不信？還是六煞幫？",shape=box,color=red];
-		j358551338 -> "Chat ends.";
-	j2839500716 [label="+20 Chemistry",color=orange];
-		j2839500716 -> j3342456155;
-	j3968724517 [label="+15 Chemistry",color=orange];
-		j3968724517 -> j3994635246;
-	j3342456155 [label="哈哈
+		655 -> 653;
+		655 -> 656;
+		655 -> 657;
+	653 [label="嗯… 是嗎？",shape=box,color=red];
+		653 -> 660;
+	656 [label="了解。",shape=box,color=red];
+		656 -> 663;
+	657 [label="連我都不信？還是六煞幫？",shape=box,color=red];
+		657 -> 658;
+	660 [label="+20 Chemistry",color=orange];
+		660 -> 659;
+	663 [label="+15 Chemistry",color=orange];
+		663 -> 662;
+	658 [label="Chat ends.",color=orange];
+	659 [label="哈哈
 噢，呆呆
 你確實能在我需要時讓我微笑
 這點我得承認",shape=box,color=blue];
-		j3342456155 -> "Chat ends.";
-	j3994635246 [label="（西語）好",shape=box,color=blue];
-		j3994635246 -> "Chat ends.";
+		659 -> 661;
+	662 [label="（西語）好",shape=box,color=blue];
+		662 -> 664;
+	661 [label="Chat ends.",color=orange];
+	664 [label="Chat ends.",color=orange];
 }

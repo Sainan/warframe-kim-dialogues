@@ -1,18 +1,19 @@
 digraph {
-	"MinervaBirthdayConvo1 begins." [color=orange];
-		"MinervaBirthdayConvo1 begins." -> j1762877368;
-		"MinervaBirthdayConvo1 begins." -> j3311760176;
-	j1762877368 [label="Bugün özel bir şey yapıyor musun? ",shape=box,color=red];
-		j1762877368 -> j3252242042;
-	j3311760176 [label="Doğum günün kutlu olsun!! Çok heyecanlı olmalısın.",shape=box,color=red];
-		j3311760176 -> j2884603907;
-	j3252242042 [label="MomToxicated: Eleanor ve diğer kızlar bana \"asla unutacağım bir gece\" vadettiler.",shape=box,color=blue];
-		j3252242042 -> j2295067655;
-	j2884603907 [label="MomToxicated: Doğum günleri belli bir noktadan sonra heyecan verici olmaktan çıkıyor ama iyimserliğini sevdim.",shape=box,color=blue];
-		j2884603907 -> "Chat ends.";
-	j2295067655 [label="+20 Chemistry",color=orange];
-		j2295067655 -> j1179046788;
-	"Chat ends." [color=orange];
-	j1179046788 [label="MomToxicated: Ve daha heyecanlı olamazdım.",shape=box,color=blue];
-		j1179046788 -> "Chat ends.";
+	1768 [label="MinervaBirthdayConvo1 begins.",color=orange];
+		1768 -> 1769;
+		1768 -> 1770;
+	1769 [label="Bugün özel bir şey yapıyor musun? ",shape=box,color=red];
+		1769 -> 1771;
+	1770 [label="Doğum günün kutlu olsun!! Çok heyecanlı olmalısın.",shape=box,color=red];
+		1770 -> 1772;
+	1771 [label="MomToxicated: Eleanor ve diğer kızlar bana \"asla unutacağım bir gece\" vadettiler.",shape=box,color=blue];
+		1771 -> 1773;
+	1772 [label="MomToxicated: Doğum günleri belli bir noktadan sonra heyecan verici olmaktan çıkıyor ama iyimserliğini sevdim.",shape=box,color=blue];
+		1772 -> 1774;
+	1773 [label="+20 Chemistry",color=orange];
+		1773 -> 1775;
+	1774 [label="Chat ends.",color=orange];
+	1775 [label="MomToxicated: Ve daha heyecanlı olamazdım.",shape=box,color=blue];
+		1775 -> 1776;
+	1776 [label="Chat ends.",color=orange];
 }

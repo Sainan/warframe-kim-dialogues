@@ -1,0 +1,33 @@
+digraph {
+	2162 [label="RoatheStory4 begins.",color=orange];
+		2162 -> 5647;
+	5647 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5647 -> 2166 [label=true,color=green];
+		5647 -> 5646 [label=false,color=brown];
+	2166 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2166 -> 2163 [label="x >= 4",color=purple];
+		2166 -> 2165 [label="false",color=purple];
+	5646 [label="Chat ends.",color=orange];
+	2163 [label="VM: HUBRIS",shape=box,color=blue];
+		2163 -> 2164;
+	2165 [label="Chat ends.",color=orange];
+	2164 [label="บทบรรยาย: เราไม่ได้คาดคิดว่าจะแพ้ ",shape=box,color=blue];
+		2164 -> 5732;
+	5732 [label="หลังจากที่พวก Sentient โจมตีครั้งแรก เราได้เตรียมโต้กลับเพื่อลงโทษ",shape=box,color=blue];
+		5732 -> 2159;
+	2159 [label="แม่มดกิลเดอร์กลาสทะยานขึ้นจากหมอกซีรีสด้วยปีกอันทรงพลัง เรือแกลเลียนบรรทุกโดรนและ Myrmidon หุ้มเกราะสีเงินไว้มากมาย",shape=box,color=blue];
+		2159 -> 2160;
+	2160 [label="มีวงจรไฟฟ้างดงามราวกับหมอกก่อตัวเป็นลูกไม้อันประณีตใต้แผ่นโลหะโปร่งแสง ",shape=box,color=blue];
+		2160 -> 5693;
+	5693 [label="กว้างใหญ่ไพศาลจนแทบจะข้ามขอบของโซลาร์เรลไปด้วยซ้ำ",shape=box,color=blue];
+		5693 -> 2167;
+	2167 [label="เหล่า Sentient ต้องการให้เราเห็นผลที่จะเกิดขึ้น พวกมันร้องเพลง และทำให้เทคโนโลยีของเราล้มเหลว นักรบของเราดิ้นพล่านและหายใจไม่ออกภายในชุดเกราะที่เปล่งประกาย",shape=box,color=blue];
+		2167 -> 5684;
+	5684 [label="สมุนของแม่มดกิลเดอร์กลาสถูกเผาจนตายขณะที่นางพุ่งทะยานขึ้นสู่ท้องฟ้าของ Tau โดยไม่มีเครื่องยนต์ ราวกับดอกไม้ไฟที่จุดซ้อนกันและมีราคาแพงที่ต้องจ่าย",shape=box,color=blue];
+		5684 -> 2158;
+	2158 [label="Add 1 to HellStory",color=orange];
+		2158 -> 2331;
+	2331 [label="{\"Id\":2331,\"Incoming\":[2158],\"Outgoing\":[2161],\"GraphPos\":[5059,-10280],\"CompletionType\":1}",color=orange];
+		2331 -> 2161;
+	2161 [label="Chat ends.",color=orange];
+}

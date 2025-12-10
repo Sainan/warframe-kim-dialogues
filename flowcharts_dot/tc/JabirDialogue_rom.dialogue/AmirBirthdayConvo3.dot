@@ -1,16 +1,21 @@
 digraph {
-	"AmirBirthdayConvo3 begins." [color=orange];
-		"AmirBirthdayConvo3 begins." -> j2999635032;
-		"AmirBirthdayConvo3 begins." -> j391778966;
-	j2999635032 [label="嗨，阿米爾。生日快樂。嗶啵嗶啵什麼的。",shape=box,color=red];
-		j2999635032 -> j48188996;
-	j391778966 [label="阿米爾，在這裡送上祝福，恭喜你存在的周年紀念日",shape=box,color=red];
-		j391778966 -> j954278389;
-	j48188996 [label="阿米爾現在不在，這是阿米爾編寫的智慧型防火牆程式，用來過濾不真誠的生日祝福。哦看，這裡就有一個",shape=box,color=blue];
-		j48188996 -> "Chat ends.";
-	j954278389 [label="+20 Chemistry",color=orange];
-		j954278389 -> j2909935522;
-	"Chat ends." [color=orange];
-	j2909935522 [label="符合文化水準的衷心謝意與誠摯感謝",shape=box,color=blue];
-		j2909935522 -> "Chat ends.";
+	3580 [label="AmirBirthdayConvo3 begins.",color=orange];
+		3580 -> 3585;
+		3580 -> 3586;
+	3585 [label="嗨，阿米爾。生日快樂。嗶啵嗶啵什麼的。",shape=box,color=red];
+		3585 -> 3584;
+	3586 [label="阿米爾，在這裡送上祝福，恭喜你存在的周年紀念日",shape=box,color=red];
+		3586 -> 3587;
+	3584 [label="阿米爾現在不在，這是阿米爾編寫的智慧型防火牆程式，用來過濾不真誠的生日祝福。哦看，這裡就有一個",shape=box,color=blue];
+		3584 -> 3598;
+	3587 [label="+20 Chemistry",color=orange];
+		3587 -> 3583;
+	3598 [label="{\"Id\":3598,\"Incoming\":[3584],\"Outgoing\":[3581],\"GraphPos\":[-14748,-20693],\"CompletionType\":1}",color=orange];
+		3598 -> 3581;
+	3583 [label="符合文化水準的衷心謝意與誠摯感謝",shape=box,color=blue];
+		3583 -> 3599;
+	3581 [label="Chat ends.",color=orange];
+	3599 [label="{\"Id\":3599,\"Incoming\":[3583],\"Outgoing\":[3582],\"GraphPos\":[-14347,-20820],\"CompletionType\":1}",color=orange];
+		3599 -> 3582;
+	3582 [label="Chat ends.",color=orange];
 }

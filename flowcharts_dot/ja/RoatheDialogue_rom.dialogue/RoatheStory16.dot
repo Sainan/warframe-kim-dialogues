@@ -1,0 +1,31 @@
+digraph {
+	2273 [label="RoatheStory16 begins.",color=orange];
+		2273 -> 5671;
+	5671 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5671 -> 2277 [label=true,color=green];
+		5671 -> 5670 [label=false,color=brown];
+	2277 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2277 -> 2276 [label="x >= 16",color=purple];
+		2277 -> 2274 [label="false",color=purple];
+	5670 [label="Chat ends.",color=orange];
+	2276 [label="ボイスメール：犠牲",shape=box,color=blue];
+		2276 -> 2275;
+	2274 [label="Chat ends.",color=orange];
+	2275 [label="Traivon。お前が乗るレールジャックをPraghasaの口に投げ込むのを見た。お前とその部下を貪欲に食らうのに気を取られ、Praghasaは我の船が逃げていくのに気づかなかった。",shape=box,color=blue];
+		2275 -> 5713;
+	5713 [label="お前は上官のために命を捧げた。お前の無私さは我の無力さを痛感させた。",shape=box,color=blue];
+		5713 -> 5714;
+	5714 [label="Maryna。お前は我に肉体を捧げた。あの塹壕で、我々は共にクバを飲んだ。手は震え、喉は裂け血が溢れていたが、飲み込めるだけの滴を残しておいた。",shape=box,color=blue];
+		5714 -> 2278;
+	2278 [label="お前の最後の敬礼を覚えている。途絶えるあの瞬間を。それから瞬きをして、お前のものだった目を開けると、泥の中に横たわる、内臓を抜かれた我の死体が見えた。",shape=box,color=blue];
+		2278 -> 2272;
+	2272 [label="Rostig。お前は失敗作のクローンだと、皆が言っていた。でなければ、グリニアが焼かれながらも戦い続ける理由がないと。ネズミでさえより優れた自己保存能力を持っていると。",shape=box,color=blue];
+		2272 -> 2279;
+	2279 [label="違う。お前の「欠陥」こそが、お前を奴らより優れた存在にしたのだ。",shape=box,color=blue];
+		2279 -> 2271;
+	2271 [label="Add 1 to HellStory",color=orange];
+		2271 -> 2343;
+	2343 [label="{\"Id\":2343,\"Incoming\":[2271],\"Outgoing\":[2270],\"GraphPos\":[4809,-5333],\"CompletionType\":1}",color=orange];
+		2343 -> 2270;
+	2270 [label="Chat ends.",color=orange];
+}

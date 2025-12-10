@@ -1,209 +1,224 @@
 digraph {
-	"LettieRank1Convo4 begins." [color=orange];
-		"LettieRank1Convo4 begins." -> j2524568575;
-	j2524568575 [label="Ci sono ancora degli dei 
+	160 [label="LettieRank1Convo4 begins.",color=orange];
+		160 -> 161;
+	161 [label="Ci sono ancora degli dei 
 O li hai dimenticati tutti",shape=box,color=blue];
-		j2524568575 -> j504987079;
-		j2524568575 -> j1879767100;
-		j2524568575 -> j2812872145;
-		j2524568575 -> j3132648697;
-	j504987079 [label="Scusa, aspetta, cosa?",shape=box,color=red];
-		j504987079 -> j3205805049;
-	j1879767100 [label="Hai un modo davvero fantastico di iniziare una conversazione, lo sai?",shape=box,color=red];
-		j1879767100 -> j4146094291;
-	j2812872145 [label="Non lo toccherei nemmeno con un palo di tre metri... [Fine.]",shape=box,color=red];
-		j2812872145 -> "Chat ends.";
-	j3132648697 [label="Non li ho dimenticati, non ne avevamo. Gli Orokin non li considero.",shape=box,color=red];
-		j3132648697 -> j3244980928;
-	j3205805049 [label="¿Neta, babas? 
+		161 -> 162;
+		161 -> 163;
+		161 -> 164;
+		161 -> 165;
+	162 [label="Scusa, aspetta, cosa?",shape=box,color=red];
+		162 -> 166;
+	163 [label="Hai un modo davvero fantastico di iniziare una conversazione, lo sai?",shape=box,color=red];
+		163 -> 171;
+	164 [label="Non lo toccherei nemmeno con un palo di tre metri... [Fine.]",shape=box,color=red];
+		164 -> 173;
+	165 [label="Non li ho dimenticati, non ne avevamo. Gli Orokin non li considero.",shape=box,color=red];
+		165 -> 176;
+	166 [label="¿Neta, babas? 
 Gli dei, babas - Sol e Lua 
 Sono ancora venerati?",shape=box,color=blue];
-		j3205805049 -> j3141772442;
-		j3205805049 -> j3415223621;
-		j3205805049 -> j4155442086;
-	j4146094291 [label="Eh, sí 
+		166 -> 167;
+		166 -> 168;
+		166 -> 169;
+	171 [label="Eh, sí 
 Ti ci abituerai 
 O forse no",shape=box,color=blue];
-		j4146094291 -> j686535641;
-	"Chat ends." [color=orange];
-	j3244980928 [label="Non avevi degli dei... 
+		171 -> 170;
+	173 [label="Chat ends.",color=orange];
+	176 [label="Non avevi degli dei... 
 Chi sono gli Orokin?",shape=box,color=blue];
-		j3244980928 -> j2126616671;
-	j3141772442 [label="Io... odio dirtelo così, ma Sol e Lua non sono dei. Uno è una stella e l'altra è una roccia che ha ne ha passate di tutte",shape=box,color=red];
-		j3141772442 -> j4236534637;
-	j3415223621 [label="Non sono più adorati come dei, mi dispiace. Ma Lua è ancora considerata sacra, in un certo senso.",shape=box,color=red];
-		j3415223621 -> j893572179;
-	j4155442086 [label="Posso parlare solo per me, e io sono stato cresciuto per venerare gli Orokin. Poi ho capito che non era il caso.",shape=box,color=red];
-		j4155442086 -> j3244980928;
-	j686535641 [label="+5 Chemistry",color=orange];
-		j686535641 -> j2627589560;
-	j2126616671 [label="Boolean LettieOrokin1 is now true.",color=orange];
-		j2126616671 -> j815455765;
-		j2126616671 -> j780444537;
-	j4236534637 [label="Lárgate",shape=box,color=blue];
-		j4236534637 -> "Chat ends.";
-	j893572179 [label="Cosa intendi 
+		176 -> 177;
+	167 [label="Io... odio dirtelo così, ma Sol e Lua non sono dei. Uno è una stella e l'altra è una roccia che ha ne ha passate di tutte",shape=box,color=red];
+		167 -> 174;
+	168 [label="Non sono più adorati come dei, mi dispiace. Ma Lua è ancora considerata sacra, in un certo senso.",shape=box,color=red];
+		168 -> 184;
+	169 [label="Posso parlare solo per me, e io sono stato cresciuto per venerare gli Orokin. Poi ho capito che non era il caso.",shape=box,color=red];
+		169 -> 176;
+	170 [label="+5 Chemistry",color=orange];
+		170 -> 172;
+	177 [label="Update boolean LettieOrokin1",color=orange];
+		177 -> 178;
+		177 -> 179;
+	174 [label="Lárgate",shape=box,color=blue];
+		174 -> 175;
+	184 [label="Cosa intendi 
 Con sacro in un certo senso",shape=box,color=blue];
-		j893572179 -> j772276019;
-		j893572179 -> j845574569;
-	j2627589560 [label="Beh? 
+		184 -> 185;
+		184 -> 186;
+	172 [label="Beh? 
 Sono ancora adorati",shape=box,color=blue];
-		j2627589560 -> j3141772442;
-		j2627589560 -> j3415223621;
-		j2627589560 -> j4155442086;
-	j815455765 [label="Erano dei bastardi che pensavano di essere superiori a tutti gli altri. Ho detto tutto.",shape=box,color=red];
-		j815455765 -> j2646504507;
-	j780444537 [label="Erano un gruppo di persone che governavano il Sistema Origin. Che si consideravano degli dei.",shape=box,color=red];
-		j780444537 -> j2646504507;
-	j772276019 [label="Lua... beh... è rimasta per un po' nascosta nel Void.",shape=box,color=red];
-		j772276019 -> j115291242;
-	j845574569 [label="È complicato. Una storia molto lunga. In breve, è ancora molto importante, ma non venerata.",shape=box,color=red];
-		j845574569 -> j2128884732;
-	j2646504507 [label="Non è la prima volta che gli uomini si vestono da re 
+		172 -> 167;
+		172 -> 168;
+		172 -> 169;
+	178 [label="Erano dei bastardi che pensavano di essere superiori a tutti gli altri. Ho detto tutto.",shape=box,color=red];
+		178 -> 180;
+	179 [label="Erano un gruppo di persone che governavano il Sistema Origin. Che si consideravano degli dei.",shape=box,color=red];
+		179 -> 180;
+	175 [label="Chat ends.",color=orange];
+	185 [label="Lua... beh... è rimasta per un po' nascosta nel Void.",shape=box,color=red];
+		185 -> 187;
+	186 [label="È complicato. Una storia molto lunga. In breve, è ancora molto importante, ma non venerata.",shape=box,color=red];
+		186 -> 193;
+	180 [label="Non è la prima volta che gli uomini si vestono da re 
 Credendosi divinità",shape=box,color=blue];
-		j2646504507 -> j1067630121;
-	j115291242 [label="Se è la metà di quello che sembra 
+		180 -> 181;
+	187 [label="Se è la metà di quello che sembra 
 DOVE l'hai messa?!",shape=box,color=blue];
-		j115291242 -> j2046235175;
-		j115291242 -> j3360293719;
-	j2128884732 [label="Allora in cosa CREDI",shape=box,color=blue];
-		j2128884732 -> j2488704149;
-		j2128884732 -> j2544896645;
-		j2128884732 -> j2768187015;
-		j2128884732 -> j4104247035;
-	j1067630121 [label="Non sarà neanche l'ultima 
+		187 -> 188;
+		187 -> 189;
+	193 [label="Allora in cosa CREDI",shape=box,color=blue];
+		193 -> 194;
+		193 -> 195;
+		193 -> 196;
+		193 -> 197;
+	181 [label="Non sarà neanche l'ultima 
 Me ne parlerai meglio un'altra volta 
 Ho del lavoro da fare",shape=box,color=blue];
-		j1067630121 -> j374273682;
-	j2046235175 [label="Il void è un po' come una non dimensione? A volte è bianco e nero. È strano. Formicolante.",shape=box,color=red];
-		j2046235175 -> j3031608284;
-	j3360293719 [label="Oh, aspetta un secondo. *Io* non l'ho messa da nessuna parte! Non c'entro niente!",shape=box,color=red];
-		j3360293719 -> j3477192847;
-	j2488704149 [label="L'universo. Il Void. Tutto.",shape=box,color=red];
-		j2488704149 -> j3933643195;
-	j2544896645 [label="Niente.",shape=box,color=red];
-		j2544896645 -> j258297725;
-	j2768187015 [label="Credo in me stesso e nelle persone che mi circondano.",shape=box,color=red];
-		j2768187015 -> j2420947567;
-	j4104247035 [label="È una questione personale.",shape=box,color=red];
-		j4104247035 -> j1193485109;
-	j374273682 [label="+15 Chemistry",color=orange];
-		j374273682 -> "Chat ends.";
-	j3031608284 [label="Ma mi trovavo a Duviri, e stavo morendo ripetutamente, quando Lotus decise di spostare Lua nel Void.",shape=box,color=red];
-		j3031608284 -> j1811373516;
-	j3477192847 [label="Sono stato abbandonato su un'astronave e poi bloccato nel mio inferno personale mentre accadeva tutto questo.",shape=box,color=red];
-		j3477192847 -> j1811373516;
-	j3933643195 [label="Boolean ReligionAll is now true.",color=orange];
-		j3933643195 -> j2256221673;
-	j258297725 [label="Boolean ReligionNone is now true.",color=orange];
-		j258297725 -> j2331218447;
-	j2420947567 [label="Boolean ReligionSelf is now true.",color=orange];
-		j2420947567 -> j3053843306;
-	j1193485109 [label="Boolean ReligionHidden is now true.",color=orange];
-		j1193485109 -> j65653944;
-	j1811373516 [label="Check boolean LettieDuviri",color=orange];
-		j1811373516 -> j1436497785 [label=true,color=green];
-		j1811373516 -> j3416070807 [label=false,color=brown];
-	j2256221673 [label="Morire a ripetizione fa questo effetto.",shape=box,color=red];
-		j2256221673 -> j2664343706;
-	j2331218447 [label="Morire a ripetizione fa questo effetto.",shape=box,color=red];
-		j2331218447 -> j1306276652;
-	j3053843306 [label="Morire a ripetizione fa questo effetto.",shape=box,color=red];
-		j3053843306 -> j3966889820;
-	j65653944 [label="Morire a ripetizione fa questo effetto.",shape=box,color=red];
-		j65653944 -> j4492250;
-	j1436497785 [label="Si 
+		181 -> 182;
+	188 [label="Il void è un po' come una non dimensione? A volte è bianco e nero. È strano. Formicolante.",shape=box,color=red];
+		188 -> 872;
+	189 [label="Oh, aspetta un secondo. *Io* non l'ho messa da nessuna parte! Non c'entro niente!",shape=box,color=red];
+		189 -> 192;
+	194 [label="L'universo. Il Void. Tutto.",shape=box,color=red];
+		194 -> 198;
+	195 [label="Niente.",shape=box,color=red];
+		195 -> 199;
+	196 [label="Credo in me stesso e nelle persone che mi circondano.",shape=box,color=red];
+		196 -> 200;
+	197 [label="È una questione personale.",shape=box,color=red];
+		197 -> 201;
+	182 [label="+15 Chemistry",color=orange];
+		182 -> 183;
+	872 [label="Ma mi trovavo a Duviri, e stavo morendo ripetutamente, quando Lotus decise di spostare Lua nel Void.",shape=box,color=red];
+		872 -> 212;
+	192 [label="Sono stato abbandonato su un'astronave e poi bloccato nel mio inferno personale mentre accadeva tutto questo.",shape=box,color=red];
+		192 -> 212;
+	198 [label="Update boolean ReligionAll",color=orange];
+		198 -> 2455;
+	199 [label="Update boolean ReligionNone",color=orange];
+		199 -> 2456;
+	200 [label="Update boolean ReligionSelf",color=orange];
+		200 -> 2457;
+	201 [label="Update boolean ReligionHidden",color=orange];
+		201 -> 2458;
+	183 [label="Chat ends.",color=orange];
+	212 [label="Check boolean LettieDuviri",color=orange];
+		212 -> 213 [label=true,color=green];
+		212 -> 214 [label=false,color=brown];
+	2455 [label="Morire a ripetizione fa questo effetto.",shape=box,color=red];
+		2455 -> 206;
+	2456 [label="Morire a ripetizione fa questo effetto.",shape=box,color=red];
+		2456 -> 203;
+	2457 [label="Morire a ripetizione fa questo effetto.",shape=box,color=red];
+		2457 -> 204;
+	2458 [label="Morire a ripetizione fa questo effetto.",shape=box,color=red];
+		2458 -> 207;
+	213 [label="Si 
 Questo tuo regno di morte
 Dimmi di più",shape=box,color=blue];
-		j1436497785 -> j3979968817;
-		j1436497785 -> j3261691729;
-		j1436497785 -> j1879336178;
-	j3416070807 [label="Oh sì 
+		213 -> 215;
+		213 -> 216;
+		213 -> 217;
+	214 [label="Oh sì 
 E com'era quell' \"inferno\" 
 Bruciava?",shape=box,color=blue];
-		j3416070807 -> j3979968817;
-		j3416070807 -> j3261691729;
-		j3416070807 -> j1879336178;
-		j3416070807 -> j3121792650;
-	j2664343706 [label="+5 Chemistry",color=orange];
-		j2664343706 -> j3662177023;
-	j1306276652 [label="La certezza che non esista nulla è comunque un credo 
+		214 -> 215;
+		214 -> 216;
+		214 -> 217;
+		214 -> 218;
+	206 [label="+5 Chemistry",color=orange];
+		206 -> 202;
+	203 [label="La certezza che non esista nulla è comunque un credo 
 E chiunque dica il contrario è uno sciocco",shape=box,color=blue];
-		j1306276652 -> j3463369726;
-	j3966889820 [label="Questa è una frase da poster motivazionale non un credo 
+		203 -> 2459;
+	204 [label="Questa è una frase da poster motivazionale non un credo 
 Ma va bene se ti fa dormire la notte",shape=box,color=blue];
-		j3966889820 -> j3463369726;
-	j4492250 [label="+5 Chemistry",color=orange];
-		j4492250 -> j4280683875;
-	j3979968817 [label="Duviri era una dimensione alternativa che in un certo senso... ho creato? Più o meno? Esistendo?",shape=box,color=red];
-		j3979968817 -> j3523773481;
-	j3261691729 [label="Sei una donna strana...",shape=box,color=red];
-		j3261691729 -> j976352070;
-	j1879336178 [label="Non sono affari tuoi.",shape=box,color=red];
-		j1879336178 -> j506192204;
-	j3121792650 [label="No, per fortuna questa è una cosa che non mi hanno fatto.",shape=box,color=red];
-		j3121792650 -> j2428324841;
-	j3662177023 [label="Riconoscere di essere piccoli di fronte al tutto è importante 
+		204 -> 2459;
+	207 [label="+5 Chemistry",color=orange];
+		207 -> 205;
+	215 [label="Duviri era una dimensione alternativa che in un certo senso... ho creato? Più o meno? Esistendo?",shape=box,color=red];
+		215 -> 219;
+	216 [label="Sei una donna strana...",shape=box,color=red];
+		216 -> 220;
+	217 [label="Non sono affari tuoi.",shape=box,color=red];
+		217 -> 221;
+	218 [label="No, per fortuna questa è una cosa che non mi hanno fatto.",shape=box,color=red];
+		218 -> 222;
+	202 [label="Riconoscere di essere piccoli di fronte al tutto è importante 
 Posso rispettarlo",shape=box,color=blue];
-		j3662177023 -> j3463369726;
-	j3463369726 [label="Ma sono curiosa
+		202 -> 2459;
+	2459 [label="Ma sono curiosa
 Questo tuo regno di morte
 Dimmi di più",shape=box,color=blue];
-		j3463369726 -> j547942567;
-	j4280683875 [label="Lo rispetto",shape=box,color=blue];
-		j4280683875 -> j3463369726;
-	j3523773481 [label="È stato creato dal Void strappato dalla mia mente e reso reale. Manifestazioni di un bambino spaventato.",shape=box,color=red];
-		j3523773481 -> j4082386169;
-	j976352070 [label="Mm 
+		2459 -> 2460;
+	205 [label="Lo rispetto",shape=box,color=blue];
+		205 -> 2459;
+	219 [label="È stato creato dal Void strappato dalla mia mente e reso reale. Manifestazioni di un bambino spaventato.",shape=box,color=red];
+		219 -> 231;
+	220 [label="Mm 
 Ho visto molta sofferenza 
 Suppongo che ti faccia questo",shape=box,color=blue];
-		j976352070 -> "Chat ends.";
-	j506192204 [label="Hai ragione
+		220 -> 223;
+	221 [label="Hai ragione
 Non lo è",shape=box,color=blue];
-		j506192204 -> "Chat ends.";
-	j2428324841 [label="Hanno?",shape=box,color=blue];
-		j2428324841 -> j2562835021;
-		j2428324841 -> j3335440720;
-	j547942567 [label="Boolean LettieDuviri is now true.",color=orange];
-		j547942567 -> j3979968817;
-		j547942567 -> j3261691729;
-		j547942567 -> j1879336178;
-	j4082386169 [label="Ma tutto è andato storto quando sono cresciuto e ho deciso che volevo andarmene. E hanno iniziato a uccidermi, ancora e ancora.",shape=box,color=red];
-		j4082386169 -> j2794104664;
-	j2562835021 [label="Dominus Thrax e i suoi scagnozzi.",shape=box,color=red];
-		j2562835021 -> j4177802259;
-	j3335440720 [label="Hanno. Ho. Stessa cosa. È una lunga storia.",shape=box,color=red];
-		j3335440720 -> j3476858937;
-	j2794104664 [label="Storie diventate realtà 
+		221 -> 224;
+	222 [label="Hanno?",shape=box,color=blue];
+		222 -> 225;
+		222 -> 226;
+	2460 [label="Update boolean LettieDuviri",color=orange];
+		2460 -> 215;
+		2460 -> 216;
+		2460 -> 217;
+	231 [label="Ma tutto è andato storto quando sono cresciuto e ho deciso che volevo andarmene. E hanno iniziato a uccidermi, ancora e ancora.",shape=box,color=red];
+		231 -> 241;
+	223 [label="Chat ends.",color=orange];
+	224 [label="Chat ends.",color=orange];
+	225 [label="Dominus Thrax e i suoi scagnozzi.",shape=box,color=red];
+		225 -> 227;
+	226 [label="Hanno. Ho. Stessa cosa. È una lunga storia.",shape=box,color=red];
+		226 -> 228;
+	241 [label="Storie diventate realtà 
 E La Flaca conosce il tuo volto",shape=box,color=blue];
-		j2794104664 -> j3160446267;
-	j4177802259 [label="Un nome non significa nulla per me 
+		241 -> 242;
+	227 [label="Un nome non significa nulla per me 
 Voglio conoscere la sua anima 
 Chi sono coloro che ti *hanno* fatto del male",shape=box,color=blue];
-		j4177802259 -> j3725111952;
-		j4177802259 -> j1711538490;
-	j3476858937 [label="In un certo senso, credo di capire 
+		227 -> 229;
+		227 -> 230;
+	228 [label="In un certo senso, credo di capire 
 Le circostanze sono diverse 
 Ma il dolore è lo stesso",shape=box,color=blue];
-		j3476858937 -> j3160446267;
-	j3160446267 [label="Boolean LettieDuviri is now true.",color=orange];
-		j3160446267 -> j1388544670;
-	j3725111952 [label="Non era reale. Era un personaggio immaginario, il Void strappato dalla mia testa e trasformato in realtà dalla mia sola presenza.",shape=box,color=red];
-		j3725111952 -> j4082386169;
-	j1711538490 [label="Ti piacerebbe raccontarmi tutto sui *tuoi* momenti più bui in questo preciso istante?",shape=box,color=red];
-		j1711538490 -> j1209060617;
-	j1388544670 [label="Boolean LettieFantasma1 is now true.",color=orange];
-		j1388544670 -> j611755265;
-	j1209060617 [label="+10 Chemistry",color=orange];
-		j1209060617 -> j1119343893;
-	j611755265 [label="+10 Chemistry",color=orange];
-		j611755265 -> j3495390940;
-	j1119343893 [label="No, siamo desconocidos 
+		228 -> 234;
+	242 [label="Update boolean LettieDuviri",color=orange];
+		242 -> 243;
+	229 [label="Non era reale. Era un personaggio immaginario, il Void strappato dalla mia testa e trasformato in realtà dalla mia sola presenza.",shape=box,color=red];
+		229 -> 231;
+	230 [label="Ti piacerebbe raccontarmi tutto sui *tuoi* momenti più bui in questo preciso istante?",shape=box,color=red];
+		230 -> 238;
+	234 [label="Update boolean LettieDuviri",color=orange];
+		234 -> 235;
+	243 [label="Update boolean LettieFantasma1",color=orange];
+		243 -> 245;
+	238 [label="+10 Chemistry",color=orange];
+		238 -> 232;
+	235 [label="Update boolean LettieFantasma1",color=orange];
+		235 -> 233;
+	245 [label="+10 Chemistry",color=orange];
+		245 -> 244;
+	232 [label="No, siamo desconocidos 
 Hai ragione
 Facciamo un'altra volta, allora",shape=box,color=blue];
-		j1119343893 -> j2620081815;
-	j3495390940 [label="Forse abbiamo più cose in comune di quanto pensassi, babas",shape=box,color=blue];
-		j3495390940 -> "Chat ends.";
-	j2620081815 [label="Boolean LettieDuviri is now true.",color=orange];
-		j2620081815 -> "Chat ends.";
+		232 -> 239;
+	233 [label="+10 Chemistry",color=orange];
+		233 -> 236;
+	244 [label="Forse abbiamo più cose in comune di quanto pensassi, babas",shape=box,color=blue];
+		244 -> 246;
+	239 [label="Update boolean LettieDuviri",color=orange];
+		239 -> 240;
+	236 [label="Forse abbiamo più cose in comune di quanto pensassi, babas",shape=box,color=blue];
+		236 -> 237;
+	246 [label="Chat ends.",color=orange];
+	240 [label="Chat ends.",color=orange];
+	237 [label="Chat ends.",color=orange];
 }

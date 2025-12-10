@@ -1,124 +1,127 @@
 digraph {
-	"LettieRank3Convo5 begins." [color=orange];
-		"LettieRank3Convo5 begins." -> j4261020692;
-		"LettieRank3Convo5 begins." -> j2789515548;
-		"LettieRank3Convo5 begins." -> j3218686540;
-	j4261020692 [label="¿Te sientes bien?",shape=box,color=red];
-		j4261020692 -> j972525172;
-	j2789515548 [label="¿Cómo te está yendo con los civiles?",shape=box,color=red];
-		j2789515548 -> j2356097538;
-	j3218686540 [label="[Ignorar.]",shape=box,color=red];
-		j3218686540 -> "Chat ends.";
-	j972525172 [label="¿Mm?
+	908 [label="LettieRank3Convo5 begins.",color=orange];
+		908 -> 909;
+		908 -> 910;
+		908 -> 911;
+	909 [label="¿Te sientes bien?",shape=box,color=red];
+		909 -> 913;
+	910 [label="¿Cómo te está yendo con los civiles?",shape=box,color=red];
+		910 -> 914;
+	911 [label="[Ignorar.]",shape=box,color=red];
+		911 -> 912;
+	913 [label="¿Mm?
 Como una puerta giratoria jajaja",shape=box,color=blue];
-		j972525172 -> j421274516;
-	j2356097538 [label="¿Eh?
+		913 -> 915;
+	914 [label="¿Eh?
 Bien, supongo
 Los civiles son siempre los mismos, te acostumbras rápido",shape=box,color=blue];
-		j2356097538 -> j2371053243;
-		j2356097538 -> j2445333233;
-	"Chat ends." [color=orange];
-	j421274516 [label="Incluso antes de conocerte, a veces siento que la gente sólo pasa A TRAVÉS de mí
+		914 -> 916;
+		914 -> 917;
+	912 [label="Chat ends.",color=orange];
+	915 [label="Incluso antes de conocerte, a veces siento que la gente sólo pasa A TRAVÉS de mí
 Sólo una cara en la tienda de la RCI curando heridas
 Soy sólo parte del edificio",shape=box,color=blue];
-		j421274516 -> j2538156550;
-	j2371053243 [label="Sí, pero aún así debe ser agotador.",shape=box,color=red];
-		j2371053243 -> j4236694416;
-	j2445333233 [label="¿Acostumbrarse a qué?",shape=box,color=red];
-		j2445333233 -> j4103989246;
-	j2538156550 [label="Soy fuerte
+		915 -> 918;
+	916 [label="Sí, pero aún así debe ser agotador.",shape=box,color=red];
+		916 -> 919;
+	917 [label="¿Acostumbrarse a qué?",shape=box,color=red];
+		917 -> 920;
+	918 [label="Soy fuerte
 No me voy a rendir
 Pero... estoy muerta
 A veces no hay suficiente café en el mundo, ¿no?",shape=box,color=blue];
-		j2538156550 -> j777172377;
-		j2538156550 -> j3838394750;
-	j4236694416 [label="Sí, no tienes idea 
+		918 -> 921;
+		918 -> 922;
+	919 [label="Sí, no tienes idea 
 A veces no hay suficiente café en el mundo, ¿no? 
 Pero soy dura de roer 
 No me voy a rendir",shape=box,color=blue];
-		j4236694416 -> j777172377;
-		j4236694416 -> j3838394750;
-	j4103989246 [label="A sus miradas y dolores vacíos
+		919 -> 921;
+		919 -> 922;
+	920 [label="A sus miradas y dolores vacíos
 Para ellos soy una cara en la tienda de la RCI que cura heridas
 Siento que la gente sólo pasa A TRAVÉS de mí como una puerta giratoria
 Y esto ya pasaba antes de conocerte jajaja",shape=box,color=blue];
-		j4103989246 -> j3050599071;
-	j777172377 [label="Solo porque eres fuerte no quiere decir que no me vaya a importar.",shape=box,color=red];
-		j777172377 -> j3714251504;
-	j3838394750 [label="Sí, pero una fuente constante de café no me haría mal. lol",shape=box,color=red];
-		j3838394750 -> j2040707211;
-	j3050599071 [label="Check boolean LettieNoFlirt",color=orange];
-		j3050599071 -> j2461127745 [label=true,color=green];
-		j3050599071 -> j2618736549 [label=true,color=green];
-		j3050599071 -> j2461127745 [label=false,color=brown];
-		j3050599071 -> j2618736549 [label=false,color=brown];
-		j3050599071 -> j2851263210 [label=false,color=brown];
-	j3714251504 [label="Sí,
+		920 -> 923;
+	921 [label="Solo porque eres fuerte no quiere decir que no me vaya a importar.",shape=box,color=red];
+		921 -> 927;
+	922 [label="Sí, pero una fuente constante de café no me haría mal. lol",shape=box,color=red];
+		922 -> 928;
+	923 [label="Check boolean LettieNoFlirt",color=orange];
+		923 -> 924 [label=true,color=green];
+		923 -> 925 [label=true,color=green];
+		923 -> 924 [label=false,color=brown];
+		923 -> 925 [label=false,color=brown];
+		923 -> 926 [label=false,color=brown];
+	927 [label="Sí,
 Es suficiente saber que alguien me apoya
 Arthur es así
 No está sobre de mí como Aoi, pretendiendo ser mi mamá
 Solo me pasa una taza de café y me dice, ¿estás bien?",shape=box,color=blue];
-		j3714251504 -> j3834644381;
-	j2040707211 [label="Jajaja si no hace daño
+		927 -> 933;
+	928 [label="Jajaja si no hace daño
 Arthur es así
 No está sobre de mí como Aoi, pretendiendo ser mi mamá
 Solo me pasa una taza de café y me dice, ¿estás bien?",shape=box,color=blue];
-		j2040707211 -> j3834644381;
-	j2461127745 [label="Digo, ¿qué esperabas de gente que acaba de perderlo todo?",shape=box,color=red];
-		j2461127745 -> j2486867442;
-	j2618736549 [label="Puedo ver porque toda la gente llega a verse igual después de un tiempo.",shape=box,color=red];
-		j2618736549 -> j3568453923;
-	j2851263210 [label="Al menos eres una puerta muy sexy :P",shape=box,color=red];
-		j2851263210 -> j677632924;
-	j3834644381 [label="Boolean LettieShoulder is now true.",color=orange];
-		j3834644381 -> j3062265696;
-	j2486867442 [label="No es culpa de ellos
+		928 -> 933;
+	924 [label="Digo, ¿qué esperabas de gente que acaba de perderlo todo?",shape=box,color=red];
+		924 -> 929;
+	925 [label="Puedo ver porque toda la gente llega a verse igual después de un tiempo.",shape=box,color=red];
+		925 -> 937;
+	926 [label="Al menos eres una puerta muy sexy :P",shape=box,color=red];
+		926 -> 2464;
+	933 [label="Update boolean LettieShoulder",color=orange];
+		933 -> 944;
+	929 [label="No es culpa de ellos
 Tampoco es mi culpa, babas
 Solo estoy cansada de todo esto",shape=box,color=blue];
-		j2486867442 -> j1678374865;
-	j3568453923 [label="+10 Chemistry",color=orange];
-		j3568453923 -> j2188388505;
-	j677632924 [label="+20 Chemistry",color=orange];
-		j677632924 -> j381574723;
-	j3062265696 [label="+20 Chemistry",color=orange];
-		j3062265696 -> j116895481;
-	j1678374865 [label="Hablando de 
+		929 -> 934;
+	937 [label="+10 Chemistry",color=orange];
+		937 -> 930;
+	2464 [label="+20 Chemistry",color=orange];
+		2464 -> 931;
+	944 [label="+20 Chemistry",color=orange];
+		944 -> 932;
+	934 [label="Hablando de 
 De vuelta al trabajo",shape=box,color=blue];
-		j1678374865 -> "Chat ends.";
-	j2188388505 [label="Sí, no es su culpa que siempre haya más de ellos
+		934 -> 938;
+	930 [label="Sí, no es su culpa que siempre haya más de ellos
 Siempre pensé que nunca terminaría
 Ahora sé que en serio jamás terminara
 Lua, sálvame",shape=box,color=blue];
-		j2188388505 -> j221771135;
-	j381574723 [label="JAJA 
+		930 -> 935;
+	931 [label="JAJA 
 Ay, babas, tú sí que sabes como animar a una dama
 Escribe eso en mi lápida
 \"Aquí yace la puerta más sexy que hayas visto.\"",shape=box,color=blue];
-		j381574723 -> j1588916909;
-	j116895481 [label="Esa pregunta me gustó, babas
+		931 -> 936;
+	932 [label="Esa pregunta me gustó, babas
 Sigue así
 Puede que lo necesite de vez en cuando
 Y una o dos tazas de café no me vendrían mal",shape=box,color=blue];
-		j116895481 -> j3637400474;
-	j221771135 [label="Hablando de 
+		932 -> 940;
+	938 [label="Chat ends.",color=orange];
+	935 [label="Hablando de 
 Es hora de volver al trabajo
 Gracias por la distracción",shape=box,color=blue];
-		j221771135 -> "Chat ends.";
-	j1588916909 [label="Gracias por hacerme reír, babas 
+		935 -> 939;
+	936 [label="Gracias por hacerme reír, babas 
 Necesitaba eso",shape=box,color=blue];
-		j1588916909 -> j1810086095;
-	j3637400474 [label="Check boolean LettieNoFlirt",color=orange];
-		j3637400474 -> j1627133242 [label=true,color=green];
-		j3637400474 -> j124378187 [label=true,color=green];
-		j3637400474 -> j3441409099 [label=false,color=brown];
-		j3637400474 -> j124378187 [label=false,color=brown];
-	j1810086095 [label="De vuelta al trabajo, ¿no? 
+		936 -> 945;
+	940 [label="Check boolean LettieNoFlirt",color=orange];
+		940 -> 941 [label=true,color=green];
+		940 -> 943 [label=true,color=green];
+		940 -> 942 [label=false,color=brown];
+		940 -> 943 [label=false,color=brown];
+	939 [label="Chat ends.",color=orange];
+	945 [label="De vuelta al trabajo, ¿no? 
 Los dos estamos muy ocupados para esto",shape=box,color=blue];
-		j1810086095 -> "Chat ends.";
-	j1627133242 [label="Cuando quieras.",shape=box,color=red];
-		j1627133242 -> j1810086095;
-	j124378187 [label="Veré qué puedo hacer.",shape=box,color=red];
-		j124378187 -> j1810086095;
-	j3441409099 [label="Cuando quieras. <3",shape=box,color=red];
-		j3441409099 -> j1810086095;
+		945 -> 946;
+	941 [label="Cuando quieras.",shape=box,color=red];
+		941 -> 945;
+	943 [label="Veré qué puedo hacer.",shape=box,color=red];
+		943 -> 945;
+	942 [label="Cuando quieras. <3",shape=box,color=red];
+		942 -> 945;
+	946 [label="Chat ends.",color=orange];
 }

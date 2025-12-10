@@ -1,20 +1,25 @@
 digraph {
-	"LettieBirthdayConvo1 begins." [color=orange];
-		"LettieBirthdayConvo1 begins." -> j939030318;
-		"LettieBirthdayConvo1 begins." -> j742021706;
-	j939030318 [label="Hey! Happy Birthday! Did your rats get you anything?",shape=box,color=red];
-		j939030318 -> j1105222978;
-	j742021706 [label="Happy Birthday! On Star Days no less. How Romantic. :)",shape=box,color=red];
-		j742021706 -> j3813043929;
-	j1105222978 [label="+20 Chemistry",color=orange];
-		j1105222978 -> j654823140;
-	j3813043929 [label="What is star days?
+	458 [label="LettieBirthdayConvo1 begins.",color=orange];
+		458 -> 457;
+		458 -> 456;
+	457 [label="Hey! Happy Birthday! Did your rats get you anything?",shape=box,color=red];
+		457 -> 460;
+	456 [label="Happy Birthday! On Star Days no less. How Romantic. :)",shape=box,color=red];
+		456 -> 1298;
+	460 [label="+20 Chemistry",color=orange];
+		460 -> 1300;
+	1298 [label="What is star days?
 Whatever. Too busy for that shit.
 Adiós",shape=box,color=blue];
-		j3813043929 -> "Chat ends.";
-	j654823140 [label="Jajaja no
+		1298 -> 2517;
+	1300 [label="Jajaja no
 All I want is to sleep in an hour or a fresh cup of coffee. That too much to ask? 
 Pero, gracias",shape=box,color=blue];
-		j654823140 -> "Chat ends.";
-	"Chat ends." [color=orange];
+		1300 -> 2516;
+	2517 [label="{\"Id\":2517,\"Incoming\":[1298],\"Outgoing\":[1297],\"GraphPos\":[797,-1598],\"CompletionType\":1}",color=orange];
+		2517 -> 1297;
+	2516 [label="{\"Id\":2516,\"Incoming\":[1300],\"Outgoing\":[459],\"GraphPos\":[1161,-1810],\"CompletionType\":1}",color=orange];
+		2516 -> 459;
+	1297 [label="Chat ends.",color=orange];
+	459 [label="Chat ends.",color=orange];
 }

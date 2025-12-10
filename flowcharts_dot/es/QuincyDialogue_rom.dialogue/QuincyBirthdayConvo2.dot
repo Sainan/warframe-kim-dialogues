@@ -1,16 +1,21 @@
 digraph {
-	"QuincyBirthdayConvo2 begins." [color=orange];
-		"QuincyBirthdayConvo2 begins." -> j4068396656;
-		"QuincyBirthdayConvo2 begins." -> j2058924190;
-	j4068396656 [label="¡Ey, Quincy! Convencí a Arthur para que te diera la noche libre por tu cumpleaños.",shape=box,color=red];
-		j4068396656 -> j1660264937;
-	j2058924190 [label="Que tengas un buen turno patrullando esta noche en tu cumpleaños, Quincy.",shape=box,color=red];
-		j2058924190 -> j737031652;
-	j1660264937 [label="+20 Chemistry",color=orange];
-		j1660264937 -> j1576158289;
-	j737031652 [label="sí, me encanta que se me congelen las pelotas en el techo el día de mi cumpleaños, gracias",shape=box,color=blue];
-		j737031652 -> "Chat ends.";
-	j1576158289 [label="geeeeeenial, eres increíble, compa",shape=box,color=blue];
-		j1576158289 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3533 [label="QuincyBirthdayConvo2 begins.",color=orange];
+		3533 -> 3543;
+		3533 -> 3546;
+	3543 [label="¡Ey, Quincy! Convencí a Arthur para que te diera la noche libre por tu cumpleaños.",shape=box,color=red];
+		3543 -> 3544;
+	3546 [label="Que tengas un buen turno patrullando esta noche en tu cumpleaños, Quincy.",shape=box,color=red];
+		3546 -> 3548;
+	3544 [label="+20 Chemistry",color=orange];
+		3544 -> 3542;
+	3548 [label="sí, me encanta que se me congelen las pelotas en el techo el día de mi cumpleaños, gracias",shape=box,color=blue];
+		3548 -> 3169;
+	3542 [label="geeeeeenial, eres increíble, compa",shape=box,color=blue];
+		3542 -> 3135;
+	3169 [label="{\"Id\":3169,\"Incoming\":[3548],\"Outgoing\":[3547],\"GraphPos\":[1150,-4494],\"CompletionType\":1}",color=orange];
+		3169 -> 3547;
+	3135 [label="{\"Id\":3135,\"Incoming\":[3542],\"Outgoing\":[3545],\"GraphPos\":[1492,-4648],\"CompletionType\":1}",color=orange];
+		3135 -> 3545;
+	3547 [label="Chat ends.",color=orange];
+	3545 [label="Chat ends.",color=orange];
 }

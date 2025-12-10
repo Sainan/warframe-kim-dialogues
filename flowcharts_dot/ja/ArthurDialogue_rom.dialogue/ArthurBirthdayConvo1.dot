@@ -1,16 +1,21 @@
 digraph {
-	"ArthurBirthdayConvo1 begins." [color=orange];
-		"ArthurBirthdayConvo1 begins." -> j1795387593;
-		"ArthurBirthdayConvo1 begins." -> j2766693446;
-	j1795387593 [label="忙しいのは分かってるけど…　お誕生日おめでとうって伝えたかったんだ。:)",shape=box,color=red];
-		j1795387593 -> j1812458156;
-	j2766693446 [label="ハッピーバースデー！　（「ハッピー」の意味知ってる、よね？）",shape=box,color=red];
-		j2766693446 -> j991329800;
-	j1812458156 [label="+20 Chemistry",color=orange];
-		j1812458156 -> j3257717369;
-	j991329800 [label="知っている。ちなみに「面白い」が何か分かるか？",shape=box,color=blue];
-		j991329800 -> "Chat ends.";
-	j3257717369 [label="お誕生日を祝ってくれるのに忙しすぎるなんてない。ありがとう。",shape=box,color=blue];
-		j3257717369 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3190 [label="ArthurBirthdayConvo1 begins.",color=orange];
+		3190 -> 3193;
+		3190 -> 3194;
+	3193 [label="忙しいのは分かってるけど…　お誕生日おめでとうって伝えたかったんだ。:)",shape=box,color=red];
+		3193 -> 3195;
+	3194 [label="ハッピーバースデー！　（「ハッピー」の意味知ってる、よね？）",shape=box,color=red];
+		3194 -> 3198;
+	3195 [label="+20 Chemistry",color=orange];
+		3195 -> 3196;
+	3198 [label="知っている。ちなみに「面白い」が何か分かるか？",shape=box,color=blue];
+		3198 -> 3222;
+	3196 [label="お誕生日を祝ってくれるのに忙しすぎるなんてない。ありがとう。",shape=box,color=blue];
+		3196 -> 3221;
+	3222 [label="{\"Id\":3222,\"Incoming\":[3198],\"Outgoing\":[3199],\"GraphPos\":[-30892,-14264],\"CompletionType\":1}",color=orange];
+		3222 -> 3199;
+	3221 [label="{\"Id\":3221,\"Incoming\":[3196],\"Outgoing\":[3197],\"GraphPos\":[-30889,-14423],\"CompletionType\":1}",color=orange];
+		3221 -> 3197;
+	3199 [label="Chat ends.",color=orange];
+	3197 [label="Chat ends.",color=orange];
 }

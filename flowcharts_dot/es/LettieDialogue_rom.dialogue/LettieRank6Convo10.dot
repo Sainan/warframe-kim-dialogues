@@ -1,14 +1,14 @@
 digraph {
-	"LettieRank6Convo10 begins." [color=orange];
-		"LettieRank6Convo10 begins." -> j824436019;
-	j824436019 [label="Oye
+	2750 [label="LettieRank6Convo10 begins.",color=orange];
+		2750 -> 2751;
+	2751 [label="Oye
 Si escuchas chismes 
 Sobre Eleanor y yo en el bar",shape=box,color=blue];
-		j824436019 -> j3327691944;
-	j3327691944 [label="Mentiras
+		2751 -> 2752;
+	2752 [label="Mentiras
 Todas son mentiras",shape=box,color=blue];
-		j3327691944 -> j476615613;
-	j476615613 [label="Boolean LettieEleanorBar is now true.",color=orange];
-		j476615613 -> "Chat ends.";
-	"Chat ends." [color=orange];
+		2752 -> 2575;
+	2575 [label="Update boolean LettieEleanorBar",color=orange];
+		2575 -> 2753;
+	2753 [label="Chat ends.",color=orange];
 }

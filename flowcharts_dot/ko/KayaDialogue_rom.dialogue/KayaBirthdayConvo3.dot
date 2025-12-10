@@ -1,18 +1,19 @@
 digraph {
-	"KayaBirthdayConvo3 begins." [color=orange];
-		"KayaBirthdayConvo3 begins." -> j939778620;
-		"KayaBirthdayConvo3 begins." -> j2326570603;
-	j939778620 [label="이 시대에선 너 같은 꼬마들은 생일에 뭐해?",shape=box,color=red];
-		j939778620 -> j2634447043;
-	j2326570603 [label="프로가 주는 팁: 생일은 매우 중요한 것에 기록해 두자. 500년도 지나버리면 잊어버리게 되니까.",shape=box,color=red];
-		j2326570603 -> j3265591075;
-	j2634447043 [label="어우.",shape=box,color=blue];
-		j2634447043 -> "Chat ends.";
-	j3265591075 [label="오오오오 맞아아아아 나 이제 나이 먹지 않을 거야, 그치? 계속 이 생일이 반복되는 거야.",shape=box,color=blue];
-		j3265591075 -> j169792204;
-	"Chat ends." [color=orange];
-	j169792204 [label="+20 Chemistry",color=orange];
-		j169792204 -> j1511305185;
-	j1511305185 [label="그거. 완전. 멋지다!",shape=box,color=blue];
-		j1511305185 -> "Chat ends.";
+	995 [label="KayaBirthdayConvo3 begins.",color=orange];
+		995 -> 1003;
+		995 -> 1004;
+	1003 [label="이 시대에선 너 같은 꼬마들은 생일에 뭐해?",shape=box,color=red];
+		1003 -> 994;
+	1004 [label="프로가 주는 팁: 생일은 매우 중요한 것에 기록해 두자. 500년도 지나버리면 잊어버리게 되니까.",shape=box,color=red];
+		1004 -> 1011;
+	994 [label="어우.",shape=box,color=blue];
+		994 -> 993;
+	1011 [label="오오오오 맞아아아아 나 이제 나이 먹지 않을 거야, 그치? 계속 이 생일이 반복되는 거야.",shape=box,color=blue];
+		1011 -> 1012;
+	993 [label="Chat ends.",color=orange];
+	1012 [label="+20 Chemistry",color=orange];
+		1012 -> 1013;
+	1013 [label="그거. 완전. 멋지다!",shape=box,color=blue];
+		1013 -> 1014;
+	1014 [label="Chat ends.",color=orange];
 }

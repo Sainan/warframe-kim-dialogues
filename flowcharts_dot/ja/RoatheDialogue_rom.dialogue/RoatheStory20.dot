@@ -1,0 +1,33 @@
+digraph {
+	2317 [label="RoatheStory20 begins.",color=orange];
+		2317 -> 5678;
+	5678 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5678 -> 2318 [label=true,color=green];
+		5678 -> 5679 [label=false,color=brown];
+	2318 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2318 -> 2312 [label="x >= 20",color=purple];
+		2318 -> 2315 [label="false",color=purple];
+	5679 [label="Chat ends.",color=orange];
+	2312 [label="ボイスメール：服従",shape=box,color=blue];
+		2312 -> 2311;
+	2315 [label="Chat ends.",color=orange];
+	2311 [label="戦場でも寝室でも、我は最初から理解していた。見せかけの服従こそが勝利への道だと。",shape=box,color=blue];
+		2311 -> 5722;
+	5722 [label="屈服しているのを見れば、敵は必ず突進してくる。だからこそ、簡単に罠を張れる。",shape=box,color=blue];
+		5722 -> 5723;
+	5723 [label="「三下」と呼ばれた。「ペット」と。Nitokhは自身が状況を制御していると信じていた。我はなんと巧妙に彼女を操っていたことか。",shape=box,color=blue];
+		5723 -> 2310;
+	2310 [label="血染めのRoathe。部下の肉で肥えた鬼Roathe。命を浪費する者。",shape=box,color=blue];
+		2310 -> 2314;
+	2314 [label="まるで戦うためだけに戦っていたかのように！　そう。オロキン帝国は滅亡しなければならない。",shape=box,color=blue];
+		2314 -> 5724;
+	5724 [label="そのためには戦争が続くしかない。あの黄金の置物7体を倒せるのは、絶対的で取り返しのつかない敗北だけだ。",shape=box,color=blue];
+		5724 -> 2316;
+	2316 [label="Nitokhでさえ我の本心を知らなかった。彼女は我が新世界を共に統治することを望んでいる、そう信じていた。",shape=box,color=blue];
+		2316 -> 2309;
+	2309 [label="Add 1 to HellStory",color=orange];
+		2309 -> 2347;
+	2347 [label="{\"Id\":2347,\"Incoming\":[2309],\"Outgoing\":[2313],\"GraphPos\":[4758,-3705],\"CompletionType\":1}",color=orange];
+		2347 -> 2313;
+	2313 [label="Chat ends.",color=orange];
+}

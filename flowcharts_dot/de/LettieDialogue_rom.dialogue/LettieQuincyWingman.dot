@@ -1,90 +1,93 @@
 digraph {
-	"LettieQuincyWingman begins." [color=orange];
-		"LettieQuincyWingman begins." -> j3451391318;
-	j3451391318 [label="Check boolean IsDating",color=orange];
-		j3451391318 -> "Chat ends." [label=true,color=green];
-		j3451391318 -> j2896415292 [label=false,color=brown];
-	"Chat ends." [color=orange];
-	j2896415292 [label="Hey
+	2468 [label="LettieQuincyWingman begins.",color=orange];
+		2468 -> 2469;
+	2469 [label="Check boolean IsDating",color=orange];
+		2469 -> 2470 [label=true,color=green];
+		2469 -> 2471 [label=false,color=brown];
+	2470 [label="Chat ends.",color=orange];
+	2471 [label="Hey
 Quincy kam, um mit mir zu sprechen
 Sagte, du willst reden?
 ¿Qué pasó?",shape=box,color=blue];
-		j2896415292 -> j2065325619;
-	j2065325619 [label="Check boolean LettieNoDate",color=orange];
-		j2065325619 -> j1664903658 [label=true,color=green];
-		j2065325619 -> j1182819836 [label=true,color=green];
-		j2065325619 -> j2678231168 [label=false,color=brown];
-		j2065325619 -> j1182819836 [label=false,color=brown];
-	j1664903658 [label="Ich wollte ... mich nur entschuldigen, Lettie. Das ist alles.",shape=box,color=red];
-		j1664903658 -> j2237744900;
-	j1182819836 [label="Er muss sich geirrt haben. [Ende.]",shape=box,color=red];
-		j1182819836 -> j3947662504;
-	j2678231168 [label="Ich ... nun. Ich habe Gefühle für dich.",shape=box,color=red];
-		j2678231168 -> j909510203;
-	j2237744900 [label="JAJA Sí, das sagte er
+		2471 -> 2472;
+	2472 [label="Check boolean LettieNoDate",color=orange];
+		2472 -> 2473 [label=true,color=green];
+		2472 -> 2475 [label=true,color=green];
+		2472 -> 2474 [label=false,color=brown];
+		2472 -> 2475 [label=false,color=brown];
+	2473 [label="Ich wollte ... mich nur entschuldigen, Lettie. Das ist alles.",shape=box,color=red];
+		2473 -> 2479;
+	2475 [label="Er muss sich geirrt haben. [Ende.]",shape=box,color=red];
+		2475 -> 2476;
+	2474 [label="Ich ... nun. Ich habe Gefühle für dich.",shape=box,color=red];
+		2474 -> 2478;
+	2479 [label="JAJA Sí, das sagte er
 Habe ihm zuerst nicht geglaubt
 Bin aber beeindruckt, er arbeitet jetzt wohl für dich, wie?
 Ay, ich schon wieder ...",shape=box,color=blue];
-		j2237744900 -> j3070792572;
-	j3947662504 [label="Lárgate de aquí, cabrón",shape=box,color=blue];
-		j3947662504 -> "Chat ends.";
-	j909510203 [label="Check boolean LettieHasDated",color=orange];
-		j909510203 -> j324192966 [label=true,color=green];
-		j909510203 -> j2176033353 [label=false,color=brown];
-	j3070792572 [label="Du willst dich nur entschuldigen und ich mache es dir schwer
+		2479 -> 2480;
+	2476 [label="Lárgate de aquí, cabrón",shape=box,color=blue];
+		2476 -> 2477;
+	2478 [label="Check boolean LettieHasDated",color=orange];
+		2478 -> 2481 [label=true,color=green];
+		2478 -> 2482 [label=false,color=brown];
+	2480 [label="Du willst dich nur entschuldigen und ich mache es dir schwer
 Alles klar
 Entschuldigung angenommen",shape=box,color=blue];
-		j3070792572 -> j1574313555;
-	j324192966 [label="Du hattest deine Chance
+		2480 -> 2486;
+	2477 [label="Chat ends.",color=orange];
+	2481 [label="Du hattest deine Chance
 Und es lief nicht so gut, oder?
 Aber ... aaaay, sí ...
 Gebe es nicht gerne zu, aber du fehlst mir",shape=box,color=blue];
-		j324192966 -> j1444846338;
-	j2176033353 [label="Du hast das die ganze Zeit für dich behalten?
+		2481 -> 2487;
+	2482 [label="Du hast das die ganze Zeit für dich behalten?
 ¿Por qué?
 Ich bin direkt vor dir",shape=box,color=blue];
-		j2176033353 -> j4103615871;
-		j2176033353 -> j3363414114;
-	j1574313555 [label="Er sagte *auch*, dass du es mit mir versuchen möchtest
+		2482 -> 2483;
+		2482 -> 2484;
+	2486 [label="Er sagte *auch*, dass du es mit mir versuchen möchtest
 Uns
 Eine Sache, miteinander
 ¿Verdad?",shape=box,color=blue];
-		j1574313555 -> j1371972714;
-		j1574313555 -> j3205596580;
-	j1444846338 [label="Möchtest du es noch einmal versuchen?",shape=box,color=blue];
-		j1444846338 -> j1371972714;
-		j1444846338 -> j3205596580;
-	j4103615871 [label="Konnte es dir nicht eingestehen.",shape=box,color=red];
-		j4103615871 -> j2865189254;
-	j3363414114 [label="Keine Ahnung.",shape=box,color=red];
-		j3363414114 -> j2865189254;
-	j1371972714 [label="Ja. :) Das würde ich.",shape=box,color=red];
-		j1371972714 -> j860159551;
-	j3205596580 [label="Eigentlich, nein vergiss es.",shape=box,color=red];
-		j3205596580 -> j2526010710;
-	j2865189254 [label="Also ...
+		2486 -> 2488;
+		2486 -> 2490;
+	2487 [label="Möchtest du es noch einmal versuchen?",shape=box,color=blue];
+		2487 -> 2488;
+		2487 -> 2490;
+	2483 [label="Konnte es dir nicht eingestehen.",shape=box,color=red];
+		2483 -> 2485;
+	2484 [label="Keine Ahnung.",shape=box,color=red];
+		2484 -> 2485;
+	2488 [label="Ja. :) Das würde ich.",shape=box,color=red];
+		2488 -> 2494;
+	2490 [label="Eigentlich, nein vergiss es.",shape=box,color=red];
+		2490 -> 2491;
+	2485 [label="Also ...
 Was auch immer
 Willst du es?",shape=box,color=blue];
-		j2865189254 -> j1371972714;
-		j2865189254 -> j3205596580;
-	j860159551 [label="+20 Chemistry",color=orange];
-		j860159551 -> j1606481188;
-	j2526010710 [label="¿Babas?
+		2485 -> 2488;
+		2485 -> 2490;
+	2494 [label="+20 Chemistry",color=orange];
+		2494 -> 2489;
+	2491 [label="¿Babas?
 Manchmal möchte ich dir eine runterhauen
 So wie jetzt gerade",shape=box,color=blue];
-		j2526010710 -> j2703113057;
-	j1606481188 [label="Sí, na gut
+		2491 -> 2492;
+	2489 [label="Sí, na gut
 Dann lass uns weitermachen
 ¡Va!, es gibt viel zu tun",shape=box,color=blue];
-		j1606481188 -> j4071933913;
-	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
-		j2703113057 -> "Chat ends.";
-	j4071933913 [label="Boolean LettieNoDate is now false.",color=orange];
-		j4071933913 -> j444607473;
-	j444607473 [label="Boolean IsDating is now true.",color=orange];
-		j444607473 -> j2763854765;
-	j2763854765 [label="Boolean LettieDating is now true.",color=orange];
-		j2763854765 -> j3003494003;
-	j3003494003 [label="Boolean LettieHasDated is now true.",color=orange];
-		j3003494003 -> "Chat ends.";
+		2489 -> 2495;
+	2492 [label="Update boolean LettieNoDate",color=orange];
+		2492 -> 2493;
+	2495 [label="Update boolean LettieNoDate",color=orange];
+		2495 -> 2496;
+	2493 [label="Chat ends.",color=orange];
+	2496 [label="Update boolean IsDating",color=orange];
+		2496 -> 2497;
+	2497 [label="Update boolean LettieDating",color=orange];
+		2497 -> 2498;
+	2498 [label="Update boolean LettieHasDated",color=orange];
+		2498 -> 2499;
+	2499 [label="Chat ends.",color=orange];
 }

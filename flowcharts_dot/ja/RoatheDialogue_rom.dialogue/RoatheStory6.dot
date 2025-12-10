@@ -1,0 +1,31 @@
+digraph {
+	2184 [label="RoatheStory6 begins.",color=orange];
+		2184 -> 5651;
+	5651 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5651 -> 2183 [label=true,color=green];
+		5651 -> 5650 [label=false,color=brown];
+	2183 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2183 -> 2181 [label="x >= 6",color=purple];
+		2183 -> 2182 [label="false",color=purple];
+	5650 [label="Chat ends.",color=orange];
+	2181 [label="ボイスメール：センティエント",shape=box,color=blue];
+		2181 -> 2180;
+	2182 [label="Chat ends.",color=orange];
+	2180 [label="我々はセンティエントを「彼ら」というより「それ」として捉えていた。",shape=box,color=blue];
+		2180 -> 5691;
+	5691 [label="個々の命など顧みず、血球体のように投げつけられる軍団に対峙した。",shape=box,color=blue];
+		5691 -> 2178;
+	2178 [label="彼らは、悪意に満ちた塊の中の、広がる細胞のようだった。",shape=box,color=blue];
+		2178 -> 5690;
+	5690 [label="我々は、感染体…　全く異なる秩序を持つ集合意識…　との経験によって、偏見を持ってしまったのだろう。",shape=box,color=blue];
+		5690 -> 2179;
+	2179 [label="センティエントたちは進化の使命を与えられており、その進化の終着点となる唯一のモデルが我々だったのだ。",shape=box,color=blue];
+		2179 -> 5687;
+	5687 [label="彼らがOrigin太陽系に戻ってきたのは、オロキンを消滅させるためだけではなく、オロキンに取って代わり、最終的には…　完成させるためだった。",shape=box,color=blue];
+		5687 -> 2177;
+	2177 [label="Add 1 to HellStory",color=orange];
+		2177 -> 2333;
+	2333 [label="{\"Id\":2333,\"Incoming\":[2177],\"Outgoing\":[2185],\"GraphPos\":[5237,-9572],\"CompletionType\":1}",color=orange];
+		2333 -> 2185;
+	2185 [label="Chat ends.",color=orange];
+}

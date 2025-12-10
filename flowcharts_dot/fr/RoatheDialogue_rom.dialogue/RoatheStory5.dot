@@ -1,0 +1,31 @@
+digraph {
+	2175 [label="RoatheStory5 begins.",color=orange];
+		2175 -> 5649;
+	5649 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5649 -> 2174 [label=true,color=green];
+		5649 -> 5648 [label=false,color=brown];
+	2174 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2174 -> 2176 [label="x >= 5",color=purple];
+		2174 -> 2173 [label="false",color=purple];
+	5648 [label="Chat ends.",color=orange];
+	2176 [label="MV: INVENTION",shape=box,color=blue];
+		2176 -> 2172;
+	2173 [label="Chat ends.",color=orange];
+	2172 [label="Transcription: je me souviens que les développements de l’Archimédée martiale étaient, au début, présentés comme des divertissements.",shape=box,color=blue];
+		2172 -> 5692;
+	5692 [label="Comme des débauchés regardant des criminels mis à mort dans l'arène d'un cirque tragique.",shape=box,color=blue];
+		5692 -> 2169;
+	2169 [label="Nous pensions avoir trouvé des moyens nouveaux et captivants de vaincre un ennemi bien inférieur.",shape=box,color=blue];
+		2169 -> 2170;
+	2170 [label="Nous nous bercions d'illusions. En réalité, nous innovions désespérément, conscients de notre infériorité numérique face à nos ennemis protéiformes.",shape=box,color=blue];
+		2170 -> 5685;
+	5685 [label="Ils nous ont anéantis comme une nuée d'enfants dévorant leur mère bouffie.",shape=box,color=blue];
+		5685 -> 5686;
+	5686 [label="Desséchés, écrasés entre les pages du temps, nous avions tout simplement été dépassés par l'évolution.",shape=box,color=blue];
+		5686 -> 2168;
+	2168 [label="Add 1 to HellStory",color=orange];
+		2168 -> 2332;
+	2332 [label="{\"Id\":2332,\"Incoming\":[2168],\"Outgoing\":[2171],\"GraphPos\":[4580,-9977],\"CompletionType\":1}",color=orange];
+		2332 -> 2171;
+	2171 [label="Chat ends.",color=orange];
+}

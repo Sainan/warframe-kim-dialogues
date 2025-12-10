@@ -1,0 +1,29 @@
+digraph {
+	2258 [label="RoatheStory14 begins.",color=orange];
+		2258 -> 5666;
+	5666 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5666 -> 2261 [label=true,color=green];
+		5666 -> 5667 [label=false,color=brown];
+	2261 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2261 -> 2257 [label="x >= 14",color=purple];
+		2261 -> 2260 [label="false",color=purple];
+	5667 [label="Chat ends.",color=orange];
+	2257 [label="ボイスメール：適応",shape=box,color=blue];
+		2257 -> 2259;
+	2260 [label="Chat ends.",color=orange];
+	2259 [label="センティエントの多くは遭遇ごとに進化を遂げたため、同じ敵に二度遭遇するかどうかは不確定だった。しかし、中にはまるで頂点に達したかのように、一定の形態を保ったままのセンティエントもいた。",shape=box,color=blue];
+		2259 -> 5709;
+	5709 [label="完璧な殺戮者、まるでサメのような冷酷な恐怖をもたらした。狂気の沙汰だった。",shape=box,color=blue];
+		5709 -> 2256;
+	2256 [label="狂気の沙汰だった。カニ型のセンティエント船の対策が済んだと思ったら、ワーム型の船が前線で暴れていた。",shape=box,color=blue];
+		2256 -> 2253;
+	2253 [label="そしてそのワーム型を超える脅威がいつ来るかも分からなかった。",shape=box,color=blue];
+		2253 -> 5710;
+	5710 [label="我々は後戻りすることしかできなかった。進歩などあり得なかった。古き伝統、歴史を経て受け継がれてきた名誉と規律の道…　それが当然の報いを受ける時が迫っていた。",shape=box,color=blue];
+		5710 -> 2255;
+	2255 [label="Add 1 to HellStory",color=orange];
+		2255 -> 2341;
+	2341 [label="{\"Id\":2341,\"Incoming\":[2255],\"Outgoing\":[2254],\"GraphPos\":[4071,-6212],\"CompletionType\":1}",color=orange];
+		2341 -> 2254;
+	2254 [label="Chat ends.",color=orange];
+}

@@ -1,16 +1,21 @@
 digraph {
-	"AmirBirthdayConvo1 begins." [color=orange];
-		"AmirBirthdayConvo1 begins." -> j4022244949;
-		"AmirBirthdayConvo1 begins." -> j133820260;
-	j4022244949 [label="Amirze! Udało ci się pomyślnie ukończyć kolejne okrążenie Sol! Gratulacje!",shape=box,color=red];
-		j4022244949 -> j543495448;
-	j133820260 [label="To twoje urodziny, Amir! Może to dobra okazja, żeby trochę dorosnąć?",shape=box,color=red];
-		j133820260 -> j1002233478;
-	j543495448 [label="+20 Chemistry",color=orange];
-		j543495448 -> j244854309;
-	j1002233478 [label="O LITOŚCI!! Nie wierzę, że po prostu zostawiłeś coś takiego, by moje wewnętrzne dziecko mogłoby to przeczytać!! CZEMU NIKT NIE MYŚLI O DZIECIACH?!",shape=box,color=blue];
-		j1002233478 -> "Chat ends.";
-	j244854309 [label="Och, PFFFF! Dzięki, ale to nic takiego!! Planeta wykonała większość ciężkiej pracy, ja po prostu załapałem się na wycieczkę",shape=box,color=blue];
-		j244854309 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3564 [label="AmirBirthdayConvo1 begins.",color=orange];
+		3564 -> 3565;
+		3564 -> 3566;
+	3565 [label="Amirze! Udało ci się pomyślnie ukończyć kolejne okrążenie Sol! Gratulacje!",shape=box,color=red];
+		3565 -> 3567;
+	3566 [label="To twoje urodziny, Amir! Może to dobra okazja, żeby trochę dorosnąć?",shape=box,color=red];
+		3566 -> 3568;
+	3567 [label="+20 Chemistry",color=orange];
+		3567 -> 3569;
+	3568 [label="O LITOŚCI!! Nie wierzę, że po prostu zostawiłeś coś takiego, by moje wewnętrzne dziecko mogłoby to przeczytać!! CZEMU NIKT NIE MYŚLI O DZIECIACH?!",shape=box,color=blue];
+		3568 -> 3595;
+	3569 [label="Och, PFFFF! Dzięki, ale to nic takiego!! Planeta wykonała większość ciężkiej pracy, ja po prostu załapałem się na wycieczkę",shape=box,color=blue];
+		3569 -> 3594;
+	3595 [label="{\"Id\":3595,\"Incoming\":[3568],\"Outgoing\":[3571],\"GraphPos\":[-14760,-21632],\"CompletionType\":1}",color=orange];
+		3595 -> 3571;
+	3594 [label="{\"Id\":3594,\"Incoming\":[3569],\"Outgoing\":[3570],\"GraphPos\":[-14377,-21757],\"CompletionType\":1}",color=orange];
+		3594 -> 3570;
+	3571 [label="Chat ends.",color=orange];
+	3570 [label="Chat ends.",color=orange];
 }

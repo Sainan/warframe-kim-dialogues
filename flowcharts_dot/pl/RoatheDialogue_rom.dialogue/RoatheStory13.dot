@@ -1,0 +1,29 @@
+digraph {
+	2245 [label="RoatheStory13 begins.",color=orange];
+		2245 -> 5665;
+	5665 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5665 -> 2249 [label=true,color=green];
+		5665 -> 5664 [label=false,color=brown];
+	2249 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2249 -> 2251 [label="x >= 13",color=purple];
+		2249 -> 2250 [label="false",color=purple];
+	5664 [label="Chat ends.",color=orange];
+	2251 [label="VM: LOSS",shape=box,color=blue];
+		2251 -> 2252;
+	2250 [label="Chat ends.",color=orange];
+	2252 [label="Transkrypcja: Straty były niewyobrażalne.",shape=box,color=blue];
+		2252 -> 2248;
+	2248 [label="Wielu odrzuciło dane, uznając je za omyłki, kłamstwa lub spiski Cefalonów.",shape=box,color=blue];
+		2248 -> 5706;
+	5706 [label="Raised and glutted on Orokin subterfuge, it was easy for them to reject the truth now.",shape=box,color=blue];
+		5706 -> 5707;
+	5707 [label="From that moment forth, they lived in a fantasy engineered for their comfort.",shape=box,color=blue];
+		5707 -> 5708;
+	5708 [label="We were winning; the Sentients were in retreat; all who thought otherwise were traitors.",shape=box,color=blue];
+		5708 -> 2247;
+	2247 [label="Add 1 to HellStory",color=orange];
+		2247 -> 2340;
+	2340 [label="{\"Id\":2340,\"Incoming\":[2247],\"Outgoing\":[2246],\"GraphPos\":[4434,-6690],\"CompletionType\":1}",color=orange];
+		2340 -> 2246;
+	2246 [label="Chat ends.",color=orange];
+}

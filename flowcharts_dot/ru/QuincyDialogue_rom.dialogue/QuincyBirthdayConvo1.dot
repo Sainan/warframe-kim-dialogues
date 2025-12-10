@@ -1,16 +1,21 @@
 digraph {
-	"QuincyBirthdayConvo1 begins." [color=orange];
-		"QuincyBirthdayConvo1 begins." -> j1257163684;
-		"QuincyBirthdayConvo1 begins." -> j1070648570;
-	j1257163684 [label="С Днём Рождения, Куинси. Выглядишь, как всегда, круто.",shape=box,color=red];
-		j1257163684 -> j1904899081;
-	j1070648570 [label="С Днём Рождения! Чувствуешь возраст?",shape=box,color=red];
-		j1070648570 -> j1921883437;
-	j1904899081 [label="+20 Chemistry",color=orange];
-		j1904899081 -> j1074094469;
-	j1921883437 [label="чувствую возраст?! кто бы говорил, сколько тебе лет вообще, ты хоть знаешь?! придурок",shape=box,color=blue];
-		j1921883437 -> "Chat ends.";
-	j1074094469 [label="конечно, хаха. могу то же самое про тебя сказать. погоди. сколько тебе вообще лет?!",shape=box,color=blue];
-		j1074094469 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3532 [label="QuincyBirthdayConvo1 begins.",color=orange];
+		3532 -> 3535;
+		3532 -> 3536;
+	3535 [label="С Днём Рождения, Куинси. Выглядишь, как всегда, круто.",shape=box,color=red];
+		3535 -> 3537;
+	3536 [label="С Днём Рождения! Чувствуешь возраст?",shape=box,color=red];
+		3536 -> 3540;
+	3537 [label="+20 Chemistry",color=orange];
+		3537 -> 3538;
+	3540 [label="чувствую возраст?! кто бы говорил, сколько тебе лет вообще, ты хоть знаешь?! придурок",shape=box,color=blue];
+		3540 -> 3239;
+	3538 [label="конечно, хаха. могу то же самое про тебя сказать. погоди. сколько тебе вообще лет?!",shape=box,color=blue];
+		3538 -> 3227;
+	3239 [label="{\"Id\":3239,\"Incoming\":[3540],\"Outgoing\":[3541],\"GraphPos\":[1228,-4984],\"CompletionType\":1}",color=orange];
+		3239 -> 3541;
+	3227 [label="{\"Id\":3227,\"Incoming\":[3538],\"Outgoing\":[3539],\"GraphPos\":[1576,-5137],\"CompletionType\":1}",color=orange];
+		3227 -> 3539;
+	3541 [label="Chat ends.",color=orange];
+	3539 [label="Chat ends.",color=orange];
 }

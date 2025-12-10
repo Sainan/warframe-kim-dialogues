@@ -1,0 +1,27 @@
+digraph {
+	2266 [label="RoatheStory15 begins.",color=orange];
+		2266 -> 5669;
+	5669 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5669 -> 2268 [label=true,color=green];
+		5669 -> 5668 [label=false,color=brown];
+	2268 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2268 -> 2262 [label="x >= 15",color=purple];
+		2268 -> 2267 [label="false",color=purple];
+	5668 [label="Chat ends.",color=orange];
+	2262 [label="VM: LIES",shape=box,color=blue];
+		2262 -> 2269;
+	2267 [label="Chat ends.",color=orange];
+	2269 [label="Transcription: je maîtrisais sans effort nombre de nos armes, mais j’excellais dans l’une d’entre elles: le mensonge.",shape=box,color=blue];
+		2269 -> 5711;
+	5711 [label="I brandished it most often against my own troops. I whipped them to the bone with lies of duty and discipline.",shape=box,color=blue];
+		5711 -> 5712;
+	5712 [label="I smothered them with the lie that the war could be won. I pierced them with the lie of my favour, my most esteemed regard for them.",shape=box,color=blue];
+		5712 -> 2265;
+	2265 [label="Seul, en secret, j'ai retourné cette arme contre moi. Oh, comme j'ai saigné!",shape=box,color=blue];
+		2265 -> 2264;
+	2264 [label="Add 1 to HellStory",color=orange];
+		2264 -> 2342;
+	2342 [label="{\"Id\":2342,\"Incoming\":[2264],\"Outgoing\":[2263],\"GraphPos\":[3446,-5796],\"CompletionType\":1}",color=orange];
+		2342 -> 2263;
+	2263 [label="Chat ends. Next chat will be RoatheStory16.",color=orange];
+}

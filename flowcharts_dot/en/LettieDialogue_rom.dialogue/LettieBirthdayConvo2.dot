@@ -1,19 +1,24 @@
 digraph {
-	"LettieBirthdayConvo2 begins." [color=orange];
-		"LettieBirthdayConvo2 begins." -> j1119109351;
-		"LettieBirthdayConvo2 begins." -> j3283985465;
-	j1119109351 [label="Happy Birthday! I'm sure everybody in the med tent appreciate you working. :)",shape=box,color=red];
-		j1119109351 -> j2195545428;
-	j3283985465 [label="Happy Birthday, Lettie! Do you get a day off today? Or at least to sit down?",shape=box,color=red];
-		j3283985465 -> j582678311;
-	j2195545428 [label="Sí
+	2500 [label="LettieBirthdayConvo2 begins.",color=orange];
+		2500 -> 2513;
+		2500 -> 2507;
+	2513 [label="Happy Birthday! I'm sure everybody in the med tent appreciate you working. :)",shape=box,color=red];
+		2513 -> 2511;
+	2507 [label="Happy Birthday, Lettie! Do you get a day off today? Or at least to sit down?",shape=box,color=red];
+		2507 -> 2505;
+	2511 [label="Sí
 Sure",shape=box,color=blue];
-		j2195545428 -> "Chat ends.";
-	j582678311 [label="+20 Chemistry",color=orange];
-		j582678311 -> j3181384863;
-	"Chat ends." [color=orange];
-	j3181384863 [label="Hah!
+		2511 -> 2518;
+	2505 [label="+20 Chemistry",color=orange];
+		2505 -> 2502;
+	2518 [label="{\"Id\":2518,\"Incoming\":[2511],\"Outgoing\":[2515],\"GraphPos\":[771,-1070],\"CompletionType\":1}",color=orange];
+		2518 -> 2515;
+	2502 [label="Hah!
 I wish
 I do get off early, though. Good enough for me.",shape=box,color=blue];
-		j3181384863 -> "Chat ends.";
+		2502 -> 2519;
+	2515 [label="Chat ends.",color=orange];
+	2519 [label="{\"Id\":2519,\"Incoming\":[2502],\"Outgoing\":[2506],\"GraphPos\":[1153,-1288],\"CompletionType\":1}",color=orange];
+		2519 -> 2506;
+	2506 [label="Chat ends.",color=orange];
 }

@@ -1,40 +1,40 @@
 digraph {
-	"LettieAmirHack begins." [color=orange];
-		"LettieAmirHack begins." -> j2316161106;
-	j2316161106 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
-		j2316161106 -> j4175152507;
-		j2316161106 -> j760874327;
-	j4175152507 [label="รู้สึกเหมือนว่าเจ้ากำลังโกรธ...",shape=box,color=red];
-		j4175152507 -> j701846910;
-	j760874327 [label="เอ่อ... ไม่ได้เนยถั่วเหรอ...",shape=box,color=red];
-		j760874327 -> j701846910;
-	j701846910 [label="ข้าต้องทำยังไง 
+	1768 [label="LettieAmirHack begins.",color=orange];
+		1768 -> 1769;
+	1769 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
+		1769 -> 1770;
+		1769 -> 1771;
+	1770 [label="รู้สึกเหมือนว่าเจ้ากำลังโกรธ...",shape=box,color=red];
+		1770 -> 1772;
+	1771 [label="เอ่อ... ไม่ได้เนยถั่วเหรอ...",shape=box,color=red];
+		1771 -> 1772;
+	1772 [label="ข้าต้องทำยังไง 
 กับไอ้ซอสมะเขือเทศ 500 กล่องเนี่ย 
 ¡DILE A ESE NIÑO QUE VENGA AQUÍ AHORA MISMO! 
 ไปบอกให้ไอ้เด็กเวรนั่นมาแก้ปัญหาเลย 
 เดี๋ยวนี้!!",shape=box,color=blue];
-		j701846910 -> j1648000228;
-		j701846910 -> j1252335027;
-	j1648000228 [label="เฮ้ มันเป็นเรื่องผิดพลาดนะ Amir พยายามจะส่งเนยถั่วไปให้หนูของเจ้าน่ะ",shape=box,color=red];
-		j1648000228 -> j2200888975;
-	j1252335027 [label="ทั้งหมดนี่เป็นเรื่องเข้าใจผิดนะ เขาพยายามจะส่งของขวัญไปให้น่ะ",shape=box,color=red];
-		j1252335027 -> j302837375;
-	j2200888975 [label="แต่ทุกอย่างมันเละเทะไปหมดแล้ว เดี๋ยวข้าจะช่วยเขาจัดการเอง",shape=box,color=red];
-		j2200888975 -> j1062197741;
-	j302837375 [label="ไม่สนโว้ย 
+		1772 -> 1773;
+		1772 -> 1774;
+	1773 [label="เฮ้ มันเป็นเรื่องผิดพลาดนะ Amir พยายามจะส่งเนยถั่วไปให้หนูของเจ้าน่ะ",shape=box,color=red];
+		1773 -> 1775;
+	1774 [label="ทั้งหมดนี่เป็นเรื่องเข้าใจผิดนะ เขาพยายามจะส่งของขวัญไปให้น่ะ",shape=box,color=red];
+		1774 -> 1776;
+	1775 [label="แต่ทุกอย่างมันเละเทะไปหมดแล้ว เดี๋ยวข้าจะช่วยเขาจัดการเอง",shape=box,color=red];
+		1775 -> 1780;
+	1776 [label="ไม่สนโว้ย 
 ¡¡SÁCALAS DE AQUÍ!! 
 ¡¡AHORA!!",shape=box,color=blue];
-		j302837375 -> "Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue";
-	j1062197741 [label="+20 Chemistry",color=orange];
-		j1062197741 -> j895332204;
-	"Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue" [label="Queue conversation AmirHack3 in JabirDialogue_rom.dialogue",color=orange];
-		"Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue" -> "Chat ends.";
-	j895332204 [label="¿SÍ? 
+		1776 -> 1777;
+	1780 [label="+20 Chemistry",color=orange];
+		1780 -> 1778;
+	1777 [label="{\"Id\":1777,\"Incoming\":[1779,1776],\"Outgoing\":[1781],\"GraphPos\":[2847,54171],\"CompletionType\":2,\"OtherDialogueInfos\":[{\"Dialogue\":\"/Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue\",\"Tag\":\"AmirHack3\",\"Value\":0}]}",color=orange];
+		1777 -> 1781;
+	1778 [label="¿SÍ? 
 นี่สำหรับ mis panquecitos เหรอ",shape=box,color=blue];
-		j895332204 -> j3467161602;
-	"Chat ends." [color=orange];
-	j3467161602 [label="¡Ay equis! 
+		1778 -> 1779;
+	1781 [label="Chat ends.",color=orange];
+	1779 [label="¡Ay equis! 
 รีบเอาออกไปจากที่นี่ซะ 
 ¡¡AHORA!!",shape=box,color=blue];
-		j3467161602 -> "Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue";
+		1779 -> 1777;
 }

@@ -1,16 +1,21 @@
 digraph {
-	"QuincyBirthdayConvo2 begins." [color=orange];
-		"QuincyBirthdayConvo2 begins." -> j299347204;
-		"QuincyBirthdayConvo2 begins." -> j1517495291;
-	j299347204 [label="안녕 퀸시! 내가 아서한테 생일날 퀸시한테 휴일 좀 주라고 얘기해놨어.",shape=box,color=red];
-		j299347204 -> j616259553;
-	j1517495291 [label="생일날 야간 근무 축하해, 퀸시.",shape=box,color=red];
-		j1517495291 -> j838954153;
-	j616259553 [label="+20 Chemistry",color=orange];
-		j616259553 -> j2194860269;
-	j838954153 [label="그래. 생일날 지붕 위에서 불알 얼리는 거 내가 참 좋아하는 짓이지 고맙기도 해라",shape=box,color=blue];
-		j838954153 -> "Chat ends.";
-	j2194860269 [label="주우우욱인다 네가 최고다, 친구야",shape=box,color=blue];
-		j2194860269 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3533 [label="QuincyBirthdayConvo2 begins.",color=orange];
+		3533 -> 3543;
+		3533 -> 3546;
+	3543 [label="안녕 퀸시! 내가 아서한테 생일날 퀸시한테 휴일 좀 주라고 얘기해놨어.",shape=box,color=red];
+		3543 -> 3544;
+	3546 [label="생일날 야간 근무 축하해, 퀸시.",shape=box,color=red];
+		3546 -> 3548;
+	3544 [label="+20 Chemistry",color=orange];
+		3544 -> 3542;
+	3548 [label="그래. 생일날 지붕 위에서 불알 얼리는 거 내가 참 좋아하는 짓이지 고맙기도 해라",shape=box,color=blue];
+		3548 -> 3169;
+	3542 [label="주우우욱인다 네가 최고다, 친구야",shape=box,color=blue];
+		3542 -> 3135;
+	3169 [label="{\"Id\":3169,\"Incoming\":[3548],\"Outgoing\":[3547],\"GraphPos\":[1150,-4494],\"CompletionType\":1}",color=orange];
+		3169 -> 3547;
+	3135 [label="{\"Id\":3135,\"Incoming\":[3542],\"Outgoing\":[3545],\"GraphPos\":[1492,-4648],\"CompletionType\":1}",color=orange];
+		3135 -> 3545;
+	3547 [label="Chat ends.",color=orange];
+	3545 [label="Chat ends.",color=orange];
 }

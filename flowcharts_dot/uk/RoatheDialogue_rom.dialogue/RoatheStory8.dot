@@ -1,0 +1,33 @@
+digraph {
+	2201 [label="RoatheStory8 begins.",color=orange];
+		2201 -> 5655;
+	5655 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5655 -> 2196 [label=true,color=green];
+		5655 -> 5654 [label=false,color=brown];
+	2196 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2196 -> 2200 [label="x >= 8",color=purple];
+		2196 -> 2199 [label="false",color=purple];
+	5654 [label="Chat ends.",color=orange];
+	2200 [label="СТЯГ",shape=box,color=blue];
+		2200 -> 2198;
+	2199 [label="Chat ends.",color=orange];
+	2198 [label="Витяг: Ніщо так помпезно й без зайвих слів не заявляє про наше ставлення до різанини війни, як стягоносці.",shape=box,color=blue];
+		2198 -> 5694;
+	5694 [label="Ті, кого потрібно захистити за будь-яку ціну. Ті, за ким ідуть без вагань.",shape=box,color=blue];
+		5694 -> 5695;
+	5695 [label="І, варто додати, ті, кому можна погрожувати, щоб виконували накази, які жоден притомний солдат не насмілиться виконати, хіба що його могла б спіткати ще гірша доля. ",shape=box,color=blue];
+		5695 -> 2203;
+	2203 [label="Комічно, але факт.",shape=box,color=blue];
+		2203 -> 5731;
+	5731 [label="Серед інших саме їхні обриси привертали мою увагу. Та потім понівечені тіла нічим не відрізнялися від інших. ",shape=box,color=blue];
+		5731 -> 2195;
+	2195 [label="Стяг був завжди однаковим. Лискуче орокінське золото, вимазане багряними плямами.",shape=box,color=blue];
+		2195 -> 2204;
+	2204 [label="Перш ніж піти, я завжди перевіряв, чи гордо він стоїть на полі.",shape=box,color=blue];
+		2204 -> 2202;
+	2202 [label="Add 1 to HellStory",color=orange];
+		2202 -> 2335;
+	2335 [label="{\"Id\":2335,\"Incoming\":[2202],\"Outgoing\":[2197],\"GraphPos\":[4863,-8750],\"CompletionType\":1}",color=orange];
+		2335 -> 2197;
+	2197 [label="Chat ends.",color=orange];
+}

@@ -1,0 +1,29 @@
+digraph {
+	2258 [label="RoatheStory14 begins.",color=orange];
+		2258 -> 5666;
+	5666 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5666 -> 2261 [label=true,color=green];
+		5666 -> 5667 [label=false,color=brown];
+	2261 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2261 -> 2257 [label="x >= 14",color=purple];
+		2261 -> 2260 [label="false",color=purple];
+	5667 [label="Chat ends.",color=orange];
+	2257 [label="SN: ANPASSUNG",shape=box,color=blue];
+		2257 -> 2259;
+	2260 [label="Chat ends.",color=orange];
+	2259 [label="Transkript: Viele der Sentients entwickelten sich zwischen den Begegnungen weiter, sodass wir nie sicher sein konnten, demselben Feind zweimal gegenüberzustehen. Andere hingegen blieben unverändert, als hätten sie vor langer Zeit eine Grenze erreicht.",shape=box,color=blue];
+		2259 -> 5709;
+	5709 [label="Perfektionierte Killer, die denselben kalten Schrecken verbreiteten wie ein Hai.",shape=box,color=blue];
+		5709 -> 2256;
+	2256 [label="Es war Wahnsinn. Wie sollte ich Strategien für das Verhalten der Sentient Krabbenschiffe entwickeln, wenn die Krabbenschiffe durch Wurmschiffe ersetzt wurden, kaum dass meine Taktiken perfektioniert waren?",shape=box,color=blue];
+		2256 -> 2253;
+	2253 [label="Und wie lange hatten wir, bis diese Wurmschiffe selbst von einer neuen Monstrosität abgelöst wurden?",shape=box,color=blue];
+		2253 -> 5710;
+	5710 [label="Uns blieb nichts anderes übrig, als zurückzufallen. Fortschritt wurde zum Verhängnis. Alte Traditionen, ehrwürdige Pfade der Ehre und Disziplin, verdienten sich ihren Respekt.",shape=box,color=blue];
+		5710 -> 2255;
+	2255 [label="Add 1 to HellStory",color=orange];
+		2255 -> 2341;
+	2341 [label="{\"Id\":2341,\"Incoming\":[2255],\"Outgoing\":[2254],\"GraphPos\":[4071,-6212],\"CompletionType\":1}",color=orange];
+		2341 -> 2254;
+	2254 [label="Chat ends.",color=orange];
+}

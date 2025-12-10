@@ -1,153 +1,158 @@
 digraph {
-	"LettieRank1Convo2 begins." [color=orange];
-		"LettieRank1Convo2 begins." -> j89496700;
-	j89496700 [label="Check boolean LettieRatsAsked",color=orange];
-		j89496700 -> j1410189226 [label=true,color=green];
-		j89496700 -> j2583614879 [label=false,color=brown];
-		j89496700 -> j1410189226 [label=false,color=brown];
-	j1410189226 [label="家里有人想你吗？",shape=box,color=red];
-		j1410189226 -> j3611088737;
-	j2583614879 [label="所以是什么让你想养小鼠当宠物的？",shape=box,color=red];
-		j2583614879 -> j1419769657;
-	j3611088737 [label="Boolean LettieHomeAsked is now true.",color=orange];
-		j3611088737 -> j4029412242;
-	j1419769657 [label="Boolean LettieRatsAsked is now true.",color=orange];
-		j1419769657 -> j27878299;
-	j4029412242 [label="Check boolean LettieInteresting",color=orange];
-		j4029412242 -> j3775967261 [label=true,color=green];
-		j4029412242 -> j3982864951 [label=false,color=brown];
-	j27878299 [label="Check boolean LettieInteresting",color=orange];
-		j27878299 -> j1620152763 [label=true,color=green];
-		j27878299 -> j3190155218 [label=false,color=brown];
-	j3775967261 [label="这问题问得好多了 
+	52 [label="LettieRank1Convo2 begins.",color=orange];
+		52 -> 211;
+	211 [label="Check boolean LettieRatsAsked",color=orange];
+		211 -> 53 [label=true,color=green];
+		211 -> 54 [label=false,color=brown];
+		211 -> 53 [label=false,color=brown];
+	53 [label="家里有人想你吗？",shape=box,color=red];
+		53 -> 55;
+	54 [label="所以是什么让你想养小鼠当宠物的？",shape=box,color=red];
+		54 -> 56;
+	55 [label="Update boolean LettieHomeAsked",color=orange];
+		55 -> 57;
+	56 [label="Update boolean LettieRatsAsked",color=orange];
+		56 -> 58;
+	57 [label="Check boolean LettieInteresting",color=orange];
+		57 -> 59 [label=true,color=green];
+		57 -> 62 [label=false,color=brown];
+	58 [label="Check boolean LettieInteresting",color=orange];
+		58 -> 60 [label=true,color=green];
+		58 -> 61 [label=false,color=brown];
+	59 [label="这问题问得好多了 
 你学得挺快的 
 但是",shape=box,color=blue];
-		j3775967261 -> j3982864951;
-	j3982864951 [label="这并不重要 
+		59 -> 62;
+	62 [label="这并不重要 
 又离不开这个 cuchitril
 所以何必想他们呢",shape=box,color=blue];
-		j3982864951 -> j2771397615;
-		j3982864951 -> j2956579812;
-		j3982864951 -> j2732403302;
-	j1620152763 [label="哎，看吧？
+		62 -> 67;
+		62 -> 66;
+		62 -> 65;
+	60 [label="哎，看吧？
 这个问题问得好多了，babas
 你学得真快",shape=box,color=blue];
-		j1620152763 -> j3190155218;
-	j3190155218 [label="你来告诉我",shape=box,color=blue];
-		j3190155218 -> j2679272617;
-		j3190155218 -> j3849422022;
-	j2771397615 [label="我们是在*网上*聊天，你知道*电话*这东西，对吧？",shape=box,color=red];
-		j2771397615 -> j3692380084;
-	j2956579812 [label="有时候，正是痛苦的记忆才能帮助我们挺过难关。",shape=box,color=red];
-		j2956579812 -> j1729583624;
-	j2732403302 [label="好……吧…… [结束]",shape=box,color=red];
-		j2732403302 -> "Chat ends.";
-	j2679272617 [label="啊？",shape=box,color=red];
-		j2679272617 -> j2690425089;
-	j3849422022 [label="我想我不喜欢这个话题的走向。[结束]",shape=box,color=red];
-		j3849422022 -> j2365690676;
-	j3692380084 [label="Bien podría ser un pinche fantasma 
+		60 -> 61;
+	61 [label="你来告诉我",shape=box,color=blue];
+		61 -> 91;
+		61 -> 80;
+	67 [label="我们是在*网上*聊天，你知道*电话*这东西，对吧？",shape=box,color=red];
+		67 -> 70;
+	66 [label="有时候，正是痛苦的记忆才能帮助我们挺过难关。",shape=box,color=red];
+		66 -> 69;
+	65 [label="好……吧…… [结束]",shape=box,color=red];
+		65 -> 68;
+	91 [label="啊？",shape=box,color=red];
+		91 -> 93;
+	80 [label="我想我不喜欢这个话题的走向。[结束]",shape=box,color=red];
+		80 -> 2440;
+	70 [label="Bien podría ser un pinche fantasma 
 阴间打来电话，无法改变，无法生活，也无法死亡",shape=box,color=blue];
-		j3692380084 -> j1519754984;
-	j1729583624 [label="¿Sí? 
+		70 -> 81;
+	69 [label="¿Sí? 
 你懂什么是痛苦？",shape=box,color=blue];
-		j1729583624 -> j3291587821;
-		j1729583624 -> j2280234100;
-	"Chat ends." [color=orange];
-	j2690425089 [label="我想知道你为什么认为我喜欢小鼠 
+		69 -> 72;
+		69 -> 74;
+	68 [label="Chat ends.",color=orange];
+	93 [label="我想知道你为什么认为我喜欢小鼠 
 继续说",shape=box,color=blue];
-		j2690425089 -> j3507503232;
-	j2365690676 [label="Tú te lo pierdes",shape=box,color=blue];
-		j2365690676 -> "Chat ends.";
-	j1519754984 [label="我们究竟是什么？！ 
+		93 -> 104;
+	2440 [label="Tú te lo pierdes",shape=box,color=blue];
+		2440 -> 2441;
+	81 [label="我们究竟是什么？！ 
 FANTASMAS 而已
 像是一盘被用烂了的录像带上的影子",shape=box,color=blue];
-		j1519754984 -> j3932539785;
-	j3291587821 [label="你知道被砍头是什么感觉吗？我知道。我已经死了无数次了。而且*很痛*，女士。",shape=box,color=red];
-		j3291587821 -> j2754769174;
-	j2280234100 [label="女士，我不需要向你证明什么。",shape=box,color=red];
-		j2280234100 -> j1958136709;
-	j3507503232 [label="Boolean LettieRats1 is now true.",color=orange];
-		j3507503232 -> j965962640;
-		j3507503232 -> j398170155;
-		j3507503232 -> j3998799815;
-	j3932539785 [label="不，最好让他们以为我已经死了 
+		81 -> 82;
+	72 [label="你知道被砍头是什么感觉吗？我知道。我已经死了无数次了。而且*很痛*，女士。",shape=box,color=red];
+		72 -> 71;
+	74 [label="女士，我不需要向你证明什么。",shape=box,color=red];
+		74 -> 73;
+	104 [label="Update boolean LettieRats1",color=orange];
+		104 -> 95;
+		104 -> 96;
+		104 -> 97;
+	2441 [label="Chat ends.",color=orange];
+	82 [label="不，最好让他们以为我已经死了 
 我为他们承受这份痛苦",shape=box,color=blue];
-		j3932539785 -> j1804914557;
-		j3932539785 -> j1160269551;
-	j2754769174 [label="Boolean LettieDuviri is now true.",color=orange];
-		j2754769174 -> j2662719330;
-	j1958136709 [label="我也没让你证明 
+		82 -> 79;
+		82 -> 78;
+	71 [label="Update boolean LettieDuviri",color=orange];
+		71 -> 76;
+	73 [label="我也没让你证明 
 我很忙 
 Vete",shape=box,color=blue];
-		j1958136709 -> "Chat ends.";
-	j965962640 [label="因为它们聪明、亲人，还很好玩？",shape=box,color=red];
-		j965962640 -> j900205998;
-	j398170155 [label="因为它们经常被忽视和误解？",shape=box,color=red];
-		j398170155 -> j900205998;
-	j3998799815 [label="莱蒂？我真的一点也不了解你。不过那些小鼠真是可爱极了。",shape=box,color=red];
-		j3998799815 -> j1434320854;
-	j1804914557 [label="这里仍然有值得过下去的生活。",shape=box,color=red];
-		j1804914557 -> j2392755231;
-	j1160269551 [label="你是自愿为别人承受痛苦，还是因为这是你的责任？",shape=box,color=red];
-		j1160269551 -> j488710065;
-	j2662719330 [label="被 La Flaca 触碰后 
+		73 -> 75;
+	95 [label="因为它们聪明、亲人，还很好玩？",shape=box,color=red];
+		95 -> 94;
+	96 [label="因为它们经常被忽视和误解？",shape=box,color=red];
+		96 -> 94;
+	97 [label="莱蒂？我真的一点也不了解你。不过那些小鼠真是可爱极了。",shape=box,color=red];
+		97 -> 105;
+	79 [label="这里仍然有值得过下去的生活。",shape=box,color=red];
+		79 -> 84;
+	78 [label="你是自愿为别人承受痛苦，还是因为这是你的责任？",shape=box,color=red];
+		78 -> 85;
+	76 [label="被 La Flaca 触碰后 
 又一个像我们一样的 fantasma 
 一次又一次地重温他们的死亡",shape=box,color=blue];
-		j2662719330 -> j1218209431;
-	j900205998 [label="哎呀，苍天啊，sálvame",shape=box,color=blue];
-		j900205998 -> j4039419005;
-	j1434320854 [label="¡JAJAJA!",shape=box,color=blue];
-		j1434320854 -> j968940186;
-	j2392755231 [label="当然，当然 
+		76 -> 77;
+	75 [label="Chat ends.",color=orange];
+	94 [label="哎呀，苍天啊，sálvame",shape=box,color=blue];
+		94 -> 98;
+	105 [label="¡JAJAJA!",shape=box,color=blue];
+		105 -> 99;
+	84 [label="当然，当然 
 有阿米尔的游戏、亚瑟的酗酒、碧的音乐和昆西的摄影",shape=box,color=blue];
-		j2392755231 -> j3550886060;
-	j488710065 [label="+20 Chemistry",color=orange];
-		j488710065 -> j2227052846;
-	j1218209431 [label="Sí 
+		84 -> 89;
+	85 [label="+20 Chemistry",color=orange];
+		85 -> 83;
+	77 [label="Sí 
 家里还有家人 
 还是让他们以为我已经死了比较好",shape=box,color=blue];
-		j1218209431 -> j1160269551;
-		j1218209431 -> j1804914557;
-	j4039419005 [label="不对 
+		77 -> 78;
+		77 -> 79;
+	98 [label="不对 
 你还有别的想问的吗",shape=box,color=blue];
-		j4039419005 -> j2708631073;
-		j4039419005 -> j3251794153;
-	j968940186 [label="+20 Chemistry",color=orange];
-		j968940186 -> j394231121;
-	j3550886060 [label="空洞的爱好 
+		98 -> 100;
+		98 -> 101;
+	99 [label="+20 Chemistry",color=orange];
+		99 -> 106;
+	89 [label="空洞的爱好 
 空洞的灵魂 
 在永恒中消磨时间",shape=box,color=blue];
-		j3550886060 -> j210840370;
-	j2227052846 [label="两者都有吧 
+		89 -> 90;
+	83 [label="两者都有吧 
 我很久以前就做出了选择 
 现在回头已经太晚了",shape=box,color=blue];
-		j2227052846 -> j3197902534;
-	j2708631073 [label="呃……",shape=box,color=red];
-		j2708631073 -> j2940563864;
-	j3251794153 [label="没有……算了……",shape=box,color=red];
-		j3251794153 -> j2547240352;
-	j394231121 [label="来自我们救世主的谦逊 
+		83 -> 86;
+	100 [label="呃……",shape=box,color=red];
+		100 -> 63;
+	101 [label="没有……算了……",shape=box,color=red];
+		101 -> 102;
+	106 [label="来自我们救世主的谦逊 
 我喜欢",shape=box,color=blue];
-		j394231121 -> j1538158571;
-	j210840370 [label="我还有事情要做 
+		106 -> 107;
+	90 [label="我还有事情要做 
 Vete",shape=box,color=blue];
-		j210840370 -> j1253712857;
-	j3197902534 [label="我还有事情要做",shape=box,color=blue];
-		j3197902534 -> j1253712857;
-	j2940563864 [label="Boolean LettieHomeAsked is now true.",color=orange];
-		j2940563864 -> j1214346959;
-	j2547240352 [label="Va",shape=box,color=blue];
-		j2547240352 -> "Chat ends.";
-	j1538158571 [label="小时候家里没多少钱 
+		90 -> 87;
+	86 [label="我还有事情要做",shape=box,color=blue];
+		86 -> 87;
+	63 [label="Update boolean LettieHomeAsked",color=orange];
+		63 -> 64;
+	102 [label="Va",shape=box,color=blue];
+		102 -> 103;
+	107 [label="小时候家里没多少钱 
 一直在各个基地之间搬家 
 小鼠很容易养，我妈妈也不介意",shape=box,color=blue];
-		j1538158571 -> j3053647468;
-	j1253712857 [label="Boolean LettieFantasma1 is now true.",color=orange];
-		j1253712857 -> "Chat ends.";
-	j1214346959 [label="家里有人想你吗？",shape=box,color=red];
-		j1214346959 -> j3982864951;
-	j3053647468 [label="我得回去工作了 
+		107 -> 108;
+	87 [label="Update boolean LettieFantasma1",color=orange];
+		87 -> 88;
+	64 [label="家里有人想你吗？",shape=box,color=red];
+		64 -> 62;
+	103 [label="Chat ends.",color=orange];
+	108 [label="我得回去工作了 
 再见，babas",shape=box,color=blue];
-		j3053647468 -> "Chat ends.";
+		108 -> 109;
+	88 [label="Chat ends.",color=orange];
+	109 [label="Chat ends.",color=orange];
 }

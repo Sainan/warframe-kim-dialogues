@@ -1,0 +1,104 @@
+digraph {
+	2778 [label="LettieConsent begins.",color=orange];
+		2778 -> 2779;
+	2779 [label="Check boolean LettieDating",color=orange];
+		2779 -> 2780 [label=true,color=green];
+		2779 -> 2781 [label=false,color=brown];
+	2780 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
+		2780 -> 2782 [label=true,color=green];
+		2780 -> 2814 [label=false,color=brown];
+	2781 [label="Chat ends.",color=orange];
+	2782 [label="Check boolean LettieConsentComplete",color=orange];
+		2782 -> 2786 [label=true,color=green];
+		2782 -> 2785 [label=false,color=brown];
+		2782 -> 2784 [label=false,color=brown];
+	2814 [label="Check boolean LettiePolyamorySuccess",color=orange];
+		2814 -> 2782 [label=true,color=green];
+		2814 -> 2783 [label=false,color=brown];
+	2786 [label="Chat ends.",color=orange];
+	2785 [label="안녕 레티? 지금 바빠? [다수의 파트너가 있는 경우 동의를 구한다]",shape=box,color=red];
+		2785 -> 2788;
+	2784 [label="[종료.]",shape=box,color=red];
+		2784 -> 2787;
+	2783 [label="Chat ends.",color=orange];
+	2788 [label="항상
+하지만 너한테는 시간 쓸 수 있는데?
+¿Qué?",shape=box,color=blue];
+		2788 -> 2790;
+	2787 [label="Update boolean LettieConsentComplete",color=orange];
+		2787 -> 2789;
+	2790 [label="너랑 중요한 이야기를 하고 싶은데, 괜찮은지 확인하고 싶어.",shape=box,color=red];
+		2790 -> 2791;
+	2789 [label="Chat ends.",color=orange];
+	2791 [label="중요한 점은 내가 너에게 거짓말을 하거나 어떤 식으로든 정직하지 않게 대하는 것처럼 느껴지지 않도록 하는 거야.",shape=box,color=red];
+		2791 -> 2792;
+		2791 -> 2793;
+		2791 -> 2794;
+	2792 [label="제발 아프게 하지 말아 줘.",shape=box,color=red];
+		2792 -> 2795;
+	2793 [label="제발 화내지 말아 줘.",shape=box,color=red];
+		2793 -> 2796;
+	2794 [label="이해해줬으면 좋겠어.",shape=box,color=red];
+		2794 -> 2797;
+	2795 [label="Jajajajaj
+우린 이거에 대해서 얘기했잖아
+난 내가 좋아하는 방식으로만 널 아프게 한다고
+이제 뭔 말이 하고 싶은 건데",shape=box,color=blue];
+		2795 -> 2798;
+	2796 [label="¿Sí?
+그래서 화낼 일이 뭐길래?",shape=box,color=blue];
+		2796 -> 2798;
+	2797 [label="¿Sí?
+그래서 뭘 이해해줬음 하는데?",shape=box,color=blue];
+		2797 -> 2798;
+	2798 [label="네가 싫어하는 상황에 놓이게 만들고 싶지 않아. 이 문제를 우리가 전에는 이야기해 본 적이 없는 문제라는 것도 알고. 그러니 거절해도 괜찮아. 단지 이 점을 알아줬으면 좋겠어.",shape=box,color=red];
+		2798 -> 2799;
+	2799 [label="우리의 관계는 나에게 중요해 - 그것도 아주 많이 중요해 - 그리고 진심이야. 그걸 의심하지 않았으면 해.",shape=box,color=red];
+		2799 -> 2800;
+	2800 [label="아, entiendo...
+그냥 알고 싶은 게 있는데
+그 상대방을 정말로 아끼니, solecito?
+¿Quiénes son?",shape=box,color=blue];
+		2800 -> 2801;
+		2800 -> 2802;
+	2801 [label="소중히 여겨. 하지만 너도 정말로 아끼고 있어.",shape=box,color=red];
+		2801 -> 2803;
+	2802 [label="너라면 빨리 알아낼 수 있을 거라고 짐작했어야 했는데.",shape=box,color=red];
+		2802 -> 2804;
+	2803 [label="Ay, sí
+탓할 수도 없네, 그렇게 많이 보고 다니고
+여행도 하고 다니니까
+난 괜찮아",shape=box,color=blue];
+		2803 -> 2805;
+	2804 [label="내가 속인거야
+엘레노어가 경고해줬어
+Jajaja 걘 엄청난 수다쟁이니까",shape=box,color=blue];
+		2804 -> 2806;
+	2805 [label="하지만 헥스는 안돼
+Mi familia no, ¿por favor?
+그랬다간 일주일 동안 수술용 패드로 몸을 문질러야 할 것 같으니",shape=box,color=blue];
+		2805 -> 2807;
+	2806 [label="탓할 수도 없네, 그렇게 많이 보고 다니고
+여행도 하고 다니니까
+난 괜찮아",shape=box,color=blue];
+		2806 -> 2805;
+	2807 [label="+20 Chemistry",color=orange];
+		2807 -> 2808;
+	2808 [label="넌 나에게 매우 중요하고 소중해, solecito
+그리고 상대방이 너에게 행복을 가져다준다면?
+상대방이 나에게도 같은 것을 가져다줄 거야
+그만큼 간단한거지",shape=box,color=blue];
+		2808 -> 2809;
+	2809 [label="오
+그리고 언젠가 그쪽을 여기로 데려올 방법을 찾아줘
+만나고 싶으니까",shape=box,color=blue];
+		2809 -> 2810;
+		2809 -> 2811;
+	2810 [label="네 아가씨. :)",shape=box,color=red];
+		2810 -> 2812;
+	2811 [label="내가 할 수 있는 건 해볼게.",shape=box,color=red];
+		2811 -> 2812;
+	2812 [label="Update boolean LettieConsentComplete",color=orange];
+		2812 -> 2813;
+	2813 [label="Chat ends.",color=orange];
+}

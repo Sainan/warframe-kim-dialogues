@@ -1,134 +1,138 @@
 digraph {
-	"LettieRank1Convo1 begins." [color=orange];
-		"LettieRank1Convo1 begins." -> j1539449890;
-		"LettieRank1Convo1 begins." -> j2796386683;
-	j1539449890 [label="Ei, Lê, como você se tornou médica?",shape=box,color=red];
-		j1539449890 -> j2743401105;
-	j2796386683 [label="Ei, Lê, o que te trouxe à Holvânia?",shape=box,color=red];
-		j2796386683 -> j3793286973;
-	j2743401105 [label="É o meu trabalho 
+	0 [label="LettieRank1Convo1 begins.",color=orange];
+		0 -> 4;
+		0 -> 7;
+	4 [label="Ei, Lê, como você se tornou médica?",shape=box,color=red];
+		4 -> 6;
+	7 [label="Ei, Lê, o que te trouxe à Holvânia?",shape=box,color=red];
+		7 -> 11;
+	6 [label="É o meu trabalho 
 Por que você se tornou 
 Seja lá o que você é",shape=box,color=blue];
-		j2743401105 -> j2007403277;
-		j2743401105 -> j2322526733;
-		j2743401105 -> j1441158945;
-	j3793286973 [label="Hã?",shape=box,color=blue];
-		j3793286973 -> j2018544024;
-	j2007403277 [label="Na verdade, não tive muita escolha",shape=box,color=red];
-		j2007403277 -> j1167773260;
-	j2322526733 [label="Tô te incomodando?",shape=box,color=red];
-		j2322526733 -> j2292301509;
-	j1441158945 [label="Tô claramente te incomodando, vou te deixar em paz",shape=box,color=red];
-		j1441158945 -> j2547240352;
-	j2018544024 [label="Por que você veio pra cá?",shape=box,color=blue];
-		j2018544024 -> j2007403277;
-		j2018544024 -> j2322526733;
-		j2018544024 -> j1441158945;
-	j1167773260 [label="Então temos isso em comum 
+		6 -> 19;
+		6 -> 20;
+		6 -> 21;
+	11 [label="Hã?",shape=box,color=blue];
+		11 -> 12;
+	19 [label="Na verdade, não tive muita escolha",shape=box,color=red];
+		19 -> 13;
+	20 [label="Tô te incomodando?",shape=box,color=red];
+		20 -> 14;
+	21 [label="Tô claramente te incomodando, vou te deixar em paz",shape=box,color=red];
+		21 -> 15;
+	12 [label="Por que você veio pra cá?",shape=box,color=blue];
+		12 -> 19;
+		12 -> 20;
+		12 -> 21;
+	13 [label="Então temos isso em comum 
 E você não deveria fazer perguntas estúpidas, babas",shape=box,color=blue];
-		j1167773260 -> j3122520121;
-		j1167773260 -> j3343531741;
-	j2292301509 [label="Ah, por quê? 
+		13 -> 18;
+		13 -> 17;
+	14 [label="Ah, por quê? 
 O que te faria pensar isso? 
 Não é como se eu estivesse super ocupada ou algo assim
 Tentando costurar as pessoas de volta",shape=box,color=blue];
-		j2292301509 -> j3343531741;
-		j2292301509 -> j3122520121;
-	j2547240352 [label="Va",shape=box,color=blue];
-		j2547240352 -> "Chat ends.";
-	j3122520121 [label="Então, sobre o que devo falar com você?",shape=box,color=red];
-		j3122520121 -> j101307794;
-	j3343531741 [label="Foi mal, só tentando ser amigável",shape=box,color=red];
-		j3343531741 -> j2922705190;
-	"Chat ends." [color=orange];
-	j101307794 [label="Ah, lo siento 
+		14 -> 17;
+		14 -> 18;
+	15 [label="Va",shape=box,color=blue];
+		15 -> 1;
+	18 [label="Então, sobre o que devo falar com você?",shape=box,color=red];
+		18 -> 5;
+	17 [label="Foi mal, só tentando ser amigável",shape=box,color=red];
+		17 -> 16;
+	1 [label="Chat ends.",color=orange];
+	5 [label="Ah, lo siento 
 Não dormi muito ontem à noite 
 E aí tô sem muita paciência pra perguntas ruins",shape=box,color=blue];
-		j101307794 -> j483560101;
-		j101307794 -> j1095488448;
-	j2922705190 [label="Ay, equis 
+		5 -> 2;
+		5 -> 3;
+	16 [label="Ay, equis 
 Tá, tudo bem 
 Não dormi muito ontem à noite",shape=box,color=blue];
-		j2922705190 -> j1870777303;
-		j2922705190 -> j483560101;
-	j483560101 [label="Nem eu",shape=box,color=red];
-		j483560101 -> j2199215231;
-	j1095488448 [label="Mas foram perguntas ruins mesmo kkkkkk só não sabia o que falar",shape=box,color=red];
-		j1095488448 -> j1600315406;
-	j1870777303 [label="Por que não?",shape=box,color=red];
-		j1870777303 -> j960203687;
-	j2199215231 [label="+10 Chemistry",color=orange];
-		j2199215231 -> j2860240516;
-	j1600315406 [label="Um conselho 
+		16 -> 8;
+		16 -> 2;
+	2 [label="Nem eu",shape=box,color=red];
+		2 -> 22;
+	3 [label="Mas foram perguntas ruins mesmo kkkkkk só não sabia o que falar",shape=box,color=red];
+		3 -> 26;
+	8 [label="Por que não?",shape=box,color=red];
+		8 -> 147;
+	22 [label="+10 Chemistry",color=orange];
+		22 -> 24;
+	26 [label="Um conselho 
 Se vai interromper meu dia 
 Torne-o interessante, sí?",shape=box,color=blue];
-		j1600315406 -> j509805292;
-	j960203687 [label="+5 Chemistry",color=orange];
-		j960203687 -> j1184401159;
-	j2860240516 [label="Horrível, né",shape=box,color=blue];
-		j2860240516 -> j982354182;
-	j509805292 [label="Check boolean LettieRats1",color=orange];
-		j509805292 -> j2187618069 [label=true,color=green];
-		j509805292 -> j2015007616 [label=false,color=brown];
-	j1184401159 [label="Nunca consigo",shape=box,color=blue];
-		j1184401159 -> j982354182;
-	j982354182 [label="Quer alguma coisa? 
+		26 -> 10;
+	147 [label="+5 Chemistry",color=orange];
+		147 -> 23;
+	24 [label="Horrível, né",shape=box,color=blue];
+		24 -> 25;
+	10 [label="Check boolean LettieRats1",color=orange];
+		10 -> 30 [label=true,color=green];
+		10 -> 9 [label=false,color=brown];
+	23 [label="Nunca consigo",shape=box,color=blue];
+		23 -> 25;
+	25 [label="Quer alguma coisa? 
 Ou tá só passando o tempo?",shape=box,color=blue];
-		j982354182 -> j2094589397;
-		j982354182 -> j2742472385;
-		j982354182 -> j508373221;
-	j2187618069 [label="Você se saiu melhor com a pergunta sobre os ratos",shape=box,color=blue];
-		j2187618069 -> j1850570944;
-	j2015007616 [label="Check boolean LettieFantasma1",color=orange];
-		j2015007616 -> j1157377898 [label=true,color=green];
-		j2015007616 -> j1850570944 [label=false,color=brown];
-	j2094589397 [label="Só tô tentando dizer um oi, só isso",shape=box,color=red];
-		j2094589397 -> j1272119763;
-	j2742472385 [label="Só queria saber como você tá",shape=box,color=red];
-		j2742472385 -> j1197101319;
-	j508373221 [label="Só passando o tempo mesmo",shape=box,color=red];
-		j508373221 -> j13587763;
-	j1850570944 [label="Torná-lo interessante. Entendi. Eu vou… pensar em… coisas interessantes…",shape=box,color=red];
-		j1850570944 -> j2179501014;
-	j1157377898 [label="Você se saiu melhor com a pergunta sobre minha casa",shape=box,color=blue];
-		j1157377898 -> j1850570944;
-	j1272119763 [label="Hola 
+		25 -> 27;
+		25 -> 28;
+		25 -> 29;
+	30 [label="Você se saiu melhor com a pergunta sobre os ratos",shape=box,color=blue];
+		30 -> 32;
+	9 [label="Check boolean LettieFantasma1",color=orange];
+		9 -> 31 [label=true,color=green];
+		9 -> 32 [label=false,color=brown];
+	27 [label="Só tô tentando dizer um oi, só isso",shape=box,color=red];
+		27 -> 33;
+	28 [label="Só queria saber como você tá",shape=box,color=red];
+		28 -> 34;
+	29 [label="Só passando o tempo mesmo",shape=box,color=red];
+		29 -> 35;
+	32 [label="Torná-lo interessante. Entendi. Eu vou… pensar em… coisas interessantes…",shape=box,color=red];
+		32 -> 49;
+	31 [label="Você se saiu melhor com a pergunta sobre minha casa",shape=box,color=blue];
+		31 -> 32;
+	33 [label="Hola 
 
 Pronto, tá aí o seu \"oi\"",shape=box,color=blue];
-		j1272119763 -> j1040582121;
-		j1272119763 -> j4195500911;
-	j1197101319 [label="Ocupada 
+		33 -> 39;
+		33 -> 38;
+	34 [label="Ocupada 
 Cansada 
 Estressada",shape=box,color=blue];
-		j1197101319 -> j95608889;
-	j13587763 [label="Bom pra você 
+		34 -> 37;
+	35 [label="Bom pra você 
 Tenho trabalho a fazer",shape=box,color=blue];
-		j13587763 -> j4162616064;
-	j2179501014 [label="Boolean LettieInteresting is now true.",color=orange];
-		j2179501014 -> j1780676929;
-	j1040582121 [label="Vou parar de te incomodar, então",shape=box,color=red];
-		j1040582121 -> j3748645904;
-	j4195500911 [label="Posso ajudar de alguma forma?",shape=box,color=red];
-		j4195500911 -> j2961267593;
-	j95608889 [label="O mesmo de sempre",shape=box,color=blue];
-		j95608889 -> j4195500911;
-		j95608889 -> j1040582121;
-	j4162616064 [label="Vou voltar a ele",shape=box,color=blue];
-		j4162616064 -> "Chat ends.";
-	j1780676929 [label="+20 Chemistry",color=orange];
-		j1780676929 -> j1368267468;
-	j3748645904 [label="Bueno",shape=box,color=blue];
-		j3748645904 -> "Chat ends.";
-	j2961267593 [label="+10 Chemistry",color=orange];
-		j2961267593 -> j1262864586;
-	j1368267468 [label="Buena suerte",shape=box,color=blue];
-		j1368267468 -> "Chat ends.";
-	j1262864586 [label="Convença os moradores locais a pararem de se meter entre o Tecnovírus e a Scaldra 
+		35 -> 36;
+	49 [label="Update boolean LettieInteresting",color=orange];
+		49 -> 48;
+	39 [label="Vou parar de te incomodar, então",shape=box,color=red];
+		39 -> 41;
+	38 [label="Posso ajudar de alguma forma?",shape=box,color=red];
+		38 -> 45;
+	37 [label="O mesmo de sempre",shape=box,color=blue];
+		37 -> 38;
+		37 -> 39;
+	36 [label="Vou voltar a ele",shape=box,color=blue];
+		36 -> 40;
+	48 [label="+20 Chemistry",color=orange];
+		48 -> 50;
+	41 [label="Bueno",shape=box,color=blue];
+		41 -> 42;
+	45 [label="+10 Chemistry",color=orange];
+		45 -> 43;
+	40 [label="Chat ends.",color=orange];
+	50 [label="Buena suerte",shape=box,color=blue];
+		50 -> 51;
+	42 [label="Chat ends.",color=orange];
+	43 [label="Convença os moradores locais a pararem de se meter entre o Tecnovírus e a Scaldra 
 Eso sería genial",shape=box,color=blue];
-		j1262864586 -> j2739763117;
-	j2739763117 [label="Fora isso? 
+		43 -> 44;
+	51 [label="Chat ends.",color=orange];
+	44 [label="Fora isso? 
 Vou ver se penso em alguma coisa pra você",shape=box,color=blue];
-		j2739763117 -> j2570747018;
-	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
-		j2570747018 -> "Chat ends.";
+		44 -> 46;
+	46 [label="Update boolean LettieSmallFavor",color=orange];
+		46 -> 47;
+	47 [label="Chat ends.",color=orange];
 }

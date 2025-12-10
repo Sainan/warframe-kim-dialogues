@@ -1,0 +1,33 @@
+digraph {
+	2307 [label="RoatheStory19 begins.",color=orange];
+		2307 -> 5676;
+	5676 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5676 -> 2304 [label=true,color=green];
+		5676 -> 5677 [label=false,color=brown];
+	2304 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2304 -> 2302 [label="x >= 19",color=purple];
+		2304 -> 2306 [label="false",color=purple];
+	5677 [label="Chat ends.",color=orange];
+	2302 [label="ÁUDIO: DIPLOMACIA",shape=box,color=blue];
+		2302 -> 5720;
+	2306 [label="Chat ends.",color=orange];
+	5720 [label="Entre os Sete Executores, o Ballas se considerava o primeiro entre iguais. ",shape=box,color=blue];
+		5720 -> 5721;
+	5721 [label="Sempre o diplomata, sempre o persuasor de voz melodiosa, ele resolvia as mágoas e disputas dos outros.",shape=box,color=blue];
+		5721 -> 2301;
+	2301 [label="Descobri, para minha total alegria, que ele agora era a rosa presa entre dois emaranhados de espinhos. ",shape=box,color=blue];
+		2301 -> 5734;
+	5734 [label="A facção belicista, liderada por Nitokh, puxava para um lado. Os pacifistas, sob o comando de Scarne, puxavam para o outro.",shape=box,color=blue];
+		5734 -> 2300;
+	2300 [label="Ballas era obrigado a decidir e a atrair a inimizade implacável do grupo com o qual não se aliasse.",shape=box,color=blue];
+		2300 -> 2305;
+	2305 [label="Por razões que não consigo imaginar, ele escolheu a paz. Ficou 4 a 3, e assim, os vorazes Sentients tornaram-se, repentinamente, aliados e amigos.",shape=box,color=blue];
+		2305 -> 2308;
+	2308 [label="\"De um jeito ou de outro, ele vai mudar de ideia\", prometeu Nitokh, enquanto eu era enviado para procurar os descontentes entre os Dax.",shape=box,color=blue];
+		2308 -> 2299;
+	2299 [label="Add 1 to HellStory",color=orange];
+		2299 -> 2346;
+	2346 [label="{\"Id\":2346,\"Incoming\":[2299],\"Outgoing\":[2303],\"GraphPos\":[4753,-4136],\"CompletionType\":1}",color=orange];
+		2346 -> 2303;
+	2303 [label="Chat ends.",color=orange];
+}

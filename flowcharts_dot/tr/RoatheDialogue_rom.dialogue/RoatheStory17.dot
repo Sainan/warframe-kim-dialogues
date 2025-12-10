@@ -1,0 +1,31 @@
+digraph {
+	2289 [label="RoatheStory17 begins.",color=orange];
+		2289 -> 5672;
+	5672 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5672 -> 2288 [label=true,color=green];
+		5672 -> 5673 [label=false,color=brown];
+	2288 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2288 -> 2287 [label="x >= 17",color=purple];
+		2288 -> 2284 [label="false",color=purple];
+	5673 [label="Chat ends.",color=orange];
+	2287 [label="SM: WARFRAME'LER",shape=box,color=blue];
+		2287 -> 2286;
+	2284 [label="Chat ends.",color=orange];
+	2286 [label="Transkript: İlk başta Warframe'ler meşru bir silahtan ziyade sanatsal bir ifade gibi görünüyordu.",shape=box,color=blue];
+		2286 -> 2285;
+	2285 [label="Savaş neredeyse kaybedilmişti; Sentient'ler yenilmezdi; o halde, bu tuhaf ve gerçeküstü savaşçıları yaratalım ve onları kadim kökenli silahlarla donatalım.",shape=box,color=blue];
+		2285 -> 2282;
+	2282 [label="En azından yenilgimiz güzel olsun. Unutulmaz olsun.",shape=box,color=blue];
+		2282 -> 2283;
+	2283 [label="Ancak tüm beklentilerin aksine, onlar galip geldi. Kısa süre sonra, cepheden inanılmaz derecede imkansız kahramanlık hikayeleri gelmeye başladı.",shape=box,color=blue];
+		2283 -> 5715;
+	5715 [label="Warframe'ler gökyüzünden belirmiş, melek gibi tutsakları kurtarıyor ve Sentient kalelerini yerle bir ediyordu. Tek başlarına bile mucizeydiler; gruplar halindeyse hepsi birer tanrıydı.",shape=box,color=blue];
+		5715 -> 5716;
+	5716 [label="Bu halleriyle salt propaganda olarak görülmelerine şaşmamak gerek.",shape=box,color=blue];
+		5716 -> 2281;
+	2281 [label="Add 1 to HellStory",color=orange];
+		2281 -> 2344;
+	2344 [label="{\"Id\":2344,\"Incoming\":[2281],\"Outgoing\":[2280],\"GraphPos\":[4697,-4956],\"CompletionType\":1}",color=orange];
+		2344 -> 2280;
+	2280 [label="Chat ends.",color=orange];
+}

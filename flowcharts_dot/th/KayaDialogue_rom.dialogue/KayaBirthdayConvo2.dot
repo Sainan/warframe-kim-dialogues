@@ -1,16 +1,17 @@
 digraph {
-	"KayaBirthdayConvo2 begins." [color=orange];
-		"KayaBirthdayConvo2 begins." -> j4187105236;
-		"KayaBirthdayConvo2 begins." -> j707940274;
-	j4187105236 [label="สุขสันต์วันเกิดนะ Kaya วันนี้มีแผนจะจัด \"ปาร์ตี้แห่งชีวิต\" หรือเปล่า ที่มีลูกโป่ง มีสตรีมเมอร์ มีทุกอย่างเลยน่ะ",shape=box,color=red];
-		j4187105236 -> j3213011084;
-	j707940274 [label="วันนี้มีแผนจะทำอะไรในวันเกิดหรือเปล่า",shape=box,color=red];
-		j707940274 -> j40849976;
-	j3213011084 [label="เฮอะ อี๋ ไม่อะ ไม่มีวันทำเรื่องอะไรแบบเด็ก ๆ นั่นหรอก",shape=box,color=blue];
-		j3213011084 -> "Chat ends.";
-	j40849976 [label="+20 Chemistry",color=orange];
-		j40849976 -> j118109709;
-	"Chat ends." [color=orange];
-	j118109709 [label="จริง ๆ แล้วก็มีนะ Lettie จะแสดงวิธีผ่าศพให้ดู เจ๋งดีใช่ไหมล่ะ!",shape=box,color=blue];
-		j118109709 -> "Chat ends.";
+	992 [label="KayaBirthdayConvo2 begins.",color=orange];
+		992 -> 1001;
+		992 -> 1002;
+	1001 [label="สุขสันต์วันเกิดนะ Kaya วันนี้มีแผนจะจัด \"ปาร์ตี้แห่งชีวิต\" หรือเปล่า ที่มีลูกโป่ง มีสตรีมเมอร์ มีทุกอย่างเลยน่ะ",shape=box,color=red];
+		1001 -> 991;
+	1002 [label="วันนี้มีแผนจะทำอะไรในวันเกิดหรือเปล่า",shape=box,color=red];
+		1002 -> 1008;
+	991 [label="เฮอะ อี๋ ไม่อะ ไม่มีวันทำเรื่องอะไรแบบเด็ก ๆ นั่นหรอก",shape=box,color=blue];
+		991 -> 990;
+	1008 [label="+20 Chemistry",color=orange];
+		1008 -> 1009;
+	990 [label="Chat ends.",color=orange];
+	1009 [label="จริง ๆ แล้วก็มีนะ Lettie จะแสดงวิธีผ่าศพให้ดู เจ๋งดีใช่ไหมล่ะ!",shape=box,color=blue];
+		1009 -> 1010;
+	1010 [label="Chat ends.",color=orange];
 }

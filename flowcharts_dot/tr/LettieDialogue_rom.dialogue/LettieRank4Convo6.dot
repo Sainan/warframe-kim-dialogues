@@ -1,150 +1,151 @@
 digraph {
-	"LettieRank4Convo6 begins." [color=orange];
-		"LettieRank4Convo6 begins." -> j849292243;
-	j849292243 [label="Esa gata, şu garip mutant kedi 
+	290 [label="LettieRank4Convo6 begins.",color=orange];
+		290 -> 253;
+	253 [label="Esa gata, şu garip mutant kedi 
 Panquecito'larıma öğle yemeğiymiş gibi bakıyor 
 Bu hoşuma gitmedi",shape=box,color=blue];
-		j849292243 -> j2671892433;
-		j849292243 -> j890189266;
-	j2671892433 [label="Kalymos'tan mı bahsediyorsun? Farelerini rahat bırakmasını sağlayacağım.",shape=box,color=red];
-		j2671892433 -> j2737509813;
-	j890189266 [label="Kalymos farelerine zarar vermez.",shape=box,color=red];
-		j890189266 -> j1048778274;
-	j2737509813 [label="Hayır 
+		253 -> 351;
+		253 -> 415;
+	351 [label="Kalymos'tan mı bahsediyorsun? Farelerini rahat bırakmasını sağlayacağım.",shape=box,color=red];
+		351 -> 417;
+	415 [label="Kalymos farelerine zarar vermez.",shape=box,color=red];
+		415 -> 426;
+	417 [label="Hayır 
 O şey entrati'nin hayvanı, senin değil 
 Onun emirlerini yerine getiriyor 
 Bana tıpkı onun baktığı gibi bakıyor",shape=box,color=blue];
-		j2737509813 -> j3669357248;
-	j1048778274 [label="¿Sí? 
+		417 -> 444;
+	426 [label="¿Sí? 
 Nasıl bu kadar emin oluyorsun? 
 O şey entrati'nin evcil hayvanı, senin değil 
 Onun emrini yerine getiriyor 
 Bana tıpkı onun baktığı gibi bakıyor",shape=box,color=blue];
-		j1048778274 -> j911672506;
-	j3669357248 [label="Peki sana nasıl bakıyor?",shape=box,color=red];
-		j3669357248 -> j4254769564;
-	j911672506 [label="Lettie, o bir kavat, bir insan değil.",shape=box,color=red];
-		j911672506 -> j4287006142;
-	j4254769564 [label="Check boolean LettieCavia",color=orange];
-		j4254769564 -> j1595715713 [label=true,color=green];
-		j4254769564 -> j1236130625 [label=false,color=brown];
-	j4287006142 [label="Check boolean LettieCavia",color=orange];
-		j4287006142 -> j2433895944 [label=true,color=green];
-		j4287006142 -> j3488178028 [label=false,color=brown];
-	j1595715713 [label="Sanki BENİ nasıl yiyeceğini düşünüyormuş gibi 
+		426 -> 454;
+	444 [label="Peki sana nasıl bakıyor?",shape=box,color=red];
+		444 -> 455;
+	454 [label="Lettie, o bir kavat, bir insan değil.",shape=box,color=red];
+		454 -> 461;
+	455 [label="Check boolean LettieCavia",color=orange];
+		455 -> 462 [label=true,color=green];
+		455 -> 464 [label=false,color=brown];
+	461 [label="Check boolean LettieCavia",color=orange];
+		461 -> 493 [label=true,color=green];
+		461 -> 467 [label=false,color=brown];
+	462 [label="Sanki BENİ nasıl yiyeceğini düşünüyormuş gibi 
 Bir insan gibi 
 Bana bahsettiğin o cavialardan biri gibi 
 O gözlerinin ardında çok fazla zeka var",shape=box,color=blue];
-		j1595715713 -> j1963321435;
-	j1236130625 [label="Bir insan gibi 
+		462 -> 506;
+	464 [label="Bir insan gibi 
 Beni nasıl yiyeceğini düşünen biri gibi 
 O gözlerinin ardında çok fazla zeka var 
 Gelecekte akıllı hayvanlar olacak mı?",shape=box,color=blue];
-		j1236130625 -> j269334954;
-		j1236130625 -> j2779368419;
-	j2433895944 [label="Bu kadar emin misin 
+		464 -> 561;
+		464 -> 586;
+	493 [label="Bu kadar emin misin 
 Bana cavia'dan bahsetmiştin 
 Cabrón'un zeka verip terk ettiği o zavallı hayvanlar?!",shape=box,color=blue];
-		j2433895944 -> j3650425763;
-	j3488178028 [label="Bu kadar emin misin 
+		493 -> 620;
+	467 [label="Bu kadar emin misin 
 Esa gata, bana çok akıllı görünüyor 
 Bana insan zekasıyla bakıyor 
 Gelecekte akıllı hayvanlar olacak mı?",shape=box,color=blue];
-		j3488178028 -> j269334954;
-		j3488178028 -> j2779368419;
-	j1963321435 [label="Cabrón'un zeka verip terk ettiği o zavallı hayvanlar değil mi?! 
+		467 -> 561;
+		467 -> 586;
+	506 [label="Cabrón'un zeka verip terk ettiği o zavallı hayvanlar değil mi?! 
 Onun da onlardan biri olmadığını nereden biliyorsun?!",shape=box,color=blue];
-		j1963321435 -> j628168520;
-		j1963321435 -> j3518866645;
-	j269334954 [label="Void'e gönderilen ve zeki olarak çıkan Cavia adlı laboratuvar hayvanları var.",shape=box,color=red];
-		j269334954 -> j2321471606;
-	j2779368419 [label="Evet ama - ah, bu seni şimdiden sinirlendirecek, biliyorum.",shape=box,color=red];
-		j2779368419 -> j991522590;
-	j3650425763 [label="Onun da bunlardan olmadığını nereden biliyorsun?!",shape=box,color=blue];
-		j3650425763 -> j628168520;
-		j3650425763 -> j3518866645;
-	j628168520 [label="Yani bu konuda bir şey söylemedi.",shape=box,color=red];
-		j628168520 -> j3084691026;
-	j3518866645 [label="Sanırım tam olarak bilmiyorum.",shape=box,color=red];
-		j3518866645 -> j2380880291;
-	j2321471606 [label="LABORATUVAR HAYVANLARI MI?! 
+		506 -> 1007;
+		506 -> 1030;
+	561 [label="Void'e gönderilen ve zeki olarak çıkan Cavia adlı laboratuvar hayvanları var.",shape=box,color=red];
+		561 -> 647;
+	586 [label="Evet ama - ah, bu seni şimdiden sinirlendirecek, biliyorum.",shape=box,color=red];
+		586 -> 665;
+	620 [label="Onun da bunlardan olmadığını nereden biliyorsun?!",shape=box,color=blue];
+		620 -> 1007;
+		620 -> 1030;
+	1007 [label="Yani bu konuda bir şey söylemedi.",shape=box,color=red];
+		1007 -> 1033;
+	1030 [label="Sanırım tam olarak bilmiyorum.",shape=box,color=red];
+		1030 -> 1082;
+	647 [label="LABORATUVAR HAYVANLARI MI?! 
 Dur da tahmin edeyim 
 Onlara işkence eden Entrati'ydi",shape=box,color=blue];
-		j2321471606 -> j2509670168;
-	j991522590 [label="¿Ay, sí? 
+		647 -> 666;
+	665 [label="¿Ay, sí? 
 Bunun entrati ile bir ilgisi var mı?",shape=box,color=blue];
-		j991522590 -> j1285254482;
-	j3084691026 [label="Öyleyse? 
+		665 -> 669;
+	1033 [label="Öyleyse? 
 Aptalı oynayacak kadar zeki 
 Ama onun için bizi gözetliyor, biliyorum 
 Ona güvenmemeliyiz",shape=box,color=blue];
-		j3084691026 -> j3254778651;
-		j3084691026 -> j857246088;
-	j2380880291 [label="Sí 
+		1033 -> 1123;
+		1033 -> 1183;
+	1082 [label="Sí 
 Bir casus olabilir 
 Entrati için çalışan
 Ona güvenmemeliyiz",shape=box,color=blue];
-		j2380880291 -> j3254778651;
-		j2380880291 -> j857246088;
-	j2509670168 [label="Evet.",shape=box,color=red];
-		j2509670168 -> j1426731325;
-	j1285254482 [label="Tahmin ettin.",shape=box,color=red];
-		j1285254482 -> j3564803809;
-	j3254778651 [label="Entrati gitti ve o kaldı. Bence hala onun için çalışmıyordur.",shape=box,color=red];
-		j3254778651 -> j3702333366;
-	j857246088 [label="Gerçekten onun bizi onun için gözetlediğini mi düşünüyorsun? Neden?",shape=box,color=red];
-		j857246088 -> j1714062127;
-	j1426731325 [label="O cabronun canını YAKACAĞIM
+		1082 -> 1123;
+		1082 -> 1183;
+	666 [label="Evet.",shape=box,color=red];
+		666 -> 907;
+	669 [label="Tahmin ettin.",shape=box,color=red];
+		669 -> 824;
+	1123 [label="Entrati gitti ve o kaldı. Bence hala onun için çalışmıyordur.",shape=box,color=red];
+		1123 -> 1202;
+	1183 [label="Gerçekten onun bizi onun için gözetlediğini mi düşünüyorsun? Neden?",shape=box,color=red];
+		1183 -> 1214;
+	907 [label="O cabronun canını YAKACAĞIM
 Onu bir daha gördüğümde, o zavallı meleklere yaptığı gibi ben de ona işkence edeceğim 
 Ve bundan HOŞLANMAYACAK, sana SÖZ veriyorum",shape=box,color=blue];
-		j1426731325 -> j211734792;
-	j3564803809 [label="O zaman haklısın 
+		907 -> 947;
+	824 [label="O zaman haklısın 
 Bu beni sinirlendirecek 
 Ama yine de söyle bana",shape=box,color=blue];
-		j3564803809 -> j390978648;
-	j3702333366 [label="Hayır, bak 
+		824 -> 867;
+	1202 [label="Hayır, bak 
 İşte tam da bu yüzden öyle olduğunu düşünüyorum
 O gitti ve burada bize bakması gerekiyor, değil mi? 
 Neden bilmiyorum, pero no me gusta",shape=box,color=blue];
-		j3702333366 -> j453660238;
-		j3702333366 -> j3622143050;
-	j1714062127 [label="¡No sé! 
+		1202 -> 1251;
+		1202 -> 247;
+	1214 [label="¡No sé! 
 Çılgın bir pendejo'yu tahmin etmek benim işim değil
 Belki bizi izliyordur
 Bu hoşuma gitmedi",shape=box,color=blue];
-		j1714062127 -> j453660238;
-		j1714062127 -> j3622143050;
-	j211734792 [label="Boolean LettieCavia is now true.",color=orange];
-		j211734792 -> j2127076643;
-	j390978648 [label="Bu laboratuvar hayvanlarını aldı ve onları Void'e gönderdi. Hayvanlar insan zekasına sahip olarak geri döndüler - neredeyse onları öldürüyordu. Onlara Cavia deniyor.",shape=box,color=red];
-		j390978648 -> j1159255234;
-	j453660238 [label="Her iki durumda da, \"Lettie'nin fareleriyle uğraşırsan, dışarıda uyursun.\" kuralını anlayacak kadar akıllı. Bu yeterince iyi mi?",shape=box,color=red];
-		j453660238 -> j892744504;
-	j3622143050 [label="Onu kovmuyorum. Entrati için çalışıyor olsa bile, bu onun suçu değil. O, onu seven sahibine sadık bir hayvan. Ona karşı zalim olamam.",shape=box,color=red];
-		j3622143050 -> j1279511664;
-	j2127076643 [label="Peki bu gata mutante'nin bu cavia'lardan biri olmadığından nasıl bu kadar eminsin",shape=box,color=blue];
-		j2127076643 -> j628168520;
-		j2127076643 -> j3518866645;
-	j1159255234 [label="LABORATUVAR HAYVANLARI MI?!",shape=box,color=blue];
-		j1159255234 -> j1426731325;
-	j892744504 [label="+15 Chemistry",color=orange];
-		j892744504 -> j1330223714;
-	j1279511664 [label="+20 Chemistry",color=orange];
-		j1279511664 -> j4170580667;
-	j1330223714 [label="Tamam, si 
+		1214 -> 1251;
+		1214 -> 247;
+	947 [label="Update boolean LettieCavia",color=orange];
+		947 -> 1001;
+	867 [label="Bu laboratuvar hayvanlarını aldı ve onları Void'e gönderdi. Hayvanlar insan zekasına sahip olarak geri döndüler - neredeyse onları öldürüyordu. Onlara Cavia deniyor.",shape=box,color=red];
+		867 -> 839;
+	1251 [label="Her iki durumda da, \"Lettie'nin fareleriyle uğraşırsan, dışarıda uyursun.\" kuralını anlayacak kadar akıllı. Bu yeterince iyi mi?",shape=box,color=red];
+		1251 -> 707;
+	247 [label="Onu kovmuyorum. Entrati için çalışıyor olsa bile, bu onun suçu değil. O, onu seven sahibine sadık bir hayvan. Ona karşı zalim olamam.",shape=box,color=red];
+		247 -> 809;
+	1001 [label="Peki bu gata mutante'nin bu cavia'lardan biri olmadığından nasıl bu kadar eminsin",shape=box,color=blue];
+		1001 -> 1007;
+		1001 -> 1030;
+	839 [label="LABORATUVAR HAYVANLARI MI?!",shape=box,color=blue];
+		839 -> 907;
+	707 [label="+15 Chemistry",color=orange];
+		707 -> 251;
+	809 [label="+20 Chemistry",color=orange];
+		809 -> 305;
+	251 [label="Tamam, si 
 Bu yeterli olur
 Ama bebecitolarımdan birini incitirse 
 Bu savaş demek",shape=box,color=blue];
-		j1330223714 -> "Chat ends.";
-	j4170580667 [label="AGGGHHH 
+		251 -> 757;
+	305 [label="AGGGHHH 
 Neden böyle söyledin 
 Aaayyyyyyy babaaaas 
 Adil savaş!",shape=box,color=blue];
-		j4170580667 -> j923927672;
-	"Chat ends." [color=orange];
-	j923927672 [label="No me gusta cuando te pasas de listo, babas 
+		305 -> 325;
+	757 [label="Chat ends.",color=orange];
+	325 [label="No me gusta cuando te pasas de listo, babas 
 Güzel, GÜZEL 
 Kalıyor ama bebecitolarımdan birine zarar verirse 
 Bu savaş demektir",shape=box,color=blue];
-		j923927672 -> "Chat ends.";
+		325 -> 1095;
+	1095 [label="Chat ends.",color=orange];
 }

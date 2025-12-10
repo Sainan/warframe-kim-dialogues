@@ -1,234 +1,240 @@
 digraph {
-	"LettieRank3Convo4 begins." [color=orange];
-		"LettieRank3Convo4 begins." -> j3572243022;
-		"LettieRank3Convo4 begins." -> j2594765025;
-	j3572243022 [label="Quindi, quale posto chiami casa?",shape=box,color=red];
-		j3572243022 -> j2434904241;
-	j2594765025 [label="Come sei finita ad unirti agli Hex, Lettie?",shape=box,color=red];
-		j2594765025 -> j1701604049;
-	j2434904241 [label="Città di Tenochtitlán, originariamente 
+	825 [label="LettieRank3Convo4 begins.",color=orange];
+		825 -> 826;
+		825 -> 827;
+	826 [label="Quindi, quale posto chiami casa?",shape=box,color=red];
+		826 -> 828;
+	827 [label="Come sei finita ad unirti agli Hex, Lettie?",shape=box,color=red];
+		827 -> 829;
+	828 [label="Città di Tenochtitlán, originariamente 
 Ma ci siamo trasferiti a Libertatia quando ero giovane 
 Non conosci nessuno dei due 
 Un posto enorme oltreoceano lontano da qui",shape=box,color=blue];
-		j2434904241 -> j626268686;
-	j1701604049 [label="Come la maggior parte degli altri 
+		828 -> 830;
+	829 [label="Come la maggior parte degli altri 
 Ero nel RCI con Aoi, Arthur e Quincy 
 Tutti hanno bisogno di un medico quando il loro didietro si ritrova con un buco in più ",shape=box,color=blue];
-		j1701604049 -> j2008631144;
-		j1701604049 -> j2642953256;
-		j1701604049 -> j1525711369;
-		j1701604049 -> j4134731242;
-	j626268686 [label="Check boolean LettieHomeAsked",color=orange];
-		j626268686 -> j3817036039 [label=true,color=green];
-		j626268686 -> j174895657 [label=false,color=brown];
-	j2008631144 [label="Come ti trovi con Aoi?",shape=box,color=red];
-		j2008631144 -> j1213711719;
-	j2642953256 [label="Mi sorprende che tu riesca a sopportare Quincy. Non sembri avere molta pazienza.",shape=box,color=red];
-		j2642953256 -> j2793374854;
-	j1525711369 [label="Hai trovato il buco in cui Arthur nasconde il suo bastone?",shape=box,color=red];
-		j1525711369 -> j897692249;
-	j4134731242 [label="RCI?",shape=box,color=red];
-		j4134731242 -> j2669853496;
-	j3817036039 [label="E tu, babas 
+		829 -> 831;
+		829 -> 832;
+		829 -> 833;
+		829 -> 834;
+	830 [label="Check boolean LettieHomeAsked",color=orange];
+		830 -> 841 [label=true,color=green];
+		830 -> 840 [label=false,color=brown];
+	831 [label="Come ti trovi con Aoi?",shape=box,color=red];
+		831 -> 863;
+	832 [label="Mi sorprende che tu riesca a sopportare Quincy. Non sembri avere molta pazienza.",shape=box,color=red];
+		832 -> 2462;
+	833 [label="Hai trovato il buco in cui Arthur nasconde il suo bastone?",shape=box,color=red];
+		833 -> 837;
+	834 [label="RCI?",shape=box,color=red];
+		834 -> 838;
+	841 [label="E tu, babas 
 Che posto chiami casa",shape=box,color=blue];
-		j3817036039 -> j2608084088;
-	j174895657 [label="C'è qualcuno della tua famiglia che ti manca?",shape=box,color=red];
-		j174895657 -> j2081437309;
-	j1213711719 [label="+10 Chemistry",color=orange];
-		j1213711719 -> j3324524145;
-	j2793374854 [label="+10 Chemistry",color=orange];
-		j2793374854 -> j4249314435;
-	j897692249 [label="Jajaja 
+		841 -> 842;
+	840 [label="C'è qualcuno della tua famiglia che ti manca?",shape=box,color=red];
+		840 -> 843;
+	863 [label="+10 Chemistry",color=orange];
+		863 -> 835;
+	2462 [label="+10 Chemistry",color=orange];
+		2462 -> 836;
+	837 [label="Jajaja 
 No, è l'unica cosa che lo tiene in piedi 
 Uno come lui rimane in piedi solo perché ha delle anime da proteggere",shape=box,color=blue];
-		j897692249 -> j3181618564;
-	j2669853496 [label="Risposta alle Crisi Internazionali 
+		837 -> 865;
+	838 [label="Risposta alle Crisi Internazionali 
 Lavoro Umanitario 
 Pensavo che sarebbe stato meglio che lavorare per qualche forza mercenaria o l'esercito 
 Cazzo, mi sbagliavo eccome",shape=box,color=blue];
-		j2669853496 -> j655026457;
-		j2669853496 -> j1266036215;
-	j2608084088 [label="Check boolean LettieDuviri",color=orange];
-		j2608084088 -> j1929619567 [label=true,color=green];
-		j2608084088 -> j1807508502 [label=false,color=brown];
-	j2081437309 [label="Non importa 
+		838 -> 846;
+		838 -> 847;
+	842 [label="Check boolean LettieDuviri",color=orange];
+		842 -> 850 [label=true,color=green];
+		842 -> 851 [label=false,color=brown];
+	843 [label="Non importa 
 Non posso lasciare questo cuchitril 
 Allora perché pensarci",shape=box,color=blue];
-		j2081437309 -> j518693999;
-		j2081437309 -> j2449927505;
-		j2081437309 -> j2127634072;
-	j3324524145 [label="Aoi deve imparare quando prendersi cura di Aoi 
+		843 -> 853;
+		843 -> 854;
+		843 -> 855;
+	835 [label="Aoi deve imparare quando prendersi cura di Aoi 
 Cazzo, passa più tempo a fare da madre alle persone più di me, non tutti hanno bisogno di essere tenuti per mano 
 Non tutti vogliono",shape=box,color=blue];
-		j3324524145 -> j564935826;
-	j4249314435 [label="Quel ragazzo e i suoi giochi, li ho visti mille volte 
+		835 -> 844;
+	836 [label="Quel ragazzo e i suoi giochi, li ho visti mille volte 
 Non mi danno fastidio",shape=box,color=blue];
-		j4249314435 -> j644660372;
-	j3181618564 [label="Ho deciso molto tempo fa di seguirlo fino alla fine del mondo 
+		836 -> 845;
+	865 [label="Ho deciso molto tempo fa di seguirlo fino alla fine del mondo 
 E credo di essere bloccata con quella scelta, eh",shape=box,color=blue];
-		j3181618564 -> j1451161206;
-	j655026457 [label="Come hai conosciuto Arthur?",shape=box,color=red];
-		j655026457 -> j3691444593;
-	j1266036215 [label="Ma perché proprio Höllvania?",shape=box,color=red];
-		j1266036215 -> j1768126018;
-	j1929619567 [label="Questo tuo Duviri?",shape=box,color=blue];
-		j1929619567 -> j1807508502;
-	j1807508502 [label="O il suggerimento è nel tuo nome? 
+		865 -> 881;
+	846 [label="Come hai conosciuto Arthur?",shape=box,color=red];
+		846 -> 848;
+	847 [label="Ma perché proprio Höllvania?",shape=box,color=red];
+		847 -> 849;
+	850 [label="Questo tuo Duviri?",shape=box,color=blue];
+		850 -> 851;
+	851 [label="O il suggerimento è nel tuo nome? 
 Non hai una casa",shape=box,color=blue];
-		j1807508502 -> j1960441924;
-		j1807508502 -> j3313620050;
-		j1807508502 -> j4184125597;
-	j518693999 [label="A volte i ricordi dolorosi sono tutto ciò che ci aiuta ad andare avanti.",shape=box,color=red];
-		j518693999 -> j2982674114;
-	j2449927505 [label="Stiamo parlando su *internet* e tu sai che esiste il *telefono*, vero?",shape=box,color=red];
-		j2449927505 -> j1260220586;
-	j2127634072 [label="Ok, beh... non importa. [Fine.]",shape=box,color=red];
-		j2127634072 -> "Chat ends.";
-	j564935826 [label="Si esaurirà in quel modo 
+		851 -> 859;
+		851 -> 860;
+		851 -> 861;
+	853 [label="A volte i ricordi dolorosi sono tutto ciò che ci aiuta ad andare avanti.",shape=box,color=red];
+		853 -> 857;
+	854 [label="Stiamo parlando su *internet* e tu sai che esiste il *telefono*, vero?",shape=box,color=red];
+		854 -> 852;
+	855 [label="Ok, beh... non importa. [Fine.]",shape=box,color=red];
+		855 -> 856;
+	844 [label="Si esaurirà in quel modo 
 È successo prima, succederà di nuovo 
 Si ammalerà",shape=box,color=blue];
-		j564935826 -> j3701539377;
-	j644660372 [label="Ha un buon cuore
+		844 -> 862;
+	845 [label="Ha un buon cuore
 E una mira migliore 
 E sa come tenersi fuori dai guai 
 È tutto ciò di cui ho bisogno in un compagno di squadra",shape=box,color=blue];
-		j644660372 -> j3701539377;
-	j1451161206 [label="Check boolean LettieInteresting",color=orange];
-		j1451161206 -> j3498048507 [label=true,color=green];
-		j1451161206 -> j2578643378 [label=false,color=brown];
-	j3691444593 [label="È una lunga storia 
+		845 -> 862;
+	881 [label="Check boolean LettieInteresting",color=orange];
+		881 -> 885 [label=true,color=green];
+		881 -> 2463 [label=false,color=brown];
+	848 [label="È una lunga storia 
 In breve",shape=box,color=blue];
-		j3691444593 -> j3181618564;
-	j1768126018 [label="Non era per il posto, era la persona che ho seguito 
+		848 -> 865;
+	849 [label="Non era per il posto, era la persona che ho seguito 
 Arthur è il motivo per cui sono qui e sono entrata nel RCI",shape=box,color=blue];
-		j1768126018 -> j3181618564;
-	j1960441924 [label="Questo posto non è poi così male. Forse lo farò diventare casa mia.",shape=box,color=red];
-		j1960441924 -> j2606049531;
-	j3313620050 [label="Grazie per avermelo ricordato.",shape=box,color=red];
-		j3313620050 -> j1873833754;
-	j4184125597 [label="Mi sento a casa ovunque mi trovi.",shape=box,color=red];
-		j4184125597 -> j4242393689;
-	j2982674114 [label="¿Sí? 
+		849 -> 865;
+	859 [label="Questo posto non è poi così male. Forse lo farò diventare casa mia.",shape=box,color=red];
+		859 -> 868;
+	860 [label="Grazie per avermelo ricordato.",shape=box,color=red];
+		860 -> 869;
+	861 [label="Mi sento a casa ovunque mi trovi.",shape=box,color=red];
+		861 -> 870;
+	857 [label="¿Sí? 
 Cosa sai del dolore?",shape=box,color=blue];
-		j2982674114 -> j426327130;
-	j1260220586 [label="Bien podría ser un pinche fantasma 
+		857 -> 858;
+	852 [label="Bien podría ser un pinche fantasma 
 Una chiamata dall'oltretomba, non posso cambiare, non posso vivere, non posso morire",shape=box,color=blue];
-		j1260220586 -> j2710592784;
-	"Chat ends." [color=orange];
-	j3701539377 [label="Devo tornare al lavoro 
+		852 -> 866;
+	856 [label="Chat ends.",color=orange];
+	862 [label="Devo tornare al lavoro 
 Non ho molto tempo per il chisme",shape=box,color=blue];
-		j3701539377 -> "Chat ends.";
-	j3498048507 [label="+20 Chemistry",color=orange];
-		j3498048507 -> j3746375100;
-	j2578643378 [label="+20 Chemistry",color=orange];
-		j2578643378 -> j2281708864;
-	j2606049531 [label="¿Ah, sí? 
+		862 -> 864;
+	885 [label="+20 Chemistry",color=orange];
+		885 -> 882;
+	2463 [label="+20 Chemistry",color=orange];
+		2463 -> 883;
+	868 [label="¿Ah, sí? 
 Perché",shape=box,color=blue];
-		j2606049531 -> j628755748;
-	j1873833754 [label="Mm 
+		868 -> 873;
+	869 [label="Mm 
 È quello che faccio 
 Ti adatterai",shape=box,color=blue];
-		j1873833754 -> j36490668;
-	j4242393689 [label="Come mi padre 
+		869 -> 877;
+	870 [label="Come mi padre 
 Sempre in missione",shape=box,color=blue];
-		j4242393689 -> j1477208156;
-	j426327130 [label="Boolean LettieDuviri is now true.",color=orange];
-		j426327130 -> j2170346657;
-	j2710592784 [label="Cosa siamo?! 
+		870 -> 878;
+	858 [label="Update boolean LettieDuviri",color=orange];
+		858 -> 871;
+	866 [label="Cosa siamo?! 
  FANTASMAS niente di più 
  Come ombre su una videocassetta usata una volta di troppo",shape=box,color=blue];
-		j2710592784 -> j4211336275;
-	j3746375100 [label="Bella domanda, babas 
+		866 -> 888;
+	864 [label="Chat ends.",color=orange];
+	882 [label="Bella domanda, babas 
 Vedi? 
 Continua con quelle interessanti 
 Ti porteranno da qualche parte",shape=box,color=blue];
-		j3746375100 -> "Chat ends.";
-	j2281708864 [label="Bella domanda, babas 
+		882 -> 886;
+	883 [label="Bella domanda, babas 
 Continua con quelle interessanti 
 Ti porteranno da qualche parte",shape=box,color=blue];
-		j2281708864 -> j70267491;
-	j628755748 [label="Check boolean LettieNoFlirt",color=orange];
-		j628755748 -> j4124908163 [label=true,color=green];
-		j628755748 -> j2346337524 [label=true,color=green];
-		j628755748 -> j2346337524 [label=false,color=brown];
-		j628755748 -> j4124908163 [label=false,color=brown];
-		j628755748 -> j964144935 [label=false,color=brown];
-	j36490668 [label="O no 
+		883 -> 884;
+	873 [label="Check boolean LettieNoFlirt",color=orange];
+		873 -> 875 [label=true,color=green];
+		873 -> 876 [label=true,color=green];
+		873 -> 876 [label=false,color=brown];
+		873 -> 875 [label=false,color=brown];
+		873 -> 874 [label=false,color=brown];
+	877 [label="O no 
 Non mi interessa",shape=box,color=blue];
-		j36490668 -> "Chat ends.";
-	j1477208156 [label="Beh 
+		877 -> 879;
+	878 [label="Beh 
 Non farti fermare da noi",shape=box,color=blue];
-		j1477208156 -> "Chat ends.";
-	j2170346657 [label="Sai cosa si prova quando ti tagliano la testa? Io sì. Sono morto mille volte. E *fa male*, signorina.",shape=box,color=red];
-		j2170346657 -> j2357889644;
-	j4211336275 [label="No, è meglio che pensino che io sia già morta 
+		878 -> 880;
+	871 [label="Sai cosa si prova quando ti tagliano la testa? Io sì. Sono morto mille volte. E *fa male*, signorina.",shape=box,color=red];
+		871 -> 887;
+	888 [label="No, è meglio che pensino che io sia già morta 
 Subisco questo dolore per loro",shape=box,color=blue];
-		j4211336275 -> j173129481;
-		j4211336275 -> j1402692225;
-	j70267491 [label="Boolean LettieInteresting is now true.",color=orange];
-		j70267491 -> "Chat ends.";
-	j4124908163 [label="La compagnia.",shape=box,color=red];
-		j4124908163 -> j2437276667;
-	j2346337524 [label="Il cibo.",shape=box,color=red];
-		j2346337524 -> j1409753124;
-	j964144935 [label="Tu. ;)",shape=box,color=red];
-		j964144935 -> j3137322621;
-	j2357889644 [label="Toccato da La Flaca 
+		888 -> 890;
+		888 -> 891;
+	886 [label="Chat ends.",color=orange];
+	884 [label="Update boolean LettieInteresting",color=orange];
+		884 -> 886;
+	875 [label="La compagnia.",shape=box,color=red];
+		875 -> 896;
+	876 [label="Il cibo.",shape=box,color=red];
+		876 -> 1294;
+	874 [label="Tu. ;)",shape=box,color=red];
+		874 -> 895;
+	879 [label="Chat ends.",color=orange];
+	880 [label="Chat ends.",color=orange];
+	887 [label="Toccato da La Flaca 
 Un altro fantasma come tutti noi 
 Che rivive la sua morte ancora e ancora e ancora",shape=box,color=blue];
-		j2357889644 -> j3054878617;
-	j173129481 [label="Ti prendi cura del dolore altrui per scelta o perché è un tuo dovere?",shape=box,color=red];
-		j173129481 -> j1187972232;
-	j1402692225 [label="Qui c'è ancora vita che vale la pena di essere vissuta.",shape=box,color=red];
-		j1402692225 -> j3065177273;
-	j2437276667 [label="+15 Chemistry",color=orange];
-		j2437276667 -> j712714449;
-	j1409753124 [label="Sí 
+		887 -> 889;
+	890 [label="Ti prendi cura del dolore altrui per scelta o perché è un tuo dovere?",shape=box,color=red];
+		890 -> 902;
+	891 [label="Qui c'è ancora vita che vale la pena di essere vissuta.",shape=box,color=red];
+		891 -> 900;
+	896 [label="+15 Chemistry",color=orange];
+		896 -> 893;
+	1294 [label="Sí 
 I popcorn stantii e la pizza unta 
 Ay, equis, fai quello che vuoi, non ti fermerò",shape=box,color=blue];
-		j1409753124 -> j3596208539;
-	j3137322621 [label="+20 Chemistry",color=orange];
-		j3137322621 -> j1122572876;
-	j3054878617 [label="Sì, ho una famiglia a casa
+		1294 -> 894;
+	895 [label="+20 Chemistry",color=orange];
+		895 -> 892;
+	889 [label="Sì, ho una famiglia a casa
 Meglio che pensino che sono già morta
 Porterò questo dolore per loro",shape=box,color=blue];
-		j3054878617 -> j173129481;
-		j3054878617 -> j1402692225;
-	j1187972232 [label="+20 Chemistry",color=orange];
-		j1187972232 -> j268761480;
-	j3065177273 [label="Ceerto, certo 
+		889 -> 890;
+		889 -> 891;
+	902 [label="+20 Chemistry",color=orange];
+		902 -> 899;
+	900 [label="Ceerto, certo 
 Con i giochi di Amir, Arthur che beve, la musica di Aoi e le foto di Quincy",shape=box,color=blue];
-		j3065177273 -> j64379888;
-	j712714449 [label="Sí 
+		900 -> 901;
+	893 [label="Sí 
 Perché siamo tutti così gioiosi 
 Ma è tutto relativo, suppongo 
 Eppure, mi sorprende che tu non te ne vada",shape=box,color=blue];
-		j712714449 -> j3596208539;
-	j3596208539 [label="Ogni volta che provo a impedire a qualcuno di prendere decisioni stupide non funziona mai 
+		893 -> 894;
+	894 [label="Ogni volta che provo a impedire a qualcuno di prendere decisioni stupide non funziona mai 
 Non aspettarti che funzioni ora 
 Quindi non sprecherei il mio tempo",shape=box,color=blue];
-		j3596208539 -> j976668923;
-	j1122572876 [label="Jaja 
+		894 -> 897;
+	892 [label="Jaja 
 Oh davvero 
 Ten cuidado con lo que deseas 
 Ma se è quello che ti piace, così sia",shape=box,color=blue];
-		j1122572876 -> j3596208539;
-	j268761480 [label="Entrambi suppongo 
+		892 -> 894;
+	899 [label="Entrambi suppongo 
 Ho scelto molto tempo fa 
 Ora è troppo tardi per tornare indietro",shape=box,color=blue];
-		j268761480 -> j2948211715;
-	j64379888 [label="Hobby vuoti 
+		899 -> 903;
+	901 [label="Hobby vuoti 
 Anime vuote 
 Che passano il tempo attraverso l'eternità",shape=box,color=blue];
-		j64379888 -> j3778121893;
-	j976668923 [label="Vai ora 
+		901 -> 904;
+	897 [label="Vai ora 
 Lascia Mamá Lettie al suo vero lavoro",shape=box,color=blue];
-		j976668923 -> "Chat ends.";
-	j2948211715 [label="Ho del lavoro da fare",shape=box,color=blue];
-		j2948211715 -> j1253712857;
-	j3778121893 [label="Ho del lavoro da fare 
+		897 -> 898;
+	903 [label="Ho del lavoro da fare",shape=box,color=blue];
+		903 -> 905;
+	904 [label="Ho del lavoro da fare 
 Vete",shape=box,color=blue];
-		j3778121893 -> j1253712857;
-	j1253712857 [label="Boolean LettieFantasma1 is now true.",color=orange];
-		j1253712857 -> "Chat ends.";
+		904 -> 905;
+	898 [label="Chat ends.",color=orange];
+	905 [label="Update boolean LettieFantasma1",color=orange];
+		905 -> 906;
+	906 [label="Chat ends.",color=orange];
 }

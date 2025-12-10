@@ -1,16 +1,17 @@
 digraph {
-	"KayaBirthdayConvo1 begins." [color=orange];
-		"KayaBirthdayConvo1 begins." -> j1457478040;
-		"KayaBirthdayConvo1 begins." -> j2878235486;
-	j1457478040 [label="Merhaba Kaya. Doğum günün kutlu olsun!",shape=box,color=red];
-		j1457478040 -> j2717579037;
-	j2878235486 [label="Doğum günün kutlu olsun Kaya. Yaşlanmak nasıl bir duygu?",shape=box,color=red];
-		j2878235486 -> j71240838;
-	j2717579037 [label="+20 Chemistry",color=orange];
-		j2717579037 -> j3849003037;
-	j71240838 [label="Daha yaşlı değilim, değil mi? Hiçbirimiz değiliz. Ateş almış bir atlıkarıncadaki şirin atlar gibi çığlık çığlığa dönüp duruyoruz",shape=box,color=blue];
-		j71240838 -> "Chat ends.";
-	j3849003037 [label="vay canına hatırladın mı? Yani 8'i geçince doğum günlerinin önemi kalmıyor ama bu çok tatlı bir hareket, teşekkürler",shape=box,color=blue];
-		j3849003037 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	987 [label="KayaBirthdayConvo1 begins.",color=orange];
+		987 -> 999;
+		987 -> 1000;
+	999 [label="Merhaba Kaya. Doğum günün kutlu olsun!",shape=box,color=red];
+		999 -> 1005;
+	1000 [label="Doğum günün kutlu olsun Kaya. Yaşlanmak nasıl bir duygu?",shape=box,color=red];
+		1000 -> 1006;
+	1005 [label="+20 Chemistry",color=orange];
+		1005 -> 988;
+	1006 [label="Daha yaşlı değilim, değil mi? Hiçbirimiz değiliz. Ateş almış bir atlıkarıncadaki şirin atlar gibi çığlık çığlığa dönüp duruyoruz",shape=box,color=blue];
+		1006 -> 1007;
+	988 [label="vay canına hatırladın mı? Yani 8'i geçince doğum günlerinin önemi kalmıyor ama bu çok tatlı bir hareket, teşekkürler",shape=box,color=blue];
+		988 -> 989;
+	1007 [label="Chat ends.",color=orange];
+	989 [label="Chat ends.",color=orange];
 }

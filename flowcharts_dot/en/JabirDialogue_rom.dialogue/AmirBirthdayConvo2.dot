@@ -1,16 +1,21 @@
 digraph {
-	"AmirBirthdayConvo2 begins." [color=orange];
-		"AmirBirthdayConvo2 begins." -> j2093424353;
-		"AmirBirthdayConvo2 begins." -> j1530757311;
-	j2093424353 [label="Happy birthday, Amir. I didn’t get you anything.",shape=box,color=red];
-		j2093424353 -> j2447121717;
-	j1530757311 [label="Hey, Amir. Happy birthday. Hope you’re having fun!",shape=box,color=red];
-		j1530757311 -> j1999921392;
-	j2447121717 [label="oh. well. it's the thought that counts i guess. ... and the minimal effort. ... thanks",shape=box,color=blue];
-		j2447121717 -> "Chat ends.";
-	j1999921392 [label="+20 Chemistry",color=orange];
-		j1999921392 -> j3907526650;
-	"Chat ends." [color=orange];
-	j3907526650 [label="YES I AM TODAY IS BEAUTIFUL I HAVE BEEN UP SINCE 12.01 WE HAVE BEEN DRINKING ENERGY DRINKS AND PLAYING IN THE ARCADE AND AOI MADE ME A FLOOF ROOM AND I THREW UP IN THE FLOOF ROOM",shape=box,color=blue];
-		j3907526650 -> "Chat ends.";
+	3572 [label="AmirBirthdayConvo2 begins.",color=orange];
+		3572 -> 3578;
+		3572 -> 3579;
+	3578 [label="Happy birthday, Amir. I didn’t get you anything.",shape=box,color=red];
+		3578 -> 3577;
+	3579 [label="Hey, Amir. Happy birthday. Hope you’re having fun!",shape=box,color=red];
+		3579 -> 3573;
+	3577 [label="oh. well. it's the thought that counts i guess. ... and the minimal effort. ... thanks",shape=box,color=blue];
+		3577 -> 3596;
+	3573 [label="+20 Chemistry",color=orange];
+		3573 -> 3576;
+	3596 [label="{\"Id\":3596,\"Incoming\":[3577],\"Outgoing\":[3574],\"GraphPos\":[-14787,-21152],\"CompletionType\":1}",color=orange];
+		3596 -> 3574;
+	3576 [label="YES I AM TODAY IS BEAUTIFUL I HAVE BEEN UP SINCE 12.01 WE HAVE BEEN DRINKING ENERGY DRINKS AND PLAYING IN THE ARCADE AND AOI MADE ME A FLOOF ROOM AND I THREW UP IN THE FLOOF ROOM",shape=box,color=blue];
+		3576 -> 3597;
+	3574 [label="Chat ends.",color=orange];
+	3597 [label="{\"Id\":3597,\"Incoming\":[3576],\"Outgoing\":[3575],\"GraphPos\":[-14371,-21328],\"CompletionType\":1}",color=orange];
+		3597 -> 3575;
+	3575 [label="Chat ends.",color=orange];
 }

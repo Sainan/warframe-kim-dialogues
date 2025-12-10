@@ -1,16 +1,21 @@
 digraph {
-	"AmirBirthdayConvo3 begins." [color=orange];
-		"AmirBirthdayConvo3 begins." -> j120744107;
-		"AmirBirthdayConvo3 begins." -> j603422535;
-	j120744107 [label="Merhaba, Amir. Doğum günün kutlu olsun. Bip bup ya da neyse işte.",shape=box,color=red];
-		j120744107 -> j4084719324;
-	j603422535 [label="SELAMLAR AMİR, VAROLUŞUNUN BAŞLANGICININ YILDÖNÜMÜ İÇİN SENİ KUTLARIM",shape=box,color=red];
-		j603422535 -> j367955698;
-	j4084719324 [label="amir şu anda burada değil. ben, amir'in samimiyetsiz doğum günü mesajlarını filtrelemek için yazdığı akıllı bir güvenlik duvarı programıyım. ah bak birisi bu tür bir mesaj atmış",shape=box,color=blue];
-		j4084719324 -> "Chat ends.";
-	j367955698 [label="+20 Chemistry",color=orange];
-		j367955698 -> j2932269666;
-	"Chat ends." [color=orange];
-	j2932269666 [label="KÜLTÜRÜMÜZE UYGUN OLAN SÖYLEMLERİNE SAYGI GÖSTERİYOR VE SANA TEŞEKKÜRLERİMİ SUNUYORUM",shape=box,color=blue];
-		j2932269666 -> "Chat ends.";
+	3580 [label="AmirBirthdayConvo3 begins.",color=orange];
+		3580 -> 3585;
+		3580 -> 3586;
+	3585 [label="Merhaba, Amir. Doğum günün kutlu olsun. Bip bup ya da neyse işte.",shape=box,color=red];
+		3585 -> 3584;
+	3586 [label="SELAMLAR AMİR, VAROLUŞUNUN BAŞLANGICININ YILDÖNÜMÜ İÇİN SENİ KUTLARIM",shape=box,color=red];
+		3586 -> 3587;
+	3584 [label="amir şu anda burada değil. ben, amir'in samimiyetsiz doğum günü mesajlarını filtrelemek için yazdığı akıllı bir güvenlik duvarı programıyım. ah bak birisi bu tür bir mesaj atmış",shape=box,color=blue];
+		3584 -> 3598;
+	3587 [label="+20 Chemistry",color=orange];
+		3587 -> 3583;
+	3598 [label="{\"Id\":3598,\"Incoming\":[3584],\"Outgoing\":[3581],\"GraphPos\":[-14748,-20693],\"CompletionType\":1}",color=orange];
+		3598 -> 3581;
+	3583 [label="KÜLTÜRÜMÜZE UYGUN OLAN SÖYLEMLERİNE SAYGI GÖSTERİYOR VE SANA TEŞEKKÜRLERİMİ SUNUYORUM",shape=box,color=blue];
+		3583 -> 3599;
+	3581 [label="Chat ends.",color=orange];
+	3599 [label="{\"Id\":3599,\"Incoming\":[3583],\"Outgoing\":[3582],\"GraphPos\":[-14347,-20820],\"CompletionType\":1}",color=orange];
+		3599 -> 3582;
+	3582 [label="Chat ends.",color=orange];
 }

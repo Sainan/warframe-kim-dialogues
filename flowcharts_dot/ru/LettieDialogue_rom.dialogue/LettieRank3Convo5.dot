@@ -1,124 +1,127 @@
 digraph {
-	"LettieRank3Convo5 begins." [color=orange];
-		"LettieRank3Convo5 begins." -> j1451672832;
-		"LettieRank3Convo5 begins." -> j1058285350;
-		"LettieRank3Convo5 begins." -> j3456118237;
-	j1451672832 [label="Ты в порядке?",shape=box,color=red];
-		j1451672832 -> j1412385415;
-	j1058285350 [label="Как у тебя дела с гражданскими?",shape=box,color=red];
-		j1058285350 -> j3798858034;
-	j3456118237 [label="[Игнорировать]",shape=box,color=red];
-		j3456118237 -> "Chat ends.";
-	j1412385415 [label="Мм? 
+	908 [label="LettieRank3Convo5 begins.",color=orange];
+		908 -> 909;
+		908 -> 910;
+		908 -> 911;
+	909 [label="Ты в порядке?",shape=box,color=red];
+		909 -> 913;
+	910 [label="Как у тебя дела с гражданскими?",shape=box,color=red];
+		910 -> 914;
+	911 [label="[Игнорировать]",shape=box,color=red];
+		911 -> 912;
+	913 [label="Мм? 
 Я чувствую себя вращающейся дверью, хахаха",shape=box,color=blue];
-		j1412385415 -> j777724195;
-	j3798858034 [label="А? 
+		913 -> 915;
+	914 [label="А? 
 Неплохо я полагаю 
 Гражданские везде одинаковые, со временем привыкаешь",shape=box,color=blue];
-		j3798858034 -> j1717471672;
-		j3798858034 -> j3862176307;
-	"Chat ends." [color=orange];
-	j777724195 [label="Иногда, даже до тебя, у меня было ощущение, что люди проходят СКВОЗЬ меня 
+		914 -> 916;
+		914 -> 917;
+	912 [label="Chat ends.",color=orange];
+	915 [label="Иногда, даже до тебя, у меня было ощущение, что люди проходят СКВОЗЬ меня 
 Просто лицо в палатке МСР, перевязывающее раны 
 Но я — часть здания",shape=box,color=blue];
-		j777724195 -> j4132003662;
-	j1717471672 [label="Да, но это всё равно должно быть изнурительно.",shape=box,color=red];
-		j1717471672 -> j2247282907;
-	j3862176307 [label="Привыкнуть к чему?",shape=box,color=red];
-		j3862176307 -> j1602011123;
-	j4132003662 [label="Я крепкая 
+		915 -> 918;
+	916 [label="Да, но это всё равно должно быть изнурительно.",shape=box,color=red];
+		916 -> 919;
+	917 [label="Привыкаешь к чему?",shape=box,color=red];
+		917 -> 920;
+	918 [label="Я крепкая 
 Никуда я не денусь 
 Pero... Estoy muerta 
 Иногда в мире нет столько кофе, ¿no?",shape=box,color=blue];
-		j4132003662 -> j215273757;
-		j4132003662 -> j3551869560;
-	j2247282907 [label="Sí, ты не представляешь 
+		918 -> 921;
+		918 -> 922;
+	919 [label="Sí, ты не представляешь 
 Иногда в мире нет столько кофе, верно? (на испанском) 
 Pero, soy dura de roer 
 Никуда я не денусь",shape=box,color=blue];
-		j2247282907 -> j215273757;
-		j2247282907 -> j3551869560;
-	j1602011123 [label="Их пустые взгляды и тупая боль 
+		919 -> 921;
+		919 -> 922;
+	920 [label="Их пустые взгляды и тупая боль 
 Для них я лицо в палатке МСР, перевязывающее раны 
 Мне кажется, что люди проходят сквозь меня, как через вращающуюся дверь 
 И это было до того, как ты сделал это буквально jajaja",shape=box,color=blue];
-		j1602011123 -> j3050599071;
-	j215273757 [label="Просто потому, что ты крепкая, это не значит, что я не могу заботиться.",shape=box,color=red];
-		j215273757 -> j2800054320;
-	j3551869560 [label="Да, но стабильный поток кофе не повредит. хаха",shape=box,color=red];
-		j3551869560 -> j3866377155;
-	j3050599071 [label="Check boolean LettieNoFlirt",color=orange];
-		j3050599071 -> j3042526216 [label=true,color=green];
-		j3050599071 -> j1380009313 [label=true,color=green];
-		j3050599071 -> j3042526216 [label=false,color=brown];
-		j3050599071 -> j1380009313 [label=false,color=brown];
-		j3050599071 -> j1358473995 [label=false,color=brown];
-	j2800054320 [label="Sí,
+		920 -> 923;
+	921 [label="Просто потому, что ты крепкая, это не значит, что я не могу заботиться.",shape=box,color=red];
+		921 -> 927;
+	922 [label="Да, но стабильный поток кофе не повредит. хаха",shape=box,color=red];
+		922 -> 928;
+	923 [label="Check boolean LettieNoFlirt",color=orange];
+		923 -> 924 [label=true,color=green];
+		923 -> 925 [label=true,color=green];
+		923 -> 924 [label=false,color=brown];
+		923 -> 925 [label=false,color=brown];
+		923 -> 926 [label=false,color=brown];
+	927 [label="Sí,
 Достаточно знать, что кто-то прикрывает мою спину 
 Артур такой же 
 Не кружится вокруг, как Аои, делая вид, что он mi mamá 
 Просто протягивает мне чашку и говорит, ты в порядке?",shape=box,color=blue];
-		j2800054320 -> j431505560;
-	j3866377155 [label="Jajaja, нет, не помогает 
+		927 -> 933;
+	928 [label="Jajaja, нет, не помогает 
 Артур такой же 
 Не кружится вокруг, как Аои, делая вид, что он mi mamá 
 Просто протягивает мне чашку и говорит, ты в порядке?",shape=box,color=blue];
-		j3866377155 -> j431505560;
-	j3042526216 [label="Что ты ожидала от людей, которые только что потеряли всё?",shape=box,color=red];
-		j3042526216 -> j4058130615;
-	j1380009313 [label="Я могу понять, почему все люди через некоторое время становятся нечёткими.",shape=box,color=red];
-		j1380009313 -> j126049703;
-	j1358473995 [label="По крайней мере, ты очень сексуальная дверь. :P",shape=box,color=red];
-		j1358473995 -> j1642308375;
-	j431505560 [label="Boolean LettieShoulder is now true.",color=orange];
-		j431505560 -> j1826262219;
-	j4058130615 [label="Не их вина 
+		928 -> 933;
+	924 [label="Что ты ожидала от людей, которые только что потеряли всё?",shape=box,color=red];
+		924 -> 929;
+	925 [label="Я могу понять, почему все люди через некоторое время становятся нечёткими.",shape=box,color=red];
+		925 -> 937;
+	926 [label="По крайней мере, ты очень сексуальная дверь. :P",shape=box,color=red];
+		926 -> 2464;
+	933 [label="Update boolean LettieShoulder",color=orange];
+		933 -> 944;
+	929 [label="Не их вина 
 Не моя вина тоже, babas 
 Просто устала от всего этого",shape=box,color=blue];
-		j4058130615 -> j280553365;
-	j126049703 [label="+10 Chemistry",color=orange];
-		j126049703 -> j1802182896;
-	j1642308375 [label="+20 Chemistry",color=orange];
-		j1642308375 -> j3120484887;
-	j1826262219 [label="+20 Chemistry",color=orange];
-		j1826262219 -> j421075010;
-	j280553365 [label="Hablando de 
+		929 -> 934;
+	937 [label="+10 Chemistry",color=orange];
+		937 -> 930;
+	2464 [label="+20 Chemistry",color=orange];
+		2464 -> 931;
+	944 [label="+20 Chemistry",color=orange];
+		944 -> 932;
+	934 [label="Hablando de 
 Пора возвращаться к работе",shape=box,color=blue];
-		j280553365 -> "Chat ends.";
-	j1802182896 [label="Sí, это не их вина, что их всегда больше 
+		934 -> 938;
+	930 [label="Sí, это не их вина, что их всегда больше 
 Всегда думала, что это никогда не кончится 
 Теперь я знаю, что это действительно никогда не закончится 
 Луа, sálvame",shape=box,color=blue];
-		j1802182896 -> j1475258472;
-	j3120484887 [label="JAJA 
+		930 -> 935;
+	931 [label="JAJA 
 О, babas, ты умеешь развеселить девушку 
 Выгравируй это предложение на моем надгробии 
 «Aquí yace la puerta más sexy que hayas visto.»",shape=box,color=blue];
-		j3120484887 -> j2507348633;
-	j421075010 [label="Мне нравится этот вопрос, babas 
+		931 -> 936;
+	932 [label="Мне нравится этот вопрос, babas 
 Продолжай его задавать 
 Иногда мне может понадобиться это 
 И пара чашек кофе тоже не повредит",shape=box,color=blue];
-		j421075010 -> j3637400474;
-	j1475258472 [label="Hablando de 
+		932 -> 940;
+	938 [label="Chat ends.",color=orange];
+	935 [label="Hablando de 
 Пора возвращаться к работе 
 Благодарю что мне пришлось отвлечься",shape=box,color=blue];
-		j1475258472 -> "Chat ends.";
-	j2507348633 [label="Спасибо за хорошее настроение, babas 
+		935 -> 939;
+	936 [label="Спасибо за хорошее настроение, babas 
 Мне это было нужно",shape=box,color=blue];
-		j2507348633 -> j476285389;
-	j3637400474 [label="Check boolean LettieNoFlirt",color=orange];
-		j3637400474 -> j1909951079 [label=true,color=green];
-		j3637400474 -> j3249101282 [label=true,color=green];
-		j3637400474 -> j1666273579 [label=false,color=brown];
-		j3637400474 -> j3249101282 [label=false,color=brown];
-	j476285389 [label="Пора возвращаться к работе, верно? 
+		936 -> 945;
+	940 [label="Check boolean LettieNoFlirt",color=orange];
+		940 -> 941 [label=true,color=green];
+		940 -> 943 [label=true,color=green];
+		940 -> 942 [label=false,color=brown];
+		940 -> 943 [label=false,color=brown];
+	939 [label="Chat ends.",color=orange];
+	945 [label="Пора возвращаться к работе, верно? 
 Мы оба слишком заняты для этого",shape=box,color=blue];
-		j476285389 -> "Chat ends.";
-	j1909951079 [label="Всё верно.",shape=box,color=red];
-		j1909951079 -> j476285389;
-	j3249101282 [label="Посмотрю, что смогу сделать.",shape=box,color=red];
-		j3249101282 -> j476285389;
-	j1666273579 [label="Всё верно. <3",shape=box,color=red];
-		j1666273579 -> j476285389;
+		945 -> 946;
+	941 [label="Всё верно.",shape=box,color=red];
+		941 -> 945;
+	943 [label="Посмотрю, что смогу сделать.",shape=box,color=red];
+		943 -> 945;
+	942 [label="Всё верно. <3",shape=box,color=red];
+		942 -> 945;
+	946 [label="Chat ends.",color=orange];
 }

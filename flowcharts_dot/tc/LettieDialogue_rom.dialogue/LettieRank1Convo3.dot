@@ -1,108 +1,123 @@
 digraph {
-	"LettieRank1Convo3 begins." [color=orange];
-		"LettieRank1Convo3 begins." -> j3044226940;
-	j3044226940 [label="呆呆
+	110 [label="LettieRank1Convo3 begins.",color=orange];
+		110 -> 111;
+	111 [label="呆呆
 注意點",shape=box,color=blue];
-		j3044226940 -> j3894406087;
-		j3044226940 -> j2907733813;
-	j3894406087 [label="這是在打招呼嗎？",shape=box,color=red];
-		j3894406087 -> j633141969;
-	j2907733813 [label="現在不行，抱歉。[結束]",shape=box,color=red];
-		j2907733813 -> "Chat ends.";
-	j633141969 [label="好啦好啦，早安
+		111 -> 112;
+		111 -> 113;
+	112 [label="這是在打招呼嗎？",shape=box,color=red];
+		112 -> 114;
+	113 [label="現在不行，抱歉。[結束]",shape=box,color=red];
+		113 -> 115;
+	114 [label="好啦好啦，早安
 早安晚安什麼安都好啦 
 我需要你多去拿些紗布來 
 物資快不夠了",shape=box,color=blue];
-		j633141969 -> j1400306334;
-	"Chat ends." [color=orange];
-	j1400306334 [label="Anita 鑽進箱子然後咬爛了裡面的東西",shape=box,color=blue];
-		j1400306334 -> j1504082622;
-		j1400306334 -> j1825755956;
-	j1504082622 [label="誰是 Anita？",shape=box,color=red];
-		j1504082622 -> j2195767085;
-	j1825755956 [label="我完全不知道那是誰啊，莉蒂。",shape=box,color=red];
-		j1825755956 -> j2195767085;
-	j2195767085 [label="（西語）我很抱歉，好吧",shape=box,color=blue];
-		j2195767085 -> j361053894;
-	j361053894 [label="+5 Chemistry",color=orange];
-		j361053894 -> j1127450793;
-	j1127450793 [label="我最新的小寶貝，我的新老鼠 
+		114 -> 116;
+	115 [label="Chat ends.",color=orange];
+	116 [label="Anita 鑽進箱子然後咬爛了裡面的東西",shape=box,color=blue];
+		116 -> 117;
+		116 -> 118;
+	117 [label="誰是 Anita？",shape=box,color=red];
+		117 -> 119;
+	118 [label="我完全不知道那是誰啊，莉蒂。",shape=box,color=red];
+		118 -> 119;
+	119 [label="（西語）我很抱歉，好吧",shape=box,color=blue];
+		119 -> 120;
+	120 [label="+5 Chemistry",color=orange];
+		120 -> 121;
+	121 [label="我最新的小寶貝，我的新老鼠 
 她還在學習如何乖乖",shape=box,color=blue];
-		j1127450793 -> j2299607748;
-	j2299607748 [label="Check boolean LettieRatsAsked",color=orange];
-		j2299607748 -> j2928387620 [label=true,color=green];
-		j2299607748 -> j4036403474 [label=true,color=green];
-		j2299607748 -> j4184810085 [label=false,color=brown];
-		j2299607748 -> j2928387620 [label=false,color=brown];
-		j2299607748 -> j4036403474 [label=false,color=brown];
-	j2928387620 [label="如果我看到有的話，我會去拿一些過來的。",shape=box,color=red];
-		j2928387620 -> j2201935397;
-	j4036403474 [label="既然你的小老鼠把它吃掉了，那你就應該自己去拿紗布。",shape=box,color=red];
-		j4036403474 -> j1783023378;
-	j4184810085 [label="我很好奇，你為什麼要養老鼠當寵物？",shape=box,color=red];
-		j4184810085 -> j906636175;
-	j2201935397 [label="+10 Chemistry",color=orange];
-		j2201935397 -> j1990644216;
-	j1783023378 [label="好吧，就用上我所有的空閒時間
+		121 -> 122;
+	122 [label="Check boolean LettieRatsAsked",color=orange];
+		122 -> 123 [label=true,color=green];
+		122 -> 124 [label=true,color=green];
+		122 -> 125 [label=false,color=brown];
+		122 -> 123 [label=false,color=brown];
+		122 -> 124 [label=false,color=brown];
+	123 [label="如果我看到有的話，我會去拿一些過來的。",shape=box,color=red];
+		123 -> 129;
+	124 [label="既然你的小老鼠把它吃掉了，那你就應該自己去拿紗布。",shape=box,color=red];
+		124 -> 127;
+	125 [label="我很好奇，你為什麼要養老鼠當寵物？",shape=box,color=red];
+		125 -> 128;
+	129 [label="+10 Chemistry",color=orange];
+		129 -> 126;
+	127 [label="好吧，就用上我所有的空閒時間
 要去為六煞幫縫傷
 又要有去協助平民",shape=box,color=blue];
-		j1783023378 -> j3240593782;
-	j906636175 [label="Boolean LettieRatsAsked is now true.",color=orange];
-		j906636175 -> j2921325826;
-	j1990644216 [label="（西語）謝啦 
+		127 -> 132;
+	128 [label="Update boolean LettieRatsAsked",color=orange];
+		128 -> 135;
+	126 [label="（西語）謝啦 
 欠你一個人情 
 小小的那種",shape=box,color=blue];
-		j1990644216 -> j2570747018;
-	j3240593782 [label="（西語）感謝你什麼也沒有做，呆呆",shape=box,color=blue];
-		j3240593782 -> "Chat ends.";
-	j2921325826 [label="你來告訴我吧",shape=box,color=blue];
-		j2921325826 -> j1300915742;
-		j2921325826 -> j3981473444;
-	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
-		j2570747018 -> "Chat ends.";
-	j1300915742 [label="呃？",shape=box,color=red];
-		j1300915742 -> j2334915360;
-	j3981473444 [label="我覺得我不喜歡這個話題的方向。[結束。]",shape=box,color=red];
-		j3981473444 -> j3711786017;
-	j2334915360 [label="我想知道你為什麼覺得我喜歡老鼠 
+		126 -> 130;
+	132 [label="（西語）感謝你什麼也沒有做，呆呆",shape=box,color=blue];
+		132 -> 134;
+	135 [label="你來告訴我吧",shape=box,color=blue];
+		135 -> 136;
+		135 -> 137;
+	130 [label="Update boolean LettieSmallFavor",color=orange];
+		130 -> 131;
+	134 [label="Chat ends.",color=orange];
+	136 [label="呃？",shape=box,color=red];
+		136 -> 138;
+	137 [label="我覺得我不喜歡這個話題的方向。[結束。]",shape=box,color=red];
+		137 -> 139;
+	131 [label="Chat ends.",color=orange];
+	138 [label="我想知道你為什麼覺得我喜歡老鼠 
 說吧",shape=box,color=blue];
-		j2334915360 -> j211601406;
-		j2334915360 -> j3069957572;
-		j2334915360 -> j3174325927;
-	j3711786017 [label="（西語）是你的損失",shape=box,color=blue];
-		j3711786017 -> "Chat ends.";
-	j211601406 [label="因為牠們聰明、有感情，還很愛玩？",shape=box,color=red];
-		j211601406 -> j4267240604;
-	j3069957572 [label="因為牠們經常被忽視和誤解？",shape=box,color=red];
-		j3069957572 -> j4267240604;
-	j3174325927 [label="莉蒂？我完完全全不認識你。但那些老鼠真是可愛極了。",shape=box,color=red];
-		j3174325927 -> j264936906;
-	j4267240604 [label="（西語）哎，月尊啊，救救我
+		138 -> 143;
+		138 -> 142;
+		138 -> 141;
+	139 [label="（西語）是你的損失",shape=box,color=blue];
+		139 -> 140;
+	143 [label="因為牠們聰明、有感情，還很愛玩？",shape=box,color=red];
+		143 -> 146;
+	142 [label="因為牠們經常被忽視和誤解？",shape=box,color=red];
+		142 -> 146;
+	141 [label="莉蒂？我完完全全不認識你。但那些老鼠真是可愛極了。",shape=box,color=red];
+		141 -> 148;
+	140 [label="Chat ends.",color=orange];
+	146 [label="（西語）哎，月尊啊，救救我
 不",shape=box,color=blue];
-		j4267240604 -> j3752290669;
-	j264936906 [label="哈哈",shape=box,color=blue];
-		j264936906 -> j4028918662;
-	j3752290669 [label="小時候家裡沒什麼錢
+		146 -> 150;
+	148 [label="哈哈",shape=box,color=blue];
+		148 -> 144;
+	150 [label="小時候家裡沒什麼錢
 住的地方其實也不算太差
 當然也不是很好
 老鼠容易養，我媽媽也不太介意",shape=box,color=blue];
-		j3752290669 -> j3181940316;
-	j4028918662 [label="+5 Chemistry",color=orange];
-		j4028918662 -> j3848812929;
-	j3181940316 [label="Boolean LettieRats1 is now true.",color=orange];
-		j3181940316 -> j1550292;
-	j3848812929 [label="來自我們救世主的謙遜 
+		150 -> 151;
+	144 [label="+5 Chemistry",color=orange];
+		144 -> 149;
+	151 [label="Update boolean LettieRats1",color=orange];
+		151 -> 153;
+	149 [label="來自我們救世主的謙遜 
 我喜歡",shape=box,color=blue];
-		j3848812929 -> j3752290669;
-	j1550292 [label="你要去拿那些繃帶嗎？",shape=box,color=blue];
-		j1550292 -> j669725640;
-		j1550292 -> j2256998127;
-	j669725640 [label="好吧，我會看看我能做什麼",shape=box,color=red];
-		j669725640 -> j2201935397;
-	j2256998127 [label="既然她是你的老鼠，那你就應該自己去拿。",shape=box,color=red];
-		j2256998127 -> j320540842;
-	j320540842 [label="好吧，就用上我所有的空閒時間吧 
+		149 -> 150;
+	153 [label="你要去拿那些繃帶嗎？",shape=box,color=blue];
+		153 -> 152;
+		153 -> 145;
+	152 [label="好吧，我會看看我能做什麼",shape=box,color=red];
+		152 -> 155;
+	145 [label="既然她是你的老鼠，那你就應該自己去拿。",shape=box,color=red];
+		145 -> 158;
+	155 [label="+10 Chemistry",color=orange];
+		155 -> 154;
+	158 [label="好吧，就用上我所有的空閒時間吧 
 要去為六煞幫縫傷
 又要有去協助平民",shape=box,color=blue];
-		j320540842 -> j3240593782;
+		158 -> 159;
+	154 [label="（西語）謝啦 
+欠你一個人情 
+小小的那種",shape=box,color=blue];
+		154 -> 156;
+	159 [label="（西語）感謝你什麼也沒有做，呆呆",shape=box,color=blue];
+		159 -> 133;
+	156 [label="Update boolean LettieSmallFavor",color=orange];
+		156 -> 157;
+	133 [label="Chat ends.",color=orange];
+	157 [label="Chat ends.",color=orange];
 }

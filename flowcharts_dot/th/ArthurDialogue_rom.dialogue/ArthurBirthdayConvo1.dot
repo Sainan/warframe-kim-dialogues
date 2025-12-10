@@ -1,16 +1,21 @@
 digraph {
-	"ArthurBirthdayConvo1 begins." [color=orange];
-		"ArthurBirthdayConvo1 begins." -> j1582104471;
-		"ArthurBirthdayConvo1 begins." -> j2551890738;
-	j1582104471 [label="รู้ว่าคงยุ่งอยู่แต่แค่อยากจะบอกว่าสุขสันต์วันเกิดนะ :)",shape=box,color=red];
-		j1582104471 -> j279696005;
-	j2551890738 [label="สุขสันต์วันเกิด! (คงรู้ใช่ไหมว่า \"สุขสันต์\" เป็นยังไง)",shape=box,color=red];
-		j2551890738 -> j3236307669;
-	j279696005 [label="+20 Chemistry",color=orange];
-		j279696005 -> j454112863;
-	j3236307669 [label="รู้สิ แล้วรู้ไหมว่าการเป็นคน \"ตลก\" เป็นยังไง",shape=box,color=blue];
-		j3236307669 -> "Chat ends.";
-	j454112863 [label="ไม่ยุ่งเกินไปจนไม่มีเวลารับคำอวยพรวันเกิดหรอกนะเพื่อน ขอบใจนะ",shape=box,color=blue];
-		j454112863 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3190 [label="ArthurBirthdayConvo1 begins.",color=orange];
+		3190 -> 3193;
+		3190 -> 3194;
+	3193 [label="รู้ว่าคงยุ่งอยู่แต่แค่อยากจะบอกว่าสุขสันต์วันเกิดนะ :)",shape=box,color=red];
+		3193 -> 3195;
+	3194 [label="สุขสันต์วันเกิด! (คงรู้ใช่ไหมว่า \"สุขสันต์\" เป็นยังไง)",shape=box,color=red];
+		3194 -> 3198;
+	3195 [label="+20 Chemistry",color=orange];
+		3195 -> 3196;
+	3198 [label="รู้สิ แล้วรู้ไหมว่าการเป็นคน \"ตลก\" เป็นยังไง",shape=box,color=blue];
+		3198 -> 3222;
+	3196 [label="ไม่ยุ่งเกินไปจนไม่มีเวลารับคำอวยพรวันเกิดหรอกนะเพื่อน ขอบใจนะ",shape=box,color=blue];
+		3196 -> 3221;
+	3222 [label="{\"Id\":3222,\"Incoming\":[3198],\"Outgoing\":[3199],\"GraphPos\":[-30892,-14264],\"CompletionType\":1}",color=orange];
+		3222 -> 3199;
+	3221 [label="{\"Id\":3221,\"Incoming\":[3196],\"Outgoing\":[3197],\"GraphPos\":[-30889,-14423],\"CompletionType\":1}",color=orange];
+		3221 -> 3197;
+	3199 [label="Chat ends.",color=orange];
+	3197 [label="Chat ends.",color=orange];
 }

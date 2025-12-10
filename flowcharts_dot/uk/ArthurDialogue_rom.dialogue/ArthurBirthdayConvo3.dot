@@ -1,16 +1,21 @@
 digraph {
-	"ArthurBirthdayConvo3 begins." [color=orange];
-		"ArthurBirthdayConvo3 begins." -> j3171774154;
-		"ArthurBirthdayConvo3 begins." -> j608878495;
-	j3171774154 [label="Привіт. Просто хотілося привітати тебе з днем народження. Добре, що вдалося це застати.",shape=box,color=red];
-		j3171774154 -> j3788590255;
-	j608878495 [label="З днем ​​народження! Дуже постарайся не загинути сьогодні. Це зіпсує святковий настрій.",shape=box,color=red];
-		j608878495 -> j3218615114;
-	j3788590255 [label="+20 Chemistry",color=orange];
-		j3788590255 -> j709145857;
-	j3218615114 [label="Послухай, тобі довелося крізь багато чого пройти, але для шибеничного гумору має бути відповідний час і місце.",shape=box,color=blue];
-		j3218615114 -> "Chat ends.";
-	j709145857 [label="Ми були на волосинці від загибелі, чи не так? Дякую за прикриту спину. Сьогодні й завжди.",shape=box,color=blue];
-		j709145857 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3192 [label="ArthurBirthdayConvo3 begins.",color=orange];
+		3192 -> 3210;
+		3192 -> 3212;
+	3210 [label="Привіт. Просто хотілося привітати тебе з днем народження. Добре, що вдалося це застати.",shape=box,color=red];
+		3210 -> 3211;
+	3212 [label="З днем ​​народження! Дуже постарайся не загинути сьогодні. Це зіпсує святковий настрій.",shape=box,color=red];
+		3212 -> 3207;
+	3211 [label="+20 Chemistry",color=orange];
+		3211 -> 3209;
+	3207 [label="Послухай, тобі довелося крізь багато чого пройти, але для шибеничного гумору має бути відповідний час і місце.",shape=box,color=blue];
+		3207 -> 3000;
+	3209 [label="Ми були на волосинці від загибелі, чи не так? Дякую за прикриту спину. Сьогодні й завжди.",shape=box,color=blue];
+		3209 -> 3225;
+	3000 [label="{\"Id\":3000,\"Incoming\":[3207],\"Outgoing\":[3208],\"GraphPos\":[-30902,-13388],\"CompletionType\":1}",color=orange];
+		3000 -> 3208;
+	3225 [label="{\"Id\":3225,\"Incoming\":[3209],\"Outgoing\":[3213],\"GraphPos\":[-30899,-13547],\"CompletionType\":1}",color=orange];
+		3225 -> 3213;
+	3208 [label="Chat ends.",color=orange];
+	3213 [label="Chat ends.",color=orange];
 }

@@ -1,0 +1,104 @@
+digraph {
+	2778 [label="LettieConsent begins.",color=orange];
+		2778 -> 2779;
+	2779 [label="Check boolean LettieDating",color=orange];
+		2779 -> 2780 [label=true,color=green];
+		2779 -> 2781 [label=false,color=brown];
+	2780 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
+		2780 -> 2782 [label=true,color=green];
+		2780 -> 2814 [label=false,color=brown];
+	2781 [label="Chat ends.",color=orange];
+	2782 [label="Check boolean LettieConsentComplete",color=orange];
+		2782 -> 2786 [label=true,color=green];
+		2782 -> 2785 [label=false,color=brown];
+		2782 -> 2784 [label=false,color=brown];
+	2814 [label="Check boolean LettiePolyamorySuccess",color=orange];
+		2814 -> 2782 [label=true,color=green];
+		2814 -> 2783 [label=false,color=brown];
+	2786 [label="Chat ends.",color=orange];
+	2785 [label="Hey Lettie? Müsait misin? [Birden fazla ilişki partneri için onay iste.]",shape=box,color=red];
+		2785 -> 2788;
+	2784 [label="[Son.]",shape=box,color=red];
+		2784 -> 2787;
+	2783 [label="Chat ends.",color=orange];
+	2788 [label="Senin için
+Her zaman müsaitim.
+¿Qué?",shape=box,color=blue];
+		2788 -> 2790;
+	2787 [label="Update boolean LettieConsentComplete",color=orange];
+		2787 -> 2789;
+	2790 [label="Seninle bir konu hakkında konuşmak istiyorum ve bunun senin için uygun olduğundan emin olmak istiyorum.",shape=box,color=red];
+		2790 -> 2791;
+	2789 [label="Chat ends.",color=orange];
+	2791 [label="Benim için önemli olan, sana yalan söylediğimi veya herhangi bir şekilde sana karşı dürüst olmadığımı hissetmemen.",shape=box,color=red];
+		2791 -> 2792;
+		2791 -> 2793;
+		2791 -> 2794;
+	2792 [label="Lütfen beni incitme.",shape=box,color=red];
+		2792 -> 2795;
+	2793 [label="Lütfen kızma.",shape=box,color=red];
+		2793 -> 2796;
+	2794 [label="Umarım beni anlarsın.",shape=box,color=red];
+		2794 -> 2797;
+	2795 [label="Jajajajaj
+Bunu konuşmuştuk
+Seni sadece istediğin şekilde incitirim
+Şimdi ne söyleyeceksen söyle",shape=box,color=blue];
+		2795 -> 2798;
+	2796 [label="¿Sí?
+Neye sinirlenmeyecekmişim?",shape=box,color=blue];
+		2796 -> 2798;
+	2797 [label="¿Sí?
+Neyi anlayacakmışım?",shape=box,color=blue];
+		2797 -> 2798;
+	2798 [label="Seni istemeyeceğin bir duruma sokmak istemiyorum. Bunun daha önce konuşmadığımız bir konu olduğunu biliyorum. Yani hayır dersen sorun değil. Sadece bilmeni istiyorum.",shape=box,color=red];
+		2798 -> 2799;
+	2799 [label="Yaşadığımız şey benim için önemli - çok önemli - ve hislerim gerçek. Bundan şüphe duymanı istemiyorum.",shape=box,color=red];
+		2799 -> 2800;
+	2800 [label="Aah, entiendo...
+Sanırım sadece bilmek istiyorum
+O kişi gerçekten bu kadar önemli mi, solecito?
+¿Quiénes son?",shape=box,color=blue];
+		2800 -> 2801;
+		2800 -> 2802;
+	2801 [label="Önemsediğim birisi, evet. Ama seni de çok önemsiyorum.",shape=box,color=red];
+		2801 -> 2803;
+	2802 [label="Olup biteni hemen anlayacağını tahmin etmeliydim.",shape=box,color=red];
+		2802 -> 2804;
+	2803 [label="Ay, sí
+Bu kadar çok şey gördüğün için
+Bu kadar çok seyahat ettiğin için seni suçlamak zor
+Benim için sorun değil",shape=box,color=blue];
+		2803 -> 2805;
+	2804 [label="Hile yaptım
+Eleanor önceden söyledi
+Jajaja o korkunç bir dedikoducu",shape=box,color=blue];
+		2804 -> 2806;
+	2805 [label="Tek isteğim hex'ten birisi olmaması
+Mi familia no, ¿por favor?
+Eğer öyleyse temizlenmek için bir hafta boyunca kendimi çiselemem gerekecek",shape=box,color=blue];
+		2805 -> 2807;
+	2806 [label="Bu kadar çok şey gördüğün için
+Bu kadar çok seyahat ettiğin için seni suçlamak zor
+Benim için sorun değil",shape=box,color=blue];
+		2806 -> 2805;
+	2807 [label="+20 Chemistry",color=orange];
+		2807 -> 2808;
+	2808 [label="Sen benim için çok önemlisin, solecito
+Eğer o kişi sana mutluluk getiriyorsa...
+O zaman bana da getirir
+Bu kadar basit",shape=box,color=blue];
+		2808 -> 2809;
+	2809 [label="Ah
+Ve onu bir gün buraya getirmenin bir yolunu bul
+Onunla tanışmak isterim",shape=box,color=blue];
+		2809 -> 2810;
+		2809 -> 2811;
+	2810 [label="Elbette hanımefendi. :)",shape=box,color=red];
+		2810 -> 2812;
+	2811 [label="Elimden geleni yaparım.",shape=box,color=red];
+		2811 -> 2812;
+	2812 [label="Update boolean LettieConsentComplete",color=orange];
+		2812 -> 2813;
+	2813 [label="Chat ends.",color=orange];
+}

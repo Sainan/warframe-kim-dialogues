@@ -1,16 +1,17 @@
 digraph {
-	"KayaBirthdayConvo1 begins." [color=orange];
-		"KayaBirthdayConvo1 begins." -> j2366286546;
-		"KayaBirthdayConvo1 begins." -> j2540329070;
-	j2366286546 [label="Привіт, Кає. З Днем народження!",shape=box,color=red];
-		j2366286546 -> j3799512728;
-	j2540329070 [label="З Днем народження, Кає. Відчуваєш, що на рік старше?",shape=box,color=red];
-		j2540329070 -> j1596174442;
-	j3799512728 [label="+20 Chemistry",color=orange];
-		j3799512728 -> j2687076879;
-	j1596174442 [label="Я ж не стала старше, хоча й стала. Ніхто з нас не стає. Ми кружляємо на цій каруселі, як гарненькі поні, які горять і кричать.",shape=box,color=blue];
-		j1596174442 -> "Chat ends.";
-	j2687076879 [label="ого, ти пам’ятаєш? дні народження стають буденністю, коли тобі виповнюється 8, але це дуже мило з твого боку, дякую",shape=box,color=blue];
-		j2687076879 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	987 [label="KayaBirthdayConvo1 begins.",color=orange];
+		987 -> 999;
+		987 -> 1000;
+	999 [label="Привіт, Кає. З Днем народження!",shape=box,color=red];
+		999 -> 1005;
+	1000 [label="З Днем народження, Кає. Відчуваєш, що на рік старше?",shape=box,color=red];
+		1000 -> 1006;
+	1005 [label="+20 Chemistry",color=orange];
+		1005 -> 988;
+	1006 [label="Я ж не стала старше, хоча й стала. Ніхто з нас не стає. Ми кружляємо на цій каруселі, як гарненькі поні, які горять і кричать.",shape=box,color=blue];
+		1006 -> 1007;
+	988 [label="ого, ти пам’ятаєш? дні народження стають буденністю, коли тобі виповнюється 8, але це дуже мило з твого боку, дякую",shape=box,color=blue];
+		988 -> 989;
+	1007 [label="Chat ends.",color=orange];
+	989 [label="Chat ends.",color=orange];
 }

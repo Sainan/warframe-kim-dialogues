@@ -1,0 +1,37 @@
+digraph {
+	2214 [label="RoatheStory9 begins.",color=orange];
+		2214 -> 5656;
+	5656 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5656 -> 2206 [label=true,color=green];
+		5656 -> 5657 [label=false,color=brown];
+	2206 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2206 -> 2210 [label="x >= 9",color=purple];
+		2206 -> 2209 [label="false",color=purple];
+	5657 [label="Chat ends.",color=orange];
+	2210 [label="ÁUDIO: COMANDANTES",shape=box,color=blue];
+		2210 -> 2208;
+	2209 [label="Chat ends.",color=orange];
+	2208 [label="Agora me lembro deles. Grupos de jovens Orokin risonhos.",shape=box,color=blue];
+		2208 -> 2212;
+	2212 [label="Nobreza vestida com as ainda intocadas vestes de comando.",shape=box,color=blue];
+		2212 -> 2205;
+	2205 [label="Amigos de infância, agora no comando de legiões de Dax, de Grineer, células de matéria nula, carcinômetros autorreplicantes, aranhas-lâmina primitivas, contêineres de tropas de baixa tecnologia.",shape=box,color=blue];
+		2205 -> 2213;
+	2213 [label="Meninos e meninas dourados com diabos vorazes às suas ordens.",shape=box,color=blue];
+		2213 -> 2215;
+	2215 [label="Sua arrogância escorre como suor ardente em minha mente. Eles bebiam e cantavam, vangloriando-se dos tempos vindouros.",shape=box,color=blue];
+		2215 -> 5696;
+	5696 [label="Eles deixariam sua marca. Elevariam suas famílias ao prestígio.",shape=box,color=blue];
+		5696 -> 5697;
+	5697 [label="Muitos caíram. Nem mesmo seus corpos foram recuperados.",shape=box,color=blue];
+		5697 -> 5698;
+	5698 [label="Para impedir que o inimigo descobrisse nossos segredos, eles foram submetidos a uma explosão de Kuva que os liquefez após a morte.",shape=box,color=blue];
+		5698 -> 5699;
+	5699 [label="A esperança de uma geração transformada em uma poça de óleo, pisoteada pelas botas dos Grineers.",shape=box,color=blue];
+		5699 -> 2211;
+	2211 [label="Add 1 to HellStory",color=orange];
+		2211 -> 2336;
+	2336 [label="{\"Id\":2336,\"Incoming\":[2211],\"Outgoing\":[2207],\"GraphPos\":[5512,-8267],\"CompletionType\":1}",color=orange];
+		2336 -> 2207;
+	2207 [label="Chat ends.",color=orange];
+}

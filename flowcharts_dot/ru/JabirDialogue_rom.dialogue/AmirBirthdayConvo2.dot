@@ -1,16 +1,21 @@
 digraph {
-	"AmirBirthdayConvo2 begins." [color=orange];
-		"AmirBirthdayConvo2 begins." -> j3929423192;
-		"AmirBirthdayConvo2 begins." -> j2755251462;
-	j3929423192 [label="С днём рождения, Амир. Я ничего тебе не купил.",shape=box,color=red];
-		j3929423192 -> j656702655;
-	j2755251462 [label="Эй, Амир. С днём рождения. Надеюсь, ты весело проводишь время!",shape=box,color=red];
-		j2755251462 -> j3607317896;
-	j656702655 [label="ох. ну... важен сам жест, я думаю. ... и минимальное усилие. ... спасибо",shape=box,color=blue];
-		j656702655 -> "Chat ends.";
-	j3607317896 [label="+20 Chemistry",color=orange];
-		j3607317896 -> j2403998181;
-	"Chat ends." [color=orange];
-	j2403998181 [label="ДА, Я СЕГОДНЯ БЕЗУМНО СЧАСТЛИВ, Я ВСТАЛ В 12: 01, МЫ ПЬЁМ ЭНЕРГЕТИКИ, ИГРАЕМ В АРКАДЫ, А АОИ СДЕЛАЛА МНЕ КОМНАТУ С ПУШИСТИКАМИ, И МЕНЯ СТОШНИЛО ТАМ",shape=box,color=blue];
-		j2403998181 -> "Chat ends.";
+	3572 [label="AmirBirthdayConvo2 begins.",color=orange];
+		3572 -> 3578;
+		3572 -> 3579;
+	3578 [label="С днём рождения, Амир. Я ничего тебе не купил.",shape=box,color=red];
+		3578 -> 3577;
+	3579 [label="Эй, Амир. С днём рождения. Надеюсь, ты весело проводишь время!",shape=box,color=red];
+		3579 -> 3573;
+	3577 [label="ох. ну... важен сам жест, я думаю. ... и минимальное усилие. ... спасибо",shape=box,color=blue];
+		3577 -> 3596;
+	3573 [label="+20 Chemistry",color=orange];
+		3573 -> 3576;
+	3596 [label="{\"Id\":3596,\"Incoming\":[3577],\"Outgoing\":[3574],\"GraphPos\":[-14787,-21152],\"CompletionType\":1}",color=orange];
+		3596 -> 3574;
+	3576 [label="ДА, Я СЕГОДНЯ БЕЗУМНО СЧАСТЛИВ, Я ВСТАЛ В 12: 01, МЫ ПЬЁМ ЭНЕРГЕТИКИ, ИГРАЕМ В АРКАДЫ, А АОИ СДЕЛАЛА МНЕ КОМНАТУ С ПУШИСТИКАМИ, И МЕНЯ СТОШНИЛО ТАМ",shape=box,color=blue];
+		3576 -> 3597;
+	3574 [label="Chat ends.",color=orange];
+	3597 [label="{\"Id\":3597,\"Incoming\":[3576],\"Outgoing\":[3575],\"GraphPos\":[-14371,-21328],\"CompletionType\":1}",color=orange];
+		3597 -> 3575;
+	3575 [label="Chat ends.",color=orange];
 }

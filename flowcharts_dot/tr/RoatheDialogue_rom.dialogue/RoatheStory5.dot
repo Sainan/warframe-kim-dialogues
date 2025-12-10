@@ -1,0 +1,31 @@
+digraph {
+	2175 [label="RoatheStory5 begins.",color=orange];
+		2175 -> 5649;
+	5649 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5649 -> 2174 [label=true,color=green];
+		5649 -> 5648 [label=false,color=brown];
+	2174 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2174 -> 2176 [label="x >= 5",color=purple];
+		2174 -> 2173 [label="false",color=purple];
+	5648 [label="Chat ends.",color=orange];
+	2176 [label="SM: BULUŞ",shape=box,color=blue];
+		2176 -> 2172;
+	2173 [label="Chat ends.",color=orange];
+	2172 [label="Transkript: Şimdi, Arşimet'in savaş alanındaki gelişmelerinin ilk başta eğlence amaçlı sunulduğunu hatırlıyorum. ",shape=box,color=blue];
+		2172 -> 5692;
+	5692 [label="Ahlaksız serseriler gibi, suçluların arenada-sirkte idam edilmesini izliyorlar.",shape=box,color=blue];
+		5692 -> 2169;
+	2169 [label="Biz, çok daha zayıf bir düşmanı ortadan kaldırmak için yeni ve heyecan verici yöntemler bulduğumuzu hayal ediyorduk.",shape=box,color=blue];
+		2169 -> 2170;
+	2170 [label="Kendimizi nasıl da pohpohladık. Aslında, değişken düşmanlarımızın bizi alt ettiğini bilerek, umutsuzca yenilikler yaptık.",shape=box,color=blue];
+		2170 -> 5685;
+	5685 [label="Şişkin annelerini yiyip bitiren çocuk sürüsü gibi üzerimize çullandılar.",shape=box,color=blue];
+		5685 -> 5686;
+	5686 [label="Zamanın sayfaları arasında kurumuş, ezilmiş, evrimleşmemiş bir haldeydik.",shape=box,color=blue];
+		5686 -> 2168;
+	2168 [label="Add 1 to HellStory",color=orange];
+		2168 -> 2332;
+	2332 [label="{\"Id\":2332,\"Incoming\":[2168],\"Outgoing\":[2171],\"GraphPos\":[4580,-9977],\"CompletionType\":1}",color=orange];
+		2332 -> 2171;
+	2171 [label="Chat ends.",color=orange];
+}

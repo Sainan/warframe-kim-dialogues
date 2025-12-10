@@ -1,86 +1,87 @@
 digraph {
-	"LettieRank5Convo6 begins." [color=orange];
-		"LettieRank5Convo6 begins." -> j1229414268;
-	j1229414268 [label="Check boolean LettieDating",color=orange];
-		j1229414268 -> j936984714 [label=true,color=green];
-		j1229414268 -> "Chat ends." [label=false,color=brown];
-	j936984714 [label="Solecito 
+	2251 [label="LettieRank5Convo6 begins.",color=orange];
+		2251 -> 2252;
+	2252 [label="Check boolean LettieDating",color=orange];
+		2252 -> 2254 [label=true,color=green];
+		2252 -> 2253 [label=false,color=brown];
+	2254 [label="Solecito 
 Erzähl mir mehr von dieser Zukunft",shape=box,color=blue];
-		j936984714 -> j2515804825;
-	"Chat ends." [color=orange];
-	j2515804825 [label="Von der, wo die Götter hungrig sind, aber sie keine Bedeutung für dich mehr haben 
+		2254 -> 2255;
+	2253 [label="Chat ends.",color=orange];
+	2255 [label="Von der, wo die Götter hungrig sind, aber sie keine Bedeutung für dich mehr haben 
 Die Zukunft, von der du behauptest, du hättest sie für uns aufgegeben 
 Von den Kriegen und den fernen Welten",shape=box,color=blue];
-		j2515804825 -> j1260759219;
-		j2515804825 -> j2367624508;
-	j1260759219 [label="Alles ok bei dir, Lettie?",shape=box,color=red];
-		j1260759219 -> j1965195961;
-	j2367624508 [label="Da musst du etwas genauer werden ...",shape=box,color=red];
-		j2367624508 -> j1675326767;
-	j1965195961 [label="Ay, nein 
+		2255 -> 2256;
+		2255 -> 2257;
+	2256 [label="Alles ok bei dir, Lettie?",shape=box,color=red];
+		2256 -> 2258;
+	2257 [label="Da musst du etwas genauer werden ...",shape=box,color=red];
+		2257 -> 2259;
+	2258 [label="Ay, nein 
 Bin heute melancholisch
 Die Spinnen sind wieder am Werk 
 No importa, ya no te molesto",shape=box,color=blue];
-		j1965195961 -> j1027157091;
-	j1675326767 [label="Ay, lo siento 
+		2258 -> 2260;
+	2259 [label="Ay, lo siento 
 Die Spinnen sind wieder am Werk 
 Macht mich melancholisch
 Und scheinbar dramatisch jajaja
 No importa, ya no te molesto",shape=box,color=blue];
-		j1675326767 -> j1027157091;
-	j1027157091 [label="Check boolean LettieDepression",color=orange];
-		j1027157091 -> j4145402820 [label=true,color=green];
-		j1027157091 -> j2087780491 [label=true,color=green];
-		j1027157091 -> j565026064 [label=true,color=green];
-		j1027157091 -> j3750112210 [label=false,color=brown];
-		j1027157091 -> j2087780491 [label=false,color=brown];
-		j1027157091 -> j565026064 [label=false,color=brown];
-	j4145402820 [label="Du hast die Spinnen schon mal erwähnt. Eine Metapher für Depressionen nehme ich an?",shape=box,color=red];
-		j4145402820 -> j2936438151;
-	j2087780491 [label="Der Beweis, dass Spinnen keine guten Haustiere sind, nehme ich an?",shape=box,color=red];
-		j2087780491 -> j640631098;
-	j565026064 [label="Ok, kein Problem.",shape=box,color=red];
-		j565026064 -> "Chat ends.";
-	j3750112210 [label="Spinnen ...?",shape=box,color=red];
-		j3750112210 -> j1842333392;
-	j2936438151 [label="Ay sí 
+		2259 -> 2260;
+	2260 [label="Check boolean LettieDepression",color=orange];
+		2260 -> 2261 [label=true,color=green];
+		2260 -> 2263 [label=true,color=green];
+		2260 -> 2264 [label=true,color=green];
+		2260 -> 2262 [label=false,color=brown];
+		2260 -> 2263 [label=false,color=brown];
+		2260 -> 2264 [label=false,color=brown];
+	2261 [label="Du hast die Spinnen schon mal erwähnt. Eine Metapher für Depressionen nehme ich an?",shape=box,color=red];
+		2261 -> 2266;
+	2263 [label="Der Beweis, dass Spinnen keine guten Haustiere sind, nehme ich an?",shape=box,color=red];
+		2263 -> 2313;
+	2264 [label="Ok, kein Problem.",shape=box,color=red];
+		2264 -> 2265;
+	2262 [label="Spinnen ...?",shape=box,color=red];
+		2262 -> 2267;
+	2266 [label="Ay sí 
 Etwas, dass ich schon mein ganzes Leben lang habe 
 Dumme kleine Dinger in meinem Kopf, die mir Lügen erzählen",shape=box,color=blue];
-		j2936438151 -> j904340551;
-	j640631098 [label="JAJAJA 
+		2266 -> 2272;
+	2313 [label="JAJAJA 
 Du kannst es nicht wissen.
 Diese Spinnen sind nicht echt 
 Nur der Name, den ich für die Dinge in meinem Kopf habe, die mir Lügen erzählen",shape=box,color=blue];
-		j640631098 -> j769396288;
-		j640631098 -> j4218726527;
-		j640631098 -> j2751493143;
-	j1842333392 [label="Ay sí 
+		2313 -> 2269;
+		2313 -> 2270;
+		2313 -> 2271;
+	2265 [label="Chat ends.",color=orange];
+	2267 [label="Ay sí 
 Ich habe es nicht erklärt 
 Spinnen nenne ich das in meinem Kopf, was mir Lügen erzählt",shape=box,color=blue];
-		j1842333392 -> j769396288;
-		j1842333392 -> j4218726527;
-		j1842333392 -> j2751493143;
-	j904340551 [label="Kleine Dinger, die mir Sachen zuflüstern, die ich glaube, wenn ich zu dumm bin und dann darauf hereinfalle",shape=box,color=blue];
-		j904340551 -> j2587638140;
-		j904340551 -> j1693777816;
-	j769396288 [label="Was meinst du mit, sie erzählen dir Lügen?",shape=box,color=red];
-		j769396288 -> j904340551;
-	j4218726527 [label="Du hörst Stimmen?",shape=box,color=red];
-		j4218726527 -> j1601235311;
-	j2751493143 [label="Hast du versucht, sie zu ignorieren?",shape=box,color=red];
-		j2751493143 -> j3463343524;
-	j2587638140 [label="Was flüstern sie dir zu?",shape=box,color=red];
-		j2587638140 -> j3639527198;
-	j1693777816 [label="Das klingt furchtbar ... tut mir leid.",shape=box,color=red];
-		j1693777816 -> j1345258579;
-	j1601235311 [label="Aaaay babaaas nicht WORT WÖRTLICH 
+		2267 -> 2269;
+		2267 -> 2270;
+		2267 -> 2271;
+	2272 [label="Kleine Dinger, die mir Sachen zuflüstern, die ich glaube, wenn ich zu dumm bin und dann darauf hereinfalle",shape=box,color=blue];
+		2272 -> 2276;
+		2272 -> 2277;
+	2269 [label="Was meinst du mit, sie erzählen dir Lügen?",shape=box,color=red];
+		2269 -> 2272;
+	2270 [label="Du hörst Stimmen?",shape=box,color=red];
+		2270 -> 2273;
+	2271 [label="Hast du versucht, sie zu ignorieren?",shape=box,color=red];
+		2271 -> 2274;
+	2276 [label="Was flüstern sie dir zu?",shape=box,color=red];
+		2276 -> 2282;
+	2277 [label="Das klingt furchtbar ... tut mir leid.",shape=box,color=red];
+		2277 -> 2278;
+	2273 [label="Aaaay babaaas nicht WORT WÖRTLICH 
 Kleine Dinger, die mir Sachen zuflüstern, die ich glaube, wenn ich zu dumm bin und dann darauf hereinfalle",shape=box,color=blue];
-		j1601235311 -> j2587638140;
-		j1601235311 -> j1693777816;
-	j3463343524 [label="¡¿Qué?! Was für eine clevere Idee 
+		2273 -> 2276;
+		2273 -> 2277;
+	2274 [label="¡¿Qué?! Was für eine clevere Idee 
 Werde ich sofort ausprobieren",shape=box,color=blue];
-		j3463343524 -> "Chat ends.";
-	j3639527198 [label="Du wirst scheitern 
+		2274 -> 2275;
+	2282 [label="Du wirst scheitern 
 Keiner mag dich 
 Du bist hässlich 
 Du bist fett 
@@ -88,98 +89,107 @@ Du hast kein Talent
 Du bist unfähig 
 Dein Glück endet bald 
 Du verdienst es nicht",shape=box,color=blue];
-		j3639527198 -> j545266246;
-		j3639527198 -> j2233436270;
-		j3639527198 -> j475040127;
-	j1345258579 [label="Mm 
+		2282 -> 2283;
+		2282 -> 2284;
+		2282 -> 2285;
+	2278 [label="Mm 
 Hat seine Momente",shape=box,color=blue];
-		j1345258579 -> j2348088834;
-	j545266246 [label="Wenigstens weißt du, dass die Spinnen lügen, aber ... sie klingen wie totale Arschlöcher.",shape=box,color=red];
-		j545266246 -> j2080793388;
-	j2233436270 [label="Meine sagen gemeinere Dinge ... du hast Glück.",shape=box,color=red];
-		j2233436270 -> j4047567135;
-	j475040127 [label="Hast du schon mal an Medikamente oder eine Behandlung gedacht? Depressionen können ernst sein.",shape=box,color=red];
-		j475040127 -> j3280844486;
-	j2348088834 [label="Zurück an die Arbeit 
+		2278 -> 2279;
+	2275 [label="Chat ends.",color=orange];
+	2283 [label="Wenigstens weißt du, dass die Spinnen lügen, aber ... sie klingen wie totale Arschlöcher.",shape=box,color=red];
+		2283 -> 2286;
+	2284 [label="Meine sagen gemeinere Dinge ... du hast Glück.",shape=box,color=red];
+		2284 -> 2287;
+	2285 [label="Hast du schon mal an Medikamente oder eine Behandlung gedacht? Depressionen können ernst sein.",shape=box,color=red];
+		2285 -> 2288;
+	2279 [label="Zurück an die Arbeit 
 Lo siento, ich hasse es, dich anzujammern",shape=box,color=blue];
-		j2348088834 -> j1933300832;
-	j2080793388 [label="Sie sind kleine pinches cabronas
+		2279 -> 2280;
+	2286 [label="Sie sind kleine pinches cabronas
 Diese Art von Traurigkeit ist klein, aber sie kann zu Gift werden, wenn man sie zu groß werden lässt 
 Mi mamá hatte es ihr Leben lang, daher weiß ich, welchen Tribut es fordern kann",shape=box,color=blue];
-		j2080793388 -> j2766786071;
-	j4047567135 [label="Dann verstehst du wirklich, wie es ist, mi corazón 
+		2286 -> 2289;
+	2287 [label="Dann verstehst du wirklich, wie es ist, mi corazón 
 Sie sind kleine pinches cabronas
 Aber sie lügen, denk immer daran 
 Diese Art von Traurigkeit ist klein, aber sie kann zu Gift werden, wenn man sie zu groß werden lässt 
 Mi mamá hatte es ihr Leben lang, daher weiß ich, welchen Tribut es fordern kann",shape=box,color=blue];
-		j4047567135 -> j3130673464;
-	j3280844486 [label="Ay sí 
+		2287 -> 2290;
+	2288 [label="Ay sí 
 Mi mamá hatte es ihr ganzes Leben 
 Also weiß ich, welchen Tribut es fordern kann 
 Glücklicherweise ist meine nicht so schlimm, es eskaliert nicht zu etwas Ernsterem 
 Hab Medikamenten schon versucht, aber ich hasse den Nebel, den sie mit sich bringen",shape=box,color=blue];
-		j3280844486 -> j3874861707;
-	j1933300832 [label="+10 Chemistry",color=orange];
-		j1933300832 -> "Chat ends.";
-	j2766786071 [label="Aber deshalb nenne ich sie Spinnen 
+		2288 -> 2291;
+	2280 [label="+10 Chemistry",color=orange];
+		2280 -> 2281;
+	2289 [label="Aber deshalb nenne ich sie Spinnen 
 Weil du eine Zeitung zusammenrollen kannst 
 Um sie damit zu ZERQUETSCHEN 
 Sie sind klein und zerbrechen leicht",shape=box,color=blue];
-		j2766786071 -> j1884830597;
-		j2766786071 -> j1878998431;
-	j3130673464 [label="Aber deshalb nenne ich sie Spinnen 
+		2289 -> 2292;
+		2289 -> 2293;
+	2290 [label="Aber deshalb nenne ich sie Spinnen 
 Weil du eine Zeitung zusammenrollen kannst 
 Um sie damit zu ZERQUETSCHEN 
 Sie sind klein und zerbrechen leicht",shape=box,color=blue];
-		j3130673464 -> j254844847;
-		j3130673464 -> j1451287254;
-	j3874861707 [label="Keine Sorge, ich hab nicht den Wunsch mit La Flaca zu tanzen 
+		2290 -> 2294;
+		2290 -> 2295;
+	2291 [label="Keine Sorge, ich hab nicht den Wunsch mit La Flaca zu tanzen 
 Und ich will auch keine Schmerzen, die nicht mit Genuss verbunden sind jajaja
 Es ist eine milde Traurigkeit und die Spinnen sind klein",shape=box,color=blue];
-		j3874861707 -> j2308350861;
-		j3874861707 -> j2313642476;
-	j1884830597 [label="Du wirst Venus nicht mögen ...",shape=box,color=red];
-		j1884830597 -> j3617663240;
-	j1878998431 [label="Sehr fair. Und jetzt kann ich dir helfen, die Spinnen zu zerquetschen.",shape=box,color=red];
-		j1878998431 -> j543252326;
-	j254844847 [label="Du wirst Venus nicht mögen ...",shape=box,color=red];
-		j254844847 -> j1077726710;
-	j1451287254 [label="Sehr fair. Und jetzt können wir uns gegenseitig helfen, die Spinnen zu zerquetschen.",shape=box,color=red];
-		j1451287254 -> j3372299927;
-	j2308350861 [label="Ich vertraue dir. Aber du weißt, wann du um Hilfe fragen musst, richtig?",shape=box,color=red];
-		j2308350861 -> j2046396361;
-	j2313642476 [label="Wenn es je schlimm wird ... sagst du es mir, richtig? Auch wenn wir nicht mehr zusammen wären?",shape=box,color=red];
-		j2313642476 -> j2046396361;
-	j3617663240 [label="¿Qué?",shape=box,color=blue];
-		j3617663240 -> j1878998431;
-	j543252326 [label="+15 Chemistry",color=orange];
-		j543252326 -> j1173101607;
-	j1077726710 [label="¿Qué?",shape=box,color=blue];
-		j1077726710 -> j865364524;
-	j3372299927 [label="+20 Chemistry",color=orange];
-		j3372299927 -> j4126183575;
-	j2046396361 [label="+20 Chemistry",color=orange];
-		j2046396361 -> j3343825756;
-	j1173101607 [label="Sí, solecito 
+		2291 -> 2296;
+		2291 -> 2297;
+	2281 [label="Chat ends.",color=orange];
+	2292 [label="Du wirst Venus nicht mögen ...",shape=box,color=red];
+		2292 -> 2298;
+	2293 [label="Sehr fair. Und jetzt kann ich dir helfen, die Spinnen zu zerquetschen.",shape=box,color=red];
+		2293 -> 2304;
+	2294 [label="Du wirst Venus nicht mögen ...",shape=box,color=red];
+		2294 -> 2299;
+	2295 [label="Sehr fair. Und jetzt können wir uns gegenseitig helfen, die Spinnen zu zerquetschen.",shape=box,color=red];
+		2295 -> 2308;
+	2296 [label="Ich vertraue dir. Aber du weißt, wann du um Hilfe fragen musst, richtig?",shape=box,color=red];
+		2296 -> 2311;
+	2297 [label="Wenn es je schlimm wird ... sagst du es mir, richtig? Auch wenn wir nicht mehr zusammen wären?",shape=box,color=red];
+		2297 -> 2311;
+	2298 [label="¿Qué?",shape=box,color=blue];
+		2298 -> 2301;
+	2304 [label="+15 Chemistry",color=orange];
+		2304 -> 2303;
+	2299 [label="¿Qué?",shape=box,color=blue];
+		2299 -> 2302;
+	2308 [label="+20 Chemistry",color=orange];
+		2308 -> 2306;
+	2311 [label="+20 Chemistry",color=orange];
+		2311 -> 2300;
+	2301 [label="Sehr fair. Und jetzt kann ich dir helfen, die Spinnen zu zerquetschen.",shape=box,color=red];
+		2301 -> 2304;
+	2303 [label="Sí, solecito 
 Und danke dafür 
 Aber jetzt muss ich wie immer zurück an die Arbeit",shape=box,color=blue];
-		j1173101607 -> "Chat ends.";
-	j865364524 [label="Egal. Immerhin können wir die Spinnen jetzt zusammen zerquetschen.",shape=box,color=red];
-		j865364524 -> j3372299927;
-	j4126183575 [label="Sí, mi corazón, genau 
+		2303 -> 2305;
+	2302 [label="Egal. Immerhin können wir die Spinnen jetzt zusammen zerquetschen.",shape=box,color=red];
+		2302 -> 2308;
+	2306 [label="Sí, mi corazón, genau 
 Komme zwischen uns, was da wolle 
 Danke für diesen Moment 
 Aber wie immer, muss ich jetzt wieder an die Arbeit",shape=box,color=blue];
-		j4126183575 -> j1472871842;
-	j3343825756 [label="Sí, mi corazón, I promise 
+		2306 -> 2307;
+	2300 [label="Sí, mi corazón, I promise 
 Komme zwischen uns, was da wolle 
 Ich werde mich an diesen Moment erinnern und dass du dich um mich sorgst und ich werde ihn wie eine Zeitung zusammenrollen und die Spinnen zerquetschen jajaja",shape=box,color=blue];
-		j3343825756 -> j2841885252;
-	j1472871842 [label="Boolean LettieReal is now true.",color=orange];
-		j1472871842 -> "Chat ends.";
-	j2841885252 [label="Im Ernst ...
+		2300 -> 2310;
+	2305 [label="Chat ends.",color=orange];
+	2307 [label="Update boolean LettieReal",color=orange];
+		2307 -> 2309;
+	2310 [label="Im Ernst ...
 Gracias 
 Aber jetzt muss ich wieder an die Arbeit 
 Ve",shape=box,color=blue];
-		j2841885252 -> j1472871842;
+		2310 -> 2268;
+	2309 [label="Chat ends.",color=orange];
+	2268 [label="Update boolean LettieReal",color=orange];
+		2268 -> 2312;
+	2312 [label="Chat ends.",color=orange];
 }

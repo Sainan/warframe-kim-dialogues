@@ -1,0 +1,33 @@
+digraph {
+	2223 [label="RoatheStory10 begins.",color=orange];
+		2223 -> 5658;
+	5658 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5658 -> 2224 [label=true,color=green];
+		5658 -> 5659 [label=false,color=brown];
+	2224 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2224 -> 2219 [label="x >= 10",color=purple];
+		2224 -> 2225 [label="false",color=purple];
+	5659 [label="Chat ends.",color=orange];
+	2219 [label="VM: PUNISHMENT",shape=box,color=blue];
+		2219 -> 2218;
+	2225 [label="Chat ends.",color=orange];
+	2218 [label="บันทึก: Scarne ที่ขี้หงุดหงิด ฉลาด และ ปากร้าย คือผู้ที่ริเริ่มแผนการนี้ขึ้นก่อนสงคราม \"เราต้องบินออกจากรัง เพราะรังกำลังลุกเป็นไฟ\"",shape=box,color=blue];
+		2218 -> 2221;
+	2221 [label="เนื่องจากการใช้ประโยชน์เกินขอบเขตและการทดลองที่ไร้ความรอบคอบ ทำให้สร้างความเสียหายให้กับระบบจนหมดหนทางที่จะฟื้นฟู",shape=box,color=blue];
+		2221 -> 2216;
+	2216 [label="การขยายไปสู่ขอบฟ้าใหม่ ๆ เป็นทางเลือกเดียวของเราในตอนนั้น ",shape=box,color=blue];
+		2216 -> 5733;
+	5733 [label="เขาเองก็เป็นผู้ริเริ่มหอคอยที่ขลาดเขลานั่นในวอยด์เช่นกัน",shape=box,color=blue];
+		5733 -> 2222;
+	2222 [label="ความกลัวว่า Sentient จะกลับมานั้นรุนแรงมากจนเขาทำได้เพียงจินตนาการถึงการล่าถอยไปยังเกาะต่าง ๆ ในทะเลแห่งวอยด์",shape=box,color=blue];
+		2222 -> 5700;
+	5700 [label="เราคงต้องให้เครดิต Sentient สำหรับความกล้าหาญ",shape=box,color=blue];
+		5700 -> 5701;
+	5701 [label="ที่ยอมทนกับไฟร้อนระอุของวอยด์เพียงเพื่อหาโอกาสที่จะลงโทษเรา",shape=box,color=blue];
+		5701 -> 2220;
+	2220 [label="Add 1 to HellStory",color=orange];
+		2220 -> 2337;
+	2337 [label="{\"Id\":2337,\"Incoming\":[2220],\"Outgoing\":[2217],\"GraphPos\":[4843,-7852],\"CompletionType\":1}",color=orange];
+		2337 -> 2217;
+	2217 [label="Chat ends.",color=orange];
+}

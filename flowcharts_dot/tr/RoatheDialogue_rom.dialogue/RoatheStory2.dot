@@ -1,0 +1,33 @@
+digraph {
+	2138 [label="RoatheStory2 begins.",color=orange];
+		2138 -> 5641;
+	5641 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5641 -> 2145 [label=true,color=green];
+		5641 -> 5643 [label=false,color=brown];
+	2145 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2145 -> 2139 [label="x >= 2",color=purple];
+		2145 -> 2141 [label="false",color=purple];
+	5643 [label="Chat ends.",color=orange];
+	2139 [label="SM: BAĞLANTI",shape=box,color=blue];
+		2139 -> 2140;
+	2141 [label="Chat ends.",color=orange];
+	2140 [label="Transkript: Sentient'ler, Tau'ya giden Solay Ray'ı tamamladığında, büyük bir tören yapılmadı. Solar Ray sadece çalışmaya başladı.",shape=box,color=blue];
+		2140 -> 2143;
+	2143 [label="Tören elbette aceleyle düzenlendi, çünkü gerçek bir Orokin, görkemli bir törene katılmadan burnunu silemezdi.",shape=box,color=blue];
+		2143 -> 2144;
+	2144 [label="İlk Geçişi gerçekleştirecek olan İlk Nakliye için büyük bir heyecan yaşandı.",shape=box,color=blue];
+		2144 -> 2147;
+	2147 [label="Bu, İnfazcı Tormis'in görkemli kruvazörüydü ve Tormis'in keşif gemisi olarak seçilmesi, Zariman Ten Zero'nun korkunç kazası nedeniyle İnfazcı Tuvul'a yönelik toplu bir kınama olarak yorumlanabilirdi. ",shape=box,color=blue];
+		2147 -> 2137;
+	2137 [label="Tormis gitti ve Tormis geri geldi, yeni bir Sistemin ve yerleşilecek yeni dünyaların harikulade mücevherlerle süslü anılarını taşıyarak. ",shape=box,color=blue];
+		2137 -> 5682;
+	5682 [label="Birkaç gün içinde sömürgeci gemilerden oluşan bir filo, bakir kıyıya ayak basmak için can atarak yola çıktı.",shape=box,color=blue];
+		5682 -> 2148;
+	2148 [label="Ardından gelen Sentient saldırısı ise havayı biraz bozdu.",shape=box,color=blue];
+		2148 -> 2142;
+	2142 [label="Add 1 to HellStory",color=orange];
+		2142 -> 2329;
+	2329 [label="{\"Id\":2329,\"Incoming\":[2142],\"Outgoing\":[2146],\"GraphPos\":[5096,-10871],\"CompletionType\":1}",color=orange];
+		2329 -> 2146;
+	2146 [label="Chat ends.",color=orange];
+}

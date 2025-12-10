@@ -1,16 +1,21 @@
 digraph {
-	"EleanorBirthdayConvo3 begins." [color=orange];
-		"EleanorBirthdayConvo3 begins." -> j2659935322;
-		"EleanorBirthdayConvo3 begins." -> j923746452;
-	j2659935322 [label="З днем народження, Елеоноро! Сподіваюся, тобі сподобається!",shape=box,color=red];
-		j2659935322 -> j2908829352;
-	j923746452 [label="… тож чи важко задувати свічки на святковому торті, коли тобі заважає язик?",shape=box,color=red];
-		j923746452 -> j1738897612;
-	j2908829352 [label="+20 Chemistry",color=orange];
-		j2908829352 -> j2071444502;
-	j1738897612 [label="Дякую за нагадування, що я не їла торт на день народження вже багато років. Справді турботливо.",shape=box,color=blue];
-		j1738897612 -> "Chat ends.";
-	j2071444502 [label="Так і є. Всі були дуже милими, навіть ті, хто зазвичай такими не є. Можливо, для нас ще є надія?",shape=box,color=blue];
-		j2071444502 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	2832 [label="EleanorBirthdayConvo3 begins.",color=orange];
+		2832 -> 2833;
+		2832 -> 2836;
+	2833 [label="З днем народження, Елеоноро! Сподіваюся, тобі сподобається!",shape=box,color=red];
+		2833 -> 784;
+	2836 [label="… тож чи важко задувати свічки на святковому торті, коли тобі заважає язик?",shape=box,color=red];
+		2836 -> 785;
+	784 [label="+20 Chemistry",color=orange];
+		784 -> 2835;
+	785 [label="Дякую за нагадування, що я не їла торт на день народження вже багато років. Справді турботливо.",shape=box,color=blue];
+		785 -> 2843;
+	2835 [label="Так і є. Всі були дуже милими, навіть ті, хто зазвичай такими не є. Можливо, для нас ще є надія?",shape=box,color=blue];
+		2835 -> 2838;
+	2843 [label="{\"Id\":2843,\"Incoming\":[785],\"Outgoing\":[783],\"GraphPos\":[1879,-2636],\"CompletionType\":1}",color=orange];
+		2843 -> 783;
+	2838 [label="{\"Id\":2838,\"Incoming\":[2835],\"Outgoing\":[2834],\"GraphPos\":[1883,-2830],\"CompletionType\":1}",color=orange];
+		2838 -> 2834;
+	783 [label="Chat ends.",color=orange];
+	2834 [label="Chat ends.",color=orange];
 }

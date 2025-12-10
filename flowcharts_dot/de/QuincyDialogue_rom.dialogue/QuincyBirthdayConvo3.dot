@@ -1,16 +1,21 @@
 digraph {
-	"QuincyBirthdayConvo3 begins." [color=orange];
-		"QuincyBirthdayConvo3 begins." -> j1578833949;
-		"QuincyBirthdayConvo3 begins." -> j1972155315;
-	j1578833949 [label="Willst du zu deinem Geburtstag in die Clubs gehen?",shape=box,color=red];
-		j1578833949 -> j3898054978;
-	j1972155315 [label="We wäre es mit einer ruhigen Geburtstagsnacht mit den Hex?",shape=box,color=red];
-		j1972155315 -> j1057307602;
-	j3898054978 [label="+20 Chemistry",color=orange];
-		j3898054978 -> j2820595852;
-	j1057307602 [label="ja und wir können so kleine papierhüte und so tragen. laaaangweilig",shape=box,color=blue];
-		j1057307602 -> "Chat ends.";
-	j2820595852 [label="hahahah aber klar. gehen wir so richtig in der stadt feiern, cuz!",shape=box,color=blue];
-		j2820595852 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3534 [label="QuincyBirthdayConvo3 begins.",color=orange];
+		3534 -> 3550;
+		3534 -> 3553;
+	3550 [label="Willst du zu deinem Geburtstag in die Clubs gehen?",shape=box,color=red];
+		3550 -> 3551;
+	3553 [label="We wäre es mit einer ruhigen Geburtstagsnacht mit den Hex?",shape=box,color=red];
+		3553 -> 3555;
+	3551 [label="+20 Chemistry",color=orange];
+		3551 -> 3549;
+	3555 [label="ja und wir können so kleine papierhüte und so tragen. laaaangweilig",shape=box,color=blue];
+		3555 -> 3156;
+	3549 [label="hahahah aber klar. gehen wir so richtig in der stadt feiern, cuz!",shape=box,color=blue];
+		3549 -> 3168;
+	3156 [label="{\"Id\":3156,\"Incoming\":[3555],\"Outgoing\":[3554],\"GraphPos\":[1144,-4045],\"CompletionType\":1}",color=orange];
+		3156 -> 3554;
+	3168 [label="{\"Id\":3168,\"Incoming\":[3549],\"Outgoing\":[3552],\"GraphPos\":[1510,-4198],\"CompletionType\":1}",color=orange];
+		3168 -> 3552;
+	3554 [label="Chat ends.",color=orange];
+	3552 [label="Chat ends.",color=orange];
 }

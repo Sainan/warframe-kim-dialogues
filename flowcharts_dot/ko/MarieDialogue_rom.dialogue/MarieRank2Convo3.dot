@@ -1,0 +1,30 @@
+digraph {
+	585 [label="MarieRank2Convo3 begins.",color=orange];
+		585 -> 586;
+	586 [label="아직도 리온이 당신과 대화를 나누지 않았나요?",shape=box,color=blue];
+		586 -> 587;
+		586 -> 589;
+		586 -> 588;
+	587 [label="아직, 그렇지만 괜찮아. 이해해. 시간이 필요한 거잖아.",shape=box,color=red];
+		587 -> 590;
+	589 [label="안타깝게도, 아니.",shape=box,color=red];
+		589 -> 592;
+	588 [label="[종료.]",shape=box,color=red];
+		588 -> 591;
+	590 [label="+5 Chemistry",color=orange];
+		590 -> 593;
+	592 [label="그 때가 올 거에요. 확신이 들어요. 그저 인내심을 가지세요.",shape=box,color=blue];
+		592 -> 594;
+	591 [label="Chat ends.",color=orange];
+	593 [label="정말 상냥하시네요, merci pour ta bienveillance à ce regard.",shape=box,color=blue];
+		593 -> 595;
+	594 [label="+15 Chemistry",color=orange];
+		594 -> 596;
+	595 [label="리온이 당신과 대화할 준비가 되었다고 결정하면 정말 큰 도움이 될 거에요. ",shape=box,color=blue];
+		595 -> 594;
+	596 [label="전 믿어요.",shape=box,color=blue];
+		596 -> 597;
+	597 [label="믿음을 가지고 기다리는 동안 - 저 또한 끈기있게 기다리겠어요 !",shape=box,color=blue];
+		597 -> 598;
+	598 [label="Chat ends.",color=orange];
+}

@@ -1,0 +1,33 @@
+digraph {
+	2317 [label="RoatheStory20 begins.",color=orange];
+		2317 -> 5678;
+	5678 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5678 -> 2318 [label=true,color=green];
+		5678 -> 5679 [label=false,color=brown];
+	2318 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2318 -> 2312 [label="x >= 20",color=purple];
+		2318 -> 2315 [label="false",color=purple];
+	5679 [label="Chat ends.",color=orange];
+	2312 [label="语音留言：顺服",shape=box,color=blue];
+		2312 -> 2311;
+	2315 [label="Chat ends.",color=orange];
+	2311 [label="文字记录：我从一开始就明白——无论是在战场上还是在闺房里——看似顺从才是取胜之道。",shape=box,color=blue];
+		2311 -> 5722;
+	5722 [label="敌人一旦发现你有所退让，对方就会乘胜追击；而这正是你轻易绊倒对方的绝佳机会。",shape=box,color=blue];
+		5722 -> 5723;
+	5723 [label="“走狗”，他们叫我“走狗”。尼托自以为一切尽在掌握。其实正是我巧妙地引导了她。",shape=box,color=blue];
+		5723 -> 2310;
+	2310 [label="罗瑟，那个双手沾满鲜血的家伙。罗瑟，那个靠着手下尸体养肥的食人魔。挥霍无度，浪费生命。",shape=box,color=blue];
+		2310 -> 2314;
+	2314 [label="他们还以为我只是为了打仗而打仗！不。奥罗金帝国必须终结。",shape=box,color=blue];
+		2314 -> 5724;
+	5724 [label="为了实现这一点，战争必须继续。只有彻底的、不可逆转的失败，才能推翻那七座金色合成兽像。",shape=box,color=blue];
+		5724 -> 2316;
+	2316 [label="就连尼托也不知道我的真实想法。她一直以为我渴望与她一同统治。",shape=box,color=blue];
+		2316 -> 2309;
+	2309 [label="Add 1 to HellStory",color=orange];
+		2309 -> 2347;
+	2347 [label="{\"Id\":2347,\"Incoming\":[2309],\"Outgoing\":[2313],\"GraphPos\":[4758,-3705],\"CompletionType\":1}",color=orange];
+		2347 -> 2313;
+	2313 [label="Chat ends.",color=orange];
+}

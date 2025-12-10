@@ -1,0 +1,31 @@
+digraph {
+	2294 [label="RoatheStory18 begins.",color=orange];
+		2294 -> 5675;
+	5675 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5675 -> 2296 [label=true,color=green];
+		5675 -> 5674 [label=false,color=brown];
+	2296 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2296 -> 2293 [label="x >= 18",color=purple];
+		2296 -> 2298 [label="false",color=purple];
+	5674 [label="Chat ends.",color=orange];
+	2293 [label="MV: TRADIMENTO",shape=box,color=blue];
+		2293 -> 2292;
+	2298 [label="Chat ends.",color=orange];
+	2292 [label="Trascrizione: 'Pace?'",shape=box,color=blue];
+		2292 -> 5717;
+	5717 [label="La sua voce era come un vetro rotto che mi strideva nelle orecchie.",shape=box,color=blue];
+		5717 -> 5718;
+	5718 [label="L'Esecutrice Nitokh era contrariata. Si aspettava una gloriosa escalation, battaglia dopo battaglia, che si sarebbe conclusa con l'estasi culminante della disfatta degli Orokin.",shape=box,color=blue];
+		5718 -> 5719;
+	5719 [label="Dopo di che sarebbe emersa dal nascondiglio e… beh, qui non mi resta che fare delle ipotesi. Forse si aspettava di essere invitata a entrare nella confidenza dei Sentient.",shape=box,color=blue];
+		5719 -> 2291;
+	2291 [label="O forse pensava che avrebbero abbandonato i resti bruciati e inquinati del Sistema Origin e l'avrebbero lasciata a fondare un nuovo regno tutto suo.",shape=box,color=blue];
+		2291 -> 2297;
+	2297 [label="Comunue, la pace non sarebbe stata tollerata. Così ci siamo messi all'opera per indebolirla.",shape=box,color=blue];
+		2297 -> 2290;
+	2290 [label="Add 1 to HellStory",color=orange];
+		2290 -> 2345;
+	2345 [label="{\"Id\":2345,\"Incoming\":[2290],\"Outgoing\":[2295],\"GraphPos\":[4716,-4539],\"CompletionType\":1}",color=orange];
+		2345 -> 2295;
+	2295 [label="Chat ends.",color=orange];
+}

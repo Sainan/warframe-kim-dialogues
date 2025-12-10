@@ -1,16 +1,21 @@
 digraph {
-	"EleanorBirthdayConvo3 begins." [color=orange];
-		"EleanorBirthdayConvo3 begins." -> j3614292808;
-		"EleanorBirthdayConvo3 begins." -> j1189770396;
-	j3614292808 [label="Herzlichen Glückwunsch zum Geburtstag, Eleanor! Ich hoffe, du genießt ihn!",shape=box,color=red];
-		j3614292808 -> j4075684459;
-	j1189770396 [label="... ist es schwierig, die Kerzen auf der Geburtstagstorte auszublasen, mit deiner Zunge im Weg?",shape=box,color=red];
-		j1189770396 -> j1926874040;
-	j4075684459 [label="+20 Chemistry",color=orange];
-		j4075684459 -> j4076255011;
-	j1926874040 [label="Danke, dass du mich daran erinnerst, dass ich seit Jahren keinen Geburtstagskuchen bekommen habe. Wirklich aufmerksam.",shape=box,color=blue];
-		j1926874040 -> "Chat ends.";
-	j4076255011 [label="Das mach ich. Alle sind sehr nett, sogar diejenigen, die es normalerweise nicht sind. Vielleicht gibt es doch noch Hoffnung für uns?",shape=box,color=blue];
-		j4076255011 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	2832 [label="EleanorBirthdayConvo3 begins.",color=orange];
+		2832 -> 2833;
+		2832 -> 2836;
+	2833 [label="Herzlichen Glückwunsch zum Geburtstag, Eleanor! Ich hoffe, du genießt ihn!",shape=box,color=red];
+		2833 -> 784;
+	2836 [label="... ist es schwierig, die Kerzen auf der Geburtstagstorte auszublasen, mit deiner Zunge im Weg?",shape=box,color=red];
+		2836 -> 785;
+	784 [label="+20 Chemistry",color=orange];
+		784 -> 2835;
+	785 [label="Danke, dass du mich daran erinnerst, dass ich seit Jahren keinen Geburtstagskuchen bekommen habe. Wirklich aufmerksam.",shape=box,color=blue];
+		785 -> 2843;
+	2835 [label="Das mach ich. Alle sind sehr nett, sogar diejenigen, die es normalerweise nicht sind. Vielleicht gibt es doch noch Hoffnung für uns?",shape=box,color=blue];
+		2835 -> 2838;
+	2843 [label="{\"Id\":2843,\"Incoming\":[785],\"Outgoing\":[783],\"GraphPos\":[1879,-2636],\"CompletionType\":1}",color=orange];
+		2843 -> 783;
+	2838 [label="{\"Id\":2838,\"Incoming\":[2835],\"Outgoing\":[2834],\"GraphPos\":[1883,-2830],\"CompletionType\":1}",color=orange];
+		2838 -> 2834;
+	783 [label="Chat ends.",color=orange];
+	2834 [label="Chat ends.",color=orange];
 }

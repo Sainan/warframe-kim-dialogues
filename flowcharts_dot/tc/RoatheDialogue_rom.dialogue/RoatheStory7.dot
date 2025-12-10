@@ -1,0 +1,29 @@
+digraph {
+	2194 [label="RoatheStory7 begins.",color=orange];
+		2194 -> 5652;
+	5652 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5652 -> 2189 [label=true,color=green];
+		5652 -> 5653 [label=false,color=brown];
+	2189 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2189 -> 2193 [label="x >= 7",color=purple];
+		2189 -> 2192 [label="false",color=purple];
+	5653 [label="Chat ends.",color=orange];
+	2193 [label="VM: COMMISSION",shape=box,color=blue];
+		2193 -> 2191;
+	2192 [label="Chat ends.",color=orange];
+	2191 [label="轉錄：我聽說，在七人眾之中，我被視為 Nitokh 的玩物和情人。",shape=box,color=blue];
+		2191 -> 5688;
+	5688 [label="在戰爭初期，在她的慫恿下，他們任命我為副攝政大元帥，以為這是個玩笑話。",shape=box,color=blue];
+		5688 -> 5689;
+	5689 [label="當我一次又一次帶回勝利的消息時，他們的笑聲多快就變成了莊嚴的掌聲。",shape=box,color=blue];
+		5689 -> 2187;
+	2187 [label="更優秀之人的鮮血，如同勳章點綴在我身上。我在暗地裡為 Nitokh 囤積武器。",shape=box,color=blue];
+		2187 -> 2188;
+	2188 [label="這很容易就能夠做到。我當時的聲望太高，沒人會懷疑我。",shape=box,color=blue];
+		2188 -> 2186;
+	2186 [label="Add 1 to HellStory",color=orange];
+		2186 -> 2334;
+	2334 [label="{\"Id\":2334,\"Incoming\":[2186],\"Outgoing\":[2190],\"GraphPos\":[3830,-9139],\"CompletionType\":1}",color=orange];
+		2334 -> 2190;
+	2190 [label="Chat ends.",color=orange];
+}

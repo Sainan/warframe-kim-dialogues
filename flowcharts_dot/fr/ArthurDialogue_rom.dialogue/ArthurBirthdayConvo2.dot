@@ -1,16 +1,21 @@
 digraph {
-	"ArthurBirthdayConvo2 begins." [color=orange];
-		"ArthurBirthdayConvo2 begins." -> j3834121095;
-		"ArthurBirthdayConvo2 begins." -> j453669334;
-	j3834121095 [label="Joyeux anniversaire au petit frère d'Eleanor!",shape=box,color=red];
-		j3834121095 -> j399532730;
-	j453669334 [label="Joyeux anniversaire, Arthur. Des plans?",shape=box,color=red];
-		j453669334 -> j4051064930;
-	j399532730 [label="Merveilleux. Maintenant, j'en ai deux sur le dos qui ne laisseront jamais tomber ça.",shape=box,color=blue];
-		j399532730 -> "Chat ends.";
-	j4051064930 [label="+20 Chemistry",color=orange];
-		j4051064930 -> j1998968443;
-	"Chat ends." [color=orange];
-	j1998968443 [label="Merci! C'est gentil de ta part de t'en souvenir. Je vais peut-être partir une demi-heure plus tôt aujourd'hui. Je n'ai pas encore décidé.",shape=box,color=blue];
-		j1998968443 -> "Chat ends.";
+	3191 [label="ArthurBirthdayConvo2 begins.",color=orange];
+		3191 -> 3205;
+		3191 -> 3203;
+	3205 [label="Joyeux anniversaire au petit frère d'Eleanor!",shape=box,color=red];
+		3205 -> 3200;
+	3203 [label="Joyeux anniversaire, Arthur. Des plans?",shape=box,color=red];
+		3203 -> 3204;
+	3200 [label="Merveilleux. Maintenant, j'en ai deux sur le dos qui ne laisseront jamais tomber ça.",shape=box,color=blue];
+		3200 -> 3224;
+	3204 [label="+20 Chemistry",color=orange];
+		3204 -> 3202;
+	3224 [label="{\"Id\":3224,\"Incoming\":[3200],\"Outgoing\":[3201],\"GraphPos\":[-30896,-13827],\"CompletionType\":1}",color=orange];
+		3224 -> 3201;
+	3202 [label="Merci! C'est gentil de ta part de t'en souvenir. Je vais peut-être partir une demi-heure plus tôt aujourd'hui. Je n'ai pas encore décidé.",shape=box,color=blue];
+		3202 -> 3223;
+	3201 [label="Chat ends.",color=orange];
+	3223 [label="{\"Id\":3223,\"Incoming\":[3202],\"Outgoing\":[3206],\"GraphPos\":[-30893,-13986],\"CompletionType\":1}",color=orange];
+		3223 -> 3206;
+	3206 [label="Chat ends.",color=orange];
 }

@@ -1,16 +1,21 @@
 digraph {
-	"ArthurBirthdayConvo1 begins." [color=orange];
-		"ArthurBirthdayConvo1 begins." -> j2632952440;
-		"ArthurBirthdayConvo1 begins." -> j843096715;
-	j2632952440 [label="Je sais que tu es occupé, mais je voulais juste te souhaiter un joyeux anniversaire :)",shape=box,color=red];
-		j2632952440 -> j3148050322;
-	j843096715 [label="Joyeux anniversaire! (Tu sais ce que signifie être \"joyeux\", hein?)",shape=box,color=red];
-		j843096715 -> j2373685295;
-	j3148050322 [label="+20 Chemistry",color=orange];
-		j3148050322 -> j2206729812;
-	j2373685295 [label="Je le sais. Tu sais ce que signifie être \"drôle\"?",shape=box,color=blue];
-		j2373685295 -> "Chat ends.";
-	j2206729812 [label="Je ne suis jamais trop occupé pour un message d'anniversaire, camarade. Merci.",shape=box,color=blue];
-		j2206729812 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3190 [label="ArthurBirthdayConvo1 begins.",color=orange];
+		3190 -> 3193;
+		3190 -> 3194;
+	3193 [label="Je sais que tu es occupé, mais je voulais juste te souhaiter un joyeux anniversaire :)",shape=box,color=red];
+		3193 -> 3195;
+	3194 [label="Joyeux anniversaire! (Tu sais ce que signifie être \"joyeux\", hein?)",shape=box,color=red];
+		3194 -> 3198;
+	3195 [label="+20 Chemistry",color=orange];
+		3195 -> 3196;
+	3198 [label="Je le sais. Tu sais ce que signifie être \"drôle\"?",shape=box,color=blue];
+		3198 -> 3222;
+	3196 [label="Je ne suis jamais trop occupé pour un message d'anniversaire, camarade. Merci.",shape=box,color=blue];
+		3196 -> 3221;
+	3222 [label="{\"Id\":3222,\"Incoming\":[3198],\"Outgoing\":[3199],\"GraphPos\":[-30892,-14264],\"CompletionType\":1}",color=orange];
+		3222 -> 3199;
+	3221 [label="{\"Id\":3221,\"Incoming\":[3196],\"Outgoing\":[3197],\"GraphPos\":[-30889,-14423],\"CompletionType\":1}",color=orange];
+		3221 -> 3197;
+	3199 [label="Chat ends.",color=orange];
+	3197 [label="Chat ends.",color=orange];
 }

@@ -1,0 +1,27 @@
+digraph {
+	2157 [label="RoatheStory3 begins.",color=orange];
+		2157 -> 5645;
+	5645 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5645 -> 2155 [label=true,color=green];
+		5645 -> 5644 [label=false,color=brown];
+	2155 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2155 -> 2149 [label="x >= 3",color=purple];
+		2155 -> 2151 [label="false",color=purple];
+	5644 [label="Chat ends.",color=orange];
+	2149 [label="MV: OROKIN",shape=box,color=blue];
+		2149 -> 2150;
+	2151 [label="Chat ends.",color=orange];
+	2150 [label="Transcription: pendant si longtemps, l’Empire Orokin n’eut aucun ennemi. Son armée n’existait que pour régler de mesquines querelles, maison contre maison, Exécuteur contre Exécuteur.",shape=box,color=blue];
+		2150 -> 2153;
+	2153 [label="Lorsque les Sentients attaquèrent, nous fûmes unis, une unité qui nous avait longtemps fait défaut. Les Dax dégainèrent leurs épées contre autre chose qu'un paysan insolent ou un marchand malhonnête.",shape=box,color=blue];
+		2153 -> 2154;
+	2154 [label="Les Empereurs, les souverains immortels de l'Empire dont le pouvoir était dévolu aux Exécuteurs, s'éveillèrent en titubant sur leurs trônes dorés poussiéreux.",shape=box,color=blue];
+		2154 -> 5683;
+	5683 [label="La guerre, la magnifique guerre! Enfin, l'Empire avait un sens. Confrontés à une extinction plus imminente que la mort du soleil, nous avons goûté à la source même de la vie.",shape=box,color=blue];
+		5683 -> 2152;
+	2152 [label="Add 1 to HellStory",color=orange];
+		2152 -> 2330;
+	2330 [label="{\"Id\":2330,\"Incoming\":[2152],\"Outgoing\":[2156],\"GraphPos\":[3600,-10586],\"CompletionType\":1}",color=orange];
+		2330 -> 2156;
+	2156 [label="Chat ends.",color=orange];
+}

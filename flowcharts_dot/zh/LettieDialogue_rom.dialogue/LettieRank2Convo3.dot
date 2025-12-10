@@ -1,197 +1,205 @@
 digraph {
-	"LettieRank2Convo3 begins." [color=orange];
-		"LettieRank2Convo3 begins." -> j1666291197;
-	j1666291197 [label="Check boolean LettieOrokin1",color=orange];
-		j1666291197 -> j2076733467 [label=true,color=green];
-		j1666291197 -> j2477948857 [label=false,color=brown];
-	j2076733467 [label="这些 Orokin 人，英择谛也是其中一个
+	352 [label="LettieRank2Convo3 begins.",color=orange];
+		352 -> 353;
+	353 [label="Check boolean LettieOrokin1",color=orange];
+		353 -> 354 [label=true,color=green];
+		353 -> 355 [label=false,color=brown];
+	354 [label="这些奥罗金人，英择谛也是其中一个
 是吗？ 
 说得通，他以为自己是某种神，毁了不少生命",shape=box,color=blue];
-		j2076733467 -> j1875659696;
-		j2076733467 -> j2919687549;
-	j2477948857 [label="我想知道英择谛凭什么
+		354 -> 356;
+		354 -> 357;
+	355 [label="我想知道英择谛凭什么
 来这里破坏人家的生活 
 这个 pinche güey 以为他是谁？！",shape=box,color=blue];
-		j2477948857 -> j1061845988;
-		j2477948857 -> j675695534;
-		j2477948857 -> j2919687549;
-	j1875659696 [label="算是吧？半对。他进行虚空实验后，人们对他顶礼膜拜。但他对之前遭受的事心存怨恨，所以……这有点难解释。",shape=box,color=red];
-		j1875659696 -> j1003344449;
-		j1875659696 -> j1061845988;
-	j2919687549 [label="我得走了，抱歉。[结束]",shape=box,color=red];
-		j2919687549 -> "Chat ends.";
-	j1061845988 [label="但他认为他所做的一切是为了更大的善。",shape=box,color=red];
-		j1061845988 -> j1740087484;
-	j675695534 [label="他经常和 Orokin 人混在一起。一直自认为是神。",shape=box,color=red];
-		j675695534 -> j246576352;
-	j1003344449 [label="我觉得这就是他的本性。你应该见见科维兽。",shape=box,color=red];
-		j1003344449 -> j1872724363;
-	"Chat ends." [color=orange];
-	j1740087484 [label="Boolean LettieEntrati is now true.",color=orange];
-		j1740087484 -> j3493919633;
-	j246576352 [label="Orokin？",shape=box,color=blue];
-		j246576352 -> j4157639181;
-	j1872724363 [label="Boolean LettieCavia is now true.",color=orange];
-		j1872724363 -> j332146913;
-	j3493919633 [label="更大的善，屁话",shape=box,color=blue];
-		j3493919633 -> j2588710277;
-		j3493919633 -> j4267733226;
-	j4157639181 [label="Boolean LettieOrokin1 is now true.",color=orange];
-		j4157639181 -> j4181651605;
-		j4157639181 -> j2258544166;
-	j332146913 [label="科维兽是谁",shape=box,color=blue];
-		j332146913 -> j620967442;
-	j2588710277 [label="我不知道，你的屁股*倒是*挺不错的。;)",shape=box,color=red];
-		j2588710277 -> j3842215817;
-	j4267733226 [label="客观来说，阻止墙中人确实是个相当重要的问题。",shape=box,color=red];
-		j4267733226 -> j1328828378;
-	j4181651605 [label="我所在未来的统治阶级。他们让人们把他们当作神一样来崇拜。",shape=box,color=red];
-		j4181651605 -> j3098291846;
-	j2258544166 [label="他们是一群以为自己高人一等的混蛋。就这些。",shape=box,color=red];
-		j2258544166 -> j3098291846;
-	j620967442 [label="我的朋友们。是些动物，曾被那个英择谛送进过虚空做实验。",shape=box,color=red];
-		j620967442 -> j4204998187;
-	j3842215817 [label="+5 Chemistry",color=orange];
-		j3842215817 -> j3442155979;
-	j1328828378 [label="这并不意味着他在做正确的事 
+		355 -> 360;
+		355 -> 361;
+		355 -> 362;
+	356 [label="算是吧？半对。他进行虚空实验后，人们对他顶礼膜拜。但他对之前遭受的事心存怨恨，所以……这有点难解释。",shape=box,color=red];
+		356 -> 359;
+		356 -> 360;
+	357 [label="我得走了，抱歉。[结束]",shape=box,color=red];
+		357 -> 358;
+	360 [label="但他认为他所做的一切是为了更大的善。",shape=box,color=red];
+		360 -> 367;
+	361 [label="他经常和奥罗金人混在一起。一直自认为是神。",shape=box,color=red];
+		361 -> 364;
+	362 [label="我得走了，抱歉。[结束]",shape=box,color=red];
+		362 -> 363;
+	359 [label="我觉得这就是他的本性。你应该见见科维兽。",shape=box,color=red];
+		359 -> 366;
+	358 [label="Chat ends.",color=orange];
+	367 [label="Update boolean LettieEntrati",color=orange];
+		367 -> 369;
+	364 [label="奥罗金？",shape=box,color=blue];
+		364 -> 365;
+	363 [label="Chat ends.",color=orange];
+	366 [label="Update boolean LettieCavia",color=orange];
+		366 -> 368;
+	369 [label="更大的善，屁话",shape=box,color=blue];
+		369 -> 371;
+		369 -> 372;
+	365 [label="Update boolean LettieOrokin1",color=orange];
+		365 -> 373;
+		365 -> 374;
+	368 [label="科维兽是谁",shape=box,color=blue];
+		368 -> 370;
+	371 [label="我不知道，你的屁股*倒是*挺不错的。;)",shape=box,color=red];
+		371 -> 375;
+	372 [label="客观来说，阻止墙中人确实是个相当重要的问题。",shape=box,color=red];
+		372 -> 377;
+	373 [label="我所在未来的统治阶级。他们让人们把他们当作神一样来崇拜。",shape=box,color=red];
+		373 -> 378;
+	374 [label="他们是一群以为自己高人一等的混蛋。就这些。",shape=box,color=red];
+		374 -> 378;
+	370 [label="我的朋友们。是些动物，曾被那个英择谛送进过虚空做实验。",shape=box,color=red];
+		370 -> 376;
+	375 [label="+5 Chemistry",color=orange];
+		375 -> 380;
+	377 [label="这并不意味着他在做正确的事 
 像他这样的 pendejos 都一个样 
 固执地要解决他们的问题 
 其他人都是附带的牺牲品",shape=box,color=blue];
-		j1328828378 -> j3401026460;
-	j3098291846 [label="这不是第一次有人自封为王
+		377 -> 385;
+	378 [label="这不是第一次有人自封为王
 还自认为神圣",shape=box,color=blue];
-		j3098291846 -> j727828619;
-	j4204998187 [label="我还需要更多理由去恨他吗…… 
+		378 -> 382;
+	376 [label="我还需要更多理由去恨他吗…… 
 实验动物？！",shape=box,color=blue];
-		j4204998187 -> j2118869120;
-	j3442155979 [label="JAJA 
+		376 -> 379;
+	380 [label="JAJA 
 你懂的",shape=box,color=blue];
-		j3442155979 -> j3259808580;
-	j3401026460 [label="他根本不在乎伤害了谁，也不在乎伤害有多严重 
+		380 -> 381;
+	385 [label="他根本不在乎伤害了谁，也不在乎伤害有多严重 
 为了所谓的任务，其他人不过是他附带的牺牲品",shape=box,color=blue];
-		j3401026460 -> j3747526042;
-	j727828619 [label="这就解释了英择谛
+		385 -> 390;
+	382 [label="这就解释了英择谛
 他自以为是神，行事也一副神的样子
 像他这样的 pendejos 都一个样 
 固执地要解决他们的问题 
 其他人都是附带的牺牲品",shape=box,color=blue];
-		j727828619 -> j3401026460;
-	j2118869120 [label="他们被送入虚空，回来后拥有了智慧。",shape=box,color=red];
-		j2118869120 -> j1660483184;
-	j3259808580 [label="但像他这样的 pendejos 都是一个样
+		382 -> 385;
+	379 [label="他们被送入虚空，回来后拥有了智慧。",shape=box,color=red];
+		379 -> 383;
+	381 [label="但像他这样的 pendejos 都是一个样
 一心只想解决问题，其他人都只是附带的牺牲品 
 他们不在乎自己伤害了谁，也不在乎伤害有多严重 
 如果能达到他的目的，他连整个宇宙都敢烧",shape=box,color=blue];
-		j3259808580 -> j3747526042;
-	j3747526042 [label="像他这样的人，害得像我们这样的人被杀",shape=box,color=blue];
-		j3747526042 -> j1989508065;
-	j1660483184 [label="虚空可以带来……这种奇怪的变化。",shape=box,color=red];
-		j1660483184 -> j1988260570;
-	j1989508065 [label="你永远不会看到他为了事业而牺牲自己 
+		381 -> 390;
+	390 [label="像他这样的人，害得像我们这样的人被杀",shape=box,color=blue];
+		390 -> 394;
+	383 [label="虚空可以带来……这种奇怪的变化。",shape=box,color=red];
+		383 -> 384;
+	394 [label="你永远不会看到他为了事业而牺牲自己 
 他永远不会牺牲自己的生命 
 只会牺牲他周围的人",shape=box,color=blue];
-		j1989508065 -> j3989109138;
-	j1988260570 [label="让我猜一下，他就这样抛弃了他们 
+		394 -> 396;
+	384 [label="让我猜一下，他就这样抛弃了他们 
 看到了自己的所作所为，然后走开了，因为他不再需要他们了",shape=box,color=blue];
-		j1988260570 -> j175924558;
-		j1988260570 -> j1469626231;
-	j3989109138 [label="这让你不禁想，到底谁才是真正的怪物",shape=box,color=blue];
-		j3989109138 -> j3759869193;
-		j3989109138 -> j2726428824;
-	j175924558 [label="是的，你猜对了。现在他们是……一群有着人类智慧和心理创伤的动物。",shape=box,color=red];
-		j175924558 -> j3430629050;
-	j1469626231 [label="他在努力阻止墙中人。这很重要。",shape=box,color=red];
-		j1469626231 -> j1830323399;
-	j3759869193 [label="我明白他为什么要不惜一切代价阻止墙中人。",shape=box,color=red];
-		j3759869193 -> j2116005162;
-	j2726428824 [label="为了阻止墙中人，我们需要他。但这并不意味着我信任他。或者喜欢他。",shape=box,color=red];
-		j2726428824 -> j187076143;
-	j3430629050 [label="Oh，pobres ángeles inocentes 
+		384 -> 386;
+		384 -> 387;
+	396 [label="这让你不禁想，到底谁才是真正的怪物",shape=box,color=blue];
+		396 -> 397;
+		396 -> 398;
+	386 [label="是的，你猜对了。现在他们是……一群有着人类智慧和心理创伤的动物。",shape=box,color=red];
+		386 -> 388;
+	387 [label="他在努力阻止墙中人。这很重要。",shape=box,color=red];
+		387 -> 389;
+	397 [label="我明白他为什么要不惜一切代价阻止墙中人。",shape=box,color=red];
+		397 -> 402;
+	398 [label="为了阻止墙中人，我们需要他。但这并不意味着我信任他。或者喜欢他。",shape=box,color=red];
+		398 -> 401;
+	388 [label="Oh，pobres ángeles inocentes 
 我会爱他们的，你说得对…… 
 我们不配拥有动物 
 他们对我们的爱是纯洁的，只求得到爱的回报",shape=box,color=blue];
-		j3430629050 -> j2828797899;
-		j3430629050 -> j1276639056;
-	j1830323399 [label="我不是说这不重要 
+		388 -> 391;
+		388 -> 392;
+	389 [label="我不是说这不重要 
 但像他这样的 pendejos 总是打着做好事的名义做最坏的事
 只要能赢，只要能达到目的，他们不在乎伤害了谁或者带来了多严重的伤害",shape=box,color=blue];
-		j1830323399 -> j3747526042;
-	j2116005162 [label="别以为你能理解神
+		389 -> 390;
+	402 [label="别以为你能理解神
 他们高于我们，不这样想的话简直愚蠢",shape=box,color=blue];
-		j2116005162 -> j3201214572;
-	j187076143 [label="+10 Chemistry",color=orange];
-		j187076143 -> j84753996;
-	j2828797899 [label="我尽我所能去帮助科维兽了。说实话，比起大多数人类我更喜欢他们。哈哈。",shape=box,color=red];
-		j2828797899 -> j1754638005;
-	j1276639056 [label="也许有一天我可以带你去看他们。",shape=box,color=red];
-		j1276639056 -> j662230980;
-	j3201214572 [label="Check boolean LettieReligion2",color=orange];
-		j3201214572 -> j687844506 [label=true,color=green];
-		j3201214572 -> j3683596970 [label=false,color=brown];
-	j84753996 [label="好 
+		402 -> 404;
+	401 [label="+10 Chemistry",color=orange];
+		401 -> 403;
+	391 [label="我尽我所能去帮助科维兽了。说实话，比起大多数人类我更喜欢他们。哈哈。",shape=box,color=red];
+		391 -> 399;
+	392 [label="也许有一天我可以带你去看他们。",shape=box,color=red];
+		392 -> 393;
+	404 [label="Check boolean LettieReligion2",color=orange];
+		404 -> 409 [label=true,color=green];
+		404 -> 410 [label=false,color=brown];
+	403 [label="好 
 别对那个 pendejo 掉以轻心 
 但要小心，不要假装了解神的本质",shape=box,color=blue];
-		j84753996 -> j3201214572;
-	j1754638005 [label="Boolean LettieRats1 is now true.",color=orange];
-		j1754638005 -> j3176142336;
-	j662230980 [label="我会超喜欢的 
+		403 -> 404;
+	399 [label="Update boolean LettieRats1",color=orange];
+		399 -> 395;
+	393 [label="我会超喜欢的 
 Gracias",shape=box,color=blue];
-		j662230980 -> j1754638005;
-	j687844506 [label="Xipe Totec 会感到自豪的 
+		393 -> 399;
+	409 [label="Xipe Totec 会感到自豪的 
 但就像剥皮神一样，小心不要让你这个老神最终披上你的皮",shape=box,color=blue];
-		j687844506 -> j1339096579;
-	j3683596970 [label="他追逐的这个东西 
+		409 -> 419;
+	410 [label="他追逐的这个东西 
 就像古代的血腥神灵一样，穿着人皮",shape=box,color=blue];
-		j3683596970 -> j1768892982;
-	j3176142336 [label="+10 Chemistry",color=orange];
-		j3176142336 -> j827039649;
-	j1339096579 [label="我可能会有点难过",shape=box,color=blue];
-		j1339096579 -> j1062948047;
-		j1339096579 -> j3433717017;
-	j1768892982 [label="剥皮神 Xipe Totec 会穿着敌人的皮肤 
+		410 -> 411;
+	395 [label="+10 Chemistry",color=orange];
+		395 -> 400;
+	419 [label="我可能会有点难过",shape=box,color=blue];
+		419 -> 420;
+		419 -> 421;
+	411 [label="剥皮神 Xipe Totec 会穿着敌人的皮肤 
 你的墙中人也是如此",shape=box,color=blue];
-		j1768892982 -> j1147327459;
-	j827039649 [label="这就是我养宠物的原因 
+		411 -> 414;
+	400 [label="这就是我养宠物的原因 
 当我孤独时，我的小鼠会陪伴我 
 当我受不了别人时，它们就在那里 
 可爱的小灵魂，只想要爱",shape=box,color=blue];
-		j827039649 -> j1227085894;
-	j1062948047 [label="哦，谢谢。",shape=box,color=red];
-		j1062948047 -> j938298989;
-	j3433717017 [label="莱蒂，我也爱你。",shape=box,color=red];
-		j3433717017 -> j2495471951;
-	j1147327459 [label="所以你做事要小心 
+		400 -> 405;
+	420 [label="哦，谢谢。",shape=box,color=red];
+		420 -> 422;
+	421 [label="莱蒂，我也爱你。",shape=box,color=red];
+		421 -> 423;
+	414 [label="所以你做事要小心 
 否则下一个被它穿上的可能就是你的脸了
 对吧，babas？",shape=box,color=blue];
-		j1147327459 -> j1339096579;
-	j1227085894 [label="还有切达芝士的小王冠 jaja 
+		414 -> 419;
+	405 [label="还有切达芝士的小王冠 jaja 
 哈哈，但更多的是爱",shape=box,color=blue];
-		j1227085894 -> j3940157587;
-	j938298989 [label="我应该回去工作了 
+		405 -> 406;
+	422 [label="我应该回去工作了 
 Nos vemos，babas",shape=box,color=blue];
-		j938298989 -> "Chat ends.";
-	j2495471951 [label="么么哒 
+		422 -> 424;
+	423 [label="么么哒 
 我得回去忙了
 Nos vemos，babas",shape=box,color=blue];
-		j2495471951 -> "Chat ends.";
-	j3940157587 [label="但如果我再遇到英择谛
+		423 -> 425;
+	406 [label="但如果我再遇到英择谛
 我会让他受苦 
 我会让他，为他给那些动物带来的每一分痛苦付出代价
 而且我会确保他知道为什么",shape=box,color=blue];
-		j3940157587 -> j2146061177;
-		j3940157587 -> j1123295601;
-	j2146061177 [label="我会在那里帮你做这件事。",shape=box,color=red];
-		j2146061177 -> j3699296795;
-	j1123295601 [label="一旦解决了墙中人，他就是你的了。",shape=box,color=red];
-		j1123295601 -> j1953094538;
-	j3699296795 [label="+10 Chemistry",color=orange];
-		j3699296795 -> j1953094538;
-	j1953094538 [label="传识终于能派上用场了，嗯",shape=box,color=blue];
-		j1953094538 -> j217786147;
-	j217786147 [label="或者你可以制服他
+		406 -> 407;
+		406 -> 408;
+	424 [label="Chat ends.",color=orange];
+	425 [label="Chat ends.",color=orange];
+	407 [label="我会在那里帮你做这件事。",shape=box,color=red];
+		407 -> 412;
+	408 [label="一旦解决了墙中人，他就是你的了。",shape=box,color=red];
+		408 -> 761;
+	412 [label="+10 Chemistry",color=orange];
+		412 -> 2439;
+	761 [label="传识终于能派上用场了，嗯",shape=box,color=blue];
+		761 -> 413;
+	2439 [label="传识终于能派上用场了，嗯",shape=box,color=blue];
+		2439 -> 413;
+	413 [label="或者你可以制服他
 嘿，我居然会为一件永远不可能发生的事感到兴奋",shape=box,color=blue];
-		j217786147 -> j1269325301;
-	j1269325301 [label="我应该回去工作了 
+		413 -> 416;
+	416 [label="我应该回去工作了 
 Nos vemos",shape=box,color=blue];
-		j1269325301 -> "Chat ends.";
+		416 -> 418;
+	418 [label="Chat ends.",color=orange];
 }

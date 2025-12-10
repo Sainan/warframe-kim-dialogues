@@ -1,0 +1,33 @@
+digraph {
+	2129 [label="RoatheStory1 begins.",color=orange];
+		2129 -> 5640;
+	5640 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5640 -> 2133 [label=true,color=green];
+		5640 -> 5642 [label=false,color=brown];
+	2133 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2133 -> 2130 [label="x >= 1",color=purple];
+		2133 -> 2134 [label="false",color=purple];
+	5642 [label="Chat ends.",color=orange];
+	2130 [label="НІТОГ",shape=box,color=blue];
+		2130 -> 2132;
+	2134 [label="Chat ends.",color=orange];
+	2132 [label="Витяг: Її божевілля було таким спокусливим, бо було очевидним.",shape=box,color=blue];
+		2132 -> 5636;
+	5636 [label="З нею завжди усвідомлюєш де стоїш — над урвищем великої безодні.",shape=box,color=blue];
+		5636 -> 5635;
+	5635 [label="Стрибай, говорили її очі, сяючи веселощами грандіозного жарту космічних масштабів.",shape=box,color=blue];
+		5635 -> 5637;
+	5637 [label="Завдяки божевільним видінням я міг утікати від довгого затхлого похмурого існування орокінів.",shape=box,color=blue];
+		5637 -> 2136;
+	2136 [label="Усі наші відчуття заціпеніли ще століття тому. Та вона, по-своєму, лишалася свіжою.",shape=box,color=blue];
+		2136 -> 5638;
+	5638 [label="Вічна. Безмежна у своїй спразі. Одного вечора вона покликала мене до своєї ванни. Я пройшов барвистими калюжами крові й пахучої води та став у покірній стійці.",shape=box,color=blue];
+		5638 -> 5639;
+	5639 [label="«Мені нудно, Роуте. Переб’ємо всіх інших орокінів, щоби перебрати владу на себе?».",shape=box,color=blue];
+		5639 -> 2135;
+	2135 [label="Add 1 to HellStory",color=orange];
+		2135 -> 2328;
+	2328 [label="{\"Id\":2328,\"Incoming\":[2135],\"Outgoing\":[2131],\"GraphPos\":[4730,-11318],\"CompletionType\":1}",color=orange];
+		2328 -> 2131;
+	2131 [label="Chat ends.",color=orange];
+}

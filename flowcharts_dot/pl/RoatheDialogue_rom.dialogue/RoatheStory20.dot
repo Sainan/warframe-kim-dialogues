@@ -1,0 +1,33 @@
+digraph {
+	2317 [label="RoatheStory20 begins.",color=orange];
+		2317 -> 5678;
+	5678 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5678 -> 2318 [label=true,color=green];
+		5678 -> 5679 [label=false,color=brown];
+	2318 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2318 -> 2312 [label="x >= 20",color=purple];
+		2318 -> 2315 [label="false",color=purple];
+	5679 [label="Chat ends.",color=orange];
+	2312 [label="VM: SUBMISSION",shape=box,color=blue];
+		2312 -> 2311;
+	2315 [label="Chat ends.",color=orange];
+	2311 [label="Transkrypcja: Od początku rozumiałem, zarówno na polu bitwy, jak i w sypialni, że droga do zwycięstwa wiedzie przez pozorną uległość.",shape=box,color=blue];
+		2311 -> 5722;
+	5722 [label="Where the enemy finds you yielding, there you can be sure he will push; and so you may easily trip him.",shape=box,color=blue];
+		5722 -> 5723;
+	5723 [label="“Lackey,” they called me. “Lapdog.” Nitokh thought herself in control. How subtly I guided her. ",shape=box,color=blue];
+		5723 -> 2310;
+	2310 [label="Roathe o krwawych rękach. Roathe, ogr, utuczony na ciałach swoich ludzi. Marnotrawca żyć.",shape=box,color=blue];
+		2310 -> 2314;
+	2314 [label="Jakbym walczył tylko dla ferworu walki! Nie. Imperium Orokin musi się skończyć.",shape=box,color=blue];
+		2314 -> 5724;
+	5724 [label="For that to happen, the war must continue. Only defeat, absolute and irrevocable, would topple those seven golden gargoyles.",shape=box,color=blue];
+		5724 -> 2316;
+	2316 [label="Nawet Nitokh nie znała mojego celu. Myślała, że pragnę rządzić u jej boku.",shape=box,color=blue];
+		2316 -> 2309;
+	2309 [label="Add 1 to HellStory",color=orange];
+		2309 -> 2347;
+	2347 [label="{\"Id\":2347,\"Incoming\":[2309],\"Outgoing\":[2313],\"GraphPos\":[4758,-3705],\"CompletionType\":1}",color=orange];
+		2347 -> 2313;
+	2313 [label="Chat ends.",color=orange];
+}

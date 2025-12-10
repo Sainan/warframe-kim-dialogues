@@ -1,240 +1,247 @@
 digraph {
-	"LettieRank3Convo1 begins." [color=orange];
-		"LettieRank3Convo1 begins." -> j144580622;
-	j144580622 [label="你是怎麼做到的，呆呆
+	562 [label="LettieRank3Convo1 begins.",color=orange];
+		562 -> 563;
+	563 [label="你是怎麼做到的，呆呆
 （西語）我不懂",shape=box,color=blue];
-		j144580622 -> j1136918008;
-		j144580622 -> j2153835160;
-		j144580622 -> j2498284850;
-	j1136918008 [label="你忘了說清楚你到底想說什麼。",shape=box,color=red];
-		j1136918008 -> j906868906;
-	j2153835160 [label="做到什麼？",shape=box,color=red];
-		j2153835160 -> j3894054348;
-	j2498284850 [label="魔法。",shape=box,color=red];
-		j2498284850 -> j378123607;
-	j906868906 [label="+5 Chemistry",color=orange];
-		j906868906 -> j2444280818;
-	j3894054348 [label="困著好幾個世紀，沒有時間 
+		563 -> 564;
+		563 -> 565;
+		563 -> 566;
+	564 [label="你忘了說清楚你到底想說什麼。",shape=box,color=red];
+		564 -> 570;
+	565 [label="做到什麼？",shape=box,color=red];
+		565 -> 571;
+	566 [label="魔法。",shape=box,color=red];
+		566 -> 567;
+	570 [label="+5 Chemistry",color=orange];
+		570 -> 569;
+	571 [label="困著好幾個世紀，沒有時間 
 沒有變化，沒有動靜
 我們就是這個地方的鬼魂",shape=box,color=blue];
-		j3894054348 -> j2631015866;
-	j378123607 [label="（西語）隨便",shape=box,color=blue];
-		j378123607 -> "Chat ends.";
-	j2444280818 [label="（西語）哈哈，是啊 
+		571 -> 572;
+	567 [label="（西語）隨便",shape=box,color=blue];
+		567 -> 568;
+	569 [label="（西語）哈哈，是啊 
 抱歉，最近獨自待在腦海的時間太長了
 不過最近有你和女巫陪著，情況好了一些",shape=box,color=blue];
-		j2444280818 -> j3894054348;
-	j2631015866 [label="Check boolean LettieDuviri",color=orange];
-		j2631015866 -> j1634671835 [label=true,color=green];
-		j2631015866 -> j3182798605 [label=false,color=brown];
-	"Chat ends." [color=orange];
-	j1634671835 [label="你說你在渡域就經歷過這些
+		569 -> 571;
+	572 [label="Check boolean LettieDuviri",color=orange];
+		572 -> 573 [label=true,color=green];
+		572 -> 574 [label=false,color=brown];
+	568 [label="Chat ends.",color=orange];
+	573 [label="你說你在渡域就經歷過這些
 那個死亡與故事的王國
 （西語）我肯定會發瘋
 我很擔心我現在就會失去理智",shape=box,color=blue];
-		j1634671835 -> j1563924575;
-		j1634671835 -> j853811494;
-		j1634671835 -> j3000763552;
-	j3182798605 [label="你說你以前就經歷過這些
+		573 -> 575;
+		573 -> 576;
+		573 -> 577;
+	574 [label="你說你以前就經歷過這些
 在你的那個地方
 （西語）我肯定會發瘋
 我很擔心我現在就會失去理智",shape=box,color=blue];
-		j3182798605 -> j3000763552;
-		j3182798605 -> j853811494;
-		j3182798605 -> j1563924575;
-	j1563924575 [label="老實說？我差點就會。我選擇讓自己麻木。",shape=box,color=red];
-		j1563924575 -> j865944921;
-	j853811494 [label="我想……我真的發了瘋一段時間。其中很多片段我都忘記了。",shape=box,color=red];
-		j853811494 -> j1429382736;
-	j3000763552 [label="我在渡域發生的事與這裡的情況很不同。你並不像我那樣孤身一人。",shape=box,color=red];
-		j3000763552 -> j3766625591;
-	j865944921 [label="（西語）是嗎？
+		574 -> 577;
+		574 -> 576;
+		574 -> 575;
+	575 [label="老實說？我差點就會。我選擇讓自己麻木。",shape=box,color=red];
+		575 -> 578;
+	576 [label="我想……我真的發了瘋一段時間。其中很多片段我都忘記了。",shape=box,color=red];
+		576 -> 579;
+	577 [label="我在渡域發生的事與這裡的情況很不同。你並不像我那樣孤身一人。",shape=box,color=red];
+		577 -> 580;
+	578 [label="（西語）是嗎？
 麻木，像個空殼
 但看起來你又活過來了，我在你身上看不到那種感覺",shape=box,color=blue];
-		j865944921 -> j391651117;
-		j865944921 -> j3478469893;
-	j1429382736 [label="我在士兵身上看過這種情況，經歷完慘烈的戰鬥，然後將一切屏蔽
+		578 -> 581;
+		578 -> 582;
+	579 [label="我在士兵身上看過這種情況，經歷完慘烈的戰鬥，然後將一切屏蔽
 心靈有時會保護自己免受最糟糕的傷害
 這是最好的，呆呆，相信我
 那麼？你是怎麼活下來的？",shape=box,color=blue];
-		j1429382736 -> j391651117;
-		j1429382736 -> j3478469893;
-	j3766625591 [label="（西語）是啊，但又不是
+		579 -> 581;
+		579 -> 582;
+	580 [label="（西語）是啊，但又不是
 那些人可不是我想要共度永恆的人啊，呆呆
 無意冒犯，但看看四周",shape=box,color=blue];
-		j3766625591 -> j571888300;
-	j391651117 [label="一旦我意識到發生了什麼，我就拼命抗爭，努力不想讓它吞噬我。",shape=box,color=red];
-		j391651117 -> j3660525520;
-	j3478469893 [label="我朋友幫了我，他將我拉了出來。",shape=box,color=red];
-		j3478469893 -> j356470110;
-	j571888300 [label="我只是負責把他們縫合好，在我們變成怪物之前
+		580 -> 583;
+	581 [label="一旦我意識到發生了什麼，我就拼命抗爭，努力不想讓它吞噬我。",shape=box,color=red];
+		581 -> 584;
+	582 [label="我朋友幫了我，他將我拉了出來。",shape=box,color=red];
+		582 -> 585;
+	583 [label="我只是負責把他們縫合好，在我們變成怪物之前
 現在我們沒有選擇了
 你認為他們想要我在這裡嗎？",shape=box,color=blue];
-		j571888300 -> j655700897;
-		j571888300 -> j3833734983;
-		j571888300 -> j4038415433;
-		j571888300 -> j3918174309;
-	j3660525520 [label="但你無法對抗永恆
+		583 -> 587;
+		583 -> 588;
+		583 -> 589;
+		583 -> 590;
+	584 [label="但你無法對抗永恆
 你只能逃出那個地方
 但我看不到我們的出路……你有看到嗎？",shape=box,color=blue];
-		j3660525520 -> j3416407815;
-		j3660525520 -> j3161010810;
-	j356470110 [label="（西語）好吧，我肯定會完蛋了
+		584 -> 591;
+		584 -> 592;
+	585 [label="（西語）好吧，我肯定會完蛋了
 哈哈",shape=box,color=blue];
-		j356470110 -> j655700897;
-		j356470110 -> j3833734983;
-		j356470110 -> j4038415433;
-		j356470110 -> j3918174309;
-	j655700897 [label="好吧，我喜歡你。",shape=box,color=red];
-		j655700897 -> j3542260234;
-	j3833734983 [label="你認為六煞幫其他人不喜歡你嗎？",shape=box,color=red];
-		j3833734983 -> j311401449;
-	j4038415433 [label="嗯，你可不太容易接近啊，莉蒂。",shape=box,color=red];
-		j4038415433 -> j1471279505;
-	j3918174309 [label="嗯，也許如果你不是這麼兇悍的話……",shape=box,color=red];
-		j3918174309 -> j3021595764;
-	j3416407815 [label="不……我也看不到，抱歉。",shape=box,color=red];
-		j3416407815 -> j3574133291;
-	j3161010810 [label="我的意思是，我可以通過傳識把你帶出這裡一小段時間。",shape=box,color=red];
-		j3161010810 -> j3777800439;
-	j3542260234 [label="（西語）呃，是嗎？
+		585 -> 587;
+		585 -> 588;
+		585 -> 589;
+		585 -> 590;
+	587 [label="好吧，我喜歡你。",shape=box,color=red];
+		587 -> 600;
+	588 [label="你認為六煞幫其他人不喜歡你嗎？",shape=box,color=red];
+		588 -> 601;
+	589 [label="嗯，你可不太容易接近啊，莉蒂。",shape=box,color=red];
+		589 -> 602;
+	590 [label="嗯，也許如果你不是這麼兇悍的話……",shape=box,color=red];
+		590 -> 604;
+	591 [label="不……我也看不到，抱歉。",shape=box,color=red];
+		591 -> 596;
+	592 [label="我的意思是，我可以通過傳識把你帶出這裡一小段時間。",shape=box,color=red];
+		592 -> 594;
+	600 [label="（西語）呃，是嗎？
 你有多喜歡我，呆呆
 我一直好奇你會多快才放棄",shape=box,color=blue];
-		j3542260234 -> j2884512124;
-		j3542260234 -> j575234160;
-		j3542260234 -> j1016478414;
-	j311401449 [label="嗯，對我了解得夠多
+		600 -> 633;
+		600 -> 634;
+		600 -> 635;
+	601 [label="嗯，對我了解得夠多
 但我們並不親近
 也許只有亞瑟和我例外",shape=box,color=blue];
-		j311401449 -> j3167835160;
-		j311401449 -> j3682031412;
-		j311401449 -> j1948462379;
-	j1471279505 [label="你以為我不知道嗎，呆呆？",shape=box,color=blue];
-		j1471279505 -> j3167835160;
-		j1471279505 -> j3682031412;
-		j1471279505 -> j1948462379;
-	j3021595764 [label="+5 Chemistry",color=orange];
-		j3021595764 -> j3731711578;
-	j3574133291 [label="+10 Chemistry",color=orange];
-		j3574133291 -> j1927267920;
-	j3777800439 [label="（西語）呃，是嗎？
+		601 -> 607;
+		601 -> 608;
+		601 -> 609;
+	602 [label="你以為我不知道嗎，呆呆？",shape=box,color=blue];
+		602 -> 607;
+		602 -> 608;
+		602 -> 609;
+	604 [label="+5 Chemistry",color=orange];
+		604 -> 603;
+	596 [label="+10 Chemistry",color=orange];
+		596 -> 593;
+	594 [label="（西語）呃，是嗎？
 想帶我出去散步嗎？
 小心，我可不想成為這段關係中的小寵物……
 我不會屈服的！",shape=box,color=blue];
-		j3777800439 -> j2648107694;
-		j3777800439 -> j3032758682;
-		j3777800439 -> j18346643;
-	j2884512124 [label="接受挑戰。",shape=box,color=red];
-		j2884512124 -> j1917932900;
-	j575234160 [label="你……是在和我調情嗎？",shape=box,color=red];
-		j575234160 -> j2953461339;
-	j1016478414 [label="我只是想做你的朋友，莉蒂。我沒有冒犯的意思。",shape=box,color=red];
-		j1016478414 -> j2006244804;
-	j3167835160 [label="你為什麼不想讓人接近？",shape=box,color=red];
-		j3167835160 -> j3675825093;
-	j3682031412 [label="你害怕信任別人。",shape=box,color=red];
-		j3682031412 -> j3354675243;
-	j1948462379 [label="你不想在失去他們時受傷。",shape=box,color=red];
-		j1948462379 -> j433269682;
-	j3731711578 [label="哈哈
+		594 -> 598;
+		594 -> 599;
+		594 -> 606;
+	633 [label="接受挑戰。",shape=box,color=red];
+		633 -> 639;
+	634 [label="你……是在和我調情嗎？",shape=box,color=red];
+		634 -> 636;
+	635 [label="我只是想做你的朋友，莉蒂。我沒有冒犯的意思。",shape=box,color=red];
+		635 -> 640;
+	607 [label="你為什麼不想讓人接近？",shape=box,color=red];
+		607 -> 610;
+	608 [label="你害怕信任別人。",shape=box,color=red];
+		608 -> 611;
+	609 [label="你不想在失去他們時受傷。",shape=box,color=red];
+		609 -> 612;
+	603 [label="哈哈
 我不是這樣的話我就不會是莉蒂
 我就是我，呆呆
 要麼接受，要麼滾蛋",shape=box,color=blue];
-		j3731711578 -> "Chat ends.";
-	j1927267920 [label="感謝你的誠實
+		603 -> 605;
+	593 [label="感謝你的誠實
 我想我們可以賭賭誰會先發瘋",shape=box,color=blue];
-		j1927267920 -> j308197096;
-	j2648107694 [label="接受挑戰。",shape=box,color=red];
-		j2648107694 -> j628253;
-	j3032758682 [label="你……是在和我調情嗎？",shape=box,color=red];
-		j3032758682 -> j408567631;
-	j18346643 [label="我只是想表現得友善點。你不是我喜歡的類型。",shape=box,color=red];
-		j18346643 -> j2162890076;
-	j1917932900 [label="Boolean LettieFlirt is now true.",color=orange];
-		j1917932900 -> j4065179061;
-	j2953461339 [label="（西語）天啊，呆呆！
+		593 -> 595;
+	598 [label="接受挑戰。",shape=box,color=red];
+		598 -> 622;
+	599 [label="你……是在和我調情嗎？",shape=box,color=red];
+		599 -> 617;
+	606 [label="我只是想表現得友善點。你不是我喜歡的類型。",shape=box,color=red];
+		606 -> 621;
+	639 [label="Update boolean LettieFlirt",color=orange];
+		639 -> 644;
+	636 [label="（西語）天啊，呆呆！
 你想要我這樣做嗎？",shape=box,color=blue];
-		j2953461339 -> j413912331;
-		j2953461339 -> j1965309948;
-	j2006244804 [label="Boolean LettieNoFlirt is now true.",color=orange];
-		j2006244804 -> j55501152;
-	j3675825093 [label="因為我選擇不這樣做
+		636 -> 637;
+		636 -> 638;
+	640 [label="Update boolean LettieNoFlirt",color=orange];
+		640 -> 643;
+	610 [label="因為我選擇不這樣做
 因為我學會了更好的方式
 這樣對大家來說更安全",shape=box,color=blue];
-		j3675825093 -> j3166410027;
-		j3675825093 -> j2949548885;
-	j3354675243 [label="（西語）滾開",shape=box,color=blue];
-		j3354675243 -> j971190109;
-	j433269682 [label="（西語）別鬧了，呆呆！
+		610 -> 623;
+		610 -> 624;
+	611 [label="（西語）滾開",shape=box,color=blue];
+		611 -> 615;
+	612 [label="（西語）別鬧了，呆呆！
 你知道老鼠能活多久嗎？
 最多兩到三年
 我已經習慣失去我的小鬆餅了",shape=box,color=blue];
-		j433269682 -> j500488493;
-	j308197096 [label="誰知道呢
+		612 -> 613;
+	605 [label="Chat ends.",color=orange];
+	595 [label="誰知道呢
 可能會是我",shape=box,color=blue];
-		j308197096 -> "Chat ends.";
-	j628253 [label="Boolean LettieFlirt is now true.",color=orange];
-		j628253 -> j2200654999;
-	j408567631 [label="（西語）天啊，呆呆……
+		595 -> 597;
+	622 [label="Update boolean LettieFlirt",color=orange];
+		622 -> 626;
+	617 [label="（西語）天啊，呆呆……
 你想要我這樣做嗎？",shape=box,color=blue];
-		j408567631 -> j2923723658;
-		j408567631 -> j2875550664;
-	j2162890076 [label="Boolean LettieNoFlirt is now true.",color=orange];
-		j2162890076 -> j723462637;
-	j4065179061 [label="+15 Chemistry",color=orange];
-		j4065179061 -> j2915414784;
-	j413912331 [label="是的，你是我喜歡的類型。我喜歡亡命天涯。 ; )",shape=box,color=red];
-		j413912331 -> j1917932900;
-	j1965309948 [label="不，我寧願保持朋友關係。",shape=box,color=red];
-		j1965309948 -> j2006244804;
-	j55501152 [label="+15 Chemistry",color=orange];
-		j55501152 -> j2613362238;
-	j3166410027 [label="善意提醒，我是很固執的，而且我想更深入地了解你。",shape=box,color=red];
-		j3166410027 -> j3398097481;
-	j2949548885 [label="謝謝你的提醒。如果你踐踏我的情感，我不會放在心上。",shape=box,color=red];
-		j2949548885 -> j4268794175;
-	j971190109 [label="Boolean LettieTrust1 is now true.",color=orange];
-		j971190109 -> "Chat ends. Next chat will be LettieTrust.";
-	j500488493 [label="我比愛人類更愛牠們
+		617 -> 618;
+		617 -> 619;
+	621 [label="Update boolean LettieNoFlirt",color=orange];
+		621 -> 629;
+	644 [label="+15 Chemistry",color=orange];
+		644 -> 641;
+	637 [label="是的，你是我喜歡的類型。我喜歡亡命天涯。 ; )",shape=box,color=red];
+		637 -> 639;
+	638 [label="不，我寧願保持朋友關係。",shape=box,color=red];
+		638 -> 640;
+	643 [label="+15 Chemistry",color=orange];
+		643 -> 642;
+	623 [label="善意提醒，我是很固執的，而且我想更深入地了解你。",shape=box,color=red];
+		623 -> 631;
+	624 [label="謝謝你的提醒。如果你踐踏我的情感，我不會放在心上。",shape=box,color=red];
+		624 -> 632;
+	615 [label="Update boolean LettieTrust1",color=orange];
+		615 -> 616;
+	613 [label="我比愛人類更愛牠們
 我對悲傷和失去感到自在，遠超過你所知道的
 別假裝你了解我，呆呆
 （西語）滾",shape=box,color=blue];
-		j500488493 -> "Chat ends.";
-	j2200654999 [label="+15 Chemistry",color=orange];
-		j2200654999 -> j3446595798;
-	j2923723658 [label="是的，你是我喜歡的類型。我喜歡亡命天涯。 ; )",shape=box,color=red];
-		j2923723658 -> j628253;
-	j2875550664 [label="不，我寧願保持朋友關係。",shape=box,color=red];
-		j2875550664 -> j2162890076;
-	j723462637 [label="+15 Chemistry",color=orange];
-		j723462637 -> j1538869712;
-	j2915414784 [label="哈哈，我會拭目以待，呆呆
+		613 -> 614;
+	597 [label="Chat ends.",color=orange];
+	626 [label="+15 Chemistry",color=orange];
+		626 -> 625;
+	618 [label="是的，你是我喜歡的類型。我喜歡亡命天涯。 ; )",shape=box,color=red];
+		618 -> 622;
+	619 [label="不，我寧願保持朋友關係。",shape=box,color=red];
+		619 -> 621;
+	629 [label="+15 Chemistry",color=orange];
+		629 -> 628;
+	641 [label="哈哈，我會拭目以待，呆呆
 我會",shape=box,color=blue];
-		j2915414784 -> "Chat ends.";
-	j2613362238 [label="哈哈，沒事
+		641 -> 645;
+	642 [label="哈哈，沒事
 是啊，朋友對我來說很好
 對大多數人來說這已經足夠了",shape=box,color=blue];
-		j2613362238 -> "Chat ends.";
-	j3398097481 [label="（西語）呃，是嗎
+		642 -> 646;
+	631 [label="（西語）呃，是嗎
 像你這樣的人需要這樣才能生存
 也許這就是你的秘密
 不過我喜歡固執的人
 他們更難被打敗",shape=box,color=blue];
-		j3398097481 -> j2884512124;
-		j3398097481 -> j575234160;
-		j3398097481 -> j1016478414;
-	j4268794175 [label="哈哈
+		631 -> 633;
+		631 -> 634;
+		631 -> 635;
+	632 [label="哈哈
 我並不想踐踏你的情感",shape=box,color=blue];
-		j4268794175 -> j2884512124;
-		j4268794175 -> j575234160;
-		j4268794175 -> j1016478414;
-	"Chat ends. Next chat will be LettieTrust." [color=orange];
-	j3446595798 [label="我會拭目以待，呆呆，我會
+		632 -> 633;
+		632 -> 634;
+		632 -> 635;
+	616 [label="Chat ends. Next chat will be LettieTrust.",color=orange];
+	614 [label="Chat ends.",color=orange];
+	625 [label="我會拭目以待，呆呆，我會
 但我會很樂意接受你提供的短暫自由
 也許偶爾呼吸點新鮮空氣就是我這個鬼魂所需要的",shape=box,color=blue];
-		j3446595798 -> "Chat ends.";
-	j1538869712 [label="很好
+		625 -> 627;
+	628 [label="很好
 但我會很樂意接受你提供的短暫自由
 也許偶爾呼吸點新鮮空氣就是我這個鬼魂所需要的",shape=box,color=blue];
-		j1538869712 -> "Chat ends.";
+		628 -> 630;
+	645 [label="Chat ends.",color=orange];
+	646 [label="Chat ends.",color=orange];
+	627 [label="Chat ends.",color=orange];
+	630 [label="Chat ends.",color=orange];
 }

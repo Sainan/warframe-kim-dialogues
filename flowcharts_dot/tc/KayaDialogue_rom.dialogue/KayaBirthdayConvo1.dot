@@ -1,16 +1,17 @@
 digraph {
-	"KayaBirthdayConvo1 begins." [color=orange];
-		"KayaBirthdayConvo1 begins." -> j4161655766;
-		"KayaBirthdayConvo1 begins." -> j4210075196;
-	j4161655766 [label="嘿，卡婭。生日快樂！",shape=box,color=red];
-		j4161655766 -> j3377962037;
-	j4210075196 [label="生日快樂，卡婭。變老的感覺怎麼樣？",shape=box,color=red];
-		j4210075196 -> j2095195876;
-	j3377962037 [label="+20 Chemistry",color=orange];
-		j3377962037 -> j1431250770;
-	j2095195876 [label="但我沒有變老，不是嗎？我們都沒有。我們只是在這個旋轉木馬上轉啊轉，像著火的漂亮小馬尖叫著",shape=box,color=blue];
-		j2095195876 -> "Chat ends.";
-	j1431250770 [label="哇，你記得呵？我的意思是你一旦過了八歲，生日就不是什麼大不了的事了，但你這樣算是很有心了，謝啦",shape=box,color=blue];
-		j1431250770 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	987 [label="KayaBirthdayConvo1 begins.",color=orange];
+		987 -> 999;
+		987 -> 1000;
+	999 [label="嘿，卡婭。生日快樂！",shape=box,color=red];
+		999 -> 1005;
+	1000 [label="生日快樂，卡婭。變老的感覺怎麼樣？",shape=box,color=red];
+		1000 -> 1006;
+	1005 [label="+20 Chemistry",color=orange];
+		1005 -> 988;
+	1006 [label="但我沒有變老，不是嗎？我們都沒有。我們只是在這個旋轉木馬上轉啊轉，像著火的漂亮小馬尖叫著",shape=box,color=blue];
+		1006 -> 1007;
+	988 [label="哇，你記得呵？我的意思是你一旦過了八歲，生日就不是什麼大不了的事了，但你這樣算是很有心了，謝啦",shape=box,color=blue];
+		988 -> 989;
+	1007 [label="Chat ends.",color=orange];
+	989 [label="Chat ends.",color=orange];
 }

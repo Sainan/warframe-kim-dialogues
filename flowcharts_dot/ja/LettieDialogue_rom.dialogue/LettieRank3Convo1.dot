@@ -1,240 +1,247 @@
 digraph {
-	"LettieRank3Convo1 begins." [color=orange];
-		"LettieRank3Convo1 begins." -> j3753221009;
-	j3753221009 [label="どうやって対処しているの babas
+	562 [label="LettieRank3Convo1 begins.",color=orange];
+		562 -> 563;
+	563 [label="どうやって対処しているの babas
 No entiendo",shape=box,color=blue];
-		j3753221009 -> j3373548515;
-		j3753221009 -> j3347215638;
-		j3753221009 -> j3348609539;
-	j3373548515 [label="要件が何か伝えるの忘れてるよ。",shape=box,color=red];
-		j3373548515 -> j4124402211;
-	j3347215638 [label="なんて？",shape=box,color=red];
-		j3347215638 -> j1276615859;
-	j3348609539 [label="魔法だ。",shape=box,color=red];
-		j3348609539 -> j1759475013;
-	j4124402211 [label="+5 Chemistry",color=orange];
-		j4124402211 -> j2401732252;
-	j1276615859 [label="時間も無く何世紀も閉じ込められて
+		563 -> 564;
+		563 -> 565;
+		563 -> 566;
+	564 [label="要件が何か伝えるの忘れてるよ。",shape=box,color=red];
+		564 -> 570;
+	565 [label="なんて？",shape=box,color=red];
+		565 -> 571;
+	566 [label="魔法だ。",shape=box,color=red];
+		566 -> 567;
+	570 [label="+5 Chemistry",color=orange];
+		570 -> 569;
+	571 [label="時間も無く何世紀も閉じ込められて
 変化も無く、動きも無く
 アタシたちはこの場に取り憑くfantasmaよ",shape=box,color=blue];
-		j1276615859 -> j2631015866;
-	j1759475013 [label="Ay, equis",shape=box,color=blue];
-		j1759475013 -> "Chat ends.";
-	j2401732252 [label="Jaja, sí 
+		571 -> 572;
+	567 [label="Ay, equis",shape=box,color=blue];
+		567 -> 568;
+	569 [label="Jaja, sí 
 Lo siento、一人で考えすぎた
 けど最近だとあんたとbrujaのせいでその時間も減ったけどね",shape=box,color=blue];
-		j2401732252 -> j1276615859;
-	j2631015866 [label="Check boolean LettieDuviri",color=orange];
-		j2631015866 -> j4129316706 [label=true,color=green];
-		j2631015866 -> j2280516617 [label=false,color=brown];
-	"Chat ends." [color=orange];
-	j4129316706 [label="以前デュヴィリでそうしたと言ったわね
+		569 -> 571;
+	572 [label="Check boolean LettieDuviri",color=orange];
+		572 -> 573 [label=true,color=green];
+		572 -> 574 [label=false,color=brown];
+	568 [label="Chat ends.",color=orange];
+	573 [label="以前デュヴィリでそうしたと言ったわね
 あの死と物語の王国
 Yo me habría vuelto loca 
 今アタシが正気を失わないか不安なの",shape=box,color=blue];
-		j4129316706 -> j2998136305;
-		j4129316706 -> j439623244;
-		j4129316706 -> j2426157628;
-	j2280516617 [label="以前そうしたと言ったわね
+		573 -> 575;
+		573 -> 576;
+		573 -> 577;
+	574 [label="以前そうしたと言ったわね
 別の場所で
 Yo me habría vuelto loca 
 今アタシが正気を失わないか不安なの",shape=box,color=blue];
-		j2280516617 -> j2426157628;
-		j2280516617 -> j439623244;
-		j2280516617 -> j2998136305;
-	j2998136305 [label="正直、自分は失いかけた。代わりに何も感じないことを選んだ。",shape=box,color=red];
-		j2998136305 -> j2693078985;
-	j439623244 [label="自分は…　少しの間、狂っていたと思う。大部分を覚えていないけど。",shape=box,color=red];
-		j439623244 -> j3621890716;
-	j2426157628 [label="デュヴィリで自分に起こったことは、ここでの話とは大きく異なる。自分と違ってLettieは一人じゃない。",shape=box,color=red];
-		j2426157628 -> j4095105539;
-	j2693078985 [label="¿Sí? 
+		574 -> 577;
+		574 -> 576;
+		574 -> 575;
+	575 [label="正直、自分は失いかけた。代わりに何も感じないことを選んだ。",shape=box,color=red];
+		575 -> 578;
+	576 [label="自分は…　少しの間、狂っていたと思う。大部分を覚えていないけど。",shape=box,color=red];
+		576 -> 579;
+	577 [label="デュヴィリで自分に起こったことは、ここでの話とは大きく異なる。自分と違ってLettieは一人じゃない。",shape=box,color=red];
+		577 -> 580;
+	578 [label="¿Sí? 
 無感覚、からっぽの殻
 けどあんたは生き返ったみたいね、今のあんたにそれは見えないわ",shape=box,color=blue];
-		j2693078985 -> j1457751993;
-		j2693078985 -> j2729645003;
-	j3621890716 [label="酷い戦いの後、兵士がその経験を遮るのを見たことがあるわ
+		578 -> 581;
+		578 -> 582;
+	579 [label="酷い戦いの後、兵士がその経験を遮るのを見たことがあるわ
 心は時にトラウマから自らを守る
 それが最善なの、babas
 で？　どうやって生き延びたの？",shape=box,color=blue];
-		j3621890716 -> j1457751993;
-		j3621890716 -> j2729645003;
-	j4095105539 [label="Sí, cómo no 
+		579 -> 581;
+		579 -> 582;
+	580 [label="Sí, cómo no 
 添い遂げたいタイプの人たちじゃないけどね、babas
 悪く取らないで、考えてみて",shape=box,color=blue];
-		j4095105539 -> j986762009;
-	j1457751993 [label="何が起こったか理解した時、それに飲み込まれないよう必死に戦ったよ。",shape=box,color=red];
-		j1457751993 -> j2373306063;
-	j2729645003 [label="友人たちの助けでそこから抜け出した。",shape=box,color=red];
-		j2729645003 -> j2934332585;
-	j986762009 [label="アタシは彼らを縫い合わせるためそばにいただけ。アタシ達が怪物に変わる前に
+		580 -> 583;
+	581 [label="何が起こったか理解した時、それに飲み込まれないよう必死に戦ったよ。",shape=box,color=red];
+		581 -> 584;
+	582 [label="友人たちの助けでそこから抜け出した。",shape=box,color=red];
+		582 -> 585;
+	583 [label="アタシは彼らを縫い合わせるためそばにいただけ。アタシ達が怪物に変わる前に
 今や選択肢はない
 彼らがアタシを必要としていると思う？",shape=box,color=blue];
-		j986762009 -> j4270189449;
-		j986762009 -> j3652259068;
-		j986762009 -> j164001102;
-		j986762009 -> j4185605927;
-	j2373306063 [label="でも、永遠と戦うことはできない
+		583 -> 587;
+		583 -> 588;
+		583 -> 589;
+		583 -> 590;
+	584 [label="でも、永遠と戦うことはできない
 あんたはその場所から脱出できた
 アタシたちの脱出路はどこなの…　分かる？",shape=box,color=blue];
-		j2373306063 -> j413901311;
-		j2373306063 -> j600804815;
-	j2934332585 [label="Bueno、じゃあアタシはもうダメね
+		584 -> 591;
+		584 -> 592;
+	585 [label="Bueno、じゃあアタシはもうダメね
 Jaja",shape=box,color=blue];
-		j2934332585 -> j4270189449;
-		j2934332585 -> j3652259068;
-		j2934332585 -> j164001102;
-		j2934332585 -> j4185605927;
-	j4270189449 [label="でも、*自分*はLettieが好きだよ。",shape=box,color=red];
-		j4270189449 -> j2982298534;
-	j3652259068 [label="他のヘックスはLettieを嫌ってると思ってるの？",shape=box,color=red];
-		j3652259068 -> j3703722154;
-	j164001102 [label="確かに、Lettieは「近づきやすい人」って感じじゃないしね。",shape=box,color=red];
-		j164001102 -> j2657327140;
-	j4185605927 [label="まぁ、もしLettieがそうトゲトゲしくなければ…",shape=box,color=red];
-		j4185605927 -> j3779464315;
-	j413901311 [label="いや…　分からない、すまない。",shape=box,color=red];
-		j413901311 -> j1135671337;
-	j600804815 [label="あれだ、短期間なら転移でここからLettieを連れ出せるよ。",shape=box,color=red];
-		j600804815 -> j4138978439;
-	j2982298534 [label="¿Ay, Sí? 
+		585 -> 587;
+		585 -> 588;
+		585 -> 589;
+		585 -> 590;
+	587 [label="でも、*自分*はLettieが好きだよ。",shape=box,color=red];
+		587 -> 600;
+	588 [label="他のヘックスはLettieを嫌ってると思ってるの？",shape=box,color=red];
+		588 -> 601;
+	589 [label="確かに、Lettieは「近づきやすい人」って感じじゃないしね。",shape=box,color=red];
+		589 -> 602;
+	590 [label="まぁ、もしLettieがそうトゲトゲしくなければ…",shape=box,color=red];
+		590 -> 604;
+	591 [label="いや…　分からない、すまない。",shape=box,color=red];
+		591 -> 596;
+	592 [label="あれだ、短期間なら転移でここからLettieを連れ出せるよ。",shape=box,color=red];
+		592 -> 594;
+	600 [label="¿Ay, Sí? 
 どれぐらいアタシのことが好きなの、babas
 あんたがどれだけ早く壊れるか気になっていたの",shape=box,color=blue];
-		j2982298534 -> j878307422;
-		j2982298534 -> j2275461228;
-		j2982298534 -> j4222983176;
-	j3703722154 [label="Eh, アタシのこと十分知ってるわ
+		600 -> 633;
+		600 -> 634;
+		600 -> 635;
+	601 [label="Eh, アタシのこと十分知ってるわ
 親しいとまでは行かないけど
 多分、Arthurを除いては",shape=box,color=blue];
-		j3703722154 -> j416717846;
-		j3703722154 -> j4022455837;
-		j3703722154 -> j92486185;
-	j2657327140 [label="アタシがそれを知らないとでも、babas？",shape=box,color=blue];
-		j2657327140 -> j416717846;
-		j2657327140 -> j4022455837;
-		j2657327140 -> j92486185;
-	j3779464315 [label="+5 Chemistry",color=orange];
-		j3779464315 -> j2969044747;
-	j1135671337 [label="+10 Chemistry",color=orange];
-		j1135671337 -> j311138042;
-	j4138978439 [label="¿Ay, Sí? 
+		601 -> 607;
+		601 -> 608;
+		601 -> 609;
+	602 [label="アタシがそれを知らないとでも、babas？",shape=box,color=blue];
+		602 -> 607;
+		602 -> 608;
+		602 -> 609;
+	604 [label="+5 Chemistry",color=orange];
+		604 -> 603;
+	596 [label="+10 Chemistry",color=orange];
+		596 -> 593;
+	594 [label="¿Ay, Sí? 
 ¿アタシを散歩に連れて行きたいの?
 Cuidadito、この関係でペットになるのはアタシじゃないわ…
 ¡Yo no me dejo!",shape=box,color=blue];
-		j4138978439 -> j4075747694;
-		j4138978439 -> j3349164369;
-		j4138978439 -> j3491004441;
-	j878307422 [label="受けて立つ。",shape=box,color=red];
-		j878307422 -> j2037991702;
-	j2275461228 [label="それは…　口説いてるの？",shape=box,color=red];
-		j2275461228 -> j1251628797;
-	j4222983176 [label="Lettieの友達になりたいだけなんだ。悪気はない。",shape=box,color=red];
-		j4222983176 -> j115436285;
-	j416717846 [label="Lettieはどうして人を寄せ付けないの？",shape=box,color=red];
-		j416717846 -> j140124597;
-	j4022455837 [label="Lettieは人を信じることを恐れている。",shape=box,color=red];
-		j4022455837 -> j2579135998;
-	j92486185 [label="彼らを失った時に傷つきたくないんだろ。",shape=box,color=red];
-		j92486185 -> j3494394390;
-	j2969044747 [label="JAJAJA
+		594 -> 598;
+		594 -> 599;
+		594 -> 606;
+	633 [label="受けて立つ。",shape=box,color=red];
+		633 -> 639;
+	634 [label="それは…　口説いてるの？",shape=box,color=red];
+		634 -> 636;
+	635 [label="Lettieの友達になりたいだけなんだ。悪気はない。",shape=box,color=red];
+		635 -> 640;
+	607 [label="Lettieはどうして人を寄せ付けないの？",shape=box,color=red];
+		607 -> 610;
+	608 [label="Lettieは人を信じることを恐れている。",shape=box,color=red];
+		608 -> 611;
+	609 [label="彼らを失った時に傷つきたくないんだろ。",shape=box,color=red];
+		609 -> 612;
+	603 [label="JAJAJA
 もし違うならアタシはもうLettieじゃないわ
 アタシはアタシであるのbabas
 受け入れるか、離れなさい",shape=box,color=blue];
-		j2969044747 -> "Chat ends.";
-	j311138042 [label="誠実なのはいいわ
+		603 -> 605;
+	593 [label="誠実なのはいいわ
 最初に誰が狂うか賭けましょうか",shape=box,color=blue];
-		j311138042 -> j2039309038;
-	j4075747694 [label="受けて立つ。",shape=box,color=red];
-		j4075747694 -> j3150321622;
-	j3349164369 [label="それは…　口説いてるの？",shape=box,color=red];
-		j3349164369 -> j83111360;
-	j3491004441 [label="ただ親切にしようとしただけなんだ。悪いけどタイプじゃない。",shape=box,color=red];
-		j3491004441 -> j155689174;
-	j2037991702 [label="Boolean LettieFlirt is now true.",color=orange];
-		j2037991702 -> j476883287;
-	j1251628797 [label="¡No manches, babas! 
+		593 -> 595;
+	598 [label="受けて立つ。",shape=box,color=red];
+		598 -> 622;
+	599 [label="それは…　口説いてるの？",shape=box,color=red];
+		599 -> 617;
+	606 [label="ただ親切にしようとしただけなんだ。悪いけどタイプじゃない。",shape=box,color=red];
+		606 -> 621;
+	639 [label="Update boolean LettieFlirt",color=orange];
+		639 -> 644;
+	636 [label="¡No manches, babas! 
 アタシにそうしてほしいの？",shape=box,color=blue];
-		j1251628797 -> j3543831905;
-		j1251628797 -> j817921596;
-	j115436285 [label="Boolean LettieNoFlirt is now true.",color=orange];
-		j115436285 -> j3384734678;
-	j140124597 [label="そう選んだから
+		636 -> 637;
+		636 -> 638;
+	640 [label="Update boolean LettieNoFlirt",color=orange];
+		640 -> 643;
+	610 [label="そう選んだから
 そう学んだから
 この方が誰にとっても安全なの",shape=box,color=blue];
-		j140124597 -> j3964624193;
-		j140124597 -> j3755916294;
-	j2579135998 [label="Lárgate de aqui",shape=box,color=blue];
-		j2579135998 -> j971190109;
-	j3494394390 [label="¡No manches, babas! 
+		610 -> 623;
+		610 -> 624;
+	611 [label="Lárgate de aqui",shape=box,color=blue];
+		611 -> 615;
+	612 [label="¡No manches, babas! 
 ネズミの寿命は知ってる？
 長くて2,3年よ
 小さなpanquecitosを失うのには慣れてるの",shape=box,color=blue];
-		j3494394390 -> j4038900116;
-	j2039309038 [label="どうかしらね
+		612 -> 613;
+	605 [label="Chat ends.",color=orange];
+	595 [label="どうかしらね
 もしかしたらアタシかも",shape=box,color=blue];
-		j2039309038 -> "Chat ends.";
-	j3150321622 [label="Boolean LettieFlirt is now true.",color=orange];
-		j3150321622 -> j3350422929;
-	j83111360 [label="No manches, babas…
+		595 -> 597;
+	622 [label="Update boolean LettieFlirt",color=orange];
+		622 -> 626;
+	617 [label="No manches, babas…
 アタシにそうしてほしいの？",shape=box,color=blue];
-		j83111360 -> j2111611860;
-		j83111360 -> j3523448745;
-	j155689174 [label="Boolean LettieNoFlirt is now true.",color=orange];
-		j155689174 -> j212239727;
-	j476883287 [label="+15 Chemistry",color=orange];
-		j476883287 -> j481657129;
-	j3543831905 [label="うん、Lettieはタイプ。危険が好きなんだ。;)",shape=box,color=red];
-		j3543831905 -> j2037991702;
-	j817921596 [label="いや、友達のままでいたいな。",shape=box,color=red];
-		j817921596 -> j115436285;
-	j3384734678 [label="+15 Chemistry",color=orange];
-		j3384734678 -> j718496058;
-	j3964624193 [label="言っとくけど、自分は意地っ張りなんだ、そしてLettieをもっと知りたい。",shape=box,color=red];
-		j3964624193 -> j1575898287;
-	j3755916294 [label="助言どうも。こっちの気持ちが踏み潰されても恨んだりしないよ。",shape=box,color=red];
-		j3755916294 -> j2583324651;
-	j971190109 [label="Boolean LettieTrust1 is now true.",color=orange];
-		j971190109 -> "Chat ends. Next chat will be LettieTrust.";
-	j4038900116 [label="そして彼らのことは人間より愛してる
+		617 -> 618;
+		617 -> 619;
+	621 [label="Update boolean LettieNoFlirt",color=orange];
+		621 -> 629;
+	644 [label="+15 Chemistry",color=orange];
+		644 -> 641;
+	637 [label="うん、Lettieはタイプ。危険が好きなんだ。;)",shape=box,color=red];
+		637 -> 639;
+	638 [label="いや、友達のままでいたいな。",shape=box,color=red];
+		638 -> 640;
+	643 [label="+15 Chemistry",color=orange];
+		643 -> 642;
+	623 [label="言っとくけど、自分は意地っ張りなんだ、そしてLettieをもっと知りたい。",shape=box,color=red];
+		623 -> 631;
+	624 [label="助言どうも。こっちの気持ちが踏み潰されても恨んだりしないよ。",shape=box,color=red];
+		624 -> 632;
+	615 [label="Update boolean LettieTrust1",color=orange];
+		615 -> 616;
+	613 [label="そして彼らのことは人間より愛してる
 悲痛も喪失も、あんたの想像以上に平気よ
 アタシのこと知った被りはよしてbabas
 Lárgate",shape=box,color=blue];
-		j4038900116 -> "Chat ends.";
-	j3350422929 [label="+15 Chemistry",color=orange];
-		j3350422929 -> j1131211033;
-	j2111611860 [label="うん、Lettieはタイプ。危険が好きなんだ。;)",shape=box,color=red];
-		j2111611860 -> j3150321622;
-	j3523448745 [label="いや、友達のままでいたいな。",shape=box,color=red];
-		j3523448745 -> j155689174;
-	j212239727 [label="+15 Chemistry",color=orange];
-		j212239727 -> j2481766995;
-	j481657129 [label="Jajaそのうち分かるわ、babas
+		613 -> 614;
+	597 [label="Chat ends.",color=orange];
+	626 [label="+15 Chemistry",color=orange];
+		626 -> 625;
+	618 [label="うん、Lettieはタイプ。危険が好きなんだ。;)",shape=box,color=red];
+		618 -> 622;
+	619 [label="いや、友達のままでいたいな。",shape=box,color=red];
+		619 -> 621;
+	629 [label="+15 Chemistry",color=orange];
+		629 -> 628;
+	641 [label="Jajaそのうち分かるわ、babas
 そのうちにね",shape=box,color=blue];
-		j481657129 -> "Chat ends.";
-	j718496058 [label="Jaja、別に大丈夫
+		641 -> 645;
+	642 [label="Jaja、別に大丈夫
 Sí、友達でもいいのよ
 それだけでも十分",shape=box,color=blue];
-		j718496058 -> "Chat ends.";
-	j1575898287 [label="Ay, sí 
+		642 -> 646;
+	631 [label="Ay, sí 
 そうでないとあんたみたいのは生き残れない
 多分それがあんたの秘訣
 でも頑固な人は好きよ
 壊れにくいから",shape=box,color=blue];
-		j1575898287 -> j878307422;
-		j1575898287 -> j2275461228;
-		j1575898287 -> j4222983176;
-	j2583324651 [label="Jaja
+		631 -> 633;
+		631 -> 634;
+		631 -> 635;
+	632 [label="Jaja
 踏み潰したいのはあんたの気持ちじゃないわ",shape=box,color=blue];
-		j2583324651 -> j878307422;
-		j2583324651 -> j2275461228;
-		j2583324651 -> j4222983176;
-	"Chat ends. Next chat will be LettieTrust." [color=orange];
-	j1131211033 [label="そのうち分かるわ、babas、そのうちにね
+		632 -> 633;
+		632 -> 634;
+		632 -> 635;
+	616 [label="Chat ends. Next chat will be LettieTrust.",color=orange];
+	614 [label="Chat ends.",color=orange];
+	625 [label="そのうち分かるわ、babas、そのうちにね
 けどお言葉に甘えて外を見てみたいわ
 このfantasmaに必要なのは新鮮な空気かもね",shape=box,color=blue];
-		j1131211033 -> "Chat ends.";
-	j2481766995 [label="いいわ
+		625 -> 627;
+	628 [label="いいわ
 けどお言葉に甘えて外を見てみたいわ
 このfantasmaに必要なのは新鮮な空気かもね",shape=box,color=blue];
-		j2481766995 -> "Chat ends.";
+		628 -> 630;
+	645 [label="Chat ends.",color=orange];
+	646 [label="Chat ends.",color=orange];
+	627 [label="Chat ends.",color=orange];
+	630 [label="Chat ends.",color=orange];
 }

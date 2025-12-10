@@ -1,16 +1,17 @@
 digraph {
-	"KayaBirthdayConvo1 begins." [color=orange];
-		"KayaBirthdayConvo1 begins." -> j3699184218;
-		"KayaBirthdayConvo1 begins." -> j3286873537;
-	j3699184218 [label="Ciao, Kaya. Buon compleanno!",shape=box,color=red];
-		j3699184218 -> j2797083489;
-	j3286873537 [label="Buon compleanno, Kaya. Come ci si sente a essere più vecchi?",shape=box,color=red];
-		j3286873537 -> j1538013212;
-	j2797083489 [label="+20 Chemistry",color=orange];
-		j2797083489 -> j3486625641;
-	j1538013212 [label="Non lo sono, vero? nessuno di noi lo è. stiamo solo girando in tondo su questa giostra come graziosi pony urlanti e in fiamme",shape=box,color=blue];
-		j1538013212 -> "Chat ends.";
-	j3486625641 [label="whoa te lo sei ricordato? Cioè, chissenefrega dei compleanni una volta superati gli 8 anni ma sei stato gentile, grazie",shape=box,color=blue];
-		j3486625641 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	987 [label="KayaBirthdayConvo1 begins.",color=orange];
+		987 -> 999;
+		987 -> 1000;
+	999 [label="Ciao, Kaya. Buon compleanno!",shape=box,color=red];
+		999 -> 1005;
+	1000 [label="Buon compleanno, Kaya. Come ci si sente a essere più vecchi?",shape=box,color=red];
+		1000 -> 1006;
+	1005 [label="+20 Chemistry",color=orange];
+		1005 -> 988;
+	1006 [label="Non lo sono, vero? nessuno di noi lo è. stiamo solo girando in tondo su questa giostra come graziosi pony urlanti e in fiamme",shape=box,color=blue];
+		1006 -> 1007;
+	988 [label="whoa te lo sei ricordato? Cioè, chissenefrega dei compleanni una volta superati gli 8 anni ma sei stato gentile, grazie",shape=box,color=blue];
+		988 -> 989;
+	1007 [label="Chat ends.",color=orange];
+	989 [label="Chat ends.",color=orange];
 }

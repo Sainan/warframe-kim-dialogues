@@ -1,0 +1,29 @@
+digraph {
+	2194 [label="RoatheStory7 begins.",color=orange];
+		2194 -> 5652;
+	5652 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5652 -> 2189 [label=true,color=green];
+		5652 -> 5653 [label=false,color=brown];
+	2189 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2189 -> 2193 [label="x >= 7",color=purple];
+		2189 -> 2192 [label="false",color=purple];
+	5653 [label="Chat ends.",color=orange];
+	2193 [label="语音留言：委任",shape=box,color=blue];
+		2193 -> 2191;
+	2192 [label="Chat ends.",color=orange];
+	2191 [label="文字记录：在七人众之中，据我所知——我被视为尼托的玩物和男宠。",shape=box,color=blue];
+		2191 -> 5688;
+	5688 [label="战争初期，在她的撺掇下，他们任命我为副摄政王总司令，还以为这只是个玩笑。",shape=box,color=blue];
+		5688 -> 5689;
+	5689 [label="当我带回一场场胜利的消息时，他们的笑声很快变成了庄严的掌声。",shape=box,color=blue];
+		5689 -> 2187;
+	2187 [label="那些比我强的人，他们的鲜血像勋章一样洒在我身上。我暗中为尼托积攒武器。",shape=box,color=blue];
+		2187 -> 2188;
+	2188 [label="这很容易就能做到。我当时的声望太高，没人会怀疑我。",shape=box,color=blue];
+		2188 -> 2186;
+	2186 [label="Add 1 to HellStory",color=orange];
+		2186 -> 2334;
+	2334 [label="{\"Id\":2334,\"Incoming\":[2186],\"Outgoing\":[2190],\"GraphPos\":[3830,-9139],\"CompletionType\":1}",color=orange];
+		2334 -> 2190;
+	2190 [label="Chat ends.",color=orange];
+}

@@ -1,18 +1,19 @@
 digraph {
-	"MinervaBirthdayConvo3 begins." [color=orange];
-		"MinervaBirthdayConvo3 begins." -> j1998390579;
-		"MinervaBirthdayConvo3 begins." -> j2062159062;
-	j1998390579 [label="Ai-je le droit de te souhaiter un joyeux anniversaire? Ou est-ce que cela relève d'une information confidentielle?",shape=box,color=red];
-		j1998390579 -> j4104210176;
-	j2062159062 [label="Alors, aujourd'hui, est-ce vraiment ton anniversaire? Ou juste une fausse date comme ton faux nom d'utilisateur et d'autres trucs d'espionne?",shape=box,color=red];
-		j2062159062 -> j1801189090;
-	j4104210176 [label="+20 Chemistry",color=orange];
-		j4104210176 -> j2241238986;
-	j1801189090 [label="MomToxicated: C'est classifié.",shape=box,color=blue];
-		j1801189090 -> "Chat ends.";
-	j2241238986 [label="MomToxicated: Heh. Est-ce vraiment mon anniversaire. ;) ",shape=box,color=blue];
-		j2241238986 -> j3622477117;
-	"Chat ends." [color=orange];
-	j3622477117 [label="MomToxicated: Merci.",shape=box,color=blue];
-		j3622477117 -> "Chat ends.";
+	1789 [label="MinervaBirthdayConvo3 begins.",color=orange];
+		1789 -> 1790;
+		1789 -> 1791;
+	1790 [label="Ai-je le droit de te souhaiter un joyeux anniversaire? Ou est-ce que cela relève d'une information confidentielle?",shape=box,color=red];
+		1790 -> 1792;
+	1791 [label="Alors, aujourd'hui, est-ce vraiment ton anniversaire? Ou juste une fausse date comme ton faux nom d'utilisateur et d'autres trucs d'espionne?",shape=box,color=red];
+		1791 -> 1793;
+	1792 [label="+20 Chemistry",color=orange];
+		1792 -> 1794;
+	1793 [label="MomToxicated: C'est classifié.",shape=box,color=blue];
+		1793 -> 1795;
+	1794 [label="MomToxicated: Heh. Est-ce vraiment mon anniversaire. ;) ",shape=box,color=blue];
+		1794 -> 1796;
+	1795 [label="Chat ends.",color=orange];
+	1796 [label="MomToxicated: Merci.",shape=box,color=blue];
+		1796 -> 1797;
+	1797 [label="Chat ends.",color=orange];
 }

@@ -1,16 +1,21 @@
 digraph {
-	"ArthurBirthdayConvo3 begins." [color=orange];
-		"ArthurBirthdayConvo3 begins." -> j90677925;
-		"ArthurBirthdayConvo3 begins." -> j1510719813;
-	j90677925 [label="Ciao. Volevo solo augurarti buon compleanno. Sono contento di essere qui per questo momento.",shape=box,color=red];
-		j90677925 -> j3655214254;
-	j1510719813 [label="Buon compleanno. Cerca di impegnarti al massimo per non morire oggi. Rovineresti l'atmosfera.",shape=box,color=red];
-		j1510719813 -> j3254099652;
-	j3655214254 [label="+20 Chemistry",color=orange];
-		j3655214254 -> j224642408;
-	j3254099652 [label="Senti, so che anche tu hai passato momenti difficili, ma tieniti l'umorismo macabro per un altro momento e luogo.",shape=box,color=blue];
-		j3254099652 -> "Chat ends.";
-	j224642408 [label="Abbiamo spesso rischiato grosso, non è vero? Grazie per avermi sostenuto, sia oggi che ogni altro giorno dell'anno.",shape=box,color=blue];
-		j224642408 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3192 [label="ArthurBirthdayConvo3 begins.",color=orange];
+		3192 -> 3210;
+		3192 -> 3212;
+	3210 [label="Ciao. Volevo solo augurarti buon compleanno. Sono contento di essere qui per questo momento.",shape=box,color=red];
+		3210 -> 3211;
+	3212 [label="Buon compleanno. Cerca di impegnarti al massimo per non morire oggi. Rovineresti l'atmosfera.",shape=box,color=red];
+		3212 -> 3207;
+	3211 [label="+20 Chemistry",color=orange];
+		3211 -> 3209;
+	3207 [label="Senti, so che anche tu hai passato momenti difficili, ma tieniti l'umorismo macabro per un altro momento e luogo.",shape=box,color=blue];
+		3207 -> 3000;
+	3209 [label="Abbiamo spesso rischiato grosso, non è vero? Grazie per avermi sostenuto, sia oggi che ogni altro giorno dell'anno.",shape=box,color=blue];
+		3209 -> 3225;
+	3000 [label="{\"Id\":3000,\"Incoming\":[3207],\"Outgoing\":[3208],\"GraphPos\":[-30902,-13388],\"CompletionType\":1}",color=orange];
+		3000 -> 3208;
+	3225 [label="{\"Id\":3225,\"Incoming\":[3209],\"Outgoing\":[3213],\"GraphPos\":[-30899,-13547],\"CompletionType\":1}",color=orange];
+		3225 -> 3213;
+	3208 [label="Chat ends.",color=orange];
+	3213 [label="Chat ends.",color=orange];
 }

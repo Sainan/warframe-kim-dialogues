@@ -1,0 +1,34 @@
+digraph {
+	3871 [label="MarieLyonRepair begins.",color=orange];
+		3871 -> 3872;
+	3872 [label="Check boolean MarieFamilyFail",color=orange];
+		3872 -> 3873 [label=true,color=green];
+		3872 -> 3874 [label=false,color=brown];
+	3873 [label="Meu irmão de alma me enviou para falar com você. Ele me suplica que reconsidere ma décision de não te ajudar com a questão do Monsieur Loid.",shape=box,color=blue];
+		3873 -> 3875;
+		3873 -> 3876;
+		3873 -> 3877;
+	3874 [label="Chat ends.",color=orange];
+	3875 [label="Realmente gostaria que você nos ajudasse, Marie ",shape=box,color=red];
+		3875 -> 3878;
+	3876 [label="Precisamos de você, Marie. Sem você, tudo isso não adianta nada. Por favor. Você pode me perdoar?",shape=box,color=red];
+		3876 -> 3879;
+	3877 [label="Sinto muito por ter te chateado. Mas, por favor, não desconte no Loid. Nem na família lá de cima",shape=box,color=red];
+		3877 -> 3880;
+	3878 [label="Vim somente para lhe dizer que você não deve usar a gentileza do Lyon para compensar seus fracassos.",shape=box,color=blue];
+		3878 -> 3881;
+	3879 [label="Sim… posso. De qualquer forma, a raiva que sinto por você agora não deveria ser sentida por outras pessoas.",shape=box,color=blue];
+		3879 -> 3882;
+	3880 [label="Oui. Nesse ponto, você tem razão. A raiva que sinto por você agora não deveria ser sentida por outras pessoas.",shape=box,color=blue];
+		3880 -> 3883;
+	3881 [label="Chat ends.",color=orange];
+	3882 [label="Então, muito bem. Eu te ajudarei. Tu auras mon aide.",shape=box,color=blue];
+		3882 -> 3884;
+	3883 [label="Uma raiva da qual me arrependo e pela qual já te perdoei.",shape=box,color=blue];
+		3883 -> 3882;
+	3884 [label="Update boolean MarieFamilySuccess",color=orange];
+		3884 -> 3885;
+	3885 [label="Update boolean MarieFamilyFail",color=orange];
+		3885 -> 3886;
+	3886 [label="Chat ends.",color=orange];
+}

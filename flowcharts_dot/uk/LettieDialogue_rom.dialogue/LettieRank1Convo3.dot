@@ -1,104 +1,123 @@
 digraph {
-	"LettieRank1Convo3 begins." [color=orange];
-		"LettieRank1Convo3 begins." -> j2845871995;
-	j2845871995 [label="Babas 
+	110 [label="LettieRank1Convo3 begins.",color=orange];
+		110 -> 111;
+	111 [label="Babas 
 Увага",shape=box,color=blue];
-		j2845871995 -> j2961491153;
-		j2845871995 -> j78264211;
-	j2961491153 [label="Це ти так зі мною вітаєшся?",shape=box,color=red];
-		j2961491153 -> j1712041497;
-	j78264211 [label="Не зараз, вибач. [Кінець]",shape=box,color=red];
-		j78264211 -> "Chat ends.";
-	j1712041497 [label="Так-так, вітаюся, *доброго ранку* 
+		111 -> 112;
+		111 -> 113;
+	112 [label="Це ти так зі мною вітаєшся?",shape=box,color=red];
+		112 -> 114;
+	113 [label="Не зараз, вибач. [Завершити розмову]",shape=box,color=red];
+		113 -> 115;
+	114 [label="Так-так, вітаюся, *доброго ранку* 
 Або скільки там зараз годин
 Дістань мені більше бинтів
 Бо у мене закінчуються запаси",shape=box,color=blue];
-		j1712041497 -> j1827624281;
-	"Chat ends." [color=orange];
-	j1827624281 [label="Аніта влізла в коробку й трохи їх погризла",shape=box,color=blue];
-		j1827624281 -> j802299414;
-		j1827624281 -> j992357474;
-	j802299414 [label="Хто така Аніта?",shape=box,color=red];
-		j802299414 -> j3137184136;
-	j992357474 [label="Не маю уявлення, хто це, Летті.",shape=box,color=red];
-		j992357474 -> j3137184136;
-	j3137184136 [label="Lo siento, точно",shape=box,color=blue];
-		j3137184136 -> j2638129754;
-	j2638129754 [label="+5 Chemistry",color=orange];
-		j2638129754 -> j2702206690;
-	j2702206690 [label="Моя нова corazoncito, моя нова пацючка 
+		114 -> 116;
+	115 [label="Chat ends.",color=orange];
+	116 [label="Аніта влізла в коробку й трохи їх погризла",shape=box,color=blue];
+		116 -> 117;
+		116 -> 118;
+	117 [label="Хто така Аніта?",shape=box,color=red];
+		117 -> 119;
+	118 [label="Не маю уявлення, хто це, Летті.",shape=box,color=red];
+		118 -> 119;
+	119 [label="Lo siento, точно",shape=box,color=blue];
+		119 -> 120;
+	120 [label="+5 Chemistry",color=orange];
+		120 -> 121;
+	121 [label="Моя нова corazoncito, моя нова пацючка 
 Вона все ще вчиться манер",shape=box,color=blue];
-		j2702206690 -> j2299607748;
-	j2299607748 [label="Check boolean LettieRatsAsked",color=orange];
-		j2299607748 -> j1416186518 [label=true,color=green];
-		j2299607748 -> j1377354072 [label=true,color=green];
-		j2299607748 -> j3041105004 [label=false,color=brown];
-		j2299607748 -> j1416186518 [label=false,color=brown];
-		j2299607748 -> j1377354072 [label=false,color=brown];
-	j1416186518 [label="Якщо побачу, то прихоплю.",shape=box,color=red];
-		j1416186518 -> j1633299536;
-	j1377354072 [label="Сама сходи за бинтами, це твій пацюк їх зжер.",shape=box,color=red];
-		j1377354072 -> j3063552858;
-	j3041105004 [label="Мені цікаво, чому ти захотіла тримати домашніх пацюків?",shape=box,color=red];
-		j3041105004 -> j1729931287;
-	j1633299536 [label="+10 Chemistry",color=orange];
-		j1633299536 -> j1431403830;
-	j3063552858 [label="Sí, з усім моїм вільним часом 
+		121 -> 122;
+	122 [label="Check boolean LettieRatsAsked",color=orange];
+		122 -> 123 [label=true,color=green];
+		122 -> 124 [label=true,color=green];
+		122 -> 125 [label=false,color=brown];
+		122 -> 123 [label=false,color=brown];
+		122 -> 124 [label=false,color=brown];
+	123 [label="Якщо побачу, то прихоплю.",shape=box,color=red];
+		123 -> 129;
+	124 [label="Сама сходи за бинтами, це твій пацюк їх зжер.",shape=box,color=red];
+		124 -> 127;
+	125 [label="Мені цікаво, чому ти захотіла тримати домашніх пацюків?",shape=box,color=red];
+		125 -> 128;
+	129 [label="+10 Chemistry",color=orange];
+		129 -> 126;
+	127 [label="Sí, з усім моїм вільним часом 
 Між латаннями прокльонівців
 І всіх цивільних",shape=box,color=blue];
-		j3063552858 -> j3551064085;
-	j1729931287 [label="Boolean LettieRatsAsked is now true.",color=orange];
-		j1729931287 -> j1045679188;
-	j1431403830 [label="Gracias 
+		127 -> 132;
+	128 [label="Update boolean LettieRatsAsked",color=orange];
+		128 -> 135;
+	126 [label="Gracias 
 Буду тобі винна 
 Трошечки",shape=box,color=blue];
-		j1431403830 -> j2570747018;
-	j3551064085 [label="Gracias por nada, babas",shape=box,color=blue];
-		j3551064085 -> "Chat ends.";
-	j1045679188 [label="Ти мені скажи",shape=box,color=blue];
-		j1045679188 -> j1407352956;
-		j1045679188 -> j186088435;
-	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
-		j2570747018 -> "Chat ends.";
-	j1407352956 [label="Га?",shape=box,color=red];
-		j1407352956 -> j4019683273;
-	j186088435 [label="Щось мені не подобається, куди це йде. [Кінець]",shape=box,color=red];
-		j186088435 -> j2365690676;
-	j4019683273 [label="Я хочу знати, чому ти думаєш я люблю пацюків 
+		126 -> 130;
+	132 [label="Gracias por nada, babas",shape=box,color=blue];
+		132 -> 134;
+	135 [label="Ти мені скажи",shape=box,color=blue];
+		135 -> 136;
+		135 -> 137;
+	130 [label="Update boolean LettieSmallFavor",color=orange];
+		130 -> 131;
+	134 [label="Chat ends.",color=orange];
+	136 [label="Га?",shape=box,color=red];
+		136 -> 138;
+	137 [label="Щось мені не подобається, куди це йде. [Завершити розмову]",shape=box,color=red];
+		137 -> 139;
+	131 [label="Chat ends.",color=orange];
+	138 [label="Я хочу знати, чому ти думаєш я люблю пацюків 
 Кажи",shape=box,color=blue];
-		j4019683273 -> j2815858428;
-		j4019683273 -> j2242445999;
-		j4019683273 -> j1892569474;
-	j2365690676 [label="Tú te lo pierdes",shape=box,color=blue];
-		j2365690676 -> "Chat ends.";
-	j2815858428 [label="Тому що вони розумні, ласкаві та грайливі?",shape=box,color=red];
-		j2815858428 -> j3864862762;
-	j2242445999 [label="Тому що ними часто нехтують і не розуміють?",shape=box,color=red];
-		j2242445999 -> j3864862762;
-	j1892569474 [label="Летті? Ти для мене суцільна загадка. Але пацюки такі милі.",shape=box,color=red];
-		j1892569474 -> j2817738493;
-	j3864862762 [label="Ay, Луа, sálvame 
+		138 -> 143;
+		138 -> 142;
+		138 -> 141;
+	139 [label="Tú te lo pierdes",shape=box,color=blue];
+		139 -> 140;
+	143 [label="Тому що вони розумні, ласкаві та грайливі?",shape=box,color=red];
+		143 -> 146;
+	142 [label="Тому що ними часто нехтують і не розуміють?",shape=box,color=red];
+		142 -> 146;
+	141 [label="Летті? Ти для мене суцільна загадка. Але пацюки такі милі.",shape=box,color=red];
+		141 -> 148;
+	140 [label="Chat ends.",color=orange];
+	146 [label="Ay, Луа, sálvame 
 Ні",shape=box,color=blue];
-		j3864862762 -> j3388779584;
-	j2817738493 [label="¡JAJA!",shape=box,color=blue];
-		j2817738493 -> j285641228;
-	j3388779584 [label="Я виросла в небагатій сім’ї 
+		146 -> 150;
+	148 [label="¡JAJA!",shape=box,color=blue];
+		148 -> 144;
+	150 [label="Я виросла в небагатій сім’ї 
 Район був не самій поганий
 Але й не чудовий 
 Пацюків було легко тримати, та й mi mamá була не проти",shape=box,color=blue];
-		j3388779584 -> j2788698536;
-	j285641228 [label="+5 Chemistry",color=orange];
-		j285641228 -> j19018306;
-	j2788698536 [label="Boolean LettieRats1 is now true.",color=orange];
-		j2788698536 -> j3861714283;
-	j19018306 [label="Рятує нас і зберігає скромність
+		150 -> 151;
+	144 [label="+5 Chemistry",color=orange];
+		144 -> 149;
+	151 [label="Update boolean LettieRats1",color=orange];
+		151 -> 153;
+	149 [label="Рятує нас і зберігає скромність
 Мені подобається",shape=box,color=blue];
-		j19018306 -> j3388779584;
-	j3861714283 [label="Сходиш принесеш бинти?",shape=box,color=blue];
-		j3861714283 -> j677661265;
-		j3861714283 -> j3507585022;
-	j677661265 [label="Гаразд, схожу пошукаю.",shape=box,color=red];
-		j677661265 -> j1633299536;
-	j3507585022 [label="Сама сходи, це ж твоя пацючка.",shape=box,color=red];
-		j3507585022 -> j3063552858;
+		149 -> 150;
+	153 [label="Сходиш принесеш бинти?",shape=box,color=blue];
+		153 -> 152;
+		153 -> 145;
+	152 [label="Гаразд, схожу пошукаю.",shape=box,color=red];
+		152 -> 155;
+	145 [label="Сама сходи, це ж твоя пацючка.",shape=box,color=red];
+		145 -> 158;
+	155 [label="+10 Chemistry",color=orange];
+		155 -> 154;
+	158 [label="Sí, з усім моїм вільним часом 
+Між латаннями прокльонівців
+І всіх цивільних",shape=box,color=blue];
+		158 -> 159;
+	154 [label="Gracias 
+Буду тобі винна 
+Трошечки",shape=box,color=blue];
+		154 -> 156;
+	159 [label="Gracias por nada, babas",shape=box,color=blue];
+		159 -> 133;
+	156 [label="Update boolean LettieSmallFavor",color=orange];
+		156 -> 157;
+	133 [label="Chat ends.",color=orange];
+	157 [label="Chat ends.",color=orange];
 }

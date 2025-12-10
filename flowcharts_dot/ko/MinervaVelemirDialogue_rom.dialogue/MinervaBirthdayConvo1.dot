@@ -1,18 +1,19 @@
 digraph {
-	"MinervaBirthdayConvo1 begins." [color=orange];
-		"MinervaBirthdayConvo1 begins." -> j4198648911;
-		"MinervaBirthdayConvo1 begins." -> j3714458388;
-	j4198648911 [label="오늘 뭔가 특별한 일 있어? ",shape=box,color=red];
-		j4198648911 -> j787653687;
-	j3714458388 [label="생일 축하해!! 엄청 설레겠다.",shape=box,color=red];
-		j3714458388 -> j4010847471;
-	j787653687 [label="MomToxicated: 엘레노어와 다른 아가씨들이 나에게 \"절대 잊지 못할 밤\"을 약속하더군.",shape=box,color=blue];
-		j787653687 -> j3877629843;
-	j4010847471 [label="MomToxicated: 어느 지점 이후엔 생일로는 더 이상 설렘을 느낄 수 없지만, 너의 낙관적인 태도는 고맙다.",shape=box,color=blue];
-		j4010847471 -> "Chat ends.";
-	j3877629843 [label="+20 Chemistry",color=orange];
-		j3877629843 -> j538407014;
-	"Chat ends." [color=orange];
-	j538407014 [label="MomToxicated: 그리고 이보다 더 신날 수도 없지.",shape=box,color=blue];
-		j538407014 -> "Chat ends.";
+	1768 [label="MinervaBirthdayConvo1 begins.",color=orange];
+		1768 -> 1769;
+		1768 -> 1770;
+	1769 [label="오늘 뭔가 특별한 일 있어? ",shape=box,color=red];
+		1769 -> 1771;
+	1770 [label="생일 축하해!! 엄청 설레겠다.",shape=box,color=red];
+		1770 -> 1772;
+	1771 [label="MomToxicated: 엘레노어와 다른 아가씨들이 나에게 \"절대 잊지 못할 밤\"을 약속하더군.",shape=box,color=blue];
+		1771 -> 1773;
+	1772 [label="MomToxicated: 어느 지점 이후엔 생일로는 더 이상 설렘을 느낄 수 없지만, 너의 낙관적인 태도는 고맙다.",shape=box,color=blue];
+		1772 -> 1774;
+	1773 [label="+20 Chemistry",color=orange];
+		1773 -> 1775;
+	1774 [label="Chat ends.",color=orange];
+	1775 [label="MomToxicated: 그리고 이보다 더 신날 수도 없지.",shape=box,color=blue];
+		1775 -> 1776;
+	1776 [label="Chat ends.",color=orange];
 }

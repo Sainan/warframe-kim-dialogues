@@ -1,18 +1,19 @@
 digraph {
-	"MinervaBirthdayConvo3 begins." [color=orange];
-		"MinervaBirthdayConvo3 begins." -> j4070681193;
-		"MinervaBirthdayConvo3 begins." -> j306847555;
-	j4070681193 [label="ขออวยพรวันเกิดได้ไหม หรือว่ามันเข้าข่ายข้อมูลลับ?",shape=box,color=red];
-		j4070681193 -> j4263865884;
-	j306847555 [label="วันนี้เป็นวันเกิด*จริง ๆ *หรือเปล่า หรือเป็นแค่วันปลอม ๆ เหมือน ชื่อผู้ใช้ปลอม ๆ กับข้อมูลลับอื่น ๆ",shape=box,color=red];
-		j306847555 -> j2385339676;
-	j4263865884 [label="+20 Chemistry",color=orange];
-		j4263865884 -> j1686355685;
-	j2385339676 [label="MomToxicated: นั่นถือเป็นข้อมูลลับ",shape=box,color=blue];
-		j2385339676 -> "Chat ends.";
-	j1686355685 [label="MomToxicated: หึ ๆ ถ้าวันนี้*เป็น*วันเกิดจริง ๆ นะ ;) ",shape=box,color=blue];
-		j1686355685 -> j1242572823;
-	"Chat ends." [color=orange];
-	j1242572823 [label="MomToxicated: ขอบคุณ",shape=box,color=blue];
-		j1242572823 -> "Chat ends.";
+	1789 [label="MinervaBirthdayConvo3 begins.",color=orange];
+		1789 -> 1790;
+		1789 -> 1791;
+	1790 [label="ขออวยพรวันเกิดได้ไหม หรือว่ามันเข้าข่ายข้อมูลลับ?",shape=box,color=red];
+		1790 -> 1792;
+	1791 [label="วันนี้เป็นวันเกิด*จริง ๆ *หรือเปล่า หรือเป็นแค่วันปลอม ๆ เหมือน ชื่อผู้ใช้ปลอม ๆ กับข้อมูลลับอื่น ๆ",shape=box,color=red];
+		1791 -> 1793;
+	1792 [label="+20 Chemistry",color=orange];
+		1792 -> 1794;
+	1793 [label="MomToxicated: นั่นถือเป็นข้อมูลลับ",shape=box,color=blue];
+		1793 -> 1795;
+	1794 [label="MomToxicated: หึ ๆ ถ้าวันนี้*เป็น*วันเกิดจริง ๆ นะ ;) ",shape=box,color=blue];
+		1794 -> 1796;
+	1795 [label="Chat ends.",color=orange];
+	1796 [label="MomToxicated: ขอบคุณ",shape=box,color=blue];
+		1796 -> 1797;
+	1797 [label="Chat ends.",color=orange];
 }

@@ -1,74 +1,76 @@
 digraph {
-	"LettieRank2Convo4 begins." [color=orange];
-		"LettieRank2Convo4 begins." -> j3863215240;
-	j3863215240 [label="Check boolean LettieSmallFavor",color=orange];
-		j3863215240 -> j1063615062 [label=true,color=green];
-		j3863215240 -> j36429971 [label=false,color=brown];
-	j1063615062 [label="안녕, babas 
+	427 [label="LettieRank2Convo4 begins.",color=orange];
+		427 -> 428;
+	428 [label="Check boolean LettieSmallFavor",color=orange];
+		428 -> 429 [label=true,color=green];
+		428 -> 430 [label=false,color=brown];
+	429 [label="안녕, babas 
 부탁하고 싶은게 하나 더 있어",shape=box,color=blue];
-		j1063615062 -> j3429986274;
-		j1063615062 -> j1769645182;
-		j1063615062 -> j3105113094;
-	j36429971 [label="안녕, babas 
+		429 -> 431;
+		429 -> 432;
+		429 -> 433;
+	430 [label="안녕, babas 
 부탁하고 싶은게 있어",shape=box,color=blue];
-		j36429971 -> j3105113094;
-		j36429971 -> j1769645182;
-		j36429971 -> j3429986274;
-	j3429986274 [label="응. 무슨 일인데?",shape=box,color=red];
-		j3429986274 -> j2222223847;
-	j1769645182 [label="내가 네 심부름꾼이 아닌 거 알지?",shape=box,color=red];
-		j1769645182 -> j2339926928;
-	j3105113094 [label="네 일은 스스로 해결해. [종료.]",shape=box,color=red];
-		j3105113094 -> "Chat ends.";
-	j2222223847 [label="+10 Chemistry",color=orange];
-		j2222223847 -> j2881697673;
-	j2339926928 [label="Sí 
+		430 -> 433;
+		430 -> 432;
+		430 -> 431;
+	431 [label="응. 무슨 일인데?",shape=box,color=red];
+		431 -> 436;
+	432 [label="내가 네 심부름꾼이 아닌 거 알지?",shape=box,color=red];
+		432 -> 435;
+	433 [label="네 일은 스스로 해결해. [종료.]",shape=box,color=red];
+		433 -> 434;
+	436 [label="+10 Chemistry",color=orange];
+		436 -> 765;
+	435 [label="Sí 
 장담하건데 난 널 애원하게 만들 수 있을 것 같아 
 근데 그러기엔 넌 너무 물러 터졌어",shape=box,color=blue];
-		j2339926928 -> j1477194267;
-		j2339926928 -> j3485058619;
-	"Chat ends." [color=orange];
-	j2881697673 [label="Bueno",shape=box,color=blue];
-		j2881697673 -> j106447136;
-	j1477194267 [label="너... 지금 날 위협하는 거야, 아니면 꼬시는거야?",shape=box,color=red];
-		j1477194267 -> j430814055;
-	j3485058619 [label="한 번 해봐.",shape=box,color=red];
-		j3485058619 -> j4260631562;
-	j106447136 [label="난 장난하며 뛰어다니기엔 할 일이 너무 많아 
+		435 -> 437;
+		435 -> 438;
+	434 [label="Chat ends.",color=orange];
+	765 [label="Bueno",shape=box,color=blue];
+		765 -> 442;
+	437 [label="너... 지금 날 위협하는 거야, 아니면 꼬시는거야?",shape=box,color=red];
+		437 -> 441;
+	438 [label="한 번 해봐.",shape=box,color=red];
+		438 -> 2461;
+	442 [label="난 장난하며 뛰어다니기엔 할 일이 너무 많아 
 여기 민간인들은 아미르가 컴퓨터를 수집하듯이 총상을 수집한다니까",shape=box,color=blue];
-		j106447136 -> j4047236850;
-	j430814055 [label="+10 Chemistry",color=orange];
-		j430814055 -> j1404190531;
-	j4260631562 [label="+10 Chemistry",color=orange];
-		j4260631562 -> j2891800332;
-	j4047236850 [label="요점은, 구급상자야 
+		442 -> 443;
+	441 [label="+10 Chemistry",color=orange];
+		441 -> 439;
+	2461 [label="+10 Chemistry",color=orange];
+		2461 -> 440;
+	443 [label="요점은, 구급상자야 
 더 필요해 
 찾든, 사든 상관 없어 
 내게 가져다줘
 Te lo agradecería mucho",shape=box,color=blue];
-		j4047236850 -> j4277171827;
-		j4047236850 -> j111515091;
-		j4047236850 -> j683066298;
-	j1404190531 [label="¿Por qué no ambos? 
+		443 -> 445;
+		443 -> 446;
+		443 -> 447;
+	439 [label="¿Por qué no ambos? 
 방해하지 말아줘, babas",shape=box,color=blue];
-		j1404190531 -> j106447136;
-	j2891800332 [label="Cuidadito, babas 
+		439 -> 442;
+	440 [label="Cuidadito, babas 
 방해하지 마",shape=box,color=blue];
-		j2891800332 -> j106447136;
-	j4277171827 [label="맡겨줘.",shape=box,color=red];
-		j4277171827 -> j1781458524;
-	j111515091 [label="장담은 못 하겠어.",shape=box,color=red];
-		j111515091 -> j1331404111;
-	j683066298 [label="네가 직접 구해봐.",shape=box,color=red];
-		j683066298 -> "Chat ends.";
-	j1781458524 [label="+10 Chemistry",color=orange];
-		j1781458524 -> j1997227581;
-	j1331404111 [label="+10 Chemistry",color=orange];
-		j1331404111 -> j4145373866;
-	j1997227581 [label="Gracias",shape=box,color=blue];
-		j1997227581 -> j2570747018;
-	j4145373866 [label="기대도 하지 않았어",shape=box,color=blue];
-		j4145373866 -> j2570747018;
-	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
-		j2570747018 -> "Chat ends.";
+		440 -> 442;
+	445 [label="맡겨줘.",shape=box,color=red];
+		445 -> 451;
+	446 [label="장담은 못 하겠어.",shape=box,color=red];
+		446 -> 557;
+	447 [label="네가 직접 구해봐.",shape=box,color=red];
+		447 -> 448;
+	451 [label="+10 Chemistry",color=orange];
+		451 -> 450;
+	557 [label="+10 Chemistry",color=orange];
+		557 -> 449;
+	448 [label="Chat ends.",color=orange];
+	450 [label="Gracias",shape=box,color=blue];
+		450 -> 452;
+	449 [label="기대도 하지 않았어",shape=box,color=blue];
+		449 -> 452;
+	452 [label="Update boolean LettieSmallFavor",color=orange];
+		452 -> 453;
+	453 [label="Chat ends.",color=orange];
 }

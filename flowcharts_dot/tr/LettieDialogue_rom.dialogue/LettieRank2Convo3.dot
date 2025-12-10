@@ -1,197 +1,205 @@
 digraph {
-	"LettieRank2Convo3 begins." [color=orange];
-		"LettieRank2Convo3 begins." -> j1666291197;
-	j1666291197 [label="Check boolean LettieOrokin1",color=orange];
-		j1666291197 -> j1483963690 [label=true,color=green];
-		j1666291197 -> j2792230843 [label=false,color=brown];
-	j1483963690 [label="Bu orokinlerden biri de Entrati'ydi 
+	352 [label="LettieRank2Convo3 begins.",color=orange];
+		352 -> 353;
+	353 [label="Check boolean LettieOrokin1",color=orange];
+		353 -> 354 [label=true,color=green];
+		353 -> 355 [label=false,color=brown];
+	354 [label="Bu orokinlerden biri de Entrati'ydi 
 Değil mi? 
 Mantıklı, kendini bir çeşit tanrı sanması, hayatları mahvetmesi",shape=box,color=blue];
-		j1483963690 -> j2183106272;
-		j1483963690 -> j2567378664;
-	j2792230843 [label="Entrati'nin nereden çıktığını bilmek istiyorum 
+		354 -> 356;
+		354 -> 357;
+	355 [label="Entrati'nin nereden çıktığını bilmek istiyorum 
 Buraya gelip hayatları mahvediyor 
 Bu pinche güey kendini ne zannediyor?!",shape=box,color=blue];
-		j2792230843 -> j3593913916;
-		j2792230843 -> j1110883317;
-		j2792230843 -> j2567378664;
-	j2183106272 [label="Sayılır mı? Yarı yarıya. Void deneylerinden sonra ona hayran oldular. Ama daha önce ona nasıl davrandıklarına dair acı çekiyordu, bu yüzden... açıklaması zor.",shape=box,color=red];
-		j2183106272 -> j702245541;
-		j2183106272 -> j3593913916;
-	j2567378664 [label="Gitmem gerek, üzgünüm. [Son.]",shape=box,color=red];
-		j2567378664 -> "Chat ends.";
-	j3593913916 [label="Ama o, tüm bunları daha büyük bir iyilik için yaptığını düşünüyor.",shape=box,color=red];
-		j3593913916 -> j3860989760;
-	j1110883317 [label="Orokin'le omuz omuza olmaya alışkın. Kendini tanrı sanmaya alışkın.",shape=box,color=red];
-		j1110883317 -> j1470456656;
-	j702245541 [label="Bence o böyle biri. Cavia ile tanışmalısın.",shape=box,color=red];
-		j702245541 -> j1332000340;
-	"Chat ends." [color=orange];
-	j3860989760 [label="Boolean LettieEntrati is now true.",color=orange];
-		j3860989760 -> j916424758;
-	j1470456656 [label="Orokin?",shape=box,color=blue];
-		j1470456656 -> j4157639181;
-	j1332000340 [label="Boolean LettieCavia is now true.",color=orange];
-		j1332000340 -> j1675787800;
-	j916424758 [label="Daha büyük iyilikmiş, kıçımın kenarı",shape=box,color=blue];
-		j916424758 -> j3451334193;
-		j916424758 -> j106839793;
-	j4157639181 [label="Boolean LettieOrokin1 is now true.",color=orange];
-		j4157639181 -> j3797143068;
-		j4157639181 -> j3811044716;
-	j1675787800 [label="Cavia kim",shape=box,color=blue];
-		j1675787800 -> j1931996553;
-	j3451334193 [label="Bilmiyorum, kıçın *oldukça* iyi. ;)",shape=box,color=red];
-		j3451334193 -> j3282976464;
-	j106839793 [label="Dürüst olmak gerekirse, Duvardaki Adam'ı durdurmak oldukça önemli bir sorun.",shape=box,color=red];
-		j106839793 -> j765033132;
-	j3797143068 [label="Ben geleceğin egemen sınıfından geliyorum. İnsanların kendilerine tanrı gibi tapmalarını sağladılar.",shape=box,color=red];
-		j3797143068 -> j1560177372;
-	j3811044716 [label="Kendilerini herkesten üstün gören pisliklerdi. Daha fazla söze gerek yok.",shape=box,color=red];
-		j3811044716 -> j1560177372;
-	j1931996553 [label="Arkadaşlarım. Entrati'nin voide göndererek üzerinde deney yaptığı hayvanlar.",shape=box,color=red];
-		j1931996553 -> j1692476783;
-	j3282976464 [label="+5 Chemistry",color=orange];
-		j3282976464 -> j2916555276;
-	j765033132 [label="Bu onun doğru şeyi yaptığı anlamına gelmez
+		355 -> 360;
+		355 -> 361;
+		355 -> 362;
+	356 [label="Sayılır mı? Yarı yarıya. Void deneylerinden sonra ona hayran oldular. Ama daha önce ona nasıl davrandıklarına dair acı çekiyordu, bu yüzden... açıklaması zor.",shape=box,color=red];
+		356 -> 359;
+		356 -> 360;
+	357 [label="Gitmem gerek, üzgünüm. [Son.]",shape=box,color=red];
+		357 -> 358;
+	360 [label="Ama o, tüm bunları daha büyük bir iyilik için yaptığını düşünüyor.",shape=box,color=red];
+		360 -> 367;
+	361 [label="Orokin'le omuz omuza olmaya alışkın. Kendini tanrı sanmaya alışkın.",shape=box,color=red];
+		361 -> 364;
+	362 [label="Gitmem gerek, üzgünüm. [Son.]",shape=box,color=red];
+		362 -> 363;
+	359 [label="Bence o böyle biri. Cavia ile tanışmalısın.",shape=box,color=red];
+		359 -> 366;
+	358 [label="Chat ends.",color=orange];
+	367 [label="Update boolean LettieEntrati",color=orange];
+		367 -> 369;
+	364 [label="Orokin?",shape=box,color=blue];
+		364 -> 365;
+	363 [label="Chat ends.",color=orange];
+	366 [label="Update boolean LettieCavia",color=orange];
+		366 -> 368;
+	369 [label="Daha büyük iyilikmiş, kıçımın kenarı",shape=box,color=blue];
+		369 -> 371;
+		369 -> 372;
+	365 [label="Update boolean LettieOrokin1",color=orange];
+		365 -> 373;
+		365 -> 374;
+	368 [label="Cavia kim",shape=box,color=blue];
+		368 -> 370;
+	371 [label="Bilmiyorum, kıçın *oldukça* iyi. ;)",shape=box,color=red];
+		371 -> 375;
+	372 [label="Dürüst olmak gerekirse, Duvardaki Adam'ı durdurmak oldukça önemli bir sorun.",shape=box,color=red];
+		372 -> 377;
+	373 [label="Ben geleceğin egemen sınıfından geliyorum. İnsanların kendilerine tanrı gibi tapmalarını sağladılar.",shape=box,color=red];
+		373 -> 378;
+	374 [label="Kendilerini herkesten üstün gören pisliklerdi. Daha fazla söze gerek yok.",shape=box,color=red];
+		374 -> 378;
+	370 [label="Arkadaşlarım. Entrati'nin voide göndererek üzerinde deney yaptığı hayvanlar.",shape=box,color=red];
+		370 -> 376;
+	375 [label="+5 Chemistry",color=orange];
+		375 -> 380;
+	377 [label="Bu onun doğru şeyi yaptığı anlamına gelmez
 Onun gibi Pendejoların hepsi aynı 
 Sorunlarına inatla saldırırlar 
 Diğer herkesi sivil zayiat olarak görürler",shape=box,color=blue];
-		j765033132 -> j3625379575;
-	j1560177372 [label="İnsanların krallar gibi giyinerek ve süslenerek 
+		377 -> 385;
+	378 [label="İnsanların krallar gibi giyinerek ve süslenerek 
 Kendilerini ilah sanmaları ilk kez olmuyor",shape=box,color=blue];
-		j1560177372 -> j1481177157;
-	j1692476783 [label="Sanki ondan daha fazla nefret etmek için bir sebebe ihtiyacım yokmuş gibi... 
+		378 -> 382;
+	376 [label="Sanki ondan daha fazla nefret etmek için bir sebebe ihtiyacım yokmuş gibi... 
 LABORATUVAR HAYVANLARI MI?!",shape=box,color=blue];
-		j1692476783 -> j3655755297;
-	j2916555276 [label="JAJA 
+		376 -> 379;
+	380 [label="JAJA 
 Anlıyorsun",shape=box,color=blue];
-		j2916555276 -> j1617317174;
-	j3625379575 [label="Kime, ne kadar ve ve nasıl zarar verdiğini düşünmez
+		380 -> 381;
+	385 [label="Kime, ne kadar ve ve nasıl zarar verdiğini düşünmez
 Herkes onun gözünde görevi uğruna feda edilebilecek zayiatlardır",shape=box,color=blue];
-		j3625379575 -> j4194706288;
-	j1481177157 [label="Bu Entrati'yi açıklıyor 
+		385 -> 390;
+	382 [label="Bu Entrati'yi açıklıyor 
 Kendisinin tanrı olduğunu düşünüyor ve buna göre davranıyor
 Onun gibi Pendejo'ların hepsi aynı 
 İnatla kendi sorunlarına saldırır
 Diğerlerini zayiat olarak görür",shape=box,color=blue];
-		j1481177157 -> j3625379575;
-	j3655755297 [label="Onları voide gönderdi ve zeki olarak geri döndüler.",shape=box,color=red];
-		j3655755297 -> j1036798633;
-	j1617317174 [label="Ama onun gibi pendejoların hepsi benzerdir
+		382 -> 385;
+	379 [label="Onları voide gönderdi ve zeki olarak geri döndüler.",shape=box,color=red];
+		379 -> 383;
+	381 [label="Ama onun gibi pendejoların hepsi benzerdir
 Kafalarını bir sorunu çözmeye takarlar ve diğer herkes sadece sivil zayiat olur 
 Kimi ne kadar incittikleri umurlarında olmaz
 İstedikleri olacaksa evreni yakarlar",shape=box,color=blue];
-		j1617317174 -> j4194706288;
-	j4194706288 [label="Onun gibi insanlar bizim gibi insanların öldürülmesine neden oluyor",shape=box,color=blue];
-		j4194706288 -> j77219225;
-	j1036798633 [label="Void... böyle tuhaf şeyler yapabilir.",shape=box,color=red];
-		j1036798633 -> j1593007488;
-	j77219225 [label="Davası uğruna öldüğünü asla göremezsin
+		381 -> 390;
+	390 [label="Onun gibi insanlar bizim gibi insanların öldürülmesine neden oluyor",shape=box,color=blue];
+		390 -> 394;
+	383 [label="Void... böyle tuhaf şeyler yapabilir.",shape=box,color=red];
+		383 -> 384;
+	394 [label="Davası uğruna öldüğünü asla göremezsin
 O asla HAYATINI feda etmez
 Sadece etrafındakiler",shape=box,color=blue];
-		j77219225 -> j821836103;
-	j1593007488 [label="Ve tahmin edeyim, onları terk etmiştir 
+		394 -> 396;
+	384 [label="Ve tahmin edeyim, onları terk etmiştir 
 Ne yaptığını görmüş ve artık onlara ihtiyacı olmadığı için çekip gitmiştir",shape=box,color=blue];
-		j1593007488 -> j1358555165;
-		j1593007488 -> j3431476339;
-	j821836103 [label="Sonunda canavarın hangisi olduğunu merak ettirir",shape=box,color=blue];
-		j821836103 -> j3266713296;
-		j821836103 -> j2002038936;
-	j1358555165 [label="Evet, direk çözdün. Şimdi onlar... insan zekasına sahip bir grup travma geçirmiş hayvan oldular.",shape=box,color=red];
-		j1358555165 -> j2809618114;
-	j3431476339 [label="Duvardaki Adam'ı durdurmaya çalışıyor. Bu çok önemli.",shape=box,color=red];
-		j3431476339 -> j2129878045;
-	j3266713296 [label="Duvardaki Adam'ı durdurmak için neden her şeyi yaptığını anlıyorum.",shape=box,color=red];
-		j3266713296 -> j151497019;
-	j2002038936 [label="Duvardaki Adam'ı durdurmak için ona ihtiyacımız var. Ama bu ona güvendiğim anlamına gelmiyor. Ya da ondan hoşlandığım.",shape=box,color=red];
-		j2002038936 -> j1621510561;
-	j2809618114 [label="Ah, pobres ángeles inocentes 
+		384 -> 386;
+		384 -> 387;
+	396 [label="Sonunda canavarın hangisi olduğunu merak ettirir",shape=box,color=blue];
+		396 -> 397;
+		396 -> 398;
+	386 [label="Evet, direk çözdün. Şimdi onlar... insan zekasına sahip bir grup travma geçirmiş hayvan oldular.",shape=box,color=red];
+		386 -> 388;
+	387 [label="Duvardaki Adam'ı durdurmaya çalışıyor. Bu çok önemli.",shape=box,color=red];
+		387 -> 389;
+	397 [label="Duvardaki Adam'ı durdurmak için neden her şeyi yaptığını anlıyorum.",shape=box,color=red];
+		397 -> 402;
+	398 [label="Duvardaki Adam'ı durdurmak için ona ihtiyacımız var. Ama bu ona güvendiğim anlamına gelmiyor. Ya da ondan hoşlandığım.",shape=box,color=red];
+		398 -> 401;
+	388 [label="Ah, pobres ángeles inocentes 
 Onları severdim, haklısın...
 Hayvanları hak etmiyoruz 
 Bize olan sevgileri saf ve karşılığında sadece sevgi isterler",shape=box,color=blue];
-		j2809618114 -> j2292004594;
-		j2809618114 -> j2258178797;
-	j2129878045 [label="Olmadığını söylemiyorum. 
+		388 -> 391;
+		388 -> 392;
+	389 [label="Olmadığını söylemiyorum. 
 Ama onun gibi pendejolar, en büyük iyiliği yapmak adına her zaman en kötü şeyleri yaparlar 
 KAZANÇLARINI ve isteklerini elde ettikleri sürece kimin canını yaktıkları ya da ne kadar kötü oldukları umurlarında değildir",shape=box,color=blue];
-		j2129878045 -> j4194706288;
-	j151497019 [label="Tanrıları anlıyormuş gibi davranma 
+		389 -> 390;
+	402 [label="Tanrıları anlıyormuş gibi davranma 
 Onlar bizim ötemizdedir ve aksini düşünmek aptallıktır",shape=box,color=blue];
-		j151497019 -> j3201214572;
-	j1621510561 [label="+10 Chemistry",color=orange];
-		j1621510561 -> j4247049767;
-	j2292004594 [label="Cavia'ya yardım etmek için elimden gelen her şeyi yapıyorum. Dürüst olmak gerekirse, onları çoğu insana tercih ederim",shape=box,color=red];
-		j2292004594 -> j797995740;
-	j2258178797 [label="Belki bir gün seni onları görmeye götürebilirim.",shape=box,color=red];
-		j2258178797 -> j1283886041;
-	j3201214572 [label="Check boolean LettieReligion2",color=orange];
-		j3201214572 -> j4027703380 [label=true,color=green];
-		j3201214572 -> j3468500209 [label=false,color=brown];
-	j4247049767 [label="Peki 
+		402 -> 404;
+	401 [label="+10 Chemistry",color=orange];
+		401 -> 403;
+	391 [label="Cavia'ya yardım etmek için elimden gelen her şeyi yapıyorum. Dürüst olmak gerekirse, onları çoğu insana tercih ederim",shape=box,color=red];
+		391 -> 399;
+	392 [label="Belki bir gün seni onları görmeye götürebilirim.",shape=box,color=red];
+		392 -> 393;
+	404 [label="Check boolean LettieReligion2",color=orange];
+		404 -> 409 [label=true,color=green];
+		404 -> 410 [label=false,color=brown];
+	403 [label="Peki 
 O pendejo'ya sırtını dönme 
 Ama tanrıların doğasını biliyormuş gibi davranmamaya dikkat et",shape=box,color=blue];
-		j4247049767 -> j3201214572;
-	j797995740 [label="Boolean LettieRats1 is now true.",color=orange];
-		j797995740 -> j2600787759;
-	j1283886041 [label="Buna bayılırım 
+		403 -> 404;
+	399 [label="Update boolean LettieRats1",color=orange];
+		399 -> 395;
+	393 [label="Buna bayılırım 
 Gracias",shape=box,color=blue];
-		j1283886041 -> j797995740;
-	j4027703380 [label="Xipe Totec gurur duyardı 
+		393 -> 399;
+	409 [label="Xipe Totec gurur duyardı 
 Ama Derisi Yüzülmüş Olan gibi, bu eski tanrın bir dahaki sefere senin yerini almamasına dikkat et",shape=box,color=blue];
-		j4027703380 -> j1960847786;
-	j3468500209 [label="Onun peşinden koştuğu ŞEY 
+		409 -> 419;
+	410 [label="Onun peşinden koştuğu ŞEY 
 Eski zamanların kanlı tanrıları gibi insan derisi giyer",shape=box,color=blue];
-		j3468500209 -> j1601228136;
-	j2600787759 [label="+10 Chemistry",color=orange];
-		j2600787759 -> j926532107;
-	j1960847786 [label="O zaman üzülürüm işte",shape=box,color=blue];
-		j1960847786 -> j265581581;
-		j1960847786 -> j2918244392;
-	j1601228136 [label="Derisi Yüzülen Xipe Totec düşmanlarının derisini giyerdi 
+		410 -> 411;
+	395 [label="+10 Chemistry",color=orange];
+		395 -> 400;
+	419 [label="O zaman üzülürüm işte",shape=box,color=blue];
+		419 -> 420;
+		419 -> 421;
+	411 [label="Derisi Yüzülen Xipe Totec düşmanlarının derisini giyerdi 
 Senin Duvardaki Adam'ın da öyle",shape=box,color=blue];
-		j1601228136 -> j971178434;
-	j926532107 [label="Bu yüzden evcil hayvan besliyorum 
+		411 -> 414;
+	400 [label="Bu yüzden evcil hayvan besliyorum 
 Yalnız olduğumda sıçanlarım bana arkadaşlık ediyor 
 İnsanlara katlanamadığım zaman, onlar oradalar 
 Tatlı küçük ruhlar, sadece sevgi isterler",shape=box,color=blue];
-		j926532107 -> j1958947532;
-	j265581581 [label="Aaaa, teşekkür ederim.",shape=box,color=red];
-		j265581581 -> j481906865;
-	j2918244392 [label="Ben de seni seviyorum, Lettie.",shape=box,color=red];
-		j2918244392 -> j41899821;
-	j971178434 [label="Bu yüzden ne yaptığına dikkat et 
+		400 -> 405;
+	420 [label="Aaaa, teşekkür ederim.",shape=box,color=red];
+		420 -> 422;
+	421 [label="Ben de seni seviyorum, Lettie.",shape=box,color=red];
+		421 -> 423;
+	414 [label="Bu yüzden ne yaptığına dikkat et 
 Yoksa bir dahaki sefere senin yerini o alabilir
 ¿Değil mi, babas?",shape=box,color=blue];
-		j971178434 -> j1960847786;
-	j1958947532 [label="Ve çedar peynirini jaja 
+		414 -> 419;
+	405 [label="Ve çedar peynirini jaja 
 Ama çoğunlukla sevgi",shape=box,color=blue];
-		j1958947532 -> j1047503096;
-	j481906865 [label="İşe geri dönmeliyim 
+		405 -> 406;
+	422 [label="İşe geri dönmeliyim 
 Nos vemos, babas",shape=box,color=blue];
-		j481906865 -> "Chat ends.";
-	j41899821 [label="Muah 
+		422 -> 424;
+	423 [label="Muah 
 İşe geri dönmeliyim 
 Nos vemos, babas",shape=box,color=blue];
-		j41899821 -> "Chat ends.";
-	j1047503096 [label="Ama eğer Entrati ile tekrar karşılaşırsam 
+		423 -> 425;
+	406 [label="Ama eğer Entrati ile tekrar karşılaşırsam 
 Ona ACI çektireceğim 
 O hayvanlara çektirdiği acının her zerresini ona ödeteceğim 
 Ve nedenini bildiğinden emin olacağım",shape=box,color=blue];
-		j1047503096 -> j817338007;
-		j1047503096 -> j2996086283;
-	j817338007 [label="Bunu başarmana yardım etmek için orada olacağım.",shape=box,color=red];
-		j817338007 -> j4127377057;
-	j2996086283 [label="Duvardaki Adam'ın icabına baktıktan sonra, o artık senindir.",shape=box,color=red];
-		j2996086283 -> j171243471;
-	j4127377057 [label="+10 Chemistry",color=orange];
-		j4127377057 -> j171243471;
-	j171243471 [label="Transference sonunda bir işe yarayacak, ha",shape=box,color=blue];
-		j171243471 -> j2551755176;
-	j2551755176 [label="Ya da belki bunu kullanarak onu tutabilirsin 
+		406 -> 407;
+		406 -> 408;
+	424 [label="Chat ends.",color=orange];
+	425 [label="Chat ends.",color=orange];
+	407 [label="Bunu başarmana yardım etmek için orada olacağım.",shape=box,color=red];
+		407 -> 412;
+	408 [label="Duvardaki Adam'ın icabına baktıktan sonra, o artık senindir.",shape=box,color=red];
+		408 -> 761;
+	412 [label="+10 Chemistry",color=orange];
+		412 -> 2439;
+	761 [label="Transferans sonunda bir işe yarayacak, ha",shape=box,color=blue];
+		761 -> 413;
+	2439 [label="Transferans sonunda bir işe yarayacak, ha",shape=box,color=blue];
+		2439 -> 413;
+	413 [label="Ya da belki bunu kullanarak onu tutabilirsin 
 Heh, asla gerçekleşmeyecek bir şey için heyecanlanıyorum",shape=box,color=blue];
-		j2551755176 -> j3684324043;
-	j3684324043 [label="İşe geri dönmeliyim 
+		413 -> 416;
+	416 [label="İşe geri dönmeliyim 
 Nos vemos",shape=box,color=blue];
-		j3684324043 -> "Chat ends.";
+		416 -> 418;
+	418 [label="Chat ends.",color=orange];
 }

@@ -1,0 +1,33 @@
+digraph {
+	2162 [label="RoatheStory4 begins.",color=orange];
+		2162 -> 5647;
+	5647 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5647 -> 2166 [label=true,color=green];
+		5647 -> 5646 [label=false,color=brown];
+	2166 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2166 -> 2163 [label="x >= 4",color=purple];
+		2166 -> 2165 [label="false",color=purple];
+	5646 [label="Chat ends.",color=orange];
+	2163 [label="SM: KİBİR",shape=box,color=blue];
+		2163 -> 2164;
+	2165 [label="Chat ends.",color=orange];
+	2164 [label="Transkript: Kaybetmeyi beklemiyorduk. ",shape=box,color=blue];
+		2164 -> 5732;
+	5732 [label="Sentient'lerin ilk keşif saldırısından sonra, biz de cezalandırıcı bir karşı saldırı hazırlamıştık.",shape=box,color=blue];
+		5732 -> 2159;
+	2159 [label="Camlaştırıcı Kalyon, Ceres sisinin içinden ölümcül kanatlarıyla yükseldi; ağır dronlar ve gümüş zırhlı myrmidon'larla dolu bir kalyon.",shape=box,color=blue];
+		2159 -> 2160;
+	2160 [label="Devreler, sis kadar ince, yarı saydam kaplamalarının altında narin bir dantel oluşturuyordu. ",shape=box,color=blue];
+		2160 -> 5693;
+	5693 [label="O kadar büyüktü ki, Solar Rayının kenarlarını ancak aşabiliyordu.",shape=box,color=blue];
+		5693 -> 2167;
+	2167 [label="Sentient'ler sonucu görmemizi sağladılar. Şarkı söylediler ve teknolojimiz başarısız oldu. Savaşçılarımız parlak kıyafetlerinin içinde çırpınıp boğuldular.",shape=box,color=blue];
+		2167 -> 5684;
+	5684 [label="Camlaştırıcı Kalyon adlı karmaşık ve maliyetli havai fişek gemisinin mürettebatı, Tau semalarında motorsuz bir şekilde kuğu gibi süzülürken canlı canlı yandı.",shape=box,color=blue];
+		5684 -> 2158;
+	2158 [label="Add 1 to HellStory",color=orange];
+		2158 -> 2331;
+	2331 [label="{\"Id\":2331,\"Incoming\":[2158],\"Outgoing\":[2161],\"GraphPos\":[5059,-10280],\"CompletionType\":1}",color=orange];
+		2331 -> 2161;
+	2161 [label="Chat ends.",color=orange];
+}

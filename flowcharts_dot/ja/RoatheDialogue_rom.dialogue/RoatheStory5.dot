@@ -1,0 +1,31 @@
+digraph {
+	2175 [label="RoatheStory5 begins.",color=orange];
+		2175 -> 5649;
+	5649 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5649 -> 2174 [label=true,color=green];
+		5649 -> 5648 [label=false,color=brown];
+	2174 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2174 -> 2176 [label="x >= 5",color=purple];
+		2174 -> 2173 [label="false",color=purple];
+	5648 [label="Chat ends.",color=orange];
+	2176 [label="ボイスメール：発明",shape=box,color=blue];
+		2176 -> 2172;
+	2173 [label="Chat ends.",color=orange];
+	2172 [label="武闘派アルキメデスの展開は、当初は娯楽としてしか捉えられなかった。",shape=box,color=blue];
+		2172 -> 5692;
+	5692 [label="まるで、サーカスの闘技場で犯罪者が処刑されるのを観るように。",shape=box,color=blue];
+		5692 -> 2169;
+	2169 [label="我々は、はるかに劣る敵を倒すための、新しく刺激的な方法を編み出していると錯覚していた。",shape=box,color=blue];
+		2169 -> 2170;
+	2170 [label="どれほど自惚れていたことか。しかし実際には、変幻自在な敵に自分たちが劣っていることを知りながら、必死に革新を続けた。",shape=box,color=blue];
+		2170 -> 5685;
+	5685 [label="彼らは、膨れ上がった母親を貪り食う子供のように、我々を飲み込んだ。",shape=box,color=blue];
+		5685 -> 5686;
+	5686 [label="干からびて、時のページに押しつぶされた我々が、彼らの進化に追いつけるはずもなかった。",shape=box,color=blue];
+		5686 -> 2168;
+	2168 [label="Add 1 to HellStory",color=orange];
+		2168 -> 2332;
+	2332 [label="{\"Id\":2332,\"Incoming\":[2168],\"Outgoing\":[2171],\"GraphPos\":[4580,-9977],\"CompletionType\":1}",color=orange];
+		2332 -> 2171;
+	2171 [label="Chat ends.",color=orange];
+}

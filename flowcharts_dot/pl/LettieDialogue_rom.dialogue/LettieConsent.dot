@@ -1,0 +1,104 @@
+digraph {
+	2778 [label="LettieConsent begins.",color=orange];
+		2778 -> 2779;
+	2779 [label="Check boolean LettieDating",color=orange];
+		2779 -> 2780 [label=true,color=green];
+		2779 -> 2781 [label=false,color=brown];
+	2780 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
+		2780 -> 2782 [label=true,color=green];
+		2780 -> 2814 [label=false,color=brown];
+	2781 [label="Chat ends.",color=orange];
+	2782 [label="Check boolean LettieConsentComplete",color=orange];
+		2782 -> 2786 [label=true,color=green];
+		2782 -> 2785 [label=false,color=brown];
+		2782 -> 2784 [label=false,color=brown];
+	2814 [label="Check boolean LettiePolyamorySuccess",color=orange];
+		2814 -> 2782 [label=true,color=green];
+		2814 -> 2783 [label=false,color=brown];
+	2786 [label="Chat ends.",color=orange];
+	2785 [label="Hej Lettie, masz chwilę? [Zapytaj o zgodę na wielu partnerów]",shape=box,color=red];
+		2785 -> 2788;
+	2784 [label="[Koniec]",shape=box,color=red];
+		2784 -> 2787;
+	2783 [label="Chat ends.",color=orange];
+	2788 [label="Zawsze
+Ale dla ciebie?
+¿Qué?",shape=box,color=blue];
+		2788 -> 2790;
+	2787 [label="Update boolean LettieConsentComplete",color=orange];
+		2787 -> 2789;
+	2790 [label="Muszę cię o coś zapytać, chcę mieć pewność, że się na to zgadasz.",shape=box,color=red];
+		2790 -> 2791;
+	2789 [label="Chat ends.",color=orange];
+	2791 [label="Zależy mi na tym, żebyś nie czuła się, jakbym cię okłamywał.",shape=box,color=red];
+		2791 -> 2792;
+		2791 -> 2793;
+		2791 -> 2794;
+	2792 [label="Proszę, nie zrób mi krzywdy.",shape=box,color=red];
+		2792 -> 2795;
+	2793 [label="Proszę, nie denerwuj się.",shape=box,color=red];
+		2793 -> 2796;
+	2794 [label="Mam nadzieję, że rozumiesz.",shape=box,color=red];
+		2794 -> 2797;
+	2795 [label="Jajajajaj
+Już o tym rozmawialiśmy
+Krzywdzę cię tylko tak, jak lubisz
+A teraz o co chodzi",shape=box,color=blue];
+		2795 -> 2798;
+	2796 [label="¿Sí?
+Czym mam się nie denerwować?",shape=box,color=blue];
+		2796 -> 2798;
+	2797 [label="¿Sí?
+Co mam zrozumieć?",shape=box,color=blue];
+		2797 -> 2798;
+	2798 [label="Nie chcę stawiać cię w sytuacji, w której czujesz się źle. To nie jest coś, o czym rozmawialiśmy wcześniej. Zrozumiem, jeśli się nie zgodzisz.",shape=box,color=red];
+		2798 -> 2799;
+	2799 [label="To co stworzyliśmy jest dla mnie bardzo ważne, nie chcę, żebyś w to zwątpiła.",shape=box,color=red];
+		2799 -> 2800;
+	2800 [label="Aah, entiendo...
+Chyba chcę tylko wiedzieć
+Czy naprawdę ci zależy na tej osobie, solecito?
+¿Quiénes son?",shape=box,color=blue];
+		2800 -> 2801;
+		2800 -> 2802;
+	2801 [label="Tak. Ale też bardzo zależy mi na tobie.",shape=box,color=red];
+		2801 -> 2803;
+	2802 [label="Nie powinno mnie dziwić, że tak szybko mnie rozpracowałaś.",shape=box,color=red];
+		2802 -> 2804;
+	2803 [label="Ay, sí
+Ciężko cię winić, kiedy tak wiele widziałeś
+Tak wiele podróżujesz
+Mi to nie przeszkadza",shape=box,color=blue];
+		2803 -> 2805;
+	2804 [label="Oszukiwałam
+Eleanor mnie ostrzegła
+Jajaja okropna z niej plotkara",shape=box,color=blue];
+		2804 -> 2806;
+	2805 [label="Byle nikt z hex
+¿No mi familia, por favor?
+Przez tydzień szorowałabym się w alkoholu",shape=box,color=blue];
+		2805 -> 2807;
+	2806 [label="Ciężko cię winić, kiedy tak wiele widziałeś
+Tak wiele podróżujesz
+Mi to nie przeszkadza",shape=box,color=blue];
+		2806 -> 2805;
+	2807 [label="+20 Chemistry",color=orange];
+		2807 -> 2808;
+	2808 [label="Też jesteś dla mnie bardzo ważny, solecito
+Ale jeśli jesteś szczęśliwy?
+To ja też jestem szczęśliwa
+Tak po prostu",shape=box,color=blue];
+		2808 -> 2809;
+	2809 [label="Och
+I jeśli wymyślisz kiedyś, jak zorganizować spotkanie
+To mnie przedstawisz",shape=box,color=blue];
+		2809 -> 2810;
+		2809 -> 2811;
+	2810 [label="Tak, proszę pani. :)",shape=box,color=red];
+		2810 -> 2812;
+	2811 [label="Zobaczę, co da się zrobić.",shape=box,color=red];
+		2811 -> 2812;
+	2812 [label="Update boolean LettieConsentComplete",color=orange];
+		2812 -> 2813;
+	2813 [label="Chat ends.",color=orange];
+}

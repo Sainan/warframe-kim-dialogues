@@ -1,16 +1,21 @@
 digraph {
-	"AmirBirthdayConvo2 begins." [color=orange];
-		"AmirBirthdayConvo2 begins." -> j1338794513;
-		"AmirBirthdayConvo2 begins." -> j245687896;
-	j1338794513 [label="สุขสันต์วันเกิดนะ Amir ยังไม่ได้ซื้ออะไรให้เลย",shape=box,color=red];
-		j1338794513 -> j1861364364;
-	j245687896 [label="เฮ้ Amir สุขสันต์วันเกิด ขอให้สนุกนะ!",shape=box,color=red];
-		j245687896 -> j3293419331;
-	j1861364364 [label="โอ้ อืม แค่นึกถึงก็พอแล้ว ... และความพยายามเล็ก ๆ น้อย ๆ ด้วย ... ขอบใจนะ",shape=box,color=blue];
-		j1861364364 -> "Chat ends.";
-	j3293419331 [label="+20 Chemistry",color=orange];
-		j3293419331 -> j3860608673;
-	"Chat ends." [color=orange];
-	j3860608673 [label="ใช่ วันนี้ดีมาก ตื่นมาตั้งแต่ 12.01 น. เราดื่มเครื่องดื่มชูกำลังและเล่นเกมอาร์เคดกัน แล้ว AOI ก็สร้างห้องตุ๊กตาให้ และข้าก็อ้วกในห้องตุ๊กตานั่นแหละ",shape=box,color=blue];
-		j3860608673 -> "Chat ends.";
+	3572 [label="AmirBirthdayConvo2 begins.",color=orange];
+		3572 -> 3578;
+		3572 -> 3579;
+	3578 [label="สุขสันต์วันเกิดนะ Amir ยังไม่ได้ซื้ออะไรให้เลย",shape=box,color=red];
+		3578 -> 3577;
+	3579 [label="เฮ้ Amir สุขสันต์วันเกิด ขอให้สนุกนะ!",shape=box,color=red];
+		3579 -> 3573;
+	3577 [label="โอ้ อืม แค่นึกถึงก็พอแล้ว ... และความพยายามเล็ก ๆ น้อย ๆ ด้วย ... ขอบใจนะ",shape=box,color=blue];
+		3577 -> 3596;
+	3573 [label="+20 Chemistry",color=orange];
+		3573 -> 3576;
+	3596 [label="{\"Id\":3596,\"Incoming\":[3577],\"Outgoing\":[3574],\"GraphPos\":[-14787,-21152],\"CompletionType\":1}",color=orange];
+		3596 -> 3574;
+	3576 [label="ใช่ วันนี้ดีมาก ตื่นมาตั้งแต่ 12.01 น. เราดื่มเครื่องดื่มชูกำลังและเล่นเกมอาร์เคดกัน แล้ว AOI ก็สร้างห้องตุ๊กตาให้ และข้าก็อ้วกในห้องตุ๊กตานั่นแหละ",shape=box,color=blue];
+		3576 -> 3597;
+	3574 [label="Chat ends.",color=orange];
+	3597 [label="{\"Id\":3597,\"Incoming\":[3576],\"Outgoing\":[3575],\"GraphPos\":[-14371,-21328],\"CompletionType\":1}",color=orange];
+		3597 -> 3575;
+	3575 [label="Chat ends.",color=orange];
 }

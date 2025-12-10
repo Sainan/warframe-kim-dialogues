@@ -1,16 +1,21 @@
 digraph {
-	"QuincyBirthdayConvo1 begins." [color=orange];
-		"QuincyBirthdayConvo1 begins." -> j3905584445;
-		"QuincyBirthdayConvo1 begins." -> j3972760539;
-	j3905584445 [label="İyi ki doğdun Quincy. Her zamanki gibi harika görünüyorsun.",shape=box,color=red];
-		j3905584445 -> j3655486965;
-	j3972760539 [label="Doğum günün kutlu olsun! Yaşlandığını hissediyor musun?",shape=box,color=red];
-		j3972760539 -> j2708427788;
-	j3655486965 [label="+20 Chemistry",color=orange];
-		j3655486965 -> j2133924611;
-	j2708427788 [label="yaşımı hissediyor muyum?! diyene bak, hele bi kaç yaşındasın söyle, yaşını biliyor musun acaba?! seni budala",shape=box,color=blue];
-		j2708427788 -> "Chat ends.";
-	j2133924611 [label="biliyorsun haha. aynısını senin için de söyleyebilirim. bekle. sen kaç yaşındasın ki?!",shape=box,color=blue];
-		j2133924611 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3532 [label="QuincyBirthdayConvo1 begins.",color=orange];
+		3532 -> 3535;
+		3532 -> 3536;
+	3535 [label="İyi ki doğdun Quincy. Her zamanki gibi harika görünüyorsun.",shape=box,color=red];
+		3535 -> 3537;
+	3536 [label="Doğum günün kutlu olsun! Yaşlandığını hissediyor musun?",shape=box,color=red];
+		3536 -> 3540;
+	3537 [label="+20 Chemistry",color=orange];
+		3537 -> 3538;
+	3540 [label="yaşımı hissediyor muyum?! diyene bak, hele bi kaç yaşındasın söyle, yaşını biliyor musun acaba?! seni budala",shape=box,color=blue];
+		3540 -> 3239;
+	3538 [label="biliyorsun haha. aynısını senin için de söyleyebilirim. bekle. sen kaç yaşındasın ki?!",shape=box,color=blue];
+		3538 -> 3227;
+	3239 [label="{\"Id\":3239,\"Incoming\":[3540],\"Outgoing\":[3541],\"GraphPos\":[1228,-4984],\"CompletionType\":1}",color=orange];
+		3239 -> 3541;
+	3227 [label="{\"Id\":3227,\"Incoming\":[3538],\"Outgoing\":[3539],\"GraphPos\":[1576,-5137],\"CompletionType\":1}",color=orange];
+		3227 -> 3539;
+	3541 [label="Chat ends.",color=orange];
+	3539 [label="Chat ends.",color=orange];
 }

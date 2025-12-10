@@ -1,0 +1,33 @@
+digraph {
+	2307 [label="RoatheStory19 begins.",color=orange];
+		2307 -> 5676;
+	5676 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5676 -> 2304 [label=true,color=green];
+		5676 -> 5677 [label=false,color=brown];
+	2304 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2304 -> 2302 [label="x >= 19",color=purple];
+		2304 -> 2306 [label="false",color=purple];
+	5677 [label="Chat ends.",color=orange];
+	2302 [label="ДИПЛОМАТІЯ",shape=box,color=blue];
+		2302 -> 5720;
+	2306 [label="Chat ends.",color=orange];
+	5720 [label="Витяг: Серед Семи Виконавців Балласа вважали першим серед рівних. ",shape=box,color=blue];
+		5720 -> 5721;
+	5721 [label="Невтомний дипломат, солодкомовний переконувач, він вирішував суперечки та кривди інших.",shape=box,color=blue];
+		5721 -> 2301;
+	2301 [label="О, як я радів, коли усвідомив, що він став трояндою, затиснутою між двома терновими кущами. ",shape=box,color=blue];
+		2301 -> 5734;
+	5734 [label="Фракція підбурювачів війни на чолі з Нітог тягнула в один бік. Пацифісти на чолі зі Скарном — в інший.",shape=box,color=blue];
+		5734 -> 2300;
+	2300 [label="Баллас був змушений прийняти рішення й готуватися до злісної ворожнечі зі сторони тих, кого не обрав.",shape=box,color=blue];
+		2300 -> 2305;
+	2305 [label="З невідомих мені причин він обрав мир. Співвідношення стало 4 до 3 — кровожерливі свідомі раптово стали союзниками й друзями.",shape=box,color=blue];
+		2305 -> 2308;
+	2308 [label="«Так чи інак, але він передумає», — усе обіцяла Нітог, навіть коли мене відправили шукати невдоволених серед гарнізону даксів.",shape=box,color=blue];
+		2308 -> 2299;
+	2299 [label="Add 1 to HellStory",color=orange];
+		2299 -> 2346;
+	2346 [label="{\"Id\":2346,\"Incoming\":[2299],\"Outgoing\":[2303],\"GraphPos\":[4753,-4136],\"CompletionType\":1}",color=orange];
+		2346 -> 2303;
+	2303 [label="Chat ends.",color=orange];
+}

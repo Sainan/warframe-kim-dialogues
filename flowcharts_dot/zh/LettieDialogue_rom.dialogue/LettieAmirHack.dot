@@ -1,40 +1,40 @@
 digraph {
-	"LettieAmirHack begins." [color=orange];
-		"LettieAmirHack begins." -> j2316161106;
-	j2316161106 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
-		j2316161106 -> j913101727;
-		j2316161106 -> j316759338;
-	j913101727 [label="我感觉你现在很生气……",shape=box,color=red];
-		j913101727 -> j346501802;
-	j316759338 [label="嗯……你没有收到花生酱吗......？",shape=box,color=red];
-		j316759338 -> j346501802;
-	j346501802 [label="我该怎么处理 
+	1768 [label="LettieAmirHack begins.",color=orange];
+		1768 -> 1769;
+	1769 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
+		1769 -> 1770;
+		1769 -> 1771;
+	1770 [label="我感觉你现在很生气……",shape=box,color=red];
+		1770 -> 1772;
+	1771 [label="嗯……你没有收到花生酱吗......？",shape=box,color=red];
+		1771 -> 1772;
+	1772 [label="我该怎么处理 
 500 箱番茄酱包
 ¡DILE A ESE NIÑO QUE VENGA AQUÍ AHORA MISMO! 
 让他去处理 
 现在！！",shape=box,color=blue];
-		j346501802 -> j2147381261;
-		j346501802 -> j1090633544;
-	j2147381261 [label="嘿，所以，这全都是误会。阿米尔是想给你的老鼠送花生酱吃。",shape=box,color=red];
-		j2147381261 -> j2928654610;
-	j1090633544 [label="这都是误会。他只是想送你个礼物。",shape=box,color=red];
-		j1090633544 -> j4206745097;
-	j2928654610 [label="但搞砸了，我会帮他处理的。",shape=box,color=red];
-		j2928654610 -> j339574916;
-	j4206745097 [label="我不在乎 
+		1772 -> 1773;
+		1772 -> 1774;
+	1773 [label="嘿，所以，这全都是误会。阿米尔是想给你的老鼠送花生酱吃。",shape=box,color=red];
+		1773 -> 1775;
+	1774 [label="这都是误会。他只是想送你个礼物。",shape=box,color=red];
+		1774 -> 1776;
+	1775 [label="但搞砸了，我会帮他处理的。",shape=box,color=red];
+		1775 -> 1780;
+	1776 [label="我不在乎 
 ¡SÁCALAS DE AQUÍ!! 
 ¡¡AHORA!!",shape=box,color=blue];
-		j4206745097 -> "Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue";
-	j339574916 [label="+20 Chemistry",color=orange];
-		j339574916 -> j384655938;
-	"Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue" [label="Queue conversation AmirHack3 in JabirDialogue_rom.dialogue",color=orange];
-		"Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue" -> "Chat ends.";
-	j384655938 [label="¿SÍ? 
+		1776 -> 1777;
+	1780 [label="+20 Chemistry",color=orange];
+		1780 -> 1778;
+	1777 [label="{\"Id\":1777,\"Incoming\":[1779,1776],\"Outgoing\":[1781],\"GraphPos\":[2847,54171],\"CompletionType\":2,\"OtherDialogueInfos\":[{\"Dialogue\":\"/Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue\",\"Tag\":\"AmirHack3\",\"Value\":0}]}",color=orange];
+		1777 -> 1781;
+	1778 [label="¿SÍ? 
 是给 mis panquecitos 的？",shape=box,color=blue];
-		j384655938 -> j2482671012;
-	"Chat ends." [color=orange];
-	j2482671012 [label="¡Ay equis! 
+		1778 -> 1779;
+	1781 [label="Chat ends.",color=orange];
+	1779 [label="¡Ay equis! 
 把这些都从这弄出去
 ¡¡AHORA!!",shape=box,color=blue];
-		j2482671012 -> "Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue";
+		1779 -> 1777;
 }

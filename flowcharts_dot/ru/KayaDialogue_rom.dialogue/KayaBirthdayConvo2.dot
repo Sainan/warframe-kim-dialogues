@@ -1,16 +1,17 @@
 digraph {
-	"KayaBirthdayConvo2 begins." [color=orange];
-		"KayaBirthdayConvo2 begins." -> j502751277;
-		"KayaBirthdayConvo2 begins." -> j1583422260;
-	j502751277 [label="С днём рождения, Кайя! Планируешь \"вечеринку твоей жизни\"? Шарики? Гирлянды? Всё как надо?",shape=box,color=red];
-		j502751277 -> j1778484581;
-	j1583422260 [label="Какие планы на день рождения?",shape=box,color=red];
-		j1583422260 -> j1514810815;
-	j1778484581 [label="Фу. Брр, нет. Даже трупом меня с этим не поймаешь.",shape=box,color=blue];
-		j1778484581 -> "Chat ends.";
-	j1514810815 [label="+20 Chemistry",color=orange];
-		j1514810815 -> j2776219535;
-	"Chat ends." [color=orange];
-	j2776219535 [label="вообще-то да. Лэтти покажет мне, как препарировать труп, круто же?!",shape=box,color=blue];
-		j2776219535 -> "Chat ends.";
+	992 [label="KayaBirthdayConvo2 begins.",color=orange];
+		992 -> 1001;
+		992 -> 1002;
+	1001 [label="С днём рождения, Кайя! Планируешь \"вечеринку твоей жизни\"? Шарики? Гирлянды? Всё как надо?",shape=box,color=red];
+		1001 -> 991;
+	1002 [label="Какие планы на день рождения?",shape=box,color=red];
+		1002 -> 1008;
+	991 [label="Фу. Брр, нет. Даже трупом меня с этим не поймаешь.",shape=box,color=blue];
+		991 -> 990;
+	1008 [label="+20 Chemistry",color=orange];
+		1008 -> 1009;
+	990 [label="Chat ends.",color=orange];
+	1009 [label="вообще-то да. Лэтти покажет мне, как препарировать труп, круто же?!",shape=box,color=blue];
+		1009 -> 1010;
+	1010 [label="Chat ends.",color=orange];
 }

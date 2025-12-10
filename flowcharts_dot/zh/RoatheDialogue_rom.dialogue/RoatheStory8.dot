@@ -1,0 +1,33 @@
+digraph {
+	2201 [label="RoatheStory8 begins.",color=orange];
+		2201 -> 5655;
+	5655 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5655 -> 2196 [label=true,color=green];
+		5655 -> 5654 [label=false,color=brown];
+	2196 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2196 -> 2200 [label="x >= 8",color=purple];
+		2196 -> 2199 [label="false",color=purple];
+	5654 [label="Chat ends.",color=orange];
+	2200 [label="语音留言：旗帜",shape=box,color=blue];
+		2200 -> 2198;
+	2199 [label="Chat ends.",color=orange];
+	2198 [label="文字记录：要说最能反映我们人类是如何以自大的姿态对待战争屠戮的，那非旗手莫属。",shape=box,color=blue];
+		2198 -> 5694;
+	5694 [label="那些必须不惜一切代价保护——且不得有丝毫质疑的追随之人。",shape=box,color=blue];
+		5694 -> 5695;
+	5695 [label="而且，我还要补充一点，他们可能被威胁，被迫执行任何理智的士兵都不会执行的命令，否则他们将遭受更可怕的命运。尽管这听起来很荒谬。",shape=box,color=blue];
+		5695 -> 2203;
+	2203 [label="尽管这听起来很荒谬。",shape=box,color=blue];
+		2203 -> 5731;
+	5731 [label="虽然他们残缺的躯体与其他尸体并无二致，但我的目光总是会被他们的身形所吸引。",shape=box,color=blue];
+		5731 -> 2195;
+	2195 [label="吸引我的总是他们高举的旗帜，闪耀着奥罗金的金色光芒，点缀着斑驳的深红色。",shape=box,color=blue];
+		2195 -> 2204;
+	2204 [label="每次离开前，我都会确保它骄傲地矗立在战场上。",shape=box,color=blue];
+		2204 -> 2202;
+	2202 [label="Add 1 to HellStory",color=orange];
+		2202 -> 2335;
+	2335 [label="{\"Id\":2335,\"Incoming\":[2202],\"Outgoing\":[2197],\"GraphPos\":[4863,-8750],\"CompletionType\":1}",color=orange];
+		2335 -> 2197;
+	2197 [label="Chat ends.",color=orange];
+}

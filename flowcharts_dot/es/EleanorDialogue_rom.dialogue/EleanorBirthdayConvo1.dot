@@ -1,16 +1,21 @@
 digraph {
-	"EleanorBirthdayConvo1 begins." [color=orange];
-		"EleanorBirthdayConvo1 begins." -> j2005830738;
-		"EleanorBirthdayConvo1 begins." -> j3980817798;
-	j2005830738 [label="¡Feliz cumpleaños a la primogénita de la familia Nightingale!",shape=box,color=red];
-		j2005830738 -> j1473838412;
-	j3980817798 [label="¡Feliz cumpleaños, dama monstruo!",shape=box,color=red];
-		j3980817798 -> j1704828847;
-	j1473838412 [label="+20 Chemistry",color=orange];
-		j1473838412 -> j1667720266;
-	j1704828847 [label="¡Feliz día ordinario, simple molestia humana!",shape=box,color=blue];
-		j1704828847 -> "Chat ends.";
-	j1667720266 [label="Y nunca he dejado que él lo olvide. Jeje.",shape=box,color=blue];
-		j1667720266 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	2816 [label="EleanorBirthdayConvo1 begins.",color=orange];
+		2816 -> 2817;
+		2816 -> 2818;
+	2817 [label="¡Feliz cumpleaños a la primogénita de la familia Nightingale!",shape=box,color=red];
+		2817 -> 2819;
+	2818 [label="¡Feliz cumpleaños, dama monstruo!",shape=box,color=red];
+		2818 -> 2821;
+	2819 [label="+20 Chemistry",color=orange];
+		2819 -> 2820;
+	2821 [label="¡Feliz día ordinario, simple molestia humana!",shape=box,color=blue];
+		2821 -> 2840;
+	2820 [label="Y nunca he dejado que él lo olvide. Jeje.",shape=box,color=blue];
+		2820 -> 2839;
+	2840 [label="{\"Id\":2840,\"Incoming\":[2821],\"Outgoing\":[2823],\"GraphPos\":[1853,-3679],\"CompletionType\":1}",color=orange];
+		2840 -> 2823;
+	2839 [label="{\"Id\":2839,\"Incoming\":[2820],\"Outgoing\":[2822],\"GraphPos\":[1863,-3875],\"CompletionType\":1}",color=orange];
+		2839 -> 2822;
+	2823 [label="Chat ends.",color=orange];
+	2822 [label="Chat ends.",color=orange];
 }

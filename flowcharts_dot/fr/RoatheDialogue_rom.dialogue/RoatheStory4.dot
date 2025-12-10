@@ -1,0 +1,33 @@
+digraph {
+	2162 [label="RoatheStory4 begins.",color=orange];
+		2162 -> 5647;
+	5647 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5647 -> 2166 [label=true,color=green];
+		5647 -> 5646 [label=false,color=brown];
+	2166 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2166 -> 2163 [label="x >= 4",color=purple];
+		2166 -> 2165 [label="false",color=purple];
+	5646 [label="Chat ends.",color=orange];
+	2163 [label="MV: ORGUEIL",shape=box,color=blue];
+		2163 -> 2164;
+	2165 [label="Chat ends.",color=orange];
+	2164 [label="Transcription: nous ne nous attendions pas à perdre.",shape=box,color=blue];
+		2164 -> 5732;
+	5732 [label="Après le premier raid expéditionnaire des Sentients, nous avions préparé une contre-attaque punitive.",shape=box,color=blue];
+		5732 -> 2159;
+	2159 [label="L'Enchanteresse Verredoré émergea des brumes de Cérès sur des ailes mortelles, tel un galion chargé de drones et de myrmidons en armure d'argent.",shape=box,color=blue];
+		2159 -> 2160;
+	2160 [label="Des circuits, fins comme la brume, dessinaient une délicate dentelle sous leur blindage translucide.",shape=box,color=blue];
+		2160 -> 5693;
+	5693 [label="Elle était si immense qu'elle frôlait les bords du Rail Solaire.",shape=box,color=blue];
+		5693 -> 2167;
+	2167 [label="Les Sentients s'assurèrent d'avoir notre attention. Ils chantèrent et notre technologie faillit. Nos guerriers luttèrent et suffoquèrent dans leurs armures étincelantes.",shape=box,color=blue];
+		2167 -> 5684;
+	5684 [label="L'équipage de l'Enchanteresse Verredoré périt brûlé vif alors qu'elle plongeait sans moteur dans le ciel de Tau, un feu d'artifice complexe et coûteux.",shape=box,color=blue];
+		5684 -> 2158;
+	2158 [label="Add 1 to HellStory",color=orange];
+		2158 -> 2331;
+	2331 [label="{\"Id\":2331,\"Incoming\":[2158],\"Outgoing\":[2161],\"GraphPos\":[5059,-10280],\"CompletionType\":1}",color=orange];
+		2331 -> 2161;
+	2161 [label="Chat ends.",color=orange];
+}

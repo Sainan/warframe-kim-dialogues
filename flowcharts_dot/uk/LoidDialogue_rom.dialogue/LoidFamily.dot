@@ -1,0 +1,24 @@
+digraph {
+	18 [label="LoidFamily begins.",color=orange];
+		18 -> 19;
+	19 [label="Evaluate expressions",color=orange];
+		19 -> 20 [label="MarieFamilySuccess, LyonFamilySuccess, RoatheFamilySuccess",color=purple];
+		19 -> 21 [label="false",color=purple];
+	20 [label="Мандрівниче. Я більше не можу. Роут, Марі та Ліон переконали мене, що час нарешті настав.",shape=box,color=blue];
+		20 -> 22;
+	21 [label="Chat ends.",color=orange];
+	22 [label="Я боюся подальших дій до тремтіння в найменших кісточках. Гадаю, що мене до них і розберуть, шматок за шматком, у нападі люті, коли Ґомайтру та вся родина довідається, що відбувалося весь цей час у них під ногами.",shape=box,color=blue];
+		22 -> 23;
+	23 [label="Так дивно їх тепер називати за іменами, але так багато всього між нами змінилося. Та невдовзі зміниться ще більше.",shape=box,color=blue];
+		23 -> 24;
+		23 -> 25;
+	24 [label="Це вже давно треба було зробити. Усе буде добре.",shape=box,color=red];
+		24 -> 26;
+	25 [label="Ти впораєшся.",shape=box,color=red];
+		25 -> 26;
+	26 [label="Так, що ж. Чи не була б ваша ласка навідатися й простежити, щоб мої нутрощі не використовувалися як святкове оздоблення Некраліска? Боюся, мені потрібна буде деяка додаткова впевненість після того, що я скажу й зроблю.",shape=box,color=blue];
+		26 -> 27;
+	27 [label="Update boolean LoidFamilyComplete",color=orange];
+		27 -> 28;
+	28 [label="Chat ends.",color=orange];
+}

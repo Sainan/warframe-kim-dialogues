@@ -1,282 +1,295 @@
 digraph {
-	"LettieRank5Convo2 begins." [color=orange];
-		"LettieRank5Convo2 begins." -> j3526029970;
-	j3526029970 [label="Check boolean LettieDating",color=orange];
-		j3526029970 -> j3345053379 [label=true,color=green];
-		j3526029970 -> j3525085530 [label=false,color=brown];
-	j3345053379 [label="Solecito 
+	1782 [label="LettieRank5Convo2 begins.",color=orange];
+		1782 -> 1783;
+	1783 [label="Check boolean LettieDating",color=orange];
+		1783 -> 1784 [label=true,color=green];
+		1783 -> 1785 [label=false,color=brown];
+	1784 [label="Solecito 
 Orada mısın? 
 Birkaç dakikam var ve konuşuruz dedim",shape=box,color=blue];
-		j3345053379 -> j4065435120;
-		j3345053379 -> j2470656592;
-		j3345053379 -> j952662763;
-	j3525085530 [label="Hey
+		1784 -> 1786;
+		1784 -> 1787;
+		1784 -> 1788;
+	1785 [label="Hey
 Orada mısın? 
 Birkaç dakikam var ve konuşuruz dedim",shape=box,color=blue];
-		j3525085530 -> j2470656592;
-		j3525085530 -> j952662763;
-	j4065435120 [label="Benden ayrılmıyorsun değil mi?",shape=box,color=red];
-		j4065435120 -> j3160737631;
-	j2470656592 [label="KONUŞMAK mı istiyorsun...? İyi misin? Biri mi öldü?",shape=box,color=red];
-		j2470656592 -> j757838695;
-	j952662763 [label="Üzgünüm, şu anda konuşamam. [Son.]",shape=box,color=red];
-		j952662763 -> "Chat ends.";
-	j3160737631 [label="¡Ay, hayır! 
+		1785 -> 1787;
+		1785 -> 1788;
+	1786 [label="Benden ayrılmıyorsun değil mi?",shape=box,color=red];
+		1786 -> 1790;
+	1787 [label="KONUŞMAK mı istiyorsun...? İyi misin? Biri mi öldü?",shape=box,color=red];
+		1787 -> 1791;
+	1788 [label="Üzgünüm, şu anda konuşamam. [Son.]",shape=box,color=red];
+		1788 -> 1789;
+	1790 [label="¡Ay, hayır! 
 Hayırhayır 
 O konuyla ilgili değil jajaja 
 Gerçi konuşmamı bitirdiğimde FİKRİN değişebilir",shape=box,color=blue];
-		j3160737631 -> j3136035559;
-		j3160737631 -> j458280613;
-	j757838695 [label="Jaja çok komik 
+		1790 -> 1792;
+		1790 -> 1793;
+	1791 [label="Jaja çok komik 
 Ve şimdiye dek kim en az bir kez ölmedi ki? 
 Ay, hayır, konuşmak istediğim şey bu değil 
 Ciddiyim
 Ve bir süredir kaçındığım bir konu",shape=box,color=blue];
-		j757838695 -> j458280613;
-		j757838695 -> j3136035559;
-	"Chat ends." [color=orange];
-	j3136035559 [label="Tamam... Ne hakkında?",shape=box,color=red];
-		j3136035559 -> j2818670173;
-	j458280613 [label="Tamam, dinliyorum.",shape=box,color=red];
-		j458280613 -> j2818670173;
-	j2818670173 [label="Check boolean LettieHexAsked",color=orange];
-		j2818670173 -> j2496790235 [label=true,color=green];
-		j2818670173 -> j3172424732 [label=false,color=brown];
-	j2496790235 [label="Nasıl bu canavarlara dönüştüğümüzü sormuştun 
+		1791 -> 1793;
+		1791 -> 1792;
+	1789 [label="Chat ends.",color=orange];
+	1792 [label="Tamam... Ne hakkında?",shape=box,color=red];
+		1792 -> 1794;
+	1793 [label="Tamam, dinliyorum.",shape=box,color=red];
+		1793 -> 1794;
+	1794 [label="Check boolean LettieHexAsked",color=orange];
+		1794 -> 1795 [label=true,color=green];
+		1794 -> 1796 [label=false,color=brown];
+	1795 [label="Nasıl bu canavarlara dönüştüğümüzü sormuştun 
 O pinche cabrón'un bize yaptığı şeyi 
 Ondan neden bu kadar nefret ettiğimi 
 O pisliğin bize ne yaptırdığını",shape=box,color=blue];
-		j2496790235 -> j419112273;
-	j3172424732 [label="Check boolean LettieEntrati",color=orange];
-		j3172424732 -> j3644192878 [label=true,color=green];
-		j3172424732 -> j3038561522 [label=false,color=brown];
-	j419112273 [label="Ben 
+		1795 -> 1801;
+	1796 [label="Check boolean LettieEntrati",color=orange];
+		1796 -> 1797 [label=true,color=green];
+		1796 -> 1798 [label=false,color=brown];
+	1801 [label="Ben 
 Arthur'u UKY'ye kadar takip ettim 
 Kimsenin daha önce görmediği garip bir salgınla başa çıkmak için bu cuchitril'e gönderildim",shape=box,color=blue];
-		j419112273 -> j695266274;
-	j3644192878 [label="O pinche cabrón'un bize ne yaptığını bilmelisin 
+		1801 -> 1802;
+	1797 [label="O pinche cabrón'un bize ne yaptığını bilmelisin 
 Ondan neden bu kadar nefret ettiğimi 
 O pisliğin bize ne yaptırdığını",shape=box,color=blue];
-		j3644192878 -> j419112273;
-	j3038561522 [label="Check boolean LettieArthur1",color=orange];
-		j3038561522 -> j1986338618 [label=true,color=green];
-		j3038561522 -> j2670546541 [label=false,color=brown];
-	j695266274 [label="İnsanları çiğneyen bir hastalık 
+		1797 -> 1801;
+	1798 [label="Check boolean LettieArthur1",color=orange];
+		1798 -> 1799 [label=true,color=green];
+		1798 -> 1800 [label=false,color=brown];
+	1802 [label="İnsanları çiğneyen bir hastalık 
 Onları yarı insan yarı makine olarak tüküren 
 Ya da hiç insan olmayan bazı şeyler, más bien computadoras",shape=box,color=blue];
-		j695266274 -> j842820520;
-	j1986338618 [label="Sana Arthur'la nasıl hermanos olduğumuzu anlatmıştım 
+		1802 -> 1803;
+	1799 [label="Sana Arthur'la nasıl hermanos olduğumuzu anlatmıştım 
 Ama bu canavarlara nasıl dönüştüğümüzü değil 
 O pinche cabrón'un bize ne yaptığını bilmelisin 
 Ondan neden bu kadar nefret ettiğimi 
 O pisliğin bize ne yaptırdığını",shape=box,color=blue];
-		j1986338618 -> j419112273;
-	j2670546541 [label="Bizim için çok şey yaptın 
+		1799 -> 1801;
+	1800 [label="Bizim için çok şey yaptın 
 Hayatımızı kurtardın, yanımızda kaldın... gidebileceğin halde 
 Hikayenin tamamını duymanın zamanı geldi",shape=box,color=blue];
-		j2670546541 -> j419112273;
-	j842820520 [label="\"Bununla başa çıkmak\" için görevlendirildik 
+		1800 -> 1801;
+	1803 [label="\"Bununla başa çıkmak\" için görevlendirildik 
 Bildiğimiz en iyi yol 
 Yarı bandaj 
 Yarı mermi",shape=box,color=blue];
-		j842820520 -> j3409233561;
-	j3409233561 [label="Bu 1998'in başlarıydı 
+		1803 -> 1804;
+	1804 [label="Bu 1998'in başlarıydı 
 Sen gelmeden önce 
 O Entrati cabrónu zaten buradaydı 
 MENTIRAS'ını satıyordu",shape=box,color=blue];
-		j3409233561 -> j3111294065;
-	j3111294065 [label="Ama en iyi yalanlar inanmak istediklerindir, değil mi? 
+		1804 -> 1805;
+	1805 [label="Ama en iyi yalanlar inanmak istediklerindir, değil mi? 
 Bu hastalık için La Flaca ile dans etmek dışında bir tedavimiz yoktu
 Ama işte geliyor
 Doktor F ve onun sihirli mucizeler çantası sizi iyileştirecek 
 “Medicina milagrosa” ile her şeyi düzeltebileceğini söylüyor",shape=box,color=blue];
-		j3111294065 -> j3513237653;
-	j3513237653 [label="Ve biz de onu “bir bola de mensos” olarak satın aldık. 
+		1805 -> 1806;
+	1806 [label="Ve biz de onu “bir bola de mensos” olarak satın aldık. 
 Ve UKY ayaklarını yere vurup “hayırhayırhayır, ilacını dağıtmasına yardım edemezsin” dediğinde dinlemeliydi 
 Aşılar bilim insanlarından gelir, çirkin trençkotlu yaşlı bir adamdan değil 
 Eski dünyanın yılan yağı gibi yalan satmak 
 Ama etrafınızda insanlar ölüyor? 
 Yine de ona yardım edersin çünkü insanlara YARDIM etmek için bu işe girmiştin",shape=box,color=blue];
-		j3513237653 -> j4273182027;
-	j4273182027 [label="Biz de bu şehrin insanlarına uyuşturucusunu enjekte etmesine yardım ettik 
+		1806 -> 1807;
+	1807 [label="Biz de bu şehrin insanlarına uyuşturucusunu enjekte etmesine yardım ettik 
 Onları çadırlarımıza dizdik ve o cabrón ile onları birbiri ardına aşıladık 
 Biz çalışırken diğerleri de operasyonu güvende tuttu",shape=box,color=blue];
-		j4273182027 -> j3878322360;
-	j3878322360 [label="NOSOTROS CREÍMOS EN ÉL 
+		1807 -> 1808;
+	1808 [label="NOSOTROS CREÍMOS EN ÉL 
 Ona güvenmiştik 
 ¿Y por tan poco? 
 İşe yarıyor gibi görünüyordu 
 Aşıladığımız insanlar hastalanmıyordu 
 Sorun...?",shape=box,color=blue];
-		j3878322360 -> j3823931135;
-	j3823931135 [label="Etraflarındaki herkes 
+		1808 -> 1809;
+	1809 [label="Etraflarındaki herkes 
 “Gizli taşıyıcının” ne olduğunu bilir misin? 
 Bir yaz bir hayvan barınağında gönüllü olarak çalıştım cuando estaba chiquita 
 Bir sürü rakun vardı 
 Onları serbest bırakamazdık, çünkü gizli kuduz taşıyıcısı olabilirlerdi
 Sağlıklı görünüyorlardı, normal görünüyorlardı...",shape=box,color=blue];
-		j3823931135 -> j2239291364;
-	j2239291364 [label="Ama ya onları bıraksaydık? 
+		1809 -> 1810;
+	1810 [label="Ama ya onları bıraksaydık? 
 Karşılarına çıkan her şeyi enfekte ederlerdi... 
 Biz insanlara aynısını yapıyorduk 
 BİZE BUNU YAPTIRIYORDU
 ¡LO HIZO A PROPÓSITO!
 Bu yer Mictlán POR SU CULPA'nın sınırıdır",shape=box,color=blue];
-		j2239291364 -> j2480012699;
-	j2480012699 [label="Şüphelenmeye başladığımızda bile 
+		1810 -> 1811;
+	1811 [label="Şüphelenmeye başladığımızda bile 
 Biz inanamadık 
 Birbirimize fısıldadık 
 Ama başımızı salladık ve şöyle dedik 
 Hayır, olamaz
 O olamaz
 Biz olamayız",shape=box,color=blue];
-		j2480012699 -> j1382766468;
-	j1382766468 [label="Boolean LettieHex is now true.",color=orange];
-		j1382766468 -> j86733959;
-	j86733959 [label="Check boolean LettieDating",color=orange];
-		j86733959 -> j3139651667 [label=true,color=green];
-		j86733959 -> j1775871294 [label=false,color=brown];
-	j3139651667 [label="İnanmak istemedik 
+		1811 -> 1812;
+	1812 [label="Update boolean LettieHex",color=orange];
+		1812 -> 1813;
+	1813 [label="Check boolean LettieDating",color=orange];
+		1813 -> 1814 [label=true,color=green];
+		1813 -> 1815 [label=false,color=brown];
+	1814 [label="İnanmak istemedik 
 Güvenimizin kırıldığını 
 Biz... biz de ilacı almıştık, solecito... 
 Vebayı yayıyorduk...",shape=box,color=blue];
-		j3139651667 -> j706898627;
-	j1775871294 [label="İnanmak istemedik 
+		1814 -> 1816;
+	1815 [label="İnanmak istemedik 
 Güvenimizin kırıldığını 
 Biz... biz de ilacı almıştık... 
 Vebayı yayıyorduk...",shape=box,color=blue];
-		j1775871294 -> j706898627;
-	j706898627 [label="Techrot türünün mutasyona uğradığını ve artık güvende olmadığımızı söylediğinde...",shape=box,color=blue];
-		j706898627 -> j1627486966;
-	j1627486966 [label="Hemen sıraya girdik 
+		1815 -> 1816;
+	1816 [label="Techrot türünün mutasyona uğradığını ve artık güvende olmadığımızı söylediğinde...",shape=box,color=blue];
+		1816 -> 1817;
+	1817 [label="Hemen sıraya girdik 
 Akıllı küçük soldaditolar gibi",shape=box,color=blue];
-		j1627486966 -> j3610445997;
-	j3610445997 [label="Lua, acıttı
+		1817 -> 1818;
+	1818 [label="Lua, acıttı
 Eğlenceli de değildi 
 Aoi'nin çığlıkları en kötüsüydü 
 Ona yardım edemedim, ben de ölmekle meşguldüm 
 Korku içinde ağlıyordu ve tek yapmak istediğim ona sarılmaktı",shape=box,color=blue];
-		j3610445997 -> j3703032511;
-	j3703032511 [label="Ona her şeyin yoluna gireceğini söyle 
+		1818 -> 1819;
+	1819 [label="Ona her şeyin yoluna gireceğini söyle 
 Acının geçeceğini ve La Flaca'nın onu eve götüreceğini 
 Çok korkmuştu ve ona yardım edemedim 
 Bacaklarım çalışmıyordu...",shape=box,color=blue];
-		j3703032511 -> j3009643363;
-	j3009643363 [label="Ve o pislik heriften nefret edeceğim 
+		1819 -> 1820;
+	1820 [label="Ve o pislik heriften nefret edeceğim 
 Sonsuz hayatımın her günü
 Bu ihanetten ötürü",shape=box,color=blue];
-		j3009643363 -> j511110742;
-	j511110742 [label="Ya onu bir daha görürsem? 
+		1820 -> 1821;
+	1821 [label="Ya onu bir daha görürsem? 
 Beni tutmak için orada olsan iyi olur 
 Yoksa ona gerçek acının nasıl bir şey olduğunu öğreteceğim",shape=box,color=blue];
-		j511110742 -> j3488390113;
-		j511110742 -> j2723870473;
-		j511110742 -> j4251186371;
-		j511110742 -> j3694237822;
-	j3488390113 [label="Size yaptığı şey yanlış olsa bile, bu şekilde kin tutmak sağlıklı değil.",shape=box,color=red];
-		j3488390113 -> j203422717;
-	j2723870473 [label="Aman Tanrım... Fark etmemişim. Seni böyle kullandığı için çok üzgünüm. Evet... Ben de ondan nefret ederdim.",shape=box,color=red];
-		j2723870473 -> j715483595;
-	j4251186371 [label="Ben - yani - bir dakika. Techrot'un yayılmasından kısmen siz mi sorumlusunuz?",shape=box,color=red];
-		j4251186371 -> j3785049906;
-	j3694237822 [label="Kusura bakma, bir an için uyuyakalmışım. Ne diyordun?",shape=box,color=red];
-		j3694237822 -> j2548450594;
-	j203422717 [label="Şu haline bak 
+		1821 -> 1822;
+		1821 -> 1823;
+		1821 -> 1824;
+		1821 -> 1825;
+	1822 [label="Size yaptığı şey yanlış olsa bile, bu şekilde kin tutmak sağlıklı değil.",shape=box,color=red];
+		1822 -> 1826;
+	1823 [label="Aman Tanrım... Fark etmemişim. Seni böyle kullandığı için çok üzgünüm. Evet... Ben de ondan nefret ederdim.",shape=box,color=red];
+		1823 -> 1827;
+	1824 [label="Ben - yani - bir dakika. Techrot'un yayılmasından kısmen siz mi sorumlusunuz?",shape=box,color=red];
+		1824 -> 1828;
+	1825 [label="Kusura bakma, bir an için uyuyakalmışım. Ne diyordun?",shape=box,color=red];
+		1825 -> 1829;
+	1826 [label="Şu haline bak 
 San Babas'a Selam Olsun 
 Günahları bağışlayan
 Hayır 
 Bazı şeyler affedilemez 
 Bize yaptıkları da bunlardan biri 
 Bu şehrin insanlarına yaptıklarımız bambaşka bir şey",shape=box,color=blue];
-		j203422717 -> j3685289720;
-		j203422717 -> j1768956854;
-		j203422717 -> j3266732487;
-	j715483595 [label="Sí 
+		1826 -> 1833;
+		1826 -> 1834;
+		1826 -> 1836;
+	1827 [label="Sí 
 İhaneti hoş karşılamam
 Ama biz ona inanmak istedik ve bu bizi aptallaştırdı
 Eğer artık etrafımızda olmak istemiyorsan, anlarım
 Diğerleri de anlar",shape=box,color=blue];
-		j715483595 -> j3685289720;
-		j715483595 -> j1768956854;
-		j715483595 -> j3266732487;
-	j3785049906 [label="Sí 
+		1827 -> 1833;
+		1827 -> 1834;
+		1827 -> 1836;
+	1828 [label="Sí 
 Biz 
 Ama biz ona inanmak istedik ve bu bizi aptallaştırdı
 Eğer artık etrafımızda olmak istemezsen, anlarım. 
 Diğerleri de anlar",shape=box,color=blue];
-		j3785049906 -> j3685289720;
-		j3785049906 -> j1768956854;
-		j3785049906 -> j3266732487;
-	j2548450594 [label="Boolean LettieDating is now false.",color=orange];
-		j2548450594 -> j4086907321;
-	j3685289720 [label="Burada yaptığınız şeyin affedilip affedilmeyeceğini söyleyecek değilim. Bu benim yapabileceğim bir şey değil ve dürüst olmak gerekirse, anlattığın şeyin AFFEDİLEBİLECEK bir şey olduğunu düşünmüyorum.",shape=box,color=red];
-		j3685289720 -> j1558714665;
-	j1768956854 [label="Entrati buraya geldi ve tam da aradığı şeyi buldu - istediğini yaptırmak için kandırabileceği işe yarar, yetenekli insanlar. Bu konuda fazla düşünmeyen insanlar. Sizden önce gelen pek çok kişi gibi onun oyunlarına aldandınız.",shape=box,color=red];
-		j1768956854 -> j2038958927;
-	j3266732487 [label="Olanlar sizin suçunuz değildi. Size yalan söylendi. Evet, elbette - işler ters gitmeye başladıktan sonra belki biraz isteyerek kör oldunuz. Ama sizi kim suçlayabilir ki? Umut tehlikeli bir ilaçtır. Ve o sizi bununla vurdu.",shape=box,color=red];
-		j3266732487 -> j4225076826;
-	j4086907321 [label="Boolean IsDating is now false.",color=orange];
-		j4086907321 -> j2703113057;
-	j1558714665 [label="İnsanlar öldü. Bir daha geri gelmeyecek insanlar. Çünkü “çirkin bir trençkot giymiş yaşlı bir adam” tarafından pazarlanan mucize bir ilaca inanmak istediniz.",shape=box,color=red];
-		j1558714665 -> j1597272524;
-	j2038958927 [label="Onun yalanlarına inanmak istediniz. Ve inandınız da. Ve bu sizin suçunuz. Peki bu yüzden hastalanan tüm insanlar? Bu da sizin suçunuz.",shape=box,color=red];
-		j2038958927 -> j1558714665;
-		j2038958927 -> j1282359672;
-	j4225076826 [label="Tabii ki siz de kabul ettiniz. Elbette bir şans olduğuna inanmak istediniz.",shape=box,color=red];
-		j4225076826 -> j2221143897;
-	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
-		j2703113057 -> "Chat ends.";
-	j1597272524 [label="Ve seni bundan kurtarmak benim görevim değil. Üzgünüm.",shape=box,color=red];
-		j1597272524 -> j44039935;
-	j1282359672 [label="Ama herkes hata yapar. Ve insanlar hatalarını kabul ederler. Ve sen de burada hatalarınızı kabul etmeye çalışıyorsun. Yani... İnsanların yaptıkları yanlışlarla doğru olanı yapmaya çalıştıklarını görüyorum.",shape=box,color=red];
-		j1282359672 -> j1974036355;
-	j2221143897 [label="Ben de aynısını yapardım.",shape=box,color=red];
-		j2221143897 -> j186078696;
-	j44039935 [label="Check boolean LettieDating",color=orange];
-		j44039935 -> j3555060782 [label=true,color=green];
-		j44039935 -> j1780876278 [label=false,color=brown];
-	j1974036355 [label="Ve makul bir insanın bundan daha fazlasını isteyebileceğini sanmıyorum. Senin hakkında daha azını düşünmüyorum. Başarısız olan insanlar görüyorum. Ama tekrar denemeye istekliydiler. Ve bunun nasıl bir şey olduğunu biliyorum. Güven bana.",shape=box,color=red];
-		j1974036355 -> j1927512488;
-	j186078696 [label="¿Sí? 
+		1828 -> 1833;
+		1828 -> 1834;
+		1828 -> 1836;
+	1829 [label="Update boolean LettieDating",color=orange];
+		1829 -> 1830;
+	1833 [label="Burada yaptığınız şeyin affedilip affedilmeyeceğini söyleyecek değilim. Bu benim yapabileceğim bir şey değil ve dürüst olmak gerekirse, anlattığın şeyin AFFEDİLEBİLECEK bir şey olduğunu düşünmüyorum.",shape=box,color=red];
+		1833 -> 1839;
+	1834 [label="Entrati buraya geldi ve tam da aradığı şeyi buldu - istediğini yaptırmak için kandırabileceği işe yarar, yetenekli insanlar. Bu konuda fazla düşünmeyen insanlar. Sizden önce gelen pek çok kişi gibi onun oyunlarına aldandınız.",shape=box,color=red];
+		1834 -> 1837;
+	1836 [label="Olanlar sizin suçunuz değildi. Size yalan söylendi. Evet, elbette - işler ters gitmeye başladıktan sonra belki biraz isteyerek kör oldunuz. Ama sizi kim suçlayabilir ki? Umut tehlikeli bir ilaçtır. Ve o sizi bununla vurdu.",shape=box,color=red];
+		1836 -> 1838;
+	1830 [label="Update boolean IsDating",color=orange];
+		1830 -> 1831;
+	1839 [label="İnsanlar öldü. Bir daha geri gelmeyecek insanlar. Çünkü “çirkin bir trençkot giymiş yaşlı bir adam” tarafından pazarlanan mucize bir ilaca inanmak istediniz.",shape=box,color=red];
+		1839 -> 1842;
+	1837 [label="Onun yalanlarına inanmak istediniz. Ve inandınız da. Ve bu sizin suçunuz. Peki bu yüzden hastalanan tüm insanlar? Bu da sizin suçunuz.",shape=box,color=red];
+		1837 -> 1839;
+		1837 -> 1840;
+	1838 [label="Tabii ki siz de kabul ettiniz. Elbette bir şans olduğuna inanmak istediniz.",shape=box,color=red];
+		1838 -> 1841;
+	1831 [label="Update boolean LettieNoDate",color=orange];
+		1831 -> 1832;
+	1842 [label="Ve seni bundan kurtarmak benim görevim değil. Üzgünüm.",shape=box,color=red];
+		1842 -> 1845;
+	1840 [label="Ama herkes hata yapar. Ve insanlar hatalarını kabul ederler. Ve sen de burada hatalarınızı kabul etmeye çalışıyorsun. Yani... İnsanların yaptıkları yanlışlarla doğru olanı yapmaya çalıştıklarını görüyorum.",shape=box,color=red];
+		1840 -> 1843;
+	1841 [label="Ben de aynısını yapardım.",shape=box,color=red];
+		1841 -> 1835;
+	1832 [label="Chat ends.",color=orange];
+	1845 [label="Check boolean LettieDating",color=orange];
+		1845 -> 1846 [label=true,color=green];
+		1845 -> 1847 [label=false,color=brown];
+	1843 [label="Ve makul bir insanın bundan daha fazlasını isteyebileceğini sanmıyorum. Senin hakkında daha azını düşünmüyorum. Başarısız olan insanlar görüyorum. Ama tekrar denemeye istekliydiler. Ve bunun nasıl bir şey olduğunu biliyorum. Güven bana.",shape=box,color=red];
+		1843 -> 1844;
+	1835 [label="¿Sí? 
 Ay... o zaman ikimiz de aptalız jajaja 
 Belki de sen buraya, bize AİTSİN 
 Off 
 Ayaklarım acıyor
 Mierda, her şey acıtıyor",shape=box,color=blue];
-		j186078696 -> j1927512488;
-	j3555060782 [label="Sí 
+		1835 -> 1844;
+	1846 [label="Sí 
 Haklısın. 
 Hatalar yaptık 
 Ve bunun işe yarayabileceğini düşünerek bir tane daha yaptım",shape=box,color=blue];
-		j3555060782 -> j2548450594;
-	j1780876278 [label="Sí 
+		1846 -> 1852;
+	1847 [label="Sí 
 Haklısın 
 Hatalar yaptık 
 Ve bu hikayeyi sana güvenerek anlatabileceğimi düşünerek bir tane daha yaptım",shape=box,color=blue];
-		j1780876278 -> j193369797;
-	j1927512488 [label="Check boolean LettieDating",color=orange];
-		j1927512488 -> j3249030045 [label=true,color=green];
-		j1927512488 -> j3623847216 [label=false,color=brown];
-	j193369797 [label="Boolean LettieNoDate is now true.",color=orange];
-		j193369797 -> j2643525984;
-	j3249030045 [label="+20 Chemistry",color=orange];
-		j3249030045 -> j57589681;
-	j3623847216 [label="+20 Chemistry",color=orange];
-		j3623847216 -> j1509883125;
-	j2643525984 [label="Boolean LettieTrust1 is now true.",color=orange];
-		j2643525984 -> "Chat ends.";
-	j57589681 [label="Bugünlük bu kadar, solecito 
+		1847 -> 1854;
+	1844 [label="Check boolean LettieDating",color=orange];
+		1844 -> 1857 [label=true,color=green];
+		1844 -> 1860 [label=false,color=brown];
+	1852 [label="Update boolean LettieDating",color=orange];
+		1852 -> 1851;
+	1854 [label="Update boolean LettieNoDate",color=orange];
+		1854 -> 1855;
+	1857 [label="+20 Chemistry",color=orange];
+		1857 -> 1848;
+	1860 [label="+20 Chemistry",color=orange];
+		1860 -> 1849;
+	1851 [label="Update boolean IsDating",color=orange];
+		1851 -> 1850;
+	1855 [label="Update boolean LettieTrust1",color=orange];
+		1855 -> 1856;
+	1848 [label="Bugünlük bu kadar, solecito 
 Gracias 
 Beni dinlediğin için ve... 
 Hakkımızda kötü düşünmediğin için teşekkürler",shape=box,color=blue];
-		j57589681 -> j2643525984;
-	j1509883125 [label="Bugünlük bu kadar dostum
+		1848 -> 1858;
+	1849 [label="Bugünlük bu kadar dostum
 Gracias 
 Beni dinlediğin için ve... 
 Hakkımızda kötü düşünmediğin için teşekkürler",shape=box,color=blue];
-		j1509883125 -> j4291310321;
-	j4291310321 [label="Boolean LettieTrust1 is now true.",color=orange];
-		j4291310321 -> j2129367046;
-	j2129367046 [label="Boolean LettieWillDate is now true.",color=orange];
-		j2129367046 -> "Chat ends.";
+		1849 -> 1861;
+	1850 [label="Update boolean LettieNoDate",color=orange];
+		1850 -> 1853;
+	1856 [label="Chat ends.",color=orange];
+	1858 [label="Update boolean LettieTrust1",color=orange];
+		1858 -> 1859;
+	1861 [label="Update boolean LettieTrust1",color=orange];
+		1861 -> 1862;
+	1853 [label="Chat ends.",color=orange];
+	1859 [label="Chat ends.",color=orange];
+	1862 [label="Update boolean LettieWillDate",color=orange];
+		1862 -> 1089;
+	1089 [label="Chat ends.",color=orange];
 }

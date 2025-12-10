@@ -1,16 +1,21 @@
 digraph {
-	"AoiBirthdayConvo3 begins." [color=orange];
-		"AoiBirthdayConvo3 begins." -> j3966525423;
-		"AoiBirthdayConvo3 begins." -> j600588486;
-	j3966525423 [label="生日快樂。",shape=box,color=red];
-		j3966525423 -> j878963980;
-	j600588486 [label="葵，生日快樂！希望您度過愉快的一天！",shape=box,color=red];
-		j600588486 -> j1836203243;
-	j878963980 [label="謝謝",shape=box,color=blue];
-		j878963980 -> "Chat ends.";
-	j1836203243 [label="+20 Chemistry",color=orange];
-		j1836203243 -> j4236347974;
-	"Chat ends." [color=orange];
-	j4236347974 [label="你知道嗎，我今天真的很好！<RETRO_EMOJI_AOICAT> 謝謝你喔！",shape=box,color=blue];
-		j4236347974 -> "Chat ends.";
+	3791 [label="AoiBirthdayConvo3 begins.",color=orange];
+		3791 -> 3807;
+		3791 -> 3806;
+	3807 [label="生日快樂。",shape=box,color=red];
+		3807 -> 3811;
+	3806 [label="葵，生日快樂！希望您度過愉快的一天！",shape=box,color=red];
+		3806 -> 3808;
+	3811 [label="謝謝",shape=box,color=blue];
+		3811 -> 3832;
+	3808 [label="+20 Chemistry",color=orange];
+		3808 -> 3809;
+	3832 [label="{\"Id\":3832,\"Incoming\":[3811],\"Outgoing\":[2577],\"GraphPos\":[738,-1306],\"CompletionType\":1}",color=orange];
+		3832 -> 2577;
+	3809 [label="你知道嗎，我今天真的很好！<RETRO_EMOJI_AOICAT> 謝謝你喔！",shape=box,color=blue];
+		3809 -> 3833;
+	2577 [label="Chat ends.",color=orange];
+	3833 [label="{\"Id\":3833,\"Incoming\":[3809],\"Outgoing\":[3810],\"GraphPos\":[1107,-1534],\"CompletionType\":1}",color=orange];
+		3833 -> 3810;
+	3810 [label="Chat ends.",color=orange];
 }

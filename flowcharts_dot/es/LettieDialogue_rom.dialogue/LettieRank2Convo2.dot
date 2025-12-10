@@ -1,102 +1,106 @@
 digraph {
-	"LettieRank2Convo2 begins." [color=orange];
-		"LettieRank2Convo2 begins." -> j653990999;
-		"LettieRank2Convo2 begins." -> j148975304;
-	j653990999 [label="¿Cómo se llaman tus ratas mascotas?",shape=box,color=red];
-		j653990999 -> j2099389611;
-	j148975304 [label="¿Cuántas ratas mascotas tienes?",shape=box,color=red];
-		j148975304 -> j3733418800;
-	j2099389611 [label="¿Mm?",shape=box,color=blue];
-		j2099389611 -> j4015225116;
-	j3733418800 [label="¿Mm? 
+	306 [label="LettieRank2Convo2 begins.",color=orange];
+		306 -> 307;
+		306 -> 308;
+	307 [label="¿Cómo se llaman tus ratas mascotas?",shape=box,color=red];
+		307 -> 309;
+	308 [label="¿Cuántas ratas mascotas tienes?",shape=box,color=red];
+		308 -> 310;
+	309 [label="¿Mm?",shape=box,color=blue];
+		309 -> 311;
+	310 [label="¿Mm? 
 4",shape=box,color=blue];
-		j3733418800 -> j4015225116;
-	j4015225116 [label="Boolean LettieRats2 is now true.",color=orange];
-		j4015225116 -> j18936206;
-	j18936206 [label="Vaquero, Anita, Neenah y Tláloc",shape=box,color=blue];
-		j18936206 -> j1673487290;
-		j18936206 -> j1629333744;
-	j1673487290 [label="¿Cómo elegiste sus nombres?",shape=box,color=red];
-		j1673487290 -> j992829107;
-	j1629333744 [label="Deberías ponerle mi nombre a una de ellas :)",shape=box,color=red];
-		j1629333744 -> j3791536021;
-	j992829107 [label="Vaquero, por los vaqueros 
+		310 -> 311;
+	311 [label="Update boolean LettieRats2",color=orange];
+		311 -> 312;
+	312 [label="Vaquero, Anita, Neenah y Tláloc",shape=box,color=blue];
+		312 -> 313;
+		312 -> 314;
+	313 [label="¿Cómo elegiste sus nombres?",shape=box,color=red];
+		313 -> 315;
+	314 [label="Deberías ponerle mi nombre a una de ellas :)",shape=box,color=red];
+		314 -> 316;
+	315 [label="Vaquero, por los vaqueros 
 Anita, por una amiga de antes 
 Neenah, por una amiga que ya no está con nosotros 
 Tláloc, por un antiguo dios de la lluvia",shape=box,color=blue];
-		j992829107 -> j765982502;
-	j3791536021 [label="Je, je, je 
+		315 -> 317;
+	316 [label="Je, je, je 
 Nombrarlo Babas 
 Espero que no empiece a babear el papel tapiz",shape=box,color=blue];
-		j3791536021 -> j462499473;
-		j3791536021 -> j1419229991;
-	j765982502 [label="Tláloc es un *tonto* 
+		316 -> 318;
+		316 -> 319;
+	317 [label="Tláloc es un *tonto* 
 La rata no el dios jajaja 
 No necesito esas malas vibras",shape=box,color=blue];
-		j765982502 -> j2900619098;
-		j765982502 -> j210075396;
-	j462499473 [label="¿Por qué me dices *babas*?",shape=box,color=red];
-		j462499473 -> j2868142698;
-	j1419229991 [label="Ja ja. No es tan gracioso, ¿sabes?",shape=box,color=red];
-		j1419229991 -> j785740229;
-	j2900619098 [label="Nunca antes había oído hablar de Tláloc. ¿Apareció antes de Lua y Sol? ¿Antes del dualismo?",shape=box,color=red];
-		j2900619098 -> j4185006015;
-	j210075396 [label="¿Qué es lo que lo hace en un tonto? lol",shape=box,color=red];
-		j210075396 -> j2741761477;
-	j2868142698 [label="No te quejes
+		317 -> 322;
+		317 -> 323;
+	318 [label="¿Por qué me dices *babas*?",shape=box,color=red];
+		318 -> 324;
+	319 [label="Ja ja. No es tan gracioso, ¿sabes?",shape=box,color=red];
+		319 -> 320;
+	322 [label="Nunca antes había oído hablar de Tláloc. ¿Apareció antes de Lua y Sol? ¿Antes del dualismo?",shape=box,color=red];
+		322 -> 326;
+	323 [label="¿Qué es lo que lo hace en un tonto? lol",shape=box,color=red];
+		323 -> 327;
+	324 [label="No te quejes
 Podría ser peor",shape=box,color=blue];
-		j2868142698 -> j995892711;
-		j2868142698 -> j40103646;
-	j785740229 [label="¿Eso crees?",shape=box,color=blue];
-		j785740229 -> "Chat ends.";
-	j4185006015 [label="Boolean LettieReligion2 is now true.",color=orange];
-		j4185006015 -> j1883269006;
-	j2741761477 [label="Boolean LettieReligion2 is now true.",color=orange];
-		j2741761477 -> j3758019143;
-	j995892711 [label="Okey... confío en ti.",shape=box,color=red];
-		j995892711 -> j1542753201;
-	j40103646 [label="No te creo.",shape=box,color=red];
-		j40103646 -> j815280851;
-	"Chat ends." [color=orange];
-	j1883269006 [label="Sí, hace mucho tiempo, mi gente adoraba a los dioses antiguos, algunos de los cuales podían ser... sanguinarios",shape=box,color=blue];
-		j1883269006 -> j1968626452;
-		j1883269006 -> j4213154860;
-	j3758019143 [label="Le gusta morder 
+		324 -> 332;
+		324 -> 333;
+	320 [label="¿Eso crees?",shape=box,color=blue];
+		320 -> 321;
+	326 [label="Update boolean LettieReligion2",color=orange];
+		326 -> 328;
+	327 [label="Update boolean LettieReligion2",color=orange];
+		327 -> 329;
+	332 [label="Okey... confío en ti.",shape=box,color=red];
+		332 -> 335;
+	333 [label="No te creo.",shape=box,color=red];
+		333 -> 337;
+	321 [label="Chat ends.",color=orange];
+	328 [label="Sí, hace mucho tiempo, mi gente adoraba a los dioses antiguos, algunos de los cuales podían ser... sanguinarios",shape=box,color=blue];
+		328 -> 330;
+		328 -> 331;
+	329 [label="Le gusta morder 
 Es como la gente del pasado y sus dioses, algunos de los cuales podían ser... algo sanguinarios",shape=box,color=blue];
-		j3758019143 -> j4213154860;
-		j3758019143 -> j1968626452;
-	j1542753201 [label="+20 Chemistry",color=orange];
-		j1542753201 -> j3748645904;
-	j815280851 [label="Por mí, perfecto",shape=box,color=blue];
-		j815280851 -> "Chat ends.";
-	j1968626452 [label="¿Qué quieres decir con \"sanguinario\"?",shape=box,color=red];
-		j1968626452 -> j1322289652;
-	j4213154860 [label="Suena, um, agradable.",shape=box,color=red];
-		j4213154860 -> j1322289652;
-	j3748645904 [label="Bueno",shape=box,color=blue];
-		j3748645904 -> "Chat ends.";
-	j1322289652 [label="Xipe Tótec, el desollado, que era el dios de la resurrección, la agricultura y la guerra",shape=box,color=blue];
-		j1322289652 -> j116232850;
-		j1322289652 -> j2897473047;
-	j116232850 [label="¿El desollado...?",shape=box,color=red];
-		j116232850 -> j246663394;
-	j2897473047 [label="No suena TAN mal...",shape=box,color=red];
-		j2897473047 -> j246663394;
-	j246663394 [label="En el festival anual para celebrarlo, los prisioneros de guerra eran desollados, y grupos de hombres usaban la carne como propia y aceptaban ofrendas de la gente de las ciudades en su nombre 
+		329 -> 331;
+		329 -> 330;
+	335 [label="+20 Chemistry",color=orange];
+		335 -> 334;
+	337 [label="Por mí, perfecto",shape=box,color=blue];
+		337 -> 338;
+	330 [label="¿Qué quieres decir con \"sanguinario\"?",shape=box,color=red];
+		330 -> 339;
+	331 [label="Suena, um, agradable.",shape=box,color=red];
+		331 -> 339;
+	334 [label="Bueno",shape=box,color=blue];
+		334 -> 336;
+	338 [label="Chat ends.",color=orange];
+	339 [label="Xipe Tótec, el desollado, que era el dios de la resurrección, la agricultura y la guerra",shape=box,color=blue];
+		339 -> 340;
+		339 -> 341;
+	336 [label="Chat ends.",color=orange];
+	340 [label="¿El desollado...?",shape=box,color=red];
+		340 -> 342;
+	341 [label="No suena TAN mal...",shape=box,color=red];
+		341 -> 342;
+	342 [label="En el festival anual para celebrarlo, los prisioneros de guerra eran desollados, y grupos de hombres usaban la carne como propia y aceptaban ofrendas de la gente de las ciudades en su nombre 
 Como dije 
 Podían ser algo sanguinarios de vez en cuando",shape=box,color=blue];
-		j246663394 -> j1809709146;
-		j246663394 -> j905180159;
-	j1809709146 [label="Bueno, gracias por la pesadilla.",shape=box,color=red];
-		j1809709146 -> j1783358073;
-	j905180159 [label="Los humanos son raros.",shape=box,color=red];
-		j905180159 -> j1202857296;
-	j1783358073 [label="+10 Chemistry",color=orange];
-		j1783358073 -> j2744980338;
-	j1202857296 [label="+20 Chemistry",color=orange];
-		j1202857296 -> j164672165;
-	j2744980338 [label="De nada",shape=box,color=blue];
-		j2744980338 -> "Chat ends.";
-	j164672165 [label="No podría estar más de acuerdo",shape=box,color=blue];
-		j164672165 -> "Chat ends.";
+		342 -> 343;
+		342 -> 344;
+	343 [label="Bueno, gracias por la pesadilla.",shape=box,color=red];
+		343 -> 347;
+	344 [label="Los humanos son raros.",shape=box,color=red];
+		344 -> 348;
+	347 [label="+10 Chemistry",color=orange];
+		347 -> 345;
+	348 [label="+20 Chemistry",color=orange];
+		348 -> 346;
+	345 [label="De nada",shape=box,color=blue];
+		345 -> 349;
+	346 [label="No podría estar más de acuerdo",shape=box,color=blue];
+		346 -> 350;
+	349 [label="Chat ends.",color=orange];
+	350 [label="Chat ends.",color=orange];
 }

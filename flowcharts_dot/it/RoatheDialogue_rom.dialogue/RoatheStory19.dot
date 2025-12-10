@@ -1,0 +1,33 @@
+digraph {
+	2307 [label="RoatheStory19 begins.",color=orange];
+		2307 -> 5676;
+	5676 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5676 -> 2304 [label=true,color=green];
+		5676 -> 5677 [label=false,color=brown];
+	2304 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2304 -> 2302 [label="x >= 19",color=purple];
+		2304 -> 2306 [label="false",color=purple];
+	5677 [label="Chat ends.",color=orange];
+	2302 [label="MV: DIPLOMAZIA",shape=box,color=blue];
+		2302 -> 5720;
+	2306 [label="Chat ends.",color=orange];
+	5720 [label="Trascrizione: Tra i Sette Esecutori, Ballas si era autoproclamato il prima tra pari. ",shape=box,color=blue];
+		5720 -> 5721;
+	5721 [label="Sempre diplomatico, sempre persuasore della voce melliflua, appianava i rancori e le dispute degli altri.",shape=box,color=blue];
+		5721 -> 2301;
+	2301 [label="Scoprii, con mia immensa gioia, che ora era lui la rosa intrappolata tra due cespugli di spine. ",shape=box,color=blue];
+		2301 -> 5734;
+	5734 [label="La fazione guerrafondaia, guidata da Nitokh, tirava da una parte. I pacifisti, guidati da Scarne, dall'altra.",shape=box,color=blue];
+		5734 -> 2300;
+	2300 [label="Ballas fu costretto a decidere, e a guadagnarsi la feroce inimicizia di qualsiasi gruppo con cui non si schierasse.",shape=box,color=blue];
+		2300 -> 2305;
+	2305 [label="Per ragioni che non riesco a immaginare, scelse la pace; era quattro a tre, e così i famelici Sentient divennero improvvisamente alleati e amici.",shape=box,color=blue];
+		2305 -> 2308;
+	2308 [label="\"In un modo o nell'altro, cambierà idea\", promise Nitokh, mentre venivo inviato a cercare i malcontenti tra la guarnigione Dax.",shape=box,color=blue];
+		2308 -> 2299;
+	2299 [label="Add 1 to HellStory",color=orange];
+		2299 -> 2346;
+	2346 [label="{\"Id\":2346,\"Incoming\":[2299],\"Outgoing\":[2303],\"GraphPos\":[4753,-4136],\"CompletionType\":1}",color=orange];
+		2346 -> 2303;
+	2303 [label="Chat ends.",color=orange];
+}

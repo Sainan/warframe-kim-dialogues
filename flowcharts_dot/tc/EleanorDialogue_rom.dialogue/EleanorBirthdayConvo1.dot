@@ -1,16 +1,21 @@
 digraph {
-	"EleanorBirthdayConvo1 begins." [color=orange];
-		"EleanorBirthdayConvo1 begins." -> j331506224;
-		"EleanorBirthdayConvo1 begins." -> j3507534112;
-	j331506224 [label="祝賀南丁格爾家族的長子生辰快樂！",shape=box,color=red];
-		j331506224 -> j3270298795;
-	j3507534112 [label="生日快樂，怪物女士！",shape=box,color=red];
-		j3507534112 -> j2008965791;
-	j3270298795 [label="+20 Chemistry",color=orange];
-		j3270298795 -> j3448447941;
-	j2008965791 [label="平凡的一天快樂，不過人間的煩惱！",shape=box,color=blue];
-		j2008965791 -> "Chat ends.";
-	j3448447941 [label="我從來都不會叫他忘記這一點。嘻。",shape=box,color=blue];
-		j3448447941 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	2816 [label="EleanorBirthdayConvo1 begins.",color=orange];
+		2816 -> 2817;
+		2816 -> 2818;
+	2817 [label="祝賀南丁格爾家族的長子生辰快樂！",shape=box,color=red];
+		2817 -> 2819;
+	2818 [label="生日快樂，怪物女士！",shape=box,color=red];
+		2818 -> 2821;
+	2819 [label="+20 Chemistry",color=orange];
+		2819 -> 2820;
+	2821 [label="平凡的一天快樂，不過人間的煩惱！",shape=box,color=blue];
+		2821 -> 2840;
+	2820 [label="我從來都不會叫他忘記這一點。嘻。",shape=box,color=blue];
+		2820 -> 2839;
+	2840 [label="{\"Id\":2840,\"Incoming\":[2821],\"Outgoing\":[2823],\"GraphPos\":[1853,-3679],\"CompletionType\":1}",color=orange];
+		2840 -> 2823;
+	2839 [label="{\"Id\":2839,\"Incoming\":[2820],\"Outgoing\":[2822],\"GraphPos\":[1863,-3875],\"CompletionType\":1}",color=orange];
+		2839 -> 2822;
+	2823 [label="Chat ends.",color=orange];
+	2822 [label="Chat ends.",color=orange];
 }

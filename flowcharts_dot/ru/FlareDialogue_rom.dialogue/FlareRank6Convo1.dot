@@ -1,440 +1,444 @@
 digraph {
-	"FlareRank6Convo1 begins." [color=orange];
-		"FlareRank6Convo1 begins." -> j3739350251;
-	j3739350251 [label="Check boolean FlareLizzieApart",color=orange];
-		j3739350251 -> "Chat ends." [label=true,color=green];
-		j3739350251 -> j3461956840 [label=false,color=brown];
-	"Chat ends." [color=orange];
-	j3461956840 [label="Check boolean FlareLizzieTogether",color=orange];
-		j3461956840 -> j1903872232 [label=true,color=green];
-		j3461956840 -> "Chat ends." [label=false,color=brown];
-	j1903872232 [label="Оооо, ДЕеееемооннн! У нас для тебя сюрприз :D ",shape=box,color=blue];
-		j1903872232 -> j1377394115;
-	j1377394115 [label="прости, вылетело из головы предупредить. сегодня она просто в очень приподнятом настроении",shape=box,color=blue];
-		j1377394115 -> j2000043166;
-		j1377394115 -> j1085868096;
-		j1377394115 -> j3091252116;
-	j2000043166 [label="Что её так взбудоражило сегодня?",shape=box,color=red];
-		j2000043166 -> j3139472950;
-	j1085868096 [label="Хаха, всё нормально. Просто приятно видеть, как хорошо у вас дела.",shape=box,color=red];
-		j1085868096 -> j2954603922;
-	j3091252116 [label="На самом деле, это довольно мило. :)",shape=box,color=red];
-		j3091252116 -> j2669694345;
-	j3139472950 [label="песня готова. ну, тексты точно",shape=box,color=blue];
-		j3139472950 -> j789196220;
-	j2954603922 [label="да. это... хорошо. на самом деле, очень хорошо. она оказалась отличным партнёром",shape=box,color=blue];
-		j2954603922 -> j2035009538;
-	j2669694345 [label="хех. конечно. в стиле «пожирателя людей» это, конечно, мило",shape=box,color=blue];
-		j2669694345 -> j1111255392;
-	j789196220 [label="хочешь их услышать?",shape=box,color=blue];
-		j789196220 -> j570241950;
-		j789196220 -> j3788074058;
-	j2035009538 [label="когда она не пытается заставить есть случайные детали от компьютера",shape=box,color=blue];
-		j2035009538 -> j4214884076;
-	j1111255392 [label="это совсем не то, что было сказано вчера ночью.... <RETRO_EMOJI_SNEAKY>",shape=box,color=blue];
-		j1111255392 -> j4214884076;
-	j570241950 [label="С удовольствием!",shape=box,color=red];
-		j570241950 -> j218225247;
-	j3788074058 [label="На самом деле, поэзия — не совсем моё. Лучше подожду, пока добавят музыку.",shape=box,color=red];
-		j3788074058 -> j140755019;
-	j4214884076 [label="*ладно*, возвращаясь к теме ",shape=box,color=blue];
-		j4214884076 -> j3139472950;
-	j218225247 [label="ну, поехали",shape=box,color=blue];
-		j218225247 -> j11490693;
-	j140755019 [label="ясн",shape=box,color=blue];
-		j140755019 -> j3367007853;
-	j11490693 [label="Check boolean FlareSol",color=orange];
-		j11490693 -> j1229185918 [label=true,color=green];
-		j11490693 -> j3311874374 [label=false,color=brown];
-	j3367007853 [label=".... Этот Демон не оправдывает Наших ожиданий... ",shape=box,color=blue];
-		j3367007853 -> "Chat ends.";
-	j1229185918 [label="Check boolean FlarePainStranger",color=orange];
-		j1229185918 -> j3994114836 [label=true,color=green];
-		j1229185918 -> j159267307 [label=false,color=brown];
-	j3311874374 [label="Check boolean FlareLua",color=orange];
-		j3311874374 -> j3547038517 [label=true,color=green];
-		j3311874374 -> j3547038517 [label=false,color=brown];
-	j3994114836 [label="Бесконечный шёпот, твой голос проклятие
+	2420 [label="FlareRank6Convo1 begins.",color=orange];
+		2420 -> 2421;
+	2421 [label="Check boolean FlareLizzieApart",color=orange];
+		2421 -> 2423 [label=true,color=green];
+		2421 -> 2422 [label=false,color=brown];
+	2423 [label="Chat ends.",color=orange];
+	2422 [label="Check boolean FlareLizzieTogether",color=orange];
+		2422 -> 2424 [label=true,color=green];
+		2422 -> 2425 [label=false,color=brown];
+	2424 [label="Оооо, ДЕеееемооннн! У нас для тебя сюрприз :D ",shape=box,color=blue];
+		2424 -> 2426;
+	2425 [label="Chat ends.",color=orange];
+	2426 [label="прости, вылетело из головы предупредить. сегодня она просто в очень приподнятом настроении",shape=box,color=blue];
+		2426 -> 2427;
+		2426 -> 2428;
+		2426 -> 2429;
+	2427 [label="Что её так взбудоражило сегодня?",shape=box,color=red];
+		2427 -> 2430;
+	2428 [label="Хаха, всё нормально. Просто приятно видеть, как хорошо у вас дела.",shape=box,color=red];
+		2428 -> 2431;
+	2429 [label="На самом деле, это довольно мило. :)",shape=box,color=red];
+		2429 -> 2432;
+	2430 [label="песня готова. ну, тексты точно",shape=box,color=blue];
+		2430 -> 2433;
+	2431 [label="да. это... хорошо. на самом деле, очень хорошо. она оказалась отличным партнёром",shape=box,color=blue];
+		2431 -> 2434;
+	2432 [label="хех. конечно. в стиле «пожирателя людей» это, конечно, мило",shape=box,color=blue];
+		2432 -> 2435;
+	2433 [label="хочешь их услышать?",shape=box,color=blue];
+		2433 -> 2436;
+		2433 -> 2437;
+	2434 [label="когда она не пытается заставить есть случайные детали от компьютера",shape=box,color=blue];
+		2434 -> 2438;
+	2435 [label="это совсем не то, что было сказано вчера ночью.... <RETRO_EMOJI_SNEAKY>",shape=box,color=blue];
+		2435 -> 2438;
+	2436 [label="С удовольствием!",shape=box,color=red];
+		2436 -> 2439;
+	2437 [label="На самом деле, поэзия — не совсем моё. Лучше подожду, пока добавят музыку.",shape=box,color=red];
+		2437 -> 2440;
+	2438 [label="*ладно*, возвращаясь к теме ",shape=box,color=blue];
+		2438 -> 2430;
+	2439 [label="ну, поехали",shape=box,color=blue];
+		2439 -> 2441;
+	2440 [label="ясн",shape=box,color=blue];
+		2440 -> 2442;
+	2441 [label="Check boolean FlareSol",color=orange];
+		2441 -> 2443 [label=true,color=green];
+		2441 -> 2444 [label=false,color=brown];
+	2442 [label=".... Этот Демон не оправдывает Наших ожиданий... ",shape=box,color=blue];
+		2442 -> 2445;
+	2443 [label="Check boolean FlarePainStranger",color=orange];
+		2443 -> 2446 [label=true,color=green];
+		2443 -> 2447 [label=false,color=brown];
+	2444 [label="Check boolean FlareLua",color=orange];
+		2444 -> 2448 [label=true,color=green];
+		2444 -> 2448 [label=false,color=brown];
+	2445 [label="Chat ends.",color=orange];
+	2446 [label="Бесконечный шёпот, твой голос проклятие
 Золотые пальцы тянут меня в могилу
 Твой поцелуй что огонь, идущий по венам
 Каждое утро я не знаю своё имя",shape=box,color=blue];
-		j3994114836 -> j904886397;
-	j159267307 [label="Check boolean FlarePainChronic",color=orange];
-		j159267307 -> j3807233754 [label=true,color=green];
-		j159267307 -> j1886570010 [label=false,color=brown];
-	j3547038517 [label="Check boolean FlarePainStranger",color=orange];
-		j3547038517 -> j2731344678 [label=true,color=green];
-		j3547038517 -> j4001662270 [label=false,color=brown];
-	j904886397 [label="Check boolean FlareStoryVillain",color=orange];
-		j904886397 -> j1493791568 [label=true,color=green];
-		j904886397 -> j1870422903 [label=false,color=brown];
-	j3807233754 [label="Я просыпаюсь с криком, утопая в свете,
+		2446 -> 2449;
+	2447 [label="Check boolean FlarePainChronic",color=orange];
+		2447 -> 2450 [label=true,color=green];
+		2447 -> 2451 [label=false,color=brown];
+	2448 [label="Check boolean FlarePainStranger",color=orange];
+		2448 -> 2452 [label=true,color=green];
+		2448 -> 2453 [label=false,color=brown];
+	2449 [label="Check boolean FlareStoryVillain",color=orange];
+		2449 -> 2454 [label=true,color=green];
+		2449 -> 2455 [label=false,color=brown];
+	2450 [label="Я просыпаюсь с криком, утопая в свете,
 Золотые лучи режут, как белый клинок.
 Каждое утро мне неведома моя боль,
 Мне неведомо, выстою я или нет.",shape=box,color=blue];
-		j3807233754 -> j904886397;
-	j1886570010 [label="Check boolean FlarePainUnique",color=orange];
-		j1886570010 -> j1050493756 [label=true,color=green];
-		j1886570010 -> j857119930 [label=false,color=brown];
-	j2731344678 [label="Бесконечный шёпот, твой голос - проклятие,
+		2450 -> 2449;
+	2451 [label="Check boolean FlarePainUnique",color=orange];
+		2451 -> 2456 [label=true,color=green];
+		2451 -> 2457 [label=false,color=brown];
+	2452 [label="Бесконечный шёпот, твой голос - проклятие,
 Серебряные пальцы тянут меня в могилу.
 Твой поцелуй словно лёд, сковывает мои вены,
 В своих кошмарах я не знаю своего имени.",shape=box,color=blue];
-		j2731344678 -> j1908806570;
-	j4001662270 [label="Check boolean FlarePainChronic",color=orange];
-		j4001662270 -> j426217223 [label=true,color=green];
-		j4001662270 -> j3675329191 [label=false,color=brown];
-	j1493791568 [label="Прокляни имя моё, я дьявол сегодня,  
+		2452 -> 2458;
+	2453 [label="Check boolean FlarePainChronic",color=orange];
+		2453 -> 2459 [label=true,color=green];
+		2453 -> 2460 [label=false,color=brown];
+	2454 [label="Прокляни имя моё, я дьявол сегодня,  
 Взойдёт ли цветок зла, или завянет?",shape=box,color=blue];
-		j1493791568 -> j3428908214;
-	j1870422903 [label="Check boolean FlareStoryHero",color=orange];
-		j1870422903 -> j1301660514 [label=true,color=green];
-		j1870422903 -> j1877297320 [label=false,color=brown];
-	j1050493756 [label="Я просыпаюсь в пламени, заря обжигает,
+		2454 -> 2461;
+	2455 [label="Check boolean FlareStoryHero",color=orange];
+		2455 -> 2462 [label=true,color=green];
+		2455 -> 2463 [label=false,color=brown];
+	2456 [label="Я просыпаюсь в пламени, заря обжигает,
 Порезы от света, но я всё ещё держусь
 Каждый вдох - битва, каждый шаг — война,
 Ты шепчешь моё имя, пробуждая мой голод",shape=box,color=blue];
-		j1050493756 -> j904886397;
-	j857119930 [label="Check boolean FlarePainEmpathy",color=orange];
-		j857119930 -> j2216547390 [label=true,color=green];
-		j857119930 -> j2849651726 [label=false,color=brown];
-	j1908806570 [label="Check boolean FlareStoryVillain",color=orange];
-		j1908806570 -> j45469346 [label=true,color=green];
-		j1908806570 -> j4192447210 [label=false,color=brown];
-	j426217223 [label="Я просыпаюсь с криком, утопая в свете,
+		2456 -> 2449;
+	2457 [label="Check boolean FlarePainEmpathy",color=orange];
+		2457 -> 2465 [label=true,color=green];
+		2457 -> 2464 [label=false,color=brown];
+	2458 [label="Check boolean FlareStoryVillain",color=orange];
+		2458 -> 2466 [label=true,color=green];
+		2458 -> 2467 [label=false,color=brown];
+	2459 [label="Я просыпаюсь с криком, утопая в свете,
 Серебряные лучи режут, как белый клинок.
 В каждом кошмаре мне неведома боль,
 Мне неведомо, выстою я или нет.",shape=box,color=blue];
-		j426217223 -> j1908806570;
-	j3675329191 [label="Check boolean FlarePainUnique",color=orange];
-		j3675329191 -> j2684892167 [label=true,color=green];
-		j3675329191 -> j2637123773 [label=false,color=brown];
-	j3428908214 [label="Check boolean FlarePainStranger",color=orange];
-		j3428908214 -> j673193840 [label=true,color=green];
-		j3428908214 -> j3908336105 [label=false,color=brown];
-	j1301660514 [label="Молись мне, я чувствую святость,
+		2459 -> 2458;
+	2460 [label="Check boolean FlarePainUnique",color=orange];
+		2460 -> 2468 [label=true,color=green];
+		2460 -> 2469 [label=false,color=brown];
+	2461 [label="Check boolean FlarePainStranger",color=orange];
+		2461 -> 2470 [label=true,color=green];
+		2461 -> 2471 [label=false,color=brown];
+	2462 [label="Молись мне, я чувствую святость,
 Распрямит ли плечи герой или сгинет во тьме?",shape=box,color=blue];
-		j1301660514 -> j3428908214;
-	j1877297320 [label="Check boolean FlareStoryNone",color=orange];
-		j1877297320 -> j378651341 [label=true,color=green];
-		j1877297320 -> j378651341 [label=false,color=brown];
-	j2216547390 [label="Я вижу огонь, что пылает в твоих глазах,  
+		2462 -> 2461;
+	2463 [label="Check boolean FlareStoryNone",color=orange];
+		2463 -> 2472 [label=true,color=green];
+		2463 -> 2472 [label=false,color=brown];
+	2465 [label="Я вижу огонь, что пылает в твоих глазах,  
 Сол в клетке, растворяется в небесах.  
 Твоя улыбка подобна греху, я вижу твою боль,
 Каждый вздох, каждое прикосновение – сколько ты выдержишь?",shape=box,color=blue];
-		j2216547390 -> j904886397;
-	j2849651726 [label="Я видел зев Сол распахнулся, 
+		2465 -> 2449;
+	2464 [label="Я видел зев Сол распахнулся, 
 Излился золотом, словно мёд.  
 Миллион голосов шептали так сладко,  
 Сквозь запутанные залы и сны.",shape=box,color=blue];
-		j2849651726 -> j904886397;
-	j45469346 [label="Прокляни имя моё, я дьявол сегодня,  
+		2464 -> 2449;
+	2466 [label="Прокляни имя моё, я дьявол сегодня,  
 Взойдёт ли цветок зла, или завянет?",shape=box,color=blue];
-		j45469346 -> j2321641489;
-	j4192447210 [label="Check boolean FlareStoryHero",color=orange];
-		j4192447210 -> j3656834890 [label=true,color=green];
-		j4192447210 -> j2106164143 [label=false,color=brown];
-	j2684892167 [label="Я просыпаюсь в пламени, заря обжигает,
+		2466 -> 2473;
+	2467 [label="Check boolean FlareStoryHero",color=orange];
+		2467 -> 2474 [label=true,color=green];
+		2467 -> 2475 [label=false,color=brown];
+	2468 [label="Я просыпаюсь в пламени, заря обжигает,
 Порезы от серебряного света обрекают меня,
 Каждый вдох - битва, каждый шаг — война,
 Ты шепчешь моё имя, пробуждая мой голод",shape=box,color=blue];
-		j2684892167 -> j1908806570;
-	j2637123773 [label="Check boolean FlarePainEmpathy",color=orange];
-		j2637123773 -> j3292246946 [label=true,color=green];
-		j2637123773 -> j877182355 [label=false,color=brown];
-	j673193840 [label="Я танцую в Бездне, в твоём пламени,
+		2468 -> 2458;
+	2469 [label="Check boolean FlarePainEmpathy",color=orange];
+		2469 -> 2477 [label=true,color=green];
+		2469 -> 2476 [label=false,color=brown];
+	2470 [label="Я танцую в Бездне, в твоём пламени,
 Каждое утро я просыпаюсь с новым именем
 Ты мой спаситель или моё обречение?
 Держу Сол высоко, но тону в море,
 О, люби меня или оставь, только не освобождай меня",shape=box,color=blue];
-		j673193840 -> j4159496684;
-	j3908336105 [label="Check boolean FlarePainChronic",color=orange];
-		j3908336105 -> j1343634802 [label=true,color=green];
-		j3908336105 -> j1108137744 [label=false,color=brown];
-	j378651341 [label="О, я сегодня грешник или святой?
+		2470 -> 2478;
+	2471 [label="Check boolean FlarePainChronic",color=orange];
+		2471 -> 2479 [label=true,color=green];
+		2471 -> 2480 [label=false,color=brown];
+	2472 [label="О, я сегодня грешник или святой?
 Восстану ли я как феникс, или пропаду?",shape=box,color=blue];
-		j378651341 -> j3428908214;
-	j2321641489 [label="Check boolean FlarePainStranger",color=orange];
-		j2321641489 -> j2077574868 [label=true,color=green];
-		j2321641489 -> j3900974630 [label=false,color=brown];
-	j3656834890 [label="Молись мне, я чувствую святость,
+		2472 -> 2461;
+	2473 [label="Check boolean FlarePainStranger",color=orange];
+		2473 -> 2481 [label=true,color=green];
+		2473 -> 2482 [label=false,color=brown];
+	2474 [label="Молись мне, я чувствую святость,
 Распрямит ли плечи герой или сгинет во тьме?",shape=box,color=blue];
-		j3656834890 -> j2321641489;
-	j2106164143 [label="Check boolean FlareStoryNone",color=orange];
-		j2106164143 -> j1460456354 [label=true,color=green];
-		j2106164143 -> j1460456354 [label=false,color=brown];
-	j3292246946 [label="Я вижу лёд в твоих глазах,  
+		2474 -> 2473;
+	2475 [label="Check boolean FlareStoryNone",color=orange];
+		2475 -> 2483 [label=true,color=green];
+		2475 -> 2483 [label=false,color=brown];
+	2477 [label="Я вижу лёд в твоих глазах,  
 Луа в клетке, растворяется в ночи.  
 Твоя улыбка подобна греху, я вижу твою боль,
 Каждый вздох, каждое прикосновение – сколько ты выдержишь?",shape=box,color=blue];
-		j3292246946 -> j1908806570;
-	j877182355 [label="Я видел зев Луа распахнулся, 
+		2477 -> 2458;
+	2476 [label="Я видел зев Луа распахнулся, 
 Излился сахаром и серебром.  
 Миллион голосов шептали так сладко,  
 Сквозь запутанные залы и сны.",shape=box,color=blue];
-		j877182355 -> j1908806570;
-	j4159496684 [label="Голодные крылья расправив на заре
+		2476 -> 2458;
+	2478 [label="Голодные крылья расправив на заре
 Ты высекаешь судьбу на моей коже своими когтями
 Один вдох, я свят — следующий вдох, и я во грехе
 Не могу сказать, я всё, или ничто.",shape=box,color=blue];
-		j4159496684 -> j2729667313;
-	j1343634802 [label="Ты на вкус как огонь, ты поёшь как грех,
+		2478 -> 2484;
+	2479 [label="Ты на вкус как огонь, ты поёшь как грех,
 Ты притягиваешь меня к себе и забираешь.
 Люби меня или оставь меня, мне будет больно в любом случае
 Каждый рассвет — это война, но с тобой мне суждено остаться.",shape=box,color=blue];
-		j1343634802 -> j983836571;
-	j1108137744 [label="Check boolean FlarePainUnique",color=orange];
-		j1108137744 -> j2824715002 [label=true,color=green];
-		j1108137744 -> j812880635 [label=false,color=brown];
-	j2077574868 [label="Я танцую в Бездне, гремя твоими оковами
+		2479 -> 2485;
+	2480 [label="Check boolean FlarePainUnique",color=orange];
+		2480 -> 2486 [label=true,color=green];
+		2480 -> 2487 [label=false,color=brown];
+	2481 [label="Я танцую в Бездне, гремя твоими оковами
 В своих кошмарах я не помню своих имён
 Ты мой спаситель или мой рок?
 Ты держишь Луа высоко, но тонешь в море
 О, люби меня или оставь, только не освобождай меня",shape=box,color=blue];
-		j2077574868 -> j2794568679;
-	j3900974630 [label="Check boolean FlarePainChronic",color=orange];
-		j3900974630 -> j2376967321 [label=true,color=green];
-		j3900974630 -> j3492093567 [label=false,color=brown];
-	j1460456354 [label="О, я сегодня грешник или святой?
+		2481 -> 2488;
+	2482 [label="Check boolean FlarePainChronic",color=orange];
+		2482 -> 2489 [label=true,color=green];
+		2482 -> 2490 [label=false,color=brown];
+	2483 [label="О, я сегодня грешник или святой?
 Восстану ли я как феникс, или пропаду?",shape=box,color=blue];
-		j1460456354 -> j2321641489;
-	j2729667313 [label="Check boolean FlareStoryVillain",color=orange];
-		j2729667313 -> j2929301108 [label=true,color=green];
-		j2729667313 -> j3710448588 [label=false,color=brown];
-	j983836571 [label="Твои прикосновения — яд, твой поцелуй — божественен
+		2483 -> 2473;
+	2484 [label="Check boolean FlareStoryVillain",color=orange];
+		2484 -> 2491 [label=true,color=green];
+		2484 -> 2492 [label=false,color=brown];
+	2485 [label="Твои прикосновения — яд, твой поцелуй — божественен
 Демон с руками, которые я чувствую хребтом.
 Иногда я ползаю, иногда я летаю
 Скажи, что удержишь меня, когда я не смогу дотянуться до неба.",shape=box,color=blue];
-		j983836571 -> j2729667313;
-	j2824715002 [label="Твои руки открывают секреты под моей кожей
+		2485 -> 2484;
+	2486 [label="Твои руки открывают секреты под моей кожей
 Вытравливая клятвы там, где были шрамы
 Иногда я стою, иногда ползаю
 Но ты заставляешь меня чувствовать, что у меня есть всё.",shape=box,color=blue];
-		j2824715002 -> j3755931232;
-	j812880635 [label="Check boolean FlarePainEmpathy",color=orange];
-		j812880635 -> j904969178 [label=true,color=green];
-		j812880635 -> j974818766 [label=false,color=brown];
-	j2794568679 [label="Голодные крылья, расправленные в ночи
+		2486 -> 2493;
+	2487 [label="Check boolean FlarePainEmpathy",color=orange];
+		2487 -> 2495 [label=true,color=green];
+		2487 -> 2494 [label=false,color=brown];
+	2488 [label="Голодные крылья, расправленные в ночи
 Ты вытравливаешь свою судьбу на моей коже укусом
 Один вдох, я свят — следующий вдох, я во грехе
 Не могу сказать, я всё, или ничто.",shape=box,color=blue];
-		j2794568679 -> j1941418009;
-	j2376967321 [label="Я сгораю, я распадаюсь, я теряюсь в твоих глазах
+		2488 -> 2496;
+	2489 [label="Я сгораю, я распадаюсь, я теряюсь в твоих глазах
 Ты — Бездна, где прячется умирающая Луа
 Люби меня или оставь меня, мне будет больно в любом случае
 Каждый рассвет — это война, но с тобой мне суждено остаться.",shape=box,color=blue];
-		j2376967321 -> j2177807507;
-	j3492093567 [label="Check boolean FlarePainUnique",color=orange];
-		j3492093567 -> j3888906594 [label=true,color=green];
-		j3492093567 -> j3828935203 [label=false,color=brown];
-	j2929301108 [label="Сегодня я зло, во всём моя вина,
+		2489 -> 2497;
+	2490 [label="Check boolean FlarePainUnique",color=orange];
+		2490 -> 2498 [label=true,color=green];
+		2490 -> 2499 [label=false,color=brown];
+	2491 [label="Сегодня я зло, во всём моя вина,
 Мне гнаться за светом или потеряться в стыде?",shape=box,color=blue];
-		j2929301108 -> j4250535046;
-	j3710448588 [label="Check boolean FlareStoryHero",color=orange];
-		j3710448588 -> j1124820558 [label=true,color=green];
-		j3710448588 -> j828767743 [label=false,color=brown];
-	j3755931232 [label="Я целую Бездну, ощущая вкус света
+		2491 -> 2500;
+	2492 [label="Check boolean FlareStoryHero",color=orange];
+		2492 -> 2501 [label=true,color=green];
+		2492 -> 2502 [label=false,color=brown];
+	2493 [label="Я целую Бездну, ощущая вкус света
 Ты ближе и мне хорошо
 Ношу Сол, как золотую корону
 Но твои касания подобны гнили, покрыты плесенью",shape=box,color=blue];
-		j3755931232 -> j2729667313;
-	j904969178 [label="Твоё прикосновение — гром, твой поцелуй — молния,
+		2493 -> 2484;
+	2495 [label="Твоё прикосновение — гром, твой поцелуй — молния,
 Но внутри ты кричишь, пытаясь согреться.
 Я вижу трещины под твоей кожей,
 Ты сражаешься в битве без шансов на победу.",shape=box,color=blue];
-		j904969178 -> j3690453092;
-	j974818766 [label="Ты на вкус как огонь, ты поёшь как грех
+		2495 -> 2504;
+	2494 [label="Ты на вкус как огонь, ты поёшь как грех
 Ты притягиваешь меня к себе и увлекаешь за собой
 О, люби меня или оставь, только не освобождай меня
 Мне лучше принадлежать тебе, чем помнить себя",shape=box,color=blue];
-		j974818766 -> j773752558;
-	j1941418009 [label="Check boolean FlareStoryVillain",color=orange];
-		j1941418009 -> j4249510802 [label=true,color=green];
-		j1941418009 -> j1934034599 [label=false,color=brown];
-	j2177807507 [label="Твои прикосновения — яд, твой поцелуй — божественен
+		2494 -> 2503;
+	2496 [label="Check boolean FlareStoryVillain",color=orange];
+		2496 -> 2505 [label=true,color=green];
+		2496 -> 2506 [label=false,color=brown];
+	2497 [label="Твои прикосновения — яд, твой поцелуй — божественен
 Демон с руками, которые я чувствую хребтом.
 Иногда я ползаю ночью, иногда я летаю
 Скажи, что удержишь меня, если я не смогу дотянуться до неба.",shape=box,color=blue];
-		j2177807507 -> j1941418009;
-	j3888906594 [label="Твои руки открывают секреты под моей кожей
+		2497 -> 2496;
+	2498 [label="Твои руки открывают секреты под моей кожей
 Вытравливая клятвы во тьме, где были шрамы
 Иногда я стою, иногда ползаю по ночам
 Но ты заставляешь меня чувствовать, что у меня есть всё.",shape=box,color=blue];
-		j3888906594 -> j1190264510;
-	j3828935203 [label="Check boolean FlarePainEmpathy",color=orange];
-		j3828935203 -> j1247800796 [label=true,color=green];
-		j3828935203 -> j1784611032 [label=false,color=brown];
-	j4250535046 [label="Золотые нимбы и змеиные усмешки,  
+		2498 -> 2507;
+	2499 [label="Check boolean FlarePainEmpathy",color=orange];
+		2499 -> 2509 [label=true,color=green];
+		2499 -> 2508 [label=false,color=brown];
+	2500 [label="Золотые нимбы и змеиные усмешки,  
 Песнь любви умирает там, где зародились.
 Вознесусь ли я? Упаду ли я?
 Вознесусь ли я? Упаду ли я?",shape=box,color=blue];
-		j4250535046 -> j2649112177;
-	j1124820558 [label="Сегодня я герой, на мне нет вины,
+		2500 -> 2510;
+	2501 [label="Сегодня я герой, на мне нет вины,
 Нести ли свет или затеряться в пламени?",shape=box,color=blue];
-		j1124820558 -> j4250535046;
-	j828767743 [label="Check boolean FlareStoryNone",color=orange];
-		j828767743 -> j3979567045 [label=true,color=green];
-		j828767743 -> j3979567045 [label=false,color=brown];
-	j3690453092 [label="Сердце, как у Сол, но ты живёшь в Бездне
+		2501 -> 2500;
+	2502 [label="Check boolean FlareStoryNone",color=orange];
+		2502 -> 2511 [label=true,color=green];
+		2502 -> 2511 [label=false,color=brown];
+	2504 [label="Сердце, как у Сол, но ты живёшь в Бездне
 Освещаешь небо, чтобы быть умереть
 Я чувствую твой огонь, я знаю твою боль
 Я горю так же, как и ты, мы истекаем кровью вместе.",shape=box,color=blue];
-		j3690453092 -> j2729667313;
-	j773752558 [label="Я чувствую, как ты ползёшь под моей кожей
+		2504 -> 2484;
+	2503 [label="Я чувствую, как ты ползёшь под моей кожей
 Тысяча рук, и один голос внутри
 О, я хранитель или жертва?
 Я твоя болезнь или рай?",shape=box,color=blue];
-		j773752558 -> j2729667313;
-	j4249510802 [label="Сегодня я зло, во всём моя вина,
+		2503 -> 2484;
+	2505 [label="Сегодня я зло, во всём моя вина,
 Мне гнаться за светом или потеряться в стыде?",shape=box,color=blue];
-		j4249510802 -> j3008483735;
-	j1934034599 [label="Check boolean FlareStoryHero",color=orange];
-		j1934034599 -> j1076824716 [label=true,color=green];
-		j1934034599 -> j406023769 [label=false,color=brown];
-	j1190264510 [label="Я целую Бездну, я пробую ночь на вкус
+		2505 -> 2512;
+	2506 [label="Check boolean FlareStoryHero",color=orange];
+		2506 -> 2513 [label=true,color=green];
+		2506 -> 2514 [label=false,color=brown];
+	2507 [label="Я целую Бездну, я пробую ночь на вкус
 Ты прижимаешь меня к себе, и мне хорошо
 Ты носишь Луа, как древнюю корону
 Но твоё прикосновение мёртвое и леденящее.",shape=box,color=blue];
-		j1190264510 -> j1941418009;
-	j1247800796 [label="Твоё прикосновение — хаос, но оно собирает меня воедино
+		2507 -> 2496;
+	2509 [label="Твоё прикосновение — хаос, но оно собирает меня воедино
 Молитва грешника высечена на моих костях
 Каждая рана, он и моя рана тоже
 Каждый крик, я слышу его в тебе",shape=box,color=blue];
-		j1247800796 -> j2035755520;
-	j1784611032 [label="Ты на вкус как лёд, ты поёшь как грех
+		2509 -> 2516;
+	2508 [label="Ты на вкус как лёд, ты поёшь как грех
 Ты притягиваешь меня к себе и увлекаешь за собой
 О, люби меня или оставь, только не освобождай меня
 Мне лучше принадлежать тебе, чем помнить себя",shape=box,color=blue];
-		j1784611032 -> j1547894854;
-	j2649112177 [label="----",shape=box,color=blue];
-		j2649112177 -> j2750610483;
-	j3979567045 [label="О, я твою добро или во грехе?
+		2508 -> 2515;
+	2510 [label="----",shape=box,color=blue];
+		2510 -> 2517;
+	2511 [label="О, я твою добро или во грехе?
 Мне гнаться за светом или затеряться в пламени?",shape=box,color=blue];
-		j3979567045 -> j4250535046;
-	j3008483735 [label="Серебряные нимбы и змеиные усмешки,  
+		2511 -> 2500;
+	2512 [label="Серебряные нимбы и змеиные усмешки,  
 Песнь любви умирает там, где зародились.
 Вознесусь ли я? Упаду ли я?
 Вознесусь ли я? Упаду ли я?",shape=box,color=blue];
-		j3008483735 -> j2649112177;
-	j1076824716 [label="Сегодня я творю добро, чувствую это в своей душе,
+		2512 -> 2510;
+	2513 [label="Сегодня я творю добро, чувствую это в своей душе,
 Или это ложь, чтобы заполнить пустоту?",shape=box,color=blue];
-		j1076824716 -> j3008483735;
-	j406023769 [label="Check boolean FlareStoryNone",color=orange];
-		j406023769 -> j745269557 [label=true,color=green];
-		j406023769 -> j745269557 [label=false,color=brown];
-	j2035755520 [label="Сердце, как у Луа, но ты живёшь в Бездне
+		2513 -> 2512;
+	2514 [label="Check boolean FlareStoryNone",color=orange];
+		2514 -> 2518 [label=true,color=green];
+		2514 -> 2518 [label=false,color=brown];
+	2516 [label="Сердце, как у Луа, но ты живёшь в Бездне
 Освещаешь небо, чтобы быть умереть
 Я чувствую твой огонь, я знаю твою боль
 Я горю так же, как и ты, мы истекаем кровью вместе.",shape=box,color=blue];
-		j2035755520 -> j1941418009;
-	j1547894854 [label="Я чувствую, как ты ползёшь под моей кожей
+		2516 -> 2496;
+	2515 [label="Я чувствую, как ты ползёшь под моей кожей
 Тысяча рук, и один голос внутри
 О, я хранитель или жертва?
 Я твоя болезнь или рай?",shape=box,color=blue];
-		j1547894854 -> j1941418009;
-	j2750610483 [label="итак? как вам? всё ещё нужен заголовок и музыка, как было сказано, но-",shape=box,color=blue];
-		j2750610483 -> j3229156449;
-	j745269557 [label="О, я твою добро или во грехе?
+		2515 -> 2496;
+	2517 [label="итак? как вам? всё ещё нужен заголовок и музыка, как было сказано, но-",shape=box,color=blue];
+		2517 -> 2519;
+	2518 [label="О, я твою добро или во грехе?
 Мне гнаться за светом или затеряться в пламени?",shape=box,color=blue];
-		j745269557 -> j3008483735;
-	j3229156449 [label="ДА, КАК ТЫ СЧИТАЕШЬ? ЭТОТ ДЕМОН ГОРОДИТСЯ НАМИ? <RETRO_EMOJI_CAT>",shape=box,color=blue];
-		j3229156449 -> j1155613560;
-		j3229156449 -> j1593175426;
-		j3229156449 -> j3879205583;
-	j1155613560 [label="Конечно, это не On-lyne, но, эй. ;)",shape=box,color=red];
-		j1155613560 -> j674176915;
-	j1593175426 [label="Ух ты. Это было потрясающе, мне понравилось!! ",shape=box,color=red];
-		j1593175426 -> j984837306;
-	j3879205583 [label="Это было супер круто!",shape=box,color=red];
-		j3879205583 -> j984837306;
-	j674176915 [label="да да, очень забавно",shape=box,color=blue];
-		j674176915 -> j1983823691;
-		j674176915 -> j644803286;
-	j984837306 [label="она снова мурлычет. нужно найти способ включить это в музыкальный трек",shape=box,color=blue];
-		j984837306 -> j1983823691;
-		j984837306 -> j644803286;
-	j1983823691 [label="Итак, каков следующий шаг?",shape=box,color=red];
-		j1983823691 -> j4141931070;
-	j644803286 [label="В какой момент собираешься сочинить музыку?",shape=box,color=red];
-		j644803286 -> j4141931070;
-	j4141931070 [label="вообще-то предполагалось, что ты с этим сможешь помочь",shape=box,color=blue];
-		j4141931070 -> j3882418945;
-	j3882418945 [label="Check boolean FlareInstrumentNo",color=orange];
-		j3882418945 -> j2119366527 [label=true,color=green];
-		j3882418945 -> j4012652908 [label=false,color=brown];
-	j2119366527 [label="я помню, тобою было сказано, что ты не играешь ни на одном инструменте",shape=box,color=blue];
-		j2119366527 -> j3469613382;
-	j4012652908 [label="Check boolean FlareInstrumentYes",color=orange];
-		j4012652908 -> j581558929 [label=true,color=green];
-		j4012652908 -> j2085529574 [label=false,color=brown];
-	j3469613382 [label="Мы предложили научить Этого Демона играть... Мы Очень Рады, что руки Этого Демона прикасаются к Нашему телу... ;)",shape=box,color=blue];
-		j3469613382 -> j2377905551;
-	j581558929 [label="я помню, тобою было сказано, что ты играешь на «шазин», который напоминает игру на гитаре",shape=box,color=blue];
-		j581558929 -> j3133111200;
-	j2085529574 [label="Check boolean FlareInstrumentTry",color=orange];
-		j2085529574 -> j3849012740 [label=true,color=green];
-		j2085529574 -> j482681691 [label=false,color=brown];
-	j2377905551 [label="я... ох. ох, похоже, у меня накатила ревность. совсем не ожидалось",shape=box,color=blue];
-		j2377905551 -> j2036665939;
-	j3133111200 [label="лиззи и я хотели спросить, не поможешь ли ты нам сочинить эту песню",shape=box,color=blue];
-		j3133111200 -> j2165428369;
-	j3849012740 [label="я помню, тобою было сказано, что ты вроде как играешь на «шазин», который вроде как напоминает игру на гитаре",shape=box,color=blue];
-		j3849012740 -> j3133111200;
-	j482681691 [label="мне интересно, ты играешь на гитаре?",shape=box,color=blue];
-		j482681691 -> j4145713442;
-		j482681691 -> j3600468481;
-		j482681691 -> j1042228057;
-	j2036665939 [label="я не знаю, нравится ли мне это ",shape=box,color=blue];
-		j2036665939 -> j3667917761;
-	j2165428369 [label="никакой спешки. ты можешь работать над этим в своё свободное время",shape=box,color=blue];
-		j2165428369 -> j1387247639;
-	j4145713442 [label="Я... не сказал бы, что играю. я пытаюсь, но у меня плохо получается. это называется шазин.",shape=box,color=red];
-		j4145713442 -> j3133111200;
-	j3600468481 [label="Играю. он называется шазин.",shape=box,color=red];
-		j3600468481 -> j3133111200;
-	j1042228057 [label="Нет, честно.",shape=box,color=red];
-		j1042228057 -> j3462013806;
-	j3667917761 [label="*в любом случае* я распакую это открытие позже",shape=box,color=blue];
-		j3667917761 -> j3133111200;
-	j1387247639 [label="она будет рядом, чтобы помочь тебе",shape=box,color=blue];
-		j1387247639 -> j3860244590;
-		j1387247639 -> j3107516664;
-	j3462013806 [label="Мы можем научить Этого Демона играть... Мы будем Очень Рады, если руки Этого Демона прикоснуться к Нашему телу... ;)",shape=box,color=blue];
-		j3462013806 -> j2377905551;
-	j3860244590 [label="То есть - ты предлагаешь мне сыграть на Лиззи?",shape=box,color=red];
-		j3860244590 -> j81434090;
-	j3107516664 [label="Но она тебе не понадобится, разве нет?",shape=box,color=red];
-		j3107516664 -> j2021416638;
-	j81434090 [label="Ты же хоооочешь Поиграть с Нами, Прелестный Демооон?",shape=box,color=blue];
-		j81434090 -> j2246456349;
-		j81434090 -> j464288022;
-		j81434090 -> j3426963797;
-	j2021416638 [label="не тревожься, Прелестный Демон, Нас Много. Достаточно для всех",shape=box,color=blue];
-		j2021416638 -> j3887839745;
-	j2246456349 [label="Пожалуй, я откажусь, но всё равно спасибо тебе.",shape=box,color=red];
-		j2246456349 -> j2969946542;
-	j464288022 [label="Звучит здорово, спасибо!",shape=box,color=red];
-		j464288022 -> j1190476667;
-	j3426963797 [label="Я бы с радостью. :)",shape=box,color=red];
-		j3426963797 -> j1190476667;
-	j3887839745 [label="короче, она говорит, что может и то, и другое. я стараюсь об этом не слишком думать, если честно",shape=box,color=blue];
-		j3887839745 -> j1254877594;
-	j2969946542 [label="Этот Демон вызывает смущение... Ты доходишь так далеко, а потом... делаешь... вот это? ",shape=box,color=blue];
-		j2969946542 -> "Chat ends.";
-	j1190476667 [label="Boolean LizzieShawzin is now true.",color=orange];
-		j1190476667 -> j3902585628;
-	j1254877594 [label="у меня начинается небольшой экзистенциальный кризис, когда я так делаю",shape=box,color=blue];
-		j1254877594 -> j3297171797;
-	j3902585628 [label="круто",shape=box,color=blue];
-		j3902585628 -> j2136793573;
-	j3297171797 [label="ну что. хочешь поучаствовать в сочинении песни с Лиззи? одалживать её время от времени?",shape=box,color=blue];
-		j3297171797 -> j2246456349;
-		j3297171797 -> j3426963797;
-		j3297171797 -> j464288022;
-	j2136793573 [label="и, эй. если это было недостаточно ясно, спасибо. за всё. за твою помощь мне, и за Лиззи, и... за твою настоящую дружбу",shape=box,color=blue];
-		j2136793573 -> j1492899438;
-	j1492899438 [label="мы всегда будем здесь для тебя, когда бы мы тебе ни понадобились, космический странник",shape=box,color=blue];
-		j1492899438 -> j211099642;
-	j211099642 [label="куда бы это ни привело Нас ;)",shape=box,color=blue];
-		j211099642 -> "Chat ends.";
+		2518 -> 2512;
+	2519 [label="ДА, КАК ТЫ СЧИТАЕШЬ? ЭТОТ ДЕМОН ГОРОДИТСЯ НАМИ? <RETRO_EMOJI_CAT>",shape=box,color=blue];
+		2519 -> 2520;
+		2519 -> 2521;
+		2519 -> 2522;
+	2520 [label="Конечно, это не On-lyne, но, эй. ;)",shape=box,color=red];
+		2520 -> 2523;
+	2521 [label="Ух ты. Это было потрясающе, мне понравилось!! ",shape=box,color=red];
+		2521 -> 2524;
+	2522 [label="Это было супер круто!",shape=box,color=red];
+		2522 -> 2524;
+	2523 [label="да да, очень забавно",shape=box,color=blue];
+		2523 -> 2525;
+		2523 -> 2526;
+	2524 [label="она снова мурлычет. нужно найти способ включить это в музыкальный трек",shape=box,color=blue];
+		2524 -> 2525;
+		2524 -> 2526;
+	2525 [label="Итак, каков следующий шаг?",shape=box,color=red];
+		2525 -> 2527;
+	2526 [label="В какой момент собираешься сочинить музыку?",shape=box,color=red];
+		2526 -> 2527;
+	2527 [label="вообще-то предполагалось, что ты с этим сможешь помочь",shape=box,color=blue];
+		2527 -> 2528;
+	2528 [label="Check boolean FlareInstrumentNo",color=orange];
+		2528 -> 2530 [label=true,color=green];
+		2528 -> 2529 [label=false,color=brown];
+	2530 [label="я помню, тобою было сказано, что ты не играешь ни на одном инструменте",shape=box,color=blue];
+		2530 -> 2533;
+	2529 [label="Check boolean FlareInstrumentYes",color=orange];
+		2529 -> 2532 [label=true,color=green];
+		2529 -> 2531 [label=false,color=brown];
+	2533 [label="Мы предложили научить Этого Демона играть... Мы Очень Рады, что руки Этого Демона прикасаются к Нашему телу... ;)",shape=box,color=blue];
+		2533 -> 2537;
+	2532 [label="я помню, тобою было сказано, что ты играешь на «шазин», который напоминает игру на гитаре",shape=box,color=blue];
+		2532 -> 2536;
+	2531 [label="Check boolean FlareInstrumentTry",color=orange];
+		2531 -> 2535 [label=true,color=green];
+		2531 -> 2534 [label=false,color=brown];
+	2537 [label="я... ох. ох, похоже, у меня накатила ревность. совсем не ожидалось",shape=box,color=blue];
+		2537 -> 2542;
+	2536 [label="лиззи и я хотели спросить, не поможешь ли ты нам сочинить эту песню",shape=box,color=blue];
+		2536 -> 2541;
+	2535 [label="я помню, тобою было сказано, что ты вроде как играешь на «шазин», который вроде как напоминает игру на гитаре",shape=box,color=blue];
+		2535 -> 2536;
+	2534 [label="мне интересно, ты играешь на гитаре?",shape=box,color=blue];
+		2534 -> 2538;
+		2534 -> 2539;
+		2534 -> 2540;
+	2542 [label="я не знаю, нравится ли мне это ",shape=box,color=blue];
+		2542 -> 2545;
+	2541 [label="никакой спешки. ты можешь работать над этим в своё свободное время",shape=box,color=blue];
+		2541 -> 2544;
+	2538 [label="Я... не сказал бы, что играю. я пытаюсь, но у меня плохо получается. это называется шазин.",shape=box,color=red];
+		2538 -> 2536;
+	2539 [label="Играю. он называется шазин.",shape=box,color=red];
+		2539 -> 2536;
+	2540 [label="Нет, честно.",shape=box,color=red];
+		2540 -> 2543;
+	2545 [label="*в любом случае* я распакую это открытие позже",shape=box,color=blue];
+		2545 -> 2536;
+	2544 [label="она будет рядом, чтобы помочь тебе",shape=box,color=blue];
+		2544 -> 2546;
+		2544 -> 2547;
+	2543 [label="Мы можем научить Этого Демона играть... Мы будем Очень Рады, если руки Этого Демона прикоснуться к Нашему телу... ;)",shape=box,color=blue];
+		2543 -> 2537;
+	2546 [label="То есть - ты предлагаешь мне сыграть на Лиззи?",shape=box,color=red];
+		2546 -> 2548;
+	2547 [label="Но она тебе не понадобится, разве нет?",shape=box,color=red];
+		2547 -> 2549;
+	2548 [label="Ты же хоооочешь Поиграть с Нами, Прелестный Демооон?",shape=box,color=blue];
+		2548 -> 2550;
+		2548 -> 2551;
+		2548 -> 2552;
+	2549 [label="не тревожься, Прелестный Демон, Нас Много. Достаточно для всех",shape=box,color=blue];
+		2549 -> 2553;
+	2550 [label="Пожалуй, я откажусь, но всё равно спасибо тебе.",shape=box,color=red];
+		2550 -> 2554;
+	2551 [label="Звучит здорово, спасибо!",shape=box,color=red];
+		2551 -> 2555;
+	2552 [label="Я бы с радостью. :)",shape=box,color=red];
+		2552 -> 2555;
+	2553 [label="короче, она говорит, что может и то, и другое. я стараюсь об этом не слишком думать, если честно",shape=box,color=blue];
+		2553 -> 2556;
+	2554 [label="Этот Демон вызывает смущение... Ты доходишь так далеко, а потом... делаешь... вот это? ",shape=box,color=blue];
+		2554 -> 2557;
+	2555 [label="Update boolean LizzieShawzin",color=orange];
+		2555 -> 2558;
+	2556 [label="у меня начинается небольшой экзистенциальный кризис, когда я так делаю",shape=box,color=blue];
+		2556 -> 2559;
+	2557 [label="Chat ends.",color=orange];
+	2558 [label="круто",shape=box,color=blue];
+		2558 -> 2560;
+	2559 [label="ну что. хочешь поучаствовать в сочинении песни с Лиззи? одалживать её время от времени?",shape=box,color=blue];
+		2559 -> 2550;
+		2559 -> 2552;
+		2559 -> 2551;
+	2560 [label="и, эй. если это было недостаточно ясно, спасибо. за всё. за твою помощь мне, и за Лиззи, и... за твою настоящую дружбу",shape=box,color=blue];
+		2560 -> 2561;
+	2561 [label="мы всегда будем здесь для тебя, когда бы мы тебе ни понадобились, космический странник",shape=box,color=blue];
+		2561 -> 2562;
+	2562 [label="куда бы это ни привело Нас ;)",shape=box,color=blue];
+		2562 -> 2563;
+	2563 [label="Chat ends.",color=orange];
 }

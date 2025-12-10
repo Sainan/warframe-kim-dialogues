@@ -1,0 +1,33 @@
+digraph {
+	2317 [label="RoatheStory20 begins.",color=orange];
+		2317 -> 5678;
+	5678 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5678 -> 2318 [label=true,color=green];
+		5678 -> 5679 [label=false,color=brown];
+	2318 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2318 -> 2312 [label="x >= 20",color=purple];
+		2318 -> 2315 [label="false",color=purple];
+	5679 [label="Chat ends.",color=orange];
+	2312 [label="MV: SOTTOMISSIONE",shape=box,color=blue];
+		2312 -> 2311;
+	2315 [label="Chat ends.",color=orange];
+	2311 [label="Trascrizione: Ho capito fin dall'inizio - sia sul campo di battaglia che nella camera da letto, la via per la vittoria attraverso l'apparente sottomissione.",shape=box,color=blue];
+		2311 -> 5722;
+	5722 [label="Dove il nemico ti trova cedevole, lì puoi essere certo che spingerà; e quindi puoi facilmente farlo inciampare.",shape=box,color=blue];
+		5722 -> 5723;
+	5723 [label="\"Lacchè\", mi chiamavano. \"Cagnolino da compagnia\". Nitokh credeva di avere il controllo. Con quanta delicatezza la guidavo. ",shape=box,color=blue];
+		5723 -> 2310;
+	2310 [label="Roathe, il sanguinario. Roathe, l'orco ingrassato sui corpi dei suoi uomini. Sacrificatore di vite.",shape=box,color=blue];
+		2310 -> 2314;
+	2314 [label="Come se combattessi solo per il gusto di combattere! No. L'Impero Orokin deve finire.",shape=box,color=blue];
+		2314 -> 5724;
+	5724 [label="Perché ciò accada, la guerra deve continuare. Solo una sconfitta, assoluta e irrevocabile, avrebbe rovesciato quei sette gargoyle dorati.",shape=box,color=blue];
+		5724 -> 2316;
+	2316 [label="Nemmeno Nitokh conosceva il mio vero cuore. Pensava che aspirassi a governare al suo fianco",shape=box,color=blue];
+		2316 -> 2309;
+	2309 [label="Add 1 to HellStory",color=orange];
+		2309 -> 2347;
+	2347 [label="{\"Id\":2347,\"Incoming\":[2309],\"Outgoing\":[2313],\"GraphPos\":[4758,-3705],\"CompletionType\":1}",color=orange];
+		2347 -> 2313;
+	2313 [label="Chat ends.",color=orange];
+}

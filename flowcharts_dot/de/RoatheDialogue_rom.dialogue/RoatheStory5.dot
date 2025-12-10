@@ -1,0 +1,31 @@
+digraph {
+	2175 [label="RoatheStory5 begins.",color=orange];
+		2175 -> 5649;
+	5649 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5649 -> 2174 [label=true,color=green];
+		5649 -> 5648 [label=false,color=brown];
+	2174 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2174 -> 2176 [label="x >= 5",color=purple];
+		2174 -> 2173 [label="false",color=purple];
+	5648 [label="Chat ends.",color=orange];
+	2176 [label="SN: ERFINDUNG",shape=box,color=blue];
+		2176 -> 2172;
+	2173 [label="Chat ends.",color=orange];
+	2172 [label="Transkript: Ich erinnere mich, dass die Entwicklungen der Kriegs-Archimeden anfangs als Unterhaltung präsentiert wurden.",shape=box,color=blue];
+		2172 -> 5692;
+	5692 [label=" Wie lüsterne Wüstlinge, die im Zirkus der Hinrichtung von Verbrechern zusehen.",shape=box,color=blue];
+		5692 -> 2169;
+	2169 [label="Wir bildeten uns ein, neue und aufregende Wege zu finden, einen weit unterlegenen Feind zu vernichten.",shape=box,color=blue];
+		2169 -> 2170;
+	2170 [label="Wie selbstgefällig wir waren! In Wahrheit tüftelten wir verzweifelt an Neuerungen, wissend, dass wir unseren wandelbaren Feinden unterlegen waren.",shape=box,color=blue];
+		2170 -> 5685;
+	5685 [label="Sie überrannten uns wie eine Horde Kinder, die ihre aufgeblähte Mutter verschlingen.",shape=box,color=blue];
+		5685 -> 5686;
+	5686 [label="Ausgetrocknet, zwischen den Seiten der Zeit zerquetscht, wurden wir einfach evolutionär überholt.",shape=box,color=blue];
+		5686 -> 2168;
+	2168 [label="Add 1 to HellStory",color=orange];
+		2168 -> 2332;
+	2332 [label="{\"Id\":2332,\"Incoming\":[2168],\"Outgoing\":[2171],\"GraphPos\":[4580,-9977],\"CompletionType\":1}",color=orange];
+		2332 -> 2171;
+	2171 [label="Chat ends.",color=orange];
+}

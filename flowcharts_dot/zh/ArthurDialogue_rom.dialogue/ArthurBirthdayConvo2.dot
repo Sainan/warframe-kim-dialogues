@@ -1,16 +1,21 @@
 digraph {
-	"ArthurBirthdayConvo2 begins." [color=orange];
-		"ArthurBirthdayConvo2 begins." -> j2883752470;
-		"ArthurBirthdayConvo2 begins." -> j1513058888;
-	j2883752470 [label="祝埃莉诺的弟弟生日快乐！",shape=box,color=red];
-		j2883752470 -> j4104109959;
-	j1513058888 [label="亚瑟，生日快乐。有什么计划吗？",shape=box,color=red];
-		j1513058888 -> j123542539;
-	j4104109959 [label="太棒了。现在我有两个人会一直抓住这件事不放了。",shape=box,color=blue];
-		j4104109959 -> "Chat ends.";
-	j123542539 [label="+20 Chemistry",color=orange];
-		j123542539 -> j2166704619;
-	"Chat ends." [color=orange];
-	j2166704619 [label="谢谢！你还记得，真好。我今天可能会提前半小时收工。还没决定。",shape=box,color=blue];
-		j2166704619 -> "Chat ends.";
+	3191 [label="ArthurBirthdayConvo2 begins.",color=orange];
+		3191 -> 3205;
+		3191 -> 3203;
+	3205 [label="祝埃莉诺的弟弟生日快乐！",shape=box,color=red];
+		3205 -> 3200;
+	3203 [label="亚瑟，生日快乐。有什么计划吗？",shape=box,color=red];
+		3203 -> 3204;
+	3200 [label="太棒了。现在我有两个人会一直抓住这件事不放了。",shape=box,color=blue];
+		3200 -> 3224;
+	3204 [label="+20 Chemistry",color=orange];
+		3204 -> 3202;
+	3224 [label="{\"Id\":3224,\"Incoming\":[3200],\"Outgoing\":[3201],\"GraphPos\":[-30896,-13827],\"CompletionType\":1}",color=orange];
+		3224 -> 3201;
+	3202 [label="谢谢！你还记得，真好。我今天可能会提前半小时收工。还没决定。",shape=box,color=blue];
+		3202 -> 3223;
+	3201 [label="Chat ends.",color=orange];
+	3223 [label="{\"Id\":3223,\"Incoming\":[3202],\"Outgoing\":[3206],\"GraphPos\":[-30893,-13986],\"CompletionType\":1}",color=orange];
+		3223 -> 3206;
+	3206 [label="Chat ends.",color=orange];
 }

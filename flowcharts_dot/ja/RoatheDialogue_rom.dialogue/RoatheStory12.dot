@@ -1,0 +1,29 @@
+digraph {
+	2243 [label="RoatheStory12 begins.",color=orange];
+		2243 -> 5662;
+	5662 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5662 -> 2240 [label=true,color=green];
+		5662 -> 5663 [label=false,color=brown];
+	2240 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2240 -> 2242 [label="x >= 12",color=purple];
+		2240 -> 2241 [label="false",color=purple];
+	5663 [label="Chat ends.",color=orange];
+	2242 [label="ボイスメール：業火",shape=box,color=blue];
+		2242 -> 2244;
+	2241 [label="Chat ends.",color=orange];
+	2244 [label="非道と過剰は、かつて大いに役立った。そして我はそれらを戦術として用いることを期待されていた。",shape=box,color=blue];
+		2244 -> 2239;
+	2239 [label="先人の時代、我々はいかにして感染体を制御したか？　もちろん、原子の核を引き裂いてだ！",shape=box,color=blue];
+		2239 -> 2236;
+	2236 [label="セブンは、我に核兵器を持って対抗するよう命じた。",shape=box,color=blue];
+		2236 -> 5704;
+	5704 [label="その日、センティエントたちは我々の技術を無効にするだけでなく、乗っ取ることもできると知った。",shape=box,color=blue];
+		5704 -> 5705;
+	5705 [label="我々は爆弾をふんだんに搭載した空襲ドローンの群れを送り出したが、ドローンは意味不明な言葉を発しながら、まるで笑うように空母に戻り起爆した。",shape=box,color=blue];
+		5705 -> 2238;
+	2238 [label="Add 1 to HellStory",color=orange];
+		2238 -> 2339;
+	2339 [label="{\"Id\":2339,\"Incoming\":[2238],\"Outgoing\":[2237],\"GraphPos\":[4376,-7089],\"CompletionType\":1}",color=orange];
+		2339 -> 2237;
+	2237 [label="Chat ends.",color=orange];
+}

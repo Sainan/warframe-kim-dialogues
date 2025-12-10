@@ -1,0 +1,31 @@
+digraph {
+	2175 [label="RoatheStory5 begins.",color=orange];
+		2175 -> 5649;
+	5649 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5649 -> 2174 [label=true,color=green];
+		5649 -> 5648 [label=false,color=brown];
+	2174 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2174 -> 2176 [label="x >= 5",color=purple];
+		2174 -> 2173 [label="false",color=purple];
+	5648 [label="Chat ends.",color=orange];
+	2176 [label="VM: INVENTION",shape=box,color=blue];
+		2176 -> 2172;
+	2173 [label="Chat ends.",color=orange];
+	2172 [label="Транскрипт: Теперь я помню, что достижения военной Архимедеи сначала представлялись как развлечения. ",shape=box,color=blue];
+		2172 -> 5692;
+	5692 [label="Like debauched roués watching criminals put to death in an arena-circus.",shape=box,color=blue];
+		5692 -> 2169;
+	2169 [label="Мы думали, что придумываем новые и захватывающие способы уничтожить значительно слабого врага.",shape=box,color=blue];
+		2169 -> 2170;
+	2170 [label="Как же мы льстили сами себе. На самом деле мы изо всех сил изобретали что‑то новое, осознавая, что наши противники, способные к непрерывным изменениям, нас превосходят.",shape=box,color=blue];
+		2170 -> 5685;
+	5685 [label="They tore through us like swarming children devouring their bloated mother.",shape=box,color=blue];
+		5685 -> 5686;
+	5686 [label="Desiccated, crushed between the pages of time, we had simply been out-evolved.",shape=box,color=blue];
+		5686 -> 2168;
+	2168 [label="Add 1 to HellStory",color=orange];
+		2168 -> 2332;
+	2332 [label="{\"Id\":2332,\"Incoming\":[2168],\"Outgoing\":[2171],\"GraphPos\":[4580,-9977],\"CompletionType\":1}",color=orange];
+		2332 -> 2171;
+	2171 [label="Chat ends.",color=orange];
+}

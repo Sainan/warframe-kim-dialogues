@@ -1,18 +1,19 @@
 digraph {
-	"VelimirBirthdayConvo1 begins." [color=orange];
-		"VelimirBirthdayConvo1 begins." -> j1356482877;
-		"VelimirBirthdayConvo1 begins." -> j652680556;
-	j1356482877 [label="今天你的生日有要做什麼趣事嗎？",shape=box,color=red];
-		j1356482877 -> j684765657;
-	j652680556 [label="嘿，韋利米爾！生日快樂，大傢伙！希望你能享受一下。",shape=box,color=red];
-		j652680556 -> j3400817247;
-	j684765657 [label="PapaPolar: 哦，有的，這是肯定的。活在地獄然後對付感染烤箱和清剿瘋子。",shape=box,color=blue];
-		j684765657 -> j1900373169;
-	j3400817247 [label="+20 Chemistry",color=orange];
-		j3400817247 -> j912719294;
-	j1900373169 [label="PapaPolar: 簡直笑爛。",shape=box,color=blue];
-		j1900373169 -> "Chat ends.";
-	j912719294 [label="PapaPolar: 喔喔，謝啦，小夥伴。我盡量。有朋友一起慶祝真的有差。: )",shape=box,color=blue];
-		j912719294 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	1798 [label="VelimirBirthdayConvo1 begins.",color=orange];
+		1798 -> 1799;
+		1798 -> 1800;
+	1799 [label="今天你的生日有要做什麼趣事嗎？",shape=box,color=red];
+		1799 -> 1801;
+	1800 [label="嘿，韋利米爾！生日快樂，大傢伙！希望你能享受一下。",shape=box,color=red];
+		1800 -> 1802;
+	1801 [label="PapaPolar: 哦，有的，這是肯定的。活在地獄然後對付感染烤箱和清剿瘋子。",shape=box,color=blue];
+		1801 -> 1803;
+	1802 [label="+20 Chemistry",color=orange];
+		1802 -> 1804;
+	1803 [label="PapaPolar: 簡直笑爛。",shape=box,color=blue];
+		1803 -> 1805;
+	1804 [label="PapaPolar: 喔喔，謝啦，小夥伴。我盡量。有朋友一起慶祝真的有差。: )",shape=box,color=blue];
+		1804 -> 1806;
+	1805 [label="Chat ends.",color=orange];
+	1806 [label="Chat ends.",color=orange];
 }

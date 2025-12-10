@@ -1,0 +1,33 @@
+digraph {
+	2307 [label="RoatheStory19 begins.",color=orange];
+		2307 -> 5676;
+	5676 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5676 -> 2304 [label=true,color=green];
+		5676 -> 5677 [label=false,color=brown];
+	2304 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2304 -> 2302 [label="x >= 19",color=purple];
+		2304 -> 2306 [label="false",color=purple];
+	5677 [label="Chat ends.",color=orange];
+	2302 [label="VM: DIPLOMACY",shape=box,color=blue];
+		2302 -> 5720;
+	2306 [label="Chat ends.",color=orange];
+	5720 [label="Transcript: Among the Seven Executors, Ballas had styled himself first among equals. ",shape=box,color=blue];
+		5720 -> 5721;
+	5721 [label="Ever the diplomat, ever the honey-voiced persuader, he resolved the grudges and disputes of the others.",shape=box,color=blue];
+		5721 -> 2301;
+	2301 [label="Ku mojej wielkiej radości odkryłem, że jest on teraz różą uwięzioną między dwoma gąszczami cierni. ",shape=box,color=blue];
+		2301 -> 5734;
+	5734 [label="The warmonger faction, headed by Nitokh, pulled one way. The pacifists, under Scarne, pulled another.",shape=box,color=blue];
+		5734 -> 2300;
+	2300 [label="Ballas musiał podjąć decyzję i narazić się na miażdżącą wrogość każdej osoby, po której stronie się nie opowiedział.",shape=box,color=blue];
+		2300 -> 2305;
+	2305 [label="Z nieznanych mi powodów wybrał pokój. Było cztery do trzech, więc żarłoczni Świadomi nagle stali się sojusznikami i przyjaciółmi.",shape=box,color=blue];
+		2305 -> 2308;
+	2308 [label="\"Tak czy inaczej, zmieni zdanie\", obiecała Nitokh, gdy ja zostałem wysłany, aby odnaleźć dysydentów wśród stacjonujących w garnizonie Daks.",shape=box,color=blue];
+		2308 -> 2299;
+	2299 [label="Add 1 to HellStory",color=orange];
+		2299 -> 2346;
+	2346 [label="{\"Id\":2346,\"Incoming\":[2299],\"Outgoing\":[2303],\"GraphPos\":[4753,-4136],\"CompletionType\":1}",color=orange];
+		2346 -> 2303;
+	2303 [label="Chat ends.",color=orange];
+}

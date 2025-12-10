@@ -1,20 +1,25 @@
 digraph {
-	"LettieBirthdayConvo1 begins." [color=orange];
-		"LettieBirthdayConvo1 begins." -> j1572523220;
-		"LettieBirthdayConvo1 begins." -> j2699013699;
-	j1572523220 [label="안녕! 생일 축하해! 네 쥐들이 무슨 선물이라도 줬어?",shape=box,color=red];
-		j1572523220 -> j3549386015;
-	j2699013699 [label="생일 축하해! 그것도 스타 데이즈에 말이야. 정말 로맨틱해. :)",shape=box,color=red];
-		j2699013699 -> j914156406;
-	j3549386015 [label="+20 Chemistry",color=orange];
-		j3549386015 -> j3493009869;
-	j914156406 [label="스타 데이즈는 또 뭐야?
+	458 [label="LettieBirthdayConvo1 begins.",color=orange];
+		458 -> 457;
+		458 -> 456;
+	457 [label="안녕! 생일 축하해! 네 쥐들이 무슨 선물이라도 줬어?",shape=box,color=red];
+		457 -> 460;
+	456 [label="생일 축하해! 그것도 스타 데이즈에 말이야. 정말 로맨틱해. :)",shape=box,color=red];
+		456 -> 1298;
+	460 [label="+20 Chemistry",color=orange];
+		460 -> 1300;
+	1298 [label="스타 데이즈는 또 뭐야?
 뭐든. 그런 거 챙기기엔 너무 바빠
 Adiós",shape=box,color=blue];
-		j914156406 -> "Chat ends.";
-	j3493009869 [label="Jajaja 아니
+		1298 -> 2517;
+	1300 [label="Jajaja 아니
 내가 지금 바라는 건 한 시간만이라도 자던지 갓 내린 커피 한 잔 하는 것 뿐이야. 너무 많은 걸 바라나? 
 Pero, gracias",shape=box,color=blue];
-		j3493009869 -> "Chat ends.";
-	"Chat ends." [color=orange];
+		1300 -> 2516;
+	2517 [label="{\"Id\":2517,\"Incoming\":[1298],\"Outgoing\":[1297],\"GraphPos\":[797,-1598],\"CompletionType\":1}",color=orange];
+		2517 -> 1297;
+	2516 [label="{\"Id\":2516,\"Incoming\":[1300],\"Outgoing\":[459],\"GraphPos\":[1161,-1810],\"CompletionType\":1}",color=orange];
+		2516 -> 459;
+	1297 [label="Chat ends.",color=orange];
+	459 [label="Chat ends.",color=orange];
 }

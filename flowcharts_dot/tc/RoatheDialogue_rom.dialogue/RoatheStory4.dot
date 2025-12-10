@@ -1,0 +1,33 @@
+digraph {
+	2162 [label="RoatheStory4 begins.",color=orange];
+		2162 -> 5647;
+	5647 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5647 -> 2166 [label=true,color=green];
+		5647 -> 5646 [label=false,color=brown];
+	2166 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2166 -> 2163 [label="x >= 4",color=purple];
+		2166 -> 2165 [label="false",color=purple];
+	5646 [label="Chat ends.",color=orange];
+	2163 [label="VM: HUBRIS",shape=box,color=blue];
+		2163 -> 2164;
+	2165 [label="Chat ends.",color=orange];
+	2164 [label="文字記錄：我們沒想到會輸。",shape=box,color=blue];
+		2164 -> 5732;
+	5732 [label="在 Sentient 第一次遠征襲擊後，我們就準備了懲罰性的反擊。",shape=box,color=blue];
+		5732 -> 2159;
+	2159 [label="金魅號從穀神星的霧中以致命之翼升起，一艘滿載無人機和銀甲戰士的帆船戰艦。",shape=box,color=blue];
+		2159 -> 2160;
+	2160 [label="精細如霧的電路在他們半透明的裝甲下形成精緻的蕾絲。",shape=box,color=blue];
+		2160 -> 5693;
+	5693 [label="她如此龐大，幾乎無法通過星際軌道的邊緣。",shape=box,color=blue];
+		5693 -> 2167;
+	2167 [label="Sentient 確保我們看到了結果。他們歌唱，而我們的技術失效了。我們的戰士在閃亮的盔甲內掙扎窒息。",shape=box,color=blue];
+		2167 -> 5684;
+	5684 [label="金魅號的船員活活被烤死，她如天鵝俯衝般失去動力，穿過Tau的天空，成了一個複雜而昂貴的煙火秀。",shape=box,color=blue];
+		5684 -> 2158;
+	2158 [label="Add 1 to HellStory",color=orange];
+		2158 -> 2331;
+	2331 [label="{\"Id\":2331,\"Incoming\":[2158],\"Outgoing\":[2161],\"GraphPos\":[5059,-10280],\"CompletionType\":1}",color=orange];
+		2331 -> 2161;
+	2161 [label="Chat ends.",color=orange];
+}

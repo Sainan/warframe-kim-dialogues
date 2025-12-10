@@ -1,103 +1,107 @@
 digraph {
-	"LettieRank2Convo2 begins." [color=orange];
-		"LettieRank2Convo2 begins." -> j4208769448;
-		"LettieRank2Convo2 begins." -> j4263522526;
-	j4208769448 [label="Jak nazywają się Twoje szczury?",shape=box,color=red];
-		j4208769448 -> j2647476966;
-	j4263522526 [label="Ile masz szczurków?",shape=box,color=red];
-		j4263522526 -> j906177913;
-	j2647476966 [label="Mm?",shape=box,color=blue];
-		j2647476966 -> j3350291794;
-	j906177913 [label="Mm? 
+	306 [label="LettieRank2Convo2 begins.",color=orange];
+		306 -> 307;
+		306 -> 308;
+	307 [label="Jak nazywają się Twoje szczury?",shape=box,color=red];
+		307 -> 309;
+	308 [label="Ile masz szczurków?",shape=box,color=red];
+		308 -> 310;
+	309 [label="Mm?",shape=box,color=blue];
+		309 -> 311;
+	310 [label="Mm? 
 4",shape=box,color=blue];
-		j906177913 -> j3350291794;
-	j3350291794 [label="Boolean LettieRats2 is now true.",color=orange];
-		j3350291794 -> j3749858935;
-	j3749858935 [label="Vaquero, Anita, Neenah i Tláloc",shape=box,color=blue];
-		j3749858935 -> j2075725908;
-		j3749858935 -> j3281176767;
-	j2075725908 [label="Jak wybrałaś ich imiona?",shape=box,color=red];
-		j2075725908 -> j3118718568;
-	j3281176767 [label="Powinnaś nazwać jednego po mnie :)",shape=box,color=red];
-		j3281176767 -> j320564991;
-	j3118718568 [label="Vaquero znaczy kowboj 
+		310 -> 311;
+	311 [label="Update boolean LettieRats2",color=orange];
+		311 -> 312;
+	312 [label="Vaquero, Anita, Neenah i Tláloc",shape=box,color=blue];
+		312 -> 313;
+		312 -> 314;
+	313 [label="Jak wybrałaś ich imiona?",shape=box,color=red];
+		313 -> 315;
+	314 [label="Powinnaś nazwać jednego po mnie :)",shape=box,color=red];
+		314 -> 316;
+	315 [label="Vaquero znaczy kowboj 
 Anita to moja dawna przyjaciółka 
 Neenah była przyjaciółką, którą straciłam 
 Tláloc na cześć dawnego boga deszczu",shape=box,color=blue];
-		j3118718568 -> j3092670737;
-	j320564991 [label="Hah 
+		315 -> 317;
+	316 [label="Hah 
 Nazwę go Babas 
 Mam nadzieję, że nie zacznie zżerać tapety ze ścian",shape=box,color=blue];
-		j320564991 -> j3778284635;
-		j320564991 -> j3232158357;
-	j3092670737 [label="Tláloc to *straszny* chuj 
+		316 -> 318;
+		316 -> 319;
+	317 [label="Tláloc to *straszny* chuj 
 Szczur, nie bóg jaja 
 Nie potrzebuję takiego mojo w swoim życiu",shape=box,color=blue];
-		j3092670737 -> j1905813311;
-		j3092670737 -> j565648712;
-	j3778284635 [label="Co w ogóle znaczy \"Babas\"?",shape=box,color=red];
-		j3778284635 -> j1175897572;
-	j3232158357 [label="Ha ha. Wiem co to znaczy.",shape=box,color=red];
-		j3232158357 -> j4156508971;
-	j1905813311 [label="Nigdy wcześniej nie słyszałem o Tlálocu. Pojawił się przed Lua i Sol? Przed dualizmem?",shape=box,color=red];
-		j1905813311 -> j3704217473;
-	j565648712 [label="Dlaczego jest chujem? lol",shape=box,color=red];
-		j565648712 -> j2148923603;
-	j1175897572 [label="Nie martw się 
+		317 -> 322;
+		317 -> 323;
+	318 [label="Co w ogóle znaczy \"Babas\"?",shape=box,color=red];
+		318 -> 324;
+	319 [label="Ha ha. Wiem co to znaczy.",shape=box,color=red];
+		319 -> 320;
+	322 [label="Nigdy wcześniej nie słyszałem o Tlálocu. Pojawił się przed Lua i Sol? Przed dualizmem?",shape=box,color=red];
+		322 -> 326;
+	323 [label="Dlaczego jest chujem? lol",shape=box,color=red];
+		323 -> 327;
+	324 [label="Nie martw się 
 Mogło być gorzej",shape=box,color=blue];
-		j1175897572 -> j3446743300;
-		j1175897572 -> j3905819510;
-	j4156508971 [label="Dobrze",shape=box,color=blue];
-		j4156508971 -> "Chat ends.";
-	j3704217473 [label="Boolean LettieReligion2 is now true.",color=orange];
-		j3704217473 -> j639929439;
-	j2148923603 [label="Boolean LettieReligion2 is now true.",color=orange];
-		j2148923603 -> j3613240264;
-	j3446743300 [label="Okej... zaufam ci.",shape=box,color=red];
-		j3446743300 -> j1542753201;
-	j3905819510 [label="Nie wierzę ci.",shape=box,color=red];
-		j3905819510 -> j3103746340;
-	"Chat ends." [color=orange];
-	j639929439 [label="Sí, dawno dawno temu, mój lud czcił dawnych bogów. 
+		324 -> 332;
+		324 -> 333;
+	320 [label="Dobrze",shape=box,color=blue];
+		320 -> 321;
+	326 [label="Update boolean LettieReligion2",color=orange];
+		326 -> 328;
+	327 [label="Update boolean LettieReligion2",color=orange];
+		327 -> 329;
+	332 [label="Okej... zaufam ci.",shape=box,color=red];
+		332 -> 335;
+	333 [label="Nie wierzę ci.",shape=box,color=red];
+		333 -> 337;
+	321 [label="Chat ends.",color=orange];
+	328 [label="Sí, dawno dawno temu, mój lud czcił dawnych bogów. 
 Niektórzy z nich byli... krwawi",shape=box,color=blue];
-		j639929439 -> j2707387843;
-		j639929439 -> j12750680;
-	j3613240264 [label="Lubi gryźć 
+		328 -> 330;
+		328 -> 331;
+	329 [label="Lubi gryźć 
 Zupełnie jak dawni ludzie i ich bóstwa. Niektórzy bywali... krwawi",shape=box,color=blue];
-		j3613240264 -> j12750680;
-		j3613240264 -> j2707387843;
-	j1542753201 [label="+20 Chemistry",color=orange];
-		j1542753201 -> j3748645904;
-	j3103746340 [label="Twoja strata",shape=box,color=blue];
-		j3103746340 -> "Chat ends.";
-	j2707387843 [label="Co masz na myśli przez \"krwawi\"?",shape=box,color=red];
-		j2707387843 -> j3493072316;
-	j12750680 [label="Brzmi... miło.",shape=box,color=red];
-		j12750680 -> j3493072316;
-	j3748645904 [label="Bueno",shape=box,color=blue];
-		j3748645904 -> "Chat ends.";
-	j3493072316 [label="Xipe Totec, Obdarty ze Skóry, był bogiem odrodzenia, rolnictwa i wojny",shape=box,color=blue];
-		j3493072316 -> j225595270;
-		j3493072316 -> j2181005036;
-	j225595270 [label="Obdarty ze Skóry...?",shape=box,color=red];
-		j225595270 -> j3916695538;
-	j2181005036 [label="To WCALE nie brzmi źle...",shape=box,color=red];
-		j2181005036 -> j3916695538;
-	j3916695538 [label="Podczas festiwalu ku jego czci, jeńcy wojenni byli obdzierani ze skóry, a grupy mężczyzn nosiły ją jak własną i przyjmowali ofiary składane przez mieszkańców miast 
+		329 -> 331;
+		329 -> 330;
+	335 [label="+20 Chemistry",color=orange];
+		335 -> 334;
+	337 [label="Twoja strata",shape=box,color=blue];
+		337 -> 338;
+	330 [label="Co masz na myśli przez \"krwawi\"?",shape=box,color=red];
+		330 -> 339;
+	331 [label="Brzmi... miło.",shape=box,color=red];
+		331 -> 339;
+	334 [label="Bueno",shape=box,color=blue];
+		334 -> 336;
+	338 [label="Chat ends.",color=orange];
+	339 [label="Xipe Totec, Obdarty ze Skóry, był bogiem odrodzenia, rolnictwa i wojny",shape=box,color=blue];
+		339 -> 340;
+		339 -> 341;
+	336 [label="Chat ends.",color=orange];
+	340 [label="Obdarty ze Skóry...?",shape=box,color=red];
+		340 -> 342;
+	341 [label="To WCALE nie brzmi źle...",shape=box,color=red];
+		341 -> 342;
+	342 [label="Podczas festiwalu ku jego czci, jeńcy wojenni byli obdzierani ze skóry, a grupy mężczyzn nosiły ją jak własną i przyjmowali ofiary składane przez mieszkańców miast 
 Jak mówiłam 
 Czasami bywało krwawo",shape=box,color=blue];
-		j3916695538 -> j272035337;
-		j3916695538 -> j2127233575;
-	j272035337 [label="Będę miał po tym koszmary.",shape=box,color=red];
-		j272035337 -> j1783358073;
-	j2127233575 [label="Ludzie są dziwni.",shape=box,color=red];
-		j2127233575 -> j1053493757;
-	j1783358073 [label="+10 Chemistry",color=orange];
-		j1783358073 -> j2744980338;
-	j1053493757 [label="+20 Chemistry",color=orange];
-		j1053493757 -> j153254369;
-	j2744980338 [label="De nada",shape=box,color=blue];
-		j2744980338 -> "Chat ends.";
-	j153254369 [label="Całkowicie się zgadzam",shape=box,color=blue];
-		j153254369 -> "Chat ends.";
+		342 -> 343;
+		342 -> 344;
+	343 [label="Będę miał po tym koszmary.",shape=box,color=red];
+		343 -> 347;
+	344 [label="Ludzie są dziwni.",shape=box,color=red];
+		344 -> 348;
+	347 [label="+10 Chemistry",color=orange];
+		347 -> 345;
+	348 [label="+20 Chemistry",color=orange];
+		348 -> 346;
+	345 [label="De nada",shape=box,color=blue];
+		345 -> 349;
+	346 [label="Całkowicie się zgadzam",shape=box,color=blue];
+		346 -> 350;
+	349 [label="Chat ends.",color=orange];
+	350 [label="Chat ends.",color=orange];
 }

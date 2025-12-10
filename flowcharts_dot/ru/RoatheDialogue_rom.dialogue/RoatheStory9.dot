@@ -1,0 +1,37 @@
+digraph {
+	2214 [label="RoatheStory9 begins.",color=orange];
+		2214 -> 5656;
+	5656 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5656 -> 2206 [label=true,color=green];
+		5656 -> 5657 [label=false,color=brown];
+	2206 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2206 -> 2210 [label="x >= 9",color=purple];
+		2206 -> 2209 [label="false",color=purple];
+	5657 [label="Chat ends.",color=orange];
+	2210 [label="VM: COMMANDERS",shape=box,color=blue];
+		2210 -> 2208;
+	2209 [label="Chat ends.",color=orange];
+	2208 [label="Транскрипт: Теперь я их вспоминаю. Группы смеющейся молодёжи Орокин.",shape=box,color=blue];
+		2208 -> 2212;
+	2212 [label="Знать, облаченная в еще нетронутые одежды власти.",shape=box,color=blue];
+		2212 -> 2205;
+	2205 [label="Childhood friends now in charge of legions of Dax, of Grineer, null-matter cells, self-replicating carcinators, primitive biodrone blade-spiders, canisters of low-tech troops.",shape=box,color=blue];
+		2205 -> 2213;
+	2213 [label="Золотые мальчики и девочки с голодными дьяволами по своему зову.",shape=box,color=blue];
+		2213 -> 2215;
+	2215 [label="Их высокомерие, словно жгучий пот, просачивается в мой разум. Они пили и пели, хвастаясь грядущими временами.",shape=box,color=blue];
+		2215 -> 5696;
+	5696 [label="They would make names for themselves. Raise their families high in honor.",shape=box,color=blue];
+		5696 -> 5697;
+	5697 [label="So many of them fell. Not even their bodies were returned.",shape=box,color=blue];
+		5697 -> 5698;
+	5698 [label="To prevent the enemy from gleaning our secrets, they were Kuva-jolted to liquefy upon death.",shape=box,color=blue];
+		5698 -> 5699;
+	5699 [label="The hope of a generation turned to an oily puddle, sloshed through by Grineer boots.",shape=box,color=blue];
+		5699 -> 2211;
+	2211 [label="Add 1 to HellStory",color=orange];
+		2211 -> 2336;
+	2336 [label="{\"Id\":2336,\"Incoming\":[2211],\"Outgoing\":[2207],\"GraphPos\":[5512,-8267],\"CompletionType\":1}",color=orange];
+		2336 -> 2207;
+	2207 [label="Chat ends.",color=orange];
+}

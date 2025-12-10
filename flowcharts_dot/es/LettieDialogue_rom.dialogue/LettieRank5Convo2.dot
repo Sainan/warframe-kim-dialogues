@@ -1,282 +1,295 @@
 digraph {
-	"LettieRank5Convo2 begins." [color=orange];
-		"LettieRank5Convo2 begins." -> j3526029970;
-	j3526029970 [label="Check boolean LettieDating",color=orange];
-		j3526029970 -> j3916483503 [label=true,color=green];
-		j3526029970 -> j1099734123 [label=false,color=brown];
-	j3916483503 [label="Solecito 
+	1782 [label="LettieRank5Convo2 begins.",color=orange];
+		1782 -> 1783;
+	1783 [label="Check boolean LettieDating",color=orange];
+		1783 -> 1784 [label=true,color=green];
+		1783 -> 1785 [label=false,color=brown];
+	1784 [label="Solecito 
 ¿Estás ahí?
 Tengo algo de tiempo libre y necesitamos hablar",shape=box,color=blue];
-		j3916483503 -> j2342722519;
-		j3916483503 -> j1937239812;
-		j3916483503 -> j2430804894;
-	j1099734123 [label="Oye
+		1784 -> 1786;
+		1784 -> 1787;
+		1784 -> 1788;
+	1785 [label="Oye
 ¿Estás ahí?
 Tengo algo de tiempo libre y quiero hablar contigo",shape=box,color=blue];
-		j1099734123 -> j1937239812;
-		j1099734123 -> j2430804894;
-	j2342722519 [label="No estás rompiendo conmigo, ¿verdad?",shape=box,color=red];
-		j2342722519 -> j1915559096;
-	j1937239812 [label="¿TÚ quieres hablar...?, ¿te sientes bien?, ¿alguien murió?",shape=box,color=red];
-		j1937239812 -> j3056750159;
-	j2430804894 [label="Perdón, no puedo chatear ahora. [Fin.]",shape=box,color=red];
-		j2430804894 -> "Chat ends.";
-	j1915559096 [label="¡Ay, no! 
+		1785 -> 1787;
+		1785 -> 1788;
+	1786 [label="No estás rompiendo conmigo, ¿verdad?",shape=box,color=red];
+		1786 -> 1790;
+	1787 [label="¿TÚ quieres hablar...?, ¿te sientes bien?, ¿alguien murió?",shape=box,color=red];
+		1787 -> 1791;
+	1788 [label="Perdón, no puedo chatear ahora. [Fin]",shape=box,color=red];
+		1788 -> 1789;
+	1790 [label="¡Ay, no! 
 Nonono 
 No se trata de eso jajaja 
 Pensé que TÚ podrías CAMBIAR de parecer cuando terminara de decirte esto",shape=box,color=blue];
-		j1915559096 -> j3164232809;
-		j1915559096 -> j623040372;
-	j3056750159 [label="Jaja muy divertido
+		1790 -> 1792;
+		1790 -> 1793;
+	1791 [label="Jaja muy divertido
 Y quién no ha muerto ya a estas alturas
 Ay, no, de lo que te quería hablar
 Es serio
 Y sobre algo que he estado evadiendo",shape=box,color=blue];
-		j3056750159 -> j623040372;
-		j3056750159 -> j3164232809;
-	"Chat ends." [color=orange];
-	j3164232809 [label="Está bien... ¿De qué se trata?",shape=box,color=red];
-		j3164232809 -> j2818670173;
-	j623040372 [label="Está bien. Te escucho.",shape=box,color=red];
-		j623040372 -> j2818670173;
-	j2818670173 [label="Check boolean LettieHexAsked",color=orange];
-		j2818670173 -> j3126375569 [label=true,color=green];
-		j2818670173 -> j3172424732 [label=false,color=brown];
-	j3126375569 [label="Me habías preguntado como es que nos habíamos convertido en estos monstruos
+		1791 -> 1793;
+		1791 -> 1792;
+	1789 [label="Chat ends.",color=orange];
+	1792 [label="Está bien... ¿De qué se trata?",shape=box,color=red];
+		1792 -> 1794;
+	1793 [label="Está bien. Te escucho.",shape=box,color=red];
+		1793 -> 1794;
+	1794 [label="Check boolean LettieHexAsked",color=orange];
+		1794 -> 1795 [label=true,color=green];
+		1794 -> 1796 [label=false,color=brown];
+	1795 [label="Me habías preguntado como es que nos habíamos convertido en estos monstruos
 Qué que nos había hecho ese cabrón
 El por qué lo odio tanto
 Lo que ese pedazo de mierda nos hizo hacer",shape=box,color=blue];
-		j3126375569 -> j2049468523;
-	j3172424732 [label="Check boolean LettieEntrati",color=orange];
-		j3172424732 -> j471110960 [label=true,color=green];
-		j3172424732 -> j3038561522 [label=false,color=brown];
-	j2049468523 [label="Pues
+		1795 -> 1801;
+	1796 [label="Check boolean LettieEntrati",color=orange];
+		1796 -> 1797 [label=true,color=green];
+		1796 -> 1798 [label=false,color=brown];
+	1801 [label="Pues
 Seguí a Arthur hasta la RCI
 Nos enviaron a este cuchitril para lidiar con una extraña plaga que nadie había visto antes",shape=box,color=blue];
-		j2049468523 -> j2226546306;
-	j471110960 [label="Deberías de saber que es lo que nos hizo ese pinche cabrón
+		1801 -> 1802;
+	1797 [label="Deberías de saber que es lo que nos hizo ese pinche cabrón
 El por qué lo odio tanto
 Lo que ese pedazo de mierda nos hizo hacer",shape=box,color=blue];
-		j471110960 -> j2049468523;
-	j3038561522 [label="Check boolean LettieArthur1",color=orange];
-		j3038561522 -> j251357708 [label=true,color=green];
-		j3038561522 -> j196605307 [label=false,color=brown];
-	j2226546306 [label="Una enfermedad que devora a la gente
+		1797 -> 1801;
+	1798 [label="Check boolean LettieArthur1",color=orange];
+		1798 -> 1799 [label=true,color=green];
+		1798 -> 1800 [label=false,color=brown];
+	1802 [label="Una enfermedad que devora a la gente
 Convirtiéndolas en mitad persona, mitad máquina
 O unas cosas que ni siquiera son del todo humanas, más bien computadoras",shape=box,color=blue];
-		j2226546306 -> j1063157360;
-	j251357708 [label="Te dije como es que Arthur y yo nos hicimos hermanos
+		1802 -> 1803;
+	1799 [label="Te dije como es que Arthur y yo nos hicimos hermanos
 Pero no como es que nos convertimos en estos monstruos
 Deberías de saber que es lo que nos hizo ese pinche cabrón
 El por qué lo odio tanto
 Lo que ese pedazo de mierda nos hizo hacer",shape=box,color=blue];
-		j251357708 -> j2049468523;
-	j196605307 [label="Has hecho tanto por nosotros
+		1799 -> 1801;
+	1800 [label="Has hecho tanto por nosotros
 Salvaste nuestras vidas, te quedaste con nosotros... cuando pudiste haberte ido
 Es tiempo de que sepas toda la historia",shape=box,color=blue];
-		j196605307 -> j2049468523;
-	j1063157360 [label="Nos enviaron para \"que nos encargáramos de eso\"
+		1800 -> 1801;
+	1803 [label="Nos enviaron para \"que nos encargáramos de eso\"
 Como mejor pudiéramos
 Con vendas
 Y balas",shape=box,color=blue];
-		j1063157360 -> j1947325894;
-	j1947325894 [label="Esto fue a inicios de 1998
+		1803 -> 1804;
+	1804 [label="Esto fue a inicios de 1998
 Antes de que llegaras
 Ese cabrón del Entrati ya estaba aquí
 Vendiendo sus MENTIRAS",shape=box,color=blue];
-		j1947325894 -> j4128148057;
-	j4128148057 [label="Pero las mejores mentiras son las que uno quiere creer, ¿verdad?
+		1804 -> 1805;
+	1805 [label="Pero las mejores mentiras son las que uno quiere creer, ¿verdad?
 No teníamos una cura para esta enfermedad excepto un baile con La Flaca
 Pero entonces llegó
 Doktor F y su bolsa mágica de milagros que te curaría tus aflicciones
 Diciendo que él podía arreglar todo con su medicina milagrosa",shape=box,color=blue];
-		j4128148057 -> j1573233486;
-	j1573233486 [label="Y le creímos como una bola de mensos
+		1805 -> 1806;
+	1806 [label="Y le creímos como una bola de mensos
 Y cuando la RCI se impuso y dijo \"no, no, no, no pueden ayudarlo a distribuir esta medicina\" debí haber escuchado 
 Las vacunas vienen de científicos no de un viejo usando un abrigo horrible 
 Vendiendo mentiras como si fuera aceite de serpiente de un antiguo mundo
 Pero ¿qué haces cuando tienes tanta gente muriendo a tu alrededor?
 Pues le ayudas de todos modos porque prometiste AYUDAR a la gente",shape=box,color=blue];
-		j1573233486 -> j80078459;
-	j80078459 [label="Así que le ayudamos a inyectar a la gente de esta ciudad con su medicina
+		1806 -> 1807;
+	1807 [label="Así que le ayudamos a inyectar a la gente de esta ciudad con su medicina
 Los formamos en nuestras tiendas y ese cabrón y yo los vacunamos a todos, uno tras otro
 Y los demás mantuvieron la operación a salvo mientras trabajábamos",shape=box,color=blue];
-		j80078459 -> j1768669384;
-	j1768669384 [label="NOSOTROS CREÍMOS EN ÉL 
+		1807 -> 1808;
+	1808 [label="NOSOTROS CREÍMOS EN ÉL 
 Ciegamente
 ¿Y por tan poco? 
 Parecía que estaba funcionando
 La gente a la cual vacunamos no se estaba enfermando
 ¿El problema?...",shape=box,color=blue];
-		j1768669384 -> j1936909248;
-	j1936909248 [label="Toda la gente al rededor de ellos LO ESTABAN
+		1808 -> 1809;
+	1809 [label="Toda la gente al rededor de ellos LO ESTABAN
 ¿Sabes lo que es un \"portador silencioso\"?
 Cuando estaba chiquita, en un verano, hice un voluntariado en un refugio para animales 
 Tenían muchos mapaches
 No los podían liberar, porque eran portadores silenciosos de la rabia
 SE VEÍAN sanos, parecían sanos, se veían normales...",shape=box,color=blue];
-		j1936909248 -> j4033789814;
-	j4033789814 [label="¿Pero y si los liberábamos?
+		1809 -> 1810;
+	1810 [label="¿Pero y si los liberábamos?
 Infectarían todo lo que se les cruzara...
 Eso es lo que estábamos haciendo con la gente
 ESO ES LO QUE NOS ESTABA HACIENDO HACER A LA GENTE
 ¡LO HIZO A PROPÓSITO!
 Este lugar está al filo del Mictlán POR SU CULPA",shape=box,color=blue];
-		j4033789814 -> j4071451099;
-	j4071451099 [label="Aun cuando empezamos a sospechar
+		1810 -> 1811;
+	1811 [label="Aun cuando empezamos a sospechar
 No lo podíamos creer
 Susurrábamos entre nosotros
 Pero negábamos con la cabeza y decíamos
 No, no, no, eso no puede ser
 No él
 No nosotros",shape=box,color=blue];
-		j4071451099 -> j1382766468;
-	j1382766468 [label="Boolean LettieHex is now true.",color=orange];
-		j1382766468 -> j86733959;
-	j86733959 [label="Check boolean LettieDating",color=orange];
-		j86733959 -> j3525803847 [label=true,color=green];
-		j86733959 -> j1868437922 [label=false,color=brown];
-	j3525803847 [label="No queríamos creerlo
+		1811 -> 1812;
+	1812 [label="Update boolean LettieHex",color=orange];
+		1812 -> 1813;
+	1813 [label="Check boolean LettieDating",color=orange];
+		1813 -> 1814 [label=true,color=green];
+		1813 -> 1815 [label=false,color=brown];
+	1814 [label="No queríamos creerlo
 Que habían traicionado nuestra confianza
 Nosotros... también habíamos usado la medicina, solecito...
 Estábamos esparciendo la plaga...",shape=box,color=blue];
-		j3525803847 -> j2712444954;
-	j1868437922 [label="No queríamos creerlo
+		1814 -> 1816;
+	1815 [label="No queríamos creerlo
 Que habían traicionado nuestra confianza
 Nosotros... también habíamos usado la medicina...
 Estábamos esparciendo la plaga...",shape=box,color=blue];
-		j1868437922 -> j2712444954;
-	j2712444954 [label="Así que cuando nos dijo que la cepa del Techrot había mutado... y que ya no estábamos a salvo...",shape=box,color=blue];
-		j2712444954 -> j644684809;
-	j644684809 [label="Nos alineamos
+		1815 -> 1816;
+	1816 [label="Así que cuando nos dijo que la cepa del Techrot había mutado... y que ya no estábamos a salvo...",shape=box,color=blue];
+		1816 -> 1817;
+	1817 [label="Nos alineamos
 Como buenos soldaditos",shape=box,color=blue];
-		j644684809 -> j636356366;
-	j636356366 [label="Lua, vaya que duele
+		1817 -> 1818;
+	1818 [label="Lua, vaya que duele
 No fue divertido, tampoco...
 Los gritos de Aoi fueron lo peor
 No le podía ayudar, estaba muy ocupada muriendo también
 Se puso a llorar del miedo y lo único que quería hacer era abrazarla",shape=box,color=blue];
-		j636356366 -> j1819509971;
-	j1819509971 [label="Decirle que todo iba a estar bien
+		1818 -> 1819;
+	1819 [label="Decirle que todo iba a estar bien
 Que el dolor iba a pasar y que La Flaca se la iba a llevar a casa
 Ella estaba tan asustada y no podía ayudarla
 Mis piernas no me respondían...",shape=box,color=blue];
-		j1819509971 -> j1057227711;
-	j1057227711 [label="Voy a odiar a ese pedazo de mierda
+		1819 -> 1820;
+	1820 [label="Voy a odiar a ese pedazo de mierda
 Todos los días de mi infinita vida
 Por esa traición",shape=box,color=blue];
-		j1057227711 -> j883829845;
-	j883829845 [label="¿Y si lo llego a ver de nuevo?
+		1820 -> 1821;
+	1821 [label="¿Y si lo llego a ver de nuevo?
 Más te vale estar ahí para que me contengas
 O le voy a enseñar lo que es realmente el dolor",shape=box,color=blue];
-		j883829845 -> j3535103435;
-		j883829845 -> j906169378;
-		j883829845 -> j2129197872;
-		j883829845 -> j1388874924;
-	j3535103435 [label="Guardar un rencor como ese no es saludable, incluso si lo que te hizo estuvo mal.",shape=box,color=red];
-		j3535103435 -> j260146297;
-	j906169378 [label="Maldición... no me di cuenta. Yo. En serio lamento que te haya usado de esa forma. Sí... Yo también lo odiaría.",shape=box,color=red];
-		j906169378 -> j2164033403;
-	j2129197872 [label="Yo... este... espera. ¿Todos ustedes son parcialmente responsables de la propagación del Techrot?",shape=box,color=red];
-		j2129197872 -> j1425376350;
-	j1388874924 [label="Perdón, me dormí por un momento. ¿Qué estabas diciendo?",shape=box,color=red];
-		j1388874924 -> j2548450594;
-	j260146297 [label="Mírate
+		1821 -> 1822;
+		1821 -> 1823;
+		1821 -> 1824;
+		1821 -> 1825;
+	1822 [label="Guardar un rencor como ese no es saludable, incluso si lo que te hizo estuvo mal.",shape=box,color=red];
+		1822 -> 1826;
+	1823 [label="Maldición... no me di cuenta. Yo. En serio lamento que te haya usado de esa forma. Sí... Yo también lo odiaría.",shape=box,color=red];
+		1823 -> 1827;
+	1824 [label="Yo... este... espera. ¿Todos ustedes son parcialmente responsables de la propagación del Techrot?",shape=box,color=red];
+		1824 -> 1828;
+	1825 [label="Perdón, me dormí por un momento. ¿Qué estabas diciendo?",shape=box,color=red];
+		1825 -> 1829;
+	1826 [label="Mírate
 Todos alaben a San Babas
 Absolviendo pecados
 No
 Algunas cosas no pueden ser perdonadas
 Lo que nos hizo es una de esas
 Lo que le hicimos a la gente de esta ciudad es otra",shape=box,color=blue];
-		j260146297 -> j1977942143;
-		j260146297 -> j1155166145;
-		j260146297 -> j936717367;
-	j2164033403 [label="Sí
+		1826 -> 1833;
+		1826 -> 1834;
+		1826 -> 1836;
+	1827 [label="Sí
 No me gusta que me traicionen
 Pero queríamos creer en él y nos vió la cara de mensos
 Si ya no quieres estar cerca de nosotros, lo entenderé
 Los demás también lo harán",shape=box,color=blue];
-		j2164033403 -> j1977942143;
-		j2164033403 -> j1155166145;
-		j2164033403 -> j936717367;
-	j1425376350 [label="Sí
+		1827 -> 1833;
+		1827 -> 1834;
+		1827 -> 1836;
+	1828 [label="Sí
 Lo somos
 Pero queríamos creer en él y nos vió la cara de mensos
 Si ya no quieres estar cerca de nosotros, lo entenderé
 Lo demás también lo harán",shape=box,color=blue];
-		j1425376350 -> j1977942143;
-		j1425376350 -> j1155166145;
-		j1425376350 -> j936717367;
-	j2548450594 [label="Boolean LettieDating is now false.",color=orange];
-		j2548450594 -> j4086907321;
-	j1977942143 [label="No estoy aquí para decir que lo que hiciste puede ser perdonado o no. Eso es algo que no puedo hacer, y honestamente, no creo que lo que estás describiendo es algo que PUEDA ser perdonado.",shape=box,color=red];
-		j1977942143 -> j2457726763;
-	j1155166145 [label="Entrati llegó aquí y encontró exactamente lo que estaba buscando, gente útil y hábil que él pudiera engañar en hacer lo que él quería. Quienes no lo pensarían mucho. Cayeron en su trampa como mucha gente antes de ustedes.",shape=box,color=red];
-		j1155166145 -> j3982764036;
-	j936717367 [label="Lo que pasó no fue tu culpa. Les mintieron. Sí, claro, tal vez se hicieron de oídos sordos después de que las cosas empezaron a ir mal. ¿Pero quién los culparía por eso?, la esperanza es una droga peligrosa. Y él se las administro.",shape=box,color=red];
-		j936717367 -> j144286932;
-	j4086907321 [label="Boolean IsDating is now false.",color=orange];
-		j4086907321 -> j2703113057;
-	j2457726763 [label="Gente murió, gente que no va a regresar. Porque tu quisiste creer en una medicina milagrosa promocionada por \"un viejo usando un abrigo horrible.\"",shape=box,color=red];
-		j2457726763 -> j1951391963;
-	j3982764036 [label="Querías creer en sus mentiras. Y lo hiciste. Y eso recae en ti. ¿Y toda esa gente que se enfermó por eso?, también.",shape=box,color=red];
-		j3982764036 -> j2457726763;
-		j3982764036 -> j1882037494;
-	j144286932 [label="Así que por supuesto, te dejaste llevar. Pues claro, querías creer en que pudiera ser cierto.",shape=box,color=red];
-		j144286932 -> j534193981;
-	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
-		j2703113057 -> "Chat ends.";
-	j1951391963 [label="Y no me corresponde absolverte de eso. Perdón.",shape=box,color=red];
-		j1951391963 -> j44039935;
-	j1882037494 [label="Pero la gente se equivoca y lo reconoce. Y tú estás aquí, intentando tomar responsabilidad de ello. Lo que yo veo es gente que está tratando de enmendar sus errores.",shape=box,color=red];
-		j1882037494 -> j1437662197;
-	j534193981 [label="Yo hubiera hecho lo mismo.",shape=box,color=red];
-		j534193981 -> j2101452136;
-	j44039935 [label="Check boolean LettieDating",color=orange];
-		j44039935 -> j3829882604 [label=true,color=green];
-		j44039935 -> j281499370 [label=false,color=brown];
-	j1437662197 [label="Y no creo que alguien sensato pueda pedir más que eso. No creo que seas mala persona. Yo solo veo gente que se equivocó. Pero que están intentando reivindicarse. Y yo sé como es eso. Créeme.",shape=box,color=red];
-		j1437662197 -> j1927512488;
-	j2101452136 [label="¿Sí? 
+		1828 -> 1833;
+		1828 -> 1834;
+		1828 -> 1836;
+	1829 [label="Update boolean LettieDating",color=orange];
+		1829 -> 1830;
+	1833 [label="No estoy aquí para decir que lo que hiciste puede ser perdonado o no. Eso es algo que no puedo hacer, y honestamente, no creo que lo que estás describiendo es algo que PUEDA ser perdonado.",shape=box,color=red];
+		1833 -> 1839;
+	1834 [label="Entrati llegó aquí y encontró exactamente lo que estaba buscando, gente útil y hábil que él pudiera engañar en hacer lo que él quería. Quienes no lo pensarían mucho. Cayeron en su trampa como mucha gente antes de ustedes.",shape=box,color=red];
+		1834 -> 1837;
+	1836 [label="Lo que pasó no fue tu culpa. Les mintieron. Sí, claro, tal vez se hicieron de oídos sordos después de que las cosas empezaron a ir mal. ¿Pero quién los culparía por eso?, la esperanza es una droga peligrosa. Y él se las administro.",shape=box,color=red];
+		1836 -> 1838;
+	1830 [label="Update boolean IsDating",color=orange];
+		1830 -> 1831;
+	1839 [label="Gente murió, gente que no va a regresar. Porque tu quisiste creer en una medicina milagrosa promocionada por \"un viejo usando un abrigo horrible.\"",shape=box,color=red];
+		1839 -> 1842;
+	1837 [label="Querías creer en sus mentiras. Y lo hiciste. Y eso recae en ti. ¿Y toda esa gente que se enfermó por eso?, también.",shape=box,color=red];
+		1837 -> 1839;
+		1837 -> 1840;
+	1838 [label="Así que por supuesto, te dejaste llevar. Pues claro, querías creer en que pudiera ser cierto.",shape=box,color=red];
+		1838 -> 1841;
+	1831 [label="Update boolean LettieNoDate",color=orange];
+		1831 -> 1832;
+	1842 [label="Y no me corresponde absolverte de eso. Perdón.",shape=box,color=red];
+		1842 -> 1845;
+	1840 [label="Pero la gente se equivoca y lo reconoce. Y tú estás aquí, intentando tomar responsabilidad de ello. Lo que yo veo es gente que está tratando de enmendar sus errores.",shape=box,color=red];
+		1840 -> 1843;
+	1841 [label="Yo hubiera hecho lo mismo.",shape=box,color=red];
+		1841 -> 1835;
+	1832 [label="Chat ends.",color=orange];
+	1845 [label="Check boolean LettieDating",color=orange];
+		1845 -> 1846 [label=true,color=green];
+		1845 -> 1847 [label=false,color=brown];
+	1843 [label="Y no creo que alguien sensato pueda pedir más que eso. No creo que seas mala persona. Yo solo veo gente que se equivocó. Pero que están intentando reivindicarse. Y yo sé como es eso. Créeme.",shape=box,color=red];
+		1843 -> 1844;
+	1835 [label="¿Sí? 
 Ay... entonces los dos somos idiotas jajaja 
 Tal vez PERTENECES aquí con nosotros
 Ay
 Me duelen los pies
 Mierda, me duele todo",shape=box,color=blue];
-		j2101452136 -> j1927512488;
-	j3829882604 [label="Sí
+		1835 -> 1844;
+	1846 [label="Sí
 Tienes razón
 Nos equivocamos
 Y me equivoqué pensando que ESTO podría funcionar",shape=box,color=blue];
-		j3829882604 -> j2548450594;
-	j281499370 [label="Sí
+		1846 -> 1852;
+	1847 [label="Sí
 Tienes razón
 Nos equivocamos
 Y me equivoqué pensando que podría confiar en ti contándote esta historia",shape=box,color=blue];
-		j281499370 -> j193369797;
-	j1927512488 [label="Check boolean LettieDating",color=orange];
-		j1927512488 -> j139602248 [label=true,color=green];
-		j1927512488 -> j2919761126 [label=false,color=brown];
-	j193369797 [label="Boolean LettieNoDate is now true.",color=orange];
-		j193369797 -> j2643525984;
-	j139602248 [label="+20 Chemistry",color=orange];
-		j139602248 -> j2588487260;
-	j2919761126 [label="+20 Chemistry",color=orange];
-		j2919761126 -> j3146021254;
-	j2643525984 [label="Boolean LettieTrust1 is now true.",color=orange];
-		j2643525984 -> "Chat ends.";
-	j2588487260 [label="Eso es todo por hoy, solecito
+		1847 -> 1854;
+	1844 [label="Check boolean LettieDating",color=orange];
+		1844 -> 1857 [label=true,color=green];
+		1844 -> 1860 [label=false,color=brown];
+	1852 [label="Update boolean LettieDating",color=orange];
+		1852 -> 1851;
+	1854 [label="Update boolean LettieNoDate",color=orange];
+		1854 -> 1855;
+	1857 [label="+20 Chemistry",color=orange];
+		1857 -> 1848;
+	1860 [label="+20 Chemistry",color=orange];
+		1860 -> 1849;
+	1851 [label="Update boolean IsDating",color=orange];
+		1851 -> 1850;
+	1855 [label="Update boolean LettieTrust1",color=orange];
+		1855 -> 1856;
+	1848 [label="Eso es todo por hoy, solecito
 Gracias
 Te agradezco haberme escuchado y...
 Por comprendernos",shape=box,color=blue];
-		j2588487260 -> j2643525984;
-	j3146021254 [label="Eso es todo por hoy, solecito
+		1848 -> 1858;
+	1849 [label="Eso es todo por hoy, solecito
 Gracias
 Te agradezco haberme escuchado y...
 Por comprendernos",shape=box,color=blue];
-		j3146021254 -> j4291310321;
-	j4291310321 [label="Boolean LettieTrust1 is now true.",color=orange];
-		j4291310321 -> j2129367046;
-	j2129367046 [label="Boolean LettieWillDate is now true.",color=orange];
-		j2129367046 -> "Chat ends.";
+		1849 -> 1861;
+	1850 [label="Update boolean LettieNoDate",color=orange];
+		1850 -> 1853;
+	1856 [label="Chat ends.",color=orange];
+	1858 [label="Update boolean LettieTrust1",color=orange];
+		1858 -> 1859;
+	1861 [label="Update boolean LettieTrust1",color=orange];
+		1861 -> 1862;
+	1853 [label="Chat ends.",color=orange];
+	1859 [label="Chat ends.",color=orange];
+	1862 [label="Update boolean LettieWillDate",color=orange];
+		1862 -> 1089;
+	1089 [label="Chat ends.",color=orange];
 }

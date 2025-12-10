@@ -1,0 +1,30 @@
+digraph {
+	585 [label="MarieRank2Convo3 begins.",color=orange];
+		585 -> 586;
+	586 [label="Czy Leon wciąż nie zechciał z Tobą pomówić?",shape=box,color=blue];
+		586 -> 587;
+		586 -> 589;
+		586 -> 588;
+	587 [label="Nie, ale to nie problem. Rozumiem, że potrzebuje czasu.",shape=box,color=red];
+		587 -> 590;
+	589 [label="Przykro mi, ale tak.",shape=box,color=red];
+		589 -> 592;
+	588 [label="[Koniec]",shape=box,color=red];
+		588 -> 591;
+	590 [label="+5 Chemistry",color=orange];
+		590 -> 593;
+	592 [label="Nadejdzie właściwy czas, jestem tego pewna. Musisz pozostać cierpliwy.",shape=box,color=blue];
+		592 -> 594;
+	591 [label="Chat ends.",color=orange];
+	593 [label="Jesteś kochany, merci pour ta bienveillance à ce regard.",shape=box,color=blue];
+		593 -> 595;
+	594 [label="+15 Chemistry",color=orange];
+		594 -> 596;
+	595 [label="To będzie wielki dzień, kiedy Leon będzie gotów z Tobą porozmawiać. ",shape=box,color=blue];
+		595 -> 594;
+	596 [label="Wierzę w to.",shape=box,color=blue];
+		596 -> 597;
+	597 [label="Ale oprócz wiary mam też swój upór !",shape=box,color=blue];
+		597 -> 598;
+	598 [label="Chat ends.",color=orange];
+}

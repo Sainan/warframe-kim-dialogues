@@ -1,0 +1,31 @@
+digraph {
+	2232 [label="RoatheStory11 begins.",color=orange];
+		2232 -> 5660;
+	5660 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5660 -> 2233 [label=true,color=green];
+		5660 -> 5661 [label=false,color=brown];
+	2233 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2233 -> 2228 [label="x >= 11",color=purple];
+		2233 -> 2234 [label="false",color=purple];
+	5661 [label="Chat ends.",color=orange];
+	2228 [label="MV: DIVISIONE",shape=box,color=blue];
+		2228 -> 2235;
+	2234 [label="Chat ends.",color=orange];
+	2235 [label="Trascrizione: Dopo la prima invasione del Sistema da parte dei Sentient e la disastrosa risposta degli Orokin, regnò uno strano silenzio.",shape=box,color=blue];
+		2235 -> 2230;
+	2230 [label="Non avevamo notizie dalla nostra gente bloccata su Tau, e non c'era modo di sapere se i loro segnali fossero stati disturbati o fossero stati completamente cancellati.",shape=box,color=blue];
+		2230 -> 2226;
+	2226 [label="Mi ritrovai a dover esprimere pareri. Come stratega, ci si aspettava che comprendessi il nemico.",shape=box,color=blue];
+		2226 -> 2231;
+	2231 [label="I Sentient avrebbero potuto distruggere il Terminale della Rotaia Solare sopra Tau in qualsiasi momento, eppure la Rotaia era ancora attiva.",shape=box,color=blue];
+		2231 -> 5702;
+	5702 [label="Perché? Cosa ci guadagnavano nel lasciare il portale aperto?",shape=box,color=blue];
+		5702 -> 5703;
+	5703 [label="Erano uniti nella loro aggressione, o qualcuno sperava ancora in una coesistenza pacifica?",shape=box,color=blue];
+		5703 -> 2229;
+	2229 [label="Add 1 to HellStory",color=orange];
+		2229 -> 2338;
+	2338 [label="{\"Id\":2338,\"Incoming\":[2229],\"Outgoing\":[2227],\"GraphPos\":[4367,-7448],\"CompletionType\":1}",color=orange];
+		2338 -> 2227;
+	2227 [label="Chat ends.",color=orange];
+}

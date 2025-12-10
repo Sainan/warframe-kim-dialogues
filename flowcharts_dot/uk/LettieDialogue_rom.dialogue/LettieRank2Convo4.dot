@@ -1,74 +1,76 @@
 digraph {
-	"LettieRank2Convo4 begins." [color=orange];
-		"LettieRank2Convo4 begins." -> j3863215240;
-	j3863215240 [label="Check boolean LettieSmallFavor",color=orange];
-		j3863215240 -> j571130585 [label=true,color=green];
-		j3863215240 -> j2566431272 [label=false,color=brown];
-	j571130585 [label="Агов, babas 
+	427 [label="LettieRank2Convo4 begins.",color=orange];
+		427 -> 428;
+	428 [label="Check boolean LettieSmallFavor",color=orange];
+		428 -> 429 [label=true,color=green];
+		428 -> 430 [label=false,color=brown];
+	429 [label="Агов, babas 
 Хочу попросити тебе про ще одну маленьку послугу",shape=box,color=blue];
-		j571130585 -> j984822892;
-		j571130585 -> j595743975;
-		j571130585 -> j2175224492;
-	j2566431272 [label="Агов, babas 
+		429 -> 431;
+		429 -> 432;
+		429 -> 433;
+	430 [label="Агов, babas 
 Хочу попросити тебе про маленьку послугу",shape=box,color=blue];
-		j2566431272 -> j2175224492;
-		j2566431272 -> j595743975;
-		j2566431272 -> j984822892;
-	j984822892 [label="Звичайно. Кажи?",shape=box,color=red];
-		j984822892 -> j863833720;
-	j595743975 [label="Ти ж розумієш, що я не твоя собачка на побігеньках?",shape=box,color=red];
-		j595743975 -> j563992663;
-	j2175224492 [label="Займись цим сама. [Кінець]",shape=box,color=red];
-		j2175224492 -> "Chat ends.";
-	j863833720 [label="+10 Chemistry",color=orange];
-		j863833720 -> j2217352819;
-	j563992663 [label="Sí 
+		430 -> 433;
+		430 -> 432;
+		430 -> 431;
+	431 [label="Звичайно. Кажи?",shape=box,color=red];
+		431 -> 436;
+	432 [label="Ти ж розумієш, що я не твоя собачка на побігеньках?",shape=box,color=red];
+		432 -> 435;
+	433 [label="Займись цим сама. [Завершити розмову]",shape=box,color=red];
+		433 -> 434;
+	436 [label="+10 Chemistry",color=orange];
+		436 -> 765;
+	435 [label="Sí 
 Але я можу змусити тебе благати від мене ласощів 
 Хоча ти, мабуть, такого не витримаєш",shape=box,color=blue];
-		j563992663 -> j4193006869;
-		j563992663 -> j1976003364;
-	"Chat ends." [color=orange];
-	j2217352819 [label="Bueno",shape=box,color=blue];
-		j2217352819 -> j3795616767;
-	j4193006869 [label="Ти… погрожуєш мені чи дражниш?",shape=box,color=red];
-		j4193006869 -> j132006835;
-	j1976003364 [label="Ну то спробуй.",shape=box,color=red];
-		j1976003364 -> j3957988669;
-	j3795616767 [label="У мене надто багато роботи, щоб грати в ці ігри 
+		435 -> 437;
+		435 -> 438;
+	434 [label="Chat ends.",color=orange];
+	765 [label="Bueno",shape=box,color=blue];
+		765 -> 442;
+	437 [label="Ти… погрожуєш мені чи дражниш?",shape=box,color=red];
+		437 -> 441;
+	438 [label="Ну то спробуй.",shape=box,color=red];
+		438 -> 2461;
+	442 [label="У мене надто багато роботи, щоб грати в ці ігри 
 Ці цивільні збирають у себе кулі швидше, ніж Амір збирає комп’ютери",shape=box,color=blue];
-		j3795616767 -> j1897085000;
-	j132006835 [label="+10 Chemistry",color=orange];
-		j132006835 -> j2482608054;
-	j3957988669 [label="+10 Chemistry",color=orange];
-		j3957988669 -> j500699915;
-	j1897085000 [label="До справи, аптечки
+		442 -> 443;
+	441 [label="+10 Chemistry",color=orange];
+		441 -> 439;
+	2461 [label="+10 Chemistry",color=orange];
+		2461 -> 440;
+	443 [label="До справи, аптечки
 Мені потрібно більше
 Знайди їх чи купи, неважливо
 Та принеси їх мені
 Te lo agradecería mucho",shape=box,color=blue];
-		j1897085000 -> j3664637144;
-		j1897085000 -> j2405708796;
-		j1897085000 -> j148878769;
-	j2482608054 [label="¿Por qué no ambos? 
+		443 -> 445;
+		443 -> 446;
+		443 -> 447;
+	439 [label="¿Por qué no ambos? 
 Не збивай мене, babas",shape=box,color=blue];
-		j2482608054 -> j3795616767;
-	j500699915 [label="Cuidadito, babas 
+		439 -> 442;
+	440 [label="Cuidadito, babas 
 Не збивай мене",shape=box,color=blue];
-		j500699915 -> j3795616767;
-	j3664637144 [label="Я подбаю про це.",shape=box,color=red];
-		j3664637144 -> j1781458524;
-	j2405708796 [label="Нічого не обіцяю.",shape=box,color=red];
-		j2405708796 -> j3939495537;
-	j148878769 [label="Знайди їх сама.",shape=box,color=red];
-		j148878769 -> "Chat ends.";
-	j1781458524 [label="+10 Chemistry",color=orange];
-		j1781458524 -> j1997227581;
-	j3939495537 [label="+10 Chemistry",color=orange];
-		j3939495537 -> j978400931;
-	j1997227581 [label="Gracias",shape=box,color=blue];
-		j1997227581 -> j2570747018;
-	j978400931 [label="І не слід",shape=box,color=blue];
-		j978400931 -> j2570747018;
-	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
-		j2570747018 -> "Chat ends.";
+		440 -> 442;
+	445 [label="Я подбаю про це.",shape=box,color=red];
+		445 -> 451;
+	446 [label="Нічого не обіцяю.",shape=box,color=red];
+		446 -> 557;
+	447 [label="Знайди їх сама.",shape=box,color=red];
+		447 -> 448;
+	451 [label="+10 Chemistry",color=orange];
+		451 -> 450;
+	557 [label="+10 Chemistry",color=orange];
+		557 -> 449;
+	448 [label="Chat ends.",color=orange];
+	450 [label="Gracias",shape=box,color=blue];
+		450 -> 452;
+	449 [label="І не слід",shape=box,color=blue];
+		449 -> 452;
+	452 [label="Update boolean LettieSmallFavor",color=orange];
+		452 -> 453;
+	453 [label="Chat ends.",color=orange];
 }

@@ -1,18 +1,19 @@
 digraph {
-	"VelimirBirthdayConvo1 begins." [color=orange];
-		"VelimirBirthdayConvo1 begins." -> j1442895629;
-		"VelimirBirthdayConvo1 begins." -> j2853835113;
-	j1442895629 [label="Hast du heut zu deinem Geburtstag irgendetwas Spaßiges geplant?",shape=box,color=red];
-		j1442895629 -> j1176153291;
-	j2853835113 [label="He Velimir! Herzlichen Glückwunsch zum Geburtstag, Großer! Ich hoffe, du kannst ihn ein wenig genießen.",shape=box,color=red];
-		j2853835113 -> j3634162200;
-	j1176153291 [label="PapaPolar: oh ja, total. in einer höllenlandschaft zu leben und mich mit befallenen toastern und scaldra-psychos herumschlagen.",shape=box,color=blue];
-		j1176153291 -> j4121492523;
-	j3634162200 [label="+20 Chemistry",color=orange];
-		j3634162200 -> j3653835722;
-	j4121492523 [label="PapaPolar: ist ein riesenspaß.",shape=box,color=blue];
-		j4121492523 -> "Chat ends.";
-	j3653835722 [label="PapaPolar: oh, danke, kleiner freund. und ich werde mein bestes geben. es hilft, freunde um sich zu haben. :)",shape=box,color=blue];
-		j3653835722 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	1798 [label="VelimirBirthdayConvo1 begins.",color=orange];
+		1798 -> 1799;
+		1798 -> 1800;
+	1799 [label="Hast du heut zu deinem Geburtstag irgendetwas Spaßiges geplant?",shape=box,color=red];
+		1799 -> 1801;
+	1800 [label="He Velimir! Herzlichen Glückwunsch zum Geburtstag, Großer! Ich hoffe, du kannst ihn ein wenig genießen.",shape=box,color=red];
+		1800 -> 1802;
+	1801 [label="PapaPolar: oh ja, total. in einer höllenlandschaft zu leben und mich mit befallenen toastern und scaldra-psychos herumschlagen.",shape=box,color=blue];
+		1801 -> 1803;
+	1802 [label="+20 Chemistry",color=orange];
+		1802 -> 1804;
+	1803 [label="PapaPolar: ist ein riesenspaß.",shape=box,color=blue];
+		1803 -> 1805;
+	1804 [label="PapaPolar: oh, danke, kleiner freund. und ich werde mein bestes geben. es hilft, freunde um sich zu haben. :)",shape=box,color=blue];
+		1804 -> 1806;
+	1805 [label="Chat ends.",color=orange];
+	1806 [label="Chat ends.",color=orange];
 }

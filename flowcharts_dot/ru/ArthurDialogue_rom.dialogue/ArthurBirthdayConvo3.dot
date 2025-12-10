@@ -1,16 +1,21 @@
 digraph {
-	"ArthurBirthdayConvo3 begins." [color=orange];
-		"ArthurBirthdayConvo3 begins." -> j188611845;
-		"ArthurBirthdayConvo3 begins." -> j3338928525;
-	j188611845 [label="Привет. Просто хотелось поздравить с днём рождения. Приятно быть здесь и иметь шанс увидеть это.",shape=box,color=red];
-		j188611845 -> j940071969;
-	j3338928525 [label="С днём рождения. Постарайся сегодня не умереть. Это испортит настроение.",shape=box,color=red];
-		j3338928525 -> j2910036193;
-	j940071969 [label="+20 Chemistry",color=orange];
-		j940071969 -> j116288495;
-	j2910036193 [label="Послушай, я знаю, что тебе тоже пришлось через многое пройти, но для чёрного юмора должно быть соответствующее время и место.",shape=box,color=blue];
-		j2910036193 -> "Chat ends.";
-	j116288495 [label="Мы были на волоске от гибели, не правда ли? Спасибо за прикрытую спину. Сегодня и всегда.",shape=box,color=blue];
-		j116288495 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3192 [label="ArthurBirthdayConvo3 begins.",color=orange];
+		3192 -> 3210;
+		3192 -> 3212;
+	3210 [label="Привет. Просто хотелось поздравить с днём рождения. Приятно быть здесь и иметь шанс увидеть это.",shape=box,color=red];
+		3210 -> 3211;
+	3212 [label="С днём рождения. Постарайся сегодня не умереть. Это испортит настроение.",shape=box,color=red];
+		3212 -> 3207;
+	3211 [label="+20 Chemistry",color=orange];
+		3211 -> 3209;
+	3207 [label="Послушай, я знаю, что тебе тоже пришлось через многое пройти, но для чёрного юмора должно быть соответствующее время и место.",shape=box,color=blue];
+		3207 -> 3000;
+	3209 [label="Мы были на волоске от гибели, не правда ли? Спасибо за прикрытую спину. Сегодня и всегда.",shape=box,color=blue];
+		3209 -> 3225;
+	3000 [label="{\"Id\":3000,\"Incoming\":[3207],\"Outgoing\":[3208],\"GraphPos\":[-30902,-13388],\"CompletionType\":1}",color=orange];
+		3000 -> 3208;
+	3225 [label="{\"Id\":3225,\"Incoming\":[3209],\"Outgoing\":[3213],\"GraphPos\":[-30899,-13547],\"CompletionType\":1}",color=orange];
+		3225 -> 3213;
+	3208 [label="Chat ends.",color=orange];
+	3213 [label="Chat ends.",color=orange];
 }

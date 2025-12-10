@@ -1,0 +1,31 @@
+digraph {
+	2273 [label="RoatheStory16 begins.",color=orange];
+		2273 -> 5671;
+	5671 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5671 -> 2277 [label=true,color=green];
+		5671 -> 5670 [label=false,color=brown];
+	2277 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2277 -> 2276 [label="x >= 16",color=purple];
+		2277 -> 2274 [label="false",color=purple];
+	5670 [label="Chat ends.",color=orange];
+	2276 [label="SM: FEDAKARLIK",shape=box,color=blue];
+		2276 -> 2275;
+	2274 [label="Chat ends.",color=orange];
+	2275 [label="Transkript: Traivon. Railjack'ini Praghasa'nın ağzına fırlattığını gördüm. Dikkati dağılmış, seni ve adamlarını açgözlülükle yiyip bitiren o, benim hızla uzaklaşan gemimi hiç fark etmedi.",shape=box,color=blue];
+		2275 -> 5713;
+	5713 [label="Üstün için canını feda ettin. Özverililiğini yüzüme atılmış bir tokat gibi hissettim.",shape=box,color=blue];
+		5713 -> 5714;
+	5714 [label="Maryna. Bana bedenini verdin. Birlikte, o hendekte Kuva içtik. Ellerim titriyordu ve kesik boğazım sızdırıyordu ama kendime yetecek kadarını içebildim.",shape=box,color=blue];
+		5714 -> 2278;
+	2278 [label="Son selamını hatırlıyorum. Sönüp gidişini. Sonra sana ait olan gözlerimi kırpıştırarak açtım ve içi parçalanmış cesedimin çamurda cansız yattığını gördüm.",shape=box,color=blue];
+		2278 -> 2272;
+	2272 [label="Rostig. Klonlama sürecinde bir sorun olmuş, dediler. Grineer'ın canlı canlı yanarken kulede kalmasına başka ne sebep olabilir ki? Bir fare bile kendini koruma içgüdüsüne sahiptir!",shape=box,color=blue];
+		2272 -> 2279;
+	2279 [label="Hayır. Senin \"kusurun\" seni onların üstünde tuttu.",shape=box,color=blue];
+		2279 -> 2271;
+	2271 [label="Add 1 to HellStory",color=orange];
+		2271 -> 2343;
+	2343 [label="{\"Id\":2343,\"Incoming\":[2271],\"Outgoing\":[2270],\"GraphPos\":[4809,-5333],\"CompletionType\":1}",color=orange];
+		2343 -> 2270;
+	2270 [label="Chat ends.",color=orange];
+}

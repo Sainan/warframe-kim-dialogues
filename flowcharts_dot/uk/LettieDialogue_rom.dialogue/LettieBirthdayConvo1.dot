@@ -1,20 +1,25 @@
 digraph {
-	"LettieBirthdayConvo1 begins." [color=orange];
-		"LettieBirthdayConvo1 begins." -> j773380017;
-		"LettieBirthdayConvo1 begins." -> j2532779559;
-	j773380017 [label="Вітаю, з днем народження! Твої пацюки тобі щось подарували?",shape=box,color=red];
-		j773380017 -> j2596186312;
-	j2532779559 [label="З днем ​​народження! І прямо в Зоряні дні. Як романтично :)",shape=box,color=red];
-		j2532779559 -> j2958972522;
-	j2596186312 [label="+20 Chemistry",color=orange];
-		j2596186312 -> j1670013261;
-	j2958972522 [label="Що за Зоряні дні? 
+	458 [label="LettieBirthdayConvo1 begins.",color=orange];
+		458 -> 457;
+		458 -> 456;
+	457 [label="Вітаю, з днем народження! Твої пацюки тобі щось подарували?",shape=box,color=red];
+		457 -> 460;
+	456 [label="З днем ​​народження! І прямо в Зоряні дні. Як романтично :)",shape=box,color=red];
+		456 -> 1298;
+	460 [label="+20 Chemistry",color=orange];
+		460 -> 1300;
+	1298 [label="Що за Зоряні дні? 
 Хоча забудь. У мене немає часу на ці дурниці. 
 Adiós",shape=box,color=blue];
-		j2958972522 -> "Chat ends.";
-	j1670013261 [label="Jajaja ні
+		1298 -> 2517;
+	1300 [label="Jajaja ні
 Усе, що я бажаю, це поспати годинку або філіжанку свіжої кави. Забагато прошу?
 Pero, дякую",shape=box,color=blue];
-		j1670013261 -> "Chat ends.";
-	"Chat ends." [color=orange];
+		1300 -> 2516;
+	2517 [label="{\"Id\":2517,\"Incoming\":[1298],\"Outgoing\":[1297],\"GraphPos\":[797,-1598],\"CompletionType\":1}",color=orange];
+		2517 -> 1297;
+	2516 [label="{\"Id\":2516,\"Incoming\":[1300],\"Outgoing\":[459],\"GraphPos\":[1161,-1810],\"CompletionType\":1}",color=orange];
+		2516 -> 459;
+	1297 [label="Chat ends.",color=orange];
+	459 [label="Chat ends.",color=orange];
 }

@@ -1,0 +1,29 @@
+digraph {
+	2258 [label="RoatheStory14 begins.",color=orange];
+		2258 -> 5666;
+	5666 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5666 -> 2261 [label=true,color=green];
+		5666 -> 5667 [label=false,color=brown];
+	2261 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2261 -> 2257 [label="x >= 14",color=purple];
+		2261 -> 2260 [label="false",color=purple];
+	5667 [label="Chat ends.",color=orange];
+	2257 [label="SM: ADAPTASYON",shape=box,color=blue];
+		2257 -> 2259;
+	2260 [label="Chat ends.",color=orange];
+	2259 [label="Transkript: Sentient'lerin çoğu karşılaşmalar arasında evrim geçirdi, bu yüzden aynı düşmanla iki kez karşılaşacağımızdan asla emin olamazdık. Ancak diğerleri, sanki uzun zaman önce bir platoya ulaşmışlar gibi, aynı formda kaldılar.",shape=box,color=blue];
+		2259 -> 5709;
+	5709 [label="Mükemmel katiller olarak, bir köpekbalığının verdiği aynı soğuk dehşeti getirdiler.",shape=box,color=blue];
+		5709 -> 2256;
+	2256 [label="Bu delilikti. Taktiklerimi mükemmelleştirir mükemmelleştirmez, yengeç gemileri solucan gemileriyle değiştirildiğinde, Sentient yengeç gemilerinin davranışlarına göre nasıl strateji geliştirebilirdim ki?",shape=box,color=blue];
+		2256 -> 2253;
+	2253 [label="Peki bu solucan gemilerinin yerini ne kadar sürede yeni bir canavar alacaktı?",shape=box,color=blue];
+		2253 -> 5710;
+	5710 [label="Tek yapabildiğimiz geri çekilmekti. İlerlemek ölümcül bir hal almıştı. Eski gelenekler, zamanın kutsadığı onur ve disiplinin yolları, hak ettiğini bir şekilde elde etmeliydi.",shape=box,color=blue];
+		5710 -> 2255;
+	2255 [label="Add 1 to HellStory",color=orange];
+		2255 -> 2341;
+	2341 [label="{\"Id\":2341,\"Incoming\":[2255],\"Outgoing\":[2254],\"GraphPos\":[4071,-6212],\"CompletionType\":1}",color=orange];
+		2341 -> 2254;
+	2254 [label="Chat ends.",color=orange];
+}

@@ -3,95 +3,63 @@ local { json } = require "*"
 local dict, nodes
 
 local function get_node_label(node)
-	switch node.type do
-		case "/EE/Types/Engine/ChemistryDialogueNode":
-			return $"+{node.chemistry} Chemistry"
-		case "/EE/Types/Engine/SetBooleanDialogueNode":
-			return $"Boolean {node.name} is now true."
-		case "/EE/Types/Engine/ResetBooleanDialogueNode":
-			return $"Boolean {node.name} is now false."
-		case "/EE/Types/Engine/CheckBooleanDialogueNode":
-			return $"Check boolean {node.name}"
-		case "/EE/Types/Engine/CheckBooleanScriptDialogueNode":
-			return $"Check {node.script_name}:{node.func_name}{json.encode(node.args):replace("[", "("):replace("]", ")")}"
-		case "/EE/Types/Engine/DialogueNode":
-		case "/EE/Types/Engine/PlayerChoiceDialogueNode":
-			do
-				local text = (dict[node.name] or node.name)
-				if node.vars then
-					for k, v in node.vars do
-						text = text:replace("|"..k.."|", dict[v] or v)
-					end
-				end
-				if node.nickname_override then
-					text = (dict[node.nickname_override] or node.nickname_override)..": "..text
-				end
-				return text:replace("<RETRO_EMOJI_HEART>", "<3")
+	if node.Outputs then
+		if node.CounterName then
+			if #node.Outputs == 1 then
+				return $"Evaluate expression on {node.CounterName}: {node.Outputs[1].Expression}"
 			end
-			break
-		case "/EE/Types/Engine/EndDialogueNode":
-			return node.name ? $"Chat ends. Next chat will be {node.name}." : "Chat ends."
-		case "/EE/Types/Engine/StartDialogueNode":
-			return node.name.." begins."
-		case "/EE/Types/Engine/SpecialCompletionDialogueNode":
-			if #node.refs == 0 then
-				assert(#node.choices == 1)
-				assert(nodes[1 + node.choices[1]].type == "/EE/Types/Engine/EndDialogueNode")
-				assert(nodes[1 + node.choices[1]].name == nil)
-				return "Chat ends."
+			return $"Evaluate expressions on {node.CounterName}"
+		end
+		if #node.Outputs == 1 then
+			return $"Evaluate expression: {node.Outputs[1].Expression}"
+		end
+		return "Evaluate expressions"
+	end
+	if node.TrueNodes then
+		if node.Script then
+			return $"Check {node.Script.Script}:{node.Script.Function}"
+		end
+		if not node.Content then
+			return json.encode(node)
+		end
+		return $"Check boolean {node.Content}"
+	end
+	if node.Content then
+		if !node.Incoming and node.Outgoing then
+			return $"{node.Content} begins."
+		end
+		if not node.Content:startswith("/") then
+			if node.Outgoing then
+				local arr = node.Content:split(" ")
+				if #arr == 1 then
+					return $"Update boolean {node.Content}"
+				elseif #arr == 2 then
+					return $"Add {arr[2]} to {arr[1]}"
+				else
+					return json.encode(node)
+				end
 			end
-			return "Initiate conversation "..node.refs[1].convo.." in "..node.refs[1].diag
-		case "/EE/Types/Engine/ScriptDialogueNode":
-			return $"Invoke {node.script_name}"
-		default:
-			return node.type
+			return $"Chat ends. Next chat will be {node.Content}."
+		end
+		if text := dict[node.Content] then
+			if node.Speaker then
+				text = (dict[node.Speaker] or node.Speaker)..": "..text
+			end
+			return text:replace("<RETRO_EMOJI_HEART>", "<3")
+		end
+		return node.Content
 	end
-end
-
-local function joaat(str, hash)
-	for i = 1, #str do
-		hash = (hash + str:byte(i)) & 0xff_ff_ff_ff
-		hash = (hash + (hash << 10)) & 0xff_ff_ff_ff
-		hash = (hash ~ (hash >> 6)) & 0xff_ff_ff_ff
+	if node.ChemistryDelta then
+		return $"+{node.ChemistryDelta} Chemistry"
 	end
-	hash = (hash + (hash << 3)) & 0xff_ff_ff_ff
-	hash = (hash ~ (hash >> 11)) & 0xff_ff_ff_ff
-	hash = (hash + (hash << 15)) & 0xff_ff_ff_ff
-	return hash
+	if #node.__order == 3 then
+		return "Chat ends."
+	end
+	return json.encode(node)
 end
 
 local function get_node_name(node)
-	if node.type == "/EE/Types/Engine/EndDialogueNode" or node.type == "/EE/Types/Engine/SpecialCompletionDialogueNode" or node.type == "/EE/Types/Engine/StartDialogueNode" then
-		return '"'..get_node_label(node)..'"'
-	end
-
-	local hash = joaat(node.type, 0)
-	hash = joaat(get_node_label(node), hash)
-	local n = node
-	while #n.choices == 1 do
-		n = nodes[1 + n.choices[1]]
-		hash = joaat(n.type, hash)
-		hash = joaat(get_node_label(n), hash)
-		if n.type == "/EE/Types/Engine/EndDialogueNode" then
-			-- This node goes straight to the end.
-			return "j"..tostring(hash)
-		end
-	end
-
-	-- Merge nodes with the same type + label + outgoing edges (e.g. LettieRank5Convo4 has 2x "+5 Chemistry" with the same outgoing edges.)
-	if node.true_choices then
-		for node.true_choices as choice do
-			hash = joaat(tostring(choice), hash)
-		end
-		for node.false_choices as choice do
-			hash = joaat(tostring(choice), hash)
-		end
-	else
-		for node.choices as choice do
-			hash = joaat(tostring(choice), hash)
-		end
-	end
-	return "j"..tostring(hash)
+	return tostring(node.Id)
 end
 
 local function emit_dot(filename, start)
@@ -120,39 +88,33 @@ local function emit_dot(filename, start)
 
 		fh:write("\t")
 		fh:write(node_name)
-		switch node.type do
-			case "/EE/Types/Engine/DialogueNode":
-				fh:write(" [label=")
-				write_node_label(node)
-				fh:write(",shape=box,color=blue];\n")
-				break
-			case "/EE/Types/Engine/PlayerChoiceDialogueNode":
+		if node.Content?:startswith("/") then
+			if "/Choice_" in node.Content then
 				fh:write(" [label=")
 				write_node_label(node)
 				fh:write(",shape=box,color=red];\n")
-				break
-			case "/EE/Types/Engine/StartDialogueNode":
-			case "/EE/Types/Engine/EndDialogueNode":
-				fh:write(" [color=orange];\n")
-				break
-			case "/EE/Types/Engine/SpecialCompletionDialogueNode":
-				if #node.refs == 0 then
-					fh:write(" [color=orange];\n")
-					continue -- Don't write transition to EndDialogueNode
-				end
-				fh:write(" [label=")
-				fh:write('"Queue conversation '..node.refs[1].convo..' in '..node.refs[1].diag..'"')
-				fh:write(",color=orange];\n")
-				break
-			default:
+			else
 				fh:write(" [label=")
 				write_node_label(node)
-				fh:write(",color=orange];\n")
-				break
+				fh:write(",shape=box,color=blue];\n")
+			end
+		else
+			fh:write(" [label=")
+			write_node_label(node)
+			fh:write(",color=orange];\n")
 		end
 
-		if node.true_choices then
-			for node.true_choices as choice do
+		if node.Outgoing then
+			for node.Outgoing as choice do
+				fh:write("\t\t")
+				fh:write(node_name)
+				fh:write(" -> ")
+				write_node_name(nodes[1 + choice])
+				fh:write(";\n")
+				pending_nodes:insert(1, choice)
+			end
+		elseif node.TrueNodes then
+			for node.TrueNodes as choice do
 				fh:write("\t\t")
 				fh:write(node_name)
 				fh:write(" -> ")
@@ -160,22 +122,26 @@ local function emit_dot(filename, start)
 				fh:write(" [label=true,color=green];\n")
 				pending_nodes:insert(1, choice)
 			end
-			for node.false_choices as choice do
-				fh:write("\t\t")
-				fh:write(node_name)
-				fh:write(" -> ")
-				write_node_name(nodes[1 + choice])
-				fh:write(" [label=false,color=brown];\n")
-				pending_nodes:insert(1, choice)
+			if node.FalseNodes then
+				for node.FalseNodes as choice do
+					fh:write("\t\t")
+					fh:write(node_name)
+					fh:write(" -> ")
+					write_node_name(nodes[1 + choice])
+					fh:write(" [label=false,color=brown];\n")
+					pending_nodes:insert(1, choice)
+				end
 			end
-		else
-			for node.choices as choice do
-				fh:write("\t\t")
-				fh:write(node_name)
-				fh:write(" -> ")
-				write_node_name(nodes[1 + choice])
-				fh:write(";\n")
-				pending_nodes:insert(1, choice)
+		elseif node.Outputs then
+			for node.Outputs as output do
+				for output.Outgoing as choice do
+					fh:write("\t\t")
+					fh:write(node_name)
+					fh:write(" -> ")
+					write_node_name(nodes[1 + choice])
+					fh:write(" [label=\""..output.Expression.."\",color=purple];\n")
+					pending_nodes:insert(1, choice)
+				end
 			end
 		end
 	end
@@ -191,15 +157,19 @@ local DIAG_NAMES <const> = {
 	"JabirDialogue_rom.dialogue",
 	"KayaDialogue_rom.dialogue",
 	"LettieDialogue_rom.dialogue",
+	"LoidDialogue_rom.dialogue",
+	"LyonDialogue_rom.dialogue",
+	"MarieDialogue_rom.dialogue",
 	"MinervaDialogue_rom.dialogue",
 	"MinervaVelemirDialogue_rom.dialogue",
 	"QuincyDialogue_rom.dialogue",
+	"RoatheDialogue_rom.dialogue",
 	"VelimirDialogue_rom.dialogue",
 }
 
 local diags = {}
 for DIAG_NAMES as diag_name do
-	diags[diag_name] = io.contents(diag_name..".json") |> json.decode
+	diags[diag_name] = json.decode(io.contents("data/"..diag_name..".json"), json.withorder)
 end
 
 io.makedir("flowcharts")
@@ -223,15 +193,15 @@ for { "en", "de", "es", "fr", "it", "ja", "ko", "pl", "pt", "ru", "tc", "th", "t
 		io.makedir("flowcharts_svg/"..lang.."/"..diag_name)
 
 		for nodes as node do
-			if node.type == "/EE/Types/Engine/StartDialogueNode" then
-				print("\t\t"..node.name)
-				local prev_dot = io.contents("flowcharts_dot/"..lang.."/"..diag_name.."/"..node.name..".dot")
-				emit_dot("flowcharts_dot/"..lang.."/"..diag_name.."/"..node.name..".dot", node.id)
-				if prev_dot ~= io.contents("flowcharts_dot/"..lang.."/"..diag_name.."/"..node.name..".dot") then
+			if node.Content and !node.Content:startswith("/") and !node.Incoming and node.Outgoing then
+				print("\t\t"..node.Content)
+				local prev_dot = io.contents("flowcharts_dot/"..lang.."/"..diag_name.."/"..node.Content..".dot")
+				emit_dot("flowcharts_dot/"..lang.."/"..diag_name.."/"..node.Content..".dot", node.Id)
+				if prev_dot ~= io.contents("flowcharts_dot/"..lang.."/"..diag_name.."/"..node.Content..".dot") then
 					if lang == "en" then
-						os.execute("dot flowcharts_dot/"..lang.."/"..diag_name.."/"..node.name..".dot -T png -o flowcharts/"..diag_name.."/"..node.name..".png")
+						os.execute("dot flowcharts_dot/"..lang.."/"..diag_name.."/"..node.Content..".dot -T png -o flowcharts/"..diag_name.."/"..node.Content..".png")
 					end
-					os.execute("dot flowcharts_dot/"..lang.."/"..diag_name.."/"..node.name..".dot -T svg -o flowcharts_svg/"..lang.."/"..diag_name.."/"..node.name..".svg")
+					os.execute("dot flowcharts_dot/"..lang.."/"..diag_name.."/"..node.Content..".dot -T svg -o flowcharts_svg/"..lang.."/"..diag_name.."/"..node.Content..".svg")
 				end
 			end
 		end

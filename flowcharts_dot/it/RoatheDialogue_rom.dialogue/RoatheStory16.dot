@@ -1,0 +1,31 @@
+digraph {
+	2273 [label="RoatheStory16 begins.",color=orange];
+		2273 -> 5671;
+	5671 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
+		5671 -> 2277 [label=true,color=green];
+		5671 -> 5670 [label=false,color=brown];
+	2277 [label="Evaluate expressions on HellKeyPlayed",color=orange];
+		2277 -> 2276 [label="x >= 16",color=purple];
+		2277 -> 2274 [label="false",color=purple];
+	5670 [label="Chat ends.",color=orange];
+	2276 [label="MV: SACRIFICIO",shape=box,color=blue];
+		2276 -> 2275;
+	2274 [label="Chat ends.",color=orange];
+	2275 [label="Trascrizione: Traivon. Ti ho visto scagliare il tuo Railjack nelle fauci di Praghasa. Distratta, nutrendosi avidamente di te e dei tuoi uomini, non si è mai accorta della mia nave che si allontanava a tutta velocità.",shape=box,color=blue];
+		2275 -> 5713;
+	5713 [label="Hai dato la vita per il tuo superiore. Ho sentito il tuo altruismo come uno schiaffo in faccia.",shape=box,color=blue];
+		5713 -> 5714;
+	5714 [label="Maryna. Mi hai donato il tuo corpo. Insieme, in quella trincea, abbiamo bevuto Kuva. Le mie mani tremavano e la mia gola colava, ma ho trattenuto abbastanza gocce perché si assorbisse.",shape=box,color=blue];
+		5714 -> 2278;
+	2278 [label="Ricordo il tuo ultimo saluto. La scomparsa. Poi ho sbattuto le palpebre per aprire gli occhi che erano stati i tuoi e ho visto il mio cadavere sventrato, morto nel fango.",shape=box,color=blue];
+		2278 -> 2272;
+	2272 [label="Rostig. Qualcosa non andava nel processo di clonazione, dissero. Cos'altro avrebbe potuto spingere un Grineer a rimanere nella sua torretta mentre bruciava vivo? Persino un topo capisce l'autoconservazione!",shape=box,color=blue];
+		2272 -> 2279;
+	2279 [label="No. Il tuo \"difetto\" ti ha posto al di sopra di loro.",shape=box,color=blue];
+		2279 -> 2271;
+	2271 [label="Add 1 to HellStory",color=orange];
+		2271 -> 2343;
+	2343 [label="{\"Id\":2343,\"Incoming\":[2271],\"Outgoing\":[2270],\"GraphPos\":[4809,-5333],\"CompletionType\":1}",color=orange];
+		2343 -> 2270;
+	2270 [label="Chat ends.",color=orange];
+}

@@ -1,16 +1,21 @@
 digraph {
-	"QuincyBirthdayConvo2 begins." [color=orange];
-		"QuincyBirthdayConvo2 begins." -> j3835695543;
-		"QuincyBirthdayConvo2 begins." -> j24244604;
-	j3835695543 [label="เฮ้ Quincy ข้าขอ Arthur ให้เอ็งหยุดงานในวันเกิดหนึ่งคืนแล้วนะ",shape=box,color=red];
-		j3835695543 -> j1635112427;
-	j24244604 [label="ขอให้เป็นคืนที่ดีในวันเกิดนะ Quincy",shape=box,color=red];
-		j24244604 -> j1737249568;
-	j1635112427 [label="+20 Chemistry",color=orange];
-		j1635112427 -> j175126307;
-	j1737249568 [label="อือ ข้าชอบแช่แข็งลูกพลัมไว้บนหลังคาในวันเกิด ขอบใจนะ",shape=box,color=blue];
-		j1737249568 -> "Chat ends.";
-	j175126307 [label="น่ารักกกกกกก เอ็งดีที่สุดเลยเพื่อน",shape=box,color=blue];
-		j175126307 -> "Chat ends.";
-	"Chat ends." [color=orange];
+	3533 [label="QuincyBirthdayConvo2 begins.",color=orange];
+		3533 -> 3543;
+		3533 -> 3546;
+	3543 [label="เฮ้ Quincy ข้าขอ Arthur ให้เอ็งหยุดงานในวันเกิดหนึ่งคืนแล้วนะ",shape=box,color=red];
+		3543 -> 3544;
+	3546 [label="ขอให้เป็นคืนที่ดีในวันเกิดนะ Quincy",shape=box,color=red];
+		3546 -> 3548;
+	3544 [label="+20 Chemistry",color=orange];
+		3544 -> 3542;
+	3548 [label="อือ ข้าชอบแช่แข็งลูกพลัมไว้บนหลังคาในวันเกิด ขอบใจนะ",shape=box,color=blue];
+		3548 -> 3169;
+	3542 [label="น่ารักกกกกกก เอ็งดีที่สุดเลยเพื่อน",shape=box,color=blue];
+		3542 -> 3135;
+	3169 [label="{\"Id\":3169,\"Incoming\":[3548],\"Outgoing\":[3547],\"GraphPos\":[1150,-4494],\"CompletionType\":1}",color=orange];
+		3169 -> 3547;
+	3135 [label="{\"Id\":3135,\"Incoming\":[3542],\"Outgoing\":[3545],\"GraphPos\":[1492,-4648],\"CompletionType\":1}",color=orange];
+		3135 -> 3545;
+	3547 [label="Chat ends.",color=orange];
+	3545 [label="Chat ends.",color=orange];
 }

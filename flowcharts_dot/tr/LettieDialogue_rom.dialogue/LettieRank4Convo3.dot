@@ -1,236 +1,243 @@
 digraph {
-	"LettieRank4Convo3 begins." [color=orange];
-		"LettieRank4Convo3 begins." -> j448491806;
-		"LettieRank4Convo3 begins." -> j4051550302;
-	j448491806 [label="Görevi ölümü engellemek olan biri için bu konuda oldukça rahat görünüyorsun.",shape=box,color=red];
-		j448491806 -> j928571337;
-	j4051550302 [label="Nasıl sağlık personeli olduğun hakkında daha fazlasını bilmek isterim.",shape=box,color=red];
-		j4051550302 -> j2406741605;
-	j928571337 [label="Mm, sí, sanırım öyleyim 
+	1124 [label="LettieRank4Convo3 begins.",color=orange];
+		1124 -> 1125;
+		1124 -> 1126;
+	1125 [label="Görevi ölümü engellemek olan biri için bu konuda oldukça rahat görünüyorsun.",shape=box,color=red];
+		1125 -> 1127;
+	1126 [label="Nasıl sağlık personeli olduğun hakkında daha fazlasını bilmek isterim.",shape=box,color=red];
+		1126 -> 1128;
+	1127 [label="Mm, sí, sanırım öyleyim 
 Bunun iki nedeni var 
 Uno, bu meslekte La Flaca'yı her zaman görüyorum 
 O ve ben eski \"arkadaşız\" 
 Dos, benim halkım ölüm hakkında farklı düşüncelere sahip gibi",shape=box,color=blue];
-		j928571337 -> j2670704075;
-		j928571337 -> j891759162;
-		j928571337 -> j1422113037;
-	j2406741605 [label="Jaja, kolay kısmı nasıl mı babas
+		1127 -> 1130;
+		1127 -> 1131;
+		1127 -> 1129;
+	1128 [label="Jaja, kolay kısmı nasıl mı babas
 Askere gittim ve bunda kötüydüm 
 Sonra iyi oldum",shape=box,color=blue];
-		j2406741605 -> j1970205726;
-		j2406741605 -> j41569816;
-	j2670704075 [label="Ne demek istiyorsun, senin insanların ölüm hakkında farklı mı düşünüyor?",shape=box,color=red];
-		j2670704075 -> j4683302;
-	j891759162 [label="Neden sağlık personeli olmayı seçtin?",shape=box,color=red];
-		j891759162 -> j3274710990;
-	j1422113037 [label="Mantıklı. [Son.]",shape=box,color=red];
-		j1422113037 -> "Chat ends.";
-	j1970205726 [label="Tamam, peki *neden* sıhhiye oldun?",shape=box,color=red];
-		j1970205726 -> j3274710990;
-	j41569816 [label="Teşekkürler. Güzel sohbetti. [Son.]",shape=box,color=red];
-		j41569816 -> "Chat ends.";
-	j4683302 [label="Geri dönen ve bizi ziyaret eden sevdiklerimizi kutlarız 
+		1128 -> 1133;
+		1128 -> 1134;
+	1130 [label="Ne demek istiyorsun, senin insanların ölüm hakkında farklı mı düşünüyor?",shape=box,color=red];
+		1130 -> 1138;
+	1131 [label="Neden sağlık personeli olmayı seçtin?",shape=box,color=red];
+		1131 -> 1137;
+	1129 [label="Mantıklı. [Son.]",shape=box,color=red];
+		1129 -> 1132;
+	1133 [label="Tamam, peki *neden* sıhhiye oldun?",shape=box,color=red];
+		1133 -> 1137;
+	1134 [label="Teşekkürler. Güzel sohbetti. [Son.]",shape=box,color=red];
+		1134 -> 1135;
+	1138 [label="Geri dönen ve bizi ziyaret eden sevdiklerimizi kutlarız 
 Onları yılda bir kez bizi görmeye gelmeye davet ederiz
 Pan de muerto'muzu, calaveritas de azúcar'ımızı yaparız ve onları eve davet etmek için kadife çiçeklerimizi masamıza sereriz",shape=box,color=blue];
-		j4683302 -> j311464825;
-		j4683302 -> j4121215284;
-	j3274710990 [label="Mi papá ordudaydı 
+		1138 -> 1136;
+		1138 -> 1139;
+	1137 [label="Mi papá ordudaydı 
 Üsten üsse çok seyahat ettik 
 Ama mi tía hastalandığında bizimle yaşamaya başladı 
 Ve o ölene kadar ona bakmayı öğrendim",shape=box,color=blue];
-		j3274710990 -> j2985861959;
-	"Chat ends." [color=orange];
-	j311464825 [label="Deneyimlediğim ölü insanlar biraz daha... yoğundu evet.",shape=box,color=red];
-		j311464825 -> j4064163941;
-	j4121215284 [label="Bu çok güzel.",shape=box,color=red];
-		j4121215284 -> j4001047987;
-	j2985861959 [label="Boolean LettieAunt is now true.",color=orange];
-		j2985861959 -> j1334553684;
-		j2985861959 -> j1298391831;
-	j4064163941 [label="Mezarlarının başında oturup hikayeler anlatırız 
+		1137 -> 1140;
+	1132 [label="Chat ends.",color=orange];
+	1135 [label="Chat ends.",color=orange];
+	1136 [label="Deneyimlediğim ölü insanlar biraz daha... yoğundu evet.",shape=box,color=red];
+		1136 -> 1144;
+	1139 [label="Bu çok güzel.",shape=box,color=red];
+		1139 -> 1141;
+	1140 [label="Update boolean LettieAunt",color=orange];
+		1140 -> 1142;
+		1140 -> 1143;
+	1144 [label="Mezarlarının başında oturup hikayeler anlatırız 
 Onlar için getirdiklerimizi onlarla birlikte yeriz 
 Onlarla konuşur ve güleriz 
 Gece bize geldiklerinde fısıldamayız ya da ağlamayız",shape=box,color=blue];
-		j4064163941 -> j343369737;
-	j4001047987 [label="+5 Chemistry",color=orange];
-		j4001047987 -> j469557171;
-	j1334553684 [label="Ah... Üzgünüm.",shape=box,color=red];
-		j1334553684 -> j3490480953;
-	j1298391831 [label="Kaç yaşındaydın?",shape=box,color=red];
-		j1298391831 -> j1472239731;
-	j343369737 [label="Gençken La Flaca ile tanıştım 
+		1144 -> 1147;
+	1141 [label="+5 Chemistry",color=orange];
+		1141 -> 210;
+	1142 [label="Ah... Üzgünüm.",shape=box,color=red];
+		1142 -> 1145;
+	1143 [label="Kaç yaşındaydın?",shape=box,color=red];
+		1143 -> 1146;
+	1147 [label="Gençken La Flaca ile tanıştım 
 Babam ordudaydı
 Üsten üsse çok seyahat ettik
 Ama tia'm hastalanınca bize taşındı
 Ve o ölene kadar ona bakmayı öğrendim",shape=box,color=blue];
-		j343369737 -> j4293749205;
-	j469557171 [label="Gracias",shape=box,color=blue];
-		j469557171 -> j4064163941;
-	j3490480953 [label="Eh, está bien 
+		1147 -> 1154;
+	210 [label="Gracias",shape=box,color=blue];
+		210 -> 1144;
+	1145 [label="Eh, está bien 
 Olur böyle şeyler, değil mi? 
 Kalp sorunları onu daha da hasta etti 
 Annem üstünde çalışmak benim geleceğim için pratik oldu",shape=box,color=blue];
-		j3490480953 -> j879455942;
-		j3490480953 -> j209417142;
-		j3490480953 -> j1597267910;
-	j1472239731 [label="10? 11? 
+		1145 -> 1148;
+		1145 -> 1149;
+		1145 -> 1150;
+	1146 [label="10? 11? 
 Annemin yardıma ihtiyacı vardı
 Benim için sorun yoktu
 Yardım etmek geleceğim için pratik oldu",shape=box,color=blue];
-		j1472239731 -> j879455942;
-		j1472239731 -> j209417142;
-		j1472239731 -> j1597267910;
-	j4293749205 [label="Boolean LettieAunt is now true.",color=orange];
-		j4293749205 -> j3173063153;
-	j879455942 [label="Teyzeni özlüyor musun?",shape=box,color=red];
-		j879455942 -> j4012032851;
-	j209417142 [label="Hayatın erken dönemlerinde aileni kaybetmenin ne demek olduğunu biliyorum.",shape=box,color=red];
-		j209417142 -> j51791154;
-	j1597267910 [label="Orduya kaç yaşında katıldın?",shape=box,color=red];
-		j1597267910 -> j2955066286;
-	j3173063153 [label="Mi tía her yıl bana gelir, omzuma vurur ve “Buen trabajo, amorcito, sigue así” der 
+		1146 -> 1148;
+		1146 -> 1149;
+		1146 -> 1150;
+	1154 [label="Update boolean LettieAunt",color=orange];
+		1154 -> 1163;
+	1148 [label="Teyzeni özlüyor musun?",shape=box,color=red];
+		1148 -> 1157;
+	1149 [label="Hayatın erken dönemlerinde aileni kaybetmenin ne demek olduğunu biliyorum.",shape=box,color=red];
+		1149 -> 2466;
+	1150 [label="Orduya kaç yaşında katıldın?",shape=box,color=red];
+		1150 -> 1161;
+	1163 [label="Mi tía her yıl bana gelir, omzuma vurur ve “Buen trabajo, amorcito, sigue así” der 
 Ve bu beni gülümsetiyor, çığlık attırmıyor ve korku içinde kaçırtmıyor",shape=box,color=blue];
-		j3173063153 -> j4162646707;
-	j4012032851 [label="+5 Chemistry",color=orange];
-		j4012032851 -> j2286410653;
-	j51791154 [label="+5 Chemistry",color=orange];
-		j51791154 -> j674198945;
-	j2955066286 [label="+10 Chemistry",color=orange];
-		j2955066286 -> j2417291794;
-	j4162646707 [label="Boolean LettieDiasdeMuertos is now true.",color=orange];
-		j4162646707 -> j2859372864;
-	j2286410653 [label="Hayır 
+		1163 -> 1164;
+	1157 [label="+5 Chemistry",color=orange];
+		1157 -> 1151;
+	2466 [label="+5 Chemistry",color=orange];
+		2466 -> 1152;
+	1161 [label="+10 Chemistry",color=orange];
+		1161 -> 1153;
+	1164 [label="Update boolean LettieDiasdeMuertos",color=orange];
+		1164 -> 1165;
+	1151 [label="Hayır 
 Onu yılda bir kez ölüler festivalinde görüyorum 
 ¡Mierda! Sen sormadan söyleyeyim, göründüğü gibi değil 
 Onları kazıp çıkarmıyoruz, ruhlarını kutluyoruz jajaja 
 Bazılarının var - ama bizim yok, nereden geldiğine bağlı",shape=box,color=blue];
-		j2286410653 -> j1839620347;
-		j2286410653 -> j3714036871;
-	j674198945 [label="Evet, ama onları özlemiyorum 
+		1151 -> 1155;
+		1151 -> 1156;
+	1152 [label="Evet, ama onları özlemiyorum 
 Günden güne yok oldular ama ruhumdan silinmediler, hala yılda bir kez ölüler festivalinde beni ziyaret ediyorlar 
 Onları kazıp çıkarmıyoruz, ruhlarını kutluyoruz jajaja 
 Bazılarının var - ama bizim yok, nereden geldiğine bağlı",shape=box,color=blue];
-		j674198945 -> j1839620347;
-		j674198945 -> j3714036871;
-	j2417291794 [label="Babam beni 20 yaşıma kadar bekletti 
+		1152 -> 1155;
+		1152 -> 1156;
+	1153 [label="Babam beni 20 yaşıma kadar bekletti 
 Ama ben daha önce gitmeye hazırdım jajaja 
 Onu ve mi tía'yı gururlandırmak için hevesliydim
 Beni beklettiği için memnunum, hazır değildim",shape=box,color=blue];
-		j2417291794 -> j979072199;
-	j2859372864 [label="Umarım buraya kadar gelebilir... 
+		1153 -> 1159;
+	1165 [label="Umarım buraya kadar gelebilir... 
 Ona kağıttan kadife çiçekler yapmam gerekecek 
 Belki Arthur pan de muerto yapmama yardım eder hamur işlerinde iyi değilim jajaja",shape=box,color=blue];
-		j2859372864 -> j1538379833;
-		j2859372864 -> j3918761264;
-	j1839620347 [label="Vay canına. Söylemeseydin soracaktım. hahah",shape=box,color=red];
-		j1839620347 -> j976984650;
-	j3714036871 [label="HAHAH! Kulağa hoş bir tatil gibi geliyor.",shape=box,color=red];
-		j3714036871 -> j976984650;
-	j979072199 [label="Teyzenin kalp yetmezliğinden yavaş yavaş ölmesini izlemek bir şey
+		1165 -> 1166;
+		1165 -> 1167;
+	1155 [label="Vay canına. Söylemeseydin soracaktım. hahah",shape=box,color=red];
+		1155 -> 1158;
+	1156 [label="HAHAH! Kulağa hoş bir tatil gibi geliyor.",shape=box,color=red];
+		1156 -> 1158;
+	1159 [label="Teyzenin kalp yetmezliğinden yavaş yavaş ölmesini izlemek bir şey
 İnsanların birbirlerini vahşice öldürmelerini izlemek 
 Çığlık çığlığa, kanlı ölümler 
 Onlar başka bir şey",shape=box,color=blue];
-		j979072199 -> j3334556792;
-	j1538379833 [label="Yardım etmekten mutluluk duyacağına eminim.",shape=box,color=red];
-		j1538379833 -> j3018346605;
-	j3918761264 [label="Ben de yardımcı olmak isterim.",shape=box,color=red];
-		j3918761264 -> j467886988;
-	j976984650 [label="Sevdiklerimiz için ofrendalar inşa eder, pan de muerto ve calaveritas de azúcar yaparız ve onları eve davet etmek için etrafa kadife çiçeklerimizi sereriz
+		1159 -> 1160;
+	1166 [label="Yardım etmekten mutluluk duyacağına eminim.",shape=box,color=red];
+		1166 -> 1170;
+	1167 [label="Ben de yardımcı olmak isterim.",shape=box,color=red];
+		1167 -> 1168;
+	1158 [label="Sevdiklerimiz için ofrendalar inşa eder, pan de muerto ve calaveritas de azúcar yaparız ve onları eve davet etmek için etrafa kadife çiçeklerimizi sereriz
 Onlar için getirdiklerimizi onlarla birlikte yeriz 
 Mezarlarının başında oturur ve onlara dair hikayeler anlatırız 
 Onlarla konuşuruz ve onlarla güleriz",shape=box,color=blue];
-		j976984650 -> j3173063153;
-	j3334556792 [label="Ama sen bunu biliyorsun, değil mi? 
+		1158 -> 1163;
+	1160 [label="Ama sen bunu biliyorsun, değil mi? 
 La Flaca'yı en az benim kadar iyi biliyorsun 
 Onu anmışken 
 O kimseyi beklemez, hele bizim konuşmalarımızı hiç beklemez",shape=box,color=blue];
-		j3334556792 -> "Chat ends.";
-	j3018346605 [label="Check boolean LettieDuviri",color=orange];
-		j3018346605 -> j3400546588 [label=true,color=green];
-		j3018346605 -> j683815727 [label=false,color=brown];
-	j467886988 [label="+5 Chemistry",color=orange];
-		j467886988 -> j3277271564;
-	j3400546588 [label="İstersen, ailen için bir ofrenda inşa edebiliriz 
+		1160 -> 1162;
+	1170 [label="Check boolean LettieDuviri",color=orange];
+		1170 -> 1171 [label=true,color=green];
+		1170 -> 1172 [label=false,color=brown];
+	1168 [label="+5 Chemistry",color=orange];
+		1168 -> 1169;
+	1162 [label="Chat ends.",color=orange];
+	1171 [label="İstersen, ailen için bir ofrenda inşa edebiliriz 
 Belki de uzun zaman sonra babas'larını görmeye gelirler 
 Eminim seninle çok gurur duyuyorlardır",shape=box,color=blue];
-		j3400546588 -> j4211332444;
-		j3400546588 -> j4062024469;
-		j3400546588 -> j1469706562;
-	j683815727 [label="Ziyaret etmek istediğin sevdiklerin var mı 
+		1171 -> 1173;
+		1171 -> 1174;
+		1171 -> 1175;
+	1172 [label="Ziyaret etmek istediğin sevdiklerin var mı 
 Birlikte çalışıp sana bir ofrenda inşa edebiliriz 
 Belki uzun zaman sonra babas'larını görmeye gelirler, eminim seninle gurur duyuyorlardır",shape=box,color=blue];
-		j683815727 -> j4211332444;
-		j683815727 -> j4062024469;
-		j683815727 -> j1469706562;
-	j3277271564 [label="Çok tatlısın 
+		1172 -> 1173;
+		1172 -> 1174;
+		1172 -> 1175;
+	1169 [label="Çok tatlısın 
 Sí, belki birlikte çalışabiliriz",shape=box,color=blue];
-		j3277271564 -> j3018346605;
-	j4211332444 [label="Aslında bunu çok isterim. Teşekkür ederim Lettie.",shape=box,color=red];
-		j4211332444 -> j645951179;
-	j4062024469 [label="Sana yardım etmeyi çok isterdim ama ailemi ait oldukları yerde, gelecekte bırakalım.",shape=box,color=red];
-		j4062024469 -> j2667977767;
-	j1469706562 [label="Hmm... Sanırım beni görmek istemezler...",shape=box,color=red];
-		j1469706562 -> j4115334670;
-	j645951179 [label="+10 Chemistry",color=orange];
-		j645951179 -> j1791403794;
-	j2667977767 [label="+10 Chemistry",color=orange];
-		j2667977767 -> j1314007435;
-	j4115334670 [label="Check boolean LettieReligion4",color=orange];
-		j4115334670 -> j3768038720 [label=true,color=green];
-		j4115334670 -> j2194251521 [label=false,color=brown];
-	j1791403794 [label="Claro, arkadaşım 
+		1169 -> 1170;
+	1173 [label="Aslında bunu çok isterim. Teşekkür ederim Lettie.",shape=box,color=red];
+		1173 -> 1176;
+	1174 [label="Sana yardım etmeyi çok isterdim ama ailemi ait oldukları yerde, gelecekte bırakalım.",shape=box,color=red];
+		1174 -> 1177;
+	1175 [label="Hmm... Sanırım beni görmek istemezler...",shape=box,color=red];
+		1175 -> 1178;
+	1176 [label="+10 Chemistry",color=orange];
+		1176 -> 1179;
+	1177 [label="+10 Chemistry",color=orange];
+		1177 -> 1180;
+	1178 [label="Check boolean LettieReligion4",color=orange];
+		1178 -> 1181 [label=true,color=green];
+		1178 -> 1182 [label=false,color=brown];
+	1179 [label="Claro, arkadaşım 
 Mm, şimdi düşünüyorum da 
 Ruhlar zamanda yolculuk edebilir mi? 
 Ay, equis, bazen önemli olan düşüncedir",shape=box,color=blue];
-		j1791403794 -> "Chat ends.";
-	j1314007435 [label="Haklısın 
+		1179 -> 1184;
+	1180 [label="Haklısın 
 Hmm, şimdi düşünüyorum da 
 Ruhlar zamanda yolculuk edebilir mi? 
 Ay, equis, bazen önemli olan düşüncedir",shape=box,color=blue];
-		j1314007435 -> "Chat ends.";
-	j3768038720 [label="Xipe Totec'in sana yaptırdıkları yüzünden 
+		1180 -> 1185;
+	1181 [label="Xipe Totec'in sana yaptırdıkları yüzünden 
 Bu senin hatan değildi, onlar delirmişlerdi 
 Bazen yarayı dağlaman gerekir 
 Onları yere serdin, bu cinayet değildi",shape=box,color=blue];
-		j3768038720 -> j2258208408;
-		j3768038720 -> j1764575651;
-	j2194251521 [label="¿Por qué?",shape=box,color=blue];
-		j2194251521 -> j1189711300;
-		j2194251521 -> j3355205417;
-	j2258208408 [label="Öyle hissetmedim.",shape=box,color=red];
-		j2258208408 -> j555617305;
-	j1764575651 [label="Haklısın...",shape=box,color=red];
-		j1764575651 -> j3876154459;
-	j1189711300 [label="Çünkü Duvardaki Adam anne ve babaları çileden çıkardığında, çocuklara saldırdılar ve... void güçlerine sahip olan çocuklar onları öldürmek zorunda kaldılar, sonrasında....",shape=box,color=red];
-		j1189711300 -> j271173825;
-	j3355205417 [label="Bunun hakkında konuşamam. Üzgünüm.",shape=box,color=red];
-		j3355205417 -> j3368855793;
-	j555617305 [label="+10 Chemistry",color=orange];
-		j555617305 -> j1010306919;
-	j3876154459 [label="+10 Chemistry",color=orange];
-		j3876154459 -> j2166625669;
-	j271173825 [label="Boolean LettieReligion4 is now true.",color=orange];
-		j271173825 -> j3522788380;
-	j3368855793 [label="Ay, sí 
+		1181 -> 1186;
+		1181 -> 1187;
+	1182 [label="¿Por qué?",shape=box,color=blue];
+		1182 -> 1188;
+		1182 -> 1189;
+	1184 [label="Chat ends.",color=orange];
+	1185 [label="Chat ends.",color=orange];
+	1186 [label="Öyle hissetmedim.",shape=box,color=red];
+		1186 -> 1197;
+	1187 [label="Haklısın...",shape=box,color=red];
+		1187 -> 1200;
+	1188 [label="Çünkü Duvardaki Adam anne ve babaları çileden çıkardığında, çocuklara saldırdılar ve... void güçlerine sahip olan çocuklar onları öldürmek zorunda kaldılar, sonrasında....",shape=box,color=red];
+		1188 -> 1193;
+	1189 [label="Bunun hakkında konuşamam. Üzgünüm.",shape=box,color=red];
+		1189 -> 1195;
+	1197 [label="+10 Chemistry",color=orange];
+		1197 -> 1190;
+	1200 [label="+10 Chemistry",color=orange];
+		1200 -> 1192;
+	1193 [label="Update boolean LettieReligion4",color=orange];
+		1193 -> 1194;
+	1195 [label="Ay, sí 
 Anlıyorum",shape=box,color=blue];
-		j3368855793 -> "Chat ends.";
-	j1010306919 [label="Si, nasıl hissettirdiğini hayal bile edemiyorum 
+		1195 -> 1196;
+	1190 [label="Si, nasıl hissettirdiğini hayal bile edemiyorum 
 Kendi aileni bu şekilde incitmek zorunda kalmak 
 Ama başka seçeneğin yoktu, solecito 
 Onlar kuduz hayvanlardı ve kontrol edilemiyorlardı",shape=box,color=blue];
-		j1010306919 -> j4144438928;
-	j2166625669 [label="Başka şansın yoktu, solecito 
+		1190 -> 1191;
+	1192 [label="Başka şansın yoktu, solecito 
 Onlar kuduz hayvanlardı ve kontrolleri yoktu 
 Ve bu tür bir seçimi *anlıyorum*",shape=box,color=blue];
-		j2166625669 -> j2130481881;
-	j3522788380 [label="Bunu senin Xipe Totec'in yaptı, senin derisi yüzülmüş tanrın 
+		1192 -> 1201;
+	1194 [label="Bunu senin Xipe Totec'in yaptı, senin derisi yüzülmüş tanrın 
 Onları çılgına çeviren ve öldürülmelerine neden olan onun davranışlarıydı",shape=box,color=blue];
-		j3522788380 -> j3876154459;
-	j4144438928 [label="Ve bu tür bir seçimi *anlıyorum* 
+		1194 -> 1200;
+	1196 [label="Chat ends.",color=orange];
+	1191 [label="Ve bu tür bir seçimi *anlıyorum* 
 Ama bu başka bir zamanın hikayesi 
 La Flaca kimseyi beklemez, bizim konuşmalarımızı da beklemez ve benim bir sözüm var",shape=box,color=blue];
-		j4144438928 -> "Chat ends.";
-	j2130481881 [label="Ama bu başka bir zamanın hikayesi 
+		1191 -> 1198;
+	1201 [label="Ama bu başka bir zamanın hikayesi 
 La Flaca kimseyi beklemez, bizim konuşmalarımızı da beklemez ve benim bir diyeceğim var",shape=box,color=blue];
-		j2130481881 -> "Chat ends.";
+		1201 -> 1199;
+	1198 [label="Chat ends.",color=orange];
+	1199 [label="Chat ends.",color=orange];
 }

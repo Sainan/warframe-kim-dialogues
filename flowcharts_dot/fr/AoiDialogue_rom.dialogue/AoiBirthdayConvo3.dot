@@ -1,16 +1,21 @@
 digraph {
-	"AoiBirthdayConvo3 begins." [color=orange];
-		"AoiBirthdayConvo3 begins." -> j1365217985;
-		"AoiBirthdayConvo3 begins." -> j4118134422;
-	j1365217985 [label="Joyeux anniversaire.",shape=box,color=red];
-		j1365217985 -> j446528827;
-	j4118134422 [label="Joyeux anniversaire, Aoi! J'espère que tu passes une bonne journée!",shape=box,color=red];
-		j4118134422 -> j1793152586;
-	j446528827 [label="mici",shape=box,color=blue];
-		j446528827 -> "Chat ends.";
-	j1793152586 [label="+20 Chemistry",color=orange];
-		j1793152586 -> j3095103392;
-	"Chat ends." [color=orange];
-	j3095103392 [label="tu sais quoi, c'est le cas! <RETRO_EMOJI_AOICAT> je t'adore!",shape=box,color=blue];
-		j3095103392 -> "Chat ends.";
+	3791 [label="AoiBirthdayConvo3 begins.",color=orange];
+		3791 -> 3807;
+		3791 -> 3806;
+	3807 [label="Joyeux anniversaire.",shape=box,color=red];
+		3807 -> 3811;
+	3806 [label="Joyeux anniversaire, Aoi! J'espère que tu passes une bonne journée!",shape=box,color=red];
+		3806 -> 3808;
+	3811 [label="mici",shape=box,color=blue];
+		3811 -> 3832;
+	3808 [label="+20 Chemistry",color=orange];
+		3808 -> 3809;
+	3832 [label="{\"Id\":3832,\"Incoming\":[3811],\"Outgoing\":[2577],\"GraphPos\":[738,-1306],\"CompletionType\":1}",color=orange];
+		3832 -> 2577;
+	3809 [label="tu sais quoi, c'est le cas! <RETRO_EMOJI_AOICAT> je t'adore!",shape=box,color=blue];
+		3809 -> 3833;
+	2577 [label="Chat ends.",color=orange];
+	3833 [label="{\"Id\":3833,\"Incoming\":[3809],\"Outgoing\":[3810],\"GraphPos\":[1107,-1534],\"CompletionType\":1}",color=orange];
+		3833 -> 3810;
+	3810 [label="Chat ends.",color=orange];
 }

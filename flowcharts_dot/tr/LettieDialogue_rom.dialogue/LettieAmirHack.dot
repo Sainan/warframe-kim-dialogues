@@ -1,40 +1,40 @@
 digraph {
-	"LettieAmirHack begins." [color=orange];
-		"LettieAmirHack begins." -> j2316161106;
-	j2316161106 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
-		j2316161106 -> j2935969409;
-		j2316161106 -> j1949413003;
-	j2935969409 [label="İçimden bir ses kızgın olduğunu söylüyor...",shape=box,color=red];
-		j2935969409 -> j3824540897;
-	j1949413003 [label="Hımm... fıstık ezmesini almadın mı...?",shape=box,color=red];
-		j1949413003 -> j3824540897;
-	j3824540897 [label="NE YAPACAĞIM 
+	1768 [label="LettieAmirHack begins.",color=orange];
+		1768 -> 1769;
+	1769 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
+		1769 -> 1770;
+		1769 -> 1771;
+	1770 [label="İçimden bir ses kızgın olduğunu söylüyor...",shape=box,color=red];
+		1770 -> 1772;
+	1771 [label="Hımm... fıstık ezmesini almadın mı...?",shape=box,color=red];
+		1771 -> 1772;
+	1772 [label="NE YAPACAĞIM 
 BU 500 KASA KETÇAP PAKETİ İLE 
 ¡DILE A ESE NIÑO QUE VENGA AQUÍ AHORA MISMO! 
 SÖYLE ONA BU İŞİ ÇÖZSÜN 
 HEMEN!!",shape=box,color=blue];
-		j3824540897 -> j1496165634;
-		j3824540897 -> j348144822;
-	j1496165634 [label="Hey, demek bir hata olmuş. Amir farelerin için sana fıstık ezmesi göndermeye çalışıyordu.",shape=box,color=red];
-		j1496165634 -> j2715706098;
-	j348144822 [label="Bunların hepsi bir yanlış anlaşılma. Sana bir hediye göndermeye çalışıyordu.",shape=box,color=red];
-		j348144822 -> j674171127;
-	j2715706098 [label="Ama her şey berbat oldu ve ben onun bunu çözmesine yardım edeceğim.",shape=box,color=red];
-		j2715706098 -> j2983692196;
-	j674171127 [label="UMURUMDA DEĞİL 
+		1772 -> 1773;
+		1772 -> 1774;
+	1773 [label="Hey, demek bir hata olmuş. Amir farelerin için sana fıstık ezmesi göndermeye çalışıyordu.",shape=box,color=red];
+		1773 -> 1775;
+	1774 [label="Bunların hepsi bir yanlış anlaşılma. Sana bir hediye göndermeye çalışıyordu.",shape=box,color=red];
+		1774 -> 1776;
+	1775 [label="Ama her şey berbat oldu ve ben onun bunu çözmesine yardım edeceğim.",shape=box,color=red];
+		1775 -> 1780;
+	1776 [label="UMURUMDA DEĞİL 
 ¡¡SÁCALAS DE AQUÍ!! 
 ¡¡AHORA!!",shape=box,color=blue];
-		j674171127 -> "Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue";
-	j2983692196 [label="+20 Chemistry",color=orange];
-		j2983692196 -> j2403806401;
-	"Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue" [label="Queue conversation AmirHack3 in JabirDialogue_rom.dialogue",color=orange];
-		"Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue" -> "Chat ends.";
-	j2403806401 [label="Sİ? 
+		1776 -> 1777;
+	1780 [label="+20 Chemistry",color=orange];
+		1780 -> 1778;
+	1777 [label="{\"Id\":1777,\"Incoming\":[1779,1776],\"Outgoing\":[1781],\"GraphPos\":[2847,54171],\"CompletionType\":2,\"OtherDialogueInfos\":[{\"Dialogue\":\"/Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue\",\"Tag\":\"AmirHack3\",\"Value\":0}]}",color=orange];
+		1777 -> 1781;
+	1778 [label="Sİ? 
 Mis panquecitos'um için miydi?",shape=box,color=blue];
-		j2403806401 -> j3327023570;
-	"Chat ends." [color=orange];
-	j3327023570 [label="¡Ay equis! 
+		1778 -> 1779;
+	1781 [label="Chat ends.",color=orange];
+	1779 [label="¡Ay equis! 
 Sadece hepsini buradan çıkar 
 ¡¡AHORA!!",shape=box,color=blue];
-		j3327023570 -> "Initiate conversation AmirHack3 in JabirDialogue_rom.dialogue";
+		1779 -> 1777;
 }
