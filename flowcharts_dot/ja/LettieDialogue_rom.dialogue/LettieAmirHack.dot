@@ -1,40 +1,40 @@
 digraph {
-	1768 [label="LettieAmirHack begins.",color=orange];
-		1768 -> 1769;
-	1769 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
-		1769 -> 1770;
-		1769 -> 1771;
-	1770 [label="怒ってる気がする…",shape=box,color=red];
-		1770 -> 1772;
-	1771 [label="えっと…　ピーナッツバターは貰えなかったのかな…？",shape=box,color=red];
-		1771 -> 1772;
-	1772 [label="アタシにどうしろっていうの！
+	"LettieAmirHack begins." [color=orange];
+		"LettieAmirHack begins." -> j2316161106;
+	j2316161106 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
+		j2316161106 -> j1540528388;
+		j2316161106 -> j540066366;
+	j1540528388 [label="怒ってる気がする…",shape=box,color=red];
+		j1540528388 -> j2072991823;
+	j540066366 [label="えっと…　ピーナッツバターは貰えなかったのかな…？",shape=box,color=red];
+		j540066366 -> j2072991823;
+	j2072991823 [label="アタシにどうしろっていうの！
 ケチャップ袋500ケースを！
 ¡DILE A ESE NIÑO QUE VENGA AQUÍ AHORA MISMO! 
 アイツにどうにかさせて！
 今すぐ！！",shape=box,color=blue];
-		1772 -> 1773;
-		1772 -> 1774;
-	1773 [label="その、これはただのミスだよ。AmirはLettieのネズミにピーナッツバター送ろうとしたんだ。",shape=box,color=red];
-		1773 -> 1775;
-	1774 [label="全部誤解だ。彼はLettieに贈り物をしようとしたんだ。",shape=box,color=red];
-		1774 -> 1776;
-	1775 [label="けど全部滅茶苦茶になって、自分も片付け手伝うからさ。",shape=box,color=red];
-		1775 -> 1780;
-	1776 [label="知るか！
+		j2072991823 -> j192077563;
+		j2072991823 -> j2048689233;
+	j192077563 [label="その、これはただのミスだよ。AmirはLettieのネズミにピーナッツバター送ろうとしたんだ。",shape=box,color=red];
+		j192077563 -> j2896472937;
+	j2048689233 [label="全部誤解だ。彼はLettieに贈り物をしようとしたんだ。",shape=box,color=red];
+		j2048689233 -> j695935322;
+	j2896472937 [label="けど全部滅茶苦茶になって、自分も片付け手伝うからさ。",shape=box,color=red];
+		j2896472937 -> j3606791725;
+	j695935322 [label="知るか！
 ¡¡SÁCALAS DE AQUÍ!! 
 ¡¡AHORA!!",shape=box,color=blue];
-		1776 -> 1777;
-	1780 [label="+20 Chemistry",color=orange];
-		1780 -> 1778;
-	1777 [label="{\"Id\":1777,\"Incoming\":[1779,1776],\"Outgoing\":[1781],\"GraphPos\":[2847,54171],\"CompletionType\":2,\"OtherDialogueInfos\":[{\"Dialogue\":\"/Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue\",\"Tag\":\"AmirHack3\",\"Value\":0}]}",color=orange];
-		1777 -> 1781;
-	1778 [label="¿SÍ? 
+		j695935322 -> "Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue";
+	j3606791725 [label="+20 Chemistry",color=orange];
+		j3606791725 -> j181270136;
+	"Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue" [label="Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue",color=orange];
+		"Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue" -> "Chat ends.";
+	j181270136 [label="¿SÍ? 
 あれmis panquecitos用だったの？",shape=box,color=blue];
-		1778 -> 1779;
-	1781 [label="Chat ends.",color=orange];
-	1779 [label="¡Ay equis! 
+		j181270136 -> j4256092016;
+	"Chat ends." [color=orange];
+	j4256092016 [label="¡Ay equis! 
 全部捨ててきなさい！
 ¡¡AHORA!!",shape=box,color=blue];
-		1779 -> 1777;
+		j4256092016 -> "Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue";
 }

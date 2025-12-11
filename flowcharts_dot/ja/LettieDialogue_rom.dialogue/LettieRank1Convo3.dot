@@ -1,123 +1,102 @@
 digraph {
-	110 [label="LettieRank1Convo3 begins.",color=orange];
-		110 -> 111;
-	111 [label="Babas 
+	"LettieRank1Convo3 begins." [color=orange];
+		"LettieRank1Convo3 begins." -> j565083366;
+	j565083366 [label="Babas 
 注目",shape=box,color=blue];
-		111 -> 112;
-		111 -> 113;
-	112 [label="それ挨拶？",shape=box,color=red];
-		112 -> 114;
-	113 [label="今はダメだ、すまない。[閉じる]",shape=box,color=red];
-		113 -> 115;
-	114 [label="ああ、じゃあ、こんにちは、*おはよう*
+		j565083366 -> j2589557377;
+		j565083366 -> j1778808518;
+	j2589557377 [label="それ挨拶？",shape=box,color=red];
+		j2589557377 -> j3268080292;
+	j1778808518 [label="今はダメだ、すまない。[閉じる]",shape=box,color=red];
+		j1778808518 -> "Chat ends.";
+	j3268080292 [label="ああ、じゃあ、こんにちは、*おはよう*
 時間は分からないけど
 ガーゼをもっと持ってきて
 在庫が減ってきてる",shape=box,color=blue];
-		114 -> 116;
-	115 [label="Chat ends.",color=orange];
-	116 [label="Anitaが箱に入ってちょっとつまみ食いしたわ",shape=box,color=blue];
-		116 -> 117;
-		116 -> 118;
-	117 [label="Anitaって誰？",shape=box,color=red];
-		117 -> 119;
-	118 [label="それが誰なのか分からないよ、Lettie。",shape=box,color=red];
-		118 -> 119;
-	119 [label="Lo siento、そうよね",shape=box,color=blue];
-		119 -> 120;
-	120 [label="+5 Chemistry",color=orange];
-		120 -> 121;
-	121 [label="新たなcorazoncito、新しいネズミよ
+		j3268080292 -> j2244226019;
+	"Chat ends." [color=orange];
+	j2244226019 [label="Anitaが箱に入ってちょっとつまみ食いしたわ",shape=box,color=blue];
+		j2244226019 -> j1157052730;
+		j2244226019 -> j425859458;
+	j1157052730 [label="Anitaって誰？",shape=box,color=red];
+		j1157052730 -> j1780719364;
+	j425859458 [label="それが誰なのか分からないよ、Lettie。",shape=box,color=red];
+		j425859458 -> j1780719364;
+	j1780719364 [label="Lo siento、そうよね",shape=box,color=blue];
+		j1780719364 -> j434629547;
+	j434629547 [label="+5 Chemistry",color=orange];
+		j434629547 -> j2668072096;
+	j2668072096 [label="新たなcorazoncito、新しいネズミよ
 いま躾けている最中",shape=box,color=blue];
-		121 -> 122;
-	122 [label="Check boolean LettieRatsAsked",color=orange];
-		122 -> 123 [label=true,color=green];
-		122 -> 124 [label=true,color=green];
-		122 -> 125 [label=false,color=brown];
-		122 -> 123 [label=false,color=brown];
-		122 -> 124 [label=false,color=brown];
-	123 [label="見かけたら持って帰る。",shape=box,color=red];
-		123 -> 129;
-	124 [label="Lettieのネズミが食べたなら、Lettieが取りに行くべきだ。",shape=box,color=red];
-		124 -> 127;
-	125 [label="気になってたけど、何でネズミをペットとして飼うの？",shape=box,color=red];
-		125 -> 128;
-	129 [label="+10 Chemistry",color=orange];
-		129 -> 126;
-	127 [label="Sí, アタシのジユウジカンを使ってね
+		j2668072096 -> j2299607748;
+	j2299607748 [label="Check boolean LettieRatsAsked",color=orange];
+		j2299607748 -> j923416971 [label=true,color=green];
+		j2299607748 -> j910038305 [label=true,color=green];
+		j2299607748 -> j1283722095 [label=false,color=brown];
+		j2299607748 -> j923416971 [label=false,color=brown];
+		j2299607748 -> j910038305 [label=false,color=brown];
+	j923416971 [label="見かけたら持って帰る。",shape=box,color=red];
+		j923416971 -> j1234163867;
+	j910038305 [label="Lettieのネズミが食べたなら、Lettieが取りに行くべきだ。",shape=box,color=red];
+		j910038305 -> j2059575461;
+	j1283722095 [label="気になってたけど、何でネズミをペットとして飼うの？",shape=box,color=red];
+		j1283722095 -> j2173752979;
+	j1234163867 [label="+10 Chemistry",color=orange];
+		j1234163867 -> j1550794900;
+	j2059575461 [label="Sí, アタシのジユウジカンを使ってね
 ヘックスや
 民間人を縫っている合間に",shape=box,color=blue];
-		127 -> 132;
-	128 [label="Update boolean LettieRatsAsked",color=orange];
-		128 -> 135;
-	126 [label="Gracias 
+		j2059575461 -> j3551064085;
+	j2173752979 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		j2173752979 -> j3941389337;
+	j1550794900 [label="Gracias 
 借りが出来たわね
 小さな借りだけど",shape=box,color=blue];
-		126 -> 130;
-	132 [label="Gracias por nada, babas",shape=box,color=blue];
-		132 -> 134;
-	135 [label="こっちが聞きたい",shape=box,color=blue];
-		135 -> 136;
-		135 -> 137;
-	130 [label="Update boolean LettieSmallFavor",color=orange];
-		130 -> 131;
-	134 [label="Chat ends.",color=orange];
-	136 [label="へ？",shape=box,color=red];
-		136 -> 138;
-	137 [label="話の流れが気に入らない。[閉じる]",shape=box,color=red];
-		137 -> 139;
-	131 [label="Chat ends.",color=orange];
-	138 [label="なぜアタシがネズミを好きだと思うのか知りたい 
+		j1550794900 -> j2570747018;
+	j3551064085 [label="Gracias por nada, babas",shape=box,color=blue];
+		j3551064085 -> "Chat ends.";
+	j3941389337 [label="こっちが聞きたい",shape=box,color=blue];
+		j3941389337 -> j1473971103;
+		j3941389337 -> j241684953;
+	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j2570747018 -> "Chat ends.";
+	j1473971103 [label="へ？",shape=box,color=red];
+		j1473971103 -> j500803684;
+	j241684953 [label="話の流れが気に入らない。[閉じる]",shape=box,color=red];
+		j241684953 -> j2365690676;
+	j500803684 [label="なぜアタシがネズミを好きだと思うのか知りたい 
 続けて",shape=box,color=blue];
-		138 -> 143;
-		138 -> 142;
-		138 -> 141;
-	139 [label="Tú te lo pierdes",shape=box,color=blue];
-		139 -> 140;
-	143 [label="彼らが賢くて、優しくて、陽気だから？",shape=box,color=red];
-		143 -> 146;
-	142 [label="彼らがよく軽視されたり誤解されるから？",shape=box,color=red];
-		142 -> 146;
-	141 [label="Lettieのことは全く理解できない。けどネズミはとことん可愛いね。",shape=box,color=red];
-		141 -> 148;
-	140 [label="Chat ends.",color=orange];
-	146 [label="嗚呼ルア sálvame
+		j500803684 -> j3276279513;
+		j500803684 -> j1024576271;
+		j500803684 -> j3119850677;
+	j2365690676 [label="Tú te lo pierdes",shape=box,color=blue];
+		j2365690676 -> "Chat ends.";
+	j3276279513 [label="彼らが賢くて、優しくて、陽気だから？",shape=box,color=red];
+		j3276279513 -> j3252473466;
+	j1024576271 [label="彼らがよく軽視されたり誤解されるから？",shape=box,color=red];
+		j1024576271 -> j3252473466;
+	j3119850677 [label="Lettieのことは全く理解できない。けどネズミはとことん可愛いね。",shape=box,color=red];
+		j3119850677 -> j3293021487;
+	j3252473466 [label="嗚呼ルア sálvame
 違う",shape=box,color=blue];
-		146 -> 150;
-	148 [label="¡JAJA!",shape=box,color=blue];
-		148 -> 144;
-	150 [label="子供の頃は裕福じゃなかった
+		j3252473466 -> j1884664578;
+	j3293021487 [label="¡JAJA!",shape=box,color=blue];
+		j3293021487 -> j3318328589;
+	j1884664578 [label="子供の頃は裕福じゃなかった
 近隣の治安は正直悪くなかった
 良くもなかったけど
 ネズミは飼うのが楽、mi mamaも気にしなかった",shape=box,color=blue];
-		150 -> 151;
-	144 [label="+5 Chemistry",color=orange];
-		144 -> 149;
-	151 [label="Update boolean LettieRats1",color=orange];
-		151 -> 153;
-	149 [label="救世主からのへりくだりね
+		j1884664578 -> j1077635893;
+	j3318328589 [label="+5 Chemistry",color=orange];
+		j3318328589 -> j2255828783;
+	j1077635893 [label="Boolean LettieRats1 is now true.",color=orange];
+		j1077635893 -> j2814140135;
+	j2255828783 [label="救世主からのへりくだりね
 気に入ったわ",shape=box,color=blue];
-		149 -> 150;
-	153 [label="それで包帯は取ってきてもらえるの？",shape=box,color=blue];
-		153 -> 152;
-		153 -> 145;
-	152 [label="いいよ、探してみる。",shape=box,color=red];
-		152 -> 155;
-	145 [label="Lettieのネズミが食べたなら、Lettieが取りに行くべきだ。",shape=box,color=red];
-		145 -> 158;
-	155 [label="+10 Chemistry",color=orange];
-		155 -> 154;
-	158 [label="Sí, アタシのジユウジカンを使ってね
-ヘックスや
-民間人を縫っている合間に",shape=box,color=blue];
-		158 -> 159;
-	154 [label="Gracias 
-借りが出来たわね
-小さな借りだけど",shape=box,color=blue];
-		154 -> 156;
-	159 [label="Gracias por nada, babas",shape=box,color=blue];
-		159 -> 133;
-	156 [label="Update boolean LettieSmallFavor",color=orange];
-		156 -> 157;
-	133 [label="Chat ends.",color=orange];
-	157 [label="Chat ends.",color=orange];
+		j2255828783 -> j1884664578;
+	j2814140135 [label="それで包帯は取ってきてもらえるの？",shape=box,color=blue];
+		j2814140135 -> j1980031468;
+		j2814140135 -> j910038305;
+	j1980031468 [label="いいよ、探してみる。",shape=box,color=red];
+		j1980031468 -> j1234163867;
 }

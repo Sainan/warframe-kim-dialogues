@@ -1,21 +1,16 @@
 digraph {
-	3192 [label="ArthurBirthdayConvo3 begins.",color=orange];
-		3192 -> 3210;
-		3192 -> 3212;
-	3210 [label="お誕生日おめでとうって伝えたかったんだ。一緒に過ごせてよかった。",shape=box,color=red];
-		3210 -> 3211;
-	3212 [label="誕生日おめでとう。今日は死なないように頑張って。雰囲気が台無しになるから。",shape=box,color=red];
-		3212 -> 3207;
-	3211 [label="+20 Chemistry",color=orange];
-		3211 -> 3209;
-	3207 [label="お前もいろいろ経験してきたのは分かるが、ダークユーモアには時と場所っていうのがあるんだ。",shape=box,color=blue];
-		3207 -> 3000;
-	3209 [label="危ない時もあったよな。いつも支えてくれることに感謝する。",shape=box,color=blue];
-		3209 -> 3225;
-	3000 [label="{\"Id\":3000,\"Incoming\":[3207],\"Outgoing\":[3208],\"GraphPos\":[-30902,-13388],\"CompletionType\":1}",color=orange];
-		3000 -> 3208;
-	3225 [label="{\"Id\":3225,\"Incoming\":[3209],\"Outgoing\":[3213],\"GraphPos\":[-30899,-13547],\"CompletionType\":1}",color=orange];
-		3225 -> 3213;
-	3208 [label="Chat ends.",color=orange];
-	3213 [label="Chat ends.",color=orange];
+	"ArthurBirthdayConvo3 begins." [color=orange];
+		"ArthurBirthdayConvo3 begins." -> j3005616172;
+		"ArthurBirthdayConvo3 begins." -> j1748374831;
+	j3005616172 [label="お誕生日おめでとうって伝えたかったんだ。一緒に過ごせてよかった。",shape=box,color=red];
+		j3005616172 -> j3624536365;
+	j1748374831 [label="誕生日おめでとう。今日は死なないように頑張って。雰囲気が台無しになるから。",shape=box,color=red];
+		j1748374831 -> j1868910822;
+	j3624536365 [label="+20 Chemistry",color=orange];
+		j3624536365 -> j140000401;
+	j1868910822 [label="お前もいろいろ経験してきたのは分かるが、ダークユーモアには時と場所っていうのがあるんだ。",shape=box,color=blue];
+		j1868910822 -> "Chat ends.";
+	j140000401 [label="危ない時もあったよな。いつも支えてくれることに感謝する。",shape=box,color=blue];
+		j140000401 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

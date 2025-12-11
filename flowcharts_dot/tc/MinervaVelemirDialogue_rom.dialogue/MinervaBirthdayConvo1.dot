@@ -1,19 +1,18 @@
 digraph {
-	1768 [label="MinervaBirthdayConvo1 begins.",color=orange];
-		1768 -> 1769;
-		1768 -> 1770;
-	1769 [label="今天要做點什麼特別的事嗎？",shape=box,color=red];
-		1769 -> 1771;
-	1770 [label="生日快樂！你一定很興奮。",shape=box,color=red];
-		1770 -> 1772;
-	1771 [label="MomToxicated: 愛琳娜和其他女士們向我承諾了一個「絕對回想不起的夜晚」。",shape=box,color=blue];
-		1771 -> 1773;
-	1772 [label="MomToxicated: 過了某個人生階段，生日就不再讓人興奮，但我還是很感謝你的好意。",shape=box,color=blue];
-		1772 -> 1774;
-	1773 [label="+20 Chemistry",color=orange];
-		1773 -> 1775;
-	1774 [label="Chat ends.",color=orange];
-	1775 [label="MomToxicated: 而我真的好興奮。",shape=box,color=blue];
-		1775 -> 1776;
-	1776 [label="Chat ends.",color=orange];
+	"MinervaBirthdayConvo1 begins." [color=orange];
+		"MinervaBirthdayConvo1 begins." -> j2295087938;
+		"MinervaBirthdayConvo1 begins." -> j65207336;
+	j2295087938 [label="今天要做點什麼特別的事嗎？",shape=box,color=red];
+		j2295087938 -> j1744538231;
+	j65207336 [label="生日快樂！你一定很興奮。",shape=box,color=red];
+		j65207336 -> j1963438248;
+	j1744538231 [label="MomToxicated: 愛琳娜和其他女士們向我承諾了一個「絕對回想不起的夜晚」。",shape=box,color=blue];
+		j1744538231 -> j1979301591;
+	j1963438248 [label="MomToxicated: 過了某個人生階段，生日就不再讓人興奮，但我還是很感謝你的好意。",shape=box,color=blue];
+		j1963438248 -> "Chat ends.";
+	j1979301591 [label="+20 Chemistry",color=orange];
+		j1979301591 -> j639727044;
+	"Chat ends." [color=orange];
+	j639727044 [label="MomToxicated: 而我真的好興奮。",shape=box,color=blue];
+		j639727044 -> "Chat ends.";
 }

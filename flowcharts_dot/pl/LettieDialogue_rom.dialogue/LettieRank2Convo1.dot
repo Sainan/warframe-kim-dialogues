@@ -1,140 +1,133 @@
 digraph {
-	248 [label="LettieRank2Convo1 begins.",color=orange];
-		248 -> 249;
-	249 [label="Check boolean LettieDuviri",color=orange];
-		249 -> 250 [label=true,color=green];
-		249 -> 252 [label=false,color=brown];
-	250 [label="Twoje śmierci
+	"LettieRank2Convo1 begins." [color=orange];
+		"LettieRank2Convo1 begins." -> j2549990084;
+	j2549990084 [label="Check boolean LettieDuviri",color=orange];
+		j2549990084 -> j1078364912 [label=true,color=green];
+		j2549990084 -> j2417472100 [label=false,color=brown];
+	j1078364912 [label="Twoje śmierci
 Czy bolały?",shape=box,color=blue];
-		250 -> 254;
-		250 -> 255;
-		250 -> 256;
-	252 [label="Powiedz mi, babas
+		j1078364912 -> j2616401127;
+		j1078364912 -> j2551067693;
+		j1078364912 -> j2312581643;
+	j2417472100 [label="Powiedz mi, babas
 Ile wiesz o śmierci?",shape=box,color=blue];
-		252 -> 254;
-		252 -> 255;
-		252 -> 256;
-	254 [label="A myślałem, że to *ja* mam mroczne poczucie humoru. Wszystko w porządku?",shape=box,color=red];
-		254 -> 257;
-	255 [label="LOL. Nawet nie zaczynaj. A ty?",shape=box,color=red];
-		255 -> 257;
-	256 [label="Musisz częściej wychodzić na dwór.",shape=box,color=red];
-		256 -> 258;
-	257 [label="La Flaca i ja znamy się dobrze",shape=box,color=blue];
-		257 -> 260;
-		257 -> 261;
-	258 [label="Ay, equis",shape=box,color=blue];
-		258 -> 259;
-	260 [label="La Flaca to śmierć?",shape=box,color=red];
-		260 -> 262;
-	261 [label="Kto to La Flaca?",shape=box,color=red];
-		261 -> 263;
-	259 [label="Chat ends.",color=orange];
-	262 [label="Sí 
+		j2417472100 -> j2616401127;
+		j2417472100 -> j2551067693;
+		j2417472100 -> j2312581643;
+	j2616401127 [label="A myślałem, że to *ja* mam mroczne poczucie humoru. Wszystko w porządku?",shape=box,color=red];
+		j2616401127 -> j3728382687;
+	j2551067693 [label="LOL. Nawet nie zaczynaj. A ty?",shape=box,color=red];
+		j2551067693 -> j3728382687;
+	j2312581643 [label="Musisz częściej wychodzić na dwór.",shape=box,color=red];
+		j2312581643 -> j1759475013;
+	j3728382687 [label="La Flaca i ja znamy się dobrze",shape=box,color=blue];
+		j3728382687 -> j185311319;
+		j3728382687 -> j2535670100;
+	j1759475013 [label="Ay, equis",shape=box,color=blue];
+		j1759475013 -> "Chat ends.";
+	j185311319 [label="La Flaca to śmierć?",shape=box,color=red];
+		j185311319 -> j3670230094;
+	j2535670100 [label="Kto to La Flaca?",shape=box,color=red];
+		j2535670100 -> j550722318;
+	"Chat ends." [color=orange];
+	j3670230094 [label="Sí 
 Zaskakująco łapiesz",shape=box,color=blue];
-		262 -> 264;
-	263 [label="Kostucha
+		j3670230094 -> j2518453253;
+	j550722318 [label="Kostucha
 Śmierć",shape=box,color=blue];
-		263 -> 265;
-	264 [label="Update boolean LettieFantasma2",color=orange];
-		264 -> 266;
-	265 [label="Update boolean LettieFantasma2",color=orange];
-		265 -> 267;
-	266 [label="+5 Chemistry",color=orange];
-		266 -> 268;
-	267 [label="+5 Chemistry",color=orange];
-		267 -> 268;
-	268 [label="Darzę ją szacunkiem 
+		j550722318 -> j1616060539;
+	j2518453253 [label="Boolean LettieFantasma2 is now true.",color=orange];
+		j2518453253 -> j390884441;
+	j1616060539 [label="Boolean LettieFantasma2 is now true.",color=orange];
+		j1616060539 -> j390884441;
+	j390884441 [label="+5 Chemistry",color=orange];
+		j390884441 -> j2148577268;
+	j2148577268 [label="Darzę ją szacunkiem 
 Nawet jeśli nie zawsze ją lubię 
 Ale ona prowadzi tych, na których mi zależy",shape=box,color=blue];
-		268 -> 269;
-	269 [label="Update boolean LettieReligion1",color=orange];
-		269 -> 270;
-		269 -> 271;
-	270 [label="Jesteś medykiem. Nie powinnaś leczyć ludzi? Jak możesz \"szanować\" śmierć?",shape=box,color=red];
-		270 -> 274;
-	271 [label="Śmierć to nie osoba. To wydarzenie.",shape=box,color=red];
-		271 -> 272;
-	274 [label="Źle na to patrzysz",shape=box,color=blue];
-		274 -> 275;
-	272 [label="Va",shape=box,color=blue];
-		272 -> 273;
-	275 [label="Check boolean LettieDuviri",color=orange];
-		275 -> 276 [label=true,color=green];
-		275 -> 277 [label=false,color=brown];
-	273 [label="Chat ends.",color=orange];
-	276 [label="Za każdym razem, kiedy umierałeś 
+		j2148577268 -> j4268386380;
+	j4268386380 [label="Boolean LettieReligion1 is now true.",color=orange];
+		j4268386380 -> j3415770224;
+		j4268386380 -> j1429517869;
+	j3415770224 [label="Jesteś medykiem. Nie powinnaś leczyć ludzi? Jak możesz \"szanować\" śmierć?",shape=box,color=red];
+		j3415770224 -> j1745830309;
+	j1429517869 [label="Śmierć to nie osoba. To wydarzenie.",shape=box,color=red];
+		j1429517869 -> j2547240352;
+	j1745830309 [label="Źle na to patrzysz",shape=box,color=blue];
+		j1745830309 -> j4087927951;
+	j2547240352 [label="Va",shape=box,color=blue];
+		j2547240352 -> "Chat ends.";
+	j4087927951 [label="Check boolean LettieDuviri",color=orange];
+		j4087927951 -> j4172569601 [label=true,color=green];
+		j4087927951 -> j1849722360 [label=false,color=brown];
+	j4172569601 [label="Za każdym razem, kiedy umierałeś 
 Czy miałeś jej za złe, kiedy kończyła twoje cierpienie? 
 Jej winą było to, że cierpiałeś, czy powinieneś winić tych, którzy cię zranili",shape=box,color=blue];
-		276 -> 278;
-	277 [label="Moim zadaniem jest zapewnić, że nadejdzie we właściwym czasie 
+		j4172569601 -> j2886271078;
+	j1849722360 [label="Moim zadaniem jest zapewnić, że nadejdzie we właściwym czasie 
 Dopiero wtedy, kiedy będzie w stanie wyrwać ich z moich rąk 
 I ani chwili wcześniej",shape=box,color=blue];
-		277 -> 278;
-	278 [label="Ale kiedy zdecyduje się przybyć 
+		j1849722360 -> j2886271078;
+	j2886271078 [label="Ale kiedy zdecyduje się przybyć 
 Upewniam się, że jest mile widziana 
 Ona kończy cierpienie, babas 
 Nie należy się jej bać, tylko szanować",shape=box,color=blue];
-		278 -> 279;
-		278 -> 280;
-		278 -> 281;
-	279 [label="Kiedy byłem w Duviri i wiedziałem, że czeka mnie śmierć, czasem czułem ulgę.",shape=box,color=red];
-		279 -> 285;
-	280 [label="Część mnie to rozumie, nawet jeśli nie podoba mi się wizja śmierci.",shape=box,color=red];
-		280 -> 92;
-	281 [label="Muszę przerwać tę rozmowę.",shape=box,color=red];
-		281 -> 282;
-	285 [label="Że bez względu na to, jak bardzo będzie bolało, ciemność nadejdzie i wszystko się skończy.",shape=box,color=red];
-		285 -> 286;
-	92 [label="Hm, sí",shape=box,color=blue];
-		92 -> 284;
-	282 [label="Ay, equis, mięczaku",shape=box,color=blue];
-		282 -> 283;
-	286 [label="+10 Chemistry",color=orange];
-		286 -> 287;
-	284 [label="+5 Chemistry",color=orange];
-		284 -> 292;
-	283 [label="Chat ends.",color=orange];
-	287 [label="¿Sí, widzisz? 
+		j2886271078 -> j2398526181;
+		j2886271078 -> j1311678157;
+		j2886271078 -> j2740818027;
+	j2398526181 [label="Kiedy byłem w Duviri i wiedziałem, że czeka mnie śmierć, czasem czułem ulgę.",shape=box,color=red];
+		j2398526181 -> j2013696992;
+	j1311678157 [label="Część mnie to rozumie, nawet jeśli nie podoba mi się wizja śmierci.",shape=box,color=red];
+		j1311678157 -> j2094779226;
+	j2740818027 [label="Muszę przerwać tę rozmowę.",shape=box,color=red];
+		j2740818027 -> j1927385933;
+	j2013696992 [label="Że bez względu na to, jak bardzo będzie bolało, ciemność nadejdzie i wszystko się skończy.",shape=box,color=red];
+		j2013696992 -> j764097162;
+	j2094779226 [label="Hm, sí",shape=box,color=blue];
+		j2094779226 -> j1658182234;
+	j1927385933 [label="Ay, equis, mięczaku",shape=box,color=blue];
+		j1927385933 -> "Chat ends.";
+	j764097162 [label="+10 Chemistry",color=orange];
+		j764097162 -> j3934418853;
+	j1658182234 [label="+5 Chemistry",color=orange];
+		j1658182234 -> j3659958315;
+	j3934418853 [label="¿Sí, widzisz? 
 Kumasz",shape=box,color=blue];
-		287 -> 288;
-		287 -> 289;
-	292 [label="Dlatego ich leczę 
+		j3934418853 -> j1177230145;
+		j3934418853 -> j2467670945;
+	j3659958315 [label="Dlatego ich leczę 
 Żeby mieć pewność, że La Flaca wie, kogo zabiera 
 I żeby zabierała ich tylko wtedy, kiedy jest to konieczne 
 I nikogo więcej",shape=box,color=blue];
-		292 -> 294;
-	288 [label="Ale wiedziałem też, że wrócę.",shape=box,color=red];
-		288 -> 303;
-	289 [label="Ale to nie znaczy, że wszyscy powinni umrzeć. lol",shape=box,color=red];
-		289 -> 292;
-	294 [label="Wszyscy widzieliśmy, kiedy odbierała nam bliskich zbyt wcześniej, przez działania innych...",shape=box,color=blue];
-		294 -> 295;
-		294 -> 296;
-	303 [label="+5 Chemistry",color=orange];
-		303 -> 291;
-	295 [label="Ta.",shape=box,color=red];
-		295 -> 300;
-	296 [label="Mogę do tego wypić.",shape=box,color=red];
-		296 -> 297;
-	291 [label="A dla wierzących
+		j3659958315 -> j2371706459;
+	j1177230145 [label="Ale wiedziałem też, że wrócę.",shape=box,color=red];
+		j1177230145 -> j3949742896;
+	j2467670945 [label="Ale to nie znaczy, że wszyscy powinni umrzeć. lol",shape=box,color=red];
+		j2467670945 -> j3659958315;
+	j2371706459 [label="Wszyscy widzieliśmy, kiedy odbierała nam bliskich zbyt wcześniej, przez działania innych...",shape=box,color=blue];
+		j2371706459 -> j1986279202;
+		j2371706459 -> j3467604776;
+	j3949742896 [label="+5 Chemistry",color=orange];
+		j3949742896 -> j3677922187;
+	j1986279202 [label="Ta.",shape=box,color=red];
+		j1986279202 -> j3550584965;
+	j3467604776 [label="Mogę do tego wypić.",shape=box,color=red];
+		j3467604776 -> j3843951455;
+	j3677922187 [label="A dla wierzących
 My też
 Może nie tak dosłownie, jak ty jajaja
 Ale... teraz też jesteśmy fantasmas",shape=box,color=blue];
-		291 -> 293;
-	300 [label="Było fajnie 
+		j3677922187 -> j1824841615;
+	j3550584965 [label="Było fajnie 
 Pora wracać do pracy",shape=box,color=blue];
-		300 -> 301;
-	297 [label="+5 Chemistry",color=orange];
-		297 -> 298;
-	293 [label="Utknęliśmy w tym samym cyklu, co ty...
+		j3550584965 -> "Chat ends.";
+	j3843951455 [label="+5 Chemistry",color=orange];
+		j3843951455 -> j792958072;
+	j1824841615 [label="Utknęliśmy w tym samym cyklu, co ty...
 Poza zasięgiem Mictlána",shape=box,color=blue];
-		293 -> 302;
-	301 [label="Chat ends.",color=orange];
-	298 [label="Sí",shape=box,color=blue];
-		298 -> 299;
-	302 [label="Muszę wrócić do roboty",shape=box,color=blue];
-		302 -> 304;
-	299 [label="Chat ends.",color=orange];
-	304 [label="Chat ends.",color=orange];
+		j1824841615 -> j1173838487;
+	j792958072 [label="Sí",shape=box,color=blue];
+		j792958072 -> "Chat ends.";
+	j1173838487 [label="Muszę wrócić do roboty",shape=box,color=blue];
+		j1173838487 -> "Chat ends.";
 }

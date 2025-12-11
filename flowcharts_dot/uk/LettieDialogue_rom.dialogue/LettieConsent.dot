@@ -1,104 +1,98 @@
 digraph {
-	2778 [label="LettieConsent begins.",color=orange];
-		2778 -> 2779;
-	2779 [label="Check boolean LettieDating",color=orange];
-		2779 -> 2780 [label=true,color=green];
-		2779 -> 2781 [label=false,color=brown];
-	2780 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
-		2780 -> 2782 [label=true,color=green];
-		2780 -> 2814 [label=false,color=brown];
-	2781 [label="Chat ends.",color=orange];
-	2782 [label="Check boolean LettieConsentComplete",color=orange];
-		2782 -> 2786 [label=true,color=green];
-		2782 -> 2785 [label=false,color=brown];
-		2782 -> 2784 [label=false,color=brown];
-	2814 [label="Check boolean LettiePolyamorySuccess",color=orange];
-		2814 -> 2782 [label=true,color=green];
-		2814 -> 2783 [label=false,color=brown];
-	2786 [label="Chat ends.",color=orange];
-	2785 [label="Привітик, Летті. Зайнята? [Спитати про згоду на кількох партнерів]",shape=box,color=red];
-		2785 -> 2788;
-	2784 [label="[Завершити розмову]",shape=box,color=red];
-		2784 -> 2787;
-	2783 [label="Chat ends.",color=orange];
-	2788 [label="Завжди
+	"LettieConsent begins." [color=orange];
+		"LettieConsent begins." -> j3391836344;
+	j3391836344 [label="Check boolean LettieDating",color=orange];
+		j3391836344 -> j2165669047 [label=true,color=green];
+		j3391836344 -> "Chat ends." [label=false,color=brown];
+	j2165669047 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
+		j2165669047 -> j2985555336 [label=true,color=green];
+		j2165669047 -> j4172583155 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2985555336 [label="Check boolean LettieConsentComplete",color=orange];
+		j2985555336 -> "Chat ends." [label=true,color=green];
+		j2985555336 -> j2735428637 [label=false,color=brown];
+		j2985555336 -> j1759791336 [label=false,color=brown];
+	j4172583155 [label="Check boolean LettiePolyamorySuccess",color=orange];
+		j4172583155 -> j2985555336 [label=true,color=green];
+		j4172583155 -> "Chat ends." [label=false,color=brown];
+	j2735428637 [label="Привітик, Летті. Зайнята? [Спитати про згоду на кількох партнерів]",shape=box,color=red];
+		j2735428637 -> j1537039889;
+	j1759791336 [label="[Завершити розмову]",shape=box,color=red];
+		j1759791336 -> j3702107533;
+	j1537039889 [label="Завжди
 але не для тебе
 ¿Qué?",shape=box,color=blue];
-		2788 -> 2790;
-	2787 [label="Update boolean LettieConsentComplete",color=orange];
-		2787 -> 2789;
-	2790 [label="Хочу обговорити з тобою дещо, дізнатися, чи ти не проти.",shape=box,color=red];
-		2790 -> 2791;
-	2789 [label="Chat ends.",color=orange];
-	2791 [label="Я не хочу, щоб у тебе була думка, що я брешу чи якось нечесно поводжуся.",shape=box,color=red];
-		2791 -> 2792;
-		2791 -> 2793;
-		2791 -> 2794;
-	2792 [label="Тільки не бий.",shape=box,color=red];
-		2792 -> 2795;
-	2793 [label="Тільки не казися.",shape=box,color=red];
-		2793 -> 2796;
-	2794 [label="Сподіваюся, ти зрозумієш.",shape=box,color=red];
-		2794 -> 2797;
-	2795 [label="Jajajajaj
+		j1537039889 -> j1633440357;
+	j3702107533 [label="Boolean LettieConsentComplete is now true.",color=orange];
+		j3702107533 -> "Chat ends.";
+	j1633440357 [label="Хочу обговорити з тобою дещо, дізнатися, чи ти не проти.",shape=box,color=red];
+		j1633440357 -> j1929151681;
+	j1929151681 [label="Я не хочу, щоб у тебе була думка, що я брешу чи якось нечесно поводжуся.",shape=box,color=red];
+		j1929151681 -> j3409636707;
+		j1929151681 -> j1159669199;
+		j1929151681 -> j696144941;
+	j3409636707 [label="Тільки не бий.",shape=box,color=red];
+		j3409636707 -> j8486771;
+	j1159669199 [label="Тільки не казися.",shape=box,color=red];
+		j1159669199 -> j3734674029;
+	j696144941 [label="Сподіваюся, ти зрозумієш.",shape=box,color=red];
+		j696144941 -> j2227540667;
+	j8486771 [label="Jajajajaj
 ми ж це обговорили
 Я роблю боляче тільки так, щоб тобі подобалося
 Викладуй, про що ти взагалі",shape=box,color=blue];
-		2795 -> 2798;
-	2796 [label="¿Sí?
+		j8486771 -> j1337299854;
+	j3734674029 [label="¿Sí?
 І від чого я маю казитися?",shape=box,color=blue];
-		2796 -> 2798;
-	2797 [label="¿Sí?
+		j3734674029 -> j1337299854;
+	j2227540667 [label="¿Sí?
 І що я маю зрозуміти?",shape=box,color=blue];
-		2797 -> 2798;
-	2798 [label="Не хочу ставити тебе в незручне становище. Ми раніше цього не обговорювали. Тож якщо відмовиш, то це нічого. Просто хочу, щоб ти знала.",shape=box,color=red];
-		2798 -> 2799;
-	2799 [label="Те, що в нас є, важливе для мене — дуже-дуже. І воно реальне. Я не хочу, щоб ти сумнівалася в цьому.",shape=box,color=red];
-		2799 -> 2800;
-	2800 [label="Aah, entiendo...
+		j2227540667 -> j1337299854;
+	j1337299854 [label="Не хочу ставити тебе в незручне становище. Ми раніше цього не обговорювали. Тож якщо відмовиш, то це нічого. Просто хочу, щоб ти знала.",shape=box,color=red];
+		j1337299854 -> j3070640872;
+	j3070640872 [label="Те, що в нас є, важливе для мене — дуже-дуже. І воно реальне. Я не хочу, щоб ти сумнівалася в цьому.",shape=box,color=red];
+		j3070640872 -> j1241452804;
+	j1241452804 [label="Aah, entiendo...
 думаю маю право спитати
 Ця особа тобі дійсно небайдужа, solecito?
 ¿Quiénes son?",shape=box,color=blue];
-		2800 -> 2801;
-		2800 -> 2802;
-	2801 [label="Так, але ти мені теж дуже небайдужа.",shape=box,color=red];
-		2801 -> 2803;
-	2802 [label="Треба було здогадатися, що ти миттєво зрозумієш що до чого.",shape=box,color=red];
-		2802 -> 2804;
-	2803 [label="Ay, sí
+		j1241452804 -> j953941514;
+		j1241452804 -> j2408858143;
+	j953941514 [label="Так, але ти мені теж дуже небайдужа.",shape=box,color=red];
+		j953941514 -> j2220830141;
+	j2408858143 [label="Треба було здогадатися, що ти миттєво зрозумієш що до чого.",shape=box,color=red];
+		j2408858143 -> j352991604;
+	j2220830141 [label="Ay, sí
 Складно тебе винити, коли ти стільки різного бачиш
 буваєш у стількох різних місцях
 мене все влаштовує",shape=box,color=blue];
-		2803 -> 2805;
-	2804 [label="Я змахлювала
+		j2220830141 -> j1493736253;
+	j352991604 [label="Я змахлювала
 Елеонора попередила мене
 Jajaja вона страшенна пліткарка",shape=box,color=blue];
-		2804 -> 2806;
-	2805 [label="Але це мають бути не прокльонівці
+		j352991604 -> j606789921;
+	j1493736253 [label="Але це мають бути не прокльонівці
 Mi familia no, ¿por favor?
 мені б довелося тиждень до крові витиратися антисептичними серветками",shape=box,color=blue];
-		2805 -> 2807;
-	2806 [label="Складно тебе винити, коли ти стільки різного бачиш
+		j1493736253 -> j987113152;
+	j606789921 [label="Складно тебе винити, коли ти стільки різного бачиш
 буваєш у стількох різних місцях
 мене все влаштовує",shape=box,color=blue];
-		2806 -> 2805;
-	2807 [label="+20 Chemistry",color=orange];
-		2807 -> 2808;
-	2808 [label="Ти ж знаєш про свою виняткову важливість для мене, solecito
+		j606789921 -> j1493736253;
+	j987113152 [label="+20 Chemistry",color=orange];
+		j987113152 -> j3031978167;
+	j3031978167 [label="Ти ж знаєш про свою виняткову важливість для мене, solecito
 І якщо ще хтось додає тобі щастя?
 То я теж від цього щаслива
 Усе просто",shape=box,color=blue];
-		2808 -> 2809;
-	2809 [label="І ще дещо
+		j3031978167 -> j3122847443;
+	j3122847443 [label="І ще дещо
 Знайди спосіб якогось дня звести нас разом
 дуже хочеться познайомитися",shape=box,color=blue];
-		2809 -> 2810;
-		2809 -> 2811;
-	2810 [label="Так, пані :)",shape=box,color=red];
-		2810 -> 2812;
-	2811 [label="Подивлюся, що зможу зробити.",shape=box,color=red];
-		2811 -> 2812;
-	2812 [label="Update boolean LettieConsentComplete",color=orange];
-		2812 -> 2813;
-	2813 [label="Chat ends.",color=orange];
+		j3122847443 -> j558804786;
+		j3122847443 -> j120349412;
+	j558804786 [label="Так, пані :)",shape=box,color=red];
+		j558804786 -> j3702107533;
+	j120349412 [label="Подивлюся, що зможу зробити.",shape=box,color=red];
+		j120349412 -> j3702107533;
 }

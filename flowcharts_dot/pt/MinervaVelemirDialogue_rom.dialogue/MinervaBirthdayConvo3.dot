@@ -1,19 +1,18 @@
 digraph {
-	1789 [label="MinervaBirthdayConvo3 begins.",color=orange];
-		1789 -> 1790;
-		1789 -> 1791;
-	1790 [label="Será que eu posso te desejar um feliz aniversário? Ou isso se enquadra em informação confidencial?",shape=box,color=red];
-		1790 -> 1792;
-	1791 [label="Então, hoje é seu aniversário de verdade? Ou é só uma data falsa, como seu nome de usuário falso e outras coisas de espionagem?",shape=box,color=red];
-		1791 -> 1793;
-	1792 [label="+20 Chemistry",color=orange];
-		1792 -> 1794;
-	1793 [label="MomToxicated: Isso é confidencial",shape=box,color=blue];
-		1793 -> 1795;
-	1794 [label="MomToxicated: Hahaha se é que hoje é mesmo meu aniversário ;) ",shape=box,color=blue];
-		1794 -> 1796;
-	1795 [label="Chat ends.",color=orange];
-	1796 [label="MomToxicated: Obrigada",shape=box,color=blue];
-		1796 -> 1797;
-	1797 [label="Chat ends.",color=orange];
+	"MinervaBirthdayConvo3 begins." [color=orange];
+		"MinervaBirthdayConvo3 begins." -> j3205542179;
+		"MinervaBirthdayConvo3 begins." -> j274321031;
+	j3205542179 [label="Será que eu posso te desejar um feliz aniversário? Ou isso se enquadra em informação confidencial?",shape=box,color=red];
+		j3205542179 -> j3001903958;
+	j274321031 [label="Então, hoje é seu aniversário de verdade? Ou é só uma data falsa, como seu nome de usuário falso e outras coisas de espionagem?",shape=box,color=red];
+		j274321031 -> j1777293432;
+	j3001903958 [label="+20 Chemistry",color=orange];
+		j3001903958 -> j2038416843;
+	j1777293432 [label="MomToxicated: Isso é confidencial",shape=box,color=blue];
+		j1777293432 -> "Chat ends.";
+	j2038416843 [label="MomToxicated: Hahaha se é que hoje é mesmo meu aniversário ;) ",shape=box,color=blue];
+		j2038416843 -> j797919797;
+	"Chat ends." [color=orange];
+	j797919797 [label="MomToxicated: Obrigada",shape=box,color=blue];
+		j797919797 -> "Chat ends.";
 }

@@ -1,21 +1,16 @@
 digraph {
-	3533 [label="QuincyBirthdayConvo2 begins.",color=orange];
-		3533 -> 3543;
-		3533 -> 3546;
-	3543 [label="Hey Quincy! Arthur'u doğum günün için bir gece izin vermeye ikna ettim.",shape=box,color=red];
-		3543 -> 3544;
-	3546 [label="Doğum günün kutlu olsun, bu gece iyi nöbetler, Quincy.",shape=box,color=red];
-		3546 -> 3548;
-	3544 [label="+20 Chemistry",color=orange];
-		3544 -> 3542;
-	3548 [label="evet doğum günümde çatıya çıkıp eriklerimi dondurmayı seviyorum, tşkrlr",shape=box,color=blue];
-		3548 -> 3169;
-	3542 [label="harikaaaaa, sen en iyisisin dostum",shape=box,color=blue];
-		3542 -> 3135;
-	3169 [label="{\"Id\":3169,\"Incoming\":[3548],\"Outgoing\":[3547],\"GraphPos\":[1150,-4494],\"CompletionType\":1}",color=orange];
-		3169 -> 3547;
-	3135 [label="{\"Id\":3135,\"Incoming\":[3542],\"Outgoing\":[3545],\"GraphPos\":[1492,-4648],\"CompletionType\":1}",color=orange];
-		3135 -> 3545;
-	3547 [label="Chat ends.",color=orange];
-	3545 [label="Chat ends.",color=orange];
+	"QuincyBirthdayConvo2 begins." [color=orange];
+		"QuincyBirthdayConvo2 begins." -> j4192705637;
+		"QuincyBirthdayConvo2 begins." -> j1337557654;
+	j4192705637 [label="Hey Quincy! Arthur'u doğum günün için bir gece izin vermeye ikna ettim.",shape=box,color=red];
+		j4192705637 -> j3913729009;
+	j1337557654 [label="Doğum günün kutlu olsun, bu gece iyi nöbetler, Quincy.",shape=box,color=red];
+		j1337557654 -> j540188220;
+	j3913729009 [label="+20 Chemistry",color=orange];
+		j3913729009 -> j1176852578;
+	j540188220 [label="evet doğum günümde çatıya çıkıp eriklerimi dondurmayı seviyorum, tşkrlr",shape=box,color=blue];
+		j540188220 -> "Chat ends.";
+	j1176852578 [label="harikaaaaa, sen en iyisisin dostum",shape=box,color=blue];
+		j1176852578 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

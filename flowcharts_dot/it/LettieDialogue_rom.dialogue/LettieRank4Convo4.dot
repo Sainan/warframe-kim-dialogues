@@ -1,92 +1,88 @@
 digraph {
-	1203 [label="LettieRank4Convo4 begins.",color=orange];
-		1203 -> 1204;
-	1204 [label="Check boolean LettieNoFlirt",color=orange];
-		1204 -> 1205 [label=true,color=green];
-		1204 -> 1206 [label=false,color=brown];
-	1205 [label="Chat ends.",color=orange];
-	1206 [label="Domanda ipotetica: se volessi invitarti a bere qualcosa, finirei con dei punti di sutura?",shape=box,color=red];
-		1206 -> 1207;
-	1207 [label="Check boolean LettieNoDate",color=orange];
-		1207 -> 1208 [label=true,color=green];
-		1207 -> 1210 [label=false,color=brown];
-	1208 [label="Sí 
+	"LettieRank4Convo4 begins." [color=orange];
+		"LettieRank4Convo4 begins." -> j1158339480;
+	j1158339480 [label="Check boolean LettieNoFlirt",color=orange];
+		j1158339480 -> "Chat ends." [label=true,color=green];
+		j1158339480 -> j4004254288 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j4004254288 [label="Domanda ipotetica: se volessi invitarti a bere qualcosa, finirei con dei punti di sutura?",shape=box,color=red];
+		j4004254288 -> j3741727461;
+	j3741727461 [label="Check boolean LettieNoDate",color=orange];
+		j3741727461 -> j91881325 [label=true,color=green];
+		j3741727461 -> j2186177620 [label=false,color=brown];
+	j91881325 [label="Sí 
 Ovvio",shape=box,color=blue];
-		1208 -> 1209;
-	1210 [label="Mm? 
+		j91881325 -> "Chat ends.";
+	j2186177620 [label="Mm? 
 Jajaja, no",shape=box,color=blue];
-		1210 -> 1211;
-	1209 [label="Chat ends.",color=orange];
-	1211 [label="Ma non bevo, non l'ho mai fatto 
+		j2186177620 -> j100557173;
+	j100557173 [label="Ma non bevo, non l'ho mai fatto 
 Non mi drogo 
 Dovrai essere più creativo per slacciarmi i pantaloni 
 O qualunque cosa io debba indossare ora",shape=box,color=blue];
-		1211 -> 1212;
-		1211 -> 1213;
-	1212 [label="Buono a sapersi. :) Hai qualche suggerimento su cosa posso fare per conquistarti?",shape=box,color=red];
-		1212 -> 1215;
-	1213 [label="A tal proposito, perdonami... Volevo chiederti...",shape=box,color=red];
-		1213 -> 1216;
-	1215 [label="Dovresti solo essere davvero certo di sapere cosa stai facendo, babas 
+		j100557173 -> j3673697306;
+		j100557173 -> j2052364403;
+	j3673697306 [label="Buono a sapersi. :) Hai qualche suggerimento su cosa posso fare per conquistarti?",shape=box,color=red];
+		j3673697306 -> j1260137951;
+	j2052364403 [label="A tal proposito, perdonami... Volevo chiederti...",shape=box,color=red];
+		j2052364403 -> j557481327;
+	j1260137951 [label="Dovresti solo essere davvero certo di sapere cosa stai facendo, babas 
 Se ti piace la dolcezza e la gentilezza, vai a parlare con Aoi o Amir 
 Sono troppo abituata al dolore e mi piace troppo per quel genere di cose",shape=box,color=blue];
-		1215 -> 1225;
-		1215 -> 1226;
-	1216 [label="¿Qué?",shape=box,color=blue];
-		1216 -> 1217;
-		1216 -> 1218;
-	1225 [label="Sissignora. Considerami avvertito.",shape=box,color=red];
-		1225 -> 1227;
-	1226 [label="Uhm... Beh, non importa. Il dolore non fa per me.",shape=box,color=red];
-		1226 -> 1232;
-	1217 [label="Ero curioso di sapere se tu e gli altri protoframe avevate ancora... insomma... le vostre... capisci... parti...",shape=box,color=red];
-		1217 -> 1219;
-	1218 [label="Uh - Lascia perdere.",shape=box,color=red];
-		1218 -> 1220;
-	1227 [label="Update boolean LettiePain",color=orange];
-		1227 -> 1231;
-	1232 [label="+15 Chemistry",color=orange];
-		1232 -> 1229;
-	1219 [label="JAJAJAJAJA 
+		j1260137951 -> j1902355267;
+		j1260137951 -> j1548511450;
+	j557481327 [label="¿Qué?",shape=box,color=blue];
+		j557481327 -> j1378871594;
+		j557481327 -> j1494269284;
+	j1902355267 [label="Sissignora. Considerami avvertito.",shape=box,color=red];
+		j1902355267 -> j3190574288;
+	j1548511450 [label="Uhm... Beh, non importa. Il dolore non fa per me.",shape=box,color=red];
+		j1548511450 -> j428500399;
+	j1378871594 [label="Ero curioso di sapere se tu e gli altri protoframe avevate ancora... insomma... le vostre... capisci... parti...",shape=box,color=red];
+		j1378871594 -> j2116746144;
+	j1494269284 [label="Uh - Lascia perdere.",shape=box,color=red];
+		j1494269284 -> j128914939;
+	j3190574288 [label="Boolean LettiePain is now true.",color=orange];
+		j3190574288 -> j1299410903;
+	j428500399 [label="+15 Chemistry",color=orange];
+		j428500399 -> j453347155;
+	j2116746144 [label="JAJAJAJAJA 
 Stai scherzando?! 
 Non puoi CHIEDERE alle persone queste - 
 Aaaay babaaaaassss Non ridevo così tanto da mooooolto tempo",shape=box,color=blue];
-		1219 -> 1222;
-		1219 -> 1223;
-	1220 [label="Va 
+		j2116746144 -> j3429537063;
+		j2116746144 -> j3901059906;
+	j128914939 [label="Va 
  Tanto sono occupata",shape=box,color=blue];
-		1220 -> 1221;
-	1231 [label="+20 Chemistry",color=orange];
-		1231 -> 1230;
-	1229 [label="Bueno 
+		j128914939 -> "Chat ends.";
+	j1299410903 [label="+20 Chemistry",color=orange];
+		j1299410903 -> j2670997224;
+	j453347155 [label="Bueno 
 Meglio così 
 Fammi pure sapere se cambi idea",shape=box,color=blue];
-		1229 -> 1228;
-	1222 [label="Mi dispiace.",shape=box,color=red];
-		1222 -> 1224;
-	1223 [label="Ehm... beh? Allora?",shape=box,color=red];
-		1223 -> 1224;
-	1221 [label="Chat ends.",color=orange];
-	1230 [label="Mm, sì? 
+		j453347155 -> j2281292940;
+	j3429537063 [label="Mi dispiace.",shape=box,color=red];
+		j3429537063 -> j636577691;
+	j3901059906 [label="Ehm... beh? Allora?",shape=box,color=red];
+		j3901059906 -> j636577691;
+	j2670997224 [label="Mm, sì? 
 Pensi di potercela fare, vero? 
 Vedremo",shape=box,color=blue];
-		1230 -> 1233;
-	1228 [label="Update boolean LettieNoPain",color=orange];
-		1228 -> 1234;
-	1224 [label="Sai cosa
+		j2670997224 -> j3174307172;
+	j2281292940 [label="Boolean LettieNoPain is now true.",color=orange];
+		j2281292940 -> j3765615207;
+	j636577691 [label="Sai cosa
 Forse se sei un bravo piccolo babas 
 Potresti scoprirlo, mm? 
 Ti avverto solo 
 Se ti piace la dolcezza e la gentilezza vai a parlare con Aoi o Amir 
 Sono troppo abituata al dolore e mi piacciono troppo per quel genere di cose",shape=box,color=blue];
-		1224 -> 1225;
-		1224 -> 1226;
-	1233 [label="Ora vete 
+		j636577691 -> j1902355267;
+		j636577691 -> j1548511450;
+	j3174307172 [label="Ora vete 
 Non posso stare a sognare ad occhi aperti quando ho del lavoro da fare",shape=box,color=blue];
-		1233 -> 1235;
-	1234 [label="Adesso vete 
+		j3174307172 -> "Chat ends.";
+	j3765615207 [label="Adesso vete 
 Ho del lavoro da fare",shape=box,color=blue];
-		1234 -> 1236;
-	1235 [label="Chat ends.",color=orange];
-	1236 [label="Chat ends.",color=orange];
+		j3765615207 -> "Chat ends.";
 }

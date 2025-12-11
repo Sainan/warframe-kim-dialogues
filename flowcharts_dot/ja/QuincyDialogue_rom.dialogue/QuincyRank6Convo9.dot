@@ -1,13 +1,13 @@
 digraph {
-	3886 [label="QuincyRank6Convo9 begins.",color=orange];
-		3886 -> 3887;
-	3887 [label="amirの作るブツは絶対飲むな",shape=box,color=blue];
-		3887 -> 3888;
-	3888 [label="あれマジヤバいわ",shape=box,color=blue];
-		3888 -> 3889;
-	3889 [label="アイツ落ち着くためにアレ飲むってガチかよ？！",shape=box,color=blue];
-		3889 -> 3890;
-	3890 [label="ブロック一周しに行くわアイツがじっとしてらんないのも当然だクソがっっ",shape=box,color=blue];
-		3890 -> 3891;
-	3891 [label="Chat ends.",color=orange];
+	"QuincyRank6Convo9 begins." [color=orange];
+		"QuincyRank6Convo9 begins." -> j151997380;
+	j151997380 [label="amirの作るブツは絶対飲むな",shape=box,color=blue];
+		j151997380 -> j2736146460;
+	j2736146460 [label="あれマジヤバいわ",shape=box,color=blue];
+		j2736146460 -> j2376054046;
+	j2376054046 [label="アイツ落ち着くためにアレ飲むってガチかよ？！",shape=box,color=blue];
+		j2376054046 -> j2729091000;
+	j2729091000 [label="ブロック一周しに行くわアイツがじっとしてらんないのも当然だクソがっっ",shape=box,color=blue];
+		j2729091000 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

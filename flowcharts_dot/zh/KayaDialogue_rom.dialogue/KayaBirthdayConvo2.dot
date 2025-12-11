@@ -1,17 +1,16 @@
 digraph {
-	992 [label="KayaBirthdayConvo2 begins.",color=orange];
-		992 -> 1001;
-		992 -> 1002;
-	1001 [label="生日快乐，卡娅。今天在准备一场“终身难忘的派对”吗？气球？饰带？还有其他所有派对必备品？",shape=box,color=red];
-		1001 -> 991;
-	1002 [label="你今天有什么生日计划吗？",shape=box,color=red];
-		1002 -> 1008;
-	991 [label="呃。额，不。我可不会玩那种小孩的玩意。",shape=box,color=blue];
-		991 -> 990;
-	1008 [label="+20 Chemistry",color=orange];
-		1008 -> 1009;
-	990 [label="Chat ends.",color=orange];
-	1009 [label="有吧。莱蒂会向我展示如何解剖一具尸体，是不是很酷？！",shape=box,color=blue];
-		1009 -> 1010;
-	1010 [label="Chat ends.",color=orange];
+	"KayaBirthdayConvo2 begins." [color=orange];
+		"KayaBirthdayConvo2 begins." -> j3976157133;
+		"KayaBirthdayConvo2 begins." -> j2149816560;
+	j3976157133 [label="生日快乐，卡娅。今天在准备一场“终身难忘的派对”吗？气球？饰带？还有其他所有派对必备品？",shape=box,color=red];
+		j3976157133 -> j566235320;
+	j2149816560 [label="你今天有什么生日计划吗？",shape=box,color=red];
+		j2149816560 -> j2188295853;
+	j566235320 [label="呃。额，不。我可不会玩那种小孩的玩意。",shape=box,color=blue];
+		j566235320 -> "Chat ends.";
+	j2188295853 [label="+20 Chemistry",color=orange];
+		j2188295853 -> j3799381985;
+	"Chat ends." [color=orange];
+	j3799381985 [label="有吧。莱蒂会向我展示如何解剖一具尸体，是不是很酷？！",shape=box,color=blue];
+		j3799381985 -> "Chat ends.";
 }

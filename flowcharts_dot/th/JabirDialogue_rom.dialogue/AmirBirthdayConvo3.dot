@@ -1,21 +1,16 @@
 digraph {
-	3580 [label="AmirBirthdayConvo3 begins.",color=orange];
-		3580 -> 3585;
-		3580 -> 3586;
-	3585 [label="หวัดดี Amir สุขสันต์วันเกิดนะ บี๊บ บลู๊ป หรืออะไรก็ช่าง",shape=box,color=red];
-		3585 -> 3584;
-	3586 [label="สวัสดี AMIR ขอแสดงความยินดีในวันครบรอบการเริ่มต้นชีวิต",shape=box,color=red];
-		3586 -> 3587;
-	3584 [label="amir ไม่อยู่ที่นี่ในขณะนี้ นี่เป็นโปรแกรมไฟร์วอลล์อันชาญฉลาดที่ amir เขียนขึ้นเพื่อกรองคำอวยพรวันเกิดที่ไม่จริงใจออกไป โอ้ ดูสิ มีอยู่ข้อความหนึ่ง",shape=box,color=blue];
-		3584 -> 3598;
-	3587 [label="+20 Chemistry",color=orange];
-		3587 -> 3583;
-	3598 [label="{\"Id\":3598,\"Incoming\":[3584],\"Outgoing\":[3581],\"GraphPos\":[-14748,-20693],\"CompletionType\":1}",color=orange];
-		3598 -> 3581;
-	3583 [label="ขอกล่าวแสดงความขอบคุณอย่างสุดซึ้งและซาบซึ้งที่เหมาะสมทางวัฒนธรรม",shape=box,color=blue];
-		3583 -> 3599;
-	3581 [label="Chat ends.",color=orange];
-	3599 [label="{\"Id\":3599,\"Incoming\":[3583],\"Outgoing\":[3582],\"GraphPos\":[-14347,-20820],\"CompletionType\":1}",color=orange];
-		3599 -> 3582;
-	3582 [label="Chat ends.",color=orange];
+	"AmirBirthdayConvo3 begins." [color=orange];
+		"AmirBirthdayConvo3 begins." -> j2073705047;
+		"AmirBirthdayConvo3 begins." -> j3346569192;
+	j2073705047 [label="หวัดดี Amir สุขสันต์วันเกิดนะ บี๊บ บลู๊ป หรืออะไรก็ช่าง",shape=box,color=red];
+		j2073705047 -> j430225726;
+	j3346569192 [label="สวัสดี AMIR ขอแสดงความยินดีในวันครบรอบการเริ่มต้นชีวิต",shape=box,color=red];
+		j3346569192 -> j775895323;
+	j430225726 [label="amir ไม่อยู่ที่นี่ในขณะนี้ นี่เป็นโปรแกรมไฟร์วอลล์อันชาญฉลาดที่ amir เขียนขึ้นเพื่อกรองคำอวยพรวันเกิดที่ไม่จริงใจออกไป โอ้ ดูสิ มีอยู่ข้อความหนึ่ง",shape=box,color=blue];
+		j430225726 -> "Chat ends.";
+	j775895323 [label="+20 Chemistry",color=orange];
+		j775895323 -> j2504139372;
+	"Chat ends." [color=orange];
+	j2504139372 [label="ขอกล่าวแสดงความขอบคุณอย่างสุดซึ้งและซาบซึ้งที่เหมาะสมทางวัฒนธรรม",shape=box,color=blue];
+		j2504139372 -> "Chat ends.";
 }

@@ -1,14 +1,14 @@
 digraph {
-	2750 [label="LettieRank6Convo10 begins.",color=orange];
-		2750 -> 2751;
-	2751 [label="Hey
+	"LettieRank6Convo10 begins." [color=orange];
+		"LettieRank6Convo10 begins." -> j1981535103;
+	j1981535103 [label="Hey
 Eğer ben ve Eleanor ile barda yaşananlar hakkında
 Söylentiler duyarsan",shape=box,color=blue];
-		2751 -> 2752;
-	2752 [label="Hepsi
+		j1981535103 -> j2680788841;
+	j2680788841 [label="Hepsi
 Yalan",shape=box,color=blue];
-		2752 -> 2575;
-	2575 [label="Update boolean LettieEleanorBar",color=orange];
-		2575 -> 2753;
-	2753 [label="Chat ends.",color=orange];
+		j2680788841 -> j476615613;
+	j476615613 [label="Boolean LettieEleanorBar is now true.",color=orange];
+		j476615613 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

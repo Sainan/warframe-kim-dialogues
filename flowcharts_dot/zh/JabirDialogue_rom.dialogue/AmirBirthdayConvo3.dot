@@ -1,21 +1,16 @@
 digraph {
-	3580 [label="AmirBirthdayConvo3 begins.",color=orange];
-		3580 -> 3585;
-		3580 -> 3586;
-	3585 [label="嗨，阿米尔。生日快乐。哔哔哔或者什么的。",shape=box,color=red];
-		3585 -> 3584;
-	3586 [label="致以问候，阿米尔，祝你存在纪念日快乐",shape=box,color=red];
-		3586 -> 3587;
-	3584 [label="阿米尔现在不在，这是他编写的一个智能防火墙程序，用来过滤掉不真诚的生日祝福，哦看，这里就有一个",shape=box,color=blue];
-		3584 -> 3598;
-	3587 [label="+20 Chemistry",color=orange];
-		3587 -> 3583;
-	3598 [label="{\"Id\":3598,\"Incoming\":[3584],\"Outgoing\":[3581],\"GraphPos\":[-14748,-20693],\"CompletionType\":1}",color=orange];
-		3598 -> 3581;
-	3583 [label="致以符合文化习俗的深切谢意与真挚感激！",shape=box,color=blue];
-		3583 -> 3599;
-	3581 [label="Chat ends.",color=orange];
-	3599 [label="{\"Id\":3599,\"Incoming\":[3583],\"Outgoing\":[3582],\"GraphPos\":[-14347,-20820],\"CompletionType\":1}",color=orange];
-		3599 -> 3582;
-	3582 [label="Chat ends.",color=orange];
+	"AmirBirthdayConvo3 begins." [color=orange];
+		"AmirBirthdayConvo3 begins." -> j3206735890;
+		"AmirBirthdayConvo3 begins." -> j452167536;
+	j3206735890 [label="嗨，阿米尔。生日快乐。哔哔哔或者什么的。",shape=box,color=red];
+		j3206735890 -> j1652333648;
+	j452167536 [label="致以问候，阿米尔，祝你存在纪念日快乐",shape=box,color=red];
+		j452167536 -> j2848326989;
+	j1652333648 [label="阿米尔现在不在，这是他编写的一个智能防火墙程序，用来过滤掉不真诚的生日祝福，哦看，这里就有一个",shape=box,color=blue];
+		j1652333648 -> "Chat ends.";
+	j2848326989 [label="+20 Chemistry",color=orange];
+		j2848326989 -> j1493876407;
+	"Chat ends." [color=orange];
+	j1493876407 [label="致以符合文化习俗的深切谢意与真挚感激！",shape=box,color=blue];
+		j1493876407 -> "Chat ends.";
 }

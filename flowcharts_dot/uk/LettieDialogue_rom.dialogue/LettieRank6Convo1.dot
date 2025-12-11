@@ -1,225 +1,214 @@
 digraph {
-	2389 [label="LettieRank6Convo1 begins.",color=orange];
-		2389 -> 2390;
-	2390 [label="Check boolean LettieDating",color=orange];
-		2390 -> 2391 [label=true,color=green];
-		2390 -> 2394 [label=false,color=brown];
-	2391 [label="Check boolean LettieReal",color=orange];
-		2391 -> 2392 [label=true,color=green];
-		2391 -> 2393 [label=false,color=brown];
-	2394 [label="Друзяко
+	"LettieRank6Convo1 begins." [color=orange];
+		"LettieRank6Convo1 begins." -> j2452349781;
+	j2452349781 [label="Check boolean LettieDating",color=orange];
+		j2452349781 -> j2676259319 [label=true,color=green];
+		j2452349781 -> j2235831559 [label=false,color=brown];
+	j2676259319 [label="Check boolean LettieReal",color=orange];
+		j2676259319 -> j387063007 [label=true,color=green];
+		j2676259319 -> j654902596 [label=false,color=brown];
+	j2235831559 [label="Друзяко
 Я маю тобі дещо сказати",shape=box,color=blue];
-		2394 -> 2396;
-		2394 -> 2397;
-		2394 -> 2398;
-	2392 [label="Mi corazón 
+		j2235831559 -> j2660486848;
+		j2235831559 -> j1210583621;
+		j2235831559 -> j2195693653;
+	j387063007 [label="Mi corazón 
 Я маю тобі дещо сказати",shape=box,color=blue];
-		2392 -> 2395;
-		2392 -> 2396;
-		2392 -> 2397;
-		2392 -> 2398;
-	2393 [label="Mi solecito 
+		j387063007 -> j708529671;
+		j387063007 -> j2660486848;
+		j387063007 -> j1210583621;
+		j387063007 -> j2195693653;
+	j654902596 [label="Mi solecito 
 Я маю тобі дещо сказати",shape=box,color=blue];
-		2393 -> 2395;
-		2393 -> 2396;
-		2393 -> 2397;
-		2393 -> 2398;
-	2396 [label="Що трапилося, Л?",shape=box,color=red];
-		2396 -> 2401;
-	2397 [label="О… гм…",shape=box,color=red];
-		2397 -> 2400;
-	2398 [label="Вибач, Калимос погризла шнур живлення, і… [Завершити розмову]",shape=box,color=red];
-		2398 -> 2399;
-	2395 [label="Кажи, маленька?",shape=box,color=red];
-		2395 -> 2401;
-	2401 [label="З першого твого візиту сюди
+		j654902596 -> j708529671;
+		j654902596 -> j2660486848;
+		j654902596 -> j1210583621;
+		j654902596 -> j2195693653;
+	j2660486848 [label="Що трапилося, Л?",shape=box,color=red];
+		j2660486848 -> j3904595501;
+	j1210583621 [label="О… гм…",shape=box,color=red];
+		j1210583621 -> j110647738;
+	j2195693653 [label="Вибач, Калимос погризла шнур живлення, і… [Завершити розмову]",shape=box,color=red];
+		j2195693653 -> "Chat ends.";
+	j708529671 [label="Кажи, маленька?",shape=box,color=red];
+		j708529671 -> j3904595501;
+	j3904595501 [label="З першого твого візиту сюди
 Я знала, що з тобою будуть проблеми
 Ти нова, колосальна проблема серед нашої нескінченної купи mierda",shape=box,color=blue];
-		2401 -> 2402;
-		2401 -> 2403;
-	2400 [label="Jajaja просто слухай",shape=box,color=blue];
-		2400 -> 2401;
-	2399 [label="Chat ends.",color=orange];
-	2402 [label="Ги, ну дяка.",shape=box,color=red];
-		2402 -> 2404;
-	2403 [label="Ну це так… звичайно, але…",shape=box,color=red];
-		2403 -> 2404;
-	2404 [label="Потім усе пішло від поганого до гіршого
+		j3904595501 -> j1350530035;
+		j3904595501 -> j4107269020;
+	j110647738 [label="Jajaja просто слухай",shape=box,color=blue];
+		j110647738 -> j3904595501;
+	"Chat ends." [color=orange];
+	j1350530035 [label="Ги, ну дяка.",shape=box,color=red];
+		j1350530035 -> j708793972;
+	j4107269020 [label="Ну це так… звичайно, але…",shape=box,color=red];
+		j4107269020 -> j708793972;
+	j708793972 [label="Потім усе пішло від поганого до гіршого
 Від лайна до ще більшого лайна
 І кошмар ставав ще темнішим
 І БУДЬ-ЯКА ЛЮДИНА зі справною макітрою вже б втікла назад у майбутнє",shape=box,color=blue];
-		2404 -> 2405;
-	2405 [label="Але ти тут
+		j708793972 -> j940336490;
+	j940336490 [label="Але ти тут
 Ти залишаєшся з невідомої дурної причини
 Ти залишаєшся з нами, борешся та допомагаєш нам згуртуватися",shape=box,color=blue];
-		2405 -> 2406;
-	2406 [label="Ay, Луа, salvame 
+		j940336490 -> j1941086285;
+	j1941086285 [label="Ay, Луа, salvame 
 Я досі НЕ знаю чому 
 У тебе не було причин залишатися тут для нас, купки незнайомців",shape=box,color=blue];
-		2406 -> 2407;
-	2407 [label="Check boolean LettieReligion2",color=orange];
-		2407 -> 2408 [label=true,color=green];
-		2407 -> 2409 [label=false,color=brown];
-	2408 [label="Я бачила обличчя твого Шіпе-Тотека, і я б на твоєму місці втікла у найдальший куток і молилася, щоб він не здер моє наступним",shape=box,color=blue];
-		2408 -> 2409;
-	2409 [label="Check boolean LettieCavia",color=orange];
-		2409 -> 2410 [label=true,color=green];
-		2409 -> 2411 [label=false,color=brown];
-	2410 [label="Я б прийняла кавій за свою сім’ю і залишилася з ними
+		j1941086285 -> j1387050652;
+	j1387050652 [label="Check boolean LettieReligion2",color=orange];
+		j1387050652 -> j2746720782 [label=true,color=green];
+		j1387050652 -> j1551587699 [label=false,color=brown];
+	j2746720782 [label="Я бачила обличчя твого Шіпе-Тотека, і я б на твоєму місці втікла у найдальший куток і молилася, щоб він не здер моє наступним",shape=box,color=blue];
+		j2746720782 -> j1551587699;
+	j1551587699 [label="Check boolean LettieCavia",color=orange];
+		j1551587699 -> j1029820686 [label=true,color=green];
+		j1551587699 -> j466073509 [label=false,color=brown];
+	j1029820686 [label="Я б прийняла кавій за свою сім’ю і залишилася з ними
 Вони здаються МЕНШ зламаними та набагато більше заслуговують любові",shape=box,color=blue];
-		2410 -> 2411;
-	2411 [label="Check boolean LettieDating",color=orange];
-		2411 -> 2412 [label=true,color=green];
-		2411 -> 2415 [label=false,color=brown];
-	2412 [label="Check boolean LettieReal",color=orange];
-		2412 -> 2413 [label=true,color=green];
-		2412 -> 2414 [label=false,color=brown];
-	2415 [label="Але ти тут
+		j1029820686 -> j466073509;
+	j466073509 [label="Check boolean LettieDating",color=orange];
+		j466073509 -> j4125224585 [label=true,color=green];
+		j466073509 -> j4251981599 [label=false,color=brown];
+	j4125224585 [label="Check boolean LettieReal",color=orange];
+		j4125224585 -> j3384910636 [label=true,color=green];
+		j4125224585 -> j3742923001 [label=false,color=brown];
+	j4251981599 [label="Але ти тут
 І я знайшла міцну дружбу, якої ніколи не очікувала 
 Таку, без якої я навіть не знаю, як я виживала",shape=box,color=blue];
-		2415 -> 2416;
-	2413 [label="Але ти ТУТ
+		j4251981599 -> j1914078138;
+	j3384910636 [label="Але ти ТУТ
 А для мене… ти набагато більше, ніж це…
 Що я хочу сказати, mi corazón",shape=box,color=blue];
-		2413 -> 2416;
-	2414 [label="Але ти ТУТ
+		j3384910636 -> j1914078138;
+	j3742923001 [label="Але ти ТУТ
 І маєш нахабство казати, що я тобі подобаюся jajaja",shape=box,color=blue];
-		2414 -> 2416;
-	2416 [label="З тобою поряд… ми не fantasmas
+		j3742923001 -> j1914078138;
+	j1914078138 [label="З тобою поряд… ми не fantasmas
 Без тебе ми були б загублені та занедбані
 Ми б знову і знову сноходили крізь наші смерті, безглузді та порожні
 На краю Mictlán",shape=box,color=blue];
-		2416 -> 2417;
-	2417 [label="Check boolean LettieNewFamily",color=orange];
-		2417 -> 2419 [label=true,color=green];
-		2417 -> 2418 [label=false,color=brown];
-	2419 [label="Але ти робиш нас новою сім’єю
+		j1914078138 -> j1595476292;
+	j1595476292 [label="Check boolean LettieNewFamily",color=orange];
+		j1595476292 -> j3775503101 [label=true,color=green];
+		j1595476292 -> j3009833502 [label=false,color=brown];
+	j3775503101 [label="Але ти робиш нас новою сім’єю
 Навіть la bruja y yo jajaja
 І зараз я їх люблю понад усе
 І це все завдяки тобі",shape=box,color=blue];
-		2419 -> 2422;
-	2418 [label="Check boolean LettieKindness",color=orange];
-		2418 -> 2420 [label=true,color=green];
-		2418 -> 2421 [label=false,color=brown];
-	2422 [label="Терпіти не можу, коли стаю такою сентиментальною
+		j3775503101 -> j2677716896;
+	j3009833502 [label="Check boolean LettieKindness",color=orange];
+		j3009833502 -> j1315901291 [label=true,color=green];
+		j3009833502 -> j2957683688 [label=false,color=brown];
+	j2677716896 [label="Терпіти не можу, коли стаю такою сентиментальною
 Це зводить мене з розуму
 Я жахлива в цьому
 Тому я підсумую свої думки",shape=box,color=blue];
-		2422 -> 2423;
-		2422 -> 2424;
-		2422 -> 2425;
-	2420 [label="Але ти показуєш мені важливість маленьких митей
+		j2677716896 -> j168342390;
+		j2677716896 -> j153304552;
+		j2677716896 -> j4035569760;
+	j1315901291 [label="Але ти показуєш мені важливість маленьких митей
 З доброти та любові, яку ми даруємо одне одному
 Ось чому ми тут 
 І все це завдяки тобі",shape=box,color=blue];
-		2420 -> 2422;
-	2421 [label="Але ти показуєш мені, що справді важливо
+		j1315901291 -> j2677716896;
+	j2957683688 [label="Але ти показуєш мені, що справді важливо
 Важлива компанія, а не пункт призначення
 Довіра, любов і доброта, які ми відчуваємо один до одного
 І це все завдяки тобі",shape=box,color=blue];
-		2421 -> 2422;
-	2423 [label="Ха-ха. У тебе чудово виходить.",shape=box,color=red];
-		2423 -> 2426;
-	2424 [label="Навіть не знаю. Мені подобається мила Летті.",shape=box,color=red];
-		2424 -> 2426;
-	2425 [label="Га? Ти мене знову приспала.",shape=box,color=red];
-		2425 -> 2427;
-	2426 [label="Check boolean LettieDating",color=orange];
-		2426 -> 2431 [label=true,color=green];
-		2426 -> 2434 [label=false,color=brown];
-	2427 [label="Update boolean IsDating",color=orange];
-		2427 -> 2428;
-	2431 [label="Check boolean LettieReal",color=orange];
-		2431 -> 2432 [label=true,color=green];
-		2431 -> 2433 [label=false,color=brown];
-	2434 [label="Не звикай до цього
+		j2957683688 -> j2677716896;
+	j168342390 [label="Ха-ха. У тебе чудово виходить.",shape=box,color=red];
+		j168342390 -> j407131291;
+	j153304552 [label="Навіть не знаю. Мені подобається мила Летті.",shape=box,color=red];
+		j153304552 -> j407131291;
+	j4035569760 [label="Га? Ти мене знову приспала.",shape=box,color=red];
+		j4035569760 -> j3606744485;
+	j407131291 [label="Check boolean LettieDating",color=orange];
+		j407131291 -> j2969545787 [label=true,color=green];
+		j407131291 -> j1692448339 [label=false,color=brown];
+	j3606744485 [label="Boolean IsDating is now false.",color=orange];
+		j3606744485 -> j2226684218;
+	j2969545787 [label="Check boolean LettieReal",color=orange];
+		j2969545787 -> j1170466809 [label=true,color=green];
+		j2969545787 -> j497283431 [label=false,color=brown];
+	j1692448339 [label="Не звикай до цього
 Я все одно надеру тобі дупу
 Річ у тому, що я вже звикла, що ти плутаєшся під ногами
 Мені подобається, що ти поруч",shape=box,color=blue];
-		2434 -> 2437;
-	2428 [label="Update boolean LettieDating",color=orange];
-		2428 -> 2429;
-	2432 [label="Не звикай до цього, mi corazón
+		j1692448339 -> j246311840;
+	j2226684218 [label="Boolean LettieDating is now false.",color=orange];
+		j2226684218 -> j2703113057;
+	j1170466809 [label="Не звикай до цього, mi corazón
 Я ще можу надерти тобі дупку
 Ay, так ось…",shape=box,color=blue];
-		2432 -> 2435;
-	2433 [label="Не звикай до цього, solecito
+		j1170466809 -> j3979665989;
+	j497283431 [label="Не звикай до цього, solecito
 Я все одно надеру тобі дупу
 Річ у тому, що я вже звикла, що ти плутаєшся під ногами
 Мені подобається, що ти поруч",shape=box,color=blue];
-		2433 -> 2436;
-	2437 [label="Я дуже ціную нашу дружбу
+		j497283431 -> j3935360480;
+	j246311840 [label="Я дуже ціную нашу дружбу
 І я покладаюся на тебе, як ні на кого
 Я довіряю тобі, і це не те, що дається мені легко",shape=box,color=blue];
-		2437 -> 1621;
-	2429 [label="Update boolean LettieNoDate",color=orange];
-		2429 -> 2430;
-	2435 [label="Te amo, mi corazón 
+		j246311840 -> j1975772861;
+	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2703113057 -> "Chat ends.";
+	j3979665989 [label="Te amo, mi corazón 
 Я кохаю тебе, моє серденько",shape=box,color=blue];
-		2435 -> 1284;
-		2435 -> 1285;
-	2436 [label="Me importas mucho 
+		j3979665989 -> j706847774;
+		j3979665989 -> j2592362410;
+	j3935360480 [label="Me importas mucho 
 Я дуже дбаю про тебе
 І я покладаюся на тебе, як ні на кого
 Я довіряю тобі, і це не те, що дається мені легко",shape=box,color=blue];
-		2436 -> 2438;
-	1621 [label="За нас, друзяко
+		j3935360480 -> j3335774466;
+	j1975772861 [label="За нас, друзяко
 І за прийдешнє
 Наповнене fantasmas та нескінченним майбутнім, богами та демонами, якими б вони не були
 Ми маємо одне одного
 І для мене цього достатньо",shape=box,color=blue];
-		1621 -> 1283;
-	2430 [label="Chat ends.",color=orange];
-	1284 [label="Я не відчуваю те саме до тебе, вибач…",shape=box,color=red];
-		1284 -> 1286;
-	1285 [label="Я… я теж кохаю тебе, Летті. Мені складно було навіть уявити… в мені стільки щастя.",shape=box,color=red];
-		1285 -> 1287;
-	2438 [label="За нас, solecito
+		j1975772861 -> "Chat ends.";
+	j706847774 [label="Я не відчуваю те саме до тебе, вибач…",shape=box,color=red];
+		j706847774 -> j1699380299;
+	j2592362410 [label="Я… я теж кохаю тебе, Летті. Мені складно було навіть уявити… в мені стільки щастя.",shape=box,color=red];
+		j2592362410 -> j2461529208;
+	j3335774466 [label="За нас, solecito
 І за прийдешнє
 Наповнене fantasmas та нескінченним майбутнім, богами та демонами, якими б вони не були
 Ми маємо одне одного
 І для мене цього достатньо",shape=box,color=blue];
-		2438 -> 1622;
-	1283 [label="Chat ends.",color=orange];
-	1286 [label="Ay 
+		j3335774466 -> "Chat ends.";
+	j1699380299 [label="Ay 
 Sí 
 Добре",shape=box,color=blue];
-		1286 -> 1288;
-	1287 [label="JAJAJA síí
+		j1699380299 -> j2654206738;
+	j2461529208 [label="JAJAJA síí
 Мене важко зрозуміти, я знаю
 М-м-м, я теж така щаслива
 Відсвяткуємо сьогодні вночі, ¿mm?",shape=box,color=blue];
-		1287 -> 1289;
-	1622 [label="Chat ends.",color=orange];
-	1288 [label="Ось чому… я не довіряю людям jajaja",shape=box,color=blue];
-		1288 -> 1295;
-	1289 [label="Не став мені питань
+		j2461529208 -> j2818163185;
+	j2654206738 [label="Ось чому… я не довіряю людям jajaja",shape=box,color=blue];
+		j2654206738 -> j638504166;
+	j2818163185 [label="Не став мені питань
 Не приховуй своїх фантазій
 Я хочу побачити, чого ти БАЖАЄШ, ¿entendiste?",shape=box,color=blue];
-		1289 -> 1290;
-		1289 -> 1291;
-	1295 [label="Добре, буває
+		j2818163185 -> j3827452618;
+		j2818163185 -> j4211762370;
+	j638504166 [label="Добре, буває
 Ще одна моя дурна помилка
 Тоді нам краще все закінчити
 Ти розумієш",shape=box,color=blue];
-		1295 -> 1296;
-	1290 [label="Так, паняночко.",shape=box,color=red];
-		1290 -> 1292;
-	1291 [label="<RETRO_EMOJI_SNEAKY>",shape=box,color=red];
-		1291 -> 1292;
-	1296 [label="Update boolean IsDating",color=orange];
-		1296 -> 1299;
-	1292 [label="Я таке люблю
+		j638504166 -> j3606744485;
+	j3827452618 [label="Так, паняночко.",shape=box,color=red];
+		j3827452618 -> j276918144;
+	j4211762370 [label="<RETRO_EMOJI_SNEAKY>",shape=box,color=red];
+		j4211762370 -> j276918144;
+	j276918144 [label="Я таке люблю
 За нас, mi corazón
 І за прийдешнє
 Наповнене fantasmas та нескінченним майбутнім, богами та демонами, якими б вони не були
 У нас є наше кохання
 І для мене цього достатньо",shape=box,color=blue];
-		1292 -> 1293;
-	1299 [label="Update boolean LettieDating",color=orange];
-		1299 -> 1301;
-	1293 [label="Chat ends.",color=orange];
-	1301 [label="Update boolean LettieNoDate",color=orange];
-		1301 -> 1302;
-	1302 [label="Chat ends.",color=orange];
+		j276918144 -> "Chat ends.";
 }

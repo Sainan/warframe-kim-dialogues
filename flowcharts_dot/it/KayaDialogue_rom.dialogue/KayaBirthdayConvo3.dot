@@ -1,19 +1,18 @@
 digraph {
-	995 [label="KayaBirthdayConvo3 begins.",color=orange];
-		995 -> 1003;
-		995 -> 1004;
-	1003 [label="Voi ragazzini cosa fate per il compleanno in quest'epoca?",shape=box,color=red];
-		1003 -> 994;
-	1004 [label="Consiglio: Salva la tua data di nascita su qualcosa di super importante. La dimenticherai tra... 500 anni.",shape=box,color=red];
-		1004 -> 1011;
-	994 [label="ugh.",shape=box,color=blue];
-		994 -> 993;
-	1011 [label="ooooh sìììììììì Non invecchierò adesso, vero? Continuerò a festeggiare lo stesso compleanno ancora e ancora",shape=box,color=blue];
-		1011 -> 1012;
-	993 [label="Chat ends.",color=orange];
-	1012 [label="+20 Chemistry",color=orange];
-		1012 -> 1013;
-	1013 [label="è. FANTASTICO.",shape=box,color=blue];
-		1013 -> 1014;
-	1014 [label="Chat ends.",color=orange];
+	"KayaBirthdayConvo3 begins." [color=orange];
+		"KayaBirthdayConvo3 begins." -> j3649218505;
+		"KayaBirthdayConvo3 begins." -> j1355405207;
+	j3649218505 [label="Voi ragazzini cosa fate per il compleanno in quest'epoca?",shape=box,color=red];
+		j3649218505 -> j3018937783;
+	j1355405207 [label="Consiglio: Salva la tua data di nascita su qualcosa di super importante. La dimenticherai tra... 500 anni.",shape=box,color=red];
+		j1355405207 -> j421078981;
+	j3018937783 [label="ugh.",shape=box,color=blue];
+		j3018937783 -> "Chat ends.";
+	j421078981 [label="ooooh sìììììììì Non invecchierò adesso, vero? Continuerò a festeggiare lo stesso compleanno ancora e ancora",shape=box,color=blue];
+		j421078981 -> j2555771523;
+	"Chat ends." [color=orange];
+	j2555771523 [label="+20 Chemistry",color=orange];
+		j2555771523 -> j1249825163;
+	j1249825163 [label="è. FANTASTICO.",shape=box,color=blue];
+		j1249825163 -> "Chat ends.";
 }

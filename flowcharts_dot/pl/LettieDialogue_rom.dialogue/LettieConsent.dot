@@ -1,104 +1,98 @@
 digraph {
-	2778 [label="LettieConsent begins.",color=orange];
-		2778 -> 2779;
-	2779 [label="Check boolean LettieDating",color=orange];
-		2779 -> 2780 [label=true,color=green];
-		2779 -> 2781 [label=false,color=brown];
-	2780 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
-		2780 -> 2782 [label=true,color=green];
-		2780 -> 2814 [label=false,color=brown];
-	2781 [label="Chat ends.",color=orange];
-	2782 [label="Check boolean LettieConsentComplete",color=orange];
-		2782 -> 2786 [label=true,color=green];
-		2782 -> 2785 [label=false,color=brown];
-		2782 -> 2784 [label=false,color=brown];
-	2814 [label="Check boolean LettiePolyamorySuccess",color=orange];
-		2814 -> 2782 [label=true,color=green];
-		2814 -> 2783 [label=false,color=brown];
-	2786 [label="Chat ends.",color=orange];
-	2785 [label="Hej Lettie, masz chwilę? [Zapytaj o zgodę na wielu partnerów]",shape=box,color=red];
-		2785 -> 2788;
-	2784 [label="[Koniec]",shape=box,color=red];
-		2784 -> 2787;
-	2783 [label="Chat ends.",color=orange];
-	2788 [label="Zawsze
+	"LettieConsent begins." [color=orange];
+		"LettieConsent begins." -> j3391836344;
+	j3391836344 [label="Check boolean LettieDating",color=orange];
+		j3391836344 -> j2165669047 [label=true,color=green];
+		j3391836344 -> "Chat ends." [label=false,color=brown];
+	j2165669047 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
+		j2165669047 -> j2985555336 [label=true,color=green];
+		j2165669047 -> j4172583155 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2985555336 [label="Check boolean LettieConsentComplete",color=orange];
+		j2985555336 -> "Chat ends." [label=true,color=green];
+		j2985555336 -> j1455075605 [label=false,color=brown];
+		j2985555336 -> j3508297219 [label=false,color=brown];
+	j4172583155 [label="Check boolean LettiePolyamorySuccess",color=orange];
+		j4172583155 -> j2985555336 [label=true,color=green];
+		j4172583155 -> "Chat ends." [label=false,color=brown];
+	j1455075605 [label="Hej Lettie, masz chwilę? [Zapytaj o zgodę na wielu partnerów]",shape=box,color=red];
+		j1455075605 -> j1181491506;
+	j3508297219 [label="[Koniec]",shape=box,color=red];
+		j3508297219 -> j3702107533;
+	j1181491506 [label="Zawsze
 Ale dla ciebie?
 ¿Qué?",shape=box,color=blue];
-		2788 -> 2790;
-	2787 [label="Update boolean LettieConsentComplete",color=orange];
-		2787 -> 2789;
-	2790 [label="Muszę cię o coś zapytać, chcę mieć pewność, że się na to zgadasz.",shape=box,color=red];
-		2790 -> 2791;
-	2789 [label="Chat ends.",color=orange];
-	2791 [label="Zależy mi na tym, żebyś nie czuła się, jakbym cię okłamywał.",shape=box,color=red];
-		2791 -> 2792;
-		2791 -> 2793;
-		2791 -> 2794;
-	2792 [label="Proszę, nie zrób mi krzywdy.",shape=box,color=red];
-		2792 -> 2795;
-	2793 [label="Proszę, nie denerwuj się.",shape=box,color=red];
-		2793 -> 2796;
-	2794 [label="Mam nadzieję, że rozumiesz.",shape=box,color=red];
-		2794 -> 2797;
-	2795 [label="Jajajajaj
+		j1181491506 -> j2044326787;
+	j3702107533 [label="Boolean LettieConsentComplete is now true.",color=orange];
+		j3702107533 -> "Chat ends.";
+	j2044326787 [label="Muszę cię o coś zapytać, chcę mieć pewność, że się na to zgadasz.",shape=box,color=red];
+		j2044326787 -> j623360889;
+	j623360889 [label="Zależy mi na tym, żebyś nie czuła się, jakbym cię okłamywał.",shape=box,color=red];
+		j623360889 -> j3786948652;
+		j623360889 -> j3204735577;
+		j623360889 -> j3121071766;
+	j3786948652 [label="Proszę, nie zrób mi krzywdy.",shape=box,color=red];
+		j3786948652 -> j136128232;
+	j3204735577 [label="Proszę, nie denerwuj się.",shape=box,color=red];
+		j3204735577 -> j209430087;
+	j3121071766 [label="Mam nadzieję, że rozumiesz.",shape=box,color=red];
+		j3121071766 -> j504230376;
+	j136128232 [label="Jajajajaj
 Już o tym rozmawialiśmy
 Krzywdzę cię tylko tak, jak lubisz
 A teraz o co chodzi",shape=box,color=blue];
-		2795 -> 2798;
-	2796 [label="¿Sí?
+		j136128232 -> j4110274784;
+	j209430087 [label="¿Sí?
 Czym mam się nie denerwować?",shape=box,color=blue];
-		2796 -> 2798;
-	2797 [label="¿Sí?
+		j209430087 -> j4110274784;
+	j504230376 [label="¿Sí?
 Co mam zrozumieć?",shape=box,color=blue];
-		2797 -> 2798;
-	2798 [label="Nie chcę stawiać cię w sytuacji, w której czujesz się źle. To nie jest coś, o czym rozmawialiśmy wcześniej. Zrozumiem, jeśli się nie zgodzisz.",shape=box,color=red];
-		2798 -> 2799;
-	2799 [label="To co stworzyliśmy jest dla mnie bardzo ważne, nie chcę, żebyś w to zwątpiła.",shape=box,color=red];
-		2799 -> 2800;
-	2800 [label="Aah, entiendo...
+		j504230376 -> j4110274784;
+	j4110274784 [label="Nie chcę stawiać cię w sytuacji, w której czujesz się źle. To nie jest coś, o czym rozmawialiśmy wcześniej. Zrozumiem, jeśli się nie zgodzisz.",shape=box,color=red];
+		j4110274784 -> j2008758290;
+	j2008758290 [label="To co stworzyliśmy jest dla mnie bardzo ważne, nie chcę, żebyś w to zwątpiła.",shape=box,color=red];
+		j2008758290 -> j3889101621;
+	j3889101621 [label="Aah, entiendo...
 Chyba chcę tylko wiedzieć
 Czy naprawdę ci zależy na tej osobie, solecito?
 ¿Quiénes son?",shape=box,color=blue];
-		2800 -> 2801;
-		2800 -> 2802;
-	2801 [label="Tak. Ale też bardzo zależy mi na tobie.",shape=box,color=red];
-		2801 -> 2803;
-	2802 [label="Nie powinno mnie dziwić, że tak szybko mnie rozpracowałaś.",shape=box,color=red];
-		2802 -> 2804;
-	2803 [label="Ay, sí
+		j3889101621 -> j982477622;
+		j3889101621 -> j2425045146;
+	j982477622 [label="Tak. Ale też bardzo zależy mi na tobie.",shape=box,color=red];
+		j982477622 -> j3530871512;
+	j2425045146 [label="Nie powinno mnie dziwić, że tak szybko mnie rozpracowałaś.",shape=box,color=red];
+		j2425045146 -> j2377601684;
+	j3530871512 [label="Ay, sí
 Ciężko cię winić, kiedy tak wiele widziałeś
 Tak wiele podróżujesz
 Mi to nie przeszkadza",shape=box,color=blue];
-		2803 -> 2805;
-	2804 [label="Oszukiwałam
+		j3530871512 -> j2451634760;
+	j2377601684 [label="Oszukiwałam
 Eleanor mnie ostrzegła
 Jajaja okropna z niej plotkara",shape=box,color=blue];
-		2804 -> 2806;
-	2805 [label="Byle nikt z hex
+		j2377601684 -> j3760150591;
+	j2451634760 [label="Byle nikt z hex
 ¿No mi familia, por favor?
 Przez tydzień szorowałabym się w alkoholu",shape=box,color=blue];
-		2805 -> 2807;
-	2806 [label="Ciężko cię winić, kiedy tak wiele widziałeś
+		j2451634760 -> j1888291503;
+	j3760150591 [label="Ciężko cię winić, kiedy tak wiele widziałeś
 Tak wiele podróżujesz
 Mi to nie przeszkadza",shape=box,color=blue];
-		2806 -> 2805;
-	2807 [label="+20 Chemistry",color=orange];
-		2807 -> 2808;
-	2808 [label="Też jesteś dla mnie bardzo ważny, solecito
+		j3760150591 -> j2451634760;
+	j1888291503 [label="+20 Chemistry",color=orange];
+		j1888291503 -> j3481753229;
+	j3481753229 [label="Też jesteś dla mnie bardzo ważny, solecito
 Ale jeśli jesteś szczęśliwy?
 To ja też jestem szczęśliwa
 Tak po prostu",shape=box,color=blue];
-		2808 -> 2809;
-	2809 [label="Och
+		j3481753229 -> j1014891637;
+	j1014891637 [label="Och
 I jeśli wymyślisz kiedyś, jak zorganizować spotkanie
 To mnie przedstawisz",shape=box,color=blue];
-		2809 -> 2810;
-		2809 -> 2811;
-	2810 [label="Tak, proszę pani. :)",shape=box,color=red];
-		2810 -> 2812;
-	2811 [label="Zobaczę, co da się zrobić.",shape=box,color=red];
-		2811 -> 2812;
-	2812 [label="Update boolean LettieConsentComplete",color=orange];
-		2812 -> 2813;
-	2813 [label="Chat ends.",color=orange];
+		j1014891637 -> j242506882;
+		j1014891637 -> j3085559356;
+	j242506882 [label="Tak, proszę pani. :)",shape=box,color=red];
+		j242506882 -> j3702107533;
+	j3085559356 [label="Zobaczę, co da się zrobić.",shape=box,color=red];
+		j3085559356 -> j3702107533;
 }

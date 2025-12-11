@@ -1,127 +1,124 @@
 digraph {
-	908 [label="LettieRank3Convo5 begins.",color=orange];
-		908 -> 909;
-		908 -> 910;
-		908 -> 911;
-	909 [label="Hältst du durch?",shape=box,color=red];
-		909 -> 913;
-	910 [label="Wie läuft es mit den Zivilisten?",shape=box,color=red];
-		910 -> 914;
-	911 [label="[Ignorieren.]",shape=box,color=red];
-		911 -> 912;
-	913 [label="Mm? 
+	"LettieRank3Convo5 begins." [color=orange];
+		"LettieRank3Convo5 begins." -> j2603884860;
+		"LettieRank3Convo5 begins." -> j2122450014;
+		"LettieRank3Convo5 begins." -> j4221938618;
+	j2603884860 [label="Hältst du durch?",shape=box,color=red];
+		j2603884860 -> j2081392232;
+	j2122450014 [label="Wie läuft es mit den Zivilisten?",shape=box,color=red];
+		j2122450014 -> j3127848962;
+	j4221938618 [label="[Ignorieren.]",shape=box,color=red];
+		j4221938618 -> "Chat ends.";
+	j2081392232 [label="Mm? 
 Wie eine Drehtür, jajaja",shape=box,color=blue];
-		913 -> 915;
-	914 [label="Hä? 
+		j2081392232 -> j4244054167;
+	j3127848962 [label="Hä? 
 Ganz gut, denke ich 
 Zivilisten sind überall gleich, man gewöhnt sich mit der Zeit daran",shape=box,color=blue];
-		914 -> 916;
-		914 -> 917;
-	912 [label="Chat ends.",color=orange];
-	915 [label="Ich habe manchmal das Gefühl, dass Leute DURCH mich hindurch gehen, sogar vor dir
+		j3127848962 -> j1895401040;
+		j3127848962 -> j2629448329;
+	"Chat ends." [color=orange];
+	j4244054167 [label="Ich habe manchmal das Gefühl, dass Leute DURCH mich hindurch gehen, sogar vor dir
 Nur ein Gesicht in einem IKA-Zelt, das Wunden verbindet 
 Aber ich bin Teil des Gebäudes",shape=box,color=blue];
-		915 -> 918;
-	916 [label="Ja, aber es muss trotzdem anstrengend sein.",shape=box,color=red];
-		916 -> 919;
-	917 [label="Man gewöhnt sich an was?",shape=box,color=red];
-		917 -> 920;
-	918 [label="Ich bin hart im Nehmen 
+		j4244054167 -> j662707377;
+	j1895401040 [label="Ja, aber es muss trotzdem anstrengend sein.",shape=box,color=red];
+		j1895401040 -> j4238434344;
+	j2629448329 [label="Man gewöhnt sich an was?",shape=box,color=red];
+		j2629448329 -> j2144225364;
+	j662707377 [label="Ich bin hart im Nehmen 
 Ich gehe nirgendwo hin 
 Pero ... Estoy muerta
 Es gibt manchmal einfach nicht genug Kaffee auf der Welt, ¿no?",shape=box,color=blue];
-		918 -> 921;
-		918 -> 922;
-	919 [label="Sí, du hast keine Ahnung 
+		j662707377 -> j912393978;
+		j662707377 -> j2424498355;
+	j4238434344 [label="Sí, du hast keine Ahnung 
 Manchmal gibt es nicht genug Kaffee auf der Welt, oder? 
 Pero, soy dura de roer 
 Ich gehe nirgendwo hin",shape=box,color=blue];
-		919 -> 921;
-		919 -> 922;
-	920 [label="Ihre leeren Blicke und den tauben Schmerz 
+		j4238434344 -> j912393978;
+		j4238434344 -> j2424498355;
+	j2144225364 [label="Ihre leeren Blicke und den tauben Schmerz 
 Für sie bin ich ein Gesicht in einem IKA-Zelt, das Wunden versorgt
 Ich habe das Gefühl, Leute gehen DURCH mich hindurch wie durch eine Drehtür 
 Und das war, bevor DU es buchstäblich getan hast, jajaja",shape=box,color=blue];
-		920 -> 923;
-	921 [label="Nur weil du hart im Nehmen bist, heißt das nicht, dass ich mich nicht sorge.",shape=box,color=red];
-		921 -> 927;
-	922 [label="Ja, aber ein stetiger Kaffeefluss schadet nicht. lol",shape=box,color=red];
-		922 -> 928;
-	923 [label="Check boolean LettieNoFlirt",color=orange];
-		923 -> 924 [label=true,color=green];
-		923 -> 925 [label=true,color=green];
-		923 -> 924 [label=false,color=brown];
-		923 -> 925 [label=false,color=brown];
-		923 -> 926 [label=false,color=brown];
-	927 [label="Sí,
+		j2144225364 -> j3050599071;
+	j912393978 [label="Nur weil du hart im Nehmen bist, heißt das nicht, dass ich mich nicht sorge.",shape=box,color=red];
+		j912393978 -> j3088533269;
+	j2424498355 [label="Ja, aber ein stetiger Kaffeefluss schadet nicht. lol",shape=box,color=red];
+		j2424498355 -> j182156106;
+	j3050599071 [label="Check boolean LettieNoFlirt",color=orange];
+		j3050599071 -> j3499768391 [label=true,color=green];
+		j3050599071 -> j2524875815 [label=true,color=green];
+		j3050599071 -> j3499768391 [label=false,color=brown];
+		j3050599071 -> j2524875815 [label=false,color=brown];
+		j3050599071 -> j606763555 [label=false,color=brown];
+	j3088533269 [label="Sí,
 Es reicht zu wissen, dass jemand auf mich aufpasst
 So ist Arthur
 Er schwebt nicht so herum wie Aoi und gibt vor, mi mamá zu sein 
 Gibt mir einfach eine Tasse und sagt: Alles in Ordnung?",shape=box,color=blue];
-		927 -> 933;
-	928 [label="Jajaja, nein, das tut es nicht
+		j3088533269 -> j291008083;
+	j182156106 [label="Jajaja, nein, das tut es nicht
 Arthur ist so
 Er schwebt nicht so herum wie Aoi und gibt vor, mi mamá zu sein 
 Gibt mir einfach eine Tasse und sagt: Alles in Ordnung?",shape=box,color=blue];
-		928 -> 933;
-	924 [label="Ich meine, was erwartest du von Menschen, die gerade alles verloren haben?",shape=box,color=red];
-		924 -> 929;
-	925 [label="Ich verstehe, warum all die Menschen nach einer Weile verschwimmen.",shape=box,color=red];
-		925 -> 937;
-	926 [label="Zumindest bist du eine wirklich sexy Tür. :P",shape=box,color=red];
-		926 -> 2464;
-	933 [label="Update boolean LettieShoulder",color=orange];
-		933 -> 944;
-	929 [label="Nicht ihre Schuld 
+		j182156106 -> j291008083;
+	j3499768391 [label="Ich meine, was erwartest du von Menschen, die gerade alles verloren haben?",shape=box,color=red];
+		j3499768391 -> j4163493988;
+	j2524875815 [label="Ich verstehe, warum all die Menschen nach einer Weile verschwimmen.",shape=box,color=red];
+		j2524875815 -> j3218882016;
+	j606763555 [label="Zumindest bist du eine wirklich sexy Tür. :P",shape=box,color=red];
+		j606763555 -> j2476613767;
+	j291008083 [label="Boolean LettieShoulder is now true.",color=orange];
+		j291008083 -> j2273558438;
+	j4163493988 [label="Nicht ihre Schuld 
 Auch nicht meine Schuld, babas 
 Ich bin es einfach leid",shape=box,color=blue];
-		929 -> 934;
-	937 [label="+10 Chemistry",color=orange];
-		937 -> 930;
-	2464 [label="+20 Chemistry",color=orange];
-		2464 -> 931;
-	944 [label="+20 Chemistry",color=orange];
-		944 -> 932;
-	934 [label="Hablando de 
+		j4163493988 -> j1395517516;
+	j3218882016 [label="+10 Chemistry",color=orange];
+		j3218882016 -> j3246229896;
+	j2476613767 [label="+20 Chemistry",color=orange];
+		j2476613767 -> j2875495816;
+	j2273558438 [label="+20 Chemistry",color=orange];
+		j2273558438 -> j3684153203;
+	j1395517516 [label="Hablando de 
 Zurück an die Arbeit",shape=box,color=blue];
-		934 -> 938;
-	930 [label="Sí, es ist nicht ihre Schuld, dass es immer mehr werden
+		j1395517516 -> "Chat ends.";
+	j3246229896 [label="Sí, es ist nicht ihre Schuld, dass es immer mehr werden
 Ich dachte immer, es würde nie enden 
 Jetzt weiß ich, es wird wirklich nie enden 
 Lua, sálvame",shape=box,color=blue];
-		930 -> 935;
-	931 [label="JAJA 
+		j3246229896 -> j4128362202;
+	j2875495816 [label="JAJA 
 Oh, babas, du weißt, wie man eine Dame aufheitert 
 Leg das auf mein Grab 
 \"Aquí yace la puerta más sexy que hayas visto.\"",shape=box,color=blue];
-		931 -> 936;
-	932 [label="Ich mag diese Frage, babas 
+		j2875495816 -> j222429230;
+	j3684153203 [label="Ich mag diese Frage, babas 
 Stell sie immer wieder 
 Vielleicht brauche ich sie von Zeit zu Zeit 
 Und eine oder zwei Tassen Kaffee können auch nicht schaden",shape=box,color=blue];
-		932 -> 940;
-	938 [label="Chat ends.",color=orange];
-	935 [label="Hablando de 
+		j3684153203 -> j3637400474;
+	j4128362202 [label="Hablando de 
 Zurück an die Arbeit 
 Danke für die Ablenkung",shape=box,color=blue];
-		935 -> 939;
-	936 [label="Gracias por hacerme reír, babas 
+		j4128362202 -> "Chat ends.";
+	j222429230 [label="Gracias por hacerme reír, babas 
 Das brauchte ich",shape=box,color=blue];
-		936 -> 945;
-	940 [label="Check boolean LettieNoFlirt",color=orange];
-		940 -> 941 [label=true,color=green];
-		940 -> 943 [label=true,color=green];
-		940 -> 942 [label=false,color=brown];
-		940 -> 943 [label=false,color=brown];
-	939 [label="Chat ends.",color=orange];
-	945 [label="Zurück an die Arbeit, ¿no?
+		j222429230 -> j1717124231;
+	j3637400474 [label="Check boolean LettieNoFlirt",color=orange];
+		j3637400474 -> j3200498025 [label=true,color=green];
+		j3637400474 -> j3322516670 [label=true,color=green];
+		j3637400474 -> j4051801997 [label=false,color=brown];
+		j3637400474 -> j3322516670 [label=false,color=brown];
+	j1717124231 [label="Zurück an die Arbeit, ¿no?
 Wir sind beide zu beschäftigt dafür",shape=box,color=blue];
-		945 -> 946;
-	941 [label="Alles klar.",shape=box,color=red];
-		941 -> 945;
-	943 [label="Ich seh zu, was ich tun kann.",shape=box,color=red];
-		943 -> 945;
-	942 [label="Alles klar. <3",shape=box,color=red];
-		942 -> 945;
-	946 [label="Chat ends.",color=orange];
+		j1717124231 -> "Chat ends.";
+	j3200498025 [label="Alles klar.",shape=box,color=red];
+		j3200498025 -> j1717124231;
+	j3322516670 [label="Ich seh zu, was ich tun kann.",shape=box,color=red];
+		j3322516670 -> j1717124231;
+	j4051801997 [label="Alles klar. <3",shape=box,color=red];
+		j4051801997 -> j1717124231;
 }

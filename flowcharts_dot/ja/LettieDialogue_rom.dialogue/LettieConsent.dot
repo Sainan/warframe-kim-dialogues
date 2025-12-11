@@ -1,104 +1,98 @@
 digraph {
-	2778 [label="LettieConsent begins.",color=orange];
-		2778 -> 2779;
-	2779 [label="Check boolean LettieDating",color=orange];
-		2779 -> 2780 [label=true,color=green];
-		2779 -> 2781 [label=false,color=brown];
-	2780 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
-		2780 -> 2782 [label=true,color=green];
-		2780 -> 2814 [label=false,color=brown];
-	2781 [label="Chat ends.",color=orange];
-	2782 [label="Check boolean LettieConsentComplete",color=orange];
-		2782 -> 2786 [label=true,color=green];
-		2782 -> 2785 [label=false,color=brown];
-		2782 -> 2784 [label=false,color=brown];
-	2814 [label="Check boolean LettiePolyamorySuccess",color=orange];
-		2814 -> 2782 [label=true,color=green];
-		2814 -> 2783 [label=false,color=brown];
-	2786 [label="Chat ends.",color=orange];
-	2785 [label="Lettie？　今忙しい？[複数のパートナーについて同意を得る]",shape=box,color=red];
-		2785 -> 2788;
-	2784 [label="[閉じる]",shape=box,color=red];
-		2784 -> 2787;
-	2783 [label="Chat ends.",color=orange];
-	2788 [label="いつものこと
+	"LettieConsent begins." [color=orange];
+		"LettieConsent begins." -> j3391836344;
+	j3391836344 [label="Check boolean LettieDating",color=orange];
+		j3391836344 -> j2165669047 [label=true,color=green];
+		j3391836344 -> "Chat ends." [label=false,color=brown];
+	j2165669047 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
+		j2165669047 -> j2985555336 [label=true,color=green];
+		j2165669047 -> j4172583155 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2985555336 [label="Check boolean LettieConsentComplete",color=orange];
+		j2985555336 -> "Chat ends." [label=true,color=green];
+		j2985555336 -> j1333759720 [label=false,color=brown];
+		j2985555336 -> j1365172149 [label=false,color=brown];
+	j4172583155 [label="Check boolean LettiePolyamorySuccess",color=orange];
+		j4172583155 -> j2985555336 [label=true,color=green];
+		j4172583155 -> "Chat ends." [label=false,color=brown];
+	j1333759720 [label="Lettie？　今忙しい？[複数のパートナーについて同意を得る]",shape=box,color=red];
+		j1333759720 -> j3668202601;
+	j1365172149 [label="[閉じる]",shape=box,color=red];
+		j1365172149 -> j3702107533;
+	j3668202601 [label="いつものこと
 でもあんたのためなら大丈夫
 ¿Qué?",shape=box,color=blue];
-		2788 -> 2790;
-	2787 [label="Update boolean LettieConsentComplete",color=orange];
-		2787 -> 2789;
-	2790 [label="話したいことがある。Lettieの意見を聞きたいんだ。",shape=box,color=red];
-		2790 -> 2791;
-	2789 [label="Chat ends.",color=orange];
-	2791 [label="Lettieに嘘をついているとか、不誠実だと思わせたくないから。",shape=box,color=red];
-		2791 -> 2792;
-		2791 -> 2793;
-		2791 -> 2794;
-	2792 [label="聞いても襲わないでね。",shape=box,color=red];
-		2792 -> 2795;
-	2793 [label="聞いても怒らないでほしい。",shape=box,color=red];
-		2793 -> 2796;
-	2794 [label="わかってくれると嬉しい。",shape=box,color=red];
-		2794 -> 2797;
-	2795 [label="Jajajaja
+		j3668202601 -> j1779573449;
+	j3702107533 [label="Boolean LettieConsentComplete is now true.",color=orange];
+		j3702107533 -> "Chat ends.";
+	j1779573449 [label="話したいことがある。Lettieの意見を聞きたいんだ。",shape=box,color=red];
+		j1779573449 -> j518895186;
+	j518895186 [label="Lettieに嘘をついているとか、不誠実だと思わせたくないから。",shape=box,color=red];
+		j518895186 -> j4167711321;
+		j518895186 -> j3329415306;
+		j518895186 -> j3057872105;
+	j4167711321 [label="聞いても襲わないでね。",shape=box,color=red];
+		j4167711321 -> j2305401365;
+	j3329415306 [label="聞いても怒らないでほしい。",shape=box,color=red];
+		j3329415306 -> j3207020808;
+	j3057872105 [label="わかってくれると嬉しい。",shape=box,color=red];
+		j3057872105 -> j2314015532;
+	j2305401365 [label="Jajajaja
 言ったでしょ
 あんたが好む方法でしか痛みつけない
 それで何の話",shape=box,color=blue];
-		2795 -> 2798;
-	2796 [label="¿Sí?
+		j2305401365 -> j3158675495;
+	j3207020808 [label="¿Sí?
 何に怒るって？",shape=box,color=blue];
-		2796 -> 2798;
-	2797 [label="¿Sí?
+		j3207020808 -> j3158675495;
+	j2314015532 [label="¿Sí?
 何をわかるって？",shape=box,color=blue];
-		2797 -> 2798;
-	2798 [label="納得できない状況にLettieを置きたくない。こう言った話はしたことがないから。もしダメなら、そう言ってほしい。",shape=box,color=red];
-		2798 -> 2799;
-	2799 [label="自分たちの関係は大切に思っている。本当に。切実に。それだけはわかってほしい。",shape=box,color=red];
-		2799 -> 2800;
-	2800 [label="Aah, entiendo...
+		j2314015532 -> j3158675495;
+	j3158675495 [label="納得できない状況にLettieを置きたくない。こう言った話はしたことがないから。もしダメなら、そう言ってほしい。",shape=box,color=red];
+		j3158675495 -> j765515011;
+	j765515011 [label="自分たちの関係は大切に思っている。本当に。切実に。それだけはわかってほしい。",shape=box,color=red];
+		j765515011 -> j642442476;
+	j642442476 [label="Aah, entiendo...
 教えて
 その人を大切に思っている、solecito?
 ¿Quiénes son?",shape=box,color=blue];
-		2800 -> 2801;
-		2800 -> 2802;
-	2801 [label="大切に思っている。でもLettieもすごく大切だ。",shape=box,color=red];
-		2801 -> 2803;
-	2802 [label="流石に気付いていたか。",shape=box,color=red];
-		2802 -> 2804;
-	2803 [label="Ay, sí
+		j642442476 -> j3938262290;
+		j642442476 -> j239116657;
+	j3938262290 [label="大切に思っている。でもLettieもすごく大切だ。",shape=box,color=red];
+		j3938262290 -> j3700294421;
+	j239116657 [label="流石に気付いていたか。",shape=box,color=red];
+		j239116657 -> j3293681964;
+	j3700294421 [label="Ay, sí
 あんたが見えている世界は広い
 行く世界が広大、だから責めたりしない
 アタシは気にしない",shape=box,color=blue];
-		2803 -> 2805;
-	2804 [label="ズルした
+		j3700294421 -> j3790293646;
+	j3293681964 [label="ズルした
 Eleanorから忠告を受けた
 Jajaja 彼女はゴシップ好き",shape=box,color=blue];
-		2804 -> 2806;
-	2805 [label="でもヘックスの一人じゃないわよね？
+		j3293681964 -> j4086811378;
+	j3790293646 [label="でもヘックスの一人じゃないわよね？
 Mi familia no, ¿por favor?
 もしそうなら色々消毒しないといけない",shape=box,color=blue];
-		2805 -> 2807;
-	2806 [label="あんたが見えている世界は広い
+		j3790293646 -> j1420397027;
+	j4086811378 [label="あんたが見えている世界は広い
 行く世界が広大、だから責めたりしない
 アタシは気にしない",shape=box,color=blue];
-		2806 -> 2805;
-	2807 [label="+20 Chemistry",color=orange];
-		2807 -> 2808;
-	2808 [label="あんたはアタシにとってとても大切な人よ、solecito
+		j4086811378 -> j3790293646;
+	j1420397027 [label="+20 Chemistry",color=orange];
+		j1420397027 -> j2864114484;
+	j2864114484 [label="あんたはアタシにとってとても大切な人よ、solecito
 その人があんたに幸せをもたらすなら
 アタシも幸せ
 それだけの話",shape=box,color=blue];
-		2808 -> 2809;
-	2809 [label="それと
+		j2864114484 -> j1732372370;
+	j1732372370 [label="それと
 いつかここに連れてきて
 会ってみたいから",shape=box,color=blue];
-		2809 -> 2810;
-		2809 -> 2811;
-	2810 [label="イエスマム。:)",shape=box,color=red];
-		2810 -> 2812;
-	2811 [label="努力する。",shape=box,color=red];
-		2811 -> 2812;
-	2812 [label="Update boolean LettieConsentComplete",color=orange];
-		2812 -> 2813;
-	2813 [label="Chat ends.",color=orange];
+		j1732372370 -> j3504231656;
+		j1732372370 -> j555969339;
+	j3504231656 [label="イエスマム。:)",shape=box,color=red];
+		j3504231656 -> j3702107533;
+	j555969339 [label="努力する。",shape=box,color=red];
+		j555969339 -> j3702107533;
 }

@@ -1,106 +1,102 @@
 digraph {
-	306 [label="LettieRank2Convo2 begins.",color=orange];
-		306 -> 307;
-		306 -> 308;
-	307 [label="หนูที่เลี้ยงไว้มีชื่ออะไรบ้างเหรอ",shape=box,color=red];
-		307 -> 309;
-	308 [label="เลี้ยงหนูไว้อยู่กี่ตัวเหรอ",shape=box,color=red];
-		308 -> 310;
-	309 [label="หืม?",shape=box,color=blue];
-		309 -> 311;
-	310 [label="หืม? 
+	"LettieRank2Convo2 begins." [color=orange];
+		"LettieRank2Convo2 begins." -> j1016519881;
+		"LettieRank2Convo2 begins." -> j852463729;
+	j1016519881 [label="หนูที่เลี้ยงไว้มีชื่ออะไรบ้างเหรอ",shape=box,color=red];
+		j1016519881 -> j509934498;
+	j852463729 [label="เลี้ยงหนูไว้อยู่กี่ตัวเหรอ",shape=box,color=red];
+		j852463729 -> j726436207;
+	j509934498 [label="หืม?",shape=box,color=blue];
+		j509934498 -> j3108704475;
+	j726436207 [label="หืม? 
 4",shape=box,color=blue];
-		310 -> 311;
-	311 [label="Update boolean LettieRats2",color=orange];
-		311 -> 312;
-	312 [label="Vaquero, Anita, Neenah, Tláloc",shape=box,color=blue];
-		312 -> 313;
-		312 -> 314;
-	313 [label="ทำไมถึงตั้งชื่อแบบนั้นล่ะ",shape=box,color=red];
-		313 -> 315;
-	314 [label="น่าจะตั้งชื่อสักตัวตามชื่อข้านะ :)",shape=box,color=red];
-		314 -> 316;
-	315 [label="Vaquero แปลว่าคาวบอย 
+		j726436207 -> j3108704475;
+	j3108704475 [label="Boolean LettieRats2 is now true.",color=orange];
+		j3108704475 -> j2893619884;
+	j2893619884 [label="Vaquero, Anita, Neenah, Tláloc",shape=box,color=blue];
+		j2893619884 -> j543604505;
+		j2893619884 -> j3702513849;
+	j543604505 [label="ทำไมถึงตั้งชื่อแบบนั้นล่ะ",shape=box,color=red];
+		j543604505 -> j2870367039;
+	j3702513849 [label="น่าจะตั้งชื่อสักตัวตามชื่อข้านะ :)",shape=box,color=red];
+		j3702513849 -> j3131265305;
+	j2870367039 [label="Vaquero แปลว่าคาวบอย 
 Anita เป็นชื่อเพื่อนที่บ้าน 
 Neenah เป็นชื่อเพื่อนที่จากไปแล้ว 
 Tláloc ตามชื่อเทพเจ้าแห่งสายฝน",shape=box,color=blue];
-		315 -> 317;
-	316 [label="หือ 
+		j2870367039 -> j1418770387;
+	j3131265305 [label="หือ 
 ตั้งชื่อว่า Babas 
 หวังว่ามันจะไม่เริ่มเลียวอลเปเปอร์นะ",shape=box,color=blue];
-		316 -> 318;
-		316 -> 319;
-	317 [label="Tláloc เป็น *ไอ้ส้นตีน* 
+		j3131265305 -> j1682662931;
+		j3131265305 -> j2759239133;
+	j1418770387 [label="Tláloc เป็น *ไอ้ส้นตีน* 
 หนูไม่ใช่พระเจ้า jaja 
 ฉันไม่ต้องการ mojo แย่ ๆ แบบนั้นหรอก",shape=box,color=blue];
-		317 -> 322;
-		317 -> 323;
-	318 [label="คำว่า \"Babas\" หมายถึงอะไรกันแน่",shape=box,color=red];
-		318 -> 324;
-	319 [label="ฮ่าฮ่า ข้ารู้ว่ามันหมายถึงอะไรนะ",shape=box,color=red];
-		319 -> 320;
-	322 [label="ไม่เคยได้ยินชื่อ Tláloc มาก่อนเลย เขาอยู่มาก่อนลูอากับโซล หรือก่อนลัทธิทวิภาวะเหรอ",shape=box,color=red];
-		322 -> 326;
-	323 [label="ทำไมถึงกลายเป็นไอ้ส้นต้นได้ล่ะ อิอิ",shape=box,color=red];
-		323 -> 327;
-	324 [label="อย่าไปสนใจเลย 
+		j1418770387 -> j554211163;
+		j1418770387 -> j1060677618;
+	j1682662931 [label="คำว่า \"Babas\" หมายถึงอะไรกันแน่",shape=box,color=red];
+		j1682662931 -> j3129690397;
+	j2759239133 [label="ฮ่าฮ่า ข้ารู้ว่ามันหมายถึงอะไรนะ",shape=box,color=red];
+		j2759239133 -> j737126542;
+	j554211163 [label="ไม่เคยได้ยินชื่อ Tláloc มาก่อนเลย เขาอยู่มาก่อนลูอากับโซล หรือก่อนลัทธิทวิภาวะเหรอ",shape=box,color=red];
+		j554211163 -> j1488299209;
+	j1060677618 [label="ทำไมถึงกลายเป็นไอ้ส้นต้นได้ล่ะ อิอิ",shape=box,color=red];
+		j1060677618 -> j3600283683;
+	j3129690397 [label="อย่าไปสนใจเลย 
 มันอาจแย่กว่าที่คิดก็ได้",shape=box,color=blue];
-		324 -> 332;
-		324 -> 333;
-	320 [label="ดี",shape=box,color=blue];
-		320 -> 321;
-	326 [label="Update boolean LettieReligion2",color=orange];
-		326 -> 328;
-	327 [label="Update boolean LettieReligion2",color=orange];
-		327 -> 329;
-	332 [label="ไม่เป็นไรน่า... ข้าเชื่อใจเจ้า",shape=box,color=red];
-		332 -> 335;
-	333 [label="ไม่เชื่อหรอก",shape=box,color=red];
-		333 -> 337;
-	321 [label="Chat ends.",color=orange];
-	328 [label="Sí อยู่มานานแล้ว พวกของฉันบูชาเทพเจ้าโบราณ ซึ่งบางองค์ก็อาจเป็นพวก... กระหายเลือด",shape=box,color=blue];
-		328 -> 330;
-		328 -> 331;
-	329 [label="เขาชอบกัด 
+		j3129690397 -> j917238382;
+		j3129690397 -> j2995587528;
+	j737126542 [label="ดี",shape=box,color=blue];
+		j737126542 -> "Chat ends.";
+	j1488299209 [label="Boolean LettieReligion2 is now true.",color=orange];
+		j1488299209 -> j2662015021;
+	j3600283683 [label="Boolean LettieReligion2 is now true.",color=orange];
+		j3600283683 -> j2753164984;
+	j917238382 [label="ไม่เป็นไรน่า... ข้าเชื่อใจเจ้า",shape=box,color=red];
+		j917238382 -> j1542753201;
+	j2995587528 [label="ไม่เชื่อหรอก",shape=box,color=red];
+		j2995587528 -> j1415258170;
+	"Chat ends." [color=orange];
+	j2662015021 [label="Sí อยู่มานานแล้ว พวกของฉันบูชาเทพเจ้าโบราณ ซึ่งบางองค์ก็อาจเป็นพวก... กระหายเลือด",shape=box,color=blue];
+		j2662015021 -> j857783438;
+		j2662015021 -> j865963202;
+	j2753164984 [label="เขาชอบกัด 
 ก็เป็นเหมือนกับคนโบราณและเทพเจ้าของพวกเขานั่นแหละ ซึ่งบางส่วนก็เป็นพวก... กระหายเลือด",shape=box,color=blue];
-		329 -> 331;
-		329 -> 330;
-	335 [label="+20 Chemistry",color=orange];
-		335 -> 334;
-	337 [label="ก็ไม่เดือดร้อนอะไรนะ",shape=box,color=blue];
-		337 -> 338;
-	330 [label="หมายความว่าไง \"กระหายเลือด\"?",shape=box,color=red];
-		330 -> 339;
-	331 [label="ฟังดู อืม น่าสนใจดีนะ",shape=box,color=red];
-		331 -> 339;
-	334 [label="Bueno",shape=box,color=blue];
-		334 -> 336;
-	338 [label="Chat ends.",color=orange];
-	339 [label="Xipe Totec ผู้ถูกถลกหนัง เป็นเทพแห่งการเกิดใหม่ การเกษตร และสงคราม",shape=box,color=blue];
-		339 -> 340;
-		339 -> 341;
-	336 [label="Chat ends.",color=orange];
-	340 [label="ถูกถลกหนัง...?",shape=box,color=red];
-		340 -> 342;
-	341 [label="ฟังดูก็ไม่ได้แย่มากนะ...",shape=box,color=red];
-		341 -> 342;
-	342 [label="ในงานเทศกาลประจำปีเพื่อเฉลิมฉลองให้เทพองค์นี้ เชลยศึกจะถูกถลกหนังและกลุ่มผู้ชายจะสวมหนังนั่นเหมือนเป็นของตนเองและรับเครื่องบูชาจากผู้คนในเมืองในนามของเทพเจ้า 
+		j2753164984 -> j865963202;
+		j2753164984 -> j857783438;
+	j1542753201 [label="+20 Chemistry",color=orange];
+		j1542753201 -> j3748645904;
+	j1415258170 [label="ก็ไม่เดือดร้อนอะไรนะ",shape=box,color=blue];
+		j1415258170 -> "Chat ends.";
+	j857783438 [label="หมายความว่าไง \"กระหายเลือด\"?",shape=box,color=red];
+		j857783438 -> j1212704090;
+	j865963202 [label="ฟังดู อืม น่าสนใจดีนะ",shape=box,color=red];
+		j865963202 -> j1212704090;
+	j3748645904 [label="Bueno",shape=box,color=blue];
+		j3748645904 -> "Chat ends.";
+	j1212704090 [label="Xipe Totec ผู้ถูกถลกหนัง เป็นเทพแห่งการเกิดใหม่ การเกษตร และสงคราม",shape=box,color=blue];
+		j1212704090 -> j2700721012;
+		j1212704090 -> j1689733074;
+	j2700721012 [label="ถูกถลกหนัง...?",shape=box,color=red];
+		j2700721012 -> j180365075;
+	j1689733074 [label="ฟังดูก็ไม่ได้แย่มากนะ...",shape=box,color=red];
+		j1689733074 -> j180365075;
+	j180365075 [label="ในงานเทศกาลประจำปีเพื่อเฉลิมฉลองให้เทพองค์นี้ เชลยศึกจะถูกถลกหนังและกลุ่มผู้ชายจะสวมหนังนั่นเหมือนเป็นของตนเองและรับเครื่องบูชาจากผู้คนในเมืองในนามของเทพเจ้า 
 อย่างที่ฉันบอกนั่นแหละ 
 พวกเขาอาจทำให้เกิดการนองเลือดบ้างเป็นครั้งคราว",shape=box,color=blue];
-		342 -> 343;
-		342 -> 344;
-	343 [label="เอ่อ ขอบใจนะสำหรับเชื้อเพลิงแห่งฝันร้าย",shape=box,color=red];
-		343 -> 347;
-	344 [label="มนุษย์เป็นสิ่งที่แปลกจริง ๆ",shape=box,color=red];
-		344 -> 348;
-	347 [label="+10 Chemistry",color=orange];
-		347 -> 345;
-	348 [label="+20 Chemistry",color=orange];
-		348 -> 346;
-	345 [label="De nada",shape=box,color=blue];
-		345 -> 349;
-	346 [label="เห็นด้วยอย่างยิ่ง",shape=box,color=blue];
-		346 -> 350;
-	349 [label="Chat ends.",color=orange];
-	350 [label="Chat ends.",color=orange];
+		j180365075 -> j106183492;
+		j180365075 -> j951471493;
+	j106183492 [label="เอ่อ ขอบใจนะสำหรับเชื้อเพลิงแห่งฝันร้าย",shape=box,color=red];
+		j106183492 -> j1783358073;
+	j951471493 [label="มนุษย์เป็นสิ่งที่แปลกจริง ๆ",shape=box,color=red];
+		j951471493 -> j1158168934;
+	j1783358073 [label="+10 Chemistry",color=orange];
+		j1783358073 -> j2744980338;
+	j1158168934 [label="+20 Chemistry",color=orange];
+		j1158168934 -> j2571810700;
+	j2744980338 [label="De nada",shape=box,color=blue];
+		j2744980338 -> "Chat ends.";
+	j2571810700 [label="เห็นด้วยอย่างยิ่ง",shape=box,color=blue];
+		j2571810700 -> "Chat ends.";
 }

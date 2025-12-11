@@ -1,21 +1,16 @@
 digraph {
-	2832 [label="EleanorBirthdayConvo3 begins.",color=orange];
-		2832 -> 2833;
-		2832 -> 2836;
-	2833 [label="生日快樂，愛琳娜！希望你過個開心的生日！",shape=box,color=red];
-		2833 -> 784;
-	2836 [label="……那用你的舌頭吹熄生日蛋糕蠟燭會很困難嗎？",shape=box,color=red];
-		2836 -> 785;
-	784 [label="+20 Chemistry",color=orange];
-		784 -> 2835;
-	785 [label="謝謝你提醒我我已經很多年沒有吃過生日蛋糕了。真是考慮周到。",shape=box,color=blue];
-		785 -> 2843;
-	2835 [label="我有啊。每個人都非常貼心，即使是那些平常不那麼體貼的人。也許我們還有希望？",shape=box,color=blue];
-		2835 -> 2838;
-	2843 [label="{\"Id\":2843,\"Incoming\":[785],\"Outgoing\":[783],\"GraphPos\":[1879,-2636],\"CompletionType\":1}",color=orange];
-		2843 -> 783;
-	2838 [label="{\"Id\":2838,\"Incoming\":[2835],\"Outgoing\":[2834],\"GraphPos\":[1883,-2830],\"CompletionType\":1}",color=orange];
-		2838 -> 2834;
-	783 [label="Chat ends.",color=orange];
-	2834 [label="Chat ends.",color=orange];
+	"EleanorBirthdayConvo3 begins." [color=orange];
+		"EleanorBirthdayConvo3 begins." -> j2584547462;
+		"EleanorBirthdayConvo3 begins." -> j2501912301;
+	j2584547462 [label="生日快樂，愛琳娜！希望你過個開心的生日！",shape=box,color=red];
+		j2584547462 -> j2374996500;
+	j2501912301 [label="……那用你的舌頭吹熄生日蛋糕蠟燭會很困難嗎？",shape=box,color=red];
+		j2501912301 -> j1998960564;
+	j2374996500 [label="+20 Chemistry",color=orange];
+		j2374996500 -> j1638742307;
+	j1998960564 [label="謝謝你提醒我我已經很多年沒有吃過生日蛋糕了。真是考慮周到。",shape=box,color=blue];
+		j1998960564 -> "Chat ends.";
+	j1638742307 [label="我有啊。每個人都非常貼心，即使是那些平常不那麼體貼的人。也許我們還有希望？",shape=box,color=blue];
+		j1638742307 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

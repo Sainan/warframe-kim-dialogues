@@ -1,19 +1,18 @@
 digraph {
-	995 [label="KayaBirthdayConvo3 begins.",color=orange];
-		995 -> 1003;
-		995 -> 1004;
-	1003 [label="你們這個時代的孩子們都是怎麼過生日的？",shape=box,color=red];
-		1003 -> 994;
-	1004 [label="專業提示：把你的生日預留給一些非常重要的事情上。大約五百年後……你就會忘記它了。",shape=box,color=red];
-		1004 -> 1011;
-	994 [label="呃。",shape=box,color=blue];
-		994 -> 993;
-	1011 [label="哦耶，我現在不會變老了，是不是？我會一遍又一遍地過著同樣的生日",shape=box,color=blue];
-		1011 -> 1012;
-	993 [label="Chat ends.",color=orange];
-	1012 [label="+20 Chemistry",color=orange];
-		1012 -> 1013;
-	1013 [label="這。太。酷了。",shape=box,color=blue];
-		1013 -> 1014;
-	1014 [label="Chat ends.",color=orange];
+	"KayaBirthdayConvo3 begins." [color=orange];
+		"KayaBirthdayConvo3 begins." -> j1533786819;
+		"KayaBirthdayConvo3 begins." -> j3296077454;
+	j1533786819 [label="你們這個時代的孩子們都是怎麼過生日的？",shape=box,color=red];
+		j1533786819 -> j4026214684;
+	j3296077454 [label="專業提示：把你的生日預留給一些非常重要的事情上。大約五百年後……你就會忘記它了。",shape=box,color=red];
+		j3296077454 -> j4142706350;
+	j4026214684 [label="呃。",shape=box,color=blue];
+		j4026214684 -> "Chat ends.";
+	j4142706350 [label="哦耶，我現在不會變老了，是不是？我會一遍又一遍地過著同樣的生日",shape=box,color=blue];
+		j4142706350 -> j1181802095;
+	"Chat ends." [color=orange];
+	j1181802095 [label="+20 Chemistry",color=orange];
+		j1181802095 -> j3559767650;
+	j3559767650 [label="這。太。酷了。",shape=box,color=blue];
+		j3559767650 -> "Chat ends.";
 }

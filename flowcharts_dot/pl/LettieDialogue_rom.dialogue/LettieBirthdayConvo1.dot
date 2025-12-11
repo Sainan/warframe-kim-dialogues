@@ -1,25 +1,20 @@
 digraph {
-	458 [label="LettieBirthdayConvo1 begins.",color=orange];
-		458 -> 457;
-		458 -> 456;
-	457 [label="Hej! Wszystkiego najlepszego! Szczury sprawiły ci jakąś niespodziankę?",shape=box,color=red];
-		457 -> 460;
-	456 [label="Wszystkiego najlepszego! I to jeszcze w Dzień Gwiazd, jak romantycznie :)",shape=box,color=red];
-		456 -> 1298;
-	460 [label="+20 Chemistry",color=orange];
-		460 -> 1300;
-	1298 [label="Czym są dni gwiazd?
+	"LettieBirthdayConvo1 begins." [color=orange];
+		"LettieBirthdayConvo1 begins." -> j2789521592;
+		"LettieBirthdayConvo1 begins." -> j1501679305;
+	j2789521592 [label="Hej! Wszystkiego najlepszego! Szczury sprawiły ci jakąś niespodziankę?",shape=box,color=red];
+		j2789521592 -> j102394766;
+	j1501679305 [label="Wszystkiego najlepszego! I to jeszcze w Dzień Gwiazd, jak romantycznie :)",shape=box,color=red];
+		j1501679305 -> j1256962131;
+	j102394766 [label="+20 Chemistry",color=orange];
+		j102394766 -> j824247769;
+	j1256962131 [label="Czym są dni gwiazd?
 Nieważne. Nie mam czasu na takie pierdoły. 
 Adiós",shape=box,color=blue];
-		1298 -> 2517;
-	1300 [label="Jajaja nie 
+		j1256962131 -> "Chat ends.";
+	j824247769 [label="Jajaja nie 
 Marzy mi się tylko godzina drzemki, albo gorąca kawa. Czy proszę o tak wiele? 
 Pero, gracias",shape=box,color=blue];
-		1300 -> 2516;
-	2517 [label="{\"Id\":2517,\"Incoming\":[1298],\"Outgoing\":[1297],\"GraphPos\":[797,-1598],\"CompletionType\":1}",color=orange];
-		2517 -> 1297;
-	2516 [label="{\"Id\":2516,\"Incoming\":[1300],\"Outgoing\":[459],\"GraphPos\":[1161,-1810],\"CompletionType\":1}",color=orange];
-		2516 -> 459;
-	1297 [label="Chat ends.",color=orange];
-	459 [label="Chat ends.",color=orange];
+		j824247769 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

@@ -1,76 +1,74 @@
 digraph {
-	427 [label="LettieRank2Convo4 begins.",color=orange];
-		427 -> 428;
-	428 [label="Check boolean LettieSmallFavor",color=orange];
-		428 -> 429 [label=true,color=green];
-		428 -> 430 [label=false,color=brown];
-	429 [label="嘿，babas 
+	"LettieRank2Convo4 begins." [color=orange];
+		"LettieRank2Convo4 begins." -> j3863215240;
+	j3863215240 [label="Check boolean LettieSmallFavor",color=orange];
+		j3863215240 -> j3862808176 [label=true,color=green];
+		j3863215240 -> j3696109845 [label=false,color=brown];
+	j3862808176 [label="嘿，babas 
 我想请你再帮个小忙",shape=box,color=blue];
-		429 -> 431;
-		429 -> 432;
-		429 -> 433;
-	430 [label="嘿，babas 
+		j3862808176 -> j4199042308;
+		j3862808176 -> j89138370;
+		j3862808176 -> j452844162;
+	j3696109845 [label="嘿，babas 
 我想请你帮个小忙",shape=box,color=blue];
-		430 -> 433;
-		430 -> 432;
-		430 -> 431;
-	431 [label="可以。怎么了？",shape=box,color=red];
-		431 -> 436;
-	432 [label="你知道我可不是你的跑腿吧？",shape=box,color=red];
-		432 -> 435;
-	433 [label="自己的事情自己做。[结束]",shape=box,color=red];
-		433 -> 434;
-	436 [label="+10 Chemistry",color=orange];
-		436 -> 765;
-	435 [label="Sí 
+		j3696109845 -> j452844162;
+		j3696109845 -> j89138370;
+		j3696109845 -> j4199042308;
+	j4199042308 [label="可以。怎么了？",shape=box,color=red];
+		j4199042308 -> j142854871;
+	j89138370 [label="你知道我可不是你的跑腿吧？",shape=box,color=red];
+		j89138370 -> j441073428;
+	j452844162 [label="自己的事情自己做。[结束]",shape=box,color=red];
+		j452844162 -> "Chat ends.";
+	j142854871 [label="+10 Chemistry",color=orange];
+		j142854871 -> j3751577065;
+	j441073428 [label="Sí 
 我敢说我能让你求着我要奖励 
 不过你大概会撑不住",shape=box,color=blue];
-		435 -> 437;
-		435 -> 438;
-	434 [label="Chat ends.",color=orange];
-	765 [label="Bueno",shape=box,color=blue];
-		765 -> 442;
-	437 [label="你……是在威胁我，还是在撩我？",shape=box,color=red];
-		437 -> 441;
-	438 [label="放马过来。",shape=box,color=red];
-		438 -> 2461;
-	442 [label="我有一大堆工作要做，根本没时间玩游戏和到处跑
+		j441073428 -> j2116582826;
+		j441073428 -> j1770083776;
+	"Chat ends." [color=orange];
+	j3751577065 [label="Bueno",shape=box,color=blue];
+		j3751577065 -> j271614334;
+	j2116582826 [label="你……是在威胁我，还是在撩我？",shape=box,color=red];
+		j2116582826 -> j2512810959;
+	j1770083776 [label="放马过来。",shape=box,color=red];
+		j1770083776 -> j2991681419;
+	j271614334 [label="我有一大堆工作要做，根本没时间玩游戏和到处跑
 这些市民挨子弹就像阿米尔捡电脑一样容易",shape=box,color=blue];
-		442 -> 443;
-	441 [label="+10 Chemistry",color=orange];
-		441 -> 439;
-	2461 [label="+10 Chemistry",color=orange];
-		2461 -> 440;
-	443 [label="也就是说，医疗包 
+		j271614334 -> j3575046510;
+	j2512810959 [label="+10 Chemistry",color=orange];
+		j2512810959 -> j3712105194;
+	j2991681419 [label="+10 Chemistry",color=orange];
+		j2991681419 -> j2332202079;
+	j3575046510 [label="也就是说，医疗包 
 我需要更多 
 找到它们或购买它们，无所谓
 把它们带给我 
 Te lo agradecería mucho",shape=box,color=blue];
-		443 -> 445;
-		443 -> 446;
-		443 -> 447;
-	439 [label="¿Por qué no ambos? 
+		j3575046510 -> j1418542918;
+		j3575046510 -> j3048926834;
+		j3575046510 -> j3249065315;
+	j3712105194 [label="¿Por qué no ambos? 
 别让我分心，babas",shape=box,color=blue];
-		439 -> 442;
-	440 [label="Cuidadito，babas 
+		j3712105194 -> j271614334;
+	j2332202079 [label="Cuidadito，babas 
 别分散我的注意力",shape=box,color=blue];
-		440 -> 442;
-	445 [label="我在做了。",shape=box,color=red];
-		445 -> 451;
-	446 [label="我没法保证。",shape=box,color=red];
-		446 -> 557;
-	447 [label="你自己去找吧。",shape=box,color=red];
-		447 -> 448;
-	451 [label="+10 Chemistry",color=orange];
-		451 -> 450;
-	557 [label="+10 Chemistry",color=orange];
-		557 -> 449;
-	448 [label="Chat ends.",color=orange];
-	450 [label="Gracias",shape=box,color=blue];
-		450 -> 452;
-	449 [label="我又没让你保证",shape=box,color=blue];
-		449 -> 452;
-	452 [label="Update boolean LettieSmallFavor",color=orange];
-		452 -> 453;
-	453 [label="Chat ends.",color=orange];
+		j2332202079 -> j271614334;
+	j1418542918 [label="我在做了。",shape=box,color=red];
+		j1418542918 -> j1781458524;
+	j3048926834 [label="我没法保证。",shape=box,color=red];
+		j3048926834 -> j474835944;
+	j3249065315 [label="你自己去找吧。",shape=box,color=red];
+		j3249065315 -> "Chat ends.";
+	j1781458524 [label="+10 Chemistry",color=orange];
+		j1781458524 -> j1997227581;
+	j474835944 [label="+10 Chemistry",color=orange];
+		j474835944 -> j2343522993;
+	j1997227581 [label="Gracias",shape=box,color=blue];
+		j1997227581 -> j2570747018;
+	j2343522993 [label="我又没让你保证",shape=box,color=blue];
+		j2343522993 -> j2570747018;
+	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j2570747018 -> "Chat ends.";
 }

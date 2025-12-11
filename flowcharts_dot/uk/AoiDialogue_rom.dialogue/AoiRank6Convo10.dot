@@ -1,13 +1,13 @@
 digraph {
-	4215 [label="AoiRank6Convo10 begins.",color=orange];
-		4215 -> 4216;
-	4216 [label="ппссс нікому не кажи але я працюю над подарунком для квінсі на ДН",shape=box,color=blue];
-		4216 -> 4217;
-	4217 [label="мені треба позичити твій атомоцикл, 187 коробок для піци й кожен маркер який ти зможеш знайти",shape=box,color=blue];
-		4217 -> 4218;
-	4218 [label="і не пускай артура в будівлю до кінця дня",shape=box,color=blue];
-		4218 -> 4219;
-	4219 [label="і не став запитань",shape=box,color=blue];
-		4219 -> 4220;
-	4220 [label="Chat ends.",color=orange];
+	"AoiRank6Convo10 begins." [color=orange];
+		"AoiRank6Convo10 begins." -> j1114587429;
+	j1114587429 [label="ппссс нікому не кажи але я працюю над подарунком для квінсі на ДН",shape=box,color=blue];
+		j1114587429 -> j4140142301;
+	j4140142301 [label="мені треба позичити твій атомоцикл, 187 коробок для піци й кожен маркер який ти зможеш знайти",shape=box,color=blue];
+		j4140142301 -> j2850213071;
+	j2850213071 [label="і не пускай артура в будівлю до кінця дня",shape=box,color=blue];
+		j2850213071 -> j2788363147;
+	j2788363147 [label="і не став запитань",shape=box,color=blue];
+		j2788363147 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

@@ -1,21 +1,16 @@
 digraph {
-	3580 [label="AmirBirthdayConvo3 begins.",color=orange];
-		3580 -> 3585;
-		3580 -> 3586;
-	3585 [label="Oi, Amir. Feliz aniversário. Bip bop… seilá, essas parada aí",shape=box,color=red];
-		3585 -> 3584;
-	3586 [label="SAUDAÇÕES AMIR PARABÉNS PELO ANIVERSÁRIO DA DATA DE SUA CONCEPÇÃO",shape=box,color=red];
-		3586 -> 3587;
-	3584 [label="amir nn se encontra no momento este é um programa de firewall inteligente que o amir escreveu pra filtrar desejos de aniversário falsos ah olha lá mais um",shape=box,color=blue];
-		3584 -> 3598;
-	3587 [label="+20 Chemistry",color=orange];
-		3587 -> 3583;
-	3598 [label="{\"Id\":3598,\"Incoming\":[3584],\"Outgoing\":[3581],\"GraphPos\":[-14748,-20693],\"CompletionType\":1}",color=orange];
-		3598 -> 3581;
-	3583 [label="DECLARAÇÃO CULTURALMENTE ADEQUADA DE PROFUNDOS AGRADECIMENTOS E CARINHOSA APRECIAÇÃO",shape=box,color=blue];
-		3583 -> 3599;
-	3581 [label="Chat ends.",color=orange];
-	3599 [label="{\"Id\":3599,\"Incoming\":[3583],\"Outgoing\":[3582],\"GraphPos\":[-14347,-20820],\"CompletionType\":1}",color=orange];
-		3599 -> 3582;
-	3582 [label="Chat ends.",color=orange];
+	"AmirBirthdayConvo3 begins." [color=orange];
+		"AmirBirthdayConvo3 begins." -> j657587176;
+		"AmirBirthdayConvo3 begins." -> j1752656819;
+	j657587176 [label="Oi, Amir. Feliz aniversário. Bip bop… seilá, essas parada aí",shape=box,color=red];
+		j657587176 -> j610457748;
+	j1752656819 [label="SAUDAÇÕES AMIR PARABÉNS PELO ANIVERSÁRIO DA DATA DE SUA CONCEPÇÃO",shape=box,color=red];
+		j1752656819 -> j404339435;
+	j610457748 [label="amir nn se encontra no momento este é um programa de firewall inteligente que o amir escreveu pra filtrar desejos de aniversário falsos ah olha lá mais um",shape=box,color=blue];
+		j610457748 -> "Chat ends.";
+	j404339435 [label="+20 Chemistry",color=orange];
+		j404339435 -> j1572065570;
+	"Chat ends." [color=orange];
+	j1572065570 [label="DECLARAÇÃO CULTURALMENTE ADEQUADA DE PROFUNDOS AGRADECIMENTOS E CARINHOSA APRECIAÇÃO",shape=box,color=blue];
+		j1572065570 -> "Chat ends.";
 }

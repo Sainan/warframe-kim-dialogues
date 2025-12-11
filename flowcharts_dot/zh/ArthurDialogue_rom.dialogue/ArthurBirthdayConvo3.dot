@@ -1,21 +1,16 @@
 digraph {
-	3192 [label="ArthurBirthdayConvo3 begins.",color=orange];
-		3192 -> 3210;
-		3192 -> 3212;
-	3210 [label="嗨。只是想说声生日快乐。很高兴能见证这一天。",shape=box,color=red];
-		3210 -> 3211;
-	3212 [label="生日快乐。今天要格外努力，尽量别死掉。不然会破坏气氛的。",shape=box,color=red];
-		3212 -> 3207;
-	3211 [label="+20 Chemistry",color=orange];
-		3211 -> 3209;
-	3207 [label="听着，我知道你自己经历了很多，但是黑色幽默也要看时间和场合的。",shape=box,color=blue];
-		3207 -> 3000;
-	3209 [label="我们有过几次惊险经历，不是吗？感谢你今天和每一天的支持。",shape=box,color=blue];
-		3209 -> 3225;
-	3000 [label="{\"Id\":3000,\"Incoming\":[3207],\"Outgoing\":[3208],\"GraphPos\":[-30902,-13388],\"CompletionType\":1}",color=orange];
-		3000 -> 3208;
-	3225 [label="{\"Id\":3225,\"Incoming\":[3209],\"Outgoing\":[3213],\"GraphPos\":[-30899,-13547],\"CompletionType\":1}",color=orange];
-		3225 -> 3213;
-	3208 [label="Chat ends.",color=orange];
-	3213 [label="Chat ends.",color=orange];
+	"ArthurBirthdayConvo3 begins." [color=orange];
+		"ArthurBirthdayConvo3 begins." -> j2530097626;
+		"ArthurBirthdayConvo3 begins." -> j2431227998;
+	j2530097626 [label="嗨。只是想说声生日快乐。很高兴能见证这一天。",shape=box,color=red];
+		j2530097626 -> j2479217304;
+	j2431227998 [label="生日快乐。今天要格外努力，尽量别死掉。不然会破坏气氛的。",shape=box,color=red];
+		j2431227998 -> j814861561;
+	j2479217304 [label="+20 Chemistry",color=orange];
+		j2479217304 -> j1684930015;
+	j814861561 [label="听着，我知道你自己经历了很多，但是黑色幽默也要看时间和场合的。",shape=box,color=blue];
+		j814861561 -> "Chat ends.";
+	j1684930015 [label="我们有过几次惊险经历，不是吗？感谢你今天和每一天的支持。",shape=box,color=blue];
+		j1684930015 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

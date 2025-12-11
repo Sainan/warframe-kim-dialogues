@@ -1,172 +1,170 @@
 digraph {
-	758 [label="LettieRank3Convo3 begins.",color=orange];
-		758 -> 759;
-	759 [label="이 말도 안되는 헛소리들 이전에
+	"LettieRank3Convo3 begins." [color=orange];
+		"LettieRank3Convo3 begins." -> j1043607592;
+	j1043607592 [label="이 말도 안되는 헛소리들 이전에
 넌 어디서 온 거야, ¿babas?",shape=box,color=blue];
-		759 -> 760;
-		759 -> 762;
-	760 [label="이 말도 안되는 헛소리 현상들 꽤 일찍 시작됐어. 지금-이전, 두비리-이전 아니면 자리만-이전이 있는데 뭐 듣고 싶어?",shape=box,color=red];
-		760 -> 764;
-	762 [label="미안, 지금은 채팅 못 해. [종료.]",shape=box,color=red];
-		762 -> 763;
-	764 [label="Jajaja 
+		j1043607592 -> j2531226900;
+		j1043607592 -> j560573532;
+	j2531226900 [label="이 말도 안되는 헛소리 현상들 꽤 일찍 시작됐어. 지금-이전, 두비리-이전 아니면 자리만-이전이 있는데 뭐 듣고 싶어?",shape=box,color=red];
+		j2531226900 -> j3485552289;
+	j560573532 [label="미안, 지금은 채팅 못 해. [종료.]",shape=box,color=red];
+		j560573532 -> "Chat ends.";
+	j3485552289 [label="Jajaja 
 맞아, 좀 이르긴 하지 
 네가 어디서 온 것 같이 느껴지냐 그 말이야",shape=box,color=blue];
-		764 -> 766;
-		764 -> 767;
-		764 -> 768;
-		764 -> 769;
-		764 -> 770;
-	763 [label="Chat ends.",color=orange];
-	766 [label="두비리 같아.",shape=box,color=red];
-		766 -> 771;
-	767 [label="자리만 같아.",shape=box,color=red];
-		767 -> 772;
-	768 [label="넌 나를 비웃을 거야... 하지만 지금까지 중에 내가 가장 \"집\"이라고 느낀 곳이야.",shape=box,color=red];
-		768 -> 773;
-	769 [label="난 사실 어디에서도 \"온\"게 아니야.",shape=box,color=red];
-		769 -> 774;
-	770 [label="솔직히 말 해 줄까? 잘... 모르겠어. 오로킨은 옛 지구의 기록을 대부분을 지웠거든. 그래서 내가 정확히 얼마나 먼 미래에서 왔는지 알 길이 없어.",shape=box,color=red];
-		770 -> 779;
-	771 [label="Update boolean LettieHomeDuviri",color=orange];
-		771 -> 775;
-	772 [label="Update boolean LettieHomeZariman",color=orange];
-		772 -> 776;
-	773 [label="Update boolean LettieHome1999",color=orange];
-		773 -> 777;
-	774 [label="Update boolean LettieHomeNowhere",color=orange];
-		774 -> 778;
-	779 [label="힘들었겠다 
+		j3485552289 -> j1911850668;
+		j3485552289 -> j3515905260;
+		j3485552289 -> j3129624709;
+		j3485552289 -> j3282343865;
+		j3485552289 -> j154347056;
+	"Chat ends." [color=orange];
+	j1911850668 [label="두비리 같아.",shape=box,color=red];
+		j1911850668 -> j2683357769;
+	j3515905260 [label="자리만 같아.",shape=box,color=red];
+		j3515905260 -> j1382775538;
+	j3129624709 [label="넌 나를 비웃을 거야... 하지만 지금까지 중에 내가 가장 \"집\"이라고 느낀 곳이야.",shape=box,color=red];
+		j3129624709 -> j4030892408;
+	j3282343865 [label="난 사실 어디에서도 \"온\"게 아니야.",shape=box,color=red];
+		j3282343865 -> j3515211799;
+	j154347056 [label="솔직히 말 해 줄까? 잘... 모르겠어. 오로킨은 옛 지구의 기록을 대부분을 지웠거든. 그래서 내가 정확히 얼마나 먼 미래에서 왔는지 알 길이 없어.",shape=box,color=red];
+		j154347056 -> j1908386152;
+	j2683357769 [label="Boolean LettieHomeDuviri is now true.",color=orange];
+		j2683357769 -> j3170619104;
+	j1382775538 [label="Boolean LettieHomeZariman is now true.",color=orange];
+		j1382775538 -> j3003919794;
+	j4030892408 [label="Boolean LettieHome1999 is now true.",color=orange];
+		j4030892408 -> j3375511969;
+	j3515211799 [label="Boolean LettieHomeNowhere is now true.",color=orange];
+		j3515211799 -> j443550534;
+	j1908386152 [label="힘들었겠다 
 어느 장소에도, 어느 시간대에도 속하지 않은 것처럼 느껴지는 게",shape=box,color=blue];
-		779 -> 784;
-	775 [label="그게 너한테 어떻게 했는지에도 불구하고?",shape=box,color=blue];
-		775 -> 780;
-		775 -> 781;
-	776 [label="저게 그 함선이지, ¿no? 
+		j1908386152 -> j3181008293;
+	j3170619104 [label="그게 너한테 어떻게 했는지에도 불구하고?",shape=box,color=blue];
+		j3170619104 -> j3690778311;
+		j3170619104 -> j3983587783;
+	j3003919794 [label="저게 그 함선이지, ¿no? 
 지금은 버려진거야?",shape=box,color=blue];
-		776 -> 782;
-		776 -> 783;
-	777 [label="내가 왜 너를 비웃을 것 같아",shape=box,color=blue];
-		777 -> 779;
-	778 [label="Sí, 집 없이
+		j3003919794 -> j4124507904;
+		j3003919794 -> j3788671217;
+	j3375511969 [label="내가 왜 너를 비웃을 것 같아",shape=box,color=blue];
+		j3375511969 -> j1908386152;
+	j443550534 [label="Sí, 집 없이
 떠돌아다니는 너",shape=box,color=blue];
-		778 -> 779;
-	784 [label="우리 가족은 이사를 많이 다녔고 나도 군에 입대했어
+		j443550534 -> j1908386152;
+	j3181008293 [label="우리 가족은 이사를 많이 다녔고 나도 군에 입대했어
 그런 다음 ICR에 들어와서 아무와도, 어디에도 어울리지 못했지
 그래서 어떤 면으로 이질감 느낀다는 점 이해해",shape=box,color=blue];
-		784 -> 788;
-	780 [label="가끔, 우리들의 고향이 우리들에게 무슨 짓을 해올지에 대해 선택할 수 없는 경우가 있어.",shape=box,color=red];
-		780 -> 785;
-	781 [label="그게 내게 한 일은 내가 내 스스로에게 한 일이었어. 머릿속에서 악몽이 몇 번이고 계속 반복되고 있을 뿐이야.",shape=box,color=red];
-		781 -> 792;
-	782 [label="그건... 복잡한 질문이네. 그 함선 자체에 유령들이 있어.",shape=box,color=red];
-		782 -> 792;
-	783 [label="아니, 버려진 게 아냐. 그곳엔 그곳을 고향이라 부르는 사람들의 기억이 담겨 있다.",shape=box,color=red];
-		783 -> 792;
-	788 [label="하지만 나에겐 사람들과 내 자신의 것이라고 부를 수 있는 문화가 있어
+		j3181008293 -> j3094485027;
+	j3690778311 [label="가끔, 우리들의 고향이 우리들에게 무슨 짓을 해올지에 대해 선택할 수 없는 경우가 있어.",shape=box,color=red];
+		j3690778311 -> j2772987920;
+	j3983587783 [label="그게 내게 한 일은 내가 내 스스로에게 한 일이었어. 머릿속에서 악몽이 몇 번이고 계속 반복되고 있을 뿐이야.",shape=box,color=red];
+		j3983587783 -> j1818065007;
+	j4124507904 [label="그건... 복잡한 질문이네. 그 함선 자체에 유령들이 있어.",shape=box,color=red];
+		j4124507904 -> j1818065007;
+	j3788671217 [label="아니, 버려진 게 아냐. 그곳엔 그곳을 고향이라 부르는 사람들의 기억이 담겨 있다.",shape=box,color=red];
+		j3788671217 -> j1818065007;
+	j3094485027 [label="하지만 나에겐 사람들과 내 자신의 것이라고 부를 수 있는 문화가 있어
 비록 그들이 멀리 떨어져 있어도 말이야",shape=box,color=blue];
-		788 -> 790;
-		788 -> 791;
-	785 [label="Sí, 내가 어떻게 이해하질 못하겠어
+		j3094485027 -> j295953841;
+		j3094485027 -> j4132070045;
+	j2772987920 [label="Sí, 내가 어떻게 이해하질 못하겠어
 우리 가족은 이사를 많이 다녔고 나는 군에 입대했어 
 그런 다음 ICR에 들어와서 아무와도, 어디에도 어울리지 못했지",shape=box,color=blue];
-		785 -> 786;
-	792 [label="더 많은 fantasmas, 더 많은 죽음이 널 따라다니는구나 
+		j2772987920 -> j3252060964;
+	j1818065007 [label="더 많은 fantasmas, 더 많은 죽음이 널 따라다니는구나 
 난 내가 La Flaca에 대해서 잘 알고 있다고 생각했었는데",shape=box,color=blue];
-		792 -> 796;
-		792 -> 797;
-	790 [label="내 다른 선택지는 두비리고... 아니. 그 장소와 나와의 역사는... 좀 많이 복잡해.",shape=box,color=red];
-		790 -> 792;
-	791 [label="내 다른 선택지는 자리만이고 그닥 친절하진 않았어. 수많은 유령들과 악몽들이 가득 들어차 있지. 나말고 다른 사람들이 많이 죽은 곳이라는 점을 제외하면 말이야.",shape=box,color=red];
-		791 -> 792;
-	786 [label="하지만 내 집은 너에게 한 것처럼 나에겐 하지 않았어, babas
+		j1818065007 -> j3939664196;
+		j1818065007 -> j2177893547;
+	j295953841 [label="내 다른 선택지는 두비리고... 아니. 그 장소와 나와의 역사는... 좀 많이 복잡해.",shape=box,color=red];
+		j295953841 -> j1818065007;
+	j4132070045 [label="내 다른 선택지는 자리만이고 그닥 친절하진 않았어. 수많은 유령들과 악몽들이 가득 들어차 있지. 나말고 다른 사람들이 많이 죽은 곳이라는 점을 제외하면 말이야.",shape=box,color=red];
+		j4132070045 -> j1818065007;
+	j3252060964 [label="하지만 내 집은 너에게 한 것처럼 나에겐 하지 않았어, babas
 아직도 그 곳을 너의 고향으로 생각하는 점을 존경해",shape=box,color=blue];
-		786 -> 787;
-		786 -> 791;
-	796 [label="그녀와는 직통 전화급으로 연결돼 있어.",shape=box,color=red];
-		796 -> 802;
-	797 [label="어딜 가나 유령들이 따라다녀. 가끔 나도 유령이 아닐까 생각한다니까.",shape=box,color=red];
-		797 -> 803;
-	787 [label="그 곳은 내가 가장 잘 아는 곳이고, 내가 가장 잘 아는 곳이 그 곳이라고 생각이 들어.",shape=box,color=red];
-		787 -> 789;
-	802 [label="Jaja 그런것 같네 
+		j3252060964 -> j76234462;
+		j3252060964 -> j4132070045;
+	j3939664196 [label="그녀와는 직통 전화급으로 연결돼 있어.",shape=box,color=red];
+		j3939664196 -> j3533117496;
+	j2177893547 [label="어딜 가나 유령들이 따라다녀. 가끔 나도 유령이 아닐까 생각한다니까.",shape=box,color=red];
+		j2177893547 -> j2287337499;
+	j76234462 [label="그 곳은 내가 가장 잘 아는 곳이고, 내가 가장 잘 아는 곳이 그 곳이라고 생각이 들어.",shape=box,color=red];
+		j76234462 -> j2906561061;
+	j3533117496 [label="Jaja 그런것 같네 
 하지만 네 유령은 나에게 희망을 줘",shape=box,color=blue];
-		802 -> 798;
-	803 [label="유령들에 시달리는 불쌍한 babas 
+		j3533117496 -> j2964715487;
+	j2287337499 [label="유령들에 시달리는 불쌍한 babas 
 하지만 네가 나한테 희망을 주고 있어",shape=box,color=blue];
-		803 -> 804;
-	789 [label="+10 Chemistry",color=orange];
-		789 -> 793;
-	798 [label="유령한테 시달리는 게 어떻게 희망을 준다는 거야?",shape=box,color=red];
-		798 -> 819;
-	804 [label="내 고통이 네게 기쁨이 된다니 기뻐.",shape=box,color=red];
-		804 -> 805;
-	793 [label="Sí, 익숙해진다는 점에 대해 알려줄 게 있어
+		j2287337499 -> j212430706;
+	j2906561061 [label="+10 Chemistry",color=orange];
+		j2906561061 -> j1781503416;
+	j2964715487 [label="유령한테 시달리는 게 어떻게 희망을 준다는 거야?",shape=box,color=red];
+		j2964715487 -> j3388923278;
+	j212430706 [label="내 고통이 네게 기쁨이 된다니 기뻐.",shape=box,color=red];
+		j212430706 -> j1945290486;
+	j1781503416 [label="Sí, 익숙해진다는 점에 대해 알려줄 게 있어
 시간이 지나면 이 곳이 내 집처럼 느껴질 것 같아
 Mierda, 아주 긴 시간 뒤에나 이루어졌으면 좋겠지만",shape=box,color=blue];
-		793 -> 794;
-		793 -> 795;
-	819 [label="네가 다른 헥스들과 함께 있는 걸 봐
+		j1781503416 -> j1698595613;
+		j1781503416 -> j3109613846;
+	j3388923278 [label="네가 다른 헥스들과 함께 있는 걸 봐
 네가 웃으면서 행복을 찾고 있는게 보여
 넌 fantasma, 나처럼, 우리처럼
 하지만 넌 여전히 의미를 찾고 있어",shape=box,color=blue];
-		819 -> 820;
-	805 [label="Check boolean LettieNoFlirt",color=orange];
-		805 -> 810 [label=true,color=green];
-		805 -> 806 [label=false,color=brown];
-	794 [label="너는 강해. 잘 될 거야.",shape=box,color=red];
-		794 -> 799;
-	795 [label="이봐. 그래도 넌 나보다 더 괜찮은 동료라도 있었잖아.",shape=box,color=red];
-		795 -> 801;
-	820 [label="Update boolean LettieFantasma3",color=orange];
-		820 -> 822;
-	810 [label="+10 Chemistry",color=orange];
-		810 -> 807;
-	806 [label="Check boolean LettieFlirt",color=orange];
-		806 -> 811 [label=true,color=green];
-		806 -> 811 [label=false,color=brown];
-	799 [label="Pues, a ver",shape=box,color=blue];
-		799 -> 800;
-	801 [label="그럴지도 
+		j3388923278 -> j4223803373;
+	j1945290486 [label="Check boolean LettieNoFlirt",color=orange];
+		j1945290486 -> j993990020 [label=true,color=green];
+		j1945290486 -> j763709535 [label=false,color=brown];
+	j1698595613 [label="너는 강해. 잘 될 거야.",shape=box,color=red];
+		j1698595613 -> j1245671203;
+	j3109613846 [label="이봐. 그래도 넌 나보다 더 괜찮은 동료라도 있었잖아.",shape=box,color=red];
+		j3109613846 -> j2555508983;
+	j4223803373 [label="Boolean LettieFantasma3 is now true.",color=orange];
+		j4223803373 -> j4184060068;
+	j993990020 [label="+10 Chemistry",color=orange];
+		j993990020 -> j1209176997;
+	j763709535 [label="Check boolean LettieFlirt",color=orange];
+		j763709535 -> j4240099316 [label=true,color=green];
+		j763709535 -> j4240099316 [label=false,color=brown];
+	j1245671203 [label="Pues, a ver",shape=box,color=blue];
+		j1245671203 -> "Chat ends.";
+	j2555508983 [label="그럴지도 
 네 덕분에 희망을 가질 수 있었어, babas",shape=box,color=blue];
-		801 -> 819;
-	822 [label="+10 Chemistry",color=orange];
-		822 -> 821;
-	807 [label="JAJA 
+		j2555508983 -> j3388923278;
+	j4184060068 [label="+10 Chemistry",color=orange];
+		j4184060068 -> j1735151413;
+	j1209176997 [label="JAJA 
 아니야, pequeño babas 
 넌 아직 웃어도 돼",shape=box,color=blue];
-		807 -> 819;
-	811 [label="+10 Chemistry",color=orange];
-		811 -> 808;
-	800 [label="Chat ends.",color=orange];
-	821 [label="거기에 희망이 있어
+		j1209176997 -> j3388923278;
+	j4240099316 [label="+10 Chemistry",color=orange];
+		j4240099316 -> j1659076181;
+	j1735151413 [label="거기에 희망이 있어
 그리고 내가 얻을 수 있는 작은 것도 받아들일게
 Gracias, babas",shape=box,color=blue];
-		821 -> 823;
-	808 [label="오, babas, 걱정하지 마 
+		j1735151413 -> "Chat ends.";
+	j1659076181 [label="오, babas, 걱정하지 마 
 번갈아가면서 하면 돼",shape=box,color=blue];
-		808 -> 812;
-		808 -> 813;
-		808 -> 814;
-	823 [label="Chat ends.",color=orange];
-	812 [label="뭐가?",shape=box,color=red];
-		812 -> 815;
-	813 [label="난 - 오. *오.* 헤. 그래.",shape=box,color=red];
-		813 -> 816;
-	814 [label="난... 널 그런 식으로 좋아하진 않아, 미안해, 레티.",shape=box,color=red];
-		814 -> 817;
-	815 [label="... 넌 알아챌 거야
+		j1659076181 -> j3483976138;
+		j1659076181 -> j3637002472;
+		j1659076181 -> j3097497417;
+	j3483976138 [label="뭐가?",shape=box,color=red];
+		j3483976138 -> j1946972855;
+	j3637002472 [label="난 - 오. *오.* 헤. 그래.",shape=box,color=red];
+		j3637002472 -> j2074187691;
+	j3097497417 [label="난... 널 그런 식으로 좋아하진 않아, 미안해, 레티.",shape=box,color=red];
+		j3097497417 -> j3438165492;
+	j1946972855 [label="... 넌 알아챌 거야
 나한텐 믿음이 있어
 하지만 이건 네 고통에 대한 것이 아니야
 오늘은 안돼",shape=box,color=blue];
-		815 -> 819;
-	816 [label="하지만 이건 네 고통에 대한 것이 아니야
+		j1946972855 -> j3388923278;
+	j2074187691 [label="하지만 이건 네 고통에 대한 것이 아니야
 오늘은 안돼",shape=box,color=blue];
-		816 -> 819;
-	817 [label="Update boolean LettieNoFlirt",color=orange];
-		817 -> 818;
-	818 [label="Lo siento, 그냥 장난치는 거야
+		j2074187691 -> j3388923278;
+	j3438165492 [label="Boolean LettieNoFlirt is now true.",color=orange];
+		j3438165492 -> j4123938623;
+	j4123938623 [label="Lo siento, 그냥 장난치는 거야
 다신 그런 일 없을 거야 
 게다가, 이건 네 고통에 대한 게 아니야",shape=box,color=blue];
-		818 -> 819;
+		j4123938623 -> j3388923278;
 }

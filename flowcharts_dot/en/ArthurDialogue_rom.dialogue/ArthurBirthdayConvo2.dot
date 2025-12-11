@@ -1,21 +1,16 @@
 digraph {
-	3191 [label="ArthurBirthdayConvo2 begins.",color=orange];
-		3191 -> 3205;
-		3191 -> 3203;
-	3205 [label="Happy Birthday to Eleanor’s little brother!",shape=box,color=red];
-		3205 -> 3200;
-	3203 [label="Happy Birthday, Arthur. Any plans?",shape=box,color=red];
-		3203 -> 3204;
-	3200 [label="Wonderful. Now I have two of you who won’t ever let that drop.",shape=box,color=blue];
-		3200 -> 3224;
-	3204 [label="+20 Chemistry",color=orange];
-		3204 -> 3202;
-	3224 [label="{\"Id\":3224,\"Incoming\":[3200],\"Outgoing\":[3201],\"GraphPos\":[-30896,-13827],\"CompletionType\":1}",color=orange];
-		3224 -> 3201;
-	3202 [label="Thanks! Nice of you to remember. I might knock off half an hour early today. Not decided yet.",shape=box,color=blue];
-		3202 -> 3223;
-	3201 [label="Chat ends.",color=orange];
-	3223 [label="{\"Id\":3223,\"Incoming\":[3202],\"Outgoing\":[3206],\"GraphPos\":[-30893,-13986],\"CompletionType\":1}",color=orange];
-		3223 -> 3206;
-	3206 [label="Chat ends.",color=orange];
+	"ArthurBirthdayConvo2 begins." [color=orange];
+		"ArthurBirthdayConvo2 begins." -> j556958769;
+		"ArthurBirthdayConvo2 begins." -> j1172209855;
+	j556958769 [label="Happy Birthday to Eleanor’s little brother!",shape=box,color=red];
+		j556958769 -> j2460982654;
+	j1172209855 [label="Happy Birthday, Arthur. Any plans?",shape=box,color=red];
+		j1172209855 -> j2525822519;
+	j2460982654 [label="Wonderful. Now I have two of you who won’t ever let that drop.",shape=box,color=blue];
+		j2460982654 -> "Chat ends.";
+	j2525822519 [label="+20 Chemistry",color=orange];
+		j2525822519 -> j2276362390;
+	"Chat ends." [color=orange];
+	j2276362390 [label="Thanks! Nice of you to remember. I might knock off half an hour early today. Not decided yet.",shape=box,color=blue];
+		j2276362390 -> "Chat ends.";
 }

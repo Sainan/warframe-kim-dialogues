@@ -1,13 +1,13 @@
 digraph {
-	4215 [label="AoiRank6Convo10 begins.",color=orange];
-		4215 -> 4216;
-	4216 [label="pssst erzähl es keinem aber ich arbeite an einem geburtstagsgeschenk für quincy",shape=box,color=blue];
-		4216 -> 4217;
-	4217 [label="ich muss mir dein atomkrad leihen, 187 pizzakartons und jeden edding den du finden kannst",shape=box,color=blue];
-		4217 -> 4218;
-	4218 [label="und lass arthur für den rest des tages nicht ins gebäude",shape=box,color=blue];
-		4218 -> 4219;
-	4219 [label="stell jetzt keine fragen",shape=box,color=blue];
-		4219 -> 4220;
-	4220 [label="Chat ends.",color=orange];
+	"AoiRank6Convo10 begins." [color=orange];
+		"AoiRank6Convo10 begins." -> j1618351289;
+	j1618351289 [label="pssst erzähl es keinem aber ich arbeite an einem geburtstagsgeschenk für quincy",shape=box,color=blue];
+		j1618351289 -> j763110975;
+	j763110975 [label="ich muss mir dein atomkrad leihen, 187 pizzakartons und jeden edding den du finden kannst",shape=box,color=blue];
+		j763110975 -> j1329564306;
+	j1329564306 [label="und lass arthur für den rest des tages nicht ins gebäude",shape=box,color=blue];
+		j1329564306 -> j4019508366;
+	j4019508366 [label="stell jetzt keine fragen",shape=box,color=blue];
+		j4019508366 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

@@ -1,9 +1,9 @@
 digraph {
-	3847 [label="QuincyRank6Convo6 begins.",color=orange];
-		3847 -> 3848;
-	3848 [label="minerva見てると、戦争には2つの勝ち方があるんだなって実感するぜ",shape=box,color=blue];
-		3848 -> 3849;
-	3849 [label="考えもんだぜ",shape=box,color=blue];
-		3849 -> 3850;
-	3850 [label="Chat ends.",color=orange];
+	"QuincyRank6Convo6 begins." [color=orange];
+		"QuincyRank6Convo6 begins." -> j2801433078;
+	j2801433078 [label="minerva見てると、戦争には2つの勝ち方があるんだなって実感するぜ",shape=box,color=blue];
+		j2801433078 -> j2608381032;
+	j2608381032 [label="考えもんだぜ",shape=box,color=blue];
+		j2608381032 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

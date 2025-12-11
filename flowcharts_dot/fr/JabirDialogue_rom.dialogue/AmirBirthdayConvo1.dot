@@ -1,21 +1,16 @@
 digraph {
-	3564 [label="AmirBirthdayConvo1 begins.",color=orange];
-		3564 -> 3565;
-		3564 -> 3566;
-	3565 [label="Amir! Tu as réussi à faire un tour complet autour de Sol! Bravo!",shape=box,color=red];
-		3565 -> 3567;
-	3566 [label="C'est ton anniversaire, Amir! C'est peut-être le bon moment pour grandir un peu?",shape=box,color=red];
-		3566 -> 3568;
-	3567 [label="+20 Chemistry",color=orange];
-		3567 -> 3569;
-	3568 [label="*CHOC!!* J'arrive pas à croire que tu laisses traîner quelque chose comme ça là où mon enfant intérieur pourrait entendre!! IL Y A PERSONNE QUI PENSE AUX ENFANTS?!",shape=box,color=blue];
-		3568 -> 3595;
-	3569 [label="Oh PSHAWW! Merci mais c'était rien!! La planète a fait tout le travail, j'étais juste là pour le voyage",shape=box,color=blue];
-		3569 -> 3594;
-	3595 [label="{\"Id\":3595,\"Incoming\":[3568],\"Outgoing\":[3571],\"GraphPos\":[-14760,-21632],\"CompletionType\":1}",color=orange];
-		3595 -> 3571;
-	3594 [label="{\"Id\":3594,\"Incoming\":[3569],\"Outgoing\":[3570],\"GraphPos\":[-14377,-21757],\"CompletionType\":1}",color=orange];
-		3594 -> 3570;
-	3571 [label="Chat ends.",color=orange];
-	3570 [label="Chat ends.",color=orange];
+	"AmirBirthdayConvo1 begins." [color=orange];
+		"AmirBirthdayConvo1 begins." -> j4022611014;
+		"AmirBirthdayConvo1 begins." -> j2649579146;
+	j4022611014 [label="Amir! Tu as réussi à faire un tour complet autour de Sol! Bravo!",shape=box,color=red];
+		j4022611014 -> j2732071642;
+	j2649579146 [label="C'est ton anniversaire, Amir! C'est peut-être le bon moment pour grandir un peu?",shape=box,color=red];
+		j2649579146 -> j3438814648;
+	j2732071642 [label="+20 Chemistry",color=orange];
+		j2732071642 -> j1027884782;
+	j3438814648 [label="*CHOC!!* J'arrive pas à croire que tu laisses traîner quelque chose comme ça là où mon enfant intérieur pourrait entendre!! IL Y A PERSONNE QUI PENSE AUX ENFANTS?!",shape=box,color=blue];
+		j3438814648 -> "Chat ends.";
+	j1027884782 [label="Oh PSHAWW! Merci mais c'était rien!! La planète a fait tout le travail, j'étais juste là pour le voyage",shape=box,color=blue];
+		j1027884782 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

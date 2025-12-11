@@ -1,21 +1,16 @@
 digraph {
-	3790 [label="AoiBirthdayConvo2 begins.",color=orange];
-		3790 -> 3800;
-		3790 -> 3799;
-	3800 [label="碧，生日快乐！也许我们可以为你克隆一个属于你自己的兹克……",shape=box,color=red];
-		3800 -> 3804;
-	3799 [label="我们在霓虹灯下尽情摇摆……这是你终身难忘的生日！<3",shape=box,color=red];
-		3799 -> 3801;
-	3804 [label="<RETRO_EMOJI_HORRIFIED>你为什么要开这种玩笑？？",shape=box,color=blue];
-		3804 -> 3830;
-	3801 [label="+20 Chemistry",color=orange];
-		3801 -> 3802;
-	3830 [label="{\"Id\":3830,\"Incoming\":[3804],\"Outgoing\":[3805],\"GraphPos\":[726,-2201],\"CompletionType\":1}",color=orange];
-		3830 -> 3805;
-	3802 [label="啊哈哈哈哈请不要开派对，不过还是谢谢你！猜猜我现在在听什么 <RETRO_EMOJI_WINK>",shape=box,color=blue];
-		3802 -> 3831;
-	3805 [label="Chat ends.",color=orange];
-	3831 [label="{\"Id\":3831,\"Incoming\":[3802],\"Outgoing\":[3803],\"GraphPos\":[1086,-2431],\"CompletionType\":1}",color=orange];
-		3831 -> 3803;
-	3803 [label="Chat ends.",color=orange];
+	"AoiBirthdayConvo2 begins." [color=orange];
+		"AoiBirthdayConvo2 begins." -> j226596672;
+		"AoiBirthdayConvo2 begins." -> j1514555449;
+	j226596672 [label="碧，生日快乐！也许我们可以为你克隆一个属于你自己的兹克……",shape=box,color=red];
+		j226596672 -> j2199951092;
+	j1514555449 [label="我们在霓虹灯下尽情摇摆……这是你终身难忘的生日！<3",shape=box,color=red];
+		j1514555449 -> j2255854735;
+	j2199951092 [label="<RETRO_EMOJI_HORRIFIED>你为什么要开这种玩笑？？",shape=box,color=blue];
+		j2199951092 -> "Chat ends.";
+	j2255854735 [label="+20 Chemistry",color=orange];
+		j2255854735 -> j3594649359;
+	"Chat ends." [color=orange];
+	j3594649359 [label="啊哈哈哈哈请不要开派对，不过还是谢谢你！猜猜我现在在听什么 <RETRO_EMOJI_WINK>",shape=box,color=blue];
+		j3594649359 -> "Chat ends.";
 }

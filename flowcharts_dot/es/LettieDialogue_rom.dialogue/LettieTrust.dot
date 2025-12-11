@@ -1,43 +1,40 @@
 digraph {
-	648 [label="LettieTrust begins.",color=orange];
-		648 -> 650;
-	650 [label="babas",shape=box,color=blue];
-		650 -> 649;
-		650 -> 651;
-	649 [label="¿Sí, Lettie?",shape=box,color=red];
-		649 -> 654;
-	651 [label="[Ignorar.]",shape=box,color=red];
-		651 -> 652;
-	654 [label="Voy a dejar una cosa clara 
+	"LettieTrust begins." [color=orange];
+		"LettieTrust begins." -> j831262480;
+	j831262480 [label="babas",shape=box,color=blue];
+		j831262480 -> j1661153145;
+		j831262480 -> j3218686540;
+	j1661153145 [label="¿Sí, Lettie?",shape=box,color=red];
+		j1661153145 -> j2843399622;
+	j3218686540 [label="[Ignorar.]",shape=box,color=red];
+		j3218686540 -> "Chat ends.";
+	j2843399622 [label="Voy a dejar una cosa clara 
 No soy una cobarde 
 No soy una cobarde asquerosa
 Pero... tenías razón en una cosa",shape=box,color=blue];
-		654 -> 655;
-	652 [label="Chat ends.",color=orange];
-	655 [label="No confío en la gente
+		j2843399622 -> j295372416;
+	"Chat ends." [color=orange];
+	j295372416 [label="No confío en la gente
 Así de simple
 ¿Entendiste?",shape=box,color=blue];
-		655 -> 653;
-		655 -> 656;
-		655 -> 657;
-	653 [label="Eh... ¿Sí?",shape=box,color=red];
-		653 -> 660;
-	656 [label="Entendido.",shape=box,color=red];
-		656 -> 663;
-	657 [label="¿Ni siquiera yo? ¿O el Hex?",shape=box,color=red];
-		657 -> 658;
-	660 [label="+20 Chemistry",color=orange];
-		660 -> 659;
-	663 [label="+15 Chemistry",color=orange];
-		663 -> 662;
-	658 [label="Chat ends.",color=orange];
-	659 [label="Jaja
+		j295372416 -> j893997634;
+		j295372416 -> j1362541286;
+		j295372416 -> j2784788534;
+	j893997634 [label="Eh... ¿Sí?",shape=box,color=red];
+		j893997634 -> j2605628695;
+	j1362541286 [label="Entendido.",shape=box,color=red];
+		j1362541286 -> j1063159804;
+	j2784788534 [label="¿Ni siquiera yo? ¿O el Hex?",shape=box,color=red];
+		j2784788534 -> "Chat ends.";
+	j2605628695 [label="+20 Chemistry",color=orange];
+		j2605628695 -> j3322609026;
+	j1063159804 [label="+15 Chemistry",color=orange];
+		j1063159804 -> j3748645904;
+	j3322609026 [label="Jaja
 Oh, babas 
 Me haces sonreír cuando lo necesito
 Lo reconozco",shape=box,color=blue];
-		659 -> 661;
-	662 [label="Bueno",shape=box,color=blue];
-		662 -> 664;
-	661 [label="Chat ends.",color=orange];
-	664 [label="Chat ends.",color=orange];
+		j3322609026 -> "Chat ends.";
+	j3748645904 [label="Bueno",shape=box,color=blue];
+		j3748645904 -> "Chat ends.";
 }

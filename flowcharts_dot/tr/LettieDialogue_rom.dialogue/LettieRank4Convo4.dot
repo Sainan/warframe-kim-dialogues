@@ -1,92 +1,88 @@
 digraph {
-	1203 [label="LettieRank4Convo4 begins.",color=orange];
-		1203 -> 1204;
-	1204 [label="Check boolean LettieNoFlirt",color=orange];
-		1204 -> 1205 [label=true,color=green];
-		1204 -> 1206 [label=false,color=brown];
-	1205 [label="Chat ends.",color=orange];
-	1206 [label="Varsayımsal bir soru: Sana bir şeyler içmek için çıkma teklif etsem, sonunda bana dikiş atılır mı?",shape=box,color=red];
-		1206 -> 1207;
-	1207 [label="Check boolean LettieNoDate",color=orange];
-		1207 -> 1208 [label=true,color=green];
-		1207 -> 1210 [label=false,color=brown];
-	1208 [label="Evet 
+	"LettieRank4Convo4 begins." [color=orange];
+		"LettieRank4Convo4 begins." -> j1158339480;
+	j1158339480 [label="Check boolean LettieNoFlirt",color=orange];
+		j1158339480 -> "Chat ends." [label=true,color=green];
+		j1158339480 -> j3667411177 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j3667411177 [label="Varsayımsal bir soru: Sana bir şeyler içmek için çıkma teklif etsem, sonunda bana dikiş atılır mı?",shape=box,color=red];
+		j3667411177 -> j3741727461;
+	j3741727461 [label="Check boolean LettieNoDate",color=orange];
+		j3741727461 -> j4046779476 [label=true,color=green];
+		j3741727461 -> j3574161470 [label=false,color=brown];
+	j4046779476 [label="Evet 
 Dikişlerin olabilir",shape=box,color=blue];
-		1208 -> 1209;
-	1210 [label="Hmm? 
+		j4046779476 -> "Chat ends.";
+	j3574161470 [label="Hmm? 
 Jajaja, hayır",shape=box,color=blue];
-		1210 -> 1211;
-	1209 [label="Chat ends.",color=orange];
-	1211 [label="Ama ben içmem, hiç içmedim 
+		j3574161470 -> j3140680458;
+	j3140680458 [label="Ama ben içmem, hiç içmedim 
 Uyuşturucu da kullanmam 
 Pantolonuma girmek için daha yaratıcı olman gerek 
 Ya da artık ne giymem gerekiyorsa",shape=box,color=blue];
-		1211 -> 1212;
-		1211 -> 1213;
-	1212 [label="Bunu bilmek güzel. :) Peki seni nasıl kazanabileceğime dair bir ipucun var mı?",shape=box,color=red];
-		1212 -> 1215;
-	1213 [label="Bu konuyla ilgili, senin... Yani sormak istediğim...",shape=box,color=red];
-		1213 -> 1216;
-	1215 [label="Sadece istediğin şeyler hakkında emin olmalısın babas
+		j3140680458 -> j1047280774;
+		j3140680458 -> j3835844228;
+	j1047280774 [label="Bunu bilmek güzel. :) Peki seni nasıl kazanabileceğime dair bir ipucun var mı?",shape=box,color=red];
+		j1047280774 -> j2034238862;
+	j3835844228 [label="Bu konuyla ilgili, senin... Yani sormak istediğim...",shape=box,color=red];
+		j3835844228 -> j557481327;
+	j2034238862 [label="Sadece istediğin şeyler hakkında emin olmalısın babas
 Tatlı ve nazik seviyorsan git Aoi veya Amir ile konuş 
 Bu tür şeyler için acıya çok alışkınım ve bu konularda acıyı çok severim",shape=box,color=blue];
-		1215 -> 1225;
-		1215 -> 1226;
-	1216 [label="¿Qué?",shape=box,color=blue];
-		1216 -> 1217;
-		1216 -> 1218;
-	1225 [label="Evet hanımefendi. Beni uyardığını için teşekkürler.",shape=box,color=red];
-		1225 -> 1227;
-	1226 [label="Hmmm... Evet, boş ver. Acı çekmek benim tarzım değil.",shape=box,color=red];
-		1226 -> 1232;
-	1217 [label="Senin ve diğer protoframe'lerin hala... bilirsin... yani... bilirsin işte... o parçaların olup olmadığını merak ediyordum...",shape=box,color=red];
-		1217 -> 1219;
-	1218 [label="Ah - neyse boşver.",shape=box,color=red];
-		1218 -> 1220;
-	1227 [label="Update boolean LettiePain",color=orange];
-		1227 -> 1231;
-	1232 [label="+15 Chemistry",color=orange];
-		1232 -> 1229;
-	1219 [label="JAJAJAJAJA 
+		j2034238862 -> j1651451232;
+		j2034238862 -> j296094058;
+	j557481327 [label="¿Qué?",shape=box,color=blue];
+		j557481327 -> j3834890303;
+		j557481327 -> j140727777;
+	j1651451232 [label="Evet hanımefendi. Beni uyardığını için teşekkürler.",shape=box,color=red];
+		j1651451232 -> j1253646390;
+	j296094058 [label="Hmmm... Evet, boş ver. Acı çekmek benim tarzım değil.",shape=box,color=red];
+		j296094058 -> j295225941;
+	j3834890303 [label="Senin ve diğer protoframe'lerin hala... bilirsin... yani... bilirsin işte... o parçaların olup olmadığını merak ediyordum...",shape=box,color=red];
+		j3834890303 -> j2630366142;
+	j140727777 [label="Ah - neyse boşver.",shape=box,color=red];
+		j140727777 -> j3289645720;
+	j1253646390 [label="Boolean LettiePain is now true.",color=orange];
+		j1253646390 -> j2415692060;
+	j295225941 [label="+15 Chemistry",color=orange];
+		j295225941 -> j826394819;
+	j2630366142 [label="JAJAJAJAJA 
 Ciddi misin?! 
 İnsanlara öyle doğrudan SORAMAZSIN - 
 Aaaay babaaaaassss çok uzun zamandır bu kadar çok gülmemiştim",shape=box,color=blue];
-		1219 -> 1222;
-		1219 -> 1223;
-	1220 [label="Va 
+		j2630366142 -> j1009699240;
+		j2630366142 -> j3469852818;
+	j3289645720 [label="Va 
 Zaten meşgulüm",shape=box,color=blue];
-		1220 -> 1221;
-	1231 [label="+20 Chemistry",color=orange];
-		1231 -> 1230;
-	1229 [label="Bueno 
+		j3289645720 -> "Chat ends.";
+	j2415692060 [label="+20 Chemistry",color=orange];
+		j2415692060 -> j929581903;
+	j826394819 [label="Bueno 
 Bu şekilde daha iyi olursun 
 Fikrini değiştirirsen bana haber verebilirsin",shape=box,color=blue];
-		1229 -> 1228;
-	1222 [label="Kusura bakma.",shape=box,color=red];
-		1222 -> 1224;
-	1223 [label="Eee... peki? Var mı?",shape=box,color=red];
-		1223 -> 1224;
-	1221 [label="Chat ends.",color=orange];
-	1230 [label="Mm, öyle mi? 
+		j826394819 -> j3713245940;
+	j1009699240 [label="Kusura bakma.",shape=box,color=red];
+		j1009699240 -> j1686940298;
+	j3469852818 [label="Eee... peki? Var mı?",shape=box,color=red];
+		j3469852818 -> j1686940298;
+	j929581903 [label="Mm, öyle mi? 
 Bunu kaldırabileceğini mi düşünüyorsun? 
 Göreceğiz",shape=box,color=blue];
-		1230 -> 1233;
-	1228 [label="Update boolean LettieNoPain",color=orange];
-		1228 -> 1234;
-	1224 [label="Bak ne diyeceğim 
+		j929581903 -> j1224991557;
+	j3713245940 [label="Boolean LettieNoPain is now true.",color=orange];
+		j3713245940 -> j1460969645;
+	j1686940298 [label="Bak ne diyeceğim 
 Belki küçük iyi bir babas olursan
 Belki bunu kendin öğrenebilirsin ha? 
 Sadece seni uyarıyorum 
 Eğer tatlılıktan ve nezaketten hoşlanıyorsan git Aoi veya Amir ile konuş 
 Ben acıya çok alışkınım ve bu tür şeylerde de bundan hoşlanıyorum",shape=box,color=blue];
-		1224 -> 1225;
-		1224 -> 1226;
-	1233 [label="Şimdi vete 
+		j1686940298 -> j1651451232;
+		j1686940298 -> j296094058;
+	j1224991557 [label="Şimdi vete 
 Yapılacak işlerim varken hayallere dalamam",shape=box,color=blue];
-		1233 -> 1235;
-	1234 [label="Şimdi vete 
+		j1224991557 -> "Chat ends.";
+	j1460969645 [label="Şimdi vete 
 Yapmam gereken işler var",shape=box,color=blue];
-		1234 -> 1236;
-	1235 [label="Chat ends.",color=orange];
-	1236 [label="Chat ends.",color=orange];
+		j1460969645 -> "Chat ends.";
 }

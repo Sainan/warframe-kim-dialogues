@@ -1,92 +1,88 @@
 digraph {
-	1203 [label="LettieRank4Convo4 begins.",color=orange];
-		1203 -> 1204;
-	1204 [label="Check boolean LettieNoFlirt",color=orange];
-		1204 -> 1205 [label=true,color=green];
-		1204 -> 1206 [label=false,color=brown];
-	1205 [label="Chat ends.",color=orange];
-	1206 [label="Гипотетический вопрос: если бы мне захотелось пригласить тебя выпить, закончилось бы это швами?",shape=box,color=red];
-		1206 -> 1207;
-	1207 [label="Check boolean LettieNoDate",color=orange];
-		1207 -> 1208 [label=true,color=green];
-		1207 -> 1210 [label=false,color=brown];
-	1208 [label="Sí 
+	"LettieRank4Convo4 begins." [color=orange];
+		"LettieRank4Convo4 begins." -> j1158339480;
+	j1158339480 [label="Check boolean LettieNoFlirt",color=orange];
+		j1158339480 -> "Chat ends." [label=true,color=green];
+		j1158339480 -> j2328649528 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2328649528 [label="Гипотетический вопрос: если бы мне захотелось пригласить тебя выпить, закончилось бы это швами?",shape=box,color=red];
+		j2328649528 -> j3741727461;
+	j3741727461 [label="Check boolean LettieNoDate",color=orange];
+		j3741727461 -> j2626767957 [label=true,color=green];
+		j3741727461 -> j1769649971 [label=false,color=brown];
+	j2626767957 [label="Sí 
 Так бы и было",shape=box,color=blue];
-		1208 -> 1209;
-	1210 [label="Мм? 
+		j2626767957 -> "Chat ends.";
+	j1769649971 [label="Мм? 
 Jajaja, нет",shape=box,color=blue];
-		1210 -> 1211;
-	1209 [label="Chat ends.",color=orange];
-	1211 [label="Но я не пью, никогда не пила 
+		j1769649971 -> j2919042854;
+	j2919042854 [label="Но я не пью, никогда не пила 
 Наркотики тоже не принимаю 
 Тебе придётся проявить креативность, чтобы залезть ко мне в штаны
 Или во что я сейчас одета, неважно",shape=box,color=blue];
-		1211 -> 1212;
-		1211 -> 1213;
-	1212 [label="Полезно это знать. :) Какие-нибудь советы, как тогда завоевать твоё расположение?",shape=box,color=red];
-		1212 -> 1215;
-	1213 [label="По этому поводу ты... я хочу спросить...",shape=box,color=red];
-		1213 -> 1216;
-	1215 [label="Ты просто должен действительно знать, чего хочешь, babas 
+		j2919042854 -> j2077368309;
+		j2919042854 -> j126839764;
+	j2077368309 [label="Полезно это знать. :) Какие-нибудь советы, как тогда завоевать твоё расположение?",shape=box,color=red];
+		j2077368309 -> j1703474726;
+	j126839764 [label="По этому поводу ты... я хочу спросить...",shape=box,color=red];
+		j126839764 -> j557481327;
+	j1703474726 [label="Ты просто должен действительно знать, чего хочешь, babas 
 Если тебе нравится, сладкое и нежное, поговори с Аои или Амиром 
 Я слишком привыкла к боли и слишком люблю её для такого рода вещей",shape=box,color=blue];
-		1215 -> 1225;
-		1215 -> 1226;
-	1216 [label="¿Qué?",shape=box,color=blue];
-		1216 -> 1217;
-		1216 -> 1218;
-	1225 [label="Да, мэм. Приму к сведению предупреждение.",shape=box,color=red];
-		1225 -> 1227;
-	1226 [label="Эм... Да, неважно. Я не очень-то люблю боль.",shape=box,color=red];
-		1226 -> 1232;
-	1217 [label="Мне было любопытно, сохранили ли вы и другие протофреймы... ну, ты знаешь... твои... ну, знаешь... части...",shape=box,color=red];
-		1217 -> 1219;
-	1218 [label="Э-э-э... Не бери в голову.",shape=box,color=red];
-		1218 -> 1220;
-	1227 [label="Update boolean LettiePain",color=orange];
-		1227 -> 1231;
-	1232 [label="+15 Chemistry",color=orange];
-		1232 -> 1229;
-	1219 [label="JAJAJAJAJA 
+		j1703474726 -> j1039779677;
+		j1703474726 -> j3960269864;
+	j557481327 [label="¿Qué?",shape=box,color=blue];
+		j557481327 -> j2873978275;
+		j557481327 -> j2179836814;
+	j1039779677 [label="Да, мэм. Приму к сведению предупреждение.",shape=box,color=red];
+		j1039779677 -> j577031707;
+	j3960269864 [label="Эм... Да, неважно. Я не очень-то люблю боль.",shape=box,color=red];
+		j3960269864 -> j1777759410;
+	j2873978275 [label="Мне было любопытно, сохранили ли вы и другие протофреймы... ну, ты знаешь... твои... ну, знаешь... части...",shape=box,color=red];
+		j2873978275 -> j56588074;
+	j2179836814 [label="Э-э-э... Не бери в голову.",shape=box,color=red];
+		j2179836814 -> j2160562652;
+	j577031707 [label="Boolean LettiePain is now true.",color=orange];
+		j577031707 -> j4057108616;
+	j1777759410 [label="+15 Chemistry",color=orange];
+		j1777759410 -> j3173282700;
+	j56588074 [label="JAJAJAJAJA 
 Ты серьёзно?! 
 Ты не можешь просто СПРАШИВАТЬ людей, что они — 
 Aaaay babaaaaassss я уже давно так не смеялась",shape=box,color=blue];
-		1219 -> 1222;
-		1219 -> 1223;
-	1220 [label="Va 
+		j56588074 -> j3251188900;
+		j56588074 -> j2370144159;
+	j2160562652 [label="Va 
 Занята в любом случае",shape=box,color=blue];
-		1220 -> 1221;
-	1231 [label="+20 Chemistry",color=orange];
-		1231 -> 1230;
-	1229 [label="Bueno 
+		j2160562652 -> "Chat ends.";
+	j4057108616 [label="+20 Chemistry",color=orange];
+		j4057108616 -> j3597121375;
+	j3173282700 [label="Bueno 
 Так даже лучше для тебя 
 Дай знать, если передумаешь",shape=box,color=blue];
-		1229 -> 1228;
-	1222 [label="Извини.",shape=box,color=red];
-		1222 -> 1224;
-	1223 [label="Хм... ну? А ты?",shape=box,color=red];
-		1223 -> 1224;
-	1221 [label="Chat ends.",color=orange];
-	1230 [label="Мм, да? 
+		j3173282700 -> j1565220248;
+	j3251188900 [label="Извини.",shape=box,color=red];
+		j3251188900 -> j1861442190;
+	j2370144159 [label="Хм... ну? А ты?",shape=box,color=red];
+		j2370144159 -> j1861442190;
+	j3597121375 [label="Мм, да? 
 Думаешь, справишься? 
 Посмотрим",shape=box,color=blue];
-		1230 -> 1233;
-	1228 [label="Update boolean LettieNoPain",color=orange];
-		1228 -> 1234;
-	1224 [label="Я скажу тебе одну вещь 
+		j3597121375 -> j3320471481;
+	j1565220248 [label="Boolean LettieNoPain is now true.",color=orange];
+		j1565220248 -> j1591614486;
+	j1861442190 [label="Я скажу тебе одну вещь 
 Может быть, если ты будешь хорошим babas 
 Ты сможешь это узнать, м?
 Просто предупреждаю 
 Если тебе нравятся сладость и нежность, поговори с Аои или Амиром 
 Я слишком привыкла к боли и слишком её люблю для таких вещей",shape=box,color=blue];
-		1224 -> 1225;
-		1224 -> 1226;
-	1233 [label="Теперь проваливай 
+		j1861442190 -> j1039779677;
+		j1861442190 -> j3960269864;
+	j3320471481 [label="Теперь проваливай 
 Некогда витать в облаках, когда дел полно",shape=box,color=blue];
-		1233 -> 1235;
-	1234 [label="Теперь проваливай 
+		j3320471481 -> "Chat ends.";
+	j1591614486 [label="Теперь проваливай 
 Работа ждёт",shape=box,color=blue];
-		1234 -> 1236;
-	1235 [label="Chat ends.",color=orange];
-	1236 [label="Chat ends.",color=orange];
+		j1591614486 -> "Chat ends.";
 }

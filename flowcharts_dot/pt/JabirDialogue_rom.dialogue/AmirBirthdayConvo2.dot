@@ -1,21 +1,16 @@
 digraph {
-	3572 [label="AmirBirthdayConvo2 begins.",color=orange];
-		3572 -> 3578;
-		3572 -> 3579;
-	3578 [label="Feliz aniversário, Amir. Já aviso que não trouxe presente",shape=box,color=red];
-		3578 -> 3577;
-	3579 [label="Oi, Amir, feliz aniversário! Tá se divertindo aí?",shape=box,color=red];
-		3579 -> 3573;
-	3577 [label="ah… bem… oq vale é a intenção, né? mas… vlw",shape=box,color=blue];
-		3577 -> 3596;
-	3573 [label="+20 Chemistry",color=orange];
-		3573 -> 3576;
-	3596 [label="{\"Id\":3596,\"Incoming\":[3577],\"Outgoing\":[3574],\"GraphPos\":[-14787,-21152],\"CompletionType\":1}",color=orange];
-		3596 -> 3574;
-	3576 [label="SIM MTO HJ EU TÔ ACORDADO FAZ UNS DIAS TÔ BEBENDO ENERGÉTICO E JOGANDO NO FLIPERAMA E A AOI FEZ UMA SALA DE FLOOF PRA MIM E EU VOMITEI LÁ KKKKKKKKKK",shape=box,color=blue];
-		3576 -> 3597;
-	3574 [label="Chat ends.",color=orange];
-	3597 [label="{\"Id\":3597,\"Incoming\":[3576],\"Outgoing\":[3575],\"GraphPos\":[-14371,-21328],\"CompletionType\":1}",color=orange];
-		3597 -> 3575;
-	3575 [label="Chat ends.",color=orange];
+	"AmirBirthdayConvo2 begins." [color=orange];
+		"AmirBirthdayConvo2 begins." -> j1463897192;
+		"AmirBirthdayConvo2 begins." -> j2288567526;
+	j1463897192 [label="Feliz aniversário, Amir. Já aviso que não trouxe presente",shape=box,color=red];
+		j1463897192 -> j360934731;
+	j2288567526 [label="Oi, Amir, feliz aniversário! Tá se divertindo aí?",shape=box,color=red];
+		j2288567526 -> j2319318375;
+	j360934731 [label="ah… bem… oq vale é a intenção, né? mas… vlw",shape=box,color=blue];
+		j360934731 -> "Chat ends.";
+	j2319318375 [label="+20 Chemistry",color=orange];
+		j2319318375 -> j3003685794;
+	"Chat ends." [color=orange];
+	j3003685794 [label="SIM MTO HJ EU TÔ ACORDADO FAZ UNS DIAS TÔ BEBENDO ENERGÉTICO E JOGANDO NO FLIPERAMA E A AOI FEZ UMA SALA DE FLOOF PRA MIM E EU VOMITEI LÁ KKKKKKKKKK",shape=box,color=blue];
+		j3003685794 -> "Chat ends.";
 }

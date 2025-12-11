@@ -1,232 +1,225 @@
 digraph {
-	2314 [label="LettieRank5Convo7 begins.",color=orange];
-		2314 -> 2315;
-	2315 [label="Check boolean LettieDating",color=orange];
-		2315 -> 2317 [label=true,color=green];
-		2315 -> 2316 [label=false,color=brown];
-	2317 [label="如果你被搶走了
+	"LettieRank5Convo7 begins." [color=orange];
+		"LettieRank5Convo7 begins." -> j4288606571;
+	j4288606571 [label="Check boolean LettieDating",color=orange];
+		j4288606571 -> j4171564708 [label=true,color=green];
+		j4288606571 -> "Chat ends." [label=false,color=brown];
+	j4171564708 [label="如果你被搶走了
 我該怪誰呢？
 又是什麼會把你從我身邊帶走？",shape=box,color=blue];
-		2317 -> 2318;
-		2317 -> 2319;
-	2316 [label="Chat ends.",color=orange];
-	2318 [label="我真的是懷著滿滿的愛和尊敬來告訴你的──你在打開話題方面真的超爛。",shape=box,color=red];
-		2318 -> 2322;
-	2319 [label="抱歉，等一下，你在問我什麼？",shape=box,color=red];
-		2319 -> 2321;
-	2322 [label="+5 Chemistry",color=orange];
-		2322 -> 2320;
-	2321 [label="我只是非常好奇，當未來真的把你從我身邊帶走時
+		j4171564708 -> j1497427069;
+		j4171564708 -> j2849165874;
+	"Chat ends." [color=orange];
+	j1497427069 [label="我真的是懷著滿滿的愛和尊敬來告訴你的──你在打開話題方面真的超爛。",shape=box,color=red];
+		j1497427069 -> j1677190427;
+	j2849165874 [label="抱歉，等一下，你在問我什麼？",shape=box,color=red];
+		j2849165874 -> j4119642068;
+	j1677190427 [label="+5 Chemistry",color=orange];
+		j1677190427 -> j1400330056;
+	j4119642068 [label="我只是非常好奇，當未來真的把你從我身邊帶走時
 它會是什麼樣子，又是因為什麼呢？",shape=box,color=blue];
-		2321 -> 2323;
-		2321 -> 2325;
-	2320 [label="哈哈哈哈，是的！
+		j4119642068 -> j1549276807;
+		j4119642068 -> j2620874062;
+	j1400330056 [label="哈哈哈哈，是的！
 我真的很抱歉
 我只是非常好奇，當未來真的把你從我身邊帶走時
 它會是什麼樣子，又是因為什麼呢？",shape=box,color=blue];
-		2320 -> 2323;
-		2320 -> 2325;
-	2323 [label="即使我真的必須離開──誰說我不會回來？",shape=box,color=red];
-		2323 -> 2324;
-	2325 [label="我對你做出假設時，你明明會很討厭。",shape=box,color=red];
-		2325 -> 2326;
-	2324 [label="也許你會嘗試
+		j1400330056 -> j1549276807;
+		j1400330056 -> j2620874062;
+	j1549276807 [label="即使我真的必須離開──誰說我不會回來？",shape=box,color=red];
+		j1549276807 -> j3005051517;
+	j2620874062 [label="我對你做出假設時，你明明會很討厭。",shape=box,color=red];
+		j2620874062 -> j1220815023;
+	j3005051517 [label="也許你會嘗試
 也許你甚至會成功
 你很難被殺死，哈哈
 但我很了解士兵，小太陽
 士兵也並不總是從戰爭中回來
 所以請告訴我會為了什麼",shape=box,color=blue];
-		2324 -> 2328;
-	2326 [label="是的，我會
+		j3005051517 -> j3234434887;
+	j1220815023 [label="是的，我會
 但我太了解士兵了，小太陽
 無論你喜不喜歡，你都是士兵
 當士兵被召喚去「拯救世界」時
 他們就會去
 所以請告訴我為了什麼",shape=box,color=blue];
-		2326 -> 2328;
-	2328 [label="Check boolean LettieReligion2",color=orange];
-		2328 -> 2327 [label=true,color=green];
-		2328 -> 2329 [label=true,color=green];
-		2328 -> 2330 [label=true,color=green];
-		2328 -> 2333 [label=true,color=green];
-		2328 -> 2327 [label=false,color=brown];
-		2328 -> 2331 [label=false,color=brown];
-		2328 -> 2332 [label=false,color=brown];
-		2328 -> 2333 [label=false,color=brown];
-	2327 [label="源拓氏。我覺得我追逐他的日子遠遠還未結束。",shape=box,color=red];
-		2327 -> 2334;
-	2329 [label="我的希佩托特克。我親身經歷過，所以我知道它必須被阻止。",shape=box,color=red];
-		2329 -> 2335;
-	2330 [label="Tau。如果源拓氏要去那裡，我的希佩托特克也將會跟著他。這件事太重要了，我不能讓他們得到它。",shape=box,color=red];
-		2330 -> 2336;
-	2333 [label="我絕不會離開。故事到此為止。",shape=box,color=red];
-		2333 -> 2337;
-	2331 [label="牆中人。我親身經歷過，所以我知道它必須被阻止。",shape=box,color=red];
-		2331 -> 2335;
-	2332 [label="Tau。如果源拓氏要去那裡，牆中人也將會跟著他。這件事太重要了，我不能讓他們得到它。",shape=box,color=red];
-		2332 -> 2336;
-	2334 [label="我還需要更多理由去討厭那個混蛋嗎
+		j1220815023 -> j3234434887;
+	j3234434887 [label="Check boolean LettieReligion2",color=orange];
+		j3234434887 -> j2021040986 [label=true,color=green];
+		j3234434887 -> j1705534293 [label=true,color=green];
+		j3234434887 -> j1096492930 [label=true,color=green];
+		j3234434887 -> j534810892 [label=true,color=green];
+		j3234434887 -> j2021040986 [label=false,color=brown];
+		j3234434887 -> j3253631753 [label=false,color=brown];
+		j3234434887 -> j3663990456 [label=false,color=brown];
+		j3234434887 -> j534810892 [label=false,color=brown];
+	j2021040986 [label="源拓氏。我覺得我追逐他的日子遠遠還未結束。",shape=box,color=red];
+		j2021040986 -> j2480548783;
+	j1705534293 [label="我的希佩托特克。我親身經歷過，所以我知道它必須被阻止。",shape=box,color=red];
+		j1705534293 -> j1485377983;
+	j1096492930 [label="Tau。如果源拓氏要去那裡，我的希佩托特克也將會跟著他。這件事太重要了，我不能讓他們得到它。",shape=box,color=red];
+		j1096492930 -> j3204689239;
+	j534810892 [label="我絕不會離開。故事到此為止。",shape=box,color=red];
+		j534810892 -> j1265474562;
+	j3253631753 [label="牆中人。我親身經歷過，所以我知道它必須被阻止。",shape=box,color=red];
+		j3253631753 -> j1485377983;
+	j3663990456 [label="Tau。如果源拓氏要去那裡，牆中人也將會跟著他。這件事太重要了，我不能讓他們得到它。",shape=box,color=red];
+		j3663990456 -> j3204689239;
+	j2480548783 [label="我還需要更多理由去討厭那個混蛋嗎
 你現在又給了我多一個理由
 他會毀掉更多的地方和更多的生命
 就像他已經毀掉的很多人一樣",shape=box,color=blue];
-		2334 -> 2338;
-	2335 [label="你和虛空剝皮之神的故事……是的
+		j2480548783 -> j4198684588;
+	j1485377983 [label="你和虛空剝皮之神的故事……是的
 我擔心這可能還沒結束 
 而我又以為自己是誰，竟然認為自己重要到足以阻止它",shape=box,color=blue];
-		2335 -> 2339;
-	2336 [label="Check boolean LettieSentients",color=orange];
-		2336 -> 2340 [label=true,color=green];
-		2336 -> 2341 [label=false,color=brown];
-	2337 [label="沒想到你這麼天真
+		j1485377983 -> j3019885470;
+	j3204689239 [label="Check boolean LettieSentients",color=orange];
+		j3204689239 -> j2368744342 [label=true,color=green];
+		j3204689239 -> j1123431509 [label=false,color=brown];
+	j1265474562 [label="沒想到你這麼天真
 我們之間的這件事顯然是一個錯誤，呆呆
 我覺得你對我來說太年輕了
 如果你無法理解這一切的事實",shape=box,color=blue];
-		2337 -> 2342;
-	2338 [label="啊，是的
+		j1265474562 -> j2548450594;
+	j4198684588 [label="啊，是的
 如果我們之中有人要對著他的頭開槍，那個應該是你
 我希望一旦你去讓他付出代價之後
 你就會回到我們身邊
 回到我身邊",shape=box,color=blue];
-		2338 -> 2364;
-	2339 [label="也許當你最終打敗了你的這個剝皮之神後
+		j4198684588 -> j4090942523;
+	j3019885470 [label="也許當你最終打敗了你的這個剝皮之神後
 你不會忘記我們仍在這個破屋裡面
 你會回到我們身邊
 回到我身邊",shape=box,color=blue];
-		2339 -> 2365;
-	2340 [label="那個 Tau，不就是…… Sentient 被送到的地方，對嗎？
+		j3019885470 -> j2383730972;
+	j2368744342 [label="那個 Tau，不就是…… Sentient 被送到的地方，對嗎？
 那個由假神 Orokin 創造的假種族",shape=box,color=blue];
-		2340 -> 2350;
-	2341 [label="告訴我關於這個 Tau 的事情
+		j2368744342 -> j3119787993;
+	j1123431509 [label="告訴我關於這個 Tau 的事情
 它是什麼
 告訴我為什麼它會把你從我身邊帶走",shape=box,color=blue];
-		2341 -> 2346;
-	2342 [label="Update boolean LettieDating",color=orange];
-		2342 -> 2343;
-	2364 [label="我保證如果我真的要走，我一定會回來。",shape=box,color=red];
-		2364 -> 2368;
-	2365 [label="我所能做的就是盡我所能地努力嘗試。",shape=box,color=red];
-		2365 -> 2371;
-	2350 [label="是的，但那樣我們就不會遇見，我們也不會約會。所以……還是有一點小小的好處吧？",shape=box,color=red];
-		2350 -> 2352;
-	2346 [label="Tau 是一個位於另一個太陽系的行星，Orokin 將他們創造的合成種族送往那裡為我們進行地球化。",shape=box,color=red];
-		2346 -> 2347;
-	2343 [label="Update boolean IsDating",color=orange];
-		2343 -> 2344;
-	2368 [label="+10 Chemistry",color=orange];
-		2368 -> 2366;
-	2371 [label="+20 Chemistry",color=orange];
-		2371 -> 2367;
-	2352 [label="哈哈哈，是的
+		j1123431509 -> j1108505509;
+	j2548450594 [label="Boolean LettieDating is now false.",color=orange];
+		j2548450594 -> j4086907321;
+	j4090942523 [label="我保證如果我真的要走，我一定會回來。",shape=box,color=red];
+		j4090942523 -> j3092764158;
+	j2383730972 [label="我所能做的就是盡我所能地努力嘗試。",shape=box,color=red];
+		j2383730972 -> j1232669940;
+	j3119787993 [label="是的，但那樣我們就不會遇見，我們也不會約會。所以……還是有一點小小的好處吧？",shape=box,color=red];
+		j3119787993 -> j3466729860;
+	j1108505509 [label="Tau 是一個位於另一個太陽系的行星，Orokin 將他們創造的合成種族送往那裡為我們進行地球化。",shape=box,color=red];
+		j1108505509 -> j1027081933;
+	j4086907321 [label="Boolean IsDating is now false.",color=orange];
+		j4086907321 -> j2703113057;
+	j3092764158 [label="+10 Chemistry",color=orange];
+		j3092764158 -> j665447143;
+	j1232669940 [label="+20 Chemistry",color=orange];
+		j1232669940 -> j1979737494;
+	j3466729860 [label="哈哈哈，是的
 有一點小小的好處
 但為什麼？
 為什麼這個地方如此重要，以至於有一天會把你從我身邊帶走",shape=box,color=blue];
-		2352 -> 2354;
-		2352 -> 2355;
-		2352 -> 2356;
-	2347 [label="這個種族被稱為 Sentient。但 Sentient 背叛了 Orokin。回到這裡並對他們發動戰爭。",shape=box,color=red];
-		2347 -> 2348;
-	2344 [label="Update boolean LettieNoDate",color=orange];
-		2344 -> 2345;
-	2366 [label="有多少個士兵曾作出過這樣的承諾
+		j3466729860 -> j3496428380;
+		j3466729860 -> j19851588;
+		j3466729860 -> j4058483806;
+	j1027081933 [label="這個種族被稱為 Sentient。但 Sentient 背叛了 Orokin。回到這裡並對他們發動戰爭。",shape=box,color=red];
+		j1027081933 -> j4265608781;
+	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2703113057 -> "Chat ends.";
+	j665447143 [label="有多少個士兵曾作出過這樣的承諾
 但一小時後就死在壕溝裡
 啊，我知道你說這些話時你是認真的
 你會盡力",shape=box,color=blue];
-		2366 -> 2369;
-	2367 [label="那是我可以信任的承諾
+		j665447143 -> "Chat ends.";
+	j1979737494 [label="那是我可以信任的承諾
 那是我可以相信的承諾
 謝謝你，親愛的",shape=box,color=blue];
-		2367 -> 2370;
-	2354 [label="我不肯定。但如果源拓氏和牆中人正前往那裡……那它就一定很重要。",shape=box,color=red];
-		2354 -> 2357;
-	2355 [label="它是人類生存的唯一希望。說實話，可能仍然如此。",shape=box,color=red];
-		2355 -> 2358;
-	2356 [label="我不肯定。但 Sentient 說了一些隱晦的話。",shape=box,color=red];
-		2356 -> 2360;
-	2348 [label="正是那場戰爭迫使 Orokin 創造了感染者和 Warframe──用作對抗 Sentient。",shape=box,color=red];
-		2348 -> 2349;
-	2345 [label="Chat ends.",color=orange];
-	2369 [label="Chat ends.",color=orange];
-	2370 [label="Update boolean LettieReal",color=orange];
-		2370 -> 2372;
-	2357 [label="是的
+		j1979737494 -> j1472871842;
+	j3496428380 [label="我不肯定。但如果源拓氏和牆中人正前往那裡……那它就一定很重要。",shape=box,color=red];
+		j3496428380 -> j650427855;
+	j19851588 [label="它是人類生存的唯一希望。說實話，可能仍然如此。",shape=box,color=red];
+		j19851588 -> j3339845515;
+	j4058483806 [label="我不肯定。但 Sentient 說了一些隱晦的話。",shape=box,color=red];
+		j4058483806 -> j3062554056;
+	j4265608781 [label="正是那場戰爭迫使 Orokin 創造了感染者和 Warframe──用作對抗 Sentient。",shape=box,color=red];
+		j4265608781 -> j1207515422;
+	j1472871842 [label="Boolean LettieReal is now true.",color=orange];
+		j1472871842 -> "Chat ends.";
+	j650427855 [label="是的
 我希望一旦你去讓他付出代價之後
 你就會回到我們身邊
 回到我身邊",shape=box,color=blue];
-		2357 -> 2364;
-		2357 -> 2365;
-	2358 [label="啊，不
+		j650427855 -> j4090942523;
+		j650427855 -> j2383730972;
+	j3339845515 [label="啊，不
 所以我們就會像毀掉這個星球一樣去毀掉第二個像這裡的星球
 我想我很同意 Sentient 的看法，哈哈哈
 但看來我們在探索太空方面似乎做得很好，對嗎？",shape=box,color=blue];
-		2358 -> 2362;
-		2358 -> 2363;
-	2360 [label="（西語）像什麼？ 
+		j3339845515 -> j443325652;
+		j3339845515 -> j1964568689;
+	j3062554056 [label="（西語）像什麼？ 
 什麼？",shape=box,color=blue];
-		2360 -> 2359;
-		2360 -> 2361;
-	2349 [label="所以如果沒有這個 Tau 和這些 Sentient
+		j3062554056 -> j848715245;
+		j3062554056 -> j3752070858;
+	j1207515422 [label="所以如果沒有這個 Tau 和這些 Sentient
 一個由假神 Orokin 創造的假種族
 這些愚蠢的事情就不會發生了",shape=box,color=blue];
-		2349 -> 2350;
-		2349 -> 2351;
-	2372 [label="Chat ends.",color=orange];
-	2362 [label="有道理。哈哈",shape=box,color=red];
-		2362 -> 2375;
-	2363 [label="可能會想等到見到未來的時候才再做出那個決定。",shape=box,color=red];
-		2363 -> 2375;
-	2359 [label="「平靜中萬籟俱寂。寂靜與空洞孕育於蒼穹。」",shape=box,color=red];
-		2359 -> 2376;
-	2361 [label="「僅賦其形，謂之為塑；本為無母，亦無其父。」",shape=box,color=red];
-		2361 -> 2376;
-	2351 [label="基本上是的。",shape=box,color=red];
-		2351 -> 2353;
-	2375 [label="+10 Chemistry",color=orange];
-		2375 -> 2373;
-	2376 [label="（西語）什麼？！
+		j1207515422 -> j3119787993;
+		j1207515422 -> j3809189799;
+	j443325652 [label="有道理。哈哈",shape=box,color=red];
+		j443325652 -> j2493629795;
+	j1964568689 [label="可能會想等到見到未來的時候才再做出那個決定。",shape=box,color=red];
+		j1964568689 -> j2493629795;
+	j848715245 [label="「平靜中萬籟俱寂。寂靜與空洞孕育於蒼穹。」",shape=box,color=red];
+		j848715245 -> j2703360273;
+	j3752070858 [label="「僅賦其形，謂之為塑；本為無母，亦無其父。」",shape=box,color=red];
+		j3752070858 -> j2703360273;
+	j3809189799 [label="基本上是的。",shape=box,color=red];
+		j3809189799 -> j3688884535;
+	j2493629795 [label="+10 Chemistry",color=orange];
+		j2493629795 -> j2182218491;
+	j2703360273 [label="（西語）什麼？！
 你剛才說了什麼？！
 等等等等等等等等",shape=box,color=blue];
-		2376 -> 2377;
-	2353 [label="但為什麼？
+		j2703360273 -> j1003953445;
+	j3688884535 [label="但為什麼？
 為什麼這個地方如此重要，以至於有一天會把你從我身邊帶走",shape=box,color=blue];
-		2353 -> 2354;
-		2353 -> 2355;
-		2353 -> 2356;
-	2373 [label="我得回去工作了
+		j3688884535 -> j3496428380;
+		j3688884535 -> j19851588;
+		j3688884535 -> j4058483806;
+	j2182218491 [label="我得回去工作了
 像往常一樣
 永無止境……永無止境",shape=box,color=blue];
-		2373 -> 2374;
-	2377 [label="（西語）為什麼？為什麼來自遙遠的未來生物會引用古代民族的話語？
+		j2182218491 -> "Chat ends.";
+	j1003953445 [label="（西語）為什麼？為什麼來自遙遠的未來生物會引用古代民族的話語？
 （西語）這到底是怎麼回事？",shape=box,color=blue];
-		2377 -> 2378;
-		2377 -> 2379;
-	2374 [label="Chat ends.",color=orange];
-	2378 [label="嗯。抱歉。什麼？他們在引用什麼？",shape=box,color=red];
-		2378 -> 2380;
-	2379 [label="莉蒂，你又讓我搞不懂了。再說說吧。",shape=box,color=red];
-		2379 -> 2380;
-	2380 [label="啊啊啊啊啊這完全不合理啊
+		j1003953445 -> j448976407;
+		j1003953445 -> j4033503008;
+	j448976407 [label="嗯。抱歉。什麼？他們在引用什麼？",shape=box,color=red];
+		j448976407 -> j4174843926;
+	j4033503008 [label="莉蒂，你又讓我搞不懂了。再說說吧。",shape=box,color=red];
+		j4033503008 -> j4174843926;
+	j4174843926 [label="啊啊啊啊啊這完全不合理啊
 那些話是奇琴伊察古代人民的話。你從哪裡聽到的？！",shape=box,color=blue];
-		2380 -> 2381;
-	2381 [label="那些來自（西語）古代民族的神聖文本！
+		j4174843926 -> j3625098944;
+	j3625098944 [label="那些來自（西語）古代民族的神聖文本！
 「怎麼可能？為什麼會這樣？！」",shape=box,color=blue];
-		2381 -> 2382;
-		2381 -> 2383;
-	2382 [label="我——我不知道。我毫無頭緒。我只是猜測而已。",shape=box,color=red];
-		2382 -> 2387;
-	2383 [label="時間旅行……？",shape=box,color=red];
-		2383 -> 2387;
-	2387 [label="+20 Chemistry",color=orange];
-		2387 -> 2384;
-	2384 [label="我不喝酒的
+		j3625098944 -> j1095454218;
+		j3625098944 -> j616839713;
+	j1095454218 [label="我——我不知道。我毫無頭緒。我只是猜測而已。",shape=box,color=red];
+		j1095454218 -> j2986705345;
+	j616839713 [label="時間旅行……？",shape=box,color=red];
+		j616839713 -> j2986705345;
+	j2986705345 [label="+20 Chemistry",color=orange];
+		j2986705345 -> j1107584130;
+	j1107584130 [label="我不喝酒的
 但如果我要喝的話，現在就是時候了
 啊啊啊，這些怪事一天比一天奇怪",shape=box,color=blue];
-		2384 -> 2385;
-	2385 [label="我……需要坐下，（西語）親愛的
+		j1107584130 -> j153483427;
+	j153483427 [label="我……需要坐下，（西語）親愛的
 暫時不要和我談論未來，好嗎？
 這麼長的時間裡我覺得我已經受夠了
 我頭疼到快要死了",shape=box,color=blue];
-		2385 -> 2386;
-	2386 [label="Update boolean LettieReal",color=orange];
-		2386 -> 2388;
-	2388 [label="Chat ends.",color=orange];
+		j153483427 -> j1472871842;
 }

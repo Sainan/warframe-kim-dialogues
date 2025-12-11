@@ -1,25 +1,20 @@
 digraph {
-	458 [label="LettieBirthdayConvo1 begins.",color=orange];
-		458 -> 457;
-		458 -> 456;
-	457 [label="Hé! Joyeux anniversaire! Tes rats t'ont offert quelque chose?",shape=box,color=red];
-		457 -> 460;
-	456 [label="Joyeux anniversaire! Pendant les Jours Stellaires, en plus. Comme c'est romantique. :)",shape=box,color=red];
-		456 -> 1298;
-	460 [label="+20 Chemistry",color=orange];
-		460 -> 1300;
-	1298 [label="C'est quoi, les Jours Stellaires?
+	"LettieBirthdayConvo1 begins." [color=orange];
+		"LettieBirthdayConvo1 begins." -> j160519543;
+		"LettieBirthdayConvo1 begins." -> j937982844;
+	j160519543 [label="Hé! Joyeux anniversaire! Tes rats t'ont offert quelque chose?",shape=box,color=red];
+		j160519543 -> j3700527408;
+	j937982844 [label="Joyeux anniversaire! Pendant les Jours Stellaires, en plus. Comme c'est romantique. :)",shape=box,color=red];
+		j937982844 -> j3273921638;
+	j3700527408 [label="+20 Chemistry",color=orange];
+		j3700527408 -> j3161108015;
+	j3273921638 [label="C'est quoi, les Jours Stellaires?
 Peu importe. Trop occupée pour ça. 
 Adiós",shape=box,color=blue];
-		1298 -> 2517;
-	1300 [label="Jajaja no
+		j3273921638 -> "Chat ends.";
+	j3161108015 [label="Jajaja no
 Tout ce que je veux, c'est dormir une heure ou une tasse de café frais. C'est trop demander? 
 Pero, gracias",shape=box,color=blue];
-		1300 -> 2516;
-	2517 [label="{\"Id\":2517,\"Incoming\":[1298],\"Outgoing\":[1297],\"GraphPos\":[797,-1598],\"CompletionType\":1}",color=orange];
-		2517 -> 1297;
-	2516 [label="{\"Id\":2516,\"Incoming\":[1300],\"Outgoing\":[459],\"GraphPos\":[1161,-1810],\"CompletionType\":1}",color=orange];
-		2516 -> 459;
-	1297 [label="Chat ends.",color=orange];
-	459 [label="Chat ends.",color=orange];
+		j3161108015 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

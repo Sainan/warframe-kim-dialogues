@@ -1,14 +1,14 @@
 digraph {
-	2750 [label="LettieRank6Convo10 begins.",color=orange];
-		2750 -> 2751;
-	2751 [label="ねぇ
+	"LettieRank6Convo10 begins." [color=orange];
+		"LettieRank6Convo10 begins." -> j2716378312;
+	j2716378312 [label="ねぇ
 噂が届いてるかも
 Eleanorとアタシがバーにいたって",shape=box,color=blue];
-		2751 -> 2752;
-	2752 [label="デタラメよ
+		j2716378312 -> j1876980400;
+	j1876980400 [label="デタラメよ
 全部ね",shape=box,color=blue];
-		2752 -> 2575;
-	2575 [label="Update boolean LettieEleanorBar",color=orange];
-		2575 -> 2753;
-	2753 [label="Chat ends.",color=orange];
+		j1876980400 -> j476615613;
+	j476615613 [label="Boolean LettieEleanorBar is now true.",color=orange];
+		j476615613 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

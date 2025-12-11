@@ -1,75 +1,74 @@
 digraph {
-	2754 [label="LettieRank6Convo11 begins.",color=orange];
-		2754 -> 2755;
-	2755 [label="Check boolean LettieDating",color=orange];
-		2755 -> 2756 [label=true,color=green];
-		2755 -> 2757 [label=false,color=brown];
-	2756 [label="Check boolean LettieReal",color=orange];
-		2756 -> 2759 [label=true,color=green];
-		2756 -> 2758 [label=false,color=brown];
-	2757 [label="いまいる？",shape=box,color=blue];
-		2757 -> 2760;
-		2757 -> 2761;
-	2759 [label="Corazón
+	"LettieRank6Convo11 begins." [color=orange];
+		"LettieRank6Convo11 begins." -> j273575157;
+	j273575157 [label="Check boolean LettieDating",color=orange];
+		j273575157 -> j4208389219 [label=true,color=green];
+		j273575157 -> j1637014584 [label=false,color=brown];
+	j4208389219 [label="Check boolean LettieReal",color=orange];
+		j4208389219 -> j1949378522 [label=true,color=green];
+		j4208389219 -> j3802919376 [label=false,color=brown];
+	j1637014584 [label="いまいる？",shape=box,color=blue];
+		j1637014584 -> j3476127439;
+		j1637014584 -> j2905935501;
+	j1949378522 [label="Corazón
 いまいる？",shape=box,color=blue];
-		2759 -> 2760;
-		2759 -> 2761;
-	2758 [label="Solecito
+		j1949378522 -> j3476127439;
+		j1949378522 -> j2905935501;
+	j3802919376 [label="Solecito
 いまいる？",shape=box,color=blue];
-		2758 -> 2761;
-		2758 -> 2760;
-	2760 [label="[メタ警告：ペットの死。クリックして会話を終了]",shape=box,color=red];
-		2760 -> 2762;
-	2761 [label="どうしたの？",shape=box,color=red];
-		2761 -> 2763;
-	2762 [label="Chat ends.",color=orange];
-	2763 [label="Neenahのこと
+		j3802919376 -> j2905935501;
+		j3802919376 -> j3476127439;
+	j3476127439 [label="[メタ警告：ペットの死。クリックして会話を終了]",shape=box,color=red];
+		j3476127439 -> "Chat ends.";
+	j2905935501 [label="どうしたの？",shape=box,color=red];
+		j2905935501 -> j1144427733;
+	"Chat ends." [color=orange];
+	j1144427733 [label="Neenahのこと
 可愛い子のひとり
 今朝La Flacaが導いていった",shape=box,color=blue];
-		2763 -> 2764;
-		2763 -> 2765;
-	2764 [label="そうか…　年がリセットされたら、その子も戻って来るよね？",shape=box,color=red];
-		2764 -> 2766;
-	2765 [label="ああ、そんな…　Lettie、残念だ。:(",shape=box,color=red];
-		2765 -> 2767;
-	2766 [label="Sí
+		j1144427733 -> j846229485;
+		j1144427733 -> j3709836952;
+	j846229485 [label="そうか…　年がリセットされたら、その子も戻って来るよね？",shape=box,color=red];
+		j846229485 -> j3986331714;
+	j3709836952 [label="ああ、そんな…　Lettie、残念だ。:(",shape=box,color=red];
+		j3709836952 -> j3813482573;
+	j3986331714 [label="Sí
 そうね
 でも命の性質にまつわる事実は変わらない
 それはあまりにも短い",shape=box,color=blue];
-		2766 -> 2768;
-	2767 [label="Gracias
+		j3986331714 -> j1078415434;
+	j3813482573 [label="Gracias
 でもそれが命の性質
 短いものなの",shape=box,color=blue];
-		2767 -> 2768;
-	2768 [label="ネズミは人間より短命
+		j3813482573 -> j1078415434;
+	j1078415434 [label="ネズミは人間より短命
 人間は木より短命
 木は神より短命",shape=box,color=blue];
-		2768 -> 2769;
-	2769 [label="そして虫はネズミより短命
+		j1078415434 -> j3273907755;
+	j3273907755 [label="そして虫はネズミより短命
 全部相対的なの
 そしてアタシたちのループにはキリがないjajaja",shape=box,color=blue];
-		2769 -> 2770;
-	2770 [label="アタシたちはAmirが言うところの「極端なケース」なのかも
+		j3273907755 -> j642958219;
+	j642958219 [label="アタシたちはAmirが言うところの「極端なケース」なのかも
 知らないけど",shape=box,color=blue];
-		2770 -> 2771;
-		2770 -> 2772;
-	2771 [label="何が言いたいの？",shape=box,color=red];
-		2771 -> 2773;
-	2772 [label="あまり気分を乱してはいない？",shape=box,color=red];
-		2772 -> 2774;
-	2773 [label="Dejar de hacerme mensa y hacer las cosas, jajaja
+		j642958219 -> j2235575010;
+		j642958219 -> j635670484;
+	j2235575010 [label="何が言いたいの？",shape=box,color=red];
+		j2235575010 -> j2159913019;
+	j635670484 [label="あまり気分を乱してはいない？",shape=box,color=red];
+		j635670484 -> j2918320615;
+	j2159913019 [label="Dejar de hacerme mensa y hacer las cosas, jajaja
 単に言いたいだけかも
 今この瞬間を生きていることを忘れるなって",shape=box,color=blue];
-		2773 -> 2775;
-	2774 [label="Por supuesto que sí
+		j2159913019 -> j4254738663;
+	j2918320615 [label="Por supuesto que sí
 言いたいのは多分これ
 アタシたちは今を生きてると忘れてはいけない",shape=box,color=blue];
-		2774 -> 2775;
-	2775 [label="それがネズミを飼っている理由
+		j2918320615 -> j4254738663;
+	j4254738663 [label="それがネズミを飼っている理由
 彼らの命は短いけど、一生を生きることを忘れはしない
 パンくず探すのにできる限りの喜びを見つけて
 与えられた愛を少しも残さず返す
 いつ去るかを知ることもなく",shape=box,color=blue];
-		2775 -> 2776;
-	2776 [label="Chat ends.",color=orange];
+		j4254738663 -> "Chat ends.";
 }

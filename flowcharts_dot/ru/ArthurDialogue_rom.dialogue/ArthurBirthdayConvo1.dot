@@ -1,21 +1,16 @@
 digraph {
-	3190 [label="ArthurBirthdayConvo1 begins.",color=orange];
-		3190 -> 3193;
-		3190 -> 3194;
-	3193 [label="Я знаю, что ты занят, но я просто хочу поздравить тебя с Днём Рождения. :)",shape=box,color=red];
-		3193 -> 3195;
-	3194 [label="С Днём Рождения! (Тебе ведь известно это ощущение «счастья», не так ли?)",shape=box,color=red];
-		3194 -> 3198;
-	3195 [label="+20 Chemistry",color=orange];
-		3195 -> 3196;
-	3198 [label="Да. Ты знаешь, что такое «юмор»?",shape=box,color=blue];
-		3198 -> 3222;
-	3196 [label="Для получения поздравлений всегда найдётся время. Большое спасибо.",shape=box,color=blue];
-		3196 -> 3221;
-	3222 [label="{\"Id\":3222,\"Incoming\":[3198],\"Outgoing\":[3199],\"GraphPos\":[-30892,-14264],\"CompletionType\":1}",color=orange];
-		3222 -> 3199;
-	3221 [label="{\"Id\":3221,\"Incoming\":[3196],\"Outgoing\":[3197],\"GraphPos\":[-30889,-14423],\"CompletionType\":1}",color=orange];
-		3221 -> 3197;
-	3199 [label="Chat ends.",color=orange];
-	3197 [label="Chat ends.",color=orange];
+	"ArthurBirthdayConvo1 begins." [color=orange];
+		"ArthurBirthdayConvo1 begins." -> j3889302266;
+		"ArthurBirthdayConvo1 begins." -> j1990076244;
+	j3889302266 [label="Я знаю, что ты занят, но я просто хочу поздравить тебя с Днём Рождения. :)",shape=box,color=red];
+		j3889302266 -> j3233405156;
+	j1990076244 [label="С Днём Рождения! (Тебе ведь известно это ощущение «счастья», не так ли?)",shape=box,color=red];
+		j1990076244 -> j567168219;
+	j3233405156 [label="+20 Chemistry",color=orange];
+		j3233405156 -> j3264450652;
+	j567168219 [label="Да. Ты знаешь, что такое «юмор»?",shape=box,color=blue];
+		j567168219 -> "Chat ends.";
+	j3264450652 [label="Для получения поздравлений всегда найдётся время. Большое спасибо.",shape=box,color=blue];
+		j3264450652 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

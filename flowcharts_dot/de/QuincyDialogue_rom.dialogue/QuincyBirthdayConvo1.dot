@@ -1,21 +1,16 @@
 digraph {
-	3532 [label="QuincyBirthdayConvo1 begins.",color=orange];
-		3532 -> 3535;
-		3532 -> 3536;
-	3535 [label="Alles Gute zum Geburtstag, Quincy. Du siehst gut aus, wie immer.",shape=box,color=red];
-		3535 -> 3537;
-	3536 [label="Herzlichen Glückwunsch zum Geburtstag! Fühlst du dich schon alt?",shape=box,color=red];
-		3536 -> 3540;
-	3537 [label="+20 Chemistry",color=orange];
-		3537 -> 3538;
-	3540 [label="fühle ich mich alt?! na, als ob du was dazu sagen solltest. wie alt bist du? weißt du es überhaupt? vollidiot",shape=box,color=blue];
-		3540 -> 3239;
-	3538 [label="was hast du erwartet lol. könnte das gleiche über dich sagen. warte. wie alt bist du überhaupt?!",shape=box,color=blue];
-		3538 -> 3227;
-	3239 [label="{\"Id\":3239,\"Incoming\":[3540],\"Outgoing\":[3541],\"GraphPos\":[1228,-4984],\"CompletionType\":1}",color=orange];
-		3239 -> 3541;
-	3227 [label="{\"Id\":3227,\"Incoming\":[3538],\"Outgoing\":[3539],\"GraphPos\":[1576,-5137],\"CompletionType\":1}",color=orange];
-		3227 -> 3539;
-	3541 [label="Chat ends.",color=orange];
-	3539 [label="Chat ends.",color=orange];
+	"QuincyBirthdayConvo1 begins." [color=orange];
+		"QuincyBirthdayConvo1 begins." -> j3126134891;
+		"QuincyBirthdayConvo1 begins." -> j2169398964;
+	j3126134891 [label="Alles Gute zum Geburtstag, Quincy. Du siehst gut aus, wie immer.",shape=box,color=red];
+		j3126134891 -> j3216884167;
+	j2169398964 [label="Herzlichen Glückwunsch zum Geburtstag! Fühlst du dich schon alt?",shape=box,color=red];
+		j2169398964 -> j1932827082;
+	j3216884167 [label="+20 Chemistry",color=orange];
+		j3216884167 -> j2852786172;
+	j1932827082 [label="fühle ich mich alt?! na, als ob du was dazu sagen solltest. wie alt bist du? weißt du es überhaupt? vollidiot",shape=box,color=blue];
+		j1932827082 -> "Chat ends.";
+	j2852786172 [label="was hast du erwartet lol. könnte das gleiche über dich sagen. warte. wie alt bist du überhaupt?!",shape=box,color=blue];
+		j2852786172 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

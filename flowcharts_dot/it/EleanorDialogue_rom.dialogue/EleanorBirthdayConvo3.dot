@@ -1,21 +1,16 @@
 digraph {
-	2832 [label="EleanorBirthdayConvo3 begins.",color=orange];
-		2832 -> 2833;
-		2832 -> 2836;
-	2833 [label="Buon compleanno, Eleanor! Spero che ti stia divertendo!",shape=box,color=red];
-		2833 -> 784;
-	2836 [label="... quindi è difficile spegnere le candeline della torta di compleanno con quella lingua che ti intralcia?",shape=box,color=red];
-		2836 -> 785;
-	784 [label="+20 Chemistry",color=orange];
-		784 -> 2835;
-	785 [label="Grazie per avermi ricordato che non mangio una torta di compleanno da anni. Sei davvero premuroso.",shape=box,color=blue];
-		785 -> 2843;
-	2835 [label="Lo sono. Sono stati tutti molto carini, anche chi di solito non lo è. Forse c'è ancora speranza per noi?",shape=box,color=blue];
-		2835 -> 2838;
-	2843 [label="{\"Id\":2843,\"Incoming\":[785],\"Outgoing\":[783],\"GraphPos\":[1879,-2636],\"CompletionType\":1}",color=orange];
-		2843 -> 783;
-	2838 [label="{\"Id\":2838,\"Incoming\":[2835],\"Outgoing\":[2834],\"GraphPos\":[1883,-2830],\"CompletionType\":1}",color=orange];
-		2838 -> 2834;
-	783 [label="Chat ends.",color=orange];
-	2834 [label="Chat ends.",color=orange];
+	"EleanorBirthdayConvo3 begins." [color=orange];
+		"EleanorBirthdayConvo3 begins." -> j1876263627;
+		"EleanorBirthdayConvo3 begins." -> j317891672;
+	j1876263627 [label="Buon compleanno, Eleanor! Spero che ti stia divertendo!",shape=box,color=red];
+		j1876263627 -> j1826983538;
+	j317891672 [label="... quindi è difficile spegnere le candeline della torta di compleanno con quella lingua che ti intralcia?",shape=box,color=red];
+		j317891672 -> j286103861;
+	j1826983538 [label="+20 Chemistry",color=orange];
+		j1826983538 -> j3760656872;
+	j286103861 [label="Grazie per avermi ricordato che non mangio una torta di compleanno da anni. Sei davvero premuroso.",shape=box,color=blue];
+		j286103861 -> "Chat ends.";
+	j3760656872 [label="Lo sono. Sono stati tutti molto carini, anche chi di solito non lo è. Forse c'è ancora speranza per noi?",shape=box,color=blue];
+		j3760656872 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

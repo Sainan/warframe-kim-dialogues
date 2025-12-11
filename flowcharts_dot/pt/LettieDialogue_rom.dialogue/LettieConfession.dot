@@ -1,148 +1,144 @@
 digraph {
-	1719 [label="LettieConfession begins.",color=orange];
-		1719 -> 1720;
-	1720 [label="Check boolean IsDating",color=orange];
-		1720 -> 1721 [label=true,color=green];
-		1720 -> 1722 [label=false,color=brown];
-	1721 [label="Chat ends.",color=orange];
-	1722 [label="Solecito… 
+	"LettieConfession begins." [color=orange];
+		"LettieConfession begins." -> j3507132931;
+	j3507132931 [label="Check boolean IsDating",color=orange];
+		j3507132931 -> "Chat ends." [label=true,color=green];
+		j3507132931 -> j2667448385 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2667448385 [label="Solecito… 
 Tá por aí?",shape=box,color=blue];
-		1722 -> 1723;
-		1722 -> 1724;
-	1723 [label="Opa…",shape=box,color=red];
-		1723 -> 1726;
-	1724 [label="[Ignorar]",shape=box,color=red];
-		1724 -> 1725;
-	1726 [label="Eu… 
+		j2667448385 -> j106691198;
+		j2667448385 -> j1678137900;
+	j106691198 [label="Opa…",shape=box,color=red];
+		j106691198 -> j1293740838;
+	j1678137900 [label="[Ignorar]",shape=box,color=red];
+		j1678137900 -> "Chat ends.";
+	j1293740838 [label="Eu… 
 Queria… 
 Primero, lo siento 
 Não deveria ter falado com você daquele jeito 
 Mas eu preciso saber… o que você falou, foi de coração mesmo?",shape=box,color=blue];
-		1726 -> 1727;
-		1726 -> 1728;
-	1725 [label="Chat ends.",color=orange];
-	1727 [label="A mais pura verdade, em cada detalhe",shape=box,color=red];
-		1727 -> 1732;
-	1728 [label="Nah, era tudo zoeira",shape=box,color=red];
-		1728 -> 1729;
-	1732 [label="Aayyyy… ok… 
+		j1293740838 -> j1471146348;
+		j1293740838 -> j1423452643;
+	j1471146348 [label="A mais pura verdade, em cada detalhe",shape=box,color=red];
+		j1471146348 -> j2454731665;
+	j1423452643 [label="Nah, era tudo zoeira",shape=box,color=red];
+		j1423452643 -> j2871571959;
+	j2454731665 [label="Aayyyy… ok… 
 Mierda…",shape=box,color=blue];
-		1732 -> 1734;
-		1732 -> 1733;
-	1729 [label="Update boolean LettieNoDate",color=orange];
-		1729 -> 1730;
-	1734 [label="Se você não sentir o mesmo, é só falar, tá tudo bem…",shape=box,color=red];
-		1734 -> 1736;
-	1733 [label="Até agora não entendi se \"mierda\" é coisa boa ou ruim…",shape=box,color=red];
-		1733 -> 1735;
-	1730 [label="Hmm… 
+		j2454731665 -> j1263780425;
+		j2454731665 -> j1921228213;
+	j2871571959 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2871571959 -> j1591138153;
+	j1263780425 [label="Se você não sentir o mesmo, é só falar, tá tudo bem…",shape=box,color=red];
+		j1263780425 -> j2720179985;
+	j1921228213 [label="Até agora não entendi se \"mierda\" é coisa boa ou ruim…",shape=box,color=red];
+		j1921228213 -> j2446844927;
+	j1591138153 [label="Hmm… 
 Já deveria saber 
 Vai brincar com o Quincy 
 Escuincles como ele são mais a sua cara",shape=box,color=blue];
-		1730 -> 1731;
-	1736 [label="Check boolean LettieTrust1",color=orange];
-		1736 -> 1737 [label=true,color=green];
-		1736 -> 1738 [label=false,color=brown];
-	1735 [label="Jajaja significa \"merda\" 
+		j1591138153 -> "Chat ends.";
+	j2720179985 [label="Check boolean LettieTrust1",color=orange];
+		j2720179985 -> j675720518 [label=true,color=green];
+		j2720179985 -> j2415723323 [label=false,color=brown];
+	j2446844927 [label="Jajaja significa \"merda\" 
 Mas não, isso não é nada ruim 
 É que…",shape=box,color=blue];
-		1735 -> 1736;
-	1731 [label="Chat ends.",color=orange];
-	1737 [label="Check boolean LettieTrust2",color=orange];
-		1737 -> 1739 [label=true,color=green];
-		1737 -> 1740 [label=false,color=brown];
-	1738 [label="Olha… 
+		j2446844927 -> j2720179985;
+	j675720518 [label="Check boolean LettieTrust2",color=orange];
+		j675720518 -> j718102491 [label=true,color=green];
+		j675720518 -> j3847879848 [label=false,color=brown];
+	j2415723323 [label="Olha… 
 É muito difícil pra mim confiar em alguém assim 
 É a coisa mais importante pra mim num relacionamento 
 Confiança quebrada é algo que não pode ser reparado, especialmente numa situação como essa",shape=box,color=blue];
-		1738 -> 1741;
-	1739 [label="Tem noção do quão difícil é pra mim confiar nas pessoas? 
+		j2415723323 -> j2245102410;
+	j718102491 [label="Tem noção do quão difícil é pra mim confiar nas pessoas? 
 E o quão importante a confiança é pra mim? 
 Bem… é ainda mais importante quando eu entro num relacionamento",shape=box,color=blue];
-		1739 -> 1743;
-	1740 [label="É muito difícil pra mim confiar em alguém assim 
+		j718102491 -> j3370775469;
+	j3847879848 [label="É muito difícil pra mim confiar em alguém assim 
 É a coisa mais importante pra mim num relacionamento 
 Confiança quebrada é algo que não pode ser reparado, especialmente numa situação como essa",shape=box,color=blue];
-		1740 -> 1742;
-	1741 [label="Update boolean LettieTrust1",color=orange];
-		1741 -> 1742;
-	1743 [label="Porque… o tipo de relacionamento que eu gosto de ter tende a doer, solecito 
+		j3847879848 -> j3124491753;
+	j2245102410 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j2245102410 -> j3124491753;
+	j3370775469 [label="Porque… o tipo de relacionamento que eu gosto de ter tende a doer, solecito 
 Se é que você me entende… 
 Mas só o suficiente 
 E só até onde você quiser 
 Porque… esse tipo de coisa exige muita confiança",shape=box,color=blue];
-		1743 -> 1745;
-	1742 [label="Update boolean LettieTrust2",color=orange];
-		1742 -> 1743;
-	1745 [label="E a confiança quebrada nessa situação? 
+		j3370775469 -> j2506388813;
+	j3124491753 [label="Boolean LettieTrust2 is now true.",color=orange];
+		j3124491753 -> j3370775469;
+	j2506388813 [label="E a confiança quebrada nessa situação? 
 É algo que não tem volta 
 Entendeu?",shape=box,color=blue];
-		1745 -> 1744;
-		1745 -> 1746;
-		1745 -> 1748;
-	1744 [label="Olha, não tô recusando nada ainda, mas… por que você curte a dor?",shape=box,color=red];
-		1744 -> 1747;
-	1746 [label="Até concordo, mas só se a gente revezar…",shape=box,color=red];
-		1746 -> 1749;
-	1748 [label="Foi mal, não gosto de misturar dor e prazer",shape=box,color=red];
-		1748 -> 1754;
-	1747 [label="Hmm… não sei… 
+		j2506388813 -> j1841260829;
+		j2506388813 -> j615579894;
+		j2506388813 -> j685863158;
+	j1841260829 [label="Olha, não tô recusando nada ainda, mas… por que você curte a dor?",shape=box,color=red];
+		j1841260829 -> j1556236717;
+	j615579894 [label="Até concordo, mas só se a gente revezar…",shape=box,color=red];
+		j615579894 -> j3291033220;
+	j685863158 [label="Foi mal, não gosto de misturar dor e prazer",shape=box,color=red];
+		j685863158 -> j1648870955;
+	j1556236717 [label="Hmm… não sei… 
 Acho que é porque essa dor eu controlo 
 Ao contrário da dor que não tenho como controlar e tenho que lidar",shape=box,color=blue];
-		1747 -> 1750;
-	1749 [label="Jajaja, claro 
+		j1556236717 -> j1020102350;
+	j3291033220 [label="Jajaja, claro 
 Mas você tem que fazer por merecer 
 Preciso saber que posso confiar em você antes disso 
 Então… o que me diz?",shape=box,color=blue];
-		1749 -> 1752;
-	1754 [label="Ay, sí 
+		j3291033220 -> j1735346206;
+	j1648870955 [label="Ay, sí 
 De fato, não é pra todo mundo 
 Te entiendo, sem problemas",shape=box,color=blue];
-		1754 -> 1758;
-	1750 [label="Ou talvez seja porque é algo intenso 
+		j1648870955 -> j1158872695;
+	j1020102350 [label="Ou talvez seja porque é algo intenso 
 Uma coisa extrema, mais forte que todo o resto das merdas que acontecem na nossa vida 
 POSSO SENTIR DE VERDADE 
 Alguém pra cravar minhas unhas e dentes 
 Alguém que grita 
 Alguém que posso sentir seu coração",shape=box,color=blue];
-		1750 -> 1751;
-	1752 [label="Quer fazer uma besteira das grandes comigo?",shape=box,color=blue];
-		1752 -> 1753;
-		1752 -> 1756;
-	1758 [label="+10 Chemistry",color=orange];
-		1758 -> 1757;
-	1751 [label="E isso EXIGE confiança 
+		j1020102350 -> j1805680290;
+	j1735346206 [label="Quer fazer uma besteira das grandes comigo?",shape=box,color=blue];
+		j1735346206 -> j4071281242;
+		j1735346206 -> j2506864607;
+	j1158872695 [label="+10 Chemistry",color=orange];
+		j1158872695 -> j4251546907;
+	j1805680290 [label="E isso EXIGE confiança 
 Sem ela, isso não funciona, solecito 
 Então… o que me diz?",shape=box,color=blue];
-		1751 -> 1752;
-	1753 [label="Sim… quero muito, na verdade :) [Namorar a Lê]",shape=box,color=red];
-		1753 -> 1766;
-	1756 [label="É… preciso pensar sobre isso antes, foi mal",shape=box,color=red];
-		1756 -> 1758;
-	1757 [label="Me avisa se mudar de ideia",shape=box,color=blue];
-		1757 -> 1759;
-	1766 [label="+20 Chemistry",color=orange];
-		1766 -> 1755;
-	1759 [label="Update boolean LettieWillDate",color=orange];
-		1759 -> 1760;
-	1755 [label="Então, tá feito 
+		j1805680290 -> j1735346206;
+	j4071281242 [label="Sim… quero muito, na verdade :) [Namorar a Lê]",shape=box,color=red];
+		j4071281242 -> j2075251872;
+	j2506864607 [label="É… preciso pensar sobre isso antes, foi mal",shape=box,color=red];
+		j2506864607 -> j1158872695;
+	j4251546907 [label="Me avisa se mudar de ideia",shape=box,color=blue];
+		j4251546907 -> j2129367046;
+	j2075251872 [label="+20 Chemistry",color=orange];
+		j2075251872 -> j2275255832;
+	j2129367046 [label="Boolean LettieWillDate is now true.",color=orange];
+		j2129367046 -> "Chat ends.";
+	j2275255832 [label="Então, tá feito 
 Se prepara, solecito 
 Não vou pegar leve com você 
 Já te vi lutando 
 Sei que você aguenta bastante…",shape=box,color=blue];
-		1755 -> 1761;
-	1760 [label="Chat ends.",color=orange];
-	1761 [label="Mas não se preocupe… 
+		j2275255832 -> j972743936;
+	j972743936 [label="Mas não se preocupe… 
 Sempre vou te beijar depois de tudo isso 
 Isso eu te garanto",shape=box,color=blue];
-		1761 -> 1762;
-	1762 [label="Update boolean LettieWillDate",color=orange];
-		1762 -> 1763;
-	1763 [label="Update boolean LettieDating",color=orange];
-		1763 -> 1764;
-	1764 [label="Update boolean IsDating",color=orange];
-		1764 -> 1765;
-	1765 [label="Update boolean LettieHasDated",color=orange];
-		1765 -> 1767;
-	1767 [label="Chat ends.",color=orange];
+		j972743936 -> j1300785588;
+	j1300785588 [label="Boolean LettieWillDate is now true.",color=orange];
+		j1300785588 -> j702074970;
+	j702074970 [label="Boolean LettieDating is now true.",color=orange];
+		j702074970 -> j938814249;
+	j938814249 [label="Boolean IsDating is now true.",color=orange];
+		j938814249 -> j3003494003;
+	j3003494003 [label="Boolean LettieHasDated is now true.",color=orange];
+		j3003494003 -> "Chat ends.";
 }

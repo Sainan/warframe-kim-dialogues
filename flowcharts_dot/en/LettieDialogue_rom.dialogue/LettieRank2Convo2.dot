@@ -1,106 +1,102 @@
 digraph {
-	306 [label="LettieRank2Convo2 begins.",color=orange];
-		306 -> 307;
-		306 -> 308;
-	307 [label="What're the names of your pet rats?",shape=box,color=red];
-		307 -> 309;
-	308 [label="How many pet rats do you have?",shape=box,color=red];
-		308 -> 310;
-	309 [label="Mm?",shape=box,color=blue];
-		309 -> 311;
-	310 [label="Mm? 
+	"LettieRank2Convo2 begins." [color=orange];
+		"LettieRank2Convo2 begins." -> j2289052692;
+		"LettieRank2Convo2 begins." -> j2199146655;
+	j2289052692 [label="What're the names of your pet rats?",shape=box,color=red];
+		j2289052692 -> j4214418591;
+	j2199146655 [label="How many pet rats do you have?",shape=box,color=red];
+		j2199146655 -> j3444702084;
+	j4214418591 [label="Mm?",shape=box,color=blue];
+		j4214418591 -> j4044720972;
+	j3444702084 [label="Mm? 
 4",shape=box,color=blue];
-		310 -> 311;
-	311 [label="Update boolean LettieRats2",color=orange];
-		311 -> 312;
-	312 [label="Vaquero, Anita, Neenah, and Tláloc",shape=box,color=blue];
-		312 -> 313;
-		312 -> 314;
-	313 [label="How did you pick their names?",shape=box,color=red];
-		313 -> 315;
-	314 [label="You should name one after me. :)",shape=box,color=red];
-		314 -> 316;
-	315 [label="Vaquero means cowboy 
+		j3444702084 -> j4044720972;
+	j4044720972 [label="Boolean LettieRats2 is now true.",color=orange];
+		j4044720972 -> j3053893910;
+	j3053893910 [label="Vaquero, Anita, Neenah, and Tláloc",shape=box,color=blue];
+		j3053893910 -> j239913762;
+		j3053893910 -> j3944659326;
+	j239913762 [label="How did you pick their names?",shape=box,color=red];
+		j239913762 -> j237089101;
+	j3944659326 [label="You should name one after me. :)",shape=box,color=red];
+		j3944659326 -> j240091348;
+	j237089101 [label="Vaquero means cowboy 
 Anita is a friend back home 
 Neenah was a friend who is gone now 
 Tláloc after an ancient god of rain",shape=box,color=blue];
-		315 -> 317;
-	316 [label="Heh 
+		j237089101 -> j519106899;
+	j240091348 [label="Heh 
 Name it Babas 
 Hope it doesn't start licking the wallpaper",shape=box,color=blue];
-		316 -> 318;
-		316 -> 319;
-	317 [label="Tláloc is a *dick* 
+		j240091348 -> j1577050257;
+		j240091348 -> j2008965797;
+	j519106899 [label="Tláloc is a *dick* 
 The rat not the god jaja 
 I don't need that kind of bad mojo",shape=box,color=blue];
-		317 -> 322;
-		317 -> 323;
-	318 [label="What *does* Babas mean, anyway?",shape=box,color=red];
-		318 -> 324;
-	319 [label="Har har. I know what that means, y'know.",shape=box,color=red];
-		319 -> 320;
-	322 [label="I've never heard of Tláloc before. Did he come before Lua and Sol? Before dualism?",shape=box,color=red];
-		322 -> 326;
-	323 [label="What makes him a dick? lol",shape=box,color=red];
-		323 -> 327;
-	324 [label="Don't worry 
+		j519106899 -> j890995202;
+		j519106899 -> j335152191;
+	j1577050257 [label="What *does* Babas mean, anyway?",shape=box,color=red];
+		j1577050257 -> j1803073293;
+	j2008965797 [label="Har har. I know what that means, y'know.",shape=box,color=red];
+		j2008965797 -> j2118807058;
+	j890995202 [label="I've never heard of Tláloc before. Did he come before Lua and Sol? Before dualism?",shape=box,color=red];
+		j890995202 -> j2127929842;
+	j335152191 [label="What makes him a dick? lol",shape=box,color=red];
+		j335152191 -> j1106915824;
+	j1803073293 [label="Don't worry 
 It could be worse",shape=box,color=blue];
-		324 -> 332;
-		324 -> 333;
-	320 [label="Good",shape=box,color=blue];
-		320 -> 321;
-	326 [label="Update boolean LettieReligion2",color=orange];
-		326 -> 328;
-	327 [label="Update boolean LettieReligion2",color=orange];
-		327 -> 329;
-	332 [label="Mkay... I trust you.",shape=box,color=red];
-		332 -> 335;
-	333 [label="I don't believe you.",shape=box,color=red];
-		333 -> 337;
-	321 [label="Chat ends.",color=orange];
-	328 [label="Sí, long long ago, my people worshiped ancient gods, some of whom could be... bloody",shape=box,color=blue];
-		328 -> 330;
-		328 -> 331;
-	329 [label="He likes to bite 
+		j1803073293 -> j489381278;
+		j1803073293 -> j1230339283;
+	j2118807058 [label="Good",shape=box,color=blue];
+		j2118807058 -> "Chat ends.";
+	j2127929842 [label="Boolean LettieReligion2 is now true.",color=orange];
+		j2127929842 -> j4213021048;
+	j1106915824 [label="Boolean LettieReligion2 is now true.",color=orange];
+		j1106915824 -> j275030449;
+	j489381278 [label="Mkay... I trust you.",shape=box,color=red];
+		j489381278 -> j1542753201;
+	j1230339283 [label="I don't believe you.",shape=box,color=red];
+		j1230339283 -> j785400755;
+	"Chat ends." [color=orange];
+	j4213021048 [label="Sí, long long ago, my people worshiped ancient gods, some of whom could be... bloody",shape=box,color=blue];
+		j4213021048 -> j1212661114;
+		j4213021048 -> j16767794;
+	j275030449 [label="He likes to bite 
 He's like the ancient people and their gods, some of whom could be... bloody",shape=box,color=blue];
-		329 -> 331;
-		329 -> 330;
-	335 [label="+20 Chemistry",color=orange];
-		335 -> 334;
-	337 [label="No skin off my back",shape=box,color=blue];
-		337 -> 338;
-	330 [label="What do you mean, \"bloody?\"",shape=box,color=red];
-		330 -> 339;
-	331 [label="Sounds, um, pleasant.",shape=box,color=red];
-		331 -> 339;
-	334 [label="Bueno",shape=box,color=blue];
-		334 -> 336;
-	338 [label="Chat ends.",color=orange];
-	339 [label="Xipe Totec, the Flayed One, who was the god of rebirth, of agriculture, and war",shape=box,color=blue];
-		339 -> 340;
-		339 -> 341;
-	336 [label="Chat ends.",color=orange];
-	340 [label="Flayed One...?",shape=box,color=red];
-		340 -> 342;
-	341 [label="He doesn't sound TOO bad...",shape=box,color=red];
-		341 -> 342;
-	342 [label="In the yearly festival to celebrate him, war prisoners would be skinned, and bands of men would wear their flesh like their own and accept offerings from the people of the cities in his name 
+		j275030449 -> j16767794;
+		j275030449 -> j1212661114;
+	j1542753201 [label="+20 Chemistry",color=orange];
+		j1542753201 -> j3748645904;
+	j785400755 [label="No skin off my back",shape=box,color=blue];
+		j785400755 -> "Chat ends.";
+	j1212661114 [label="What do you mean, \"bloody?\"",shape=box,color=red];
+		j1212661114 -> j3926043014;
+	j16767794 [label="Sounds, um, pleasant.",shape=box,color=red];
+		j16767794 -> j3926043014;
+	j3748645904 [label="Bueno",shape=box,color=blue];
+		j3748645904 -> "Chat ends.";
+	j3926043014 [label="Xipe Totec, the Flayed One, who was the god of rebirth, of agriculture, and war",shape=box,color=blue];
+		j3926043014 -> j2108541117;
+		j3926043014 -> j2983701914;
+	j2108541117 [label="Flayed One...?",shape=box,color=red];
+		j2108541117 -> j1620992651;
+	j2983701914 [label="He doesn't sound TOO bad...",shape=box,color=red];
+		j2983701914 -> j1620992651;
+	j1620992651 [label="In the yearly festival to celebrate him, war prisoners would be skinned, and bands of men would wear their flesh like their own and accept offerings from the people of the cities in his name 
 Like I said 
 They could be bloody from time to time",shape=box,color=blue];
-		342 -> 343;
-		342 -> 344;
-	343 [label="Well. Thanks for the nightmare fuel.",shape=box,color=red];
-		343 -> 347;
-	344 [label="Humans are weird.",shape=box,color=red];
-		344 -> 348;
-	347 [label="+10 Chemistry",color=orange];
-		347 -> 345;
-	348 [label="+20 Chemistry",color=orange];
-		348 -> 346;
-	345 [label="De nada",shape=box,color=blue];
-		345 -> 349;
-	346 [label="Couldn't agree more",shape=box,color=blue];
-		346 -> 350;
-	349 [label="Chat ends.",color=orange];
-	350 [label="Chat ends.",color=orange];
+		j1620992651 -> j2569237689;
+		j1620992651 -> j2055469258;
+	j2569237689 [label="Well. Thanks for the nightmare fuel.",shape=box,color=red];
+		j2569237689 -> j1783358073;
+	j2055469258 [label="Humans are weird.",shape=box,color=red];
+		j2055469258 -> j1805412881;
+	j1783358073 [label="+10 Chemistry",color=orange];
+		j1783358073 -> j2744980338;
+	j1805412881 [label="+20 Chemistry",color=orange];
+		j1805412881 -> j2947936769;
+	j2744980338 [label="De nada",shape=box,color=blue];
+		j2744980338 -> "Chat ends.";
+	j2947936769 [label="Couldn't agree more",shape=box,color=blue];
+		j2947936769 -> "Chat ends.";
 }

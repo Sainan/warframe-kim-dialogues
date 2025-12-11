@@ -1,127 +1,124 @@
 digraph {
-	908 [label="LettieRank3Convo5 begins.",color=orange];
-		908 -> 909;
-		908 -> 910;
-		908 -> 911;
-	909 [label="Nasıl gidiyor?",shape=box,color=red];
-		909 -> 913;
-	910 [label="Sivillerle olan işin nasıl gidiyor?",shape=box,color=red];
-		910 -> 914;
-	911 [label="[Görmezden gel.]",shape=box,color=red];
-		911 -> 912;
-	913 [label="Mm? 
+	"LettieRank3Convo5 begins." [color=orange];
+		"LettieRank3Convo5 begins." -> j3954180651;
+		"LettieRank3Convo5 begins." -> j2689622842;
+		"LettieRank3Convo5 begins." -> j1155504604;
+	j3954180651 [label="Nasıl gidiyor?",shape=box,color=red];
+		j3954180651 -> j2252836171;
+	j2689622842 [label="Sivillerle olan işin nasıl gidiyor?",shape=box,color=red];
+		j2689622842 -> j3301978017;
+	j1155504604 [label="[Görmezden gel.]",shape=box,color=red];
+		j1155504604 -> "Chat ends.";
+	j2252836171 [label="Mm? 
 Bir döner kapı gibi jajaja",shape=box,color=blue];
-		913 -> 915;
-	914 [label="Eh? 
+		j2252836171 -> j283166767;
+	j3301978017 [label="Eh? 
 Sanırım iyi 
 Siviller her yerde aynılar, zamanla alışıyorsun",shape=box,color=blue];
-		914 -> 916;
-		914 -> 917;
-	912 [label="Chat ends.",color=orange];
-	915 [label="Sen gelmeden önce bile bazen insanların içimden geçip gittiğini hissediyorum 
+		j3301978017 -> j2709841172;
+		j3301978017 -> j2190358934;
+	"Chat ends." [color=orange];
+	j283166767 [label="Sen gelmeden önce bile bazen insanların içimden geçip gittiğini hissediyorum 
 Sadece UKY çadırında yaraları saran birinden ibarettim
 Ama ben de bunun bir parçasıydım",shape=box,color=blue];
-		915 -> 918;
-	916 [label="Evet, ama yine de yorucu olmalı.",shape=box,color=red];
-		916 -> 919;
-	917 [label="Neye alışıyorsun?",shape=box,color=red];
-		917 -> 920;
-	918 [label="Göründüğünden güçlüyüm 
+		j283166767 -> j3529663703;
+	j2709841172 [label="Evet, ama yine de yorucu olmalı.",shape=box,color=red];
+		j2709841172 -> j2805075829;
+	j2190358934 [label="Neye alışıyorsun?",shape=box,color=red];
+		j2190358934 -> j655691553;
+	j3529663703 [label="Göründüğünden güçlüyüm 
 Hiçbir yere gitmiyorum 
 Pero... Estoy muerta 
 Bazen dünyalar kadar kahve bile yetmiyor, ¿no?",shape=box,color=blue];
-		918 -> 921;
-		918 -> 922;
-	919 [label="Sí, hiçbir fikrin yok 
+		j3529663703 -> j3131309422;
+		j3529663703 -> j126189986;
+	j2805075829 [label="Sí, hiçbir fikrin yok 
 Bazen dünyalar kadar kahve bile yetmiyor, ¿no?
 Pero, soy dura de roer 
 Hiçbir yere gitmiyorum",shape=box,color=blue];
-		919 -> 921;
-		919 -> 922;
-	920 [label="Boş bakışları ve uyuşmuş acısı 
+		j2805075829 -> j3131309422;
+		j2805075829 -> j126189986;
+	j655691553 [label="Boş bakışları ve uyuşmuş acısı 
 Onlara göre ben sadece UKY çadırında yaraları saran birinden ibarettim
 İnsanların döner bir kapı gibi içimden geçtiğini hissedebiliyordum 
 Ta ki SEN bunu kelimenin tam anlamıyla yapmadan önce jajaja",shape=box,color=blue];
-		920 -> 923;
-	921 [label="Güçlü olman, seni umursamayacağım anlamına gelmez.",shape=box,color=red];
-		921 -> 927;
-	922 [label="Evet ama damardan kahve almak da kötü olmasa gerek. Haha",shape=box,color=red];
-		922 -> 928;
-	923 [label="Check boolean LettieNoFlirt",color=orange];
-		923 -> 924 [label=true,color=green];
-		923 -> 925 [label=true,color=green];
-		923 -> 924 [label=false,color=brown];
-		923 -> 925 [label=false,color=brown];
-		923 -> 926 [label=false,color=brown];
-	927 [label="Si,
+		j655691553 -> j3050599071;
+	j3131309422 [label="Güçlü olman, seni umursamayacağım anlamına gelmez.",shape=box,color=red];
+		j3131309422 -> j1582885302;
+	j126189986 [label="Evet ama damardan kahve almak da kötü olmasa gerek. Haha",shape=box,color=red];
+		j126189986 -> j787026131;
+	j3050599071 [label="Check boolean LettieNoFlirt",color=orange];
+		j3050599071 -> j2766654662 [label=true,color=green];
+		j3050599071 -> j2175297215 [label=true,color=green];
+		j3050599071 -> j2766654662 [label=false,color=brown];
+		j3050599071 -> j2175297215 [label=false,color=brown];
+		j3050599071 -> j3417183058 [label=false,color=brown];
+	j1582885302 [label="Si,
 Birinin arkamı kolladığını bilmek yeterli 
 Arthur öyledir 
 Aoi gibi etrafta dolaşıp annemmiş gibi davranmıyor 
 Bana sadece bir fincan uzatıp, iyi misin diyor?",shape=box,color=blue];
-		927 -> 933;
-	928 [label="Jajaja, hayır sorun olmaz 
+		j1582885302 -> j1168502173;
+	j787026131 [label="Jajaja, hayır sorun olmaz 
 Arthur öyledir 
 Aoi gibi annelik taslamaz 
 Bana bir fincan verip iyi misin der?",shape=box,color=blue];
-		928 -> 933;
-	924 [label="Yani, her şeyini kaybetmiş insanlardan ne bekliyordun ki?",shape=box,color=red];
-		924 -> 929;
-	925 [label="Bir süre sonra tüm insanların neden bulanıklaştığını anlayabiliyorum.",shape=box,color=red];
-		925 -> 937;
-	926 [label="En azından sen gerçekten seksi bir kapısın. :P",shape=box,color=red];
-		926 -> 2464;
-	933 [label="Update boolean LettieShoulder",color=orange];
-		933 -> 944;
-	929 [label="Onların suçu değil 
+		j787026131 -> j1168502173;
+	j2766654662 [label="Yani, her şeyini kaybetmiş insanlardan ne bekliyordun ki?",shape=box,color=red];
+		j2766654662 -> j3437400468;
+	j2175297215 [label="Bir süre sonra tüm insanların neden bulanıklaştığını anlayabiliyorum.",shape=box,color=red];
+		j2175297215 -> j3065674062;
+	j3417183058 [label="En azından sen gerçekten seksi bir kapısın. :P",shape=box,color=red];
+		j3417183058 -> j528024027;
+	j1168502173 [label="Boolean LettieShoulder is now true.",color=orange];
+		j1168502173 -> j1693318895;
+	j3437400468 [label="Onların suçu değil 
 Benim de suçum değil, babas
 Sadece her şeyden bıktım",shape=box,color=blue];
-		929 -> 934;
-	937 [label="+10 Chemistry",color=orange];
-		937 -> 930;
-	2464 [label="+20 Chemistry",color=orange];
-		2464 -> 931;
-	944 [label="+20 Chemistry",color=orange];
-		944 -> 932;
-	934 [label="Hablando de 
+		j3437400468 -> j257596699;
+	j3065674062 [label="+10 Chemistry",color=orange];
+		j3065674062 -> j622663388;
+	j528024027 [label="+20 Chemistry",color=orange];
+		j528024027 -> j791551964;
+	j1693318895 [label="+20 Chemistry",color=orange];
+		j1693318895 -> j2670929409;
+	j257596699 [label="Hablando de 
 İşe döndüm",shape=box,color=blue];
-		934 -> 938;
-	930 [label="Si, onlardan her zaman daha fazla olması onların suçu değil 
+		j257596699 -> "Chat ends.";
+	j622663388 [label="Si, onlardan her zaman daha fazla olması onların suçu değil 
 Hep hiç bitmeyeceğini düşünürdüm 
 Artık gerçekten hiç bitmeyeceğini biliyorum
 Lua, sálvame",shape=box,color=blue];
-		930 -> 935;
-	931 [label="JAJA 
+		j622663388 -> j2155348180;
+	j791551964 [label="JAJA 
 Ah babas, bir kadını nasıl neşelendireceğini biliyorsun 
 Bunu mezarıma koy 
 \"Aquí yace la puerta más sexy que hayas visto.\"",shape=box,color=blue];
-		931 -> 936;
-	932 [label="Bu soruyu beğendim babas 
+		j791551964 -> j4085808717;
+	j2670929409 [label="Bu soruyu beğendim babas 
 Sormaya devam et 
 Zaman zaman ihtiyaç duyabilirim 
 Ve bir veya iki fincan kahve de fena olmaz",shape=box,color=blue];
-		932 -> 940;
-	938 [label="Chat ends.",color=orange];
-	935 [label="Hablando de 
+		j2670929409 -> j3637400474;
+	j2155348180 [label="Hablando de 
 İşe döndüm
 Dikkatimi dağıttığın için teşekkürler",shape=box,color=blue];
-		935 -> 939;
-	936 [label="Gracias por hacerme reír, babas 
+		j2155348180 -> "Chat ends.";
+	j4085808717 [label="Gracias por hacerme reír, babas 
 Buna ihtiyacım vardı",shape=box,color=blue];
-		936 -> 945;
-	940 [label="Check boolean LettieNoFlirt",color=orange];
-		940 -> 941 [label=true,color=green];
-		940 -> 943 [label=true,color=green];
-		940 -> 942 [label=false,color=brown];
-		940 -> 943 [label=false,color=brown];
-	939 [label="Chat ends.",color=orange];
-	945 [label="İşe geri dönelim, ¿değil mi? 
+		j4085808717 -> j2306764098;
+	j3637400474 [label="Check boolean LettieNoFlirt",color=orange];
+		j3637400474 -> j3459132525 [label=true,color=green];
+		j3637400474 -> j670151045 [label=true,color=green];
+		j3637400474 -> j609153195 [label=false,color=brown];
+		j3637400474 -> j670151045 [label=false,color=brown];
+	j2306764098 [label="İşe geri dönelim, ¿değil mi? 
 İkimiz de bunun için çok meşgulüz",shape=box,color=blue];
-		945 -> 946;
-	941 [label="Tamamdır.",shape=box,color=red];
-		941 -> 945;
-	943 [label="Elimden geleni yapacağım.",shape=box,color=red];
-		943 -> 945;
-	942 [label="Tamamdır. <3",shape=box,color=red];
-		942 -> 945;
-	946 [label="Chat ends.",color=orange];
+		j2306764098 -> "Chat ends.";
+	j3459132525 [label="Tamamdır.",shape=box,color=red];
+		j3459132525 -> j2306764098;
+	j670151045 [label="Elimden geleni yapacağım.",shape=box,color=red];
+		j670151045 -> j2306764098;
+	j609153195 [label="Tamamdır. <3",shape=box,color=red];
+		j609153195 -> j2306764098;
 }

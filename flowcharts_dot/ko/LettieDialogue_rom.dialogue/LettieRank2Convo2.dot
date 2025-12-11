@@ -1,106 +1,102 @@
 digraph {
-	306 [label="LettieRank2Convo2 begins.",color=orange];
-		306 -> 307;
-		306 -> 308;
-	307 [label="네가 키우는 쥐들의 이름이 뭐야?",shape=box,color=red];
-		307 -> 309;
-	308 [label="키우는 쥐는 몇 마리야?",shape=box,color=red];
-		308 -> 310;
-	309 [label="음?",shape=box,color=blue];
-		309 -> 311;
-	310 [label="음?
+	"LettieRank2Convo2 begins." [color=orange];
+		"LettieRank2Convo2 begins." -> j3963555750;
+		"LettieRank2Convo2 begins." -> j3778646206;
+	j3963555750 [label="네가 키우는 쥐들의 이름이 뭐야?",shape=box,color=red];
+		j3963555750 -> j2875572868;
+	j3778646206 [label="키우는 쥐는 몇 마리야?",shape=box,color=red];
+		j3778646206 -> j1321526901;
+	j2875572868 [label="음?",shape=box,color=blue];
+		j2875572868 -> j3343428885;
+	j1321526901 [label="음?
 4마리",shape=box,color=blue];
-		310 -> 311;
-	311 [label="Update boolean LettieRats2",color=orange];
-		311 -> 312;
-	312 [label="바케로, 아니타, 니나, 그리고 틀랄록",shape=box,color=blue];
-		312 -> 313;
-		312 -> 314;
-	313 [label="이름은 어떻게 정한 거야?",shape=box,color=red];
-		313 -> 315;
-	314 [label="내 이름을 따서 지어야지. :)",shape=box,color=red];
-		314 -> 316;
-	315 [label="바케로는 카우보이
+		j1321526901 -> j3343428885;
+	j3343428885 [label="Boolean LettieRats2 is now true.",color=orange];
+		j3343428885 -> j1896823121;
+	j1896823121 [label="바케로, 아니타, 니나, 그리고 틀랄록",shape=box,color=blue];
+		j1896823121 -> j2570062769;
+		j1896823121 -> j1779714448;
+	j2570062769 [label="이름은 어떻게 정한 거야?",shape=box,color=red];
+		j2570062769 -> j502437992;
+	j1779714448 [label="내 이름을 따서 지어야지. :)",shape=box,color=red];
+		j1779714448 -> j1336930456;
+	j502437992 [label="바케로는 카우보이
 아니타는 고향 친구
 니나는 지금은 떠나 없는 친구
 틀랄록은 고대 비의 신 이름을 딴거야",shape=box,color=blue];
-		315 -> 317;
-	316 [label="허
+		j502437992 -> j1938958842;
+	j1336930456 [label="허
 바바스라고 지어야지
 벽지를 핥고 그러진 않지?",shape=box,color=blue];
-		316 -> 318;
-		316 -> 319;
-	317 [label="완전 *개자식*이라니깐 
+		j1336930456 -> j4195899752;
+		j1336930456 -> j3911868293;
+	j1938958842 [label="완전 *개자식*이라니깐 
 신을 말하는 게 아냐, 쥐 말이야 쥐 jaja 
 이런 식의 나쁜 매력은 필요 없는데",shape=box,color=blue];
-		317 -> 322;
-		317 -> 323;
-	318 [label="그나저나 Babas는 무슨 뜻이야?",shape=box,color=red];
-		318 -> 324;
-	319 [label="하 하. 그게 무슨 뜻인지는 알겠어.",shape=box,color=red];
-		319 -> 320;
-	322 [label="틀랄록에 대해 들어본 적은 없어. 솔이랑 루아 보다 먼저야? 이원론보다도?",shape=box,color=red];
-		322 -> 326;
-	323 [label="그 녀석은 왜 개자식이야? ㅋㅋㅋ",shape=box,color=red];
-		323 -> 327;
-	324 [label="걱정 마 
+		j1938958842 -> j3473956395;
+		j1938958842 -> j3449290000;
+	j4195899752 [label="그나저나 Babas는 무슨 뜻이야?",shape=box,color=red];
+		j4195899752 -> j3781811906;
+	j3911868293 [label="하 하. 그게 무슨 뜻인지는 알겠어.",shape=box,color=red];
+		j3911868293 -> j3390165387;
+	j3473956395 [label="틀랄록에 대해 들어본 적은 없어. 솔이랑 루아 보다 먼저야? 이원론보다도?",shape=box,color=red];
+		j3473956395 -> j1057262762;
+	j3449290000 [label="그 녀석은 왜 개자식이야? ㅋㅋㅋ",shape=box,color=red];
+		j3449290000 -> j1361192859;
+	j3781811906 [label="걱정 마 
 그만한 게 어디야",shape=box,color=blue];
-		324 -> 332;
-		324 -> 333;
-	320 [label="잘 됐네",shape=box,color=blue];
-		320 -> 321;
-	326 [label="Update boolean LettieReligion2",color=orange];
-		326 -> 328;
-	327 [label="Update boolean LettieReligion2",color=orange];
-		327 -> 329;
-	332 [label="음어... 널 믿어.",shape=box,color=red];
-		332 -> 335;
-	333 [label="널 믿지 않아.",shape=box,color=red];
-		333 -> 337;
-	321 [label="Chat ends.",color=orange];
-	328 [label="Sí, 아주 아주 오래전에, 우리 민족은 고대 신들을 숭배했는데, 그들 중 일부는... 피비린내를 풍겼지",shape=box,color=blue];
-		328 -> 330;
-		328 -> 331;
-	329 [label="얘는 깨물기를 좋아해
+		j3781811906 -> j3221668337;
+		j3781811906 -> j3300866265;
+	j3390165387 [label="잘 됐네",shape=box,color=blue];
+		j3390165387 -> "Chat ends.";
+	j1057262762 [label="Boolean LettieReligion2 is now true.",color=orange];
+		j1057262762 -> j235566653;
+	j1361192859 [label="Boolean LettieReligion2 is now true.",color=orange];
+		j1361192859 -> j454728409;
+	j3221668337 [label="음어... 널 믿어.",shape=box,color=red];
+		j3221668337 -> j1542753201;
+	j3300866265 [label="널 믿지 않아.",shape=box,color=red];
+		j3300866265 -> j3643754493;
+	"Chat ends." [color=orange];
+	j235566653 [label="Sí, 아주 아주 오래전에, 우리 민족은 고대 신들을 숭배했는데, 그들 중 일부는... 피비린내를 풍겼지",shape=box,color=blue];
+		j235566653 -> j3876687788;
+		j235566653 -> j3840030098;
+	j454728409 [label="얘는 깨물기를 좋아해
 고대 사람들과 그들의 신들과 비슷하다랄까, 그들 중 일부는... 피비린내를 풍겼어",shape=box,color=blue];
-		329 -> 331;
-		329 -> 330;
-	335 [label="+20 Chemistry",color=orange];
-		335 -> 334;
-	337 [label="그러거나 말거나",shape=box,color=blue];
-		337 -> 338;
-	330 [label="\"피비린내\" 라니, 무슨 말이야?",shape=box,color=red];
-		330 -> 339;
-	331 [label="음. 듣기 좋네.",shape=box,color=red];
-		331 -> 339;
-	334 [label="Bueno",shape=box,color=blue];
-		334 -> 336;
-	338 [label="Chat ends.",color=orange];
-	339 [label="시페 토텍, 가죽 벗겨진 자, 부활, 농업 그리고 전쟁의 신",shape=box,color=blue];
-		339 -> 340;
-		339 -> 341;
-	336 [label="Chat ends.",color=orange];
-	340 [label="살 가죽이 벗겨졌다고...?",shape=box,color=red];
-		340 -> 342;
-	341 [label="그렇게 나빠 보이지는 않는 것 같은데...",shape=box,color=red];
-		341 -> 342;
-	342 [label="그를 기리는 연례 행사에선 전쟁 포로들의 살 가죽이 벗겨지고, 그의 추종자 무리는 사람들의 벗겨진 살점을 마치 자신들의 것처럼 입고 그의 이름 아래 도시의 사람들에게서 제물을 받았어 
+		j454728409 -> j3840030098;
+		j454728409 -> j3876687788;
+	j1542753201 [label="+20 Chemistry",color=orange];
+		j1542753201 -> j3748645904;
+	j3643754493 [label="그러거나 말거나",shape=box,color=blue];
+		j3643754493 -> "Chat ends.";
+	j3876687788 [label="\"피비린내\" 라니, 무슨 말이야?",shape=box,color=red];
+		j3876687788 -> j1012566116;
+	j3840030098 [label="음. 듣기 좋네.",shape=box,color=red];
+		j3840030098 -> j1012566116;
+	j3748645904 [label="Bueno",shape=box,color=blue];
+		j3748645904 -> "Chat ends.";
+	j1012566116 [label="시페 토텍, 가죽 벗겨진 자, 부활, 농업 그리고 전쟁의 신",shape=box,color=blue];
+		j1012566116 -> j672776518;
+		j1012566116 -> j1757322541;
+	j672776518 [label="살 가죽이 벗겨졌다고...?",shape=box,color=red];
+		j672776518 -> j920076685;
+	j1757322541 [label="그렇게 나빠 보이지는 않는 것 같은데...",shape=box,color=red];
+		j1757322541 -> j920076685;
+	j920076685 [label="그를 기리는 연례 행사에선 전쟁 포로들의 살 가죽이 벗겨지고, 그의 추종자 무리는 사람들의 벗겨진 살점을 마치 자신들의 것처럼 입고 그의 이름 아래 도시의 사람들에게서 제물을 받았어 
 말했잖아
 때로 피비린내를 풍겼다고",shape=box,color=blue];
-		342 -> 343;
-		342 -> 344;
-	343 [label="음. 악몽에 나올만한 이야기 해줘서 고마워.",shape=box,color=red];
-		343 -> 347;
-	344 [label="인간들은 이상해.",shape=box,color=red];
-		344 -> 348;
-	347 [label="+10 Chemistry",color=orange];
-		347 -> 345;
-	348 [label="+20 Chemistry",color=orange];
-		348 -> 346;
-	345 [label="De nada",shape=box,color=blue];
-		345 -> 349;
-	346 [label="전적으로 동의해",shape=box,color=blue];
-		346 -> 350;
-	349 [label="Chat ends.",color=orange];
-	350 [label="Chat ends.",color=orange];
+		j920076685 -> j1262385493;
+		j920076685 -> j3400184454;
+	j1262385493 [label="음. 악몽에 나올만한 이야기 해줘서 고마워.",shape=box,color=red];
+		j1262385493 -> j1783358073;
+	j3400184454 [label="인간들은 이상해.",shape=box,color=red];
+		j3400184454 -> j1488941369;
+	j1783358073 [label="+10 Chemistry",color=orange];
+		j1783358073 -> j2744980338;
+	j1488941369 [label="+20 Chemistry",color=orange];
+		j1488941369 -> j30947244;
+	j2744980338 [label="De nada",shape=box,color=blue];
+		j2744980338 -> "Chat ends.";
+	j30947244 [label="전적으로 동의해",shape=box,color=blue];
+		j30947244 -> "Chat ends.";
 }

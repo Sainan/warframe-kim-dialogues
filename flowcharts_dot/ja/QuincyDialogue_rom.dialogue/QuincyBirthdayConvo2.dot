@@ -1,21 +1,16 @@
 digraph {
-	3533 [label="QuincyBirthdayConvo2 begins.",color=orange];
-		3533 -> 3543;
-		3533 -> 3546;
-	3543 [label="やぁQuincy！　Arthurに聞いたら、誕生日は休んでいいって。",shape=box,color=red];
-		3543 -> 3544;
-	3546 [label="誕生日シフト楽しんでね、Quincy。",shape=box,color=red];
-		3546 -> 3548;
-	3544 [label="+20 Chemistry",color=orange];
-		3544 -> 3542;
-	3548 [label="誕生日に外の屋上でタマ冷やせてウレシイなオイ",shape=box,color=blue];
-		3548 -> 3169;
-	3542 [label="イイイイイね、最高だぜ、相棒",shape=box,color=blue];
-		3542 -> 3135;
-	3169 [label="{\"Id\":3169,\"Incoming\":[3548],\"Outgoing\":[3547],\"GraphPos\":[1150,-4494],\"CompletionType\":1}",color=orange];
-		3169 -> 3547;
-	3135 [label="{\"Id\":3135,\"Incoming\":[3542],\"Outgoing\":[3545],\"GraphPos\":[1492,-4648],\"CompletionType\":1}",color=orange];
-		3135 -> 3545;
-	3547 [label="Chat ends.",color=orange];
-	3545 [label="Chat ends.",color=orange];
+	"QuincyBirthdayConvo2 begins." [color=orange];
+		"QuincyBirthdayConvo2 begins." -> j3002790603;
+		"QuincyBirthdayConvo2 begins." -> j2428153180;
+	j3002790603 [label="やぁQuincy！　Arthurに聞いたら、誕生日は休んでいいって。",shape=box,color=red];
+		j3002790603 -> j3852472206;
+	j2428153180 [label="誕生日シフト楽しんでね、Quincy。",shape=box,color=red];
+		j2428153180 -> j805734984;
+	j3852472206 [label="+20 Chemistry",color=orange];
+		j3852472206 -> j3319815021;
+	j805734984 [label="誕生日に外の屋上でタマ冷やせてウレシイなオイ",shape=box,color=blue];
+		j805734984 -> "Chat ends.";
+	j3319815021 [label="イイイイイね、最高だぜ、相棒",shape=box,color=blue];
+		j3319815021 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

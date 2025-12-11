@@ -1,21 +1,16 @@
 digraph {
-	2824 [label="EleanorBirthdayConvo2 begins.",color=orange];
-		2824 -> 2829;
-		2824 -> 2826;
-	2829 [label="¡Felicitaciones por sobrevivir a otro cumpleaños!",shape=box,color=red];
-		2829 -> 2830;
-	2826 [label="Feliz cumpleaños, Eleanor. Me alegro de que sigas aquí.",shape=box,color=red];
-		2826 -> 2831;
-	2830 [label="No lo comprobaste. Por suerte para ti, estoy viva ahora mismo. Porque esto podría haber sido muy incómodo, ¿no?",shape=box,color=blue];
-		2830 -> 2841;
-	2831 [label="+20 Chemistry",color=orange];
-		2831 -> 2828;
-	2841 [label="{\"Id\":2841,\"Incoming\":[2830],\"Outgoing\":[2825],\"GraphPos\":[1877,-3148],\"CompletionType\":1}",color=orange];
-		2841 -> 2825;
-	2828 [label="Gracias, querido Viajero. Yo también.",shape=box,color=blue];
-		2828 -> 2842;
-	2825 [label="Chat ends.",color=orange];
-	2842 [label="{\"Id\":2842,\"Incoming\":[2828],\"Outgoing\":[2827],\"GraphPos\":[1887,-3344],\"CompletionType\":1}",color=orange];
-		2842 -> 2827;
-	2827 [label="Chat ends.",color=orange];
+	"EleanorBirthdayConvo2 begins." [color=orange];
+		"EleanorBirthdayConvo2 begins." -> j532591474;
+		"EleanorBirthdayConvo2 begins." -> j3245568167;
+	j532591474 [label="¡Felicitaciones por sobrevivir a otro cumpleaños!",shape=box,color=red];
+		j532591474 -> j785027958;
+	j3245568167 [label="Feliz cumpleaños, Eleanor. Me alegro de que sigas aquí.",shape=box,color=red];
+		j3245568167 -> j1113464087;
+	j785027958 [label="No lo comprobaste. Por suerte para ti, estoy viva ahora mismo. Porque esto podría haber sido muy incómodo, ¿no?",shape=box,color=blue];
+		j785027958 -> "Chat ends.";
+	j1113464087 [label="+20 Chemistry",color=orange];
+		j1113464087 -> j3883763743;
+	"Chat ends." [color=orange];
+	j3883763743 [label="Gracias, querido Viajero. Yo también.",shape=box,color=blue];
+		j3883763743 -> "Chat ends.";
 }

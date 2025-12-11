@@ -1,247 +1,240 @@
 digraph {
-	562 [label="LettieRank3Convo1 begins.",color=orange];
-		562 -> 563;
-	563 [label="Comment fais-tu, babas 
+	"LettieRank3Convo1 begins." [color=orange];
+		"LettieRank3Convo1 begins." -> j2226654005;
+	j2226654005 [label="Comment fais-tu, babas 
 No entiendo",shape=box,color=blue];
-		563 -> 564;
-		563 -> 565;
-		563 -> 566;
-	564 [label="Tu as oublié de me dire de quoi tu parles.",shape=box,color=red];
-		564 -> 570;
-	565 [label="Fais quoi?",shape=box,color=red];
-		565 -> 571;
-	566 [label="Magie.",shape=box,color=red];
-		566 -> 567;
-	570 [label="+5 Chemistry",color=orange];
-		570 -> 569;
-	571 [label="Piégés depuis des siècles hors du temps 
+		j2226654005 -> j3607874732;
+		j2226654005 -> j3754897059;
+		j2226654005 -> j221045589;
+	j3607874732 [label="Tu as oublié de me dire de quoi tu parles.",shape=box,color=red];
+		j3607874732 -> j3109030187;
+	j3754897059 [label="Fais quoi?",shape=box,color=red];
+		j3754897059 -> j3204269268;
+	j221045589 [label="Magie.",shape=box,color=red];
+		j221045589 -> j1759475013;
+	j3109030187 [label="+5 Chemistry",color=orange];
+		j3109030187 -> j651887402;
+	j3204269268 [label="Piégés depuis des siècles hors du temps 
 Sans changement, sans mouvement 
 Nous sommes des fantasmas hantant cet endroit",shape=box,color=blue];
-		571 -> 572;
-	567 [label="Ay, equis",shape=box,color=blue];
-		567 -> 568;
-	569 [label="Jaja, sí
+		j3204269268 -> j2631015866;
+	j1759475013 [label="Ay, equis",shape=box,color=blue];
+		j1759475013 -> "Chat ends.";
+	j651887402 [label="Jaja, sí
 Lo siento, je passe trop de temps seule dans ma tête 
 Mais moins récemment, avec toi et la bruja...",shape=box,color=blue];
-		569 -> 571;
-	572 [label="Check boolean LettieDuviri",color=orange];
-		572 -> 573 [label=true,color=green];
-		572 -> 574 [label=false,color=brown];
-	568 [label="Chat ends.",color=orange];
-	573 [label="Tu dis que tu as connu ça à Duviri 
+		j651887402 -> j3204269268;
+	j2631015866 [label="Check boolean LettieDuviri",color=orange];
+		j2631015866 -> j2873865644 [label=true,color=green];
+		j2631015866 -> j2415795040 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2873865644 [label="Tu dis que tu as connu ça à Duviri 
 Ce Royaume de Mort et d'Histoires 
 Yo me habría vuelto loca
 J'ai peur de perdre la tête, maintenant",shape=box,color=blue];
-		573 -> 575;
-		573 -> 576;
-		573 -> 577;
-	574 [label="Tu dis que tu as connu ça avant
+		j2873865644 -> j2458452147;
+		j2873865644 -> j4166013208;
+		j2873865644 -> j187543870;
+	j2415795040 [label="Tu dis que tu as connu ça avant
 Dans cet autre monde qui est le tien 
 Yo me habría vuelto loca
 J'ai peur de perdre la tête, maintenant",shape=box,color=blue];
-		574 -> 577;
-		574 -> 576;
-		574 -> 575;
-	575 [label="Honnêtement? Ça a failli m'arriver. J'ai choisi l'insensibilité à la place.",shape=box,color=red];
-		575 -> 578;
-	576 [label="Je crois que j'ai perdu la tête pendant un moment. Je ne me souviens pas de tout, j'ai des trous.",shape=box,color=red];
-		576 -> 579;
-	577 [label="Ce qui m'est arrivé à Duviri est très différent de ce qu'il se passe ici. Tu n'es pas seule comme je l'étais.",shape=box,color=red];
-		577 -> 580;
-	578 [label="¿Sí? 
+		j2415795040 -> j187543870;
+		j2415795040 -> j4166013208;
+		j2415795040 -> j2458452147;
+	j2458452147 [label="Honnêtement? Ça a failli m'arriver. J'ai choisi l'insensibilité à la place.",shape=box,color=red];
+		j2458452147 -> j1823947713;
+	j4166013208 [label="Je crois que j'ai perdu la tête pendant un moment. Je ne me souviens pas de tout, j'ai des trous.",shape=box,color=red];
+		j4166013208 -> j4282708858;
+	j187543870 [label="Ce qui m'est arrivé à Duviri est très différent de ce qu'il se passe ici. Tu n'es pas seule comme je l'étais.",shape=box,color=red];
+		j187543870 -> j1777059005;
+	j1823947713 [label="¿Sí? 
 Comme une coquille vide 
 Mais tu as pu revenir à la vie, il me semble, je ne vois plus ça en toi, maintenant",shape=box,color=blue];
-		578 -> 581;
-		578 -> 582;
-	579 [label="J'ai vu ça chez des soldats après de terribles batailles
+		j1823947713 -> j1535901505;
+		j1823947713 -> j361535790;
+	j4282708858 [label="J'ai vu ça chez des soldats après de terribles batailles
 L'esprit se protège parfois du pire 
 C'est pour le mieux, babas, crois-moi 
 Eh bien? Comment as-tu survécu?",shape=box,color=blue];
-		579 -> 581;
-		579 -> 582;
-	580 [label="Sí, cómo no
+		j4282708858 -> j1535901505;
+		j4282708858 -> j361535790;
+	j1777059005 [label="Sí, cómo no
 Pas vraiment les gens avec qui je voudrais passer l'éternité, babas 
 Ne le prends pas mal, regarde juste autour de toi",shape=box,color=blue];
-		580 -> 583;
-	581 [label="Une fois que j'ai réalisé ce qu'il se passait, j'ai lutté pour ne pas laisser ça me ronger.",shape=box,color=red];
-		581 -> 584;
-	582 [label="J’ai eu l’aide d’amis pour m’en sortir.",shape=box,color=red];
-		582 -> 585;
-	583 [label="J'étais juste là pour les recoudre, avant que nous ne soyons transformés en monstres 
+		j1777059005 -> j3958189315;
+	j1535901505 [label="Une fois que j'ai réalisé ce qu'il se passait, j'ai lutté pour ne pas laisser ça me ronger.",shape=box,color=red];
+		j1535901505 -> j3587673079;
+	j361535790 [label="J’ai eu l’aide d’amis pour m’en sortir.",shape=box,color=red];
+		j361535790 -> j3163086359;
+	j3958189315 [label="J'étais juste là pour les recoudre, avant que nous ne soyons transformés en monstres 
 Maintenant, nous n'avons plus le choix 
 Tu penses qu'ils veulent que je sois ici?",shape=box,color=blue];
-		583 -> 587;
-		583 -> 588;
-		583 -> 589;
-		583 -> 590;
-	584 [label="Mais tu ne peux pas combattre l'éternité 
+		j3958189315 -> j2073229477;
+		j3958189315 -> j4151582820;
+		j3958189315 -> j1285815696;
+		j3958189315 -> j2673512559;
+	j3587673079 [label="Mais tu ne peux pas combattre l'éternité 
 Tu as réussi à t'échapper de cet endroit 
 Je ne vois pas d'issue pour nous... et toi?",shape=box,color=blue];
-		584 -> 591;
-		584 -> 592;
-	585 [label="Bueno, je suis foutue, alors 
+		j3587673079 -> j1597740212;
+		j3587673079 -> j1568775587;
+	j3163086359 [label="Bueno, je suis foutue, alors 
 Jaja",shape=box,color=blue];
-		585 -> 587;
-		585 -> 588;
-		585 -> 589;
-		585 -> 590;
-	587 [label="Eh bien, *moi* je t'aime bien.",shape=box,color=red];
-		587 -> 600;
-	588 [label="Tu penses que les autres ne t'aiment pas?",shape=box,color=red];
-		588 -> 601;
-	589 [label="Eh bien, tu n'es pas vraiment \"accessible\", Lettie.",shape=box,color=red];
-		589 -> 602;
-	590 [label="Eh bien, peut-être que si tu n'étais pas si garce...",shape=box,color=red];
-		590 -> 604;
-	591 [label="Non... moi non plus.",shape=box,color=red];
-		591 -> 596;
-	592 [label="Eh bien, je peux te sortir d'ici via Transférence pendant de courtes périodes.",shape=box,color=red];
-		592 -> 594;
-	600 [label="¿Ay, Sí?
+		j3163086359 -> j2073229477;
+		j3163086359 -> j4151582820;
+		j3163086359 -> j1285815696;
+		j3163086359 -> j2673512559;
+	j2073229477 [label="Eh bien, *moi* je t'aime bien.",shape=box,color=red];
+		j2073229477 -> j2085684272;
+	j4151582820 [label="Tu penses que les autres ne t'aiment pas?",shape=box,color=red];
+		j4151582820 -> j2127222981;
+	j1285815696 [label="Eh bien, tu n'es pas vraiment \"accessible\", Lettie.",shape=box,color=red];
+		j1285815696 -> j309703124;
+	j2673512559 [label="Eh bien, peut-être que si tu n'étais pas si garce...",shape=box,color=red];
+		j2673512559 -> j902963670;
+	j1597740212 [label="Non... moi non plus.",shape=box,color=red];
+		j1597740212 -> j1567786037;
+	j1568775587 [label="Eh bien, je peux te sortir d'ici via Transférence pendant de courtes périodes.",shape=box,color=red];
+		j1568775587 -> j3418580676;
+	j2085684272 [label="¿Ay, Sí?
 Et à quel point, babas?
 Je me demande à quelle vitesse tu romprais",shape=box,color=blue];
-		600 -> 633;
-		600 -> 634;
-		600 -> 635;
-	601 [label="Eh, ils me connaissent bien
+		j2085684272 -> j1210563438;
+		j2085684272 -> j3852638758;
+		j2085684272 -> j891268566;
+	j2127222981 [label="Eh, ils me connaissent bien
 Mais nous ne sommes pas proches 
 Sauf peut-être Arthur et moi",shape=box,color=blue];
-		601 -> 607;
-		601 -> 608;
-		601 -> 609;
-	602 [label="Tu crois que je ne le sais pas, babas?",shape=box,color=blue];
-		602 -> 607;
-		602 -> 608;
-		602 -> 609;
-	604 [label="+5 Chemistry",color=orange];
-		604 -> 603;
-	596 [label="+10 Chemistry",color=orange];
-		596 -> 593;
-	594 [label="¿Ay, Sí? 
+		j2127222981 -> j4043881816;
+		j2127222981 -> j4078348948;
+		j2127222981 -> j4081963324;
+	j309703124 [label="Tu crois que je ne le sais pas, babas?",shape=box,color=blue];
+		j309703124 -> j4043881816;
+		j309703124 -> j4078348948;
+		j309703124 -> j4081963324;
+	j902963670 [label="+5 Chemistry",color=orange];
+		j902963670 -> j1927874584;
+	j1567786037 [label="+10 Chemistry",color=orange];
+		j1567786037 -> j1988996157;
+	j3418580676 [label="¿Ay, Sí? 
 Tu veux m'emmener faire un tour? 
 Cuidadito, je ne suis pas du genre soumise... 
 ¡Yo no me dejo!",shape=box,color=blue];
-		594 -> 598;
-		594 -> 599;
-		594 -> 606;
-	633 [label="Défi accepté.",shape=box,color=red];
-		633 -> 639;
-	634 [label="Est-ce que... tu me dragues?",shape=box,color=red];
-		634 -> 636;
-	635 [label="Je veux juste que nous soyons amis, Lettie. Sans vouloir t'offenser.",shape=box,color=red];
-		635 -> 640;
-	607 [label="Pourquoi ne laisses-tu pas les gens t'approcher?",shape=box,color=red];
-		607 -> 610;
-	608 [label="Tu as peur de faire confiance aux gens.",shape=box,color=red];
-		608 -> 611;
-	609 [label="Tu ne veux pas être blessée en perdant des proches.",shape=box,color=red];
-		609 -> 612;
-	603 [label="JAJAJA 
+		j3418580676 -> j1506567589;
+		j3418580676 -> j3149901261;
+		j3418580676 -> j212559252;
+	j1210563438 [label="Défi accepté.",shape=box,color=red];
+		j1210563438 -> j3567426195;
+	j3852638758 [label="Est-ce que... tu me dragues?",shape=box,color=red];
+		j3852638758 -> j1688246527;
+	j891268566 [label="Je veux juste que nous soyons amis, Lettie. Sans vouloir t'offenser.",shape=box,color=red];
+		j891268566 -> j2830284755;
+	j4043881816 [label="Pourquoi ne laisses-tu pas les gens t'approcher?",shape=box,color=red];
+		j4043881816 -> j2568895004;
+	j4078348948 [label="Tu as peur de faire confiance aux gens.",shape=box,color=red];
+		j4078348948 -> j2579135998;
+	j4081963324 [label="Tu ne veux pas être blessée en perdant des proches.",shape=box,color=red];
+		j4081963324 -> j121623354;
+	j1927874584 [label="JAJAJA 
 Si je ne l'étais pas, je ne serais plus Lettie 
 Je suis qui je suis, babas 
 À prendre ou à laisser",shape=box,color=blue];
-		603 -> 605;
-	593 [label="J'apprécie ton honnêteté 
+		j1927874584 -> "Chat ends.";
+	j1988996157 [label="J'apprécie ton honnêteté 
 Je suppose qu'on peut prendre les paris sur qui deviendra loco en premier",shape=box,color=blue];
-		593 -> 595;
-	598 [label="Défi accepté.",shape=box,color=red];
-		598 -> 622;
-	599 [label="Est-ce que... tu me dragues?",shape=box,color=red];
-		599 -> 617;
-	606 [label="J'essayais juste d'être sympa. Tu n'es pas mon genre.",shape=box,color=red];
-		606 -> 621;
-	639 [label="Update boolean LettieFlirt",color=orange];
-		639 -> 644;
-	636 [label="¡No manches, babas...
+		j1988996157 -> j1082765978;
+	j1506567589 [label="Défi accepté.",shape=box,color=red];
+		j1506567589 -> j1970299945;
+	j3149901261 [label="Est-ce que... tu me dragues?",shape=box,color=red];
+		j3149901261 -> j2075584651;
+	j212559252 [label="J'essayais juste d'être sympa. Tu n'es pas mon genre.",shape=box,color=red];
+		j212559252 -> j509757291;
+	j3567426195 [label="Boolean LettieFlirt is now true.",color=orange];
+		j3567426195 -> j3927151963;
+	j1688246527 [label="¡No manches, babas...
 Pourquoi, ça te tente?",shape=box,color=blue];
-		636 -> 637;
-		636 -> 638;
-	640 [label="Update boolean LettieNoFlirt",color=orange];
-		640 -> 643;
-	610 [label="Parce que c'est mon choix
+		j1688246527 -> j2064706714;
+		j1688246527 -> j1047323098;
+	j2830284755 [label="Boolean LettieNoFlirt is now true.",color=orange];
+		j2830284755 -> j3857044501;
+	j2568895004 [label="Parce que c'est mon choix
 Parce que j'ai appris ma leçon
 C'est plus sûr comme ça pour tout le monde",shape=box,color=blue];
-		610 -> 623;
-		610 -> 624;
-	611 [label="Lárgate de aqui",shape=box,color=blue];
-		611 -> 615;
-	612 [label="¡No manches, babas!
+		j2568895004 -> j3450555110;
+		j2568895004 -> j1593581643;
+	j2579135998 [label="Lárgate de aqui",shape=box,color=blue];
+		j2579135998 -> j971190109;
+	j121623354 [label="¡No manches, babas!
 Sais-tu combien de temps vivent les rats? 
 2-3 ans au maximum 
 J'ai l'habitude de perdre mes petits panquecitos",shape=box,color=blue];
-		612 -> 613;
-	605 [label="Chat ends.",color=orange];
-	595 [label="Qui sait 
+		j121623354 -> j3295478950;
+	j1082765978 [label="Qui sait 
 Ce sera peut-être moi",shape=box,color=blue];
-		595 -> 597;
-	622 [label="Update boolean LettieFlirt",color=orange];
-		622 -> 626;
-	617 [label="No manches, babas...
+		j1082765978 -> "Chat ends.";
+	j1970299945 [label="Boolean LettieFlirt is now true.",color=orange];
+		j1970299945 -> j239015896;
+	j2075584651 [label="No manches, babas...
 Pourquoi, ça te tente?",shape=box,color=blue];
-		617 -> 618;
-		617 -> 619;
-	621 [label="Update boolean LettieNoFlirt",color=orange];
-		621 -> 629;
-	644 [label="+15 Chemistry",color=orange];
-		644 -> 641;
-	637 [label="Ouais, tu es mon genre. J'aime vivre dangereusement. ;)",shape=box,color=red];
-		637 -> 639;
-	638 [label="Non, je préfère que nous restions amis.",shape=box,color=red];
-		638 -> 640;
-	643 [label="+15 Chemistry",color=orange];
-		643 -> 642;
-	623 [label="Je te préviens, je ne baisse pas les bras facilement et je veux vraiment mieux te connaître.",shape=box,color=red];
-		623 -> 631;
-	624 [label="Merci pour l'information. Je ne le prendrai donc pas personnellement si tu t'assieds sur mes sentiments.",shape=box,color=red];
-		624 -> 632;
-	615 [label="Update boolean LettieTrust1",color=orange];
-		615 -> 616;
-	613 [label="Et je les aime plus que les humains 
+		j2075584651 -> j957945279;
+		j2075584651 -> j4056619213;
+	j509757291 [label="Boolean LettieNoFlirt is now true.",color=orange];
+		j509757291 -> j219568084;
+	j3927151963 [label="+15 Chemistry",color=orange];
+		j3927151963 -> j2401224212;
+	j2064706714 [label="Ouais, tu es mon genre. J'aime vivre dangereusement. ;)",shape=box,color=red];
+		j2064706714 -> j3567426195;
+	j1047323098 [label="Non, je préfère que nous restions amis.",shape=box,color=red];
+		j1047323098 -> j2830284755;
+	j3857044501 [label="+15 Chemistry",color=orange];
+		j3857044501 -> j3740709359;
+	j3450555110 [label="Je te préviens, je ne baisse pas les bras facilement et je veux vraiment mieux te connaître.",shape=box,color=red];
+		j3450555110 -> j507553354;
+	j1593581643 [label="Merci pour l'information. Je ne le prendrai donc pas personnellement si tu t'assieds sur mes sentiments.",shape=box,color=red];
+		j1593581643 -> j2938168464;
+	j971190109 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j971190109 -> "Chat ends. Next chat will be LettieTrust.";
+	j3295478950 [label="Et je les aime plus que les humains 
 Je suis à l'aise avec le chagrin et le deuil plus que tu ne le penses 
 Ne fais pas semblant de me connaître, babas
 Lárgate",shape=box,color=blue];
-		613 -> 614;
-	597 [label="Chat ends.",color=orange];
-	626 [label="+15 Chemistry",color=orange];
-		626 -> 625;
-	618 [label="Ouais, tu es mon genre. J'aime vivre dangereusement. ;)",shape=box,color=red];
-		618 -> 622;
-	619 [label="Non, je préfère que nous restions amis.",shape=box,color=red];
-		619 -> 621;
-	629 [label="+15 Chemistry",color=orange];
-		629 -> 628;
-	641 [label="Jaja on verra, babas 
+		j3295478950 -> "Chat ends.";
+	j239015896 [label="+15 Chemistry",color=orange];
+		j239015896 -> j2855525455;
+	j957945279 [label="Ouais, tu es mon genre. J'aime vivre dangereusement. ;)",shape=box,color=red];
+		j957945279 -> j1970299945;
+	j4056619213 [label="Non, je préfère que nous restions amis.",shape=box,color=red];
+		j4056619213 -> j509757291;
+	j219568084 [label="+15 Chemistry",color=orange];
+		j219568084 -> j1224289761;
+	j2401224212 [label="Jaja on verra, babas 
 On verra",shape=box,color=blue];
-		641 -> 645;
-	642 [label="Jaja, t'inquiète
+		j2401224212 -> "Chat ends.";
+	j3740709359 [label="Jaja, t'inquiète
 Sí, amis, ça me va
 C'est plus que suffisant pour la plupart des gens",shape=box,color=blue];
-		642 -> 646;
-	631 [label="Ay, sí 
+		j3740709359 -> "Chat ends.";
+	j507553354 [label="Ay, sí 
 C'est dans ton intérêt si tu veux survivre 
 C'est peut-être ton secret 
 J'aime les gens têtus, note bien
 Ils sont plus difficiles à briser",shape=box,color=blue];
-		631 -> 633;
-		631 -> 634;
-		631 -> 635;
-	632 [label="Jaja 
+		j507553354 -> j1210563438;
+		j507553354 -> j3852638758;
+		j507553354 -> j891268566;
+	j2938168464 [label="Jaja 
 Ce n'est pas sur tes sentiments que je veux m'asseoir",shape=box,color=blue];
-		632 -> 633;
-		632 -> 634;
-		632 -> 635;
-	616 [label="Chat ends. Next chat will be LettieTrust.",color=orange];
-	614 [label="Chat ends.",color=orange];
-	625 [label="On verra, babas, on verra 
+		j2938168464 -> j1210563438;
+		j2938168464 -> j3852638758;
+		j2938168464 -> j891268566;
+	"Chat ends. Next chat will be LettieTrust." [color=orange];
+	j2855525455 [label="On verra, babas, on verra 
 Mais j'accepte ton offre de liberté temporaire 
 Peut-être qu'un peu d'air frais de temps en temps est tout ce dont ce fantasma a besoin",shape=box,color=blue];
-		625 -> 627;
-	628 [label="Ça me va
+		j2855525455 -> "Chat ends.";
+	j1224289761 [label="Ça me va
 Mais j'accepte ton offre de liberté temporaire 
 Peut-être qu'un peu d'air frais de temps en temps est tout ce dont ce fantasma a besoin",shape=box,color=blue];
-		628 -> 630;
-	645 [label="Chat ends.",color=orange];
-	646 [label="Chat ends.",color=orange];
-	627 [label="Chat ends.",color=orange];
-	630 [label="Chat ends.",color=orange];
+		j1224289761 -> "Chat ends.";
 }

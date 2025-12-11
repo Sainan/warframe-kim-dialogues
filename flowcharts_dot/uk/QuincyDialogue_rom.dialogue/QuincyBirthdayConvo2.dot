@@ -1,21 +1,16 @@
 digraph {
-	3533 [label="QuincyBirthdayConvo2 begins.",color=orange];
-		3533 -> 3543;
-		3533 -> 3546;
-	3543 [label="Гей, Квінсі! Мені вдалося вмовити Артура дати тобі вихідний на день народження.",shape=box,color=red];
-		3543 -> 3544;
-	3546 [label="Квінсі, гарного чергування на твій день народження.",shape=box,color=red];
-		3546 -> 3548;
-	3544 [label="+20 Chemistry",color=orange];
-		3544 -> 3542;
-	3548 [label="ага, обожнюю морозити свої горішки на даху у свою днюху. ото дякую",shape=box,color=blue];
-		3548 -> 3169;
-	3542 [label="як мииииило, ну ти даєш, дружаньо",shape=box,color=blue];
-		3542 -> 3135;
-	3169 [label="{\"Id\":3169,\"Incoming\":[3548],\"Outgoing\":[3547],\"GraphPos\":[1150,-4494],\"CompletionType\":1}",color=orange];
-		3169 -> 3547;
-	3135 [label="{\"Id\":3135,\"Incoming\":[3542],\"Outgoing\":[3545],\"GraphPos\":[1492,-4648],\"CompletionType\":1}",color=orange];
-		3135 -> 3545;
-	3547 [label="Chat ends.",color=orange];
-	3545 [label="Chat ends.",color=orange];
+	"QuincyBirthdayConvo2 begins." [color=orange];
+		"QuincyBirthdayConvo2 begins." -> j2262121520;
+		"QuincyBirthdayConvo2 begins." -> j1250689774;
+	j2262121520 [label="Гей, Квінсі! Мені вдалося вмовити Артура дати тобі вихідний на день народження.",shape=box,color=red];
+		j2262121520 -> j3317586078;
+	j1250689774 [label="Квінсі, гарного чергування на твій день народження.",shape=box,color=red];
+		j1250689774 -> j4073508040;
+	j3317586078 [label="+20 Chemistry",color=orange];
+		j3317586078 -> j2665926649;
+	j4073508040 [label="ага, обожнюю морозити свої горішки на даху у свою днюху. ото дякую",shape=box,color=blue];
+		j4073508040 -> "Chat ends.";
+	j2665926649 [label="як мииииило, ну ти даєш, дружаньо",shape=box,color=blue];
+		j2665926649 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

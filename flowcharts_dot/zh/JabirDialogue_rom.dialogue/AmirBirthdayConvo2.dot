@@ -1,21 +1,16 @@
 digraph {
-	3572 [label="AmirBirthdayConvo2 begins.",color=orange];
-		3572 -> 3578;
-		3572 -> 3579;
-	3578 [label="阿米尔，生日快乐。我没有给你准备任何礼物。",shape=box,color=red];
-		3578 -> 3577;
-	3579 [label="嘿，阿米尔。生日快乐。希望你玩得开心！",shape=box,color=red];
-		3579 -> 3573;
-	3577 [label="哦。好吧。我想，这份心意才是最重要的。……还有那点微不足道的努力。……谢了",shape=box,color=blue];
-		3577 -> 3596;
-	3573 [label="+20 Chemistry",color=orange];
-		3573 -> 3576;
-	3596 [label="{\"Id\":3596,\"Incoming\":[3577],\"Outgoing\":[3574],\"GraphPos\":[-14787,-21152],\"CompletionType\":1}",color=orange];
-		3596 -> 3574;
-	3576 [label="是的，我今天非常开心！今天天气很好，我从晚上十二点零一分就起来了，我们一直在喝能量饮料，在游戏厅玩耍，碧弄了一个毛茸茸的房间，我在毛茸茸的房间里吐了",shape=box,color=blue];
-		3576 -> 3597;
-	3574 [label="Chat ends.",color=orange];
-	3597 [label="{\"Id\":3597,\"Incoming\":[3576],\"Outgoing\":[3575],\"GraphPos\":[-14371,-21328],\"CompletionType\":1}",color=orange];
-		3597 -> 3575;
-	3575 [label="Chat ends.",color=orange];
+	"AmirBirthdayConvo2 begins." [color=orange];
+		"AmirBirthdayConvo2 begins." -> j1198504173;
+		"AmirBirthdayConvo2 begins." -> j2376562095;
+	j1198504173 [label="阿米尔，生日快乐。我没有给你准备任何礼物。",shape=box,color=red];
+		j1198504173 -> j3458335285;
+	j2376562095 [label="嘿，阿米尔。生日快乐。希望你玩得开心！",shape=box,color=red];
+		j2376562095 -> j3401480252;
+	j3458335285 [label="哦。好吧。我想，这份心意才是最重要的。……还有那点微不足道的努力。……谢了",shape=box,color=blue];
+		j3458335285 -> "Chat ends.";
+	j3401480252 [label="+20 Chemistry",color=orange];
+		j3401480252 -> j3928271583;
+	"Chat ends." [color=orange];
+	j3928271583 [label="是的，我今天非常开心！今天天气很好，我从晚上十二点零一分就起来了，我们一直在喝能量饮料，在游戏厅玩耍，碧弄了一个毛茸茸的房间，我在毛茸茸的房间里吐了",shape=box,color=blue];
+		j3928271583 -> "Chat ends.";
 }

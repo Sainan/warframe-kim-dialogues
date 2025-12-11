@@ -1,247 +1,240 @@
 digraph {
-	1124 [label="LettieRank4Convo3 begins.",color=orange];
-		1124 -> 1125;
-		1124 -> 1126;
-	1125 [label="Całkiem spokojnie podchodzisz do śmierci, jak na osobę, której obowiązkiem jest ją powstrzymać.",shape=box,color=red];
-		1125 -> 1127;
-	1126 [label="Chciałbym się dowiedzieć, jak zostałaś medykiem.",shape=box,color=red];
-		1126 -> 1128;
-	1127 [label="Mhm, sí, chyba jestem 
+	"LettieRank4Convo3 begins." [color=orange];
+		"LettieRank4Convo3 begins." -> j2365822608;
+		"LettieRank4Convo3 begins." -> j1177055713;
+	j2365822608 [label="Całkiem spokojnie podchodzisz do śmierci, jak na osobę, której obowiązkiem jest ją powstrzymać.",shape=box,color=red];
+		j2365822608 -> j1836588251;
+	j1177055713 [label="Chciałbym się dowiedzieć, jak zostałaś medykiem.",shape=box,color=red];
+		j1177055713 -> j2527423328;
+	j1836588251 [label="Mhm, sí, chyba jestem 
 Z dwóch powodów 
 Uno, podczas pracy La Flaca towarzyszy mi cały czas 
 Jesteśmy starymi \"przyjaciółmi\" 
 Dos, myślę, że inaczej podchodzimy do śmierci",shape=box,color=blue];
-		1127 -> 1130;
-		1127 -> 1131;
-		1127 -> 1129;
-	1128 [label="Jaja, jak to ta łatwa część, babas 
+		j1836588251 -> j3057053136;
+		j1836588251 -> j547104444;
+		j1836588251 -> j2937789751;
+	j2527423328 [label="Jaja, jak to ta łatwa część, babas 
 Zaciągnęłam się do wojska i kiepsko mi szło 
 Potem się nauczyłam",shape=box,color=blue];
-		1128 -> 1133;
-		1128 -> 1134;
-	1130 [label="Co masz na myśli mówiąc, że twoi ludzie myślą o śmierci inaczej?",shape=box,color=red];
-		1130 -> 1138;
-	1131 [label="Dlaczego zostałaś medykiem?",shape=box,color=red];
-		1131 -> 1137;
-	1129 [label="To ma sens. [Koniec]",shape=box,color=red];
-		1129 -> 1132;
-	1133 [label="Okej, *dlaczego* zostałaś medykiem?",shape=box,color=red];
-		1133 -> 1137;
-	1134 [label="Dzięki za rozmowę. [Koniec]",shape=box,color=red];
-		1134 -> 1135;
-	1138 [label="Świętujemy naszych bliskich, którzy powracają w odwiedziny 
+		j2527423328 -> j1054878591;
+		j2527423328 -> j3735427396;
+	j3057053136 [label="Co masz na myśli mówiąc, że twoi ludzie myślą o śmierci inaczej?",shape=box,color=red];
+		j3057053136 -> j4082057171;
+	j547104444 [label="Dlaczego zostałaś medykiem?",shape=box,color=red];
+		j547104444 -> j1780089271;
+	j2937789751 [label="To ma sens. [Koniec]",shape=box,color=red];
+		j2937789751 -> "Chat ends.";
+	j1054878591 [label="Okej, *dlaczego* zostałaś medykiem?",shape=box,color=red];
+		j1054878591 -> j1780089271;
+	j3735427396 [label="Dzięki za rozmowę. [Koniec]",shape=box,color=red];
+		j3735427396 -> "Chat ends.";
+	j4082057171 [label="Świętujemy naszych bliskich, którzy powracają w odwiedziny 
 Zapraszamy ich z powrotem raz do roku 
 Robimy pan de muerto, nasze calaveritas de azúcar i wystawiamy nagietki, aby wskazać im drogę do domu",shape=box,color=blue];
-		1138 -> 1136;
-		1138 -> 1139;
-	1137 [label="Mi papá był w wojsku 
+		j4082057171 -> j3652031494;
+		j4082057171 -> j2974793634;
+	j1780089271 [label="Mi papá był w wojsku 
 Wiele podróżowaliśmy, z bazy do bazy 
 Ale kiedy moja tía pochorowała się, zamieszkała z nami 
 Opiekowałam się nią, dopóki nie odeszła",shape=box,color=blue];
-		1137 -> 1140;
-	1132 [label="Chat ends.",color=orange];
-	1135 [label="Chat ends.",color=orange];
-	1136 [label="Trupy, z jakimi miałem do czynienia, były trochę bardziej... agresywne.",shape=box,color=red];
-		1136 -> 1144;
-	1139 [label="To piękne.",shape=box,color=red];
-		1139 -> 1141;
-	1140 [label="Update boolean LettieAunt",color=orange];
-		1140 -> 1142;
-		1140 -> 1143;
-	1144 [label="Siedzimy przy ich grobach i opowiadamy historie 
+		j1780089271 -> j2985861959;
+	"Chat ends." [color=orange];
+	j3652031494 [label="Trupy, z jakimi miałem do czynienia, były trochę bardziej... agresywne.",shape=box,color=red];
+		j3652031494 -> j798898892;
+	j2974793634 [label="To piękne.",shape=box,color=red];
+		j2974793634 -> j3564770792;
+	j2985861959 [label="Boolean LettieAunt is now true.",color=orange];
+		j2985861959 -> j1595748809;
+		j2985861959 -> j1543471776;
+	j798898892 [label="Siedzimy przy ich grobach i opowiadamy historie 
 Jemy z nimi to, co dla nich przynieśliśmy 
 Rozmawiamy i śmiejemy się razem z nimi 
 Nie szepczemy i nie płaczemy, kiedy przybywają do nas w nocy",shape=box,color=blue];
-		1144 -> 1147;
-	1141 [label="+5 Chemistry",color=orange];
-		1141 -> 210;
-	1142 [label="Och... Tak mi przykro.",shape=box,color=red];
-		1142 -> 1145;
-	1143 [label="Ile miałaś lat?",shape=box,color=red];
-		1143 -> 1146;
-	1147 [label="Poznałam się z La Flaca, kiedy byłam młoda 
+		j798898892 -> j2481737161;
+	j3564770792 [label="+5 Chemistry",color=orange];
+		j3564770792 -> j509288420;
+	j1595748809 [label="Och... Tak mi przykro.",shape=box,color=red];
+		j1595748809 -> j1810986814;
+	j1543471776 [label="Ile miałaś lat?",shape=box,color=red];
+		j1543471776 -> j2079117596;
+	j2481737161 [label="Poznałam się z La Flaca, kiedy byłam młoda 
 Mi papá był w wojsku 
 Wiele podróżowaliśmy, z bazy do bazy 
 Ale kiedy moja tía pochorowała się, zamieszkała z nami 
 Opiekowałam się nią, dopóki nie odeszła",shape=box,color=blue];
-		1147 -> 1154;
-	210 [label="Gracias",shape=box,color=blue];
-		210 -> 1144;
-	1145 [label="Eeh, está bien 
+		j2481737161 -> j837295711;
+	j509288420 [label="Gracias",shape=box,color=blue];
+		j509288420 -> j798898892;
+	j1810986814 [label="Eeh, está bien 
 Tak bywa, ¿no? 
 Przez problemy z sercem było z nią gorzej i gorzej 
 Dobra wprawa przed przyszłością, kolejna para rąk dla mi mamá",shape=box,color=blue];
-		1145 -> 1148;
-		1145 -> 1149;
-		1145 -> 1150;
-	1146 [label="Z 10? 11 
+		j1810986814 -> j4119490405;
+		j1810986814 -> j3555609170;
+		j1810986814 -> j2528877275;
+	j2079117596 [label="Z 10? 11 
 Mi mamá potrzebowała pomocy 
 Nie przeszkadzało mi to 
 Jako pomocnik nabrałam wprawy przed przyszłością",shape=box,color=blue];
-		1146 -> 1148;
-		1146 -> 1149;
-		1146 -> 1150;
-	1154 [label="Update boolean LettieAunt",color=orange];
-		1154 -> 1163;
-	1148 [label="Tęsknisz za swoją ciocią?",shape=box,color=red];
-		1148 -> 1157;
-	1149 [label="Wiem jak to jest stracić rodzinę za młodu.",shape=box,color=red];
-		1149 -> 2466;
-	1150 [label="Ile lat miałaś, kiedy wstąpiłaś do wojska?",shape=box,color=red];
-		1150 -> 1161;
-	1163 [label="Mi tía odwiedza mnie każdego roku, klepie mnie po plecach i mówi \"Buen trabajo, amorcito, sigue así\" 
+		j2079117596 -> j4119490405;
+		j2079117596 -> j3555609170;
+		j2079117596 -> j2528877275;
+	j837295711 [label="Boolean LettieAunt is now true.",color=orange];
+		j837295711 -> j1253279079;
+	j4119490405 [label="Tęsknisz za swoją ciocią?",shape=box,color=red];
+		j4119490405 -> j2513971064;
+	j3555609170 [label="Wiem jak to jest stracić rodzinę za młodu.",shape=box,color=red];
+		j3555609170 -> j1070380290;
+	j2528877275 [label="Ile lat miałaś, kiedy wstąpiłaś do wojska?",shape=box,color=red];
+		j2528877275 -> j27875252;
+	j1253279079 [label="Mi tía odwiedza mnie każdego roku, klepie mnie po plecach i mówi \"Buen trabajo, amorcito, sigue así\" 
 Poprawia mi to humor, nie zmusza do ucieczki z krzykiem",shape=box,color=blue];
-		1163 -> 1164;
-	1157 [label="+5 Chemistry",color=orange];
-		1157 -> 1151;
-	2466 [label="+5 Chemistry",color=orange];
-		2466 -> 1152;
-	1161 [label="+10 Chemistry",color=orange];
-		1161 -> 1153;
-	1164 [label="Update boolean LettieDiasdeMuertos",color=orange];
-		1164 -> 1165;
-	1151 [label="Nie
+		j1253279079 -> j2593619633;
+	j2513971064 [label="+5 Chemistry",color=orange];
+		j2513971064 -> j1620307575;
+	j1070380290 [label="+5 Chemistry",color=orange];
+		j1070380290 -> j3207528528;
+	j27875252 [label="+10 Chemistry",color=orange];
+		j27875252 -> j1531611564;
+	j2593619633 [label="Boolean LettieDiasdeMuertos is now true.",color=orange];
+		j2593619633 -> j818440291;
+	j1620307575 [label="Nie
 Widzę ją każdego roku podczas festiwalu zmarłych
 ¡Mierda! Zanim zapytasz, nie, to nie jest tak, jak brzmi
 Nie wykopujemy ich z grobów i nie czcimy ich dusz jajaja
 Dobra, niektórzy tak robią - ale nie my, zależy skąd jesteś",shape=box,color=blue];
-		1151 -> 1155;
-		1151 -> 1156;
-	1152 [label="Sí, ale nie tęsknię za nimi
+		j1620307575 -> j2828932003;
+		j1620307575 -> j111898614;
+	j3207528528 [label="Sí, ale nie tęsknię za nimi
 Nie żyją już z nami, ale nadal są z nami i odwiedzają nas co roku podczas festiwalu zmarłych.
 Nie wykopujemy ich z grobów i nie czcimy ich dusz jajaja
 Dobra, niektórzy tak robią - ale nie my, zależy skąd jesteś",shape=box,color=blue];
-		1152 -> 1155;
-		1152 -> 1156;
-	1153 [label="Mi papá kazał mi czekać aż skończę 20 lat, zanim mogłam dołączyć 
+		j3207528528 -> j2828932003;
+		j3207528528 -> j111898614;
+	j1531611564 [label="Mi papá kazał mi czekać aż skończę 20 lat, zanim mogłam dołączyć 
 Ale byłam gotowa już wcześniej jajaja 
 Nie mogłam się doczekać, żeby stać się powodem do dumy dla niego i mi tía
 Cieszę się, że kazał mi czekać
 Nie byłam gotowa",shape=box,color=blue];
-		1153 -> 1159;
-	1165 [label="Mam nadzieję, że pojawi się tak daleko od domu...
+		j1531611564 -> j3039777287;
+	j818440291 [label="Mam nadzieję, że pojawi się tak daleko od domu...
 Będę musiała przygotować dla niej papierowe nagietki
 Może Artur pomoże mi z pan de muerto, ja piekę do bani jajaja",shape=box,color=blue];
-		1165 -> 1166;
-		1165 -> 1167;
-	1155 [label="Uff. Już miałem pytać. lol",shape=box,color=red];
-		1155 -> 1158;
-	1156 [label="LOL! Brzmi jak ciekawe święto.",shape=box,color=red];
-		1156 -> 1158;
-	1159 [label="Patrzeć jak choroba serca powoli zabija twoją tía to jedno 
+		j818440291 -> j3999471304;
+		j818440291 -> j712507560;
+	j2828932003 [label="Uff. Już miałem pytać. lol",shape=box,color=red];
+		j2828932003 -> j2417420936;
+	j111898614 [label="LOL! Brzmi jak ciekawe święto.",shape=box,color=red];
+		j111898614 -> j2417420936;
+	j3039777287 [label="Patrzeć jak choroba serca powoli zabija twoją tía to jedno 
 Patrzyć jak ludzie zabijają się nawzajem 
 Śmierć w krzykach, śmierć we krwi 
 To zupełnie różne sprawy",shape=box,color=blue];
-		1159 -> 1160;
-	1166 [label="Jestem pewien, że chętnie pomoże.",shape=box,color=red];
-		1166 -> 1170;
-	1167 [label="Też chętnie pomogę.",shape=box,color=red];
-		1167 -> 1168;
-	1158 [label="Budujemy ofrendas dla naszych ukochanych i robimy dla nich pan de muerto i calaveritas de azúcar, a potem rozstawiamy nagietki, by zaprosić ich do domu 
+		j3039777287 -> j1904186674;
+	j3999471304 [label="Jestem pewien, że chętnie pomoże.",shape=box,color=red];
+		j3999471304 -> j3018346605;
+	j712507560 [label="Też chętnie pomogę.",shape=box,color=red];
+		j712507560 -> j110976388;
+	j2417420936 [label="Budujemy ofrendas dla naszych ukochanych i robimy dla nich pan de muerto i calaveritas de azúcar, a potem rozstawiamy nagietki, by zaprosić ich do domu 
 Przynosimy jedzenie i jemy razem z nimi 
 Siedzimy przy grobach i opowiadamy o nich historie 
 Rozmawiamy i śmiejemy się razem z nimi",shape=box,color=blue];
-		1158 -> 1163;
-	1160 [label="Ale dobrze o tym wiesz, prawda? 
+		j2417420936 -> j1253279079;
+	j1904186674 [label="Ale dobrze o tym wiesz, prawda? 
 Poznałeś La Flaca równie dobrze, co ja 
 A skoro o niej mowa
 Nie czeka na nikogo, a już z pewnością nie na nasze rozmowy",shape=box,color=blue];
-		1160 -> 1162;
-	1170 [label="Check boolean LettieDuviri",color=orange];
-		1170 -> 1171 [label=true,color=green];
-		1170 -> 1172 [label=false,color=brown];
-	1168 [label="+5 Chemistry",color=orange];
-		1168 -> 1169;
-	1162 [label="Chat ends.",color=orange];
-	1171 [label="Jeśli chcesz, możemy przygotować ofrenda dla twojej rodziny
+		j1904186674 -> "Chat ends.";
+	j3018346605 [label="Check boolean LettieDuviri",color=orange];
+		j3018346605 -> j2439018911 [label=true,color=green];
+		j3018346605 -> j3465663057 [label=false,color=brown];
+	j110976388 [label="+5 Chemistry",color=orange];
+		j110976388 -> j2730203454;
+	j2439018911 [label="Jeśli chcesz, możemy przygotować ofrenda dla twojej rodziny
 Może zechcieliby przyjść i zobaczyć, jak daleko zaszedł ich babas
 Jestem pewna, że są z ciebie dumni",shape=box,color=blue];
-		1171 -> 1173;
-		1171 -> 1174;
-		1171 -> 1175;
-	1172 [label="Czy masz bliskich, których chciałbyś zaprosić do wizyty
+		j2439018911 -> j1050444140;
+		j2439018911 -> j1357066900;
+		j2439018911 -> j747015852;
+	j3465663057 [label="Czy masz bliskich, których chciałbyś zaprosić do wizyty
 Moglibyśmy przygotować dla nich ofrenda
 Może zechcieliby przyjść i zobaczyć, jak daleko zaszedł ich babas
 Jestem pewna, że są z ciebie dumni",shape=box,color=blue];
-		1172 -> 1173;
-		1172 -> 1174;
-		1172 -> 1175;
-	1169 [label="Jesteś kochany 
+		j3465663057 -> j1050444140;
+		j3465663057 -> j1357066900;
+		j3465663057 -> j747015852;
+	j2730203454 [label="Jesteś kochany 
 Sí, może razem nam się uda",shape=box,color=blue];
-		1169 -> 1170;
-	1173 [label="W sumie... byłoby bardzo miło. Dziękuję, Lettie.",shape=box,color=red];
-		1173 -> 1176;
-	1174 [label="Z chęcią pomogę, ale zostawmy moją rodzinę w przyszłości, gdzie ich miejsce.",shape=box,color=red];
-		1174 -> 1177;
-	1175 [label="Myślę... że nie chcieliby mnie zobaczyć...",shape=box,color=red];
-		1175 -> 1178;
-	1176 [label="+10 Chemistry",color=orange];
-		1176 -> 1179;
-	1177 [label="+10 Chemistry",color=orange];
-		1177 -> 1180;
-	1178 [label="Check boolean LettieReligion4",color=orange];
-		1178 -> 1181 [label=true,color=green];
-		1178 -> 1182 [label=false,color=brown];
-	1179 [label="Claro, przyjacielu 
+		j2730203454 -> j3018346605;
+	j1050444140 [label="W sumie... byłoby bardzo miło. Dziękuję, Lettie.",shape=box,color=red];
+		j1050444140 -> j1968709706;
+	j1357066900 [label="Z chęcią pomogę, ale zostawmy moją rodzinę w przyszłości, gdzie ich miejsce.",shape=box,color=red];
+		j1357066900 -> j2610055337;
+	j747015852 [label="Myślę... że nie chcieliby mnie zobaczyć...",shape=box,color=red];
+		j747015852 -> j4115334670;
+	j1968709706 [label="+10 Chemistry",color=orange];
+		j1968709706 -> j975412167;
+	j2610055337 [label="+10 Chemistry",color=orange];
+		j2610055337 -> j124165946;
+	j4115334670 [label="Check boolean LettieReligion4",color=orange];
+		j4115334670 -> j3852724610 [label=true,color=green];
+		j4115334670 -> j2194251521 [label=false,color=brown];
+	j975412167 [label="Claro, przyjacielu 
 Tak jak o tym myślę 
 Czy dusze mogą podróżować w czasie? 
 Qy, equis, czasami liczy się myśl",shape=box,color=blue];
-		1179 -> 1184;
-	1180 [label="Dobrze 
+		j975412167 -> "Chat ends.";
+	j124165946 [label="Dobrze 
 Tak jak o tym myślę 
 Czy dusze mogą podróżować w czasie? 
 Qy, equis, czasami liczy się myśl",shape=box,color=blue];
-		1180 -> 1185;
-	1181 [label="Przez to, do czego zmusił cię twój Xipe Totec 
+		j124165946 -> "Chat ends.";
+	j3852724610 [label="Przez to, do czego zmusił cię twój Xipe Totec 
 To nie twoja wina, że oszaleli 
 Czasami konieczne jest przypalenie rany 
 Dałeś im spoczynek, nie zabiłeś ich",shape=box,color=blue];
-		1181 -> 1186;
-		1181 -> 1187;
-	1182 [label="¿Por qué?",shape=box,color=blue];
-		1182 -> 1188;
-		1182 -> 1189;
-	1184 [label="Chat ends.",color=orange];
-	1185 [label="Chat ends.",color=orange];
-	1186 [label="Wtedy wyglądało to inaczej.",shape=box,color=red];
-		1186 -> 1197;
-	1187 [label="Masz rację...",shape=box,color=red];
-		1187 -> 1200;
-	1188 [label="Bo Pan ze Ściany doprowadził rodziców do szaleństwa, obrócił ich przeciwko dzieciom... a obdarzone mocą pustki musiały ich zabić, i....",shape=box,color=red];
-		1188 -> 1193;
-	1189 [label="Nie chcę o tym teraz rozmawiać. Przepraszam.",shape=box,color=red];
-		1189 -> 1195;
-	1197 [label="+10 Chemistry",color=orange];
-		1197 -> 1190;
-	1200 [label="+10 Chemistry",color=orange];
-		1200 -> 1192;
-	1193 [label="Update boolean LettieReligion4",color=orange];
-		1193 -> 1194;
-	1195 [label="Ay, sí 
+		j3852724610 -> j1204336950;
+		j3852724610 -> j859215634;
+	j2194251521 [label="¿Por qué?",shape=box,color=blue];
+		j2194251521 -> j2259584722;
+		j2194251521 -> j3773754887;
+	j1204336950 [label="Wtedy wyglądało to inaczej.",shape=box,color=red];
+		j1204336950 -> j132671457;
+	j859215634 [label="Masz rację...",shape=box,color=red];
+		j859215634 -> j223651947;
+	j2259584722 [label="Bo Pan ze Ściany doprowadził rodziców do szaleństwa, obrócił ich przeciwko dzieciom... a obdarzone mocą pustki musiały ich zabić, i....",shape=box,color=red];
+		j2259584722 -> j2156457860;
+	j3773754887 [label="Nie chcę o tym teraz rozmawiać. Przepraszam.",shape=box,color=red];
+		j3773754887 -> j3685474268;
+	j132671457 [label="+10 Chemistry",color=orange];
+		j132671457 -> j2230146040;
+	j223651947 [label="+10 Chemistry",color=orange];
+		j223651947 -> j2366984496;
+	j2156457860 [label="Boolean LettieReligion4 is now true.",color=orange];
+		j2156457860 -> j1710102746;
+	j3685474268 [label="Ay, sí 
 Rozumiem",shape=box,color=blue];
-		1195 -> 1196;
-	1190 [label="Sí, nie mogę sobie wyobrazić, jak się czułeś 
+		j3685474268 -> "Chat ends.";
+	j2230146040 [label="Sí, nie mogę sobie wyobrazić, jak się czułeś 
 Musieć skrzywdzić własną rodzinę w taki sposób 
 Ale nie miałeś wyboru, solecito 
 Byli już wściekłymi zwierzętami",shape=box,color=blue];
-		1190 -> 1191;
-	1192 [label="Nie miałeś wyboru, solecito 
+		j2230146040 -> j3589386184;
+	j2366984496 [label="Nie miałeś wyboru, solecito 
 Byli wtedy już wściekłymi zwierzętami
 I jestem w stanie zrozumieć *taki* wybór",shape=box,color=blue];
-		1192 -> 1201;
-	1194 [label="Zrobił to twój Xipe Totec, twój obdarty ze skóry bóg 
+		j2366984496 -> j3715657199;
+	j1710102746 [label="Zrobił to twój Xipe Totec, twój obdarty ze skóry bóg 
 To jego działania doprowadziły ich do szaleństwa i do śmierci",shape=box,color=blue];
-		1194 -> 1200;
-	1196 [label="Chat ends.",color=orange];
-	1191 [label="I taki wybór jestem zdolna zrozumieć 
+		j1710102746 -> j223651947;
+	j3589386184 [label="I taki wybór jestem zdolna zrozumieć 
 Ale to historia na inny dzień 
 La Flaca nie czeka na nikogo, ani na nic
 Muszę już iść",shape=box,color=blue];
-		1191 -> 1198;
-	1201 [label="Ale to historia na inny dzień 
+		j3589386184 -> "Chat ends.";
+	j3715657199 [label="Ale to historia na inny dzień 
 La Flaca nie czeka na nikogo, ani na nic
 Muszę już iść",shape=box,color=blue];
-		1201 -> 1199;
-	1198 [label="Chat ends.",color=orange];
-	1199 [label="Chat ends.",color=orange];
+		j3715657199 -> "Chat ends.";
 }

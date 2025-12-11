@@ -1,7 +1,7 @@
 digraph {
-	0 [label="MinVelRank1Convo1 begins.",color=orange];
-		0 -> 1;
-	1 [label="/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRank1Convo1_0",shape=box,color=red];
-		1 -> 2;
-	2 [label="Chat ends.",color=orange];
+	"MinVelRank1Convo1 begins." [color=orange];
+		"MinVelRank1Convo1 begins." -> j1010851809;
+	j1010851809 [label="/Lotus/Language/1999Texting/MinervaVelemirDialogue/Choice_MinVelRank1Convo1_0",shape=box,color=red];
+		j1010851809 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

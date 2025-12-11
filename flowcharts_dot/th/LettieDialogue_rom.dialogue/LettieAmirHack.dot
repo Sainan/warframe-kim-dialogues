@@ -1,40 +1,40 @@
 digraph {
-	1768 [label="LettieAmirHack begins.",color=orange];
-		1768 -> 1769;
-	1769 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
-		1769 -> 1770;
-		1769 -> 1771;
-	1770 [label="รู้สึกเหมือนว่าเจ้ากำลังโกรธ...",shape=box,color=red];
-		1770 -> 1772;
-	1771 [label="เอ่อ... ไม่ได้เนยถั่วเหรอ...",shape=box,color=red];
-		1771 -> 1772;
-	1772 [label="ข้าต้องทำยังไง 
+	"LettieAmirHack begins." [color=orange];
+		"LettieAmirHack begins." -> j2316161106;
+	j2316161106 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
+		j2316161106 -> j4175152507;
+		j2316161106 -> j760874327;
+	j4175152507 [label="รู้สึกเหมือนว่าเจ้ากำลังโกรธ...",shape=box,color=red];
+		j4175152507 -> j701846910;
+	j760874327 [label="เอ่อ... ไม่ได้เนยถั่วเหรอ...",shape=box,color=red];
+		j760874327 -> j701846910;
+	j701846910 [label="ข้าต้องทำยังไง 
 กับไอ้ซอสมะเขือเทศ 500 กล่องเนี่ย 
 ¡DILE A ESE NIÑO QUE VENGA AQUÍ AHORA MISMO! 
 ไปบอกให้ไอ้เด็กเวรนั่นมาแก้ปัญหาเลย 
 เดี๋ยวนี้!!",shape=box,color=blue];
-		1772 -> 1773;
-		1772 -> 1774;
-	1773 [label="เฮ้ มันเป็นเรื่องผิดพลาดนะ Amir พยายามจะส่งเนยถั่วไปให้หนูของเจ้าน่ะ",shape=box,color=red];
-		1773 -> 1775;
-	1774 [label="ทั้งหมดนี่เป็นเรื่องเข้าใจผิดนะ เขาพยายามจะส่งของขวัญไปให้น่ะ",shape=box,color=red];
-		1774 -> 1776;
-	1775 [label="แต่ทุกอย่างมันเละเทะไปหมดแล้ว เดี๋ยวข้าจะช่วยเขาจัดการเอง",shape=box,color=red];
-		1775 -> 1780;
-	1776 [label="ไม่สนโว้ย 
+		j701846910 -> j1157278537;
+		j701846910 -> j2823277935;
+	j1157278537 [label="เฮ้ มันเป็นเรื่องผิดพลาดนะ Amir พยายามจะส่งเนยถั่วไปให้หนูของเจ้าน่ะ",shape=box,color=red];
+		j1157278537 -> j626278652;
+	j2823277935 [label="ทั้งหมดนี่เป็นเรื่องเข้าใจผิดนะ เขาพยายามจะส่งของขวัญไปให้น่ะ",shape=box,color=red];
+		j2823277935 -> j889225907;
+	j626278652 [label="แต่ทุกอย่างมันเละเทะไปหมดแล้ว เดี๋ยวข้าจะช่วยเขาจัดการเอง",shape=box,color=red];
+		j626278652 -> j708724839;
+	j889225907 [label="ไม่สนโว้ย 
 ¡¡SÁCALAS DE AQUÍ!! 
 ¡¡AHORA!!",shape=box,color=blue];
-		1776 -> 1777;
-	1780 [label="+20 Chemistry",color=orange];
-		1780 -> 1778;
-	1777 [label="{\"Id\":1777,\"Incoming\":[1779,1776],\"Outgoing\":[1781],\"GraphPos\":[2847,54171],\"CompletionType\":2,\"OtherDialogueInfos\":[{\"Dialogue\":\"/Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue\",\"Tag\":\"AmirHack3\",\"Value\":0}]}",color=orange];
-		1777 -> 1781;
-	1778 [label="¿SÍ? 
+		j889225907 -> "Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue";
+	j708724839 [label="+20 Chemistry",color=orange];
+		j708724839 -> j3509156960;
+	"Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue" [label="Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue",color=orange];
+		"Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue" -> "Chat ends.";
+	j3509156960 [label="¿SÍ? 
 นี่สำหรับ mis panquecitos เหรอ",shape=box,color=blue];
-		1778 -> 1779;
-	1781 [label="Chat ends.",color=orange];
-	1779 [label="¡Ay equis! 
+		j3509156960 -> j3942107981;
+	"Chat ends." [color=orange];
+	j3942107981 [label="¡Ay equis! 
 รีบเอาออกไปจากที่นี่ซะ 
 ¡¡AHORA!!",shape=box,color=blue];
-		1779 -> 1777;
+		j3942107981 -> "Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue";
 }

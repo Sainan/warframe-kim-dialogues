@@ -1,38 +1,38 @@
 digraph {
-	1002 [label="LettieRank4Convo1 begins.",color=orange];
-		1002 -> 1003;
-		1002 -> 1004;
-		1002 -> 1005;
-	1003 [label="Ich habe nie die ganze Geschichte erfahren, wie du Arthur kennengelernt hast.",shape=box,color=red];
-		1003 -> 1011;
-	1004 [label="Hast du eine Sekunde Zeit zum Plaudern, Lettie? Oder bist du beschäftigt?",shape=box,color=red];
-		1004 -> 1008;
-	1005 [label="[Ende.]",shape=box,color=red];
-		1005 -> 1006;
-	1011 [label="Naja, es war eine Sauerei 
+	"LettieRank4Convo1 begins." [color=orange];
+		"LettieRank4Convo1 begins." -> j305388766;
+		"LettieRank4Convo1 begins." -> j471404811;
+		"LettieRank4Convo1 begins." -> j129698615;
+	j305388766 [label="Ich habe nie die ganze Geschichte erfahren, wie du Arthur kennengelernt hast.",shape=box,color=red];
+		j305388766 -> j963862783;
+	j471404811 [label="Hast du eine Sekunde Zeit zum Plaudern, Lettie? Oder bist du beschäftigt?",shape=box,color=red];
+		j471404811 -> j3752201493;
+	j129698615 [label="[Ende.]",shape=box,color=red];
+		j129698615 -> "Chat ends.";
+	j963862783 [label="Naja, es war eine Sauerei 
 Dachte, du wolltest die blutigen Details nicht wissen 
 Aber, sí, wenn du es wissen willst 
 Dann erzähle ich es dir",shape=box,color=blue];
-		1011 -> 1012;
-	1008 [label="+5 Chemistry",color=orange];
-		1008 -> 1009;
-	1006 [label="Chat ends.",color=orange];
-	1012 [label="Wir waren zusammen in derselben Basis stationiert 
+		j963862783 -> j1385297838;
+	j3752201493 [label="+5 Chemistry",color=orange];
+		j3752201493 -> j792589916;
+	"Chat ends." [color=orange];
+	j1385297838 [label="Wir waren zusammen in derselben Basis stationiert 
 Er in der britannischen und ich in der libertanischen Armee
 Verschiedene Länder, dieselben Feinde",shape=box,color=blue];
-		1012 -> 1013;
-	1009 [label="Immer beschäftigt 
+		j1385297838 -> j2534651376;
+	j792589916 [label="Immer beschäftigt 
 Aber ich kann eine Pause machen 
 ¿Qué onda?",shape=box,color=blue];
-		1009 -> 1010;
-	1013 [label="Ich war der Feldsani für mein Regiment 
+		j792589916 -> j2790473238;
+	j2534651376 [label="Ich war der Feldsani für mein Regiment 
 Wir wurden neben seinem eingesetzt 
 Die Stellung wurde richtig zum cagadero 
 Sehr schnell",shape=box,color=blue];
-		1013 -> 1014;
-	1010 [label="Ich habe mich gefragt, wie du und Arthur euch kennengelernt habt.",shape=box,color=red];
-		1010 -> 1011;
-	1014 [label="Der Großteil meines Regiments schaffte es nicht
+		j2534651376 -> j2309042101;
+	j2790473238 [label="Ich habe mich gefragt, wie du und Arthur euch kennengelernt habt.",shape=box,color=red];
+		j2790473238 -> j963862783;
+	j2309042101 [label="Der Großteil meines Regiments schaffte es nicht
 Die meisten von seinem auch nicht 
 Wir hielten uns zusammen 
 Buchstäblich 
@@ -40,43 +40,40 @@ Ich habe seinen Arm gut zusammengeflickt jaja
 Als er in den Ruhestand ging und der IKA beitrat
 Folgte ich ihm ohne zu fragen 
 Ich hatte das ganze Drama, das sich in der Armee abspielt, sowieso satt",shape=box,color=blue];
-		1014 -> 1015;
-	1015 [label="Ich sagte ihm, ich würde ihm bis ans Ende der Welt folgen 
+		j2309042101 -> j2782331410;
+	j2782331410 [label="Ich sagte ihm, ich würde ihm bis ans Ende der Welt folgen 
 Mir war nicht klar, dass ich ihm bis an den Rand von Mictlán folgen würde",shape=box,color=blue];
-		1015 -> 1016;
-	1016 [label="Es muss dir so nichtig vorkommen 
+		j2782331410 -> j1784189939;
+	j1784189939 [label="Es muss dir so nichtig vorkommen 
 Eine Geschichte wie diese 
 Du kämpfst gegen Monster und Götter 
 Du hast so oft mit La Flaca getanzt",shape=box,color=blue];
-		1016 -> 1017;
-	1017 [label="Update boolean LettieArthur1",color=orange];
-		1017 -> 1018;
-		1017 -> 1019;
-		1017 -> 1020;
-	1018 [label="Nur weil meine Kämpfe ein wenig spektakulär sind, heißt das nicht, dass ich nicht einschätzen kann, wie schrecklich es gewesen sein muss.",shape=box,color=red];
-		1018 -> 1021;
-	1019 [label="Jeder Krieg ist Scheiße, Ende der Geschichte.",shape=box,color=red];
-		1019 -> 1022;
-	1020 [label="Äh, kleine Leute, kleine Geschichten.",shape=box,color=red];
-		1020 -> 1023;
-	1021 [label="+10 Chemistry",color=orange];
-		1021 -> 1024;
-	1022 [label="+15 Chemistry",color=orange];
-		1022 -> 1025;
-	1023 [label="Seguro",shape=box,color=blue];
-		1023 -> 1026;
-	1024 [label="Ay, sí 
+		j1784189939 -> j3207784194;
+	j3207784194 [label="Boolean LettieArthur1 is now true.",color=orange];
+		j3207784194 -> j1681424538;
+		j3207784194 -> j654164546;
+		j3207784194 -> j1994530638;
+	j1681424538 [label="Nur weil meine Kämpfe ein wenig spektakulär sind, heißt das nicht, dass ich nicht einschätzen kann, wie schrecklich es gewesen sein muss.",shape=box,color=red];
+		j1681424538 -> j462617743;
+	j654164546 [label="Jeder Krieg ist Scheiße, Ende der Geschichte.",shape=box,color=red];
+		j654164546 -> j1509377450;
+	j1994530638 [label="Äh, kleine Leute, kleine Geschichten.",shape=box,color=red];
+		j1994530638 -> j4124326144;
+	j462617743 [label="+10 Chemistry",color=orange];
+		j462617743 -> j805247545;
+	j1509377450 [label="+15 Chemistry",color=orange];
+		j1509377450 -> j3177386370;
+	j4124326144 [label="Seguro",shape=box,color=blue];
+		j4124326144 -> j2703113057;
+	j805247545 [label="Ay, sí 
 Blendend und dramatisch oder klein und persönlich 
 La Flaca ist am Ende immer gleich 
 Zumindest ... sollte sie das sein 
 Aber nicht für los fantasmas",shape=box,color=blue];
-		1024 -> 1027;
-	1025 [label="Sí, alles das Gleiche 
+		j805247545 -> "Chat ends.";
+	j3177386370 [label="Sí, alles das Gleiche 
 Egal wie groß und dämlich die Waffen sind",shape=box,color=blue];
-		1025 -> 1028;
-	1026 [label="Update boolean LettieNoDate",color=orange];
-		1026 -> 1029;
-	1027 [label="Chat ends.",color=orange];
-	1028 [label="Chat ends.",color=orange];
-	1029 [label="Chat ends.",color=orange];
+		j3177386370 -> "Chat ends.";
+	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2703113057 -> "Chat ends.";
 }

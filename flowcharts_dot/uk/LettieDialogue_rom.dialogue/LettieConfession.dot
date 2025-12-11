@@ -1,148 +1,144 @@
 digraph {
-	1719 [label="LettieConfession begins.",color=orange];
-		1719 -> 1720;
-	1720 [label="Check boolean IsDating",color=orange];
-		1720 -> 1721 [label=true,color=green];
-		1720 -> 1722 [label=false,color=brown];
-	1721 [label="Chat ends.",color=orange];
-	1722 [label="Solecito 
+	"LettieConfession begins." [color=orange];
+		"LettieConfession begins." -> j3507132931;
+	j3507132931 [label="Check boolean IsDating",color=orange];
+		j3507132931 -> "Chat ends." [label=true,color=green];
+		j3507132931 -> j3199151063 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j3199151063 [label="Solecito 
 Ти тут",shape=box,color=blue];
-		1722 -> 1723;
-		1722 -> 1724;
-	1723 [label="Так, а що..?",shape=box,color=red];
-		1723 -> 1726;
-	1724 [label="[Не зважати]",shape=box,color=red];
-		1724 -> 1725;
-	1726 [label="Я…
+		j3199151063 -> j992932349;
+		j3199151063 -> j427271942;
+	j992932349 [label="Так, а що..?",shape=box,color=red];
+		j992932349 -> j623566211;
+	j427271942 [label="[Не зважати]",shape=box,color=red];
+		j427271942 -> "Chat ends.";
+	j623566211 [label="Я…
 Хотіла сказати
 Primero, lo siento
 Я не мала б поводитися так, як це робила
 Segundo, те, що ти відчуваєш до мене, це правда?",shape=box,color=blue];
-		1726 -> 1727;
-		1726 -> 1728;
-	1725 [label="Chat ends.",color=orange];
-	1727 [label="Так, кожне слово це правда.",shape=box,color=red];
-		1727 -> 1732;
-	1728 [label="Це все мої вигадки.",shape=box,color=red];
-		1728 -> 1729;
-	1732 [label="А-а-а-а-а… гаразд…
+		j623566211 -> j377162816;
+		j623566211 -> j3911303535;
+	j377162816 [label="Так, кожне слово це правда.",shape=box,color=red];
+		j377162816 -> j2627996458;
+	j3911303535 [label="Це все мої вигадки.",shape=box,color=red];
+		j3911303535 -> j223558161;
+	j2627996458 [label="А-а-а-а-а… гаразд…
 Mierda",shape=box,color=blue];
-		1732 -> 1734;
-		1732 -> 1733;
-	1729 [label="Update boolean LettieNoDate",color=orange];
-		1729 -> 1730;
-	1734 [label="Якщо ти не відчуваєш того ж, просто скажи, я зможу це прийняти.",shape=box,color=red];
-		1734 -> 1736;
-	1733 [label="Я досі не знаю, чи «mierda» це добре або погано…",shape=box,color=red];
-		1733 -> 1735;
-	1730 [label="М-м 
+		j2627996458 -> j97336856;
+		j2627996458 -> j1183214907;
+	j223558161 [label="Boolean LettieNoDate is now true.",color=orange];
+		j223558161 -> j225066383;
+	j97336856 [label="Якщо ти не відчуваєш того ж, просто скажи, я зможу це прийняти.",shape=box,color=red];
+		j97336856 -> j2720179985;
+	j1183214907 [label="Я досі не знаю, чи «mierda» це добре або погано…",shape=box,color=red];
+		j1183214907 -> j2180496101;
+	j225066383 [label="М-м 
 Мала б здогадатися
 Іди грайся з Квінсі 
 Un escuincle як він тобі більше підходить",shape=box,color=blue];
-		1730 -> 1731;
-	1736 [label="Check boolean LettieTrust1",color=orange];
-		1736 -> 1737 [label=true,color=green];
-		1736 -> 1738 [label=false,color=brown];
-	1735 [label="Перекладається як «лайно» jajaja
+		j225066383 -> "Chat ends.";
+	j2720179985 [label="Check boolean LettieTrust1",color=orange];
+		j2720179985 -> j675720518 [label=true,color=green];
+		j2720179985 -> j627561464 [label=false,color=brown];
+	j2180496101 [label="Перекладається як «лайно» jajaja
 Але ні, це не погана розмова 
 Просто…",shape=box,color=blue];
-		1735 -> 1736;
-	1731 [label="Chat ends.",color=orange];
-	1737 [label="Check boolean LettieTrust2",color=orange];
-		1737 -> 1739 [label=true,color=green];
-		1737 -> 1740 [label=false,color=brown];
-	1738 [label="Дивись
+		j2180496101 -> j2720179985;
+	j675720518 [label="Check boolean LettieTrust2",color=orange];
+		j675720518 -> j1802317702 [label=true,color=green];
+		j675720518 -> j2399115521 [label=false,color=brown];
+	j627561464 [label="Дивись
 Мені дуже важко довіряти іншим
 І це для мене найважливіша річ у стосунках
 Порушену довіру неможливо відновити, особливо в такій ситуації",shape=box,color=blue];
-		1738 -> 1741;
-	1739 [label="Ти знаєш, як мені важко довіряти людям
+		j627561464 -> j1143038757;
+	j1802317702 [label="Ти знаєш, як мені важко довіряти людям
 І наскільки важлива для мене довіра ¿no?
 Ну… це ще важливіше, коли я вступаю з кимось у стосунки",shape=box,color=blue];
-		1739 -> 1743;
-	1740 [label="Ти знаєш, що мені дуже важко довіряти іншим
+		j1802317702 -> j965385099;
+	j2399115521 [label="Ти знаєш, що мені дуже важко довіряти іншим
 І це для мене найважливіша річ у стосунках
 Порушену довіру неможливо відновити, особливо в такій ситуації",shape=box,color=blue];
-		1740 -> 1742;
-	1741 [label="Update boolean LettieTrust1",color=orange];
-		1741 -> 1742;
-	1743 [label="Тому що стосунки, які мені подобаються, зазвичай болючі, solecito
+		j2399115521 -> j4009826049;
+	j1143038757 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j1143038757 -> j4009826049;
+	j965385099 [label="Тому що стосунки, які мені подобаються, зазвичай болючі, solecito
 Якщо ти мене розумієш…
 Але лише настільки, наскільки ми цього захочемо
 І лише настільки, наскільки ми зможемо витерпіти 
 Для цього потрібна довіра",shape=box,color=blue];
-		1743 -> 1745;
-	1742 [label="Update boolean LettieTrust2",color=orange];
-		1742 -> 1743;
-	1745 [label="А порушена довіра до такого
+		j965385099 -> j1328095683;
+	j4009826049 [label="Boolean LettieTrust2 is now true.",color=orange];
+		j4009826049 -> j965385099;
+	j1328095683 [label="А порушена довіра до такого
 Те, що не можна виправити
 ¿Me explico?",shape=box,color=blue];
-		1745 -> 1744;
-		1745 -> 1746;
-		1745 -> 1748;
-	1744 [label="Я не кажу ні, але хочу запитати… чому тобі подобається біль?",shape=box,color=red];
-		1744 -> 1747;
-	1746 [label="Тільки якщо ми будемо час від часу мінятися…",shape=box,color=red];
-		1746 -> 1749;
-	1748 [label="Я не дуже люблю змішувати біль і задоволення, вибач.",shape=box,color=red];
-		1748 -> 1754;
-	1747 [label="М-м-м, не знаю 
+		j1328095683 -> j2124059588;
+		j1328095683 -> j731647934;
+		j1328095683 -> j1740506081;
+	j2124059588 [label="Я не кажу ні, але хочу запитати… чому тобі подобається біль?",shape=box,color=red];
+		j2124059588 -> j1698938154;
+	j731647934 [label="Тільки якщо ми будемо час від часу мінятися…",shape=box,color=red];
+		j731647934 -> j1629640292;
+	j1740506081 [label="Я не дуже люблю змішувати біль і задоволення, вибач.",shape=box,color=red];
+		j1740506081 -> j2800746142;
+	j1698938154 [label="М-м-м, не знаю 
 Можливо, тому що це біль, який я можу контролювати 
 На відміну від усього болю, який я не можу",shape=box,color=blue];
-		1747 -> 1750;
-	1749 [label="Jajaja звичайно 
+		j1698938154 -> j27424260;
+	j1629640292 [label="Jajaja звичайно 
 Але ти маєш це заслужити
 Мені спочатку потрібно знати, що я можу тобі довіряти
 Отже… що скажеш?",shape=box,color=blue];
-		1749 -> 1752;
-	1754 [label="Ay, sí 
+		j1629640292 -> j3052149120;
+	j2800746142 [label="Ay, sí 
 Це не для всіх 
 ENT|endo, нічого страшного",shape=box,color=blue];
-		1754 -> 1758;
-	1750 [label="Або, можливо, це тому, що це щось палке
+		j2800746142 -> j3366626225;
+	j27424260 [label="Або, можливо, це тому, що це щось палке
 Щось гостре, сильніше за все інше лайно, що трапляється в нашому житті
 Це РЕАЛЬНО
 Я можу впитися в це зубами
 Змусити стогнати
 Відчути пульсування",shape=box,color=blue];
-		1750 -> 1751;
-	1752 [label="Хочеш наробити зі мною помилок?",shape=box,color=blue];
-		1752 -> 1753;
-		1752 -> 1756;
-	1758 [label="+10 Chemistry",color=orange];
-		1758 -> 1757;
-	1751 [label="І це ВИМАГАЄ довіри
+		j27424260 -> j1830126683;
+	j3052149120 [label="Хочеш наробити зі мною помилок?",shape=box,color=blue];
+		j3052149120 -> j2587561921;
+		j3052149120 -> j1686673993;
+	j3366626225 [label="+10 Chemistry",color=orange];
+		j3366626225 -> j122552994;
+	j1830126683 [label="І це ВИМАГАЄ довіри
 Не працює без неї, solecito
 Отже… що ти скажеш?",shape=box,color=blue];
-		1751 -> 1752;
-	1753 [label="Так, дуже хочу. :) [Зустрічатися з Летті]",shape=box,color=red];
-		1753 -> 1766;
-	1756 [label="Мені треба подумати. Вибач.",shape=box,color=red];
-		1756 -> 1758;
-	1757 [label="Дай знати, якщо передумаєш",shape=box,color=blue];
-		1757 -> 1759;
-	1766 [label="+20 Chemistry",color=orange];
-		1766 -> 1755;
-	1759 [label="Update boolean LettieWillDate",color=orange];
-		1759 -> 1760;
-	1755 [label="Добре
+		j1830126683 -> j3052149120;
+	j2587561921 [label="Так, дуже хочу. :) [Зустрічатися з Летті]",shape=box,color=red];
+		j2587561921 -> j1036826508;
+	j1686673993 [label="Мені треба подумати. Вибач.",shape=box,color=red];
+		j1686673993 -> j3366626225;
+	j122552994 [label="Дай знати, якщо передумаєш",shape=box,color=blue];
+		j122552994 -> j2129367046;
+	j1036826508 [label="+20 Chemistry",color=orange];
+		j1036826508 -> j1508630096;
+	j2129367046 [label="Boolean LettieWillDate is now true.",color=orange];
+		j2129367046 -> "Chat ends.";
+	j1508630096 [label="Добре
 Готуйся, solecito
 Я буду жорсткою
 Я бачила, як ти б’єшся
 Тому знаю, що ти витримаєш багато",shape=box,color=blue];
-		1755 -> 1761;
-	1760 [label="Chat ends.",color=orange];
-	1761 [label="Але не хвилюйся…
+		j1508630096 -> j3250604795;
+	j3250604795 [label="Але не хвилюйся…
 Я потім загладжу це все поцілунками
 Можеш на це розраховувати",shape=box,color=blue];
-		1761 -> 1762;
-	1762 [label="Update boolean LettieWillDate",color=orange];
-		1762 -> 1763;
-	1763 [label="Update boolean LettieDating",color=orange];
-		1763 -> 1764;
-	1764 [label="Update boolean IsDating",color=orange];
-		1764 -> 1765;
-	1765 [label="Update boolean LettieHasDated",color=orange];
-		1765 -> 1767;
-	1767 [label="Chat ends.",color=orange];
+		j3250604795 -> j1300785588;
+	j1300785588 [label="Boolean LettieWillDate is now true.",color=orange];
+		j1300785588 -> j702074970;
+	j702074970 [label="Boolean LettieDating is now true.",color=orange];
+		j702074970 -> j938814249;
+	j938814249 [label="Boolean IsDating is now true.",color=orange];
+		j938814249 -> j3003494003;
+	j3003494003 [label="Boolean LettieHasDated is now true.",color=orange];
+		j3003494003 -> "Chat ends.";
 }

@@ -1,25 +1,20 @@
 digraph {
-	458 [label="LettieBirthdayConvo1 begins.",color=orange];
-		458 -> 457;
-		458 -> 456;
-	457 [label="เฮ้ สุขสันต์วันเกิดนะ พวกหนูซื้ออะไรให้บ้างหรือเปล่า",shape=box,color=red];
-		457 -> 460;
-	456 [label="สุขสันต์วันเกิดในวันแห่งดวงดาวนะ โรแมนติกจริงๆ :)",shape=box,color=red];
-		456 -> 1298;
-	460 [label="+20 Chemistry",color=orange];
-		460 -> 1300;
-	1298 [label="วันแห่งดวงดาวคืออะไร
+	"LettieBirthdayConvo1 begins." [color=orange];
+		"LettieBirthdayConvo1 begins." -> j3619077847;
+		"LettieBirthdayConvo1 begins." -> j2338600440;
+	j3619077847 [label="เฮ้ สุขสันต์วันเกิดนะ พวกหนูซื้ออะไรให้บ้างหรือเปล่า",shape=box,color=red];
+		j3619077847 -> j2402256650;
+	j2338600440 [label="สุขสันต์วันเกิดในวันแห่งดวงดาวนะ โรแมนติกจริงๆ :)",shape=box,color=red];
+		j2338600440 -> j241125172;
+	j2402256650 [label="+20 Chemistry",color=orange];
+		j2402256650 -> j3155795235;
+	j241125172 [label="วันแห่งดวงดาวคืออะไร
 แต่ช่างเถอะ ยุ่งเกินกว่าจะสนเรื่องไร้สาระแบบนั้น 
 Adiós",shape=box,color=blue];
-		1298 -> 2517;
-	1300 [label="Jajaja ไม่
+		j241125172 -> "Chat ends.";
+	j3155795235 [label="Jajaja ไม่
 สิ่งเดียวที่ต้องการคือการนอนหลับภายในหนึ่งชั่วโมงหรือกาแฟสักแก้ว มันมากเกินไปที่จะขอเหรอ
 Pero, gracias",shape=box,color=blue];
-		1300 -> 2516;
-	2517 [label="{\"Id\":2517,\"Incoming\":[1298],\"Outgoing\":[1297],\"GraphPos\":[797,-1598],\"CompletionType\":1}",color=orange];
-		2517 -> 1297;
-	2516 [label="{\"Id\":2516,\"Incoming\":[1300],\"Outgoing\":[459],\"GraphPos\":[1161,-1810],\"CompletionType\":1}",color=orange];
-		2516 -> 459;
-	1297 [label="Chat ends.",color=orange];
-	459 [label="Chat ends.",color=orange];
+		j3155795235 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

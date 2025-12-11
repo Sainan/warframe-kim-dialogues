@@ -1,225 +1,214 @@
 digraph {
-	2389 [label="LettieRank6Convo1 begins.",color=orange];
-		2389 -> 2390;
-	2390 [label="Check boolean LettieDating",color=orange];
-		2390 -> 2391 [label=true,color=green];
-		2390 -> 2394 [label=false,color=brown];
-	2391 [label="Check boolean LettieReal",color=orange];
-		2391 -> 2392 [label=true,color=green];
-		2391 -> 2393 [label=false,color=brown];
-	2394 [label="朋友
+	"LettieRank6Convo1 begins." [color=orange];
+		"LettieRank6Convo1 begins." -> j2452349781;
+	j2452349781 [label="Check boolean LettieDating",color=orange];
+		j2452349781 -> j2676259319 [label=true,color=green];
+		j2452349781 -> j1346165153 [label=false,color=brown];
+	j2676259319 [label="Check boolean LettieReal",color=orange];
+		j2676259319 -> j367594534 [label=true,color=green];
+		j2676259319 -> j3272184482 [label=false,color=brown];
+	j1346165153 [label="朋友
 我要坦白一件事",shape=box,color=blue];
-		2394 -> 2396;
-		2394 -> 2397;
-		2394 -> 2398;
-	2392 [label="親愛的
+		j1346165153 -> j3285786546;
+		j1346165153 -> j4224777756;
+		j1346165153 -> j3923589519;
+	j367594534 [label="親愛的
 我要坦白一件事",shape=box,color=blue];
-		2392 -> 2395;
-		2392 -> 2396;
-		2392 -> 2397;
-		2392 -> 2398;
-	2393 [label="小太陽
+		j367594534 -> j1651537722;
+		j367594534 -> j3285786546;
+		j367594534 -> j4224777756;
+		j367594534 -> j3923589519;
+	j3272184482 [label="小太陽
 我要坦白一件事",shape=box,color=blue];
-		2393 -> 2395;
-		2393 -> 2396;
-		2393 -> 2397;
-		2393 -> 2398;
-	2396 [label="怎麼樣，小莉？",shape=box,color=red];
-		2396 -> 2401;
-	2397 [label="呃哦……",shape=box,color=red];
-		2397 -> 2400;
-	2398 [label="抱歉，卡利莫斯正在咬電源線，然後──[結束]",shape=box,color=red];
-		2398 -> 2399;
-	2395 [label="寶貝，什麼事？",shape=box,color=red];
-		2395 -> 2401;
-	2401 [label="當你來這裡時
+		j3272184482 -> j1651537722;
+		j3272184482 -> j3285786546;
+		j3272184482 -> j4224777756;
+		j3272184482 -> j3923589519;
+	j3285786546 [label="怎麼樣，小莉？",shape=box,color=red];
+		j3285786546 -> j2001065016;
+	j4224777756 [label="呃哦……",shape=box,color=red];
+		j4224777756 -> j210504615;
+	j3923589519 [label="抱歉，卡利莫斯正在咬電源線，然後──[結束]",shape=box,color=red];
+		j3923589519 -> "Chat ends.";
+	j1651537722 [label="寶貝，什麼事？",shape=box,color=red];
+		j1651537722 -> j2001065016;
+	j2001065016 [label="當你來這裡時
 我就知道你會帶來麻煩
 一個全新不可能解決的問題，添加到我們越來越長的麻煩清單中",shape=box,color=blue];
-		2401 -> 2402;
-		2401 -> 2403;
-	2400 [label="哈哈哈，聽我說",shape=box,color=blue];
-		2400 -> 2401;
-	2399 [label="Chat ends.",color=orange];
-	2402 [label="哎呀，先謝過啦。",shape=box,color=red];
-		2402 -> 2404;
-	2403 [label="我的意思是……沒錯，但……",shape=box,color=red];
-		2403 -> 2404;
-	2404 [label="然後事情從糟糕變得更加糟糕
+		j2001065016 -> j792451837;
+		j2001065016 -> j1656587085;
+	j210504615 [label="哈哈哈，聽我說",shape=box,color=blue];
+		j210504615 -> j2001065016;
+	"Chat ends." [color=orange];
+	j792451837 [label="哎呀，先謝過啦。",shape=box,color=red];
+		j792451837 -> j3302392457;
+	j1656587085 [label="我的意思是……沒錯，但……",shape=box,color=red];
+		j1656587085 -> j3302392457;
+	j3302392457 [label="然後事情從糟糕變得更加糟糕
 從狗屎變成更多狗屎
 隨著噩夢越來越黑暗
 任何還有理智的人都會逃回未來",shape=box,color=blue];
-		2404 -> 2405;
-	2405 [label="但你沒有
+		j3302392457 -> j3982900113;
+	j3982900113 [label="但你沒有
 你因為某些愚蠢的原因留下來
 你留在我們身邊，你戰鬥，你幫助我們重新組合",shape=box,color=blue];
-		2405 -> 2406;
-	2406 [label="（西語）啊，月尊啊，救救我吧
+		j3982900113 -> j2049381731;
+	j2049381731 [label="（西語）啊，月尊啊，救救我吧
 我仍然不知道為什麼
 你沒有理由為陌生人留下來",shape=box,color=blue];
-		2406 -> 2407;
-	2407 [label="Check boolean LettieReligion2",color=orange];
-		2407 -> 2408 [label=true,color=green];
-		2407 -> 2409 [label=false,color=brown];
-	2408 [label="我見過你的希佩托特克的臉，我本來會跑到最遠的角落，祈禱它不會接下來就戴上我的面具",shape=box,color=blue];
-		2408 -> 2409;
-	2409 [label="Check boolean LettieCavia",color=orange];
-		2409 -> 2410 [label=true,color=green];
-		2409 -> 2411 [label=false,color=brown];
-	2410 [label="我會稱參研者為我的家人，並留在他們身邊
+		j2049381731 -> j1387050652;
+	j1387050652 [label="Check boolean LettieReligion2",color=orange];
+		j1387050652 -> j2162119212 [label=true,color=green];
+		j1387050652 -> j1551587699 [label=false,color=brown];
+	j2162119212 [label="我見過你的希佩托特克的臉，我本來會跑到最遠的角落，祈禱它不會接下來就戴上我的面具",shape=box,color=blue];
+		j2162119212 -> j1551587699;
+	j1551587699 [label="Check boolean LettieCavia",color=orange];
+		j1551587699 -> j2776989212 [label=true,color=green];
+		j1551587699 -> j466073509 [label=false,color=brown];
+	j2776989212 [label="我會稱參研者為我的家人，並留在他們身邊
 他們看起來沒太過破碎，也更值得被愛",shape=box,color=blue];
-		2410 -> 2411;
-	2411 [label="Check boolean LettieDating",color=orange];
-		2411 -> 2412 [label=true,color=green];
-		2411 -> 2415 [label=false,color=brown];
-	2412 [label="Check boolean LettieReal",color=orange];
-		2412 -> 2413 [label=true,color=green];
-		2412 -> 2414 [label=false,color=brown];
-	2415 [label="但你確實留下了
+		j2776989212 -> j466073509;
+	j466073509 [label="Check boolean LettieDating",color=orange];
+		j466073509 -> j4125224585 [label=true,color=green];
+		j466073509 -> j706271508 [label=false,color=brown];
+	j4125224585 [label="Check boolean LettieReal",color=orange];
+		j4125224585 -> j3845239739 [label=true,color=green];
+		j4125224585 -> j1190497121 [label=false,color=brown];
+	j706271508 [label="但你確實留下了
 而且對我來說，我找到了從未想過的摯友
 我不知道沒有你的話我還能怎樣活下去",shape=box,color=blue];
-		2415 -> 2416;
-	2413 [label="但你確實留下了
+		j706271508 -> j4107420861;
+	j3845239739 [label="但你確實留下了
 而且對我來說……遠不止如此……
 這就是我想說的，親愛的",shape=box,color=blue];
-		2413 -> 2416;
-	2414 [label="但你確實留下了
+		j3845239739 -> j4107420861;
+	j1190497121 [label="但你確實留下了
 還有厚顏無恥地說坦白了對我有感情，哈哈哈",shape=box,color=blue];
-		2414 -> 2416;
-	2416 [label="有你在我們的身邊……我們不再只是鬼魂
+		j1190497121 -> j4107420861;
+	j4107420861 [label="有你在我們的身邊……我們不再只是鬼魂
 沒有你，我們將迷失和漂泊
 我們會一遍又一遍地在死亡中夢遊，毫無意義漫無目的
 在冥界的邊緣中",shape=box,color=blue];
-		2416 -> 2417;
-	2417 [label="Check boolean LettieNewFamily",color=orange];
-		2417 -> 2419 [label=true,color=green];
-		2417 -> 2418 [label=false,color=brown];
-	2419 [label="但你讓我們成為了一個新的家庭
+		j4107420861 -> j1595476292;
+	j1595476292 [label="Check boolean LettieNewFamily",color=orange];
+		j1595476292 -> j2372403893 [label=true,color=green];
+		j1595476292 -> j3009833502 [label=false,color=brown];
+	j2372403893 [label="但你讓我們成為了一個新的家庭
 甚至包括那個女巫和我，哈哈哈
 而我愛他們勝過言語所能表達的
 這一切都要感謝你",shape=box,color=blue];
-		2419 -> 2422;
-	2418 [label="Check boolean LettieKindness",color=orange];
-		2418 -> 2420 [label=true,color=green];
-		2418 -> 2421 [label=false,color=brown];
-	2422 [label="我討厭所有這些多愁善感的廢話
+		j2372403893 -> j3109854626;
+	j3009833502 [label="Check boolean LettieKindness",color=orange];
+		j3009833502 -> j1373426598 [label=true,color=green];
+		j3009833502 -> j498189461 [label=false,color=brown];
+	j3109854626 [label="我討厭所有這些多愁善感的廢話
 它總會讓我瘋狂
 我不擅長這些
 所以我說夠了",shape=box,color=blue];
-		2422 -> 2423;
-		2422 -> 2424;
-		2422 -> 2425;
-	2420 [label="但你讓我明白了為什麼這些時刻才最重要
+		j3109854626 -> j3521054434;
+		j3109854626 -> j2752202360;
+		j3109854626 -> j748278447;
+	j1373426598 [label="但你讓我明白了為什麼這些時刻才最重要
 我們彼此展現的善意和愛
 這就是我們在這裡的原因
 這一切都要感謝你",shape=box,color=blue];
-		2420 -> 2422;
-	2421 [label="但你讓我明白了為什麼這些並不重要
+		j1373426598 -> j3109854626;
+	j498189461 [label="但你讓我明白了為什麼這些並不重要
 因為最重要的是能互相陪伴的大家，而不是我們的最終目的地
 我們分享信任、愛和善意
 這一切都要感謝你",shape=box,color=blue];
-		2421 -> 2422;
-	2423 [label="哈哈。你做得很好。",shape=box,color=red];
-		2423 -> 2426;
-	2424 [label="我不知道啊，我只能很享受這個甜甜的莉蒂。",shape=box,color=red];
-		2424 -> 2426;
-	2425 [label="嗯？我又打瞌睡了。",shape=box,color=red];
-		2425 -> 2427;
-	2426 [label="Check boolean LettieDating",color=orange];
-		2426 -> 2431 [label=true,color=green];
-		2426 -> 2434 [label=false,color=brown];
-	2427 [label="Update boolean IsDating",color=orange];
-		2427 -> 2428;
-	2431 [label="Check boolean LettieReal",color=orange];
-		2431 -> 2432 [label=true,color=green];
-		2431 -> 2433 [label=false,color=brown];
-	2434 [label="不要習慣它
+		j498189461 -> j3109854626;
+	j3521054434 [label="哈哈。你做得很好。",shape=box,color=red];
+		j3521054434 -> j407131291;
+	j2752202360 [label="我不知道啊，我只能很享受這個甜甜的莉蒂。",shape=box,color=red];
+		j2752202360 -> j407131291;
+	j748278447 [label="嗯？我又打瞌睡了。",shape=box,color=red];
+		j748278447 -> j3606744485;
+	j407131291 [label="Check boolean LettieDating",color=orange];
+		j407131291 -> j2969545787 [label=true,color=green];
+		j407131291 -> j1484386487 [label=false,color=brown];
+	j3606744485 [label="Boolean IsDating is now false.",color=orange];
+		j3606744485 -> j2226684218;
+	j2969545787 [label="Check boolean LettieReal",color=orange];
+		j2969545787 -> j4070511893 [label=true,color=green];
+		j2969545787 -> j2439307387 [label=false,color=brown];
+	j1484386487 [label="不要習慣它
 我仍會揍你一頓的
 重點是，我已經習慣了讓你跟在我的腳邊
 我喜歡有你在身邊",shape=box,color=blue];
-		2434 -> 2437;
-	2428 [label="Update boolean LettieDating",color=orange];
-		2428 -> 2429;
-	2432 [label="不要太習慣它，親愛的
+		j1484386487 -> j854263977;
+	j2226684218 [label="Boolean LettieDating is now false.",color=orange];
+		j2226684218 -> j2703113057;
+	j4070511893 [label="不要太習慣它，親愛的
 我仍會揍你一頓的
 啊，開始囉……",shape=box,color=blue];
-		2432 -> 2435;
-	2433 [label="不要習慣它，小太陽
+		j4070511893 -> j2768295928;
+	j2439307387 [label="不要習慣它，小太陽
 我仍會揍你一頓的
 重點是，我已經習慣了讓你跟在我的腳邊
 我喜歡有你在身邊",shape=box,color=blue];
-		2433 -> 2436;
-	2437 [label="你的友誼對我來說非常珍貴
+		j2439307387 -> j1841531863;
+	j854263977 [label="你的友誼對我來說非常珍貴
 我依賴著你，明明我從不依賴任何其他人
 我信任著你，明明這不是我輕易會做的事",shape=box,color=blue];
-		2437 -> 1621;
-	2429 [label="Update boolean LettieNoDate",color=orange];
-		2429 -> 2430;
-	2435 [label="（西語）我愛你，我的心肝
+		j854263977 -> j3574373008;
+	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2703113057 -> "Chat ends.";
+	j2768295928 [label="（西語）我愛你，我的心肝
 我愛你，親愛的",shape=box,color=blue];
-		2435 -> 1284;
-		2435 -> 1285;
-	2436 [label="（西語）我很在乎你
+		j2768295928 -> j3518338014;
+		j2768295928 -> j753803102;
+	j1841531863 [label="（西語）我很在乎你
 我非常關心你
 我依賴著你，明明我從不依賴任何其他人
 我信任著你，明明這不是我輕易會做的事",shape=box,color=blue];
-		2436 -> 2438;
-	1621 [label="為我們乾杯，我的朋友
+		j1841531863 -> j2422681384;
+	j3574373008 [label="為我們乾杯，我的朋友
 也為未來乾杯
 即使它裡面充滿著鬼魂、無盡的未來、神祇還是惡魔
 我們擁有彼此
 這已經足夠好了",shape=box,color=blue];
-		1621 -> 1283;
-	2430 [label="Chat ends.",color=orange];
-	1284 [label="我的感覺不是那麼強烈，對不起……",shape=box,color=red];
-		1284 -> 1286;
-	1285 [label="我──我也愛你，莉蒂。我從未想過……我只是太高興了。",shape=box,color=red];
-		1285 -> 1287;
-	2438 [label="為我們乾杯，小太陽
+		j3574373008 -> "Chat ends.";
+	j3518338014 [label="我的感覺不是那麼強烈，對不起……",shape=box,color=red];
+		j3518338014 -> j2240140622;
+	j753803102 [label="我──我也愛你，莉蒂。我從未想過……我只是太高興了。",shape=box,color=red];
+		j753803102 -> j3239098143;
+	j2422681384 [label="為我們乾杯，小太陽
 也為未來乾杯
 即使它裡面充滿著鬼魂、無盡的未來、神祇還是惡魔
 我們擁有彼此
 這已經足夠好了",shape=box,color=blue];
-		2438 -> 1622;
-	1283 [label="Chat ends.",color=orange];
-	1286 [label="哎
+		j2422681384 -> "Chat ends.";
+	j2240140622 [label="哎
 是　 
 好的",shape=box,color=blue];
-		1286 -> 1288;
-	1287 [label="哈哈哈，是的
+		j2240140622 -> j1949673396;
+	j3239098143 [label="哈哈哈，是的
 我知道我很難讀懂
 啊，我也太高興了
 我們今晚一起慶祝，好嗎？",shape=box,color=blue];
-		1287 -> 1289;
-	1622 [label="Chat ends.",color=orange];
-	1288 [label="這……就是為什麼我不相信人，哈哈哈",shape=box,color=blue];
-		1288 -> 1295;
-	1289 [label="我不希望你問。
+		j3239098143 -> j3599202182;
+	j1949673396 [label="這……就是為什麼我不相信人，哈哈哈",shape=box,color=blue];
+		j1949673396 -> j2627041280;
+	j3599202182 [label="我不希望你問。
 我不希望你客家
 我希望你告訴我你想要什麼，（西語）你明白了嗎？",shape=box,color=blue];
-		1289 -> 1290;
-		1289 -> 1291;
-	1295 [label="沒關係，這些會總是會發生的
+		j3599202182 -> j3731254977;
+		j3599202182 -> j1711189447;
+	j2627041280 [label="沒關係，這些會總是會發生的
 愚蠢的我又犯錯了
 對我來說，這樣下去還不如不要繼續了
 你明白的",shape=box,color=blue];
-		1295 -> 1296;
-	1290 [label="好的，女士。",shape=box,color=red];
-		1290 -> 1292;
-	1291 [label="<RETRO_EMOJI_SNEAKY>",shape=box,color=red];
-		1291 -> 1292;
-	1296 [label="Update boolean IsDating",color=orange];
-		1296 -> 1299;
-	1292 [label="這就是那種精神
+		j2627041280 -> j3606744485;
+	j3731254977 [label="好的，女士。",shape=box,color=red];
+		j3731254977 -> j309393592;
+	j1711189447 [label="<RETRO_EMOJI_SNEAKY>",shape=box,color=red];
+		j1711189447 -> j309393592;
+	j309393592 [label="這就是那種精神
 為我們乾杯，親愛的
 也為未來乾杯
 即使它裡面充滿著鬼魂、無盡的未來、神祇還是惡魔
 我們擁有彼此的愛
 這就足夠了",shape=box,color=blue];
-		1292 -> 1293;
-	1299 [label="Update boolean LettieDating",color=orange];
-		1299 -> 1301;
-	1293 [label="Chat ends.",color=orange];
-	1301 [label="Update boolean LettieNoDate",color=orange];
-		1301 -> 1302;
-	1302 [label="Chat ends.",color=orange];
+		j309393592 -> "Chat ends.";
 }

@@ -1,15 +1,15 @@
 digraph {
-	3947 [label="QuincyRank6Convo11 begins.",color=orange];
-		3947 -> 3948;
-	3948 [label="충고 하나 해두마",shape=box,color=blue];
-		3948 -> 3949;
-	3949 [label="만약 리버타시안이 너에게 와서 '걱정하지 말고 이거 먹어' 라고 말하면",shape=box,color=blue];
-		3949 -> 3950;
-	3950 [label="걱정부터 해라",shape=box,color=blue];
-		3950 -> 3951;
-	3951 [label="특히나 그게 튀긴 거라면",shape=box,color=blue];
-		3951 -> 3952;
-	3952 [label="그리고 특히나 그게 여전히 다리가 보인다면...",shape=box,color=blue];
-		3952 -> 3953;
-	3953 [label="Chat ends.",color=orange];
+	"QuincyRank6Convo11 begins." [color=orange];
+		"QuincyRank6Convo11 begins." -> j825669408;
+	j825669408 [label="충고 하나 해두마",shape=box,color=blue];
+		j825669408 -> j2074124191;
+	j2074124191 [label="만약 리버타시안이 너에게 와서 '걱정하지 말고 이거 먹어' 라고 말하면",shape=box,color=blue];
+		j2074124191 -> j1570616643;
+	j1570616643 [label="걱정부터 해라",shape=box,color=blue];
+		j1570616643 -> j262738257;
+	j262738257 [label="특히나 그게 튀긴 거라면",shape=box,color=blue];
+		j262738257 -> j4107567094;
+	j4107567094 [label="그리고 특히나 그게 여전히 다리가 보인다면...",shape=box,color=blue];
+		j4107567094 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

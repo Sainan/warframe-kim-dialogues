@@ -1,204 +1,196 @@
 digraph {
-	352 [label="LettieRank2Convo3 begins.",color=orange];
-		352 -> 353;
-	353 [label="Check boolean LettieOrokin1",color=orange];
-		353 -> 354 [label=true,color=green];
-		353 -> 355 [label=false,color=brown];
-	354 [label="那些 Orokin，源拓氏也是其中之一
+	"LettieRank2Convo3 begins." [color=orange];
+		"LettieRank2Convo3 begins." -> j1666291197;
+	j1666291197 [label="Check boolean LettieOrokin1",color=orange];
+		j1666291197 -> j3368853205 [label=true,color=green];
+		j1666291197 -> j262456593 [label=false,color=brown];
+	j3368853205 [label="那些 Orokin，源拓氏也是其中之一
 對吧？
 他自以為是某種神，然後毀了別人的生活，這就說得通了",shape=box,color=blue];
-		354 -> 356;
-		354 -> 357;
-	355 [label="我想知道源拓氏到底憑什麼
+		j3368853205 -> j2402895338;
+		j3368853205 -> j74214805;
+	j262456593 [label="我想知道源拓氏到底憑什麼
 有資格來這裡毀掉別人的生活
 這個該死的家夥以為自己是誰？！",shape=box,color=blue];
-		355 -> 360;
-		355 -> 361;
-		355 -> 362;
-	356 [label="某種？算一半吧。在他進行虛空實驗之後，人們開始崇拜他。但他對之前受到的待遇感到怨恨，所以……這很難解釋。",shape=box,color=red];
-		356 -> 359;
-		356 -> 360;
-	357 [label="我得走了，抱歉。[結束]",shape=box,color=red];
-		357 -> 358;
-	360 [label="但他自認為自己所做的一切都是為了更大的善。",shape=box,color=red];
-		360 -> 367;
-	361 [label="他習慣了與 Orokin 攀交情。他曾經自認為神。",shape=box,color=red];
-		361 -> 364;
-	362 [label="我得走了，抱歉。[結束]",shape=box,color=red];
-		362 -> 363;
-	359 [label="我想這就是他的本性。你應該去見見參研者。",shape=box,color=red];
-		359 -> 366;
-	358 [label="Chat ends.",color=orange];
-	367 [label="Update boolean LettieEntrati",color=orange];
-		367 -> 369;
-	364 [label="Orokin？",shape=box,color=blue];
-		364 -> 365;
-	363 [label="Chat ends.",color=orange];
-	366 [label="Update boolean LettieCavia",color=orange];
-		366 -> 368;
-	369 [label="更大的善，屁話",shape=box,color=blue];
-		369 -> 371;
-		369 -> 372;
-	365 [label="Update boolean LettieOrokin1",color=orange];
-		365 -> 373;
-		365 -> 374;
-	368 [label="參研者是誰",shape=box,color=blue];
-		368 -> 370;
-	371 [label="我不知道，但你的屁股確實很不錯。 ; )",shape=box,color=red];
-		371 -> 375;
-	372 [label="公道來說，阻止牆中人確實是個很重要的問題。",shape=box,color=red];
-		372 -> 377;
-	373 [label="我所來自的未來的統治階級。他們讓人們把他們當成神明崇拜。",shape=box,color=red];
-		373 -> 378;
-	374 [label="他們是一群自以為高高在上的混蛋。說夠了。",shape=box,color=red];
-		374 -> 378;
-	370 [label="我的朋友們。被源拓氏送進虛空作實驗的動物。",shape=box,color=red];
-		370 -> 376;
-	375 [label="+5 Chemistry",color=orange];
-		375 -> 380;
-	377 [label="這並不意味著他做的就是正確的事
+		j262456593 -> j1100295484;
+		j262456593 -> j493363117;
+		j262456593 -> j74214805;
+	j2402895338 [label="某種？算一半吧。在他進行虛空實驗之後，人們開始崇拜他。但他對之前受到的待遇感到怨恨，所以……這很難解釋。",shape=box,color=red];
+		j2402895338 -> j3014746830;
+		j2402895338 -> j1100295484;
+	j74214805 [label="我得走了，抱歉。[結束]",shape=box,color=red];
+		j74214805 -> "Chat ends.";
+	j1100295484 [label="但他自認為自己所做的一切都是為了更大的善。",shape=box,color=red];
+		j1100295484 -> j3404429951;
+	j493363117 [label="他習慣了與 Orokin 攀交情。他曾經自認為神。",shape=box,color=red];
+		j493363117 -> j246576352;
+	j3014746830 [label="我想這就是他的本性。你應該去見見參研者。",shape=box,color=red];
+		j3014746830 -> j2952647928;
+	"Chat ends." [color=orange];
+	j3404429951 [label="Boolean LettieEntrati is now true.",color=orange];
+		j3404429951 -> j2848732826;
+	j246576352 [label="Orokin？",shape=box,color=blue];
+		j246576352 -> j4157639181;
+	j2952647928 [label="Boolean LettieCavia is now true.",color=orange];
+		j2952647928 -> j627346809;
+	j2848732826 [label="更大的善，屁話",shape=box,color=blue];
+		j2848732826 -> j1795333028;
+		j2848732826 -> j1510957000;
+	j4157639181 [label="Boolean LettieOrokin1 is now true.",color=orange];
+		j4157639181 -> j121176327;
+		j4157639181 -> j520435050;
+	j627346809 [label="參研者是誰",shape=box,color=blue];
+		j627346809 -> j3845129689;
+	j1795333028 [label="我不知道，但你的屁股確實很不錯。 ; )",shape=box,color=red];
+		j1795333028 -> j3449689650;
+	j1510957000 [label="公道來說，阻止牆中人確實是個很重要的問題。",shape=box,color=red];
+		j1510957000 -> j2380054242;
+	j121176327 [label="我所來自的未來的統治階級。他們讓人們把他們當成神明崇拜。",shape=box,color=red];
+		j121176327 -> j4161695311;
+	j520435050 [label="他們是一群自以為高高在上的混蛋。說夠了。",shape=box,color=red];
+		j520435050 -> j4161695311;
+	j3845129689 [label="我的朋友們。被源拓氏送進虛空作實驗的動物。",shape=box,color=red];
+		j3845129689 -> j3263151241;
+	j3449689650 [label="+5 Chemistry",color=orange];
+		j3449689650 -> j1173351637;
+	j2380054242 [label="這並不意味著他做的就是正確的事
 像他這種混蛋全部都一個樣
 盲目地只看著自己的問題 
  其他人都不過是附帶傷害",shape=box,color=blue];
-		377 -> 385;
-	378 [label="這不是男人第一次打扮成國王
+		j2380054242 -> j393766675;
+	j4161695311 [label="這不是男人第一次打扮成國王
 自以為是神明",shape=box,color=blue];
-		378 -> 382;
-	376 [label="我還需要更多理由去討厭他嗎……
+		j4161695311 -> j4210188636;
+	j3263151241 [label="我還需要更多理由去討厭他嗎……
 實驗動物？！",shape=box,color=blue];
-		376 -> 379;
-	380 [label="哈哈 
+		j3263151241 -> j2419510370;
+	j1173351637 [label="哈哈 
 你知道的",shape=box,color=blue];
-		380 -> 381;
-	385 [label="他不在乎會傷害誰或傷害有多嚴重
+		j1173351637 -> j3309953676;
+	j393766675 [label="他不在乎會傷害誰或傷害有多嚴重
 他眼中其他人也只是他在完成使命時的附帶損失罷了",shape=box,color=blue];
-		385 -> 390;
-	382 [label="這就解釋得通源拓氏了
+		j393766675 -> j2736029494;
+	j4210188636 [label="這就解釋得通源拓氏了
 他認為自己是神，並且如神一樣行事
 像他這種混蛋全部都一個樣
 盲目地只看著自己的問題而其他人都不過是附帶傷害",shape=box,color=blue];
-		382 -> 385;
-	379 [label="他們被送入虛空，回來後就擁有了智慧。",shape=box,color=red];
-		379 -> 383;
-	381 [label="但像他這種混蛋全部都一個樣
+		j4210188636 -> j393766675;
+	j2419510370 [label="他們被送入虛空，回來後就擁有了智慧。",shape=box,color=red];
+		j2419510370 -> j962014351;
+	j3309953676 [label="但像他這種混蛋全部都一個樣
 一旦下了決心要解決某個問題，其他人就成了附帶傷害
 他們不在乎會傷害誰或傷害有多嚴重
 如果能夠達到目的，毀滅整個宇宙他也樂意",shape=box,color=blue];
-		381 -> 390;
-	390 [label="像他這樣的人讓像我們這樣的人被殺",shape=box,color=blue];
-		390 -> 394;
-	383 [label="虛空能做……這種奇怪的事。",shape=box,color=red];
-		383 -> 384;
-	394 [label="你永遠不會看到他為了自己的信念而犧牲自己
+		j3309953676 -> j2736029494;
+	j2736029494 [label="像他這樣的人讓像我們這樣的人被殺",shape=box,color=blue];
+		j2736029494 -> j1396283690;
+	j962014351 [label="虛空能做……這種奇怪的事。",shape=box,color=red];
+		j962014351 -> j3840674423;
+	j1396283690 [label="你永遠不會看到他為了自己的信念而犧牲自己
 他永遠不會犧牲自己的性命
 他只會犧牲身邊的人",shape=box,color=blue];
-		394 -> 396;
-	384 [label="讓我猜，他就這樣拋棄了牠們
+		j1396283690 -> j1604569453;
+	j3840674423 [label="讓我猜，他就這樣拋棄了牠們
 看著自己做到的事，然後走開，因為他不再需要牠們了",shape=box,color=blue];
-		384 -> 386;
-		384 -> 387;
-	396 [label="讓人不禁思考究竟最後誰才是怪物",shape=box,color=blue];
-		396 -> 397;
-		396 -> 398;
-	386 [label="沒錯，你猜對了。現在牠們……是一群擁有智慧卻滿身創傷的動物。",shape=box,color=red];
-		386 -> 388;
-	387 [label="他只是試圖去阻止牆中人。這很重要。",shape=box,color=red];
-		387 -> 389;
-	397 [label="我理解他為什麼會不擇手段地想要阻止牆中人。",shape=box,color=red];
-		397 -> 402;
-	398 [label="為了阻止牆中人，我們需要他。但這並不意味著我信任他或喜歡他。",shape=box,color=red];
-		398 -> 401;
-	388 [label="（西語）噢，可憐的天使們
+		j3840674423 -> j1394117009;
+		j3840674423 -> j1657536191;
+	j1604569453 [label="讓人不禁思考究竟最後誰才是怪物",shape=box,color=blue];
+		j1604569453 -> j147379099;
+		j1604569453 -> j1320872100;
+	j1394117009 [label="沒錯，你猜對了。現在牠們……是一群擁有智慧卻滿身創傷的動物。",shape=box,color=red];
+		j1394117009 -> j3974187546;
+	j1657536191 [label="他只是試圖去阻止牆中人。這很重要。",shape=box,color=red];
+		j1657536191 -> j3944394250;
+	j147379099 [label="我理解他為什麼會不擇手段地想要阻止牆中人。",shape=box,color=red];
+		j147379099 -> j1250951193;
+	j1320872100 [label="為了阻止牆中人，我們需要他。但這並不意味著我信任他或喜歡他。",shape=box,color=red];
+		j1320872100 -> j2481949944;
+	j3974187546 [label="（西語）噢，可憐的天使們
 我會愛牠們的，你說得對……
 我們不配擁有動物 
 牠們對我們的愛是純粹的，只求我們能以愛作為回報",shape=box,color=blue];
-		388 -> 391;
-		388 -> 392;
-	389 [label="並不是說這不對 
+		j3974187546 -> j1750310354;
+		j3974187546 -> j1365362356;
+	j3944394250 [label="並不是說這不對 
 但像他這種混蛋總是以追求更終極的善的名義去做最糟糕的事
 他們不在乎會傷害誰或傷害有多嚴重，只要能贏得勝利以及達成目的",shape=box,color=blue];
-		389 -> 390;
-	402 [label="不要假裝能理解神明
+		j3944394250 -> j2736029494;
+	j1250951193 [label="不要假裝能理解神明
 祂超越我們，不這樣認為的話就太愚蠢了",shape=box,color=blue];
-		402 -> 404;
-	401 [label="+10 Chemistry",color=orange];
-		401 -> 403;
-	391 [label="我盡我所能去幫助參研者。說實話，與人相比我更喜歡牠們。哈哈。",shape=box,color=red];
-		391 -> 399;
-	392 [label="也許有天我可以帶你去見見牠們。",shape=box,color=red];
-		392 -> 393;
-	404 [label="Check boolean LettieReligion2",color=orange];
-		404 -> 409 [label=true,color=green];
-		404 -> 410 [label=false,color=brown];
-	403 [label="很好
+		j1250951193 -> j3201214572;
+	j2481949944 [label="+10 Chemistry",color=orange];
+		j2481949944 -> j3531584484;
+	j1750310354 [label="我盡我所能去幫助參研者。說實話，與人相比我更喜歡牠們。哈哈。",shape=box,color=red];
+		j1750310354 -> j497117784;
+	j1365362356 [label="也許有天我可以帶你去見見牠們。",shape=box,color=red];
+		j1365362356 -> j1617342493;
+	j3201214572 [label="Check boolean LettieReligion2",color=orange];
+		j3201214572 -> j4194149808 [label=true,color=green];
+		j3201214572 -> j1053998454 [label=false,color=brown];
+	j3531584484 [label="很好
 別對那個混蛋掉以輕心
 但也要小心，不要假裝了解神明的本質",shape=box,color=blue];
-		403 -> 404;
-	399 [label="Update boolean LettieRats1",color=orange];
-		399 -> 395;
-	393 [label="我會樂意這樣做
+		j3531584484 -> j3201214572;
+	j497117784 [label="Boolean LettieRats1 is now true.",color=orange];
+		j497117784 -> j960456370;
+	j1617342493 [label="我會樂意這樣做
 （西語）謝謝你",shape=box,color=blue];
-		393 -> 399;
-	409 [label="希佩托特克會感到很驕傲
+		j1617342493 -> j497117784;
+	j4194149808 [label="希佩托特克會感到很驕傲
 但像剝皮者一樣，小心你這位古老的神明不會在下次就把你的臉戴上",shape=box,color=blue];
-		409 -> 419;
-	410 [label="他所追逐的這個東西
+		j4194149808 -> j385423634;
+	j1053998454 [label="他所追逐的這個東西
 就像血腥的古代舊神會穿戴人類的皮膚",shape=box,color=blue];
-		410 -> 411;
-	395 [label="+10 Chemistry",color=orange];
-		395 -> 400;
-	419 [label="我可能有一點點傷心",shape=box,color=blue];
-		419 -> 420;
-		419 -> 421;
-	411 [label="剝皮者希佩托特克會穿上敵人的皮膚
+		j1053998454 -> j365868399;
+	j960456370 [label="+10 Chemistry",color=orange];
+		j960456370 -> j2833986953;
+	j385423634 [label="我可能有一點點傷心",shape=box,color=blue];
+		j385423634 -> j1046232732;
+		j385423634 -> j2405497275;
+	j365868399 [label="剝皮者希佩托特克會穿上敵人的皮膚
 你的牆中人也是如此",shape=box,color=blue];
-		411 -> 414;
-	400 [label="這就是我養寵物的原因
+		j365868399 -> j1940862126;
+	j2833986953 [label="這就是我養寵物的原因
 我的老鼠在我孤獨的時候會陪伴我
 當我無法忍受人類時，牠們就在我身邊
 可愛的小靈魂，只想要愛",shape=box,color=blue];
-		400 -> 405;
-	420 [label="哎呀，謝謝你。",shape=box,color=red];
-		420 -> 422;
-	421 [label="我也愛你，莉蒂。",shape=box,color=red];
-		421 -> 423;
-	414 [label="所以小心你要做的事
+		j2833986953 -> j2919582088;
+	j1046232732 [label="哎呀，謝謝你。",shape=box,color=red];
+		j1046232732 -> j1335730371;
+	j2405497275 [label="我也愛你，莉蒂。",shape=box,color=red];
+		j2405497275 -> j10454160;
+	j1940862126 [label="所以小心你要做的事
 不然它下次就可能會把你的臉戴上
 對吧，呆呆？",shape=box,color=blue];
-		414 -> 419;
-	405 [label="當然還有切達起司冠，哈哈
+		j1940862126 -> j385423634;
+	j2919582088 [label="當然還有切達起司冠，哈哈
 但最重要的還是愛",shape=box,color=blue];
-		405 -> 406;
-	422 [label="我該回去工作了
+		j2919582088 -> j601365339;
+	j1335730371 [label="我該回去工作了
 （西語）再見，呆呆",shape=box,color=blue];
-		422 -> 424;
-	423 [label="啾～
+		j1335730371 -> "Chat ends.";
+	j10454160 [label="啾～
 我該回去工作了
 （西語）再見，呆呆！",shape=box,color=blue];
-		423 -> 425;
-	406 [label="但如果我再見到源拓氏 
+		j10454160 -> "Chat ends.";
+	j601365339 [label="但如果我再見到源拓氏 
 我一定會讓他受苦
 我要讓他為那些動物所遭受的每一絲痛苦付出代價 
 而且我會確保他知道為什麼",shape=box,color=blue];
-		406 -> 407;
-		406 -> 408;
-	424 [label="Chat ends.",color=orange];
-	425 [label="Chat ends.",color=orange];
-	407 [label="我會在那裡幫你一起做。",shape=box,color=red];
-		407 -> 412;
-	408 [label="一旦牆中人被搞定，他就是你的了。",shape=box,color=red];
-		408 -> 761;
-	412 [label="+10 Chemistry",color=orange];
-		412 -> 2439;
-	761 [label="傳識終於能派上用場了，嗯",shape=box,color=blue];
-		761 -> 413;
-	2439 [label="傳識終於能派上用場了，嗯",shape=box,color=blue];
-		2439 -> 413;
-	413 [label="或者你可以把他按住 
+		j601365339 -> j2181307773;
+		j601365339 -> j1772795718;
+	j2181307773 [label="我會在那裡幫你一起做。",shape=box,color=red];
+		j2181307773 -> j2670776124;
+	j1772795718 [label="一旦牆中人被搞定，他就是你的了。",shape=box,color=red];
+		j1772795718 -> j3671970764;
+	j2670776124 [label="+10 Chemistry",color=orange];
+		j2670776124 -> j3671970764;
+	j3671970764 [label="傳識終於能派上用場了，嗯",shape=box,color=blue];
+		j3671970764 -> j2360752488;
+	j2360752488 [label="或者你可以把他按住 
 呵呵，我竟然會在這裡為永遠不可能發生的事感到興奮",shape=box,color=blue];
-		413 -> 416;
-	416 [label="我該回去工作了
+		j2360752488 -> j2627547934;
+	j2627547934 [label="我該回去工作了
 （西語）再見",shape=box,color=blue];
-		416 -> 418;
-	418 [label="Chat ends.",color=orange];
+		j2627547934 -> "Chat ends.";
 }

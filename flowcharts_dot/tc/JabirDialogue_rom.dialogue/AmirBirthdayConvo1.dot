@@ -1,21 +1,16 @@
 digraph {
-	3564 [label="AmirBirthdayConvo1 begins.",color=orange];
-		3564 -> 3565;
-		3564 -> 3566;
-	3565 [label="阿米爾！你成功繞完太陽又一圈了！恭喜！",shape=box,color=red];
-		3565 -> 3567;
-	3566 [label="今天是你生日，阿米爾！也許是再成長一點的好時機？",shape=box,color=red];
-		3566 -> 3568;
-	3567 [label="+20 Chemistry",color=orange];
-		3567 -> 3569;
-	3568 [label="唉！我簡直不敢相信你居然把這種對話留在我內心小孩可以看到的地方！難道沒有人關心小孩了嗎？",shape=box,color=blue];
-		3568 -> 3595;
-	3569 [label="哦，哪有！謝謝，但這沒什麼！這個星球付出了最大努力，我只是順路而行",shape=box,color=blue];
-		3569 -> 3594;
-	3595 [label="{\"Id\":3595,\"Incoming\":[3568],\"Outgoing\":[3571],\"GraphPos\":[-14760,-21632],\"CompletionType\":1}",color=orange];
-		3595 -> 3571;
-	3594 [label="{\"Id\":3594,\"Incoming\":[3569],\"Outgoing\":[3570],\"GraphPos\":[-14377,-21757],\"CompletionType\":1}",color=orange];
-		3594 -> 3570;
-	3571 [label="Chat ends.",color=orange];
-	3570 [label="Chat ends.",color=orange];
+	"AmirBirthdayConvo1 begins." [color=orange];
+		"AmirBirthdayConvo1 begins." -> j109971785;
+		"AmirBirthdayConvo1 begins." -> j514062569;
+	j109971785 [label="阿米爾！你成功繞完太陽又一圈了！恭喜！",shape=box,color=red];
+		j109971785 -> j2609377385;
+	j514062569 [label="今天是你生日，阿米爾！也許是再成長一點的好時機？",shape=box,color=red];
+		j514062569 -> j1863678835;
+	j2609377385 [label="+20 Chemistry",color=orange];
+		j2609377385 -> j902127932;
+	j1863678835 [label="唉！我簡直不敢相信你居然把這種對話留在我內心小孩可以看到的地方！難道沒有人關心小孩了嗎？",shape=box,color=blue];
+		j1863678835 -> "Chat ends.";
+	j902127932 [label="哦，哪有！謝謝，但這沒什麼！這個星球付出了最大努力，我只是順路而行",shape=box,color=blue];
+		j902127932 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

@@ -1,128 +1,128 @@
 digraph {
-	1303 [label="LettieRank4Convo7 begins.",color=orange];
-		1303 -> 1304;
-		1303 -> 1308;
-	1304 [label="那你是為什麼會捲進去亞瑟／六煞幫的事裡面的？",shape=box,color=red];
-		1304 -> 1306;
-	1308 [label="你似乎真的……真的非常討厭源拓氏。為什麼？",shape=box,color=red];
-		1308 -> 1309;
-	1306 [label="Check boolean LettieArthur1",color=orange];
-		1306 -> 1305 [label=true,color=green];
-		1306 -> 1307 [label=false,color=brown];
-	1309 [label="Check boolean LettieCavia",color=orange];
-		1309 -> 1310 [label=true,color=green];
-		1309 -> 1311 [label=false,color=brown];
-	1305 [label="嗯
+	"LettieRank4Convo7 begins." [color=orange];
+		"LettieRank4Convo7 begins." -> j4019961378;
+		"LettieRank4Convo7 begins." -> j314625381;
+	j4019961378 [label="那你是為什麼會捲進去亞瑟／六煞幫的事裡面的？",shape=box,color=red];
+		j4019961378 -> j4293324513;
+	j314625381 [label="你似乎真的……真的非常討厭源拓氏。為什麼？",shape=box,color=red];
+		j314625381 -> j2824785799;
+	j4293324513 [label="Check boolean LettieArthur1",color=orange];
+		j4293324513 -> j1260014201 [label=true,color=green];
+		j4293324513 -> j321986660 [label=false,color=brown];
+	j2824785799 [label="Check boolean LettieCavia",color=orange];
+		j2824785799 -> j552733088 [label=true,color=green];
+		j2824785799 -> j3470538414 [label=false,color=brown];
+	j1260014201 [label="嗯
 這不是個有趣的故事，朋友
 比起亞瑟和我成為兄弟的那場血腥戰鬥還要更糟糕
 聽起來都不好受
 該死，說起來也不輕鬆",shape=box,color=blue];
-		1305 -> 1326;
-		1305 -> 1327;
-	1307 [label="（西語）我們是兄弟，亞瑟和我
+		j1260014201 -> j3187414299;
+		j1260014201 -> j4175495139;
+	j321986660 [label="（西語）我們是兄弟，亞瑟和我
 我們認識很久了
 我答應過他，無論去哪裡我都會跟著他
 看來他是想讓我跟著他走到冥界的邊緣",shape=box,color=blue];
-		1307 -> 1332;
-	1310 [label="Check boolean LettieLoid",color=orange];
-		1310 -> 1312 [label=true,color=green];
-		1310 -> 1313 [label=false,color=brown];
-	1311 [label="Check boolean LettieLoid",color=orange];
-		1311 -> 1314 [label=true,color=green];
-		1311 -> 1315 [label=false,color=brown];
-	1326 [label="如果告訴我你會感到不舒服，那也沒關係。",shape=box,color=red];
-		1326 -> 1328;
-	1327 [label="沒問題。有很多事我還沒告訴你。",shape=box,color=red];
-		1327 -> 1331;
-	1332 [label="我們曾經在同一個基地駐扎
+		j321986660 -> j1048091745;
+	j552733088 [label="Check boolean LettieLoid",color=orange];
+		j552733088 -> j1096171844 [label=true,color=green];
+		j552733088 -> j4040708208 [label=false,color=brown];
+	j3470538414 [label="Check boolean LettieLoid",color=orange];
+		j3470538414 -> j416292857 [label=true,color=green];
+		j3470538414 -> j504966913 [label=false,color=brown];
+	j3187414299 [label="如果告訴我你會感到不舒服，那也沒關係。",shape=box,color=red];
+		j3187414299 -> j2765558306;
+	j4175495139 [label="沒問題。有很多事我還沒告訴你。",shape=box,color=red];
+		j4175495139 -> j1821312505;
+	j1048091745 [label="我們曾經在同一個基地駐扎
 他在不列坦，我在自由國軍隊
 不同的國家，同樣的敵人",shape=box,color=blue];
-		1332 -> 1333;
-	1312 [label="Check boolean LettieEntratiFamily",color=orange];
-		1312 -> 1316 [label=true,color=green];
-		1312 -> 1317 [label=false,color=brown];
-	1313 [label="Check boolean LettieEntratiFamily",color=orange];
-		1313 -> 1318 [label=true,color=green];
-		1313 -> 1319 [label=false,color=brown];
-	1314 [label="Check boolean LettieEntratiFamily",color=orange];
-		1314 -> 1321 [label=true,color=green];
-		1314 -> 1322 [label=false,color=brown];
-	1315 [label="Check boolean LettieEntratiFamily",color=orange];
-		1315 -> 1323 [label=true,color=green];
-		1315 -> 1324 [label=false,color=brown];
-	1328 [label="Update boolean LettieHexAsked",color=orange];
-		1328 -> 1329;
-	1331 [label="+10 Chemistry",color=orange];
-		1331 -> 1330;
-	1333 [label="我是我團隊的野戰醫護 
+		j1048091745 -> j1314988655;
+	j1096171844 [label="Check boolean LettieEntratiFamily",color=orange];
+		j1096171844 -> j1215194595 [label=true,color=green];
+		j1096171844 -> j4208410571 [label=false,color=brown];
+	j4040708208 [label="Check boolean LettieEntratiFamily",color=orange];
+		j4040708208 -> j1073200814 [label=true,color=green];
+		j4040708208 -> j1899564967 [label=false,color=brown];
+	j416292857 [label="Check boolean LettieEntratiFamily",color=orange];
+		j416292857 -> j474413322 [label=true,color=green];
+		j416292857 -> j3853567 [label=false,color=brown];
+	j504966913 [label="Check boolean LettieEntratiFamily",color=orange];
+		j504966913 -> j3581527789 [label=true,color=green];
+		j504966913 -> j494384278 [label=false,color=brown];
+	j2765558306 [label="Boolean LettieHexAsked is now true.",color=orange];
+		j2765558306 -> j2645802923;
+	j1821312505 [label="+10 Chemistry",color=orange];
+		j1821312505 -> j3158582556;
+	j1314988655 [label="我是我團隊的野戰醫護 
 我們部署至他們附近
 那地方很快就變成了一團糟 
 真的很快",shape=box,color=blue];
-		1333 -> 1334;
-	1316 [label="是的
+		j1314988655 -> j1499189635;
+	j1215194595 [label="是的
 也許我確實如此
 但聽了你告訴我的一切
 關於他如何虐待那些可憐的動物
 拋棄自己的家人
 還有那個愛他的男人
 我怎麼能不恨那個混蛋？！",shape=box,color=blue];
-		1316 -> 1320;
-	1317 [label="是的
+		j1215194595 -> j4106797655;
+	j4208410571 [label="是的
 也許我確實如此
 但聽了你告訴我的一切
 關於他如何虐待那些可憐的動物
 還有那個愛他的男人
 我怎麼能不恨那個混蛋？！",shape=box,color=blue];
-		1317 -> 1320;
-	1318 [label="是的
+		j4208410571 -> j4106797655;
+	j1073200814 [label="是的
 也許我確實如此
 但聽了你告訴我的一切
 關於他如何虐待那些可憐的動物
 拋棄了自己的家人
 我怎麼能不恨那個混蛋？",shape=box,color=blue];
-		1318 -> 1320;
-	1319 [label="是的
+		j1073200814 -> j4106797655;
+	j1899564967 [label="是的
 也許我確實如此
 但聽了你告訴我的一切
 關於他如何虐待那些可憐的動物
 我怎麼能不恨那個混蛋？",shape=box,color=blue];
-		1319 -> 1320;
-	1321 [label="是的
+		j1899564967 -> j4106797655;
+	j474413322 [label="是的
 也許我確實如此
 但聽了你告訴我的一切
 關於他如何拋棄了自己的家人
 還有那個愛他的男人
 我怎麼能不恨那個混蛋？",shape=box,color=blue];
-		1321 -> 1325;
-	1322 [label="是的
+		j474413322 -> j507724002;
+	j3853567 [label="是的
 也許我確實如此
 但聽了你告訴我的一切
 關於他如何拋棄了那個愛他的男人
 我怎麼能不恨那個混蛋？",shape=box,color=blue];
-		1322 -> 1325;
-	1323 [label="是的
+		j3853567 -> j507724002;
+	j3581527789 [label="是的
 也許我確實如此
 但聽了你告訴我的一切
 關於他如何拋棄了自己的家人
 我怎麼能不恨那個混蛋？",shape=box,color=blue];
-		1323 -> 1325;
-	1324 [label="是的
+		j3581527789 -> j507724002;
+	j494384278 [label="是的
 也許我確實如此
 但聽了你告訴我的一切
 我怎麼能不恨那個混蛋？",shape=box,color=blue];
-		1324 -> 1325;
-	1329 [label="不是舒不舒服的問題，呆呆
+		j494384278 -> j507724002;
+	j2645802923 [label="不是舒不舒服的問題，呆呆
 你想聽我不得不結束某人的生命，或者去切掉肢體的事嗎
 那些母親在死去的孩子旁邊哭泣，我卻不得不告訴她我無法救她的時候
 我經常看到這樣的情況
 （西語）我根本不在乎",shape=box,color=blue];
-		1329 -> 1336;
-		1329 -> 1335;
-	1330 [label="是的
+		j2645802923 -> j330817863;
+		j2645802923 -> j2759067616;
+	j3158582556 [label="是的
 我們每個人都有不告訴別人的事
 直到我們很確定可以相信他們不會因此而改變對我們的看法時",shape=box,color=blue];
-		1330 -> 1340;
-	1334 [label="我的大部分隊員都沒能活下來
+		j3158582556 -> j350353099;
+	j1499189635 [label="我的大部分隊員都沒能活下來
 他的隊員也大多沒能活過來
 我們彼此支持
 字面上的支持
@@ -130,437 +130,403 @@ digraph {
 當他退役並加入危應部隊時
 我毫不猶豫地跟著他
 反正我已經厭倦了軍隊裡的一切戲劇事件",shape=box,color=blue];
-		1334 -> 1341;
-	1320 [label="Check boolean LettieTrust1",color=orange];
-		1320 -> 1342 [label=true,color=green];
-		1320 -> 1343 [label=true,color=green];
-		1320 -> 1344 [label=false,color=brown];
-		1320 -> 1345 [label=false,color=brown];
-	1325 [label="Check boolean LettieTrust1",color=orange];
-		1325 -> 1346 [label=true,color=green];
-		1325 -> 1347 [label=true,color=green];
-		1325 -> 1348 [label=true,color=green];
-		1325 -> 1347 [label=false,color=brown];
-		1325 -> 1348 [label=false,color=brown];
-	1336 [label="那麼問題是什麼？",shape=box,color=red];
-		1336 -> 1339;
-	1335 [label="好吧？抱歉？",shape=box,color=red];
-		1335 -> 1337;
-	1340 [label="Check boolean LettieNoFlirt",color=orange];
-		1340 -> 1404 [label=true,color=green];
-		1340 -> 1405 [label=true,color=green];
-		1340 -> 1404 [label=false,color=brown];
-		1340 -> 1405 [label=false,color=brown];
-		1340 -> 1406 [label=false,color=brown];
-	1341 [label="Update boolean LettieArthur1",color=orange];
-		1341 -> 1389;
-		1341 -> 1390;
-	1342 [label="你在說他時的語氣，還有因為我知道對你來說信任有多重要……這一切看起來很私人的。",shape=box,color=red];
-		1342 -> 1359;
-	1343 [label="我知道你有多討厭人們背叛別人的信任，尤其是動物的信任。",shape=box,color=red];
-		1343 -> 1360;
-	1344 [label="地獄裡絕對有針對傷害動物的人的特殊位置。但看來情況比這更加複雜。",shape=box,color=red];
-		1344 -> 1360;
-	1345 [label="是的，但這看起來像是你對他有個私人仇恨。",shape=box,color=red];
-		1345 -> 1354;
-	1346 [label="你在說他時的語氣，還有因為我知道對你來說信任有多重要……這一切看起來很私人的。",shape=box,color=red];
-		1346 -> 1359;
-	1347 [label="是的，但這看起來像是你對他有個私人仇恨。",shape=box,color=red];
-		1347 -> 1354;
-	1348 [label="對我來說夠了。",shape=box,color=red];
-		1348 -> 1350;
-	1339 [label="這可能會改變你對我們某些人的看法，呆呆
+		j1499189635 -> j225394097;
+	j4106797655 [label="Check boolean LettieTrust1",color=orange];
+		j4106797655 -> j4053693348 [label=true,color=green];
+		j4106797655 -> j450515285 [label=true,color=green];
+		j4106797655 -> j2010920475 [label=false,color=brown];
+		j4106797655 -> j3982005295 [label=false,color=brown];
+	j507724002 [label="Check boolean LettieTrust1",color=orange];
+		j507724002 -> j4053693348 [label=true,color=green];
+		j507724002 -> j3982005295 [label=true,color=green];
+		j507724002 -> j1666797589 [label=true,color=green];
+		j507724002 -> j3982005295 [label=false,color=brown];
+		j507724002 -> j1666797589 [label=false,color=brown];
+	j330817863 [label="那麼問題是什麼？",shape=box,color=red];
+		j330817863 -> j1913532903;
+	j2759067616 [label="好吧？抱歉？",shape=box,color=red];
+		j2759067616 -> j1320047453;
+	j350353099 [label="Check boolean LettieNoFlirt",color=orange];
+		j350353099 -> j226955731 [label=true,color=green];
+		j350353099 -> j39851864 [label=true,color=green];
+		j350353099 -> j226955731 [label=false,color=brown];
+		j350353099 -> j39851864 [label=false,color=brown];
+		j350353099 -> j224818171 [label=false,color=brown];
+	j225394097 [label="Boolean LettieArthur1 is now true.",color=orange];
+		j225394097 -> j3515644901;
+		j225394097 -> j1194646145;
+	j4053693348 [label="你在說他時的語氣，還有因為我知道對你來說信任有多重要……這一切看起來很私人的。",shape=box,color=red];
+		j4053693348 -> j3120696342;
+	j450515285 [label="我知道你有多討厭人們背叛別人的信任，尤其是動物的信任。",shape=box,color=red];
+		j450515285 -> j3812960213;
+	j2010920475 [label="地獄裡絕對有針對傷害動物的人的特殊位置。但看來情況比這更加複雜。",shape=box,color=red];
+		j2010920475 -> j3812960213;
+	j3982005295 [label="是的，但這看起來像是你對他有個私人仇恨。",shape=box,color=red];
+		j3982005295 -> j1178990865;
+	j1666797589 [label="對我來說夠了。",shape=box,color=red];
+		j1666797589 -> j1360659458;
+	j1913532903 [label="這可能會改變你對我們某些人的看法，呆呆
 而且我不確定我是否應該要相信你不會因此選擇離開",shape=box,color=blue];
-		1339 -> 1340;
-	1337 [label="（西語）是的，隨你",shape=box,color=blue];
-		1337 -> 1338;
-	1404 [label="你還不信任我嗎？",shape=box,color=red];
-		1404 -> 1411;
-	1405 [label="我們每個人都在人生中犯過錯。我相信這不會那麼糟糕。",shape=box,color=red];
-		1405 -> 1415;
-	1406 [label="小心點，不然我會開始覺得你對我有點依戀。",shape=box,color=red];
-		1406 -> 1413;
-	1389 [label="之後呢？你是怎麼成為……？",shape=box,color=red];
-		1389 -> 1391;
-	1390 [label="戰爭爛透了。不管是什麼時候，不管是為了什麼。",shape=box,color=red];
-		1390 -> 1394;
-	1359 [label="+15 Chemistry",color=orange];
-		1359 -> 1352;
-	1360 [label="+20 Chemistry",color=orange];
-		1360 -> 1353;
-	1354 [label="是的，我有
+		j1913532903 -> j350353099;
+	j1320047453 [label="（西語）是的，隨你",shape=box,color=blue];
+		j1320047453 -> "Chat ends.";
+	j226955731 [label="你還不信任我嗎？",shape=box,color=red];
+		j226955731 -> j2933776578;
+	j39851864 [label="我們每個人都在人生中犯過錯。我相信這不會那麼糟糕。",shape=box,color=red];
+		j39851864 -> j3201872560;
+	j224818171 [label="小心點，不然我會開始覺得你對我有點依戀。",shape=box,color=red];
+		j224818171 -> j475903653;
+	j3515644901 [label="之後呢？你是怎麼成為……？",shape=box,color=red];
+		j3515644901 -> j2783834844;
+	j1194646145 [label="戰爭爛透了。不管是什麼時候，不管是為了什麼。",shape=box,color=red];
+		j1194646145 -> j2495712578;
+	j3120696342 [label="+15 Chemistry",color=orange];
+		j3120696342 -> j2671951813;
+	j3812960213 [label="+20 Chemistry",color=orange];
+		j3812960213 -> j1576814162;
+	j1178990865 [label="是的，我有
 我有我的原因",shape=box,color=blue];
-		1354 -> 1357;
-		1354 -> 1358;
-	1350 [label="+10 Chemistry",color=orange];
-		1350 -> 1349;
-	1338 [label="Chat ends.",color=orange];
-	1411 [label="+10 Chemistry",color=orange];
-		1411 -> 1407;
-	1415 [label="+5 Chemistry",color=orange];
-		1415 -> 1408;
-	1413 [label="+10 Chemistry",color=orange];
-		1413 -> 1409;
-	1391 [label="Update boolean LettieHexAsked",color=orange];
-		1391 -> 1392;
-	1394 [label="謝謝
+		j1178990865 -> j1991218877;
+		j1178990865 -> j816393781;
+	j1360659458 [label="+10 Chemistry",color=orange];
+		j1360659458 -> j2913763968;
+	"Chat ends." [color=orange];
+	j2933776578 [label="+10 Chemistry",color=orange];
+		j2933776578 -> j2519391288;
+	j3201872560 [label="+5 Chemistry",color=orange];
+		j3201872560 -> j3957997656;
+	j475903653 [label="+10 Chemistry",color=orange];
+		j475903653 -> j3422135484;
+	j2783834844 [label="Boolean LettieHexAsked is now true.",color=orange];
+		j2783834844 -> j3244249438;
+	j2495712578 [label="謝謝
 我們的戰爭看起來一定是那麼微不足道
 你們的那些聽起來如此之宏大和觸目
 充滿了神祇、天使和惡魔",shape=box,color=blue];
-		1394 -> 1393;
-	1352 [label="哦，是的
+		j2495712578 -> j3819810915;
+	j2671951813 [label="哦，是的
 你懂了
 需要給你取個新綽號嗎，呆呆？哈哈",shape=box,color=blue];
-		1352 -> 1355;
-	1353 [label="哦，是的
+		j2671951813 -> j1449528014;
+	j1576814162 [label="哦，是的
 動物值得得到我們能給予的最好的
 當信任被這樣打破
 我就想殺了那個人
 特別是那個混蛋",shape=box,color=blue];
-		1353 -> 1356;
-	1357 [label="我可以問他做了什麼嗎？",shape=box,color=red];
-		1357 -> 1371;
-	1358 [label="如果告訴我你會感到不舒服，那也沒關係。",shape=box,color=red];
-		1358 -> 1370;
-	1349 [label="是的，
+		j1576814162 -> j427534995;
+	j1991218877 [label="我可以問他做了什麼嗎？",shape=box,color=red];
+		j1991218877 -> j1756172974;
+	j816393781 [label="如果告訴我你會感到不舒服，那也沒關係。",shape=box,color=red];
+		j816393781 -> j1987370059;
+	j2913763968 [label="是的，
 （西語）那個混蛋可以去死",shape=box,color=blue];
-		1349 -> 1351;
-	1407 [label="也許
+		j2913763968 -> "Chat ends.";
+	j2519391288 [label="也許
 也許不會
 習慣了你在我腳邊，呆呆
 如果你走了，我可能會想你
 別讓這些沖昏你的頭腦",shape=box,color=blue];
-		1407 -> 1412;
-	1408 [label="也許
+		j2519391288 -> "Chat ends.";
+	j3957997656 [label="也許
 也許不會
 我們走著瞧
 但不是今天",shape=box,color=blue];
-		1408 -> 1416;
-	1409 [label="哈哈，是的
+		j3957997656 -> "Chat ends.";
+	j3422135484 [label="哈哈，是的
 也許我真的是
 或者我只是很高興有個有用的人在我身邊，呆呆",shape=box,color=blue];
-		1409 -> 1410;
-	1392 [label="變成什麼，呆呆
+		j3422135484 -> j1187367000;
+	j3244249438 [label="變成什麼，呆呆
 怪物？",shape=box,color=blue];
-		1392 -> 1396;
-		1392 -> 1397;
-		1392 -> 1398;
-	1393 [label="+10 Chemistry",color=orange];
-		1393 -> 1395;
-	1355 [label="Update boolean LettieTrust2",color=orange];
-		1355 -> 1361;
-		1355 -> 1362;
-	1356 [label="Update boolean LettieTrust2",color=orange];
-		1356 -> 1363;
-	1371 [label="+10 Chemistry",color=orange];
-		1371 -> 1369;
-	1370 [label="不是舒不舒服的問題，呆呆
+		j3244249438 -> j1774753121;
+		j3244249438 -> j52026288;
+		j3244249438 -> j2825224308;
+	j3819810915 [label="+10 Chemistry",color=orange];
+		j3819810915 -> j2708961280;
+	j1449528014 [label="Boolean LettieTrust2 is now true.",color=orange];
+		j1449528014 -> j2764035468;
+		j1449528014 -> j846820043;
+	j427534995 [label="Boolean LettieTrust2 is now true.",color=orange];
+		j427534995 -> j1283660927;
+	j1756172974 [label="+10 Chemistry",color=orange];
+		j1756172974 -> j3470377186;
+	j1987370059 [label="不是舒不舒服的問題，呆呆
 你想聽我不得不結束某人的生命，或者去切掉肢體的事嗎
 那些母親在死去的孩子旁邊哭泣，我卻不得不告訴她我無法救她的時候
 我經常看到這樣的情況
 （西語）我根本不在乎",shape=box,color=blue];
-		1370 -> 1372;
-	1351 [label="Chat ends.",color=orange];
-	1412 [label="Chat ends.",color=orange];
-	1416 [label="Chat ends.",color=orange];
-	1410 [label="習慣了你會在我腳邊
+		j1987370059 -> j3153907540;
+	j1187367000 [label="習慣了你會在我腳邊
 如果你走了，我可能會想你
 別讓這些沖昏你的頭腦",shape=box,color=blue];
-		1410 -> 1414;
-	1396 [label="我本來是想說「六煞」的",shape=box,color=red];
-		1396 -> 1399;
-	1397 [label="我本來是想說「原型 Warframe」的",shape=box,color=red];
-		1397 -> 1400;
-	1398 [label="你覺得你自己是這樣？",shape=box,color=red];
-		1398 -> 1401;
-	1395 [label="但我想最終一切也都一樣
+		j1187367000 -> "Chat ends.";
+	j1774753121 [label="我本來是想說「六煞」的",shape=box,color=red];
+		j1774753121 -> j1387804628;
+	j52026288 [label="我本來是想說「原型 Warframe」的",shape=box,color=red];
+		j52026288 -> j3782904382;
+	j2825224308 [label="你覺得你自己是這樣？",shape=box,color=red];
+		j2825224308 -> j3822162692;
+	j2708961280 [label="但我想最終一切也都一樣
 人們死於爛泥
 信任被打破，生命被奪走
 而瘦女士帶著他們回家",shape=box,color=blue];
-		1395 -> 1458;
-	1361 [label="如果告訴我你會感到不舒服，那也沒關係。",shape=box,color=red];
-		1361 -> 1364;
-	1362 [label="他對妳做了什麼？",shape=box,color=red];
-		1362 -> 1365;
-	1363 [label="Update boolean LettieHexAsked",color=orange];
-		1363 -> 1366;
-		1363 -> 1367;
-	1369 [label="嗯
+		j2708961280 -> j4096741237;
+	j2764035468 [label="如果告訴我你會感到不舒服，那也沒關係。",shape=box,color=red];
+		j2764035468 -> j1068583472;
+	j846820043 [label="他對妳做了什麼？",shape=box,color=red];
+		j846820043 -> j1814001171;
+	j1283660927 [label="Boolean LettieHexAsked is now true.",color=orange];
+		j1283660927 -> j2372289608;
+		j1283660927 -> j1298605139;
+	j3470377186 [label="嗯
 這不是個有趣的故事，老兄
 聽起來都不好受
 該死，說起來也不輕鬆",shape=box,color=blue];
-		1369 -> 1372;
-	1372 [label="只是……
+		j3470377186 -> j3153907540;
+	j3153907540 [label="只是……
 不是我想談論的事
 今天不想",shape=box,color=blue];
-		1372 -> 1373;
-		1372 -> 1374;
-	1414 [label="Chat ends.",color=orange];
-	1399 [label="討厭這個名字
+		j3153907540 -> j596976921;
+		j3153907540 -> j1484410173;
+	j1387804628 [label="討厭這個名字
 是那個女巫起的
 我不記得有投過票",shape=box,color=blue];
-		1399 -> 1402;
-	1400 [label="蠢到爆的字
+		j1387804628 -> j319099092;
+	j3782904382 [label="蠢到爆的字
 聽起來這像是你自己編的
 我不記得有投過票",shape=box,color=blue];
-		1400 -> 1402;
-	1401 [label="是的
+		j3782904382 -> j319099092;
+	j3822162692 [label="是的
 我們就是這樣
 怪物，不自然的
 是那個混蛋創造的",shape=box,color=blue];
-		1401 -> 1403;
-	1458 [label="Update boolean LettieHexAsked",color=orange];
-		1458 -> 1460;
-		1458 -> 1461;
-	1364 [label="Update boolean LettieHexAsked",color=orange];
-		1364 -> 1375;
-	1365 [label="Update boolean LettieHexAsked",color=orange];
-		1365 -> 1376;
-	1366 [label="我不知道他對你做了什麼，但……聽起來很糟糕。",shape=box,color=red];
-		1366 -> 1368;
-	1367 [label="我可以問他做了什麼嗎？",shape=box,color=red];
-		1367 -> 1368;
-	1373 [label="為什麼不想？",shape=box,color=red];
-		1373 -> 1385;
-	1374 [label="我明白了，沒問題。",shape=box,color=red];
-		1374 -> 1384;
-	1402 [label="（西語）呃，隨便
+		j3822162692 -> j312028001;
+	j4096741237 [label="Boolean LettieHexAsked is now true.",color=orange];
+		j4096741237 -> j67397150;
+		j4096741237 -> j1836262565;
+	j1068583472 [label="Boolean LettieHexAsked is now true.",color=orange];
+		j1068583472 -> j540127178;
+	j1814001171 [label="Boolean LettieHexAsked is now true.",color=orange];
+		j1814001171 -> j3523563060;
+	j2372289608 [label="我不知道他對你做了什麼，但……聽起來很糟糕。",shape=box,color=red];
+		j2372289608 -> j3523563060;
+	j1298605139 [label="我可以問他做了什麼嗎？",shape=box,color=red];
+		j1298605139 -> j3523563060;
+	j596976921 [label="為什麼不想？",shape=box,color=red];
+		j596976921 -> j2976146878;
+	j1484410173 [label="我明白了，沒問題。",shape=box,color=red];
+		j1484410173 -> j189061343;
+	j319099092 [label="（西語）呃，隨便
 不值得因此爭吵
 這不會改變我們是什麼
 就是一場扭曲的科學實驗的
 實驗老鼠",shape=box,color=blue];
-		1402 -> 1417;
-	1403 [label="像那本書中那個拼接出來的怪物
+		j319099092 -> j2720663697;
+	j312028001 [label="像那本書中那個拼接出來的怪物
 就是一場扭曲的科學實驗的
 實驗老鼠",shape=box,color=blue];
-		1403 -> 1417;
-	1460 [label="那你是怎麼遇到源拓氏的？",shape=box,color=red];
-		1460 -> 1459;
-	1461 [label="我可以問接下來發生了什麼嗎？",shape=box,color=red];
-		1461 -> 1462;
-	1375 [label="不是舒不舒服的問題，呆呆
+		j312028001 -> j2720663697;
+	j67397150 [label="那你是怎麼遇到源拓氏的？",shape=box,color=red];
+		j67397150 -> j1784105233;
+	j1836262565 [label="我可以問接下來發生了什麼嗎？",shape=box,color=red];
+		j1836262565 -> j1982230585;
+	j540127178 [label="不是舒不舒服的問題，呆呆
 你想聽我不得不結束某人的生命，或者去切掉肢體的事嗎
 那些母親在死去的孩子旁邊哭泣，我卻不得不告訴她我無法救她的時候
 我經常看到這樣的情況
 （西語）我根本不在乎",shape=box,color=blue];
-		1375 -> 1377;
-	1376 [label="嗯
+		j540127178 -> j959466407;
+	j3523563060 [label="嗯
 這不是個有趣的故事，朋友
 聽起來都不好受
 該死，說起來也不輕鬆",shape=box,color=blue];
-		1376 -> 1377;
-	1368 [label="嗯
-這不是個有趣的故事，朋友
-聽起來都不好受
-該死，說起來也不輕鬆",shape=box,color=blue];
-		1368 -> 1377;
-	1385 [label="習慣了你在我腳邊
+		j3523563060 -> j959466407;
+	j2976146878 [label="習慣了你在我腳邊
 如果你走了，我可能會想你
 別讓這些沖昏你的頭腦",shape=box,color=blue];
-		1385 -> 1386;
-	1384 [label="+5 Chemistry",color=orange];
-		1384 -> 1388;
-	1417 [label="Check boolean LettieRats1",color=orange];
-		1417 -> 1420 [label=true,color=green];
-		1417 -> 1418 [label=false,color=brown];
-	1459 [label="嗯，為什麼你會問，呆呆？
+		j2976146878 -> "Chat ends.";
+	j189061343 [label="+5 Chemistry",color=orange];
+		j189061343 -> j3368227818;
+	j2720663697 [label="Check boolean LettieRats1",color=orange];
+		j2720663697 -> j1349383781 [label=true,color=green];
+		j2720663697 -> j1767513069 [label=false,color=brown];
+	j1784105233 [label="嗯，為什麼你會問，呆呆？
 沒有人告訴你發生了什麼事嗎？",shape=box,color=blue];
-		1459 -> 1463;
-		1459 -> 1464;
-		1459 -> 1465;
-	1462 [label="是的，你剛剛就已經問了，哈哈哈
+		j1784105233 -> j3951849430;
+		j1784105233 -> j3162979385;
+		j1784105233 -> j2968571906;
+	j1982230585 [label="是的，你剛剛就已經問了，哈哈哈
 但我明白你在問什麼
 你一直繞著話題走，像是想跳探戈一樣
 你知道我不想談這個
 沒有人告訴你發生了什麼事嗎？",shape=box,color=blue];
-		1462 -> 1463;
-		1462 -> 1464;
-		1462 -> 1465;
-	1377 [label="只是……
+		j1982230585 -> j3951849430;
+		j1982230585 -> j3162979385;
+		j1982230585 -> j2968571906;
+	j959466407 [label="只是……
 不是我想談論的事
 今天不想",shape=box,color=blue];
-		1377 -> 1379;
-		1377 -> 1378;
-	1386 [label="Chat ends.",color=orange];
-	1388 [label="謝謝
+		j959466407 -> j3587523999;
+		j959466407 -> j1645064580;
+	j3368227818 [label="謝謝
 習慣了你在我腳邊
 如果你走了，我可能會想你
 別讓這些沖昏你的頭腦",shape=box,color=blue];
-		1388 -> 1387;
-	1420 [label="Check boolean LettieNoFlirt",color=orange];
-		1420 -> 1422 [label=true,color=green];
-		1420 -> 1424 [label=true,color=green];
-		1420 -> 1422 [label=false,color=brown];
-		1420 -> 1424 [label=false,color=brown];
-		1420 -> 1425 [label=false,color=brown];
-	1418 [label="Check boolean LettieRats2",color=orange];
-		1418 -> 1420 [label=true,color=green];
-		1418 -> 1419 [label=false,color=brown];
-	1463 [label="我只是想了解整個情況。",shape=box,color=red];
-		1463 -> 1469;
-	1464 [label="沒有人會告訴我，他們只是想去避開這個話題。",shape=box,color=red];
-		1464 -> 1470;
-	1465 [label="我猜你就是那個會給我直截了當回答的人。",shape=box,color=red];
-		1465 -> 1471;
-	1379 [label="為什麼不呢？",shape=box,color=red];
-		1379 -> 1380;
-	1378 [label="我明白了，沒問題。",shape=box,color=red];
-		1378 -> 1381;
-	1387 [label="Chat ends.",color=orange];
-	1422 [label="莉蒂，你可不是什麼實驗老鼠。",shape=box,color=red];
-		1422 -> 1423;
-	1424 [label="嗯，我覺得老鼠很聰明、愛社交、討人喜歡的奇妙小動物……",shape=box,color=red];
-		1424 -> 1434;
-	1425 [label="我見過的最性感實驗老鼠。",shape=box,color=red];
-		1425 -> 1435;
-	1419 [label="Check boolean LettieRats3",color=orange];
-		1419 -> 1420 [label=true,color=green];
-		1419 -> 1421 [label=false,color=brown];
-	1469 [label="+10 Chemistry",color=orange];
-		1469 -> 1466;
-	1470 [label="+15 Chemistry",color=orange];
-		1470 -> 1467;
-	1471 [label="+20 Chemistry",color=orange];
-		1471 -> 1468;
-	1380 [label="習慣了你在我腳邊
+		j3368227818 -> "Chat ends.";
+	j1349383781 [label="Check boolean LettieNoFlirt",color=orange];
+		j1349383781 -> j3460445110 [label=true,color=green];
+		j1349383781 -> j2238455567 [label=true,color=green];
+		j1349383781 -> j3460445110 [label=false,color=brown];
+		j1349383781 -> j2238455567 [label=false,color=brown];
+		j1349383781 -> j1365379208 [label=false,color=brown];
+	j1767513069 [label="Check boolean LettieRats2",color=orange];
+		j1767513069 -> j1349383781 [label=true,color=green];
+		j1767513069 -> j2998697729 [label=false,color=brown];
+	j3951849430 [label="我只是想了解整個情況。",shape=box,color=red];
+		j3951849430 -> j969668730;
+	j3162979385 [label="沒有人會告訴我，他們只是想去避開這個話題。",shape=box,color=red];
+		j3162979385 -> j1967511969;
+	j2968571906 [label="我猜你就是那個會給我直截了當回答的人。",shape=box,color=red];
+		j2968571906 -> j439743804;
+	j3587523999 [label="為什麼不呢？",shape=box,color=red];
+		j3587523999 -> j927032544;
+	j1645064580 [label="我明白了，沒問題。",shape=box,color=red];
+		j1645064580 -> j527709152;
+	j3460445110 [label="莉蒂，你可不是什麼實驗老鼠。",shape=box,color=red];
+		j3460445110 -> j2613209848;
+	j2238455567 [label="嗯，我覺得老鼠很聰明、愛社交、討人喜歡的奇妙小動物……",shape=box,color=red];
+		j2238455567 -> j1560725089;
+	j1365379208 [label="我見過的最性感實驗老鼠。",shape=box,color=red];
+		j1365379208 -> j208638893;
+	j2998697729 [label="Check boolean LettieRats3",color=orange];
+		j2998697729 -> j1349383781 [label=true,color=green];
+		j2998697729 -> j4030809656 [label=false,color=brown];
+	j969668730 [label="+10 Chemistry",color=orange];
+		j969668730 -> j4080603816;
+	j1967511969 [label="+15 Chemistry",color=orange];
+		j1967511969 -> j2389231500;
+	j439743804 [label="+20 Chemistry",color=orange];
+		j439743804 -> j3908061477;
+	j927032544 [label="習慣了你在我腳邊
 如果你走了，我可能會想你
 （西語）別讓這些沖昏你的頭腦",shape=box,color=blue];
-		1380 -> 1382;
-	1381 [label="謝謝
+		j927032544 -> "Chat ends.";
+	j527709152 [label="謝謝
 習慣了你在我腳邊
 如果你走了，我可能會想你
 （西語）別讓這些沖昏你的頭腦",shape=box,color=blue];
-		1381 -> 1383;
-	1423 [label="哦，是嗎？
+		j527709152 -> "Chat ends.";
+	j2613209848 [label="哦，是嗎？
 被實驗、感染、虐待
 用完就被丟棄
 如果放任我們不管會很危險，會傳播他們的疾病",shape=box,color=blue];
-		1423 -> 1432;
-		1423 -> 1433;
-	1434 [label="+10 Chemistry",color=orange];
-		1434 -> 1426;
-	1435 [label="+10 Chemistry",color=orange];
-		1435 -> 1427;
-	1421 [label="Check boolean LettieNoFlirt",color=orange];
-		1421 -> 1428 [label=true,color=green];
-		1421 -> 1429 [label=true,color=green];
-		1421 -> 1425 [label=false,color=brown];
-		1421 -> 1428 [label=false,color=brown];
-		1421 -> 1429 [label=false,color=brown];
-	1466 [label="呃，是的
+		j2613209848 -> j1336705293;
+		j2613209848 -> j1122449089;
+	j1560725089 [label="+10 Chemistry",color=orange];
+		j1560725089 -> j2344884251;
+	j208638893 [label="+10 Chemistry",color=orange];
+		j208638893 -> j2705020728;
+	j4030809656 [label="Check boolean LettieNoFlirt",color=orange];
+		j4030809656 -> j3495934801 [label=true,color=green];
+		j4030809656 -> j1300820380 [label=true,color=green];
+		j4030809656 -> j1365379208 [label=false,color=brown];
+		j4030809656 -> j3495934801 [label=false,color=brown];
+		j4030809656 -> j1300820380 [label=false,color=brown];
+	j4080603816 [label="呃，是的
 我相信你是
 如果沒有人告訴你，那我猜就得由媽媽莉蒂來告訴你了
 這個故事我不太喜歡講
 尤其是因為我已經習慣了有你在我腳邊",shape=box,color=blue];
-		1466 -> 1472;
-	1467 [label="嗯，你想知道為什麼
+		j4080603816 -> j2630617427;
+	j2389231500 [label="嗯，你想知道為什麼
 還以為媽媽莉蒂會告訴你真相
 平時來說你是對的，呆呆
 但這個我不太想說
 尤其是因為我已經習慣了有你在我腳邊",shape=box,color=blue];
-		1467 -> 1472;
-	1468 [label="哈哈哈，是的
+		j2389231500 -> j2630617427;
+	j3908061477 [label="哈哈哈，是的
 平時你是對的
 但這次呢？
 這個我不太想講
 尤其是因為我已經習慣了有你在我腳邊",shape=box,color=blue];
-		1468 -> 1472;
-	1382 [label="Chat ends.",color=orange];
-	1383 [label="Chat ends.",color=orange];
-	1432 [label="你說的「傳播疾病」是什麼意思？",shape=box,color=red];
-		1432 -> 1455;
-	1433 [label="實驗老鼠不該為科學家強加於牠們身上的事情負責。",shape=box,color=red];
-		1433 -> 1454;
-	1426 [label="（西語）嗯，是的，說得不錯
+		j3908061477 -> j2630617427;
+	j1336705293 [label="你說的「傳播疾病」是什麼意思？",shape=box,color=red];
+		j1336705293 -> j1358778405;
+	j1122449089 [label="實驗老鼠不該為科學家強加於牠們身上的事情負責。",shape=box,color=red];
+		j1122449089 -> j1181653221;
+	j2344884251 [label="（西語）嗯，是的，說得不錯
 但這並不代表應該允許它們傳播病菌",shape=box,color=blue];
-		1426 -> 1432;
-		1426 -> 1433;
-	1427 [label="（西語）哈哈，謝謝
+		j2344884251 -> j1336705293;
+		j2344884251 -> j1122449089;
+	j2705020728 [label="（西語）哈哈，謝謝
 你知道怎麼讓我微笑
 但這並不代表應該允許它們傳播病菌",shape=box,color=blue];
-		1427 -> 1432;
-		1427 -> 1433;
-	1428 [label="莉蒂，你可不是什麼實驗老鼠。",shape=box,color=red];
-		1428 -> 1430;
-	1429 [label="那你建議我們該怎麼做？把你們全都處理掉嗎？",shape=box,color=red];
-		1429 -> 1431;
-	1472 [label="如果你走了我可能會想念你
+		j2705020728 -> j1336705293;
+		j2705020728 -> j1122449089;
+	j3495934801 [label="莉蒂，你可不是什麼實驗老鼠。",shape=box,color=red];
+		j3495934801 -> j3181702129;
+	j1300820380 [label="那你建議我們該怎麼做？把你們全都處理掉嗎？",shape=box,color=red];
+		j1300820380 -> j1673938220;
+	j2630617427 [label="如果你走了我可能會想念你
 而這個故事可能會讓你轉身離開
 所以這個故事還是留待以後再說
 哦，呆呆
 （西語）別讓它衝昏你的頭",shape=box,color=blue];
-		1472 -> 1473;
-	1455 [label="+10 Chemistry",color=orange];
-		1455 -> 1452;
-	1454 [label="+10 Chemistry",color=orange];
-		1454 -> 1453;
-	1430 [label="哦，是嗎？
+		j2630617427 -> "Chat ends.";
+	j1358778405 [label="+10 Chemistry",color=orange];
+		j1358778405 -> j3224706361;
+	j1181653221 [label="+10 Chemistry",color=orange];
+		j1181653221 -> j1257814440;
+	j3181702129 [label="哦，是嗎？
 被實驗、感染、虐待
 用完就被丟棄
 如果放任我們不管會很危險，會傳播他們的疾病",shape=box,color=blue];
-		1430 -> 1436;
-		1430 -> 1437;
-	1431 [label="如果我們不是被困在這個循環中
+		j3181702129 -> j1336705293;
+		j3181702129 -> j2891270274;
+	j1673938220 [label="如果我們不是被困在這個循環中
 你就必須這麼做，否則我們會像那個女巫一樣在夢魘中發瘋
 不是嗎？",shape=box,color=blue];
-		1431 -> 1438;
-		1431 -> 1439;
-	1473 [label="Chat ends.",color=orange];
-	1452 [label="那個源拓氏混蛋應該死得又慢又痛苦
+		j1673938220 -> j3483817370;
+		j1673938220 -> j304494585;
+	j3224706361 [label="那個源拓氏混蛋應該死得又慢又痛苦
 我希望能親自把他遞送給瘦女士",shape=box,color=blue];
-		1452 -> 1456;
-	1453 [label="是的……
+		j3224706361 -> j1912643335;
+	j1257814440 [label="是的……
 你要知道
 那個源拓氏混蛋應該死得又慢又痛苦
 我希望能親自把他遞送給瘦女士",shape=box,color=blue];
-		1453 -> 1456;
-	1436 [label="你說的「傳播疾病」是什麼意思？",shape=box,color=red];
-		1436 -> 1441;
-	1437 [label="這一切都不是你的錯，莉蒂。",shape=box,color=red];
-		1437 -> 1442;
-	1438 [label="是的，最終，你會的。",shape=box,color=red];
-		1438 -> 1445;
-	1439 [label="嗯，透過傳識，這可以被延緩……",shape=box,color=red];
-		1439 -> 1446;
-	1456 [label="但這不是我今天要講的故事
+		j1257814440 -> j1912643335;
+	j2891270274 [label="這一切都不是你的錯，莉蒂。",shape=box,color=red];
+		j2891270274 -> j4173238090;
+	j3483817370 [label="是的，最終，你會的。",shape=box,color=red];
+		j3483817370 -> j3598529712;
+	j304494585 [label="嗯，透過傳識，這可以被延緩……",shape=box,color=red];
+		j304494585 -> j148858293;
+	j1912643335 [label="但這不是我今天要講的故事
 太多事情要做
 而那故事裡也有太多麻煩
 我們都得回去工作",shape=box,color=blue];
-		1456 -> 1457;
-	1441 [label="+10 Chemistry",color=orange];
-		1441 -> 1440;
-	1442 [label="哈哈
+		j1912643335 -> "Chat ends.";
+	j4173238090 [label="哈哈
 你這麼確定嗎，呆呆？
 等著瞧
 你可能會改變主意",shape=box,color=blue];
-		1442 -> 1443;
-	1445 [label="+10 Chemistry",color=orange];
-		1445 -> 1449;
-	1446 [label="別對我撒謊，呆呆
+		j4173238090 -> j1912643335;
+	j3598529712 [label="+10 Chemistry",color=orange];
+		j3598529712 -> j2779527798;
+	j148858293 [label="別對我撒謊，呆呆
 我不需要保護，你應該知道這點的",shape=box,color=blue];
-		1446 -> 1447;
-	1457 [label="Chat ends.",color=orange];
-	1440 [label="那個源拓氏混蛋應該死得又慢又痛苦
-我希望能親自把他遞送給瘦女士",shape=box,color=blue];
-		1440 -> 1443;
-	1443 [label="但這不是我今天要講的故事
-太多事情要做
-而那故事裡也有太多麻煩
-我們都得回去工作",shape=box,color=blue];
-		1443 -> 1444;
-	1449 [label="看吧？
+		j148858293 -> j170089359;
+	j2779527798 [label="看吧？
 怪物
 但我想這也沒什麼
 困在這裡，我們也不能造成太大傷害了",shape=box,color=blue];
-		1449 -> 1450;
-	1447 [label="（西語）隨便啦
+		j2779527798 -> j4057081027;
+	j170089359 [label="（西語）隨便啦
 走開",shape=box,color=blue];
-		1447 -> 1448;
-	1444 [label="Chat ends.",color=orange];
-	1450 [label="（西語）呃，隨便
+		j170089359 -> "Chat ends.";
+	j4057081027 [label="（西語）呃，隨便
 我們都得回去工作
 走開，呆呆",shape=box,color=blue];
-		1450 -> 1451;
-	1448 [label="Chat ends.",color=orange];
-	1451 [label="Chat ends.",color=orange];
+		j4057081027 -> "Chat ends.";
 }

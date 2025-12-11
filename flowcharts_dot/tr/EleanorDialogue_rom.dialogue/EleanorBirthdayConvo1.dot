@@ -1,21 +1,16 @@
 digraph {
-	2816 [label="EleanorBirthdayConvo1 begins.",color=orange];
-		2816 -> 2817;
-		2816 -> 2818;
-	2817 [label="Nightingale ailesinin ilk çocuğu, mutlu yıllar!",shape=box,color=red];
-		2817 -> 2819;
-	2818 [label="İyi ki doğdun canavar kadın!",shape=box,color=red];
-		2818 -> 2821;
-	2819 [label="+20 Chemistry",color=orange];
-		2819 -> 2820;
-	2821 [label="Sıradan günün kutlu olsun, sıradan insan sıkıntısı!",shape=box,color=blue];
-		2821 -> 2840;
-	2820 [label="Ve bunu unutmasına asla izin vermedim. Heh.",shape=box,color=blue];
-		2820 -> 2839;
-	2840 [label="{\"Id\":2840,\"Incoming\":[2821],\"Outgoing\":[2823],\"GraphPos\":[1853,-3679],\"CompletionType\":1}",color=orange];
-		2840 -> 2823;
-	2839 [label="{\"Id\":2839,\"Incoming\":[2820],\"Outgoing\":[2822],\"GraphPos\":[1863,-3875],\"CompletionType\":1}",color=orange];
-		2839 -> 2822;
-	2823 [label="Chat ends.",color=orange];
-	2822 [label="Chat ends.",color=orange];
+	"EleanorBirthdayConvo1 begins." [color=orange];
+		"EleanorBirthdayConvo1 begins." -> j2074522282;
+		"EleanorBirthdayConvo1 begins." -> j3235038131;
+	j2074522282 [label="Nightingale ailesinin ilk çocuğu, mutlu yıllar!",shape=box,color=red];
+		j2074522282 -> j3894865475;
+	j3235038131 [label="İyi ki doğdun canavar kadın!",shape=box,color=red];
+		j3235038131 -> j3666355589;
+	j3894865475 [label="+20 Chemistry",color=orange];
+		j3894865475 -> j4032125604;
+	j3666355589 [label="Sıradan günün kutlu olsun, sıradan insan sıkıntısı!",shape=box,color=blue];
+		j3666355589 -> "Chat ends.";
+	j4032125604 [label="Ve bunu unutmasına asla izin vermedim. Heh.",shape=box,color=blue];
+		j4032125604 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

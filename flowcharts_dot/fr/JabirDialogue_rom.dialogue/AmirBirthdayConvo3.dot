@@ -1,21 +1,16 @@
 digraph {
-	3580 [label="AmirBirthdayConvo3 begins.",color=orange];
-		3580 -> 3585;
-		3580 -> 3586;
-	3585 [label="Salut, Amir. Joyeux anniversaire. Bip-bip ou autre.",shape=box,color=red];
-		3585 -> 3584;
-	3586 [label="COUCOU AMIR FÉLICITATIONS POUR L'ANNIVERSAIRE DE TON EXISTENCE",shape=box,color=red];
-		3586 -> 3587;
-	3584 [label="amir n'est pas là en ce moment c'est un programme de pare-feu intelligent qu'amir a conçu pour filtrer les souhaits d'anniversaire non sincères et oh! regarde! il y en a un",shape=box,color=blue];
-		3584 -> 3598;
-	3587 [label="+20 Chemistry",color=orange];
-		3587 -> 3583;
-	3598 [label="{\"Id\":3598,\"Incoming\":[3584],\"Outgoing\":[3581],\"GraphPos\":[-14748,-20693],\"CompletionType\":1}",color=orange];
-		3598 -> 3581;
-	3583 [label="DÉCLARATION CULTURELLEMENT APPROPRIÉE DE PROFONDS REMERCIEMENTS",shape=box,color=blue];
-		3583 -> 3599;
-	3581 [label="Chat ends.",color=orange];
-	3599 [label="{\"Id\":3599,\"Incoming\":[3583],\"Outgoing\":[3582],\"GraphPos\":[-14347,-20820],\"CompletionType\":1}",color=orange];
-		3599 -> 3582;
-	3582 [label="Chat ends.",color=orange];
+	"AmirBirthdayConvo3 begins." [color=orange];
+		"AmirBirthdayConvo3 begins." -> j2890464050;
+		"AmirBirthdayConvo3 begins." -> j4238533943;
+	j2890464050 [label="Salut, Amir. Joyeux anniversaire. Bip-bip ou autre.",shape=box,color=red];
+		j2890464050 -> j4025028705;
+	j4238533943 [label="COUCOU AMIR FÉLICITATIONS POUR L'ANNIVERSAIRE DE TON EXISTENCE",shape=box,color=red];
+		j4238533943 -> j4207191541;
+	j4025028705 [label="amir n'est pas là en ce moment c'est un programme de pare-feu intelligent qu'amir a conçu pour filtrer les souhaits d'anniversaire non sincères et oh! regarde! il y en a un",shape=box,color=blue];
+		j4025028705 -> "Chat ends.";
+	j4207191541 [label="+20 Chemistry",color=orange];
+		j4207191541 -> j1317066870;
+	"Chat ends." [color=orange];
+	j1317066870 [label="DÉCLARATION CULTURELLEMENT APPROPRIÉE DE PROFONDS REMERCIEMENTS",shape=box,color=blue];
+		j1317066870 -> "Chat ends.";
 }

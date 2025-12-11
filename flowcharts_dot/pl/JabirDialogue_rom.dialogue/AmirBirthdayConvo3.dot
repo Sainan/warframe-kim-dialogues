@@ -1,21 +1,16 @@
 digraph {
-	3580 [label="AmirBirthdayConvo3 begins.",color=orange];
-		3580 -> 3585;
-		3580 -> 3586;
-	3585 [label="Cześć, Amir. Wszystkiego najlepszego z okazji urodzin. Bliiip bluup czy jakkolwiek.",shape=box,color=red];
-		3585 -> 3584;
-	3586 [label="POZDROWIENIA AMIRZE GRATULACJE Z OKAZJI ROCZNICY TWOJEGO ISTNIENIA",shape=box,color=red];
-		3586 -> 3587;
-	3584 [label="amira teraz nie ma. to sprytny program zapory sieciowej, który amir napisał, aby filtrować nieszczere życzenia urodzinowe. o, spójrz, takie jak te",shape=box,color=blue];
-		3584 -> 3598;
-	3587 [label="+20 Chemistry",color=orange];
-		3587 -> 3583;
-	3598 [label="{\"Id\":3598,\"Incoming\":[3584],\"Outgoing\":[3581],\"GraphPos\":[-14748,-20693],\"CompletionType\":1}",color=orange];
-		3598 -> 3581;
-	3583 [label="KULTURALNIE ODPOWIEDNIE OŚWIADCZENIE Z NAJSZCZERSZYM PODZIĘKOWANIEM I SERDECZNYM WYRAŻENIEM WDZIĘCZNOŚCI",shape=box,color=blue];
-		3583 -> 3599;
-	3581 [label="Chat ends.",color=orange];
-	3599 [label="{\"Id\":3599,\"Incoming\":[3583],\"Outgoing\":[3582],\"GraphPos\":[-14347,-20820],\"CompletionType\":1}",color=orange];
-		3599 -> 3582;
-	3582 [label="Chat ends.",color=orange];
+	"AmirBirthdayConvo3 begins." [color=orange];
+		"AmirBirthdayConvo3 begins." -> j2951253455;
+		"AmirBirthdayConvo3 begins." -> j2006667679;
+	j2951253455 [label="Cześć, Amir. Wszystkiego najlepszego z okazji urodzin. Bliiip bluup czy jakkolwiek.",shape=box,color=red];
+		j2951253455 -> j6201039;
+	j2006667679 [label="POZDROWIENIA AMIRZE GRATULACJE Z OKAZJI ROCZNICY TWOJEGO ISTNIENIA",shape=box,color=red];
+		j2006667679 -> j399498716;
+	j6201039 [label="amira teraz nie ma. to sprytny program zapory sieciowej, który amir napisał, aby filtrować nieszczere życzenia urodzinowe. o, spójrz, takie jak te",shape=box,color=blue];
+		j6201039 -> "Chat ends.";
+	j399498716 [label="+20 Chemistry",color=orange];
+		j399498716 -> j1349889462;
+	"Chat ends." [color=orange];
+	j1349889462 [label="KULTURALNIE ODPOWIEDNIE OŚWIADCZENIE Z NAJSZCZERSZYM PODZIĘKOWANIEM I SERDECZNYM WYRAŻENIEM WDZIĘCZNOŚCI",shape=box,color=blue];
+		j1349889462 -> "Chat ends.";
 }

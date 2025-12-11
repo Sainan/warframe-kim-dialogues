@@ -1,24 +1,19 @@
 digraph {
-	2501 [label="LettieBirthdayConvo3 begins.",color=orange];
-		2501 -> 2503;
-		2501 -> 2512;
-	2503 [label="Hey! Have any fun plans for your birthday? Like going to bed early?",shape=box,color=red];
-		2503 -> 2508;
-	2512 [label="Happy Birthday! Let's go out to the clubs!",shape=box,color=red];
-		2512 -> 2504;
-	2508 [label="+20 Chemistry",color=orange];
-		2508 -> 2509;
-	2504 [label="Jajajaja
+	"LettieBirthdayConvo3 begins." [color=orange];
+		"LettieBirthdayConvo3 begins." -> j2314986643;
+		"LettieBirthdayConvo3 begins." -> j1274433064;
+	j2314986643 [label="Hey! Have any fun plans for your birthday? Like going to bed early?",shape=box,color=red];
+		j2314986643 -> j2394407171;
+	j1274433064 [label="Happy Birthday! Let's go out to the clubs!",shape=box,color=red];
+		j1274433064 -> j2679534540;
+	j2394407171 [label="+20 Chemistry",color=orange];
+		j2394407171 -> j1501517806;
+	j2679534540 [label="Jajajaja
 *No*",shape=box,color=blue];
-		2504 -> 190;
-	2509 [label="Jajajajaja
+		j2679534540 -> "Chat ends.";
+	j1501517806 [label="Jajajajaja
 Aaayyy, sí
 Hot bath and a nap, the birthday of my dreams",shape=box,color=blue];
-		2509 -> 191;
-	190 [label="{\"Id\":190,\"Incoming\":[2504],\"Outgoing\":[2514],\"GraphPos\":[824,-477],\"CompletionType\":1}",color=orange];
-		190 -> 2514;
-	191 [label="{\"Id\":191,\"Incoming\":[2509],\"Outgoing\":[2510],\"GraphPos\":[1191,-750],\"CompletionType\":1}",color=orange];
-		191 -> 2510;
-	2514 [label="Chat ends.",color=orange];
-	2510 [label="Chat ends.",color=orange];
+		j1501517806 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

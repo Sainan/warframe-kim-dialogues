@@ -1,40 +1,40 @@
 digraph {
-	1768 [label="LettieAmirHack begins.",color=orange];
-		1768 -> 1769;
-	1769 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
-		1769 -> 1770;
-		1769 -> 1771;
-	1770 [label="Tengo la sensación de que estás enojada...",shape=box,color=red];
-		1770 -> 1772;
-	1771 [label="Um... ¿Conseguiste la crema de cacahuate...?",shape=box,color=red];
-		1771 -> 1772;
-	1772 [label="QUÉ ES LO QUE SE SUPONE QUE HAGA
+	"LettieAmirHack begins." [color=orange];
+		"LettieAmirHack begins." -> j2316161106;
+	j2316161106 [label="VOY A MATAR A ESE PINCHE MOCOSO",shape=box,color=blue];
+		j2316161106 -> j2135886851;
+		j2316161106 -> j279544037;
+	j2135886851 [label="Tengo la sensación de que estás enojada...",shape=box,color=red];
+		j2135886851 -> j3074449243;
+	j279544037 [label="Um... ¿Conseguiste la crema de cacahuate...?",shape=box,color=red];
+		j279544037 -> j3074449243;
+	j3074449243 [label="QUÉ ES LO QUE SE SUPONE QUE HAGA
 CON 500 CAJAS DE SOBRECITOS DE CATSUP
 ¡DILE A ESE NIÑO QUE VENGA AQUÍ AHORA MISMO!
 QUE SE ENCARGUE DE ESTO
 ¡¡AHORA!!",shape=box,color=blue];
-		1772 -> 1773;
-		1772 -> 1774;
-	1773 [label="Oye, es que, todo fue un error. Amir estaba intentando enviarte crema de maní para tus ratas.",shape=box,color=red];
-		1773 -> 1775;
-	1774 [label="Todo esto es un malentendido. Él estaba tratando de mandarte un regalo.",shape=box,color=red];
-		1774 -> 1776;
-	1775 [label="Pero se arruinó, y le voy a ayudar a arreglarlo.",shape=box,color=red];
-		1775 -> 1780;
-	1776 [label="NO ME IMPORTA
+		j3074449243 -> j1364743715;
+		j3074449243 -> j3929697966;
+	j1364743715 [label="Oye, es que, todo fue un error. Amir estaba intentando enviarte crema de maní para tus ratas.",shape=box,color=red];
+		j1364743715 -> j751726567;
+	j3929697966 [label="Todo esto es un malentendido. Él estaba tratando de mandarte un regalo.",shape=box,color=red];
+		j3929697966 -> j2056447001;
+	j751726567 [label="Pero se arruinó, y le voy a ayudar a arreglarlo.",shape=box,color=red];
+		j751726567 -> j2521313929;
+	j2056447001 [label="NO ME IMPORTA
 ¡¡SÁCALAS DE AQUÍ!! 
 ¡¡AHORA!!",shape=box,color=blue];
-		1776 -> 1777;
-	1780 [label="+20 Chemistry",color=orange];
-		1780 -> 1778;
-	1777 [label="{\"Id\":1777,\"Incoming\":[1779,1776],\"Outgoing\":[1781],\"GraphPos\":[2847,54171],\"CompletionType\":2,\"OtherDialogueInfos\":[{\"Dialogue\":\"/Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue\",\"Tag\":\"AmirHack3\",\"Value\":0}]}",color=orange];
-		1777 -> 1781;
-	1778 [label="¿Sí?
+		j2056447001 -> "Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue";
+	j2521313929 [label="+20 Chemistry",color=orange];
+		j2521313929 -> j3539906696;
+	"Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue" [label="Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue",color=orange];
+		"Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue" -> "Chat ends.";
+	j3539906696 [label="¿Sí?
 ¿Era para mis panquecitos?",shape=box,color=blue];
-		1778 -> 1779;
-	1781 [label="Chat ends.",color=orange];
-	1779 [label="¡Ay equis! 
+		j3539906696 -> j1434411540;
+	"Chat ends." [color=orange];
+	j1434411540 [label="¡Ay equis! 
 Solo saca todo de aquí
 ¡¡AHORA!!",shape=box,color=blue];
-		1779 -> 1777;
+		j1434411540 -> "Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue";
 }

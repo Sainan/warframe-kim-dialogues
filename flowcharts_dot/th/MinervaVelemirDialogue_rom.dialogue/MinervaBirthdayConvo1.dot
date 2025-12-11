@@ -1,19 +1,18 @@
 digraph {
-	1768 [label="MinervaBirthdayConvo1 begins.",color=orange];
-		1768 -> 1769;
-		1768 -> 1770;
-	1769 [label="วันนี้มีแผนทำอะไรพิเศษบ้างหรือเปล่า ",shape=box,color=red];
-		1769 -> 1771;
-	1770 [label="สุขสันต์วันเกิด!! คงตื่นเต้นน่าดู",shape=box,color=red];
-		1770 -> 1772;
-	1771 [label="MomToxicated: Eleanor กับสาว ๆ สัญญาเอาไว้ว่า \"คืนนี้จะจำอะไรไม่ได้แน่นอน\"",shape=box,color=blue];
-		1771 -> 1773;
-	1772 [label="MomToxicated: พอผ่านจุดหนึ่งไปแล้ววันเกิดก็ไม่น่าตื่นเต้นอีกต่อไป แต่ก็ขอชื่นชมการมองโลกในแง่ดีนะ",shape=box,color=blue];
-		1772 -> 1774;
-	1773 [label="+20 Chemistry",color=orange];
-		1773 -> 1775;
-	1774 [label="Chat ends.",color=orange];
-	1775 [label="MomToxicated: และนั่นก็ทำให้ฉันตื่นเต้นมาก",shape=box,color=blue];
-		1775 -> 1776;
-	1776 [label="Chat ends.",color=orange];
+	"MinervaBirthdayConvo1 begins." [color=orange];
+		"MinervaBirthdayConvo1 begins." -> j1723985942;
+		"MinervaBirthdayConvo1 begins." -> j3458699109;
+	j1723985942 [label="วันนี้มีแผนทำอะไรพิเศษบ้างหรือเปล่า ",shape=box,color=red];
+		j1723985942 -> j3687700265;
+	j3458699109 [label="สุขสันต์วันเกิด!! คงตื่นเต้นน่าดู",shape=box,color=red];
+		j3458699109 -> j1981732242;
+	j3687700265 [label="MomToxicated: Eleanor กับสาว ๆ สัญญาเอาไว้ว่า \"คืนนี้จะจำอะไรไม่ได้แน่นอน\"",shape=box,color=blue];
+		j3687700265 -> j1350604057;
+	j1981732242 [label="MomToxicated: พอผ่านจุดหนึ่งไปแล้ววันเกิดก็ไม่น่าตื่นเต้นอีกต่อไป แต่ก็ขอชื่นชมการมองโลกในแง่ดีนะ",shape=box,color=blue];
+		j1981732242 -> "Chat ends.";
+	j1350604057 [label="+20 Chemistry",color=orange];
+		j1350604057 -> j262494941;
+	"Chat ends." [color=orange];
+	j262494941 [label="MomToxicated: และนั่นก็ทำให้ฉันตื่นเต้นมาก",shape=box,color=blue];
+		j262494941 -> "Chat ends.";
 }

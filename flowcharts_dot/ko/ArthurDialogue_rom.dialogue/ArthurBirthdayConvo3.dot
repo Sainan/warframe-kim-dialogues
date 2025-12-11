@@ -1,21 +1,16 @@
 digraph {
-	3192 [label="ArthurBirthdayConvo3 begins.",color=orange];
-		3192 -> 3210;
-		3192 -> 3212;
-	3210 [label="안녕. 그냥 생일 축하한단 말을 해 주고 싶었어. 내가 네 생일에 살아서 여기 있다는 게 다행이다.",shape=box,color=red];
-		3210 -> 3211;
-	3212 [label="생일 축하한다. 생일이니까 안 죽게 한 층 더 노력해 봐. 죽었다간 분위기 망할 거라고.",shape=box,color=red];
-		3212 -> 3207;
-	3211 [label="+20 Chemistry",color=orange];
-		3211 -> 3209;
-	3207 [label="어이, 너도 겪은 일이 많다는 건 알지만, 그런 기분 나쁜 유머를 써먹는 데도 때와 장소란 게 있는 거다.",shape=box,color=blue];
-		3207 -> 3000;
-	3209 [label="위험한 순간들도 꽤 있었지, 안 그런가? 늘 나를 지켜 줘서 고맙다, 오늘도, 다른 날들도.",shape=box,color=blue];
-		3209 -> 3225;
-	3000 [label="{\"Id\":3000,\"Incoming\":[3207],\"Outgoing\":[3208],\"GraphPos\":[-30902,-13388],\"CompletionType\":1}",color=orange];
-		3000 -> 3208;
-	3225 [label="{\"Id\":3225,\"Incoming\":[3209],\"Outgoing\":[3213],\"GraphPos\":[-30899,-13547],\"CompletionType\":1}",color=orange];
-		3225 -> 3213;
-	3208 [label="Chat ends.",color=orange];
-	3213 [label="Chat ends.",color=orange];
+	"ArthurBirthdayConvo3 begins." [color=orange];
+		"ArthurBirthdayConvo3 begins." -> j2030353090;
+		"ArthurBirthdayConvo3 begins." -> j2853810713;
+	j2030353090 [label="안녕. 그냥 생일 축하한단 말을 해 주고 싶었어. 내가 네 생일에 살아서 여기 있다는 게 다행이다.",shape=box,color=red];
+		j2030353090 -> j1953166325;
+	j2853810713 [label="생일 축하한다. 생일이니까 안 죽게 한 층 더 노력해 봐. 죽었다간 분위기 망할 거라고.",shape=box,color=red];
+		j2853810713 -> j2494213942;
+	j1953166325 [label="+20 Chemistry",color=orange];
+		j1953166325 -> j2998659309;
+	j2494213942 [label="어이, 너도 겪은 일이 많다는 건 알지만, 그런 기분 나쁜 유머를 써먹는 데도 때와 장소란 게 있는 거다.",shape=box,color=blue];
+		j2494213942 -> "Chat ends.";
+	j2998659309 [label="위험한 순간들도 꽤 있었지, 안 그런가? 늘 나를 지켜 줘서 고맙다, 오늘도, 다른 날들도.",shape=box,color=blue];
+		j2998659309 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

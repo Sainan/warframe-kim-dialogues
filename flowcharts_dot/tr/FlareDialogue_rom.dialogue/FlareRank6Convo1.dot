@@ -1,444 +1,440 @@
 digraph {
-	2420 [label="FlareRank6Convo1 begins.",color=orange];
-		2420 -> 2421;
-	2421 [label="Check boolean FlareLizzieApart",color=orange];
-		2421 -> 2423 [label=true,color=green];
-		2421 -> 2422 [label=false,color=brown];
-	2423 [label="Chat ends.",color=orange];
-	2422 [label="Check boolean FlareLizzieTogether",color=orange];
-		2422 -> 2424 [label=true,color=green];
-		2422 -> 2425 [label=false,color=brown];
-	2424 [label="İbbbblliiiiss!! Aaahhh İBBBLLİSSSS!!! Sana bir sürprizimiz var :D ",shape=box,color=blue];
-		2424 -> 2426;
-	2425 [label="Chat ends.",color=orange];
-	2426 [label="üzgünüm, seni uyarmak istemiştim. o bugün gerçekten çok heyecanlı",shape=box,color=blue];
-		2426 -> 2427;
-		2426 -> 2428;
-		2426 -> 2429;
-	2427 [label="Bugün onu bu kadar heyecanlandıran şey ne?",shape=box,color=red];
-		2427 -> 2430;
-	2428 [label="Haha, sorun değil. İkinizin iyi anlaştığını gördüğüme sevindim.",shape=box,color=red];
-		2428 -> 2431;
-	2429 [label="Dürüst olmak gerekirse çok tatlı. :)",shape=box,color=red];
-		2429 -> 2432;
-	2430 [label="şarkı bitti. yani, sözler tamamlandı, neyse",shape=box,color=blue];
-		2430 -> 2433;
-	2431 [label="evet. bu... güzel. gerçekten güzel, aslında. oldukça iyi bir ortak oldu",shape=box,color=blue];
-		2431 -> 2434;
-	2432 [label="heh. tabii. \"insan yiyen korku\" tarzında, çok sevimli",shape=box,color=blue];
-		2432 -> 2435;
-	2433 [label="duymak ister misin?",shape=box,color=blue];
-		2433 -> 2436;
-		2433 -> 2437;
-	2434 [label="tabii beni rastgele bilgisayar parçalarını yemeye ikna etmeye çalışmadığı zamanlarda",shape=box,color=blue];
-		2434 -> 2438;
-	2435 [label="dün gece Böyle söylemiyordun Ama... <RETRO_EMOJI_SNEAKY>",shape=box,color=blue];
-		2435 -> 2438;
-	2436 [label="Çok isterim!",shape=box,color=red];
-		2436 -> 2439;
-	2437 [label="Şiirle pek aram yok üzgünüm. Müziğe dökülene kadar bekleyeceğim.",shape=box,color=red];
-		2437 -> 2440;
-	2438 [label="*neyse* konuya geri dönelim ",shape=box,color=blue];
-		2438 -> 2430;
-	2439 [label="işte başlıyoruz",shape=box,color=blue];
-		2439 -> 2441;
-	2440 [label="pki",shape=box,color=blue];
-		2440 -> 2442;
-	2441 [label="Check boolean FlareSol",color=orange];
-		2441 -> 2443 [label=true,color=green];
-		2441 -> 2444 [label=false,color=brown];
-	2442 [label=".... Bu İblis bizi hayal kırıklığına uğratıyor... ",shape=box,color=blue];
-		2442 -> 2445;
-	2443 [label="Check boolean FlarePainStranger",color=orange];
-		2443 -> 2446 [label=true,color=green];
-		2443 -> 2447 [label=false,color=brown];
-	2444 [label="Check boolean FlareLua",color=orange];
-		2444 -> 2448 [label=true,color=green];
-		2444 -> 2448 [label=false,color=brown];
-	2445 [label="Chat ends.",color=orange];
-	2446 [label="Bitmeyen fısıltılar, sesin bir lanet gibi
+	"FlareRank6Convo1 begins." [color=orange];
+		"FlareRank6Convo1 begins." -> j3739350251;
+	j3739350251 [label="Check boolean FlareLizzieApart",color=orange];
+		j3739350251 -> "Chat ends." [label=true,color=green];
+		j3739350251 -> j3461956840 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j3461956840 [label="Check boolean FlareLizzieTogether",color=orange];
+		j3461956840 -> j4210049330 [label=true,color=green];
+		j3461956840 -> "Chat ends." [label=false,color=brown];
+	j4210049330 [label="İbbbblliiiiss!! Aaahhh İBBBLLİSSSS!!! Sana bir sürprizimiz var :D ",shape=box,color=blue];
+		j4210049330 -> j3024798588;
+	j3024798588 [label="üzgünüm, seni uyarmak istemiştim. o bugün gerçekten çok heyecanlı",shape=box,color=blue];
+		j3024798588 -> j4177519183;
+		j3024798588 -> j1844052269;
+		j3024798588 -> j3021880840;
+	j4177519183 [label="Bugün onu bu kadar heyecanlandıran şey ne?",shape=box,color=red];
+		j4177519183 -> j2313667350;
+	j1844052269 [label="Haha, sorun değil. İkinizin iyi anlaştığını gördüğüme sevindim.",shape=box,color=red];
+		j1844052269 -> j2124298280;
+	j3021880840 [label="Dürüst olmak gerekirse çok tatlı. :)",shape=box,color=red];
+		j3021880840 -> j1997832461;
+	j2313667350 [label="şarkı bitti. yani, sözler tamamlandı, neyse",shape=box,color=blue];
+		j2313667350 -> j2613508786;
+	j2124298280 [label="evet. bu... güzel. gerçekten güzel, aslında. oldukça iyi bir ortak oldu",shape=box,color=blue];
+		j2124298280 -> j3058621198;
+	j1997832461 [label="heh. tabii. \"insan yiyen korku\" tarzında, çok sevimli",shape=box,color=blue];
+		j1997832461 -> j3870577390;
+	j2613508786 [label="duymak ister misin?",shape=box,color=blue];
+		j2613508786 -> j1128193518;
+		j2613508786 -> j2659312102;
+	j3058621198 [label="tabii beni rastgele bilgisayar parçalarını yemeye ikna etmeye çalışmadığı zamanlarda",shape=box,color=blue];
+		j3058621198 -> j8743662;
+	j3870577390 [label="dün gece Böyle söylemiyordun Ama... <RETRO_EMOJI_SNEAKY>",shape=box,color=blue];
+		j3870577390 -> j8743662;
+	j1128193518 [label="Çok isterim!",shape=box,color=red];
+		j1128193518 -> j1648582463;
+	j2659312102 [label="Şiirle pek aram yok üzgünüm. Müziğe dökülene kadar bekleyeceğim.",shape=box,color=red];
+		j2659312102 -> j1943104376;
+	j8743662 [label="*neyse* konuya geri dönelim ",shape=box,color=blue];
+		j8743662 -> j2313667350;
+	j1648582463 [label="işte başlıyoruz",shape=box,color=blue];
+		j1648582463 -> j11490693;
+	j1943104376 [label="pki",shape=box,color=blue];
+		j1943104376 -> j240507868;
+	j11490693 [label="Check boolean FlareSol",color=orange];
+		j11490693 -> j1229185918 [label=true,color=green];
+		j11490693 -> j3311874374 [label=false,color=brown];
+	j240507868 [label=".... Bu İblis bizi hayal kırıklığına uğratıyor... ",shape=box,color=blue];
+		j240507868 -> "Chat ends.";
+	j1229185918 [label="Check boolean FlarePainStranger",color=orange];
+		j1229185918 -> j2564413017 [label=true,color=green];
+		j1229185918 -> j159267307 [label=false,color=brown];
+	j3311874374 [label="Check boolean FlareLua",color=orange];
+		j3311874374 -> j3547038517 [label=true,color=green];
+		j3311874374 -> j3547038517 [label=false,color=brown];
+	j2564413017 [label="Bitmeyen fısıltılar, sesin bir lanet gibi
 Altın uçlu parmaklar beni toprağa çekiyor
 Ateş gibi öpücüğün, damarlarımda yanıyor
 Her sabah, adımı bilmiyorum",shape=box,color=blue];
-		2446 -> 2449;
-	2447 [label="Check boolean FlarePainChronic",color=orange];
-		2447 -> 2450 [label=true,color=green];
-		2447 -> 2451 [label=false,color=brown];
-	2448 [label="Check boolean FlarePainStranger",color=orange];
-		2448 -> 2452 [label=true,color=green];
-		2448 -> 2453 [label=false,color=brown];
-	2449 [label="Check boolean FlareStoryVillain",color=orange];
-		2449 -> 2454 [label=true,color=green];
-		2449 -> 2455 [label=false,color=brown];
-	2450 [label="Çığlık atarak uyandım, ışıkta boğuldum
+		j2564413017 -> j904886397;
+	j159267307 [label="Check boolean FlarePainChronic",color=orange];
+		j159267307 -> j2472795935 [label=true,color=green];
+		j159267307 -> j1886570010 [label=false,color=brown];
+	j3547038517 [label="Check boolean FlarePainStranger",color=orange];
+		j3547038517 -> j1512360584 [label=true,color=green];
+		j3547038517 -> j4001662270 [label=false,color=brown];
+	j904886397 [label="Check boolean FlareStoryVillain",color=orange];
+		j904886397 -> j1991364194 [label=true,color=green];
+		j904886397 -> j1870422903 [label=false,color=brown];
+	j2472795935 [label="Çığlık atarak uyandım, ışıkta boğuldum
 Altın ışınlar beyaz bir bıçak gibi derin kesiyor
 Her sabah, acımı bilmiyorum
 Yağmurda dayanır mıyım yoksa kırılır mıyım bilmiyorum",shape=box,color=blue];
-		2450 -> 2449;
-	2451 [label="Check boolean FlarePainUnique",color=orange];
-		2451 -> 2456 [label=true,color=green];
-		2451 -> 2457 [label=false,color=brown];
-	2452 [label="Bitmeyen fısıltılar, sesin bir lanet gibi
+		j2472795935 -> j904886397;
+	j1886570010 [label="Check boolean FlarePainUnique",color=orange];
+		j1886570010 -> j2264208223 [label=true,color=green];
+		j1886570010 -> j857119930 [label=false,color=brown];
+	j1512360584 [label="Bitmeyen fısıltılar, sesin bir lanet gibi
 Gümüş uçlu parmaklar beni toprağa çekiyor
 Buz gibi öpücüğün, damarlarımda yanıyor
 Kabuslarımda adımı bilmiyorum",shape=box,color=blue];
-		2452 -> 2458;
-	2453 [label="Check boolean FlarePainChronic",color=orange];
-		2453 -> 2459 [label=true,color=green];
-		2453 -> 2460 [label=false,color=brown];
-	2454 [label="Lanet olsun bana, bugün şeytan benim
+		j1512360584 -> j1908806570;
+	j4001662270 [label="Check boolean FlarePainChronic",color=orange];
+		j4001662270 -> j333592555 [label=true,color=green];
+		j4001662270 -> j3675329191 [label=false,color=brown];
+	j1991364194 [label="Lanet olsun bana, bugün şeytan benim
 Kötü adam olarak mı yükseleceğim yoksa sadece silinip gidecek miyim?",shape=box,color=blue];
-		2454 -> 2461;
-	2455 [label="Check boolean FlareStoryHero",color=orange];
-		2455 -> 2462 [label=true,color=green];
-		2455 -> 2463 [label=false,color=brown];
-	2456 [label="Ateşte uyandım, şafak vakti yandım
+		j1991364194 -> j3428908214;
+	j1870422903 [label="Check boolean FlareStoryHero",color=orange];
+		j1870422903 -> j4261297911 [label=true,color=green];
+		j1870422903 -> j1877297320 [label=false,color=brown];
+	j2264208223 [label="Ateşte uyandım, şafak vakti yandım
 Altın ışık kesiliyor, ama ben hala tutunuyorum
 Her nefes bir savaş, her adım bir savaş
 Ama sen adımı söylüyorsun ve ben daha fazlasını istiyorum",shape=box,color=blue];
-		2456 -> 2449;
-	2457 [label="Check boolean FlarePainEmpathy",color=orange];
-		2457 -> 2465 [label=true,color=green];
-		2457 -> 2464 [label=false,color=brown];
-	2458 [label="Check boolean FlareStoryVillain",color=orange];
-		2458 -> 2466 [label=true,color=green];
-		2458 -> 2467 [label=false,color=brown];
-	2459 [label="Çığlık atarak uyandım, gecenin içinde boğuldum
+		j2264208223 -> j904886397;
+	j857119930 [label="Check boolean FlarePainEmpathy",color=orange];
+		j857119930 -> j237045609 [label=true,color=green];
+		j857119930 -> j2520022027 [label=false,color=brown];
+	j1908806570 [label="Check boolean FlareStoryVillain",color=orange];
+		j1908806570 -> j3815941814 [label=true,color=green];
+		j1908806570 -> j4192447210 [label=false,color=brown];
+	j333592555 [label="Çığlık atarak uyandım, gecenin içinde boğuldum
 Gümüş rengi ışınlar beyaz bir bıçak gibi derinden keser
 Her kabusta, acımı bilmiyorum
 Yağmurda dayanır mıyım yoksa kırılır mıyım bilmiyorum",shape=box,color=blue];
-		2459 -> 2458;
-	2460 [label="Check boolean FlarePainUnique",color=orange];
-		2460 -> 2468 [label=true,color=green];
-		2460 -> 2469 [label=false,color=brown];
-	2461 [label="Check boolean FlarePainStranger",color=orange];
-		2461 -> 2470 [label=true,color=green];
-		2461 -> 2471 [label=false,color=brown];
-	2462 [label="Bana dua et, bugün aziz benim
+		j333592555 -> j1908806570;
+	j3675329191 [label="Check boolean FlarePainUnique",color=orange];
+		j3675329191 -> j3827356637 [label=true,color=green];
+		j3675329191 -> j2637123773 [label=false,color=brown];
+	j3428908214 [label="Check boolean FlarePainStranger",color=orange];
+		j3428908214 -> j3766772131 [label=true,color=green];
+		j3428908214 -> j3908336105 [label=false,color=brown];
+	j4261297911 [label="Bana dua et, bugün aziz benim
 Kahraman olarak mı yükseleceğim yoksa sadece silinip gidecek miyim?",shape=box,color=blue];
-		2462 -> 2461;
-	2463 [label="Check boolean FlareStoryNone",color=orange];
-		2463 -> 2472 [label=true,color=green];
-		2463 -> 2472 [label=false,color=brown];
-	2465 [label="Gözlerinin ardındaki ateşi görüyorum
+		j4261297911 -> j3428908214;
+	j1877297320 [label="Check boolean FlareStoryNone",color=orange];
+		j1877297320 -> j1343355318 [label=true,color=green];
+		j1877297320 -> j1343355318 [label=false,color=brown];
+	j237045609 [label="Gözlerinin ardındaki ateşi görüyorum
 Kafesteki Sol, gündüzün gökyüzünde boğuluyor
 Günah gibi gülümsüyorsun, ama acıyı görüyorum
 Her dokunuş, her nefes—ne kadarına dayanabilirsin?",shape=box,color=blue];
-		2465 -> 2449;
-	2464 [label="Sol'un genişçe açıldığını gördüm
+		j237045609 -> j904886397;
+	j2520022027 [label="Sol'un genişçe açıldığını gördüm
 Bal gibi dökülmüş, içinde altın
 Bir milyon ses tatlı bir şekilde fısıldıyor
 Boş koridorlarda ve karışık rüyalarda",shape=box,color=blue];
-		2464 -> 2449;
-	2466 [label="Lanet olsun bana, bugün şeytan benim
+		j2520022027 -> j904886397;
+	j3815941814 [label="Lanet olsun bana, bugün şeytan benim
 Kötü adam olarak mı yükseleceğim yoksa sadece silinip gidecek miyim?",shape=box,color=blue];
-		2466 -> 2473;
-	2467 [label="Check boolean FlareStoryHero",color=orange];
-		2467 -> 2474 [label=true,color=green];
-		2467 -> 2475 [label=false,color=brown];
-	2468 [label="Ateşte uyandım, gece tarafından yakıldım
+		j3815941814 -> j2321641489;
+	j4192447210 [label="Check boolean FlareStoryHero",color=orange];
+		j4192447210 -> j367914934 [label=true,color=green];
+		j4192447210 -> j2106164143 [label=false,color=brown];
+	j3827356637 [label="Ateşte uyandım, gece tarafından yakıldım
 Gümüş ışık kesiliyor, bu benim sıkıntım
 Her nefes bir savaş, her adım bir savaş
 Ama sen adımı söylüyorsun ve ben daha fazlasını istiyorum",shape=box,color=blue];
-		2468 -> 2458;
-	2469 [label="Check boolean FlarePainEmpathy",color=orange];
-		2469 -> 2477 [label=true,color=green];
-		2469 -> 2476 [label=false,color=brown];
-	2470 [label="Void'de dans ediyorum, alevinde kaybolmuşum
+		j3827356637 -> j1908806570;
+	j2637123773 [label="Check boolean FlarePainEmpathy",color=orange];
+		j2637123773 -> j3154830027 [label=true,color=green];
+		j2637123773 -> j2342290941 [label=false,color=brown];
+	j3766772131 [label="Void'de dans ediyorum, alevinde kaybolmuşum
 Her sabah yepyeni bir isimle uyanıyorum
 Sen benim kurtarıcım mısın yoksa sonum mu?
 Sol'u yüksekte tutuyorum ama denizde boğuluyorum
 Ah, beni sev ya da terk et, sadece beni özgür bırakma",shape=box,color=blue];
-		2470 -> 2478;
-	2471 [label="Check boolean FlarePainChronic",color=orange];
-		2471 -> 2479 [label=true,color=green];
-		2471 -> 2480 [label=false,color=brown];
-	2472 [label="Ah, bugün günahkar mıyım yoksa aziz mi?
+		j3766772131 -> j846346923;
+	j3908336105 [label="Check boolean FlarePainChronic",color=orange];
+		j3908336105 -> j3268323540 [label=true,color=green];
+		j3908336105 -> j1108137744 [label=false,color=brown];
+	j1343355318 [label="Ah, bugün günahkar mıyım yoksa aziz mi?
 Anka kuşu gibi mi yükseleceğim yoksa sadece silinip gidecek miyim?",shape=box,color=blue];
-		2472 -> 2461;
-	2473 [label="Check boolean FlarePainStranger",color=orange];
-		2473 -> 2481 [label=true,color=green];
-		2473 -> 2482 [label=false,color=brown];
-	2474 [label="Bana dua et, bugün aziz benim
+		j1343355318 -> j3428908214;
+	j2321641489 [label="Check boolean FlarePainStranger",color=orange];
+		j2321641489 -> j1089915040 [label=true,color=green];
+		j2321641489 -> j3900974630 [label=false,color=brown];
+	j367914934 [label="Bana dua et, bugün aziz benim
 Kahraman olarak mı yükseleceğim yoksa sadece silinip gidecek miyim?",shape=box,color=blue];
-		2474 -> 2473;
-	2475 [label="Check boolean FlareStoryNone",color=orange];
-		2475 -> 2483 [label=true,color=green];
-		2475 -> 2483 [label=false,color=brown];
-	2477 [label="Gözlerinin ardındaki buzu görüyorum
+		j367914934 -> j2321641489;
+	j2106164143 [label="Check boolean FlareStoryNone",color=orange];
+		j2106164143 -> j621191768 [label=true,color=green];
+		j2106164143 -> j621191768 [label=false,color=brown];
+	j3154830027 [label="Gözlerinin ardındaki buzu görüyorum
 Kafesteki Lua, gece yarısı gökyüzünde boğuluyor
 Günah gibi gülümsüyorsun, ama acıyı görüyorum
 Her dokunuş, her nefes—ne kadarına dayanabilirsin?",shape=box,color=blue];
-		2477 -> 2458;
-	2476 [label="Lua'nın genişçe açıldığını gördüm
+		j3154830027 -> j1908806570;
+	j2342290941 [label="Lua'nın genişçe açıldığını gördüm
 Şeker gibi dökülmüş, içi gümüş
 Bir milyon ses tatlı bir şekilde fısıldıyor
 Boş koridorlarda ve karışık rüyalarda",shape=box,color=blue];
-		2476 -> 2458;
-	2478 [label="Aç kanatlar şafak vakti genişçe açıldı
+		j2342290941 -> j1908806570;
+	j846346923 [label="Aç kanatlar şafak vakti genişçe açıldı
 Pençelerinle kaderini tenime kazıyorsun
 Bir nefeste kutsalım—sonraki nefeste düşüyorum
 Her şey miyim yoksa hiçbir şey miyim bilemiyorum",shape=box,color=blue];
-		2478 -> 2484;
-	2479 [label="Ateş gibi tadın, günah gibi şarkı söylüyorsun
+		j846346923 -> j2729667313;
+	j3268323540 [label="Ateş gibi tadın, günah gibi şarkı söylüyorsun
 Beni yakınına çekip içine çekiyorsun
 Beni sev ya da terk et, her iki şekilde de acı çekeceğim
 Her şafak bir savaştır, ama seninle kalabilirim",shape=box,color=blue];
-		2479 -> 2485;
-	2480 [label="Check boolean FlarePainUnique",color=orange];
-		2480 -> 2486 [label=true,color=green];
-		2480 -> 2487 [label=false,color=brown];
-	2481 [label="Void'de dans ediyorum, zincirlerine takıldım
+		j3268323540 -> j3102861652;
+	j1108137744 [label="Check boolean FlarePainUnique",color=orange];
+		j1108137744 -> j2257285941 [label=true,color=green];
+		j1108137744 -> j812880635 [label=false,color=brown];
+	j1089915040 [label="Void'de dans ediyorum, zincirlerine takıldım
 Kabuslarımda tüm isimlerimi kaybettim
 Sen benim kurtarıcım mısın yoksa sonum mu?
 Lua'yı yüksekte tutuyorsun ama denizde boğuluyorsun
 Ah, beni sev ya da terk et, sadece beni özgür bırakma",shape=box,color=blue];
-		2481 -> 2488;
-	2482 [label="Check boolean FlarePainChronic",color=orange];
-		2482 -> 2489 [label=true,color=green];
-		2482 -> 2490 [label=false,color=brown];
-	2483 [label="Ah, bugün günahkar mıyım yoksa aziz mi?
+		j1089915040 -> j2419773071;
+	j3900974630 [label="Check boolean FlarePainChronic",color=orange];
+		j3900974630 -> j3848812914 [label=true,color=green];
+		j3900974630 -> j3492093567 [label=false,color=brown];
+	j621191768 [label="Ah, bugün günahkar mıyım yoksa aziz mi?
 Anka kuşu gibi mi yükseleceğim yoksa sadece silinip gidecek miyim?",shape=box,color=blue];
-		2483 -> 2473;
-	2484 [label="Check boolean FlareStoryVillain",color=orange];
-		2484 -> 2491 [label=true,color=green];
-		2484 -> 2492 [label=false,color=brown];
-	2485 [label="Dokunuşun zehir, öpüşün ilahi
+		j621191768 -> j2321641489;
+	j2729667313 [label="Check boolean FlareStoryVillain",color=orange];
+		j2729667313 -> j2509431200 [label=true,color=green];
+		j2729667313 -> j3710448588 [label=false,color=brown];
+	j3102861652 [label="Dokunuşun zehir, öpüşün ilahi
 Omurgamı yeniden yazan elleri olan bir iblis
 Bazı günler sürünüyorum, bazı günler uçuyorum
 Gökyüzüne dokunamadığımda bana sarılacağını söyle",shape=box,color=blue];
-		2485 -> 2484;
-	2486 [label="Ellerin tenimin altında sırları takip ediyor
+		j3102861652 -> j2729667313;
+	j2257285941 [label="Ellerin tenimin altında sırları takip ediyor
 Yara izlerinin olduğu yerlere yeminlerini kazıyarak
 Bazı günler ayaktayım, bazı günler sürünüyorum
 Ama sen sanki her şeye sahipmişim gibi hissettiriyorsun",shape=box,color=blue];
-		2486 -> 2493;
-	2487 [label="Check boolean FlarePainEmpathy",color=orange];
-		2487 -> 2495 [label=true,color=green];
-		2487 -> 2494 [label=false,color=brown];
-	2488 [label="Aç kanatlar gecede genişçe açıldı
+		j2257285941 -> j4168582001;
+	j812880635 [label="Check boolean FlarePainEmpathy",color=orange];
+		j812880635 -> j3784230355 [label=true,color=green];
+		j812880635 -> j601985028 [label=false,color=brown];
+	j2419773071 [label="Aç kanatlar gecede genişçe açıldı
 Isırığınla kaderini tenime kazıyorsun
 Bir nefeste kutsalım—sonraki nefeste düşüyorum
 Her şey miyim yoksa hiçbir şey miyim bilemiyorum",shape=box,color=blue];
-		2488 -> 2496;
-	2489 [label="Yanıyorum, kırılıyorum, gözlerinde kayboluyorum
+		j2419773071 -> j1941418009;
+	j3848812914 [label="Yanıyorum, kırılıyorum, gözlerinde kayboluyorum
 Sen ölmekte olan Lua'nın saklandığı Voidsin
 Beni sev ya da terk et, her iki şekilde de acı çekeceğim
 Her gece bir savaş, ama seninle kalabilirim",shape=box,color=blue];
-		2489 -> 2497;
-	2490 [label="Check boolean FlarePainUnique",color=orange];
-		2490 -> 2498 [label=true,color=green];
-		2490 -> 2499 [label=false,color=brown];
-	2491 [label="Bugün kötü adam benim, suçlanacak kişi benim
+		j3848812914 -> j877222931;
+	j3492093567 [label="Check boolean FlarePainUnique",color=orange];
+		j3492093567 -> j1228867816 [label=true,color=green];
+		j3492093567 -> j3828935203 [label=false,color=brown];
+	j2509431200 [label="Bugün kötü adam benim, suçlanacak kişi benim
 Işığı mı kovalayayım yoksa utanç içinde mi kaybolayım?",shape=box,color=blue];
-		2491 -> 2500;
-	2492 [label="Check boolean FlareStoryHero",color=orange];
-		2492 -> 2501 [label=true,color=green];
-		2492 -> 2502 [label=false,color=brown];
-	2493 [label="Void'i öpüyorum, ışığı tadıyorum
+		j2509431200 -> j513857136;
+	j3710448588 [label="Check boolean FlareStoryHero",color=orange];
+		j3710448588 -> j162301950 [label=true,color=green];
+		j3710448588 -> j828767743 [label=false,color=brown];
+	j4168582001 [label="Void'i öpüyorum, ışığı tadıyorum
 Beni kendine çekiyorsun ve kendimi iyi hissediyorum
 Sol'u altın bir taç gibi takıyorum
 Ama dokunuşun çürümüş, küfleniyor",shape=box,color=blue];
-		2493 -> 2484;
-	2495 [label="Dokunuşun gök gürültüsü, öpüşün fırtına
+		j4168582001 -> j2729667313;
+	j3784230355 [label="Dokunuşun gök gürültüsü, öpüşün fırtına
 Ama içinde çığlık atıyorsun, sıcak kalmaya çalışıyorsun
 Cildinin altındaki çatlakları görüyorum
 Verdiğin ama asla kazanamadığın savaş",shape=box,color=blue];
-		2495 -> 2504;
-	2494 [label="Ateş gibi tadın, günah gibi şarkı söylüyorsun
+		j3784230355 -> j2791738959;
+	j601985028 [label="Ateş gibi tadın, günah gibi şarkı söylüyorsun
 Beni yakınına çekip içine çekiyorsun
 Ah, beni sev ya da terk et, sadece beni özgür bırakma
 Beni hatırlamaktansa senin olmayı tercih ederim",shape=box,color=blue];
-		2494 -> 2503;
-	2496 [label="Check boolean FlareStoryVillain",color=orange];
-		2496 -> 2505 [label=true,color=green];
-		2496 -> 2506 [label=false,color=brown];
-	2497 [label="Dokunuşun zehir, öpüşün ilahi
+		j601985028 -> j1966659935;
+	j1941418009 [label="Check boolean FlareStoryVillain",color=orange];
+		j1941418009 -> j2079650747 [label=true,color=green];
+		j1941418009 -> j1934034599 [label=false,color=brown];
+	j877222931 [label="Dokunuşun zehir, öpüşün ilahi
 Omurgamı yeniden yazan elleri olan bir iblis
 Bazı geceler sürünüyorum, bazı geceler uçuyorum
 Gökyüzüne dokunamadığımda bana sarılacağını söyle",shape=box,color=blue];
-		2497 -> 2496;
-	2498 [label="Ellerin tenimin altında sırları takip ediyor
+		j877222931 -> j1941418009;
+	j1228867816 [label="Ellerin tenimin altında sırları takip ediyor
 Yara izlerinin olduğu yerlere karanlık yeminler kazıyarak
 Bazı geceler ayaktayım, bazı geceler sürünüyorum
 Ama sen sanki her şeye sahipmişim gibi hissettiriyorsun",shape=box,color=blue];
-		2498 -> 2507;
-	2499 [label="Check boolean FlarePainEmpathy",color=orange];
-		2499 -> 2509 [label=true,color=green];
-		2499 -> 2508 [label=false,color=brown];
-	2500 [label="Altın haleler ve yılan gibi sırıtışlar
+		j1228867816 -> j547822754;
+	j3828935203 [label="Check boolean FlarePainEmpathy",color=orange];
+		j3828935203 -> j1976931115 [label=true,color=green];
+		j3828935203 -> j914610695 [label=false,color=brown];
+	j513857136 [label="Altın haleler ve yılan gibi sırıtışlar
 Her aşk şarkısı başladığı yerde biter
 Yükselecek miyim? Düşecek miyim?
 Yükselecek miyim? Düşecek miyim?",shape=box,color=blue];
-		2500 -> 2510;
-	2501 [label="Bugün kahraman benim, suçlanacak kişi değil
+		j513857136 -> j4005915937;
+	j162301950 [label="Bugün kahraman benim, suçlanacak kişi değil
 Işığı mı tutuyorum yoksa alevlerde mi kayboluyorum?",shape=box,color=blue];
-		2501 -> 2500;
-	2502 [label="Check boolean FlareStoryNone",color=orange];
-		2502 -> 2511 [label=true,color=green];
-		2502 -> 2511 [label=false,color=brown];
-	2504 [label="Sol gibi bir kalbin var ama Void'de yaşıyorsun
+		j162301950 -> j513857136;
+	j828767743 [label="Check boolean FlareStoryNone",color=orange];
+		j828767743 -> j1227353061 [label=true,color=green];
+		j828767743 -> j1227353061 [label=false,color=brown];
+	j2791738959 [label="Sol gibi bir kalbin var ama Void'de yaşıyorsun
 Sadece yok olmak için gökyüzünü aydınlatıyorsun
 Ateşini hissediyorum, acını biliyorum
 Senin gibi yanıyorum, aynı şekilde kanıyoruz",shape=box,color=blue];
-		2504 -> 2484;
-	2503 [label="Tenimin altında süründüğünü hissediyorum
+		j2791738959 -> j2729667313;
+	j1966659935 [label="Tenimin altında süründüğünü hissediyorum
 Binlerce el, içimden bir ses
 Ah, ben koruyucu muyum yoksa kurban mı?
 Senin hastalığın mıyım yoksa cennetin mi?",shape=box,color=blue];
-		2503 -> 2484;
-	2505 [label="Bugün kötü adam benim, suçlanacak kişi benim
+		j1966659935 -> j2729667313;
+	j2079650747 [label="Bugün kötü adam benim, suçlanacak kişi benim
 Yıldızları mı kovalayayım yoksa utanç içinde mi kaybolayım?",shape=box,color=blue];
-		2505 -> 2512;
-	2506 [label="Check boolean FlareStoryHero",color=orange];
-		2506 -> 2513 [label=true,color=green];
-		2506 -> 2514 [label=false,color=brown];
-	2507 [label="Void'i öpüyorum, gecenin tadına bakıyorum
+		j2079650747 -> j2313078953;
+	j1934034599 [label="Check boolean FlareStoryHero",color=orange];
+		j1934034599 -> j3521238058 [label=true,color=green];
+		j1934034599 -> j406023769 [label=false,color=brown];
+	j547822754 [label="Void'i öpüyorum, gecenin tadına bakıyorum
 Beni kendine çekiyorsun ve kendimi iyi hissediyorum
 Lua'yı eski bir taç gibi takıyorsun
 Ama dokunuşun buz, ölü ve soğuk",shape=box,color=blue];
-		2507 -> 2496;
-	2509 [label="Dokunuşun kaos ama beni bütünleştiriyor
+		j547822754 -> j1941418009;
+	j1976931115 [label="Dokunuşun kaos ama beni bütünleştiriyor
 Kemiklerime kazınmış bir günahkar duası
 Her yarayı ben de taşıyorum
 Her çığlığı sende duyuyorum",shape=box,color=blue];
-		2509 -> 2516;
-	2508 [label="Buz gibi tadın, günah gibi şarkı söylüyorsun
+		j1976931115 -> j4077570265;
+	j914610695 [label="Buz gibi tadın, günah gibi şarkı söylüyorsun
 Beni yakınına çekip içine çekiyorsun
 Ah, beni sev ya da terk et, sadece beni özgür bırakma
 Beni hatırlamaktansa senin olmayı tercih ederim",shape=box,color=blue];
-		2508 -> 2515;
-	2510 [label="----",shape=box,color=blue];
-		2510 -> 2517;
-	2511 [label="Peki ya ben kahraman mıyım yoksa suçlu mu?
+		j914610695 -> j4161756690;
+	j4005915937 [label="----",shape=box,color=blue];
+		j4005915937 -> j3880495003;
+	j1227353061 [label="Peki ya ben kahraman mıyım yoksa suçlu mu?
 Işığı mı kovalayayım yoksa alevlerin içinde mi kaybolayım?",shape=box,color=blue];
-		2511 -> 2500;
-	2512 [label="Gümüş haleler ve yılan gibi sırıtışlar
+		j1227353061 -> j513857136;
+	j2313078953 [label="Gümüş haleler ve yılan gibi sırıtışlar
 Her aşk şarkısı başladığı yerde biter
 Yükselecek miyim? Düşecek miyim?
 Yükselecek miyim? Düşecek miyim?",shape=box,color=blue];
-		2512 -> 2510;
-	2513 [label="Bugün kahraman benim, bunu ruhumda hissediyorum
+		j2313078953 -> j4005915937;
+	j3521238058 [label="Bugün kahraman benim, bunu ruhumda hissediyorum
 Yoksa boşluğu doldurmak için söylenen bir yalan mı?",shape=box,color=blue];
-		2513 -> 2512;
-	2514 [label="Check boolean FlareStoryNone",color=orange];
-		2514 -> 2518 [label=true,color=green];
-		2514 -> 2518 [label=false,color=brown];
-	2516 [label="Lua gibi bir kalbin var ama Void'de yaşıyorsun
+		j3521238058 -> j2313078953;
+	j406023769 [label="Check boolean FlareStoryNone",color=orange];
+		j406023769 -> j2482095340 [label=true,color=green];
+		j406023769 -> j2482095340 [label=false,color=brown];
+	j4077570265 [label="Lua gibi bir kalbin var ama Void'de yaşıyorsun
 Sadece yok olmak için gökyüzünü aydınlatıyorsun
 Soğukluğunu hissediyorum, acını biliyorum
 Senin gibi yanıyorum, aynı şekilde kanıyoruz",shape=box,color=blue];
-		2516 -> 2496;
-	2515 [label="Tenimin altında süründüğünü hissediyorum
+		j4077570265 -> j1941418009;
+	j4161756690 [label="Tenimin altında süründüğünü hissediyorum
 Binlerce el, içimden bir ses
 Ah, ben koruyucu muyum yoksa kurban mı?
 Senin hastalığın mıyım yoksa cennetin mi?",shape=box,color=blue];
-		2515 -> 2496;
-	2517 [label="peki? ne düşünüyorsun? dediğim gibi hala bir başlığa ve besteye ihtiyacı var ama bu-",shape=box,color=blue];
-		2517 -> 2519;
-	2518 [label="Ah, kahraman mıyım yoksa suçlu mu?
+		j4161756690 -> j1941418009;
+	j3880495003 [label="peki? ne düşünüyorsun? dediğim gibi hala bir başlığa ve besteye ihtiyacı var ama bu-",shape=box,color=blue];
+		j3880495003 -> j2359568290;
+	j2482095340 [label="Ah, kahraman mıyım yoksa suçlu mu?
 Yıldızları mı kovalayayım yoksa utanç içinde mi kaybolayım?",shape=box,color=blue];
-		2518 -> 2512;
-	2519 [label="EVET, NE DÜŞÜNÜYORSUN? BU İBLİS BİZİMLE GURUR DUYUYOR MU? <RETRO_EMOJI_CAT>",shape=box,color=blue];
-		2519 -> 2520;
-		2519 -> 2521;
-		2519 -> 2522;
-	2520 [label="Bir On-lyne değil ama, hey. ;)",shape=box,color=red];
-		2520 -> 2523;
-	2521 [label="Vay canına. Bu harika, bayıldım!! ",shape=box,color=red];
-		2521 -> 2524;
-	2522 [label="Çok havalıydı!",shape=box,color=red];
-		2522 -> 2524;
-	2523 [label="evet evet, çok komik",shape=box,color=blue];
-		2523 -> 2525;
-		2523 -> 2526;
-	2524 [label="yine mırıldanıyor. bunu bir müzik parçasına dönüştürmenin bir yolunu bulmalıyım",shape=box,color=blue];
-		2524 -> 2525;
-		2524 -> 2526;
-	2525 [label="Peki, bundan sonra sırada ne var?",shape=box,color=red];
-		2525 -> 2527;
-	2526 [label="Müziği ne zaman besteleyeceğini düşünüyorsun?",shape=box,color=red];
-		2526 -> 2527;
-	2527 [label="aslında bu konuda bize yardımcı olabileceğini düşünmüştüm",shape=box,color=blue];
-		2527 -> 2528;
-	2528 [label="Check boolean FlareInstrumentNo",color=orange];
-		2528 -> 2530 [label=true,color=green];
-		2528 -> 2529 [label=false,color=brown];
-	2530 [label="bir enstrüman çalmadığını söylediğini biliyorum",shape=box,color=blue];
-		2530 -> 2533;
-	2529 [label="Check boolean FlareInstrumentYes",color=orange];
-		2529 -> 2532 [label=true,color=green];
-		2529 -> 2531 [label=false,color=brown];
-	2533 [label="Bu İblise nasıl çalacağını öğretmeyi teklif ettik... Bu İblis'in ellerinin vücudumuzda olması için çok heyecanlıyız... ;)",shape=box,color=blue];
-		2533 -> 2537;
-	2532 [label="“shawzin” çaldığını ve onun gitar gibi bir enstrüman olduğunu söylemiştin",shape=box,color=blue];
-		2532 -> 2536;
-	2531 [label="Check boolean FlareInstrumentTry",color=orange];
-		2531 -> 2535 [label=true,color=green];
-		2531 -> 2534 [label=false,color=brown];
-	2537 [label="ben... ah. ah, kıskandım. bunu beklemiyordum",shape=box,color=blue];
-		2537 -> 2542;
-	2536 [label="iizzie ve ben şarkıyı bestelememize yardım etmek ister misin diye merak ediyorduk",shape=box,color=blue];
-		2536 -> 2541;
-	2535 [label="biraz “shawzin” çaldığını ve onun gitar gibi bir enstrüman olduğunu söylemiştin",shape=box,color=blue];
-		2535 -> 2536;
-	2534 [label="merak ediyordum da gitar çalıyor musun?",shape=box,color=blue];
-		2534 -> 2538;
-		2534 -> 2539;
-		2534 -> 2540;
-	2542 [label="bundan hoşlandığımı söyleyemem ",shape=box,color=blue];
-		2542 -> 2545;
-	2541 [label="acele etmene gerek yok. kendi hızında çalışabilirsin",shape=box,color=blue];
-		2541 -> 2544;
-	2538 [label="Tam olarak çalabiliyorum diyemem. Deniyorum ama pek iyi değilim. Shawzin adlı bir enstrüman.",shape=box,color=red];
-		2538 -> 2536;
-	2539 [label="Evet çalıyorum. Shawzin adlı bir enstrüman.",shape=box,color=red];
-		2539 -> 2536;
-	2540 [label="Dürüst olmak gerekirse hayır.",shape=box,color=red];
-		2540 -> 2543;
-	2545 [label="*neyse* bu keşfi daha sonra açıklayacağım",shape=box,color=blue];
-		2545 -> 2536;
-	2544 [label="sana yardım etmek için etrafta olacak",shape=box,color=blue];
-		2544 -> 2546;
-		2544 -> 2547;
-	2543 [label="Bu Şeytana nasıl çalınacağını öğretebiliriz... Bu İblisin ellerinin vücudumuzda olması bizi çok heyecanlandırırdı... ;)",shape=box,color=blue];
-		2543 -> 2537;
-	2546 [label="Bana Lizzie'yi çalmamı mı teklif ediyorsun?",shape=box,color=red];
-		2546 -> 2548;
-	2547 [label="Yine de ona ihtiyacın olmayacak mı?",shape=box,color=red];
-		2547 -> 2549;
-	2548 [label="beni Çalmak İster Misin, Değerli İbliiis?",shape=box,color=blue];
-		2548 -> 2550;
-		2548 -> 2551;
-		2548 -> 2552;
-	2549 [label="endişelenme, Değerli İblis, Biz çok Fazlayız. Etrafta bizden çok var",shape=box,color=blue];
-		2549 -> 2553;
-	2550 [label="Sanırım pas geçeceğim ama yine de teşekkür ederim.",shape=box,color=red];
-		2550 -> 2554;
-	2551 [label="Kulağa harika geliyor, teşekkürler!",shape=box,color=red];
-		2551 -> 2555;
-	2552 [label="Çok isterim. :)",shape=box,color=red];
-		2552 -> 2555;
-	2553 [label="kısacası, ikisini de yapabileceğini söylüyor. açıkçası bu konuda çok fazla düşünmemeye çalışıyorum",shape=box,color=blue];
-		2553 -> 2556;
-	2554 [label="Bu İblis kafa karıştırıcı. Buraya kadar geldin ve sonra... bunu mu yaptın? ",shape=box,color=blue];
-		2554 -> 2557;
-	2555 [label="Update boolean LizzieShawzin",color=orange];
-		2555 -> 2558;
-	2556 [label="bunu yaptığımda biraz varoluşsal bir krize giriyorum",shape=box,color=blue];
-		2556 -> 2559;
-	2557 [label="Chat ends.",color=orange];
-	2558 [label="harika",shape=box,color=blue];
-		2558 -> 2560;
-	2559 [label="peki. lizzie ile şarkı bestelemeye yardım etmek ister misin? zaman zaman onu ödünç alabilirsin?",shape=box,color=blue];
-		2559 -> 2550;
-		2559 -> 2552;
-		2559 -> 2551;
-	2560 [label="ve, hey. eğer yeterince açık olmadıysa bu bir teşekkürdü. her şey için. bana ve lizzie'ye yardım ettiğin için, ve... gerçek bir arkadaş olduğun için",shape=box,color=blue];
-		2560 -> 2561;
-	2561 [label="bize ne zaman ihtiyacın olursa burada olacağız, uzay yolcusu",shape=box,color=blue];
-		2561 -> 2562;
-	2562 [label="Bizi nereye götürürse götürsün ;)",shape=box,color=blue];
-		2562 -> 2563;
-	2563 [label="Chat ends.",color=orange];
+		j2482095340 -> j2313078953;
+	j2359568290 [label="EVET, NE DÜŞÜNÜYORSUN? BU İBLİS BİZİMLE GURUR DUYUYOR MU? <RETRO_EMOJI_CAT>",shape=box,color=blue];
+		j2359568290 -> j1594299852;
+		j2359568290 -> j3591657395;
+		j2359568290 -> j3435459964;
+	j1594299852 [label="Bir On-lyne değil ama, hey. ;)",shape=box,color=red];
+		j1594299852 -> j1538705058;
+	j3591657395 [label="Vay canına. Bu harika, bayıldım!! ",shape=box,color=red];
+		j3591657395 -> j3316853710;
+	j3435459964 [label="Çok havalıydı!",shape=box,color=red];
+		j3435459964 -> j3316853710;
+	j1538705058 [label="evet evet, çok komik",shape=box,color=blue];
+		j1538705058 -> j2061928149;
+		j1538705058 -> j3116712788;
+	j3316853710 [label="yine mırıldanıyor. bunu bir müzik parçasına dönüştürmenin bir yolunu bulmalıyım",shape=box,color=blue];
+		j3316853710 -> j2061928149;
+		j3316853710 -> j3116712788;
+	j2061928149 [label="Peki, bundan sonra sırada ne var?",shape=box,color=red];
+		j2061928149 -> j2345945208;
+	j3116712788 [label="Müziği ne zaman besteleyeceğini düşünüyorsun?",shape=box,color=red];
+		j3116712788 -> j2345945208;
+	j2345945208 [label="aslında bu konuda bize yardımcı olabileceğini düşünmüştüm",shape=box,color=blue];
+		j2345945208 -> j3882418945;
+	j3882418945 [label="Check boolean FlareInstrumentNo",color=orange];
+		j3882418945 -> j3045117813 [label=true,color=green];
+		j3882418945 -> j4012652908 [label=false,color=brown];
+	j3045117813 [label="bir enstrüman çalmadığını söylediğini biliyorum",shape=box,color=blue];
+		j3045117813 -> j3400467885;
+	j4012652908 [label="Check boolean FlareInstrumentYes",color=orange];
+		j4012652908 -> j69869992 [label=true,color=green];
+		j4012652908 -> j2085529574 [label=false,color=brown];
+	j3400467885 [label="Bu İblise nasıl çalacağını öğretmeyi teklif ettik... Bu İblis'in ellerinin vücudumuzda olması için çok heyecanlıyız... ;)",shape=box,color=blue];
+		j3400467885 -> j569187450;
+	j69869992 [label="“shawzin” çaldığını ve onun gitar gibi bir enstrüman olduğunu söylemiştin",shape=box,color=blue];
+		j69869992 -> j229546935;
+	j2085529574 [label="Check boolean FlareInstrumentTry",color=orange];
+		j2085529574 -> j945237292 [label=true,color=green];
+		j2085529574 -> j1716539736 [label=false,color=brown];
+	j569187450 [label="ben... ah. ah, kıskandım. bunu beklemiyordum",shape=box,color=blue];
+		j569187450 -> j2201514447;
+	j229546935 [label="iizzie ve ben şarkıyı bestelememize yardım etmek ister misin diye merak ediyorduk",shape=box,color=blue];
+		j229546935 -> j1172717430;
+	j945237292 [label="biraz “shawzin” çaldığını ve onun gitar gibi bir enstrüman olduğunu söylemiştin",shape=box,color=blue];
+		j945237292 -> j229546935;
+	j1716539736 [label="merak ediyordum da gitar çalıyor musun?",shape=box,color=blue];
+		j1716539736 -> j3656336905;
+		j1716539736 -> j1929672960;
+		j1716539736 -> j1004958210;
+	j2201514447 [label="bundan hoşlandığımı söyleyemem ",shape=box,color=blue];
+		j2201514447 -> j3530625408;
+	j1172717430 [label="acele etmene gerek yok. kendi hızında çalışabilirsin",shape=box,color=blue];
+		j1172717430 -> j1400021015;
+	j3656336905 [label="Tam olarak çalabiliyorum diyemem. Deniyorum ama pek iyi değilim. Shawzin adlı bir enstrüman.",shape=box,color=red];
+		j3656336905 -> j229546935;
+	j1929672960 [label="Evet çalıyorum. Shawzin adlı bir enstrüman.",shape=box,color=red];
+		j1929672960 -> j229546935;
+	j1004958210 [label="Dürüst olmak gerekirse hayır.",shape=box,color=red];
+		j1004958210 -> j52306884;
+	j3530625408 [label="*neyse* bu keşfi daha sonra açıklayacağım",shape=box,color=blue];
+		j3530625408 -> j229546935;
+	j1400021015 [label="sana yardım etmek için etrafta olacak",shape=box,color=blue];
+		j1400021015 -> j3919663624;
+		j1400021015 -> j46399141;
+	j52306884 [label="Bu Şeytana nasıl çalınacağını öğretebiliriz... Bu İblisin ellerinin vücudumuzda olması bizi çok heyecanlandırırdı... ;)",shape=box,color=blue];
+		j52306884 -> j569187450;
+	j3919663624 [label="Bana Lizzie'yi çalmamı mı teklif ediyorsun?",shape=box,color=red];
+		j3919663624 -> j1842442522;
+	j46399141 [label="Yine de ona ihtiyacın olmayacak mı?",shape=box,color=red];
+		j46399141 -> j3547170551;
+	j1842442522 [label="beni Çalmak İster Misin, Değerli İbliiis?",shape=box,color=blue];
+		j1842442522 -> j1138689946;
+		j1842442522 -> j824672626;
+		j1842442522 -> j3480843319;
+	j3547170551 [label="endişelenme, Değerli İblis, Biz çok Fazlayız. Etrafta bizden çok var",shape=box,color=blue];
+		j3547170551 -> j3954319386;
+	j1138689946 [label="Sanırım pas geçeceğim ama yine de teşekkür ederim.",shape=box,color=red];
+		j1138689946 -> j710421233;
+	j824672626 [label="Kulağa harika geliyor, teşekkürler!",shape=box,color=red];
+		j824672626 -> j1610418023;
+	j3480843319 [label="Çok isterim. :)",shape=box,color=red];
+		j3480843319 -> j1610418023;
+	j3954319386 [label="kısacası, ikisini de yapabileceğini söylüyor. açıkçası bu konuda çok fazla düşünmemeye çalışıyorum",shape=box,color=blue];
+		j3954319386 -> j181237001;
+	j710421233 [label="Bu İblis kafa karıştırıcı. Buraya kadar geldin ve sonra... bunu mu yaptın? ",shape=box,color=blue];
+		j710421233 -> "Chat ends.";
+	j1610418023 [label="Boolean LizzieShawzin is now true.",color=orange];
+		j1610418023 -> j1113772783;
+	j181237001 [label="bunu yaptığımda biraz varoluşsal bir krize giriyorum",shape=box,color=blue];
+		j181237001 -> j4045869981;
+	j1113772783 [label="harika",shape=box,color=blue];
+		j1113772783 -> j3385289635;
+	j4045869981 [label="peki. lizzie ile şarkı bestelemeye yardım etmek ister misin? zaman zaman onu ödünç alabilirsin?",shape=box,color=blue];
+		j4045869981 -> j1138689946;
+		j4045869981 -> j3480843319;
+		j4045869981 -> j824672626;
+	j3385289635 [label="ve, hey. eğer yeterince açık olmadıysa bu bir teşekkürdü. her şey için. bana ve lizzie'ye yardım ettiğin için, ve... gerçek bir arkadaş olduğun için",shape=box,color=blue];
+		j3385289635 -> j2166318343;
+	j2166318343 [label="bize ne zaman ihtiyacın olursa burada olacağız, uzay yolcusu",shape=box,color=blue];
+		j2166318343 -> j2826130514;
+	j2826130514 [label="Bizi nereye götürürse götürsün ;)",shape=box,color=blue];
+		j2826130514 -> "Chat ends.";
 }

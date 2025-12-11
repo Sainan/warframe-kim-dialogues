@@ -1,76 +1,75 @@
 digraph {
-	2754 [label="LettieRank6Convo11 begins.",color=orange];
-		2754 -> 2755;
-	2755 [label="Check boolean LettieDating",color=orange];
-		2755 -> 2756 [label=true,color=green];
-		2755 -> 2757 [label=false,color=brown];
-	2756 [label="Check boolean LettieReal",color=orange];
-		2756 -> 2759 [label=true,color=green];
-		2756 -> 2758 [label=false,color=brown];
-	2757 [label="Camarada
+	"LettieRank6Convo11 begins." [color=orange];
+		"LettieRank6Convo11 begins." -> j273575157;
+	j273575157 [label="Check boolean LettieDating",color=orange];
+		j273575157 -> j4208389219 [label=true,color=green];
+		j273575157 -> j1572064386 [label=false,color=brown];
+	j4208389219 [label="Check boolean LettieReal",color=orange];
+		j4208389219 -> j4160418576 [label=true,color=green];
+		j4208389219 -> j3216384807 [label=false,color=brown];
+	j1572064386 [label="Camarada
 ¿Estás ahí?",shape=box,color=blue];
-		2757 -> 2760;
-		2757 -> 2761;
-	2759 [label="Corazón
+		j1572064386 -> j2926979012;
+		j1572064386 -> j2526989716;
+	j4160418576 [label="Corazón
 ¿Estás ahí?",shape=box,color=blue];
-		2759 -> 2760;
-		2759 -> 2761;
-	2758 [label="Solecito
+		j4160418576 -> j2926979012;
+		j4160418576 -> j2526989716;
+	j3216384807 [label="Solecito
 ¿Estás ahí?",shape=box,color=blue];
-		2758 -> 2761;
-		2758 -> 2760;
-	2760 [label="[Advertencia: Pérdida de mascota. Haz clic para terminar.]",shape=box,color=red];
-		2760 -> 2762;
-	2761 [label="¿Qué pasó?",shape=box,color=red];
-		2761 -> 2763;
-	2762 [label="Chat ends.",color=orange];
-	2763 [label="Es Neenah
+		j3216384807 -> j2526989716;
+		j3216384807 -> j2926979012;
+	j2926979012 [label="[Advertencia: Pérdida de mascota. Haz clic para terminar.]",shape=box,color=red];
+		j2926979012 -> "Chat ends.";
+	j2526989716 [label="¿Qué pasó?",shape=box,color=red];
+		j2526989716 -> j1145645172;
+	"Chat ends." [color=orange];
+	j1145645172 [label="Es Neenah
 Una de mis bebés
 Esta mañana, La Flaca se la llevó",shape=box,color=blue];
-		2763 -> 2764;
-		2763 -> 2765;
-	2764 [label="Bueno... una vez que el año se reinicie, ella regresará, ¿no?",shape=box,color=red];
-		2764 -> 2766;
-	2765 [label="Oh, no... Lettie, lo siento mucho. :(",shape=box,color=red];
-		2765 -> 2767;
-	2766 [label="Sí
+		j1145645172 -> j1746872574;
+		j1145645172 -> j1134423997;
+	j1746872574 [label="Bueno... una vez que el año se reinicie, ella regresará, ¿no?",shape=box,color=red];
+		j1746872574 -> j1757010678;
+	j1134423997 [label="Oh, no... Lettie, lo siento mucho. :(",shape=box,color=red];
+		j1134423997 -> j993419154;
+	j1757010678 [label="Sí
 Lo hará
 Pero no cambia el hecho de que la naturaleza de la vida
 Es corta",shape=box,color=blue];
-		2766 -> 2768;
-	2767 [label="Gracias
+		j1757010678 -> j3170683584;
+	j993419154 [label="Gracias
 Pero esa es la naturaleza de la vida
 Es corta",shape=box,color=blue];
-		2767 -> 2768;
-	2768 [label="La vida de las ratas es corta para las personas
+		j993419154 -> j3170683584;
+	j3170683584 [label="La vida de las ratas es corta para las personas
 La vida de las personas es corta para los árboles
 La vida de los árboles es corta para los dioses",shape=box,color=blue];
-		2768 -> 2769;
-	2769 [label="Y la vida de los insectos es corta para las ratas
+		j3170683584 -> j139049157;
+	j139049157 [label="Y la vida de los insectos es corta para las ratas
 Todo es relativo
 Y nosotros solo seguimos reiniciándonos, ¿no es así? jajaja",shape=box,color=blue];
-		2769 -> 2770;
-	2770 [label="Supongo que somos lo que Amir llama \"casos extremos\"
+		j139049157 -> j3317534898;
+	j3317534898 [label="Supongo que somos lo que Amir llama \"casos extremos\"
 O lo que sea",shape=box,color=blue];
-		2770 -> 2771;
-		2770 -> 2772;
-	2771 [label="¿A dónde quieres llegar con esto?",shape=box,color=red];
-		2771 -> 2773;
-	2772 [label="¿Entonces no estás enojada?",shape=box,color=red];
-		2772 -> 2774;
-	2773 [label="Dejar de hacerme mensa y hacer las cosas, jajaja
+		j3317534898 -> j4075840587;
+		j3317534898 -> j2713150497;
+	j4075840587 [label="¿A dónde quieres llegar con esto?",shape=box,color=red];
+		j4075840587 -> j496579728;
+	j2713150497 [label="¿Entonces no estás enojada?",shape=box,color=red];
+		j2713150497 -> j3431439461;
+	j496579728 [label="Dejar de hacerme mensa y hacer las cosas, jajaja
 Supongo que lo que estoy diciendo
 Es que necesitamos recordar vivir el momento",shape=box,color=blue];
-		2773 -> 2775;
-	2774 [label="Por supuesto que sí
+		j496579728 -> j3449667063;
+	j3431439461 [label="Por supuesto que sí
 Supongo que lo que estoy diciendo
 Es que necesitamos recordar vivir el momento",shape=box,color=blue];
-		2774 -> 2775;
-	2775 [label="Es por eso que tengo a las ratas en primer lugar
+		j3431439461 -> j3449667063;
+	j3449667063 [label="Es por eso que tengo a las ratas en primer lugar
 Sus vidas son cortas pero ellas nunca olvidan vivirlas
 Para encontrar alegría en cada migaja que puedan
 Y devolver cada gramo de amor que se les ha dado
 Nunca saben cuándo se les acabará",shape=box,color=blue];
-		2775 -> 2776;
-	2776 [label="Chat ends.",color=orange];
+		j3449667063 -> "Chat ends.";
 }

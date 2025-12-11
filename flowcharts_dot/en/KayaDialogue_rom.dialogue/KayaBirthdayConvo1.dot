@@ -1,17 +1,16 @@
 digraph {
-	987 [label="KayaBirthdayConvo1 begins.",color=orange];
-		987 -> 999;
-		987 -> 1000;
-	999 [label="Hey, Kaya. Happy birthday!",shape=box,color=red];
-		999 -> 1005;
-	1000 [label="Happy birthday, Kaya. How's it feel to be older?",shape=box,color=red];
-		1000 -> 1006;
-	1005 [label="+20 Chemistry",color=orange];
-		1005 -> 988;
-	1006 [label="I'm not though am I? none of us are. we're just going round and round this carousel like pretty ponies all on fire and screaming",shape=box,color=blue];
-		1006 -> 1007;
-	988 [label="whoa you remembered? I mean birthdays are NBD once you're past like 8 but that's kinda sweet of you, thanks",shape=box,color=blue];
-		988 -> 989;
-	1007 [label="Chat ends.",color=orange];
-	989 [label="Chat ends.",color=orange];
+	"KayaBirthdayConvo1 begins." [color=orange];
+		"KayaBirthdayConvo1 begins." -> j1291730042;
+		"KayaBirthdayConvo1 begins." -> j1396149165;
+	j1291730042 [label="Hey, Kaya. Happy birthday!",shape=box,color=red];
+		j1291730042 -> j671655326;
+	j1396149165 [label="Happy birthday, Kaya. How's it feel to be older?",shape=box,color=red];
+		j1396149165 -> j69222730;
+	j671655326 [label="+20 Chemistry",color=orange];
+		j671655326 -> j2449211732;
+	j69222730 [label="I'm not though am I? none of us are. we're just going round and round this carousel like pretty ponies all on fire and screaming",shape=box,color=blue];
+		j69222730 -> "Chat ends.";
+	j2449211732 [label="whoa you remembered? I mean birthdays are NBD once you're past like 8 but that's kinda sweet of you, thanks",shape=box,color=blue];
+		j2449211732 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

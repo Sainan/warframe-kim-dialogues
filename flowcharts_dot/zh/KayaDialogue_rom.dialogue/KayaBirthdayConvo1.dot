@@ -1,17 +1,16 @@
 digraph {
-	987 [label="KayaBirthdayConvo1 begins.",color=orange];
-		987 -> 999;
-		987 -> 1000;
-	999 [label="嘿，卡娅。生日快乐！",shape=box,color=red];
-		999 -> 1005;
-	1000 [label="生日快乐，卡娅。又变老了一岁感觉怎么样？",shape=box,color=red];
-		1000 -> 1006;
-	1005 [label="+20 Chemistry",color=orange];
-		1005 -> 988;
-	1006 [label="我并没有变老不是吗？我们都没有。我们就像一只只在旋转木马上的小马，一边着火一边尖叫着",shape=box,color=blue];
-		1006 -> 1007;
-	988 [label="哇，你还记得？我是说 8 岁以后生日就没什么大不了的，但你还是挺贴心的，谢谢",shape=box,color=blue];
-		988 -> 989;
-	1007 [label="Chat ends.",color=orange];
-	989 [label="Chat ends.",color=orange];
+	"KayaBirthdayConvo1 begins." [color=orange];
+		"KayaBirthdayConvo1 begins." -> j2212276787;
+		"KayaBirthdayConvo1 begins." -> j3544438764;
+	j2212276787 [label="嘿，卡娅。生日快乐！",shape=box,color=red];
+		j2212276787 -> j3045629230;
+	j3544438764 [label="生日快乐，卡娅。又变老了一岁感觉怎么样？",shape=box,color=red];
+		j3544438764 -> j645341584;
+	j3045629230 [label="+20 Chemistry",color=orange];
+		j3045629230 -> j352511247;
+	j645341584 [label="我并没有变老不是吗？我们都没有。我们就像一只只在旋转木马上的小马，一边着火一边尖叫着",shape=box,color=blue];
+		j645341584 -> "Chat ends.";
+	j352511247 [label="哇，你还记得？我是说 8 岁以后生日就没什么大不了的，但你还是挺贴心的，谢谢",shape=box,color=blue];
+		j352511247 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

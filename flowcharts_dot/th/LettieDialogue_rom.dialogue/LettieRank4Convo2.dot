@@ -1,133 +1,127 @@
 digraph {
-	1031 [label="LettieRank4Convo2 begins.",color=orange];
-		1031 -> 1032;
-	1032 [label="เล่าเกี่ยวกับเทพชั่วร้ายที่เธอปลดปล่อยออกมาหน่อยสิ 
+	"LettieRank4Convo2 begins." [color=orange];
+		"LettieRank4Convo2 begins." -> j2766734148;
+	j2766734148 [label="เล่าเกี่ยวกับเทพชั่วร้ายที่เธอปลดปล่อยออกมาหน่อยสิ 
 Xipe Totec ของเธอน่ะ เทพที่ถูกถลกหนัง 
 เขาต้องการอะไร",shape=box,color=blue];
-		1032 -> 1034;
-	1034 [label="Check boolean LettieReligion2",color=orange];
-		1034 -> 1040 [label=true,color=green];
-		1034 -> 1041 [label=true,color=green];
-		1034 -> 1039 [label=true,color=green];
-		1034 -> 1043 [label=true,color=green];
-		1034 -> 1035 [label=false,color=brown];
-		1034 -> 1043 [label=false,color=brown];
-	1040 [label="อิสรภาพ... มั้ง",shape=box,color=red];
-		1040 -> 1042;
-	1041 [label="ความรู้... มั้ง",shape=box,color=red];
-		1041 -> 1042;
-	1039 [label="ข้าไม่รู้",shape=box,color=red];
-		1039 -> 1045;
-	1043 [label="เดี๋ยวมานะ [จบ]",shape=box,color=red];
-		1043 -> 1044;
-	1035 [label="ห๊ะ? กำลังพูดเรื่องอะไรอยู่?",shape=box,color=red];
-		1035 -> 1036;
-	1042 [label="เธอคิดแบบนั้นแต่จริง ๆ ก็ไม่รู้ 
+		j2766734148 -> j1356677054;
+	j1356677054 [label="Check boolean LettieReligion2",color=orange];
+		j1356677054 -> j3322124583 [label=true,color=green];
+		j1356677054 -> j2704594776 [label=true,color=green];
+		j1356677054 -> j903699622 [label=true,color=green];
+		j1356677054 -> j1461461899 [label=true,color=green];
+		j1356677054 -> j3414506826 [label=false,color=brown];
+		j1356677054 -> j1461461899 [label=false,color=brown];
+	j3322124583 [label="อิสรภาพ... มั้ง",shape=box,color=red];
+		j3322124583 -> j1568041861;
+	j2704594776 [label="ความรู้... มั้ง",shape=box,color=red];
+		j2704594776 -> j1568041861;
+	j903699622 [label="ข้าไม่รู้",shape=box,color=red];
+		j903699622 -> j510299818;
+	j1461461899 [label="เดี๋ยวมานะ [จบ]",shape=box,color=red];
+		j1461461899 -> "Chat ends.";
+	j3414506826 [label="ห๊ะ? กำลังพูดเรื่องอะไรอยู่?",shape=box,color=red];
+		j3414506826 -> j2961482113;
+	j1568041861 [label="เธอคิดแบบนั้นแต่จริง ๆ ก็ไม่รู้ 
 เพราะแรงจูงใจไม่ชัดเจน 
 แต่ก็ยังคิดว่ามันเป็นศัตรู ¿Por qué?",shape=box,color=blue];
-		1042 -> 1046;
-		1042 -> 1047;
-	1045 [label="แต่เธอทำกับเขาเหมือนเป็นศัตรู 
+		j1568041861 -> j1115939977;
+		j1568041861 -> j1252528872;
+	j510299818 [label="แต่เธอทำกับเขาเหมือนเป็นศัตรู 
 แม้จะไม่รู้ว่าเขาต้องการอะไร 
 ¿Por qué?",shape=box,color=blue];
-		1045 -> 1046;
-		1045 -> 1047;
-	1044 [label="Chat ends.",color=orange];
-	1036 [label="ก็สิ่งมีชีวิตในวอยด์ที่สังเวยผู้อื่นและสวมผิวหนังของพวกเขาเหมือนกับเทพเจ้าที่ถูกถลกหนังในสมัยโบราณไง Xipe Totec",shape=box,color=blue];
-		1036 -> 1037;
-	1046 [label="ไอ้สิ่งนั้นตัดสินใจเอาเองว่ามันคงเป็นการทดลองที่สนุกที่จะให้พ่อแม่บน Zariman หันมาทำร้ายลูก ๆ ตัวเอง",shape=box,color=red];
-		1046 -> 1048;
-	1047 [label="สิ่งที่มันทำคือทิ้งความตายและการทำลายล้างไว้เบื้องหลัง ไม่ว่าแรงจูงใจของมันจะเป็นอะไร มันก็ไม่สำคัญหรอก เชื่อข้าเถอะ",shape=box,color=red];
-		1047 -> 1049;
-	1037 [label="Update boolean LettieReligion2",color=orange];
-		1037 -> 1038;
-	1048 [label="แล้วจึงมอบพลังเวทย์มนตร์จากวอยด์ให้กับเด็ก ๆ เพื่อให้ฆ่าพ่อแม่ของตัวเอง เพื่อที่มันจะได้เรียนรู้จากการเข่นฆ่าที่เกิดขึ้นนั่น",shape=box,color=red];
-		1048 -> 1050;
-		1048 -> 1051;
-	1049 [label="ไม่ 
+		j510299818 -> j1115939977;
+		j510299818 -> j1252528872;
+	"Chat ends." [color=orange];
+	j2961482113 [label="ก็สิ่งมีชีวิตในวอยด์ที่สังเวยผู้อื่นและสวมผิวหนังของพวกเขาเหมือนกับเทพเจ้าที่ถูกถลกหนังในสมัยโบราณไง Xipe Totec",shape=box,color=blue];
+		j2961482113 -> j2079407981;
+	j1115939977 [label="ไอ้สิ่งนั้นตัดสินใจเอาเองว่ามันคงเป็นการทดลองที่สนุกที่จะให้พ่อแม่บน Zariman หันมาทำร้ายลูก ๆ ตัวเอง",shape=box,color=red];
+		j1115939977 -> j602730404;
+	j1252528872 [label="สิ่งที่มันทำคือทิ้งความตายและการทำลายล้างไว้เบื้องหลัง ไม่ว่าแรงจูงใจของมันจะเป็นอะไร มันก็ไม่สำคัญหรอก เชื่อข้าเถอะ",shape=box,color=red];
+		j1252528872 -> j3227372884;
+	j2079407981 [label="Boolean LettieReligion2 is now true.",color=orange];
+		j2079407981 -> j2242043724;
+	j602730404 [label="แล้วจึงมอบพลังเวทย์มนตร์จากวอยด์ให้กับเด็ก ๆ เพื่อให้ฆ่าพ่อแม่ของตัวเอง เพื่อที่มันจะได้เรียนรู้จากการเข่นฆ่าที่เกิดขึ้นนั่น",shape=box,color=red];
+		j602730404 -> j806514179;
+		j602730404 -> j3115713382;
+	j3227372884 [label="ไม่ 
 เชื่อเถอะว่าเธอไม่เข้าใจความคิดของเทพเจ้าหรอก 
 ท่านไม่สนว่าเธอจะอายุเท่าไหร่ 
 หรือได้เห็นอะไรมามากมายแค่ไหน",shape=box,color=blue];
-		1049 -> 1052;
-	1038 [label="เขาต้องการอะไร",shape=box,color=blue];
-		1038 -> 1040;
-		1038 -> 1041;
-		1038 -> 1039;
-	1050 [label="มันมีโอกาสที่จะเรียนรู้จากความรัก จากการเสียสละ และจากความเมตตา แต่ดันเลือกหาความสับสนวุ่นวายและการฆ่าฟันแทน",shape=box,color=red];
-		1050 -> 1060;
-	1051 [label="แม้จะเป็นเพียงเด็กวัยเตาะแตะที่เล่นของเล่นเพื่อทำความเข้าใจโลกรอบตัว แต่เราคือของเล่นเหล่านั้น เราต้องหยุดมัน",shape=box,color=red];
-		1051 -> 1061;
-	1052 [label="Check boolean LettieEntrati",color=orange];
-		1052 -> 1053 [label=true,color=green];
-		1052 -> 1056 [label=false,color=brown];
-	1060 [label="ข้ายังคงหวังว่ามันจะไม่ใช่ศัตรู แต่... มันไม่ได้ทำให้ข้ามีเหตุผลอะไรเลยที่จะคิดว่ามันไม่ใช่",shape=box,color=red];
-		1060 -> 1062;
-	1061 [label="ข้าขอไม่เชื่อว่ามันเป็นเรื่องปกติหลังจากที่ได้เห็นอะไรมามากมาย หลังจากสิ่งที่มันทำกับข้า",shape=box,color=red];
-		1061 -> 1062;
-	1053 [label="เธอไม่ใช่เทพเจ้า 
+		j3227372884 -> j2154935428;
+	j2242043724 [label="เขาต้องการอะไร",shape=box,color=blue];
+		j2242043724 -> j3322124583;
+		j2242043724 -> j2704594776;
+		j2242043724 -> j903699622;
+	j806514179 [label="มันมีโอกาสที่จะเรียนรู้จากความรัก จากการเสียสละ และจากความเมตตา แต่ดันเลือกหาความสับสนวุ่นวายและการฆ่าฟันแทน",shape=box,color=red];
+		j806514179 -> j3718820391;
+	j3115713382 [label="แม้จะเป็นเพียงเด็กวัยเตาะแตะที่เล่นของเล่นเพื่อทำความเข้าใจโลกรอบตัว แต่เราคือของเล่นเหล่านั้น เราต้องหยุดมัน",shape=box,color=red];
+		j3115713382 -> j2157117954;
+	j2154935428 [label="Check boolean LettieEntrati",color=orange];
+		j2154935428 -> j3201824031 [label=true,color=green];
+		j2154935428 -> j2834367091 [label=false,color=brown];
+	j3718820391 [label="ข้ายังคงหวังว่ามันจะไม่ใช่ศัตรู แต่... มันไม่ได้ทำให้ข้ามีเหตุผลอะไรเลยที่จะคิดว่ามันไม่ใช่",shape=box,color=red];
+		j3718820391 -> j2084300460;
+	j2157117954 [label="ข้าขอไม่เชื่อว่ามันเป็นเรื่องปกติหลังจากที่ได้เห็นอะไรมามากมาย หลังจากสิ่งที่มันทำกับข้า",shape=box,color=red];
+		j2157117954 -> j2084300460;
+	j3201824031 [label="เธอไม่ใช่เทพเจ้า 
 อย่าแสร้งทำเป็นว่าคิดเหมือนเทพเจ้า 
 ไม่งั้นก็ไม่มีต่างอะไรกับไอ้ Entrati cabrón นั่นหรอก",shape=box,color=blue];
-		1053 -> 1059;
-	1056 [label="Check boolean LettieOrokin",color=orange];
-		1056 -> 1054 [label=true,color=green];
-		1056 -> 1055 [label=false,color=brown];
-	1062 [label="แล้วเธอคิดว่าตัวเองจะหยุดเทพเจ้าได้",shape=box,color=blue];
-		1062 -> 1063;
-	1059 [label="Chat ends.",color=orange];
-	1054 [label="เธอไม่ใช่เทพเจ้า babas 
+		j3201824031 -> "Chat ends.";
+	j2834367091 [label="Check boolean LettieOrokin",color=orange];
+		j2834367091 -> j54844325 [label=true,color=green];
+		j2834367091 -> j2971380044 [label=false,color=brown];
+	j2084300460 [label="แล้วเธอคิดว่าตัวเองจะหยุดเทพเจ้าได้",shape=box,color=blue];
+		j2084300460 -> j1724044313;
+	j54844325 [label="เธอไม่ใช่เทพเจ้า babas 
 อย่าแสร้งทำเป็นว่าคิดเหมือนเทพเจ้า 
 ไม่งั้นก็ไม่มีต่างอะไรกับไอ้ orokin cabrones นั่นหรอก",shape=box,color=blue];
-		1054 -> 1057;
-	1055 [label="เธอไม่ใช่เทพเจ้า babas 
+		j54844325 -> "Chat ends.";
+	j2971380044 [label="เธอไม่ใช่เทพเจ้า babas 
 อย่าแสร้งทำเป็นว่าคิดเหมือนเทพเจ้า",shape=box,color=blue];
-		1055 -> 1058;
-	1063 [label="Update boolean LettieReligion4",color=orange];
-		1063 -> 1064;
-	1057 [label="Chat ends.",color=orange];
-	1058 [label="Chat ends.",color=orange];
-	1064 [label="Check boolean ReligionNone",color=orange];
-		1064 -> 1065 [label=true,color=green];
-		1064 -> 1066 [label=true,color=green];
-		1064 -> 1067 [label=true,color=green];
-		1064 -> 1068 [label=false,color=brown];
-	1065 [label="ไม่รู้ดิ ข้ามักพูดอะไรเกินจริงอยู่แล้ว ฮ่าๆ",shape=box,color=red];
-		1065 -> 1071;
-	1066 [label="คิดว่าน่าจะทำได้นะ เหมือนที่ทำกับที่นี่ไง และนั่นคือสิ่งเดียวที่เราทุกคนสามารถทำได้",shape=box,color=red];
-		1066 -> 1069;
-	1067 [label="ก็คงขึ้นอยู่กับคนอื่นแล้ว เพราะตอนนี้ที่ของข้าคือที่นี่ในปี 1999 กับพวกเจ้าทุกคน",shape=box,color=red];
-		1067 -> 1074;
-	1068 [label="ข้ามีศรัทธา",shape=box,color=red];
-		1068 -> 1070;
-	1071 [label="+20 Chemistry",color=orange];
-		1071 -> 1072;
-	1069 [label="+20 Chemistry",color=orange];
-		1069 -> 1073;
-	1074 [label="Estás bromeando, ¿verdad? 
+		j2971380044 -> "Chat ends.";
+	j1724044313 [label="Boolean LettieReligion4 is now true.",color=orange];
+		j1724044313 -> j4029075512;
+	j4029075512 [label="Check boolean ReligionNone",color=orange];
+		j4029075512 -> j1378938688 [label=true,color=green];
+		j4029075512 -> j1697717724 [label=true,color=green];
+		j4029075512 -> j3872102441 [label=true,color=green];
+		j4029075512 -> j652461603 [label=false,color=brown];
+	j1378938688 [label="ไม่รู้ดิ ข้ามักพูดอะไรเกินจริงอยู่แล้ว ฮ่าๆ",shape=box,color=red];
+		j1378938688 -> j1793504982;
+	j1697717724 [label="คิดว่าน่าจะทำได้นะ เหมือนที่ทำกับที่นี่ไง และนั่นคือสิ่งเดียวที่เราทุกคนสามารถทำได้",shape=box,color=red];
+		j1697717724 -> j1690060505;
+	j3872102441 [label="ก็คงขึ้นอยู่กับคนอื่นแล้ว เพราะตอนนี้ที่ของข้าคือที่นี่ในปี 1999 กับพวกเจ้าทุกคน",shape=box,color=red];
+		j3872102441 -> j2895182616;
+	j652461603 [label="ข้ามีศรัทธา",shape=box,color=red];
+		j652461603 -> j3820427985;
+	j1793504982 [label="+20 Chemistry",color=orange];
+		j1793504982 -> j1155364030;
+	j1690060505 [label="+20 Chemistry",color=orange];
+		j1690060505 -> j3831831495;
+	j2895182616 [label="Estás bromeando, ¿verdad? 
 ทันทีที่พวกเขาโทรเรียก เธอก็จะวิ่งแจ้นไป 
 เธอเป็นนักพเนจร เป็นทหาร ยังไงก็ต้องไปช่วยอนาคตเมื่อพวกเขาต้องการ",shape=box,color=blue];
-		1074 -> 1075;
-	1070 [label="+20 Chemistry",color=orange];
-		1070 -> 1076;
-	1072 [label="Jaja, sí 
+		j2895182616 -> j1988062515;
+	j3820427985 [label="+20 Chemistry",color=orange];
+		j3820427985 -> j1351188701;
+	j1155364030 [label="Jaja, sí 
 ฉันเข้าใจความรู้สึกนั้นดี 
 ขอบใจที่พูดตรง ๆ นะ babas 
 ดูเหมือนจะได้ผลกับตัวเธอ เพราะงั้นฉันจะไม่ตัดสินอะไร",shape=box,color=blue];
-		1072 -> 1078;
-	1073 [label="Sí 
+		j1155364030 -> "Chat ends.";
+	j3831831495 [label="Sí 
 สิ่งเดียวที่เราพอจะขอได้",shape=box,color=blue];
-		1073 -> 1079;
-	1075 [label="เราติดอยู่ที่นี่ 
+		j3831831495 -> "Chat ends.";
+	j1988062515 [label="เราติดอยู่ที่นี่ 
 อย่าโกหก หรือบอกว่าจะพาฉันไปเดินเล่นเลย babas 
 สักวันเธอจะหนีออกไปและไม่มีวันกลับมาอีก",shape=box,color=blue];
-		1075 -> 1080;
-	1076 [label="Ay, sí 
+		j1988062515 -> j1464801759;
+	j1351188701 [label="Ay, sí 
 คิดว่าคงเป็นศรัทธาในสิ่งที่ไม่สำคัญ 
 ตราบเท่าที่มันทำให้เธอผ่านพ้นไปได้",shape=box,color=blue];
-		1076 -> 1077;
-	1078 [label="Chat ends.",color=orange];
-	1079 [label="Chat ends.",color=orange];
-	1080 [label="Update boolean LettieEscape",color=orange];
-		1080 -> 1081;
-	1077 [label="Chat ends.",color=orange];
-	1081 [label="Chat ends. Next chat will be LettieEscape.",color=orange];
+		j1351188701 -> "Chat ends.";
+	j1464801759 [label="Boolean LettieEscape is now true.",color=orange];
+		j1464801759 -> "Chat ends. Next chat will be LettieEscape.";
+	"Chat ends. Next chat will be LettieEscape." [color=orange];
 }

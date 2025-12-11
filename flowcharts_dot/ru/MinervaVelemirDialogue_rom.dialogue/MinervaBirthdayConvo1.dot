@@ -1,19 +1,18 @@
 digraph {
-	1768 [label="MinervaBirthdayConvo1 begins.",color=orange];
-		1768 -> 1769;
-		1768 -> 1770;
-	1769 [label="Делаешь сегодня что-нибудь особенное? ",shape=box,color=red];
-		1769 -> 1771;
-	1770 [label="С Днем Рождения!! Ты, должно быть, взволнована.",shape=box,color=red];
-		1770 -> 1772;
-	1771 [label="MomToxicated: Элеонора и остальные дамы пообещали мне \"ночь, которую я точно забуду\".",shape=box,color=blue];
-		1771 -> 1773;
-	1772 [label="MomToxicated: В какой-то момент дни рождения перестают радовать, но я ценю твой оптимизм.",shape=box,color=blue];
-		1772 -> 1774;
-	1773 [label="+20 Chemistry",color=orange];
-		1773 -> 1775;
-	1774 [label="Chat ends.",color=orange];
-	1775 [label="MomToxicated: И я не мог быть более взволнована.",shape=box,color=blue];
-		1775 -> 1776;
-	1776 [label="Chat ends.",color=orange];
+	"MinervaBirthdayConvo1 begins." [color=orange];
+		"MinervaBirthdayConvo1 begins." -> j2754581554;
+		"MinervaBirthdayConvo1 begins." -> j2787508897;
+	j2754581554 [label="Делаешь сегодня что-нибудь особенное? ",shape=box,color=red];
+		j2754581554 -> j714769968;
+	j2787508897 [label="С Днем Рождения!! Ты, должно быть, взволнована.",shape=box,color=red];
+		j2787508897 -> j360852137;
+	j714769968 [label="MomToxicated: Элеонора и остальные дамы пообещали мне \"ночь, которую я точно забуду\".",shape=box,color=blue];
+		j714769968 -> j1486586543;
+	j360852137 [label="MomToxicated: В какой-то момент дни рождения перестают радовать, но я ценю твой оптимизм.",shape=box,color=blue];
+		j360852137 -> "Chat ends.";
+	j1486586543 [label="+20 Chemistry",color=orange];
+		j1486586543 -> j3886297295;
+	"Chat ends." [color=orange];
+	j3886297295 [label="MomToxicated: И я не мог быть более взволнована.",shape=box,color=blue];
+		j3886297295 -> "Chat ends.";
 }

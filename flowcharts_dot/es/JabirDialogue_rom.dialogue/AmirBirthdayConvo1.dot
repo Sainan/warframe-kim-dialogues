@@ -1,21 +1,16 @@
 digraph {
-	3564 [label="AmirBirthdayConvo1 begins.",color=orange];
-		3564 -> 3565;
-		3564 -> 3566;
-	3565 [label="¡Amir! ¡Has completado con éxito otra vuelta alrededor de Sol! ¡Felicidades!",shape=box,color=red];
-		3565 -> 3567;
-	3566 [label="¡Es tu cumpleaños, Amir! ¿Quizás sea un buen momento para madurar un poco?",shape=box,color=red];
-		3566 -> 3568;
-	3567 [label="+20 Chemistry",color=orange];
-		3567 -> 3569;
-	3568 [label="¡¡¡DIOS MÍO!!! ¡No puedo creer que hayas dejado algo por ahí, donde mi niño interior podría leerlo! ¿¡ALGUIEN QUIERE PENSAR EN LOS NIÑOS?!",shape=box,color=blue];
-		3568 -> 3595;
-	3569 [label="¡Oh, AWW! ¡gracias, pero no fue nada! el planeta hizo la mayor parte del trabajo duro, yo solo estuve ahí para acompañarlo",shape=box,color=blue];
-		3569 -> 3594;
-	3595 [label="{\"Id\":3595,\"Incoming\":[3568],\"Outgoing\":[3571],\"GraphPos\":[-14760,-21632],\"CompletionType\":1}",color=orange];
-		3595 -> 3571;
-	3594 [label="{\"Id\":3594,\"Incoming\":[3569],\"Outgoing\":[3570],\"GraphPos\":[-14377,-21757],\"CompletionType\":1}",color=orange];
-		3594 -> 3570;
-	3571 [label="Chat ends.",color=orange];
-	3570 [label="Chat ends.",color=orange];
+	"AmirBirthdayConvo1 begins." [color=orange];
+		"AmirBirthdayConvo1 begins." -> j2450389179;
+		"AmirBirthdayConvo1 begins." -> j345220271;
+	j2450389179 [label="¡Amir! ¡Has completado con éxito otra vuelta alrededor de Sol! ¡Felicidades!",shape=box,color=red];
+		j2450389179 -> j62373689;
+	j345220271 [label="¡Es tu cumpleaños, Amir! ¿Quizás sea un buen momento para madurar un poco?",shape=box,color=red];
+		j345220271 -> j2531882787;
+	j62373689 [label="+20 Chemistry",color=orange];
+		j62373689 -> j1049883127;
+	j2531882787 [label="¡¡¡DIOS MÍO!!! ¡No puedo creer que hayas dejado algo por ahí, donde mi niño interior podría leerlo! ¿¡ALGUIEN QUIERE PENSAR EN LOS NIÑOS?!",shape=box,color=blue];
+		j2531882787 -> "Chat ends.";
+	j1049883127 [label="¡Oh, AWW! ¡gracias, pero no fue nada! el planeta hizo la mayor parte del trabajo duro, yo solo estuve ahí para acompañarlo",shape=box,color=blue];
+		j1049883127 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

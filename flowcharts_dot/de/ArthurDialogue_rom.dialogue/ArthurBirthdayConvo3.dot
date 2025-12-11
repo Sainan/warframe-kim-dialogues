@@ -1,21 +1,16 @@
 digraph {
-	3192 [label="ArthurBirthdayConvo3 begins.",color=orange];
-		3192 -> 3210;
-		3192 -> 3212;
-	3210 [label="Hey. Ich wollte dir nur alles Gute zum Geburtstag wünschen. Ich bin froh, dass ich das erleben kann.",shape=box,color=red];
-		3210 -> 3211;
-	3212 [label="Herzlichen Glückwunsch zum Geburtstag. Gib dir heute besonders viel Mühe, nicht zu sterben. Das würde die Stimmung verderben.",shape=box,color=red];
-		3212 -> 3207;
-	3211 [label="+20 Chemistry",color=orange];
-		3211 -> 3209;
-	3207 [label="Okay, ich weiß, dass du viel durchgemacht hast, aber für Galgenhumor ist hier gerade nicht angesagt.",shape=box,color=blue];
-		3207 -> 3000;
-	3209 [label="Es war manchmal schon ziemlich knapp, oder? Danke, dass du mir den Rücken freihältst. Heute und an jedem anderen Tag.",shape=box,color=blue];
-		3209 -> 3225;
-	3000 [label="{\"Id\":3000,\"Incoming\":[3207],\"Outgoing\":[3208],\"GraphPos\":[-30902,-13388],\"CompletionType\":1}",color=orange];
-		3000 -> 3208;
-	3225 [label="{\"Id\":3225,\"Incoming\":[3209],\"Outgoing\":[3213],\"GraphPos\":[-30899,-13547],\"CompletionType\":1}",color=orange];
-		3225 -> 3213;
-	3208 [label="Chat ends.",color=orange];
-	3213 [label="Chat ends.",color=orange];
+	"ArthurBirthdayConvo3 begins." [color=orange];
+		"ArthurBirthdayConvo3 begins." -> j2246679138;
+		"ArthurBirthdayConvo3 begins." -> j3871632717;
+	j2246679138 [label="Hey. Ich wollte dir nur alles Gute zum Geburtstag wünschen. Ich bin froh, dass ich das erleben kann.",shape=box,color=red];
+		j2246679138 -> j916901742;
+	j3871632717 [label="Herzlichen Glückwunsch zum Geburtstag. Gib dir heute besonders viel Mühe, nicht zu sterben. Das würde die Stimmung verderben.",shape=box,color=red];
+		j3871632717 -> j1699148138;
+	j916901742 [label="+20 Chemistry",color=orange];
+		j916901742 -> j3538790715;
+	j1699148138 [label="Okay, ich weiß, dass du viel durchgemacht hast, aber für Galgenhumor ist hier gerade nicht angesagt.",shape=box,color=blue];
+		j1699148138 -> "Chat ends.";
+	j3538790715 [label="Es war manchmal schon ziemlich knapp, oder? Danke, dass du mir den Rücken freihältst. Heute und an jedem anderen Tag.",shape=box,color=blue];
+		j3538790715 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

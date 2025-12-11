@@ -1,24 +1,19 @@
 digraph {
-	2500 [label="LettieBirthdayConvo2 begins.",color=orange];
-		2500 -> 2513;
-		2500 -> 2507;
-	2513 [label="生日快乐！我相信医疗帐篷里的每个人都会感谢你的付出。:)",shape=box,color=red];
-		2513 -> 2511;
-	2507 [label="生日快乐，莱蒂！你今天休假吗？或者至少可以坐下来歇会儿？",shape=box,color=red];
-		2507 -> 2505;
-	2511 [label="Sí
+	"LettieBirthdayConvo2 begins." [color=orange];
+		"LettieBirthdayConvo2 begins." -> j1110863787;
+		"LettieBirthdayConvo2 begins." -> j1834094629;
+	j1110863787 [label="生日快乐！我相信医疗帐篷里的每个人都会感谢你的付出。:)",shape=box,color=red];
+		j1110863787 -> j305547479;
+	j1834094629 [label="生日快乐，莱蒂！你今天休假吗？或者至少可以坐下来歇会儿？",shape=box,color=red];
+		j1834094629 -> j2805208925;
+	j305547479 [label="Sí
 当然",shape=box,color=blue];
-		2511 -> 2518;
-	2505 [label="+20 Chemistry",color=orange];
-		2505 -> 2502;
-	2518 [label="{\"Id\":2518,\"Incoming\":[2511],\"Outgoing\":[2515],\"GraphPos\":[771,-1070],\"CompletionType\":1}",color=orange];
-		2518 -> 2515;
-	2502 [label="哈哈！
+		j305547479 -> "Chat ends.";
+	j2805208925 [label="+20 Chemistry",color=orange];
+		j2805208925 -> j3114698334;
+	"Chat ends." [color=orange];
+	j3114698334 [label="哈哈！
 我倒是希望
 我能早点下班。对我来说，就已经够好了。",shape=box,color=blue];
-		2502 -> 2519;
-	2515 [label="Chat ends.",color=orange];
-	2519 [label="{\"Id\":2519,\"Incoming\":[2502],\"Outgoing\":[2506],\"GraphPos\":[1153,-1288],\"CompletionType\":1}",color=orange];
-		2519 -> 2506;
-	2506 [label="Chat ends.",color=orange];
+		j3114698334 -> "Chat ends.";
 }

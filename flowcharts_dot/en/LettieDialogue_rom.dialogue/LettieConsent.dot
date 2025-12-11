@@ -1,104 +1,98 @@
 digraph {
-	2778 [label="LettieConsent begins.",color=orange];
-		2778 -> 2779;
-	2779 [label="Check boolean LettieDating",color=orange];
-		2779 -> 2780 [label=true,color=green];
-		2779 -> 2781 [label=false,color=brown];
-	2780 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
-		2780 -> 2782 [label=true,color=green];
-		2780 -> 2814 [label=false,color=brown];
-	2781 [label="Chat ends.",color=orange];
-	2782 [label="Check boolean LettieConsentComplete",color=orange];
-		2782 -> 2786 [label=true,color=green];
-		2782 -> 2785 [label=false,color=brown];
-		2782 -> 2784 [label=false,color=brown];
-	2814 [label="Check boolean LettiePolyamorySuccess",color=orange];
-		2814 -> 2782 [label=true,color=green];
-		2814 -> 2783 [label=false,color=brown];
-	2786 [label="Chat ends.",color=orange];
-	2785 [label="Hey Lettie? Are you busy? [Ask consent for multiple partners.]",shape=box,color=red];
-		2785 -> 2788;
-	2784 [label="[End.]",shape=box,color=red];
-		2784 -> 2787;
-	2783 [label="Chat ends.",color=orange];
-	2788 [label="Always
+	"LettieConsent begins." [color=orange];
+		"LettieConsent begins." -> j3391836344;
+	j3391836344 [label="Check boolean LettieDating",color=orange];
+		j3391836344 -> j2165669047 [label=true,color=green];
+		j3391836344 -> "Chat ends." [label=false,color=brown];
+	j2165669047 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
+		j2165669047 -> j2985555336 [label=true,color=green];
+		j2165669047 -> j4172583155 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2985555336 [label="Check boolean LettieConsentComplete",color=orange];
+		j2985555336 -> "Chat ends." [label=true,color=green];
+		j2985555336 -> j2260890776 [label=false,color=brown];
+		j2985555336 -> j1709435103 [label=false,color=brown];
+	j4172583155 [label="Check boolean LettiePolyamorySuccess",color=orange];
+		j4172583155 -> j2985555336 [label=true,color=green];
+		j4172583155 -> "Chat ends." [label=false,color=brown];
+	j2260890776 [label="Hey Lettie? Are you busy? [Ask consent for multiple partners.]",shape=box,color=red];
+		j2260890776 -> j1703536309;
+	j1709435103 [label="[End.]",shape=box,color=red];
+		j1709435103 -> j3702107533;
+	j1703536309 [label="Always
 But for you?
 ¿Qué?",shape=box,color=blue];
-		2788 -> 2790;
-	2787 [label="Update boolean LettieConsentComplete",color=orange];
-		2787 -> 2789;
-	2790 [label="I want to talk to you about something and I want to make sure you're okay with it.",shape=box,color=red];
-		2790 -> 2791;
-	2789 [label="Chat ends.",color=orange];
-	2791 [label="It's important to me that you don't feel like I'm lying to you or being dishonest with you in any way.",shape=box,color=red];
-		2791 -> 2792;
-		2791 -> 2793;
-		2791 -> 2794;
-	2792 [label="Please don't hurt me.",shape=box,color=red];
-		2792 -> 2795;
-	2793 [label="Please don't get mad.",shape=box,color=red];
-		2793 -> 2796;
-	2794 [label="I hope you understand.",shape=box,color=red];
-		2794 -> 2797;
-	2795 [label="Jajajajaj
+		j1703536309 -> j2543291252;
+	j3702107533 [label="Boolean LettieConsentComplete is now true.",color=orange];
+		j3702107533 -> "Chat ends.";
+	j2543291252 [label="I want to talk to you about something and I want to make sure you're okay with it.",shape=box,color=red];
+		j2543291252 -> j2828537693;
+	j2828537693 [label="It's important to me that you don't feel like I'm lying to you or being dishonest with you in any way.",shape=box,color=red];
+		j2828537693 -> j4023134604;
+		j2828537693 -> j2956962016;
+		j2828537693 -> j218820373;
+	j4023134604 [label="Please don't hurt me.",shape=box,color=red];
+		j4023134604 -> j2245753515;
+	j2956962016 [label="Please don't get mad.",shape=box,color=red];
+		j2956962016 -> j2912372864;
+	j218820373 [label="I hope you understand.",shape=box,color=red];
+		j218820373 -> j2034947476;
+	j2245753515 [label="Jajajajaj
 We talked about this
 I only hurt you the way you like it
 Now what are you going on about",shape=box,color=blue];
-		2795 -> 2798;
-	2796 [label="¿Sí?
+		j2245753515 -> j3120189448;
+	j2912372864 [label="¿Sí?
 And what is there to get mad about?",shape=box,color=blue];
-		2796 -> 2798;
-	2797 [label="¿Sí?
+		j2912372864 -> j3120189448;
+	j2034947476 [label="¿Sí?
 And what is there to understand?",shape=box,color=blue];
-		2797 -> 2798;
-	2798 [label="I don't want to put you into a situation you're not okay with. I know it's not something we've discussed before. So if you say no, that's all right. I want you to know that.",shape=box,color=red];
-		2798 -> 2799;
-	2799 [label="What we have is important to me - very important - and it's real. I don't want you to doubt that.",shape=box,color=red];
-		2799 -> 2800;
-	2800 [label="Aah, entiendo...
+		j2034947476 -> j3120189448;
+	j3120189448 [label="I don't want to put you into a situation you're not okay with. I know it's not something we've discussed before. So if you say no, that's all right. I want you to know that.",shape=box,color=red];
+		j3120189448 -> j2523507220;
+	j2523507220 [label="What we have is important to me - very important - and it's real. I don't want you to doubt that.",shape=box,color=red];
+		j2523507220 -> j2963158745;
+	j2963158745 [label="Aah, entiendo...
 I guess I just want to know
 Do you really care about them, solecito?
 ¿Quiénes son?",shape=box,color=blue];
-		2800 -> 2801;
-		2800 -> 2802;
-	2801 [label="I do care about them. But I also care very deeply about you.",shape=box,color=red];
-		2801 -> 2803;
-	2802 [label="I should have guessed you would have figured it out quickly.",shape=box,color=red];
-		2802 -> 2804;
-	2803 [label="Ay, sí
+		j2963158745 -> j4127617655;
+		j2963158745 -> j368951085;
+	j4127617655 [label="I do care about them. But I also care very deeply about you.",shape=box,color=red];
+		j4127617655 -> j1205014383;
+	j368951085 [label="I should have guessed you would have figured it out quickly.",shape=box,color=red];
+		j368951085 -> j69528271;
+	j1205014383 [label="Ay, sí
 Hard to blame you, when you see so much
 Travel so much
 It is fine by me",shape=box,color=blue];
-		2803 -> 2805;
-	2804 [label="I cheated
+		j1205014383 -> j4109969723;
+	j69528271 [label="I cheated
 Eleanor warned me
 Jajaja she is a terrible gossip",shape=box,color=blue];
-		2804 -> 2806;
-	2805 [label="But just not the hex
+		j69528271 -> j1876609086;
+	j4109969723 [label="But just not the hex
 Mi familia no, ¿por favor?
 I would have to scrub myself with prep pads for a week",shape=box,color=blue];
-		2805 -> 2807;
-	2806 [label="Hard to blame you, when you see so much
+		j4109969723 -> j2953748337;
+	j1876609086 [label="Hard to blame you, when you see so much
 Travel so much
 It is fine by me",shape=box,color=blue];
-		2806 -> 2805;
-	2807 [label="+20 Chemistry",color=orange];
-		2807 -> 2808;
-	2808 [label="You have become very important to me, solecito
+		j1876609086 -> j4109969723;
+	j2953748337 [label="+20 Chemistry",color=orange];
+		j2953748337 -> j40193082;
+	j40193082 [label="You have become very important to me, solecito
 And if they bring you happiness?
 Then they bring me the same
 Simple as that",shape=box,color=blue];
-		2808 -> 2809;
-	2809 [label="Oh
+		j40193082 -> j1825455531;
+	j1825455531 [label="Oh
 And find a way to bring them here someday
 I want to meet them",shape=box,color=blue];
-		2809 -> 2810;
-		2809 -> 2811;
-	2810 [label="Yes ma'am. :)",shape=box,color=red];
-		2810 -> 2812;
-	2811 [label="I'll see what I can do.",shape=box,color=red];
-		2811 -> 2812;
-	2812 [label="Update boolean LettieConsentComplete",color=orange];
-		2812 -> 2813;
-	2813 [label="Chat ends.",color=orange];
+		j1825455531 -> j446038981;
+		j1825455531 -> j4057902789;
+	j446038981 [label="Yes ma'am. :)",shape=box,color=red];
+		j446038981 -> j3702107533;
+	j4057902789 [label="I'll see what I can do.",shape=box,color=red];
+		j4057902789 -> j3702107533;
 }

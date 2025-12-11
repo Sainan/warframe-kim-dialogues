@@ -1,21 +1,16 @@
 digraph {
-	3191 [label="ArthurBirthdayConvo2 begins.",color=orange];
-		3191 -> 3205;
-		3191 -> 3203;
-	3205 [label="엘레노어의 남동생, 생일 축하한다!",shape=box,color=red];
-		3205 -> 3200;
-	3203 [label="생일 축하해, 아서. 혹시 뭐 계획 있어?",shape=box,color=red];
-		3203 -> 3204;
-	3200 [label="훌륭하군. 이제 주구장창 그 소릴 할 사람이 둘로 늘어났어.",shape=box,color=blue];
-		3200 -> 3224;
-	3204 [label="+20 Chemistry",color=orange];
-		3204 -> 3202;
-	3224 [label="{\"Id\":3224,\"Incoming\":[3200],\"Outgoing\":[3201],\"GraphPos\":[-30896,-13827],\"CompletionType\":1}",color=orange];
-		3224 -> 3201;
-	3202 [label="고맙다! 기억해 줘서 좋군. 오늘은 30분 정도 일찍 일을 마칠까 생각 중이다. 아직 확실히 정한 건 아니지만.",shape=box,color=blue];
-		3202 -> 3223;
-	3201 [label="Chat ends.",color=orange];
-	3223 [label="{\"Id\":3223,\"Incoming\":[3202],\"Outgoing\":[3206],\"GraphPos\":[-30893,-13986],\"CompletionType\":1}",color=orange];
-		3223 -> 3206;
-	3206 [label="Chat ends.",color=orange];
+	"ArthurBirthdayConvo2 begins." [color=orange];
+		"ArthurBirthdayConvo2 begins." -> j3863481186;
+		"ArthurBirthdayConvo2 begins." -> j1515655417;
+	j3863481186 [label="엘레노어의 남동생, 생일 축하한다!",shape=box,color=red];
+		j3863481186 -> j4002211384;
+	j1515655417 [label="생일 축하해, 아서. 혹시 뭐 계획 있어?",shape=box,color=red];
+		j1515655417 -> j1997032244;
+	j4002211384 [label="훌륭하군. 이제 주구장창 그 소릴 할 사람이 둘로 늘어났어.",shape=box,color=blue];
+		j4002211384 -> "Chat ends.";
+	j1997032244 [label="+20 Chemistry",color=orange];
+		j1997032244 -> j1931027095;
+	"Chat ends." [color=orange];
+	j1931027095 [label="고맙다! 기억해 줘서 좋군. 오늘은 30분 정도 일찍 일을 마칠까 생각 중이다. 아직 확실히 정한 건 아니지만.",shape=box,color=blue];
+		j1931027095 -> "Chat ends.";
 }

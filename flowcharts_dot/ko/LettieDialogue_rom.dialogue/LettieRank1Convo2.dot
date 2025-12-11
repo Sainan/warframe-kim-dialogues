@@ -1,158 +1,153 @@
 digraph {
-	52 [label="LettieRank1Convo2 begins.",color=orange];
-		52 -> 211;
-	211 [label="Check boolean LettieRatsAsked",color=orange];
-		211 -> 53 [label=true,color=green];
-		211 -> 54 [label=false,color=brown];
-		211 -> 53 [label=false,color=brown];
-	53 [label="고향에 널 보고 싶어 하는 사람이 있어?",shape=box,color=red];
-		53 -> 55;
-	54 [label="뭐 때문에 쥐를 반려동물로 기르게 된 거야?",shape=box,color=red];
-		54 -> 56;
-	55 [label="Update boolean LettieHomeAsked",color=orange];
-		55 -> 57;
-	56 [label="Update boolean LettieRatsAsked",color=orange];
-		56 -> 58;
-	57 [label="Check boolean LettieInteresting",color=orange];
-		57 -> 59 [label=true,color=green];
-		57 -> 62 [label=false,color=brown];
-	58 [label="Check boolean LettieInteresting",color=orange];
-		58 -> 60 [label=true,color=green];
-		58 -> 61 [label=false,color=brown];
-	59 [label="훨씬 더 나은 질문이야 
+	"LettieRank1Convo2 begins." [color=orange];
+		"LettieRank1Convo2 begins." -> j89496700;
+	j89496700 [label="Check boolean LettieRatsAsked",color=orange];
+		j89496700 -> j4155886864 [label=true,color=green];
+		j89496700 -> j3278323495 [label=false,color=brown];
+		j89496700 -> j4155886864 [label=false,color=brown];
+	j4155886864 [label="고향에 널 보고 싶어 하는 사람이 있어?",shape=box,color=red];
+		j4155886864 -> j3611088737;
+	j3278323495 [label="뭐 때문에 쥐를 반려동물로 기르게 된 거야?",shape=box,color=red];
+		j3278323495 -> j1419769657;
+	j3611088737 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		j3611088737 -> j4029412242;
+	j1419769657 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		j1419769657 -> j27878299;
+	j4029412242 [label="Check boolean LettieInteresting",color=orange];
+		j4029412242 -> j1448332284 [label=true,color=green];
+		j4029412242 -> j3268433568 [label=false,color=brown];
+	j27878299 [label="Check boolean LettieInteresting",color=orange];
+		j27878299 -> j2310809549 [label=true,color=green];
+		j27878299 -> j843812093 [label=false,color=brown];
+	j1448332284 [label="훨씬 더 나은 질문이야 
 빠르게 배우네 
 하지만",shape=box,color=blue];
-		59 -> 62;
-	62 [label="상관 없잖아
+		j1448332284 -> j3268433568;
+	j3268433568 [label="상관 없잖아
 이 cuchitril을 떠날 수도 없는데
 왜 굳이 생각을 해",shape=box,color=blue];
-		62 -> 67;
-		62 -> 66;
-		62 -> 65;
-	60 [label="Ey, 보라고? 
+		j3268433568 -> j4082388689;
+		j3268433568 -> j3754203001;
+		j3268433568 -> j2586801596;
+	j2310809549 [label="Ey, 보라고? 
 훨씬 더 나은 질문이잖아, babas
 빨리 배우네",shape=box,color=blue];
-		60 -> 61;
-	61 [label="너가 한 번 말해봐",shape=box,color=blue];
-		61 -> 91;
-		61 -> 80;
-	67 [label="우린 지금 *인터넷*에서 이야기를 나누고 있잖아, *전화기*가 뭔진 알지, 응?",shape=box,color=red];
-		67 -> 70;
-	66 [label="때로는 고통스러운 기억이 우리를 앞으로 나아갈 수 있도록 도와주기도 하지.",shape=box,color=red];
-		66 -> 69;
-	65 [label="아...알겠어... [종료.]",shape=box,color=red];
-		65 -> 68;
-	91 [label="엥?",shape=box,color=red];
-		91 -> 93;
-	80 [label="이 대화, 느낌이 좋지 않은데. [종료.]",shape=box,color=red];
-		80 -> 2440;
-	70 [label="Bien podría ser un pinche fantasma
+		j2310809549 -> j843812093;
+	j843812093 [label="너가 한 번 말해봐",shape=box,color=blue];
+		j843812093 -> j2068414864;
+		j843812093 -> j3501310367;
+	j4082388689 [label="우린 지금 *인터넷*에서 이야기를 나누고 있잖아, *전화기*가 뭔진 알지, 응?",shape=box,color=red];
+		j4082388689 -> j3336448265;
+	j3754203001 [label="때로는 고통스러운 기억이 우리를 앞으로 나아갈 수 있도록 도와주기도 하지.",shape=box,color=red];
+		j3754203001 -> j3438932328;
+	j2586801596 [label="아...알겠어... [종료.]",shape=box,color=red];
+		j2586801596 -> "Chat ends.";
+	j2068414864 [label="엥?",shape=box,color=red];
+		j2068414864 -> j740217712;
+	j3501310367 [label="이 대화, 느낌이 좋지 않은데. [종료.]",shape=box,color=red];
+		j3501310367 -> j2365690676;
+	j3336448265 [label="Bien podría ser un pinche fantasma
 무덤 너머에서 전화 거는 꼴이지, 바꿀 수도 없고, 살 수도 없고, 죽을 수도 없는데",shape=box,color=blue];
-		70 -> 81;
-	69 [label="¿Sí?
+		j3336448265 -> j3695487370;
+	j3438932328 [label="¿Sí?
 네가 고통이 뭔지 알기는 해?",shape=box,color=blue];
-		69 -> 72;
-		69 -> 74;
-	68 [label="Chat ends.",color=orange];
-	93 [label="왜 내가 쥐를 좋아한다고 생각하는지 알고 싶어 
+		j3438932328 -> j3461139702;
+		j3438932328 -> j3700155352;
+	"Chat ends." [color=orange];
+	j740217712 [label="왜 내가 쥐를 좋아한다고 생각하는지 알고 싶어 
 계속해 봐",shape=box,color=blue];
-		93 -> 104;
-	2440 [label="Tú te lo pierdes",shape=box,color=blue];
-		2440 -> 2441;
-	81 [label="¿¡우린 도대체 뭔데?! 
+		j740217712 -> j3507503232;
+	j2365690676 [label="Tú te lo pierdes",shape=box,color=blue];
+		j2365690676 -> "Chat ends.";
+	j3695487370 [label="¿¡우린 도대체 뭔데?! 
 FANTASMAS 그 이상도 그 이하도 아니야
 너무 많이 돌려서 늘어진 VHS 테이프에 나오는 그림자처럼",shape=box,color=blue];
-		81 -> 82;
-	72 [label="머리가 잘리는 느낌이 어떤지 알아? 난 안다. 난 천 번은 더 죽었어. 그리고 그건 확실하게 *아프다고*, 아가씨.",shape=box,color=red];
-		72 -> 71;
-	74 [label="내 스스로 너한테 그걸 증명할 필요는 없는데, 아가씨.",shape=box,color=red];
-		74 -> 73;
-	104 [label="Update boolean LettieRats1",color=orange];
-		104 -> 95;
-		104 -> 96;
-		104 -> 97;
-	2441 [label="Chat ends.",color=orange];
-	82 [label="아니, 가족들이 내가 죽었다고 생각하는 게 나아
+		j3695487370 -> j2200186522;
+	j3461139702 [label="머리가 잘리는 느낌이 어떤지 알아? 난 안다. 난 천 번은 더 죽었어. 그리고 그건 확실하게 *아프다고*, 아가씨.",shape=box,color=red];
+		j3461139702 -> j2279768250;
+	j3700155352 [label="내 스스로 너한테 그걸 증명할 필요는 없는데, 아가씨.",shape=box,color=red];
+		j3700155352 -> j99380037;
+	j3507503232 [label="Boolean LettieRats1 is now true.",color=orange];
+		j3507503232 -> j1787871835;
+		j3507503232 -> j2158634634;
+		j3507503232 -> j225534383;
+	j2200186522 [label="아니, 가족들이 내가 죽었다고 생각하는 게 나아
 내가 가족들을 위해 그 고통을 감내할 테니까",shape=box,color=blue];
-		82 -> 79;
-		82 -> 78;
-	71 [label="Update boolean LettieDuviri",color=orange];
-		71 -> 76;
-	73 [label="그러라고 부탁한 적 없는데
+		j2200186522 -> j355312807;
+		j2200186522 -> j2302855915;
+	j2279768250 [label="Boolean LettieDuviri is now true.",color=orange];
+		j2279768250 -> j1367953408;
+	j99380037 [label="그러라고 부탁한 적 없는데
 나 바쁘다
 Vete",shape=box,color=blue];
-		73 -> 75;
-	95 [label="걔네들은 똑똑하고, 다정하고, 장난기가 많으니까?",shape=box,color=red];
-		95 -> 94;
-	96 [label="종종 방치나 무시당하고 오해받는 애들이라서?",shape=box,color=red];
-		96 -> 94;
-	97 [label="레티? 난 너에 대해 아무 것도 이해할 줄 아는 게 없어. 하지만 쥐들은 확실히 미친 듯이 귀엽지.",shape=box,color=red];
-		97 -> 105;
-	79 [label="여기에도 아직 살 만한 가치가 있는 삶이 있어.",shape=box,color=red];
-		79 -> 84;
-	78 [label="네 의지로 다른 사람들의 고통을 떠맡는 거야, 아니면 그게 네 의무라고 느껴서야?",shape=box,color=red];
-		78 -> 85;
-	76 [label="La Flaca에 닿았었구나
+		j99380037 -> "Chat ends.";
+	j1787871835 [label="걔네들은 똑똑하고, 다정하고, 장난기가 많으니까?",shape=box,color=red];
+		j1787871835 -> j2419634346;
+	j2158634634 [label="종종 방치나 무시당하고 오해받는 애들이라서?",shape=box,color=red];
+		j2158634634 -> j2419634346;
+	j225534383 [label="레티? 난 너에 대해 아무 것도 이해할 줄 아는 게 없어. 하지만 쥐들은 확실히 미친 듯이 귀엽지.",shape=box,color=red];
+		j225534383 -> j340785586;
+	j355312807 [label="여기에도 아직 살 만한 가치가 있는 삶이 있어.",shape=box,color=red];
+		j355312807 -> j1537124505;
+	j2302855915 [label="네 의지로 다른 사람들의 고통을 떠맡는 거야, 아니면 그게 네 의무라고 느껴서야?",shape=box,color=red];
+		j2302855915 -> j2251708647;
+	j1367953408 [label="La Flaca에 닿았었구나
 우리랑 똑같은 fantasma네
 몇 번이고 몇 번이고 몇 번이고 죽음을 경험하는",shape=box,color=blue];
-		76 -> 77;
-	75 [label="Chat ends.",color=orange];
-	94 [label="Ay, 루아시여, sálvame",shape=box,color=blue];
-		94 -> 98;
-	105 [label="¡JAJAJA!",shape=box,color=blue];
-		105 -> 99;
-	84 [label="아 네, 그러시겠지
+		j1367953408 -> j3857501421;
+	j2419634346 [label="Ay, 루아시여, sálvame",shape=box,color=blue];
+		j2419634346 -> j1446209013;
+	j340785586 [label="¡JAJAJA!",shape=box,color=blue];
+		j340785586 -> j2268578067;
+	j1537124505 [label="아 네, 그러시겠지
 아미르는 게임하고 아서는 퍼마셔대고 아오이는 음악 듣고 퀸시는 사진 찍어대는 틈바구니에서",shape=box,color=blue];
-		84 -> 89;
-	85 [label="+20 Chemistry",color=orange];
-		85 -> 83;
-	77 [label="Sí 
+		j1537124505 -> j3608250709;
+	j2251708647 [label="+20 Chemistry",color=orange];
+		j2251708647 -> j4209072532;
+	j3857501421 [label="Sí 
 고향에는 가족이 있어
 내가 이미 죽었다고 생각하는 게 나을거야",shape=box,color=blue];
-		77 -> 78;
-		77 -> 79;
-	98 [label="아니다
+		j3857501421 -> j2302855915;
+		j3857501421 -> j355312807;
+	j1446209013 [label="아니다
 그거 말고 뭐 필요한 거 있냐",shape=box,color=blue];
-		98 -> 100;
-		98 -> 101;
-	99 [label="+20 Chemistry",color=orange];
-		99 -> 106;
-	89 [label="공허한 취미들을 가진
+		j1446209013 -> j1840424440;
+		j1446209013 -> j3566326007;
+	j2268578067 [label="+20 Chemistry",color=orange];
+		j2268578067 -> j3899222723;
+	j3608250709 [label="공허한 취미들을 가진
 공허한 영혼들이
 영원히 시간을 때우고 있을 뿐이야",shape=box,color=blue];
-		89 -> 90;
-	83 [label="둘 다겠지 
+		j3608250709 -> j2268822211;
+	j4209072532 [label="둘 다겠지 
 오래 전에 이미 선택했어
 이제 돌아가기엔 너무 늦었어",shape=box,color=blue];
-		83 -> 86;
-	100 [label="어...",shape=box,color=red];
-		100 -> 63;
-	101 [label="아냐... 신경 쓰지마...",shape=box,color=red];
-		101 -> 102;
-	106 [label="우리를 구해 준 구세주의 겸손함이라
+		j4209072532 -> j18851103;
+	j1840424440 [label="어...",shape=box,color=red];
+		j1840424440 -> j1935737832;
+	j3566326007 [label="아냐... 신경 쓰지마...",shape=box,color=red];
+		j3566326007 -> j2547240352;
+	j3899222723 [label="우리를 구해 준 구세주의 겸손함이라
 맘에 드네",shape=box,color=blue];
-		106 -> 107;
-	90 [label="나 일 있어서 바쁘다
+		j3899222723 -> j1100586792;
+	j2268822211 [label="나 일 있어서 바쁘다
 Vete",shape=box,color=blue];
-		90 -> 87;
-	86 [label="나 할 일 있다",shape=box,color=blue];
-		86 -> 87;
-	63 [label="Update boolean LettieHomeAsked",color=orange];
-		63 -> 64;
-	102 [label="Va",shape=box,color=blue];
-		102 -> 103;
-	107 [label="어렸을 때 돈 없이 자랐어
+		j2268822211 -> j1253712857;
+	j18851103 [label="나 할 일 있다",shape=box,color=blue];
+		j18851103 -> j1253712857;
+	j1935737832 [label="Boolean LettieHomeAsked is now true.",color=orange];
+		j1935737832 -> j2641460921;
+	j2547240352 [label="Va",shape=box,color=blue];
+		j2547240352 -> "Chat ends.";
+	j1100586792 [label="어렸을 때 돈 없이 자랐어
 지하에서 지하로 전전하며 다녔지
 쥐가 그나마 키우기 좋았고, mi mamá도 신경 안 썼어",shape=box,color=blue];
-		107 -> 108;
-	87 [label="Update boolean LettieFantasma1",color=orange];
-		87 -> 88;
-	64 [label="고향에 널 보고 싶어 하는 사람이 있어?",shape=box,color=red];
-		64 -> 62;
-	103 [label="Chat ends.",color=orange];
-	108 [label="다시 일하러 가야 해 
+		j1100586792 -> j409582221;
+	j1253712857 [label="Boolean LettieFantasma1 is now true.",color=orange];
+		j1253712857 -> "Chat ends.";
+	j2641460921 [label="고향에 널 보고 싶어 하는 사람이 있어?",shape=box,color=red];
+		j2641460921 -> j3268433568;
+	j409582221 [label="다시 일하러 가야 해 
 다음에 봐, babas",shape=box,color=blue];
-		108 -> 109;
-	88 [label="Chat ends.",color=orange];
-	109 [label="Chat ends.",color=orange];
+		j409582221 -> "Chat ends.";
 }

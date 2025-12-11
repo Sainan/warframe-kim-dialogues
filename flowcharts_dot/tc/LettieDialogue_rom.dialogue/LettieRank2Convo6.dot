@@ -1,126 +1,119 @@
 digraph {
-	507 [label="LettieRank2Convo6 begins.",color=orange];
-		507 -> 508;
-	508 [label="Check boolean AmirRPG",color=orange];
-		508 -> 509 [label=true,color=green];
-		508 -> 510 [label=true,color=green];
-		508 -> 511 [label=false,color=brown];
-	509 [label="嘿莉蒂，我有個忙想請你幫忙。",shape=box,color=red];
-		509 -> 512;
-	510 [label="嘿莉蒂，你對桌上角色扮演遊戲有什麼看法？",shape=box,color=red];
-		510 -> 513;
-	511 [label="Chat ends.",color=orange];
-	512 [label="Update boolean AmirRPGLettieAsked",color=orange];
-		512 -> 514;
-	513 [label="Update boolean AmirRPGLettieAsked",color=orange];
-		513 -> 518;
-	514 [label="Check boolean LettieSmallFavor",color=orange];
-		514 -> 515 [label=true,color=green];
-		514 -> 516 [label=false,color=brown];
-	518 [label="（西語）你在開玩笑吧？",shape=box,color=blue];
-		518 -> 519;
-	515 [label="你一直在幫我
+	"LettieRank2Convo6 begins." [color=orange];
+		"LettieRank2Convo6 begins." -> j1196979813;
+	j1196979813 [label="Check boolean AmirRPG",color=orange];
+		j1196979813 -> j2513495911 [label=true,color=green];
+		j1196979813 -> j1831580989 [label=true,color=green];
+		j1196979813 -> "Chat ends." [label=false,color=brown];
+	j2513495911 [label="嘿莉蒂，我有個忙想請你幫忙。",shape=box,color=red];
+		j2513495911 -> j1509902606;
+	j1831580989 [label="嘿莉蒂，你對桌上角色扮演遊戲有什麼看法？",shape=box,color=red];
+		j1831580989 -> j903351578;
+	"Chat ends." [color=orange];
+	j1509902606 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
+		j1509902606 -> j1776819313;
+	j903351578 [label="Boolean AmirRPGLettieAsked is now true.",color=orange];
+		j903351578 -> j2300850985;
+	j1776819313 [label="Check boolean LettieSmallFavor",color=orange];
+		j1776819313 -> j2733526721 [label=true,color=green];
+		j1776819313 -> j3940479853 [label=false,color=brown];
+	j2300850985 [label="（西語）你在開玩笑吧？",shape=box,color=blue];
+		j2300850985 -> j2694215833;
+	j2733526721 [label="你一直在幫我
 所以我想我會聽聽你想說什麼
 什麼事啊，呆呆？",shape=box,color=blue];
-		515 -> 517;
-		515 -> 521;
-	516 [label="你失血到快要死了嗎？",shape=box,color=blue];
-		516 -> 522;
-		516 -> 523;
-	519 [label="（西語）滾開",shape=box,color=blue];
-		519 -> 520;
-	517 [label="我知道這聽起來像是在浪費時間，但阿米爾想叫我們大家一起玩一個叫做《寓言與先驅》的遊戲。",shape=box,color=red];
-		517 -> 525;
-	521 [label="阿米爾真的希望我們大家能和他一起玩《寓言與先驅》。這對他來說很重要。",shape=box,color=red];
-		521 -> 534;
-	522 [label="為什麼我感覺我馬上就會呢？",shape=box,color=red];
-		522 -> 524;
-	523 [label="不……？",shape=box,color=red];
-		523 -> 526;
-	520 [label="Chat ends.",color=orange];
-	525 [label="你說得對
+		j2733526721 -> j1593610106;
+		j2733526721 -> j488330020;
+	j3940479853 [label="你失血到快要死了嗎？",shape=box,color=blue];
+		j3940479853 -> j156481854;
+		j3940479853 -> j3076871251;
+	j2694215833 [label="（西語）滾開",shape=box,color=blue];
+		j2694215833 -> "Chat ends.";
+	j1593610106 [label="我知道這聽起來像是在浪費時間，但阿米爾想叫我們大家一起玩一個叫做《寓言與先驅》的遊戲。",shape=box,color=red];
+		j1593610106 -> j973940777;
+	j488330020 [label="阿米爾真的希望我們大家能和他一起玩《寓言與先驅》。這對他來說很重要。",shape=box,color=red];
+		j488330020 -> j2320522765;
+	j156481854 [label="為什麼我感覺我馬上就會呢？",shape=box,color=red];
+		j156481854 -> j2577374920;
+	j3076871251 [label="不……？",shape=box,color=red];
+		j3076871251 -> j249645718;
+	j973940777 [label="你說得對
 這聽起來就像是在浪費時間
 就像用一把生鏽的鉗子拔自己的牙一樣",shape=box,color=blue];
-		525 -> 527;
-	534 [label="那小子認為重要的事和真正重要的事是有分別的
+		j973940777 -> j3803941041;
+	j2320522765 [label="那小子認為重要的事和真正重要的事是有分別的
 我沒有時間來做這件事",shape=box,color=blue];
-		534 -> 535;
-	524 [label="+10 Chemistry",color=orange];
-		524 -> 531;
-	526 [label="因為有人真的快會這樣了
+		j2320522765 -> "Chat ends.";
+	j2577374920 [label="+10 Chemistry",color=orange];
+		j2577374920 -> j3984090205;
+	j249645718 [label="因為有人真的快會這樣了
 你想要的事有那麼重要嗎？",shape=box,color=blue];
-		526 -> 533;
-	527 [label="雖然有些痛苦我很享受
+		j249645718 -> j2459893374;
+	j3803941041 [label="雖然有些痛苦我很享受
 但這些不是",shape=box,color=blue];
-		527 -> 528;
-		527 -> 529;
-	535 [label="Chat ends.",color=orange];
-	531 [label="因為你並不傻。",shape=box,color=blue];
-		531 -> 532;
-	533 [label="這不是生死攸關的問題所以，不了，這件事可以等。",shape=box,color=red];
-		533 -> 536;
-	528 [label="但你欠著我一個人情。",shape=box,color=red];
-		528 -> 542;
-	529 [label="我……等等。什麼痛苦？",shape=box,color=red];
-		529 -> 539;
-	532 [label="你想要的事有那麼重要嗎？",shape=box,color=blue];
-		532 -> 530;
-		532 -> 533;
-	536 [label="+10 Chemistry",color=orange];
-		536 -> 538;
-	542 [label="我欠你的
+		j3803941041 -> j3194193965;
+		j3803941041 -> j2069087828;
+	j3984090205 [label="因為你並不傻。",shape=box,color=blue];
+		j3984090205 -> j1985913586;
+	j2459893374 [label="這不是生死攸關的問題所以，不了，這件事可以等。",shape=box,color=red];
+		j2459893374 -> j829277764;
+	j3194193965 [label="但你欠著我一個人情。",shape=box,color=red];
+		j3194193965 -> j3486384759;
+	j2069087828 [label="我……等等。什麼痛苦？",shape=box,color=red];
+		j2069087828 -> j2809333066;
+	j1985913586 [label="你想要的事有那麼重要嗎？",shape=box,color=blue];
+		j1985913586 -> j865572394;
+		j1985913586 -> j2459893374;
+	j829277764 [label="+10 Chemistry",color=orange];
+		j829277764 -> j3994635246;
+	j3486384759 [label="我欠你的
 但你竟然因為一個幼稚的幻想遊戲而這麼說？",shape=box,color=blue];
-		542 -> 544;
-		542 -> 543;
-	539 [label="+10 Chemistry",color=orange];
-		539 -> 540;
-	530 [label="這是為了阿米爾。",shape=box,color=red];
-		530 -> 534;
-	538 [label="（西語）好",shape=box,color=blue];
-		538 -> 537;
-	544 [label="我知道，但這是值得的，這對阿米爾來說很重要。",shape=box,color=red];
-		544 -> 547;
-	543 [label="嗯…算了，我還是把它留著。",shape=box,color=red];
-		543 -> 545;
-	540 [label="呵 
+		j3486384759 -> j3532684814;
+		j3486384759 -> j4049988069;
+	j2809333066 [label="+10 Chemistry",color=orange];
+		j2809333066 -> j658794531;
+	j865572394 [label="這是為了阿米爾。",shape=box,color=red];
+		j865572394 -> j2320522765;
+	j3994635246 [label="（西語）好",shape=box,color=blue];
+		j3994635246 -> "Chat ends.";
+	j3532684814 [label="我知道，但這是值得的，這對阿米爾來說很重要。",shape=box,color=red];
+		j3532684814 -> j3610497549;
+	j4049988069 [label="嗯…算了，我還是把它留著。",shape=box,color=red];
+		j4049988069 -> j3407211356;
+	j658794531 [label="呵 
 別太興奮啊，呆呆
 （西語）有個女人你駕馭不住",shape=box,color=blue];
-		540 -> 541;
-	537 [label="Chat ends.",color=orange];
-	547 [label="Update boolean LettieSmallFavor",color=orange];
-		547 -> 558;
-	545 [label="+20 Chemistry",color=orange];
-		545 -> 548;
-	541 [label="Chat ends.",color=orange];
-	558 [label="+20 Chemistry",color=orange];
-		558 -> 546;
-	548 [label="明智之選，呆呆
+		j658794531 -> "Chat ends.";
+	j3610497549 [label="Boolean LettieSmallFavor is now false.",color=orange];
+		j3610497549 -> j827801936;
+	j3407211356 [label="+20 Chemistry",color=orange];
+		j3407211356 -> j389201210;
+	j827801936 [label="+20 Chemistry",color=orange];
+		j827801936 -> j3287659817;
+	j389201210 [label="明智之選，呆呆
 現在走開",shape=box,color=blue];
-		548 -> 549;
-	546 [label="隨你便，呆呆……
+		j389201210 -> "Chat ends.";
+	j3287659817 [label="隨你便，呆呆……
 我會玩這個愚蠢的遊戲
 但只會在工作日結束之後
 現在走開",shape=box,color=blue];
-		546 -> 550;
-	549 [label="Chat ends.",color=orange];
-	550 [label="Update boolean AmirRPGLettie",color=orange];
-		550 -> 551;
-	551 [label="Check boolean AmirRPGQuincy",color=orange];
-		551 -> 552 [label=true,color=green];
-		551 -> 556 [label=false,color=brown];
-	552 [label="Check boolean AmirRPGArthur",color=orange];
-		552 -> 553 [label=true,color=green];
-		552 -> 556 [label=false,color=brown];
-	556 [label="Update boolean AmirRPGAny",color=orange];
-		556 -> 560;
-	553 [label="Check boolean AmirRPGAoi",color=orange];
-		553 -> 554 [label=true,color=green];
-		553 -> 556 [label=false,color=brown];
-	560 [label="Chat ends.",color=orange];
-	554 [label="Check boolean AmirRPGEleanor",color=orange];
-		554 -> 555 [label=true,color=green];
-		554 -> 556 [label=false,color=brown];
-	555 [label="Update boolean AmirRPGAll",color=orange];
-		555 -> 559;
-	559 [label="Chat ends.",color=orange];
+		j3287659817 -> j3298870984;
+	j3298870984 [label="Boolean AmirRPGLettie is now true.",color=orange];
+		j3298870984 -> j2274530056;
+	j2274530056 [label="Check boolean AmirRPGQuincy",color=orange];
+		j2274530056 -> j1722720495 [label=true,color=green];
+		j2274530056 -> j1992773596 [label=false,color=brown];
+	j1722720495 [label="Check boolean AmirRPGArthur",color=orange];
+		j1722720495 -> j1055796625 [label=true,color=green];
+		j1722720495 -> j1992773596 [label=false,color=brown];
+	j1992773596 [label="Boolean AmirRPGAny is now true.",color=orange];
+		j1992773596 -> "Chat ends.";
+	j1055796625 [label="Check boolean AmirRPGAoi",color=orange];
+		j1055796625 -> j2036451565 [label=true,color=green];
+		j1055796625 -> j1992773596 [label=false,color=brown];
+	j2036451565 [label="Check boolean AmirRPGEleanor",color=orange];
+		j2036451565 -> j2677000302 [label=true,color=green];
+		j2036451565 -> j1992773596 [label=false,color=brown];
+	j2677000302 [label="Boolean AmirRPGAll is now true.",color=orange];
+		j2677000302 -> "Chat ends.";
 }

@@ -1,15 +1,15 @@
 digraph {
-	3947 [label="QuincyRank6Convo11 begins.",color=orange];
-		3947 -> 3948;
-	3948 [label="ein ratschlag",shape=box,color=blue];
-		3948 -> 3949;
-	3949 [label="wenn ein libertanier zu dir kommt und sag \"iss es, keine sorge\"",shape=box,color=blue];
-		3949 -> 3950;
-	3950 [label="mach dir sorgen",shape=box,color=blue];
-		3950 -> 3951;
-	3951 [label="vor allem wenn es frittiert ist",shape=box,color=blue];
-		3951 -> 3952;
-	3952 [label="und ganz besonders wenn du noch die beine sehen kannst ...",shape=box,color=blue];
-		3952 -> 3953;
-	3953 [label="Chat ends.",color=orange];
+	"QuincyRank6Convo11 begins." [color=orange];
+		"QuincyRank6Convo11 begins." -> j2695062562;
+	j2695062562 [label="ein ratschlag",shape=box,color=blue];
+		j2695062562 -> j3158048854;
+	j3158048854 [label="wenn ein libertanier zu dir kommt und sag \"iss es, keine sorge\"",shape=box,color=blue];
+		j3158048854 -> j1185345424;
+	j1185345424 [label="mach dir sorgen",shape=box,color=blue];
+		j1185345424 -> j3105030761;
+	j3105030761 [label="vor allem wenn es frittiert ist",shape=box,color=blue];
+		j3105030761 -> j2180169725;
+	j2180169725 [label="und ganz besonders wenn du noch die beine sehen kannst ...",shape=box,color=blue];
+		j2180169725 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

@@ -1,17 +1,16 @@
 digraph {
-	987 [label="KayaBirthdayConvo1 begins.",color=orange];
-		987 -> 999;
-		987 -> 1000;
-	999 [label="Ei, Kaya. Feliz aniversário! ",shape=box,color=red];
-		999 -> 1005;
-	1000 [label="Feliz aniversário, Kaya. Tá se sentindo mais velha?",shape=box,color=red];
-		1000 -> 1006;
-	1005 [label="+20 Chemistry",color=orange];
-		1005 -> 988;
-	1006 [label="Não, né? Nenhum de nós fica mais velho. Estamos só girando e girando neste carrossel como lindos pôneis em chamas, gritando desesperadamente",shape=box,color=blue];
-		1006 -> 1007;
-	988 [label="Uau, você lembrou? Tipo, não é como se aniversários fossem uma grande coisa depois que você passa dos 8, mas isso é muito fofo da sua parte, obrigada",shape=box,color=blue];
-		988 -> 989;
-	1007 [label="Chat ends.",color=orange];
-	989 [label="Chat ends.",color=orange];
+	"KayaBirthdayConvo1 begins." [color=orange];
+		"KayaBirthdayConvo1 begins." -> j453971346;
+		"KayaBirthdayConvo1 begins." -> j3436027278;
+	j453971346 [label="Ei, Kaya. Feliz aniversário! ",shape=box,color=red];
+		j453971346 -> j1229711387;
+	j3436027278 [label="Feliz aniversário, Kaya. Tá se sentindo mais velha?",shape=box,color=red];
+		j3436027278 -> j3490448747;
+	j1229711387 [label="+20 Chemistry",color=orange];
+		j1229711387 -> j1839560007;
+	j3490448747 [label="Não, né? Nenhum de nós fica mais velho. Estamos só girando e girando neste carrossel como lindos pôneis em chamas, gritando desesperadamente",shape=box,color=blue];
+		j3490448747 -> "Chat ends.";
+	j1839560007 [label="Uau, você lembrou? Tipo, não é como se aniversários fossem uma grande coisa depois que você passa dos 8, mas isso é muito fofo da sua parte, obrigada",shape=box,color=blue];
+		j1839560007 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

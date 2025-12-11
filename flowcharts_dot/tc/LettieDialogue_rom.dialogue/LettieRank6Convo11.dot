@@ -1,76 +1,75 @@
 digraph {
-	2754 [label="LettieRank6Convo11 begins.",color=orange];
-		2754 -> 2755;
-	2755 [label="Check boolean LettieDating",color=orange];
-		2755 -> 2756 [label=true,color=green];
-		2755 -> 2757 [label=false,color=brown];
-	2756 [label="Check boolean LettieReal",color=orange];
-		2756 -> 2759 [label=true,color=green];
-		2756 -> 2758 [label=false,color=brown];
-	2757 [label="朋友
+	"LettieRank6Convo11 begins." [color=orange];
+		"LettieRank6Convo11 begins." -> j273575157;
+	j273575157 [label="Check boolean LettieDating",color=orange];
+		j273575157 -> j4208389219 [label=true,color=green];
+		j273575157 -> j3688859238 [label=false,color=brown];
+	j4208389219 [label="Check boolean LettieReal",color=orange];
+		j4208389219 -> j1647347130 [label=true,color=green];
+		j4208389219 -> j1219714264 [label=false,color=brown];
+	j3688859238 [label="朋友
 在嗎？",shape=box,color=blue];
-		2757 -> 2760;
-		2757 -> 2761;
-	2759 [label="心肝
+		j3688859238 -> j412299142;
+		j3688859238 -> j505037901;
+	j1647347130 [label="心肝
 在嗎？",shape=box,color=blue];
-		2759 -> 2760;
-		2759 -> 2761;
-	2758 [label="小太陽
+		j1647347130 -> j412299142;
+		j1647347130 -> j505037901;
+	j1219714264 [label="小太陽
 你在嗎？",shape=box,color=blue];
-		2758 -> 2761;
-		2758 -> 2760;
-	2760 [label="[情緒觸發警告：寵物離世。點擊以結束]",shape=box,color=red];
-		2760 -> 2762;
-	2761 [label="怎麼樣？",shape=box,color=red];
-		2761 -> 2763;
-	2762 [label="Chat ends.",color=orange];
-	2763 [label="是 Neenah
+		j1219714264 -> j505037901;
+		j1219714264 -> j412299142;
+	j412299142 [label="[情緒觸發警告：寵物離世。點擊以結束]",shape=box,color=red];
+		j412299142 -> "Chat ends.";
+	j505037901 [label="怎麼樣？",shape=box,color=red];
+		j505037901 -> j1852549966;
+	"Chat ends." [color=orange];
+	j1852549966 [label="是 Neenah
 我的寶貝鼠之一
 今早，瘦女士帶她走了",shape=box,color=blue];
-		2763 -> 2764;
-		2763 -> 2765;
-	2764 [label="呃……一旦年度重置，她就會回來了不是？",shape=box,color=red];
-		2764 -> 2766;
-	2765 [label="哦，不……莉蒂，我為你的憾事感到抱歉。 : (",shape=box,color=red];
-		2765 -> 2767;
-	2766 [label="是的
+		j1852549966 -> j2868534239;
+		j1852549966 -> j2048334425;
+	j2868534239 [label="呃……一旦年度重置，她就會回來了不是？",shape=box,color=red];
+		j2868534239 -> j425577897;
+	j2048334425 [label="哦，不……莉蒂，我為你的憾事感到抱歉。 : (",shape=box,color=red];
+		j2048334425 -> j1632024809;
+	j425577897 [label="是的
 她會
 但那就是生命的本質
 稍縱即逝",shape=box,color=blue];
-		2766 -> 2768;
-	2767 [label="謝謝
+		j425577897 -> j2712733174;
+	j1632024809 [label="謝謝
 但那就是生命的本質
 稍縱即逝",shape=box,color=blue];
-		2767 -> 2768;
-	2768 [label="鼠的壽命比人短
+		j1632024809 -> j2712733174;
+	j2712733174 [label="鼠的壽命比人短
 人的壽命比樹短
 樹的壽命比神短",shape=box,color=blue];
-		2768 -> 2769;
-	2769 [label="蟲的壽命比鼠短
+		j2712733174 -> j3436306467;
+	j3436306467 [label="蟲的壽命比鼠短
 這都是相對的
 而我們就是不斷地循環下去，對吧，哈哈",shape=box,color=blue];
-		2769 -> 2770;
-	2770 [label="我想我們就是阿米爾所形容的「極端個案」
+		j3436306467 -> j4110013845;
+	j4110013845 [label="我想我們就是阿米爾所形容的「極端個案」
 還什麼的",shape=box,color=blue];
-		2770 -> 2771;
-		2770 -> 2772;
-	2771 [label="你是想說什麼？",shape=box,color=red];
-		2771 -> 2773;
-	2772 [label="所以你不會難過？",shape=box,color=red];
-		2772 -> 2774;
-	2773 [label="（西語）別讓我看起來像個笨蛋，趕緊去做你擅長的事
+		j4110013845 -> j240202877;
+		j4110013845 -> j1947500901;
+	j240202877 [label="你是想說什麼？",shape=box,color=red];
+		j240202877 -> j3476985618;
+	j1947500901 [label="所以你不會難過？",shape=box,color=red];
+		j1947500901 -> j1811979336;
+	j3476985618 [label="（西語）別讓我看起來像個笨蛋，趕緊去做你擅長的事
 我只是想說
 我們要記得活在當下",shape=box,color=blue];
-		2773 -> 2775;
-	2774 [label="（西語）我當然會
+		j3476985618 -> j3324921340;
+	j1811979336 [label="（西語）我當然會
 我只是想說
 我們要記得活在當下",shape=box,color=blue];
-		2774 -> 2775;
-	2775 [label="這就是為什麼我會養老鼠的主要原因
+		j1811979336 -> j3324921340;
+	j3324921340 [label="這就是為什麼我會養老鼠的主要原因
 牠們的生命很短暫，但牠們永遠不會忘記好好過活
 每塊麵包屑之中都能盡可能找到歡樂
 並懂得知恩圖報
 永遠不知道什麼時候會離開",shape=box,color=blue];
-		2775 -> 2776;
-	2776 [label="Chat ends.",color=orange];
+		j3324921340 -> "Chat ends.";
 }

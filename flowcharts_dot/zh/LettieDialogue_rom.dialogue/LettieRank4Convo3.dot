@@ -1,244 +1,237 @@
 digraph {
-	1124 [label="LettieRank4Convo3 begins.",color=orange];
-		1124 -> 1125;
-		1124 -> 1126;
-	1125 [label="对于一个以挽救生命为职责的人来说，你似乎对死亡相当冷静。",shape=box,color=red];
-		1125 -> 1127;
-	1126 [label="我很想知道你是怎么成为一名医生的。",shape=box,color=red];
-		1126 -> 1128;
-	1127 [label="嗯，sí，可能是吧 
+	"LettieRank4Convo3 begins." [color=orange];
+		"LettieRank4Convo3 begins." -> j1781148516;
+		"LettieRank4Convo3 begins." -> j2077690664;
+	j1781148516 [label="对于一个以挽救生命为职责的人来说，你似乎对死亡相当冷静。",shape=box,color=red];
+		j1781148516 -> j3885692148;
+	j2077690664 [label="我很想知道你是怎么成为一名医生的。",shape=box,color=red];
+		j2077690664 -> j2740573975;
+	j3885692148 [label="嗯，sí，可能是吧 
 有两个原因 
 一是，我在工作中经常和 La Flaca 打交道 
 我和她是老“朋友”了 
 二是，我觉得我们的人对死亡的看法不同",shape=box,color=blue];
-		1127 -> 1130;
-		1127 -> 1131;
-		1127 -> 1129;
-	1128 [label="Jaja，对我来说怎么入的行很简单，babas 
+		j3885692148 -> j1001500549;
+		j3885692148 -> j3463096138;
+		j3885692148 -> j2987969054;
+	j2740573975 [label="Jaja，对我来说怎么入的行很简单，babas 
 我参了军，刚开始表现不好 
 后来就变厉害了",shape=box,color=blue];
-		1128 -> 1133;
-		1128 -> 1134;
-	1130 [label="你们的人对死亡的看法不同，是什么意思？",shape=box,color=red];
-		1130 -> 1138;
-	1131 [label="你为什么最后选择当一名医生？",shape=box,color=red];
-		1131 -> 1137;
-	1129 [label="有道理。[结束]",shape=box,color=red];
-		1129 -> 1132;
-	1133 [label="好吧，我想问的是，*为什么*你最后会选择当一名医生？",shape=box,color=red];
-		1133 -> 1137;
-	1134 [label="谢谢。说得好。[结束]",shape=box,color=red];
-		1134 -> 1135;
-	1138 [label="每当我们的挚爱回来看望我们，我们会庆祝 
+		j2740573975 -> j2807124696;
+		j2740573975 -> j2939424944;
+	j1001500549 [label="你们的人对死亡的看法不同，是什么意思？",shape=box,color=red];
+		j1001500549 -> j2311708721;
+	j3463096138 [label="你为什么最后选择当一名医生？",shape=box,color=red];
+		j3463096138 -> j1319966126;
+	j2987969054 [label="有道理。[结束]",shape=box,color=red];
+		j2987969054 -> "Chat ends.";
+	j2807124696 [label="好吧，我想问的是，*为什么*你最后会选择当一名医生？",shape=box,color=red];
+		j2807124696 -> j1319966126;
+	j2939424944 [label="谢谢。说得好。[结束]",shape=box,color=red];
+		j2939424944 -> "Chat ends.";
+	j2311708721 [label="每当我们的挚爱回来看望我们，我们会庆祝 
 邀请他们每年回来看望我们一次 
 我们制作 pan de muerto、calaveritas de azúcar，摆放万寿菊来欢迎他们回家",shape=box,color=blue];
-		1138 -> 1136;
-		1138 -> 1139;
-	1137 [label="Mi papá 在军队里 
+		j2311708721 -> j452269670;
+		j2311708721 -> j4198447649;
+	j1319966126 [label="Mi papá 在军队里 
 我们经常要从一个基地搬到另一个基地 
 但后来 mi tía 病了，就搬来和我们一起住 
 我学会了照顾她，直到她去世",shape=box,color=blue];
-		1137 -> 1140;
-	1132 [label="Chat ends.",color=orange];
-	1135 [label="Chat ends.",color=orange];
-	1136 [label="我接触过的死人要更加……热情一些，嗯。",shape=box,color=red];
-		1136 -> 1144;
-	1139 [label="那真美好。",shape=box,color=red];
-		1139 -> 1141;
-	1140 [label="Update boolean LettieAunt",color=orange];
-		1140 -> 1142;
-		1140 -> 1143;
-	1144 [label="我们坐在他们的坟前，讲故事 
+		j1319966126 -> j2985861959;
+	"Chat ends." [color=orange];
+	j452269670 [label="我接触过的死人要更加……热情一些，嗯。",shape=box,color=red];
+		j452269670 -> j1933325365;
+	j4198447649 [label="那真美好。",shape=box,color=red];
+		j4198447649 -> j1527097978;
+	j2985861959 [label="Boolean LettieAunt is now true.",color=orange];
+		j2985861959 -> j1243195555;
+		j2985861959 -> j1792532573;
+	j1933325365 [label="我们坐在他们的坟前，讲故事 
 我们和他们一起吃着带给他们的食物
 我们和他们一起说话、一起欢笑 
 当他们夜里来到我们身边时，我们不会低语也不会哭泣",shape=box,color=blue];
-		1144 -> 1147;
-	1141 [label="+5 Chemistry",color=orange];
-		1141 -> 210;
-	1142 [label="哦……我很抱歉。",shape=box,color=red];
-		1142 -> 1145;
-	1143 [label="你当时多大？",shape=box,color=red];
-		1143 -> 1146;
-	1147 [label="我小时候就认识了 La Flaca 
+		j1933325365 -> j2730060570;
+	j1527097978 [label="+5 Chemistry",color=orange];
+		j1527097978 -> j3361272915;
+	j1243195555 [label="哦……我很抱歉。",shape=box,color=red];
+		j1243195555 -> j3898233295;
+	j1792532573 [label="你当时多大？",shape=box,color=red];
+		j1792532573 -> j3963584052;
+	j2730060570 [label="我小时候就认识了 La Flaca 
 Mi papá 在军队里 
 我们经常要从一个基地搬到另一个基地 
 但后来 mi tía 病了，就搬来和我们一起住 
 我学会了照顾她，直到她去世",shape=box,color=blue];
-		1147 -> 1154;
-	210 [label="Gracias",shape=box,color=blue];
-		210 -> 1144;
-	1145 [label="哎，está bien 
+		j2730060570 -> j1795083366;
+	j3361272915 [label="Gracias",shape=box,color=blue];
+		j3361272915 -> j1933325365;
+	j3898233295 [label="哎，está bien 
 这种事是难免的，¿no? 
 她的心脏问题让她越来越虚弱了 
 不过这也算是为以后提前练习，学着帮 mi mamá 做事",shape=box,color=blue];
-		1145 -> 1148;
-		1145 -> 1149;
-		1145 -> 1150;
-	1146 [label="10岁？11岁？ 
+		j3898233295 -> j1567118954;
+		j3898233295 -> j2836428916;
+		j3898233295 -> j2013680438;
+	j3963584052 [label="10岁？11岁？ 
 Mi mamá 需要帮忙 
 我无所谓
 这也算是为以后提前练习，学着帮忙做事",shape=box,color=blue];
-		1146 -> 1148;
-		1146 -> 1149;
-		1146 -> 1150;
-	1154 [label="Update boolean LettieAunt",color=orange];
-		1154 -> 1163;
-	1148 [label="你想念你的姨妈吗？",shape=box,color=red];
-		1148 -> 1157;
-	1149 [label="我知道小时候就失去家人的感觉。",shape=box,color=red];
-		1149 -> 2466;
-	1150 [label="你是几岁参军的？",shape=box,color=red];
-		1150 -> 1161;
-	1163 [label="每年 Mi tía 都会回来看我，拍拍我的肩膀说“Buen trabajo，amorcito，sigue así” 
+		j3963584052 -> j1567118954;
+		j3963584052 -> j2836428916;
+		j3963584052 -> j2013680438;
+	j1795083366 [label="Boolean LettieAunt is now true.",color=orange];
+		j1795083366 -> j1806311838;
+	j1567118954 [label="你想念你的姨妈吗？",shape=box,color=red];
+		j1567118954 -> j128515286;
+	j2836428916 [label="我知道小时候就失去家人的感觉。",shape=box,color=red];
+		j2836428916 -> j2383345166;
+	j2013680438 [label="你是几岁参军的？",shape=box,color=red];
+		j2013680438 -> j1552933890;
+	j1806311838 [label="每年 Mi tía 都会回来看我，拍拍我的肩膀说“Buen trabajo，amorcito，sigue así” 
 这总会让我露出笑容，而不是害怕地逃跑",shape=box,color=blue];
-		1163 -> 1164;
-	1157 [label="+5 Chemistry",color=orange];
-		1157 -> 1151;
-	2466 [label="+5 Chemistry",color=orange];
-		2466 -> 1152;
-	1161 [label="+10 Chemistry",color=orange];
-		1161 -> 1153;
-	1164 [label="Update boolean LettieDiasdeMuertos",color=orange];
-		1164 -> 1165;
-	1151 [label="不 
+		j1806311838 -> j977217108;
+	j128515286 [label="+5 Chemistry",color=orange];
+		j128515286 -> j2205476755;
+	j2383345166 [label="+5 Chemistry",color=orange];
+		j2383345166 -> j4116662758;
+	j1552933890 [label="+10 Chemistry",color=orange];
+		j1552933890 -> j2594175746;
+	j977217108 [label="Boolean LettieDiasdeMuertos is now true.",color=orange];
+		j977217108 -> j3982607512;
+	j2205476755 [label="不 
 我每年在亡灵节上都会见到她一次 
 ¡Mierda! 在你问之前，不，不是你想的那样 
 我们不会把他们挖出来，而是庆祝他们的灵魂 jajaja 
 好吧，有些人会这样做——但我们不会，这得看你是哪的人",shape=box,color=blue];
-		1151 -> 1155;
-		1151 -> 1156;
-	1152 [label="Sí，但我并没有特别想他们 
+		j2205476755 -> j2605422986;
+		j2205476755 -> j1499283432;
+	j4116662758 [label="Sí，但我并没有特别想他们 
 他们虽然从我的日常生活中消失了，但从未离开过我的灵魂，他们在每年亡灵节都会回来看我们
 我们不会把他们挖出来，而是庆祝他们的灵魂 jajaja 
 好吧，有些人会这样做——但我们不会，这得看你是哪的人",shape=box,color=blue];
-		1152 -> 1155;
-		1152 -> 1156;
-	1153 [label="Mi papá 让我等到 20 岁才入伍
+		j4116662758 -> j2605422986;
+		j4116662758 -> j1499283432;
+	j2594175746 [label="Mi papá 让我等到 20 岁才入伍
 但我早就准备好了 jajaja 
 迫不及待地想让他和 mi tía 感到骄傲 
 我很庆幸他让我等了，我那时根本没准备好",shape=box,color=blue];
-		1153 -> 1159;
-	1165 [label="我希望她能来这么远的地方…… 
+		j2594175746 -> j58463918;
+	j3982607512 [label="我希望她能来这么远的地方…… 
 我得为她做些纸扎万寿菊 
 也许亚瑟能帮我做一些 pan de muerto，我做糕点实在是太糟糕了 jajaja",shape=box,color=blue];
-		1165 -> 1166;
-		1165 -> 1167;
-	1155 [label="呼。我刚刚还正想问呢。哈哈",shape=box,color=red];
-		1155 -> 1158;
-	1156 [label="哈哈！不过这听起来像是个很酷的节日。",shape=box,color=red];
-		1156 -> 1158;
-	1159 [label="看着你的 tía 因为心力衰竭慢慢死去是一回事 
+		j3982607512 -> j708330287;
+		j3982607512 -> j1198663430;
+	j2605422986 [label="呼。我刚刚还正想问呢。哈哈",shape=box,color=red];
+		j2605422986 -> j2221315983;
+	j1499283432 [label="哈哈！不过这听起来像是个很酷的节日。",shape=box,color=red];
+		j1499283432 -> j2221315983;
+	j58463918 [label="看着你的 tía 因为心力衰竭慢慢死去是一回事 
 看着人们互相残杀 
 惨叫着、流着血死去
 又是另一回事",shape=box,color=blue];
-		1159 -> 1160;
-	1166 [label="我敢肯定他会很乐意帮忙的。",shape=box,color=red];
-		1166 -> 1170;
-	1167 [label="我也很乐意帮忙。",shape=box,color=red];
-		1167 -> 1168;
-	1158 [label="我们为所爱之人搭建祭台，做 pan de muerto 和 calaveritas de azúcar，摆上万寿菊来欢迎他们回家 
+		j58463918 -> j36227183;
+	j708330287 [label="我敢肯定他会很乐意帮忙的。",shape=box,color=red];
+		j708330287 -> j3018346605;
+	j1198663430 [label="我也很乐意帮忙。",shape=box,color=red];
+		j1198663430 -> j3421187058;
+	j2221315983 [label="我们为所爱之人搭建祭台，做 pan de muerto 和 calaveritas de azúcar，摆上万寿菊来欢迎他们回家 
 我们和他们一起吃着带给他们的食物
 我们坐在他们的坟前，讲述他们的故事 
 我们和他们一起说话、一起欢笑",shape=box,color=blue];
-		1158 -> 1163;
-	1160 [label="但你应该清楚这些，对吧？ 
+		j2221315983 -> j1806311838;
+	j36227183 [label="但你应该清楚这些，对吧？ 
 你和我一样了解 La Flaca
 说到这 
 她从不等人，更不会等我们聊天",shape=box,color=blue];
-		1160 -> 1162;
-	1170 [label="Check boolean LettieDuviri",color=orange];
-		1170 -> 1171 [label=true,color=green];
-		1170 -> 1172 [label=false,color=brown];
-	1168 [label="+5 Chemistry",color=orange];
-		1168 -> 1169;
-	1162 [label="Chat ends.",color=orange];
-	1171 [label="如果你愿意，我们可以为你的家人建造一个祭台 
+		j36227183 -> "Chat ends.";
+	j3018346605 [label="Check boolean LettieDuviri",color=orange];
+		j3018346605 -> j2665083318 [label=true,color=green];
+		j3018346605 -> j2471479222 [label=false,color=brown];
+	j3421187058 [label="+5 Chemistry",color=orange];
+		j3421187058 -> j1989116532;
+	j2665083318 [label="如果你愿意，我们可以为你的家人建造一个祭台 
 说不定他们会在这么多年后来看看他们的 babas 
 我相信他们会为你感到骄傲",shape=box,color=blue];
-		1171 -> 1173;
-		1171 -> 1174;
-		1171 -> 1175;
-	1172 [label="你有想邀请的挚爱吗 
+		j2665083318 -> j3688605964;
+		j2665083318 -> j373663829;
+		j2665083318 -> j710839369;
+	j2471479222 [label="你有想邀请的挚爱吗 
 我们可以一起为你建造一个 ofrenda 
 说不定他们会在这么多年后来看看他们的 babas 
 我相信他们会为你感到骄傲",shape=box,color=blue];
-		1172 -> 1173;
-		1172 -> 1174;
-		1172 -> 1175;
-	1169 [label="你真好 
+		j2471479222 -> j3688605964;
+		j2471479222 -> j373663829;
+		j2471479222 -> j710839369;
+	j1989116532 [label="你真好 
 Sí，也许我们可以一起做",shape=box,color=blue];
-		1169 -> 1170;
-	1173 [label="我……其实我很想这么做。莱蒂，谢谢你。",shape=box,color=red];
-		1173 -> 1176;
-	1174 [label="我很乐意帮助你，但还是把我的家人留在他们该去的地方吧。",shape=box,color=red];
-		1174 -> 1177;
-	1175 [label="嗯……我想他们不会想见到我……",shape=box,color=red];
-		1175 -> 1178;
-	1176 [label="+10 Chemistry",color=orange];
-		1176 -> 1179;
-	1177 [label="+10 Chemistry",color=orange];
-		1177 -> 1180;
-	1178 [label="Check boolean LettieReligion4",color=orange];
-		1178 -> 1181 [label=true,color=green];
-		1178 -> 1182 [label=false,color=brown];
-	1179 [label="Claro，朋友 
+		j1989116532 -> j3018346605;
+	j3688605964 [label="我……其实我很想这么做。莱蒂，谢谢你。",shape=box,color=red];
+		j3688605964 -> j349834724;
+	j373663829 [label="我很乐意帮助你，但还是把我的家人留在他们该去的地方吧。",shape=box,color=red];
+		j373663829 -> j347015582;
+	j710839369 [label="嗯……我想他们不会想见到我……",shape=box,color=red];
+		j710839369 -> j4115334670;
+	j349834724 [label="+10 Chemistry",color=orange];
+		j349834724 -> j3600616746;
+	j347015582 [label="+10 Chemistry",color=orange];
+		j347015582 -> j1017558674;
+	j4115334670 [label="Check boolean LettieReligion4",color=orange];
+		j4115334670 -> j1607815324 [label=true,color=green];
+		j4115334670 -> j2194251521 [label=false,color=brown];
+	j3600616746 [label="Claro，朋友 
 嗯，现在一想 
 灵魂可以穿越时间吗？ 
 哎，equis，有时候心意才是最重要的",shape=box,color=blue];
-		1179 -> 1184;
-	1180 [label="也好 
+		j3600616746 -> "Chat ends.";
+	j1017558674 [label="也好 
 嗯，现在一想 
 灵魂可以穿越时间吗？ 
 哎，equis，有时候心意才是最重要的",shape=box,color=blue];
-		1180 -> 1185;
-	1181 [label="因为你们的 Xipe Totec 让你做的事吗 
+		j1017558674 -> "Chat ends.";
+	j1607815324 [label="因为你们的 Xipe Totec 让你做的事吗 
 这不是你的错，他们已经失去了理智 
 有时你需要烧灼伤口才能治愈 
 你让他们安息，这不算是谋杀",shape=box,color=blue];
-		1181 -> 1186;
-		1181 -> 1187;
-	1182 [label="¿Por qué?",shape=box,color=blue];
-		1182 -> 1188;
-		1182 -> 1189;
-	1184 [label="Chat ends.",color=orange];
-	1185 [label="Chat ends.",color=orange];
-	1186 [label="我的感受却不是这样。",shape=box,color=red];
-		1186 -> 1197;
-	1187 [label="你说得没错……",shape=box,color=red];
-		1187 -> 1200;
-	1188 [label="因为当墙中人让父母们失去了理智，他们攻击了自己的孩子，而……拥有虚空之力的孩子们不得不杀死他们，然后……",shape=box,color=red];
-		1188 -> 1193;
-	1189 [label="我无法谈论这个。抱歉。",shape=box,color=red];
-		1189 -> 1195;
-	1197 [label="+10 Chemistry",color=orange];
-		1197 -> 1190;
-	1200 [label="+10 Chemistry",color=orange];
-		1200 -> 1192;
-	1193 [label="Update boolean LettieReligion4",color=orange];
-		1193 -> 1194;
-	1195 [label="Ay，sí 
+		j1607815324 -> j926705253;
+		j1607815324 -> j2770427965;
+	j2194251521 [label="¿Por qué?",shape=box,color=blue];
+		j2194251521 -> j2133600240;
+		j2194251521 -> j777548635;
+	j926705253 [label="我的感受却不是这样。",shape=box,color=red];
+		j926705253 -> j2072797628;
+	j2770427965 [label="你说得没错……",shape=box,color=red];
+		j2770427965 -> j3411150528;
+	j2133600240 [label="因为当墙中人让父母们失去了理智，他们攻击了自己的孩子，而……拥有虚空之力的孩子们不得不杀死他们，然后……",shape=box,color=red];
+		j2133600240 -> j2891550517;
+	j777548635 [label="我无法谈论这个。抱歉。",shape=box,color=red];
+		j777548635 -> j2310462438;
+	j2072797628 [label="+10 Chemistry",color=orange];
+		j2072797628 -> j1538311735;
+	j3411150528 [label="+10 Chemistry",color=orange];
+		j3411150528 -> j4217369690;
+	j2891550517 [label="Boolean LettieReligion4 is now true.",color=orange];
+		j2891550517 -> j1082346464;
+	j2310462438 [label="Ay，sí 
 我理解",shape=box,color=blue];
-		1195 -> 1196;
-	1190 [label="Sí，我无法想象那种感觉 
+		j2310462438 -> "Chat ends.";
+	j1538311735 [label="Sí，我无法想象那种感觉 
 不得不那样伤害自己的家人 
 但是 solecito，你别无选择 
 他们当时就像狂暴的动物，而且失控了",shape=box,color=blue];
-		1190 -> 1191;
-	1192 [label="solecito，你别无选择 
+		j1538311735 -> j2948889596;
+	j4217369690 [label="solecito，你别无选择 
 他们当时就像狂暴的动物，并且失控了 
 而这种选择，我*是能*理解的",shape=box,color=blue];
-		1192 -> 1201;
-	1194 [label="是你们的 Xipe Totec 干的，你们的剥皮神 
+		j4217369690 -> j1932620595;
+	j1082346464 [label="是你们的 Xipe Totec 干的，你们的剥皮神 
 是他的所作所为让他们失去了理智并害死了他们",shape=box,color=blue];
-		1194 -> 1200;
-	1196 [label="Chat ends.",color=orange];
-	1191 [label="而这种选择，我是*能*理解的 
+		j1082346464 -> j3411150528;
+	j2948889596 [label="而这种选择，我是*能*理解的 
 不过这事改天再聊吧 
 La Flaca 不等人，也不会等我们聊天，我这里还有人排着队呢",shape=box,color=blue];
-		1191 -> 1198;
-	1201 [label="不过这事改天再聊吧 
+		j2948889596 -> "Chat ends.";
+	j1932620595 [label="不过这事改天再聊吧 
 La Flaca 不等人，也不会等我们聊天，我这里还有人排着队呢",shape=box,color=blue];
-		1201 -> 1199;
-	1198 [label="Chat ends.",color=orange];
-	1199 [label="Chat ends.",color=orange];
+		j1932620595 -> "Chat ends.";
 }

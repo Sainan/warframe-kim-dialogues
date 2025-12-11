@@ -1,19 +1,18 @@
 digraph {
-	1798 [label="VelimirBirthdayConvo1 begins.",color=orange];
-		1798 -> 1799;
-		1798 -> 1800;
-	1799 [label="Zaplanowałaś coś ciekawego na urodziny?",shape=box,color=red];
-		1799 -> 1801;
-	1800 [label="Hej Velimir! Wszystkiego najlepszego, miśku! Mam nadzieję, że będziesz miał okazję się nimi nacieszyć.",shape=box,color=red];
-		1800 -> 1802;
-	1801 [label="PapaPolar: och tak, na pewno. żyjemy w piekle i użeramy się z morderczymi tosterami i świrami ze scaldry.",shape=box,color=blue];
-		1801 -> 1803;
-	1802 [label="+20 Chemistry",color=orange];
-		1802 -> 1804;
-	1803 [label="PapaPolar: kupa śmiechu.",shape=box,color=blue];
-		1803 -> 1805;
-	1804 [label="PapaPolar: ajj, dzięki koleżko. postaram się. dobrze jest mieć przyjaciół :)",shape=box,color=blue];
-		1804 -> 1806;
-	1805 [label="Chat ends.",color=orange];
-	1806 [label="Chat ends.",color=orange];
+	"VelimirBirthdayConvo1 begins." [color=orange];
+		"VelimirBirthdayConvo1 begins." -> j1402552677;
+		"VelimirBirthdayConvo1 begins." -> j3822067224;
+	j1402552677 [label="Zaplanowałaś coś ciekawego na urodziny?",shape=box,color=red];
+		j1402552677 -> j3198057718;
+	j3822067224 [label="Hej Velimir! Wszystkiego najlepszego, miśku! Mam nadzieję, że będziesz miał okazję się nimi nacieszyć.",shape=box,color=red];
+		j3822067224 -> j1975914009;
+	j3198057718 [label="PapaPolar: och tak, na pewno. żyjemy w piekle i użeramy się z morderczymi tosterami i świrami ze scaldry.",shape=box,color=blue];
+		j3198057718 -> j3468723704;
+	j1975914009 [label="+20 Chemistry",color=orange];
+		j1975914009 -> j1359419831;
+	j3468723704 [label="PapaPolar: kupa śmiechu.",shape=box,color=blue];
+		j3468723704 -> "Chat ends.";
+	j1359419831 [label="PapaPolar: ajj, dzięki koleżko. postaram się. dobrze jest mieć przyjaciół :)",shape=box,color=blue];
+		j1359419831 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

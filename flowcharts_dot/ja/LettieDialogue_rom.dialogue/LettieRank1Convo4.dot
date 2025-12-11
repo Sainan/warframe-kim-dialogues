@@ -1,224 +1,209 @@
 digraph {
-	160 [label="LettieRank1Convo4 begins.",color=orange];
-		160 -> 161;
-	161 [label="神はまだいるの
+	"LettieRank1Convo4 begins." [color=orange];
+		"LettieRank1Convo4 begins." -> j3264897142;
+	j3264897142 [label="神はまだいるの
 それとも忘れ去られたの",shape=box,color=blue];
-		161 -> 162;
-		161 -> 163;
-		161 -> 164;
-		161 -> 165;
-	162 [label="ごめん、話を戻してくれ、なんて？",shape=box,color=red];
-		162 -> 166;
-	163 [label="Lettieって会話の始め方が独特だね。",shape=box,color=red];
-		163 -> 171;
-	164 [label="絶対触れたくない話題だ… [閉じる]",shape=box,color=red];
-		164 -> 173;
-	165 [label="忘れるもなにも、そもそもいない。オロキンはカウントしてないよ。",shape=box,color=red];
-		165 -> 176;
-	166 [label="¿Neta, babas? 
+		j3264897142 -> j1009423566;
+		j3264897142 -> j1199622152;
+		j3264897142 -> j200152652;
+		j3264897142 -> j1387266822;
+	j1009423566 [label="ごめん、話を戻してくれ、なんて？",shape=box,color=red];
+		j1009423566 -> j2104308269;
+	j1199622152 [label="Lettieって会話の始め方が独特だね。",shape=box,color=red];
+		j1199622152 -> j1497764217;
+	j200152652 [label="絶対触れたくない話題だ… [閉じる]",shape=box,color=red];
+		j200152652 -> "Chat ends.";
+	j1387266822 [label="忘れるもなにも、そもそもいない。オロキンはカウントしてないよ。",shape=box,color=red];
+		j1387266822 -> j1388263655;
+	j2104308269 [label="¿Neta, babas? 
 神よ、babas　ソルとルア
 彼らは忘れ去られているの？",shape=box,color=blue];
-		166 -> 167;
-		166 -> 168;
-		166 -> 169;
-	171 [label="そうね、sí 
+		j2104308269 -> j2995245823;
+		j2104308269 -> j3163871027;
+		j2104308269 -> j1350170206;
+	j1497764217 [label="そうね、sí 
 慣れるわ
 そうならないかもだけど",shape=box,color=blue];
-		171 -> 170;
-	173 [label="Chat ends.",color=orange];
-	176 [label="神はいなかったのね…
+		j1497764217 -> j4280258904;
+	"Chat ends." [color=orange];
+	j1388263655 [label="神はいなかったのね…
 オロキンって？",shape=box,color=blue];
-		176 -> 177;
-	167 [label="その…　言いたくないけどさ、ソルとルアは神じゃない。一つは星で一つは酷い目に遭った岩だ",shape=box,color=red];
-		167 -> 174;
-	168 [label="申し訳ないけど、もう神として崇められていない。けどルアは今でもある意味聖なるものと考えられている。",shape=box,color=red];
-		168 -> 184;
-	169 [label="自分の話だけど、オロキンを崇拝するよう育てられた。それがどれほどの間違いだったか。",shape=box,color=red];
-		169 -> 176;
-	170 [label="+5 Chemistry",color=orange];
-		170 -> 172;
-	177 [label="Update boolean LettieOrokin1",color=orange];
-		177 -> 178;
-		177 -> 179;
-	174 [label="Lárgate",shape=box,color=blue];
-		174 -> 175;
-	184 [label="どういうこと
+		j1388263655 -> j2126616671;
+	j2995245823 [label="その…　言いたくないけどさ、ソルとルアは神じゃない。一つは星で一つは酷い目に遭った岩だ",shape=box,color=red];
+		j2995245823 -> j4236534637;
+	j3163871027 [label="申し訳ないけど、もう神として崇められていない。けどルアは今でもある意味聖なるものと考えられている。",shape=box,color=red];
+		j3163871027 -> j1731106572;
+	j1350170206 [label="自分の話だけど、オロキンを崇拝するよう育てられた。それがどれほどの間違いだったか。",shape=box,color=red];
+		j1350170206 -> j1388263655;
+	j4280258904 [label="+5 Chemistry",color=orange];
+		j4280258904 -> j3143482202;
+	j2126616671 [label="Boolean LettieOrokin1 is now true.",color=orange];
+		j2126616671 -> j4029975923;
+		j2126616671 -> j1009440874;
+	j4236534637 [label="Lárgate",shape=box,color=blue];
+		j4236534637 -> "Chat ends.";
+	j1731106572 [label="どういうこと
 ある意味聖なるものって",shape=box,color=blue];
-		184 -> 185;
-		184 -> 186;
-	172 [label="で？
+		j1731106572 -> j2821160128;
+		j1731106572 -> j847923264;
+	j3143482202 [label="で？
 彼らはまだ崇拝されてるの",shape=box,color=blue];
-		172 -> 167;
-		172 -> 168;
-		172 -> 169;
-	178 [label="奴らは自身が他の誰より上にいると考えていたクソ野郎たちだ。これ以上言うことはないね。",shape=box,color=red];
-		178 -> 180;
-	179 [label="奴らはOrigin太陽系を支配する人間の集まりだ。自らを神と考えていた。",shape=box,color=red];
-		179 -> 180;
-	175 [label="Chat ends.",color=orange];
-	185 [label="ルアは…　えっと…　長い間Voidに押し込まれてた。",shape=box,color=red];
-		185 -> 187;
-	186 [label="複雑な話。本当に長い話。要するに、今でも重要視されているけど信仰はされていない。",shape=box,color=red];
-		186 -> 193;
-	180 [label="ヒトが王として着飾りして
+		j3143482202 -> j2995245823;
+		j3143482202 -> j3163871027;
+		j3143482202 -> j1350170206;
+	j4029975923 [label="奴らは自身が他の誰より上にいると考えていたクソ野郎たちだ。これ以上言うことはないね。",shape=box,color=red];
+		j4029975923 -> j3801619786;
+	j1009440874 [label="奴らはOrigin太陽系を支配する人間の集まりだ。自らを神と考えていた。",shape=box,color=red];
+		j1009440874 -> j3801619786;
+	j2821160128 [label="ルアは…　えっと…　長い間Voidに押し込まれてた。",shape=box,color=red];
+		j2821160128 -> j487194790;
+	j847923264 [label="複雑な話。本当に長い話。要するに、今でも重要視されているけど信仰はされていない。",shape=box,color=red];
+		j847923264 -> j935837742;
+	j3801619786 [label="ヒトが王として着飾りして
 自身を神聖と考えるのは珍しい話じゃないわ",shape=box,color=blue];
-		180 -> 181;
-	187 [label="ちょっと待ちなさい
+		j3801619786 -> j3948574464;
+	j487194790 [label="ちょっと待ちなさい
 彼女をドコに押し込んだって？！",shape=box,color=blue];
-		187 -> 188;
-		187 -> 189;
-	193 [label="ならあんたは何を崇拝するの",shape=box,color=blue];
-		193 -> 194;
-		193 -> 195;
-		193 -> 196;
-		193 -> 197;
-	181 [label="歴史は繰り返される
+		j487194790 -> j4156638888;
+		j487194790 -> j3852443896;
+	j935837742 [label="ならあんたは何を崇拝するの",shape=box,color=blue];
+		j935837742 -> j2961243138;
+		j935837742 -> j1322053033;
+		j935837742 -> j1227639564;
+		j935837742 -> j3212400640;
+	j3948574464 [label="歴史は繰り返される
 いつかそいつらの話して頂戴
 やることがあるの",shape=box,color=blue];
-		181 -> 182;
-	188 [label="Voidは無次元的な感じのやつ。時には黒にも白にもなる。奇妙だ。ちょっとゾクゾクする時もある、そんな場所。",shape=box,color=red];
-		188 -> 872;
-	189 [label="待って、説明するから。*自分*が押し込んだんじゃない！　関係ないってば！",shape=box,color=red];
-		189 -> 192;
-	194 [label="宇宙。Void。全て。",shape=box,color=red];
-		194 -> 198;
-	195 [label="何も。",shape=box,color=red];
-		195 -> 199;
-	196 [label="自分自身と周りの人たちを信じている。",shape=box,color=red];
-		196 -> 200;
-	197 [label="個人的な話だ。",shape=box,color=red];
-		197 -> 201;
-	182 [label="+15 Chemistry",color=orange];
-		182 -> 183;
-	872 [label="そしてLotusがルアをVoidに隠した時、自分はデュヴィリで繰り返し殺されている真っ最中だった。",shape=box,color=red];
-		872 -> 212;
-	192 [label="自分は宇宙船に置き去りにされていて、それが起きている間は自身で作った地獄に囚われていたんだ。",shape=box,color=red];
-		192 -> 212;
-	198 [label="Update boolean ReligionAll",color=orange];
-		198 -> 2455;
-	199 [label="Update boolean ReligionNone",color=orange];
-		199 -> 2456;
-	200 [label="Update boolean ReligionSelf",color=orange];
-		200 -> 2457;
-	201 [label="Update boolean ReligionHidden",color=orange];
-		201 -> 2458;
-	183 [label="Chat ends.",color=orange];
-	212 [label="Check boolean LettieDuviri",color=orange];
-		212 -> 213 [label=true,color=green];
-		212 -> 214 [label=false,color=brown];
-	2455 [label="無限に死に続けるとそうなる。",shape=box,color=red];
-		2455 -> 206;
-	2456 [label="無限に死に続けるとそうなる。",shape=box,color=red];
-		2456 -> 203;
-	2457 [label="無限に死に続けるとそうなる。",shape=box,color=red];
-		2457 -> 204;
-	2458 [label="無限に死に続けるとそうなる。",shape=box,color=red];
-		2458 -> 207;
-	213 [label="Sí 
+		j3948574464 -> j374273682;
+	j4156638888 [label="Voidは無次元的な感じのやつ。時には黒にも白にもなる。奇妙だ。ちょっとゾクゾクする時もある、そんな場所。",shape=box,color=red];
+		j4156638888 -> j353956985;
+	j3852443896 [label="待って、説明するから。*自分*が押し込んだんじゃない！　関係ないってば！",shape=box,color=red];
+		j3852443896 -> j624968341;
+	j2961243138 [label="宇宙。Void。全て。",shape=box,color=red];
+		j2961243138 -> j3505391320;
+	j1322053033 [label="何も。",shape=box,color=red];
+		j1322053033 -> j3644846110;
+	j1227639564 [label="自分自身と周りの人たちを信じている。",shape=box,color=red];
+		j1227639564 -> j1519286217;
+	j3212400640 [label="個人的な話だ。",shape=box,color=red];
+		j3212400640 -> j4198335625;
+	j374273682 [label="+15 Chemistry",color=orange];
+		j374273682 -> "Chat ends.";
+	j353956985 [label="そしてLotusがルアをVoidに隠した時、自分はデュヴィリで繰り返し殺されている真っ最中だった。",shape=box,color=red];
+		j353956985 -> j1811373516;
+	j624968341 [label="自分は宇宙船に置き去りにされていて、それが起きている間は自身で作った地獄に囚われていたんだ。",shape=box,color=red];
+		j624968341 -> j1811373516;
+	j3505391320 [label="Boolean ReligionAll is now true.",color=orange];
+		j3505391320 -> j589443267;
+	j3644846110 [label="Boolean ReligionNone is now true.",color=orange];
+		j3644846110 -> j2826694129;
+	j1519286217 [label="Boolean ReligionSelf is now true.",color=orange];
+		j1519286217 -> j2046334306;
+	j4198335625 [label="Boolean ReligionHidden is now true.",color=orange];
+		j4198335625 -> j1663356526;
+	j1811373516 [label="Check boolean LettieDuviri",color=orange];
+		j1811373516 -> j3757260357 [label=true,color=green];
+		j1811373516 -> j1178242724 [label=false,color=brown];
+	j589443267 [label="無限に死に続けるとそうなる。",shape=box,color=red];
+		j589443267 -> j544169307;
+	j2826694129 [label="無限に死に続けるとそうなる。",shape=box,color=red];
+		j2826694129 -> j1225868450;
+	j2046334306 [label="無限に死に続けるとそうなる。",shape=box,color=red];
+		j2046334306 -> j723970104;
+	j1663356526 [label="無限に死に続けるとそうなる。",shape=box,color=red];
+		j1663356526 -> j3359939565;
+	j3757260357 [label="Sí 
 あんたが言っていた死の王国
 もっと話して",shape=box,color=blue];
-		213 -> 215;
-		213 -> 216;
-		213 -> 217;
-	214 [label="ああ、そうなのね
+		j3757260357 -> j2502251924;
+		j3757260357 -> j2267519035;
+		j3757260357 -> j1226193389;
+	j1178242724 [label="ああ、そうなのね
 それでその「地獄」ってどんな感じなの
 燃えてた？",shape=box,color=blue];
-		214 -> 215;
-		214 -> 216;
-		214 -> 217;
-		214 -> 218;
-	206 [label="+5 Chemistry",color=orange];
-		206 -> 202;
-	203 [label="何事にも確信を抱かないのはそれ自体が信仰よ
+		j1178242724 -> j2502251924;
+		j1178242724 -> j2267519035;
+		j1178242724 -> j1226193389;
+		j1178242724 -> j2000629610;
+	j544169307 [label="+5 Chemistry",color=orange];
+		j544169307 -> j3436440984;
+	j1225868450 [label="何事にも確信を抱かないのはそれ自体が信仰よ
 そうじゃないと言ってくる奴らは皆愚か",shape=box,color=blue];
-		203 -> 2459;
-	204 [label="それは元気付けの標語で信仰じゃないわ
+		j1225868450 -> j1021000917;
+	j723970104 [label="それは元気付けの標語で信仰じゃないわ
 まぁでもそれで安らぎを得られると言うなら",shape=box,color=blue];
-		204 -> 2459;
-	207 [label="+5 Chemistry",color=orange];
-		207 -> 205;
-	215 [label="デュヴィリは異次元で、自分がなんか…　創った、んだ？　ある意味では？　存在することで。",shape=box,color=red];
-		215 -> 219;
-	216 [label="Lettieって変なの…",shape=box,color=red];
-		216 -> 220;
-	217 [label="そっちには関係ない話だ。",shape=box,color=red];
-		217 -> 221;
-	218 [label="いや、幸いにも彼らは火炙りの刑だけはやらなかった。",shape=box,color=red];
-		218 -> 222;
-	202 [label="全の中で一は小さいと理解するのは重要
+		j723970104 -> j1021000917;
+	j3359939565 [label="+5 Chemistry",color=orange];
+		j3359939565 -> j1406965207;
+	j2502251924 [label="デュヴィリは異次元で、自分がなんか…　創った、んだ？　ある意味では？　存在することで。",shape=box,color=red];
+		j2502251924 -> j1965628307;
+	j2267519035 [label="Lettieって変なの…",shape=box,color=red];
+		j2267519035 -> j271836611;
+	j1226193389 [label="そっちには関係ない話だ。",shape=box,color=red];
+		j1226193389 -> j3338360364;
+	j2000629610 [label="いや、幸いにも彼らは火炙りの刑だけはやらなかった。",shape=box,color=red];
+		j2000629610 -> j2579615172;
+	j3436440984 [label="全の中で一は小さいと理解するのは重要
 それは尊重するわ",shape=box,color=blue];
-		202 -> 2459;
-	2459 [label="でも気になるわね
+		j3436440984 -> j1021000917;
+	j1021000917 [label="でも気になるわね
 あんたがいた死の王国が
 もっと話して",shape=box,color=blue];
-		2459 -> 2460;
-	205 [label="尊重するわ",shape=box,color=blue];
-		205 -> 2459;
-	219 [label="それは自分の心からVoidが引き出したもので創られ、現実になった。怯えた子供から具現化したモノ。",shape=box,color=red];
-		219 -> 231;
-	220 [label="そう
+		j1021000917 -> j547942567;
+	j1406965207 [label="尊重するわ",shape=box,color=blue];
+		j1406965207 -> j1021000917;
+	j1965628307 [label="それは自分の心からVoidが引き出したもので創られ、現実になった。怯えた子供から具現化したモノ。",shape=box,color=red];
+		j1965628307 -> j453987339;
+	j271836611 [label="そう
 苦痛を数々見て来た
 そうなるもの",shape=box,color=blue];
-		220 -> 223;
-	221 [label="そうね
+		j271836611 -> "Chat ends.";
+	j3338360364 [label="そうね
 ないわね",shape=box,color=blue];
-		221 -> 224;
-	222 [label="彼ら？",shape=box,color=blue];
-		222 -> 225;
-		222 -> 226;
-	2460 [label="Update boolean LettieDuviri",color=orange];
-		2460 -> 215;
-		2460 -> 216;
-		2460 -> 217;
-	231 [label="けど、自分が成長して出ていこうとしたら全てがおかしくなった。それから彼は自分を何度も何度も殺した。",shape=box,color=red];
-		231 -> 241;
-	223 [label="Chat ends.",color=orange];
-	224 [label="Chat ends.",color=orange];
-	225 [label="Dominus Thraxとその手下たちだ。",shape=box,color=red];
-		225 -> 227;
-	226 [label="彼ら。自分。みんな同じ。長い話だ。",shape=box,color=red];
-		226 -> 228;
-	241 [label="現実となった物語
+		j3338360364 -> "Chat ends.";
+	j2579615172 [label="彼ら？",shape=box,color=blue];
+		j2579615172 -> j855132489;
+		j2579615172 -> j2696270750;
+	j547942567 [label="Boolean LettieDuviri is now true.",color=orange];
+		j547942567 -> j2502251924;
+		j547942567 -> j2267519035;
+		j547942567 -> j1226193389;
+	j453987339 [label="けど、自分が成長して出ていこうとしたら全てがおかしくなった。それから彼は自分を何度も何度も殺した。",shape=box,color=red];
+		j453987339 -> j2038927234;
+	j855132489 [label="Dominus Thraxとその手下たちだ。",shape=box,color=red];
+		j855132489 -> j3764148004;
+	j2696270750 [label="彼ら。自分。みんな同じ。長い話だ。",shape=box,color=red];
+		j2696270750 -> j1464015169;
+	j2038927234 [label="現実となった物語
 そしてLa Flacaに顔を知られている",shape=box,color=blue];
-		241 -> 242;
-	227 [label="アタシにとってその名前は意味がない
+		j2038927234 -> j2424951890;
+	j3764148004 [label="アタシにとってその名前は意味がない
 彼の魂が知りたいの
 あんたを傷付けたこの*彼ら*は誰なの",shape=box,color=blue];
-		227 -> 229;
-		227 -> 230;
-	228 [label="なんとなく、分かる気がするわ
+		j3764148004 -> j1671979762;
+		j3764148004 -> j40747457;
+	j1464015169 [label="なんとなく、分かる気がするわ
 事情は違えど
 痛みは同じ",shape=box,color=blue];
-		228 -> 234;
-	242 [label="Update boolean LettieDuviri",color=orange];
-		242 -> 243;
-	229 [label="彼は実在人物じゃない。自分の頭からVoidに引き出され、自分の存在によって現実となった架空のキャラだ。",shape=box,color=red];
-		229 -> 231;
-	230 [label="Lettieの辛い過去を教えてと訊いたら答えてくれるの？",shape=box,color=red];
-		230 -> 238;
-	234 [label="Update boolean LettieDuviri",color=orange];
-		234 -> 235;
-	243 [label="Update boolean LettieFantasma1",color=orange];
-		243 -> 245;
-	238 [label="+10 Chemistry",color=orange];
-		238 -> 232;
-	235 [label="Update boolean LettieFantasma1",color=orange];
-		235 -> 233;
-	245 [label="+10 Chemistry",color=orange];
-		245 -> 244;
-	232 [label="いえ、アタシたちはdesconocidosよ
+		j1464015169 -> j2424951890;
+	j2424951890 [label="Boolean LettieDuviri is now true.",color=orange];
+		j2424951890 -> j3171601208;
+	j1671979762 [label="彼は実在人物じゃない。自分の頭からVoidに引き出され、自分の存在によって現実となった架空のキャラだ。",shape=box,color=red];
+		j1671979762 -> j453987339;
+	j40747457 [label="Lettieの辛い過去を教えてと訊いたら答えてくれるの？",shape=box,color=red];
+		j40747457 -> j1054283571;
+	j3171601208 [label="Boolean LettieFantasma1 is now true.",color=orange];
+		j3171601208 -> j1867140338;
+	j1054283571 [label="+10 Chemistry",color=orange];
+		j1054283571 -> j2090762201;
+	j1867140338 [label="+10 Chemistry",color=orange];
+		j1867140338 -> j1588134587;
+	j2090762201 [label="いえ、アタシたちはdesconocidosよ
 そうよね
 また今度ね、じゃ",shape=box,color=blue];
-		232 -> 239;
-	233 [label="+10 Chemistry",color=orange];
-		233 -> 236;
-	244 [label="意外と共通点が多いのかもね、babas",shape=box,color=blue];
-		244 -> 246;
-	239 [label="Update boolean LettieDuviri",color=orange];
-		239 -> 240;
-	236 [label="意外と共通点が多いのかもね、babas",shape=box,color=blue];
-		236 -> 237;
-	246 [label="Chat ends.",color=orange];
-	240 [label="Chat ends.",color=orange];
-	237 [label="Chat ends.",color=orange];
+		j2090762201 -> j2620081815;
+	j1588134587 [label="意外と共通点が多いのかもね、babas",shape=box,color=blue];
+		j1588134587 -> "Chat ends.";
+	j2620081815 [label="Boolean LettieDuviri is now true.",color=orange];
+		j2620081815 -> "Chat ends.";
 }

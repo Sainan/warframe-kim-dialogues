@@ -1,137 +1,133 @@
 digraph {
-	0 [label="LettieRank1Convo1 begins.",color=orange];
-		0 -> 4;
-		0 -> 7;
-	4 [label="嘿，莉蒂，你是怎麼會成為醫護的？",shape=box,color=red];
-		4 -> 6;
-	7 [label="嘿，莉蒂，什麼風把你吹到霍爾瓦尼亞來了？",shape=box,color=red];
-		7 -> 11;
-	6 [label="這是我的工作
+	"LettieRank1Convo1 begins." [color=orange];
+		"LettieRank1Convo1 begins." -> j960149480;
+		"LettieRank1Convo1 begins." -> j388736556;
+	j960149480 [label="嘿，莉蒂，你是怎麼會成為醫護的？",shape=box,color=red];
+		j960149480 -> j3820868117;
+	j388736556 [label="嘿，莉蒂，什麼風把你吹到霍爾瓦尼亞來了？",shape=box,color=red];
+		j388736556 -> j2101594370;
+	j3820868117 [label="這是我的工作
 你為什麼會開始做
 你現在做的事",shape=box,color=blue];
-		6 -> 19;
-		6 -> 20;
-		6 -> 21;
-	11 [label="呃？",shape=box,color=blue];
-		11 -> 12;
-	19 [label="我其實沒什麼選擇。",shape=box,color=red];
-		19 -> 13;
-	20 [label="我打擾到你嗎？",shape=box,color=red];
-		20 -> 14;
-	21 [label="我明顯煩到你了，我還是先不打擾你好了。",shape=box,color=red];
-		21 -> 15;
-	12 [label="你為什麼會來這裡？",shape=box,color=blue];
-		12 -> 19;
-		12 -> 20;
-		12 -> 21;
-	13 [label="那我們還挺有共通點的 
+		j3820868117 -> j3927482988;
+		j3820868117 -> j3631441814;
+		j3820868117 -> j2655216544;
+	j2101594370 [label="呃？",shape=box,color=blue];
+		j2101594370 -> j3441274843;
+	j3927482988 [label="我其實沒什麼選擇。",shape=box,color=red];
+		j3927482988 -> j3568062145;
+	j3631441814 [label="我打擾到你嗎？",shape=box,color=red];
+		j3631441814 -> j1845707475;
+	j2655216544 [label="我明顯煩到你了，我還是先不打擾你好了。",shape=box,color=red];
+		j2655216544 -> j3925256787;
+	j3441274843 [label="你為什麼會來這裡？",shape=box,color=blue];
+		j3441274843 -> j3927482988;
+		j3441274843 -> j3631441814;
+		j3441274843 -> j2655216544;
+	j3568062145 [label="那我們還挺有共通點的 
 還有你別再問那些蠢問題啦，呆呆",shape=box,color=blue];
-		13 -> 18;
-		13 -> 17;
-	14 [label="為什麼
+		j3568062145 -> j2238615064;
+		j3568062145 -> j3574988183;
+	j1845707475 [label="為什麼
 你哪來這種想法
 我又不忙
 只是試著把人縫合起來罷了",shape=box,color=blue];
-		14 -> 17;
-		14 -> 18;
-	15 [label="（西語）不送",shape=box,color=blue];
-		15 -> 1;
-	18 [label="那我該跟你聊什麼才好呢？",shape=box,color=red];
-		18 -> 5;
-	17 [label="只是想表現得友好些，抱歉。",shape=box,color=red];
-		17 -> 16;
-	1 [label="Chat ends.",color=orange];
-	5 [label="（西語）呃，不好意思
+		j1845707475 -> j3574988183;
+		j1845707475 -> j2238615064;
+	j3925256787 [label="（西語）不送",shape=box,color=blue];
+		j3925256787 -> "Chat ends.";
+	j2238615064 [label="那我該跟你聊什麼才好呢？",shape=box,color=red];
+		j2238615064 -> j116066757;
+	j3574988183 [label="只是想表現得友好些，抱歉。",shape=box,color=red];
+		j3574988183 -> j3775102779;
+	"Chat ends." [color=orange];
+	j116066757 [label="（西語）呃，不好意思
 昨晚沒睡好 
 所以現在沒什麼耐性來回答爛問題",shape=box,color=blue];
-		5 -> 2;
-		5 -> 3;
-	16 [label="（西語）隨便
+		j116066757 -> j471770277;
+		j116066757 -> j696893826;
+	j3775102779 [label="（西語）隨便
 沒事的 
 昨晚沒怎麼睡好",shape=box,color=blue];
-		16 -> 8;
-		16 -> 2;
-	2 [label="我也沒有。",shape=box,color=red];
-		2 -> 22;
-	3 [label="那些問題*確實*夠爛，哈哈哈。我只是不知道還能聊什麼。",shape=box,color=red];
-		3 -> 26;
-	8 [label="為什麼沒睡好？",shape=box,color=red];
-		8 -> 147;
-	22 [label="+10 Chemistry",color=orange];
-		22 -> 24;
-	26 [label="給點提示
+		j3775102779 -> j775416422;
+		j3775102779 -> j471770277;
+	j471770277 [label="我也沒有。",shape=box,color=red];
+		j471770277 -> j2255803413;
+	j696893826 [label="那些問題*確實*夠爛，哈哈哈。我只是不知道還能聊什麼。",shape=box,color=red];
+		j696893826 -> j1451224280;
+	j775416422 [label="為什麼沒睡好？",shape=box,color=red];
+		j775416422 -> j1324027195;
+	j2255803413 [label="+10 Chemistry",color=orange];
+		j2255803413 -> j1571013011;
+	j1451224280 [label="給點提示
 如果你想打擾我的話
 至少讓它有趣些，好嗎？",shape=box,color=blue];
-		26 -> 10;
-	147 [label="+5 Chemistry",color=orange];
-		147 -> 23;
-	24 [label="夠糟糕了，對吧",shape=box,color=blue];
-		24 -> 25;
-	10 [label="Check boolean LettieRats1",color=orange];
-		10 -> 30 [label=true,color=green];
-		10 -> 9 [label=false,color=brown];
-	23 [label="從來都睡不好",shape=box,color=blue];
-		23 -> 25;
-	25 [label="你是想要什麼
+		j1451224280 -> j509805292;
+	j1324027195 [label="+5 Chemistry",color=orange];
+		j1324027195 -> j386523408;
+	j1571013011 [label="夠糟糕了，對吧",shape=box,color=blue];
+		j1571013011 -> j1618568931;
+	j509805292 [label="Check boolean LettieRats1",color=orange];
+		j509805292 -> j1657278369 [label=true,color=green];
+		j509805292 -> j2015007616 [label=false,color=brown];
+	j386523408 [label="從來都睡不好",shape=box,color=blue];
+		j386523408 -> j1618568931;
+	j1618568931 [label="你是想要什麼
 還是只是想打發時間",shape=box,color=blue];
-		25 -> 27;
-		25 -> 28;
-		25 -> 29;
-	30 [label="你問關於老鼠的問題比較好",shape=box,color=blue];
-		30 -> 32;
-	9 [label="Check boolean LettieFantasma1",color=orange];
-		9 -> 31 [label=true,color=green];
-		9 -> 32 [label=false,color=brown];
-	27 [label="我只是想打聲招呼而已。",shape=box,color=red];
-		27 -> 33;
-	28 [label="我只是想看看你過得怎樣。",shape=box,color=red];
-		28 -> 34;
-	29 [label="只是消磨時間。",shape=box,color=red];
-		29 -> 35;
-	32 [label="要讓它有趣點。收到。我會……去……想些……有趣的東西……",shape=box,color=red];
-		32 -> 49;
-	31 [label="你問關於家鄉的問題比較好",shape=box,color=blue];
-		31 -> 32;
-	33 [label="（西語）你好
+		j1618568931 -> j496430142;
+		j1618568931 -> j9495547;
+		j1618568931 -> j1454598635;
+	j1657278369 [label="你問關於老鼠的問題比較好",shape=box,color=blue];
+		j1657278369 -> j2491547066;
+	j2015007616 [label="Check boolean LettieFantasma1",color=orange];
+		j2015007616 -> j2143384489 [label=true,color=green];
+		j2015007616 -> j2491547066 [label=false,color=brown];
+	j496430142 [label="我只是想打聲招呼而已。",shape=box,color=red];
+		j496430142 -> j498387213;
+	j9495547 [label="我只是想看看你過得怎樣。",shape=box,color=red];
+		j9495547 -> j1355591600;
+	j1454598635 [label="只是消磨時間。",shape=box,color=red];
+		j1454598635 -> j1330780830;
+	j2491547066 [label="要讓它有趣點。收到。我會……去……想些……有趣的東西……",shape=box,color=red];
+		j2491547066 -> j3664357764;
+	j2143384489 [label="你問關於家鄉的問題比較好",shape=box,color=blue];
+		j2143384489 -> j2491547066;
+	j498387213 [label="（西語）你好
 可以了嗎？",shape=box,color=blue];
-		33 -> 39;
-		33 -> 38;
-	34 [label="忙 
+		j498387213 -> j2906257783;
+		j498387213 -> j1016180332;
+	j1355591600 [label="忙 
 累 
 壓力很大",shape=box,color=blue];
-		34 -> 37;
-	35 [label="對你來說很好
+		j1355591600 -> j3562885462;
+	j1330780830 [label="對你來說很好
 但我還有事要忙",shape=box,color=blue];
-		35 -> 36;
-	49 [label="Update boolean LettieInteresting",color=orange];
-		49 -> 48;
-	39 [label="那我就不打擾你了。",shape=box,color=red];
-		39 -> 41;
-	38 [label="有什麼我可以幫忙的嗎？",shape=box,color=red];
-		38 -> 45;
-	37 [label="一如既往",shape=box,color=blue];
-		37 -> 38;
-		37 -> 39;
-	36 [label="我要回去繼續了",shape=box,color=blue];
-		36 -> 40;
-	48 [label="+20 Chemistry",color=orange];
-		48 -> 50;
-	41 [label="（西語）很好",shape=box,color=blue];
-		41 -> 42;
-	45 [label="+10 Chemistry",color=orange];
-		45 -> 43;
-	40 [label="Chat ends.",color=orange];
-	50 [label="（西語）祝你好運",shape=box,color=blue];
-		50 -> 51;
-	42 [label="Chat ends.",color=orange];
-	43 [label="說服當地人別再介入科腐者和清剿隊之間的衝突 
+		j1330780830 -> j2292009662;
+	j3664357764 [label="Boolean LettieInteresting is now true.",color=orange];
+		j3664357764 -> j3829170459;
+	j2906257783 [label="那我就不打擾你了。",shape=box,color=red];
+		j2906257783 -> j95307620;
+	j1016180332 [label="有什麼我可以幫忙的嗎？",shape=box,color=red];
+		j1016180332 -> j4059750501;
+	j3562885462 [label="一如既往",shape=box,color=blue];
+		j3562885462 -> j1016180332;
+		j3562885462 -> j2906257783;
+	j2292009662 [label="我要回去繼續了",shape=box,color=blue];
+		j2292009662 -> "Chat ends.";
+	j3829170459 [label="+20 Chemistry",color=orange];
+		j3829170459 -> j1741245303;
+	j95307620 [label="（西語）很好",shape=box,color=blue];
+		j95307620 -> "Chat ends.";
+	j4059750501 [label="+10 Chemistry",color=orange];
+		j4059750501 -> j3302726555;
+	j1741245303 [label="（西語）祝你好運",shape=box,color=blue];
+		j1741245303 -> "Chat ends.";
+	j3302726555 [label="說服當地人別再介入科腐者和清剿隊之間的衝突 
 （西語）那樣會很棒",shape=box,color=blue];
-		43 -> 44;
-	51 [label="Chat ends.",color=orange];
-	44 [label="除此之外？
+		j3302726555 -> j1072481744;
+	j1072481744 [label="除此之外？
 我會再想想",shape=box,color=blue];
-		44 -> 46;
-	46 [label="Update boolean LettieSmallFavor",color=orange];
-		46 -> 47;
-	47 [label="Chat ends.",color=orange];
+		j1072481744 -> j2570747018;
+	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j2570747018 -> "Chat ends.";
 }

@@ -1,115 +1,111 @@
 digraph {
-	2632 [label="LettieRank6Convo4 begins.",color=orange];
-		2632 -> 2633;
-		2632 -> 2634;
-	2633 [label="[Fin]",shape=box,color=red];
-		2633 -> 2635;
-	2634 [label="¿Cómo te sientes?",shape=box,color=red];
-		2634 -> 2636;
-	2635 [label="Chat ends.",color=orange];
-	2636 [label="Eh, más o menos
+	"LettieRank6Convo4 begins." [color=orange];
+		"LettieRank6Convo4 begins." -> j202800200;
+		"LettieRank6Convo4 begins." -> j3485163747;
+	j202800200 [label="[Fin]",shape=box,color=red];
+		j202800200 -> "Chat ends.";
+	j3485163747 [label="¿Cómo te sientes?",shape=box,color=red];
+		j3485163747 -> j1274922743;
+	"Chat ends." [color=orange];
+	j1274922743 [label="Eh, más o menos
 Es uno de esos días
 Pasará, siempre es así",shape=box,color=blue];
-		2636 -> 2637;
-		2636 -> 2638;
-	2637 [label=":( Lamento escuchar eso.",shape=box,color=red];
-		2637 -> 2639;
-	2638 [label="¿Pasa algo?",shape=box,color=red];
-		2638 -> 2640;
-	2639 [label="Sólo las arañas
+		j1274922743 -> j3556739015;
+		j1274922743 -> j1157546170;
+	j3556739015 [label=":( Lamento escuchar eso.",shape=box,color=red];
+		j3556739015 -> j3541585113;
+	j1157546170 [label="¿Pasa algo?",shape=box,color=red];
+		j1157546170 -> j2081631406;
+	j3541585113 [label="Sólo las arañas
 Volviendo a sentirse como en casa
 Pero ya se irán pronto",shape=box,color=blue];
-		2639 -> 2641;
-	2640 [label="No, nada nuevo
+		j3541585113 -> j3213049075;
+	j2081631406 [label="No, nada nuevo
 Sólo las arañas
 Volviendo a sentirse como en casa
 Pero ya se irán pronto",shape=box,color=blue];
-		2640 -> 2641;
-	2641 [label="A veces quisiera
+		j2081631406 -> j3213049075;
+	j3213049075 [label="A veces quisiera
 Que fuera tan fácil como un problema
 Así podría arreglarlo, ¿sí?
 Hablarlo, golpearlo jajaja",shape=box,color=blue];
-		2641 -> 2642;
-	2642 [label="Los problemas se pueden resolver
+		j3213049075 -> j1380452798;
+	j1380452798 [label="Los problemas se pueden resolver
 Los problemas tienen respuestas
 Los sentimientos no se arreglan
 Créeme, lo he intentado",shape=box,color=blue];
-		2642 -> 2643;
-		2642 -> 2644;
-	2643 [label="Pero tienes muchas razones para ser feliz.",shape=box,color=red];
-		2643 -> 2645;
-	2644 [label="Aprendí a las malas en Duviri que \"arreglar los sentimientos\" a veces es la peor opción.",shape=box,color=red];
-		2644 -> 2646;
-	2645 [label="Ay sí, las tengo
+		j1380452798 -> j907785092;
+		j1380452798 -> j746690281;
+	j907785092 [label="Pero tienes muchas razones para ser feliz.",shape=box,color=red];
+		j907785092 -> j3009422554;
+	j746690281 [label="Aprendí a las malas en Duviri que \"arreglar los sentimientos\" a veces es la peor opción.",shape=box,color=red];
+		j746690281 -> j3319021223;
+	j3009422554 [label="Ay sí, las tengo
 Y sé que las tengo
 Y a veces quisiera
 Que la gente entendiera esa parte de mí
 Que no es fácil de asimilar",shape=box,color=blue];
-		2645 -> 2647;
-	2646 [label="Síí...
+		j3009422554 -> j3123317678;
+	j3319021223 [label="Síí...
 Aunque a veces es tentador jajaja
 Sólo quisiera que todo se disipara
 Pero me has dicho qué es lo que pasa 
 Cuando todo se vuelve gris",shape=box,color=blue];
-		2646 -> 2648;
-	2647 [label="Desearía poder ser diferente
+		j3319021223 -> j2924817959;
+	j3123317678 [label="Desearía poder ser diferente
 Pero soy quien soy
 Y ya dejé de disculparme por eso
 Hace mucho tiempo",shape=box,color=blue];
-		2647 -> 2649;
-	2648 [label="No le desearía eso a nadie
+		j3123317678 -> "Chat ends.";
+	j2924817959 [label="No le desearía eso a nadie
 Bueno, tal vez a Albrecht
 Pinche güey
 Aunque su corazón ya es demasiado frío así como es",shape=box,color=blue];
-		2648 -> 2650;
-		2648 -> 2651;
-	2649 [label="Chat ends.",color=orange];
-	2650 [label="¿Qué podemos hacer para distraerte? ¿O prefieres seguir así?",shape=box,color=red];
-		2650 -> 2652;
-	2651 [label="Solo podemos esperar a que esté jugando a largo plazo.",shape=box,color=red];
-		2651 -> 2653;
-	2652 [label="Ahhh, buena pregunta
+		j2924817959 -> j1343056994;
+		j2924817959 -> j1685907853;
+	j1343056994 [label="¿Qué podemos hacer para distraerte? ¿O prefieres seguir así?",shape=box,color=red];
+		j1343056994 -> j433463703;
+	j1685907853 [label="Solo podemos esperar a que esté jugando a largo plazo.",shape=box,color=red];
+		j1685907853 -> j837052328;
+	j433463703 [label="Ahhh, buena pregunta
 La verdad no lo sé
 Quedarme así suena bien 
 O podríamos salir y matar cosas
 ¿Te quedas o vamos a matar cosas? 
 Decisiones, decisiones...",shape=box,color=blue];
-		2652 -> 2654;
-		2652 -> 2655;
-	2653 [label="Lo único que le deseo, donde quiera que esté ese cabrón
+		j433463703 -> j4061354044;
+		j433463703 -> j3275225931;
+	j837052328 [label="Lo único que le deseo, donde quiera que esté ese cabrón
 Es un largo viaje en el elevador
 Conmigo
 Y un bate de béisbol",shape=box,color=blue];
-		2653 -> 2656;
-	2654 [label="Voto por quedarme.",shape=box,color=red];
-		2654 -> 2657;
-	2655 [label="Voto por ir a matar cosas.",shape=box,color=red];
-		2655 -> 2658;
-	2656 [label="Ese es el escenario mental que me anima
+		j837052328 -> j1306323686;
+	j4061354044 [label="Voto por quedarme.",shape=box,color=red];
+		j4061354044 -> j1419984095;
+	j3275225931 [label="Voto por ir a matar cosas.",shape=box,color=red];
+		j3275225931 -> j129080326;
+	j1306323686 [label="Ese es el escenario mental que me anima
 Jajaja",shape=box,color=blue];
-		2656 -> 2659;
-	2657 [label="Buena esa
+		j1306323686 -> j3819368348;
+	j1419984095 [label="Buena esa
 Sentarme en el bar con M y V
 Tal vez una partida de cartas
 Haga que ya no piense en eso",shape=box,color=blue];
-		2657 -> 2659;
-	2658 [label="Jajaja buena esa
+		j1419984095 -> j3819368348;
+	j129080326 [label="Jajaja buena esa
 Sacar el dolor de mis pensamientos
 Al poner ese dolor en alguien más",shape=box,color=blue];
-		2658 -> 2659;
-	2659 [label="Check boolean LettieDating",color=orange];
-		2659 -> 2661 [label=true,color=green];
-		2659 -> 2660 [label=false,color=brown];
-	2661 [label="Check boolean LettieReal",color=orange];
-		2661 -> 2664 [label=true,color=green];
-		2661 -> 2663 [label=false,color=brown];
-	2660 [label="Gracias, camarada",shape=box,color=blue];
-		2660 -> 2662;
-	2664 [label="Gracias, corazón",shape=box,color=blue];
-		2664 -> 2666;
-	2663 [label="Gracias, solecito",shape=box,color=blue];
-		2663 -> 2665;
-	2662 [label="Chat ends.",color=orange];
-	2666 [label="Chat ends.",color=orange];
-	2665 [label="Chat ends.",color=orange];
+		j129080326 -> j3819368348;
+	j3819368348 [label="Check boolean LettieDating",color=orange];
+		j3819368348 -> j1587771096 [label=true,color=green];
+		j3819368348 -> j496375508 [label=false,color=brown];
+	j1587771096 [label="Check boolean LettieReal",color=orange];
+		j1587771096 -> j1355625237 [label=true,color=green];
+		j1587771096 -> j4256533151 [label=false,color=brown];
+	j496375508 [label="Gracias, camarada",shape=box,color=blue];
+		j496375508 -> "Chat ends.";
+	j1355625237 [label="Gracias, corazón",shape=box,color=blue];
+		j1355625237 -> "Chat ends.";
+	j4256533151 [label="Gracias, solecito",shape=box,color=blue];
+		j4256533151 -> "Chat ends.";
 }

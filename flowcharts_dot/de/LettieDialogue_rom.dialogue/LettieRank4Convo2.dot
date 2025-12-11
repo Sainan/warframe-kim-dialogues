@@ -1,133 +1,127 @@
 digraph {
-	1031 [label="LettieRank4Convo2 begins.",color=orange];
-		1031 -> 1032;
-	1032 [label="Erzähl mir von diesem schrecklichen Gott, den du entfesselt hast 
+	"LettieRank4Convo2 begins." [color=orange];
+		"LettieRank4Convo2 begins." -> j1649871485;
+	j1649871485 [label="Erzähl mir von diesem schrecklichen Gott, den du entfesselt hast 
 Dein Xipe Totec, dein gehäuteter Gott 
 Was will er?",shape=box,color=blue];
-		1032 -> 1034;
-	1034 [label="Check boolean LettieReligion2",color=orange];
-		1034 -> 1040 [label=true,color=green];
-		1034 -> 1041 [label=true,color=green];
-		1034 -> 1039 [label=true,color=green];
-		1034 -> 1043 [label=true,color=green];
-		1034 -> 1035 [label=false,color=brown];
-		1034 -> 1043 [label=false,color=brown];
-	1040 [label="Freiheit?",shape=box,color=red];
-		1040 -> 1042;
-	1041 [label="Wissen?",shape=box,color=red];
-		1041 -> 1042;
-	1039 [label="Ich weiß es nicht.",shape=box,color=red];
-		1039 -> 1045;
-	1043 [label="Bin gleich wieder da. [Ende.]",shape=box,color=red];
-		1043 -> 1044;
-	1035 [label="Hä? Wovon redest du?",shape=box,color=red];
-		1035 -> 1036;
-	1042 [label="Du denkst das, aber du weißt es nicht 
+		j1649871485 -> j1356677054;
+	j1356677054 [label="Check boolean LettieReligion2",color=orange];
+		j1356677054 -> j610978812 [label=true,color=green];
+		j1356677054 -> j3193036648 [label=true,color=green];
+		j1356677054 -> j738230191 [label=true,color=green];
+		j1356677054 -> j1893944263 [label=true,color=green];
+		j1356677054 -> j1121418095 [label=false,color=brown];
+		j1356677054 -> j1893944263 [label=false,color=brown];
+	j610978812 [label="Freiheit?",shape=box,color=red];
+		j610978812 -> j616458424;
+	j3193036648 [label="Wissen?",shape=box,color=red];
+		j3193036648 -> j616458424;
+	j738230191 [label="Ich weiß es nicht.",shape=box,color=red];
+		j738230191 -> j3269722124;
+	j1893944263 [label="Bin gleich wieder da. [Ende.]",shape=box,color=red];
+		j1893944263 -> "Chat ends.";
+	j1121418095 [label="Hä? Wovon redest du?",shape=box,color=red];
+		j1121418095 -> j3127594516;
+	j616458424 [label="Du denkst das, aber du weißt es nicht 
 Seine Beweggründe sind nicht klar
 Und dennoch denkst du, er sei ein Feind ¿Por qué?",shape=box,color=blue];
-		1042 -> 1046;
-		1042 -> 1047;
-	1045 [label="Aber du behandelst ihn wie einen Feind 
+		j616458424 -> j2300250133;
+		j616458424 -> j1672469331;
+	j3269722124 [label="Aber du behandelst ihn wie einen Feind 
 Wenn du nicht weißt, was er vorhat 
 ¿Por qué?",shape=box,color=blue];
-		1045 -> 1046;
-		1045 -> 1047;
-	1044 [label="Chat ends.",color=orange];
-	1036 [label="Diese Void-Kreatur, die andere opfert und ihre Haut wie der alte, gehäutete Gott trägt, Xipe Totec",shape=box,color=blue];
-		1036 -> 1037;
-	1046 [label="Dieses DING beschloss, dass es ein lustiges Experiment wäre, die Eltern auf der Zariman gegen ihre Kinder aufzubringen -",shape=box,color=red];
-		1046 -> 1048;
-	1047 [label="Er hinterlässt nur Tod und Zerstörung. Was auch immer seine Motive sind, es spielt keine Rolle. Vertrau mir.",shape=box,color=red];
-		1047 -> 1049;
-	1037 [label="Update boolean LettieReligion2",color=orange];
-		1037 -> 1038;
-	1048 [label="Und dann gab er den Kindern magische Void-Kräfte, damit sie ihre eigenen Eltern ermorden konnten, sodass er aus dem Gemetzel LERNEN konnte.",shape=box,color=red];
-		1048 -> 1050;
-		1048 -> 1051;
-	1049 [label="Nein 
+		j3269722124 -> j2300250133;
+		j3269722124 -> j1672469331;
+	"Chat ends." [color=orange];
+	j3127594516 [label="Diese Void-Kreatur, die andere opfert und ihre Haut wie der alte, gehäutete Gott trägt, Xipe Totec",shape=box,color=blue];
+		j3127594516 -> j4046567326;
+	j2300250133 [label="Dieses DING beschloss, dass es ein lustiges Experiment wäre, die Eltern auf der Zariman gegen ihre Kinder aufzubringen -",shape=box,color=red];
+		j2300250133 -> j3864932514;
+	j1672469331 [label="Er hinterlässt nur Tod und Zerstörung. Was auch immer seine Motive sind, es spielt keine Rolle. Vertrau mir.",shape=box,color=red];
+		j1672469331 -> j3007002921;
+	j4046567326 [label="Boolean LettieReligion2 is now true.",color=orange];
+		j4046567326 -> j2254715334;
+	j3864932514 [label="Und dann gab er den Kindern magische Void-Kräfte, damit sie ihre eigenen Eltern ermorden konnten, sodass er aus dem Gemetzel LERNEN konnte.",shape=box,color=red];
+		j3864932514 -> j4209594819;
+		j3864932514 -> j3803469399;
+	j3007002921 [label="Nein 
 Darauf vertrauen, dass du den Geist eines Gottes verstehst 
 Es ist mir egal, wie alt du bist 
 Wie viel du gesehen hast",shape=box,color=blue];
-		1049 -> 1052;
-	1038 [label="Was will er",shape=box,color=blue];
-		1038 -> 1040;
-		1038 -> 1041;
-		1038 -> 1039;
-	1050 [label="Es hatte die Gelegenheit, aus Liebe, Aufopferung und Güte zu lernen. Aber es ENTSCHIED sich dafür, Chaos und Mord zu anzustreben.",shape=box,color=red];
-		1050 -> 1060;
-	1051 [label="Selbst wenn er nur ein Kleinkind ist, das Spielzeuge zusammenschlägt, um die Welt um sich herum zu verstehen. Wir sind diese Spielzeuge. Er muss aufgehalten werden.",shape=box,color=red];
-		1051 -> 1061;
-	1052 [label="Check boolean LettieEntrati",color=orange];
-		1052 -> 1053 [label=true,color=green];
-		1052 -> 1056 [label=false,color=brown];
-	1060 [label="Ich hoffe weiterhin, dass er kein Feind ist, aber ... sein Verhalten gibt keinen Grund, dies anzunehmen.",shape=box,color=red];
-		1060 -> 1062;
-	1061 [label="Ich weigere mich zu glauben, dass er harmlos ist, nach allem, was ich gesehen habe. Nach allem, was er mir angetan hat.",shape=box,color=red];
-		1061 -> 1062;
-	1053 [label="Du bist kein Gott, babas 
+		j3007002921 -> j2154935428;
+	j2254715334 [label="Was will er",shape=box,color=blue];
+		j2254715334 -> j610978812;
+		j2254715334 -> j3193036648;
+		j2254715334 -> j738230191;
+	j4209594819 [label="Es hatte die Gelegenheit, aus Liebe, Aufopferung und Güte zu lernen. Aber es ENTSCHIED sich dafür, Chaos und Mord zu anzustreben.",shape=box,color=red];
+		j4209594819 -> j2962160544;
+	j3803469399 [label="Selbst wenn er nur ein Kleinkind ist, das Spielzeuge zusammenschlägt, um die Welt um sich herum zu verstehen. Wir sind diese Spielzeuge. Er muss aufgehalten werden.",shape=box,color=red];
+		j3803469399 -> j4185405932;
+	j2154935428 [label="Check boolean LettieEntrati",color=orange];
+		j2154935428 -> j2179125357 [label=true,color=green];
+		j2154935428 -> j2834367091 [label=false,color=brown];
+	j2962160544 [label="Ich hoffe weiterhin, dass er kein Feind ist, aber ... sein Verhalten gibt keinen Grund, dies anzunehmen.",shape=box,color=red];
+		j2962160544 -> j2262862963;
+	j4185405932 [label="Ich weigere mich zu glauben, dass er harmlos ist, nach allem, was ich gesehen habe. Nach allem, was er mir angetan hat.",shape=box,color=red];
+		j4185405932 -> j2262862963;
+	j2179125357 [label="Du bist kein Gott, babas 
 Gib nicht vor, zu denken wie einer
 Sonst bist du nicht besser als dieser Entrati cabrón",shape=box,color=blue];
-		1053 -> 1059;
-	1056 [label="Check boolean LettieOrokin",color=orange];
-		1056 -> 1054 [label=true,color=green];
-		1056 -> 1055 [label=false,color=brown];
-	1062 [label="Und du denkst, du kannst einen Gott aufhalten",shape=box,color=blue];
-		1062 -> 1063;
-	1059 [label="Chat ends.",color=orange];
-	1054 [label="Du bist kein Gott, babas 
+		j2179125357 -> "Chat ends.";
+	j2834367091 [label="Check boolean LettieOrokin",color=orange];
+		j2834367091 -> j1495046527 [label=true,color=green];
+		j2834367091 -> j1575208319 [label=false,color=brown];
+	j2262862963 [label="Und du denkst, du kannst einen Gott aufhalten",shape=box,color=blue];
+		j2262862963 -> j1724044313;
+	j1495046527 [label="Du bist kein Gott, babas 
 Gib nicht vor, zu denken wie einer
 Sonst bist du nicht besser als diese Orokin cabrones",shape=box,color=blue];
-		1054 -> 1057;
-	1055 [label="Du bist kein Gott, babas 
+		j1495046527 -> "Chat ends.";
+	j1575208319 [label="Du bist kein Gott, babas 
 Gib nicht vor, zu denken wie einer",shape=box,color=blue];
-		1055 -> 1058;
-	1063 [label="Update boolean LettieReligion4",color=orange];
-		1063 -> 1064;
-	1057 [label="Chat ends.",color=orange];
-	1058 [label="Chat ends.",color=orange];
-	1064 [label="Check boolean ReligionNone",color=orange];
-		1064 -> 1065 [label=true,color=green];
-		1064 -> 1066 [label=true,color=green];
-		1064 -> 1067 [label=true,color=green];
-		1064 -> 1068 [label=false,color=brown];
-	1065 [label="Keine Ahnung. Ich neige dazu, mir diesen Scheiß auszudenken, während ich voranschreite. lol",shape=box,color=red];
-		1065 -> 1071;
-	1066 [label="Ich denke, ich kann es versuchen. So wie hier. Und das ist alles, was jeder von uns tun kann.",shape=box,color=red];
-		1066 -> 1069;
-	1067 [label="Das liegt jetzt bei anderen. Mein Platz ist hier im Jahr 1999 bei euch.",shape=box,color=red];
-		1067 -> 1074;
-	1068 [label="Ich habe Vertrauen.",shape=box,color=red];
-		1068 -> 1070;
-	1071 [label="+20 Chemistry",color=orange];
-		1071 -> 1072;
-	1069 [label="+20 Chemistry",color=orange];
-		1069 -> 1073;
-	1074 [label="Estás bromeando, ¿verdad? 
+		j1575208319 -> "Chat ends.";
+	j1724044313 [label="Boolean LettieReligion4 is now true.",color=orange];
+		j1724044313 -> j4029075512;
+	j4029075512 [label="Check boolean ReligionNone",color=orange];
+		j4029075512 -> j203858806 [label=true,color=green];
+		j4029075512 -> j229956273 [label=true,color=green];
+		j4029075512 -> j2176084383 [label=true,color=green];
+		j4029075512 -> j916771378 [label=false,color=brown];
+	j203858806 [label="Keine Ahnung. Ich neige dazu, mir diesen Scheiß auszudenken, während ich voranschreite. lol",shape=box,color=red];
+		j203858806 -> j2470369812;
+	j229956273 [label="Ich denke, ich kann es versuchen. So wie hier. Und das ist alles, was jeder von uns tun kann.",shape=box,color=red];
+		j229956273 -> j3506689047;
+	j2176084383 [label="Das liegt jetzt bei anderen. Mein Platz ist hier im Jahr 1999 bei euch.",shape=box,color=red];
+		j2176084383 -> j3653851185;
+	j916771378 [label="Ich habe Vertrauen.",shape=box,color=red];
+		j916771378 -> j1829607719;
+	j2470369812 [label="+20 Chemistry",color=orange];
+		j2470369812 -> j3646456725;
+	j3506689047 [label="+20 Chemistry",color=orange];
+		j3506689047 -> j2135684159;
+	j3653851185 [label="Estás bromeando, ¿verdad? 
 Sobald sie rufen, wirst du losrennen
 Du bist ein Drifter, ein Soldat. Du wirst losziehen, um die Zukunft zu retten, wenn sie dich brauchen",shape=box,color=blue];
-		1074 -> 1075;
-	1070 [label="+20 Chemistry",color=orange];
-		1070 -> 1076;
-	1072 [label="Jaja, sí
+		j3653851185 -> j196488629;
+	j1829607719 [label="+20 Chemistry",color=orange];
+		j1829607719 -> j3518394244;
+	j3646456725 [label="Jaja, sí
 Ich verstehe
 Ich weiß die Ehrlichkeit zu schätzen, babas 
 Scheint für dich zu funktionieren, also werde ich nicht urteilen",shape=box,color=blue];
-		1072 -> 1078;
-	1073 [label="Sí 
+		j3646456725 -> "Chat ends.";
+	j2135684159 [label="Sí 
 Das ist wohl alles, was wir verlangen können",shape=box,color=blue];
-		1073 -> 1079;
-	1075 [label="Wir sind hier gefangen 
+		j2135684159 -> "Chat ends.";
+	j196488629 [label="Wir sind hier gefangen 
 Lüg mich nicht an und erzähl mir nicht, dass du mit mir spazieren gehen wirst, babas 
 Eines Tages wirst du entkommen und nie wieder zurückkommen",shape=box,color=blue];
-		1075 -> 1080;
-	1076 [label="Ay, sí 
+		j196488629 -> j1464801759;
+	j3518394244 [label="Ay, sí 
 Vertrauen an das, was keine Rolle spielt, denke ich 
 Solange es dich durchbringt",shape=box,color=blue];
-		1076 -> 1077;
-	1078 [label="Chat ends.",color=orange];
-	1079 [label="Chat ends.",color=orange];
-	1080 [label="Update boolean LettieEscape",color=orange];
-		1080 -> 1081;
-	1077 [label="Chat ends.",color=orange];
-	1081 [label="Chat ends. Next chat will be LettieEscape.",color=orange];
+		j3518394244 -> "Chat ends.";
+	j1464801759 [label="Boolean LettieEscape is now true.",color=orange];
+		j1464801759 -> "Chat ends. Next chat will be LettieEscape.";
+	"Chat ends. Next chat will be LettieEscape." [color=orange];
 }

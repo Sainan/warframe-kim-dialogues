@@ -1,19 +1,18 @@
 digraph {
-	995 [label="KayaBirthdayConvo3 begins.",color=orange];
-		995 -> 1003;
-		995 -> 1004;
-	1003 [label="Що діти вашої ери роблять на Дні народження?",shape=box,color=red];
-		1003 -> 994;
-	1004 [label="Маю пораду: запиши дату свого народження на чомусь дуже важливому. Бо років через 500… про неї можна забути.",shape=box,color=red];
-		1004 -> 1011;
-	994 [label="ем.",shape=box,color=blue];
-		994 -> 993;
-	1011 [label="о-о-о, то-о-чно, я ж не старітиму, чи не так? Я буду продовжувати святкувати цей День народження знову і знову",shape=box,color=blue];
-		1011 -> 1012;
-	993 [label="Chat ends.",color=orange];
-	1012 [label="+20 Chemistry",color=orange];
-		1012 -> 1013;
-	1013 [label="це. так. КРУТО.",shape=box,color=blue];
-		1013 -> 1014;
-	1014 [label="Chat ends.",color=orange];
+	"KayaBirthdayConvo3 begins." [color=orange];
+		"KayaBirthdayConvo3 begins." -> j502048254;
+		"KayaBirthdayConvo3 begins." -> j974440754;
+	j502048254 [label="Що діти вашої ери роблять на Дні народження?",shape=box,color=red];
+		j502048254 -> j3104128360;
+	j974440754 [label="Маю пораду: запиши дату свого народження на чомусь дуже важливому. Бо років через 500… про неї можна забути.",shape=box,color=red];
+		j974440754 -> j1786170320;
+	j3104128360 [label="ем.",shape=box,color=blue];
+		j3104128360 -> "Chat ends.";
+	j1786170320 [label="о-о-о, то-о-чно, я ж не старітиму, чи не так? Я буду продовжувати святкувати цей День народження знову і знову",shape=box,color=blue];
+		j1786170320 -> j1279089341;
+	"Chat ends." [color=orange];
+	j1279089341 [label="+20 Chemistry",color=orange];
+		j1279089341 -> j13176083;
+	j13176083 [label="це. так. КРУТО.",shape=box,color=blue];
+		j13176083 -> "Chat ends.";
 }

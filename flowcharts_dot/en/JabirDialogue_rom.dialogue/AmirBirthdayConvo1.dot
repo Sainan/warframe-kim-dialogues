@@ -1,21 +1,16 @@
 digraph {
-	3564 [label="AmirBirthdayConvo1 begins.",color=orange];
-		3564 -> 3565;
-		3564 -> 3566;
-	3565 [label="Amir! You have successfully completed another circuit around Sol! Congratulations!",shape=box,color=red];
-		3565 -> 3567;
-	3566 [label="It’s your birthday, Amir! Maybe a good time to do some growing up?",shape=box,color=red];
-		3566 -> 3568;
-	3567 [label="+20 Chemistry",color=orange];
-		3567 -> 3569;
-	3568 [label="GASP!! i can't believe you'd just leave something that lying around where my inner child could read it!! WON'T SOMEBODY THINK OF THE CHILDREN?!",shape=box,color=blue];
-		3568 -> 3595;
-	3569 [label="Oh PSHAWW! thaaaanks but it was nothing!! the planet did most of the hard work, I was just along for the ride",shape=box,color=blue];
-		3569 -> 3594;
-	3595 [label="{\"Id\":3595,\"Incoming\":[3568],\"Outgoing\":[3571],\"GraphPos\":[-14760,-21632],\"CompletionType\":1}",color=orange];
-		3595 -> 3571;
-	3594 [label="{\"Id\":3594,\"Incoming\":[3569],\"Outgoing\":[3570],\"GraphPos\":[-14377,-21757],\"CompletionType\":1}",color=orange];
-		3594 -> 3570;
-	3571 [label="Chat ends.",color=orange];
-	3570 [label="Chat ends.",color=orange];
+	"AmirBirthdayConvo1 begins." [color=orange];
+		"AmirBirthdayConvo1 begins." -> j3865937747;
+		"AmirBirthdayConvo1 begins." -> j1688271029;
+	j3865937747 [label="Amir! You have successfully completed another circuit around Sol! Congratulations!",shape=box,color=red];
+		j3865937747 -> j1033275959;
+	j1688271029 [label="It’s your birthday, Amir! Maybe a good time to do some growing up?",shape=box,color=red];
+		j1688271029 -> j1117170860;
+	j1033275959 [label="+20 Chemistry",color=orange];
+		j1033275959 -> j2435466462;
+	j1117170860 [label="GASP!! i can't believe you'd just leave something that lying around where my inner child could read it!! WON'T SOMEBODY THINK OF THE CHILDREN?!",shape=box,color=blue];
+		j1117170860 -> "Chat ends.";
+	j2435466462 [label="Oh PSHAWW! thaaaanks but it was nothing!! the planet did most of the hard work, I was just along for the ride",shape=box,color=blue];
+		j2435466462 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

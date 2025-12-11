@@ -1,17 +1,16 @@
 digraph {
-	987 [label="KayaBirthdayConvo1 begins.",color=orange];
-		987 -> 999;
-		987 -> 1000;
-	999 [label="안녕, 카야. 생일 축하해!",shape=box,color=red];
-		999 -> 1005;
-	1000 [label="생일 축하해, 카야. 나이 한 살 더 먹은 건 어때?",shape=box,color=red];
-		1000 -> 1006;
-	1005 [label="+20 Chemistry",color=orange];
-		1005 -> 988;
-	1006 [label="근데 나 나이 안 먹는다만? 우리 모두 말이야. 우린 모두 불타면 비명 지르는 예쁜 조랑말들처럼 이 회전목마를 빙빙 돌고 있을 뿐이야",shape=box,color=blue];
-		1006 -> 1007;
-	988 [label="우어 그거 기억하고 있었어어? 8살이 넘으면 생일은 별일 아니게 되는 거지만, 이렇게 말해주는거 되게 상냥한 것 같다. 고마워",shape=box,color=blue];
-		988 -> 989;
-	1007 [label="Chat ends.",color=orange];
-	989 [label="Chat ends.",color=orange];
+	"KayaBirthdayConvo1 begins." [color=orange];
+		"KayaBirthdayConvo1 begins." -> j1724446041;
+		"KayaBirthdayConvo1 begins." -> j222989628;
+	j1724446041 [label="안녕, 카야. 생일 축하해!",shape=box,color=red];
+		j1724446041 -> j4219162599;
+	j222989628 [label="생일 축하해, 카야. 나이 한 살 더 먹은 건 어때?",shape=box,color=red];
+		j222989628 -> j1798714372;
+	j4219162599 [label="+20 Chemistry",color=orange];
+		j4219162599 -> j4172477501;
+	j1798714372 [label="근데 나 나이 안 먹는다만? 우리 모두 말이야. 우린 모두 불타면 비명 지르는 예쁜 조랑말들처럼 이 회전목마를 빙빙 돌고 있을 뿐이야",shape=box,color=blue];
+		j1798714372 -> "Chat ends.";
+	j4172477501 [label="우어 그거 기억하고 있었어어? 8살이 넘으면 생일은 별일 아니게 되는 거지만, 이렇게 말해주는거 되게 상냥한 것 같다. 고마워",shape=box,color=blue];
+		j4172477501 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

@@ -1,17 +1,16 @@
 digraph {
-	987 [label="KayaBirthdayConvo1 begins.",color=orange];
-		987 -> 999;
-		987 -> 1000;
-	999 [label="Salut Kaya. Joyeux anniversaire!",shape=box,color=red];
-		999 -> 1005;
-	1000 [label="Joyeux anniversaire, Kaya. Ça fait quoi d'être plus vieille?",shape=box,color=red];
-		1000 -> 1006;
-	1005 [label="+20 Chemistry",color=orange];
-		1005 -> 988;
-	1006 [label="Je ne suis pas plus vieille, n'est-ce pas? Aucun de nous ne l'est. Nous tournons simplement en rond sur ce manège comme de jolis poneys déchaînés.",shape=box,color=blue];
-		1006 -> 1007;
-	988 [label="waw, tu te souviens de ça? Je veux dire, les anniversaires ne sont plus un problème une fois que tu as passé 8 ans, mais c'est plutôt gentil de ta part, merci",shape=box,color=blue];
-		988 -> 989;
-	1007 [label="Chat ends.",color=orange];
-	989 [label="Chat ends.",color=orange];
+	"KayaBirthdayConvo1 begins." [color=orange];
+		"KayaBirthdayConvo1 begins." -> j4049836360;
+		"KayaBirthdayConvo1 begins." -> j3723398682;
+	j4049836360 [label="Salut Kaya. Joyeux anniversaire!",shape=box,color=red];
+		j4049836360 -> j919066659;
+	j3723398682 [label="Joyeux anniversaire, Kaya. Ça fait quoi d'être plus vieille?",shape=box,color=red];
+		j3723398682 -> j657746594;
+	j919066659 [label="+20 Chemistry",color=orange];
+		j919066659 -> j355132106;
+	j657746594 [label="Je ne suis pas plus vieille, n'est-ce pas? Aucun de nous ne l'est. Nous tournons simplement en rond sur ce manège comme de jolis poneys déchaînés.",shape=box,color=blue];
+		j657746594 -> "Chat ends.";
+	j355132106 [label="waw, tu te souviens de ça? Je veux dire, les anniversaires ne sont plus un problème une fois que tu as passé 8 ans, mais c'est plutôt gentil de ta part, merci",shape=box,color=blue];
+		j355132106 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

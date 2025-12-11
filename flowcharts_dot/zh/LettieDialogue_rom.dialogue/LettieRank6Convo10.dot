@@ -1,14 +1,14 @@
 digraph {
-	2750 [label="LettieRank6Convo10 begins.",color=orange];
-		2750 -> 2751;
-	2751 [label="嘿
+	"LettieRank6Convo10 begins." [color=orange];
+		"LettieRank6Convo10 begins." -> j110938016;
+	j110938016 [label="嘿
 如果你在酒吧听到
 关于埃莉诺和我的谣言",shape=box,color=blue];
-		2751 -> 2752;
-	2752 [label="那些全部都是
+		j110938016 -> j3481236848;
+	j3481236848 [label="那些全部都是
 谎言",shape=box,color=blue];
-		2752 -> 2575;
-	2575 [label="Update boolean LettieEleanorBar",color=orange];
-		2575 -> 2753;
-	2753 [label="Chat ends.",color=orange];
+		j3481236848 -> j476615613;
+	j476615613 [label="Boolean LettieEleanorBar is now true.",color=orange];
+		j476615613 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

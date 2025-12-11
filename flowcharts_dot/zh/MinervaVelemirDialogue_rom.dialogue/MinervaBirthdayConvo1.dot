@@ -1,19 +1,18 @@
 digraph {
-	1768 [label="MinervaBirthdayConvo1 begins.",color=orange];
-		1768 -> 1769;
-		1768 -> 1770;
-	1769 [label="今天有什么特别活动吗？ ",shape=box,color=red];
-		1769 -> 1771;
-	1770 [label="生日快乐！！你一定很激动吧。",shape=box,color=red];
-		1770 -> 1772;
-	1771 [label="MomToxicated: 埃莉诺和其他女士们向我保证，这将是一个“喝到断片的夜晚”。",shape=box,color=blue];
-		1771 -> 1773;
-	1772 [label="MomToxicated: 一段时间以后生日就不再令人激动了，但我还是很欣赏你的乐观精神。",shape=box,color=blue];
-		1772 -> 1774;
-	1773 [label="+20 Chemistry",color=orange];
-		1773 -> 1775;
-	1774 [label="Chat ends.",color=orange];
-	1775 [label="MomToxicated: 我简直不要太兴奋。",shape=box,color=blue];
-		1775 -> 1776;
-	1776 [label="Chat ends.",color=orange];
+	"MinervaBirthdayConvo1 begins." [color=orange];
+		"MinervaBirthdayConvo1 begins." -> j384365947;
+		"MinervaBirthdayConvo1 begins." -> j1379962586;
+	j384365947 [label="今天有什么特别活动吗？ ",shape=box,color=red];
+		j384365947 -> j207871804;
+	j1379962586 [label="生日快乐！！你一定很激动吧。",shape=box,color=red];
+		j1379962586 -> j1535712013;
+	j207871804 [label="MomToxicated: 埃莉诺和其他女士们向我保证，这将是一个“喝到断片的夜晚”。",shape=box,color=blue];
+		j207871804 -> j3128080251;
+	j1535712013 [label="MomToxicated: 一段时间以后生日就不再令人激动了，但我还是很欣赏你的乐观精神。",shape=box,color=blue];
+		j1535712013 -> "Chat ends.";
+	j3128080251 [label="+20 Chemistry",color=orange];
+		j3128080251 -> j3405095692;
+	"Chat ends." [color=orange];
+	j3405095692 [label="MomToxicated: 我简直不要太兴奋。",shape=box,color=blue];
+		j3405095692 -> "Chat ends.";
 }

@@ -1,21 +1,16 @@
 digraph {
-	3192 [label="ArthurBirthdayConvo3 begins.",color=orange];
-		3192 -> 3210;
-		3192 -> 3212;
-	3210 [label="Salut. Je voulais juste te souhaiter un joyeux anniversaire. C'est super d'avoir été là pour le voir.",shape=box,color=red];
-		3210 -> 3211;
-	3212 [label="Joyeux anniversaire. Fais de ton mieux pour ne pas mourir aujourd'hui. Ça gâcherait l'ambiance.",shape=box,color=red];
-		3212 -> 3207;
-	3211 [label="+20 Chemistry",color=orange];
-		3211 -> 3209;
-	3207 [label="Écoute, je sais que tu as traversé beaucoup d'épreuves aussi, mais il y a un temps et un lieu pour l'humour noir.",shape=box,color=blue];
-		3207 -> 3000;
-	3209 [label="On a eu des moments difficiles, n'est-ce pas? Merci pour ton soutien, aujourd'hui et tous les autres jours.",shape=box,color=blue];
-		3209 -> 3225;
-	3000 [label="{\"Id\":3000,\"Incoming\":[3207],\"Outgoing\":[3208],\"GraphPos\":[-30902,-13388],\"CompletionType\":1}",color=orange];
-		3000 -> 3208;
-	3225 [label="{\"Id\":3225,\"Incoming\":[3209],\"Outgoing\":[3213],\"GraphPos\":[-30899,-13547],\"CompletionType\":1}",color=orange];
-		3225 -> 3213;
-	3208 [label="Chat ends.",color=orange];
-	3213 [label="Chat ends.",color=orange];
+	"ArthurBirthdayConvo3 begins." [color=orange];
+		"ArthurBirthdayConvo3 begins." -> j4099141469;
+		"ArthurBirthdayConvo3 begins." -> j229481510;
+	j4099141469 [label="Salut. Je voulais juste te souhaiter un joyeux anniversaire. C'est super d'avoir été là pour le voir.",shape=box,color=red];
+		j4099141469 -> j1524646566;
+	j229481510 [label="Joyeux anniversaire. Fais de ton mieux pour ne pas mourir aujourd'hui. Ça gâcherait l'ambiance.",shape=box,color=red];
+		j229481510 -> j1448809572;
+	j1524646566 [label="+20 Chemistry",color=orange];
+		j1524646566 -> j2023895571;
+	j1448809572 [label="Écoute, je sais que tu as traversé beaucoup d'épreuves aussi, mais il y a un temps et un lieu pour l'humour noir.",shape=box,color=blue];
+		j1448809572 -> "Chat ends.";
+	j2023895571 [label="On a eu des moments difficiles, n'est-ce pas? Merci pour ton soutien, aujourd'hui et tous les autres jours.",shape=box,color=blue];
+		j2023895571 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

@@ -1,21 +1,16 @@
 digraph {
-	3580 [label="AmirBirthdayConvo3 begins.",color=orange];
-		3580 -> 3585;
-		3580 -> 3586;
-	3585 [label="안녕, 아미르. 생일 축하해. 삡 뿝 뭐든간에.",shape=box,color=red];
-		3585 -> 3584;
-	3586 [label="안녕하신가 아미르 경 그대의 존재가 시작된 날의 기념일을 축하한다네",shape=box,color=red];
-		3586 -> 3587;
-	3584 [label="아미르는 현재 부재 중입니다 본 메시지는 아미르가 성의 없는 생일 축하 메시지를 걸러내기 위해 만든 똑똑한 방화벽 프로그램입니다 오우 여기도 하나 있네",shape=box,color=blue];
-		3584 -> 3598;
-	3587 [label="+20 Chemistry",color=orange];
-		3587 -> 3583;
-	3598 [label="{\"Id\":3598,\"Incoming\":[3584],\"Outgoing\":[3581],\"GraphPos\":[-14748,-20693],\"CompletionType\":1}",color=orange];
-		3598 -> 3581;
-	3583 [label="깊은 감사와 정겨운 고마움의 문화적으로 적절한 성명을 보내오",shape=box,color=blue];
-		3583 -> 3599;
-	3581 [label="Chat ends.",color=orange];
-	3599 [label="{\"Id\":3599,\"Incoming\":[3583],\"Outgoing\":[3582],\"GraphPos\":[-14347,-20820],\"CompletionType\":1}",color=orange];
-		3599 -> 3582;
-	3582 [label="Chat ends.",color=orange];
+	"AmirBirthdayConvo3 begins." [color=orange];
+		"AmirBirthdayConvo3 begins." -> j2680859937;
+		"AmirBirthdayConvo3 begins." -> j1073129831;
+	j2680859937 [label="안녕, 아미르. 생일 축하해. 삡 뿝 뭐든간에.",shape=box,color=red];
+		j2680859937 -> j3292681774;
+	j1073129831 [label="안녕하신가 아미르 경 그대의 존재가 시작된 날의 기념일을 축하한다네",shape=box,color=red];
+		j1073129831 -> j123621286;
+	j3292681774 [label="아미르는 현재 부재 중입니다 본 메시지는 아미르가 성의 없는 생일 축하 메시지를 걸러내기 위해 만든 똑똑한 방화벽 프로그램입니다 오우 여기도 하나 있네",shape=box,color=blue];
+		j3292681774 -> "Chat ends.";
+	j123621286 [label="+20 Chemistry",color=orange];
+		j123621286 -> j1523614179;
+	"Chat ends." [color=orange];
+	j1523614179 [label="깊은 감사와 정겨운 고마움의 문화적으로 적절한 성명을 보내오",shape=box,color=blue];
+		j1523614179 -> "Chat ends.";
 }

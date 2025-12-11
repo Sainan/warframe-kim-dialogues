@@ -1,140 +1,133 @@
 digraph {
-	248 [label="LettieRank2Convo1 begins.",color=orange];
-		248 -> 249;
-	249 [label="Check boolean LettieDuviri",color=orange];
-		249 -> 250 [label=true,color=green];
-		249 -> 252 [label=false,color=brown];
-	250 [label="その経験したという死
+	"LettieRank2Convo1 begins." [color=orange];
+		"LettieRank2Convo1 begins." -> j2549990084;
+	j2549990084 [label="Check boolean LettieDuviri",color=orange];
+		j2549990084 -> j2038182759 [label=true,color=green];
+		j2549990084 -> j2507764616 [label=false,color=brown];
+	j2038182759 [label="その経験したという死
 痛かった？",shape=box,color=blue];
-		250 -> 254;
-		250 -> 255;
-		250 -> 256;
-	252 [label="教えて、babas 
+		j2038182759 -> j1556654725;
+		j2038182759 -> j2476766894;
+		j2038182759 -> j4228318032;
+	j2507764616 [label="教えて、babas 
 死についてどれだけ知っているの？",shape=box,color=blue];
-		252 -> 254;
-		252 -> 255;
-		252 -> 256;
-	254 [label="病んでいるのは*自分*のほうだと思っていたけど…　大丈夫？",shape=box,color=red];
-		254 -> 257;
-	255 [label="笑　話したら終わらない。Lettieは？",shape=box,color=red];
-		255 -> 257;
-	256 [label="もっと外の空気吸ったほうがいいと思う。",shape=box,color=red];
-		256 -> 258;
-	257 [label="La Flacaとは顔なじみよ",shape=box,color=blue];
-		257 -> 260;
-		257 -> 261;
-	258 [label="Ay, equis",shape=box,color=blue];
-		258 -> 259;
-	260 [label="La Flacaって死のこと？",shape=box,color=red];
-		260 -> 262;
-	261 [label="La Flacaって誰？",shape=box,color=red];
-		261 -> 263;
-	259 [label="Chat ends.",color=orange];
-	262 [label="Sí 
+		j2507764616 -> j1556654725;
+		j2507764616 -> j2476766894;
+		j2507764616 -> j4228318032;
+	j1556654725 [label="病んでいるのは*自分*のほうだと思っていたけど…　大丈夫？",shape=box,color=red];
+		j1556654725 -> j3268096659;
+	j2476766894 [label="笑　話したら終わらない。Lettieは？",shape=box,color=red];
+		j2476766894 -> j3268096659;
+	j4228318032 [label="もっと外の空気吸ったほうがいいと思う。",shape=box,color=red];
+		j4228318032 -> j1759475013;
+	j3268096659 [label="La Flacaとは顔なじみよ",shape=box,color=blue];
+		j3268096659 -> j2815222821;
+		j3268096659 -> j4060651657;
+	j1759475013 [label="Ay, equis",shape=box,color=blue];
+		j1759475013 -> "Chat ends.";
+	j2815222821 [label="La Flacaって死のこと？",shape=box,color=red];
+		j2815222821 -> j2757898529;
+	j4060651657 [label="La Flacaって誰？",shape=box,color=red];
+		j4060651657 -> j4008716954;
+	"Chat ends." [color=orange];
+	j2757898529 [label="Sí 
 よく気付いたわね",shape=box,color=blue];
-		262 -> 264;
-	263 [label="痩せた女
+		j2757898529 -> j1018067190;
+	j4008716954 [label="痩せた女
 死",shape=box,color=blue];
-		263 -> 265;
-	264 [label="Update boolean LettieFantasma2",color=orange];
-		264 -> 266;
-	265 [label="Update boolean LettieFantasma2",color=orange];
-		265 -> 267;
-	266 [label="+5 Chemistry",color=orange];
-		266 -> 268;
-	267 [label="+5 Chemistry",color=orange];
-		267 -> 268;
-	268 [label="彼女を尊敬している
+		j4008716954 -> j182130000;
+	j1018067190 [label="Boolean LettieFantasma2 is now true.",color=orange];
+		j1018067190 -> j1170747483;
+	j182130000 [label="Boolean LettieFantasma2 is now true.",color=orange];
+		j182130000 -> j1170747483;
+	j1170747483 [label="+5 Chemistry",color=orange];
+		j1170747483 -> j2245034498;
+	j2245034498 [label="彼女を尊敬している
 嫌いになる時があっても
 大切な人を導いてくれる",shape=box,color=blue];
-		268 -> 269;
-	269 [label="Update boolean LettieReligion1",color=orange];
-		269 -> 270;
-		269 -> 271;
-	270 [label="けど、Lettieはメディックだ。人を治療しているんだろう？　なぜ死を*尊敬*しているの？",shape=box,color=red];
-		270 -> 274;
-	271 [label="死は人ではない。それは起こること。",shape=box,color=red];
-		271 -> 272;
-	274 [label="全く分かっていないわね",shape=box,color=blue];
-		274 -> 275;
-	272 [label="Va",shape=box,color=blue];
-		272 -> 273;
-	275 [label="Check boolean LettieDuviri",color=orange];
-		275 -> 276 [label=true,color=green];
-		275 -> 277 [label=false,color=brown];
-	273 [label="Chat ends.",color=orange];
-	276 [label="いつもあんたが死ぬたびに 
+		j2245034498 -> j4268386380;
+	j4268386380 [label="Boolean LettieReligion1 is now true.",color=orange];
+		j4268386380 -> j4254064476;
+		j4268386380 -> j2511807074;
+	j4254064476 [label="けど、Lettieはメディックだ。人を治療しているんだろう？　なぜ死を*尊敬*しているの？",shape=box,color=red];
+		j4254064476 -> j2986693300;
+	j2511807074 [label="死は人ではない。それは起こること。",shape=box,color=red];
+		j2511807074 -> j2547240352;
+	j2986693300 [label="全く分かっていないわね",shape=box,color=blue];
+		j2986693300 -> j4087927951;
+	j2547240352 [label="Va",shape=box,color=blue];
+		j2547240352 -> "Chat ends.";
+	j4087927951 [label="Check boolean LettieDuviri",color=orange];
+		j4087927951 -> j2005961914 [label=true,color=green];
+		j4087927951 -> j797668190 [label=false,color=brown];
+	j2005961914 [label="いつもあんたが死ぬたびに 
 痛みを終わらせた彼女を責めるの？ 
 苦しんだのは彼女のせいか、それとも傷つけてきた人のせいか",shape=box,color=blue];
-		276 -> 278;
-	277 [label="アタシの仕事はその時が来たときに彼女に引き渡すこと
+		j2005961914 -> j423852723;
+	j797668190 [label="アタシの仕事はその時が来たときに彼女に引き渡すこと
 彼女がアタシの手から引き剥がすまで
 それまでは一秒たりとも譲らない",shape=box,color=blue];
-		277 -> 278;
-	278 [label="けれど彼女が訪れたなら
+		j797668190 -> j423852723;
+	j423852723 [label="けれど彼女が訪れたなら
 歓迎の意を伝えるの
 彼女は痛みを取り除くの、babas
 恐れるべき者ではない、敬意を払うべき者",shape=box,color=blue];
-		278 -> 279;
-		278 -> 280;
-		278 -> 281;
-	279 [label="デュヴィリに居た頃、死ぬとわかったとき、すぐに終わるとわかって気が楽になったこともあった。",shape=box,color=red];
-		279 -> 285;
-	280 [label="多分、部分的には理解していると思う。死のコンセプトは気に入らないけど。",shape=box,color=red];
-		280 -> 92;
-	281 [label="この話は…　いったんここまでにしよう。",shape=box,color=red];
-		281 -> 282;
-	285 [label="どんなにひどい痛みでも、暗闇が訪れてすべてが終わる。",shape=box,color=red];
-		285 -> 286;
-	92 [label="ええ、sí",shape=box,color=blue];
-		92 -> 284;
-	282 [label="Ay, equis, 腰抜けね",shape=box,color=blue];
-		282 -> 283;
-	286 [label="+10 Chemistry",color=orange];
-		286 -> 287;
-	284 [label="+5 Chemistry",color=orange];
-		284 -> 292;
-	283 [label="Chat ends.",color=orange];
-	287 [label="¿Sí,、ね？
+		j423852723 -> j1861134677;
+		j423852723 -> j3850353767;
+		j423852723 -> j2838403730;
+	j1861134677 [label="デュヴィリに居た頃、死ぬとわかったとき、すぐに終わるとわかって気が楽になったこともあった。",shape=box,color=red];
+		j1861134677 -> j210777624;
+	j3850353767 [label="多分、部分的には理解していると思う。死のコンセプトは気に入らないけど。",shape=box,color=red];
+		j3850353767 -> j470104071;
+	j2838403730 [label="この話は…　いったんここまでにしよう。",shape=box,color=red];
+		j2838403730 -> j2853979681;
+	j210777624 [label="どんなにひどい痛みでも、暗闇が訪れてすべてが終わる。",shape=box,color=red];
+		j210777624 -> j1145529212;
+	j470104071 [label="ええ、sí",shape=box,color=blue];
+		j470104071 -> j2164570657;
+	j2853979681 [label="Ay, equis, 腰抜けね",shape=box,color=blue];
+		j2853979681 -> "Chat ends.";
+	j1145529212 [label="+10 Chemistry",color=orange];
+		j1145529212 -> j2652039728;
+	j2164570657 [label="+5 Chemistry",color=orange];
+		j2164570657 -> j2921217741;
+	j2652039728 [label="¿Sí,、ね？
 分かってるじゃない",shape=box,color=blue];
-		287 -> 288;
-		287 -> 289;
-	292 [label="それが治療する理由
+		j2652039728 -> j3976004175;
+		j2652039728 -> j768738882;
+	j2921217741 [label="それが治療する理由
 La Fracaが誰を連れて行くかわかるように
 彼女が必要な人だけを連れて行くように
 それ以外は行かせない",shape=box,color=blue];
-		292 -> 294;
-	288 [label="でも自分の場合はまた戻ってくるとわかっていた。",shape=box,color=red];
-		288 -> 303;
-	289 [label="でも、だからって皆が死ぬべきじゃないと思う　笑",shape=box,color=red];
-		289 -> 292;
-	294 [label="誰もが皆、他人の行動によって愛する人を彼女が早まって連れていくのを見た…",shape=box,color=blue];
-		294 -> 295;
-		294 -> 296;
-	303 [label="+5 Chemistry",color=orange];
-		303 -> 291;
-	295 [label="そうだ。",shape=box,color=red];
-		295 -> 300;
-	296 [label="それには献杯する。",shape=box,color=red];
-		296 -> 297;
-	291 [label="そして信仰を持つ人は
+		j2921217741 -> j704142048;
+	j3976004175 [label="でも自分の場合はまた戻ってくるとわかっていた。",shape=box,color=red];
+		j3976004175 -> j1479338101;
+	j768738882 [label="でも、だからって皆が死ぬべきじゃないと思う　笑",shape=box,color=red];
+		j768738882 -> j2921217741;
+	j704142048 [label="誰もが皆、他人の行動によって愛する人を彼女が早まって連れていくのを見た…",shape=box,color=blue];
+		j704142048 -> j4094306929;
+		j704142048 -> j4084261631;
+	j1479338101 [label="+5 Chemistry",color=orange];
+		j1479338101 -> j3056183236;
+	j4094306929 [label="そうだ。",shape=box,color=red];
+		j4094306929 -> j689731197;
+	j4084261631 [label="それには献杯する。",shape=box,color=red];
+		j4084261631 -> j3843951455;
+	j3056183236 [label="そして信仰を持つ人は
 同じ気持ちになるの
 あんたほど文字通りではないけど jaja 
 けれど…　今ではアタシたちもfantasmaよ",shape=box,color=blue];
-		291 -> 293;
-	300 [label="面白かったわ
+		j3056183236 -> j1990462116;
+	j689731197 [label="面白かったわ
 アタシは仕事に戻る",shape=box,color=blue];
-		300 -> 301;
-	297 [label="+5 Chemistry",color=orange];
-		297 -> 298;
-	293 [label="同じように終わりのない繰り返しに呑み込まれた… 
+		j689731197 -> "Chat ends.";
+	j3843951455 [label="+5 Chemistry",color=orange];
+		j3843951455 -> j792958072;
+	j1990462116 [label="同じように終わりのない繰り返しに呑み込まれた… 
 Mictlánを迎えることなく",shape=box,color=blue];
-		293 -> 302;
-	301 [label="Chat ends.",color=orange];
-	298 [label="Sí",shape=box,color=blue];
-		298 -> 299;
-	302 [label="仕事に戻らないと",shape=box,color=blue];
-		302 -> 304;
-	299 [label="Chat ends.",color=orange];
-	304 [label="Chat ends.",color=orange];
+		j1990462116 -> j141523217;
+	j792958072 [label="Sí",shape=box,color=blue];
+		j792958072 -> "Chat ends.";
+	j141523217 [label="仕事に戻らないと",shape=box,color=blue];
+		j141523217 -> "Chat ends.";
 }

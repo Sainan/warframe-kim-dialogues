@@ -1,19 +1,18 @@
 digraph {
-	1798 [label="VelimirBirthdayConvo1 begins.",color=orange];
-		1798 -> 1799;
-		1798 -> 1800;
-	1799 [label="วันนี้คิดจะไปทำอะไรสนุก ๆ ในวันเกิดบ้างไหม",shape=box,color=red];
-		1799 -> 1801;
-	1800 [label="เฮ้ Velimir สุขสันต์วันเกิด พ่อตัวโต หวังว่าคงจะสนุกกับวันเกิดนะ",shape=box,color=red];
-		1800 -> 1802;
-	1801 [label="PapaPolar: โอ้ แน่นอน ใช้ชีวิตอยู่ในนรกและจัดการกับเครื่องปิ้งขนมปังที่ติดเชื้อและพวก scaldra โรคจิตไง",shape=box,color=blue];
-		1801 -> 1803;
-	1802 [label="+20 Chemistry",color=orange];
-		1802 -> 1804;
-	1803 [label="PapaPolar: มันเป็นเรื่องตลกน่ะ",shape=box,color=blue];
-		1803 -> 1805;
-	1804 [label="PapaPolar: โอ้ ขอบใจนะเพื่อนตัวน้อย การมีเพื่อน ๆ รอบตัวช่วยได้มากเลย :)",shape=box,color=blue];
-		1804 -> 1806;
-	1805 [label="Chat ends.",color=orange];
-	1806 [label="Chat ends.",color=orange];
+	"VelimirBirthdayConvo1 begins." [color=orange];
+		"VelimirBirthdayConvo1 begins." -> j947500477;
+		"VelimirBirthdayConvo1 begins." -> j744476915;
+	j947500477 [label="วันนี้คิดจะไปทำอะไรสนุก ๆ ในวันเกิดบ้างไหม",shape=box,color=red];
+		j947500477 -> j1327124201;
+	j744476915 [label="เฮ้ Velimir สุขสันต์วันเกิด พ่อตัวโต หวังว่าคงจะสนุกกับวันเกิดนะ",shape=box,color=red];
+		j744476915 -> j1077864434;
+	j1327124201 [label="PapaPolar: โอ้ แน่นอน ใช้ชีวิตอยู่ในนรกและจัดการกับเครื่องปิ้งขนมปังที่ติดเชื้อและพวก scaldra โรคจิตไง",shape=box,color=blue];
+		j1327124201 -> j2639153733;
+	j1077864434 [label="+20 Chemistry",color=orange];
+		j1077864434 -> j2324607629;
+	j2639153733 [label="PapaPolar: มันเป็นเรื่องตลกน่ะ",shape=box,color=blue];
+		j2639153733 -> "Chat ends.";
+	j2324607629 [label="PapaPolar: โอ้ ขอบใจนะเพื่อนตัวน้อย การมีเพื่อน ๆ รอบตัวช่วยได้มากเลย :)",shape=box,color=blue];
+		j2324607629 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

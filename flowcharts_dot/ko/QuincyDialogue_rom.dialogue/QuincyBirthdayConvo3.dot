@@ -1,21 +1,16 @@
 digraph {
-	3534 [label="QuincyBirthdayConvo3 begins.",color=orange];
-		3534 -> 3550;
-		3534 -> 3553;
-	3550 [label="생일맞이 클럽 갈 생각 있어?",shape=box,color=red];
-		3550 -> 3551;
-	3553 [label="생일을 맞아서 헥스 멤버들과 함께 조용한 밤을 보내보는 건 어때?",shape=box,color=red];
-		3553 -> 3555;
-	3551 [label="+20 Chemistry",color=orange];
-		3551 -> 3549;
-	3555 [label="그으래 작은 종이 모자랑 모든걸 얻을 수 있겠네. 개구려어어어",shape=box,color=blue];
-		3555 -> 3156;
-	3549 [label="하하하하하 잘 아네, 도시에 불 좀 켜보자, 사촌!",shape=box,color=blue];
-		3549 -> 3168;
-	3156 [label="{\"Id\":3156,\"Incoming\":[3555],\"Outgoing\":[3554],\"GraphPos\":[1144,-4045],\"CompletionType\":1}",color=orange];
-		3156 -> 3554;
-	3168 [label="{\"Id\":3168,\"Incoming\":[3549],\"Outgoing\":[3552],\"GraphPos\":[1510,-4198],\"CompletionType\":1}",color=orange];
-		3168 -> 3552;
-	3554 [label="Chat ends.",color=orange];
-	3552 [label="Chat ends.",color=orange];
+	"QuincyBirthdayConvo3 begins." [color=orange];
+		"QuincyBirthdayConvo3 begins." -> j4245253193;
+		"QuincyBirthdayConvo3 begins." -> j1331485123;
+	j4245253193 [label="생일맞이 클럽 갈 생각 있어?",shape=box,color=red];
+		j4245253193 -> j527924843;
+	j1331485123 [label="생일을 맞아서 헥스 멤버들과 함께 조용한 밤을 보내보는 건 어때?",shape=box,color=red];
+		j1331485123 -> j80186057;
+	j527924843 [label="+20 Chemistry",color=orange];
+		j527924843 -> j3292720601;
+	j80186057 [label="그으래 작은 종이 모자랑 모든걸 얻을 수 있겠네. 개구려어어어",shape=box,color=blue];
+		j80186057 -> "Chat ends.";
+	j3292720601 [label="하하하하하 잘 아네, 도시에 불 좀 켜보자, 사촌!",shape=box,color=blue];
+		j3292720601 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

@@ -1,444 +1,440 @@
 digraph {
-	2420 [label="FlareRank6Convo1 begins.",color=orange];
-		2420 -> 2421;
-	2421 [label="Check boolean FlareLizzieApart",color=orange];
-		2421 -> 2423 [label=true,color=green];
-		2421 -> 2422 [label=false,color=brown];
-	2423 [label="Chat ends.",color=orange];
-	2422 [label="Check boolean FlareLizzieTogether",color=orange];
-		2422 -> 2424 [label=true,color=green];
-		2422 -> 2425 [label=false,color=brown];
-	2424 [label="ああああああアクマぁぁぁぁ！！　おぉぉおぉぉアクマあああああ！！！　君にサプライズがあるの :D",shape=box,color=blue];
-		2424 -> 2426;
-	2425 [label="Chat ends.",color=orange];
-	2426 [label="すまない、警告するつもりだった。彼女は今日かなり興奮してるんだ",shape=box,color=blue];
-		2426 -> 2427;
-		2426 -> 2428;
-		2426 -> 2429;
-	2427 [label="彼女はなんでそう興奮してるの？",shape=box,color=red];
-		2427 -> 2430;
-	2428 [label="ハハ、大丈夫。二人が仲良くしてるのが嬉しい。",shape=box,color=red];
-		2428 -> 2431;
-	2429 [label="正直、ちょっとカワイイね。:)",shape=box,color=red];
-		2429 -> 2432;
-	2430 [label="曲が完成したんだ。厳密には、歌詞が完成した",shape=box,color=blue];
-		2430 -> 2433;
-	2431 [label="ああ。いい気分だ。本当に、うん。彼女はかなりいいパートナーだ",shape=box,color=blue];
-		2431 -> 2434;
-	2432 [label="ハハ。そうかもね。「人食い怪物」の文脈で、可愛い",shape=box,color=blue];
-		2432 -> 2435;
-	2433 [label="聞きたいか？",shape=box,color=blue];
-		2433 -> 2436;
-		2433 -> 2437;
-	2434 [label="彼女が自分にコンピューター部品を食べさせようとしていない時はね",shape=box,color=blue];
-		2434 -> 2438;
-	2435 [label="あら、昨夜はあんなにも優しかったのに… <RETRO_EMOJI_SNEAKY>",shape=box,color=blue];
-		2435 -> 2438;
-	2436 [label="是非とも！",shape=box,color=red];
-		2436 -> 2439;
-	2437 [label="悪いけど、詩はあまりよくわからない。音楽が付くまで待つよ。",shape=box,color=red];
-		2437 -> 2440;
-	2438 [label="*何にせよ*話を戻そう",shape=box,color=blue];
-		2438 -> 2430;
-	2439 [label="じゃあ行くよ",shape=box,color=blue];
-		2439 -> 2441;
-	2440 [label="りょ",shape=box,color=blue];
-		2440 -> 2442;
-	2441 [label="Check boolean FlareSol",color=orange];
-		2441 -> 2443 [label=true,color=green];
-		2441 -> 2444 [label=false,color=brown];
-	2442 [label="…このアクマはワレワレを失望させる…",shape=box,color=blue];
-		2442 -> 2445;
-	2443 [label="Check boolean FlarePainStranger",color=orange];
-		2443 -> 2446 [label=true,color=green];
-		2443 -> 2447 [label=false,color=brown];
-	2444 [label="Check boolean FlareLua",color=orange];
-		2444 -> 2448 [label=true,color=green];
-		2444 -> 2448 [label=false,color=brown];
-	2445 [label="Chat ends.",color=orange];
-	2446 [label="無限の囁き　あなたの声は呪いのよう
+	"FlareRank6Convo1 begins." [color=orange];
+		"FlareRank6Convo1 begins." -> j3739350251;
+	j3739350251 [label="Check boolean FlareLizzieApart",color=orange];
+		j3739350251 -> "Chat ends." [label=true,color=green];
+		j3739350251 -> j3461956840 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j3461956840 [label="Check boolean FlareLizzieTogether",color=orange];
+		j3461956840 -> j3547719177 [label=true,color=green];
+		j3461956840 -> "Chat ends." [label=false,color=brown];
+	j3547719177 [label="ああああああアクマぁぁぁぁ！！　おぉぉおぉぉアクマあああああ！！！　君にサプライズがあるの :D",shape=box,color=blue];
+		j3547719177 -> j2498313476;
+	j2498313476 [label="すまない、警告するつもりだった。彼女は今日かなり興奮してるんだ",shape=box,color=blue];
+		j2498313476 -> j4066345972;
+		j2498313476 -> j250333954;
+		j2498313476 -> j3564156782;
+	j4066345972 [label="彼女はなんでそう興奮してるの？",shape=box,color=red];
+		j4066345972 -> j3114194953;
+	j250333954 [label="ハハ、大丈夫。二人が仲良くしてるのが嬉しい。",shape=box,color=red];
+		j250333954 -> j2234199817;
+	j3564156782 [label="正直、ちょっとカワイイね。:)",shape=box,color=red];
+		j3564156782 -> j3515185163;
+	j3114194953 [label="曲が完成したんだ。厳密には、歌詞が完成した",shape=box,color=blue];
+		j3114194953 -> j3388999298;
+	j2234199817 [label="ああ。いい気分だ。本当に、うん。彼女はかなりいいパートナーだ",shape=box,color=blue];
+		j2234199817 -> j791504034;
+	j3515185163 [label="ハハ。そうかもね。「人食い怪物」の文脈で、可愛い",shape=box,color=blue];
+		j3515185163 -> j4035318246;
+	j3388999298 [label="聞きたいか？",shape=box,color=blue];
+		j3388999298 -> j2998983224;
+		j3388999298 -> j4155350454;
+	j791504034 [label="彼女が自分にコンピューター部品を食べさせようとしていない時はね",shape=box,color=blue];
+		j791504034 -> j3123780208;
+	j4035318246 [label="あら、昨夜はあんなにも優しかったのに… <RETRO_EMOJI_SNEAKY>",shape=box,color=blue];
+		j4035318246 -> j3123780208;
+	j2998983224 [label="是非とも！",shape=box,color=red];
+		j2998983224 -> j2116398242;
+	j4155350454 [label="悪いけど、詩はあまりよくわからない。音楽が付くまで待つよ。",shape=box,color=red];
+		j4155350454 -> j2228963343;
+	j3123780208 [label="*何にせよ*話を戻そう",shape=box,color=blue];
+		j3123780208 -> j3114194953;
+	j2116398242 [label="じゃあ行くよ",shape=box,color=blue];
+		j2116398242 -> j11490693;
+	j2228963343 [label="りょ",shape=box,color=blue];
+		j2228963343 -> j3951742494;
+	j11490693 [label="Check boolean FlareSol",color=orange];
+		j11490693 -> j1229185918 [label=true,color=green];
+		j11490693 -> j3311874374 [label=false,color=brown];
+	j3951742494 [label="…このアクマはワレワレを失望させる…",shape=box,color=blue];
+		j3951742494 -> "Chat ends.";
+	j1229185918 [label="Check boolean FlarePainStranger",color=orange];
+		j1229185918 -> j10836178 [label=true,color=green];
+		j1229185918 -> j159267307 [label=false,color=brown];
+	j3311874374 [label="Check boolean FlareLua",color=orange];
+		j3311874374 -> j3547038517 [label=true,color=green];
+		j3311874374 -> j3547038517 [label=false,color=brown];
+	j10836178 [label="無限の囁き　あなたの声は呪いのよう
 金の指先が私を土へと引きずり込む
 あなたのキスは炎のよう　血管を伝い焼き尽くす
 朝になるたび　自分の名を忘れる",shape=box,color=blue];
-		2446 -> 2449;
-	2447 [label="Check boolean FlarePainChronic",color=orange];
-		2447 -> 2450 [label=true,color=green];
-		2447 -> 2451 [label=false,color=brown];
-	2448 [label="Check boolean FlarePainStranger",color=orange];
-		2448 -> 2452 [label=true,color=green];
-		2448 -> 2453 [label=false,color=brown];
-	2449 [label="Check boolean FlareStoryVillain",color=orange];
-		2449 -> 2454 [label=true,color=green];
-		2449 -> 2455 [label=false,color=brown];
-	2450 [label="叫びながら目覚め　光に溺れる
+		j10836178 -> j904886397;
+	j159267307 [label="Check boolean FlarePainChronic",color=orange];
+		j159267307 -> j2367960791 [label=true,color=green];
+		j159267307 -> j1886570010 [label=false,color=brown];
+	j3547038517 [label="Check boolean FlarePainStranger",color=orange];
+		j3547038517 -> j4067727773 [label=true,color=green];
+		j3547038517 -> j4001662270 [label=false,color=brown];
+	j904886397 [label="Check boolean FlareStoryVillain",color=orange];
+		j904886397 -> j3837602461 [label=true,color=green];
+		j904886397 -> j1870422903 [label=false,color=brown];
+	j2367960791 [label="叫びながら目覚め　光に溺れる
 金の光線が白い刃のように深く切り込む
 朝になるたび　自分の痛みを忘れる
 雨の中耐えるか折れるか分からない",shape=box,color=blue];
-		2450 -> 2449;
-	2451 [label="Check boolean FlarePainUnique",color=orange];
-		2451 -> 2456 [label=true,color=green];
-		2451 -> 2457 [label=false,color=brown];
-	2452 [label="無限の囁き　あなたの声は呪いのよう
+		j2367960791 -> j904886397;
+	j1886570010 [label="Check boolean FlarePainUnique",color=orange];
+		j1886570010 -> j2864081512 [label=true,color=green];
+		j1886570010 -> j857119930 [label=false,color=brown];
+	j4067727773 [label="無限の囁き　あなたの声は呪いのよう
 銀の指先が私を土へと引きずり込む
 あなたのキスは氷のよう　血管を伝い焼き尽くす
 悪夢の中で　自分の名を忘れる",shape=box,color=blue];
-		2452 -> 2458;
-	2453 [label="Check boolean FlarePainChronic",color=orange];
-		2453 -> 2459 [label=true,color=green];
-		2453 -> 2460 [label=false,color=brown];
-	2454 [label="我が名に呪いを　今日私は悪魔となる
+		j4067727773 -> j1908806570;
+	j4001662270 [label="Check boolean FlarePainChronic",color=orange];
+		j4001662270 -> j1207560185 [label=true,color=green];
+		j4001662270 -> j3675329191 [label=false,color=brown];
+	j3837602461 [label="我が名に呪いを　今日私は悪魔となる
 悪として立つか　ただ去りゆくのみか？",shape=box,color=blue];
-		2454 -> 2461;
-	2455 [label="Check boolean FlareStoryHero",color=orange];
-		2455 -> 2462 [label=true,color=green];
-		2455 -> 2463 [label=false,color=brown];
-	2456 [label="火の中で目覚め　夜明けに焼かれる
+		j3837602461 -> j3428908214;
+	j1870422903 [label="Check boolean FlareStoryHero",color=orange];
+		j1870422903 -> j1551341201 [label=true,color=green];
+		j1870422903 -> j1877297320 [label=false,color=brown];
+	j2864081512 [label="火の中で目覚め　夜明けに焼かれる
 金の明かりが切り裂けど　私は倒れず
 息するたび戦い　歩むたび紛争が起こる
 でもあなたに名前を呼ばれると　私はもっと欲しくなる",shape=box,color=blue];
-		2456 -> 2449;
-	2457 [label="Check boolean FlarePainEmpathy",color=orange];
-		2457 -> 2465 [label=true,color=green];
-		2457 -> 2464 [label=false,color=brown];
-	2458 [label="Check boolean FlareStoryVillain",color=orange];
-		2458 -> 2466 [label=true,color=green];
-		2458 -> 2467 [label=false,color=brown];
-	2459 [label="叫びながら目覚め　夜に溺れる
+		j2864081512 -> j904886397;
+	j857119930 [label="Check boolean FlarePainEmpathy",color=orange];
+		j857119930 -> j481395455 [label=true,color=green];
+		j857119930 -> j1517719290 [label=false,color=brown];
+	j1908806570 [label="Check boolean FlareStoryVillain",color=orange];
+		j1908806570 -> j579249991 [label=true,color=green];
+		j1908806570 -> j4192447210 [label=false,color=brown];
+	j1207560185 [label="叫びながら目覚め　夜に溺れる
 銀の光線が白い刃のように深く切り込む
 悪夢を見るたび　自分の痛みを忘れる
 雨の中耐えるか折れるか分からない",shape=box,color=blue];
-		2459 -> 2458;
-	2460 [label="Check boolean FlarePainUnique",color=orange];
-		2460 -> 2468 [label=true,color=green];
-		2460 -> 2469 [label=false,color=brown];
-	2461 [label="Check boolean FlarePainStranger",color=orange];
-		2461 -> 2470 [label=true,color=green];
-		2461 -> 2471 [label=false,color=brown];
-	2462 [label="私に祈れ　今日私は聖者となる
+		j1207560185 -> j1908806570;
+	j3675329191 [label="Check boolean FlarePainUnique",color=orange];
+		j3675329191 -> j904337248 [label=true,color=green];
+		j3675329191 -> j2637123773 [label=false,color=brown];
+	j3428908214 [label="Check boolean FlarePainStranger",color=orange];
+		j3428908214 -> j56330112 [label=true,color=green];
+		j3428908214 -> j3908336105 [label=false,color=brown];
+	j1551341201 [label="私に祈れ　今日私は聖者となる
 英雄として立つか　ただ去りゆくのみか？",shape=box,color=blue];
-		2462 -> 2461;
-	2463 [label="Check boolean FlareStoryNone",color=orange];
-		2463 -> 2472 [label=true,color=green];
-		2463 -> 2472 [label=false,color=brown];
-	2465 [label="あなたの目の奥に炎が見える
+		j1551341201 -> j3428908214;
+	j1877297320 [label="Check boolean FlareStoryNone",color=orange];
+		j1877297320 -> j2072714820 [label=true,color=green];
+		j1877297320 -> j2072714820 [label=false,color=brown];
+	j481395455 [label="あなたの目の奥に炎が見える
 籠の中のソルが昼の空に溺れていく
 あなたの笑みは罪のよう　それでも痛みが見える
 触れるたび　息をするたび　あなたはどれだけ耐えられる？",shape=box,color=blue];
-		2465 -> 2449;
-	2464 [label="ソルが大きく割れた時私は見た
+		j481395455 -> j904886397;
+	j1517719290 [label="ソルが大きく割れた時私は見た
 ハチミツのように零れ　中身は黄金
 百万の声の甘い囁き
 空虚の広間と絡まる夢より来たる",shape=box,color=blue];
-		2464 -> 2449;
-	2466 [label="我が名に呪いを　今日私は悪魔となる
+		j1517719290 -> j904886397;
+	j579249991 [label="我が名に呪いを　今日私は悪魔となる
 悪として立つか　ただ去りゆくのみか？",shape=box,color=blue];
-		2466 -> 2473;
-	2467 [label="Check boolean FlareStoryHero",color=orange];
-		2467 -> 2474 [label=true,color=green];
-		2467 -> 2475 [label=false,color=brown];
-	2468 [label="火の中で目覚め　夜に焼かれる
+		j579249991 -> j2321641489;
+	j4192447210 [label="Check boolean FlareStoryHero",color=orange];
+		j4192447210 -> j1398540074 [label=true,color=green];
+		j4192447210 -> j2106164143 [label=false,color=brown];
+	j904337248 [label="火の中で目覚め　夜に焼かれる
 銀の明かりが切り裂けど　これが私の誓い
 息するたび戦い　歩むたび紛争が起こる
 でもあなたに名前を呼ばれると　私はもっと欲しくなる",shape=box,color=blue];
-		2468 -> 2458;
-	2469 [label="Check boolean FlarePainEmpathy",color=orange];
-		2469 -> 2477 [label=true,color=green];
-		2469 -> 2476 [label=false,color=brown];
-	2470 [label="Voidの中で踊り　あなたの炎に迷っていく
+		j904337248 -> j1908806570;
+	j2637123773 [label="Check boolean FlarePainEmpathy",color=orange];
+		j2637123773 -> j2724205494 [label=true,color=green];
+		j2637123773 -> j1491974233 [label=false,color=brown];
+	j56330112 [label="Voidの中で踊り　あなたの炎に迷っていく
 朝になるたび　私は新たな名前と目覚める
 君は救い主か終焉か？
 ソルを高くもち　されど海の中で溺れてゆく
 嗚呼　愛さないなら立ち去って　けどどうか私を解き放たないで",shape=box,color=blue];
-		2470 -> 2478;
-	2471 [label="Check boolean FlarePainChronic",color=orange];
-		2471 -> 2479 [label=true,color=green];
-		2471 -> 2480 [label=false,color=brown];
-	2472 [label="おお　今日の私は罪人か　あるいは聖者か？
+		j56330112 -> j637474551;
+	j3908336105 [label="Check boolean FlarePainChronic",color=orange];
+		j3908336105 -> j1188968759 [label=true,color=green];
+		j3908336105 -> j1108137744 [label=false,color=brown];
+	j2072714820 [label="おお　今日の私は罪人か　あるいは聖者か？
 不死鳥のように蘇るか　ただ去りゆくのみか？",shape=box,color=blue];
-		2472 -> 2461;
-	2473 [label="Check boolean FlarePainStranger",color=orange];
-		2473 -> 2481 [label=true,color=green];
-		2473 -> 2482 [label=false,color=brown];
-	2474 [label="私に祈れ　今日私は聖者となる
+		j2072714820 -> j3428908214;
+	j2321641489 [label="Check boolean FlarePainStranger",color=orange];
+		j2321641489 -> j2980588588 [label=true,color=green];
+		j2321641489 -> j3900974630 [label=false,color=brown];
+	j1398540074 [label="私に祈れ　今日私は聖者となる
 英雄として立つか　ただ去りゆくのみか？",shape=box,color=blue];
-		2474 -> 2473;
-	2475 [label="Check boolean FlareStoryNone",color=orange];
-		2475 -> 2483 [label=true,color=green];
-		2475 -> 2483 [label=false,color=brown];
-	2477 [label="あなたの目の奥に氷が見える
+		j1398540074 -> j2321641489;
+	j2106164143 [label="Check boolean FlareStoryNone",color=orange];
+		j2106164143 -> j1318370824 [label=true,color=green];
+		j2106164143 -> j1318370824 [label=false,color=brown];
+	j2724205494 [label="あなたの目の奥に氷が見える
 籠の中のルアが真夜中の空に溺れていく
 あなたの笑みは罪のよう　それでも痛みが見える
 触れるたび　息をするたび　あなたはどれだけ耐えられる？",shape=box,color=blue];
-		2477 -> 2458;
-	2476 [label="ルアが大きく割れた時私は見た
+		j2724205494 -> j1908806570;
+	j1491974233 [label="ルアが大きく割れた時私は見た
 砂糖のように零れ　中身は銀白
 百万の声の甘い囁き
 空虚の広間と絡まる夢より来たる",shape=box,color=blue];
-		2476 -> 2458;
-	2478 [label="飢えた翼が夜明けに大きく広がる
+		j1491974233 -> j1908806570;
+	j637474551 [label="飢えた翼が夜明けに大きく広がる
 あなたはその爪で自らのさだめを私に刻む
 一息吐けば私は聖なりて　また吐けば堕落する
 私は全なのか無なのか分からない",shape=box,color=blue];
-		2478 -> 2484;
-	2479 [label="あなたの味は炎のよう　あなたの歌は罪のよう
+		j637474551 -> j2729667313;
+	j1188968759 [label="あなたの味は炎のよう　あなたの歌は罪のよう
 私を近くに寄せて吸い尽くす
 愛さないなら立ち去って　どちらでも傷つくから
 すべての夜明けが戦場　でもあなたとなら　まだ居られる",shape=box,color=blue];
-		2479 -> 2485;
-	2480 [label="Check boolean FlarePainUnique",color=orange];
-		2480 -> 2486 [label=true,color=green];
-		2480 -> 2487 [label=false,color=brown];
-	2481 [label="Voidの中で踊り　あなたの鎖に繋がれる
+		j1188968759 -> j1274481331;
+	j1108137744 [label="Check boolean FlarePainUnique",color=orange];
+		j1108137744 -> j3534097773 [label=true,color=green];
+		j1108137744 -> j812880635 [label=false,color=brown];
+	j2980588588 [label="Voidの中で踊り　あなたの鎖に繋がれる
 悪夢の中で　私は名前を全て失う
 君は救い主か終焉か？
 ルアを高くもち　されど海の中で溺れてゆく
 嗚呼　愛さないなら立ち去って　けどどうか私を解き放たないで",shape=box,color=blue];
-		2481 -> 2488;
-	2482 [label="Check boolean FlarePainChronic",color=orange];
-		2482 -> 2489 [label=true,color=green];
-		2482 -> 2490 [label=false,color=brown];
-	2483 [label="おお　今日の私は罪人か　あるいは聖者か？
+		j2980588588 -> j4019538242;
+	j3900974630 [label="Check boolean FlarePainChronic",color=orange];
+		j3900974630 -> j280864037 [label=true,color=green];
+		j3900974630 -> j3492093567 [label=false,color=brown];
+	j1318370824 [label="おお　今日の私は罪人か　あるいは聖者か？
 不死鳥のように蘇るか　ただ去りゆくのみか？",shape=box,color=blue];
-		2483 -> 2473;
-	2484 [label="Check boolean FlareStoryVillain",color=orange];
-		2484 -> 2491 [label=true,color=green];
-		2484 -> 2492 [label=false,color=brown];
-	2485 [label="あなたの手は毒　あなたのキスは聖
+		j1318370824 -> j2321641489;
+	j2729667313 [label="Check boolean FlareStoryVillain",color=orange];
+		j2729667313 -> j3383960729 [label=true,color=green];
+		j2729667313 -> j3710448588 [label=false,color=brown];
+	j1274481331 [label="あなたの手は毒　あなたのキスは聖
 私の脊椎を書き換える手を持つ悪魔
 ある日私は這いつくばり　ある日私は空を飛ぶ
 空に触れられない時は抱きしめると言ってくれ",shape=box,color=blue];
-		2485 -> 2484;
-	2486 [label="あなたの手が私の化けの皮を探る
+		j1274481331 -> j2729667313;
+	j3534097773 [label="あなたの手が私の化けの皮を探る
 傷の跡にあなたの誓約を刻む
 ある日私は立ちあがり　ある日私は這いつくばる
 でもあなたのおかげで全てを持つ気分になれる",shape=box,color=blue];
-		2486 -> 2493;
-	2487 [label="Check boolean FlarePainEmpathy",color=orange];
-		2487 -> 2495 [label=true,color=green];
-		2487 -> 2494 [label=false,color=brown];
-	2488 [label="飢えた翼が夜に大きく広がる
+		j3534097773 -> j3231306180;
+	j812880635 [label="Check boolean FlarePainEmpathy",color=orange];
+		j812880635 -> j3533522511 [label=true,color=green];
+		j812880635 -> j1892847987 [label=false,color=brown];
+	j4019538242 [label="飢えた翼が夜に大きく広がる
 あなたはその牙で自らのさだめを私に刻む
 一息吐けば私は聖なりて　また吐けば堕落する
 私は全なのか無なのか分からない",shape=box,color=blue];
-		2488 -> 2496;
-	2489 [label="燃えて砕け散る　あなたからは見えない
+		j4019538242 -> j1941418009;
+	j280864037 [label="燃えて砕け散る　あなたからは見えない
 ルアが死にゆく　Voidで覆って見せない
 愛さないなら立ち去って　どちらでも傷つくから
 すべての夜が戦場　でもあなたとなら　まだ居られる",shape=box,color=blue];
-		2489 -> 2497;
-	2490 [label="Check boolean FlarePainUnique",color=orange];
-		2490 -> 2498 [label=true,color=green];
-		2490 -> 2499 [label=false,color=brown];
-	2491 [label="今日私は悪となる　責めるべきものとなる
+		j280864037 -> j3614830626;
+	j3492093567 [label="Check boolean FlarePainUnique",color=orange];
+		j3492093567 -> j1019970876 [label=true,color=green];
+		j3492093567 -> j3828935203 [label=false,color=brown];
+	j3383960729 [label="今日私は悪となる　責めるべきものとなる
 光を追うか　恥に囚われるか？",shape=box,color=blue];
-		2491 -> 2500;
-	2492 [label="Check boolean FlareStoryHero",color=orange];
-		2492 -> 2501 [label=true,color=green];
-		2492 -> 2502 [label=false,color=brown];
-	2493 [label="Voidに口付けし　光を味わう
+		j3383960729 -> j2415921261;
+	j3710448588 [label="Check boolean FlareStoryHero",color=orange];
+		j3710448588 -> j431792926 [label=true,color=green];
+		j3710448588 -> j828767743 [label=false,color=brown];
+	j3231306180 [label="Voidに口付けし　光を味わう
 あなたが私を抱き寄せ　安心する
 ソルを黄金の冠のようにまとう
 でもあなたの触れるものは朽ち　黴びていく",shape=box,color=blue];
-		2493 -> 2484;
-	2495 [label="あなたの手は雷　あなたのキスは嵐
+		j3231306180 -> j2729667313;
+	j3533522511 [label="あなたの手は雷　あなたのキスは嵐
 けど内側であなたは叫び　熱を保とうとする
 あなたの皮膚の下のヒビが見える
 戦えど決して勝利なき争い",shape=box,color=blue];
-		2495 -> 2504;
-	2494 [label="あなたの味は炎のよう　あなたの歌は罪のよう
+		j3533522511 -> j3239999283;
+	j1892847987 [label="あなたの味は炎のよう　あなたの歌は罪のよう
 私を近くに寄せて吸い尽くす
 嗚呼　愛さないなら立ち去って　でもどうか私を解き放たないで
 覚えられるくらいならあなたのものになりたい",shape=box,color=blue];
-		2494 -> 2503;
-	2496 [label="Check boolean FlareStoryVillain",color=orange];
-		2496 -> 2505 [label=true,color=green];
-		2496 -> 2506 [label=false,color=brown];
-	2497 [label="あなたの手は毒　あなたのキスは聖
+		j1892847987 -> j3263441873;
+	j1941418009 [label="Check boolean FlareStoryVillain",color=orange];
+		j1941418009 -> j1557980911 [label=true,color=green];
+		j1941418009 -> j1934034599 [label=false,color=brown];
+	j3614830626 [label="あなたの手は毒　あなたのキスは聖
 私の脊椎を書き換える手を持つ悪魔
 ある夜私は這いつくばり　ある夜私は空を飛ぶ
 空に触れられない時は抱きしめると言ってくれ",shape=box,color=blue];
-		2497 -> 2496;
-	2498 [label="あなたの手が私の化けの皮を探る
+		j3614830626 -> j1941418009;
+	j1019970876 [label="あなたの手が私の化けの皮を探る
 傷の跡に闇の誓約を刻む
 ある日私は立ちあがり　ある日私は這いつくばる
 でもあなたのおかげで全てを持つ気分になれる",shape=box,color=blue];
-		2498 -> 2507;
-	2499 [label="Check boolean FlarePainEmpathy",color=orange];
-		2499 -> 2509 [label=true,color=green];
-		2499 -> 2508 [label=false,color=brown];
-	2500 [label="金の光輪とヘビの笑み
+		j1019970876 -> j3982992360;
+	j3828935203 [label="Check boolean FlarePainEmpathy",color=orange];
+		j3828935203 -> j1754708065 [label=true,color=green];
+		j3828935203 -> j3156556964 [label=false,color=brown];
+	j2415921261 [label="金の光輪とヘビの笑み
 あらゆる愛の歌は始まりの地で終わる
 私は昇るか？　堕ちるのか？
 私は昇るか？　堕ちるのか？",shape=box,color=blue];
-		2500 -> 2510;
-	2501 [label="今日私は英雄となる　責めるべきものでなく
+		j2415921261 -> j3059805388;
+	j431792926 [label="今日私は英雄となる　責めるべきものでなく
 光を保つか　炎に囚われるか？",shape=box,color=blue];
-		2501 -> 2500;
-	2502 [label="Check boolean FlareStoryNone",color=orange];
-		2502 -> 2511 [label=true,color=green];
-		2502 -> 2511 [label=false,color=brown];
-	2504 [label="ソルのような心　でもあなたはVoidに生きる
+		j431792926 -> j2415921261;
+	j828767743 [label="Check boolean FlareStoryNone",color=orange];
+		j828767743 -> j3793065427 [label=true,color=green];
+		j828767743 -> j3793065427 [label=false,color=brown];
+	j3239999283 [label="ソルのような心　でもあなたはVoidに生きる
 壊されるために空を照らす
 あなたの炎を感じる　あなたの痛みが分かる
 私も同じく燃えよう　共に血を流そう",shape=box,color=blue];
-		2504 -> 2484;
-	2503 [label="あなたが皮膚の下で這うのを感じる
+		j3239999283 -> j2729667313;
+	j3263441873 [label="あなたが皮膚の下で這うのを感じる
 千の手　内なる声
 嗚呼　私は守護者か生贄か？
 あなたの病か　楽園か？",shape=box,color=blue];
-		2503 -> 2484;
-	2505 [label="今日私は悪となる　責めるべきものとなる
+		j3263441873 -> j2729667313;
+	j1557980911 [label="今日私は悪となる　責めるべきものとなる
 星を追うか　恥に囚われるか？",shape=box,color=blue];
-		2505 -> 2512;
-	2506 [label="Check boolean FlareStoryHero",color=orange];
-		2506 -> 2513 [label=true,color=green];
-		2506 -> 2514 [label=false,color=brown];
-	2507 [label="Voidに口付けし　夜を味わう
+		j1557980911 -> j4165171292;
+	j1934034599 [label="Check boolean FlareStoryHero",color=orange];
+		j1934034599 -> j2857475856 [label=true,color=green];
+		j1934034599 -> j406023769 [label=false,color=brown];
+	j3982992360 [label="Voidに口付けし　夜を味わう
 あなたが私を抱き寄せ　安心する
 ルアを古の王冠のようにまとう
 でもあなたが触れるものは凍り　命なく冷え切る",shape=box,color=blue];
-		2507 -> 2496;
-	2509 [label="あなたの手は混沌　でもそれが私を完全にする
+		j3982992360 -> j1941418009;
+	j1754708065 [label="あなたの手は混沌　でもそれが私を完全にする
 罪人の祈りが私の骨に刻まれる
 全ての傷を　私も纏おう
 全ての叫びが　あなたの中に聞こえる",shape=box,color=blue];
-		2509 -> 2516;
-	2508 [label="あなたの味は氷のよう　あなたの歌は罪のよう
+		j1754708065 -> j576789150;
+	j3156556964 [label="あなたの味は氷のよう　あなたの歌は罪のよう
 私を近くに寄せて吸い尽くす
 嗚呼　愛さないなら立ち去って　でもどうか私を解き放たないで
 覚えられるくらいならあなたのものになりたい",shape=box,color=blue];
-		2508 -> 2515;
-	2510 [label="----",shape=box,color=blue];
-		2510 -> 2517;
-	2511 [label="嗚呼　私は英雄か　責めるべきものか？
+		j3156556964 -> j1294251632;
+	j3059805388 [label="----",shape=box,color=blue];
+		j3059805388 -> j2672327090;
+	j3793065427 [label="嗚呼　私は英雄か　責めるべきものか？
 光を追うか　炎に囚われるか？",shape=box,color=blue];
-		2511 -> 2500;
-	2512 [label="銀の光輪とヘビの笑み
+		j3793065427 -> j2415921261;
+	j4165171292 [label="銀の光輪とヘビの笑み
 あらゆる愛の歌は始まりの地で終わる
 私は昇るか？　堕ちるのか？
 私は昇るか？　堕ちるのか？",shape=box,color=blue];
-		2512 -> 2510;
-	2513 [label="今日私は英雄となる　魂で感じ取る
+		j4165171292 -> j3059805388;
+	j2857475856 [label="今日私は英雄となる　魂で感じ取る
 それとも全ては穴埋めの嘘なのか？",shape=box,color=blue];
-		2513 -> 2512;
-	2514 [label="Check boolean FlareStoryNone",color=orange];
-		2514 -> 2518 [label=true,color=green];
-		2514 -> 2518 [label=false,color=brown];
-	2516 [label="ルアのような心　でもあなたはVoidに生きる
+		j2857475856 -> j4165171292;
+	j406023769 [label="Check boolean FlareStoryNone",color=orange];
+		j406023769 -> j2238885804 [label=true,color=green];
+		j406023769 -> j2238885804 [label=false,color=brown];
+	j576789150 [label="ルアのような心　でもあなたはVoidに生きる
 壊されるために空を照らす
 あなたの氷を感じる　あなたの痛みが分かる
 私も同じく燃えよう　共に血を流そう",shape=box,color=blue];
-		2516 -> 2496;
-	2515 [label="あなたが皮膚の下で這うのを感じる
+		j576789150 -> j1941418009;
+	j1294251632 [label="あなたが皮膚の下で這うのを感じる
 千の手　内なる声
 嗚呼　私は守護者か生贄か？
 あなたの病か　楽園か？",shape=box,color=blue];
-		2515 -> 2496;
-	2517 [label="で？　どう思う？　言った通り、まだタイトルと音楽はいるけｄ…",shape=box,color=blue];
-		2517 -> 2519;
-	2518 [label="嗚呼　私は英雄か　責めるべきものか？
+		j1294251632 -> j1941418009;
+	j2672327090 [label="で？　どう思う？　言った通り、まだタイトルと音楽はいるけｄ…",shape=box,color=blue];
+		j2672327090 -> j2304090872;
+	j2238885804 [label="嗚呼　私は英雄か　責めるべきものか？
 星を追うか　恥に囚われるか？",shape=box,color=blue];
-		2518 -> 2512;
-	2519 [label="そう！　どう思う？！　このアクマはワレワレを誇りに思うか！？ <RETRO_EMOJI_CAT>",shape=box,color=blue];
-		2519 -> 2520;
-		2519 -> 2521;
-		2519 -> 2522;
-	2520 [label="On-lyneじゃないけど、いいんじゃない。;)",shape=box,color=red];
-		2520 -> 2523;
-	2521 [label="ワオ。すごい、好きすぎる！！",shape=box,color=red];
-		2521 -> 2524;
-	2522 [label="超クールだった！",shape=box,color=red];
-		2522 -> 2524;
-	2523 [label="はいはい、ワラッタワラッタ",shape=box,color=blue];
-		2523 -> 2525;
-		2523 -> 2526;
-	2524 [label="彼女がまた喉を鳴らしてる。音楽トラックに組み込む方法を見つけないと",shape=box,color=blue];
-		2524 -> 2525;
-		2524 -> 2526;
-	2525 [label="それで、次のステップは何？",shape=box,color=red];
-		2525 -> 2527;
-	2526 [label="いつ頃音楽を作曲する予定？",shape=box,color=red];
-		2526 -> 2527;
-	2527 [label="それだけど、君にも手伝ってもらおうと思って",shape=box,color=blue];
-		2527 -> 2528;
-	2528 [label="Check boolean FlareInstrumentNo",color=orange];
-		2528 -> 2530 [label=true,color=green];
-		2528 -> 2529 [label=false,color=brown];
-	2530 [label="楽器は演奏しないと言ってたのは分かってる",shape=box,color=blue];
-		2530 -> 2533;
-	2529 [label="Check boolean FlareInstrumentYes",color=orange];
-		2529 -> 2532 [label=true,color=green];
-		2529 -> 2531 [label=false,color=brown];
-	2533 [label="ワレワレはこのアクマに演奏方の伝授を提案したのだ…　このアクマの手がワレワレの身体に振れるのがとても楽しみね… ;)",shape=box,color=blue];
-		2533 -> 2537;
-	2532 [label="以前「shawzin」、ギターみたいなのを弾いてるって聞いた",shape=box,color=blue];
-		2532 -> 2536;
-	2531 [label="Check boolean FlareInstrumentTry",color=orange];
-		2531 -> 2535 [label=true,color=green];
-		2531 -> 2534 [label=false,color=brown];
-	2537 [label="え…　お。おぉ、今嫉妬を感じた。予想外だ",shape=box,color=blue];
-		2537 -> 2542;
-	2536 [label="君が作曲の手伝いをしてくれるか知りたいんだ",shape=box,color=blue];
-		2536 -> 2541;
-	2535 [label="以前「shawzin」、ギター系の楽器に触れたことがあると聞いた",shape=box,color=blue];
-		2535 -> 2536;
-	2534 [label="気になっていたんだが、ギターは弾ける？",shape=box,color=blue];
-		2534 -> 2538;
-		2534 -> 2539;
-		2534 -> 2540;
-	2542 [label="好きじゃないかもしれない",shape=box,color=blue];
-		2542 -> 2545;
-	2541 [label="急がなくていい。自分のペースで取り組むといい",shape=box,color=blue];
-		2541 -> 2544;
-	2538 [label="あれは…　演奏とは呼ばない。挑戦したけど、あまり上手くないんだ。Shawzinって言うんだけど。",shape=box,color=red];
-		2538 -> 2536;
-	2539 [label="弾けるよ。Shawzinっていう楽器だ。",shape=box,color=red];
-		2539 -> 2536;
-	2540 [label="いや、全く。",shape=box,color=red];
-		2540 -> 2543;
-	2545 [label="その発見については後で紐解こう",shape=box,color=blue];
-		2545 -> 2536;
-	2544 [label="彼女が君を助けてくれるよ",shape=box,color=blue];
-		2544 -> 2546;
-		2544 -> 2547;
-	2543 [label="このアクマに演奏方を伝授できるぞ…　このアクマの手がワレワレの身体に振れるのがとても楽しみね… ;)",shape=box,color=blue];
-		2543 -> 2537;
-	2546 [label="あの、Lizzieを弾かせてくれるってこと？",shape=box,color=red];
-		2546 -> 2548;
-	2547 [label="でも彼女が必要じゃないの？",shape=box,color=red];
-		2547 -> 2549;
-	2548 [label="ワレワレを愛撫したいの、尊いアクマぁぁぁ？",shape=box,color=blue];
-		2548 -> 2550;
-		2548 -> 2551;
-		2548 -> 2552;
-	2549 [label="心配ないわ、尊いアクマ、ワレワレは多。ワレワレは無数になれる",shape=box,color=blue];
-		2549 -> 2553;
-	2550 [label="遠慮しとく、けどありがと。",shape=box,color=red];
-		2550 -> 2554;
-	2551 [label="それは素晴らしいね、ありがたい！",shape=box,color=red];
-		2551 -> 2555;
-	2552 [label="是非やってみたい。:)",shape=box,color=red];
-		2552 -> 2555;
-	2553 [label="つまり、彼女はどちらもできるってことだ　…あまり考えないようにしてるよ",shape=box,color=blue];
-		2553 -> 2556;
-	2554 [label="このアクマは不可解だ…　ここまで来て、そう言うのか？",shape=box,color=blue];
-		2554 -> 2557;
-	2555 [label="Update boolean LizzieShawzin",color=orange];
-		2555 -> 2558;
-	2556 [label="考えると存在論的な恐慌が頭を少し占めるんだ",shape=box,color=blue];
-		2556 -> 2559;
-	2557 [label="Chat ends.",color=orange];
-	2558 [label="イイね",shape=box,color=blue];
-		2558 -> 2560;
-	2559 [label="それでだ。lizzieと共に作曲を手伝ってもらえないか？　彼女を好きに借りていい",shape=box,color=blue];
-		2559 -> 2550;
-		2559 -> 2552;
-		2559 -> 2551;
-	2560 [label="あと、一応ハッキリ言っておく。ありがとう。これまでのこと全て。自分やlizzieを助けてくれたこと、そして…　親友になってくれたことに",shape=box,color=blue];
-		2560 -> 2561;
-	2561 [label="必要な時はいつでも言ってくれ、宇宙旅行者",shape=box,color=blue];
-		2561 -> 2562;
-	2562 [label="いつどこでも構わないわ ;)",shape=box,color=blue];
-		2562 -> 2563;
-	2563 [label="Chat ends.",color=orange];
+		j2238885804 -> j4165171292;
+	j2304090872 [label="そう！　どう思う？！　このアクマはワレワレを誇りに思うか！？ <RETRO_EMOJI_CAT>",shape=box,color=blue];
+		j2304090872 -> j1135729727;
+		j2304090872 -> j1610355093;
+		j2304090872 -> j2557547264;
+	j1135729727 [label="On-lyneじゃないけど、いいんじゃない。;)",shape=box,color=red];
+		j1135729727 -> j119556845;
+	j1610355093 [label="ワオ。すごい、好きすぎる！！",shape=box,color=red];
+		j1610355093 -> j3168754962;
+	j2557547264 [label="超クールだった！",shape=box,color=red];
+		j2557547264 -> j3168754962;
+	j119556845 [label="はいはい、ワラッタワラッタ",shape=box,color=blue];
+		j119556845 -> j2526462980;
+		j119556845 -> j1786381642;
+	j3168754962 [label="彼女がまた喉を鳴らしてる。音楽トラックに組み込む方法を見つけないと",shape=box,color=blue];
+		j3168754962 -> j2526462980;
+		j3168754962 -> j1786381642;
+	j2526462980 [label="それで、次のステップは何？",shape=box,color=red];
+		j2526462980 -> j2486298399;
+	j1786381642 [label="いつ頃音楽を作曲する予定？",shape=box,color=red];
+		j1786381642 -> j2486298399;
+	j2486298399 [label="それだけど、君にも手伝ってもらおうと思って",shape=box,color=blue];
+		j2486298399 -> j3882418945;
+	j3882418945 [label="Check boolean FlareInstrumentNo",color=orange];
+		j3882418945 -> j1867465335 [label=true,color=green];
+		j3882418945 -> j4012652908 [label=false,color=brown];
+	j1867465335 [label="楽器は演奏しないと言ってたのは分かってる",shape=box,color=blue];
+		j1867465335 -> j2169268259;
+	j4012652908 [label="Check boolean FlareInstrumentYes",color=orange];
+		j4012652908 -> j3521446082 [label=true,color=green];
+		j4012652908 -> j2085529574 [label=false,color=brown];
+	j2169268259 [label="ワレワレはこのアクマに演奏方の伝授を提案したのだ…　このアクマの手がワレワレの身体に振れるのがとても楽しみね… ;)",shape=box,color=blue];
+		j2169268259 -> j3813205764;
+	j3521446082 [label="以前「shawzin」、ギターみたいなのを弾いてるって聞いた",shape=box,color=blue];
+		j3521446082 -> j4257835989;
+	j2085529574 [label="Check boolean FlareInstrumentTry",color=orange];
+		j2085529574 -> j2720744458 [label=true,color=green];
+		j2085529574 -> j2821890204 [label=false,color=brown];
+	j3813205764 [label="え…　お。おぉ、今嫉妬を感じた。予想外だ",shape=box,color=blue];
+		j3813205764 -> j1342374175;
+	j4257835989 [label="君が作曲の手伝いをしてくれるか知りたいんだ",shape=box,color=blue];
+		j4257835989 -> j1829268430;
+	j2720744458 [label="以前「shawzin」、ギター系の楽器に触れたことがあると聞いた",shape=box,color=blue];
+		j2720744458 -> j4257835989;
+	j2821890204 [label="気になっていたんだが、ギターは弾ける？",shape=box,color=blue];
+		j2821890204 -> j2969043890;
+		j2821890204 -> j3953694040;
+		j2821890204 -> j3445684005;
+	j1342374175 [label="好きじゃないかもしれない",shape=box,color=blue];
+		j1342374175 -> j4141824;
+	j1829268430 [label="急がなくていい。自分のペースで取り組むといい",shape=box,color=blue];
+		j1829268430 -> j164464688;
+	j2969043890 [label="あれは…　演奏とは呼ばない。挑戦したけど、あまり上手くないんだ。Shawzinって言うんだけど。",shape=box,color=red];
+		j2969043890 -> j4257835989;
+	j3953694040 [label="弾けるよ。Shawzinっていう楽器だ。",shape=box,color=red];
+		j3953694040 -> j4257835989;
+	j3445684005 [label="いや、全く。",shape=box,color=red];
+		j3445684005 -> j1932450570;
+	j4141824 [label="その発見については後で紐解こう",shape=box,color=blue];
+		j4141824 -> j4257835989;
+	j164464688 [label="彼女が君を助けてくれるよ",shape=box,color=blue];
+		j164464688 -> j3267834260;
+		j164464688 -> j3174698650;
+	j1932450570 [label="このアクマに演奏方を伝授できるぞ…　このアクマの手がワレワレの身体に振れるのがとても楽しみね… ;)",shape=box,color=blue];
+		j1932450570 -> j3813205764;
+	j3267834260 [label="あの、Lizzieを弾かせてくれるってこと？",shape=box,color=red];
+		j3267834260 -> j614259778;
+	j3174698650 [label="でも彼女が必要じゃないの？",shape=box,color=red];
+		j3174698650 -> j888078955;
+	j614259778 [label="ワレワレを愛撫したいの、尊いアクマぁぁぁ？",shape=box,color=blue];
+		j614259778 -> j4091293862;
+		j614259778 -> j2403183209;
+		j614259778 -> j1416089443;
+	j888078955 [label="心配ないわ、尊いアクマ、ワレワレは多。ワレワレは無数になれる",shape=box,color=blue];
+		j888078955 -> j2028021885;
+	j4091293862 [label="遠慮しとく、けどありがと。",shape=box,color=red];
+		j4091293862 -> j213387672;
+	j2403183209 [label="それは素晴らしいね、ありがたい！",shape=box,color=red];
+		j2403183209 -> j1721464874;
+	j1416089443 [label="是非やってみたい。:)",shape=box,color=red];
+		j1416089443 -> j1721464874;
+	j2028021885 [label="つまり、彼女はどちらもできるってことだ　…あまり考えないようにしてるよ",shape=box,color=blue];
+		j2028021885 -> j2048436678;
+	j213387672 [label="このアクマは不可解だ…　ここまで来て、そう言うのか？",shape=box,color=blue];
+		j213387672 -> "Chat ends.";
+	j1721464874 [label="Boolean LizzieShawzin is now true.",color=orange];
+		j1721464874 -> j348133318;
+	j2048436678 [label="考えると存在論的な恐慌が頭を少し占めるんだ",shape=box,color=blue];
+		j2048436678 -> j1259678158;
+	j348133318 [label="イイね",shape=box,color=blue];
+		j348133318 -> j2465188631;
+	j1259678158 [label="それでだ。lizzieと共に作曲を手伝ってもらえないか？　彼女を好きに借りていい",shape=box,color=blue];
+		j1259678158 -> j4091293862;
+		j1259678158 -> j1416089443;
+		j1259678158 -> j2403183209;
+	j2465188631 [label="あと、一応ハッキリ言っておく。ありがとう。これまでのこと全て。自分やlizzieを助けてくれたこと、そして…　親友になってくれたことに",shape=box,color=blue];
+		j2465188631 -> j1669822240;
+	j1669822240 [label="必要な時はいつでも言ってくれ、宇宙旅行者",shape=box,color=blue];
+		j1669822240 -> j1850860087;
+	j1850860087 [label="いつどこでも構わないわ ;)",shape=box,color=blue];
+		j1850860087 -> "Chat ends.";
 }

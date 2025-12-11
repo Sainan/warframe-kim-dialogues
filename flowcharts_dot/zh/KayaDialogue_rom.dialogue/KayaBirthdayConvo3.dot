@@ -1,19 +1,18 @@
 digraph {
-	995 [label="KayaBirthdayConvo3 begins.",color=orange];
-		995 -> 1003;
-		995 -> 1004;
-	1003 [label="你们这个时代的小孩过生日都做什么？",shape=box,color=red];
-		1003 -> 994;
-	1004 [label="专业提示：把你的生日日期记在一个非常重要的东西上。你在 500 年后……大概就会忘了它。",shape=box,color=red];
-		1004 -> 1011;
-	994 [label="呃。",shape=box,color=blue];
-		994 -> 993;
-	1011 [label="哦耶我不会再变老了是吧？我会一直重复过这一年的生日",shape=box,color=blue];
-		1011 -> 1012;
-	993 [label="Chat ends.",color=orange];
-	1012 [label="+20 Chemistry",color=orange];
-		1012 -> 1013;
-	1013 [label="那可。真。酷。",shape=box,color=blue];
-		1013 -> 1014;
-	1014 [label="Chat ends.",color=orange];
+	"KayaBirthdayConvo3 begins." [color=orange];
+		"KayaBirthdayConvo3 begins." -> j79854026;
+		"KayaBirthdayConvo3 begins." -> j2579131779;
+	j79854026 [label="你们这个时代的小孩过生日都做什么？",shape=box,color=red];
+		j79854026 -> j4026214684;
+	j2579131779 [label="专业提示：把你的生日日期记在一个非常重要的东西上。你在 500 年后……大概就会忘了它。",shape=box,color=red];
+		j2579131779 -> j1196442962;
+	j4026214684 [label="呃。",shape=box,color=blue];
+		j4026214684 -> "Chat ends.";
+	j1196442962 [label="哦耶我不会再变老了是吧？我会一直重复过这一年的生日",shape=box,color=blue];
+		j1196442962 -> j2534801165;
+	"Chat ends." [color=orange];
+	j2534801165 [label="+20 Chemistry",color=orange];
+		j2534801165 -> j4158588389;
+	j4158588389 [label="那可。真。酷。",shape=box,color=blue];
+		j4158588389 -> "Chat ends.";
 }

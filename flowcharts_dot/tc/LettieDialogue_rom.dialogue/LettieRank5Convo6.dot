@@ -1,87 +1,86 @@
 digraph {
-	2251 [label="LettieRank5Convo6 begins.",color=orange];
-		2251 -> 2252;
-	2252 [label="Check boolean LettieDating",color=orange];
-		2252 -> 2254 [label=true,color=green];
-		2252 -> 2253 [label=false,color=brown];
-	2254 [label="小太陽
+	"LettieRank5Convo6 begins." [color=orange];
+		"LettieRank5Convo6 begins." -> j1229414268;
+	j1229414268 [label="Check boolean LettieDating",color=orange];
+		j1229414268 -> j2110913445 [label=true,color=green];
+		j1229414268 -> "Chat ends." [label=false,color=brown];
+	j2110913445 [label="小太陽
 告訴我更多關於這個未來的事情",shape=box,color=blue];
-		2254 -> 2255;
-	2253 [label="Chat ends.",color=orange];
-	2255 [label="那個讓諸神飢餓卻對你毫無意義的世界
+		j2110913445 -> j883582697;
+	"Chat ends." [color=orange];
+	j883582697 [label="那個讓諸神飢餓卻對你毫無意義的世界
 那個你聲稱為了我們而放棄的未來
 這些戰爭和遙遠的星球",shape=box,color=blue];
-		2255 -> 2256;
-		2255 -> 2257;
-	2256 [label="你還好嗎，莉蒂？",shape=box,color=red];
-		2256 -> 2258;
-	2257 [label="你可能得再具體一點了……",shape=box,color=red];
-		2257 -> 2259;
-	2258 [label="唉，不了
+		j883582697 -> j2463894874;
+		j883582697 -> j938847432;
+	j2463894874 [label="你還好嗎，莉蒂？",shape=box,color=red];
+		j2463894874 -> j1843919397;
+	j938847432 [label="你可能得再具體一點了……",shape=box,color=red];
+		j938847432 -> j1337403614;
+	j1843919397 [label="唉，不了
 今天有點憂鬱
 那些蜘蛛又在折騰了
 （西語）沒事，我不再打擾你了",shape=box,color=blue];
-		2258 -> 2260;
-	2259 [label="啊，抱歉
+		j1843919397 -> j1027157091;
+	j1337403614 [label="啊，抱歉
 蜘蛛又在折騰了
 讓我感到心情憂鬱
 看來我還挺戲精的哈哈哈
 沒關係，我不再打擾你了",shape=box,color=blue];
-		2259 -> 2260;
-	2260 [label="Check boolean LettieDepression",color=orange];
-		2260 -> 2261 [label=true,color=green];
-		2260 -> 2263 [label=true,color=green];
-		2260 -> 2264 [label=true,color=green];
-		2260 -> 2262 [label=false,color=brown];
-		2260 -> 2263 [label=false,color=brown];
-		2260 -> 2264 [label=false,color=brown];
-	2261 [label="你之前提到過蜘蛛。我想這是憂鬱的隱喻吧？",shape=box,color=red];
-		2261 -> 2266;
-	2263 [label="證明蜘蛛不是好的寵物吧，我猜？",shape=box,color=red];
-		2263 -> 2313;
-	2264 [label="好的，沒問題。",shape=box,color=red];
-		2264 -> 2265;
-	2262 [label="蜘蛛……？",shape=box,color=red];
-		2262 -> 2267;
-	2266 [label="啊，是的
+		j1337403614 -> j1027157091;
+	j1027157091 [label="Check boolean LettieDepression",color=orange];
+		j1027157091 -> j722235256 [label=true,color=green];
+		j1027157091 -> j2562933712 [label=true,color=green];
+		j1027157091 -> j1122999364 [label=true,color=green];
+		j1027157091 -> j2790468338 [label=false,color=brown];
+		j1027157091 -> j2562933712 [label=false,color=brown];
+		j1027157091 -> j1122999364 [label=false,color=brown];
+	j722235256 [label="你之前提到過蜘蛛。我想這是憂鬱的隱喻吧？",shape=box,color=red];
+		j722235256 -> j557048075;
+	j2562933712 [label="證明蜘蛛不是好的寵物吧，我猜？",shape=box,color=red];
+		j2562933712 -> j1005457230;
+	j1122999364 [label="好的，沒問題。",shape=box,color=red];
+		j1122999364 -> "Chat ends.";
+	j2790468338 [label="蜘蛛……？",shape=box,color=red];
+		j2790468338 -> j607640097;
+	j557048075 [label="啊，是的
 這是我一生中一直有的東西
 那些在我頭腦中騙我的愚蠢小東西",shape=box,color=blue];
-		2266 -> 2272;
-	2313 [label="哈哈哈
+		j557048075 -> j2088910246;
+	j1005457230 [label="哈哈哈
 不知道
 這些蜘蛛不是真實的
 只是我用來稱呼那些在我腦海中騙我的東西",shape=box,color=blue];
-		2313 -> 2269;
-		2313 -> 2270;
-		2313 -> 2271;
-	2265 [label="Chat ends.",color=orange];
-	2267 [label="啊，是的
+		j1005457230 -> j4057317028;
+		j1005457230 -> j666958826;
+		j1005457230 -> j1513998223;
+	j607640097 [label="啊，是的
 我還沒有解釋過
 我稱呼那些在我腦海中騙我的東西為蜘蛛",shape=box,color=blue];
-		2267 -> 2269;
-		2267 -> 2270;
-		2267 -> 2271;
-	2272 [label="這些小東西會在我太傻太容易上當的時候低語著能讓我信以為真的話",shape=box,color=blue];
-		2272 -> 2276;
-		2272 -> 2277;
-	2269 [label="你是什麼意思，他們會對你說謊？",shape=box,color=red];
-		2269 -> 2272;
-	2270 [label="你聽到聲音了嗎……？",shape=box,color=red];
-		2270 -> 2273;
-	2271 [label="你試過忽略它們嗎？",shape=box,color=red];
-		2271 -> 2274;
-	2276 [label="它們對你低語了些什麼？",shape=box,color=red];
-		2276 -> 2282;
-	2277 [label="那聽起來真讓你難受……我很抱歉。",shape=box,color=red];
-		2277 -> 2278;
-	2273 [label="啊啊啊，呆呆，不是字面上的意思
+		j607640097 -> j4057317028;
+		j607640097 -> j666958826;
+		j607640097 -> j1513998223;
+	j2088910246 [label="這些小東西會在我太傻太容易上當的時候低語著能讓我信以為真的話",shape=box,color=blue];
+		j2088910246 -> j2913828520;
+		j2088910246 -> j1133500687;
+	j4057317028 [label="你是什麼意思，他們會對你說謊？",shape=box,color=red];
+		j4057317028 -> j2088910246;
+	j666958826 [label="你聽到聲音了嗎……？",shape=box,color=red];
+		j666958826 -> j3818210975;
+	j1513998223 [label="你試過忽略它們嗎？",shape=box,color=red];
+		j1513998223 -> j3587029482;
+	j2913828520 [label="它們對你低語了些什麼？",shape=box,color=red];
+		j2913828520 -> j2371910360;
+	j1133500687 [label="那聽起來真讓你難受……我很抱歉。",shape=box,color=red];
+		j1133500687 -> j1811201041;
+	j3818210975 [label="啊啊啊，呆呆，不是字面上的意思
 這些小東西會在我太傻太容易上當的時候在我腦海中低語著能讓我信以為真的話",shape=box,color=blue];
-		2273 -> 2276;
-		2273 -> 2277;
-	2274 [label="什麼？！好主意啊
+		j3818210975 -> j2913828520;
+		j3818210975 -> j1133500687;
+	j3587029482 [label="什麼？！好主意啊
 我現在就試試看吧",shape=box,color=blue];
-		2274 -> 2275;
-	2282 [label="你肯定會失敗
+		j3587029482 -> "Chat ends.";
+	j2371910360 [label="你肯定會失敗
 沒人喜歡你
 你長得真醜
 你太胖了
@@ -89,107 +88,100 @@ digraph {
 你沒有任何實力
 這種快樂維持不了多久
 你配不上這一切",shape=box,color=blue];
-		2282 -> 2283;
-		2282 -> 2284;
-		2282 -> 2285;
-	2278 [label="嗯
+		j2371910360 -> j1657270370;
+		j2371910360 -> j256906649;
+		j2371910360 -> j1902486159;
+	j1811201041 [label="嗯
 它有它好的時候",shape=box,color=blue];
-		2278 -> 2279;
-	2275 [label="Chat ends.",color=orange];
-	2283 [label="至少你知道那隻蜘蛛就是個騙子，但……他們聽起來像是徹頭徹尾的混蛋。",shape=box,color=red];
-		2283 -> 2286;
-	2284 [label="我的那隻會說更加刻薄的話……你真幸運。",shape=box,color=red];
-		2284 -> 2287;
-	2285 [label="你有考慮過用藥或治療嗎？抑鬱症可以很嚴重的。",shape=box,color=red];
-		2285 -> 2288;
-	2279 [label="得回去工作了
+		j1811201041 -> j1946079580;
+	j1657270370 [label="至少你知道那隻蜘蛛就是個騙子，但……他們聽起來像是徹頭徹尾的混蛋。",shape=box,color=red];
+		j1657270370 -> j2550500872;
+	j256906649 [label="我的那隻會說更加刻薄的話……你真幸運。",shape=box,color=red];
+		j256906649 -> j1125400740;
+	j1902486159 [label="你有考慮過用藥或治療嗎？抑鬱症可以很嚴重的。",shape=box,color=red];
+		j1902486159 -> j2407152753;
+	j1946079580 [label="得回去工作了
 （西語）抱歉，討厭在你面前抱怨",shape=box,color=blue];
-		2279 -> 2280;
-	2286 [label="這些就像是一些煩人的小混蛋
+		j1946079580 -> j1933300832;
+	j2550500872 [label="這些就像是一些煩人的小混蛋
 這種悲傷雖然很小，但如果讓它變得過於強烈，它就會有毒
 我媽媽一輩子都是這樣，所以我見識過它帶來的傷害",shape=box,color=blue];
-		2286 -> 2289;
-	2287 [label="那你是真的懂得這種感覺了，親愛的
+		j2550500872 -> j1781336758;
+	j1125400740 [label="那你是真的懂得這種感覺了，親愛的
 這些就像煩人的小混蛋
 可別忘了，它們很會騙人
 這種悲傷雖然很小，但如果讓它變得過於強烈，它就會有毒
 我媽媽一輩子都是這樣，所以我見識過它帶來的傷害",shape=box,color=blue];
-		2287 -> 2290;
-	2288 [label="啊，是啊
+		j1125400740 -> j3256861491;
+	j2407152753 [label="啊，是啊
 我媽媽一生都有這種感受
 所以我見識過它能帶來的傷害
 幸運的是，我的情況沒那麼糟，沒有升級成為太嚴重的問題
 曾經用過藥，但討厭它帶來的迷霧",shape=box,color=blue];
-		2288 -> 2291;
-	2280 [label="+10 Chemistry",color=orange];
-		2280 -> 2281;
-	2289 [label="但這就是為什麼我稱它們為蜘蛛
+		j2407152753 -> j1933725432;
+	j1933300832 [label="+10 Chemistry",color=orange];
+		j1933300832 -> "Chat ends.";
+	j1781336758 [label="但這就是為什麼我稱它們為蜘蛛
 因為你可以拿一張報紙捲成管狀
 然後壓扁它們
 它們很小，一捏就碎",shape=box,color=blue];
-		2289 -> 2292;
-		2289 -> 2293;
-	2290 [label="但這就是為什麼我稱它們為蜘蛛
+		j1781336758 -> j1673892538;
+		j1781336758 -> j1593071488;
+	j3256861491 [label="但這就是為什麼我稱它們為蜘蛛
 因為你可以拿一張報紙捲成管狀
 然後壓扁它們
 它們很小，一捏就碎",shape=box,color=blue];
-		2290 -> 2294;
-		2290 -> 2295;
-	2291 [label="我才不想和瘦女士共舞呢，別擔心
+		j3256861491 -> j2719810000;
+		j3256861491 -> j836147696;
+	j1933725432 [label="我才不想和瘦女士共舞呢，別擔心
 我也不想要那種沒有帶來快樂的痛苦哈哈哈
 這只是一種輕微的悲傷，蜘蛛只是小小的存在",shape=box,color=blue];
-		2291 -> 2296;
-		2291 -> 2297;
-	2281 [label="Chat ends.",color=orange];
-	2292 [label="你不會喜歡金星的……",shape=box,color=red];
-		2292 -> 2298;
-	2293 [label="有道理。而現在，我可以做的是幫你去把那隻蜘蛛壓碎。",shape=box,color=red];
-		2293 -> 2304;
-	2294 [label="你不會喜歡金星的……",shape=box,color=red];
-		2294 -> 2299;
-	2295 [label="有道理。而現在，我們可以互相幫助去把那些蜘蛛壓碎。",shape=box,color=red];
-		2295 -> 2308;
-	2296 [label="我信任你。但你知道什麼時候該去尋求幫助的，對吧？",shape=box,color=red];
-		2296 -> 2311;
-	2297 [label="如果情況變糟了……你會告訴我的，對吧？即使我們不再在一起？",shape=box,color=red];
-		2297 -> 2311;
-	2298 [label="（西語）什麼？",shape=box,color=blue];
-		2298 -> 2301;
-	2304 [label="+15 Chemistry",color=orange];
-		2304 -> 2303;
-	2299 [label="（西語）什麼？",shape=box,color=blue];
-		2299 -> 2302;
-	2308 [label="+20 Chemistry",color=orange];
-		2308 -> 2306;
-	2311 [label="+20 Chemistry",color=orange];
-		2311 -> 2300;
-	2301 [label="沒關係。至少現在，我可以幫你拍扁那隻蜘蛛。",shape=box,color=red];
-		2301 -> 2304;
-	2303 [label="是的，小太陽
+		j1933725432 -> j715638042;
+		j1933725432 -> j1673948548;
+	j1673892538 [label="你不會喜歡金星的……",shape=box,color=red];
+		j1673892538 -> j3846746413;
+	j1593071488 [label="有道理。而現在，我可以做的是幫你去把那隻蜘蛛壓碎。",shape=box,color=red];
+		j1593071488 -> j3658748405;
+	j2719810000 [label="你不會喜歡金星的……",shape=box,color=red];
+		j2719810000 -> j474888000;
+	j836147696 [label="有道理。而現在，我們可以互相幫助去把那些蜘蛛壓碎。",shape=box,color=red];
+		j836147696 -> j1533926221;
+	j715638042 [label="我信任你。但你知道什麼時候該去尋求幫助的，對吧？",shape=box,color=red];
+		j715638042 -> j1055080122;
+	j1673948548 [label="如果情況變糟了……你會告訴我的，對吧？即使我們不再在一起？",shape=box,color=red];
+		j1673948548 -> j1055080122;
+	j3846746413 [label="（西語）什麼？",shape=box,color=blue];
+		j3846746413 -> j4032007455;
+	j3658748405 [label="+15 Chemistry",color=orange];
+		j3658748405 -> j1759451256;
+	j474888000 [label="（西語）什麼？",shape=box,color=blue];
+		j474888000 -> j2631645742;
+	j1533926221 [label="+20 Chemistry",color=orange];
+		j1533926221 -> j3184000313;
+	j1055080122 [label="+20 Chemistry",color=orange];
+		j1055080122 -> j649082052;
+	j4032007455 [label="沒關係。至少現在，我可以幫你拍扁那隻蜘蛛。",shape=box,color=red];
+		j4032007455 -> j3658748405;
+	j1759451256 [label="是的，小太陽
 我感謝你
 但現在我得像往常一樣回去工作了",shape=box,color=blue];
-		2303 -> 2305;
-	2302 [label="沒關係。至少現在，我們可以一起去拍扁那些蜘蛛。",shape=box,color=red];
-		2302 -> 2308;
-	2306 [label="是的，親愛的，正是如此
+		j1759451256 -> "Chat ends.";
+	j2631645742 [label="沒關係。至少現在，我們可以一起去拍扁那些蜘蛛。",shape=box,color=red];
+		j2631645742 -> j1533926221;
+	j3184000313 [label="是的，親愛的，正是如此
 無論我們之間發生了什麼
 感謝你給我的這一刻
 但現在我得像往常一樣回去工作",shape=box,color=blue];
-		2306 -> 2307;
-	2300 [label="是的，親愛的，我保證
+		j3184000313 -> j1472871842;
+	j649082052 [label="是的，親愛的，我保證
 無論我們之間發生什麼
 我會記住這一刻，記得你關心我，我會把它捲起來像報紙一樣，然後拍扁那隻蜘蛛的，哈哈哈",shape=box,color=blue];
-		2300 -> 2310;
-	2305 [label="Chat ends.",color=orange];
-	2307 [label="Update boolean LettieReal",color=orange];
-		2307 -> 2309;
-	2310 [label="說真的……
+		j649082052 -> j2644050288;
+	j1472871842 [label="Boolean LettieReal is now true.",color=orange];
+		j1472871842 -> "Chat ends.";
+	j2644050288 [label="說真的……
 （西語）謝謝
 但我現在得回去工作
 走吧",shape=box,color=blue];
-		2310 -> 2268;
-	2309 [label="Chat ends.",color=orange];
-	2268 [label="Update boolean LettieReal",color=orange];
-		2268 -> 2312;
-	2312 [label="Chat ends.",color=orange];
+		j2644050288 -> j1472871842;
 }

@@ -1,76 +1,75 @@
 digraph {
-	2754 [label="LettieRank6Convo11 begins.",color=orange];
-		2754 -> 2755;
-	2755 [label="Check boolean LettieDating",color=orange];
-		2755 -> 2756 [label=true,color=green];
-		2755 -> 2757 [label=false,color=brown];
-	2756 [label="Check boolean LettieReal",color=orange];
-		2756 -> 2759 [label=true,color=green];
-		2756 -> 2758 [label=false,color=brown];
-	2757 [label="Друг
+	"LettieRank6Convo11 begins." [color=orange];
+		"LettieRank6Convo11 begins." -> j273575157;
+	j273575157 [label="Check boolean LettieDating",color=orange];
+		j273575157 -> j4208389219 [label=true,color=green];
+		j273575157 -> j3499200096 [label=false,color=brown];
+	j4208389219 [label="Check boolean LettieReal",color=orange];
+		j4208389219 -> j1198275012 [label=true,color=green];
+		j4208389219 -> j1742034886 [label=false,color=brown];
+	j3499200096 [label="Друг
 Ты тут?",shape=box,color=blue];
-		2757 -> 2760;
-		2757 -> 2761;
-	2759 [label="Corazón
+		j3499200096 -> j3375745790;
+		j3499200096 -> j820643737;
+	j1198275012 [label="Corazón
 Ты тут?",shape=box,color=blue];
-		2759 -> 2760;
-		2759 -> 2761;
-	2758 [label="Solecito
+		j1198275012 -> j3375745790;
+		j1198275012 -> j820643737;
+	j1742034886 [label="Solecito
 Ты тут?",shape=box,color=blue];
-		2758 -> 2761;
-		2758 -> 2760;
-	2760 [label="[Предупреждение о срабатывании: потеря питомца. Нажать для завершения.]",shape=box,color=red];
-		2760 -> 2762;
-	2761 [label="Что случилось?",shape=box,color=red];
-		2761 -> 2763;
-	2762 [label="Chat ends.",color=orange];
-	2763 [label="Речь о Neenah
+		j1742034886 -> j820643737;
+		j1742034886 -> j3375745790;
+	j3375745790 [label="[Предупреждение о срабатывании: потеря питомца. Нажать для завершения.]",shape=box,color=red];
+		j3375745790 -> "Chat ends.";
+	j820643737 [label="Что случилось?",shape=box,color=red];
+		j820643737 -> j1417534820;
+	"Chat ends." [color=orange];
+	j1417534820 [label="Речь о Neenah
 Одна из моих малышек
 Сегодня утром за ней пришла La Flaca",shape=box,color=blue];
-		2763 -> 2764;
-		2763 -> 2765;
-	2764 [label="Ну... как только год будет сброшен, она же снова появится, верно?",shape=box,color=red];
-		2764 -> 2766;
-	2765 [label="Ох, нет... Лэтти, мне так жаль. :(",shape=box,color=red];
-		2765 -> 2767;
-	2766 [label="Sí
+		j1417534820 -> j3778091863;
+		j1417534820 -> j2118698514;
+	j3778091863 [label="Ну... как только год будет сброшен, она же снова появится, верно?",shape=box,color=red];
+		j3778091863 -> j1476664090;
+	j2118698514 [label="Ох, нет... Лэтти, мне так жаль. :(",shape=box,color=red];
+		j2118698514 -> j289628921;
+	j1476664090 [label="Sí
 Она вернётся
 Но это не меняет того факта, что по своей природе жизнь
 Коротка",shape=box,color=blue];
-		2766 -> 2768;
-	2767 [label="Gracias
+		j1476664090 -> j3810942292;
+	j289628921 [label="Gracias
 Но это природа самой жизни
 Она коротка",shape=box,color=blue];
-		2767 -> 2768;
-	2768 [label="Крысы живут короткой жизнью по меркам людей
+		j289628921 -> j3810942292;
+	j3810942292 [label="Крысы живут короткой жизнью по меркам людей
 Люди живут короткой жизнью по меркам деревьев
 Деревья живут короткой жизнью по меркам богов",shape=box,color=blue];
-		2768 -> 2769;
-	2769 [label="А насекомые живут короткой жизнью по меркам крыс
+		j3810942292 -> j1088954355;
+	j1088954355 [label="А насекомые живут короткой жизнью по меркам крыс
 Всё относительно
 И мы продолжаем зацикливаться снова и снова, не так ли jajaja",shape=box,color=blue];
-		2769 -> 2770;
-	2770 [label="Я предполагаю, что мы-то, что Амир называет «крайними случаями»
+		j1088954355 -> j2893555448;
+	j2893555448 [label="Я предполагаю, что мы-то, что Амир называет «крайними случаями»
 Или что-то в этом роде",shape=box,color=blue];
-		2770 -> 2771;
-		2770 -> 2772;
-	2771 [label="К чему ты клонишь?",shape=box,color=red];
-		2771 -> 2773;
-	2772 [label="То есть ты не расстроена?",shape=box,color=red];
-		2772 -> 2774;
-	2773 [label="Dejar de hacerme mensa y hacer las cosas, jajaja
+		j2893555448 -> j1494842216;
+		j2893555448 -> j548361451;
+	j1494842216 [label="К чему ты клонишь?",shape=box,color=red];
+		j1494842216 -> j1120596477;
+	j548361451 [label="То есть ты не расстроена?",shape=box,color=red];
+		j548361451 -> j905049353;
+	j1120596477 [label="Dejar de hacerme mensa y hacer las cosas, jajaja
 Наверное, я к тому
 Что нам стоит помнить, что надо не забывать жить здесь и сейчас",shape=box,color=blue];
-		2773 -> 2775;
-	2774 [label="Por supuesto que sí
+		j1120596477 -> j2745324499;
+	j905049353 [label="Por supuesto que sí
 Наверное, я к тому
 Что нам стоит помнить, что надо не забывать жить здесь и сейчас",shape=box,color=blue];
-		2774 -> 2775;
-	2775 [label="Вот изначально почему у меня есть крысы
+		j905049353 -> j2745324499;
+	j2745324499 [label="Вот изначально почему у меня есть крысы
 Они живут мало, но никогда не забывают жить
 Радуются каждой крошке, которой могут
 И возвращают всю любовь, которую им дают
 Никогда не знаешь, когда всё закончится",shape=box,color=blue];
-		2775 -> 2776;
-	2776 [label="Chat ends.",color=orange];
+		j2745324499 -> "Chat ends.";
 }

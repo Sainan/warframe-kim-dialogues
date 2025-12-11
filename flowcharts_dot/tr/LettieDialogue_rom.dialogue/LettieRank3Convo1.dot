@@ -1,247 +1,240 @@
 digraph {
-	562 [label="LettieRank3Convo1 begins.",color=orange];
-		562 -> 563;
-	563 [label="Bunu nasıl yapıyorsun babas
+	"LettieRank3Convo1 begins." [color=orange];
+		"LettieRank3Convo1 begins." -> j3471684863;
+	j3471684863 [label="Bunu nasıl yapıyorsun babas
 No entiendo",shape=box,color=blue];
-		563 -> 564;
-		563 -> 565;
-		563 -> 566;
-	564 [label="Bana ne hakkında konuştuğunu söylemeyi unuttun.",shape=box,color=red];
-		564 -> 570;
-	565 [label="Neyi yapıyorum?",shape=box,color=red];
-		565 -> 571;
-	566 [label="Sihirle.",shape=box,color=red];
-		566 -> 567;
-	570 [label="+5 Chemistry",color=orange];
-		570 -> 569;
-	571 [label="Zaman olmadan yüzyıllarca kapana kısılmak 
+		j3471684863 -> j1952152000;
+		j3471684863 -> j1830104187;
+		j3471684863 -> j3461126525;
+	j1952152000 [label="Bana ne hakkında konuştuğunu söylemeyi unuttun.",shape=box,color=red];
+		j1952152000 -> j3524308438;
+	j1830104187 [label="Neyi yapıyorum?",shape=box,color=red];
+		j1830104187 -> j368683855;
+	j3461126525 [label="Sihirle.",shape=box,color=red];
+		j3461126525 -> j1759475013;
+	j3524308438 [label="+5 Chemistry",color=orange];
+		j3524308438 -> j902880330;
+	j368683855 [label="Zaman olmadan yüzyıllarca kapana kısılmak 
 Değişim olmadan, hareket olmadan 
 Biz bu yere musallat olan fantasmalarız",shape=box,color=blue];
-		571 -> 572;
-	567 [label="Ay, equis",shape=box,color=blue];
-		567 -> 568;
-	569 [label="Jaja, sí 
+		j368683855 -> j2631015866;
+	j1759475013 [label="Ay, equis",shape=box,color=blue];
+		j1759475013 -> "Chat ends.";
+	j902880330 [label="Jaja, sí 
 Lo siento, kafamın içinde yalnız başıma çok fazla zaman geçirdim 
 Ama son zamanlarda sen ve bruja nedeniyle daha az da olsa",shape=box,color=blue];
-		569 -> 571;
-	572 [label="Check boolean LettieDuviri",color=orange];
-		572 -> 573 [label=true,color=green];
-		572 -> 574 [label=false,color=brown];
-	568 [label="Chat ends.",color=orange];
-	573 [label="Duviri'de bunu yaptığını söylüyorsun
+		j902880330 -> j368683855;
+	j2631015866 [label="Check boolean LettieDuviri",color=orange];
+		j2631015866 -> j2588590754 [label=true,color=green];
+		j2631015866 -> j1367801510 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2588590754 [label="Duviri'de bunu yaptığını söylüyorsun
 Ölüm Krallığı ve Hikayeleri 
 Yo me habría vuelto loca 
 Aklımı kaybedeceğimden korkuyorum",shape=box,color=blue];
-		573 -> 575;
-		573 -> 576;
-		573 -> 577;
-	574 [label="Bunu daha önce yaptığını söylüyorsun 
+		j2588590754 -> j4056839288;
+		j2588590754 -> j1304321160;
+		j2588590754 -> j494635704;
+	j1367801510 [label="Bunu daha önce yaptığını söylüyorsun 
 Bu yaşadığın diğer diyarda
 Yo me habría vuelto loca 
 Aklımı kaybedeceğimden korkuyorum",shape=box,color=blue];
-		574 -> 577;
-		574 -> 576;
-		574 -> 575;
-	575 [label="Dürüst olmak gerekirse, az kalsın kaybedecektim. Bunun yerine hissizleşmeyi seçtim.",shape=box,color=red];
-		575 -> 578;
-	576 [label="Ben... sanırım bir süreliğine aklımı kaçırdım. Büyük bir kısmını hatırlamıyorum.",shape=box,color=red];
-		576 -> 579;
-	577 [label="Duviri'de başıma gelenler burada olanlardan çok farklı. Benim gibi yalnız değilsin.",shape=box,color=red];
-		577 -> 580;
-	578 [label="¿Sí? 
+		j1367801510 -> j494635704;
+		j1367801510 -> j1304321160;
+		j1367801510 -> j4056839288;
+	j4056839288 [label="Dürüst olmak gerekirse, az kalsın kaybedecektim. Bunun yerine hissizleşmeyi seçtim.",shape=box,color=red];
+		j4056839288 -> j2994833256;
+	j1304321160 [label="Ben... sanırım bir süreliğine aklımı kaçırdım. Büyük bir kısmını hatırlamıyorum.",shape=box,color=red];
+		j1304321160 -> j4116863791;
+	j494635704 [label="Duviri'de başıma gelenler burada olanlardan çok farklı. Benim gibi yalnız değilsin.",shape=box,color=red];
+		j494635704 -> j824958103;
+	j2994833256 [label="¿Sí? 
 Hissizleşmek, boş bir kabuk gibi 
 Ama sen hayata geri dönmüş gibisin, bunu artık sende göremiyorum",shape=box,color=blue];
-		578 -> 581;
-		578 -> 582;
-	579 [label="Bunu kötü savaşlardan sonra askerlerde görmüştüm, her şeyi bastırdıklarını
+		j2994833256 -> j2071744712;
+		j2994833256 -> j1212835232;
+	j4116863791 [label="Bunu kötü savaşlardan sonra askerlerde görmüştüm, her şeyi bastırdıklarını
 Zihin kendini bazen en kötüsünden korur 
 En iyisi bu, babas güven bana
 Eee? Nasıl hayatta kaldın?",shape=box,color=blue];
-		579 -> 581;
-		579 -> 582;
-	580 [label="Sí, cómo no 
+		j4116863791 -> j2071744712;
+		j4116863791 -> j1212835232;
+	j824958103 [label="Sí, cómo no 
 Sonsuzluğu birlikte geçirmek isteyeceğim insanlar değil, babas 
 Alınma ama etrafına bir bak",shape=box,color=blue];
-		580 -> 583;
-	581 [label="Neler olduğunu fark ettiğimde, beni tüketmesine izin vermemek için deli gibi mücadele ettim.",shape=box,color=red];
-		581 -> 584;
-	582 [label="Beni bu durumdan kurtarmak için arkadaşlarımdan yardım aldım.",shape=box,color=red];
-		582 -> 585;
-	583 [label="Canavarlara dönüşmeden önce, sadece onları bir araya getirmek için oradaydım 
+		j824958103 -> j1470898613;
+	j2071744712 [label="Neler olduğunu fark ettiğimde, beni tüketmesine izin vermemek için deli gibi mücadele ettim.",shape=box,color=red];
+		j2071744712 -> j4148203313;
+	j1212835232 [label="Beni bu durumdan kurtarmak için arkadaşlarımdan yardım aldım.",shape=box,color=red];
+		j1212835232 -> j1691910245;
+	j1470898613 [label="Canavarlara dönüşmeden önce, sadece onları bir araya getirmek için oradaydım 
 Artık başka seçeneğimiz yok
 Sence beni burada istiyorlar mı?",shape=box,color=blue];
-		583 -> 587;
-		583 -> 588;
-		583 -> 589;
-		583 -> 590;
-	584 [label="Ama sonsuzlukla savaşamazsın 
+		j1470898613 -> j533602044;
+		j1470898613 -> j3352803953;
+		j1470898613 -> j2436713482;
+		j1470898613 -> j3368385291;
+	j4148203313 [label="Ama sonsuzlukla savaşamazsın 
 Oradan kaçtın 
 Bizim için bir çıkış yolu göremiyorum... ya sen?",shape=box,color=blue];
-		584 -> 591;
-		584 -> 592;
-	585 [label="Bueno, o zaman mahvoldum 
+		j4148203313 -> j2428269325;
+		j4148203313 -> j590369140;
+	j1691910245 [label="Bueno, o zaman mahvoldum 
 Jaja",shape=box,color=blue];
-		585 -> 587;
-		585 -> 588;
-		585 -> 589;
-		585 -> 590;
-	587 [label="Niye, *ben* senden hoşlanıyorum.",shape=box,color=red];
-		587 -> 600;
-	588 [label="Diğer Hex'lerin senden hoşlanmadığını mı düşünüyorsun?",shape=box,color=red];
-		588 -> 601;
-	589 [label="Lettie, sen pek de \"yakınlaşılabilecek\" biri gibi durmuyorsun.",shape=box,color=red];
-		589 -> 602;
-	590 [label="Belki de bu kadar huysuz olmasaydın...",shape=box,color=red];
-		590 -> 604;
-	591 [label="Hayır... Göremiyorum, üzgünüm.",shape=box,color=red];
-		591 -> 596;
-	592 [label="Yani, seni kısa süreliğine transferans yoluyla buradan çıkarabilirim.",shape=box,color=red];
-		592 -> 594;
-	600 [label="¿Ay, Sí? 
+		j1691910245 -> j533602044;
+		j1691910245 -> j3352803953;
+		j1691910245 -> j2436713482;
+		j1691910245 -> j3368385291;
+	j533602044 [label="Niye, *ben* senden hoşlanıyorum.",shape=box,color=red];
+		j533602044 -> j2843346869;
+	j3352803953 [label="Diğer Hex'lerin senden hoşlanmadığını mı düşünüyorsun?",shape=box,color=red];
+		j3352803953 -> j2663687041;
+	j2436713482 [label="Lettie, sen pek de \"yakınlaşılabilecek\" biri gibi durmuyorsun.",shape=box,color=red];
+		j2436713482 -> j3817615092;
+	j3368385291 [label="Belki de bu kadar huysuz olmasaydın...",shape=box,color=red];
+		j3368385291 -> j2451137067;
+	j2428269325 [label="Hayır... Göremiyorum, üzgünüm.",shape=box,color=red];
+		j2428269325 -> j819541297;
+	j590369140 [label="Yani, seni kısa süreliğine transferans yoluyla buradan çıkarabilirim.",shape=box,color=red];
+		j590369140 -> j59735679;
+	j2843346869 [label="¿Ay, Sí? 
 Beni ne kadar seviyorsun, babas 
 Ne kadar çabuk pes edeceğini merak ediyordum",shape=box,color=blue];
-		600 -> 633;
-		600 -> 634;
-		600 -> 635;
-	601 [label="Eh, beni yeterince iyi tanıyorlar 
+		j2843346869 -> j1434619770;
+		j2843346869 -> j2311081974;
+		j2843346869 -> j3928756737;
+	j2663687041 [label="Eh, beni yeterince iyi tanıyorlar 
 Ama yakın değiliz 
 Belki ben ve Arthur hariç",shape=box,color=blue];
-		601 -> 607;
-		601 -> 608;
-		601 -> 609;
-	602 [label="Bunu bilmediğimi mi sanıyorsun babas?",shape=box,color=blue];
-		602 -> 607;
-		602 -> 608;
-		602 -> 609;
-	604 [label="+5 Chemistry",color=orange];
-		604 -> 603;
-	596 [label="+10 Chemistry",color=orange];
-		596 -> 593;
-	594 [label="¿Ay, Sí? 
+		j2663687041 -> j2393981267;
+		j2663687041 -> j3369595685;
+		j2663687041 -> j2081849161;
+	j3817615092 [label="Bunu bilmediğimi mi sanıyorsun babas?",shape=box,color=blue];
+		j3817615092 -> j2393981267;
+		j3817615092 -> j3369595685;
+		j3817615092 -> j2081849161;
+	j2451137067 [label="+5 Chemistry",color=orange];
+		j2451137067 -> j2249303773;
+	j819541297 [label="+10 Chemistry",color=orange];
+		j819541297 -> j1100624328;
+	j59735679 [label="¿Ay, Sí? 
 ¿Beni yürüyüşe çıkarmak mı istiyorsun? 
 Cuidadito, bu ilişkinin evcil hayvanı olmayacağım... 
 ¡Yo no me dejo!",shape=box,color=blue];
-		594 -> 598;
-		594 -> 599;
-		594 -> 606;
-	633 [label="Meydan okumayı kabul ediyorum.",shape=box,color=red];
-		633 -> 639;
-	634 [label="Sen... bana mı asılıyorsun?",shape=box,color=red];
-		634 -> 636;
-	635 [label="Ben sadece senin arkadaşın olmak istiyorum Lettie. Kusura bakma.",shape=box,color=red];
-		635 -> 640;
-	607 [label="Neden insanların sana yakınlaşmasına izin vermiyorsun?",shape=box,color=red];
-		607 -> 610;
-	608 [label="İnsanlara güvenmekten korkuyorsun.",shape=box,color=red];
-		608 -> 611;
-	609 [label="Onları kaybedersen incinmek istemezsin.",shape=box,color=red];
-		609 -> 612;
-	603 [label="JAJAJA 
+		j59735679 -> j2866578227;
+		j59735679 -> j227215113;
+		j59735679 -> j1291683261;
+	j1434619770 [label="Meydan okumayı kabul ediyorum.",shape=box,color=red];
+		j1434619770 -> j535025373;
+	j2311081974 [label="Sen... bana mı asılıyorsun?",shape=box,color=red];
+		j2311081974 -> j2028863033;
+	j3928756737 [label="Ben sadece senin arkadaşın olmak istiyorum Lettie. Kusura bakma.",shape=box,color=red];
+		j3928756737 -> j3922771091;
+	j2393981267 [label="Neden insanların sana yakınlaşmasına izin vermiyorsun?",shape=box,color=red];
+		j2393981267 -> j1130028183;
+	j3369595685 [label="İnsanlara güvenmekten korkuyorsun.",shape=box,color=red];
+		j3369595685 -> j2579135998;
+	j2081849161 [label="Onları kaybedersen incinmek istemezsin.",shape=box,color=red];
+		j2081849161 -> j743569820;
+	j2249303773 [label="JAJAJA 
 Eğer olmasaydım, şimdiki Lettie olmazdım 
 Ben neysem oyum babas 
 Al ya da bırak",shape=box,color=blue];
-		603 -> 605;
-	593 [label="Dürüstlüğünü takdir ediyorum 
+		j2249303773 -> "Chat ends.";
+	j1100624328 [label="Dürüstlüğünü takdir ediyorum 
 Sanırım ilk kimin delireceğine dair bahse giriyoruz",shape=box,color=blue];
-		593 -> 595;
-	598 [label="Meydan okumayı kabul ediyorum.",shape=box,color=red];
-		598 -> 622;
-	599 [label="Sen... bana mı asılıyorsun?",shape=box,color=red];
-		599 -> 617;
-	606 [label="Sadece nazik olmaya çalışıyordum. Sen benim tipim değilsin.",shape=box,color=red];
-		606 -> 621;
-	639 [label="Update boolean LettieFlirt",color=orange];
-		639 -> 644;
-	636 [label="¡No manches, babas! 
+		j1100624328 -> j3501821104;
+	j2866578227 [label="Meydan okumayı kabul ediyorum.",shape=box,color=red];
+		j2866578227 -> j4094691110;
+	j227215113 [label="Sen... bana mı asılıyorsun?",shape=box,color=red];
+		j227215113 -> j1146564972;
+	j1291683261 [label="Sadece nazik olmaya çalışıyordum. Sen benim tipim değilsin.",shape=box,color=red];
+		j1291683261 -> j4276401457;
+	j535025373 [label="Boolean LettieFlirt is now true.",color=orange];
+		j535025373 -> j1958783015;
+	j2028863033 [label="¡No manches, babas! 
 Sana asılmamı ister misin?",shape=box,color=blue];
-		636 -> 637;
-		636 -> 638;
-	640 [label="Update boolean LettieNoFlirt",color=orange];
-		640 -> 643;
-	610 [label="Çünkü yapmamayı seçiyorum 
+		j2028863033 -> j3629962746;
+		j2028863033 -> j1074826780;
+	j3922771091 [label="Boolean LettieNoFlirt is now true.",color=orange];
+		j3922771091 -> j4108584287;
+	j1130028183 [label="Çünkü yapmamayı seçiyorum 
 Çünkü daha iyisini öğrendim 
 Böylesi herkes için daha güvenli",shape=box,color=blue];
-		610 -> 623;
-		610 -> 624;
-	611 [label="Lárgate de aqui",shape=box,color=blue];
-		611 -> 615;
-	612 [label="¡No manches, babas! 
+		j1130028183 -> j1106426128;
+		j1130028183 -> j3653908983;
+	j2579135998 [label="Lárgate de aqui",shape=box,color=blue];
+		j2579135998 -> j971190109;
+	j743569820 [label="¡No manches, babas! 
 Sıçanların ne kadar yaşadığını biliyor musun? 
 En fazla 2-3 yıl 
 Küçük panquecito'larımı kaybetmeye alışığım",shape=box,color=blue];
-		612 -> 613;
-	605 [label="Chat ends.",color=orange];
-	595 [label="Kim bilir 
+		j743569820 -> j264713421;
+	j3501821104 [label="Kim bilir 
 Belki ilk ben deliririm",shape=box,color=blue];
-		595 -> 597;
-	622 [label="Update boolean LettieFlirt",color=orange];
-		622 -> 626;
-	617 [label="No manches, babas... 
+		j3501821104 -> "Chat ends.";
+	j4094691110 [label="Boolean LettieFlirt is now true.",color=orange];
+		j4094691110 -> j1056008785;
+	j1146564972 [label="No manches, babas... 
 Sana asılmamı ister misin?",shape=box,color=blue];
-		617 -> 618;
-		617 -> 619;
-	621 [label="Update boolean LettieNoFlirt",color=orange];
-		621 -> 629;
-	644 [label="+15 Chemistry",color=orange];
-		644 -> 641;
-	637 [label="Evet, tam benim tipimsin. Tehlikeli yaşamayı severim. ;)",shape=box,color=red];
-		637 -> 639;
-	638 [label="Hayır, arkadaş olarak kalmayı tercih ederim.",shape=box,color=red];
-		638 -> 640;
-	643 [label="+15 Chemistry",color=orange];
-		643 -> 642;
-	623 [label="Sadece bir uyarı olarak, ben gerçekten inatçıyım ve seni daha iyi tanımak istiyorum.",shape=box,color=red];
-		623 -> 631;
-	624 [label="Uyarı için teşekkürler. Duygularımın üzerine basarsan bunu kişisel olarak algılamam.",shape=box,color=red];
-		624 -> 632;
-	615 [label="Update boolean LettieTrust1",color=orange];
-		615 -> 616;
-	613 [label="Ve onları insanlardan daha çok seviyorum 
+		j1146564972 -> j2256453201;
+		j1146564972 -> j531056122;
+	j4276401457 [label="Boolean LettieNoFlirt is now true.",color=orange];
+		j4276401457 -> j527403973;
+	j1958783015 [label="+15 Chemistry",color=orange];
+		j1958783015 -> j2719015684;
+	j3629962746 [label="Evet, tam benim tipimsin. Tehlikeli yaşamayı severim. ;)",shape=box,color=red];
+		j3629962746 -> j535025373;
+	j1074826780 [label="Hayır, arkadaş olarak kalmayı tercih ederim.",shape=box,color=red];
+		j1074826780 -> j3922771091;
+	j4108584287 [label="+15 Chemistry",color=orange];
+		j4108584287 -> j3335996383;
+	j1106426128 [label="Sadece bir uyarı olarak, ben gerçekten inatçıyım ve seni daha iyi tanımak istiyorum.",shape=box,color=red];
+		j1106426128 -> j1537819459;
+	j3653908983 [label="Uyarı için teşekkürler. Duygularımın üzerine basarsan bunu kişisel olarak algılamam.",shape=box,color=red];
+		j3653908983 -> j1625305679;
+	j971190109 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j971190109 -> "Chat ends. Next chat will be LettieTrust.";
+	j264713421 [label="Ve onları insanlardan daha çok seviyorum 
 Keder ve kayıp konusunda rahatım, bildiğinden daha fazla 
 Beni tanıyormuş gibi davranma babas 
 Lárgate",shape=box,color=blue];
-		613 -> 614;
-	597 [label="Chat ends.",color=orange];
-	626 [label="+15 Chemistry",color=orange];
-		626 -> 625;
-	618 [label="Evet, tam benim tipimsin. Tehlikeli yaşamayı severim. ;)",shape=box,color=red];
-		618 -> 622;
-	619 [label="Hayır, arkadaş olarak kalmayı tercih ederim.",shape=box,color=red];
-		619 -> 621;
-	629 [label="+15 Chemistry",color=orange];
-		629 -> 628;
-	641 [label="Jaja göreceğiz, babas 
+		j264713421 -> "Chat ends.";
+	j1056008785 [label="+15 Chemistry",color=orange];
+		j1056008785 -> j3460965774;
+	j2256453201 [label="Evet, tam benim tipimsin. Tehlikeli yaşamayı severim. ;)",shape=box,color=red];
+		j2256453201 -> j4094691110;
+	j531056122 [label="Hayır, arkadaş olarak kalmayı tercih ederim.",shape=box,color=red];
+		j531056122 -> j4276401457;
+	j527403973 [label="+15 Chemistry",color=orange];
+		j527403973 -> j214278383;
+	j2719015684 [label="Jaja göreceğiz, babas 
 Göreceğiz",shape=box,color=blue];
-		641 -> 645;
-	642 [label="Jaja, alınmadım. 
+		j2719015684 -> "Chat ends.";
+	j3335996383 [label="Jaja, alınmadım. 
 Evet, arkadaşlık bana uyar 
 Bu çoğu kişi için fazla bile",shape=box,color=blue];
-		642 -> 646;
-	631 [label="Ay, sí 
+		j3335996383 -> "Chat ends.";
+	j1537819459 [label="Ay, sí 
 Hayatta kalmak için senin gibi birine ihtiyaç var
 Belki de sırrın budur
 Yine de inatçı olanları severim
 Onları kırmak daha zor",shape=box,color=blue];
-		631 -> 633;
-		631 -> 634;
-		631 -> 635;
-	632 [label="Jaja 
+		j1537819459 -> j1434619770;
+		j1537819459 -> j2311081974;
+		j1537819459 -> j3928756737;
+	j1625305679 [label="Jaja 
 Üzerine basmak istediğim senin duyguların değil",shape=box,color=blue];
-		632 -> 633;
-		632 -> 634;
-		632 -> 635;
-	616 [label="Chat ends. Next chat will be LettieTrust.",color=orange];
-	614 [label="Chat ends.",color=orange];
-	625 [label="Göreceğiz babas, göreceğiz 
+		j1625305679 -> j1434619770;
+		j1625305679 -> j2311081974;
+		j1625305679 -> j3928756737;
+	"Chat ends. Next chat will be LettieTrust." [color=orange];
+	j3460965774 [label="Göreceğiz babas, göreceğiz 
 Ama geçici özgürlük teklifini kabul edeceğim. 
 Belki de bu fantasmanın ihtiyacı olan tek şey zaman zaman biraz temiz hava almaktır",shape=box,color=blue];
-		625 -> 627;
-	628 [label="Peki
+		j3460965774 -> "Chat ends.";
+	j214278383 [label="Peki
 Ama geçici özgürlük teklifini kabul edeceğim 
 Belki de bu fantasmanın ihtiyacı olan tek şey zaman zaman biraz temiz havadır",shape=box,color=blue];
-		628 -> 630;
-	645 [label="Chat ends.",color=orange];
-	646 [label="Chat ends.",color=orange];
-	627 [label="Chat ends.",color=orange];
-	630 [label="Chat ends.",color=orange];
+		j214278383 -> "Chat ends.";
 }

@@ -1,127 +1,124 @@
 digraph {
-	908 [label="LettieRank3Convo5 begins.",color=orange];
-		908 -> 909;
-		908 -> 910;
-		908 -> 911;
-	909 [label="大丈夫そう？",shape=box,color=red];
-		909 -> 913;
-	910 [label="市民とはどんな感じになってる？",shape=box,color=red];
-		910 -> 914;
-	911 [label="[無視する]",shape=box,color=red];
-		911 -> 912;
-	913 [label="ん？
+	"LettieRank3Convo5 begins." [color=orange];
+		"LettieRank3Convo5 begins." -> j1698923040;
+		"LettieRank3Convo5 begins." -> j2145555881;
+		"LettieRank3Convo5 begins." -> j85835136;
+	j1698923040 [label="大丈夫そう？",shape=box,color=red];
+		j1698923040 -> j423684204;
+	j2145555881 [label="市民とはどんな感じになってる？",shape=box,color=red];
+		j2145555881 -> j3414667305;
+	j85835136 [label="[無視する]",shape=box,color=red];
+		j85835136 -> "Chat ends.";
+	j423684204 [label="ん？
 回転ドアって感じjajaja",shape=box,color=blue];
-		913 -> 915;
-	914 [label="Eh？
+		j423684204 -> j867739268;
+	j3414667305 [label="Eh？
 普通、かしら
 民間人はどこでも同じ、その内慣れるもの",shape=box,color=blue];
-		914 -> 916;
-		914 -> 917;
-	912 [label="Chat ends.",color=orange];
-	915 [label="あんた以前にも時々、人がアタシを通り過ぎてると感じることがある
+		j3414667305 -> j3330638253;
+		j3414667305 -> j1687993876;
+	"Chat ends." [color=orange];
+	j867739268 [label="あんた以前にも時々、人がアタシを通り過ぎてると感じることがある
 国危対テントの中の、ひたすら傷口を覆うただの顔
 建物の一部みたいなもの",shape=box,color=blue];
-		915 -> 918;
-	916 [label="そうかもだけど、それでも疲れるだろう。",shape=box,color=red];
-		916 -> 919;
-	917 [label="何に慣れるの？",shape=box,color=red];
-		917 -> 920;
-	918 [label="頑丈
+		j867739268 -> j3579828170;
+	j3330638253 [label="そうかもだけど、それでも疲れるだろう。",shape=box,color=red];
+		j3330638253 -> j549295476;
+	j1687993876 [label="何に慣れるの？",shape=box,color=red];
+		j1687993876 -> j1970999115;
+	j3579828170 [label="頑丈
 不動
 Pero... Estoy muerta 
 コーヒーがどれだけあっても足りない感じ、¿no？",shape=box,color=blue];
-		918 -> 921;
-		918 -> 922;
-	919 [label="Sí、想像以上にね
+		j3579828170 -> j3608303386;
+		j3579828170 -> j3314021169;
+	j549295476 [label="Sí、想像以上にね
 コーヒーがどれだけあっても足りない感じ、¿no？
 Pero, soy dura de roer 
 アタシはどこにも行かない",shape=box,color=blue];
-		919 -> 921;
-		919 -> 922;
-	920 [label="彼らの空虚な視線と鈍くなった痛み
+		j549295476 -> j3608303386;
+		j549295476 -> j3314021169;
+	j1970999115 [label="彼らの空虚な視線と鈍くなった痛み
 彼らからすればアタシは国危対テントの中の、ひたすら傷口を覆うただの顔
 人がアタシを回転ドアみたいに通り過ぎてると感じることがある
 あんたがくる以前からの話よ jajaja",shape=box,color=blue];
-		920 -> 923;
-	921 [label="Lettieがタフだからといって、自分が気にかけない理由にはならない。",shape=box,color=red];
-		921 -> 927;
-	922 [label="ああ、でもコーヒーの噴水でもあればいいかもね　笑",shape=box,color=red];
-		922 -> 928;
-	923 [label="Check boolean LettieNoFlirt",color=orange];
-		923 -> 924 [label=true,color=green];
-		923 -> 925 [label=true,color=green];
-		923 -> 924 [label=false,color=brown];
-		923 -> 925 [label=false,color=brown];
-		923 -> 926 [label=false,color=brown];
-	927 [label="Sí、
+		j1970999115 -> j3050599071;
+	j3608303386 [label="Lettieがタフだからといって、自分が気にかけない理由にはならない。",shape=box,color=red];
+		j3608303386 -> j4210134119;
+	j3314021169 [label="ああ、でもコーヒーの噴水でもあればいいかもね　笑",shape=box,color=red];
+		j3314021169 -> j1496523394;
+	j3050599071 [label="Check boolean LettieNoFlirt",color=orange];
+		j3050599071 -> j119472580 [label=true,color=green];
+		j3050599071 -> j836769308 [label=true,color=green];
+		j3050599071 -> j119472580 [label=false,color=brown];
+		j3050599071 -> j836769308 [label=false,color=brown];
+		j3050599071 -> j1019213403 [label=false,color=brown];
+	j4210134119 [label="Sí、
 誰かがアタシを支えてると分かるだけで十分
 Arthurはそういう人
 mi mamáのフリをするAoiみたいにうろつかない
 アタシにカップを渡して「大丈夫か？」って言うだけ",shape=box,color=blue];
-		927 -> 933;
-	928 [label="Jajajaそうね
+		j4210134119 -> j1564263947;
+	j1496523394 [label="Jajajaそうね
 Arthurはそういう人
 mi mamáのフリをするAoiみたいにうろつかない
 アタシにカップを渡して「大丈夫か？」って言うだけ",shape=box,color=blue];
-		928 -> 933;
-	924 [label="でも、全てを失った人々がそうするのは当然じゃない？",shape=box,color=red];
-		924 -> 929;
-	925 [label="段々人がぼやけて区別できなくなるのも仕方ない。",shape=box,color=red];
-		925 -> 937;
-	926 [label="少なくともLettieはセクシーなドアだ　:P",shape=box,color=red];
-		926 -> 2464;
-	933 [label="Update boolean LettieShoulder",color=orange];
-		933 -> 944;
-	929 [label="彼らのせいじゃない
+		j1496523394 -> j1564263947;
+	j119472580 [label="でも、全てを失った人々がそうするのは当然じゃない？",shape=box,color=red];
+		j119472580 -> j635830475;
+	j836769308 [label="段々人がぼやけて区別できなくなるのも仕方ない。",shape=box,color=red];
+		j836769308 -> j1776343137;
+	j1019213403 [label="少なくともLettieはセクシーなドアだ　:P",shape=box,color=red];
+		j1019213403 -> j2063589561;
+	j1564263947 [label="Boolean LettieShoulder is now true.",color=orange];
+		j1564263947 -> j1951203171;
+	j635830475 [label="彼らのせいじゃない
 アタシのせいでもない、babas
 ただ皆疲れているの",shape=box,color=blue];
-		929 -> 934;
-	937 [label="+10 Chemistry",color=orange];
-		937 -> 930;
-	2464 [label="+20 Chemistry",color=orange];
-		2464 -> 931;
-	944 [label="+20 Chemistry",color=orange];
-		944 -> 932;
-	934 [label="Hablando de
+		j635830475 -> j1157061019;
+	j1776343137 [label="+10 Chemistry",color=orange];
+		j1776343137 -> j3219906499;
+	j2063589561 [label="+20 Chemistry",color=orange];
+		j2063589561 -> j853593323;
+	j1951203171 [label="+20 Chemistry",color=orange];
+		j1951203171 -> j1366522573;
+	j1157061019 [label="Hablando de
 仕事に戻るわ",shape=box,color=blue];
-		934 -> 938;
-	930 [label="Sí、彼らのせいじゃない、いつだって彼らはたくさん
+		j1157061019 -> "Chat ends.";
+	j3219906499 [label="Sí、彼らのせいじゃない、いつだって彼らはたくさん
 終わりは来ないといつだって考えてた
 今は本当に終わることはないと分かったわ
 ルアよ、sálvame",shape=box,color=blue];
-		930 -> 935;
-	931 [label="JAJA
+		j3219906499 -> j1500970134;
+	j853593323 [label="JAJA
 あらbabas、レディを元気づけるのが得意なのね
 アタシの墓石にこう書いておいて
 「Aquí yace la puerta más sexy que hayas visto.」って",shape=box,color=blue];
-		931 -> 936;
-	932 [label="いい質問ね、babas
+		j853593323 -> j2152436118;
+	j1366522573 [label="いい質問ね、babas
 そういうの頂戴
 時々それが必要になるかも
 あとコーヒーも1、2杯頼むわ",shape=box,color=blue];
-		932 -> 940;
-	938 [label="Chat ends.",color=orange];
-	935 [label="Hablando de
+		j1366522573 -> j3637400474;
+	j1500970134 [label="Hablando de
 仕事に戻るわ
 気晴らしありがとう",shape=box,color=blue];
-		935 -> 939;
-	936 [label="Gracias por hacerme reír, babas 
+		j1500970134 -> "Chat ends.";
+	j2152436118 [label="Gracias por hacerme reír, babas 
 元気貰えたわ",shape=box,color=blue];
-		936 -> 945;
-	940 [label="Check boolean LettieNoFlirt",color=orange];
-		940 -> 941 [label=true,color=green];
-		940 -> 943 [label=true,color=green];
-		940 -> 942 [label=false,color=brown];
-		940 -> 943 [label=false,color=brown];
-	939 [label="Chat ends.",color=orange];
-	945 [label="仕事に戻らないとね、¿no？
+		j2152436118 -> j3113924377;
+	j3637400474 [label="Check boolean LettieNoFlirt",color=orange];
+		j3637400474 -> j1921885928 [label=true,color=green];
+		j3637400474 -> j759922244 [label=true,color=green];
+		j3637400474 -> j1134451759 [label=false,color=brown];
+		j3637400474 -> j759922244 [label=false,color=brown];
+	j3113924377 [label="仕事に戻らないとね、¿no？
 お互いこんなことしてる暇はないわ",shape=box,color=blue];
-		945 -> 946;
-	941 [label="はいよ。",shape=box,color=red];
-		941 -> 945;
-	943 [label="努力する。",shape=box,color=red];
-		943 -> 945;
-	942 [label="はいよ。<3",shape=box,color=red];
-		942 -> 945;
-	946 [label="Chat ends.",color=orange];
+		j3113924377 -> "Chat ends.";
+	j1921885928 [label="はいよ。",shape=box,color=red];
+		j1921885928 -> j3113924377;
+	j759922244 [label="努力する。",shape=box,color=red];
+		j759922244 -> j3113924377;
+	j1134451759 [label="はいよ。<3",shape=box,color=red];
+		j1134451759 -> j3113924377;
 }

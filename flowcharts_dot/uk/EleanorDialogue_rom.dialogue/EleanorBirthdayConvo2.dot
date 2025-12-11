@@ -1,21 +1,16 @@
 digraph {
-	2824 [label="EleanorBirthdayConvo2 begins.",color=orange];
-		2824 -> 2829;
-		2824 -> 2826;
-	2829 [label="Вітаю з тим, що дожила до чергового дня народження!",shape=box,color=red];
-		2829 -> 2830;
-	2826 [label="З днем народження, Елеоноро. Приємно, що ти все ще тут.",shape=box,color=red];
-		2826 -> 2831;
-	2830 [label="Ось так? Без перевірки? На щастя для тебе, я справді зараз жива. О, це могло бути до біса незручно, чи не так?",shape=box,color=blue];
-		2830 -> 2841;
-	2831 [label="+20 Chemistry",color=orange];
-		2831 -> 2828;
-	2841 [label="{\"Id\":2841,\"Incoming\":[2830],\"Outgoing\":[2825],\"GraphPos\":[1877,-3148],\"CompletionType\":1}",color=orange];
-		2841 -> 2825;
-	2828 [label="Дякую, любий мандрівниче. Мені теж.",shape=box,color=blue];
-		2828 -> 2842;
-	2825 [label="Chat ends.",color=orange];
-	2842 [label="{\"Id\":2842,\"Incoming\":[2828],\"Outgoing\":[2827],\"GraphPos\":[1887,-3344],\"CompletionType\":1}",color=orange];
-		2842 -> 2827;
-	2827 [label="Chat ends.",color=orange];
+	"EleanorBirthdayConvo2 begins." [color=orange];
+		"EleanorBirthdayConvo2 begins." -> j4197774744;
+		"EleanorBirthdayConvo2 begins." -> j9767235;
+	j4197774744 [label="Вітаю з тим, що дожила до чергового дня народження!",shape=box,color=red];
+		j4197774744 -> j287058155;
+	j9767235 [label="З днем народження, Елеоноро. Приємно, що ти все ще тут.",shape=box,color=red];
+		j9767235 -> j3266589126;
+	j287058155 [label="Ось так? Без перевірки? На щастя для тебе, я справді зараз жива. О, це могло бути до біса незручно, чи не так?",shape=box,color=blue];
+		j287058155 -> "Chat ends.";
+	j3266589126 [label="+20 Chemistry",color=orange];
+		j3266589126 -> j1555029270;
+	"Chat ends." [color=orange];
+	j1555029270 [label="Дякую, любий мандрівниче. Мені теж.",shape=box,color=blue];
+		j1555029270 -> "Chat ends.";
 }

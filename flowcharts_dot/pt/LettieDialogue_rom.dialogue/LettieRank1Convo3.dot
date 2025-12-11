@@ -1,123 +1,104 @@
 digraph {
-	110 [label="LettieRank1Convo3 begins.",color=orange];
-		110 -> 111;
-	111 [label="Babas 
+	"LettieRank1Convo3 begins." [color=orange];
+		"LettieRank1Convo3 begins." -> j3610974471;
+	j3610974471 [label="Babas 
 Fica de olho aberto, viu?",shape=box,color=blue];
-		111 -> 112;
-		111 -> 113;
-	112 [label="Isso era pra ser um \"oi\"?",shape=box,color=red];
-		112 -> 114;
-	113 [label="Agora não dá, deixa pra depois [Encerrar Conversa]",shape=box,color=red];
-		113 -> 115;
-	114 [label="Ah, sim, olá, bom dia flor do dia 
+		j3610974471 -> j3540626121;
+		j3610974471 -> j965625746;
+	j3540626121 [label="Isso era pra ser um \"oi\"?",shape=box,color=red];
+		j3540626121 -> j2487013242;
+	j965625746 [label="Agora não dá, deixa pra depois [Encerrar Conversa]",shape=box,color=red];
+		j965625746 -> "Chat ends.";
+	j2487013242 [label="Ah, sim, olá, bom dia flor do dia 
 Dia, tarde, noite… tanto faz 
 Preciso que você traga mais gaze 
 Tô ficando sem suprimentos",shape=box,color=blue];
-		114 -> 116;
-	115 [label="Chat ends.",color=orange];
-	116 [label="A Anita entrou em uma caixa e roeu um monte delas",shape=box,color=blue];
-		116 -> 117;
-		116 -> 118;
-	117 [label="Quem é a Anita?",shape=box,color=red];
-		117 -> 119;
-	118 [label="Não faço ideia de quem é essa aí, Lê",shape=box,color=red];
-		118 -> 119;
-	119 [label="Lo siento, esqueci de falar",shape=box,color=blue];
-		119 -> 120;
-	120 [label="+5 Chemistry",color=orange];
-		120 -> 121;
-	121 [label="É minha nova corazoncito, minha nova rata 
+		j2487013242 -> j2041562595;
+	"Chat ends." [color=orange];
+	j2041562595 [label="A Anita entrou em uma caixa e roeu um monte delas",shape=box,color=blue];
+		j2041562595 -> j845363908;
+		j2041562595 -> j3463947999;
+	j845363908 [label="Quem é a Anita?",shape=box,color=red];
+		j845363908 -> j139334934;
+	j3463947999 [label="Não faço ideia de quem é essa aí, Lê",shape=box,color=red];
+		j3463947999 -> j139334934;
+	j139334934 [label="Lo siento, esqueci de falar",shape=box,color=blue];
+		j139334934 -> j1083263595;
+	j1083263595 [label="+5 Chemistry",color=orange];
+		j1083263595 -> j3783660575;
+	j3783660575 [label="É minha nova corazoncito, minha nova rata 
 Ela ainda tá aprendendo a se comportar",shape=box,color=blue];
-		121 -> 122;
-	122 [label="Check boolean LettieRatsAsked",color=orange];
-		122 -> 123 [label=true,color=green];
-		122 -> 124 [label=true,color=green];
-		122 -> 125 [label=false,color=brown];
-		122 -> 123 [label=false,color=brown];
-		122 -> 124 [label=false,color=brown];
-	123 [label="Se eu ver gaze por aí, eu levo pra você",shape=box,color=red];
-		123 -> 129;
-	124 [label="Se foi sua rata que roeu, vai você atrás da sua própria gaze",shape=box,color=red];
-		124 -> 127;
-	125 [label="Fiquei na dúvida, por que você tem ratos como animais de estimação?",shape=box,color=red];
-		125 -> 128;
-	129 [label="+10 Chemistry",color=orange];
-		129 -> 126;
-	127 [label="Sí, claro, com todo esse tempo livre que tenho, vou sim 
+		j3783660575 -> j2299607748;
+	j2299607748 [label="Check boolean LettieRatsAsked",color=orange];
+		j2299607748 -> j1694548704 [label=true,color=green];
+		j2299607748 -> j1438934103 [label=true,color=green];
+		j2299607748 -> j4099606955 [label=false,color=brown];
+		j2299607748 -> j1694548704 [label=false,color=brown];
+		j2299607748 -> j1438934103 [label=false,color=brown];
+	j1694548704 [label="Se eu ver gaze por aí, eu levo pra você",shape=box,color=red];
+		j1694548704 -> j1329301244;
+	j1438934103 [label="Se foi sua rata que roeu, vai você atrás da sua própria gaze",shape=box,color=red];
+		j1438934103 -> j4073632194;
+	j4099606955 [label="Fiquei na dúvida, por que você tem ratos como animais de estimação?",shape=box,color=red];
+		j4099606955 -> j4026824206;
+	j1329301244 [label="+10 Chemistry",color=orange];
+		j1329301244 -> j4031320816;
+	j4073632194 [label="Sí, claro, com todo esse tempo livre que tenho, vou sim 
 Não é como se eu não tivesse que costurar o pessoal do Hexa 
 Ou todos os civis desmembrados por aí",shape=box,color=blue];
-		127 -> 132;
-	128 [label="Update boolean LettieRatsAsked",color=orange];
-		128 -> 135;
-	126 [label="Gracias 
+		j4073632194 -> j3551064085;
+	j4026824206 [label="Boolean LettieRatsAsked is now true.",color=orange];
+		j4026824206 -> j3885043746;
+	j4031320816 [label="Gracias 
 Te devo uma 
 Um pequeno favor",shape=box,color=blue];
-		126 -> 130;
-	132 [label="Gracias por nada, babas",shape=box,color=blue];
-		132 -> 134;
-	135 [label="Me diz você, o que acha?",shape=box,color=blue];
-		135 -> 136;
-		135 -> 137;
-	130 [label="Update boolean LettieSmallFavor",color=orange];
-		130 -> 131;
-	134 [label="Chat ends.",color=orange];
-	136 [label="Hã?",shape=box,color=red];
-		136 -> 138;
-	137 [label="Não tô gostando do rumo desse papo [Encerrar Conversa]",shape=box,color=red];
-		137 -> 139;
-	131 [label="Chat ends.",color=orange];
-	138 [label="Quero saber por que você acha que gosto de ratos 
+		j4031320816 -> j2570747018;
+	j3551064085 [label="Gracias por nada, babas",shape=box,color=blue];
+		j3551064085 -> "Chat ends.";
+	j3885043746 [label="Me diz você, o que acha?",shape=box,color=blue];
+		j3885043746 -> j1177445086;
+		j3885043746 -> j593813598;
+	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j2570747018 -> "Chat ends.";
+	j1177445086 [label="Hã?",shape=box,color=red];
+		j1177445086 -> j2051593171;
+	j593813598 [label="Não tô gostando do rumo desse papo [Encerrar Conversa]",shape=box,color=red];
+		j593813598 -> j2365690676;
+	j2051593171 [label="Quero saber por que você acha que gosto de ratos 
 Vamos lá, me conta",shape=box,color=blue];
-		138 -> 143;
-		138 -> 142;
-		138 -> 141;
-	139 [label="Tú te lo pierdes",shape=box,color=blue];
-		139 -> 140;
-	143 [label="Por que são inteligentes, carinhosos e brincalhões?",shape=box,color=red];
-		143 -> 146;
-	142 [label="Por que são seres negligenciados e incompreendidos?",shape=box,color=red];
-		142 -> 146;
-	141 [label="Lê, sinceramente, não entendo nada sobre você, mas acho os ratos super fofinhos",shape=box,color=red];
-		141 -> 148;
-	140 [label="Chat ends.",color=orange];
-	146 [label="Ay, Lua, sálvame 
+		j2051593171 -> j2803480794;
+		j2051593171 -> j2247989124;
+		j2051593171 -> j1112805791;
+	j2365690676 [label="Tú te lo pierdes",shape=box,color=blue];
+		j2365690676 -> "Chat ends.";
+	j2803480794 [label="Por que são inteligentes, carinhosos e brincalhões?",shape=box,color=red];
+		j2803480794 -> j3724703812;
+	j2247989124 [label="Por que são seres negligenciados e incompreendidos?",shape=box,color=red];
+		j2247989124 -> j3724703812;
+	j1112805791 [label="Lê, sinceramente, não entendo nada sobre você, mas acho os ratos super fofinhos",shape=box,color=red];
+		j1112805791 -> j3134549726;
+	j3724703812 [label="Ay, Lua, sálvame 
 Errou feio, errou rude",shape=box,color=blue];
-		146 -> 150;
-	148 [label="JAJAJA!",shape=box,color=blue];
-		148 -> 144;
-	150 [label="Não cresci com muito dinheiro quando era criança 
+		j3724703812 -> j146598391;
+	j3134549726 [label="JAJAJA!",shape=box,color=blue];
+		j3134549726 -> j3970580445;
+	j146598391 [label="Não cresci com muito dinheiro quando era criança 
 Não era uma vizinhança tão ruim assim 
 Mas também não era flor que se cheire 
 Ratos eram fáceis de manter, e minha mãe não ligava pra eles",shape=box,color=blue];
-		150 -> 151;
-	144 [label="+5 Chemistry",color=orange];
-		144 -> 149;
-	151 [label="Update boolean LettieRats1",color=orange];
-		151 -> 153;
-	149 [label="Quem diria, a pessoa que salvou a todos nós também é humilde 
+		j146598391 -> j538150627;
+	j3970580445 [label="+5 Chemistry",color=orange];
+		j3970580445 -> j3540999971;
+	j538150627 [label="Boolean LettieRats1 is now true.",color=orange];
+		j538150627 -> j175094882;
+	j3540999971 [label="Quem diria, a pessoa que salvou a todos nós também é humilde 
 Gostei",shape=box,color=blue];
-		149 -> 150;
-	153 [label="Você pode arrumar essas bandagens pra mim?",shape=box,color=blue];
-		153 -> 152;
-		153 -> 145;
-	152 [label="Claro, vou ver o que acho por aí",shape=box,color=red];
-		152 -> 155;
-	145 [label="Se foi sua rata que roeu, você que se vire",shape=box,color=red];
-		145 -> 158;
-	155 [label="+10 Chemistry",color=orange];
-		155 -> 154;
-	158 [label="Sí, claro, com todo esse tempo livre que tenho, vou sim 
-Não é como se eu não tivesse que costurar o pessoal do Hexa 
-Ou todos os civis desmembrados por aí",shape=box,color=blue];
-		158 -> 159;
-	154 [label="Gracias 
-Te devo uma 
-Um pequeno favor",shape=box,color=blue];
-		154 -> 156;
-	159 [label="Gracias por nada, babas",shape=box,color=blue];
-		159 -> 133;
-	156 [label="Update boolean LettieSmallFavor",color=orange];
-		156 -> 157;
-	133 [label="Chat ends.",color=orange];
-	157 [label="Chat ends.",color=orange];
+		j3540999971 -> j146598391;
+	j175094882 [label="Você pode arrumar essas bandagens pra mim?",shape=box,color=blue];
+		j175094882 -> j2154650829;
+		j175094882 -> j4026908713;
+	j2154650829 [label="Claro, vou ver o que acho por aí",shape=box,color=red];
+		j2154650829 -> j1329301244;
+	j4026908713 [label="Se foi sua rata que roeu, você que se vire",shape=box,color=red];
+		j4026908713 -> j4073632194;
 }

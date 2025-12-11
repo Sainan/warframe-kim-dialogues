@@ -1,21 +1,16 @@
 digraph {
-	3192 [label="ArthurBirthdayConvo3 begins.",color=orange];
-		3192 -> 3210;
-		3192 -> 3212;
-	3210 [label="Hi. Just wanted to say happy birthday. Glad I was here to see it.",shape=box,color=red];
-		3210 -> 3211;
-	3212 [label="Happy Birthday. Try extra hard not to die today. It'd ruin the vibe.",shape=box,color=red];
-		3212 -> 3207;
-	3211 [label="+20 Chemistry",color=orange];
-		3211 -> 3209;
-	3207 [label="Look, I know you’ve been through a lot yourself, but there’s a time and a place for gallows humour.",shape=box,color=blue];
-		3207 -> 3000;
-	3209 [label="We’ve had some close calls, haven’t we? Thanks for having my back, today and every other day.",shape=box,color=blue];
-		3209 -> 3225;
-	3000 [label="{\"Id\":3000,\"Incoming\":[3207],\"Outgoing\":[3208],\"GraphPos\":[-30902,-13388],\"CompletionType\":1}",color=orange];
-		3000 -> 3208;
-	3225 [label="{\"Id\":3225,\"Incoming\":[3209],\"Outgoing\":[3213],\"GraphPos\":[-30899,-13547],\"CompletionType\":1}",color=orange];
-		3225 -> 3213;
-	3208 [label="Chat ends.",color=orange];
-	3213 [label="Chat ends.",color=orange];
+	"ArthurBirthdayConvo3 begins." [color=orange];
+		"ArthurBirthdayConvo3 begins." -> j2882612193;
+		"ArthurBirthdayConvo3 begins." -> j2481334775;
+	j2882612193 [label="Hi. Just wanted to say happy birthday. Glad I was here to see it.",shape=box,color=red];
+		j2882612193 -> j1468677507;
+	j2481334775 [label="Happy Birthday. Try extra hard not to die today. It'd ruin the vibe.",shape=box,color=red];
+		j2481334775 -> j749161762;
+	j1468677507 [label="+20 Chemistry",color=orange];
+		j1468677507 -> j2017751643;
+	j749161762 [label="Look, I know you’ve been through a lot yourself, but there’s a time and a place for gallows humour.",shape=box,color=blue];
+		j749161762 -> "Chat ends.";
+	j2017751643 [label="We’ve had some close calls, haven’t we? Thanks for having my back, today and every other day.",shape=box,color=blue];
+		j2017751643 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

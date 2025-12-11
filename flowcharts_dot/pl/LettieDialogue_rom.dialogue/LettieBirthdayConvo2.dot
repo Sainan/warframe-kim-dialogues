@@ -1,24 +1,19 @@
 digraph {
-	2500 [label="LettieBirthdayConvo2 begins.",color=orange];
-		2500 -> 2513;
-		2500 -> 2507;
-	2513 [label="Wszystkiego najlepszego z okazji urodzin! Jestem pewien, że wszyscy w namiocie medycznym doceniają twoją pracę. :)",shape=box,color=red];
-		2513 -> 2511;
-	2507 [label="Wszystkiego najlepszego, Lettie! Masz dziś dzień wolny? Albo, chociaż czas by usiąść?",shape=box,color=red];
-		2507 -> 2505;
-	2511 [label="Sí
+	"LettieBirthdayConvo2 begins." [color=orange];
+		"LettieBirthdayConvo2 begins." -> j3144273446;
+		"LettieBirthdayConvo2 begins." -> j223948684;
+	j3144273446 [label="Wszystkiego najlepszego z okazji urodzin! Jestem pewien, że wszyscy w namiocie medycznym doceniają twoją pracę. :)",shape=box,color=red];
+		j3144273446 -> j2340477125;
+	j223948684 [label="Wszystkiego najlepszego, Lettie! Masz dziś dzień wolny? Albo, chociaż czas by usiąść?",shape=box,color=red];
+		j223948684 -> j4091243173;
+	j2340477125 [label="Sí
 Pewnie",shape=box,color=blue];
-		2511 -> 2518;
-	2505 [label="+20 Chemistry",color=orange];
-		2505 -> 2502;
-	2518 [label="{\"Id\":2518,\"Incoming\":[2511],\"Outgoing\":[2515],\"GraphPos\":[771,-1070],\"CompletionType\":1}",color=orange];
-		2518 -> 2515;
-	2502 [label="Hah!
+		j2340477125 -> "Chat ends.";
+	j4091243173 [label="+20 Chemistry",color=orange];
+		j4091243173 -> j1078059094;
+	"Chat ends." [color=orange];
+	j1078059094 [label="Hah!
 Chciałabym
 Kończę wcześniej. Wystarczająco dobre dla mnie.",shape=box,color=blue];
-		2502 -> 2519;
-	2515 [label="Chat ends.",color=orange];
-	2519 [label="{\"Id\":2519,\"Incoming\":[2502],\"Outgoing\":[2506],\"GraphPos\":[1153,-1288],\"CompletionType\":1}",color=orange];
-		2519 -> 2506;
-	2506 [label="Chat ends.",color=orange];
+		j1078059094 -> "Chat ends.";
 }

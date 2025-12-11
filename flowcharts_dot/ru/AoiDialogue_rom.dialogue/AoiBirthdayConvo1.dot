@@ -1,21 +1,16 @@
 digraph {
-	3789 [label="AoiBirthdayConvo1 begins.",color=orange];
-		3789 -> 3792;
-		3789 -> 3793;
-	3792 [label="С Днем Рождения, Аои!",shape=box,color=red];
-		3792 -> 3794;
-	3793 [label="Привет, Аои. С днем рождения. (Я знаю, что ты всегда счастлива, так что это немного бессмысленно.)",shape=box,color=red];
-		3793 -> 3797;
-	3794 [label="+20 Chemistry",color=orange];
-		3794 -> 3795;
-	3797 [label="Я не такая, и это не так, но все равно спасибо",shape=box,color=blue];
-		3797 -> 3829;
-	3795 [label="боже, ты вспомнил? <RETRO_EMOJI_HAPPY1> спасибоооо!",shape=box,color=blue];
-		3795 -> 3828;
-	3829 [label="{\"Id\":3829,\"Incoming\":[3797],\"Outgoing\":[3798],\"GraphPos\":[775,-2998],\"CompletionType\":1}",color=orange];
-		3829 -> 3798;
-	3828 [label="{\"Id\":3828,\"Incoming\":[3795],\"Outgoing\":[3796],\"GraphPos\":[1142,-3226],\"CompletionType\":1}",color=orange];
-		3828 -> 3796;
-	3798 [label="Chat ends.",color=orange];
-	3796 [label="Chat ends.",color=orange];
+	"AoiBirthdayConvo1 begins." [color=orange];
+		"AoiBirthdayConvo1 begins." -> j1076293046;
+		"AoiBirthdayConvo1 begins." -> j4021094957;
+	j1076293046 [label="С Днем Рождения, Аои!",shape=box,color=red];
+		j1076293046 -> j2122331824;
+	j4021094957 [label="Привет, Аои. С днем рождения. (Я знаю, что ты всегда счастлива, так что это немного бессмысленно.)",shape=box,color=red];
+		j4021094957 -> j2310518043;
+	j2122331824 [label="+20 Chemistry",color=orange];
+		j2122331824 -> j3117513290;
+	j2310518043 [label="Я не такая, и это не так, но все равно спасибо",shape=box,color=blue];
+		j2310518043 -> "Chat ends.";
+	j3117513290 [label="боже, ты вспомнил? <RETRO_EMOJI_HAPPY1> спасибоооо!",shape=box,color=blue];
+		j3117513290 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

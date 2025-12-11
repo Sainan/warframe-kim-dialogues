@@ -1,21 +1,16 @@
 digraph {
-	3190 [label="ArthurBirthdayConvo1 begins.",color=orange];
-		3190 -> 3193;
-		3190 -> 3194;
-	3193 [label="Yoğun olduğunu biliyorum, sadece doğum günün kutlu olsun demek istemiştim. :)",shape=box,color=red];
-		3193 -> 3195;
-	3194 [label="Doğum günün kutlu olsun! (\"Kutlu\" ne demek biliyorsun, değil mi?)",shape=box,color=red];
-		3194 -> 3198;
-	3195 [label="+20 Chemistry",color=orange];
-		3195 -> 3196;
-	3198 [label="Evet. \"Komik\" olmanın ne demek olduğunu biliyor musun?",shape=box,color=blue];
-		3198 -> 3222;
-	3196 [label="Doğum günü tebriklerine her zaman açığım dostum. Teşekkür ederim.",shape=box,color=blue];
-		3196 -> 3221;
-	3222 [label="{\"Id\":3222,\"Incoming\":[3198],\"Outgoing\":[3199],\"GraphPos\":[-30892,-14264],\"CompletionType\":1}",color=orange];
-		3222 -> 3199;
-	3221 [label="{\"Id\":3221,\"Incoming\":[3196],\"Outgoing\":[3197],\"GraphPos\":[-30889,-14423],\"CompletionType\":1}",color=orange];
-		3221 -> 3197;
-	3199 [label="Chat ends.",color=orange];
-	3197 [label="Chat ends.",color=orange];
+	"ArthurBirthdayConvo1 begins." [color=orange];
+		"ArthurBirthdayConvo1 begins." -> j552346981;
+		"ArthurBirthdayConvo1 begins." -> j3422782895;
+	j552346981 [label="Yoğun olduğunu biliyorum, sadece doğum günün kutlu olsun demek istemiştim. :)",shape=box,color=red];
+		j552346981 -> j2279088360;
+	j3422782895 [label="Doğum günün kutlu olsun! (\"Kutlu\" ne demek biliyorsun, değil mi?)",shape=box,color=red];
+		j3422782895 -> j1973388303;
+	j2279088360 [label="+20 Chemistry",color=orange];
+		j2279088360 -> j2437557374;
+	j1973388303 [label="Evet. \"Komik\" olmanın ne demek olduğunu biliyor musun?",shape=box,color=blue];
+		j1973388303 -> "Chat ends.";
+	j2437557374 [label="Doğum günü tebriklerine her zaman açığım dostum. Teşekkür ederim.",shape=box,color=blue];
+		j2437557374 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

@@ -1,127 +1,124 @@
 digraph {
-	908 [label="LettieRank3Convo5 begins.",color=orange];
-		908 -> 909;
-		908 -> 910;
-		908 -> 911;
-	909 [label="你还撑得住吗？",shape=box,color=red];
-		909 -> 913;
-	910 [label="市民那边情况如何？",shape=box,color=red];
-		910 -> 914;
-	911 [label="[无视]",shape=box,color=red];
-		911 -> 912;
-	913 [label="嗯？ 
+	"LettieRank3Convo5 begins." [color=orange];
+		"LettieRank3Convo5 begins." -> j681843054;
+		"LettieRank3Convo5 begins." -> j3220729405;
+		"LettieRank3Convo5 begins." -> j2424094220;
+	j681843054 [label="你还撑得住吗？",shape=box,color=red];
+		j681843054 -> j2053423469;
+	j3220729405 [label="市民那边情况如何？",shape=box,color=red];
+		j3220729405 -> j2751221982;
+	j2424094220 [label="[无视]",shape=box,color=red];
+		j2424094220 -> "Chat ends.";
+	j2053423469 [label="嗯？ 
 忙得跟旋转门似的 jajaja",shape=box,color=blue];
-		913 -> 915;
-	914 [label="呃？ 
+		j2053423469 -> j1558966249;
+	j2751221982 [label="呃？ 
 我想还行吧 
 市民们无论在哪都一样，时间长了就习惯了",shape=box,color=blue];
-		914 -> 916;
-		914 -> 917;
-	912 [label="Chat ends.",color=orange];
-	915 [label="在遇到你之前，我觉得人们只是从我这儿经过
+		j2751221982 -> j3359651322;
+		j2751221982 -> j204553046;
+	"Chat ends." [color=orange];
+	j1558966249 [label="在遇到你之前，我觉得人们只是从我这儿经过
 我只是一个在国危部包扎伤口的面孔
 但我是这栋楼的一部分",shape=box,color=blue];
-		915 -> 918;
-	916 [label="是啊，但这肯定还是很费力劳神吧。",shape=box,color=red];
-		916 -> 919;
-	917 [label="习惯什么？",shape=box,color=red];
-		917 -> 920;
-	918 [label="我很坚强 
+		j1558966249 -> j363549944;
+	j3359651322 [label="是啊，但这肯定还是很费力劳神吧。",shape=box,color=red];
+		j3359651322 -> j20133366;
+	j204553046 [label="习惯什么？",shape=box,color=red];
+		j204553046 -> j3123791756;
+	j363549944 [label="我很坚强 
 我哪也不去 
 Pero……Estoy muerta 
 有时候感觉全世界的咖啡都不够喝，¿no?",shape=box,color=blue];
-		918 -> 921;
-		918 -> 922;
-	919 [label="Sí，你根本无法想象 
+		j363549944 -> j3660000534;
+		j363549944 -> j3679177340;
+	j20133366 [label="Sí，你根本无法想象 
 有时候全世界的咖啡似乎都不够喝，¿no? 
 Pero，soy dura de roer 
 我哪也不去",shape=box,color=blue];
-		919 -> 921;
-		919 -> 922;
-	920 [label="他们空洞的眼神和麻木的痛苦 
+		j20133366 -> j3660000534;
+		j20133366 -> j3679177340;
+	j3123791756 [label="他们空洞的眼神和麻木的痛苦 
 对他们来说，我只是国危部帐篷里包扎伤口的一个面孔 
 我感觉人们就像穿过旋转门一样从我这里经过 
  这还是在你把它变成字面意思之前 jajaja",shape=box,color=blue];
-		920 -> 923;
-	921 [label="你就算再坚强，也并不意味着我不能关心你。",shape=box,color=red];
-		921 -> 927;
-	922 [label="是啊，不过能一直喝咖啡也没什么不好。哈哈",shape=box,color=red];
-		922 -> 928;
-	923 [label="Check boolean LettieNoFlirt",color=orange];
-		923 -> 924 [label=true,color=green];
-		923 -> 925 [label=true,color=green];
-		923 -> 924 [label=false,color=brown];
-		923 -> 925 [label=false,color=brown];
-		923 -> 926 [label=false,color=brown];
-	927 [label="Sí，
+		j3123791756 -> j3050599071;
+	j3660000534 [label="你就算再坚强，也并不意味着我不能关心你。",shape=box,color=red];
+		j3660000534 -> j1636267490;
+	j3679177340 [label="是啊，不过能一直喝咖啡也没什么不好。哈哈",shape=box,color=red];
+		j3679177340 -> j2668307525;
+	j3050599071 [label="Check boolean LettieNoFlirt",color=orange];
+		j3050599071 -> j532032527 [label=true,color=green];
+		j3050599071 -> j3619302834 [label=true,color=green];
+		j3050599071 -> j532032527 [label=false,color=brown];
+		j3050599071 -> j3619302834 [label=false,color=brown];
+		j3050599071 -> j3393814500 [label=false,color=brown];
+	j1636267490 [label="Sí，
 知道有人支持我就足够了
 亚瑟就是这样的人 
 不会像碧那样到处跟着，假装是我老妈 
 只是递给我一杯咖啡，问我你好吗？",shape=box,color=blue];
-		927 -> 933;
-	928 [label="Jajaja，确实没有 
+		j1636267490 -> j3093869317;
+	j2668307525 [label="Jajaja，确实没有 
 亚瑟就是这样的人 
 不会像碧那样到处跟着，假装是 mi mamá 
 只是递给我一杯咖啡，问我你好吗？",shape=box,color=blue];
-		928 -> 933;
-	924 [label="我的意思是，你对刚失去一切的人们还能抱有什么期待呢？",shape=box,color=red];
-		924 -> 929;
-	925 [label="我能理解为什么时间久了，所有人似乎都变得模糊。",shape=box,color=red];
-		925 -> 937;
-	926 [label="至少你是一扇非常性感的门。:P",shape=box,color=red];
-		926 -> 2464;
-	933 [label="Update boolean LettieShoulder",color=orange];
-		933 -> 944;
-	929 [label="不是他们的错 
+		j2668307525 -> j3093869317;
+	j532032527 [label="我的意思是，你对刚失去一切的人们还能抱有什么期待呢？",shape=box,color=red];
+		j532032527 -> j3379256898;
+	j3619302834 [label="我能理解为什么时间久了，所有人似乎都变得模糊。",shape=box,color=red];
+		j3619302834 -> j848601567;
+	j3393814500 [label="至少你是一扇非常性感的门。:P",shape=box,color=red];
+		j3393814500 -> j1272848243;
+	j3093869317 [label="Boolean LettieShoulder is now true.",color=orange];
+		j3093869317 -> j90083195;
+	j3379256898 [label="不是他们的错 
 也不是我的错，babas 
 只是厌倦了这一切",shape=box,color=blue];
-		929 -> 934;
-	937 [label="+10 Chemistry",color=orange];
-		937 -> 930;
-	2464 [label="+20 Chemistry",color=orange];
-		2464 -> 931;
-	944 [label="+20 Chemistry",color=orange];
-		944 -> 932;
-	934 [label="Hablando de 
+		j3379256898 -> j1427573771;
+	j848601567 [label="+10 Chemistry",color=orange];
+		j848601567 -> j474301045;
+	j1272848243 [label="+20 Chemistry",color=orange];
+		j1272848243 -> j2140257398;
+	j90083195 [label="+20 Chemistry",color=orange];
+		j90083195 -> j296719303;
+	j1427573771 [label="Hablando de 
 回去工作吧",shape=box,color=blue];
-		934 -> 938;
-	930 [label="Sí，这不是他们的错，总是有更多的人涌来 
+		j1427573771 -> "Chat ends.";
+	j474301045 [label="Sí，这不是他们的错，总是有更多的人涌来 
 以前总觉得这会没完没了
 现在我知道这确实会没完没了 
 月神啊，sálvame",shape=box,color=blue];
-		930 -> 935;
-	931 [label="JAJA 
+		j474301045 -> j2817414872;
+	j2140257398 [label="JAJA 
 哦，babas，你真会逗女生开心 
 把这句话刻在我的墓碑上吧 
 “Aquí yace la puerta más sexy que hayas visto。”",shape=box,color=blue];
-		931 -> 936;
-	932 [label="babas，我喜欢这个问题 
+		j2140257398 -> j567030598;
+	j296719303 [label="babas，我喜欢这个问题 
 继续问吧 
 偶尔我可能需要这样的关心 
 再来一两杯咖啡也无妨",shape=box,color=blue];
-		932 -> 940;
-	938 [label="Chat ends.",color=orange];
-	935 [label="Hablando de 
+		j296719303 -> j3637400474;
+	j2817414872 [label="Hablando de 
 回去工作吧 
 谢谢你分散了我的注意力",shape=box,color=blue];
-		935 -> 939;
-	936 [label="Gracias por hacerme reír，babas 
+		j2817414872 -> "Chat ends.";
+	j567030598 [label="Gracias por hacerme reír，babas 
 我真的需要这个",shape=box,color=blue];
-		936 -> 945;
-	940 [label="Check boolean LettieNoFlirt",color=orange];
-		940 -> 941 [label=true,color=green];
-		940 -> 943 [label=true,color=green];
-		940 -> 942 [label=false,color=brown];
-		940 -> 943 [label=false,color=brown];
-	939 [label="Chat ends.",color=orange];
-	945 [label="那我们回去工作，¿no? 
+		j567030598 -> j4269965577;
+	j3637400474 [label="Check boolean LettieNoFlirt",color=orange];
+		j3637400474 -> j318648935 [label=true,color=green];
+		j3637400474 -> j3929436053 [label=true,color=green];
+		j3637400474 -> j2247888564 [label=false,color=brown];
+		j3637400474 -> j3929436053 [label=false,color=brown];
+	j4269965577 [label="那我们回去工作，¿no? 
 我们俩都忙得没空闲聊",shape=box,color=blue];
-		945 -> 946;
-	941 [label="没问题。",shape=box,color=red];
-		941 -> 945;
-	943 [label="我想想办法。",shape=box,color=red];
-		943 -> 945;
-	942 [label="没问题。<3",shape=box,color=red];
-		942 -> 945;
-	946 [label="Chat ends.",color=orange];
+		j4269965577 -> "Chat ends.";
+	j318648935 [label="没问题。",shape=box,color=red];
+		j318648935 -> j4269965577;
+	j3929436053 [label="我想想办法。",shape=box,color=red];
+		j3929436053 -> j4269965577;
+	j2247888564 [label="没问题。<3",shape=box,color=red];
+		j2247888564 -> j4269965577;
 }

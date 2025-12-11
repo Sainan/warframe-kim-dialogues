@@ -1,21 +1,16 @@
 digraph {
-	3580 [label="AmirBirthdayConvo3 begins.",color=orange];
-		3580 -> 3585;
-		3580 -> 3586;
-	3585 [label="Hi, Amir. Happy birthday. Bleep bloop or whatever.",shape=box,color=red];
-		3585 -> 3584;
-	3586 [label="GREETINGS AMIR CONGRATULATIONS ON THE ANNIVERSARY OF YOUR COMMENCEMENT OF EXISTENCE",shape=box,color=red];
-		3586 -> 3587;
-	3584 [label="amir is not here right now this is a clever firewall program amir wrote to filter out insincere birthday wishes oh look there’s one",shape=box,color=blue];
-		3584 -> 3598;
-	3587 [label="+20 Chemistry",color=orange];
-		3587 -> 3583;
-	3598 [label="{\"Id\":3598,\"Incoming\":[3584],\"Outgoing\":[3581],\"GraphPos\":[-14748,-20693],\"CompletionType\":1}",color=orange];
-		3598 -> 3581;
-	3583 [label="CULTURALLY APPROPRIATE STATEMENT OF PROFOUND THANKS AND FOND APPRECIATION",shape=box,color=blue];
-		3583 -> 3599;
-	3581 [label="Chat ends.",color=orange];
-	3599 [label="{\"Id\":3599,\"Incoming\":[3583],\"Outgoing\":[3582],\"GraphPos\":[-14347,-20820],\"CompletionType\":1}",color=orange];
-		3599 -> 3582;
-	3582 [label="Chat ends.",color=orange];
+	"AmirBirthdayConvo3 begins." [color=orange];
+		"AmirBirthdayConvo3 begins." -> j487224122;
+		"AmirBirthdayConvo3 begins." -> j611933380;
+	j487224122 [label="Hi, Amir. Happy birthday. Bleep bloop or whatever.",shape=box,color=red];
+		j487224122 -> j1279694539;
+	j611933380 [label="GREETINGS AMIR CONGRATULATIONS ON THE ANNIVERSARY OF YOUR COMMENCEMENT OF EXISTENCE",shape=box,color=red];
+		j611933380 -> j490817805;
+	j1279694539 [label="amir is not here right now this is a clever firewall program amir wrote to filter out insincere birthday wishes oh look there’s one",shape=box,color=blue];
+		j1279694539 -> "Chat ends.";
+	j490817805 [label="+20 Chemistry",color=orange];
+		j490817805 -> j3336070013;
+	"Chat ends." [color=orange];
+	j3336070013 [label="CULTURALLY APPROPRIATE STATEMENT OF PROFOUND THANKS AND FOND APPRECIATION",shape=box,color=blue];
+		j3336070013 -> "Chat ends.";
 }

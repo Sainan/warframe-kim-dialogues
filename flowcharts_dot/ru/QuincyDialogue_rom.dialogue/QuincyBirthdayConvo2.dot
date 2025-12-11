@@ -1,21 +1,16 @@
 digraph {
-	3533 [label="QuincyBirthdayConvo2 begins.",color=orange];
-		3533 -> 3543;
-		3533 -> 3546;
-	3543 [label="Эй, Куинси! я уговорил Артура дать тебе выходной в честь твоего дня рождения.",shape=box,color=red];
-		3543 -> 3544;
-	3546 [label="Удачной смены сегодня в твой день рождения, Куинси.",shape=box,color=red];
-		3546 -> 3548;
-	3544 [label="+20 Chemistry",color=orange];
-		3544 -> 3542;
-	3548 [label="ага, обожаю морозить свой зад на крыше в свой д/р, спасибо",shape=box,color=blue];
-		3548 -> 3169;
-	3542 [label="вот это класс, ты лучший, бро",shape=box,color=blue];
-		3542 -> 3135;
-	3169 [label="{\"Id\":3169,\"Incoming\":[3548],\"Outgoing\":[3547],\"GraphPos\":[1150,-4494],\"CompletionType\":1}",color=orange];
-		3169 -> 3547;
-	3135 [label="{\"Id\":3135,\"Incoming\":[3542],\"Outgoing\":[3545],\"GraphPos\":[1492,-4648],\"CompletionType\":1}",color=orange];
-		3135 -> 3545;
-	3547 [label="Chat ends.",color=orange];
-	3545 [label="Chat ends.",color=orange];
+	"QuincyBirthdayConvo2 begins." [color=orange];
+		"QuincyBirthdayConvo2 begins." -> j4010372272;
+		"QuincyBirthdayConvo2 begins." -> j3678419253;
+	j4010372272 [label="Эй, Куинси! я уговорил Артура дать тебе выходной в честь твоего дня рождения.",shape=box,color=red];
+		j4010372272 -> j502441550;
+	j3678419253 [label="Удачной смены сегодня в твой день рождения, Куинси.",shape=box,color=red];
+		j3678419253 -> j3832209019;
+	j502441550 [label="+20 Chemistry",color=orange];
+		j502441550 -> j2142563338;
+	j3832209019 [label="ага, обожаю морозить свой зад на крыше в свой д/р, спасибо",shape=box,color=blue];
+		j3832209019 -> "Chat ends.";
+	j2142563338 [label="вот это класс, ты лучший, бро",shape=box,color=blue];
+		j2142563338 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

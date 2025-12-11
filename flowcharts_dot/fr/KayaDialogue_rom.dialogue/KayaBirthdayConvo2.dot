@@ -1,17 +1,16 @@
 digraph {
-	992 [label="KayaBirthdayConvo2 begins.",color=orange];
-		992 -> 1001;
-		992 -> 1002;
-	1001 [label="Joyeux anniversaire, Kaya. Tu prévois la \"fête de ta vie\", aujourd'hui? Des ballons? Des banderoles? Tout le toutim?",shape=box,color=red];
-		1001 -> 991;
-	1002 [label="Des projets pour ton anniversaire, aujourd’hui?",shape=box,color=red];
-		1002 -> 1008;
-	991 [label="Beurk, non. Je ne me ferai pas prendre avec ces trucs de gamine.",shape=box,color=blue];
-		991 -> 990;
-	1008 [label="+20 Chemistry",color=orange];
-		1008 -> 1009;
-	990 [label="Chat ends.",color=orange];
-	1009 [label="en fait oui. Lettie va me montrer comment disséquer un cadavre. C'est cool, non?!",shape=box,color=blue];
-		1009 -> 1010;
-	1010 [label="Chat ends.",color=orange];
+	"KayaBirthdayConvo2 begins." [color=orange];
+		"KayaBirthdayConvo2 begins." -> j1486959930;
+		"KayaBirthdayConvo2 begins." -> j2314272696;
+	j1486959930 [label="Joyeux anniversaire, Kaya. Tu prévois la \"fête de ta vie\", aujourd'hui? Des ballons? Des banderoles? Tout le toutim?",shape=box,color=red];
+		j1486959930 -> j392239750;
+	j2314272696 [label="Des projets pour ton anniversaire, aujourd’hui?",shape=box,color=red];
+		j2314272696 -> j3290663834;
+	j392239750 [label="Beurk, non. Je ne me ferai pas prendre avec ces trucs de gamine.",shape=box,color=blue];
+		j392239750 -> "Chat ends.";
+	j3290663834 [label="+20 Chemistry",color=orange];
+		j3290663834 -> j543246361;
+	"Chat ends." [color=orange];
+	j543246361 [label="en fait oui. Lettie va me montrer comment disséquer un cadavre. C'est cool, non?!",shape=box,color=blue];
+		j543246361 -> "Chat ends.";
 }

@@ -1,21 +1,16 @@
 digraph {
-	3192 [label="ArthurBirthdayConvo3 begins.",color=orange];
-		3192 -> 3210;
-		3192 -> 3212;
-	3210 [label="Cześć. Chciałem tylko złożyć życzenia urodzinowe. Cieszę się, że byłem tu, by to zobaczyć.",shape=box,color=red];
-		3210 -> 3211;
-	3212 [label="Wszystkiego najlepszego z okazji urodzin. Postaraj się dzisiaj nie umrzeć. Zniszczyłoby to klimat.",shape=box,color=red];
-		3212 -> 3207;
-	3211 [label="+20 Chemistry",color=orange];
-		3211 -> 3209;
-	3207 [label="Słuchaj, wiem, że sam wiele przeszedłeś, ale na czarny humor jest czas i miejsce.",shape=box,color=blue];
-		3207 -> 3000;
-	3209 [label="Kilka razy otarliśmy się o tragedię, prawda? Dzięki za wsparcie dziś i każdego innego dnia.",shape=box,color=blue];
-		3209 -> 3225;
-	3000 [label="{\"Id\":3000,\"Incoming\":[3207],\"Outgoing\":[3208],\"GraphPos\":[-30902,-13388],\"CompletionType\":1}",color=orange];
-		3000 -> 3208;
-	3225 [label="{\"Id\":3225,\"Incoming\":[3209],\"Outgoing\":[3213],\"GraphPos\":[-30899,-13547],\"CompletionType\":1}",color=orange];
-		3225 -> 3213;
-	3208 [label="Chat ends.",color=orange];
-	3213 [label="Chat ends.",color=orange];
+	"ArthurBirthdayConvo3 begins." [color=orange];
+		"ArthurBirthdayConvo3 begins." -> j2818824619;
+		"ArthurBirthdayConvo3 begins." -> j1934280150;
+	j2818824619 [label="Cześć. Chciałem tylko złożyć życzenia urodzinowe. Cieszę się, że byłem tu, by to zobaczyć.",shape=box,color=red];
+		j2818824619 -> j32186610;
+	j1934280150 [label="Wszystkiego najlepszego z okazji urodzin. Postaraj się dzisiaj nie umrzeć. Zniszczyłoby to klimat.",shape=box,color=red];
+		j1934280150 -> j781320448;
+	j32186610 [label="+20 Chemistry",color=orange];
+		j32186610 -> j1011252280;
+	j781320448 [label="Słuchaj, wiem, że sam wiele przeszedłeś, ale na czarny humor jest czas i miejsce.",shape=box,color=blue];
+		j781320448 -> "Chat ends.";
+	j1011252280 [label="Kilka razy otarliśmy się o tragedię, prawda? Dzięki za wsparcie dziś i każdego innego dnia.",shape=box,color=blue];
+		j1011252280 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

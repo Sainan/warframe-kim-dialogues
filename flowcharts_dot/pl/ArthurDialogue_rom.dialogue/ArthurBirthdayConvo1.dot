@@ -1,21 +1,16 @@
 digraph {
-	3190 [label="ArthurBirthdayConvo1 begins.",color=orange];
-		3190 -> 3193;
-		3190 -> 3194;
-	3193 [label="Wiem, że jesteś zajęty, ale chciałem Ci po prostu złożyć życzenia urodzinowe. :)",shape=box,color=red];
-		3193 -> 3195;
-	3194 [label="Wszystkiego najlepszego z okazji urodzin! (Wiesz co to znaczy być \"szczęśliwym\", prawda?)",shape=box,color=red];
-		3194 -> 3198;
-	3195 [label="+20 Chemistry",color=orange];
-		3195 -> 3196;
-	3198 [label="Tak. Wiesz co to znaczy być \"śmiesznym\"?",shape=box,color=blue];
-		3198 -> 3222;
-	3196 [label="Nigdy nie jest się zbyt zajętym, by złożyć życzenia urodzinowe, brachu. Doceniam to.",shape=box,color=blue];
-		3196 -> 3221;
-	3222 [label="{\"Id\":3222,\"Incoming\":[3198],\"Outgoing\":[3199],\"GraphPos\":[-30892,-14264],\"CompletionType\":1}",color=orange];
-		3222 -> 3199;
-	3221 [label="{\"Id\":3221,\"Incoming\":[3196],\"Outgoing\":[3197],\"GraphPos\":[-30889,-14423],\"CompletionType\":1}",color=orange];
-		3221 -> 3197;
-	3199 [label="Chat ends.",color=orange];
-	3197 [label="Chat ends.",color=orange];
+	"ArthurBirthdayConvo1 begins." [color=orange];
+		"ArthurBirthdayConvo1 begins." -> j2544974232;
+		"ArthurBirthdayConvo1 begins." -> j3275545546;
+	j2544974232 [label="Wiem, że jesteś zajęty, ale chciałem Ci po prostu złożyć życzenia urodzinowe. :)",shape=box,color=red];
+		j2544974232 -> j3879643708;
+	j3275545546 [label="Wszystkiego najlepszego z okazji urodzin! (Wiesz co to znaczy być \"szczęśliwym\", prawda?)",shape=box,color=red];
+		j3275545546 -> j2039329574;
+	j3879643708 [label="+20 Chemistry",color=orange];
+		j3879643708 -> j3022471628;
+	j2039329574 [label="Tak. Wiesz co to znaczy być \"śmiesznym\"?",shape=box,color=blue];
+		j2039329574 -> "Chat ends.";
+	j3022471628 [label="Nigdy nie jest się zbyt zajętym, by złożyć życzenia urodzinowe, brachu. Doceniam to.",shape=box,color=blue];
+		j3022471628 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

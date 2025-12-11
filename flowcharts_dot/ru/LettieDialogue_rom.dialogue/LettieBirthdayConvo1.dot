@@ -1,25 +1,20 @@
 digraph {
-	458 [label="LettieBirthdayConvo1 begins.",color=orange];
-		458 -> 457;
-		458 -> 456;
-	457 [label="Эй! С Днём Рождения! Твои крысы сделали тебе подарок?",shape=box,color=red];
-		457 -> 460;
-	456 [label="С Днём Рождения! Тем более, в Звёздные дни. Как романтично. :)",shape=box,color=red];
-		456 -> 1298;
-	460 [label="+20 Chemistry",color=orange];
-		460 -> 1300;
-	1298 [label="Что за звёздные дни?
+	"LettieBirthdayConvo1 begins." [color=orange];
+		"LettieBirthdayConvo1 begins." -> j692466419;
+		"LettieBirthdayConvo1 begins." -> j405151571;
+	j692466419 [label="Эй! С Днём Рождения! Твои крысы сделали тебе подарок?",shape=box,color=red];
+		j692466419 -> j591113098;
+	j405151571 [label="С Днём Рождения! Тем более, в Звёздные дни. Как романтично. :)",shape=box,color=red];
+		j405151571 -> j1602569423;
+	j591113098 [label="+20 Chemistry",color=orange];
+		j591113098 -> j3978802034;
+	j1602569423 [label="Что за звёздные дни?
 Хотя, какая разница. Слишком занята для этого дерьма. 
 Adiós",shape=box,color=blue];
-		1298 -> 2517;
-	1300 [label="Jajaja нет.
+		j1602569423 -> "Chat ends.";
+	j3978802034 [label="Jajaja нет.
 Всё, что мне нужно, это час сна или свежая чашка кофе. Это слишком много? 
 Pero, gracias",shape=box,color=blue];
-		1300 -> 2516;
-	2517 [label="{\"Id\":2517,\"Incoming\":[1298],\"Outgoing\":[1297],\"GraphPos\":[797,-1598],\"CompletionType\":1}",color=orange];
-		2517 -> 1297;
-	2516 [label="{\"Id\":2516,\"Incoming\":[1300],\"Outgoing\":[459],\"GraphPos\":[1161,-1810],\"CompletionType\":1}",color=orange];
-		2516 -> 459;
-	1297 [label="Chat ends.",color=orange];
-	459 [label="Chat ends.",color=orange];
+		j3978802034 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

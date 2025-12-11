@@ -1,19 +1,18 @@
 digraph {
-	1789 [label="MinervaBirthdayConvo3 begins.",color=orange];
-		1789 -> 1790;
-		1789 -> 1791;
-	1790 [label="Sana mutlu yıllar dilememe izin var mı? Yoksa bu gizli bilgi kapsamına mı giriyor?",shape=box,color=red];
-		1790 -> 1792;
-	1791 [label="Peki, bugün *gerçekten* doğum günün mü? Yoksa sahte kullanıcı adın ve diğer casusluk bilgileri gibi sadece sahte bir tarih mi?",shape=box,color=red];
-		1791 -> 1793;
-	1792 [label="+20 Chemistry",color=orange];
-		1792 -> 1794;
-	1793 [label="MomToxicated: Bu gizli bilgi.",shape=box,color=blue];
-		1793 -> 1795;
-	1794 [label="MomToxicated: Heh. Tabi eğer bu benim *gerçek* doğum günümse. ;) ",shape=box,color=blue];
-		1794 -> 1796;
-	1795 [label="Chat ends.",color=orange];
-	1796 [label="MomToxicated: Teşekkürler.",shape=box,color=blue];
-		1796 -> 1797;
-	1797 [label="Chat ends.",color=orange];
+	"MinervaBirthdayConvo3 begins." [color=orange];
+		"MinervaBirthdayConvo3 begins." -> j3858207928;
+		"MinervaBirthdayConvo3 begins." -> j327612844;
+	j3858207928 [label="Sana mutlu yıllar dilememe izin var mı? Yoksa bu gizli bilgi kapsamına mı giriyor?",shape=box,color=red];
+		j3858207928 -> j1068340100;
+	j327612844 [label="Peki, bugün *gerçekten* doğum günün mü? Yoksa sahte kullanıcı adın ve diğer casusluk bilgileri gibi sadece sahte bir tarih mi?",shape=box,color=red];
+		j327612844 -> j2831597475;
+	j1068340100 [label="+20 Chemistry",color=orange];
+		j1068340100 -> j119077505;
+	j2831597475 [label="MomToxicated: Bu gizli bilgi.",shape=box,color=blue];
+		j2831597475 -> "Chat ends.";
+	j119077505 [label="MomToxicated: Heh. Tabi eğer bu benim *gerçek* doğum günümse. ;) ",shape=box,color=blue];
+		j119077505 -> j1633635334;
+	"Chat ends." [color=orange];
+	j1633635334 [label="MomToxicated: Teşekkürler.",shape=box,color=blue];
+		j1633635334 -> "Chat ends.";
 }

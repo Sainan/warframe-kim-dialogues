@@ -1,17 +1,16 @@
 digraph {
-	992 [label="KayaBirthdayConvo2 begins.",color=orange];
-		992 -> 1001;
-		992 -> 1002;
-	1001 [label="생일 축하해, 카야. 오늘 \"일생 일대의 파티\"를 계획 중이야? 풍선? 리본 장식들? 전부 말이야.",shape=box,color=red];
-		1001 -> 991;
-	1002 [label="오늘 생일인데 정해놓은 계획 같은 거 있어?",shape=box,color=red];
-		1002 -> 1008;
-	991 [label="어으. 으윽. 아니. 그런 꼬맹이들 놀이 같은 거 절대로 안 할거야.",shape=box,color=blue];
-		991 -> 990;
-	1008 [label="+20 Chemistry",color=orange];
-		1008 -> 1009;
-	990 [label="Chat ends.",color=orange];
-	1009 [label="사실 있어. 레티가 시체를 해부하는 걸 보여줄 거래, 완전 멋지지 않아?!",shape=box,color=blue];
-		1009 -> 1010;
-	1010 [label="Chat ends.",color=orange];
+	"KayaBirthdayConvo2 begins." [color=orange];
+		"KayaBirthdayConvo2 begins." -> j1919291064;
+		"KayaBirthdayConvo2 begins." -> j3717160058;
+	j1919291064 [label="생일 축하해, 카야. 오늘 \"일생 일대의 파티\"를 계획 중이야? 풍선? 리본 장식들? 전부 말이야.",shape=box,color=red];
+		j1919291064 -> j1093101800;
+	j3717160058 [label="오늘 생일인데 정해놓은 계획 같은 거 있어?",shape=box,color=red];
+		j3717160058 -> j3019061472;
+	j1093101800 [label="어으. 으윽. 아니. 그런 꼬맹이들 놀이 같은 거 절대로 안 할거야.",shape=box,color=blue];
+		j1093101800 -> "Chat ends.";
+	j3019061472 [label="+20 Chemistry",color=orange];
+		j3019061472 -> j1088672046;
+	"Chat ends." [color=orange];
+	j1088672046 [label="사실 있어. 레티가 시체를 해부하는 걸 보여줄 거래, 완전 멋지지 않아?!",shape=box,color=blue];
+		j1088672046 -> "Chat ends.";
 }

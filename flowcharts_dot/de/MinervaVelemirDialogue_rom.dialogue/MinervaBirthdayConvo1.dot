@@ -1,19 +1,18 @@
 digraph {
-	1768 [label="MinervaBirthdayConvo1 begins.",color=orange];
-		1768 -> 1769;
-		1768 -> 1770;
-	1769 [label="Machst du heute etwas Besonderes? ",shape=box,color=red];
-		1769 -> 1771;
-	1770 [label="Herzlichen Glückwunsch zum Geburtstag!! Du musst aufgeregt sein.",shape=box,color=red];
-		1770 -> 1772;
-	1771 [label="MomToxicated: Eleanor und die anderen Damen haben mir eine \"Nacht versprochen, die ich definitiv vergessen werde\".",shape=box,color=blue];
-		1771 -> 1773;
-	1772 [label="MomToxicated: Ab einem bestimmten Zeitpunkt sind Geburtstage nicht mehr aufregend, aber ich begrüße deinen Optimismus.",shape=box,color=blue];
-		1772 -> 1774;
-	1773 [label="+20 Chemistry",color=orange];
-		1773 -> 1775;
-	1774 [label="Chat ends.",color=orange];
-	1775 [label="MomToxicated: Und ich könnte nicht aufgeregter sein.",shape=box,color=blue];
-		1775 -> 1776;
-	1776 [label="Chat ends.",color=orange];
+	"MinervaBirthdayConvo1 begins." [color=orange];
+		"MinervaBirthdayConvo1 begins." -> j4245702171;
+		"MinervaBirthdayConvo1 begins." -> j231428344;
+	j4245702171 [label="Machst du heute etwas Besonderes? ",shape=box,color=red];
+		j4245702171 -> j1780383514;
+	j231428344 [label="Herzlichen Glückwunsch zum Geburtstag!! Du musst aufgeregt sein.",shape=box,color=red];
+		j231428344 -> j968895236;
+	j1780383514 [label="MomToxicated: Eleanor und die anderen Damen haben mir eine \"Nacht versprochen, die ich definitiv vergessen werde\".",shape=box,color=blue];
+		j1780383514 -> j2603576523;
+	j968895236 [label="MomToxicated: Ab einem bestimmten Zeitpunkt sind Geburtstage nicht mehr aufregend, aber ich begrüße deinen Optimismus.",shape=box,color=blue];
+		j968895236 -> "Chat ends.";
+	j2603576523 [label="+20 Chemistry",color=orange];
+		j2603576523 -> j46764266;
+	"Chat ends." [color=orange];
+	j46764266 [label="MomToxicated: Und ich könnte nicht aufgeregter sein.",shape=box,color=blue];
+		j46764266 -> "Chat ends.";
 }

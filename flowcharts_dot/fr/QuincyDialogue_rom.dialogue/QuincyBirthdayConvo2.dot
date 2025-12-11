@@ -1,21 +1,16 @@
 digraph {
-	3533 [label="QuincyBirthdayConvo2 begins.",color=orange];
-		3533 -> 3543;
-		3533 -> 3546;
-	3543 [label="Hé Quincy! J'ai convaincu Arthur de te donner une soirée de congé pour ton anniversaire.",shape=box,color=red];
-		3543 -> 3544;
-	3546 [label="Passe un bon shift pour ton anniversaire, Quincy.",shape=box,color=red];
-		3546 -> 3548;
-	3544 [label="+20 Chemistry",color=orange];
-		3544 -> 3542;
-	3548 [label="ouais, j'adore congeler mes couilles sur le toit le jour de mon anniversaire, merci",shape=box,color=blue];
-		3548 -> 3169;
-	3542 [label="nickeeeeeeel t'assures gros",shape=box,color=blue];
-		3542 -> 3135;
-	3169 [label="{\"Id\":3169,\"Incoming\":[3548],\"Outgoing\":[3547],\"GraphPos\":[1150,-4494],\"CompletionType\":1}",color=orange];
-		3169 -> 3547;
-	3135 [label="{\"Id\":3135,\"Incoming\":[3542],\"Outgoing\":[3545],\"GraphPos\":[1492,-4648],\"CompletionType\":1}",color=orange];
-		3135 -> 3545;
-	3547 [label="Chat ends.",color=orange];
-	3545 [label="Chat ends.",color=orange];
+	"QuincyBirthdayConvo2 begins." [color=orange];
+		"QuincyBirthdayConvo2 begins." -> j2352713329;
+		"QuincyBirthdayConvo2 begins." -> j3964321789;
+	j2352713329 [label="Hé Quincy! J'ai convaincu Arthur de te donner une soirée de congé pour ton anniversaire.",shape=box,color=red];
+		j2352713329 -> j816807092;
+	j3964321789 [label="Passe un bon shift pour ton anniversaire, Quincy.",shape=box,color=red];
+		j3964321789 -> j244273379;
+	j816807092 [label="+20 Chemistry",color=orange];
+		j816807092 -> j2507137401;
+	j244273379 [label="ouais, j'adore congeler mes couilles sur le toit le jour de mon anniversaire, merci",shape=box,color=blue];
+		j244273379 -> "Chat ends.";
+	j2507137401 [label="nickeeeeeeel t'assures gros",shape=box,color=blue];
+		j2507137401 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

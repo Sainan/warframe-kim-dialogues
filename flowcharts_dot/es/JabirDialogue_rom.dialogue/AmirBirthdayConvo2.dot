@@ -1,21 +1,16 @@
 digraph {
-	3572 [label="AmirBirthdayConvo2 begins.",color=orange];
-		3572 -> 3578;
-		3572 -> 3579;
-	3578 [label="Feliz cumpleaños, Amir. No te compré nada.",shape=box,color=red];
-		3578 -> 3577;
-	3579 [label="Hola, Amir. Feliz cumpleaños. ¡Espero que te lo estés pasando bien!",shape=box,color=red];
-		3579 -> 3573;
-	3577 [label="bueno, supongo que lo que cuenta es la intención... y el mínimo esfuerzo... gracias",shape=box,color=blue];
-		3577 -> 3596;
-	3573 [label="+20 Chemistry",color=orange];
-		3573 -> 3576;
-	3596 [label="{\"Id\":3596,\"Incoming\":[3577],\"Outgoing\":[3574],\"GraphPos\":[-14787,-21152],\"CompletionType\":1}",color=orange];
-		3596 -> 3574;
-	3576 [label="SÍ, LO ESTOY, ES UN DÍA HERMOSO. HE ESTADO DESPIERTO DESDE LAS 12:01. HEMOS ESTADO BEBIENDO BEBIDAS ENERGÉTICAS Y JUGANDO EN LA SALA DE JUEGOS Y AOI ME HIZO UNA SALA DE FLOOF Y VOMITÉ EN LA SALA DE FLOOF",shape=box,color=blue];
-		3576 -> 3597;
-	3574 [label="Chat ends.",color=orange];
-	3597 [label="{\"Id\":3597,\"Incoming\":[3576],\"Outgoing\":[3575],\"GraphPos\":[-14371,-21328],\"CompletionType\":1}",color=orange];
-		3597 -> 3575;
-	3575 [label="Chat ends.",color=orange];
+	"AmirBirthdayConvo2 begins." [color=orange];
+		"AmirBirthdayConvo2 begins." -> j1123380510;
+		"AmirBirthdayConvo2 begins." -> j3522743425;
+	j1123380510 [label="Feliz cumpleaños, Amir. No te compré nada.",shape=box,color=red];
+		j1123380510 -> j2896799172;
+	j3522743425 [label="Hola, Amir. Feliz cumpleaños. ¡Espero que te lo estés pasando bien!",shape=box,color=red];
+		j3522743425 -> j1996355286;
+	j2896799172 [label="bueno, supongo que lo que cuenta es la intención... y el mínimo esfuerzo... gracias",shape=box,color=blue];
+		j2896799172 -> "Chat ends.";
+	j1996355286 [label="+20 Chemistry",color=orange];
+		j1996355286 -> j2557198066;
+	"Chat ends." [color=orange];
+	j2557198066 [label="SÍ, LO ESTOY, ES UN DÍA HERMOSO. HE ESTADO DESPIERTO DESDE LAS 12:01. HEMOS ESTADO BEBIENDO BEBIDAS ENERGÉTICAS Y JUGANDO EN LA SALA DE JUEGOS Y AOI ME HIZO UNA SALA DE FLOOF Y VOMITÉ EN LA SALA DE FLOOF",shape=box,color=blue];
+		j2557198066 -> "Chat ends.";
 }

@@ -1,93 +1,90 @@
 digraph {
-	2468 [label="LettieQuincyWingman begins.",color=orange];
-		2468 -> 2469;
-	2469 [label="Check boolean IsDating",color=orange];
-		2469 -> 2470 [label=true,color=green];
-		2469 -> 2471 [label=false,color=brown];
-	2470 [label="Chat ends.",color=orange];
-	2471 [label="Привіт
+	"LettieQuincyWingman begins." [color=orange];
+		"LettieQuincyWingman begins." -> j3451391318;
+	j3451391318 [label="Check boolean IsDating",color=orange];
+		j3451391318 -> "Chat ends." [label=true,color=green];
+		j3451391318 -> j3782344196 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j3782344196 [label="Привіт
 До мене приходив Квінсі
 Сказав, що ти хочеш поговорити зі мною?
 ¿Qué pasó?",shape=box,color=blue];
-		2471 -> 2472;
-	2472 [label="Check boolean LettieNoDate",color=orange];
-		2472 -> 2473 [label=true,color=green];
-		2472 -> 2475 [label=true,color=green];
-		2472 -> 2474 [label=false,color=brown];
-		2472 -> 2475 [label=false,color=brown];
-	2473 [label="Я просто… хочу вибачитися, Летті. Це все.",shape=box,color=red];
-		2473 -> 2479;
-	2475 [label="Мабуть, він помилився. [Завершити розмову]",shape=box,color=red];
-		2475 -> 2476;
-	2474 [label="Я… ну. Я маю почуття до тебе.",shape=box,color=red];
-		2474 -> 2478;
-	2479 [label="JAJA Sí, він так і сказав
+		j3782344196 -> j2065325619;
+	j2065325619 [label="Check boolean LettieNoDate",color=orange];
+		j2065325619 -> j4021908780 [label=true,color=green];
+		j2065325619 -> j223276147 [label=true,color=green];
+		j2065325619 -> j534526725 [label=false,color=brown];
+		j2065325619 -> j223276147 [label=false,color=brown];
+	j4021908780 [label="Я просто… хочу вибачитися, Летті. Це все.",shape=box,color=red];
+		j4021908780 -> j2299914731;
+	j223276147 [label="Мабуть, він помилився. [Завершити розмову]",shape=box,color=red];
+		j223276147 -> j3947662504;
+	j534526725 [label="Я… ну. Я маю почуття до тебе.",shape=box,color=red];
+		j534526725 -> j909510203;
+	j2299914731 [label="JAJA Sí, він так і сказав
 Я спочатку не повірила йому
 Але тепер я вражена тим, що він працює на тебе, чи як?
 Ay, я знову за своє…",shape=box,color=blue];
-		2479 -> 2480;
-	2476 [label="Lárgate de aquí, cabrón",shape=box,color=blue];
-		2476 -> 2477;
-	2478 [label="Check boolean LettieHasDated",color=orange];
-		2478 -> 2481 [label=true,color=green];
-		2478 -> 2482 [label=false,color=brown];
-	2480 [label="Ти просто хочеш вибачитися, а я все ускладнюю
+		j2299914731 -> j3778437682;
+	j3947662504 [label="Lárgate de aquí, cabrón",shape=box,color=blue];
+		j3947662504 -> "Chat ends.";
+	j909510203 [label="Check boolean LettieHasDated",color=orange];
+		j909510203 -> j2594441512 [label=true,color=green];
+		j909510203 -> j840153243 [label=false,color=brown];
+	j3778437682 [label="Ти просто хочеш вибачитися, а я все ускладнюю
 Добре
 Вибачення прийняті",shape=box,color=blue];
-		2480 -> 2486;
-	2477 [label="Chat ends.",color=orange];
-	2481 [label="У тебе була можливість
+		j3778437682 -> j4073047163;
+	j2594441512 [label="У тебе була можливість
 Але тоді нічого не вийшло, пам’ятаєш?
 Але… aaaay, sí…
 Мушу визнати, я скучила за тобою",shape=box,color=blue];
-		2481 -> 2487;
-	2482 [label="І ти нічого мені не говориш?
+		j2594441512 -> j556362975;
+	j840153243 [label="І ти нічого мені не говориш?
 ¿Por qué?
 Я прямо перед тобою",shape=box,color=blue];
-		2482 -> 2483;
-		2482 -> 2484;
-	2486 [label="Він *також* сказав, що ти хочеш спробувати зі мною
+		j840153243 -> j45057708;
+		j840153243 -> j3747695338;
+	j4073047163 [label="Він *також* сказав, що ти хочеш спробувати зі мною
 Бути
 Щоб ми були разом
 ¿Verdad?",shape=box,color=blue];
-		2486 -> 2488;
-		2486 -> 2490;
-	2487 [label="Хочеш спробувати ще раз?",shape=box,color=blue];
-		2487 -> 2488;
-		2487 -> 2490;
-	2483 [label="Мені складно було це сказати.",shape=box,color=red];
-		2483 -> 2485;
-	2484 [label="Не знаю чому.",shape=box,color=red];
-		2484 -> 2485;
-	2488 [label="Так :) Дуже.",shape=box,color=red];
-		2488 -> 2494;
-	2490 [label="Знаєш. Не зважай.",shape=box,color=red];
-		2490 -> 2491;
-	2485 [label="Ну…
+		j4073047163 -> j809674088;
+		j4073047163 -> j567151158;
+	j556362975 [label="Хочеш спробувати ще раз?",shape=box,color=blue];
+		j556362975 -> j809674088;
+		j556362975 -> j567151158;
+	j45057708 [label="Мені складно було це сказати.",shape=box,color=red];
+		j45057708 -> j1944502173;
+	j3747695338 [label="Не знаю чому.",shape=box,color=red];
+		j3747695338 -> j1944502173;
+	j809674088 [label="Так :) Дуже.",shape=box,color=red];
+		j809674088 -> j1849370117;
+	j567151158 [label="Знаєш. Не зважай.",shape=box,color=red];
+		j567151158 -> j1895752501;
+	j1944502173 [label="Ну…
 Буває
 Так ти хочеш цього?",shape=box,color=blue];
-		2485 -> 2488;
-		2485 -> 2490;
-	2494 [label="+20 Chemistry",color=orange];
-		2494 -> 2489;
-	2491 [label="¿Babas?
+		j1944502173 -> j809674088;
+		j1944502173 -> j567151158;
+	j1849370117 [label="+20 Chemistry",color=orange];
+		j1849370117 -> j2493634820;
+	j1895752501 [label="¿Babas?
 Іноді мені хочеться зарядити тобі ляпаса
 Це один із тих випадків",shape=box,color=blue];
-		2491 -> 2492;
-	2489 [label="Sí, ну добре
+		j1895752501 -> j2703113057;
+	j2493634820 [label="Sí, ну добре
 Тоді спробуємо
 ¡Va!, удосталь роботи",shape=box,color=blue];
-		2489 -> 2495;
-	2492 [label="Update boolean LettieNoDate",color=orange];
-		2492 -> 2493;
-	2495 [label="Update boolean LettieNoDate",color=orange];
-		2495 -> 2496;
-	2493 [label="Chat ends.",color=orange];
-	2496 [label="Update boolean IsDating",color=orange];
-		2496 -> 2497;
-	2497 [label="Update boolean LettieDating",color=orange];
-		2497 -> 2498;
-	2498 [label="Update boolean LettieHasDated",color=orange];
-		2498 -> 2499;
-	2499 [label="Chat ends.",color=orange];
+		j2493634820 -> j4071933913;
+	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2703113057 -> "Chat ends.";
+	j4071933913 [label="Boolean LettieNoDate is now false.",color=orange];
+		j4071933913 -> j444607473;
+	j444607473 [label="Boolean IsDating is now true.",color=orange];
+		j444607473 -> j2763854765;
+	j2763854765 [label="Boolean LettieDating is now true.",color=orange];
+		j2763854765 -> j3003494003;
+	j3003494003 [label="Boolean LettieHasDated is now true.",color=orange];
+		j3003494003 -> "Chat ends.";
 }

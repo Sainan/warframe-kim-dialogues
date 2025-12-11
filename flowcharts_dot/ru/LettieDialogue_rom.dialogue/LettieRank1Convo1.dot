@@ -1,137 +1,133 @@
 digraph {
-	0 [label="LettieRank1Convo1 begins.",color=orange];
-		0 -> 4;
-		0 -> 7;
-	4 [label="Эй, Лэтти, как ты стала медиком?",shape=box,color=red];
-		4 -> 6;
-	7 [label="Эй, Лэтти, что привело тебя в Хёльванию?",shape=box,color=red];
-		7 -> 11;
-	6 [label="Это моя работа 
+	"LettieRank1Convo1 begins." [color=orange];
+		"LettieRank1Convo1 begins." -> j3993518233;
+		"LettieRank1Convo1 begins." -> j352041857;
+	j3993518233 [label="Эй, Лэтти, как ты стала медиком?",shape=box,color=red];
+		j3993518233 -> j576416651;
+	j352041857 [label="Эй, Лэтти, что привело тебя в Хёльванию?",shape=box,color=red];
+		j352041857 -> j3021481329;
+	j576416651 [label="Это моя работа 
 Зачем тебе в это ввязываться? 
 Ты делаешь то, что делаешь",shape=box,color=blue];
-		6 -> 19;
-		6 -> 20;
-		6 -> 21;
-	11 [label="А?",shape=box,color=blue];
-		11 -> 12;
-	19 [label="У меня особо не было выбора.",shape=box,color=red];
-		19 -> 13;
-	20 [label="Я тебе мешаю?",shape=box,color=red];
-		20 -> 14;
-	21 [label="Очевидно что я тебя напрягаю, я оставлю тебя в покое.",shape=box,color=red];
-		21 -> 15;
-	12 [label="Почему ты здесь?",shape=box,color=blue];
-		12 -> 19;
-		12 -> 20;
-		12 -> 21;
-	13 [label="Значит у нас это общее 
+		j576416651 -> j364726136;
+		j576416651 -> j2397543891;
+		j576416651 -> j2964556506;
+	j3021481329 [label="А?",shape=box,color=blue];
+		j3021481329 -> j73901277;
+	j364726136 [label="У меня особо не было выбора.",shape=box,color=red];
+		j364726136 -> j1577365481;
+	j2397543891 [label="Я тебе мешаю?",shape=box,color=red];
+		j2397543891 -> j1001965832;
+	j2964556506 [label="Очевидно что я тебя напрягаю, я оставлю тебя в покое.",shape=box,color=red];
+		j2964556506 -> j2547240352;
+	j73901277 [label="Почему ты здесь?",shape=box,color=blue];
+		j73901277 -> j364726136;
+		j73901277 -> j2397543891;
+		j73901277 -> j2964556506;
+	j1577365481 [label="Значит у нас это общее 
 И не задавай глупых вопросов, babas",shape=box,color=blue];
-		13 -> 18;
-		13 -> 17;
-	14 [label="Почему 
+		j1577365481 -> j3453158887;
+		j1577365481 -> j2244333592;
+	j1001965832 [label="Почему 
 Что навело тебя на такую идею 
 Не то чтобы я была занята или что-то в этом роде 
 Пытаюсь собрать людей по кусочкам",shape=box,color=blue];
-		14 -> 17;
-		14 -> 18;
-	15 [label="Va",shape=box,color=blue];
-		15 -> 1;
-	18 [label="О чём мне тогда с тобой поговорить?",shape=box,color=red];
-		18 -> 5;
-	17 [label="Просто пытаюсь проявить дружелюбие, прости.",shape=box,color=red];
-		17 -> 16;
-	1 [label="Chat ends.",color=orange];
-	5 [label="Эх, lo siento
+		j1001965832 -> j2244333592;
+		j1001965832 -> j3453158887;
+	j2547240352 [label="Va",shape=box,color=blue];
+		j2547240352 -> "Chat ends.";
+	j3453158887 [label="О чём мне тогда с тобой поговорить?",shape=box,color=red];
+		j3453158887 -> j4112041702;
+	j2244333592 [label="Просто пытаюсь проявить дружелюбие, прости.",shape=box,color=red];
+		j2244333592 -> j3494636024;
+	"Chat ends." [color=orange];
+	j4112041702 [label="Эх, lo siento
 Не выспалась прошлой ночью 
 Так что у меня не много терпения к плохим вопросам",shape=box,color=blue];
-		5 -> 2;
-		5 -> 3;
-	16 [label="Ay, equis
+		j4112041702 -> j876779453;
+		j4112041702 -> j3250233356;
+	j3494636024 [label="Ay, equis
 Всё нормально 
 Не выспалась прошлой ночью",shape=box,color=blue];
-		16 -> 8;
-		16 -> 2;
-	2 [label="Я тоже.",shape=box,color=red];
-		2 -> 22;
-	3 [label="Они действительно *были* плохими вопросами лол. Я просто не знаю о чём ещё говорить",shape=box,color=red];
-		3 -> 26;
-	8 [label="Почему нет?",shape=box,color=red];
-		8 -> 147;
-	22 [label="+10 Chemistry",color=orange];
-		22 -> 24;
-	26 [label="Тогда вот тебе подсказка 
+		j3494636024 -> j824196942;
+		j3494636024 -> j876779453;
+	j876779453 [label="Я тоже.",shape=box,color=red];
+		j876779453 -> j2034220243;
+	j3250233356 [label="Они действительно *были* плохими вопросами лол. Я просто не знаю о чём ещё говорить",shape=box,color=red];
+		j3250233356 -> j1036675943;
+	j824196942 [label="Почему нет?",shape=box,color=red];
+		j824196942 -> j3100013308;
+	j2034220243 [label="+10 Chemistry",color=orange];
+		j2034220243 -> j1342087151;
+	j1036675943 [label="Тогда вот тебе подсказка 
 Если собираешься прерывать мой день 
 Сделай это интересным, ¿sí?",shape=box,color=blue];
-		26 -> 10;
-	147 [label="+5 Chemistry",color=orange];
-		147 -> 23;
-	24 [label="Худший вариант, да",shape=box,color=blue];
-		24 -> 25;
-	10 [label="Check boolean LettieRats1",color=orange];
-		10 -> 30 [label=true,color=green];
-		10 -> 9 [label=false,color=brown];
-	23 [label="Не надо",shape=box,color=blue];
-		23 -> 25;
-	25 [label="Ты чего-то хочешь
+		j1036675943 -> j509805292;
+	j3100013308 [label="+5 Chemistry",color=orange];
+		j3100013308 -> j123221573;
+	j1342087151 [label="Худший вариант, да",shape=box,color=blue];
+		j1342087151 -> j1459722623;
+	j509805292 [label="Check boolean LettieRats1",color=orange];
+		j509805292 -> j3400673186 [label=true,color=green];
+		j509805292 -> j2015007616 [label=false,color=brown];
+	j123221573 [label="Не надо",shape=box,color=blue];
+		j123221573 -> j1459722623;
+	j1459722623 [label="Ты чего-то хочешь
 Или просто убиваешь время",shape=box,color=blue];
-		25 -> 27;
-		25 -> 28;
-		25 -> 29;
-	30 [label="Ты лучше отвечаешь на вопрос о крысах",shape=box,color=blue];
-		30 -> 32;
-	9 [label="Check boolean LettieFantasma1",color=orange];
-		9 -> 31 [label=true,color=green];
-		9 -> 32 [label=false,color=brown];
-	27 [label="Просто пытаюсь поздороваться, вот и всё.",shape=box,color=red];
-		27 -> 33;
-	28 [label="Я просто хочу узнать, как ты.",shape=box,color=red];
-		28 -> 34;
-	29 [label="Просто убиваю время.",shape=box,color=red];
-		29 -> 35;
-	32 [label="Сделай это интересным. Поняла. Пойду... придумаю... что-нибудь... интересное...",shape=box,color=red];
-		32 -> 49;
-	31 [label="Ответ о доме был лучше",shape=box,color=blue];
-		31 -> 32;
-	33 [label="Hola 
+		j1459722623 -> j1969105225;
+		j1459722623 -> j1468371540;
+		j1459722623 -> j2947433839;
+	j3400673186 [label="Ты лучше отвечаешь на вопрос о крысах",shape=box,color=blue];
+		j3400673186 -> j862004035;
+	j2015007616 [label="Check boolean LettieFantasma1",color=orange];
+		j2015007616 -> j610219366 [label=true,color=green];
+		j2015007616 -> j862004035 [label=false,color=brown];
+	j1969105225 [label="Просто пытаюсь поздороваться, вот и всё.",shape=box,color=red];
+		j1969105225 -> j2898125762;
+	j1468371540 [label="Я просто хочу узнать, как ты.",shape=box,color=red];
+		j1468371540 -> j1456463669;
+	j2947433839 [label="Просто убиваю время.",shape=box,color=red];
+		j2947433839 -> j2560586713;
+	j862004035 [label="Сделай это интересным. Поняла. Пойду... придумаю... что-нибудь... интересное...",shape=box,color=red];
+		j862004035 -> j2179501014;
+	j610219366 [label="Ответ о доме был лучше",shape=box,color=blue];
+		j610219366 -> j862004035;
+	j2898125762 [label="Hola 
 Там",shape=box,color=blue];
-		33 -> 39;
-		33 -> 38;
-	34 [label="Занята 
+		j2898125762 -> j3184942517;
+		j2898125762 -> j1685319616;
+	j1456463669 [label="Занята 
 Устала 
 На нервах",shape=box,color=blue];
-		34 -> 37;
-	35 [label="Хорошо тебе 
+		j1456463669 -> j545075872;
+	j2560586713 [label="Хорошо тебе 
 Мне нужно работать",shape=box,color=blue];
-		35 -> 36;
-	49 [label="Update boolean LettieInteresting",color=orange];
-		49 -> 48;
-	39 [label="Тогда я перестану тебя беспокоить.",shape=box,color=red];
-		39 -> 41;
-	38 [label="Чем-то помочь?",shape=box,color=red];
-		38 -> 45;
-	37 [label="По-старому",shape=box,color=blue];
-		37 -> 38;
-		37 -> 39;
-	36 [label="Вернусь к этому",shape=box,color=blue];
-		36 -> 40;
-	48 [label="+20 Chemistry",color=orange];
-		48 -> 50;
-	41 [label="Bueno",shape=box,color=blue];
-		41 -> 42;
-	45 [label="+10 Chemistry",color=orange];
-		45 -> 43;
-	40 [label="Chat ends.",color=orange];
-	50 [label="Buena suerte",shape=box,color=blue];
-		50 -> 51;
-	42 [label="Chat ends.",color=orange];
-	43 [label="Убедить местных не лезть между Техротом и Скальдрой 
+		j2560586713 -> j892175894;
+	j2179501014 [label="Boolean LettieInteresting is now true.",color=orange];
+		j2179501014 -> j1780676929;
+	j3184942517 [label="Тогда я перестану тебя беспокоить.",shape=box,color=red];
+		j3184942517 -> j3748645904;
+	j1685319616 [label="Чем-то помочь?",shape=box,color=red];
+		j1685319616 -> j3106906475;
+	j545075872 [label="По-старому",shape=box,color=blue];
+		j545075872 -> j1685319616;
+		j545075872 -> j3184942517;
+	j892175894 [label="Вернусь к этому",shape=box,color=blue];
+		j892175894 -> "Chat ends.";
+	j1780676929 [label="+20 Chemistry",color=orange];
+		j1780676929 -> j1368267468;
+	j3748645904 [label="Bueno",shape=box,color=blue];
+		j3748645904 -> "Chat ends.";
+	j3106906475 [label="+10 Chemistry",color=orange];
+		j3106906475 -> j893947634;
+	j1368267468 [label="Buena suerte",shape=box,color=blue];
+		j1368267468 -> "Chat ends.";
+	j893947634 [label="Убедить местных не лезть между Техротом и Скальдрой 
 Eso sería genial",shape=box,color=blue];
-		43 -> 44;
-	51 [label="Chat ends.",color=orange];
-	44 [label="Кроме этого? 
+		j893947634 -> j2529334777;
+	j2529334777 [label="Кроме этого? 
 Подумаю",shape=box,color=blue];
-		44 -> 46;
-	46 [label="Update boolean LettieSmallFavor",color=orange];
-		46 -> 47;
-	47 [label="Chat ends.",color=orange];
+		j2529334777 -> j2570747018;
+	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j2570747018 -> "Chat ends.";
 }

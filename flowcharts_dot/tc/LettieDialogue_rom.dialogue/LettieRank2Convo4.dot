@@ -1,76 +1,74 @@
 digraph {
-	427 [label="LettieRank2Convo4 begins.",color=orange];
-		427 -> 428;
-	428 [label="Check boolean LettieSmallFavor",color=orange];
-		428 -> 429 [label=true,color=green];
-		428 -> 430 [label=false,color=brown];
-	429 [label="嘿，呆呆
+	"LettieRank2Convo4 begins." [color=orange];
+		"LettieRank2Convo4 begins." -> j3863215240;
+	j3863215240 [label="Check boolean LettieSmallFavor",color=orange];
+		j3863215240 -> j3330394956 [label=true,color=green];
+		j3863215240 -> j2082612648 [label=false,color=brown];
+	j3330394956 [label="嘿，呆呆
 我有另一個小忙要你幫忙",shape=box,color=blue];
-		429 -> 431;
-		429 -> 432;
-		429 -> 433;
-	430 [label="嘿，呆呆
+		j3330394956 -> j3278766659;
+		j3330394956 -> j3506614577;
+		j3330394956 -> j3919614972;
+	j2082612648 [label="嘿，呆呆
 我有一個小忙想請你幫忙",shape=box,color=blue];
-		430 -> 433;
-		430 -> 432;
-		430 -> 431;
-	431 [label="當然可以。有什麼事？",shape=box,color=red];
-		431 -> 436;
-	432 [label="你知道我不是你的小跟班，對吧？",shape=box,color=red];
-		432 -> 435;
-	433 [label="自己的事自己做。[結束]",shape=box,color=red];
-		433 -> 434;
-	436 [label="+10 Chemistry",color=orange];
-		436 -> 765;
-	435 [label="是啊
+		j2082612648 -> j3919614972;
+		j2082612648 -> j3506614577;
+		j2082612648 -> j3278766659;
+	j3278766659 [label="當然可以。有什麼事？",shape=box,color=red];
+		j3278766659 -> j3122633020;
+	j3506614577 [label="你知道我不是你的小跟班，對吧？",shape=box,color=red];
+		j3506614577 -> j2913865908;
+	j3919614972 [label="自己的事自己做。[結束]",shape=box,color=red];
+		j3919614972 -> "Chat ends.";
+	j3122633020 [label="+10 Chemistry",color=orange];
+		j3122633020 -> j3119625779;
+	j2913865908 [label="是啊
 我敢打賭我可以讓你求著要小獎勵
 但你可能還是太脆弱了",shape=box,color=blue];
-		435 -> 437;
-		435 -> 438;
-	434 [label="Chat ends.",color=orange];
-	765 [label="（西語）好",shape=box,color=blue];
-		765 -> 442;
-	437 [label="你是在……威脅我還是想撩我？",shape=box,color=red];
-		437 -> 441;
-	438 [label="來吧。",shape=box,color=red];
-		438 -> 2461;
-	442 [label="我有太多事要做，沒時間玩遊戲和四處閒逛
+		j2913865908 -> j1253805779;
+		j2913865908 -> j1990904058;
+	"Chat ends." [color=orange];
+	j3119625779 [label="（西語）好",shape=box,color=blue];
+		j3119625779 -> j444229993;
+	j1253805779 [label="你是在……威脅我還是想撩我？",shape=box,color=red];
+		j1253805779 -> j543062431;
+	j1990904058 [label="來吧。",shape=box,color=red];
+		j1990904058 -> j2800380814;
+	j444229993 [label="我有太多事要做，沒時間玩遊戲和四處閒逛
 這些平民滿身槍傷，就像阿米爾滿屋電腦",shape=box,color=blue];
-		442 -> 443;
-	441 [label="+10 Chemistry",color=orange];
-		441 -> 439;
-	2461 [label="+10 Chemistry",color=orange];
-		2461 -> 440;
-	443 [label="重點是，醫療包
+		j444229993 -> j1121277244;
+	j543062431 [label="+10 Chemistry",color=orange];
+		j543062431 -> j1400569777;
+	j2800380814 [label="+10 Chemistry",color=orange];
+		j2800380814 -> j255078896;
+	j1121277244 [label="重點是，醫療包
 我需要更多
 找它買它，無所謂
 快把它們帶給我
 （西語）我會非常感謝你",shape=box,color=blue];
-		443 -> 445;
-		443 -> 446;
-		443 -> 447;
-	439 [label="（西語）不可以兩者皆是？
+		j1121277244 -> j3532551936;
+		j1121277244 -> j3890446316;
+		j1121277244 -> j1603005553;
+	j1400569777 [label="（西語）不可以兩者皆是？
 別讓我分心，呆呆",shape=box,color=blue];
-		439 -> 442;
-	440 [label="（西語）小心點，呆呆
+		j1400569777 -> j444229993;
+	j255078896 [label="（西語）小心點，呆呆
 別讓我分心",shape=box,color=blue];
-		440 -> 442;
-	445 [label="我馬上去。",shape=box,color=red];
-		445 -> 451;
-	446 [label="不保證找得到。",shape=box,color=red];
-		446 -> 557;
-	447 [label="你自己去吧。",shape=box,color=red];
-		447 -> 448;
-	451 [label="+10 Chemistry",color=orange];
-		451 -> 450;
-	557 [label="+10 Chemistry",color=orange];
-		557 -> 449;
-	448 [label="Chat ends.",color=orange];
-	450 [label="（西語）感謝",shape=box,color=blue];
-		450 -> 452;
-	449 [label="沒人要你保證",shape=box,color=blue];
-		449 -> 452;
-	452 [label="Update boolean LettieSmallFavor",color=orange];
-		452 -> 453;
-	453 [label="Chat ends.",color=orange];
+		j255078896 -> j444229993;
+	j3532551936 [label="我馬上去。",shape=box,color=red];
+		j3532551936 -> j599110022;
+	j3890446316 [label="不保證找得到。",shape=box,color=red];
+		j3890446316 -> j4082544207;
+	j1603005553 [label="你自己去吧。",shape=box,color=red];
+		j1603005553 -> "Chat ends.";
+	j599110022 [label="+10 Chemistry",color=orange];
+		j599110022 -> j2853491037;
+	j4082544207 [label="+10 Chemistry",color=orange];
+		j4082544207 -> j3500989748;
+	j2853491037 [label="（西語）感謝",shape=box,color=blue];
+		j2853491037 -> j2570747018;
+	j3500989748 [label="沒人要你保證",shape=box,color=blue];
+		j3500989748 -> j2570747018;
+	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j2570747018 -> "Chat ends.";
 }

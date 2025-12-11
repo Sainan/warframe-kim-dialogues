@@ -1,21 +1,16 @@
 digraph {
-	2832 [label="EleanorBirthdayConvo3 begins.",color=orange];
-		2832 -> 2833;
-		2832 -> 2836;
-	2833 [label="Doğum günün kutlu olsun, Eleanor! Umarım eğleniyorsundur!",shape=box,color=red];
-		2833 -> 784;
-	2836 [label="… doğum günü pastasındaki mumları üflerken dilin sorun çıkarıyor mu?",shape=box,color=red];
-		2836 -> 785;
-	784 [label="+20 Chemistry",color=orange];
-		784 -> 2835;
-	785 [label="Yıllardır doğum günü pastası yemediğimi bana hatırlattığın için teşekkürler. Bu aslında çok düşünceli bir davranış.",shape=box,color=blue];
-		785 -> 2843;
-	2835 [label="Evet. Herkes çok tatlıydı, normalde öyle olmayanlar bile. Belki bizim için hala umut vardır?",shape=box,color=blue];
-		2835 -> 2838;
-	2843 [label="{\"Id\":2843,\"Incoming\":[785],\"Outgoing\":[783],\"GraphPos\":[1879,-2636],\"CompletionType\":1}",color=orange];
-		2843 -> 783;
-	2838 [label="{\"Id\":2838,\"Incoming\":[2835],\"Outgoing\":[2834],\"GraphPos\":[1883,-2830],\"CompletionType\":1}",color=orange];
-		2838 -> 2834;
-	783 [label="Chat ends.",color=orange];
-	2834 [label="Chat ends.",color=orange];
+	"EleanorBirthdayConvo3 begins." [color=orange];
+		"EleanorBirthdayConvo3 begins." -> j4151014349;
+		"EleanorBirthdayConvo3 begins." -> j1867499732;
+	j4151014349 [label="Doğum günün kutlu olsun, Eleanor! Umarım eğleniyorsundur!",shape=box,color=red];
+		j4151014349 -> j2367482256;
+	j1867499732 [label="… doğum günü pastasındaki mumları üflerken dilin sorun çıkarıyor mu?",shape=box,color=red];
+		j1867499732 -> j260503473;
+	j2367482256 [label="+20 Chemistry",color=orange];
+		j2367482256 -> j504483059;
+	j260503473 [label="Yıllardır doğum günü pastası yemediğimi bana hatırlattığın için teşekkürler. Bu aslında çok düşünceli bir davranış.",shape=box,color=blue];
+		j260503473 -> "Chat ends.";
+	j504483059 [label="Evet. Herkes çok tatlıydı, normalde öyle olmayanlar bile. Belki bizim için hala umut vardır?",shape=box,color=blue];
+		j504483059 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

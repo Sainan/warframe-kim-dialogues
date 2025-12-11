@@ -1,137 +1,133 @@
 digraph {
-	0 [label="LettieRank1Convo1 begins.",color=orange];
-		0 -> 4;
-		0 -> 7;
-	4 [label="Hej Lettie, jak to się stało, że zostałaś medykiem?",shape=box,color=red];
-		4 -> 6;
-	7 [label="Hej Lettie, co cię sprowadziło do Höllvanii?",shape=box,color=red];
-		7 -> 11;
-	6 [label="To moja praca 
+	"LettieRank1Convo1 begins." [color=orange];
+		"LettieRank1Convo1 begins." -> j2595718975;
+		"LettieRank1Convo1 begins." -> j3863163347;
+	j2595718975 [label="Hej Lettie, jak to się stało, że zostałaś medykiem?",shape=box,color=red];
+		j2595718975 -> j1859833529;
+	j3863163347 [label="Hej Lettie, co cię sprowadziło do Höllvanii?",shape=box,color=red];
+		j3863163347 -> j1134639193;
+	j1859833529 [label="To moja praca 
 A dlaczego ty zostałeś 
 Czymkolwiek się tam zajmujesz",shape=box,color=blue];
-		6 -> 19;
-		6 -> 20;
-		6 -> 21;
-	11 [label="Co?",shape=box,color=blue];
-		11 -> 12;
-	19 [label="Nie miałem dużego wyboru.",shape=box,color=red];
-		19 -> 13;
-	20 [label="Przeszkadzam w czymś?",shape=box,color=red];
-		20 -> 14;
-	21 [label="Najwyraźniej ci przeszkadza. Do następnego.",shape=box,color=red];
-		21 -> 15;
-	12 [label="A dlaczego ty tu przyszedłeś",shape=box,color=blue];
-		12 -> 19;
-		12 -> 20;
-		12 -> 21;
-	13 [label="Przynajmniej tyle mamy wspólnego 
+		j1859833529 -> j4138420720;
+		j1859833529 -> j1690567517;
+		j1859833529 -> j87703422;
+	j1134639193 [label="Co?",shape=box,color=blue];
+		j1134639193 -> j1642147448;
+	j4138420720 [label="Nie miałem dużego wyboru.",shape=box,color=red];
+		j4138420720 -> j3166922314;
+	j1690567517 [label="Przeszkadzam w czymś?",shape=box,color=red];
+		j1690567517 -> j2256730481;
+	j87703422 [label="Najwyraźniej ci przeszkadza. Do następnego.",shape=box,color=red];
+		j87703422 -> j2547240352;
+	j1642147448 [label="A dlaczego ty tu przyszedłeś",shape=box,color=blue];
+		j1642147448 -> j4138420720;
+		j1642147448 -> j1690567517;
+		j1642147448 -> j87703422;
+	j3166922314 [label="Przynajmniej tyle mamy wspólnego 
 Nie zadawaj głupich pytań, babas",shape=box,color=blue];
-		13 -> 18;
-		13 -> 17;
-	14 [label="Co 
+		j3166922314 -> j2083272798;
+		j3166922314 -> j2888073300;
+	j2256730481 [label="Co 
 Nie, dlaczego 
 Nie, żebym była zajęta 
 Zszywaniem ludzi czy czymś",shape=box,color=blue];
-		14 -> 17;
-		14 -> 18;
-	15 [label="Va",shape=box,color=blue];
-		15 -> 1;
-	18 [label="O czym wolałabyś porozmawiać?",shape=box,color=red];
-		18 -> 5;
-	17 [label="Próbuję cię tylko poznać, sory.",shape=box,color=red];
-		17 -> 16;
-	1 [label="Chat ends.",color=orange];
-	5 [label="Eh, lo siento 
+		j2256730481 -> j2888073300;
+		j2256730481 -> j2083272798;
+	j2547240352 [label="Va",shape=box,color=blue];
+		j2547240352 -> "Chat ends.";
+	j2083272798 [label="O czym wolałabyś porozmawiać?",shape=box,color=red];
+		j2083272798 -> j2658740491;
+	j2888073300 [label="Próbuję cię tylko poznać, sory.",shape=box,color=red];
+		j2888073300 -> j1306740692;
+	"Chat ends." [color=orange];
+	j2658740491 [label="Eh, lo siento 
 Kiepsko spałam 
 Nie mam cierpliwości do głupich pytań",shape=box,color=blue];
-		5 -> 2;
-		5 -> 3;
-	16 [label="Ay, equis 
+		j2658740491 -> j3593295921;
+		j2658740491 -> j2447034393;
+	j1306740692 [label="Ay, equis 
 Nie przejmuj się 
 Kiepsko spałam",shape=box,color=blue];
-		16 -> 8;
-		16 -> 2;
-	2 [label="Ja też.",shape=box,color=red];
-		2 -> 22;
-	3 [label="To *były* słabe pytania, lol. Nie wiedziałem, od czego zacząć",shape=box,color=red];
-		3 -> 26;
-	8 [label="Coś się stało?",shape=box,color=red];
-		8 -> 147;
-	22 [label="+10 Chemistry",color=orange];
-		22 -> 24;
-	26 [label="Mała porada 
+		j1306740692 -> j4128178827;
+		j1306740692 -> j3593295921;
+	j3593295921 [label="Ja też.",shape=box,color=red];
+		j3593295921 -> j3954394047;
+	j2447034393 [label="To *były* słabe pytania, lol. Nie wiedziałem, od czego zacząć",shape=box,color=red];
+		j2447034393 -> j1538398801;
+	j4128178827 [label="Coś się stało?",shape=box,color=red];
+		j4128178827 -> j3782200528;
+	j3954394047 [label="+10 Chemistry",color=orange];
+		j3954394047 -> j2320050669;
+	j1538398801 [label="Mała porada 
 Jeśli chcesz mi zawracać gitarę 
 Niech to chociaż będzie ciekawe, ¿sí?",shape=box,color=blue];
-		26 -> 10;
-	147 [label="+5 Chemistry",color=orange];
-		147 -> 23;
-	24 [label="Najgorzej, nie?",shape=box,color=blue];
-		24 -> 25;
-	10 [label="Check boolean LettieRats1",color=orange];
-		10 -> 30 [label=true,color=green];
-		10 -> 9 [label=false,color=brown];
-	23 [label="Zawsze tak mam",shape=box,color=blue];
-		23 -> 25;
-	25 [label="Potrzebujesz czegoś 
+		j1538398801 -> j509805292;
+	j3782200528 [label="+5 Chemistry",color=orange];
+		j3782200528 -> j942587815;
+	j2320050669 [label="Najgorzej, nie?",shape=box,color=blue];
+		j2320050669 -> j2362504262;
+	j509805292 [label="Check boolean LettieRats1",color=orange];
+		j509805292 -> j3237933274 [label=true,color=green];
+		j509805292 -> j2015007616 [label=false,color=brown];
+	j942587815 [label="Zawsze tak mam",shape=box,color=blue];
+		j942587815 -> j2362504262;
+	j2362504262 [label="Potrzebujesz czegoś 
 Czy tylko się nudzisz",shape=box,color=blue];
-		25 -> 27;
-		25 -> 28;
-		25 -> 29;
-	30 [label="Szło ci lepiej, kiedy pytałeś o szczury",shape=box,color=blue];
-		30 -> 32;
-	9 [label="Check boolean LettieFantasma1",color=orange];
-		9 -> 31 [label=true,color=green];
-		9 -> 32 [label=false,color=brown];
-	27 [label="Chciałem się tylko przywitać.",shape=box,color=red];
-		27 -> 33;
-	28 [label="Chciałem zapytać, co u ciebie.",shape=box,color=red];
-		28 -> 34;
-	29 [label="Tylko się nudzę.",shape=box,color=red];
-		29 -> 35;
-	32 [label="Interesujące pytania. Zrozumiano. Pójdę... pomyśleć... o nich...",shape=box,color=red];
-		32 -> 49;
-	31 [label="Szło ci lepiej, kiedy pytałeś o dom",shape=box,color=blue];
-		31 -> 32;
-	33 [label="Hola 
+		j2362504262 -> j3189503956;
+		j2362504262 -> j2025317192;
+		j2362504262 -> j2920196587;
+	j3237933274 [label="Szło ci lepiej, kiedy pytałeś o szczury",shape=box,color=blue];
+		j3237933274 -> j2808578508;
+	j2015007616 [label="Check boolean LettieFantasma1",color=orange];
+		j2015007616 -> j841408375 [label=true,color=green];
+		j2015007616 -> j2808578508 [label=false,color=brown];
+	j3189503956 [label="Chciałem się tylko przywitać.",shape=box,color=red];
+		j3189503956 -> j2427212681;
+	j2025317192 [label="Chciałem zapytać, co u ciebie.",shape=box,color=red];
+		j2025317192 -> j2620043920;
+	j2920196587 [label="Tylko się nudzę.",shape=box,color=red];
+		j2920196587 -> j765484244;
+	j2808578508 [label="Interesujące pytania. Zrozumiano. Pójdę... pomyśleć... o nich...",shape=box,color=red];
+		j2808578508 -> j2179501014;
+	j841408375 [label="Szło ci lepiej, kiedy pytałeś o dom",shape=box,color=blue];
+		j841408375 -> j2808578508;
+	j2427212681 [label="Hola 
 Masz",shape=box,color=blue];
-		33 -> 39;
-		33 -> 38;
-	34 [label="Zajęta 
+		j2427212681 -> j2346701664;
+		j2427212681 -> j725462258;
+	j2620043920 [label="Zajęta 
 Zmęczona 
 Zdenerwowana",shape=box,color=blue];
-		34 -> 37;
-	35 [label="Baw się dobrze
+		j2620043920 -> j2815532802;
+	j765484244 [label="Baw się dobrze
 Mam swoje sprawy do załatwienia",shape=box,color=blue];
-		35 -> 36;
-	49 [label="Update boolean LettieInteresting",color=orange];
-		49 -> 48;
-	39 [label="Nie będę ci już przeszkadzać.",shape=box,color=red];
-		39 -> 41;
-	38 [label="Mogę jakoś pomóc?",shape=box,color=red];
-		38 -> 45;
-	37 [label="Klasyk",shape=box,color=blue];
-		37 -> 38;
-		37 -> 39;
-	36 [label="Właśnie do nich wracam",shape=box,color=blue];
-		36 -> 40;
-	48 [label="+20 Chemistry",color=orange];
-		48 -> 50;
-	41 [label="Bueno",shape=box,color=blue];
-		41 -> 42;
-	45 [label="+10 Chemistry",color=orange];
-		45 -> 43;
-	40 [label="Chat ends.",color=orange];
-	50 [label="Buena suerte",shape=box,color=blue];
-		50 -> 51;
-	42 [label="Chat ends.",color=orange];
-	43 [label="Przekonaj miejscowych, żeby nie pchali się między Techrot i scaldrę 
+		j765484244 -> j2314231148;
+	j2179501014 [label="Boolean LettieInteresting is now true.",color=orange];
+		j2179501014 -> j1780676929;
+	j2346701664 [label="Nie będę ci już przeszkadzać.",shape=box,color=red];
+		j2346701664 -> j3748645904;
+	j725462258 [label="Mogę jakoś pomóc?",shape=box,color=red];
+		j725462258 -> j3662064986;
+	j2815532802 [label="Klasyk",shape=box,color=blue];
+		j2815532802 -> j725462258;
+		j2815532802 -> j2346701664;
+	j2314231148 [label="Właśnie do nich wracam",shape=box,color=blue];
+		j2314231148 -> "Chat ends.";
+	j1780676929 [label="+20 Chemistry",color=orange];
+		j1780676929 -> j1368267468;
+	j3748645904 [label="Bueno",shape=box,color=blue];
+		j3748645904 -> "Chat ends.";
+	j3662064986 [label="+10 Chemistry",color=orange];
+		j3662064986 -> j3830340099;
+	j1368267468 [label="Buena suerte",shape=box,color=blue];
+		j1368267468 -> "Chat ends.";
+	j3830340099 [label="Przekonaj miejscowych, żeby nie pchali się między Techrot i scaldrę 
 Eso sería genial",shape=box,color=blue];
-		43 -> 44;
-	51 [label="Chat ends.",color=orange];
-	44 [label="Coś jeszcze? 
+		j3830340099 -> j3966843040;
+	j3966843040 [label="Coś jeszcze? 
 Muszę się zastanowić",shape=box,color=blue];
-		44 -> 46;
-	46 [label="Update boolean LettieSmallFavor",color=orange];
-		46 -> 47;
-	47 [label="Chat ends.",color=orange];
+		j3966843040 -> j2570747018;
+	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j2570747018 -> "Chat ends.";
 }

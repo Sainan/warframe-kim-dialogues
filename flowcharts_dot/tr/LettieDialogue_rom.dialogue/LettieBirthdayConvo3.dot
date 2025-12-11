@@ -1,24 +1,19 @@
 digraph {
-	2501 [label="LettieBirthdayConvo3 begins.",color=orange];
-		2501 -> 2503;
-		2501 -> 2512;
-	2503 [label="Hey! Doğum günün için eğlenceli bir planın var mı? Erken yatmak gibi mi?",shape=box,color=red];
-		2503 -> 2508;
-	2512 [label="Doğum günün kutlu olsun! Hadi kulüplere akalım!",shape=box,color=red];
-		2512 -> 2504;
-	2508 [label="+20 Chemistry",color=orange];
-		2508 -> 2509;
-	2504 [label="Jajajaja
+	"LettieBirthdayConvo3 begins." [color=orange];
+		"LettieBirthdayConvo3 begins." -> j4077339580;
+		"LettieBirthdayConvo3 begins." -> j2780056755;
+	j4077339580 [label="Hey! Doğum günün için eğlenceli bir planın var mı? Erken yatmak gibi mi?",shape=box,color=red];
+		j4077339580 -> j1222533275;
+	j2780056755 [label="Doğum günün kutlu olsun! Hadi kulüplere akalım!",shape=box,color=red];
+		j2780056755 -> j1925736415;
+	j1222533275 [label="+20 Chemistry",color=orange];
+		j1222533275 -> j244495149;
+	j1925736415 [label="Jajajaja
 *Hayır*",shape=box,color=blue];
-		2504 -> 190;
-	2509 [label="Jajajajaja
+		j1925736415 -> "Chat ends.";
+	j244495149 [label="Jajajajaja
 Aaayyy, sí
 Sıcak bir banyo ve bir şekerleme, hayallerimdeki doğum günü",shape=box,color=blue];
-		2509 -> 191;
-	190 [label="{\"Id\":190,\"Incoming\":[2504],\"Outgoing\":[2514],\"GraphPos\":[824,-477],\"CompletionType\":1}",color=orange];
-		190 -> 2514;
-	191 [label="{\"Id\":191,\"Incoming\":[2509],\"Outgoing\":[2510],\"GraphPos\":[1191,-750],\"CompletionType\":1}",color=orange];
-		191 -> 2510;
-	2514 [label="Chat ends.",color=orange];
-	2510 [label="Chat ends.",color=orange];
+		j244495149 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

@@ -1,76 +1,75 @@
 digraph {
-	2754 [label="LettieRank6Convo11 begins.",color=orange];
-		2754 -> 2755;
-	2755 [label="Check boolean LettieDating",color=orange];
-		2755 -> 2756 [label=true,color=green];
-		2755 -> 2757 [label=false,color=brown];
-	2756 [label="Check boolean LettieReal",color=orange];
-		2756 -> 2759 [label=true,color=green];
-		2756 -> 2758 [label=false,color=brown];
-	2757 [label="เพื่อน
+	"LettieRank6Convo11 begins." [color=orange];
+		"LettieRank6Convo11 begins." -> j273575157;
+	j273575157 [label="Check boolean LettieDating",color=orange];
+		j273575157 -> j4208389219 [label=true,color=green];
+		j273575157 -> j2688802839 [label=false,color=brown];
+	j4208389219 [label="Check boolean LettieReal",color=orange];
+		j4208389219 -> j2001860322 [label=true,color=green];
+		j4208389219 -> j1099750506 [label=false,color=brown];
+	j2688802839 [label="เพื่อน
 อยู่ไหม?",shape=box,color=blue];
-		2757 -> 2760;
-		2757 -> 2761;
-	2759 [label="Corazón
+		j2688802839 -> j2213235399;
+		j2688802839 -> j360434713;
+	j2001860322 [label="Corazón
 อยู่ไหม?",shape=box,color=blue];
-		2759 -> 2760;
-		2759 -> 2761;
-	2758 [label="Solecito
+		j2001860322 -> j2213235399;
+		j2001860322 -> j360434713;
+	j1099750506 [label="Solecito
 อยู่ไหม?",shape=box,color=blue];
-		2758 -> 2761;
-		2758 -> 2760;
-	2760 [label="[คำเตือน: สัตว์เลี้ยงตาย คลิกเพื่อปิด]",shape=box,color=red];
-		2760 -> 2762;
-	2761 [label="ว่าไง?",shape=box,color=red];
-		2761 -> 2763;
-	2762 [label="Chat ends.",color=orange];
-	2763 [label="เกี่ยวกับ Neenah น่ะ
+		j1099750506 -> j360434713;
+		j1099750506 -> j2213235399;
+	j2213235399 [label="[คำเตือน: สัตว์เลี้ยงตาย คลิกเพื่อปิด]",shape=box,color=red];
+		j2213235399 -> "Chat ends.";
+	j360434713 [label="ว่าไง?",shape=box,color=red];
+		j360434713 -> j4074582808;
+	"Chat ends." [color=orange];
+	j4074582808 [label="เกี่ยวกับ Neenah น่ะ
 หนูตัวน้อยตัวหนึ่งที่เลี้ยงไว้
 เมื่อเช้านี้ La Flaca มารับมันไปแล้ว",shape=box,color=blue];
-		2763 -> 2764;
-		2763 -> 2765;
-	2764 [label="เอ่อ... พอหมดปีนี้แล้ว เดี๋ยวมันก็คงกลับมาใช่ไหม",shape=box,color=red];
-		2764 -> 2766;
-	2765 [label="อ้าว ไม่น่าเลย... Lettie เสียใจด้วยนะ :(",shape=box,color=red];
-		2765 -> 2767;
-	2766 [label="Sí
+		j4074582808 -> j3520978097;
+		j4074582808 -> j3426535163;
+	j3520978097 [label="เอ่อ... พอหมดปีนี้แล้ว เดี๋ยวมันก็คงกลับมาใช่ไหม",shape=box,color=red];
+		j3520978097 -> j2575681673;
+	j3426535163 [label="อ้าว ไม่น่าเลย... Lettie เสียใจด้วยนะ :(",shape=box,color=red];
+		j3426535163 -> j3383250927;
+	j2575681673 [label="Sí
 คงกลับมาแน่
 แต่ก็ไม่ได้เปลี่ยนความจริงที่ว่าชีวิตนั้น
 สั้นอยู่ดี",shape=box,color=blue];
-		2766 -> 2768;
-	2767 [label="Gracias
+		j2575681673 -> j3327808048;
+	j3383250927 [label="Gracias
 แต่นั่นแหละคือธรรมชาติของชีวิต
 มันสั้น",shape=box,color=blue];
-		2767 -> 2768;
-	2768 [label="หนูมีอายุสั้นเมื่อเทียบกับคน
+		j3383250927 -> j3327808048;
+	j3327808048 [label="หนูมีอายุสั้นเมื่อเทียบกับคน
 คนก็มีอายุสั้นเมื่อเทียบกับต้นไม้
 ต้นไม้เองก็มีอายุสั้นเมื่อเทียบกับพระเจ้า",shape=box,color=blue];
-		2768 -> 2769;
-	2769 [label="แมลงก็มีอายุสั้นกว่าเมื่อเทียบกับหนู
+		j3327808048 -> j1128216350;
+	j1128216350 [label="แมลงก็มีอายุสั้นกว่าเมื่อเทียบกับหนู
 ทุกอย่างมันสัมพันธ์กันทั้งนั้น
 แล้วพวกเราก็วนลูปไปเรื่อย ๆ เลยจริงไหม jajaja",shape=box,color=blue];
-		2769 -> 2770;
-	2770 [label="เดาว่าเราเองคงเป็นพวก “กรณีพิเศษ” อย่างที่ Amir ว่าไว้นั่นแหละ
+		j1128216350 -> j661767076;
+	j661767076 [label="เดาว่าเราเองคงเป็นพวก “กรณีพิเศษ” อย่างที่ Amir ว่าไว้นั่นแหละ
 หรืออะไรก็แล้วแต่เถอะ",shape=box,color=blue];
-		2770 -> 2771;
-		2770 -> 2772;
-	2771 [label="แล้วจะเอายังไงกับเรื่องนี้ล่ะ",shape=box,color=red];
-		2771 -> 2773;
-	2772 [label="แล้วไม่เสียใจเหรอ",shape=box,color=red];
-		2772 -> 2774;
-	2773 [label="Dejar de hacerme mensa y hacer las cosas, jajaja
+		j661767076 -> j43477094;
+		j661767076 -> j1411332887;
+	j43477094 [label="แล้วจะเอายังไงกับเรื่องนี้ล่ะ",shape=box,color=red];
+		j43477094 -> j801909675;
+	j1411332887 [label="แล้วไม่เสียใจเหรอ",shape=box,color=red];
+		j1411332887 -> j1658121687;
+	j801909675 [label="Dejar de hacerme mensa y hacer las cosas, jajaja
 ก็แค่อยากจะสื่อว่า
 เราต้องจำไว้ว่าควรใช้ชีวิตอยู่กับปัจจุบัน",shape=box,color=blue];
-		2773 -> 2775;
-	2774 [label="Por supuesto que sí
+		j801909675 -> j3394187392;
+	j1658121687 [label="Por supuesto que sí
 ก็แค่อยากจะสื่อว่า
 เราต้องจำไว้ว่าควรใช้ชีวิตอยู่กับปัจจุบัน",shape=box,color=blue];
-		2774 -> 2775;
-	2775 [label="นั่นแหละ สาเหตุที่ทำไมถึงเลี้ยงหนูไว้แต่แรก
+		j1658121687 -> j3394187392;
+	j3394187392 [label="นั่นแหละ สาเหตุที่ทำไมถึงเลี้ยงหนูไว้แต่แรก
 ชีวิตพวกมันสั้น แต่ก็ไม่เคยลืมที่จะใช้ชีวิตให้คุ้ม
 หาความสุขในทุกเศษขนมปังที่หาได้
 แล้วตอบแทนความรักทั้งหมดที่มีให้
 เพราะไม่รู้หรอกว่าจะจากกันไปเมื่อใด",shape=box,color=blue];
-		2775 -> 2776;
-	2776 [label="Chat ends.",color=orange];
+		j3394187392 -> "Chat ends.";
 }

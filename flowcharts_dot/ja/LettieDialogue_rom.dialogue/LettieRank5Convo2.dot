@@ -1,295 +1,282 @@
 digraph {
-	1782 [label="LettieRank5Convo2 begins.",color=orange];
-		1782 -> 1783;
-	1783 [label="Check boolean LettieDating",color=orange];
-		1783 -> 1784 [label=true,color=green];
-		1783 -> 1785 [label=false,color=brown];
-	1784 [label="Solecito 
+	"LettieRank5Convo2 begins." [color=orange];
+		"LettieRank5Convo2 begins." -> j3526029970;
+	j3526029970 [label="Check boolean LettieDating",color=orange];
+		j3526029970 -> j3624168693 [label=true,color=green];
+		j3526029970 -> j4080921759 [label=false,color=brown];
+	j3624168693 [label="Solecito 
 そこにいるの？
 少し時間があるから話がしたい",shape=box,color=blue];
-		1784 -> 1786;
-		1784 -> 1787;
-		1784 -> 1788;
-	1785 [label="ねえ
+		j3624168693 -> j3968980633;
+		j3624168693 -> j2166129065;
+		j3624168693 -> j2946383903;
+	j4080921759 [label="ねえ
 そこにいるの？
 少し時間があるから話がしたい",shape=box,color=blue];
-		1785 -> 1787;
-		1785 -> 1788;
-	1786 [label="別れ話を切り出しに来たんじゃない、よね？",shape=box,color=red];
-		1786 -> 1790;
-	1787 [label="*LETTIE*が話したい…？　 体調は大丈夫？　 誰か死んだの？",shape=box,color=red];
-		1787 -> 1791;
-	1788 [label="ごめん、今はチャットできない。[閉じる]",shape=box,color=red];
-		1788 -> 1789;
-	1790 [label="¡Ay, no! 
+		j4080921759 -> j2166129065;
+		j4080921759 -> j2946383903;
+	j3968980633 [label="別れ話を切り出しに来たんじゃない、よね？",shape=box,color=red];
+		j3968980633 -> j1143468000;
+	j2166129065 [label="*LETTIE*が話したい…？　 体調は大丈夫？　 誰か死んだの？",shape=box,color=red];
+		j2166129065 -> j2057428623;
+	j2946383903 [label="ごめん、今はチャットできない。[閉じる]",shape=box,color=red];
+		j2946383903 -> "Chat ends.";
+	j1143468000 [label="¡Ay, no! 
 いやいやいや
 そんな話じゃないわ jajaja
 でも話し終わったころにはそっちの気が変わっているかも",shape=box,color=blue];
-		1790 -> 1792;
-		1790 -> 1793;
-	1791 [label="Jaja はいはいオモシロイ
+		j1143468000 -> j2006785817;
+		j1143468000 -> j560128640;
+	j2057428623 [label="Jaja はいはいオモシロイ
 それにこの時点で一度も死んでいない人はいないわ
 Ay, 違うわ、アタシが話したいのは
 重要なこと
 そして今までずっと避けてきたこと",shape=box,color=blue];
-		1791 -> 1793;
-		1791 -> 1792;
-	1789 [label="Chat ends.",color=orange];
-	1792 [label="わかった…　何の話？",shape=box,color=red];
-		1792 -> 1794;
-	1793 [label="分かった。ちゃんと聞いてるよ。",shape=box,color=red];
-		1793 -> 1794;
-	1794 [label="Check boolean LettieHexAsked",color=orange];
-		1794 -> 1795 [label=true,color=green];
-		1794 -> 1796 [label=false,color=brown];
-	1795 [label="あんたは以前、アタシたちがどうこのmonstruosになったか聞いた
+		j2057428623 -> j560128640;
+		j2057428623 -> j2006785817;
+	"Chat ends." [color=orange];
+	j2006785817 [label="わかった…　何の話？",shape=box,color=red];
+		j2006785817 -> j2818670173;
+	j560128640 [label="分かった。ちゃんと聞いてるよ。",shape=box,color=red];
+		j560128640 -> j2818670173;
+	j2818670173 [label="Check boolean LettieHexAsked",color=orange];
+		j2818670173 -> j1788840585 [label=true,color=green];
+		j2818670173 -> j3172424732 [label=false,color=brown];
+	j1788840585 [label="あんたは以前、アタシたちがどうこのmonstruosになったか聞いた
 pinche cabrónがアタシたちに何をしたかを
 何故アタシが奴をこれほど恨むかを
 こうするハメになった原因は何かを",shape=box,color=blue];
-		1795 -> 1801;
-	1796 [label="Check boolean LettieEntrati",color=orange];
-		1796 -> 1797 [label=true,color=green];
-		1796 -> 1798 [label=false,color=brown];
-	1801 [label="まず
+		j1788840585 -> j2967864750;
+	j3172424732 [label="Check boolean LettieEntrati",color=orange];
+		j3172424732 -> j242443268 [label=true,color=green];
+		j3172424732 -> j3038561522 [label=false,color=brown];
+	j2967864750 [label="まず
 アタシはArthurに付いて国危対に入った
 誰も見たことない変な感染病に対処するためこのcuchitrilに送られた",shape=box,color=blue];
-		1801 -> 1802;
-	1797 [label="Pinche cabrónがアタシたちに何をしたかを知るべきよ
+		j2967864750 -> j2921814489;
+	j242443268 [label="Pinche cabrónがアタシたちに何をしたかを知るべきよ
 何故アタシが奴をこれほど恨むかを
 こうするハメになった原因は何かを",shape=box,color=blue];
-		1797 -> 1801;
-	1798 [label="Check boolean LettieArthur1",color=orange];
-		1798 -> 1799 [label=true,color=green];
-		1798 -> 1800 [label=false,color=brown];
-	1802 [label="人を食い尽くす病気
+		j242443268 -> j2967864750;
+	j3038561522 [label="Check boolean LettieArthur1",color=orange];
+		j3038561522 -> j1980804896 [label=true,color=green];
+		j3038561522 -> j1129085892 [label=false,color=brown];
+	j2921814489 [label="人を食い尽くす病気
 半分人間半分機械にして吐き出す
 あるいは全然ヒトではないものを、más bien computadoras",shape=box,color=blue];
-		1802 -> 1803;
-	1799 [label="あんたにはArthurとアタシがどうhermanosになったかを伝えた
+		j2921814489 -> j2140740092;
+	j1980804896 [label="あんたにはArthurとアタシがどうhermanosになったかを伝えた
 けどどうこのmonstruosになったかはしてない
 pinche cabrónがアタシたちに何をしたかを知るべきよ
 何故アタシが奴をこれほど恨むかを
 こうするハメになった原因は何かを",shape=box,color=blue];
-		1799 -> 1801;
-	1800 [label="あんたはアタシたちのために色々してくれた
+		j1980804896 -> j2967864750;
+	j1129085892 [label="あんたはアタシたちのために色々してくれた
 命を救って、一緒に留まって…　いつでも去れると言うのに
 だから話の全貌を伝えるわ",shape=box,color=blue];
-		1800 -> 1801;
-	1803 [label="アタシたちは「対処する」ために配備された
+		j1129085892 -> j2967864750;
+	j2140740092 [label="アタシたちは「対処する」ために配備された
 アタシたちが知ってる最良のやり方で
 包帯と
 弾丸で",shape=box,color=blue];
-		1803 -> 1804;
-	1804 [label="これは1998年初めの話よ
+		j2140740092 -> j3231690825;
+	j3231690825 [label="これは1998年初めの話よ
 あんたが来るずっと前
 あのEntratiのcabrónは既にここにいた
 MENTIRASを売り込みながら",shape=box,color=blue];
-		1804 -> 1805;
-	1805 [label="けど最高のウソは信じたくなるものよ、¿verdad?
+		j3231690825 -> j1317593985;
+	j1317593985 [label="けど最高のウソは信じたくなるものよ、¿verdad?
 この病気にはLa Flacaとのダンス以外の治療法がなかった
 そこで現れたのが彼
 ドクターFと彼の奇跡の入った魔法の鞄、苦しめるものを治療する薬
 自分の持つmedicina milagrosaなら解決できると言って",shape=box,color=blue];
-		1805 -> 1806;
-	1806 [label="そしてアタシたちはそれを信じた、como una bola de mensos
+		j1317593985 -> j3955701834;
+	j3955701834 [label="そしてアタシたちはそれを信じた、como una bola de mensos
 国危対本部も薬配布の支援を懸念した。命令に従うべきだったわね
 だってワクチンは科学者から来るべきでしょ、ダサいトレンチコート羽織った老人じゃなくて
 旧世界のインチキ薬みたいにウソを売る詐欺師
 けど周り全ての人が死にかけてるのよ？
 結局支援したのは、そもそも人々を助けるために入隊したから",shape=box,color=blue];
-		1806 -> 1807;
-	1807 [label="だからアタシたちは奴がこの街の人に薬を注入するのを手伝った
+		j3955701834 -> j3871083615;
+	j3871083615 [label="だからアタシたちは奴がこの街の人に薬を注入するのを手伝った
 テントに列を並べてあのcabrónとアタシは次々に注射した
 そして他のメンバーはアタシたちが働いてる間警備を担当していた",shape=box,color=blue];
-		1807 -> 1808;
-	1808 [label="NOSOTROS CREÍMOS EN ÉL
+		j3871083615 -> j2643175948;
+	j2643175948 [label="NOSOTROS CREÍMOS EN ÉL
 アタシたちは奴を信用してた
 ¿Y por tan poco?
 上手く行っているように見えたの
 注射した人は病気にかからなかった
 問題は…",shape=box,color=blue];
-		1808 -> 1809;
-	1809 [label="彼らの周りの全員が病にかかった
+		j2643175948 -> j1508026049;
+	j1508026049 [label="彼らの周りの全員が病にかかった
 「無症候性キャリア」って何か知ってる？
 cuando estaba chiquita、ある夏の時期動物保護施設でボランティアしたの
 たくさんアライグマがいた
 狂犬病の無症候性キャリアのリスクのあるアライグマを放すことはできなかった
 健康な見た目だったわ、元気そうに見えた、普通に見えた…",shape=box,color=blue];
-		1809 -> 1810;
-	1810 [label="でももし逃がしたら？
+		j1508026049 -> j2368632959;
+	j2368632959 [label="でももし逃がしたら？
 出会ったもの全てを感染させるでしょう…
 それがアタシたちが人々にしたこと
 ソレがヤツがアタシたちにやらせたこと！
 ¡LO HIZO A PROPÓSITO!
 ここはMictlánの果てよ、POR SU CULPA！",shape=box,color=blue];
-		1810 -> 1811;
-	1811 [label="疑い始めた頃でさえ
+		j2368632959 -> j80937616;
+	j80937616 [label="疑い始めた頃でさえ
 信じられなかった
 互いに囁きあったわ
 でも頭を振ってこう言う
 いやいやいや、ありえない
 そんなはずない
 アタシたちじゃない",shape=box,color=blue];
-		1811 -> 1812;
-	1812 [label="Update boolean LettieHex",color=orange];
-		1812 -> 1813;
-	1813 [label="Check boolean LettieDating",color=orange];
-		1813 -> 1814 [label=true,color=green];
-		1813 -> 1815 [label=false,color=brown];
-	1814 [label="信じたくなかった
+		j80937616 -> j1382766468;
+	j1382766468 [label="Boolean LettieHex is now true.",color=orange];
+		j1382766468 -> j86733959;
+	j86733959 [label="Check boolean LettieDating",color=orange];
+		j86733959 -> j2540641319 [label=true,color=green];
+		j86733959 -> j2307554490 [label=false,color=brown];
+	j2540641319 [label="信じたくなかった
 信頼がなくなったことに
 アタシたちも…　薬を打ったのよ、solecito…
 疫病を拡大したのはアタシたちなの…",shape=box,color=blue];
-		1814 -> 1816;
-	1815 [label="信じたくなかった
+		j2540641319 -> j2422271004;
+	j2307554490 [label="信じたくなかった
 信頼がなくなったことに
 アタシたちも…　薬を打ったのよ…
 疫病を拡大したのはアタシたちなの…",shape=box,color=blue];
-		1815 -> 1816;
-	1816 [label="そして、奴がテックロット菌株が変異したと言って…　アタシたちも安全ではないと言った時…",shape=box,color=blue];
-		1816 -> 1817;
-	1817 [label="アタシたちはためらいなく並んだ
+		j2307554490 -> j2422271004;
+	j2422271004 [label="そして、奴がテックロット菌株が変異したと言って…　アタシたちも安全ではないと言った時…",shape=box,color=blue];
+		j2422271004 -> j3127076065;
+	j3127076065 [label="アタシたちはためらいなく並んだ
 良い子のsoldaditosみたいに",shape=box,color=blue];
-		1817 -> 1818;
-	1818 [label="嗚呼ルア、痛かったわ
+		j3127076065 -> j1678180753;
+	j1678180753 [label="嗚呼ルア、痛かったわ
 楽しい類でもなかった…
 Aoiの絶叫が一番酷かった
 彼女を救えなかった、アタシも死にかけていたから
 彼女は恐怖に泣いてて、アタシは彼女を抱きしめたかった",shape=box,color=blue];
-		1818 -> 1819;
-	1819 [label="大丈夫だって伝えたかった
+		j1678180753 -> j138110240;
+	j138110240 [label="大丈夫だって伝えたかった
 痛みはもうすぐ消えてLa Flacaが彼女を家に連れて帰ると
 彼女はとても怯えていて、アタシは何もできなかった
 足が動かなかった…",shape=box,color=blue];
-		1819 -> 1820;
-	1820 [label="だからアタシはあのクソ野郎を憎むわ
+		j138110240 -> j1572477675;
+	j1572477675 [label="だからアタシはあのクソ野郎を憎むわ
 この終わりのない人生毎日
 あの裏切りを",shape=box,color=blue];
-		1820 -> 1821;
-	1821 [label="それでもしまた奴に会ったらね？
+		j1572477675 -> j3844929457;
+	j3844929457 [label="それでもしまた奴に会ったらね？
 あんたはアタシを抑える覚悟をして
 さもなきゃ本当の痛みを奴に教えるわ",shape=box,color=blue];
-		1821 -> 1822;
-		1821 -> 1823;
-		1821 -> 1824;
-		1821 -> 1825;
-	1822 [label="そんな憎しみを抱くのは健康的じゃない、たとえ彼がしたことが間違っていても。",shape=box,color=red];
-		1822 -> 1826;
-	1823 [label="…気付かなかった。彼がそんなことを…　同じ立場だったら憎んでいただろう。",shape=box,color=red];
-		1823 -> 1827;
-	1824 [label="その、それで、待った。テックロットの蔓延はLettieたち全員に一部責任があるの？",shape=box,color=red];
-		1824 -> 1828;
-	1825 [label="ごめん、ちょっと眠気に襲われてた。何て言ったの？",shape=box,color=red];
-		1825 -> 1829;
-	1826 [label="あんた凄いわ
+		j3844929457 -> j3458457110;
+		j3844929457 -> j789919840;
+		j3844929457 -> j3642486444;
+		j3844929457 -> j437125408;
+	j3458457110 [label="そんな憎しみを抱くのは健康的じゃない、たとえ彼がしたことが間違っていても。",shape=box,color=red];
+		j3458457110 -> j1386229369;
+	j789919840 [label="…気付かなかった。彼がそんなことを…　同じ立場だったら憎んでいただろう。",shape=box,color=red];
+		j789919840 -> j3439071104;
+	j3642486444 [label="その、それで、待った。テックロットの蔓延はLettieたち全員に一部責任があるの？",shape=box,color=red];
+		j3642486444 -> j1824089408;
+	j437125408 [label="ごめん、ちょっと眠気に襲われてた。何て言ったの？",shape=box,color=red];
+		j437125408 -> j2548450594;
+	j1386229369 [label="あんた凄いわ
 San Babas万歳
 罪を許すものよ
 いいえ
 許されないことだってある
 奴がアタシたちにしたこともその一つ
 アタシたちがこの街の人々にしたことも一つ",shape=box,color=blue];
-		1826 -> 1833;
-		1826 -> 1834;
-		1826 -> 1836;
-	1827 [label="SÍ
+		j1386229369 -> j470374779;
+		j1386229369 -> j2295961879;
+		j1386229369 -> j2058690538;
+	j3439071104 [label="SÍ
 裏切りを受け入れることはない
 けど奴のことは信じたかった、それがアタシたちを愚かにした
 もうコレ以上アタシたちと行動したくなくても、納得するわ
 他も分かってくれるわ",shape=box,color=blue];
-		1827 -> 1833;
-		1827 -> 1834;
-		1827 -> 1836;
-	1828 [label="SÍ
+		j3439071104 -> j470374779;
+		j3439071104 -> j2295961879;
+		j3439071104 -> j2058690538;
+	j1824089408 [label="SÍ
 そうよ
 けど奴のことは信じたかった、それがアタシたちを愚かにした
 もうコレ以上アタシたちと行動したくなくても、納得するわ
 他も分かってくれるわ",shape=box,color=blue];
-		1828 -> 1833;
-		1828 -> 1834;
-		1828 -> 1836;
-	1829 [label="Update boolean LettieDating",color=orange];
-		1829 -> 1830;
-	1833 [label="こっちはLettieがしたことが許されるかどうかの話をしているワケじゃないし、できる立場じゃない。でも正直、Lettieたちがしたことは許されることではないのかもしれない。",shape=box,color=red];
-		1833 -> 1839;
-	1834 [label="Entratiはここに来て探していたものを見つけた。望む方向に誘導できる、有力で技術のある人間を。それについて深く考えすぎない人間を。Lettieたちはこれまで騙されてきた人同様、彼の十八番に引っかかったんだ。",shape=box,color=red];
-		1834 -> 1837;
-	1836 [label="起こったことはLettieのせいじゃない。彼に騙されたんだ。確かに、事態が悪化しても真実を見破れなかったのは軽率だったかもしれない。けど誰が責められる？　希望は危ない薬だ。そして彼はそれをたっぷり注入した。",shape=box,color=red];
-		1836 -> 1838;
-	1830 [label="Update boolean IsDating",color=orange];
-		1830 -> 1831;
-	1839 [label="人々は死んだ。人々は生き返らない。Lettieたちが「ダサいトレンチコート羽織った老人」が売る奇跡の薬を信じ込んだから。",shape=box,color=red];
-		1839 -> 1842;
-	1837 [label="Lettieは彼のウソを信じたかった。だからそうしたんだ。それはLettieたちの責任だ。そのせいで病気になった人々は？　それもLettieたちの責任。",shape=box,color=red];
-		1837 -> 1839;
-		1837 -> 1840;
-	1838 [label="だから当然、Lettieはそれに従った。当然、Lettieはチャンスがあると信じたがってた。",shape=box,color=red];
-		1838 -> 1841;
-	1831 [label="Update boolean LettieNoDate",color=orange];
-		1831 -> 1832;
-	1842 [label="そしてその事実からLettieたちを解放する立場に自分はいない。すまない。",shape=box,color=red];
-		1842 -> 1845;
-	1840 [label="けど人間は間違いを犯す。そしてそれを認める。そしてLettieはここで、それを認めようとしている。だから…　過ちを犯した人が正しいことをしようとしている。",shape=box,color=red];
-		1840 -> 1843;
-	1841 [label="自分も同じことをしただろう。",shape=box,color=red];
-		1841 -> 1835;
-	1832 [label="Chat ends.",color=orange];
-	1845 [label="Check boolean LettieDating",color=orange];
-		1845 -> 1846 [label=true,color=green];
-		1845 -> 1847 [label=false,color=brown];
-	1843 [label="そして分別ある人間がそれ以上のものを求めるとは思えない。Lettieを軽蔑しない。ここに失敗した人がいる。けどまた挑もうとしている。自分はそれがどんな感じか分かる。",shape=box,color=red];
-		1843 -> 1844;
-	1835 [label="¿SÍ? 
+		j1824089408 -> j470374779;
+		j1824089408 -> j2295961879;
+		j1824089408 -> j2058690538;
+	j2548450594 [label="Boolean LettieDating is now false.",color=orange];
+		j2548450594 -> j4086907321;
+	j470374779 [label="こっちはLettieがしたことが許されるかどうかの話をしているワケじゃないし、できる立場じゃない。でも正直、Lettieたちがしたことは許されることではないのかもしれない。",shape=box,color=red];
+		j470374779 -> j3912699519;
+	j2295961879 [label="Entratiはここに来て探していたものを見つけた。望む方向に誘導できる、有力で技術のある人間を。それについて深く考えすぎない人間を。Lettieたちはこれまで騙されてきた人同様、彼の十八番に引っかかったんだ。",shape=box,color=red];
+		j2295961879 -> j1191773794;
+	j2058690538 [label="起こったことはLettieのせいじゃない。彼に騙されたんだ。確かに、事態が悪化しても真実を見破れなかったのは軽率だったかもしれない。けど誰が責められる？　希望は危ない薬だ。そして彼はそれをたっぷり注入した。",shape=box,color=red];
+		j2058690538 -> j4053737671;
+	j4086907321 [label="Boolean IsDating is now false.",color=orange];
+		j4086907321 -> j2703113057;
+	j3912699519 [label="人々は死んだ。人々は生き返らない。Lettieたちが「ダサいトレンチコート羽織った老人」が売る奇跡の薬を信じ込んだから。",shape=box,color=red];
+		j3912699519 -> j251648759;
+	j1191773794 [label="Lettieは彼のウソを信じたかった。だからそうしたんだ。それはLettieたちの責任だ。そのせいで病気になった人々は？　それもLettieたちの責任。",shape=box,color=red];
+		j1191773794 -> j3912699519;
+		j1191773794 -> j197002327;
+	j4053737671 [label="だから当然、Lettieはそれに従った。当然、Lettieはチャンスがあると信じたがってた。",shape=box,color=red];
+		j4053737671 -> j128547309;
+	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2703113057 -> "Chat ends.";
+	j251648759 [label="そしてその事実からLettieたちを解放する立場に自分はいない。すまない。",shape=box,color=red];
+		j251648759 -> j44039935;
+	j197002327 [label="けど人間は間違いを犯す。そしてそれを認める。そしてLettieはここで、それを認めようとしている。だから…　過ちを犯した人が正しいことをしようとしている。",shape=box,color=red];
+		j197002327 -> j3373925875;
+	j128547309 [label="自分も同じことをしただろう。",shape=box,color=red];
+		j128547309 -> j1410410574;
+	j44039935 [label="Check boolean LettieDating",color=orange];
+		j44039935 -> j3128624706 [label=true,color=green];
+		j44039935 -> j1408924515 [label=false,color=brown];
+	j3373925875 [label="そして分別ある人間がそれ以上のものを求めるとは思えない。Lettieを軽蔑しない。ここに失敗した人がいる。けどまた挑もうとしている。自分はそれがどんな感じか分かる。",shape=box,color=red];
+		j3373925875 -> j1927512488;
+	j1410410574 [label="¿SÍ? 
 Ay…　ならアタシたち療法バカねjajaja
 あんたはアタシたちとここにいるのがお似合いかも
 はぁ
 足が痛い
 Mierda、何もかもが痛い",shape=box,color=blue];
-		1835 -> 1844;
-	1846 [label="Sí 
+		j1410410574 -> j1927512488;
+	j3128624706 [label="Sí 
 その通り
 アタシたちは間違いを犯した
 そして、この関係が上手くいくと考えたアタシはまた間違えた",shape=box,color=blue];
-		1846 -> 1852;
-	1847 [label="Sí 
+		j3128624706 -> j2548450594;
+	j1408924515 [label="Sí 
 その通り
 アタシたちは間違いを犯した
 そして、あんたにこの話をできると信じたアタシはまた間違えた",shape=box,color=blue];
-		1847 -> 1854;
-	1844 [label="Check boolean LettieDating",color=orange];
-		1844 -> 1857 [label=true,color=green];
-		1844 -> 1860 [label=false,color=brown];
-	1852 [label="Update boolean LettieDating",color=orange];
-		1852 -> 1851;
-	1854 [label="Update boolean LettieNoDate",color=orange];
-		1854 -> 1855;
-	1857 [label="+20 Chemistry",color=orange];
-		1857 -> 1848;
-	1860 [label="+20 Chemistry",color=orange];
-		1860 -> 1849;
-	1851 [label="Update boolean IsDating",color=orange];
-		1851 -> 1850;
-	1855 [label="Update boolean LettieTrust1",color=orange];
-		1855 -> 1856;
-	1848 [label="ここまでにしましょう、solecito
+		j1408924515 -> j193369797;
+	j1927512488 [label="Check boolean LettieDating",color=orange];
+		j1927512488 -> j1705527350 [label=true,color=green];
+		j1927512488 -> j2419069590 [label=false,color=brown];
+	j193369797 [label="Boolean LettieNoDate is now true.",color=orange];
+		j193369797 -> j2643525984;
+	j1705527350 [label="+20 Chemistry",color=orange];
+		j1705527350 -> j857797541;
+	j2419069590 [label="+20 Chemistry",color=orange];
+		j2419069590 -> j439839382;
+	j2643525984 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j2643525984 -> "Chat ends.";
+	j857797541 [label="ここまでにしましょう、solecito
 Gracias
 聞いてくれてありがとう、そして…
 アタシたちを軽蔑しないでくれて",shape=box,color=blue];
-		1848 -> 1858;
-	1849 [label="ここまでにしましょう
+		j857797541 -> j2643525984;
+	j439839382 [label="ここまでにしましょう
 Gracias
 聞いてくれてありがとう、そして…
 アタシたちを軽蔑しないでくれて",shape=box,color=blue];
-		1849 -> 1861;
-	1850 [label="Update boolean LettieNoDate",color=orange];
-		1850 -> 1853;
-	1856 [label="Chat ends.",color=orange];
-	1858 [label="Update boolean LettieTrust1",color=orange];
-		1858 -> 1859;
-	1861 [label="Update boolean LettieTrust1",color=orange];
-		1861 -> 1862;
-	1853 [label="Chat ends.",color=orange];
-	1859 [label="Chat ends.",color=orange];
-	1862 [label="Update boolean LettieWillDate",color=orange];
-		1862 -> 1089;
-	1089 [label="Chat ends.",color=orange];
+		j439839382 -> j4291310321;
+	j4291310321 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j4291310321 -> j2129367046;
+	j2129367046 [label="Boolean LettieWillDate is now true.",color=orange];
+		j2129367046 -> "Chat ends.";
 }

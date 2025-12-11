@@ -1,172 +1,170 @@
 digraph {
-	758 [label="LettieRank3Convo3 begins.",color=orange];
-		758 -> 759;
-	759 [label="在所有这些乱七八糟的事之前 
+	"LettieRank3Convo3 begins." [color=orange];
+		"LettieRank3Convo3 begins." -> j957836095;
+	j957836095 [label="在所有这些乱七八糟的事之前 
 ¿babas?，你从哪里来？",shape=box,color=blue];
-		759 -> 760;
-		759 -> 762;
-	760 [label="乱七八糟的事开始得很早。你是指现在之前、双衍王境之前，还是扎里曼之前？",shape=box,color=red];
-		760 -> 764;
-	762 [label="抱歉，不方便聊。[结束]",shape=box,color=red];
-		762 -> 763;
-	764 [label="Jajaja 
+		j957836095 -> j2808066547;
+		j957836095 -> j3496410265;
+	j2808066547 [label="乱七八糟的事开始得很早。你是指现在之前、双衍王境之前，还是扎里曼之前？",shape=box,color=red];
+		j2808066547 -> j132894264;
+	j3496410265 [label="抱歉，不方便聊。[结束]",shape=box,color=red];
+		j3496410265 -> "Chat ends.";
+	j132894264 [label="Jajaja 
 你说得对，确实很早就开始了
 但你感觉自己从哪里来",shape=box,color=blue];
-		764 -> 766;
-		764 -> 767;
-		764 -> 768;
-		764 -> 769;
-		764 -> 770;
-	763 [label="Chat ends.",color=orange];
-	766 [label="我觉得，应该是双衍王境吧。",shape=box,color=red];
-		766 -> 771;
-	767 [label="我猜是扎里曼号吧。",shape=box,color=red];
-		767 -> 772;
-	768 [label="你可能会笑话我……但这里是我有生以来觉得最接近“家”的地方。",shape=box,color=red];
-		768 -> 773;
-	769 [label="我其实并非“来自”任何地方。",shape=box,color=red];
-		769 -> 774;
-	770 [label="说实话？我……不知道。奥罗金人基本抹去了古代地球的大部分记录，所以我完全无法知道自己到底来自多远的未来。",shape=box,color=red];
-		770 -> 779;
-	771 [label="Update boolean LettieHomeDuviri",color=orange];
-		771 -> 775;
-	772 [label="Update boolean LettieHomeZariman",color=orange];
-		772 -> 776;
-	773 [label="Update boolean LettieHome1999",color=orange];
-		773 -> 777;
-	774 [label="Update boolean LettieHomeNowhere",color=orange];
-		774 -> 778;
-	779 [label="你一定很难受吧
+		j132894264 -> j2417124679;
+		j132894264 -> j3433887256;
+		j132894264 -> j10427667;
+		j132894264 -> j3174393719;
+		j132894264 -> j3214675678;
+	"Chat ends." [color=orange];
+	j2417124679 [label="我觉得，应该是双衍王境吧。",shape=box,color=red];
+		j2417124679 -> j154350206;
+	j3433887256 [label="我猜是扎里曼号吧。",shape=box,color=red];
+		j3433887256 -> j3485572477;
+	j10427667 [label="你可能会笑话我……但这里是我有生以来觉得最接近“家”的地方。",shape=box,color=red];
+		j10427667 -> j3249857129;
+	j3174393719 [label="我其实并非“来自”任何地方。",shape=box,color=red];
+		j3174393719 -> j3675224545;
+	j3214675678 [label="说实话？我……不知道。奥罗金人基本抹去了古代地球的大部分记录，所以我完全无法知道自己到底来自多远的未来。",shape=box,color=red];
+		j3214675678 -> j4194294710;
+	j154350206 [label="Boolean LettieHomeDuviri is now true.",color=orange];
+		j154350206 -> j3656130650;
+	j3485572477 [label="Boolean LettieHomeZariman is now true.",color=orange];
+		j3485572477 -> j2606526311;
+	j3249857129 [label="Boolean LettieHome1999 is now true.",color=orange];
+		j3249857129 -> j972965890;
+	j3675224545 [label="Boolean LettieHomeNowhere is now true.",color=orange];
+		j3675224545 -> j2066825481;
+	j4194294710 [label="你一定很难受吧
 感觉自己没有归属的时间和地方",shape=box,color=blue];
-		779 -> 784;
-	775 [label="不管它对你造成了什么伤害？",shape=box,color=blue];
-		775 -> 780;
-		775 -> 781;
-	776 [label="就是那艘船，¿no? 
+		j4194294710 -> j3385356840;
+	j3656130650 [label="不管它对你造成了什么伤害？",shape=box,color=blue];
+		j3656130650 -> j97737226;
+		j3656130650 -> j297416701;
+	j2606526311 [label="就是那艘船，¿no? 
 现在不是已经废弃了吗？",shape=box,color=blue];
-		776 -> 782;
-		776 -> 783;
-	777 [label="你为什么觉得我会笑你",shape=box,color=blue];
-		777 -> 779;
-	778 [label="Sí，你这个漂泊者
+		j2606526311 -> j2954474107;
+		j2606526311 -> j1078858991;
+	j972965890 [label="你为什么觉得我会笑你",shape=box,color=blue];
+		j972965890 -> j4194294710;
+	j2066825481 [label="Sí，你这个漂泊者
 没有家的你",shape=box,color=blue];
-		778 -> 779;
-	784 [label="我家里搬过很多地方，后来我参了军
+		j2066825481 -> j4194294710;
+	j3385356840 [label="我家里搬过很多地方，后来我参了军
 然后进了国危部，我感觉自己无论在哪儿都格格不入
 所以在某种程度上，我明白那种无所属的感觉",shape=box,color=blue];
-		784 -> 788;
-	780 [label="有时候，我们无法选择家对我们所做的事。",shape=box,color=red];
-		780 -> 785;
-	781 [label="它对我做的，也是我对自己做的。噩梦一次又一次地在我脑海中上演。",shape=box,color=red];
-		781 -> 792;
-	782 [label="这是……一个复杂的问题。它有自己的鬼魂。",shape=box,color=red];
-		782 -> 792;
-	783 [label="不，它没有被废弃。它承载着那些把它称为家的人的回忆。",shape=box,color=red];
-		783 -> 792;
-	788 [label="但我有一个可以称之为属于自己的人民和文化
+		j3385356840 -> j3075449120;
+	j97737226 [label="有时候，我们无法选择家对我们所做的事。",shape=box,color=red];
+		j97737226 -> j4065457602;
+	j297416701 [label="它对我做的，也是我对自己做的。噩梦一次又一次地在我脑海中上演。",shape=box,color=red];
+		j297416701 -> j2912541003;
+	j2954474107 [label="这是……一个复杂的问题。它有自己的鬼魂。",shape=box,color=red];
+		j2954474107 -> j2912541003;
+	j1078858991 [label="不，它没有被废弃。它承载着那些把它称为家的人的回忆。",shape=box,color=red];
+		j1078858991 -> j2912541003;
+	j3075449120 [label="但我有一个可以称之为属于自己的人民和文化
 即使他们在很遥远的地方",shape=box,color=blue];
-		788 -> 790;
-		788 -> 791;
-	785 [label="Sí，我怎么会不懂呢
+		j3075449120 -> j803959335;
+		j3075449120 -> j3985755735;
+	j4065457602 [label="Sí，我怎么会不懂呢
 我们家搬了很多次家，然后我参军了 
 之后又去了国危部，我到哪里和谁在一起都没有归属感",shape=box,color=blue];
-		785 -> 786;
-	792 [label="更多的 fantasmas，更多跟随着你的死亡
+		j4065457602 -> j560463292;
+	j2912541003 [label="更多的 fantasmas，更多跟随着你的死亡
 我还以为我已经很了解 La Flaca 了",shape=box,color=blue];
-		792 -> 796;
-		792 -> 797;
-	790 [label="我的另一个选择是双衍王境，但……不行。我和那个地方的历史太复杂了。",shape=box,color=red];
-		790 -> 792;
-	791 [label="我的另一个选择是扎里曼，但它并没好多少。那里充满了同样多的鬼魂和噩梦。除了在那，不只是我，更多的人死了。",shape=box,color=red];
-		791 -> 792;
-	786 [label="babas，但是我的家并没有像那个地方对你那样对我
+		j2912541003 -> j2901317922;
+		j2912541003 -> j2236061576;
+	j803959335 [label="我的另一个选择是双衍王境，但……不行。我和那个地方的历史太复杂了。",shape=box,color=red];
+		j803959335 -> j2912541003;
+	j3985755735 [label="我的另一个选择是扎里曼，但它并没好多少。那里充满了同样多的鬼魂和噩梦。除了在那，不只是我，更多的人死了。",shape=box,color=red];
+		j3985755735 -> j2912541003;
+	j560463292 [label="babas，但是我的家并没有像那个地方对你那样对我
 我尊重你仍然把那里当成是你来自的地方",shape=box,color=blue];
-		786 -> 787;
-		786 -> 791;
-	796 [label="她早就给我设了快速拨号。",shape=box,color=red];
-		796 -> 802;
-	797 [label="无论我走到哪里，鬼魂都跟着我。有时候我甚至怀疑自己是不是也是个鬼魂。",shape=box,color=red];
-		797 -> 803;
-	787 [label="我想，那是我最了解的地方，也是最了解我的地方。",shape=box,color=red];
-		787 -> 789;
-	802 [label="Jaja，看起来是这样
+		j560463292 -> j3061482968;
+		j560463292 -> j3985755735;
+	j2901317922 [label="她早就给我设了快速拨号。",shape=box,color=red];
+		j2901317922 -> j3292592915;
+	j2236061576 [label="无论我走到哪里，鬼魂都跟着我。有时候我甚至怀疑自己是不是也是个鬼魂。",shape=box,color=red];
+		j2236061576 -> j1640068591;
+	j3061482968 [label="我想，那是我最了解的地方，也是最了解我的地方。",shape=box,color=red];
+		j3061482968 -> j619867596;
+	j3292592915 [label="Jaja，看起来是这样
 不过你的鬼魂让我看到了希望",shape=box,color=blue];
-		802 -> 798;
-	803 [label="可怜的鬼魂缠身的 babas 
+		j3292592915 -> j3693307628;
+	j1640068591 [label="可怜的鬼魂缠身的 babas 
 但你给了我希望",shape=box,color=blue];
-		803 -> 804;
-	789 [label="+10 Chemistry",color=orange];
-		789 -> 793;
-	798 [label="我的困扰是怎么给你带来希望的呢？",shape=box,color=red];
-		798 -> 819;
-	804 [label="很高兴我的痛苦能给你带来快乐。",shape=box,color=red];
-		804 -> 805;
-	793 [label="Sí，熟悉的东西总有它的好处
+		j1640068591 -> j3651444877;
+	j619867596 [label="+10 Chemistry",color=orange];
+		j619867596 -> j766576443;
+	j3693307628 [label="我的困扰是怎么给你带来希望的呢？",shape=box,color=red];
+		j3693307628 -> j3862647157;
+	j3651444877 [label="很高兴我的痛苦能给你带来快乐。",shape=box,color=red];
+		j3651444877 -> j1945290486;
+	j766576443 [label="Sí，熟悉的东西总有它的好处
 我想随着时间的推移，这个地方会让我感觉像家一样 
 Mierda，我希望那是很长一段时间",shape=box,color=blue];
-		793 -> 794;
-		793 -> 795;
-	819 [label="我看到你和六人组的其他人在一起
+		j766576443 -> j1259115186;
+		j766576443 -> j761034369;
+	j3862647157 [label="我看到你和六人组的其他人在一起
 我看到你笑着，找到了属于你的快乐
 你是个鬼魂，就像我，像我们一样
 但你依然找到了意义",shape=box,color=blue];
-		819 -> 820;
-	805 [label="Check boolean LettieNoFlirt",color=orange];
-		805 -> 810 [label=true,color=green];
-		805 -> 806 [label=false,color=brown];
-	794 [label="你很坚强。你会没事的。",shape=box,color=red];
-		794 -> 799;
-	795 [label="嘿，至少你的同伴比我的更好。",shape=box,color=red];
-		795 -> 801;
-	820 [label="Update boolean LettieFantasma3",color=orange];
-		820 -> 822;
-	810 [label="+10 Chemistry",color=orange];
-		810 -> 807;
-	806 [label="Check boolean LettieFlirt",color=orange];
-		806 -> 811 [label=true,color=green];
-		806 -> 811 [label=false,color=brown];
-	799 [label="Pues，a ver",shape=box,color=blue];
-		799 -> 800;
-	801 [label="也许 
+		j3862647157 -> j2253459362;
+	j1945290486 [label="Check boolean LettieNoFlirt",color=orange];
+		j1945290486 -> j949424897 [label=true,color=green];
+		j1945290486 -> j763709535 [label=false,color=brown];
+	j1259115186 [label="你很坚强。你会没事的。",shape=box,color=red];
+		j1259115186 -> j3079980220;
+	j761034369 [label="嘿，至少你的同伴比我的更好。",shape=box,color=red];
+		j761034369 -> j2157179525;
+	j2253459362 [label="Boolean LettieFantasma3 is now true.",color=orange];
+		j2253459362 -> j441701698;
+	j949424897 [label="+10 Chemistry",color=orange];
+		j949424897 -> j3910878657;
+	j763709535 [label="Check boolean LettieFlirt",color=orange];
+		j763709535 -> j3451428105 [label=true,color=green];
+		j763709535 -> j3451428105 [label=false,color=brown];
+	j3079980220 [label="Pues，a ver",shape=box,color=blue];
+		j3079980220 -> "Chat ends.";
+	j2157179525 [label="也许 
 你在这点上给了我希望，babas",shape=box,color=blue];
-		801 -> 819;
-	822 [label="+10 Chemistry",color=orange];
-		822 -> 821;
-	807 [label="JAJA 
+		j2157179525 -> j3862647157;
+	j441701698 [label="+10 Chemistry",color=orange];
+		j441701698 -> j1739568400;
+	j3910878657 [label="JAJA 
 不，pequeño babas 
 你还能微笑",shape=box,color=blue];
-		807 -> 819;
-	811 [label="+10 Chemistry",color=orange];
-		811 -> 808;
-	800 [label="Chat ends.",color=orange];
-	821 [label="这其中还是有希望的
+		j3910878657 -> j3862647157;
+	j3451428105 [label="+10 Chemistry",color=orange];
+		j3451428105 -> j1846268682;
+	j1739568400 [label="这其中还是有希望的
 我会珍惜我能得到的，哪怕只有一点点
 Gracias，babas",shape=box,color=blue];
-		821 -> 823;
-	808 [label="哦别担心，babas
+		j1739568400 -> "Chat ends.";
+	j1846268682 [label="哦别担心，babas
 我们会轮流来的",shape=box,color=blue];
-		808 -> 812;
-		808 -> 813;
-		808 -> 814;
-	823 [label="Chat ends.",color=orange];
-	812 [label="什么？",shape=box,color=red];
-		812 -> 815;
-	813 [label="我——哦。*哦。*呵呵。好吧。",shape=box,color=red];
-		813 -> 816;
-	814 [label="我……不喜欢你这样，对不起，莱蒂。",shape=box,color=red];
-		814 -> 817;
-	815 [label="……你会找到答案的
+		j1846268682 -> j3214603816;
+		j1846268682 -> j1655648171;
+		j1846268682 -> j4206179858;
+	j3214603816 [label="什么？",shape=box,color=red];
+		j3214603816 -> j4003477318;
+	j1655648171 [label="我——哦。*哦。*呵呵。好吧。",shape=box,color=red];
+		j1655648171 -> j3669125071;
+	j4206179858 [label="我……不喜欢你这样，对不起，莱蒂。",shape=box,color=red];
+		j4206179858 -> j3386566438;
+	j4003477318 [label="……你会找到答案的
 我相信你
 但这次不是来聊你的痛苦的
 至少今天不是",shape=box,color=blue];
-		815 -> 819;
-	816 [label="但今天不是来谈你的痛苦的
+		j4003477318 -> j3862647157;
+	j3669125071 [label="但今天不是来谈你的痛苦的
 今天不说这个",shape=box,color=blue];
-		816 -> 819;
-	817 [label="Update boolean LettieNoFlirt",color=orange];
-		817 -> 818;
-	818 [label="Lo siento，我只是开个玩笑
+		j3669125071 -> j3862647157;
+	j3386566438 [label="Boolean LettieNoFlirt is now true.",color=orange];
+		j3386566438 -> j2974293442;
+	j2974293442 [label="Lo siento，我只是开个玩笑
 不会再发生了
 再说，这次不是来谈你的痛苦的",shape=box,color=blue];
-		818 -> 819;
+		j2974293442 -> j3862647157;
 }

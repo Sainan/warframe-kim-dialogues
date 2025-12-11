@@ -1,225 +1,214 @@
 digraph {
-	2389 [label="LettieRank6Convo1 begins.",color=orange];
-		2389 -> 2390;
-	2390 [label="Check boolean LettieDating",color=orange];
-		2390 -> 2391 [label=true,color=green];
-		2390 -> 2394 [label=false,color=brown];
-	2391 [label="Check boolean LettieReal",color=orange];
-		2391 -> 2392 [label=true,color=green];
-		2391 -> 2393 [label=false,color=brown];
-	2394 [label="เพื่อน 
+	"LettieRank6Convo1 begins." [color=orange];
+		"LettieRank6Convo1 begins." -> j2452349781;
+	j2452349781 [label="Check boolean LettieDating",color=orange];
+		j2452349781 -> j2676259319 [label=true,color=green];
+		j2452349781 -> j655046053 [label=false,color=brown];
+	j2676259319 [label="Check boolean LettieReal",color=orange];
+		j2676259319 -> j168403779 [label=true,color=green];
+		j2676259319 -> j2893065126 [label=false,color=brown];
+	j655046053 [label="เพื่อน 
 มีเรื่องจะสารภาพ",shape=box,color=blue];
-		2394 -> 2396;
-		2394 -> 2397;
-		2394 -> 2398;
-	2392 [label="Mi corazón 
+		j655046053 -> j3627138510;
+		j655046053 -> j1392183791;
+		j655046053 -> j3918003857;
+	j168403779 [label="Mi corazón 
 มีเรื่องจะสารภาพ",shape=box,color=blue];
-		2392 -> 2395;
-		2392 -> 2396;
-		2392 -> 2397;
-		2392 -> 2398;
-	2393 [label="Mi solecito 
+		j168403779 -> j2033532912;
+		j168403779 -> j3627138510;
+		j168403779 -> j1392183791;
+		j168403779 -> j3918003857;
+	j2893065126 [label="Mi solecito 
 มีเรื่องจะสารภาพ",shape=box,color=blue];
-		2393 -> 2395;
-		2393 -> 2396;
-		2393 -> 2397;
-		2393 -> 2398;
-	2396 [label="ว่าไง L?",shape=box,color=red];
-		2396 -> 2401;
-	2397 [label="โอ๊ะโอ...",shape=box,color=red];
-		2397 -> 2400;
-	2398 [label="ขอโทษนะ Kalymos กำลังเคี้ยวสายไฟอยู่ และ - [จบ]",shape=box,color=red];
-		2398 -> 2399;
-	2395 [label="ว่าไง ที่รัก?",shape=box,color=red];
-		2395 -> 2401;
-	2401 [label="ตอนที่เธอมาที่นี่น่ะ 
+		j2893065126 -> j2033532912;
+		j2893065126 -> j3627138510;
+		j2893065126 -> j1392183791;
+		j2893065126 -> j3918003857;
+	j3627138510 [label="ว่าไง L?",shape=box,color=red];
+		j3627138510 -> j1322639581;
+	j1392183791 [label="โอ๊ะโอ...",shape=box,color=red];
+		j1392183791 -> j3809343657;
+	j3918003857 [label="ขอโทษนะ Kalymos กำลังเคี้ยวสายไฟอยู่ และ - [จบ]",shape=box,color=red];
+		j3918003857 -> "Chat ends.";
+	j2033532912 [label="ว่าไง ที่รัก?",shape=box,color=red];
+		j2033532912 -> j1322639581;
+	j1322639581 [label="ตอนที่เธอมาที่นี่น่ะ 
 เค้ารู้ว่าเธอต้องเป็นตัวปัญหาแน่เลย 
 ปัญหาใหม่เกินแก้ที่จะเพิ่มเข้าไปในกองปัญหาที่เพิ่มมากขึ้นของ mierda ที่ต้องจัดการ",shape=box,color=blue];
-		2401 -> 2402;
-		2401 -> 2403;
-	2400 [label="Jajaja ฟังกันก่อน",shape=box,color=blue];
-		2400 -> 2401;
-	2399 [label="Chat ends.",color=orange];
-	2402 [label="แหม ขอบใจนะ",shape=box,color=red];
-		2402 -> 2404;
-	2403 [label="ก็แบบว่า... ใช่นะ แต่...",shape=box,color=red];
-		2403 -> 2404;
-	2404 [label="จากนั้นสิ่งต่าง ๆ ก็เลวร้ายลงไปอีก 
+		j1322639581 -> j1628573392;
+		j1322639581 -> j388194578;
+	j3809343657 [label="Jajaja ฟังกันก่อน",shape=box,color=blue];
+		j3809343657 -> j1322639581;
+	"Chat ends." [color=orange];
+	j1628573392 [label="แหม ขอบใจนะ",shape=box,color=red];
+		j1628573392 -> j4149591375;
+	j388194578 [label="ก็แบบว่า... ใช่นะ แต่...",shape=box,color=red];
+		j388194578 -> j4149591375;
+	j4149591375 [label="จากนั้นสิ่งต่าง ๆ ก็เลวร้ายลงไปอีก 
 จากเรื่องแย่ ๆ กลายเป็นเรื่องแย่ขึ้นอีก 
 เมื่อฝันร้ายยิ่งมืดมนมากขึ้น 
 ใครก็ตามที่มีสมองครึ่งเดียวคงวิ่งกลับไปที่อนาคตแล้ว",shape=box,color=blue];
-		2404 -> 2405;
-	2405 [label="แต่ตัวไม่ไป 
+		j4149591375 -> j420806123;
+	j420806123 [label="แต่ตัวไม่ไป 
 ยังอยู่เพราะเหตุผลโง่ ๆ บางอย่าง 
 อยู่กับพวกเราแถมยังสู้และช่วยให้เรากลับมารวมกันอีกครั้ง",shape=box,color=blue];
-		2405 -> 2406;
-	2406 [label="Ay, Lua, sálvame 
+		j420806123 -> j2608933746;
+	j2608933746 [label="Ay, Lua, sálvame 
 ยังไม่รู้ว่าทำไม 
 แต่ที่จริงไม่มีเหตุผลอะไรที่จะอยู่เพื่อคนแปลกหน้าเลยนะ",shape=box,color=blue];
-		2406 -> 2407;
-	2407 [label="Check boolean LettieReligion2",color=orange];
-		2407 -> 2408 [label=true,color=green];
-		2407 -> 2409 [label=false,color=brown];
-	2408 [label="เคยเห็นหน้า Xipe Totec ของตัวแล้ว เป็นเค้าคงวิ่งไปให้ไกลที่สุดและภาวนาว่ามันจะไม่สวมหนังเค้าเป็นรายต่อไป",shape=box,color=blue];
-		2408 -> 2409;
-	2409 [label="Check boolean LettieCavia",color=orange];
-		2409 -> 2410 [label=true,color=green];
-		2409 -> 2411 [label=false,color=brown];
-	2410 [label="คงเรียก Cavia ว่าเป็นสมาชิกในครอบครัวและอยู่กับพวกมันแทน 
+		j2608933746 -> j1387050652;
+	j1387050652 [label="Check boolean LettieReligion2",color=orange];
+		j1387050652 -> j2834627095 [label=true,color=green];
+		j1387050652 -> j1551587699 [label=false,color=brown];
+	j2834627095 [label="เคยเห็นหน้า Xipe Totec ของตัวแล้ว เป็นเค้าคงวิ่งไปให้ไกลที่สุดและภาวนาว่ามันจะไม่สวมหนังเค้าเป็นรายต่อไป",shape=box,color=blue];
+		j2834627095 -> j1551587699;
+	j1551587699 [label="Check boolean LettieCavia",color=orange];
+		j1551587699 -> j297464990 [label=true,color=green];
+		j1551587699 -> j466073509 [label=false,color=brown];
+	j297464990 [label="คงเรียก Cavia ว่าเป็นสมาชิกในครอบครัวและอยู่กับพวกมันแทน 
 เพราะพวกมันดูไม่ค่อยแตกสลายและสมควรได้รับความรักมากกว่านี้",shape=box,color=blue];
-		2410 -> 2411;
-	2411 [label="Check boolean LettieDating",color=orange];
-		2411 -> 2412 [label=true,color=green];
-		2411 -> 2415 [label=false,color=brown];
-	2412 [label="Check boolean LettieReal",color=orange];
-		2412 -> 2413 [label=true,color=green];
-		2412 -> 2414 [label=false,color=brown];
-	2415 [label="แต่เธอก็ยังอยู่นี่ 
+		j297464990 -> j466073509;
+	j466073509 [label="Check boolean LettieDating",color=orange];
+		j466073509 -> j4125224585 [label=true,color=green];
+		j466073509 -> j780558338 [label=false,color=brown];
+	j4125224585 [label="Check boolean LettieReal",color=orange];
+		j4125224585 -> j788314926 [label=true,color=green];
+		j4125224585 -> j3547167369 [label=false,color=brown];
+	j780558338 [label="แต่เธอก็ยังอยู่นี่ 
 นั่นทำให้เราได้เป็นเพื่อนรักอย่างที่ฉันไม่เคยคิดว่าจะมี 
 ถ้าไม่มีเธอ ก็ไม่รู้ว่าเราจะอยู่รอดได้ยังไง",shape=box,color=blue];
-		2415 -> 2416;
-	2413 [label="แต่ตัวกลับยังอยู่นี่ 
+		j780558338 -> j2094152163;
+	j788314926 [label="แต่ตัวกลับยังอยู่นี่ 
 และสำหรับเค้าแล้ว... มันยิ่งกว่าอะไรทั้งหมด... 
 นั่นแหละคือสิ่งที่พยายามจะบอก mi corazón",shape=box,color=blue];
-		2413 -> 2416;
-	2414 [label="แต่ตัวกลับยังอยู่นี่ 
+		j788314926 -> j2094152163;
+	j3547167369 [label="แต่ตัวกลับยังอยู่นี่ 
 และกล้าที่จะพูดว่ามีความรู้สึกดี ๆ ต่อกัน jajaja",shape=box,color=blue];
-		2414 -> 2416;
-	2416 [label="พอมาอยู่ด้วยกัน... ทำให้เราไม่ใช่ fantasmas 
+		j3547167369 -> j2094152163;
+	j2094152163 [label="พอมาอยู่ด้วยกัน... ทำให้เราไม่ใช่ fantasmas 
 ไม่งั้น เราคงหลงทางและล่องลอย 
 เราคงเดินละเมอผ่านความตายของเราเองซ้ำแล้วซ้ำเล่า ไร้ความหมายและว่างเปล่า 
 ที่ขอบของ Mictlán",shape=box,color=blue];
-		2416 -> 2417;
-	2417 [label="Check boolean LettieNewFamily",color=orange];
-		2417 -> 2419 [label=true,color=green];
-		2417 -> 2418 [label=false,color=brown];
-	2419 [label="ทำให้เรากลายเป็นครอบครัวใหม่ 
+		j2094152163 -> j1595476292;
+	j1595476292 [label="Check boolean LettieNewFamily",color=orange];
+		j1595476292 -> j177156002 [label=true,color=green];
+		j1595476292 -> j3009833502 [label=false,color=brown];
+	j177156002 [label="ทำให้เรากลายเป็นครอบครัวใหม่ 
 แม้กระทั่ง la bruja y yo jajaja 
 และทำให้รักพวกเขามากกว่าที่จะพูดได้ 
 ต้องขอบคุณกับเรื่องทั้งหมดนี่มากเลยนะ",shape=box,color=blue];
-		2419 -> 2422;
-	2418 [label="Check boolean LettieKindness",color=orange];
-		2418 -> 2420 [label=true,color=green];
-		2418 -> 2421 [label=false,color=brown];
-	2422 [label="เกลียดเรื่องซึ้ง ๆ อะไรแบบนี้ 
+		j177156002 -> j898418868;
+	j3009833502 [label="Check boolean LettieKindness",color=orange];
+		j3009833502 -> j658509021 [label=true,color=green];
+		j3009833502 -> j1317780367 [label=false,color=brown];
+	j898418868 [label="เกลียดเรื่องซึ้ง ๆ อะไรแบบนี้ 
 มันทำให้เหมือนคนบ้า 
 ห่วยกับอะไรแบบนี้มาก 
 เพราะงั้นจะขอสรุปให้จบ ๆ ละกัน",shape=box,color=blue];
-		2422 -> 2423;
-		2422 -> 2424;
-		2422 -> 2425;
-	2420 [label="ทำให้รู้เลยว่าเหตุใดเวลาจึงสำคัญที่สุด 
+		j898418868 -> j2056015066;
+		j898418868 -> j2187173983;
+		j898418868 -> j2351156390;
+	j658509021 [label="ทำให้รู้เลยว่าเหตุใดเวลาจึงสำคัญที่สุด 
 เห็นถึงความเมตตาและความรักที่เราแสดงต่อกัน 
 นั่นคือเหตุผลว่าทำไมเราถึงอยู่ที่นี่ 
 ต้องขอบคุณกับเรื่องทั้งหมดนี่มากเลยนะ",shape=box,color=blue];
-		2420 -> 2422;
-	2421 [label="แต่เธอแสดงให้เห็นเลยว่ามันไม่สำคัญหรอก 
+		j658509021 -> j898418868;
+	j1317780367 [label="แต่เธอแสดงให้เห็นเลยว่ามันไม่สำคัญหรอก 
 เพราะเพื่อนฝูงที่เราคบหาต่างหากที่สำคัญ ไม่ใช่จุดหมายปลายทาง 
 เป็นเรื่องของความไว้วางใจ ความรัก และความเมตตาที่เราให้ต่อกัน 
 ต้องขอบคุณสำหรับเรื่องทั้งหมดนี่มากเลยนะ",shape=box,color=blue];
-		2421 -> 2422;
-	2423 [label="อิอิ ทำได้ดีมากเลยนะ",shape=box,color=red];
-		2423 -> 2426;
-	2424 [label="ไม่รู้สิ แต่ชอบ Lettie แบบหวาน ๆ แบบนี้นะ",shape=box,color=red];
-		2424 -> 2426;
-	2425 [label="อืมม เผลอหลับไปอีกแล้ว",shape=box,color=red];
-		2425 -> 2427;
-	2426 [label="Check boolean LettieDating",color=orange];
-		2426 -> 2431 [label=true,color=green];
-		2426 -> 2434 [label=false,color=brown];
-	2427 [label="Update boolean IsDating",color=orange];
-		2427 -> 2428;
-	2431 [label="Check boolean LettieReal",color=orange];
-		2431 -> 2432 [label=true,color=green];
-		2431 -> 2433 [label=false,color=brown];
-	2434 [label="อย่าชินกับอะไรแบบนี้นะ 
+		j1317780367 -> j898418868;
+	j2056015066 [label="อิอิ ทำได้ดีมากเลยนะ",shape=box,color=red];
+		j2056015066 -> j407131291;
+	j2187173983 [label="ไม่รู้สิ แต่ชอบ Lettie แบบหวาน ๆ แบบนี้นะ",shape=box,color=red];
+		j2187173983 -> j407131291;
+	j2351156390 [label="อืมม เผลอหลับไปอีกแล้ว",shape=box,color=red];
+		j2351156390 -> j3606744485;
+	j407131291 [label="Check boolean LettieDating",color=orange];
+		j407131291 -> j2969545787 [label=true,color=green];
+		j407131291 -> j1466773880 [label=false,color=brown];
+	j3606744485 [label="Boolean IsDating is now false.",color=orange];
+		j3606744485 -> j2226684218;
+	j2969545787 [label="Check boolean LettieReal",color=orange];
+		j2969545787 -> j156033722 [label=true,color=green];
+		j2969545787 -> j1151798898 [label=false,color=brown];
+	j1466773880 [label="อย่าชินกับอะไรแบบนี้นะ 
 เพราะฉันจะยังเตะก้นแกต่อไป
 ประเด็นคือ ตอนนี้ชินที่มีแกคอยเกะกะแล้ว 
 ฉันชอบที่มาอยู่ใกล้ ๆ นะ",shape=box,color=blue];
-		2434 -> 2437;
-	2428 [label="Update boolean LettieDating",color=orange];
-		2428 -> 2429;
-	2432 [label="อย่าชินกับอะไรแบบนี้นะ mi corazón 
+		j1466773880 -> j2022210441;
+	j2226684218 [label="Boolean LettieDating is now false.",color=orange];
+		j2226684218 -> j2703113057;
+	j156033722 [label="อย่าชินกับอะไรแบบนี้นะ mi corazón 
 เพราะเค้าจะยังลงโทษตัวแรง ๆ 
 Ay เอาละ...",shape=box,color=blue];
-		2432 -> 2435;
-	2433 [label="อย่าชินกับอะไรแบบนี้นะ solecito 
+		j156033722 -> j509093960;
+	j1151798898 [label="อย่าชินกับอะไรแบบนี้นะ solecito 
 เพราะเค้าจะยังลงโทษตัวแรง ๆ 
 ประเด็นคือ ตอนนี้ชินที่มีตัวคอยเกะกะแล้ว 
 ชอบที่มีตัวอยู่ใกล้ ๆ นะ",shape=box,color=blue];
-		2433 -> 2436;
-	2437 [label="มิตรภาพที่เธอมอบให้มีค่ามากเลยนะ 
+		j1151798898 -> j1579122417;
+	j2022210441 [label="มิตรภาพที่เธอมอบให้มีค่ามากเลยนะ 
 และฉันก็คอยพึ่งพาในแบบที่ไม่เคยพึ่งพาใคร 
 ไว้ใจอย่างที่ไม่เคยคิดว่าจะทำได้ง่าย ๆ เลย",shape=box,color=blue];
-		2437 -> 1621;
-	2429 [label="Update boolean LettieNoDate",color=orange];
-		2429 -> 2430;
-	2435 [label="Te amo, mi corazón 
+		j2022210441 -> j1272264650;
+	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2703113057 -> "Chat ends.";
+	j509093960 [label="Te amo, mi corazón 
 รักนะ รักสุดหัวใจ",shape=box,color=blue];
-		2435 -> 1284;
-		2435 -> 1285;
-	2436 [label="Me importas mucho 
+		j509093960 -> j432541727;
+		j509093960 -> j2058510900;
+	j1579122417 [label="Me importas mucho 
 เค้าแคร์ตัวมาก ๆ เลยนะ
 และเชื่อใจในแบบที่ไม่เคยเชื่อใจใครมาก่อน 
 ไว้ใจอย่างที่ไม่เคยคิดว่าจะทำได้อย่างง่าย ๆ เลย",shape=box,color=blue];
-		2436 -> 2438;
-	1621 [label="แด่พวกเรา เพื่อนเอ๋ย 
+		j1579122417 -> j822521127;
+	j1272264650 [label="แด่พวกเรา เพื่อนเอ๋ย 
 แด่อนาคต 
 ที่เต็มไปด้วย fantasmas และอนาคตที่ไม่รู้จบ และเทพเจ้าและปีศาจอย่างที่อาจจะมี 
 แค่เรามีกันและกัน 
 นั่นก็เพียงพอแล้ว",shape=box,color=blue];
-		1621 -> 1283;
-	2430 [label="Chat ends.",color=orange];
-	1284 [label="คือไม่ได้รู้สึกหนักแน่นขนาดนั้นน่ะ ขอโทษด้วยนะ...",shape=box,color=red];
-		1284 -> 1286;
-	1285 [label="รักเหมือนกันนะ Lettie ไม่อยากจะเชื่อเลย... ตอนนี้มีความสุขมากจริง ๆ",shape=box,color=red];
-		1285 -> 1287;
-	2438 [label="แด่พวกเรา solecito 
+		j1272264650 -> "Chat ends.";
+	j432541727 [label="คือไม่ได้รู้สึกหนักแน่นขนาดนั้นน่ะ ขอโทษด้วยนะ...",shape=box,color=red];
+		j432541727 -> j3784496345;
+	j2058510900 [label="รักเหมือนกันนะ Lettie ไม่อยากจะเชื่อเลย... ตอนนี้มีความสุขมากจริง ๆ",shape=box,color=red];
+		j2058510900 -> j3112134431;
+	j822521127 [label="แด่พวกเรา solecito 
 แด่อนาคต 
 ที่เต็มไปด้วย fantasmas และอนาคตที่ไม่รู้จบ และเทพเจ้าและปีศาจอย่างที่อาจจะมี 
 แค่เรามีกันและกัน 
 นั่นก็เพียงพอแล้ว",shape=box,color=blue];
-		2438 -> 1622;
-	1283 [label="Chat ends.",color=orange];
-	1286 [label="Ay 
+		j822521127 -> "Chat ends.";
+	j3784496345 [label="Ay 
 Sí 
 โอเค",shape=box,color=blue];
-		1286 -> 1288;
-	1287 [label="JAJAJA síí 
+		j3784496345 -> j2677011510;
+	j3112134431 [label="JAJAJA síí 
 ก็รู้นะว่าตัวเองเป็นคนอ่านยากอยู่ 
 อั๊ย มีความสุขมาก ๆ เหมือนกัน 
 คืนนี้มาฉลองกันเถอะ ¿mm?",shape=box,color=blue];
-		1287 -> 1289;
-	1622 [label="Chat ends.",color=orange];
-	1288 [label="นี่แหละ... คือเหตุผลที่ทำไมฉันไม่ไว้ใจใครเลย jajaja",shape=box,color=blue];
-		1288 -> 1295;
-	1289 [label="ไม่อยากให้ถาม 
+		j3112134431 -> j2951765158;
+	j2677011510 [label="นี่แหละ... คือเหตุผลที่ทำไมฉันไม่ไว้ใจใครเลย jajaja",shape=box,color=blue];
+		j2677011510 -> j280376173;
+	j2951765158 [label="ไม่อยากให้ถาม 
 ไม่อยากให้ทำตัวดี ๆ 
 อยากให้ทำให้เห็นหน่อยว่าต้องการแบบไหน ¿entendiste?",shape=box,color=blue];
-		1289 -> 1290;
-		1289 -> 1291;
-	1295 [label="ไม่เป็นไร มันเกิดขึ้นได้ 
+		j2951765158 -> j858278572;
+		j2951765158 -> j1988601337;
+	j280376173 [label="ไม่เป็นไร มันเกิดขึ้นได้ 
 ฉันโง่จังที่ทำพลาดอีกแล้ว 
 งั้นน่าจะดีกว่าถ้าเราไม่คบกันแบบนี้ต่อไป 
 คงเข้าใจนะ",shape=box,color=blue];
-		1295 -> 1296;
-	1290 [label="ครับคุณผู้หญิง",shape=box,color=red];
-		1290 -> 1292;
-	1291 [label="<RETRO_EMOJI_SNEAKY>",shape=box,color=red];
-		1291 -> 1292;
-	1296 [label="Update boolean IsDating",color=orange];
-		1296 -> 1299;
-	1292 [label="แบบนั้นแหละ 
+		j280376173 -> j3606744485;
+	j858278572 [label="ครับคุณผู้หญิง",shape=box,color=red];
+		j858278572 -> j565802637;
+	j1988601337 [label="<RETRO_EMOJI_SNEAKY>",shape=box,color=red];
+		j1988601337 -> j565802637;
+	j565802637 [label="แบบนั้นแหละ 
 แด่พวกเรา mi corazón 
 แด่อนาคต 
 ที่เต็มไปด้วย fantasmas และอนาคตที่ไม่รู้จบ และเทพเจ้าและปีศาจอย่างที่อาจจะมี 
 แค่เรารักกัน 
 นั่นก็มากเกินพอแล้ว",shape=box,color=blue];
-		1292 -> 1293;
-	1299 [label="Update boolean LettieDating",color=orange];
-		1299 -> 1301;
-	1293 [label="Chat ends.",color=orange];
-	1301 [label="Update boolean LettieNoDate",color=orange];
-		1301 -> 1302;
-	1302 [label="Chat ends.",color=orange];
+		j565802637 -> "Chat ends.";
 }

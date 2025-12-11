@@ -1,15 +1,15 @@
 digraph {
-	3947 [label="QuincyRank6Convo11 begins.",color=orange];
-		3947 -> 3948;
-	3948 [label="дам пораду",shape=box,color=blue];
-		3948 -> 3949;
-	3949 [label="якшо підійде лібертатієць і скаже «скуштуй, не бійся»",shape=box,color=blue];
-		3949 -> 3950;
-	3950 [label="бійся",shape=box,color=blue];
-		3950 -> 3951;
-	3951 [label="особливо якшо це засмажене шось",shape=box,color=blue];
-		3951 -> 3952;
-	3952 [label="і ше особливіше якшо ти бачиш його ніжки",shape=box,color=blue];
-		3952 -> 3953;
-	3953 [label="Chat ends.",color=orange];
+	"QuincyRank6Convo11 begins." [color=orange];
+		"QuincyRank6Convo11 begins." -> j2600823585;
+	j2600823585 [label="дам пораду",shape=box,color=blue];
+		j2600823585 -> j1134944897;
+	j1134944897 [label="якшо підійде лібертатієць і скаже «скуштуй, не бійся»",shape=box,color=blue];
+		j1134944897 -> j2956777693;
+	j2956777693 [label="бійся",shape=box,color=blue];
+		j2956777693 -> j873785900;
+	j873785900 [label="особливо якшо це засмажене шось",shape=box,color=blue];
+		j873785900 -> j2725649368;
+	j2725649368 [label="і ше особливіше якшо ти бачиш його ніжки",shape=box,color=blue];
+		j2725649368 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

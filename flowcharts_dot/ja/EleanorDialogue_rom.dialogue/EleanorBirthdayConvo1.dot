@@ -1,21 +1,16 @@
 digraph {
-	2816 [label="EleanorBirthdayConvo1 begins.",color=orange];
-		2816 -> 2817;
-		2816 -> 2818;
-	2817 [label="Nightingale家の長子へ、お誕生日おめでとう！",shape=box,color=red];
-		2817 -> 2819;
-	2818 [label="誕生日おめでとう、怪物女！",shape=box,color=red];
-		2818 -> 2821;
-	2819 [label="+20 Chemistry",color=orange];
-		2819 -> 2820;
-	2821 [label="普通の日おめでとう、普通の迷惑人間！",shape=box,color=blue];
-		2821 -> 2840;
-	2820 [label="Arthurもそれをよく理解しているわ。ハハ。",shape=box,color=blue];
-		2820 -> 2839;
-	2840 [label="{\"Id\":2840,\"Incoming\":[2821],\"Outgoing\":[2823],\"GraphPos\":[1853,-3679],\"CompletionType\":1}",color=orange];
-		2840 -> 2823;
-	2839 [label="{\"Id\":2839,\"Incoming\":[2820],\"Outgoing\":[2822],\"GraphPos\":[1863,-3875],\"CompletionType\":1}",color=orange];
-		2839 -> 2822;
-	2823 [label="Chat ends.",color=orange];
-	2822 [label="Chat ends.",color=orange];
+	"EleanorBirthdayConvo1 begins." [color=orange];
+		"EleanorBirthdayConvo1 begins." -> j347877997;
+		"EleanorBirthdayConvo1 begins." -> j1134013078;
+	j347877997 [label="Nightingale家の長子へ、お誕生日おめでとう！",shape=box,color=red];
+		j347877997 -> j1757078078;
+	j1134013078 [label="誕生日おめでとう、怪物女！",shape=box,color=red];
+		j1134013078 -> j3060433330;
+	j1757078078 [label="+20 Chemistry",color=orange];
+		j1757078078 -> j1788093434;
+	j3060433330 [label="普通の日おめでとう、普通の迷惑人間！",shape=box,color=blue];
+		j3060433330 -> "Chat ends.";
+	j1788093434 [label="Arthurもそれをよく理解しているわ。ハハ。",shape=box,color=blue];
+		j1788093434 -> "Chat ends.";
+	"Chat ends." [color=orange];
 }

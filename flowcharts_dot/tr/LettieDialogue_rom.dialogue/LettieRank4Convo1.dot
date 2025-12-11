@@ -1,38 +1,38 @@
 digraph {
-	1002 [label="LettieRank4Convo1 begins.",color=orange];
-		1002 -> 1003;
-		1002 -> 1004;
-		1002 -> 1005;
-	1003 [label="Arthur'la nasıl tanıştığınıza dair hikayenin tamamını hiç öğrenemedim.",shape=box,color=red];
-		1003 -> 1011;
-	1004 [label="Lettie, sohbet etmek için bir saniyen var mı? Yoksa meşgul müsün?",shape=box,color=red];
-		1004 -> 1008;
-	1005 [label="[Son.]",shape=box,color=red];
-		1005 -> 1006;
-	1011 [label="Eh, karışık bir hikaye 
+	"LettieRank4Convo1 begins." [color=orange];
+		"LettieRank4Convo1 begins." -> j2798243734;
+		"LettieRank4Convo1 begins." -> j2230336821;
+		"LettieRank4Convo1 begins." -> j2025973576;
+	j2798243734 [label="Arthur'la nasıl tanıştığınıza dair hikayenin tamamını hiç öğrenemedim.",shape=box,color=red];
+		j2798243734 -> j1508543522;
+	j2230336821 [label="Lettie, sohbet etmek için bir saniyen var mı? Yoksa meşgul müsün?",shape=box,color=red];
+		j2230336821 -> j1841509536;
+	j2025973576 [label="[Son.]",shape=box,color=red];
+		j2025973576 -> "Chat ends.";
+	j1508543522 [label="Eh, karışık bir hikaye 
 Kanlı detayları istemediğini düşündüm 
 Ama sí, eğer bilmek istiyorsan 
 Anlatabilirim",shape=box,color=blue];
-		1011 -> 1012;
-	1008 [label="+5 Chemistry",color=orange];
-		1008 -> 1009;
-	1006 [label="Chat ends.",color=orange];
-	1012 [label="Aynı üste birlikte görevlendirilmiştik 
+		j1508543522 -> j536727066;
+	j1841509536 [label="+5 Chemistry",color=orange];
+		j1841509536 -> j2473565977;
+	"Chat ends." [color=orange];
+	j536727066 [label="Aynı üste birlikte görevlendirilmiştik 
 O Britannya, ben de Libertatia Ordusunda 
 Farklı ülkeler, aynı düşmanlar",shape=box,color=blue];
-		1012 -> 1013;
-	1009 [label="Her zaman meşgulüm 
+		j536727066 -> j1869172105;
+	j2473565977 [label="Her zaman meşgulüm 
 Ama mola verebilirim 
 ¿Qué onda?",shape=box,color=blue];
-		1009 -> 1010;
-	1013 [label="Alayım için saha sağlık görevlisiydim 
+		j2473565977 -> j1489248243;
+	j1869172105 [label="Alayım için saha sağlık görevlisiydim 
 Onun alayı ile yan yana konuşlandırıldık 
 Orası gerçek bir cagadero idi 
 Şartlar çok hızlı değişti",shape=box,color=blue];
-		1013 -> 1014;
-	1010 [label="Arthur'la nasıl tanıştığınızı merak ediyordum.",shape=box,color=red];
-		1010 -> 1011;
-	1014 [label="Personelin çoğu başaramadı 
+		j1869172105 -> j1935033910;
+	j1489248243 [label="Arthur'la nasıl tanıştığınızı merak ediyordum.",shape=box,color=red];
+		j1489248243 -> j1508543522;
+	j1935033910 [label="Personelin çoğu başaramadı 
 Onunkilerin çoğu da başaramadı 
 Bizi bir arada tutan birbirimizdik 
 Hem de kelimenin tam anlamıyla
@@ -40,43 +40,40 @@ Kolunu sağlam dikmiştim jaja
 Emekli olduktan sonra UKY'ye katıldığında 
 Hiçbir soru sormadan onu takip ettim 
 Orduda olan tüm bu dramlardan zaten bıkmıştım",shape=box,color=blue];
-		1014 -> 1015;
-	1015 [label="Ona dünyanın sonuna kadar onu takip edeceğimi söylemiştim 
+		j1935033910 -> j1149237387;
+	j1149237387 [label="Ona dünyanın sonuna kadar onu takip edeceğimi söylemiştim 
 Fakat onu Mictlán'a kadar takip edeceğimi fark etmemiştim",shape=box,color=blue];
-		1015 -> 1016;
-	1016 [label="Böyle bir hikaye 
+		j1149237387 -> j277572361;
+	j277572361 [label="Böyle bir hikaye 
 Sana çok basit geliyor olmalı 
 Canavarlarla ve tanrılarla savaşıyorsun 
 La Flaca ile çok kez dans ettin",shape=box,color=blue];
-		1016 -> 1017;
-	1017 [label="Update boolean LettieArthur1",color=orange];
-		1017 -> 1018;
-		1017 -> 1019;
-		1017 -> 1020;
-	1018 [label="Savaşlarımın biraz gösterişli olması, bunun ne kadar korkunç olabileceğini anlayamayacağım anlamına gelmiyor.",shape=box,color=red];
-		1018 -> 1021;
-	1019 [label="Bütün savaşlar boktandır, bu kadar.",shape=box,color=red];
-		1019 -> 1022;
-	1020 [label="Eh, küçük insanlar, küçük hikayeler.",shape=box,color=red];
-		1020 -> 1023;
-	1021 [label="+10 Chemistry",color=orange];
-		1021 -> 1024;
-	1022 [label="+15 Chemistry",color=orange];
-		1022 -> 1025;
-	1023 [label="Seguro",shape=box,color=blue];
-		1023 -> 1026;
-	1024 [label="Ay, sí 
+		j277572361 -> j3207784194;
+	j3207784194 [label="Boolean LettieArthur1 is now true.",color=orange];
+		j3207784194 -> j2401516085;
+		j3207784194 -> j3861825383;
+		j3207784194 -> j2046822668;
+	j2401516085 [label="Savaşlarımın biraz gösterişli olması, bunun ne kadar korkunç olabileceğini anlayamayacağım anlamına gelmiyor.",shape=box,color=red];
+		j2401516085 -> j1976939795;
+	j3861825383 [label="Bütün savaşlar boktandır, bu kadar.",shape=box,color=red];
+		j3861825383 -> j1041537856;
+	j2046822668 [label="Eh, küçük insanlar, küçük hikayeler.",shape=box,color=red];
+		j2046822668 -> j4124326144;
+	j1976939795 [label="+10 Chemistry",color=orange];
+		j1976939795 -> j4135836465;
+	j1041537856 [label="+15 Chemistry",color=orange];
+		j1041537856 -> j2183625684;
+	j4124326144 [label="Seguro",shape=box,color=blue];
+		j4124326144 -> j2703113057;
+	j4135836465 [label="Ay, sí 
 Parlak ve gösterişli ya da küçük ve kişisel 
 La Flaca sonunda hep aynıdır 
 En azından... öyle olmalı 
 Ama los fantasma için değil",shape=box,color=blue];
-		1024 -> 1027;
-	1025 [label="Sí, hepsi aynı 
+		j4135836465 -> "Chat ends.";
+	j2183625684 [label="Sí, hepsi aynı 
 Silahlar ne kadar büyük ve aptal olursa olsun",shape=box,color=blue];
-		1025 -> 1028;
-	1026 [label="Update boolean LettieNoDate",color=orange];
-		1026 -> 1029;
-	1027 [label="Chat ends.",color=orange];
-	1028 [label="Chat ends.",color=orange];
-	1029 [label="Chat ends.",color=orange];
+		j2183625684 -> "Chat ends.";
+	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2703113057 -> "Chat ends.";
 }

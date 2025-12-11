@@ -1,21 +1,16 @@
 digraph {
-	3191 [label="ArthurBirthdayConvo2 begins.",color=orange];
-		3191 -> 3205;
-		3191 -> 3203;
-	3205 [label="Wszystkiego najlepszego z okazji urodzin dla młodszego brata Eleanor!",shape=box,color=red];
-		3205 -> 3200;
-	3203 [label="Wszystkiego najlepszego, Arturze. Jakieś plany?",shape=box,color=red];
-		3203 -> 3204;
-	3200 [label="Cudownie. Teraz mam was dwóch, którzy nigdy tego nie odpuszczą.",shape=box,color=blue];
-		3200 -> 3224;
-	3204 [label="+20 Chemistry",color=orange];
-		3204 -> 3202;
-	3224 [label="{\"Id\":3224,\"Incoming\":[3200],\"Outgoing\":[3201],\"GraphPos\":[-30896,-13827],\"CompletionType\":1}",color=orange];
-		3224 -> 3201;
-	3202 [label="Dzięki! Miło, że pamiętasz. Możę skończę dzisiaj pół godziny wcześniej. Jeszcze nie zdecydowałem.",shape=box,color=blue];
-		3202 -> 3223;
-	3201 [label="Chat ends.",color=orange];
-	3223 [label="{\"Id\":3223,\"Incoming\":[3202],\"Outgoing\":[3206],\"GraphPos\":[-30893,-13986],\"CompletionType\":1}",color=orange];
-		3223 -> 3206;
-	3206 [label="Chat ends.",color=orange];
+	"ArthurBirthdayConvo2 begins." [color=orange];
+		"ArthurBirthdayConvo2 begins." -> j856931868;
+		"ArthurBirthdayConvo2 begins." -> j899896024;
+	j856931868 [label="Wszystkiego najlepszego z okazji urodzin dla młodszego brata Eleanor!",shape=box,color=red];
+		j856931868 -> j131151972;
+	j899896024 [label="Wszystkiego najlepszego, Arturze. Jakieś plany?",shape=box,color=red];
+		j899896024 -> j4106312779;
+	j131151972 [label="Cudownie. Teraz mam was dwóch, którzy nigdy tego nie odpuszczą.",shape=box,color=blue];
+		j131151972 -> "Chat ends.";
+	j4106312779 [label="+20 Chemistry",color=orange];
+		j4106312779 -> j2652568445;
+	"Chat ends." [color=orange];
+	j2652568445 [label="Dzięki! Miło, że pamiętasz. Możę skończę dzisiaj pół godziny wcześniej. Jeszcze nie zdecydowałem.",shape=box,color=blue];
+		j2652568445 -> "Chat ends.";
 }

@@ -1,127 +1,124 @@
 digraph {
-	908 [label="LettieRank3Convo5 begins.",color=orange];
-		908 -> 909;
-		908 -> 910;
-		908 -> 911;
-	909 [label="เป็นไงบ้าง?",shape=box,color=red];
-		909 -> 913;
-	910 [label="กับพลเรือนเป็นยังไงบ้าง?",shape=box,color=red];
-		910 -> 914;
-	911 [label="[ไม่สนใจ]",shape=box,color=red];
-		911 -> 912;
-	913 [label="หื้ม? 
+	"LettieRank3Convo5 begins." [color=orange];
+		"LettieRank3Convo5 begins." -> j3125291054;
+		"LettieRank3Convo5 begins." -> j1068807674;
+		"LettieRank3Convo5 begins." -> j3001038503;
+	j3125291054 [label="เป็นไงบ้าง?",shape=box,color=red];
+		j3125291054 -> j3678460428;
+	j1068807674 [label="กับพลเรือนเป็นยังไงบ้าง?",shape=box,color=red];
+		j1068807674 -> j2808225756;
+	j3001038503 [label="[ไม่สนใจ]",shape=box,color=red];
+		j3001038503 -> "Chat ends.";
+	j3678460428 [label="หื้ม? 
 เหมือนประตูหมุนเลย jajaja",shape=box,color=blue];
-		913 -> 915;
-	914 [label="เอ๊ะ? 
+		j3678460428 -> j414680117;
+	j2808225756 [label="เอ๊ะ? 
 ก็ดีมั้ง 
 พอชินแล้ว พลเรือนก็เหมือนกันทุกที่นั่นแหละ",shape=box,color=blue];
-		914 -> 916;
-		914 -> 917;
-	912 [label="Chat ends.",color=orange];
-	915 [label="ก่อนเธอจะมา บางครั้งรู้สึกเหมือนคนเดินผ่านฉันไป 
+		j2808225756 -> j2444717437;
+		j2808225756 -> j1454427918;
+	"Chat ends." [color=orange];
+	j414680117 [label="ก่อนเธอจะมา บางครั้งรู้สึกเหมือนคนเดินผ่านฉันไป 
 แค่คนรักษาบาดแผลในเต็นท์ ICR 
 แต่ยังไงฉันก็เป็นส่วนหนึ่งของอาคาร",shape=box,color=blue];
-		915 -> 918;
-	916 [label="ใช่ แต่ก็ยังเหนื่อยมากอยู่ดี",shape=box,color=red];
-		916 -> 919;
-	917 [label="ชินกับอะไร?",shape=box,color=red];
-		917 -> 920;
-	918 [label="ฉันถึกอยู่น่า 
+		j414680117 -> j3261438006;
+	j2444717437 [label="ใช่ แต่ก็ยังเหนื่อยมากอยู่ดี",shape=box,color=red];
+		j2444717437 -> j936948160;
+	j1454427918 [label="ชินกับอะไร?",shape=box,color=red];
+		j1454427918 -> j2372524988;
+	j3261438006 [label="ฉันถึกอยู่น่า 
 ไม่ไปไหนหรอก 
 Pero... Estoy muerta 
 บางครั้งในโลกนี้ก็มีกาแฟไม่พอหรอก ¿no?",shape=box,color=blue];
-		918 -> 921;
-		918 -> 922;
-	919 [label="Sí ไม่มีทางรู้หรอก 
+		j3261438006 -> j357881888;
+		j3261438006 -> j1905106438;
+	j936948160 [label="Sí ไม่มีทางรู้หรอก 
 บางครั้งโลกนี้ก็มีกาแฟไม่มากพอหรอกนะ 
 Pero, soy dura de roer 
 ฉันไม่ไปไหนหรอก",shape=box,color=blue];
-		919 -> 921;
-		919 -> 922;
-	920 [label="สายตาว่างเปล่าที่จ้องมองมาและไม่รู้สึกอะไรกับความเจ็บปวดไง 
+		j936948160 -> j357881888;
+		j936948160 -> j1905106438;
+	j2372524988 [label="สายตาว่างเปล่าที่จ้องมองมาและไม่รู้สึกอะไรกับความเจ็บปวดไง 
 สำหรับพวกเขาแล้ว ฉันคือคนรักษาบาดแผลในเต็นท์ ICR 
 ฉันรู้สึกเหมือนผู้คนเข้ามาหาเหมือนประตูหมุนเลย 
 และนี่ก็เกิดขึ้นก่อนที่เธอจะทำให้มันเป็นจริง jajaja",shape=box,color=blue];
-		920 -> 923;
-	921 [label="เพียงแค่เพราะว่าเจ้าแกร่ง ไม่ได้หมายความว่าข้าไม่ต้องใส่ใจ",shape=box,color=red];
-		921 -> 927;
-	922 [label="ใช่ แต่การดื่มกาแฟอย่างต่อเนื่องก็ไม่ได้แย่อะไร ฮ่าๆ",shape=box,color=red];
-		922 -> 928;
-	923 [label="Check boolean LettieNoFlirt",color=orange];
-		923 -> 924 [label=true,color=green];
-		923 -> 925 [label=true,color=green];
-		923 -> 924 [label=false,color=brown];
-		923 -> 925 [label=false,color=brown];
-		923 -> 926 [label=false,color=brown];
-	927 [label="Sí
+		j2372524988 -> j3050599071;
+	j357881888 [label="เพียงแค่เพราะว่าเจ้าแกร่ง ไม่ได้หมายความว่าข้าไม่ต้องใส่ใจ",shape=box,color=red];
+		j357881888 -> j2103748520;
+	j1905106438 [label="ใช่ แต่การดื่มกาแฟอย่างต่อเนื่องก็ไม่ได้แย่อะไร ฮ่าๆ",shape=box,color=red];
+		j1905106438 -> j422372284;
+	j3050599071 [label="Check boolean LettieNoFlirt",color=orange];
+		j3050599071 -> j3609748271 [label=true,color=green];
+		j3050599071 -> j1018033592 [label=true,color=green];
+		j3050599071 -> j3609748271 [label=false,color=brown];
+		j3050599071 -> j1018033592 [label=false,color=brown];
+		j3050599071 -> j928844240 [label=false,color=brown];
+	j2103748520 [label="Sí
 แค่รู้ว่ามีคนคอยหนุนหลังก็พอแล้ว 
 Arthur ก็เป็นแบบนั้น 
 ไม่เดินโฉบไปโฉบมาเหมือน Aoi ที่แกล้งทำเป็น mi mamá 
 แค่ยื่นถ้วยให้แล้วพูดว่า สบายดีนะ?",shape=box,color=blue];
-		927 -> 933;
-	928 [label="Jajaja ไม่ ไม่แย่เลย 
+		j2103748520 -> j3530117527;
+	j422372284 [label="Jajaja ไม่ ไม่แย่เลย 
 Arthur ก็เป็นแบบนั้น 
 ไม่เดินโฉบไปโฉบมาเหมือน Aoi ที่แกล้งทำเป็น mi mamá 
 แค่ยื่นถ้วยให้แล้วพูดว่า สบายดีนะ?",shape=box,color=blue];
-		928 -> 933;
-	924 [label="หมายถึง เจ้าคาดหวังอะไรจากผู้คนที่เพิ่งสูญเสียทุกสิ่งทุกอย่างไปงั้นเหรอ",shape=box,color=red];
-		924 -> 929;
-	925 [label="ก็เข้าใจได้นะว่าทำไมทุกคนที่ดูเบลอไปหมดหลังจากผ่านอะไรมาสักระยะ",shape=box,color=red];
-		925 -> 937;
-	926 [label="อย่างน้อยเจ้าก็เป็นประตูที่เซ็กซี่จริง ๆ นะ :P",shape=box,color=red];
-		926 -> 2464;
-	933 [label="Update boolean LettieShoulder",color=orange];
-		933 -> 944;
-	929 [label="ไม่ใช่ความผิดของพวกเขาหรอก 
+		j422372284 -> j3530117527;
+	j3609748271 [label="หมายถึง เจ้าคาดหวังอะไรจากผู้คนที่เพิ่งสูญเสียทุกสิ่งทุกอย่างไปงั้นเหรอ",shape=box,color=red];
+		j3609748271 -> j3882763924;
+	j1018033592 [label="ก็เข้าใจได้นะว่าทำไมทุกคนที่ดูเบลอไปหมดหลังจากผ่านอะไรมาสักระยะ",shape=box,color=red];
+		j1018033592 -> j1125700380;
+	j928844240 [label="อย่างน้อยเจ้าก็เป็นประตูที่เซ็กซี่จริง ๆ นะ :P",shape=box,color=red];
+		j928844240 -> j85907186;
+	j3530117527 [label="Boolean LettieShoulder is now true.",color=orange];
+		j3530117527 -> j3527390022;
+	j3882763924 [label="ไม่ใช่ความผิดของพวกเขาหรอก 
 ไม่ใช่ความผิดของฉันเหมือนกันนะ babas 
 แค่เหนื่อยเท่านั้นเอง",shape=box,color=blue];
-		929 -> 934;
-	937 [label="+10 Chemistry",color=orange];
-		937 -> 930;
-	2464 [label="+20 Chemistry",color=orange];
-		2464 -> 931;
-	944 [label="+20 Chemistry",color=orange];
-		944 -> 932;
-	934 [label="Hablando de 
+		j3882763924 -> j1643702030;
+	j1125700380 [label="+10 Chemistry",color=orange];
+		j1125700380 -> j2564488694;
+	j85907186 [label="+20 Chemistry",color=orange];
+		j85907186 -> j3711524387;
+	j3527390022 [label="+20 Chemistry",color=orange];
+		j3527390022 -> j2341024083;
+	j1643702030 [label="Hablando de 
 ต้องกลับไปทำงานแล้ว",shape=box,color=blue];
-		934 -> 938;
-	930 [label="Sí ไม่ใช่ความผิดของพวกเขาหรอกที่มีเข้ามาอยู่เรื่อย ๆ 
+		j1643702030 -> "Chat ends.";
+	j2564488694 [label="Sí ไม่ใช่ความผิดของพวกเขาหรอกที่มีเข้ามาอยู่เรื่อย ๆ 
 เคยคิดว่ามันคงจะไม่มีวันสิ้นสุด 
 ตอนนี้รู้แล้วว่ามันไม่มีวันสิ้นสุดจริง ๆ 
 Lua, sálvame",shape=box,color=blue];
-		930 -> 935;
-	931 [label="JAJA 
+		j2564488694 -> j2499055365;
+	j3711524387 [label="JAJA 
 โอ้ย babas เธอนี่รู้วิธีให้กำลังใจผู้หญิงนะ 
 เขียนไว้บนหลุมศพของฉันไว้เลย 
 \"Aquí yace la puerta más sexy que hayas visto\"",shape=box,color=blue];
-		931 -> 936;
-	932 [label="ฉันชอบคำถามนั่นนะ babas 
+		j3711524387 -> j1771868898;
+	j2341024083 [label="ฉันชอบคำถามนั่นนะ babas 
 ถามต่อไปเถอะ 
 อาจต้องการแบบนั้นบ้างเป็นครั้งคราว 
 และกาแฟสักแก้วหรือสองแก้วก็คงไม่เป็นไรหรอก",shape=box,color=blue];
-		932 -> 940;
-	938 [label="Chat ends.",color=orange];
-	935 [label="Hablando de 
+		j2341024083 -> j3637400474;
+	j2499055365 [label="Hablando de 
 ต้องกลับไปทำงานแล้ว 
 ขอบใจนะที่ช่วยเบี่ยงเบนความสนใจ",shape=box,color=blue];
-		935 -> 939;
-	936 [label="Gracias por hacerme reír, babas 
+		j2499055365 -> "Chat ends.";
+	j1771868898 [label="Gracias por hacerme reír, babas 
 เป็นอะไรที่ฉันต้องการอยู่พอดี",shape=box,color=blue];
-		936 -> 945;
-	940 [label="Check boolean LettieNoFlirt",color=orange];
-		940 -> 941 [label=true,color=green];
-		940 -> 943 [label=true,color=green];
-		940 -> 942 [label=false,color=brown];
-		940 -> 943 [label=false,color=brown];
-	939 [label="Chat ends.",color=orange];
-	945 [label="กลับไปทำงานกันต่อเถอะ ¿no? 
+		j1771868898 -> j4162523071;
+	j3637400474 [label="Check boolean LettieNoFlirt",color=orange];
+		j3637400474 -> j2164544562 [label=true,color=green];
+		j3637400474 -> j1158247443 [label=true,color=green];
+		j3637400474 -> j597289319 [label=false,color=brown];
+		j3637400474 -> j1158247443 [label=false,color=brown];
+	j4162523071 [label="กลับไปทำงานกันต่อเถอะ ¿no? 
 เราทั้งคู่ยุ่งเกินกว่าจะมาคุยกันแบบนี้",shape=box,color=blue];
-		945 -> 946;
-	941 [label="ได้เลย",shape=box,color=red];
-		941 -> 945;
-	943 [label="เดี๋ยวจะลองดูว่าทำอะไรได้บ้าง",shape=box,color=red];
-		943 -> 945;
-	942 [label="ได้เลย <3",shape=box,color=red];
-		942 -> 945;
-	946 [label="Chat ends.",color=orange];
+		j4162523071 -> "Chat ends.";
+	j2164544562 [label="ได้เลย",shape=box,color=red];
+		j2164544562 -> j4162523071;
+	j1158247443 [label="เดี๋ยวจะลองดูว่าทำอะไรได้บ้าง",shape=box,color=red];
+		j1158247443 -> j4162523071;
+	j597289319 [label="ได้เลย <3",shape=box,color=red];
+		j597289319 -> j4162523071;
 }

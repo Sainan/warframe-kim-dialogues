@@ -1,21 +1,16 @@
 digraph {
-	3790 [label="AoiBirthdayConvo2 begins.",color=orange];
-		3790 -> 3800;
-		3790 -> 3799;
-	3800 [label="Alles Liebe zum Geburtstag, Aoi! Vielleicht können wir dir deinen eigenen Zeke klonen ...",shape=box,color=red];
-		3800 -> 3804;
-	3799 [label="We come alive, under the neon glow … it’s the party of your GEBURTSTAG! <3",shape=box,color=red];
-		3799 -> 3801;
-	3804 [label="<RETRO_EMOJI_HORRIFIED> warum machst du über sowas witze???",shape=box,color=blue];
-		3804 -> 3830;
-	3801 [label="+20 Chemistry",color=orange];
-		3801 -> 3802;
-	3830 [label="{\"Id\":3830,\"Incoming\":[3804],\"Outgoing\":[3805],\"GraphPos\":[726,-2201],\"CompletionType\":1}",color=orange];
-		3830 -> 3805;
-	3802 [label="ahahahaa bitte keine party aber dnk! rate mal was ich mir grade anhöre <RETRO_EMOJI_WINK>",shape=box,color=blue];
-		3802 -> 3831;
-	3805 [label="Chat ends.",color=orange];
-	3831 [label="{\"Id\":3831,\"Incoming\":[3802],\"Outgoing\":[3803],\"GraphPos\":[1086,-2431],\"CompletionType\":1}",color=orange];
-		3831 -> 3803;
-	3803 [label="Chat ends.",color=orange];
+	"AoiBirthdayConvo2 begins." [color=orange];
+		"AoiBirthdayConvo2 begins." -> j1300376889;
+		"AoiBirthdayConvo2 begins." -> j4104381864;
+	j1300376889 [label="Alles Liebe zum Geburtstag, Aoi! Vielleicht können wir dir deinen eigenen Zeke klonen ...",shape=box,color=red];
+		j1300376889 -> j2865980707;
+	j4104381864 [label="We come alive, under the neon glow … it’s the party of your GEBURTSTAG! <3",shape=box,color=red];
+		j4104381864 -> j267535651;
+	j2865980707 [label="<RETRO_EMOJI_HORRIFIED> warum machst du über sowas witze???",shape=box,color=blue];
+		j2865980707 -> "Chat ends.";
+	j267535651 [label="+20 Chemistry",color=orange];
+		j267535651 -> j152327961;
+	"Chat ends." [color=orange];
+	j152327961 [label="ahahahaa bitte keine party aber dnk! rate mal was ich mir grade anhöre <RETRO_EMOJI_WINK>",shape=box,color=blue];
+		j152327961 -> "Chat ends.";
 }

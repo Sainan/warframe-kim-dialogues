@@ -1,459 +1,437 @@
 digraph {
-	1870 [label="LettieRank5Convo4 begins.",color=orange];
-		1870 -> 1871;
-	1871 [label="成為被困在冥界邊緣的鬼魂
+	"LettieRank5Convo4 begins." [color=orange];
+		"LettieRank5Convo4 begins." -> j2982408222;
+	j2982408222 [label="成為被困在冥界邊緣的鬼魂
 我想至少還有一個好處
 除了它讓我們免於瘋狂之外",shape=box,color=blue];
-		1871 -> 1872;
-	1872 [label="Check boolean LettieDating",color=orange];
-		1872 -> 1873 [label=true,color=green];
-		1872 -> 1875 [label=true,color=green];
-		1872 -> 1877 [label=true,color=green];
-		1872 -> 1874 [label=false,color=brown];
-		1872 -> 1875 [label=false,color=brown];
-		1872 -> 1877 [label=false,color=brown];
-	1873 [label="你都好啊，寶貝。哈哈",shape=box,color=red];
-		1873 -> 1876;
-	1875 [label="哦？那是什麼？",shape=box,color=red];
-		1875 -> 1880;
-	1877 [label="馬上回來 [結束]",shape=box,color=red];
-		1877 -> 1878;
-	1874 [label="你都好啊，莉蒂。哈哈",shape=box,color=red];
-		1874 -> 1879;
-	1876 [label="（西語）是的，是的
+		j2982408222 -> j3478694017;
+	j3478694017 [label="Check boolean LettieDating",color=orange];
+		j3478694017 -> j105943760 [label=true,color=green];
+		j3478694017 -> j3904819331 [label=true,color=green];
+		j3478694017 -> j1325415956 [label=true,color=green];
+		j3478694017 -> j4115804488 [label=false,color=brown];
+		j3478694017 -> j3904819331 [label=false,color=brown];
+		j3478694017 -> j1325415956 [label=false,color=brown];
+	j105943760 [label="你都好啊，寶貝。哈哈",shape=box,color=red];
+		j105943760 -> j3105891563;
+	j3904819331 [label="哦？那是什麼？",shape=box,color=red];
+		j3904819331 -> j2787478360;
+	j1325415956 [label="馬上回來 [結束]",shape=box,color=red];
+		j1325415956 -> "Chat ends.";
+	j4115804488 [label="你都好啊，莉蒂。哈哈",shape=box,color=red];
+		j4115804488 -> j2092578726;
+	j3105891563 [label="（西語）是的，是的
 是的，是的
 哈囉小太陽，哈哈",shape=box,color=blue];
-		1876 -> 1880;
-	1880 [label="（西語）我的小寶貝們
+		j3105891563 -> j2787478360;
+	j2787478360 [label="（西語）我的小寶貝們
 我的老鼠
 它們現在不會死了，對吧？",shape=box,color=blue];
-		1880 -> 1881;
-	1878 [label="Chat ends.",color=orange];
-	1879 [label="（西語）是的，是的
+		j2787478360 -> j3234515489;
+	"Chat ends." [color=orange];
+	j2092578726 [label="（西語）是的，是的
 是的，是的
 哈囉朋友，哈哈",shape=box,color=blue];
-		1879 -> 1880;
-	1881 [label="牠們會永遠與我同在
+		j2092578726 -> j2787478360;
+	j3234515489 [label="牠們會永遠與我同在
 即使牠們發生意外，或那隻變異貓抓到牠們
 等到新的一年
 就像什麼都沒發生過一樣，對吧？",shape=box,color=blue];
-		1881 -> 1882;
-		1881 -> 1883;
-	1882 [label="嗯，對。我從沒想過這一點。這個循環也延伸到動物上。",shape=box,color=red];
-		1882 -> 1884;
-	1883 [label="而且我不覺得動物會像人類那樣在乎。也就是說，我不覺得這件事會困擾牠們。",shape=box,color=red];
-		1883 -> 1884;
-	1884 [label="是的
+		j3234515489 -> j4034317392;
+		j3234515489 -> j752092093;
+	j4034317392 [label="嗯，對。我從沒想過這一點。這個循環也延伸到動物上。",shape=box,color=red];
+		j4034317392 -> j1120334923;
+	j752092093 [label="而且我不覺得動物會像人類那樣在乎。也就是說，我不覺得這件事會困擾牠們。",shape=box,color=red];
+		j752092093 -> j1120334923;
+	j1120334923 [label="是的
 這意味著我總是需要再次訓練 Anita 不要吃不該吃的東西，哈哈
 而 Tláloc 永遠不會停止咬東西",shape=box,color=blue];
-		1884 -> 1885;
-	1885 [label="但這意味著如果我失去牠們
+		j1120334923 -> j696210131;
+	j696210131 [label="但這意味著如果我失去牠們
 牠們很快就會回來
 知道我永遠都會有同伴，感覺真好",shape=box,color=blue];
-		1885 -> 1886;
-	1886 [label="Check boolean LettieRats2",color=orange];
-		1886 -> 1887 [label=true,color=green];
-		1886 -> 1889 [label=true,color=green];
-		1886 -> 1890 [label=false,color=brown];
-	1887 [label="呃。哎呀？",shape=box,color=red];
-		1887 -> 1888;
-	1889 [label="我一直懷疑你更喜歡動物而不是人，現在看來我猜對了。",shape=box,color=red];
-		1889 -> 1891;
-	1890 [label="我猜你說的 Anita 和 Tláloc 是你的兩隻老鼠的名字吧？",shape=box,color=red];
-		1890 -> 1893;
-	1888 [label="哈哈！
+		j696210131 -> j1319721791;
+	j1319721791 [label="Check boolean LettieRats2",color=orange];
+		j1319721791 -> j396429159 [label=true,color=green];
+		j1319721791 -> j1821169957 [label=true,color=green];
+		j1319721791 -> j902218506 [label=false,color=brown];
+	j396429159 [label="呃。哎呀？",shape=box,color=red];
+		j396429159 -> j1262050569;
+	j1821169957 [label="我一直懷疑你更喜歡動物而不是人，現在看來我猜對了。",shape=box,color=red];
+		j1821169957 -> j4084486419;
+	j902218506 [label="我猜你說的 Anita 和 Tláloc 是你的兩隻老鼠的名字吧？",shape=box,color=red];
+		j902218506 -> j2489456602;
+	j1262050569 [label="哈哈！
 （西語）對不起，對不起
 只是
 人類從來都不是我生命中的常數
 動物才是",shape=box,color=blue];
-		1888 -> 1894;
-	1891 [label="是的，我想
+		j1262050569 -> j1200088022;
+	j4084486419 [label="是的，我想
 人類從來都不是我生命中的常數
 動物才是",shape=box,color=blue];
-		1891 -> 1897;
-		1891 -> 1898;
-	1893 [label="Update boolean LettieRats2",color=orange];
-		1893 -> 1892;
-	1894 [label="+5 Chemistry",color=orange];
-		1894 -> 1897;
-		1894 -> 1898;
-	1897 [label="是的，我覺得我終於開始了解你了。",shape=box,color=red];
-		1897 -> 1899;
-	1898 [label="你為什麼這麼認為？",shape=box,color=red];
-		1898 -> 1900;
-	1892 [label="嗯？
+		j4084486419 -> j1339879590;
+		j4084486419 -> j1953460293;
+	j2489456602 [label="Boolean LettieRats2 is now true.",color=orange];
+		j2489456602 -> j157415826;
+	j1200088022 [label="+5 Chemistry",color=orange];
+		j1200088022 -> j1339879590;
+		j1200088022 -> j1953460293;
+	j1339879590 [label="是的，我覺得我終於開始了解你了。",shape=box,color=red];
+		j1339879590 -> j2065355667;
+	j1953460293 [label="你為什麼這麼認為？",shape=box,color=red];
+		j1953460293 -> j2823503490;
+	j157415826 [label="嗯？
 我還沒告訴過你嗎？
 （西語）對不起！是的
 Vaquero、Anita、Neenah 和 Tláloc",shape=box,color=blue];
-		1892 -> 1895;
-	1899 [label="哦，是嗎？
+		j157415826 -> j2412792220;
+	j2065355667 [label="哦，是嗎？
 那你說說看
 告訴我為什麼我會更喜歡動物而不是人類
 （西語）你可以扮扮我的心理醫生",shape=box,color=blue];
-		1899 -> 1901;
-	1900 [label="我的心思對我來說並不神秘
+		j2065355667 -> j2851763892;
+	j2823503490 [label="我的心思對我來說並不神秘
 我知道為什麼，哈哈
 但你知道嗎？",shape=box,color=blue];
-		1900 -> 1901;
-	1895 [label="從我還是個小孩的時候起，我就會養老鼠當寵物
+		j2823503490 -> j2851763892;
+	j2412792220 [label="從我還是個小孩的時候起，我就會養老鼠當寵物
 它們一直是我生命中的常數
 比人還要多",shape=box,color=blue];
-		1895 -> 1896;
-	1901 [label="Check boolean LettieTrust1",color=orange];
-		1901 -> 1902 [label=true,color=green];
-		1901 -> 1910 [label=false,color=brown];
-		1901 -> 1909 [label=false,color=brown];
-	1896 [label="+5 Chemistry",color=orange];
-		1896 -> 1897;
-		1896 -> 1898;
-	1902 [label="Check boolean LettieEntratiFamily",color=orange];
-		1902 -> 1903 [label=true,color=green];
-		1902 -> 1904 [label=true,color=green];
-		1902 -> 1908 [label=true,color=green];
-		1902 -> 1909 [label=true,color=green];
-		1902 -> 1910 [label=true,color=green];
-		1902 -> 1911 [label=false,color=brown];
-	1910 [label="你知道嗎，雖然你常常嘲笑阿米爾，但你自己也真的很喜歡玩遊戲。",shape=box,color=red];
-		1910 -> 1919;
-	1909 [label="我沒想到竟然會有測試。",shape=box,color=red];
-		1909 -> 1926;
-	1903 [label="我覺得你運氣不夠好，每次你開始信任某個人，結果都會被背叛。不是什麼悲傷的故事，也不是什麼大創傷。只是運氣太差而已。",shape=box,color=red];
-		1903 -> 1920;
-	1904 [label="你害怕被拋棄，就像源拓氏拋棄他的家人一樣。所以你養寵物，因為它們不會離開你。",shape=box,color=red];
-		1904 -> 1914;
-	1908 [label="愛寵物比愛人容易。牠們只是想要被照顧。這種關係更簡單──而且乾淨──不像人與人之間那樣複雜。",shape=box,color=red];
-		1908 -> 1922;
-	1911 [label="Check boolean LettieReligion2",color=orange];
-		1911 -> 1903 [label=true,color=green];
-		1911 -> 1905 [label=true,color=green];
-		1911 -> 1908 [label=true,color=green];
-		1911 -> 1909 [label=true,color=green];
-		1911 -> 1910 [label=true,color=green];
-		1911 -> 1912 [label=false,color=brown];
-	1919 [label="如果你認為這些是我喜歡玩的遊戲
+		j2412792220 -> j1200088022;
+	j2851763892 [label="Check boolean LettieTrust1",color=orange];
+		j2851763892 -> j2924756852 [label=true,color=green];
+		j2851763892 -> j141034367 [label=false,color=brown];
+		j2851763892 -> j569881483 [label=false,color=brown];
+	j2924756852 [label="Check boolean LettieEntratiFamily",color=orange];
+		j2924756852 -> j3841861194 [label=true,color=green];
+		j2924756852 -> j1083556728 [label=true,color=green];
+		j2924756852 -> j4178195191 [label=true,color=green];
+		j2924756852 -> j569881483 [label=true,color=green];
+		j2924756852 -> j141034367 [label=true,color=green];
+		j2924756852 -> j3276047934 [label=false,color=brown];
+	j141034367 [label="你知道嗎，雖然你常常嘲笑阿米爾，但你自己也真的很喜歡玩遊戲。",shape=box,color=red];
+		j141034367 -> j1418194606;
+	j569881483 [label="我沒想到竟然會有測試。",shape=box,color=red];
+		j569881483 -> j2149199737;
+	j3841861194 [label="我覺得你運氣不夠好，每次你開始信任某個人，結果都會被背叛。不是什麼悲傷的故事，也不是什麼大創傷。只是運氣太差而已。",shape=box,color=red];
+		j3841861194 -> j832943472;
+	j1083556728 [label="你害怕被拋棄，就像源拓氏拋棄他的家人一樣。所以你養寵物，因為它們不會離開你。",shape=box,color=red];
+		j1083556728 -> j1386080135;
+	j4178195191 [label="愛寵物比愛人容易。牠們只是想要被照顧。這種關係更簡單──而且乾淨──不像人與人之間那樣複雜。",shape=box,color=red];
+		j4178195191 -> j2332492938;
+	j3276047934 [label="Check boolean LettieReligion2",color=orange];
+		j3276047934 -> j3841861194 [label=true,color=green];
+		j3276047934 -> j603751631 [label=true,color=green];
+		j3276047934 -> j4178195191 [label=true,color=green];
+		j3276047934 -> j569881483 [label=true,color=green];
+		j3276047934 -> j141034367 [label=true,color=green];
+		j3276047934 -> j3543748376 [label=false,color=brown];
+	j1418194606 [label="如果你認為這些是我喜歡玩的遊戲
 那你對我的了解還不如你想像的那麼多",shape=box,color=blue];
-		1919 -> 1924;
-	1926 [label="+10 Chemistry",color=orange];
-		1926 -> 1918;
-	1920 [label="+10 Chemistry",color=orange];
-		1920 -> 1907;
-	1914 [label="我的家人從未離開過我
+		j1418194606 -> j623227052;
+	j2149199737 [label="+10 Chemistry",color=orange];
+		j2149199737 -> j417403660;
+	j832943472 [label="+10 Chemistry",color=orange];
+		j832943472 -> j148082610;
+	j1386080135 [label="我的家人從未離開過我
 是我離開了他們，加入了軍隊，然後又是危應部隊
 不，有時候我只是想要在生活中得到一種簡單的愛
 來自一種不會背叛我的信任或對我撒謊的事物",shape=box,color=blue];
-		1914 -> 1939;
-	1922 [label="+5 Chemistry",color=orange];
-		1922 -> 1917;
-	1905 [label="你一生中因為瘦女士失去過很多人。你曾經在乎過的人。寵物會死，但這是可以預期的──似乎也更容易接受？所以你能更好地應對。",shape=box,color=red];
-		1905 -> 1915;
-	1912 [label="Check boolean LettieLoid",color=orange];
-		1912 -> 1903 [label=true,color=green];
-		1912 -> 1906 [label=true,color=green];
-		1912 -> 1908 [label=true,color=green];
-		1912 -> 1909 [label=true,color=green];
-		1912 -> 1910 [label=true,color=green];
-		1912 -> 1903 [label=false,color=brown];
-		1912 -> 1908 [label=false,color=brown];
-		1912 -> 1909 [label=false,color=brown];
-		1912 -> 1910 [label=false,color=brown];
-	1924 [label="Check boolean LettieDating",color=orange];
-		1924 -> 1927 [label=true,color=green];
-		1924 -> 1928 [label=false,color=brown];
-	1918 [label="哈哈
+		j1386080135 -> j3168522128;
+	j2332492938 [label="+5 Chemistry",color=orange];
+		j2332492938 -> j2862060393;
+	j603751631 [label="你一生中因為瘦女士失去過很多人。你曾經在乎過的人。寵物會死，但這是可以預期的──似乎也更容易接受？所以你能更好地應對。",shape=box,color=red];
+		j603751631 -> j217445866;
+	j3543748376 [label="Check boolean LettieLoid",color=orange];
+		j3543748376 -> j3841861194 [label=true,color=green];
+		j3543748376 -> j852269042 [label=true,color=green];
+		j3543748376 -> j4178195191 [label=true,color=green];
+		j3543748376 -> j569881483 [label=true,color=green];
+		j3543748376 -> j141034367 [label=true,color=green];
+		j3543748376 -> j3841861194 [label=false,color=brown];
+		j3543748376 -> j4178195191 [label=false,color=brown];
+		j3543748376 -> j569881483 [label=false,color=brown];
+		j3543748376 -> j141034367 [label=false,color=brown];
+	j623227052 [label="Check boolean LettieDating",color=orange];
+		j623227052 -> j131699685 [label=true,color=green];
+		j623227052 -> j1663250087 [label=false,color=brown];
+	j417403660 [label="哈哈
 （西語）對不起，忍不住
 我不經常跟人親近，只是想看看你是怎麼想的
 不過的確有點像是在挑釁，哈哈",shape=box,color=blue];
-		1918 -> 1923;
-	1907 [label="（西語）該死，我這麼容易被看穿嗎？
+		j417403660 -> j4077210969;
+	j148082610 [label="（西語）該死，我這麼容易被看穿嗎？
 我還以為我會是個大謎團，哈哈
 是的……你沒錯，這就是其中一部分
 但就像人生一樣有太多東西交織在一起了",shape=box,color=blue];
-		1907 -> 1939;
-	1939 [label="下班後回家，迎接你的是想要被撓癢、小獎勳和愛的小生物，這沒什麼錯",shape=box,color=blue];
-		1939 -> 1940;
-	1917 [label="唉，是的
+		j148082610 -> j3168522128;
+	j3168522128 [label="下班後回家，迎接你的是想要被撓癢、小獎勳和愛的小生物，這沒什麼錯",shape=box,color=blue];
+		j3168522128 -> j1422503800;
+	j2862060393 [label="唉，是的
 （西語）你能理解我了
 有時候我只是想要在生活中得到一種簡單的愛
 來自一種不會背叛我的信任或對我撒謊的事物",shape=box,color=blue];
-		1917 -> 1939;
-	1915 [label="你顯然從未試過失去寵物，呆呆
+		j2862060393 -> j3168522128;
+	j217445866 [label="你顯然從未試過失去寵物，呆呆
 失去牠們就像是失去自己的一部分靈魂
 不，有時候我只是想要在生活中得到一種簡單的愛
 來自一種不會背叛我的信任或對我撒謊的事物",shape=box,color=blue];
-		1915 -> 1939;
-	1906 [label="你愛過一個背叛了你的信任並且拋棄你的人，就像源拓氏拋棄 Loid 一樣。寵物永遠不會這樣對你。",shape=box,color=red];
-		1906 -> 1916;
-	1927 [label="好吧，那麼你在教我方面教得很糟糕...... ; )",shape=box,color=red];
-		1927 -> 1937;
-	1928 [label="Check boolean LettieNoFlirt",color=orange];
-		1928 -> 1931 [label=true,color=green];
-		1928 -> 1932 [label=true,color=green];
-		1928 -> 1932 [label=false,color=brown];
-		1928 -> 1933 [label=false,color=brown];
-	1923 [label="Update boolean LettieTrust1",color=orange];
-		1923 -> 1929;
-	1940 [label="Check boolean LettieDating",color=orange];
-		1940 -> 1941 [label=true,color=green];
-		1940 -> 1942 [label=true,color=green];
-		1940 -> 1943 [label=false,color=brown];
-	1916 [label="哈哈，我也希望如此
+		j217445866 -> j3168522128;
+	j852269042 [label="你愛過一個背叛了你的信任並且拋棄你的人，就像源拓氏拋棄 Loid 一樣。寵物永遠不會這樣對你。",shape=box,color=red];
+		j852269042 -> j992466171;
+	j131699685 [label="好吧，那麼你在教我方面教得很糟糕...... ; )",shape=box,color=red];
+		j131699685 -> j1466948840;
+	j1663250087 [label="Check boolean LettieNoFlirt",color=orange];
+		j1663250087 -> j4006255054 [label=true,color=green];
+		j1663250087 -> j2313414017 [label=true,color=green];
+		j1663250087 -> j2313414017 [label=false,color=brown];
+		j1663250087 -> j1912194922 [label=false,color=brown];
+	j4077210969 [label="Boolean LettieTrust1 is now true.",color=orange];
+		j4077210969 -> j3655112778;
+	j1422503800 [label="Check boolean LettieDating",color=orange];
+		j1422503800 -> j582777854 [label=true,color=green];
+		j1422503800 -> j2881622829 [label=true,color=green];
+		j1422503800 -> j1996990174 [label=false,color=brown];
+	j992466171 [label="哈哈，我也希望如此
 （西語）一場註定是悲劇的愛情
 能成為劇本的素材
 不，有時候我只是想要在生活中得到一種簡單的愛
 來自一種不會背叛我的信任或對我撒謊的事物",shape=box,color=blue];
-		1916 -> 1921;
-	1937 [label="+15 Chemistry",color=orange];
-		1937 -> 1930;
-	1931 [label="我對你很了解。我只是不想玩罷了。",shape=box,color=red];
-		1931 -> 1934;
-	1932 [label="是的，我不喜歡心機遊戲。祝你和你的老鼠玩得開心。",shape=box,color=red];
-		1932 -> 1934;
-	1933 [label="好吧，那麼你在教我方面教得很糟糕...... ; )",shape=box,color=red];
-		1933 -> 1958;
-	1929 [label="不，我養寵物是因為牠們擁有最純粹的愛
+		j992466171 -> j2920173202;
+	j1466948840 [label="+15 Chemistry",color=orange];
+		j1466948840 -> j851717594;
+	j4006255054 [label="我對你很了解。我只是不想玩罷了。",shape=box,color=red];
+		j4006255054 -> j378123607;
+	j2313414017 [label="是的，我不喜歡心機遊戲。祝你和你的老鼠玩得開心。",shape=box,color=red];
+		j2313414017 -> j378123607;
+	j1912194922 [label="好吧，那麼你在教我方面教得很糟糕...... ; )",shape=box,color=red];
+		j1912194922 -> j536181560;
+	j3655112778 [label="不，我養寵物是因為牠們擁有最純粹的愛
 純粹的依戀
 沒有混亂也不會複雜
 沒有謊言也沒有背叛，沒有秘密",shape=box,color=blue];
-		1929 -> 1939;
-	1941 [label="我的意思是，我肯定也不會拒絕撓癢、小獎勳和愛……",shape=box,color=red];
-		1941 -> 1944;
-	1942 [label="抱歉，如果這不是你的風格。",shape=box,color=red];
-		1942 -> 1945;
-	1943 [label="而且我會知道當你愛牠們時，牠們就會回報你愛，不管發生什麼事都好
+		j3655112778 -> j3168522128;
+	j582777854 [label="我的意思是，我肯定也不會拒絕撓癢、小獎勳和愛……",shape=box,color=red];
+		j582777854 -> j3031932567;
+	j2881622829 [label="抱歉，如果這不是你的風格。",shape=box,color=red];
+		j2881622829 -> j2181435521;
+	j1996990174 [label="而且我會知道當你愛牠們時，牠們就會回報你愛，不管發生什麼事都好
 你不必擔心牠們會傷害你或認為你不夠好
 或者你太累太痛不想去處理牠們的麻煩事",shape=box,color=blue];
-		1943 -> 1946;
-	1921 [label="沒有什麼重大時刻
+		j1996990174 -> j1860501283;
+	j2920173202 [label="沒有什麼重大時刻
 沒有我可以恨的名字
 只有一個又一個小時刻混合在一起
 就像為月尊準備的念珠項鍊
 一顆顆串連起來，不是嗎？",shape=box,color=blue];
-		1921 -> 1925;
-	1930 [label="唉，是的
+		j2920173202 -> j1909260364;
+	j851717594 [label="唉，是的
 顯然我是
 而我需要糾正這個錯誤",shape=box,color=blue];
-		1930 -> 1935;
-	1934 [label="（西語）隨便",shape=box,color=blue];
-		1934 -> 1936;
-	1958 [label="哈哈，我也不行
+		j851717594 -> j3757987736;
+	j378123607 [label="（西語）隨便",shape=box,color=blue];
+		j378123607 -> "Chat ends.";
+	j536181560 [label="哈哈，我也不行
 （西語）當心了，不然我會以為你在邀請我和你過夜",shape=box,color=blue];
-		1958 -> 1971;
-	1944 [label="哈哈哈
+		j536181560 -> j249200213;
+	j3031932567 [label="哈哈哈
 嘿，小太陽，你讓我笑了
 但是如果你想要零食，就得乖乖的，知道吧？",shape=box,color=blue];
-		1944 -> 1947;
-		1944 -> 1948;
-	1945 [label="唉，呆呆
+		j3031932567 -> j450820591;
+		j3031932567 -> j1139235025;
+	j2181435521 [label="唉，呆呆
 不是所有事情都關於你
 當我工作很忙身體疼痛又很疲累時，我不想處理你的麻煩事
 這正是我更喜歡我的小鬆餅的原因",shape=box,color=blue];
-		1945 -> 1949;
-		1945 -> 1950;
-	1946 [label="Check boolean LettieNoFlirt",color=orange];
-		1946 -> 1952 [label=true,color=green];
-		1946 -> 1953 [label=true,color=green];
-		1946 -> 1952 [label=false,color=brown];
-		1946 -> 1953 [label=false,color=brown];
-		1946 -> 1954 [label=false,color=brown];
-	1925 [label="所以我的老鼠就是……純粹的愛
+		j2181435521 -> j2471250833;
+		j2181435521 -> j2886362187;
+	j1860501283 [label="Check boolean LettieNoFlirt",color=orange];
+		j1860501283 -> j232401591 [label=true,color=green];
+		j1860501283 -> j492412425 [label=true,color=green];
+		j1860501283 -> j232401591 [label=false,color=brown];
+		j1860501283 -> j492412425 [label=false,color=brown];
+		j1860501283 -> j1701339981 [label=false,color=brown];
+	j1909260364 [label="所以我的老鼠就是……純粹的愛
 純粹的依戀
 沒有混亂也不會複雜
 沒有謊言也沒有背叛，沒有秘密",shape=box,color=blue];
-		1925 -> 1939;
-	1935 [label="我需要回去工作了
+		j1909260364 -> j3168522128;
+	j3757987736 [label="我需要回去工作了
 但現在我終於有些事可以期待",shape=box,color=blue];
-		1935 -> 1938;
-	1936 [label="Chat ends.",color=orange];
-	1971 [label="Check boolean IsDating",color=orange];
-		1971 -> 1972 [label=true,color=green];
-		1971 -> 1973 [label=false,color=brown];
-	1947 [label="好的，女士。 ; )",shape=box,color=red];
-		1947 -> 1960;
-	1948 [label="或是……如果我不想當個好人呢？",shape=box,color=red];
-		1948 -> 1951;
-	1949 [label="「處理我的麻煩事」這個想法不應該會令你更加疲憊，畢竟我們在交往啊。",shape=box,color=red];
-		1949 -> 1955;
-	1950 [label="那我就讓你和你真正珍愛的生物待在一起吧。",shape=box,color=red];
-		1950 -> 1956;
-	1952 [label="是的，當我忙完一整天回家後，最不想要的就是某某又告訴我為什麼我又讓別人失望了。",shape=box,color=red];
-		1952 -> 1957;
-	1953 [label="我完全理解那種感覺，所以我才喜歡和我的寵物待在一起。",shape=box,color=red];
-		1953 -> 1957;
-	1954 [label="我的意思是，我肯定也不會拒絕撓癢、小獎勳和愛…… ; )",shape=box,color=red];
-		1954 -> 1958;
-	1938 [label="Chat ends.",color=orange];
-	1972 [label="我對一些邊緣的事物的確感興趣
+		j3757987736 -> "Chat ends.";
+	j249200213 [label="Check boolean IsDating",color=orange];
+		j249200213 -> j2852452732 [label=true,color=green];
+		j249200213 -> j3634973042 [label=false,color=brown];
+	j450820591 [label="好的，女士。 ; )",shape=box,color=red];
+		j450820591 -> j1138862034;
+	j1139235025 [label="或是……如果我不想當個好人呢？",shape=box,color=red];
+		j1139235025 -> j293952053;
+	j2471250833 [label="「處理我的麻煩事」這個想法不應該會令你更加疲憊，畢竟我們在交往啊。",shape=box,color=red];
+		j2471250833 -> j2327497880;
+	j2886362187 [label="那我就讓你和你真正珍愛的生物待在一起吧。",shape=box,color=red];
+		j2886362187 -> j1251913324;
+	j232401591 [label="是的，當我忙完一整天回家後，最不想要的就是某某又告訴我為什麼我又讓別人失望了。",shape=box,color=red];
+		j232401591 -> j510271011;
+	j492412425 [label="我完全理解那種感覺，所以我才喜歡和我的寵物待在一起。",shape=box,color=red];
+		j492412425 -> j510271011;
+	j1701339981 [label="我的意思是，我肯定也不會拒絕撓癢、小獎勳和愛…… ; )",shape=box,color=red];
+		j1701339981 -> j536181560;
+	j2852452732 [label="我對一些邊緣的事物的確感興趣
 但放縱不是其中之一，抱歉",shape=box,color=blue];
-		1972 -> 2442;
-		1972 -> 2446;
-	1973 [label="Check boolean LettieConfession",color=orange];
-		1973 -> 1974 [label=true,color=green];
-		1973 -> 1976 [label=true,color=green];
-		1973 -> 1975 [label=false,color=brown];
-		1973 -> 1976 [label=false,color=brown];
-	1960 [label="+5 Chemistry",color=orange];
-		1960 -> 1959;
-	1951 [label="（西語）哈哈，當心了
+		j2852452732 -> j55277140;
+		j2852452732 -> j2853671738;
+	j3634973042 [label="Check boolean LettieConfession",color=orange];
+		j3634973042 -> j109155805 [label=true,color=green];
+		j3634973042 -> j55277140 [label=true,color=green];
+		j3634973042 -> j3285257607 [label=false,color=brown];
+		j3634973042 -> j55277140 [label=false,color=brown];
+	j1138862034 [label="+5 Chemistry",color=orange];
+		j1138862034 -> j2024737819;
+	j293952053 [label="（西語）哈哈，當心了
 你在玩火
 但我想你現在已經知道了",shape=box,color=blue];
-		1951 -> 1960;
-	1955 [label="如果你不理解
+		j293952053 -> j1138862034;
+	j2327497880 [label="如果你不理解
 無論你是多麼關心某個人，在一起的時候都會很累
 那你還太年輕，不能和我在一起
 去和阿米爾或葵玩吧
 （西語）這是個錯誤",shape=box,color=blue];
-		1955 -> 1962;
-	1956 [label="是的，請這樣做吧
+		j2327497880 -> j2548450594;
+	j1251913324 [label="是的，請這樣做吧
 而且趁這個機會
 你可以永遠離開，呆呆
 （西語）這是個錯誤",shape=box,color=blue];
-		1956 -> 1962;
-	1957 [label="Update boolean LettieLonely",color=orange];
-		1957 -> 1968;
-	2442 [label="啊，抱歉，我只是在開玩笑。哈哈",shape=box,color=red];
-		2442 -> 2444;
-	2446 [label="可惡。好吧，幻想又破滅了。",shape=box,color=red];
-		2446 -> 2447;
-	1974 [label="我的意思是……你知道我的感受。",shape=box,color=red];
-		1974 -> 1977;
-	1976 [label="啊，抱歉，我只是在開玩笑。哈哈",shape=box,color=red];
-		1976 -> 1980;
-	1975 [label="如果……我希望的不只是一個晚上呢？ [表白心意]",shape=box,color=red];
-		1975 -> 1978;
-	1959 [label="我得回去工作了
+		j1251913324 -> j2548450594;
+	j510271011 [label="Boolean LettieLonely is now true.",color=orange];
+		j510271011 -> j1069019582;
+	j55277140 [label="啊，抱歉，我只是在開玩笑。哈哈",shape=box,color=red];
+		j55277140 -> j1296414089;
+	j2853671738 [label="可惡。好吧，幻想又破滅了。",shape=box,color=red];
+		j2853671738 -> j1165231632;
+	j109155805 [label="我的意思是……你知道我的感受。",shape=box,color=red];
+		j109155805 -> j3913475475;
+	j3285257607 [label="如果……我希望的不只是一個晚上呢？ [表白心意]",shape=box,color=red];
+		j3285257607 -> j1298561668;
+	j2024737819 [label="我得回去工作了
 但現在我有些可以期待的事了
 （西語）謝謝，小太陽",shape=box,color=blue];
-		1959 -> 1961;
-	1962 [label="Update boolean LettieDating",color=orange];
-		1962 -> 1963;
-	1968 [label="+5 Chemistry",color=orange];
-		1968 -> 1966;
-	2444 [label="+5 Chemistry",color=orange];
-		2444 -> 2443;
-	2447 [label="是的
+		j2024737819 -> "Chat ends.";
+	j2548450594 [label="Boolean LettieDating is now false.",color=orange];
+		j2548450594 -> j4086907321;
+	j1069019582 [label="+5 Chemistry",color=orange];
+		j1069019582 -> j3861286636;
+	j1296414089 [label="+5 Chemistry",color=orange];
+		j1296414089 -> j900157608;
+	j1165231632 [label="是的
 抱歉讓你失望了",shape=box,color=blue];
-		2447 -> 2448;
-	1977 [label="Check boolean LettieWillDate",color=orange];
-		1977 -> 1984 [label=true,color=green];
-		1977 -> 1983 [label=false,color=brown];
-	1980 [label="+5 Chemistry",color=orange];
-		1980 -> 1979;
-	1978 [label="（西語）什麼？
+		j1165231632 -> "Chat ends.";
+	j3913475475 [label="Check boolean LettieWillDate",color=orange];
+		j3913475475 -> j1422613838 [label=true,color=green];
+		j3913475475 -> j3575091671 [label=false,color=brown];
+	j1298561668 [label="（西語）什麼？
 真的嗎？",shape=box,color=blue];
-		1978 -> 1982;
-	1961 [label="Chat ends.",color=orange];
-	1963 [label="Update boolean IsDating",color=orange];
-		1963 -> 1964;
-	1966 [label="哎，是的
+		j1298561668 -> j38725639;
+	j4086907321 [label="Boolean IsDating is now false.",color=orange];
+		j4086907321 -> j2703113057;
+	j3861286636 [label="哎，是的
 你懂的
 但有時候它讓生活變得孤單
 雖然我愛牠們，但牠們並不相同",shape=box,color=blue];
-		1966 -> 1967;
-	2443 [label="（西語）哈哈哈，呃是啊
+		j3861286636 -> j2636559985;
+	j900157608 [label="（西語）哈哈哈，呃是啊
 很難知道這是諷刺
 我該回去工作了",shape=box,color=blue];
-		2443 -> 2445;
-	2448 [label="Chat ends.",color=orange];
-	1984 [label="是，我知道
+		j900157608 -> "Chat ends.";
+	j1422613838 [label="是，我知道
 哎呀……這會是個錯誤……但……
 不能又抱怨孤單然後又拒絕你
 你想試試看嗎？",shape=box,color=blue];
-		1984 -> 1990;
-		1984 -> 1991;
-	1983 [label="Check boolean LettieNoDate",color=orange];
-		1983 -> 1985 [label=true,color=green];
-		1983 -> 1984 [label=false,color=brown];
-	1979 [label="（西語）哈哈哈，呃是啊
-很難知道這是諷刺
-我該回去工作了",shape=box,color=blue];
-		1979 -> 1981;
-	1982 [label="在你說我很愚蠢，又或者說我無法應付你之前，先等一等，讓我把話說完。",shape=box,color=red];
-		1982 -> 1989;
-		1982 -> 1988;
-		1982 -> 1987;
-	1964 [label="Update boolean LettieNoDate",color=orange];
-		1964 -> 1965;
-	1967 [label="但我猜六煞幫永遠都會在我腳邊
+		j1422613838 -> j737152158;
+		j1422613838 -> j2819102901;
+	j3575091671 [label="Check boolean LettieNoDate",color=orange];
+		j3575091671 -> j3812879759 [label=true,color=green];
+		j3575091671 -> j1422613838 [label=false,color=brown];
+	j38725639 [label="在你說我很愚蠢，又或者說我無法應付你之前，先等一等，讓我把話說完。",shape=box,color=red];
+		j38725639 -> j1755512796;
+		j38725639 -> j1944646406;
+		j38725639 -> j3675004519;
+	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2703113057 -> "Chat ends.";
+	j2636559985 [label="但我猜六煞幫永遠都會在我腳邊
 不管我喜不喜歡，哈哈哈
 呃，該回去工作了
 稍後見，老友",shape=box,color=blue];
-		1967 -> 1969;
-	2445 [label="Chat ends.",color=orange];
-	1990 [label="讓我們一起活在刀刃上吧。耶。: ) [約會莉蒂]",shape=box,color=red];
-		1990 -> 1995;
-	1991 [label="我改變主意了，抱歉。 [不約會萊蒂]",shape=box,color=red];
-		1991 -> 1992;
-	1985 [label="呃是啊
+		j2636559985 -> j2129367046;
+	j737152158 [label="讓我們一起活在刀刃上吧。耶。: ) [約會莉蒂]",shape=box,color=red];
+		j737152158 -> j36042482;
+	j2819102901 [label="我改變主意了，抱歉。 [不約會萊蒂]",shape=box,color=red];
+		j2819102901 -> j3953476445;
+	j3812879759 [label="呃是啊
 你清楚你說了什麼
 也許有一天我不會生氣
 但那一天絕不是今天",shape=box,color=blue];
-		1985 -> 1986;
-	1981 [label="Chat ends.",color=orange];
-	1989 [label="你簡直是美得讓人窒息。你聰明過人。你能輕易打敗我。但這並不是你對我如此重要的唯一原因。",shape=box,color=red];
-		1989 -> 2009;
-		1989 -> 2013;
-	1988 [label="在你建立的層層盔甲之下，最深之處是一個我見過的最善良、最富有同情心的人。但這不僅僅如此。",shape=box,color=red];
-		1988 -> 2010;
-		1988 -> 2013;
-	1987 [label="你是勢不可擋的。你是無懼的。沒有什麼能讓你停下來。你是我見過的最堅強的人之一。還有——",shape=box,color=red];
-		1987 -> 2010;
-		1987 -> 2009;
-	1965 [label="Chat ends.",color=orange];
-	1969 [label="Update boolean LettieWillDate",color=orange];
-		1969 -> 1970;
-	1995 [label="Update boolean LettieWillDate",color=orange];
-		1995 -> 1996;
-	1992 [label="Update boolean LettieNoDate",color=orange];
-		1992 -> 1993;
-	1986 [label="Chat ends.",color=orange];
-	2009 [label="你是我見過的最善良、最關心別人的人。你對待動物的方式，還有你願意為了別人付出而不顧一切，你讓我的心都融化了。",shape=box,color=red];
-		2009 -> 2012;
-	2013 [label="你是由鋼鐵鑄造的。我知道不管他們向你投擲什麼──源拓氏、牆中人、維克多還是清剿隊──這一切都無所謂。他們根本沒有機會。",shape=box,color=red];
-		2013 -> 2012;
-	2010 [label="讓我們停一停想一想到底你有多美麗，而且如果你想的話，你絕對可以像折枝一樣輕鬆摧毀我。哈哈",shape=box,color=red];
-		2010 -> 2012;
-	1970 [label="Chat ends.",color=orange];
-	1996 [label="Update boolean LettieDating",color=orange];
-		1996 -> 1997;
-	1993 [label="（西語）開，關，開，關
+		j3812879759 -> "Chat ends.";
+	j1755512796 [label="你簡直是美得讓人窒息。你聰明過人。你能輕易打敗我。但這並不是你對我如此重要的唯一原因。",shape=box,color=red];
+		j1755512796 -> j1065763761;
+		j1755512796 -> j1542666457;
+	j1944646406 [label="在你建立的層層盔甲之下，最深之處是一個我見過的最善良、最富有同情心的人。但這不僅僅如此。",shape=box,color=red];
+		j1944646406 -> j2166393490;
+		j1944646406 -> j1542666457;
+	j3675004519 [label="你是勢不可擋的。你是無懼的。沒有什麼能讓你停下來。你是我見過的最堅強的人之一。還有——",shape=box,color=red];
+		j3675004519 -> j2166393490;
+		j3675004519 -> j1065763761;
+	j2129367046 [label="Boolean LettieWillDate is now true.",color=orange];
+		j2129367046 -> "Chat ends.";
+	j36042482 [label="Boolean LettieWillDate is now true.",color=orange];
+		j36042482 -> j1811823484;
+	j3953476445 [label="Boolean LettieNoDate is now true.",color=orange];
+		j3953476445 -> j580191619;
+	j1065763761 [label="你是我見過的最善良、最關心別人的人。你對待動物的方式，還有你願意為了別人付出而不顧一切，你讓我的心都融化了。",shape=box,color=red];
+		j1065763761 -> j3651055443;
+	j1542666457 [label="你是由鋼鐵鑄造的。我知道不管他們向你投擲什麼──源拓氏、牆中人、維克多還是清剿隊──這一切都無所謂。他們根本沒有機會。",shape=box,color=red];
+		j1542666457 -> j3651055443;
+	j2166393490 [label="讓我們停一停想一想到底你有多美麗，而且如果你想的話，你絕對可以像折枝一樣輕鬆摧毀我。哈哈",shape=box,color=red];
+		j2166393490 -> j3651055443;
+	j1811823484 [label="Boolean LettieDating is now true.",color=orange];
+		j1811823484 -> j794364701;
+	j580191619 [label="（西語）開，關，開，關
 開，關，開，關
 沒有下次了，呆呆",shape=box,color=blue];
-		1993 -> 1994;
-	2012 [label="重點是……我很在乎你，莉蒂。非常在乎。不僅僅是作為朋友，我明白如果你只是單向的話，但──",shape=box,color=red];
-		2012 -> 2011;
-	1997 [label="Update boolean IsDating",color=orange];
-		1997 -> 1999;
-	1994 [label="Chat ends.",color=orange];
-	2011 [label="閉嘴",shape=box,color=blue];
-		2011 -> 2008;
-	1999 [label="+5 Chemistry",color=orange];
-		1999 -> 1998;
-	2008 [label="（西語）稍等一下",shape=box,color=blue];
-		2008 -> 2007;
-		2008 -> 2006;
-	1998 [label="哈哈哈你不懂
+		j580191619 -> "Chat ends.";
+	j3651055443 [label="重點是……我很在乎你，莉蒂。非常在乎。不僅僅是作為朋友，我明白如果你只是單向的話，但──",shape=box,color=red];
+		j3651055443 -> j2629335176;
+	j794364701 [label="Boolean IsDating is now true.",color=orange];
+		j794364701 -> j1838667195;
+	j2629335176 [label="閉嘴",shape=box,color=blue];
+		j2629335176 -> j305065273;
+	j1838667195 [label="+5 Chemistry",color=orange];
+		j1838667195 -> j2149340556;
+	j305065273 [label="（西語）稍等一下",shape=box,color=blue];
+		j305065273 -> j3878815732;
+		j305065273 -> j158458880;
+	j2149340556 [label="哈哈哈你不懂
 我得回去工作了
 但現在我有些可以期待的事了
 （西語）謝謝, 小太陽",shape=box,color=blue];
-		1998 -> 2000;
-	2007 [label="如果我讓你不高興了，我很抱歉……",shape=box,color=red];
-		2007 -> 2005;
-	2006 [label="我理解你可能會不這麼認為，我理解的。",shape=box,color=red];
-		2006 -> 2005;
-	2000 [label="Chat ends.",color=orange];
-	2005 [label="（西語）我認真的，閉嘴！
+		j2149340556 -> "Chat ends.";
+	j3878815732 [label="如果我讓你不高興了，我很抱歉……",shape=box,color=red];
+		j3878815732 -> j1667117282;
+	j158458880 [label="我理解你可能會不這麼認為，我理解的。",shape=box,color=red];
+		j158458880 -> j1667117282;
+	j1667117282 [label="（西語）我認真的，閉嘴！
 我需要一點時間思考一下
 呼吸一下
 我哭就會無法處理這些情緒",shape=box,color=blue];
-		2005 -> 2001;
-	2001 [label="+20 Chemistry",color=orange];
-		2001 -> 2004;
-	2004 [label="我不接受讚美，小太陽
+		j1667117282 -> j2375328876;
+	j2375328876 [label="+20 Chemistry",color=orange];
+		j2375328876 -> j2447541532;
+	j2447541532 [label="我不接受讚美，小太陽
 我從來沒辦法接受
 明天再聊吧，我要先把這些事理清楚
 對不起",shape=box,color=blue];
-		2004 -> 2003;
-	2003 [label="Update boolean LettieConfession",color=orange];
-		2003 -> 2002;
-	2002 [label="Chat ends. Next chat will be LettieConfession.",color=orange];
+		j2447541532 -> j2564553015;
+	j2564553015 [label="Boolean LettieConfession is now true.",color=orange];
+		j2564553015 -> "Chat ends. Next chat will be LettieConfession.";
+	"Chat ends. Next chat will be LettieConfession." [color=orange];
 }

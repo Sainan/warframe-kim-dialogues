@@ -1,76 +1,74 @@
 digraph {
-	427 [label="LettieRank2Convo4 begins.",color=orange];
-		427 -> 428;
-	428 [label="Check boolean LettieSmallFavor",color=orange];
-		428 -> 429 [label=true,color=green];
-		428 -> 430 [label=false,color=brown];
-	429 [label="Ei, babas 
+	"LettieRank2Convo4 begins." [color=orange];
+		"LettieRank2Convo4 begins." -> j3863215240;
+	j3863215240 [label="Check boolean LettieSmallFavor",color=orange];
+		j3863215240 -> j2593875961 [label=true,color=green];
+		j3863215240 -> j1880404736 [label=false,color=brown];
+	j2593875961 [label="Ei, babas 
 Tenho outro pequeno favor pra te pedir",shape=box,color=blue];
-		429 -> 431;
-		429 -> 432;
-		429 -> 433;
-	430 [label="Ei, babas 
+		j2593875961 -> j2090206731;
+		j2593875961 -> j3668411548;
+		j2593875961 -> j1596523812;
+	j1880404736 [label="Ei, babas 
 Tenho um pequeno favor pra te pedir",shape=box,color=blue];
-		430 -> 433;
-		430 -> 432;
-		430 -> 431;
-	431 [label="Opa, pode falar",shape=box,color=red];
-		431 -> 436;
-	432 [label="Só pra avisar, eu não sou mais um dos seus animaizinhos não, viu?",shape=box,color=red];
-		432 -> 435;
-	433 [label="Vê se toma conta do que é seu e se vira [Encerrar Conversa]",shape=box,color=red];
-		433 -> 434;
-	436 [label="+10 Chemistry",color=orange];
-		436 -> 765;
-	435 [label="Sí 
+		j1880404736 -> j1596523812;
+		j1880404736 -> j3668411548;
+		j1880404736 -> j2090206731;
+	j2090206731 [label="Opa, pode falar",shape=box,color=red];
+		j2090206731 -> j2858778645;
+	j3668411548 [label="Só pra avisar, eu não sou mais um dos seus animaizinhos não, viu?",shape=box,color=red];
+		j3668411548 -> j373350879;
+	j1596523812 [label="Vê se toma conta do que é seu e se vira [Encerrar Conversa]",shape=box,color=red];
+		j1596523812 -> "Chat ends.";
+	j2858778645 [label="+10 Chemistry",color=orange];
+		j2858778645 -> j131676312;
+	j373350879 [label="Sí 
 Mas eu aposto que consigo fazer você implorar pelo meu carinho 
 Bah, você deve ser muito mole pra isso",shape=box,color=blue];
-		435 -> 437;
-		435 -> 438;
-	434 [label="Chat ends.",color=orange];
-	765 [label="Bueno",shape=box,color=blue];
-		765 -> 442;
-	437 [label="Você tá… me ameaçando ou dando em cima de mim?",shape=box,color=red];
-		437 -> 441;
-	438 [label="Ah, essa eu quero ver…",shape=box,color=red];
-		438 -> 2461;
-	442 [label="Tenho muito trabalho pra fazer, não dá pra ficar por aí perdendo tempo 
+		j373350879 -> j1176483547;
+		j373350879 -> j1111877362;
+	"Chat ends." [color=orange];
+	j131676312 [label="Bueno",shape=box,color=blue];
+		j131676312 -> j60367680;
+	j1176483547 [label="Você tá… me ameaçando ou dando em cima de mim?",shape=box,color=red];
+		j1176483547 -> j2014719967;
+	j1111877362 [label="Ah, essa eu quero ver…",shape=box,color=red];
+		j1111877362 -> j1698058666;
+	j60367680 [label="Tenho muito trabalho pra fazer, não dá pra ficar por aí perdendo tempo 
 Esses civis levam mais chumbo do que o Amir tem de computadores",shape=box,color=blue];
-		442 -> 443;
-	441 [label="+10 Chemistry",color=orange];
-		441 -> 439;
-	2461 [label="+10 Chemistry",color=orange];
-		2461 -> 440;
-	443 [label="Dito isso, kits médicos 
+		j60367680 -> j1086747233;
+	j2014719967 [label="+10 Chemistry",color=orange];
+		j2014719967 -> j3169665538;
+	j1698058666 [label="+10 Chemistry",color=orange];
+		j1698058666 -> j4065592714;
+	j1086747233 [label="Dito isso, kits médicos 
 Preciso de mais deles 
 Se você achar ou comprar mais, tanto faz 
 Consegue me arrumar alguns? 
 Te lo agradecería mucho",shape=box,color=blue];
-		443 -> 445;
-		443 -> 446;
-		443 -> 447;
-	439 [label="E se for os 2? 
+		j1086747233 -> j738331986;
+		j1086747233 -> j1207477090;
+		j1086747233 -> j4173514285;
+	j3169665538 [label="E se for os 2? 
 Mas não muda de assunto, babas",shape=box,color=blue];
-		439 -> 442;
-	440 [label="Cuidadito, babas, olha que eu tento 
+		j3169665538 -> j60367680;
+	j4065592714 [label="Cuidadito, babas, olha que eu tento 
 Mas não muda de assunto",shape=box,color=blue];
-		440 -> 442;
-	445 [label="Pode deixar comigo",shape=box,color=red];
-		445 -> 451;
-	446 [label="Tá, mas não prometo nada",shape=box,color=red];
-		446 -> 557;
-	447 [label="Não, se vira",shape=box,color=red];
-		447 -> 448;
-	451 [label="+10 Chemistry",color=orange];
-		451 -> 450;
-	557 [label="+10 Chemistry",color=orange];
-		557 -> 449;
-	448 [label="Chat ends.",color=orange];
-	450 [label="Gracias",shape=box,color=blue];
-		450 -> 452;
-	449 [label="E nem deve",shape=box,color=blue];
-		449 -> 452;
-	452 [label="Update boolean LettieSmallFavor",color=orange];
-		452 -> 453;
-	453 [label="Chat ends.",color=orange];
+		j4065592714 -> j60367680;
+	j738331986 [label="Pode deixar comigo",shape=box,color=red];
+		j738331986 -> j1781458524;
+	j1207477090 [label="Tá, mas não prometo nada",shape=box,color=red];
+		j1207477090 -> j3809872450;
+	j4173514285 [label="Não, se vira",shape=box,color=red];
+		j4173514285 -> "Chat ends.";
+	j1781458524 [label="+10 Chemistry",color=orange];
+		j1781458524 -> j1997227581;
+	j3809872450 [label="+10 Chemistry",color=orange];
+		j3809872450 -> j268415879;
+	j1997227581 [label="Gracias",shape=box,color=blue];
+		j1997227581 -> j2570747018;
+	j268415879 [label="E nem deve",shape=box,color=blue];
+		j268415879 -> j2570747018;
+	j2570747018 [label="Boolean LettieSmallFavor is now true.",color=orange];
+		j2570747018 -> "Chat ends.";
 }

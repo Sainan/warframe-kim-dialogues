@@ -1,133 +1,127 @@
 digraph {
-	1031 [label="LettieRank4Convo2 begins.",color=orange];
-		1031 -> 1032;
-	1032 [label="Расскажи мне об этом ужасном боге, которого ты освободил
+	"LettieRank4Convo2 begins." [color=orange];
+		"LettieRank4Convo2 begins." -> j1690325403;
+	j1690325403 [label="Расскажи мне об этом ужасном боге, которого ты освободил
 Твоём Xipe Totec, твоём скальпированном боге 
 Чего он хочет?",shape=box,color=blue];
-		1032 -> 1034;
-	1034 [label="Check boolean LettieReligion2",color=orange];
-		1034 -> 1040 [label=true,color=green];
-		1034 -> 1041 [label=true,color=green];
-		1034 -> 1039 [label=true,color=green];
-		1034 -> 1043 [label=true,color=green];
-		1034 -> 1035 [label=false,color=brown];
-		1034 -> 1043 [label=false,color=brown];
-	1040 [label="Свободы?",shape=box,color=red];
-		1040 -> 1042;
-	1041 [label="Знаний?",shape=box,color=red];
-		1041 -> 1042;
-	1039 [label="Я не знаю.",shape=box,color=red];
-		1039 -> 1045;
-	1043 [label="Я сейчас вернусь. [Завершить]",shape=box,color=red];
-		1043 -> 1044;
-	1035 [label="Что? О чём ты говоришь?",shape=box,color=red];
-		1035 -> 1036;
-	1042 [label="Ты думаешь, но не знаешь 
+		j1690325403 -> j1356677054;
+	j1356677054 [label="Check boolean LettieReligion2",color=orange];
+		j1356677054 -> j619550554 [label=true,color=green];
+		j1356677054 -> j2343896027 [label=true,color=green];
+		j1356677054 -> j1660576844 [label=true,color=green];
+		j1356677054 -> j1836191492 [label=true,color=green];
+		j1356677054 -> j3974032420 [label=false,color=brown];
+		j1356677054 -> j1836191492 [label=false,color=brown];
+	j619550554 [label="Свободы?",shape=box,color=red];
+		j619550554 -> j1827160371;
+	j2343896027 [label="Знаний?",shape=box,color=red];
+		j2343896027 -> j1827160371;
+	j1660576844 [label="Я не знаю.",shape=box,color=red];
+		j1660576844 -> j3463114091;
+	j1836191492 [label="Я сейчас вернусь. [Завершить]",shape=box,color=red];
+		j1836191492 -> "Chat ends.";
+	j3974032420 [label="Что? О чём ты говоришь?",shape=box,color=red];
+		j3974032420 -> j4058625999;
+	j1827160371 [label="Ты думаешь, но не знаешь 
 Его мотивации неясны 
 Но ты всё равно думаешь, что он враг, ¿Por qué?",shape=box,color=blue];
-		1042 -> 1046;
-		1042 -> 1047;
-	1045 [label="Ты всё равно считаешь его врагом 
+		j1827160371 -> j4041609078;
+		j1827160371 -> j2883714083;
+	j3463114091 [label="Ты всё равно считаешь его врагом 
 Если ты не знаешь, чего он добивается 
 ¿Por qué?",shape=box,color=blue];
-		1045 -> 1046;
-		1045 -> 1047;
-	1044 [label="Chat ends.",color=orange];
-	1036 [label="Эта тварь из Бездны, которая приносит других в жертву и носит их кожу, как древний ободранный бог, Xipe Totec",shape=box,color=blue];
-		1036 -> 1037;
-	1046 [label="Эта ТВАРЬ решила, что будет забавным экспериментом натравить родителей на Заримане против их детей...",shape=box,color=red];
-		1046 -> 1048;
-	1047 [label="всё, что он делает, — это оставляет после себя смерть и разрушения. Независимо от того, какова его мотивация, ничто не имеет значения. Поверь мне.",shape=box,color=red];
-		1047 -> 1049;
-	1037 [label="Update boolean LettieReligion2",color=orange];
-		1037 -> 1038;
-	1048 [label="А затем дала детям магические силы Бездны, чтобы они могли убить своих родителей, чтобы они могли извлечь УРОКИ из этой резни.",shape=box,color=red];
-		1048 -> 1050;
-		1048 -> 1051;
-	1049 [label="Нет 
+		j3463114091 -> j4041609078;
+		j3463114091 -> j2883714083;
+	"Chat ends." [color=orange];
+	j4058625999 [label="Эта тварь из Бездны, которая приносит других в жертву и носит их кожу, как древний ободранный бог, Xipe Totec",shape=box,color=blue];
+		j4058625999 -> j1601186132;
+	j4041609078 [label="Эта ТВАРЬ решила, что будет забавным экспериментом натравить родителей на Заримане против их детей...",shape=box,color=red];
+		j4041609078 -> j2110563628;
+	j2883714083 [label="всё, что он делает, — это оставляет после себя смерть и разрушения. Независимо от того, какова его мотивация, ничто не имеет значения. Поверь мне.",shape=box,color=red];
+		j2883714083 -> j3487803757;
+	j1601186132 [label="Boolean LettieReligion2 is now true.",color=orange];
+		j1601186132 -> j2503457192;
+	j2110563628 [label="А затем дала детям магические силы Бездны, чтобы они могли убить своих родителей, чтобы они могли извлечь УРОКИ из этой резни.",shape=box,color=red];
+		j2110563628 -> j3037032041;
+		j2110563628 -> j2672665176;
+	j3487803757 [label="Нет 
 Не пытайся понять разум бога 
 Неважно, сколько тебе лет 
 И сколько ты видел",shape=box,color=blue];
-		1049 -> 1052;
-	1038 [label="Чего он хочет",shape=box,color=blue];
-		1038 -> 1040;
-		1038 -> 1041;
-		1038 -> 1039;
-	1050 [label="У него была возможность учиться на любви, на самопожертвовании, на доброте. Но он, кажется, ВЫБИРАЕТ искать хаос и убийство.",shape=box,color=red];
-		1050 -> 1060;
-	1051 [label="Даже если это просто ребёнок, ломающий игрушки, чтобы понять мир вокруг, мы — эти игрушки. Это нужно остановить.",shape=box,color=red];
-		1051 -> 1061;
-	1052 [label="Check boolean LettieEntrati",color=orange];
-		1052 -> 1053 [label=true,color=green];
-		1052 -> 1056 [label=false,color=brown];
-	1060 [label="Я продолжу надеяться, что это не враг, но... у меня нет оснований так думать.",shape=box,color=red];
-		1060 -> 1062;
-	1061 [label="Я отказываюсь верить, что это безвредно после всего увиденного мной. После всего, что оно со мной сделало.",shape=box,color=red];
-		1061 -> 1062;
-	1053 [label="Ты не бог, babas 
+		j3487803757 -> j2154935428;
+	j2503457192 [label="Чего он хочет",shape=box,color=blue];
+		j2503457192 -> j619550554;
+		j2503457192 -> j2343896027;
+		j2503457192 -> j1660576844;
+	j3037032041 [label="У него была возможность учиться на любви, на самопожертвовании, на доброте. Но он, кажется, ВЫБИРАЕТ искать хаос и убийство.",shape=box,color=red];
+		j3037032041 -> j3452968980;
+	j2672665176 [label="Даже если это просто ребёнок, ломающий игрушки, чтобы понять мир вокруг, мы — эти игрушки. Это нужно остановить.",shape=box,color=red];
+		j2672665176 -> j2643535392;
+	j2154935428 [label="Check boolean LettieEntrati",color=orange];
+		j2154935428 -> j3948883007 [label=true,color=green];
+		j2154935428 -> j2834367091 [label=false,color=brown];
+	j3452968980 [label="Я продолжу надеяться, что это не враг, но... у меня нет оснований так думать.",shape=box,color=red];
+		j3452968980 -> j3200770217;
+	j2643535392 [label="Я отказываюсь верить, что это безвредно после всего увиденного мной. После всего, что оно со мной сделало.",shape=box,color=red];
+		j2643535392 -> j3200770217;
+	j3948883007 [label="Ты не бог, babas 
 Не притворяйся, что думаешь как бог 
 Иначе ты ничем не лучше этого cabrón Энтрати",shape=box,color=blue];
-		1053 -> 1059;
-	1056 [label="Check boolean LettieOrokin",color=orange];
-		1056 -> 1054 [label=true,color=green];
-		1056 -> 1055 [label=false,color=brown];
-	1062 [label="И ты думаешь, что можешь остановить бога",shape=box,color=blue];
-		1062 -> 1063;
-	1059 [label="Chat ends.",color=orange];
-	1054 [label="Ты не бог, babas 
+		j3948883007 -> "Chat ends.";
+	j2834367091 [label="Check boolean LettieOrokin",color=orange];
+		j2834367091 -> j4087872746 [label=true,color=green];
+		j2834367091 -> j1041601692 [label=false,color=brown];
+	j3200770217 [label="И ты думаешь, что можешь остановить бога",shape=box,color=blue];
+		j3200770217 -> j1724044313;
+	j4087872746 [label="Ты не бог, babas 
 Не притворяйся, что думаешь как бог 
 Иначе ты ничем не лучше этих орокинских cabrón",shape=box,color=blue];
-		1054 -> 1057;
-	1055 [label="Ты не бог, babas 
+		j4087872746 -> "Chat ends.";
+	j1041601692 [label="Ты не бог, babas 
 Не притворяйся, что думаешь как бог",shape=box,color=blue];
-		1055 -> 1058;
-	1063 [label="Update boolean LettieReligion4",color=orange];
-		1063 -> 1064;
-	1057 [label="Chat ends.",color=orange];
-	1058 [label="Chat ends.",color=orange];
-	1064 [label="Check boolean ReligionNone",color=orange];
-		1064 -> 1065 [label=true,color=green];
-		1064 -> 1066 [label=true,color=green];
-		1064 -> 1067 [label=true,color=green];
-		1064 -> 1068 [label=false,color=brown];
-	1065 [label="Без понятия. Я обычно импровизирую по ходу дела. хаха",shape=box,color=red];
-		1065 -> 1071;
-	1066 [label="Думаю, я могу попробовать. Как мне уже приходилось делать это здесь. И это всё, что мы можем сделать.",shape=box,color=red];
-		1066 -> 1069;
-	1067 [label="Теперь всё зависит от других. Моё место здесь, в 1999, со всеми вами.",shape=box,color=red];
-		1067 -> 1074;
-	1068 [label="Я верю.",shape=box,color=red];
-		1068 -> 1070;
-	1071 [label="+20 Chemistry",color=orange];
-		1071 -> 1072;
-	1069 [label="+20 Chemistry",color=orange];
-		1069 -> 1073;
-	1074 [label="Estás bromeando, ¿verdad? 
+		j1041601692 -> "Chat ends.";
+	j1724044313 [label="Boolean LettieReligion4 is now true.",color=orange];
+		j1724044313 -> j4029075512;
+	j4029075512 [label="Check boolean ReligionNone",color=orange];
+		j4029075512 -> j3429738902 [label=true,color=green];
+		j4029075512 -> j1729429306 [label=true,color=green];
+		j4029075512 -> j501130528 [label=true,color=green];
+		j4029075512 -> j620796465 [label=false,color=brown];
+	j3429738902 [label="Без понятия. Я обычно импровизирую по ходу дела. хаха",shape=box,color=red];
+		j3429738902 -> j2420258038;
+	j1729429306 [label="Думаю, я могу попробовать. Как мне уже приходилось делать это здесь. И это всё, что мы можем сделать.",shape=box,color=red];
+		j1729429306 -> j2519787849;
+	j501130528 [label="Теперь всё зависит от других. Моё место здесь, в 1999, со всеми вами.",shape=box,color=red];
+		j501130528 -> j3964529150;
+	j620796465 [label="Я верю.",shape=box,color=red];
+		j620796465 -> j534277719;
+	j2420258038 [label="+20 Chemistry",color=orange];
+		j2420258038 -> j994495513;
+	j2519787849 [label="+20 Chemistry",color=orange];
+		j2519787849 -> j2205766159;
+	j3964529150 [label="Estás bromeando, ¿verdad? 
 Как только они позовут тебя, ты побежишь 
 Ты — скиталец, солдат, ты пойдёшь спасать будущее, когда оно будет в тебе нуждаться",shape=box,color=blue];
-		1074 -> 1075;
-	1070 [label="+20 Chemistry",color=orange];
-		1070 -> 1076;
-	1072 [label="Jaja, sí 
+		j3964529150 -> j4179175499;
+	j534277719 [label="+20 Chemistry",color=orange];
+		j534277719 -> j1604339503;
+	j994495513 [label="Jaja, sí 
 Я понимаю 
 Ценю честность, babas 
 Похоже, это работает для тебя, так что не буду судить",shape=box,color=blue];
-		1072 -> 1078;
-	1073 [label="Sí
+		j994495513 -> "Chat ends.";
+	j2205766159 [label="Sí
 Это всё, что мы можем просить, полагаю",shape=box,color=blue];
-		1073 -> 1079;
-	1075 [label="Мы застряли здесь 
+		j2205766159 -> "Chat ends.";
+	j4179175499 [label="Мы застряли здесь 
 Не ври мне и не говори, что возьмёшь меня на прогулку, babas 
 Однажды ты убежишь и больше не вернёшься",shape=box,color=blue];
-		1075 -> 1080;
-	1076 [label="Ay, sí 
+		j4179175499 -> j1464801759;
+	j1604339503 [label="Ay, sí 
 Вера в то, что не имеет значения, полагаю 
 Пока это помогает тебе справиться с этим",shape=box,color=blue];
-		1076 -> 1077;
-	1078 [label="Chat ends.",color=orange];
-	1079 [label="Chat ends.",color=orange];
-	1080 [label="Update boolean LettieEscape",color=orange];
-		1080 -> 1081;
-	1077 [label="Chat ends.",color=orange];
-	1081 [label="Chat ends. Next chat will be LettieEscape.",color=orange];
+		j1604339503 -> "Chat ends.";
+	j1464801759 [label="Boolean LettieEscape is now true.",color=orange];
+		j1464801759 -> "Chat ends. Next chat will be LettieEscape.";
+	"Chat ends. Next chat will be LettieEscape." [color=orange];
 }

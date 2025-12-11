@@ -1,531 +1,520 @@
 digraph {
-	1532 [label="LettieRank5Convo1 begins.",color=orange];
-		1532 -> 1533;
-	1533 [label="Check boolean LettieDating",color=orange];
-		1533 -> 1535 [label=true,color=green];
-		1533 -> 1536 [label=true,color=green];
-		1533 -> 1537 [label=true,color=green];
-		1533 -> 1534 [label=false,color=brown];
-	1535 [label="你還好嗎？",shape=box,color=red];
-		1535 -> 1540;
-	1536 [label="今天過得怎麼樣，甜心？",shape=box,color=red];
-		1536 -> 1541;
-	1537 [label="我最喜歡的壞蛋今天過得怎麼樣？",shape=box,color=red];
-		1537 -> 1541;
-	1534 [label="Check boolean LettieShoulder",color=orange];
-		1534 -> 1535 [label=true,color=green];
-		1534 -> 1537 [label=true,color=green];
-		1534 -> 1538 [label=false,color=brown];
-		1534 -> 1539 [label=false,color=brown];
-	1540 [label="不
+	"LettieRank5Convo1 begins." [color=orange];
+		"LettieRank5Convo1 begins." -> j1469346148;
+	j1469346148 [label="Check boolean LettieDating",color=orange];
+		j1469346148 -> j1937261010 [label=true,color=green];
+		j1469346148 -> j4084046856 [label=true,color=green];
+		j1469346148 -> j3089969003 [label=true,color=green];
+		j1469346148 -> j3933229792 [label=false,color=brown];
+	j1937261010 [label="你還好嗎？",shape=box,color=red];
+		j1937261010 -> j793617109;
+	j4084046856 [label="今天過得怎麼樣，甜心？",shape=box,color=red];
+		j4084046856 -> j3386690867;
+	j3089969003 [label="我最喜歡的壞蛋今天過得怎麼樣？",shape=box,color=red];
+		j3089969003 -> j3386690867;
+	j3933229792 [label="Check boolean LettieShoulder",color=orange];
+		j3933229792 -> j1937261010 [label=true,color=green];
+		j3933229792 -> j3089969003 [label=true,color=green];
+		j3933229792 -> j600473610 [label=false,color=brown];
+		j3933229792 -> j355233979 [label=false,color=brown];
+	j793617109 [label="不
 我不好
 我很長一段時間都不太好
 但我必須是那個假裝一切正常的人
 總是必須是那個堅強的人，不是嗎？",shape=box,color=blue];
-		1540 -> 1543;
-	1541 [label="像屎一樣",shape=box,color=blue];
-		1541 -> 1544;
-		1541 -> 1545;
-	1538 [label="嘿，莉蒂，我可以問你關於你的小老鼠的事嗎？",shape=box,color=red];
-		1538 -> 1542;
-	1539 [label="嘿，莉蒂，你最喜歡的食物是什麼？",shape=box,color=red];
-		1539 -> 1542;
-	1543 [label="但如果我不想那樣
+		j793617109 -> j3003149592;
+	j3386690867 [label="像屎一樣",shape=box,color=blue];
+		j3386690867 -> j3366922193;
+		j3386690867 -> j3752880598;
+	j600473610 [label="嘿，莉蒂，我可以問你關於你的小老鼠的事嗎？",shape=box,color=red];
+		j600473610 -> j1035483637;
+	j355233979 [label="嘿，莉蒂，你最喜歡的食物是什麼？",shape=box,color=red];
+		j355233979 -> j1035483637;
+	j3003149592 [label="但如果我不想那樣
 如果我不是
 如果我覺得自己快要崩潰了——
 （西語）對不起，小太陽，你來不是為了和我說這個的",shape=box,color=blue];
-		1543 -> 1552;
-		1543 -> 1553;
-	1544 [label="一切都還好嗎？",shape=box,color=red];
-		1544 -> 1548;
-	1545 [label="我──呃──天啊。我該稍後再聯繫你嗎？",shape=box,color=red];
-		1545 -> 1549;
-	1542 [label="現在不是時候，呆呆",shape=box,color=blue];
-		1542 -> 1544;
-		1542 -> 1546;
-		1542 -> 1547;
-	1552 [label="是嗎，我只是……想看看你想不想一起去喝杯咖啡。",shape=box,color=red];
-		1552 -> 1554;
-	1553 [label="我會在這裡支持你，莉蒂。我在乎你。跟我說說吧。",shape=box,color=red];
-		1553 -> 1556;
-	1548 [label="不好
+		j3003149592 -> j3065576147;
+		j3003149592 -> j2114648920;
+	j3366922193 [label="一切都還好嗎？",shape=box,color=red];
+		j3366922193 -> j433189945;
+	j3752880598 [label="我──呃──天啊。我該稍後再聯繫你嗎？",shape=box,color=red];
+		j3752880598 -> j2171385158;
+	j1035483637 [label="現在不是時候，呆呆",shape=box,color=blue];
+		j1035483637 -> j3366922193;
+		j1035483637 -> j2622437800;
+		j1035483637 -> j2473401303;
+	j3065576147 [label="是嗎，我只是……想看看你想不想一起去喝杯咖啡。",shape=box,color=red];
+		j3065576147 -> j1303571099;
+	j2114648920 [label="我會在這裡支持你，莉蒂。我在乎你。跟我說說吧。",shape=box,color=red];
+		j2114648920 -> j2426269166;
+	j433189945 [label="不好
 一切都不好
 很久以來什麼都不好
 但時間現在已經沒意義了，不是嗎？！
 你和那個混蛋搞成這樣的",shape=box,color=blue];
-		1548 -> 1561;
-	1549 [label="（西語）滾開
+		j433189945 -> j1520852544;
+	j2171385158 [label="（西語）滾開
 不會有稍後的了",shape=box,color=blue];
-		1549 -> 1558;
-		1549 -> 1559;
-	1546 [label="如果你在忙，我們可以稍後再聊。",shape=box,color=red];
-		1546 -> 1549;
-	1547 [label="抱歉？",shape=box,color=red];
-		1547 -> 1550;
-	1554 [label="是的
+		j2171385158 -> j1453411893;
+		j2171385158 -> j760505607;
+	j2622437800 [label="如果你在忙，我們可以稍後再聊。",shape=box,color=red];
+		j2622437800 -> j2171385158;
+	j2473401303 [label="抱歉？",shape=box,color=red];
+		j2473401303 -> j571547602;
+	j1303571099 [label="是的
 聽起來不錯",shape=box,color=blue];
-		1554 -> 1555;
-	1556 [label="你不是我的治療師
+		j1303571099 -> j1195005912;
+	j2426269166 [label="你不是我的治療師
 你不需要聽我像個傻小孩一樣抱怨",shape=box,color=blue];
-		1556 -> 1557;
-	1561 [label="這一切怎麼是我的錯？",shape=box,color=red];
-		1561 -> 1564;
-	1558 [label="我做了什麼讓你生氣的事嗎？",shape=box,color=red];
-		1558 -> 1564;
-	1559 [label="有什麼不對勁嗎？",shape=box,color=red];
-		1559 -> 1560;
-	1550 [label="呃，是的
+		j2426269166 -> j3717407868;
+	j1520852544 [label="這一切怎麼是我的錯？",shape=box,color=red];
+		j1520852544 -> j670130077;
+	j1453411893 [label="我做了什麼讓你生氣的事嗎？",shape=box,color=red];
+		j1453411893 -> j670130077;
+	j760505607 [label="有什麼不對勁嗎？",shape=box,color=red];
+		j760505607 -> j2552309214;
+	j571547602 [label="呃，是的
 你的道歉可以覆蓋整面牆了
 那麼它們或許就有些用處了",shape=box,color=blue];
-		1550 -> 1551;
-	1555 [label="Update boolean LettieRealNo",color=orange];
-		1555 -> 1565;
-	1557 [label="Check boolean LettieDating",color=orange];
-		1557 -> 1566 [label=true,color=green];
-		1557 -> 1567 [label=false,color=brown];
-	1564 [label="你和你那個媽的時間循環廢話
+		j571547602 -> "Chat ends.";
+	j1195005912 [label="Boolean LettieRealNo is now true.",color=orange];
+		j1195005912 -> "Chat ends.";
+	j3717407868 [label="Check boolean LettieDating",color=orange];
+		j3717407868 -> j2799516969 [label=true,color=green];
+		j3717407868 -> j4178471030 [label=false,color=brown];
+	j670130077 [label="你和你那個媽的時間循環廢話
 如果不是因為這個我們早就死了",shape=box,color=blue];
-		1564 -> 1571;
-		1564 -> 1572;
-	1560 [label="是的
+		j670130077 -> j1228991603;
+		j670130077 -> j3888187862;
+	j2552309214 [label="是的
 一切都已經錯了好一段長時間
 但時間現在已經沒意義了，不是嗎？！
 你和那個混蛋搞成這樣的",shape=box,color=blue];
-		1560 -> 1561;
-		1560 -> 1562;
-	1551 [label="Chat ends.",color=orange];
-	1565 [label="Chat ends.",color=orange];
-	1566 [label="莉蒂，你和我是對情侶來的。這對我來說很重要。",shape=box,color=red];
-		1566 -> 1568;
-	1567 [label="莉蒂，你和我已經是很好的朋友。我在乎你。這對我來說很重要。",shape=box,color=red];
-		1567 -> 1568;
-	1571 [label="等等，先退後幾步。你是在生氣自己沒死嗎？！",shape=box,color=red];
-		1571 -> 1576;
-	1572 [label="我不是你的出氣筒，莉蒂。我不需要受你的氣。",shape=box,color=red];
-		1572 -> 1574;
-	1562 [label="嗯……我有種你在找茬的感覺。",shape=box,color=red];
-		1562 -> 1563;
-	1568 [label="我認為你是我生命中見過的最堅強的人之一。你從不抱怨。",shape=box,color=red];
-		1568 -> 1569;
-		1568 -> 1570;
-	1576 [label="我氣自己連死都不能死啊，呆呆
+		j2552309214 -> j1520852544;
+		j2552309214 -> j2624420413;
+	"Chat ends." [color=orange];
+	j2799516969 [label="莉蒂，你和我是對情侶來的。這對我來說很重要。",shape=box,color=red];
+		j2799516969 -> j3098297390;
+	j4178471030 [label="莉蒂，你和我已經是很好的朋友。我在乎你。這對我來說很重要。",shape=box,color=red];
+		j4178471030 -> j3098297390;
+	j1228991603 [label="等等，先退後幾步。你是在生氣自己沒死嗎？！",shape=box,color=red];
+		j1228991603 -> j3056795362;
+	j3888187862 [label="我不是你的出氣筒，莉蒂。我不需要受你的氣。",shape=box,color=red];
+		j3888187862 -> j1318877320;
+	j2624420413 [label="嗯……我有種你在找茬的感覺。",shape=box,color=red];
+		j2624420413 -> j2376176203;
+	j3098297390 [label="我認為你是我生命中見過的最堅強的人之一。你從不抱怨。",shape=box,color=red];
+		j3098297390 -> j1705717224;
+		j3098297390 -> j2908830710;
+	j3056795362 [label="我氣自己連死都不能死啊，呆呆
 你難道不明白
 沒有死亡的生命有多微不足道嗎
 我不斷問自己為什麼
 為什麼要堅持？！",shape=box,color=blue];
-		1576 -> 1581;
-	1574 [label="是喔
+		j3056795362 -> j2825030839;
+	j1318877320 [label="是喔
 逃跑吧，呆呆",shape=box,color=blue];
-		1574 -> 1575;
-	1563 [label="也許是
+		j1318877320 -> "Chat ends.";
+	j2376176203 [label="也許是
 也許不是
 也許我終於受夠了這些屁話",shape=box,color=blue];
-		1563 -> 1573;
-		1563 -> 1572;
-	1569 [label="如果你想要談談？我會在這裡。",shape=box,color=red];
-		1569 -> 1577;
-	1570 [label="跟我聊一下。",shape=box,color=red];
-		1570 -> 1577;
-	1581 [label="有什麼意義？
+		j2376176203 -> j1540798656;
+		j2376176203 -> j3888187862;
+	j1705717224 [label="如果你想要談談？我會在這裡。",shape=box,color=red];
+		j1705717224 -> j2943419579;
+	j2908830710 [label="跟我聊一下。",shape=box,color=red];
+		j2908830710 -> j2943419579;
+	j2825030839 [label="有什麼意義？
 這一切到底有什麼意義，呆呆
 我們都是幻想中的鬼魂，重演著舊時的生活和死亡
 重新走一次不會改變的夢境
 為什麼？！",shape=box,color=blue];
-		1581 -> 1582;
-	1575 [label="Chat ends.",color=orange];
-	1573 [label="我需要你停一停，然後告訴我發生了什麼事。",shape=box,color=red];
-		1573 -> 1581;
-	1577 [label="Check boolean LettieDating",color=orange];
-		1577 -> 1578 [label=true,color=green];
-		1577 -> 1579 [label=false,color=brown];
-	1582 [label="我站在這裡
+		j2825030839 -> j268637630;
+	j1540798656 [label="我需要你停一停，然後告訴我發生了什麼事。",shape=box,color=red];
+		j1540798656 -> j2825030839;
+	j2943419579 [label="Check boolean LettieDating",color=orange];
+		j2943419579 -> j3729303693 [label=true,color=green];
+		j2943419579 -> j3089537671 [label=false,color=brown];
+	j268637630 [label="我站在這裡
 一遍又一遍地把平民縫合好
 日復一日
 他們不明白這不重要
 如果他們在這裡死去，現在就死去，他們會再次復生
 他們只是夢遊般的鬼魂
 而我們知道我們所經歷的這一切痛苦",shape=box,color=blue];
-		1582 -> 1585;
-	1578 [label="嗯，小太陽，我討厭誇獎
+		j268637630 -> j764852763;
+	j3729303693 [label="嗯，小太陽，我討厭誇獎
 好吧，好吧... 我只是站在這裡，看著一排平民，心裡在想
 為什麼還要堅持，你知道嗎？",shape=box,color=blue];
-		1578 -> 1580;
-	1579 [label="嗯，老友，我討厭誇獎
+		j3729303693 -> j3485395057;
+	j3089537671 [label="嗯，老友，我討厭誇獎
 好吧，好吧... 我只是站在這裡，看著一排平民，心裡在想
 為什麼還要堅持，你知道嗎？",shape=box,color=blue];
-		1579 -> 1580;
-	1585 [label="我可以大肆屠殺
+		j3089537671 -> j3485395057;
+	j764852763 [label="我可以大肆屠殺
 冷血地殺光他們
 然後等到新的一年
 他們都會回來，不是吧？",shape=box,color=blue];
-		1585 -> 1586;
-		1585 -> 1587;
-	1580 [label="他們被射擊或殺死
+		j764852763 -> j952750139;
+		j764852763 -> j3459191259;
+	j3485395057 [label="他們被射擊或殺死
 我把他們縫合好，或者我不去縫合，他們就會死
 他們不明白這點不重要
 如果他們死了，在新的一年
 他們就會重新回到起點",shape=box,color=blue];
-		1580 -> 1583;
-	1586 [label="是嗎？但是……請不要這樣做。這樣對其他人解釋時會很困難。",shape=box,color=red];
-		1586 -> 1588;
-	1587 [label="但這裡的事情還是能改變的，也許不多，但在重要的方面會有改變。看看四周。",shape=box,color=red];
-		1587 -> 1589;
-	1583 [label="他們只是夢遊般的鬼魂，穿越噩夢
+		j3485395057 -> j2978214364;
+	j952750139 [label="是嗎？但是……請不要這樣做。這樣對其他人解釋時會很困難。",shape=box,color=red];
+		j952750139 -> j3634723544;
+	j3459191259 [label="但這裡的事情還是能改變的，也許不多，但在重要的方面會有改變。看看四周。",shape=box,color=red];
+		j3459191259 -> j1754276829;
+	j2978214364 [label="他們只是夢遊般的鬼魂，穿越噩夢
 我們是那些知道自己是什麼樣的幽靈
 不知道哪一種感覺更加糟糕",shape=box,color=blue];
-		1583 -> 1584;
-	1588 [label="如果我帶著烤麵包機進浴缸
+		j2978214364 -> j3958753546;
+	j3634723544 [label="如果我帶著烤麵包機進浴缸
 自殺
 之後呢？！
 我知道我在那段記憶中死了
 那個噩夢",shape=box,color=blue];
-		1588 -> 1590;
-	1589 [label="呃，是啊
+		j3634723544 -> j2698659035;
+	j1754276829 [label="呃，是啊
 我們現在幫助了流浪者，好吧，一些鬼魂受到的痛苦少了一點
 有些事情在這裡或那裡改變了，我肯定
 但你對我們做的事呢
 我知道我在另一段記憶中死去了",shape=box,color=blue];
-		1589 -> 1590;
-	1584 [label="Check boolean LettieShoulder2",color=orange];
-		1584 -> 1593 [label=true,color=green];
-		1584 -> 1591 [label=false,color=brown];
-	1590 [label="你應該把我留在那裡
+		j1754276829 -> j2698659035;
+	j3958753546 [label="Check boolean LettieShoulder2",color=orange];
+		j3958753546 -> j2567970458 [label=true,color=green];
+		j3958753546 -> j981392611 [label=false,color=brown];
+	j2698659035 [label="你應該把我留在那裡
 讓我死去
 我們不該是鬼魂 
 我們是不自然的，人不應該永生，他們應該允許死去",shape=box,color=blue];
-		1590 -> 1604;
-		1590 -> 1605;
-	1593 [label="但這裡的事情還是能改變的，也許不多，但在重要的方面會有改變。看看四周。",shape=box,color=red];
-		1593 -> 1594;
-	1591 [label="但是你知道你在這裡擁有的東西可以幫助你度過難關嗎？一個家庭。如果你選擇讓自己擁有一個的話。",shape=box,color=red];
-		1591 -> 1592;
-	1604 [label="我……知道你怎麼想，莉蒂。我知道。這輩子，我一直都是別人計劃的受害者。Orokin。牆中人。現在是源拓氏。",shape=box,color=red];
-		1604 -> 1606;
-	1605 [label="你有選擇，莉蒂。你可以永遠覺得自己是受害者，或者你可以把這當作一個機會──一種全新的生活。",shape=box,color=red];
-		1605 -> 1607;
-	1594 [label="我們給了這些人一個新家，一個新的希望。也許只是少少幾個，也許最後這並不重要……",shape=box,color=red];
-		1594 -> 1596;
-	1592 [label="Check boolean LettieNoHome",color=orange];
-		1592 -> 1597 [label=true,color=green];
-		1592 -> 1598 [label=false,color=brown];
-	1606 [label="但當我看著你們都死去時，我作出選擇。我可以讓你們繼續當受害者……或者我可以嘗試拯救你們。",shape=box,color=red];
-		1606 -> 1614;
-	1607 [label="是的，這是一個時間循環。是的，沒有太大變化。但你知道有哪些重要的改變發生了嗎？我們。我們是誰。我們知道什麼。我們感覺到什麼。",shape=box,color=red];
-		1607 -> 1615;
-	1596 [label="但這不是你成為醫護的原因嗎？正正是那些努力、那些希望的感覺、那份善意，才更重要，而不是我們最後會走到哪裡？",shape=box,color=red];
-		1596 -> 1601;
-	1597 [label="我知道你從來沒有覺得自己有一個所屬的地方。你從來沒有過一個家，莉蒂。就像我一樣。",shape=box,color=red];
-		1597 -> 1599;
-	1598 [label="看看四周。看看那些平民。看看六煞幫。看看我。",shape=box,color=red];
-		1598 -> 1600;
-	1614 [label="所以，也許這不是我應該為你做的選擇。如果你想因此怨恨我？好吧，恨我吧。",shape=box,color=red];
-		1614 -> 1623;
-	1615 [label="所以，不，這不是你習慣的生活。你再也無法體驗「正常」的生活了。",shape=box,color=red];
-		1615 -> 1624;
-	1601 [label="Update boolean LettieKindness",color=orange];
-		1601 -> 1602;
-	1599 [label="這可以是你的家人。你的家。如果你願意的話。如果你願意讓它成為的話。",shape=box,color=red];
-		1599 -> 1603;
-	1600 [label="這可以是你的家人。如果你願意的話。如果你願意讓它成為的話。",shape=box,color=red];
-		1600 -> 1603;
-	1623 [label="但如果你能拯救隊友，你都絕不會讓他們死掉。因為你不會讓他們繼續成為受害者。",shape=box,color=red];
-		1623 -> 1636;
-	1624 [label="但這裡有些事情可以讓這種生活變得值得活下去。",shape=box,color=red];
-		1624 -> 1637;
-	1602 [label="Check boolean LettieDating",color=orange];
-		1602 -> 1610 [label=true,color=green];
-		1602 -> 1612 [label=false,color=brown];
-	1603 [label="Update boolean LettieNewFamily",color=orange];
-		1603 -> 1608;
-	1636 [label="去拯救受害者的原因是什麼
+		j2698659035 -> j1554937678;
+		j2698659035 -> j3365342702;
+	j2567970458 [label="但這裡的事情還是能改變的，也許不多，但在重要的方面會有改變。看看四周。",shape=box,color=red];
+		j2567970458 -> j1954578438;
+	j981392611 [label="但是你知道你在這裡擁有的東西可以幫助你度過難關嗎？一個家庭。如果你選擇讓自己擁有一個的話。",shape=box,color=red];
+		j981392611 -> j2837183612;
+	j1554937678 [label="我……知道你怎麼想，莉蒂。我知道。這輩子，我一直都是別人計劃的受害者。Orokin。牆中人。現在是源拓氏。",shape=box,color=red];
+		j1554937678 -> j3653847259;
+	j3365342702 [label="你有選擇，莉蒂。你可以永遠覺得自己是受害者，或者你可以把這當作一個機會──一種全新的生活。",shape=box,color=red];
+		j3365342702 -> j4255915426;
+	j1954578438 [label="我們給了這些人一個新家，一個新的希望。也許只是少少幾個，也許最後這並不重要……",shape=box,color=red];
+		j1954578438 -> j4238735298;
+	j2837183612 [label="Check boolean LettieNoHome",color=orange];
+		j2837183612 -> j2855584904 [label=true,color=green];
+		j2837183612 -> j493806076 [label=false,color=brown];
+	j3653847259 [label="但當我看著你們都死去時，我作出選擇。我可以讓你們繼續當受害者……或者我可以嘗試拯救你們。",shape=box,color=red];
+		j3653847259 -> j710136766;
+	j4255915426 [label="是的，這是一個時間循環。是的，沒有太大變化。但你知道有哪些重要的改變發生了嗎？我們。我們是誰。我們知道什麼。我們感覺到什麼。",shape=box,color=red];
+		j4255915426 -> j995973222;
+	j4238735298 [label="但這不是你成為醫護的原因嗎？正正是那些努力、那些希望的感覺、那份善意，才更重要，而不是我們最後會走到哪裡？",shape=box,color=red];
+		j4238735298 -> j687322874;
+	j2855584904 [label="我知道你從來沒有覺得自己有一個所屬的地方。你從來沒有過一個家，莉蒂。就像我一樣。",shape=box,color=red];
+		j2855584904 -> j603937477;
+	j493806076 [label="看看四周。看看那些平民。看看六煞幫。看看我。",shape=box,color=red];
+		j493806076 -> j3851562643;
+	j710136766 [label="所以，也許這不是我應該為你做的選擇。如果你想因此怨恨我？好吧，恨我吧。",shape=box,color=red];
+		j710136766 -> j3529446571;
+	j995973222 [label="所以，不，這不是你習慣的生活。你再也無法體驗「正常」的生活了。",shape=box,color=red];
+		j995973222 -> j1864945562;
+	j687322874 [label="Boolean LettieKindness is now true.",color=orange];
+		j687322874 -> j3679117757;
+	j603937477 [label="這可以是你的家人。你的家。如果你願意的話。如果你願意讓它成為的話。",shape=box,color=red];
+		j603937477 -> j672275895;
+	j3851562643 [label="這可以是你的家人。如果你願意的話。如果你願意讓它成為的話。",shape=box,color=red];
+		j3851562643 -> j672275895;
+	j3529446571 [label="但如果你能拯救隊友，你都絕不會讓他們死掉。因為你不會讓他們繼續成為受害者。",shape=box,color=red];
+		j3529446571 -> j2546691270;
+	j1864945562 [label="但這裡有些事情可以讓這種生活變得值得活下去。",shape=box,color=red];
+		j1864945562 -> j2417074865;
+	j3679117757 [label="Check boolean LettieDating",color=orange];
+		j3679117757 -> j2875365849 [label=true,color=green];
+		j3679117757 -> j4054493583 [label=false,color=brown];
+	j672275895 [label="Boolean LettieNewFamily is now true.",color=orange];
+		j672275895 -> j3188996890;
+	j2546691270 [label="去拯救受害者的原因是什麼
 這不是生活，呆呆
 這個鬼魂般的噩夢根本不算生活",shape=box,color=blue];
-		1636 -> 1639;
-	1637 [label="啊，是的
+		j2546691270 -> j3120021396;
+	j2417074865 [label="啊，是的
 冷掉的披薩和一個被遺棄的商場
 悲傷的流浪平民
 還有對抗清剿隊的一場永無止境的戰爭
 告訴我，為什麼這種生活值得過下去",shape=box,color=blue];
-		1637 -> 1639;
-	1610 [label="+20 Chemistry",color=orange];
-		1610 -> 1595;
-	1612 [label="Check boolean LettieNoFlirt",color=orange];
-		1612 -> 1617 [label=true,color=green];
-		1612 -> 1616 [label=false,color=brown];
-	1608 [label="Check boolean LettieDating",color=orange];
-		1608 -> 1627 [label=true,color=green];
-		1608 -> 1613 [label=false,color=brown];
-	1639 [label="Check boolean LettieDating",color=orange];
-		1639 -> 1640 [label=true,color=green];
-		1639 -> 1641 [label=true,color=green];
-		1639 -> 1643 [label=true,color=green];
-		1639 -> 1642 [label=false,color=brown];
-	1595 [label="我……
+		j2417074865 -> j3120021396;
+	j2875365849 [label="+20 Chemistry",color=orange];
+		j2875365849 -> j2540838719;
+	j4054493583 [label="Check boolean LettieNoFlirt",color=orange];
+		j4054493583 -> j3317180574 [label=true,color=green];
+		j4054493583 -> j2101007801 [label=false,color=brown];
+	j3188996890 [label="Check boolean LettieDating",color=orange];
+		j3188996890 -> j1542918323 [label=true,color=green];
+		j3188996890 -> j1744086563 [label=false,color=brown];
+	j3120021396 [label="Check boolean LettieDating",color=orange];
+		j3120021396 -> j4190640173 [label=true,color=green];
+		j3120021396 -> j2604372154 [label=true,color=green];
+		j3120021396 -> j292858781 [label=true,color=green];
+		j3120021396 -> j968646835 [label=false,color=brown];
+	j2540838719 [label="我……
 我不喜歡你將我從我的謊話中叫醒
 是的……你……你說得對
 有時候我真的對這場戰鬥感到很厭倦，你知道嗎？
 我忘了我在這場仗中並非孤身一人",shape=box,color=blue];
-		1595 -> 1609;
-	1617 [label="當我像對待家人一樣關心你時看到你這樣子，我真的很痛心。",shape=box,color=red];
-		1617 -> 1632;
-	1616 [label="Check boolean IsDating",color=orange];
-		1616 -> 1617 [label=true,color=green];
-		1616 -> 1617 [label=false,color=brown];
-		1616 -> 1625 [label=false,color=brown];
-	1627 [label="+20 Chemistry",color=orange];
-		1627 -> 1626;
-	1613 [label="Check boolean LettieNoFlirt",color=orange];
-		1613 -> 1627 [label=true,color=green];
-		1613 -> 1619 [label=false,color=brown];
-		1613 -> 1625 [label=false,color=brown];
-	1640 [label="你覺得對我來說這只是一場隨便的放縱嗎？！你覺得你對我真的這麼不重要嗎？！",shape=box,color=red];
-		1640 -> 1646;
-	1641 [label="看看周圍。看看你擁有的。看看在你身邊的家人。看看關心你的那些人。",shape=box,color=red];
-		1641 -> 1648;
-	1643 [label="你看到的是流浪者，我看到的是在最黑暗的時候彼此展現善意的人們。我認為這很美。",shape=box,color=red];
-		1643 -> 1652;
-	1642 [label="Check boolean LettieNoFlirt",color=orange];
-		1642 -> 1641 [label=true,color=green];
-		1642 -> 1641 [label=false,color=brown];
-		1642 -> 1643 [label=false,color=brown];
-		1642 -> 1644 [label=false,color=brown];
-	1609 [label="生活就是我們擁有的那些時刻
+		j2540838719 -> j704796361;
+	j3317180574 [label="當我像對待家人一樣關心你時看到你這樣子，我真的很痛心。",shape=box,color=red];
+		j3317180574 -> j767173321;
+	j2101007801 [label="Check boolean IsDating",color=orange];
+		j2101007801 -> j3317180574 [label=true,color=green];
+		j2101007801 -> j3317180574 [label=false,color=brown];
+		j2101007801 -> j1851492033 [label=false,color=brown];
+	j1542918323 [label="+20 Chemistry",color=orange];
+		j1542918323 -> j2285049777;
+	j1744086563 [label="Check boolean LettieNoFlirt",color=orange];
+		j1744086563 -> j1542918323 [label=true,color=green];
+		j1744086563 -> j2003833180 [label=false,color=brown];
+		j1744086563 -> j1851492033 [label=false,color=brown];
+	j4190640173 [label="你覺得對我來說這只是一場隨便的放縱嗎？！你覺得你對我真的這麼不重要嗎？！",shape=box,color=red];
+		j4190640173 -> j3354660771;
+	j2604372154 [label="看看周圍。看看你擁有的。看看在你身邊的家人。看看關心你的那些人。",shape=box,color=red];
+		j2604372154 -> j2082873741;
+	j292858781 [label="你看到的是流浪者，我看到的是在最黑暗的時候彼此展現善意的人們。我認為這很美。",shape=box,color=red];
+		j292858781 -> j1322354021;
+	j968646835 [label="Check boolean LettieNoFlirt",color=orange];
+		j968646835 -> j2604372154 [label=true,color=green];
+		j968646835 -> j2604372154 [label=false,color=brown];
+		j968646835 -> j292858781 [label=false,color=brown];
+		j968646835 -> j1844873119 [label=false,color=brown];
+	j704796361 [label="生活就是我們擁有的那些時刻
 我們彼此關心的時刻
 現在……我們永恆地擁有了這些，不是嗎？
 （西語）謝謝你，寶貝……真心的",shape=box,color=blue];
-		1609 -> 1611;
-	1632 [label="+20 Chemistry",color=orange];
-		1632 -> 1618;
-	1625 [label="而且……還有另一個原因讓我在看到你這樣時感到心痛。[表白心意]",shape=box,color=red];
-		1625 -> 1638;
-	1626 [label="我……
+		j704796361 -> "Chat ends.";
+	j767173321 [label="+20 Chemistry",color=orange];
+		j767173321 -> j1386779615;
+	j1851492033 [label="而且……還有另一個原因讓我在看到你這樣時感到心痛。[表白心意]",shape=box,color=red];
+		j1851492033 -> j752912675;
+	j2285049777 [label="我……
 我不喜歡你將我從我的謊話中叫醒
 是的……你……你說得對
 有時候我會陷入自己的思緒，忘記我不是孤單一人",shape=box,color=blue];
-		1626 -> 1628;
-	1619 [label="當我像對待家人一樣關心你時看到你這樣子，我真的很痛心。",shape=box,color=red];
-		1619 -> 1635;
-	1646 [label="你告訴我吧，是嗎？
+		j2285049777 -> j1596559052;
+	j2003833180 [label="當我像對待家人一樣關心你時看到你這樣子，我真的很痛心。",shape=box,color=red];
+		j2003833180 -> j1395366350;
+	j3354660771 [label="你告訴我吧，是嗎？
 我是嗎？
 我看見的是一個孤獨半生的人現在有機會擁有他們從未擁有過的東西
 也許他們還不明白自己捲入了什麼",shape=box,color=blue];
-		1646 -> 1645;
-		1646 -> 1647;
-	1648 [label="我知道你覺得自己失去了生命。失去了家人。",shape=box,color=red];
-		1648 -> 1649;
-	1652 [label="如果你想把自己排除在外，那請自便。但這是你的選擇，莉蒂。是你在做這個決定，沒有人逼你。",shape=box,color=red];
-		1652 -> 1653;
-	1644 [label="你真的這麼遲鈍，竟然無法察覺你對我有多重要嗎？！[表白心意]",shape=box,color=red];
-		1644 -> 1654;
-	1611 [label="Chat ends.",color=orange];
-	1618 [label="我……
+		j3354660771 -> j2098796643;
+		j3354660771 -> j4213713517;
+	j2082873741 [label="我知道你覺得自己失去了生命。失去了家人。",shape=box,color=red];
+		j2082873741 -> j2017082177;
+	j1322354021 [label="如果你想把自己排除在外，那請自便。但這是你的選擇，莉蒂。是你在做這個決定，沒有人逼你。",shape=box,color=red];
+		j1322354021 -> j3313996384;
+	j1844873119 [label="你真的這麼遲鈍，竟然無法察覺你對我有多重要嗎？！[表白心意]",shape=box,color=red];
+		j1844873119 -> j3462355839;
+	j1386779615 [label="我……
 我不喜歡你將我從我的謊話中叫醒
 是的……你……你說得對
 有時候我真的對這場戰鬥感到很厭倦，你知道嗎？
 我忘了我在這場仗中並非孤身一人",shape=box,color=blue];
-		1618 -> 1630;
-	1638 [label="是嗎？",shape=box,color=blue];
-		1638 -> 1654;
-	1628 [label="我需要記得我身邊還有家人
+		j1386779615 -> j2688958175;
+	j752912675 [label="是嗎？",shape=box,color=blue];
+		j752912675 -> j3462355839;
+	j1596559052 [label="我需要記得我身邊還有家人
 在事情變黑暗時有我可以依賴的人
 （西語）謝謝，寶貝……真的",shape=box,color=blue];
-		1628 -> 1629;
-	1635 [label="+20 Chemistry",color=orange];
-		1635 -> 1620;
-	1645 [label="好吧，沒錯。這肯定就是這裡正在發生的事。你說得對。我只是太過天真，我的感覺不是真的。",shape=box,color=red];
-		1645 -> 1651;
-	1647 [label="我看到的是一個受傷的人，他們試圖挑起爭端而不是去處理那份痛苦。",shape=box,color=red];
-		1647 -> 1655;
-	1649 [label="Check boolean LettieCavia",color=orange];
-		1649 -> 1656 [label=true,color=green];
-		1649 -> 1650 [label=false,color=brown];
-	1653 [label="Check boolean LettieRats1",color=orange];
-		1653 -> 1659 [label=true,color=green];
-		1653 -> 1660 [label=false,color=brown];
-	1654 [label="在你說我很愚蠢，又或者說我無法應付你之前，先等一等，讓我把話說完。",shape=box,color=red];
-		1654 -> 1701;
-		1654 -> 1702;
-		1654 -> 1703;
-	1630 [label="生活就是我們擁有的那些時刻
+		j1596559052 -> "Chat ends.";
+	j1395366350 [label="+20 Chemistry",color=orange];
+		j1395366350 -> j3422059310;
+	j2098796643 [label="好吧，沒錯。這肯定就是這裡正在發生的事。你說得對。我只是太過天真，我的感覺不是真的。",shape=box,color=red];
+		j2098796643 -> j1772459493;
+	j4213713517 [label="我看到的是一個受傷的人，他們試圖挑起爭端而不是去處理那份痛苦。",shape=box,color=red];
+		j4213713517 -> j2546416282;
+	j2017082177 [label="Check boolean LettieCavia",color=orange];
+		j2017082177 -> j4095155384 [label=true,color=green];
+		j2017082177 -> j1316773623 [label=false,color=brown];
+	j3313996384 [label="Check boolean LettieRats1",color=orange];
+		j3313996384 -> j3678432971 [label=true,color=green];
+		j3313996384 -> j3237102090 [label=false,color=brown];
+	j3462355839 [label="在你說我很愚蠢，又或者說我無法應付你之前，先等一等，讓我把話說完。",shape=box,color=red];
+		j3462355839 -> j4165952373;
+		j3462355839 -> j2290117003;
+		j3462355839 -> j2575415435;
+	j2688958175 [label="生活就是我們擁有的那些時刻
 我們彼此關心的時刻
 現在……我們永恆地擁有了這些，不是嗎？
 （西語）謝謝……真的",shape=box,color=blue];
-		1630 -> 1631;
-	1629 [label="Chat ends.",color=orange];
-	1620 [label="我……
+		j2688958175 -> "Chat ends.";
+	j3422059310 [label="我……
 我不喜歡你將我從我的謊話中叫醒
 是的……你……你說得對
 有時候我會陷入自己的思緒，忘記我不是孤單一人",shape=box,color=blue];
-		1620 -> 1633;
-	1651 [label="是的
+		j3422059310 -> j981083345;
+	j1772459493 [label="是的
 很高興你同意了
 現在滾吧",shape=box,color=blue];
-		1651 -> 1661;
-		1651 -> 1662;
-	1655 [label="（西語）哎，是嗎？
+		j1772459493 -> j3341098777;
+		j1772459493 -> j1145132483;
+	j2546416282 [label="（西語）哎，是嗎？
 請說",shape=box,color=blue];
-		1655 -> 1668;
-	1656 [label="沒有人認為參研者值得被拯救。Loid 該不該就這樣讓牠們死去？",shape=box,color=red];
-		1656 -> 1682;
-	1650 [label="Check boolean LettieNoHome",color=orange];
-		1650 -> 1657 [label=true,color=green];
-		1650 -> 1658 [label=false,color=brown];
-	1659 [label="而且，即使最後這一切都毫無意義，流浪動物不是才最該值得被拯救的嗎？",shape=box,color=red];
-		1659 -> 1660;
-	1660 [label="嘗試去照顧，嘗試去做的行為，難道不是重點嗎？",shape=box,color=red];
-		1660 -> 1694;
-	1701 [label="你簡直是美得讓人窒息。你聰明過人。你能輕易打敗我。但這並不是你對我如此重要的唯一原因。",shape=box,color=red];
-		1701 -> 1705;
-		1701 -> 1706;
-	1702 [label="在你建立的層層盔甲之下，最深之處是一個我見過的最善良、最富有同情心的人。但這不僅僅如此。",shape=box,color=red];
-		1702 -> 1704;
-		1702 -> 1706;
-	1703 [label="你是勢不可擋的。你是無懼的。沒有什麼能讓你停下來。你是我見過的最堅強的人之一。還有──",shape=box,color=red];
-		1703 -> 1704;
-		1703 -> 1705;
-	1631 [label="Chat ends.",color=orange];
-	1633 [label="我需要記得我身邊還有家人
+		j2546416282 -> j282085679;
+	j4095155384 [label="沒有人認為參研者值得被拯救。Loid 該不該就這樣讓牠們死去？",shape=box,color=red];
+		j4095155384 -> j2762320278;
+	j1316773623 [label="Check boolean LettieNoHome",color=orange];
+		j1316773623 -> j3694941325 [label=true,color=green];
+		j1316773623 -> j2450003543 [label=false,color=brown];
+	j3678432971 [label="而且，即使最後這一切都毫無意義，流浪動物不是才最該值得被拯救的嗎？",shape=box,color=red];
+		j3678432971 -> j3237102090;
+	j3237102090 [label="嘗試去照顧，嘗試去做的行為，難道不是重點嗎？",shape=box,color=red];
+		j3237102090 -> j2360439311;
+	j4165952373 [label="你簡直是美得讓人窒息。你聰明過人。你能輕易打敗我。但這並不是你對我如此重要的唯一原因。",shape=box,color=red];
+		j4165952373 -> j3183564110;
+		j4165952373 -> j2556516793;
+	j2290117003 [label="在你建立的層層盔甲之下，最深之處是一個我見過的最善良、最富有同情心的人。但這不僅僅如此。",shape=box,color=red];
+		j2290117003 -> j3848180917;
+		j2290117003 -> j2556516793;
+	j2575415435 [label="你是勢不可擋的。你是無懼的。沒有什麼能讓你停下來。你是我見過的最堅強的人之一。還有──",shape=box,color=red];
+		j2575415435 -> j3848180917;
+		j2575415435 -> j3183564110;
+	j981083345 [label="我需要記得我身邊還有家人
 在事情變黑暗時有我可以依賴的人
 （西語）謝謝……真的",shape=box,color=blue];
-		1633 -> 1634;
-	1661 [label="我們的對話還沒結束，莉蒂。",shape=box,color=red];
-		1661 -> 1668;
-	1662 [label="我受夠這一切了，也受夠了你。[分手]",shape=box,color=red];
-		1662 -> 1663;
-	1668 [label="你對我發火是因為你害怕。因為你不想就這樣被困在這裡。但你卻把所有能幫助你的人都推開。",shape=box,color=red];
-		1668 -> 1670;
-	1682 [label="那種死亡會比現在的生活更好？汰廢可能曾經會同意你的看法──他在那次事件中失去了妻子。",shape=box,color=red];
-		1682 -> 1685;
-	1657 [label="我知道你從來沒有覺得自己有一個屬於的地方。你從來沒有過一個家，莉蒂。就像我一樣。",shape=box,color=red];
-		1657 -> 1683;
-	1658 [label="你現在的處境──我不會撒謊，這一切真的十分糟糕。相信我，我都曾經經歷過。但你們擁有我所沒有的一樣東西。",shape=box,color=red];
-		1658 -> 1684;
-	1694 [label="正是那些善意的瞬間才最重要，不是嗎？那些我們能夠展現自己更好的一面的高光時刻。",shape=box,color=red];
-		1694 -> 1695;
-	1705 [label="你是我見過的最善良、最關心別人的人。你對待動物的方式，還有你願意為了別人付出而不顧一切，你讓我的心都融化了。",shape=box,color=red];
-		1705 -> 1707;
-	1706 [label="你是由鋼鐵鑄造的。我知道不管他們向你投擲什麼——源拓氏、牆中人、維克多還是清剿隊──這一切都無所謂。他們根本沒有機會。",shape=box,color=red];
-		1706 -> 1707;
-	1704 [label="讓我們停一停想一想到底你有多美麗，而且如果你想的話，你絕對可以像折枝一樣輕鬆摧毀我。哈哈",shape=box,color=red];
-		1704 -> 1707;
-	1634 [label="Chat ends.",color=orange];
-	1663 [label="是的
+		j981083345 -> "Chat ends.";
+	j3341098777 [label="我們的對話還沒結束，莉蒂。",shape=box,color=red];
+		j3341098777 -> j282085679;
+	j1145132483 [label="我受夠這一切了，也受夠了你。[分手]",shape=box,color=red];
+		j1145132483 -> j2620407512;
+	j282085679 [label="你對我發火是因為你害怕。因為你不想就這樣被困在這裡。但你卻把所有能幫助你的人都推開。",shape=box,color=red];
+		j282085679 -> j208639885;
+	j2762320278 [label="那種死亡會比現在的生活更好？汰廢可能曾經會同意你的看法──他在那次事件中失去了妻子。",shape=box,color=red];
+		j2762320278 -> j2853691572;
+	j3694941325 [label="我知道你從來沒有覺得自己有一個屬於的地方。你從來沒有過一個家，莉蒂。就像我一樣。",shape=box,color=red];
+		j3694941325 -> j4272870291;
+	j2450003543 [label="你現在的處境──我不會撒謊，這一切真的十分糟糕。相信我，我都曾經經歷過。但你們擁有我所沒有的一樣東西。",shape=box,color=red];
+		j2450003543 -> j3475545984;
+	j2360439311 [label="正是那些善意的瞬間才最重要，不是嗎？那些我們能夠展現自己更好的一面的高光時刻。",shape=box,color=red];
+		j2360439311 -> j4131197994;
+	j3183564110 [label="你是我見過的最善良、最關心別人的人。你對待動物的方式，還有你願意為了別人付出而不顧一切，你讓我的心都融化了。",shape=box,color=red];
+		j3183564110 -> j1504649085;
+	j2556516793 [label="你是由鋼鐵鑄造的。我知道不管他們向你投擲什麼——源拓氏、牆中人、維克多還是清剿隊──這一切都無所謂。他們根本沒有機會。",shape=box,color=red];
+		j2556516793 -> j1504649085;
+	j3848180917 [label="讓我們停一停想一想到底你有多美麗，而且如果你想的話，你絕對可以像折枝一樣輕鬆摧毀我。哈哈",shape=box,color=red];
+		j3848180917 -> j1504649085;
+	j2620407512 [label="是的
 我就知道會這樣
 滾吧，呆呆，我沒時間再理你了
 早就該知道不應該和小孩子玩",shape=box,color=blue];
-		1663 -> 1664;
-	1670 [label="所以你可以讓我進來──全心全意地——幫助你；或者你也可以把我推開，這由你決定。",shape=box,color=red];
-		1670 -> 1669;
-	1685 [label="但他們在彼此之間找到了新的家庭。繼續努力下去的理由。繼續活下去的理由。",shape=box,color=red];
-		1685 -> 1688;
-	1683 [label="是嗎？這可以是你的家人。你的家。如果你願意的話。如果你願意讓它成為的話。",shape=box,color=red];
-		1683 -> 1688;
-	1684 [label="你們彼此擁有對方。你們有一個家庭。你們有朋友。",shape=box,color=red];
-		1684 -> 1686;
-	1695 [label="（西語）該死",shape=box,color=blue];
-		1695 -> 1698;
-	1707 [label="重點是……我很在乎你，莉蒂。非常在乎。不僅僅是作為朋友，我明白如果你只是單向的話，但──",shape=box,color=red];
-		1707 -> 1709;
-	1664 [label="Update boolean LettieDating",color=orange];
-		1664 -> 1665;
-	1669 [label="（西語）該死",shape=box,color=blue];
-		1669 -> 1671;
-	1688 [label="（西語）該死",shape=box,color=blue];
-		1688 -> 1692;
-	1686 [label="你不像我那樣孤獨——而那份孤獨讓我陷入了痛苦和麻木的漩渦中。",shape=box,color=red];
-		1686 -> 1687;
-	1698 [label="+20 Chemistry",color=orange];
-		1698 -> 1699;
-	1709 [label="我無法忍受看著你就這樣放棄希望。你不是幽靈。你不是鬼魂。",shape=box,color=red];
-		1709 -> 1710;
-	1665 [label="Update boolean IsDating",color=orange];
-		1665 -> 1666;
-	1671 [label="我……
+		j2620407512 -> j2548450594;
+	j208639885 [label="所以你可以讓我進來──全心全意地——幫助你；或者你也可以把我推開，這由你決定。",shape=box,color=red];
+		j208639885 -> j1495228546;
+	j2853691572 [label="但他們在彼此之間找到了新的家庭。繼續努力下去的理由。繼續活下去的理由。",shape=box,color=red];
+		j2853691572 -> j1201406276;
+	j4272870291 [label="是嗎？這可以是你的家人。你的家。如果你願意的話。如果你願意讓它成為的話。",shape=box,color=red];
+		j4272870291 -> j1201406276;
+	j3475545984 [label="你們彼此擁有對方。你們有一個家庭。你們有朋友。",shape=box,color=red];
+		j3475545984 -> j3834013586;
+	j4131197994 [label="（西語）該死",shape=box,color=blue];
+		j4131197994 -> j2432009399;
+	j1504649085 [label="重點是……我很在乎你，莉蒂。非常在乎。不僅僅是作為朋友，我明白如果你只是單向的話，但──",shape=box,color=red];
+		j1504649085 -> j1073831576;
+	j2548450594 [label="Boolean LettieDating is now false.",color=orange];
+		j2548450594 -> j4086907321;
+	j1495228546 [label="（西語）該死",shape=box,color=blue];
+		j1495228546 -> j2287328968;
+	j1201406276 [label="（西語）該死",shape=box,color=blue];
+		j1201406276 -> j3956947879;
+	j3834013586 [label="你不像我那樣孤獨——而那份孤獨讓我陷入了痛苦和麻木的漩渦中。",shape=box,color=red];
+		j3834013586 -> j2820430859;
+	j2432009399 [label="+20 Chemistry",color=orange];
+		j2432009399 -> j3870035479;
+	j1073831576 [label="我無法忍受看著你就這樣放棄希望。你不是幽靈。你不是鬼魂。",shape=box,color=red];
+		j1073831576 -> j3155625408;
+	j4086907321 [label="Boolean IsDating is now false.",color=orange];
+		j4086907321 -> j2703113057;
+	j2287328968 [label="我……
 我覺得我不太喜歡你揭穿我的謊言
 是的……你……你說得對
 我總是把自己困在自己的腦海裡然後我……我一直沒有給你一個公平的機會",shape=box,color=blue];
-		1671 -> 1672;
-	1692 [label="+20 Chemistry",color=orange];
-		1692 -> 1689;
-	1687 [label="你需要選擇你想要成為的哪種人。你想要孤獨一人，還是不想。",shape=box,color=red];
-		1687 -> 1688;
-	1699 [label="我……
+		j2287328968 -> j340727602;
+	j3956947879 [label="+20 Chemistry",color=orange];
+		j3956947879 -> j2807279315;
+	j2820430859 [label="你需要選擇你想要成為的哪種人。你想要孤獨一人，還是不想。",shape=box,color=red];
+		j2820430859 -> j1201406276;
+	j3870035479 [label="我……
 我不喜歡你將我從我的謊話中叫醒
 是的……你……你說得對
 有時候我真的對這場戰鬥感到很厭倦，你知道嗎？
 我忘了我在這場仗中並非孤身一人",shape=box,color=blue];
-		1699 -> 1696;
-	1710 [label="你是莉蒂，而──",shape=box,color=red];
-		1710 -> 1708;
-	1666 [label="Update boolean LettieNoDate",color=orange];
-		1666 -> 1667;
-	1672 [label="對我來說要把這當成只是身體上的事實在太簡單了
+		j3870035479 -> j193899176;
+	j3155625408 [label="你是莉蒂，而──",shape=box,color=red];
+		j3155625408 -> j786367545;
+	j2703113057 [label="Boolean LettieNoDate is now true.",color=orange];
+		j2703113057 -> "Chat ends.";
+	j340727602 [label="對我來說要把這當成只是身體上的事實在太簡單了
 這樣會更安全，你懂嗎？
 （西語）對不起，小太陽……",shape=box,color=blue];
-		1672 -> 1673;
-	1689 [label="我……
+		j340727602 -> j148267586;
+	j2807279315 [label="我……
 我不喜歡你將我從我的謊話中叫醒
 是的……你……你說得對
 有時候我會陷入自己的思緒，忘記我不是孤單一人",shape=box,color=blue];
-		1689 -> 1690;
-	1696 [label="生活就是我們擁有的那些瞬間
+		j2807279315 -> j4290006763;
+	j193899176 [label="生活就是我們擁有的那些瞬間
 我們花時間彼此關心的瞬間
 而不是最終的終點
 （西語）謝謝你…真的",shape=box,color=blue];
-		1696 -> 1697;
-	1708 [label="閉嘴",shape=box,color=blue];
-		1708 -> 1711;
-	1667 [label="Chat ends.",color=orange];
-	1673 [label="我想彌補這一切
+		j193899176 -> j3208138621;
+	j786367545 [label="閉嘴",shape=box,color=blue];
+		j786367545 -> j3614008073;
+	j148267586 [label="我想彌補這一切
 我想我也知道要怎麼做……
 如果你願意的話，嗯？",shape=box,color=blue];
-		1673 -> 1674;
-		1673 -> 1675;
-	1690 [label="我需要記得我身邊還有家人
+		j148267586 -> j686928633;
+		j148267586 -> j1814844466;
+	j4290006763 [label="我需要記得我身邊還有家人
 在事情變黑暗時有我可以依賴的人
 （西語）謝謝……真的",shape=box,color=blue];
-		1690 -> 1691;
-	1697 [label="Update boolean LettieKindness",color=orange];
-		1697 -> 1700;
-	1711 [label="（西語）稍等一下",shape=box,color=blue];
-		1711 -> 1712;
-		1711 -> 1713;
-	1674 [label="也許過一會兒再說，我現在有點生氣。",shape=box,color=red];
-		1674 -> 1676;
-	1675 [label="說到我好像我會對它說不。 : }",shape=box,color=red];
-		1675 -> 1677;
-	1691 [label="Update boolean LettieNewFamily",color=orange];
-		1691 -> 1693;
-	1700 [label="Chat ends.",color=orange];
-	1712 [label="如果我讓你不高興了，我很抱歉……",shape=box,color=red];
-		1712 -> 1714;
-	1713 [label="如果你沒有相同的感覺，我會理解的。",shape=box,color=red];
-		1713 -> 1714;
-	1676 [label="（西語）是
+		j4290006763 -> j3419229027;
+	j3208138621 [label="Boolean LettieKindness is now true.",color=orange];
+		j3208138621 -> "Chat ends.";
+	j3614008073 [label="（西語）稍等一下",shape=box,color=blue];
+		j3614008073 -> j864486044;
+		j3614008073 -> j141771033;
+	j686928633 [label="也許過一會兒再說，我現在有點生氣。",shape=box,color=red];
+		j686928633 -> j786193170;
+	j1814844466 [label="說到我好像我會對它說不。 : }",shape=box,color=red];
+		j1814844466 -> j1185532220;
+	j3419229027 [label="Boolean LettieNewFamily is now true.",color=orange];
+		j3419229027 -> "Chat ends.";
+	j864486044 [label="如果我讓你不高興了，我很抱歉……",shape=box,color=red];
+		j864486044 -> j3343976379;
+	j141771033 [label="如果你沒有相同的感覺，我會理解的。",shape=box,color=red];
+		j141771033 -> j3343976379;
+	j786193170 [label="（西語）是
 我明白了",shape=box,color=blue];
-		1676 -> 1678;
-	1677 [label="Update boolean LettieReal",color=orange];
-		1677 -> 1679;
-	1693 [label="Chat ends.",color=orange];
-	1714 [label="（西語）我認真的，閉嘴！
+		j786193170 -> j1933300832;
+	j1185532220 [label="Boolean LettieReal is now true.",color=orange];
+		j1185532220 -> j367054140;
+	j3343976379 [label="（西語）我認真的，閉嘴！
 我需要一點時間思考一下
 呼吸一下
 我哭就會無法處理這些情緒",shape=box,color=blue];
-		1714 -> 1718;
-	1678 [label="+10 Chemistry",color=orange];
-		1678 -> 1680;
-	1679 [label="+20 Chemistry",color=orange];
-		1679 -> 1681;
-	1718 [label="+20 Chemistry",color=orange];
-		1718 -> 1715;
-	1680 [label="Chat ends.",color=orange];
-	1681 [label="Chat ends.",color=orange];
-	1715 [label="我不接受讚美，小太陽
+		j3343976379 -> j2408257045;
+	j1933300832 [label="+10 Chemistry",color=orange];
+		j1933300832 -> "Chat ends.";
+	j367054140 [label="+20 Chemistry",color=orange];
+		j367054140 -> "Chat ends.";
+	j2408257045 [label="+20 Chemistry",color=orange];
+		j2408257045 -> j2303718240;
+	j2303718240 [label="我不接受讚美，小太陽
 我從來沒辦法接受
 明天再聊吧，我要先把這些事理清楚
 （西語）對不起",shape=box,color=blue];
-		1715 -> 1716;
-	1716 [label="Update boolean LettieConfession",color=orange];
-		1716 -> 1717;
-	1717 [label="Chat ends. Next chat will be LettieConfession.",color=orange];
+		j2303718240 -> j2564553015;
+	j2564553015 [label="Boolean LettieConfession is now true.",color=orange];
+		j2564553015 -> "Chat ends. Next chat will be LettieConfession.";
+	"Chat ends. Next chat will be LettieConfession." [color=orange];
 }
