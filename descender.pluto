@@ -20,17 +20,6 @@ local ALL_DIALOGUES <const> = {
 	"VelimirDialogue_rom.dialogue",
 }
 
-print "Extracting metadata..."
-for ALL_DIALOGUES as diag_name do
-	local rom = io.contents("Extracted/Debug/Lotus/Types/Gameplay/1999Wf/Dialogue/"..diag_name.."_H")
-	local i = 1
-	local filename, metadata
-	i += 20 -- skip hash?
-	filename, i = string.unpack("<s4", rom, i)
-	metadata, i = string.unpack("<s4", rom, i)
-	io.contents("metadata/"..diag_name..".json", json.encode(EeNotationParser.parse(metadata), true))
-end
-
 print "Loading dicts..."
 local LANGS <const> = { "en", "de", "es", "fr", "it", "ja", "ko", "pl", "pt", "ru", "tc", "th", "tr", "uk", "zh" }
 local full_dicts = {}
@@ -42,30 +31,64 @@ end
 
 print "Extracting data..."
 for ALL_DIALOGUES as diag_name do
+	local node_type_index_to_type = {}
+	do
+		local rom = io.contents("Extracted/Debug/Lotus/Types/Gameplay/1999Wf/Dialogue/"..diag_name.."_H")
+		local i = 1
+		local filename, metadata, num_node_types
+		i += 20 -- skip hash?
+		filename, i = string.unpack("<s4", rom, i)
+		metadata, i = string.unpack("<s4", rom, i)
+		i += 1 -- null terminator
+		io.contents("metadata/"..diag_name..".json", json.encode(EeNotationParser.parse(metadata), true))
+		i += 8 -- unk
+		num_node_types, i = string.unpack("<I4", rom, i)
+		for j = 1, num_node_types do
+			local node_type
+			node_type, i = string.unpack("<s4", rom, i)
+			node_type_index_to_type[j - 1] = node_type
+		end
+	end
+
 	local rom = io.contents("Extracted/Debug/Lotus/Types/Gameplay/1999Wf/Dialogue/"..diag_name.."_B")
 	local nodes = {}
-	local node
-	local i = rom:find("Id=0\n")
-	while true do
-		node, i = string.unpack("z", rom, i)
-		if node == "" then
-			break
-		end
-		node = EeNotationParser.parse(node)
-		nodes:insert(node)
-		if node.Content and full_dicts.en[node.Content] then
-			--assert(full_dicts.en[node.Content], node.Content)
-			for LANGS as lang do
-				partial_dicts[lang][node.Content] = full_dicts[lang][node.Content]
+	local delim <const> = rom:find("Id=0\n")
+	do
+		local i = delim
+		local node
+		while true do
+			node, i = string.unpack("z", rom, i)
+			if node == "" then
+				break
 			end
-		end
-		if node.Speaker and full_dicts.en[node.Speaker] then
-			--assert(full_dicts.en[node.Speaker], node.Speaker)
-			for LANGS as lang do
-				partial_dicts[lang][node.Speaker] = full_dicts[lang][node.Speaker]
+			node = EeNotationParser.parse(node)
+			assert(node.Id == #nodes)
+			nodes:insert(node)
+			if node.Content and full_dicts.en[node.Content] then
+				--assert(full_dicts.en[node.Content], node.Content)
+				for LANGS as lang do
+					partial_dicts[lang][node.Content] = full_dicts[lang][node.Content]
+				end
+			end
+			if node.Speaker and full_dicts.en[node.Speaker] then
+				--assert(full_dicts.en[node.Speaker], node.Speaker)
+				for LANGS as lang do
+					partial_dicts[lang][node.Speaker] = full_dicts[lang][node.Speaker]
+				end
 			end
 		end
 	end
+
+	i = delim - (#nodes * 4)
+	for nodes as node do
+		i += 2 -- property text length
+		local type_index
+		type_index, i = string.unpack("<I2", rom, i)
+		node.__order:insert(1, "type")
+		node.type = node_type_index_to_type[type_index]
+		assert(node.type)
+	end
+
 	io.contents("data/"..diag_name..".json", json.encode(nodes, true))
 end
 
