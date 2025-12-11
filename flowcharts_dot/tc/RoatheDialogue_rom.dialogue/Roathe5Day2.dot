@@ -21,8 +21,8 @@ digraph {
 		3750 -> 3758;
 	3749 [label="Evaluate expressions on HellStory",color=orange];
 		3749 -> 3755 [label="x >= 21",color=purple];
-		3749 -> 3754 [label="x <= 21",color=purple];
-		3749 -> 3754 [label="false",color=purple];
+		3749 -> 5625 [label="x <= 21",color=purple];
+		3749 -> 5625 [label="false",color=purple];
 	3763 [label="A new day dawns, and I find myself planning for the future for the first time in... a long time. Thinking on how I could reshape this world around me. On how I could wield what I know. What I am. How I could make better use of it.",shape=box,color=blue];
 		3763 -> 3775;
 	3762 [label="A new day dawns, and I find myself planning for the future for the first time in... a long time. Thinking on what this means for me, for what I want, for how I wish to reshape my environment to suit me.",shape=box,color=blue];
@@ -44,8 +44,7 @@ digraph {
 		3758 -> 3767;
 	3755 [label="You fool! What have you done?! Why, why go and delve into caverns where you are not welcome?!",shape=box,color=blue];
 		3755 -> 3764;
-	3754 [label="Update boolean LyonRoatheRepair",color=orange];
-		3754 -> 5625;
+	5625 [label="Chat ends.",color=orange];
 	3775 [label="Check boolean RoatheDating",color=orange];
 		3775 -> 3789 [label=true,color=green];
 		3775 -> 3788 [label=false,color=brown];
@@ -73,7 +72,6 @@ digraph {
 		3767 -> 3778;
 	3764 [label="I demand you fix this. This is your fault. I can feel it, clawing at me, tearing at me. Like some great beast.",shape=box,color=blue];
 		3764 -> 3776;
-	5625 [label="Chat ends.",color=orange];
 	3789 [label="It would be poor form to not acknowledge that this is due to your help, darling. Thank you.",shape=box,color=blue];
 		3789 -> 3806;
 		3789 -> 3807;

@@ -21,8 +21,8 @@ digraph {
 		3750 -> 3758;
 	3749 [label="Evaluate expressions on HellStory",color=orange];
 		3749 -> 3755 [label="x >= 21",color=purple];
-		3749 -> 3754 [label="x <= 21",color=purple];
-		3749 -> 3754 [label="false",color=purple];
+		3749 -> 5625 [label="x <= 21",color=purple];
+		3749 -> 5625 [label="false",color=purple];
 	3763 [label="新的一天来临，我发现自己很久以来第一次开始规划未来。我思考着如何重塑我周围的世界，如何运用我的知识和能力，如何更好地发挥我的优势。",shape=box,color=blue];
 		3763 -> 3775;
 	3762 [label="新的一天来临，我发现自己很久以来第一次开始规划未来。我思考着这对我意味着什么，我想要什么，以及我希望如何改造我的环境以适应我的需求。",shape=box,color=blue];
@@ -44,8 +44,7 @@ digraph {
 		3758 -> 3767;
 	3755 [label="你这个蠢人！你都做了些什么？！为什么，为什么要擅闯那些不欢迎你的洞穴？！",shape=box,color=blue];
 		3755 -> 3764;
-	3754 [label="Update boolean LyonRoatheRepair",color=orange];
-		3754 -> 5625;
+	5625 [label="Chat ends.",color=orange];
 	3775 [label="Check boolean RoatheDating",color=orange];
 		3775 -> 3789 [label=true,color=green];
 		3775 -> 3788 [label=false,color=brown];
@@ -73,7 +72,6 @@ digraph {
 		3767 -> 3778;
 	3764 [label="我要求你解决这个问题。这是你的错。我能感觉到，这些记忆就像一头巨大的野兽，在撕咬着我。",shape=box,color=blue];
 		3764 -> 3776;
-	5625 [label="Chat ends.",color=orange];
 	3789 [label="亲爱的，如果我不感谢你的帮助，那就太失礼了。谢谢你。",shape=box,color=blue];
 		3789 -> 3806;
 		3789 -> 3807;

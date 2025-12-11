@@ -21,8 +21,8 @@ digraph {
 		3750 -> 3758;
 	3749 [label="Evaluate expressions on HellStory",color=orange];
 		3749 -> 3755 [label="x >= 21",color=purple];
-		3749 -> 3754 [label="x <= 21",color=purple];
-		3749 -> 3754 [label="false",color=purple];
+		3749 -> 5625 [label="x <= 21",color=purple];
+		3749 -> 5625 [label="false",color=purple];
 	3763 [label="Ein neuer Tag bricht an, und zum ersten Mal seit Langem ... plane ich meine Zukunft. Ich denke darüber nach, wie ich die Welt um mich herum verändern könnte. Wie ich mein Wissen, mein Wesen, besser einsetzen könnte.",shape=box,color=blue];
 		3763 -> 3775;
 	3762 [label="Ein neuer Tag bricht an, und zum ersten Mal seit Langem plane ich meine Zukunft. Ich denke darüber nach, was das für mich bedeutet, was ich will und wie ich mein Umfeld nach meinen Vorstellungen gestalten möchte.",shape=box,color=blue];
@@ -44,8 +44,7 @@ digraph {
 		3758 -> 3767;
 	3755 [label="Du Narr! Was hast du getan?! Warum, warum bist du in Höhlen vorgedrungen, in denen du nicht willkommen bist?!",shape=box,color=blue];
 		3755 -> 3764;
-	3754 [label="Update boolean LyonRoatheRepair",color=orange];
-		3754 -> 5625;
+	5625 [label="Chat ends.",color=orange];
 	3775 [label="Check boolean RoatheDating",color=orange];
 		3775 -> 3789 [label=true,color=green];
 		3775 -> 3788 [label=false,color=brown];
@@ -73,7 +72,6 @@ digraph {
 		3767 -> 3778;
 	3764 [label="Ich verlange, dass du das in Ordnung bringst. Das ist deine Schuld. Ich spüre es, wie es an mir zerrt, mich zerreißt. Wie ein riesiges Ungeheuer.",shape=box,color=blue];
 		3764 -> 3776;
-	5625 [label="Chat ends.",color=orange];
 	3789 [label="Es wäre unangebracht, nicht anzuerkennen, dass dies deiner Hilfe zu verdanken ist, Schatz. Danke.",shape=box,color=blue];
 		3789 -> 3806;
 		3789 -> 3807;

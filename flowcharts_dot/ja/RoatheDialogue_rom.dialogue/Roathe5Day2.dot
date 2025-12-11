@@ -21,8 +21,8 @@ digraph {
 		3750 -> 3758;
 	3749 [label="Evaluate expressions on HellStory",color=orange];
 		3749 -> 3755 [label="x >= 21",color=purple];
-		3749 -> 3754 [label="x <= 21",color=purple];
-		3749 -> 3754 [label="false",color=purple];
+		3749 -> 5625 [label="x <= 21",color=purple];
+		3749 -> 5625 [label="false",color=purple];
 	3763 [label="新しい一日が始まり、そこには将来の計画を立てている我がいた…　実に久しいことだ。周りの世界をどう作り変えられるか、我の知識をどう駆使するか、自分自身とは何か、それをどう活かすかをじっくり考えていた。",shape=box,color=blue];
 		3763 -> 3775;
 	3762 [label="新しい一日が始まり、そこには将来の計画を立てている我がいた…　実に久しいことだ。これが我にとって何を意味するのか、何を望んでいるのか、そして環境をどう変えていきたいのかをじっくり考えている。",shape=box,color=blue];
@@ -44,8 +44,7 @@ digraph {
 		3758 -> 3767;
 	3755 [label="愚か者！　一体何をした？！　何故招かれていない洞窟に潜り込む？！",shape=box,color=blue];
 		3755 -> 3764;
-	3754 [label="Update boolean LyonRoatheRepair",color=orange];
-		3754 -> 5625;
+	5625 [label="Chat ends.",color=orange];
 	3775 [label="Check boolean RoatheDating",color=orange];
 		3775 -> 3789 [label=true,color=green];
 		3775 -> 3788 [label=false,color=brown];
@@ -73,7 +72,6 @@ digraph {
 		3767 -> 3778;
 	3764 [label="早急に解決しろ。これは貴様の所為なのだ。我には感じる、獣が、内側からその爪を立て引き裂くのを。",shape=box,color=blue];
 		3764 -> 3776;
-	5625 [label="Chat ends.",color=orange];
 	3789 [label="これもお前のおかげだと認めざる得ないな、我が愛よ。感謝しよう。",shape=box,color=blue];
 		3789 -> 3806;
 		3789 -> 3807;

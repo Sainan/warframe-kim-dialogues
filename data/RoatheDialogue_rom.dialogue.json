@@ -56590,7 +56590,7 @@
             {
                 "Expression": "x <= 21",
                 "Outgoing": [
-                    3754
+                    5625
                 ],
                 "Values": [
                     21
@@ -56603,7 +56603,7 @@
             {
                 "Expression": "false",
                 "Outgoing": [
-                    3754
+                    5625
                 ],
                 "Values": [],
                 "CompareOperators": [],
@@ -56697,24 +56697,12 @@
     },
     {
         "Id": 3754,
-        "Content": "LyonRoatheRepair",
         "Incoming": [
-            3749
-        ],
-        "Outgoing": [
-            5625
+            5811
         ],
         "GraphPos": [
-            1603,
-            90421
-        ],
-        "CompletionType": 2,
-        "OtherDialogueInfos": [
-            {
-                "Dialogue": "/Lotus/Types/Gameplay/1999Wf/Dialogue/LyonDialogue_rom.dialogue",
-                "Tag": "LyonRoatheFail",
-                "Value": 0
-            }
+            4922,
+            82638
         ]
     },
     {
@@ -85067,11 +85055,11 @@
     {
         "Id": 5625,
         "Incoming": [
-            3754
+            3749
         ],
         "GraphPos": [
-            2091,
-            90423
+            1615,
+            90451
         ]
     },
     {
@@ -88003,7 +87991,7 @@
             3232
         ],
         "Outgoing": [
-            5812
+            3754
         ],
         "GraphPos": [
             4562,
@@ -88016,16 +88004,6 @@
                 "Tag": "LyonRoatheFail",
                 "Value": 0
             }
-        ]
-    },
-    {
-        "Id": 5812,
-        "Incoming": [
-            5811
-        ],
-        "GraphPos": [
-            4922,
-            82638
         ]
     }
 ]

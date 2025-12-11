@@ -21,8 +21,8 @@ digraph {
 		3750 -> 3758;
 	3749 [label="Evaluate expressions on HellStory",color=orange];
 		3749 -> 3755 [label="x >= 21",color=purple];
-		3749 -> 3754 [label="x <= 21",color=purple];
-		3749 -> 3754 [label="false",color=purple];
+		3749 -> 5625 [label="x <= 21",color=purple];
+		3749 -> 5625 [label="false",color=purple];
 	3763 [label="Настає новий день, і я вперше за довгий час… планую майбутнє. Думаю про те, як я можу змінити цей світ навколо себе. Про те, як я можу використовувати те, що знаю. Ким я є. Як я можу краще це використовувати.",shape=box,color=blue];
 		3763 -> 3775;
 	3762 [label="Настає новий день, і я вперше за довгий час… планую майбутнє. Розмірковую про те, що це означає для мене, чого я хочу, як я хочу змінити своє оточення.",shape=box,color=blue];
@@ -44,8 +44,7 @@ digraph {
 		3758 -> 3767;
 	3755 [label="Дурне! Що ти робиш?! Навіщо, навіщо заглиблюватися в печери, де тобі не раді?!",shape=box,color=blue];
 		3755 -> 3764;
-	3754 [label="Update boolean LyonRoatheRepair",color=orange];
-		3754 -> 5625;
+	5625 [label="Chat ends.",color=orange];
 	3775 [label="Check boolean RoatheDating",color=orange];
 		3775 -> 3789 [label=true,color=green];
 		3775 -> 3788 [label=false,color=brown];
@@ -73,7 +72,6 @@ digraph {
 		3767 -> 3778;
 	3764 [label="Ти маєш це виправити, я вимагаю. Це твоя провина. Я відчуваю це, воно дряпає мене зсередини, розриває. Як якийсь звір.",shape=box,color=blue];
 		3764 -> 3776;
-	5625 [label="Chat ends.",color=orange];
 	3789 [label="Було б нетактовно не визнати, що це завдяки твоїй допомозі, любове. Дякую.",shape=box,color=blue];
 		3789 -> 3806;
 		3789 -> 3807;
