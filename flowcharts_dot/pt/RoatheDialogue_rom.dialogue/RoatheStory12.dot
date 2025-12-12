@@ -1,9 +1,9 @@
 digraph {
 	"RoatheStory12 begins." [color=orange];
-		"RoatheStory12 begins." -> j2515116668;
-	j2515116668 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions",color=orange];
-		j2515116668 -> j3394572027 [label=true,color=green];
-		j2515116668 -> "Chat ends." [label=false,color=brown];
+		"RoatheStory12 begins." -> j520699244;
+	j520699244 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions(dialogueType=/Lotus/Types/Gameplay/1999Wf/Dialogue/RoatheDialogue_rom.dialogue, rank=3, count=6, storyCount=12)",color=orange];
+		j520699244 -> j3394572027 [label=true,color=green];
+		j520699244 -> "Chat ends." [label=false,color=brown];
 	j3394572027 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
 		j3394572027 -> j1767463089 [label="x >= 12",color=purple];
 		j3394572027 -> "Chat ends." [label="false",color=purple];

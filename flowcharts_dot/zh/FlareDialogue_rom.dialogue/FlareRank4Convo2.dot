@@ -223,9 +223,9 @@ digraph {
 		j2634873451 -> j2008359537;
 	j2763835778 [label="Check boolean FlareJumpScare",color=orange];
 		j2763835778 -> j2008359537 [label=true,color=green];
-		j2763835778 -> j3756943743 [label=false,color=brown];
-	j3756943743 [label="Invoke /Lotus/Scripts/1999/HexSyndicateDialog.lua:SetupJumpScare",color=orange];
-		j3756943743 -> j3893179890;
+		j2763835778 -> j1049425236 [label=false,color=brown];
+	j1049425236 [label="Invoke /Lotus/Scripts/1999/HexSyndicateDialog.lua:SetupJumpScare(breakUpFadeTimer=1, breakUpEasterEggChance=0.02, questRankLimit=3)",color=orange];
+		j1049425236 -> j3893179890;
 	j3893179890 [label="Boolean FlareJumpScare is now true.",color=orange];
 		j3893179890 -> j2008359537;
 }

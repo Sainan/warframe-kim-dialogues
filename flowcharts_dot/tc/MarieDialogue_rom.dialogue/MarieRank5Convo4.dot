@@ -3,13 +3,13 @@ digraph {
 		"MarieRank5Convo4 begins." -> j3044749793;
 	j3044749793 [label="Check boolean LoidFamilyComplete",color=orange];
 		j3044749793 -> j977248994 [label=true,color=green];
-		j3044749793 -> j4251836895 [label=false,color=brown];
+		j3044749793 -> j4138677907 [label=false,color=brown];
 	j977248994 [label="Check boolean MarieDating",color=orange];
 		j977248994 -> j1834812200 [label=true,color=green];
 		j977248994 -> j1739934074 [label=false,color=brown];
-	j4251836895 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank",color=orange];
-		j4251836895 -> j2382922785 [label=true,color=green];
-		j4251836895 -> "Chat ends." [label=false,color=brown];
+	j4138677907 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j4138677907 -> j2382922785 [label=true,color=green];
+		j4138677907 -> "Chat ends." [label=false,color=brown];
 	j1834812200 [label="你好，你好，我的心肝！我想過了，是的……我真的很不願承認這點。說這話讓我一點也不高興。",shape=box,color=blue];
 		j1834812200 -> j511557667;
 	j1739934074 [label="你好，你好！我想過了，是的……我真的很不願承認這點。說這話讓我一點也不高興。",shape=box,color=blue];

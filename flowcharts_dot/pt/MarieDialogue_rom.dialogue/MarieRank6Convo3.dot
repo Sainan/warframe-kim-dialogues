@@ -3,11 +3,11 @@ digraph {
 		"MarieRank6Convo3 begins." -> j671960971;
 	j671960971 [label="Check boolean LoidFamilyComplete",color=orange];
 		j671960971 -> "Chat ends." [label=true,color=green];
-		j671960971 -> j2060132165 [label=false,color=brown];
+		j671960971 -> j4195062852 [label=false,color=brown];
 	"Chat ends." [color=orange];
-	j2060132165 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank",color=orange];
-		j2060132165 -> j2338791896 [label=true,color=green];
-		j2060132165 -> "Chat ends." [label=false,color=brown];
+	j4195062852 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j4195062852 -> j2338791896 [label=true,color=green];
+		j4195062852 -> "Chat ends." [label=false,color=brown];
 	j2338791896 [label="Check boolean MarieRank5Convo4Complete",color=orange];
 		j2338791896 -> "Chat ends." [label=true,color=green];
 		j2338791896 -> j4048357986 [label=false,color=brown];

@@ -2,6 +2,23 @@ local { json } = require "*"
 
 local dict, nodes
 
+local function format_script_data(data)
+	local str = data.Script .. ":" .. data.Function
+	local args = {}
+	for data.__order as k do
+		local v = data[k]
+		if k:startswith("_") then
+			if (type(v) == "string" and v ~= "") or (type(v) == "number" and v ~= 0) then
+				args:insert(k:sub(2) .. "=" .. v)
+			end
+		end
+	end
+	if #args ~= 0 then
+		str ..= "(" .. args:concat(", ") .. ")"
+	end
+	return str
+end
+
 local function get_node_label(node)
 	switch node.type do
 		case "/EE/Types/Engine/ChemistryDialogueNode":
@@ -19,7 +36,7 @@ local function get_node_label(node)
 		case "/EE/Types/Engine/CheckBooleanDialogueNode":
 			return $"Check boolean {node.Content}"
 		case "/EE/Types/Engine/CheckBooleanScriptDialogueNode":
-			return $"Check {node.Script.Script}:{node.Script.Function}"
+			return $"Check {format_script_data(node.Script)}"
 		case "/EE/Types/Engine/CheckMultiBooleanDialogueNode":
 			if #node.Outputs == 1 then
 				return $"Evaluate expression: {node.Outputs[1].Expression}"
@@ -58,7 +75,7 @@ local function get_node_label(node)
 			end
 			return json.encode(node)
 		case "/EE/Types/Engine/ScriptDialogueNode":
-			return $"Invoke {node.Script.Script}:{node.Script.Function}"
+			return $"Invoke {format_script_data(node.Script)}"
 		default:
 			return json.encode(node)
 	end

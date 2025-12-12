@@ -2,11 +2,11 @@ digraph {
 	"MinVelRusalka begins." [color=orange];
 		"MinVelRusalka begins." -> j1138299529;
 	j1138299529 [label="Check boolean VelimirEclipse",color=orange];
-		j1138299529 -> j637336707 [label=true,color=green];
+		j1138299529 -> j392677634 [label=true,color=green];
 		j1138299529 -> "Chat ends." [label=false,color=brown];
-	j637336707 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:CheckDuviriMitwCollectibles",color=orange];
-		j637336707 -> j927941538 [label=true,color=green];
-		j637336707 -> "Chat ends." [label=false,color=brown];
+	j392677634 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:CheckDuviriMitwCollectibles(collectibleType=/Lotus/Types/Lore/Fragments/DuviriMITWFragments/DuviriMITWCollectibleDeco)",color=orange];
+		j392677634 -> j927941538 [label=true,color=green];
+		j392677634 -> "Chat ends." [label=false,color=brown];
 	"Chat ends." [color=orange];
 	j927941538 [label="Hé... les gars?",shape=box,color=red];
 		j927941538 -> j2815417732;
