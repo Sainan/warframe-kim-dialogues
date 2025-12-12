@@ -5,11 +5,11 @@ digraph {
 		j61861931 -> j1027897190 [label=true,color=green];
 		j61861931 -> "Chat ends." [label=false,color=brown];
 	j1027897190 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j1027897190 -> j1050940743 [label="x >= 2",color=purple];
+		j1027897190 -> j4249051394 [label="x >= 2",color=purple];
 		j1027897190 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j1050940743 [label="VM: CONNECTION",shape=box,color=blue];
-		j1050940743 -> j2295947550;
+	j4249051394 [label="VM: 연결",shape=box,color=blue];
+		j4249051394 -> j2295947550;
 	j2295947550 [label="Transcript: When the Sentients completed the Solar Rail to Tau, there was no grand ceremony. It simply began to work.",shape=box,color=blue];
 		j2295947550 -> j3951670366;
 	j3951670366 [label="Ceremony was hastily created, of course, for no true Orokin can blow his nose without observing some pomp and circumstance.",shape=box,color=blue];

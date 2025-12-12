@@ -5,11 +5,11 @@ digraph {
 		j1528088513 -> j614559863 [label=true,color=green];
 		j1528088513 -> "Chat ends." [label=false,color=brown];
 	j614559863 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j614559863 -> j1689154773 [label="x >= 3",color=purple];
+		j614559863 -> j1975689599 [label="x >= 3",color=purple];
 		j614559863 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j1689154773 [label="VM: OROKIN",shape=box,color=blue];
-		j1689154773 -> j2847181621;
+	j1975689599 [label="VM: 오로킨",shape=box,color=blue];
+		j1975689599 -> j2847181621;
 	j2847181621 [label="Transcript: For so long the Orokin Empire had no enemies. Its military existed merely to pursue petty grudges, house against house, Executor against Executor.",shape=box,color=blue];
 		j2847181621 -> j213464518;
 	j213464518 [label="When the Sentients attacked, we knew a unity long denied to us. The Dax drew their swords against something other than an insolent peasant or a larcenous trader.",shape=box,color=blue];

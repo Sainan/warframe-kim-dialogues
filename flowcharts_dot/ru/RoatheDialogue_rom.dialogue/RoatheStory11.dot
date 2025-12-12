@@ -5,13 +5,13 @@ digraph {
 		j3568813930 -> j4115581194 [label=true,color=green];
 		j3568813930 -> "Chat ends." [label=false,color=brown];
 	j4115581194 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j4115581194 -> j1658052725 [label="x >= 11",color=purple];
+		j4115581194 -> j3474596315 [label="x >= 11",color=purple];
 		j4115581194 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j1658052725 [label="VM: DIVISION",shape=box,color=blue];
-		j1658052725 -> j1427698503;
-	j1427698503 [label="Transcript: After the first Sentient invasion of the System and the disastrous Orokin riposte, a curious silence reigned.",shape=box,color=blue];
-		j1427698503 -> j968104561;
+	j3474596315 [label="VM: DIVISION",shape=box,color=blue];
+		j3474596315 -> j329945826;
+	j329945826 [label="Стенограмма: После первого вторжения Владеющих Разумом в Систему и катастрофического ответа Орокин воцарилась странная тишина.",shape=box,color=blue];
+		j329945826 -> j968104561;
 	j968104561 [label="Мы не получали известий от наших людей, застрявших на Тау, и не имели способа узнать, блокируются ли их сигналы или они были полностью уничтожены.",shape=box,color=blue];
 		j968104561 -> j914380969;
 	j914380969 [label="Ко мне обратились за советом. Как от стратега, от меня ожидали понимания врага.",shape=box,color=blue];

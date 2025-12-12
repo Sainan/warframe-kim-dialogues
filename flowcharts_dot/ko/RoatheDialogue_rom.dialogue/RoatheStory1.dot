@@ -5,11 +5,11 @@ digraph {
 		j3612344434 -> j1869134826 [label=true,color=green];
 		j3612344434 -> "Chat ends." [label=false,color=brown];
 	j1869134826 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j1869134826 -> j1572174866 [label="x >= 1",color=purple];
+		j1869134826 -> j3265169693 [label="x >= 1",color=purple];
 		j1869134826 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j1572174866 [label="VM: NITOKH",shape=box,color=blue];
-		j1572174866 -> j2992092166;
+	j3265169693 [label="VM: 니토크",shape=box,color=blue];
+		j3265169693 -> j2992092166;
 	j2992092166 [label="Transcript: Her madness was seductive because it was obvious.",shape=box,color=blue];
 		j2992092166 -> j1420143497;
 	j1420143497 [label="누구라도 그녀와 함께 있다 보면 자신이 지금 어디에 서 있는지 - 거대한 나락 같은 공동의 가장자리 - 항상 깨닫게 되곤 했지.",shape=box,color=blue];
