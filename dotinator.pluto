@@ -5,11 +5,15 @@ local dict, nodes
 local function format_script_data(data)
 	local str = data.Script .. ":" .. data.Function
 	local args = {}
-	for data.__order as k do
-		local v = data[k]
-		if k:startswith("_") then
-			if (type(v) == "string" and v ~= "") or (type(v) == "number" and v ~= 0) then
-				args:insert(k:sub(2) .. "=" .. v)
+	if data.Function == "IsResetCounterGreaterThan" then
+		args = { data._counter }
+	else
+		for data.__order as k do
+			local v = data[k]
+			if k:startswith("_") then
+				if (type(v) == "string" and v ~= "") or (type(v) == "number" and v ~= 0) then
+					args:insert(k:sub(2) .. "=" .. v)
+				end
 			end
 		end
 	end
