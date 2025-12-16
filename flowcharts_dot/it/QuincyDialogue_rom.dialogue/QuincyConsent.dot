@@ -2,11 +2,11 @@ digraph {
 	"QuincyConsent begins." [color=orange];
 		"QuincyConsent begins." -> j438264602;
 	j438264602 [label="Check boolean QuincyDating",color=orange];
-		j438264602 -> j2864932807 [label=true,color=green];
+		j438264602 -> j3215368040 [label=true,color=green];
 		j438264602 -> "Chat ends." [label=false,color=brown];
-	j2864932807 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
-		j2864932807 -> j1752821171 [label=true,color=green];
-		j2864932807 -> j3515648479 [label=false,color=brown];
+	j3215368040 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsDatingMultiple",color=orange];
+		j3215368040 -> j1752821171 [label=true,color=green];
+		j3215368040 -> j3515648479 [label=false,color=brown];
 	"Chat ends." [color=orange];
 	j1752821171 [label="Check boolean QuincyConsentComplete",color=orange];
 		j1752821171 -> "Chat ends." [label=true,color=green];

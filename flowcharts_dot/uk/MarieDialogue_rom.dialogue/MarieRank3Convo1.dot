@@ -337,20 +337,23 @@ digraph {
 	j2789642821 [label="Boolean MarieNeci is now true.",color=orange];
 		j2789642821 -> j1855794796;
 	j1529250053 [label="О-о, оце так думка. За таку справу варто поборотися !",shape=box,color=blue];
-		j1529250053 -> j2093984253;
+		j1529250053 -> j130896092;
 	j2267599211 [label="Можливо, він не знав, чи зможе забрати тебе й не зруйнувати світ, що був у крихкому стані. Або думав, що l'Indifférence поглине Дувірі, як тебе не буде. Peut-être, peut-être, peut-être.",shape=box,color=blue];
 		j2267599211 -> j1591510439;
 	j2028509553 [label="Merci, merci… мені більшого й не треба. Ми не повинні думати про найгірше, бо це сповнює наші серця гірким полином.",shape=box,color=blue];
 		j2028509553 -> j942218631;
 	j1855794796 [label="Навіть не знаю що про це й думати… але дуже дивовижно… ",shape=box,color=blue];
 		j1855794796 -> j4174200546;
-	j2093984253 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
-		j2093984253 -> j2245425236 [label=true,color=green];
-		j2093984253 -> j3203442099 [label=false,color=brown];
+	j130896092 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j130896092 -> j2245425236 [label=true,color=green];
+		j130896092 -> j19127234 [label=false,color=brown];
 	j942218631 [label="Можливо, тобі ще не хотілося покидати Дувірі. Можливо, для тебе ще не все було втрачено. Можливо, тобі не хотілося покидати своїх друзів ?",shape=box,color=blue];
 		j942218631 -> j2267599211;
 	j2245425236 [label="Ти зі своєю minuscule copie дуже добре попрацювали з його родиною… Гм-м, це змусило мене замислитися !",shape=box,color=blue];
 		j2245425236 -> j3724924505;
+	j19127234 [label="Check boolean MarieSyndicateMaxRank",color=orange];
+		j19127234 -> j2245425236 [label=true,color=green];
+		j19127234 -> j3203442099 [label=false,color=brown];
 	j3203442099 [label="Гм-м… а це змусило мене замислитися ! Однак для початку маєш продовжити свою роботу з його родиною нагорі. Ти чи твоя minuscule copie.",shape=box,color=blue];
 		j3203442099 -> j3724924505;
 }

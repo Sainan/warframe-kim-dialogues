@@ -5,7 +5,7 @@ digraph {
 		j2871217266 -> j4087504664 [label="x >= 21",color=purple];
 		j2871217266 -> j737631097 [label="x >= 21",color=purple];
 		j2871217266 -> j1460872511 [label="x >= 21",color=purple];
-		j2871217266 -> j242691715 [label="x >= 21",color=purple];
+		j2871217266 -> j1350559949 [label="x >= 21",color=purple];
 		j2871217266 -> "Chat ends." [label="x <= 21",color=purple];
 		j2871217266 -> "Chat ends." [label="false",color=purple];
 	j4087504664 [label="Honestly, what do you think about Marie?",shape=box,color=red];
@@ -14,8 +14,8 @@ digraph {
 		j737631097 -> j1172864870;
 	j1460872511 [label="How are things going with you and the \"zealots?\"",shape=box,color=red];
 		j1460872511 -> j2813753334;
-	j242691715 [label="[End.]",shape=box,color=red];
-		j242691715 -> "Chat ends.";
+	j1350559949 [label="[結束]",shape=box,color=red];
+		j1350559949 -> "Chat ends.";
 	"Chat ends." [color=orange];
 	j342253044 [label="Evaluate expressions",color=orange];
 		j342253044 -> j2804883332 [label="RoatheDating",color=purple];

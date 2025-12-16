@@ -337,20 +337,23 @@ digraph {
 	j4030016905 [label="Boolean MarieNeci is now true.",color=orange];
 		j4030016905 -> j2016252028;
 	j3190577962 [label="오, 이 얼마나 멋진 생각인지. 지지할 만한 가치가 있는 일이라고 생각해요 !",shape=box,color=blue];
-		j3190577962 -> j2093984253;
+		j3190577962 -> j130896092;
 	j2837025266 [label="어떠면 그 분은 당신의 정신이 깨지기 쉬운 상태로 무너져내릴까봐 다른 곳으로 데려가는게 가능한지도 몰랐을지도요. 어쩌면 당신이 없다면 l'Indifférence이 그곳을 차지했을 거라 생각했을지도요. Peut-être, peut-être, peut-être.",shape=box,color=blue];
 		j2837025266 -> j1591510439;
 	j91649779 [label="Merci, merci - 제가 소중히 여기는 점이 바로 이런 것입니다. 최악의 상황을 가정해서는 안된다는 거요. 최악의 상황은 우리 마음을 가장 쓰라리게 만드니까요.",shape=box,color=blue];
 		j91649779 -> j894644032;
 	j2016252028 [label="이게 무슨 말인지 잘 모르겠지만... 꽤 흥미롭네요... ",shape=box,color=blue];
 		j2016252028 -> j771310469;
-	j2093984253 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
-		j2093984253 -> j2680888351 [label=true,color=green];
-		j2093984253 -> j2965808783 [label=false,color=brown];
+	j130896092 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j130896092 -> j2680888351 [label=true,color=green];
+		j130896092 -> j19127234 [label=false,color=brown];
 	j894644032 [label="어쩌면 당신은 아직 두비리를 내버리고 싶지 않았을지도요. 어쩌면 아직 당신에게 문제가 생기지 않았을지도 모르고요. 어쩌면 친구들을 떠나고 싶지 않았던 건 아닐까요 ?",shape=box,color=blue];
 		j894644032 -> j2837025266;
 	j2680888351 [label="당신과 minuscule copie는 이미 그 분의 famille들과 잘 지내고 있었죠... 흐음, 이제 제가 계략을 꾸미고 있네요 !",shape=box,color=blue];
 		j2680888351 -> j243037844;
+	j19127234 [label="Check boolean MarieSyndicateMaxRank",color=orange];
+		j19127234 -> j2680888351 [label=true,color=green];
+		j19127234 -> j2965808783 [label=false,color=brown];
 	j2965808783 [label="흐음... 이제 제가 계략을 꾸미고 있네요 ! 일단, 첫번째로 - 위층에 있는 그 분의 famille들과 함께 작업을 계속해 나가야 해요. 당신이나 아니면 minuscule copie가요.",shape=box,color=blue];
 		j2965808783 -> j243037844;
 }

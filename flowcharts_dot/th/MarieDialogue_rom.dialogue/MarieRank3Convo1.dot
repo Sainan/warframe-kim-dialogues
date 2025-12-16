@@ -337,20 +337,23 @@ digraph {
 	j801305589 [label="Boolean MarieNeci is now true.",color=orange];
 		j801305589 -> j3216106041;
 	j3021137606 [label="โอ้ ความคิดนี้ช่างน่าชื่นชมจริง ๆ ฉันคิดว่านั่นเป็นเรื่องที่ควรสนับสนุนนะ !",shape=box,color=blue];
-		j3021137606 -> j2093984253;
+		j3021137606 -> j130896092;
 	j3239416789 [label="บางทีเขาอาจไม่รู้ว่าจะพรากคุณไปจากที่นั่นได้หรือไม่ เพราะเกรงว่ามันอาจจะพังทลายลงมาในสภาพที่เปราะบาง บางทีเขาอาจคิดว่าถ้าคุณจากไป ความเฉยเมยจะครอบครองที่นั่นได้ Peut-être, peut-être, peut-être",shape=box,color=blue];
 		j3239416789 -> j1591510439;
 	j1576568255 [label="Merci, merci - นี่คือสิ่งที่ฉันยึดมั่น เราต้องไม่คาดคิดถึงสิ่งที่เลวร้ายที่สุด เพราะมันอาจทำให้หัวใจเราขมขื่นที่สุด",shape=box,color=blue];
 		j1576568255 -> j580592613;
 	j3216106041 [label="ฉันไม่รู้ว่าควรคิดยังไงกับเรื่องนี้... แต่ก็ค่อนข้างแปลก... ",shape=box,color=blue];
 		j3216106041 -> j2346056085;
-	j2093984253 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
-		j2093984253 -> j3341626359 [label=true,color=green];
-		j2093984253 -> j2387102682 [label=false,color=brown];
+	j130896092 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j130896092 -> j3341626359 [label=true,color=green];
+		j130896092 -> j19127234 [label=false,color=brown];
 	j580592613 [label="บางทีคุณอาจยังไม่อยากทิ้ง Duviri บางทีมันอาจยังไม่เลวร้ายสำหรับคุณ หรือบางทีคุณอาจยังไม่อยากทิ้งเพื่อนหรือเปล่า",shape=box,color=blue];
 		j580592613 -> j3239416789;
 	j3341626359 [label="คุณและ minuscule copie นั่นจัดการกับเรื่องครอบครัวของเขาได้ดีเลย... ฮึม ตอนนี้คุณกำลังทำให้ฉันวางแผน !",shape=box,color=blue];
 		j3341626359 -> j942980980;
+	j19127234 [label="Check boolean MarieSyndicateMaxRank",color=orange];
+		j19127234 -> j3341626359 [label=true,color=green];
+		j19127234 -> j2387102682 [label=false,color=brown];
 	j2387102682 [label="อืม... ตอนนี้คุณกำลังทำให้ฉันวางแผนอยู่นะ! แต่ก่อนอื่นเลย คุณต้องสานต่องานกับครอบครัวของเขาที่ชั้นบน ไม่คุณก็ minuscule copie",shape=box,color=blue];
 		j2387102682 -> j942980980;
 }

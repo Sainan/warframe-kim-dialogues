@@ -337,20 +337,23 @@ digraph {
 	j3334776631 [label="Boolean MarieNeci is now true.",color=orange];
 		j3334776631 -> j691227302;
 	j826228967 [label="Ah, ne güzel bir düşünce. Bence bu, savunmaya değer bir amaç !",shape=box,color=blue];
-		j826228967 -> j2093984253;
+		j826228967 -> j130896092;
 	j2995553548 [label="Belki de onu kırılgan bir durumda çökertmekten korktuğu için sizi oradan alıp götürebileceğini bilmiyordu. Belki de siz giderseniz l'Indifférence'in onu alacağını düşündü.",shape=box,color=blue];
 		j2995553548 -> j1591510439;
 	j3888161893 [label="Merci, merci - işte benim en çok önemsediğim şey bu. En kötüsünü düşünmemeliyiz, çünkü bu, kalplerimizi en çok acıtan şeydir.",shape=box,color=blue];
 		j3888161893 -> j753830372;
 	j691227302 [label="Bunun hakkında ne düşüneceğimi bilmiyorum... ama oldukça ilginç... ",shape=box,color=blue];
 		j691227302 -> j819512968;
-	j2093984253 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
-		j2093984253 -> j2039035993 [label=true,color=green];
-		j2093984253 -> j2764803783 [label=false,color=brown];
+	j130896092 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j130896092 -> j2039035993 [label=true,color=green];
+		j130896092 -> j19127234 [label=false,color=brown];
 	j753830372 [label="Belki de Duviri'yi henüz terk etmek istemiyordunuz. Belki de işler sizin için henüz kötüye gitmemişti. Belki de arkadaşlarınızı terk etmek istemiyordunuz ?",shape=box,color=blue];
 		j753830372 -> j2995553548;
 	j2039035993 [label="Siz ve o küçük copie'niz onun ailesiyle çok iyi geçiniyordunuz zaten... Hmm, şimdi beni de bu entrikalara bulaştırdınız !",shape=box,color=blue];
 		j2039035993 -> j41997457;
+	j19127234 [label="Check boolean MarieSyndicateMaxRank",color=orange];
+		j19127234 -> j2039035993 [label=true,color=green];
+		j19127234 -> j2764803783 [label=false,color=brown];
 	j2764803783 [label="Hmm, şimdi beni de bu entrikalara bulaştırdınız ! Ama önce, yukarıdaki famille'si ile çalışmaya devam etmelisiniz. Siz ya da o küçük copie'niz.",shape=box,color=blue];
 		j2764803783 -> j41997457;
 }

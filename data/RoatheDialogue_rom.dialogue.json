@@ -7647,6 +7647,7 @@
     {
         "type": "/EE/Types/Engine/CheckBooleanScriptDialogueNode",
         "Id": 489,
+        "Content": "RoatheSyndicateMaxRank",
         "Incoming": [
             484
         ],
@@ -7658,7 +7659,7 @@
             494
         ],
         "FalseNodes": [
-            493
+            5812
         ],
         "Script": {
             "Script": "/Lotus/Scripts/1999/DialogueScriptNodes.lua",
@@ -7676,6 +7677,7 @@
     {
         "type": "/EE/Types/Engine/CheckBooleanScriptDialogueNode",
         "Id": 490,
+        "Content": "RoatheSyndicateMaxRank",
         "Incoming": [
             485
         ],
@@ -7687,7 +7689,7 @@
             496
         ],
         "FalseNodes": [
-            495
+            5813
         ],
         "Script": {
             "Script": "/Lotus/Scripts/1999/DialogueScriptNodes.lua",
@@ -7809,7 +7811,7 @@
         "Id": 493,
         "Content": "/Lotus/Language/1999Texting/RoatheRomance/Roathe_RoatheRank1Convo4_393",
         "Incoming": [
-            489
+            5812
         ],
         "Outgoing": [
             503
@@ -7824,7 +7826,8 @@
         "Id": 494,
         "Content": "/Lotus/Language/1999Texting/RoatheRomance/Roathe_RoatheRank1Convo4_394",
         "Incoming": [
-            489
+            489,
+            5812
         ],
         "Outgoing": [
             504
@@ -7839,7 +7842,7 @@
         "Id": 495,
         "Content": "/Lotus/Language/1999Texting/RoatheRomance/Roathe_RoatheRank1Convo4_395",
         "Incoming": [
-            490
+            5813
         ],
         "Outgoing": [
             503
@@ -7854,7 +7857,8 @@
         "Id": 496,
         "Content": "/Lotus/Language/1999Texting/RoatheRomance/Roathe_RoatheRank1Convo4_396",
         "Incoming": [
-            490
+            490,
+            5813
         ],
         "Outgoing": [
             504
@@ -93816,6 +93820,42 @@
                 "Tag": "LyonRoatheFail",
                 "Value": 0
             }
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "Id": 5812,
+        "Content": "RoatheSyndicateMaxRank",
+        "Incoming": [
+            489
+        ],
+        "GraphPos": [
+            3175,
+            8841
+        ],
+        "TrueNodes": [
+            494
+        ],
+        "FalseNodes": [
+            493
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "Id": 5813,
+        "Content": "RoatheSyndicateMaxRank",
+        "Incoming": [
+            490
+        ],
+        "GraphPos": [
+            3185,
+            9393
+        ],
+        "TrueNodes": [
+            496
+        ],
+        "FalseNodes": [
+            495
         ]
     }
 ]

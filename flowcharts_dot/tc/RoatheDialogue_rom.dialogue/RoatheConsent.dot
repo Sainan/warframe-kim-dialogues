@@ -11,14 +11,14 @@ digraph {
 	j511900548 [label="Check boolean RoatheConsentComplete",color=orange];
 		j511900548 -> "Chat ends." [label=true,color=green];
 		j511900548 -> j2520950851 [label=false,color=brown];
-		j511900548 -> j1049412545 [label=false,color=brown];
+		j511900548 -> j1630258115 [label=false,color=brown];
 	j4082858284 [label="Check boolean RoathePolyamorySuccess",color=orange];
 		j4082858284 -> j511900548 [label=true,color=green];
 		j4082858284 -> "Chat ends." [label=false,color=brown];
 	j2520950851 [label="Hey Roathe? Do you have a second? [Ask consent for multiple partners.]",shape=box,color=red];
 		j2520950851 -> j2926683527;
-	j1049412545 [label="[End.]",shape=box,color=red];
-		j1049412545 -> j604242687;
+	j1630258115 [label="[結束]",shape=box,color=red];
+		j1630258115 -> j604242687;
 	j2926683527 [label="Hm? What is it, darling?",shape=box,color=blue];
 		j2926683527 -> j1323189664;
 	j604242687 [label="Boolean RoatheConsentComplete is now true.",color=orange];

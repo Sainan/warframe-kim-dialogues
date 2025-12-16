@@ -337,20 +337,23 @@ digraph {
 	j1590094417 [label="Boolean MarieNeci is now true.",color=orange];
 		j1590094417 -> j3448177894;
 	j1387548525 [label="Ach, co za myśl. Myślę, że warto wesprzeć tę sprawę !",shape=box,color=blue];
-		j1387548525 -> j2093984253;
+		j1387548525 -> j130896092;
 	j2999217680 [label="Być może nie wiedział, czy zdoła Cię z niego wyciągnąć. Obawiał się, że jego delikatna konstrukcja zapadnie się. Może obawiał się, że pod Twoją nieobecność przejmie je l'Indifférence. Peut-être, peut-être, peut-être.",shape=box,color=blue];
 		j2999217680 -> j1591510439;
 	j2655925177 [label="Merci, merci - na tym mi zależy. Nie możemy zakładać najgorszego, od tego nasze serca gorzknieją.",shape=box,color=blue];
 		j2655925177 -> j2296757125;
 	j3448177894 [label="Nie wiem, co o tym myśleć... ale to bardzo ciekawe... ",shape=box,color=blue];
 		j3448177894 -> j685392093;
-	j2093984253 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
-		j2093984253 -> j2984480433 [label=true,color=green];
-		j2093984253 -> j2840892160 [label=false,color=brown];
+	j130896092 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j130896092 -> j2984480433 [label=true,color=green];
+		j130896092 -> j19127234 [label=false,color=brown];
 	j2296757125 [label="Być może nie byłeś jeszcze gotowy porzucić Duviri. Być może sytuacja nie była jeszcze dla ciebie tak zła. Być może nie chciałeś opuszczać swoich przyjaciół ?",shape=box,color=blue];
 		j2296757125 -> j2999217680;
 	j2984480433 [label="Ty i Twoja minuscule copie tak dobrze poradziliście sobie z rodziną... Hmm, teraz wciągnąłeś mnie w te podstępy !",shape=box,color=blue];
 		j2984480433 -> j2817628452;
+	j19127234 [label="Check boolean MarieSyndicateMaxRank",color=orange];
+		j19127234 -> j2984480433 [label=true,color=green];
+		j19127234 -> j2840892160 [label=false,color=brown];
 	j2840892160 [label="Hmm... teraz wciągnąłeś mnie w swoje podstępy ! Ale najpierw - musisz wrócić do prac avec sa famille nad nami. Ty i votre copie minuscule.",shape=box,color=blue];
 		j2840892160 -> j2817628452;
 }

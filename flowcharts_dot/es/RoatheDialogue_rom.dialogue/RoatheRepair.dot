@@ -19,7 +19,7 @@ digraph {
 		j778021271 -> j62611055;
 	j1979205857 [label="Evaluate expressions on Thermostat counter",color=orange];
 		j1979205857 -> j3010171210 [label="x >= 5",color=purple];
-		j1979205857 -> j3382388656 [label="x <= 0",color=purple];
+		j1979205857 -> j113476952 [label="x <= 0",color=purple];
 		j1979205857 -> j15395727 [label="x > 0 && x < 5",color=purple];
 		j1979205857 -> j15395727 [label="false",color=purple];
 	j1420398166 [label="Add -5 to Thermostat counter",color=orange];
@@ -28,14 +28,14 @@ digraph {
 		j62611055 -> j1979205857;
 	j3010171210 [label="You're letting that anger tear you up inside. You could be using it to help you fight the people who are still destroying this world today. Here. Now.",shape=box,color=red];
 		j3010171210 -> j340255707;
-	j3382388656 [label="You're pointing it at yourself. You should be pointing it at the world that is blaming you for doing the best you could to save it from the Orokin Empire.",shape=box,color=red];
-		j3382388656 -> j950675769;
+	j113476952 [label="You're pointing it at yourself. You should be pointing it at the world that is blaming you for doing the best you could to save it from the Orokin Empire.",shape=box,color=red];
+		j113476952 -> j3669963696;
 	j15395727 [label="That is why you convinced them to bother me day and night? For that? One last ditch effort to convince me to listen to your pathetic argument?",shape=box,color=blue];
 		j15395727 -> j259836105;
 	j340255707 [label="You are not defined by your past, Roathe. You are defined by your future. And you still have a future to spend, unlike all the Orokin who died at the Night of the Naga Drums.",shape=box,color=red];
 		j340255707 -> j462050204;
-	j950675769 [label="You are not defined by the opinions of those around you. Or what they think of your actions. You are defined only by what you believe of yourself and your choices.",shape=box,color=red];
-		j950675769 -> j986818293;
+	j3669963696 [label="No te definen las opiniones de quienes te rodean ni lo que piensan de tus acciones. Sólo te define lo que piensas de ti mismo y de tus decisiones.",shape=box,color=red];
+		j3669963696 -> j986818293;
 	j259836105 [label="No.",shape=box,color=blue];
 		j259836105 -> j3961264626;
 	j462050204 [label="That is the only thing that defines you, now. You can change. And you can change the world around you. I guess my only question is, will you at least try?",shape=box,color=red];

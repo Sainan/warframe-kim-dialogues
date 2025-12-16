@@ -54473,9 +54473,22 @@
         ]
     },
     {
-        "type": "/EE/Types/Engine/DialogueNode",
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
         "Id": 3566,
-        "Content": "/Lotus/Language/1999Texting/QuincyRomance/TxtQuincy_QuincyRank5Convo1_2151"
+        "Content": "QuincyPolyamorySuccess",
+        "Incoming": [
+            3963
+        ],
+        "GraphPos": [
+            1542,
+            82128
+        ],
+        "TrueNodes": [
+            3965
+        ],
+        "FalseNodes": [
+            3966
+        ]
     },
     {
         "type": "/EE/Types/Engine/StartDialogueNode",
@@ -59895,7 +59908,7 @@
     {
         "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
         "Id": 3924,
-        "Content": "QuincyRomance",
+        "Content": "QuincyDating",
         "Incoming": [
             3921
         ],
@@ -60489,7 +60502,7 @@
             3965
         ],
         "FalseNodes": [
-            3997
+            3566
         ],
         "Script": {
             "Script": "/Lotus/Scripts/1999/DialogueScriptNodes.lua",
@@ -60500,7 +60513,8 @@
             "_syndicateRank": 0,
             "_dialogueType": "",
             "_rank": 0,
-            "_count": 0
+            "_count": 0,
+            "_storyCount": 0
         }
     },
     {
@@ -60520,7 +60534,7 @@
         "Content": "QuincyConsentComplete",
         "Incoming": [
             3963,
-            3997
+            3566
         ],
         "GraphPos": [
             1833,
@@ -60538,7 +60552,7 @@
         "type": "/EE/Types/Engine/EndDialogueNode",
         "Id": 3966,
         "Incoming": [
-            3997
+            3566
         ],
         "GraphPos": [
             1839,
@@ -60985,24 +60999,6 @@
         "GraphPos": [
             10324,
             81968
-        ]
-    },
-    {
-        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
-        "Id": 3997,
-        "Content": "QuincyPolyamorySuccess",
-        "Incoming": [
-            3963
-        ],
-        "GraphPos": [
-            1542,
-            82128
-        ],
-        "TrueNodes": [
-            3965
-        ],
-        "FalseNodes": [
-            3966
         ]
     }
 ]

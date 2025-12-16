@@ -337,20 +337,23 @@ digraph {
 	j2238651584 [label="Boolean MarieNeci is now true.",color=orange];
 		j2238651584 -> j2987218428;
 	j383896478 [label="Ooh, qué buena idea. ¡Creo que es una causa que vale la pena defender!",shape=box,color=blue];
-		j383896478 -> j2093984253;
+		j383896478 -> j130896092;
 	j1964330827 [label="Tal vez él no sabía que podría sacarte de ella, por miedo a que colapse en un estado frágil. Quizás él pensó que l'Indifférence lo reclamaría si te ibas. Peut-être, peut-être, peut-être.",shape=box,color=blue];
 		j1964330827 -> j1591510439;
 	j4025628730 [label="Merci, merci, esto es lo que más valoro. Que no debemos asumir lo peor, pues hace que se amarguen nuestros corazones.",shape=box,color=blue];
 		j4025628730 -> j3566671629;
 	j2987218428 [label="No sé que pensar sobre esto... pero es bastante curioso... ",shape=box,color=blue];
 		j2987218428 -> j1830006294;
-	j2093984253 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
-		j2093984253 -> j2037463974 [label=true,color=green];
-		j2093984253 -> j2468923000 [label=false,color=brown];
+	j130896092 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j130896092 -> j2037463974 [label=true,color=green];
+		j130896092 -> j19127234 [label=false,color=brown];
 	j3566671629 [label="Tal vez aún no querías abandonar Duviri. Quizás aún no se convertía en algo desagradable para ti. ¿Puede ser que aún no estabas listo para dejar a tus amigos?",shape=box,color=blue];
 		j3566671629 -> j1964330827;
 	j2037463974 [label="Tú y la copia minúscula ya lo hicieron muy bien con su famile... Mmm, ¡ahora me tienes intrigada!",shape=box,color=blue];
 		j2037463974 -> j310188981;
+	j19127234 [label="Check boolean MarieSyndicateMaxRank",color=orange];
+		j19127234 -> j2037463974 [label=true,color=green];
+		j19127234 -> j2468923000 [label=false,color=brown];
 	j2468923000 [label="Mmm... ¡Ahora me tienes intrigada! Sin embargo primero, debes de continuar con tu trabajo con su famile arriba. Tú o la copia minúscula.",shape=box,color=blue];
 		j2468923000 -> j310188981;
 }

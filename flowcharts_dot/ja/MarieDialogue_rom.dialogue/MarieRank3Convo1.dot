@@ -337,20 +337,23 @@ digraph {
 	j3215278648 [label="Boolean MarieNeci is now true.",color=orange];
 		j3215278648 -> j2179928346;
 	j2769525453 [label="なんて素晴らしい考え方でしょう。擁護する価値のある大義だと思います。",shape=box,color=blue];
-		j2769525453 -> j2093984253;
+		j2769525453 -> j130896092;
 	j2770852612 [label="あと…　彼は弱ったあなたをそこから連れ出せるかどうか分からなかったという理由も考えられるかしら。あなたがいなかったら無関心のモノがそれを奪ってしまうと考えたかもしれない…　Peut-être, peut-être, peut-être.",shape=box,color=blue];
 		j2770852612 -> j1591510439;
 	j753728191 [label="Merci, merci - 私の大切な信念を分かってくれたようですね。最悪の事態を想定してはいけません。最悪の事態は心を最も苦しめるからです。",shape=box,color=blue];
 		j753728191 -> j2227156470;
 	j2179928346 [label="どうとらえたらいいのか迷います…　非常に興味深いお話…",shape=box,color=blue];
 		j2179928346 -> j2470202062;
-	j2093984253 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
-		j2093984253 -> j1038896226 [label=true,color=green];
-		j2093984253 -> j461654401 [label=false,color=brown];
+	j130896092 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j130896092 -> j1038896226 [label=true,color=green];
+		j130896092 -> j19127234 [label=false,color=brown];
 	j2227156470 [label="もしかしたら、あなたはまだデュヴィリを見捨てたくなかったのかもしれません。あなたにとって、まだ状況がそこまで悪化していなかった可能性も…　友人たちと別れる気はなかったのかもしれないですね。",shape=box,color=blue];
 		j2227156470 -> j2770852612;
 	j1038896226 [label="あなたと minuscule copie オペレーター様は、すでに彼の家族とうまくやっていましたもの...　今度は私が陰謀を企てる番ですね。",shape=box,color=blue];
 		j1038896226 -> j529481904;
+	j19127234 [label="Check boolean MarieSyndicateMaxRank",color=orange];
+		j19127234 -> j1038896226 [label=true,color=green];
+		j19127234 -> j461654401 [label=false,color=brown];
 	j461654401 [label="私が陰謀を企てる番ですね。でもまずは、上にいる彼の famille に努力を注ぐことです。あなたか、minuscule copie - オペレーター様か。",shape=box,color=blue];
 		j461654401 -> j529481904;
 }

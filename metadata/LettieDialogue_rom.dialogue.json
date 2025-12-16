@@ -138,12 +138,8 @@
             "Notes": [
                 {
                     "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank5_1",
-                    "UnlockConditions": [
-                        "LettieWillDate"
-                    ],
-                    "LockConditions": [
-                        "LettieNoDate"
-                    ]
+                    "UnlockConditions": [],
+                    "LockConditions": []
                 },
                 {
                     "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotesRank5_2",
@@ -155,7 +151,9 @@
                     "UnlockConditions": [
                         "LettieNoDate"
                     ],
-                    "LockConditions": []
+                    "LockConditions": [
+                        "LettieDating"
+                    ]
                 },
                 {
                     "LocTag": "/Lotus/Language/1999Texting/Romance/LettieNotes_WillDate",
@@ -163,7 +161,8 @@
                         "LettieWillDate"
                     ],
                     "LockConditions": [
-                        "\"\""
+                        "LettieNoDate",
+                        "LettieDating"
                     ]
                 },
                 {
@@ -172,7 +171,7 @@
                         "LettieDating"
                     ],
                     "LockConditions": [
-                        "\"\""
+                        "LettieNoDate"
                     ]
                 }
             ],

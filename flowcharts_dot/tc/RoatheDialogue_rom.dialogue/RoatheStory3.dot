@@ -5,11 +5,11 @@ digraph {
 		j3227937418 -> j614559863 [label=true,color=green];
 		j3227937418 -> "Chat ends." [label=false,color=brown];
 	j614559863 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j614559863 -> j3876382352 [label="x >= 3",color=purple];
+		j614559863 -> j591320991 [label="x >= 3",color=purple];
 		j614559863 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j3876382352 [label="VM: OROKIN",shape=box,color=blue];
-		j3876382352 -> j3947306943;
+	j591320991 [label="語音訊息：OROKIN",shape=box,color=blue];
+		j591320991 -> j3947306943;
 	j3947306943 [label="文字記錄：Orokin 帝國長久以來都沒有樹敵。其軍隊通常只是為了追逐瑣碎的恩怨，家族對抗家族，執行者對抗執行者。",shape=box,color=blue];
 		j3947306943 -> j3122827415;
 	j3122827415 [label="當 Sentient 攻擊時，我們體會到了長久以來被拒絕的團結。禁衛拔劍對抗的不再是無禮的農民或無良的商人。",shape=box,color=blue];

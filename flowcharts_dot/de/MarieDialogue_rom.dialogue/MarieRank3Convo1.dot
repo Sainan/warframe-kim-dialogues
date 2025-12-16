@@ -337,20 +337,23 @@ digraph {
 	j2600493938 [label="Boolean MarieNeci is now true.",color=orange];
 		j2600493938 -> j3102500442;
 	j2957811347 [label="Ooh, was für ein Gedanke. Ich denke, das ist eine Sache, für die es sich zu kämpfen lohnt !",shape=box,color=blue];
-		j2957811347 -> j2093984253;
+		j2957811347 -> j130896092;
 	j920322122 [label="Vielleicht wusste er nicht, ob er dich daraus befreien konnte, aus Angst, vor einem Zusammenbruch im fragilen Zustand. Vielleicht dachte er, l'Indifférence würde es einfordern, wärst du weg. Peut-être, peut-être, peut-être.",shape=box,color=blue];
 		j920322122 -> j1591510439;
 	j996421294 [label="Merci, merci – das liegt mir am Herzen. Wir dürfen nicht vom Schlimmsten ausgehen, denn das macht unsere Herzen am bittersten.",shape=box,color=blue];
 		j996421294 -> j4010633984;
 	j3102500442 [label="Ich weiß nicht, was ich davon halten soll ... aber es ist ziemlich seltsam ...",shape=box,color=blue];
 		j3102500442 -> j2535435472;
-	j2093984253 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
-		j2093984253 -> j1905297345 [label=true,color=green];
-		j2093984253 -> j201643798 [label=false,color=brown];
+	j130896092 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j130896092 -> j1905297345 [label=true,color=green];
+		j130896092 -> j19127234 [label=false,color=brown];
 	j4010633984 [label="Vielleicht wolltest du Duviri noch nicht aufgeben. Vielleicht war es dir noch nicht vergrämt. Vielleicht wolltest du Freunde nicht verlassen ?",shape=box,color=blue];
 		j4010633984 -> j920322122;
 	j1905297345 [label="Du und die winzige Kopie haben sich bei seiner Familie schon so gut geschlagen ... Hmm, jetzt werde ich Pläne schmieden !",shape=box,color=blue];
 		j1905297345 -> j4238609287;
+	j19127234 [label="Check boolean MarieSyndicateMaxRank",color=orange];
+		j19127234 -> j1905297345 [label=true,color=green];
+		j19127234 -> j201643798 [label=false,color=brown];
 	j201643798 [label="Hmm ... jetzt schmiede ich Pläne ! Aber zuerst musst du deine Arbeit mit seiner Familie oben fortsetzen. Du oder die winzige Kopie.",shape=box,color=blue];
 		j201643798 -> j4238609287;
 }

@@ -5,11 +5,11 @@ digraph {
 		j2151403970 -> j4115581194 [label=true,color=green];
 		j2151403970 -> "Chat ends." [label=false,color=brown];
 	j4115581194 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j4115581194 -> j1922459999 [label="x >= 11",color=purple];
+		j4115581194 -> j535682595 [label="x >= 11",color=purple];
 		j4115581194 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j1922459999 [label="VM: DIVISION",shape=box,color=blue];
-		j1922459999 -> j3255935554;
+	j535682595 [label="語音訊息：分開",shape=box,color=blue];
+		j535682595 -> j3255935554;
 	j3255935554 [label="文字記錄：在 Sentient 第一次入侵星系和 Orokin 災難性的反擊之後，奇怪的沉默籠罩著。",shape=box,color=blue];
 		j3255935554 -> j3393944473;
 	j3393944473 [label="我們沒有來自滯留在 Tau 的人民的消息，也無從得知他們的訊號是否被干擾還是他們已被完全殲滅。",shape=box,color=blue];

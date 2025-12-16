@@ -337,20 +337,23 @@ digraph {
 	j148665199 [label="Boolean MarieNeci is now true.",color=orange];
 		j148665199 -> j2294409983;
 	j4232830803 [label="Ooh, che pensiero. Credo che questa sia una causa che vale la pena sostenere !",shape=box,color=blue];
-		j4232830803 -> j2093984253;
+		j4232830803 -> j130896092;
 	j3477629827 [label="Forse non sapeva se avrebbe potuto portarti via, per paura di farlo crollare in uno stato fragile. Forse pensava che l'Indifférence se ne sarebbe impossessata se te ne fossi andato. Peut-être, peut-être, peut-être.",shape=box,color=blue];
 		j3477629827 -> j1591510439;
 	j2595974487 [label="Merci, merci - questo è ciò che mi è caro. Non dobbiamo dare per scontato il peggio, perché ci rende il cuore ancora più amaro.",shape=box,color=blue];
 		j2595974487 -> j834667663;
 	j2294409983 [label="Non so cosa pensare di questo... ma è piuttosto curioso... ",shape=box,color=blue];
 		j2294409983 -> j1529100657;
-	j2093984253 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
-		j2093984253 -> j922707990 [label=true,color=green];
-		j2093984253 -> j3958827703 [label=false,color=brown];
+	j130896092 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j130896092 -> j922707990 [label=true,color=green];
+		j130896092 -> j19127234 [label=false,color=brown];
 	j834667663 [label="Forse non desideravi ancora abbandonare Duviri. Forse la situazione non era ancora peggiorata per te. Forse non eri disposto a lasciare i tuoi amici ?",shape=box,color=blue];
 		j834667663 -> j3477629827;
 	j922707990 [label="Tu e la minuscola copia avete già fatto un ottimo lavoro con la sua famiglia... Hmm, ora mi hai fatta incuriosire !",shape=box,color=blue];
 		j922707990 -> j3600135365;
+	j19127234 [label="Check boolean MarieSyndicateMaxRank",color=orange];
+		j19127234 -> j922707990 [label=true,color=green];
+		j19127234 -> j3958827703 [label=false,color=brown];
 	j3958827703 [label="Mmm... ora mi hai incuriosita ! Prima, però, devi continuare a lavorare con la sua famiglia al piano di sopra. Tu o la minuscola copia.",shape=box,color=blue];
 		j3958827703 -> j3600135365;
 }

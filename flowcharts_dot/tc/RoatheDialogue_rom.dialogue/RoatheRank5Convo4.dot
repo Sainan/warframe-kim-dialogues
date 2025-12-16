@@ -12,7 +12,7 @@ digraph {
 		j1931231291 -> j4010277613 [label="RoatheMarieEntratiDeal, MarieEntratiCompleteC",color=purple];
 		j1931231291 -> j4011478987 [label="RoatheLyonConfessionDeal,LyonConfessionFail",color=purple];
 		j1931231291 -> j79725089 [label="false",color=purple];
-		j1931231291 -> j242691715 [label="false",color=purple];
+		j1931231291 -> j1350559949 [label="false",color=purple];
 	"Chat ends." [color=orange];
 	j691994766 [label="Boolean RoatheResetDealComplete is now true.",color=orange];
 		j691994766 -> j1304775402;
@@ -24,8 +24,8 @@ digraph {
 		j4011478987 -> j2099623384;
 	j79725089 [label="What do you think happened to Nitokh?",shape=box,color=red];
 		j79725089 -> j2552262100;
-	j242691715 [label="[End.]",shape=box,color=red];
-		j242691715 -> "Chat ends.";
+	j1350559949 [label="[結束]",shape=box,color=red];
+		j1350559949 -> "Chat ends.";
 	j1304775402 [label="We struck a deal, Drifter. And while it seems you did not need me to help you with Marie after all, just know that the devil always collects his due.",shape=box,color=blue];
 		j1304775402 -> j2706269968;
 	j1617419897 [label="We struck a deal, Drifter. And while it seems you did not need me to help you with Lyon after all, just know that the devil always collects his due.",shape=box,color=blue];

@@ -337,20 +337,23 @@ digraph {
 	j1747748885 [label="Boolean MarieNeci is now true.",color=orange];
 		j1747748885 -> j1097236285;
 	j4238562793 [label="哦，想法不錯。我認為這是值得追求的理想！",shape=box,color=blue];
-		j4238562793 -> j2093984253;
+		j4238562793 -> j130896092;
 	j1687480633 [label="或許他不知道能否把你從中帶走，因為怕它在脆弱狀態下會崩潰。或許他認為如果你離開的話，漠然就會佔領它。或許──",shape=box,color=blue];
 		j1687480633 -> j1591510439;
 	j467098273 [label="謝謝，這正是我最珍視的點。我們絕不能往最壞處想，因為那樣只會讓我們心生怨恨。",shape=box,color=blue];
 		j467098273 -> j1699329495;
 	j1097236285 [label="我不知道該如何看待這件事……但這確實很奇怪…… ",shape=box,color=blue];
 		j1097236285 -> j1410867075;
-	j2093984253 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
-		j2093984253 -> j1485356027 [label=true,color=green];
-		j2093984253 -> j1143737548 [label=false,color=brown];
+	j130896092 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j130896092 -> j1485356027 [label=true,color=green];
+		j130896092 -> j19127234 [label=false,color=brown];
 	j1699329495 [label="或許你還不想拋棄渡域。或許它還沒有讓你失望。或許你不願意離開你的朋友？",shape=box,color=blue];
 		j1699329495 -> j1687480633;
 	j1485356027 [label="你和那小子已經和他的家人相處得很好了……嗯，現在你讓我開始盤算了！",shape=box,color=blue];
 		j1485356027 -> j2056268357;
+	j19127234 [label="Check boolean MarieSyndicateMaxRank",color=orange];
+		j19127234 -> j1485356027 [label=true,color=green];
+		j19127234 -> j1143737548 [label=false,color=brown];
 	j1143737548 [label="嗯……現在你讓我開始盤算了！不過，首先，你必須繼續待在樓上與他的家人相處。你或那小子都行。",shape=box,color=blue];
 		j1143737548 -> j2056268357;
 }

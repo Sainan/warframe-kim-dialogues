@@ -8,12 +8,12 @@ digraph {
 		j3510955014 -> "Chat ends." [label="false",color=purple];
 	j733186713 [label="It is time.",shape=box,color=blue];
 		j733186713 -> j1808633060;
-		j733186713 -> j242691715;
+		j733186713 -> j1350559949;
 	"Chat ends." [color=orange];
 	j1808633060 [label="That doesn't sound ominous at all.",shape=box,color=red];
 		j1808633060 -> j2844911425;
-	j242691715 [label="[End.]",shape=box,color=red];
-		j242691715 -> "Chat ends.";
+	j1350559949 [label="[結束]",shape=box,color=red];
+		j1350559949 -> "Chat ends.";
 	j2844911425 [label="Evaluate expressions",color=orange];
 		j2844911425 -> j1116918490 [label="RoatheFamilyDelay, MarieFamilySuccess, LyonFamilySuccess, RoatheDating",color=purple];
 		j2844911425 -> j2028486536 [label="RoatheFamilyDelay, MarieFamilySuccess, LyonFamilySuccess",color=purple];

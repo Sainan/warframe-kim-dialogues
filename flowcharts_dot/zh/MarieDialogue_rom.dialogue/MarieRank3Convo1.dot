@@ -337,20 +337,23 @@ digraph {
 	j3382444694 [label="Boolean MarieNeci is now true.",color=orange];
 		j3382444694 -> j2366556393;
 	j1719422475 [label="哦，好主意。我觉得这是一件值得支持的事情 ！",shape=box,color=blue];
-		j1719422475 -> j2093984253;
+		j1719422475 -> j130896092;
 	j2701128683 [label="也许他也不知道能否带你离开那世界，担心它会因此而崩溃。也许他以为，如果你走了，l'Indifférence 就会收回它。Peut-être，Peut-être，Peut-être。",shape=box,color=blue];
 		j2701128683 -> j1591510439;
 	j1365220575 [label="Merci，Merci——这正是我所珍视的信念。我们不能往坏处想，因为那只会让我们的心变得苦毒。",shape=box,color=blue];
 		j1365220575 -> j228375062;
 	j2366556393 [label="我不知道该怎么看待这件事……但这确实听起来很奇怪…… ",shape=box,color=blue];
 		j2366556393 -> j1268305758;
-	j2093984253 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
-		j2093984253 -> j3775064920 [label=true,color=green];
-		j2093984253 -> j686587357 [label=false,color=brown];
+	j130896092 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j130896092 -> j3775064920 [label=true,color=green];
+		j130896092 -> j19127234 [label=false,color=brown];
 	j228375062 [label="也许你还不想抛弃双衍王境。也许当时事情对你来说还没有变糟。也许你还舍不得离开你的朋友们 ？",shape=box,color=blue];
 		j228375062 -> j2701128683;
 	j3775064920 [label="你和那个小小的复制品已经和他的家人相处得很好了……嗯，现在你让我开始想计划点什么了 ！",shape=box,color=blue];
 		j3775064920 -> j1387472653;
+	j19127234 [label="Check boolean MarieSyndicateMaxRank",color=orange];
+		j19127234 -> j3775064920 [label=true,color=green];
+		j19127234 -> j686587357 [label=false,color=brown];
 	j686587357 [label="嗯……现在你让我开始想计划点什么了 ！不过，首先——你得继续去跟他楼上的家人共事。要么你去，要么那个小小的复制品去。",shape=box,color=blue];
 		j686587357 -> j1387472653;
 }
