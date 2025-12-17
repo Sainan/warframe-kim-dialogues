@@ -5,11 +5,11 @@ digraph {
 		j2511837341 -> j578486110 [label=true,color=green];
 		j2511837341 -> "Chat ends." [label=false,color=brown];
 	j578486110 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j578486110 -> j1444233253 [label="x >= 5",color=purple];
+		j578486110 -> j871820474 [label="x >= 5",color=purple];
 		j578486110 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j1444233253 [label="VM: INVENTION",shape=box,color=blue];
-		j1444233253 -> j2907124223;
+	j871820474 [label="語音訊息：發明",shape=box,color=blue];
+		j871820474 -> j2907124223;
 	j2907124223 [label="文字記錄：現在，我記得武術 Archimedea 的發展起初被當作娛樂呈現。",shape=box,color=blue];
 		j2907124223 -> j4033178198;
 	j4033178198 [label="就像墮落的浪蕩子圍觀罪犯在競技馬戲場中被處決。",shape=box,color=blue];

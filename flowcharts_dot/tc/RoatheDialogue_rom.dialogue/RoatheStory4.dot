@@ -5,13 +5,13 @@ digraph {
 		j3383945644 -> j3413866336 [label=true,color=green];
 		j3383945644 -> "Chat ends." [label=false,color=brown];
 	j3413866336 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j3413866336 -> j2522957800 [label="x >= 4",color=purple];
+		j3413866336 -> j2630135642 [label="x >= 4",color=purple];
 		j3413866336 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j2522957800 [label="VM: HUBRIS",shape=box,color=blue];
-		j2522957800 -> j2228452010;
-	j2228452010 [label="文字記錄：我們沒想到會輸。",shape=box,color=blue];
-		j2228452010 -> j1086654821;
+	j2630135642 [label="語音訊息：傲慢",shape=box,color=blue];
+		j2630135642 -> j2884433088;
+	j2884433088 [label="文字記錄：我們沒料到會輸。",shape=box,color=blue];
+		j2884433088 -> j1086654821;
 	j1086654821 [label="在 Sentient 第一次遠征襲擊後，我們就準備了懲罰性的反擊。",shape=box,color=blue];
 		j1086654821 -> j2550090066;
 	j2550090066 [label="金魅號從穀神星的霧中以致命之翼升起，一艘滿載無人機和銀甲戰士的帆船戰艦。",shape=box,color=blue];

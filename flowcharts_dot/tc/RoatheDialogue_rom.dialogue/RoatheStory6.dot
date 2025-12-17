@@ -5,11 +5,11 @@ digraph {
 		j2103966613 -> j1660438531 [label=true,color=green];
 		j2103966613 -> "Chat ends." [label=false,color=brown];
 	j1660438531 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j1660438531 -> j807069633 [label="x >= 6",color=purple];
+		j1660438531 -> j3604596075 [label="x >= 6",color=purple];
 		j1660438531 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j807069633 [label="VM: SENTIENCE",shape=box,color=blue];
-		j807069633 -> j2750169663;
+	j3604596075 [label="語音訊息：SENTIENT",shape=box,color=blue];
+		j3604596075 -> j2750169663;
 	j2750169663 [label="文字記錄：我們不把 Sentient 當作「他們」而更多視為「它們」。",shape=box,color=blue];
 		j2750169663 -> j1586121798;
 	j1586121798 [label="我們面對的軍團被拋向我們，對個體生命的重視不比血球更多。",shape=box,color=blue];

@@ -5,13 +5,13 @@ digraph {
 		j1693002528 -> j2963576544 [label=true,color=green];
 		j1693002528 -> "Chat ends." [label=false,color=brown];
 	j2963576544 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j2963576544 -> j3622821179 [label="x >= 16",color=purple];
+		j2963576544 -> j3876675747 [label="x >= 16",color=purple];
 		j2963576544 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j3622821179 [label="VM: SACRIFICE",shape=box,color=blue];
-		j3622821179 -> j3409898466;
-	j3409898466 [label="Traivon. Widziałem, jak cisnęłaś swojego Railjacka w paszczę Praghasy. Rozproszona, żarłocznie karmiąc się tobą i twoimi ludźmi, nie zauważyła, że mój statek ucieka.",shape=box,color=blue];
-		j3409898466 -> j3729277252;
+	j3876675747 [label="VM: SACRIFICE",shape=box,color=blue];
+		j3876675747 -> j1877281627;
+	j1877281627 [label="Transkrypcja: Traivon. Widziałem, jak cisnęłaś swojego Railjacka w paszczę Praghasy. Rozproszona, żarłocznie karmiąc się tobą i twoimi ludźmi, nie zauważyła, że mój statek ucieka.",shape=box,color=blue];
+		j1877281627 -> j3729277252;
 	j3729277252 [label="You laid down your life for your superior officer. I felt your selflessness like a slap in the face.",shape=box,color=blue];
 		j3729277252 -> j3496723491;
 	j3496723491 [label="Maryna. You gave me your body. Together, in that trench, we drank Kuva. My hands shook and my gashed throat leaked, but I kept enough drops down for it to take.",shape=box,color=blue];

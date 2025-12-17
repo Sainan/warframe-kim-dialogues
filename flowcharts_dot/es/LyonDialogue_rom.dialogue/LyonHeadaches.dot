@@ -137,7 +137,7 @@ digraph {
 	j3646650489 [label="Así que, me disculparás si esta oferta de... camaradería me parece extrañamente ridícula por su ingenuidad. No te conozco ni confío en ti. De hecho, lo único que se es lo que otros me han dicho.",shape=box,color=blue];
 		j3646650489 -> j740545619;
 	j221705282 [label="¡Vete, Viajero! Antes de que te encuentre y te obligue a descansar. Y a ninguno de nosotros nos gustará eso.",shape=box,color=blue];
-		j221705282 -> j2193210034;
+		j221705282 -> j4254387752;
 		j221705282 -> j2973896890;
 	j3371543900 [label="Sinceramente, desde que nos conocimos no he podido dejar de pensar en ti.",shape=box,color=red];
 		j3371543900 -> j2905931503;
@@ -147,8 +147,8 @@ digraph {
 		j369277503 -> j3978143613;
 	j740545619 [label="Lo que otros a quienes ni conozco ni en quienes confío todavía me han dicho. Todo esto se nos viene encima, sin mencionar las cargas que no se ven.",shape=box,color=blue];
 		j740545619 -> j396075398;
-	j2193210034 [label="Está bien, está bien. Me voy.",shape=box,color=red];
-		j2193210034 -> j2343067923;
+	j4254387752 [label="Está bien, está bien. Me voy.",shape=box,color=red];
+		j4254387752 -> j894054493;
 	j2973896890 [label="Bueno... puede que lo disfrute más de lo que piensas.",shape=box,color=red];
 		j2973896890 -> j719613752;
 	j2905931503 [label="+20 Chemistry",color=orange];
@@ -157,8 +157,8 @@ digraph {
 		j396075398 -> j641910507;
 		j396075398 -> j3678203079;
 		j396075398 -> j3173978258;
-	j2343067923 [label="Bien. Que te vaya bien, Viajero.",shape=box,color=blue];
-		j2343067923 -> j944546954;
+	j894054493 [label="Bien. Que te vaya bien, Viajero.",shape=box,color=blue];
+		j894054493 -> j2084492712;
 	j719613752 [label="Boolean LyonFirstFlirt is now true.",color=orange];
 		j719613752 -> "Chat ends. Next chat will be LyonFlirt.";
 	j641910507 [label="No prometo nada, sacerdote.",shape=box,color=red];
@@ -167,8 +167,8 @@ digraph {
 		j3678203079 -> j1965900707;
 	j3173978258 [label="Lo estará.",shape=box,color=red];
 		j3173978258 -> j2964281580;
-	j944546954 [label="-F. Lyon Allard",shape=box,color=blue];
-		j944546954 -> "Chat ends.";
+	j2084492712 [label="Padre Lyon Allard",shape=box,color=blue];
+		j2084492712 -> "Chat ends.";
 	"Chat ends. Next chat will be LyonFlirt." [color=orange];
 	j3721771223 [label="Por supuesto. No se esperaba.",shape=box,color=blue];
 		j3721771223 -> j3047626575;
@@ -177,16 +177,16 @@ digraph {
 	j2964281580 [label="Ya veremos.",shape=box,color=blue];
 		j2964281580 -> j3047626575;
 	j3047626575 [label="Check boolean LyonOffer",color=orange];
-		j3047626575 -> j970393242 [label=true,color=green];
-		j3047626575 -> j1927140539 [label=false,color=brown];
-	j970393242 [label="+15 Chemistry",color=orange];
-		j970393242 -> j1818414167;
-	j1927140539 [label="Hasta luego.",shape=box,color=blue];
-		j1927140539 -> j789460724;
-	j1818414167 [label="Hasta luego.",shape=box,color=blue];
-		j1818414167 -> j944546954;
-	j789460724 [label="-F. Lyon Allard",shape=box,color=blue];
-		j789460724 -> j1933300832;
+		j3047626575 -> j498584272 [label=true,color=green];
+		j3047626575 -> j1429879253 [label=false,color=brown];
+	j498584272 [label="+15 Chemistry",color=orange];
+		j498584272 -> j3529824900;
+	j1429879253 [label="Hasta luego.",shape=box,color=blue];
+		j1429879253 -> j492677779;
+	j3529824900 [label="Hasta luego.",shape=box,color=blue];
+		j3529824900 -> j2084492712;
+	j492677779 [label="Padre Lyon Allard",shape=box,color=blue];
+		j492677779 -> j1933300832;
 	j1933300832 [label="+10 Chemistry",color=orange];
 		j1933300832 -> "Chat ends.";
 }
