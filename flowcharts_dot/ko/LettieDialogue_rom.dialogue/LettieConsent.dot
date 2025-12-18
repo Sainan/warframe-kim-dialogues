@@ -10,48 +10,48 @@ digraph {
 	"Chat ends." [color=orange];
 	j2985555336 [label="Check boolean LettieConsentComplete",color=orange];
 		j2985555336 -> "Chat ends." [label=true,color=green];
-		j2985555336 -> j4064132097 [label=false,color=brown];
+		j2985555336 -> j1342641155 [label=false,color=brown];
 		j2985555336 -> j1486729066 [label=false,color=brown];
 	j4172583155 [label="Check boolean LettiePolyamorySuccess",color=orange];
 		j4172583155 -> j2985555336 [label=true,color=green];
 		j4172583155 -> "Chat ends." [label=false,color=brown];
-	j4064132097 [label="안녕 레티? 지금 바빠? [다수의 파트너가 있는 경우 동의를 구한다]",shape=box,color=red];
-		j4064132097 -> j855362682;
+	j1342641155 [label="안녕 레티? 지금 바빠? [다수의 파트너를 둘 수 있도록 동의를 구한다]",shape=box,color=red];
+		j1342641155 -> j3712038380;
 	j1486729066 [label="[종료.]",shape=box,color=red];
 		j1486729066 -> j3702107533;
-	j855362682 [label="항상
+	j3712038380 [label="항상
 하지만 너한테는 시간 쓸 수 있는데?
 ¿Qué?",shape=box,color=blue];
-		j855362682 -> j1677532650;
+		j3712038380 -> j97671136;
 	j3702107533 [label="Boolean LettieConsentComplete is now true.",color=orange];
 		j3702107533 -> "Chat ends.";
-	j1677532650 [label="너랑 중요한 이야기를 하고 싶은데, 괜찮은지 확인하고 싶어.",shape=box,color=red];
-		j1677532650 -> j3065789120;
-	j3065789120 [label="중요한 점은 내가 너에게 거짓말을 하거나 어떤 식으로든 정직하지 않게 대하는 것처럼 느껴지지 않도록 하는 거야.",shape=box,color=red];
-		j3065789120 -> j1358356957;
-		j3065789120 -> j4258031605;
-		j3065789120 -> j2321092997;
-	j1358356957 [label="제발 아프게 하지 말아 줘.",shape=box,color=red];
-		j1358356957 -> j892048267;
-	j4258031605 [label="제발 화내지 말아 줘.",shape=box,color=red];
-		j4258031605 -> j3826530993;
-	j2321092997 [label="이해해줬으면 좋겠어.",shape=box,color=red];
-		j2321092997 -> j3072215851;
-	j892048267 [label="Jajajajaj
+	j97671136 [label="너랑 중요한 이야기를 하고 싶은데, 듣고 네가 괜찮을지 확인하고 싶어.",shape=box,color=red];
+		j97671136 -> j2301217305;
+	j2301217305 [label="내게 중요한 건 내가 너에게 어떤 식으로든 거짓말을 하고 있거나, 솔직하게 대하지 않는다는 느낌을 네가 받지 않게 해야 한다는 점이거든.",shape=box,color=red];
+		j2301217305 -> j1419412255;
+		j2301217305 -> j3299699419;
+		j2301217305 -> j1262939190;
+	j1419412255 [label="제발 아프게 하지 말아 줘.",shape=box,color=red];
+		j1419412255 -> j543114778;
+	j3299699419 [label="제발 화내지 말아 줘.",shape=box,color=red];
+		j3299699419 -> j3448110549;
+	j1262939190 [label="이해해줬으면 좋겠어.",shape=box,color=red];
+		j1262939190 -> j2661460521;
+	j543114778 [label="Jajajajaj
 우린 이거에 대해서 얘기했잖아
 난 내가 좋아하는 방식으로만 널 아프게 한다고
 이제 뭔 말이 하고 싶은 건데",shape=box,color=blue];
-		j892048267 -> j687704674;
-	j3826530993 [label="¿Sí?
+		j543114778 -> j516518700;
+	j3448110549 [label="¿Sí?
 그래서 화낼 일이 뭐길래?",shape=box,color=blue];
-		j3826530993 -> j687704674;
-	j3072215851 [label="¿Sí?
+		j3448110549 -> j516518700;
+	j2661460521 [label="¿Sí?
 그래서 뭘 이해해줬음 하는데?",shape=box,color=blue];
-		j3072215851 -> j687704674;
-	j687704674 [label="네가 싫어하는 상황에 놓이게 만들고 싶지 않아. 이 문제를 우리가 전에는 이야기해 본 적이 없는 문제라는 것도 알고. 그러니 거절해도 괜찮아. 단지 이 점을 알아줬으면 좋겠어.",shape=box,color=red];
-		j687704674 -> j2757229122;
-	j2757229122 [label="우리의 관계는 나에게 중요해 - 그것도 아주 많이 중요해 - 그리고 진심이야. 그걸 의심하지 않았으면 해.",shape=box,color=red];
-		j2757229122 -> j3470378416;
+		j2661460521 -> j516518700;
+	j516518700 [label="네가 괜찮지 않다 느끼는 상황에 놓이게 만들고 싶지 않아. 우리가 예전엔 이야기해본 적 없는 문제라는 것도 알고. 그러니 거절해도 괜찮아. 단지 이 점을 알아뒀으면 좋겠어.",shape=box,color=red];
+		j516518700 -> j2725418802;
+	j2725418802 [label="우리의 관계는 내게 중요해. 아주 중요해. 그리고 나는 진심이고. 네가 그걸 의심하지 않았으면 좋겠어.",shape=box,color=red];
+		j2725418802 -> j3470378416;
 	j3470378416 [label="아, entiendo...
 그냥 알고 싶은 게 있는데
 그 상대방을 정말로 아끼니, solecito?

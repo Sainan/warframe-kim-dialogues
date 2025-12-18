@@ -23,7 +23,7 @@ digraph {
 	j148501058 [label="Evaluate expressions",color=orange];
 		j148501058 -> j2321113540 [label="MarieFamily3a",color=purple];
 		j148501058 -> j1907598485 [label="MarieFamily3a",color=purple];
-		j148501058 -> j753611210 [label="MarieFamily3b",color=purple];
+		j148501058 -> j1154034936 [label="MarieFamily3b",color=purple];
 		j148501058 -> j2293866203 [label="MarieFamily3b",color=purple];
 		j148501058 -> j2321113540 [label="MarieFamilyOther",color=purple];
 		j148501058 -> j1907598485 [label="MarieFamilyOther",color=purple];
@@ -32,8 +32,8 @@ digraph {
 		j2321113540 -> j3431982611;
 	j1907598485 [label="Have you thought anymore about how to convince Loid to talk to the Entrati family upstairs?",shape=box,color=red];
 		j1907598485 -> j2607534784;
-	j753611210 [label="On the subject of trying to get Loid and the Entrati family talking, I was... wondering if you've reconsidered Roathe's involvement at all?",shape=box,color=red];
-		j753611210 -> j1903226774;
+	j1154034936 [label="ในเรื่องที่เราพยายามทำให้ Loid กับครอบครัว Entrati คุยกัน ข้า... สงสัยว่าเจ้าได้พิจารณาถึงการให้ Roathe เข้ามามีส่วนร่วมแล้วหรือยัง",shape=box,color=red];
+		j1154034936 -> j1903226774;
 	j2293866203 [label="Marie, are you still on board to... maybe try to convince Loid to talk to the \"upstairs neighbors?\" I know we left that off on a weird note.",shape=box,color=red];
 		j2293866203 -> j1903226774;
 	j3195965363 [label="I have been thinking of how Monsieur Loid is so frightened of speaking to le Cardinal's family.",shape=box,color=blue];
@@ -60,7 +60,7 @@ digraph {
 	j2133849035 [label="Bonjour - I have given it some thought, oui... and I am truly loath to admit it. It gives me no pleasure to say this.",shape=box,color=blue];
 		j2133849035 -> j228742710;
 	j4294470168 [label="But I feel as though we need... a bastion of some kind, non ? Do you have any ideas ?",shape=box,color=blue];
-		j4294470168 -> j3998677600;
+		j4294470168 -> j228598113;
 		j4294470168 -> j2108039726;
 	j2108039726 [label="I think we might need Roathe's help to convince Loid to talk to the Entrati family. I don't think he'll do it otherwise. Without assurances that the family, and he, will be protected.",shape=box,color=red];
 		j2108039726 -> j1138601703;
@@ -68,13 +68,13 @@ digraph {
 		j3047415045 -> j1438105570;
 	j228742710 [label="I believe you may be right. The devil may be the missing piece we need. Ah, it pains me even to type the words ! ",shape=box,color=blue];
 		j228742710 -> j636489540;
-	j3998677600 [label="I don't really have any good ideas that doesn't involve taking help from terrible sources. Sources that might just get us into deep trouble later. Namely, Roathe.",shape=box,color=red];
-		j3998677600 -> j3631104066;
+	j228598113 [label="ยังคิดอะไรดี ๆ ที่ไม่เกี่ยวข้องกับการขอความช่วยเหลือจากแหล่งข้อมูลที่แย่ ๆ ไม่ออกเลย แหล่งที่อาจทำให้เราเดือดร้อนในภายหลัง ที่มีนามว่า Roathe",shape=box,color=red];
+		j228598113 -> j3631104066;
 	j1138601703 [label="I... hate to admit it, but I think you may be right... Sol forgive me.",shape=box,color=blue];
 		j1138601703 -> j636489540;
 	j1438105570 [label="The devil is powerful, and provides certain promises of strength should things go wrong, non ?",shape=box,color=blue];
 		j1438105570 -> j90779732;
-		j1438105570 -> j2760637386;
+		j1438105570 -> j4165875783;
 	j636489540 [label="Evaluate expressions",color=orange];
 		j636489540 -> j3157697569 [label="RoatheFamilyFail",color=purple];
 		j636489540 -> j1673811520 [label="RoatheRedeemed, RoatheFamilyDelay
@@ -90,8 +90,8 @@ digraph {
 		j3631104066 -> j1261551512;
 	j90779732 [label="No, there has to be another way. I refuse to ask for his help on this.",shape=box,color=red];
 		j90779732 -> j3631104066;
-	j2760637386 [label="You're right. I didn't think you'd agree to it. I was afraid to ask.",shape=box,color=red];
-		j2760637386 -> j636489540;
+	j4165875783 [label="ถูกต้องแล้ว ข้าไม่คิดว่าเจ้าจะยอมตกลง เลยกลัวที่จะถาม",shape=box,color=red];
+		j4165875783 -> j636489540;
 	j3157697569 [label="Will he give us his aid in this regard ?",shape=box,color=blue];
 		j3157697569 -> j3769092663;
 	j1673811520 [label="Will he give us his aid in this regard ?",shape=box,color=blue];
@@ -100,7 +100,7 @@ digraph {
 		j2413529707 -> j1784686791;
 	j1360103513 [label="Do you think you can convince him to help us, though ?",shape=box,color=blue];
 		j1360103513 -> j2983543606;
-		j1360103513 -> j4243247975;
+		j1360103513 -> j3078438946;
 	j527458522 [label="No, I'm sorry. ",shape=box,color=red];
 		j527458522 -> j1505693693;
 	j1261551512 [label="All right. If you're okay with it, I'll be okay with it.",shape=box,color=red];
@@ -113,8 +113,8 @@ digraph {
 		j1784686791 -> j3624817470;
 	j2983543606 [label="Nothing is settled yet. He's... well, you know how he can be.",shape=box,color=red];
 		j2983543606 -> j2913252443;
-	j4243247975 [label="I'm still working on it, but I think so.",shape=box,color=red];
-		j4243247975 -> j1104176810;
+	j3078438946 [label="ข้ากำลังหาทางอยู่ แต่คิดว่าน่าจะเป็นอย่างนั้น",shape=box,color=red];
+		j3078438946 -> j1104176810;
 	j1505693693 [label="+20 Chemistry",color=orange];
 		j1505693693 -> j3033577955;
 	j1320836340 [label="Oui, I do not have to enjoy it, but it is un médicament we must swallow, I suppose.",shape=box,color=blue];

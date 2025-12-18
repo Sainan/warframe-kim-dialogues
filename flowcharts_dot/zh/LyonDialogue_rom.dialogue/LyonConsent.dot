@@ -10,13 +10,13 @@ digraph {
 	"Chat ends." [color=orange];
 	j1181132753 [label="Check boolean LyonConsentComplete",color=orange];
 		j1181132753 -> "Chat ends." [label=true,color=green];
-		j1181132753 -> j3297498625 [label=false,color=brown];
+		j1181132753 -> j1482858032 [label=false,color=brown];
 	j1316396836 [label="Check boolean LyonPolyamorySuccess",color=orange];
 		j1316396836 -> j1181132753 [label=true,color=green];
 		j1316396836 -> "Chat ends." [label=false,color=brown];
-	j3297498625 [label="如果可以的话，我希望能简短谈谈一些事，相信这样我们俩都会安心些，mon miracle。",shape=box,color=blue];
-		j3297498625 -> j2120075793;
-		j3297498625 -> j1982180512;
+	j1482858032 [label="如果可以的话，我希望能简短聊一些事，相信这样我们俩都会安心些，mon miracle。",shape=box,color=blue];
+		j1482858032 -> j2120075793;
+		j1482858032 -> j1982180512;
 	j2120075793 [label="[结束]",shape=box,color=red];
 		j2120075793 -> j3944516755;
 	j1982180512 [label="怎么了，里昂？",shape=box,color=red];

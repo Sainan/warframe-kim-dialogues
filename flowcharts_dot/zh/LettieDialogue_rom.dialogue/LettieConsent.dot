@@ -10,13 +10,13 @@ digraph {
 	"Chat ends." [color=orange];
 	j2985555336 [label="Check boolean LettieConsentComplete",color=orange];
 		j2985555336 -> "Chat ends." [label=true,color=green];
-		j2985555336 -> j2236008647 [label=false,color=brown];
+		j2985555336 -> j2039231216 [label=false,color=brown];
 		j2985555336 -> j2614805810 [label=false,color=brown];
 	j4172583155 [label="Check boolean LettiePolyamorySuccess",color=orange];
 		j4172583155 -> j2985555336 [label=true,color=green];
 		j4172583155 -> "Chat ends." [label=false,color=brown];
-	j2236008647 [label="嘿，莱蒂？你忙吗？[征求多个伴侣关系的同意]",shape=box,color=red];
-		j2236008647 -> j970608473;
+	j2039231216 [label="嘿，莱蒂？你忙吗？[征求是否同意多重伴侣关系]",shape=box,color=red];
+		j2039231216 -> j970608473;
 	j2614805810 [label="[结束]",shape=box,color=red];
 		j2614805810 -> j3702107533;
 	j970608473 [label="总有的忙

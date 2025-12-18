@@ -237,7 +237,7 @@ digraph {
 	j3631108790 [label="Do you know how rare it is for Quincy to trust someone? To really let someone in?",shape=box,color=blue];
 		j3631108790 -> j3544825728;
 	j2575432444 [label="Check boolean LettieDating",color=orange];
-		j2575432444 -> j2020169183 [label=true,color=green];
+		j2575432444 -> j1945756037 [label=true,color=green];
 		j2575432444 -> j2097045387 [label=false,color=brown];
 	j3398881283 [label="Sod off.",shape=box,color=blue];
 		j3398881283 -> "Chat ends.";
@@ -248,15 +248,15 @@ digraph {
 		j635933750 -> "Chat ends.";
 	j3544825728 [label="You're proving all his worst suspicions about the world right.",shape=box,color=blue];
 		j3544825728 -> j635933750;
-	j2020169183 [label="Lettie's supposed to be with someone who helps share the burden.",shape=box,color=blue];
-		j2020169183 -> j3116104423;
+	j1945756037 [label="Lettie's supposed to be with someone who helps share the burden.",shape=box,color=blue];
+		j1945756037 -> j539131243;
 	j2097045387 [label="Check boolean AoiDating",color=orange];
 		j2097045387 -> j3408891461 [label=true,color=green];
 		j2097045387 -> "Chat ends." [label=false,color=brown];
 	j516892496 [label="Boolean ArthurConfessedFeels is now true.",color=orange];
 		j516892496 -> "Chat ends. Next chat will be ArthurAsshat.";
-	j3116104423 [label="Not bloody add to to the pain.",shape=box,color=blue];
-		j3116104423 -> j635933750;
+	j539131243 [label="Not bloody add to the pain.",shape=box,color=blue];
+		j539131243 -> j635933750;
 	j3408891461 [label="Aoi deserves better than you.",shape=box,color=blue];
 		j3408891461 -> j3543931880;
 	"Chat ends. Next chat will be ArthurAsshat." [color=orange];
