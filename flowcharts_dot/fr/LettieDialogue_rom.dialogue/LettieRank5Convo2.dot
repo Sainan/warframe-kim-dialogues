@@ -4,15 +4,11 @@ digraph {
 	j3526029970 [label="Check boolean LettieDating",color=orange];
 		j3526029970 -> j2312060825 [label=true,color=green];
 		j3526029970 -> j674506752 [label=false,color=brown];
-	j2312060825 [label="Solecito 
-Tu es là? 
-J'ai quelques minutes et je voulais te parler",shape=box,color=blue];
+	j2312060825 [label="Solecito \nTu es là? \nJ'ai quelques minutes et je voulais te parler",shape=box,color=blue];
 		j2312060825 -> j2757921208;
 		j2312060825 -> j1267664266;
 		j2312060825 -> j2417105114;
-	j674506752 [label="Salut
-Tu es là? 
-J'ai quelques minutes et je voulais te parler",shape=box,color=blue];
+	j674506752 [label="Salut\nTu es là? \nJ'ai quelques minutes et je voulais te parler",shape=box,color=blue];
 		j674506752 -> j1267664266;
 		j674506752 -> j2417105114;
 	j2757921208 [label="Tu ne vas pas rompre avec moi, n'est-ce pas?",shape=box,color=red];
@@ -21,17 +17,10 @@ J'ai quelques minutes et je voulais te parler",shape=box,color=blue];
 		j1267664266 -> j1368503285;
 	j2417105114 [label="Excuse-moi, je ne peux pas discuter en ce moment. [Fin.]",shape=box,color=red];
 		j2417105114 -> "Chat ends.";
-	j889425981 [label="¡Ay, no! 
-Nonono 
-Il ne s'agit pas de ça jajaja 
-Même si TU pourrais changer d'avis quand j'aurai fini de parler",shape=box,color=blue];
+	j889425981 [label="¡Ay, no! \nNonono \nIl ne s'agit pas de ça jajaja \nMême si TU pourrais changer d'avis quand j'aurai fini de parler",shape=box,color=blue];
 		j889425981 -> j1670394056;
 		j889425981 -> j2083998803;
-	j1368503285 [label="Jaja très drôle 
-Et qui n'est pas mort au moins une fois, à ce stade 
-Ay, no, ce dont je voulais parler 
-C'est sérieux 
-Et quelque chose que j'ai évité",shape=box,color=blue];
+	j1368503285 [label="Jaja très drôle \nEt qui n'est pas mort au moins une fois, à ce stade \nAy, no, ce dont je voulais parler \nC'est sérieux \nEt quelque chose que j'ai évité",shape=box,color=blue];
 		j1368503285 -> j2083998803;
 		j1368503285 -> j1670394056;
 	"Chat ends." [color=orange];
@@ -42,133 +31,62 @@ Et quelque chose que j'ai évité",shape=box,color=blue];
 	j2818670173 [label="Check boolean LettieHexAsked",color=orange];
 		j2818670173 -> j1604032176 [label=true,color=green];
 		j2818670173 -> j3172424732 [label=false,color=brown];
-	j1604032176 [label="Tu as demandé comment nous sommes devenus ces monstruos 
-Ce que ce pinche cabrón nous a fait 
-Pourquoi je le déteste autant 
-Ce que cette grosse merde nous a fait faire",shape=box,color=blue];
+	j1604032176 [label="Tu as demandé comment nous sommes devenus ces monstruos \nCe que ce pinche cabrón nous a fait \nPourquoi je le déteste autant \nCe que cette grosse merde nous a fait faire",shape=box,color=blue];
 		j1604032176 -> j4257706291;
 	j3172424732 [label="Check boolean LettieEntrati",color=orange];
 		j3172424732 -> j1808949811 [label=true,color=green];
 		j3172424732 -> j3038561522 [label=false,color=brown];
-	j4257706291 [label="Alors 
-J'ai suivi Arthur dans la RCI
-J'ai été envoyée ici dans ce cuchitril pour faire face à une étrange épidémie d'un genre nouveau",shape=box,color=blue];
+	j4257706291 [label="Alors \nJ'ai suivi Arthur dans la RCI\nJ'ai été envoyée ici dans ce cuchitril pour faire face à une étrange épidémie d'un genre nouveau",shape=box,color=blue];
 		j4257706291 -> j231477393;
-	j1808949811 [label="Tu devrais savoir ce que ce pinche cabrón nous a fait 
-Pourquoi je le déteste autant 
-Ce que cette grosse merde nous a fait faire",shape=box,color=blue];
+	j1808949811 [label="Tu devrais savoir ce que ce pinche cabrón nous a fait \nPourquoi je le déteste autant \nCe que cette grosse merde nous a fait faire",shape=box,color=blue];
 		j1808949811 -> j4257706291;
 	j3038561522 [label="Check boolean LettieArthur1",color=orange];
 		j3038561522 -> j3494459541 [label=true,color=green];
 		j3038561522 -> j166439979 [label=false,color=brown];
-	j231477393 [label="Une maladie qui dévore les gens 
-Les recrache moitié personne, moitié machine 
-Ou des choses qui n'ont jamais été des êtres humains, más bien computadoras",shape=box,color=blue];
+	j231477393 [label="Une maladie qui dévore les gens \nLes recrache moitié personne, moitié machine \nOu des choses qui n'ont jamais été des êtres humains, más bien computadoras",shape=box,color=blue];
 		j231477393 -> j1904926537;
-	j3494459541 [label="Je t'ai raconté comment Arthur et moi sommes devenus hermanos
-Mais pas comment nous sommes devenus ces monstruos
-Tu devrais savoir ce que ce salaud nous a fait 
-Pourquoi je le déteste autant 
-Ce que cette grosse merde nous a fait faire",shape=box,color=blue];
+	j3494459541 [label="Je t'ai raconté comment Arthur et moi sommes devenus hermanos\nMais pas comment nous sommes devenus ces monstruos\nTu devrais savoir ce que ce salaud nous a fait \nPourquoi je le déteste autant \nCe que cette grosse merde nous a fait faire",shape=box,color=blue];
 		j3494459541 -> j4257706291;
-	j166439979 [label="Tu as fait beaucoup pour nous 
-Tu as sauvé nos vies, tu restes avec nous... alors que tu pourrais partir 
-Il est temps que tu entendes toute l'histoire",shape=box,color=blue];
+	j166439979 [label="Tu as fait beaucoup pour nous \nTu as sauvé nos vies, tu restes avec nous... alors que tu pourrais partir \nIl est temps que tu entendes toute l'histoire",shape=box,color=blue];
 		j166439979 -> j4257706291;
-	j1904926537 [label="Nous sommes déployés pour \"gérer la situation\" 
-À notre manière:
-Moitié pansements 
-Moitié balles",shape=box,color=blue];
+	j1904926537 [label="Nous sommes déployés pour \"gérer la situation\" \nÀ notre manière:\nMoitié pansements \nMoitié balles",shape=box,color=blue];
 		j1904926537 -> j3178895967;
-	j3178895967 [label="C'était début 1998 
-Avant ton arrivée 
-Ce cabrón d'Entrati était déjà là 
-Il vendait ses MENTIRAS",shape=box,color=blue];
+	j3178895967 [label="C'était début 1998 \nAvant ton arrivée \nCe cabrón d'Entrati était déjà là \nIl vendait ses MENTIRAS",shape=box,color=blue];
 		j3178895967 -> j510802439;
-	j510802439 [label="Mais les meilleurs mensonges sont ceux auxquels tu veux croire, ¿verdad?
-Nous n'avions aucun remède contre cette maladie, à part une danse avec La Flaca 
-Mais le voilà qui arrive 
-Le Doktor F et son sac magique de miracles guériront ce qui te fait mal 
-Il dit qu'il peut tout soigner avec sa medicina milagrosa",shape=box,color=blue];
+	j510802439 [label="Mais les meilleurs mensonges sont ceux auxquels tu veux croire, ¿verdad?\nNous n'avions aucun remède contre cette maladie, à part une danse avec La Flaca \nMais le voilà qui arrive \nLe Doktor F et son sac magique de miracles guériront ce qui te fait mal \nIl dit qu'il peut tout soigner avec sa medicina milagrosa",shape=box,color=blue];
 		j510802439 -> j3312640503;
-	j3312640503 [label="Et nous avons tout gobé como una bola de mensos
-Et quand la RCI est intervenue et a dit \"nonono, vous ne pouvez pas l'aider à distribuer son médicament\", on aurait dû écouter 
-Les vaccins viennent de scientifiques et non d'un vieil homme dans un trench-coat de clochard
-Qui vend sa poudre de perlimpinpin
-Mais quand des gens meurent tout autour de toi? 
-Tu l'aides quand même parce que tu es là pour AIDER les gens",shape=box,color=blue];
+	j3312640503 [label="Et nous avons tout gobé como una bola de mensos\nEt quand la RCI est intervenue et a dit \"nonono, vous ne pouvez pas l'aider à distribuer son médicament\", on aurait dû écouter \nLes vaccins viennent de scientifiques et non d'un vieil homme dans un trench-coat de clochard\nQui vend sa poudre de perlimpinpin\nMais quand des gens meurent tout autour de toi? \nTu l'aides quand même parce que tu es là pour AIDER les gens",shape=box,color=blue];
 		j3312640503 -> j1840044908;
-	j1840044908 [label="Nous l'avons donc aidé à injecter son produit aux habitants de cette ville 
-Nous les avons alignés dans nos tentes et puis, le Cabrón et moi, nous les avons vaccinés l'un après l'autre 
-Et les autres ont assuré la sécurité de l'opération pendant que nous travaillions",shape=box,color=blue];
+	j1840044908 [label="Nous l'avons donc aidé à injecter son produit aux habitants de cette ville \nNous les avons alignés dans nos tentes et puis, le Cabrón et moi, nous les avons vaccinés l'un après l'autre \nEt les autres ont assuré la sécurité de l'opération pendant que nous travaillions",shape=box,color=blue];
 		j1840044908 -> j3231049549;
-	j3231049549 [label="NOSOTROS CREÍMOS EN ÉL
-Nous lui faisions confiance 
-¿Y por tan poco?
-Ça semblait marcher
-Les gens qu'on vaccinait ne tombaient pas malades 
-Le problème...?",shape=box,color=blue];
+	j3231049549 [label="NOSOTROS CREÍMOS EN ÉL\nNous lui faisions confiance \n¿Y por tan poco?\nÇa semblait marcher\nLes gens qu'on vaccinait ne tombaient pas malades \nLe problème...?",shape=box,color=blue];
 		j3231049549 -> j1387073227;
-	j1387073227 [label="Tout le monde autour d'eux, SI
-Tu sais ce que sont les \"porteurs sains\"? 
-J'ai fait du bénévolat dans un refuge pour animaux un été cuando estaba chiquita
-Il y avait tous ces ratons laveurs 
-Je ne pouvais pas les relâcher, car ils pouvaient être des porteurs sains de la rage 
-ILS avaient l'air en bonne santé, semblaient en bonne santé, semblaient normaux...",shape=box,color=blue];
+	j1387073227 [label="Tout le monde autour d'eux, SI\nTu sais ce que sont les \"porteurs sains\"? \nJ'ai fait du bénévolat dans un refuge pour animaux un été cuando estaba chiquita\nIl y avait tous ces ratons laveurs \nJe ne pouvais pas les relâcher, car ils pouvaient être des porteurs sains de la rage \nILS avaient l'air en bonne santé, semblaient en bonne santé, semblaient normaux...",shape=box,color=blue];
 		j1387073227 -> j1341240395;
-	j1341240395 [label="Mais si on les laissait partir? 
-Ils pouvaient infecter tout ce qu'ils rencontraient... 
-C'est ce qu'on a fait aux gens 
-C'EST CE QU'IL NOUS A FAIT FAIRE AUX GENS 
-¡LO HIZO A PROPÓSITO!
-Cet endroit est à deux doigts de Mictlán POR SU CULPA",shape=box,color=blue];
+	j1341240395 [label="Mais si on les laissait partir? \nIls pouvaient infecter tout ce qu'ils rencontraient... \nC'est ce qu'on a fait aux gens \nC'EST CE QU'IL NOUS A FAIT FAIRE AUX GENS \n¡LO HIZO A PROPÓSITO!\nCet endroit est à deux doigts de Mictlán POR SU CULPA",shape=box,color=blue];
 		j1341240395 -> j1047944083;
-	j1047944083 [label="Même quand on a commencé à le soupçonner 
-On ne pouvait pas le croire 
-On a chuchoté entre nous
-Mais on a secoué la tête et on a dit 
-Nonono, ce n'est pas possible 
-Pas lui 
-Pas nous",shape=box,color=blue];
+	j1047944083 [label="Même quand on a commencé à le soupçonner \nOn ne pouvait pas le croire \nOn a chuchoté entre nous\nMais on a secoué la tête et on a dit \nNonono, ce n'est pas possible \nPas lui \nPas nous",shape=box,color=blue];
 		j1047944083 -> j1382766468;
 	j1382766468 [label="Boolean LettieHex is now true.",color=orange];
 		j1382766468 -> j86733959;
 	j86733959 [label="Check boolean LettieDating",color=orange];
 		j86733959 -> j3017637814 [label=true,color=green];
 		j86733959 -> j2040261295 [label=false,color=brown];
-	j3017637814 [label="Nous ne voulions pas croire 
-Que notre confiance avait été trahie 
-Nous... nous avions aussi pris ce poison, solecito... 
-Nous répandions la maladie...",shape=box,color=blue];
+	j3017637814 [label="Nous ne voulions pas croire \nQue notre confiance avait été trahie \nNous... nous avions aussi pris ce poison, solecito... \nNous répandions la maladie...",shape=box,color=blue];
 		j3017637814 -> j1097243971;
-	j2040261295 [label="Nous ne voulions pas croire 
-Que notre confiance avait été trahie 
-Nous... nous avions aussi pris ce poison... 
-Nous répandions la maladie...",shape=box,color=blue];
+	j2040261295 [label="Nous ne voulions pas croire \nQue notre confiance avait été trahie \nNous... nous avions aussi pris ce poison... \nNous répandions la maladie...",shape=box,color=blue];
 		j2040261295 -> j1097243971;
 	j1097243971 [label="Alors, quand il a dit que la souche de Techrot avait muté... et que nous n'étions plus en sécurité...",shape=box,color=blue];
 		j1097243971 -> j3762366326;
-	j3762366326 [label="Nous nous sommes alignés 
-Comme de bons petits soldaditos",shape=box,color=blue];
+	j3762366326 [label="Nous nous sommes alignés \nComme de bons petits soldaditos",shape=box,color=blue];
 		j3762366326 -> j3176336667;
-	j3176336667 [label="Par Lua, ça faisait mal 
-Ce n'était pas amusant du tout... 
-Les cris d'Aoi étaient les pires 
-Je ne pouvais pas l'aider, j'étais trop occupée à mourir, moi aussi 
-Elle pleurait de peur et tout ce que je voulais faire, c'était la tenir dans mes bras",shape=box,color=blue];
+	j3176336667 [label="Par Lua, ça faisait mal \nCe n'était pas amusant du tout... \nLes cris d'Aoi étaient les pires \nJe ne pouvais pas l'aider, j'étais trop occupée à mourir, moi aussi \nElle pleurait de peur et tout ce que je voulais faire, c'était la tenir dans mes bras",shape=box,color=blue];
 		j3176336667 -> j1301079219;
-	j1301079219 [label="Lui dire que tout irait bien 
-Que la douleur passerait et que La Flaca la ramènerait à la maison 
-Elle avait tellement peur et je ne pouvais pas l'aider 
-Mes jambes ne fonctionnaient plus...",shape=box,color=blue];
+	j1301079219 [label="Lui dire que tout irait bien \nQue la douleur passerait et que La Flaca la ramènerait à la maison \nElle avait tellement peur et je ne pouvais pas l'aider \nMes jambes ne fonctionnaient plus...",shape=box,color=blue];
 		j1301079219 -> j1109717935;
-	j1109717935 [label="Et je détesterai cette grosse merde 
-Chaque jour de ma vie éternelle
-Pour cette trahison",shape=box,color=blue];
+	j1109717935 [label="Et je détesterai cette grosse merde \nChaque jour de ma vie éternelle\nPour cette trahison",shape=box,color=blue];
 		j1109717935 -> j2387197497;
-	j2387197497 [label="Et si jamais je le recroise? 
-Tu ferais mieux d'être là pour me retenir 
-Ou je lui apprendrai à quoi ressemble la vraie douleur",shape=box,color=blue];
+	j2387197497 [label="Et si jamais je le recroise? \nTu ferais mieux d'être là pour me retenir \nOu je lui apprendrai à quoi ressemble la vraie douleur",shape=box,color=blue];
 		j2387197497 -> j951399619;
 		j2387197497 -> j723701323;
 		j2387197497 -> j701090559;
@@ -181,29 +99,15 @@ Ou je lui apprendrai à quoi ressemble la vraie douleur",shape=box,color=blue];
 		j701090559 -> j822854362;
 	j493319906 [label="Pardon, j'ai fermé les yeux pendant une seconde. Qu'est-ce que tu disais?",shape=box,color=red];
 		j493319906 -> j2548450594;
-	j3184886533 [label="Regarde-toi 
-\"Je vous salue, Saint Babas 
-Pardonnez nos péchés\"
-Non 
-Certaines choses ne peuvent pas être pardonnées 
-Ce qu'il nous a fait en fait partie
-Ce que nous avons fait aux habitants de cette ville aussi",shape=box,color=blue];
+	j3184886533 [label="Regarde-toi \n\"Je vous salue, Saint Babas \nPardonnez nos péchés\"\nNon \nCertaines choses ne peuvent pas être pardonnées \nCe qu'il nous a fait en fait partie\nCe que nous avons fait aux habitants de cette ville aussi",shape=box,color=blue];
 		j3184886533 -> j1329547901;
 		j3184886533 -> j2029697834;
 		j3184886533 -> j1828515940;
-	j3654230163 [label="Sí 
-Je ne gère pas bien la trahison 
-Mais nous avons voulu le croire et cela nous a aveuglés
-Si tu ne veux plus rester avec nous, je comprends
-Les autres comprendront aussi",shape=box,color=blue];
+	j3654230163 [label="Sí \nJe ne gère pas bien la trahison \nMais nous avons voulu le croire et cela nous a aveuglés\nSi tu ne veux plus rester avec nous, je comprends\nLes autres comprendront aussi",shape=box,color=blue];
 		j3654230163 -> j1329547901;
 		j3654230163 -> j2029697834;
 		j3654230163 -> j1828515940;
-	j822854362 [label="Sí 
-Nous l'étions 
-Mais nous voulions le croire et cela nous a aveuglés
-Si tu ne veux plus rester avec nous, je comprends 
-Les autres comprendront aussi",shape=box,color=blue];
+	j822854362 [label="Sí \nNous l'étions \nMais nous voulions le croire et cela nous a aveuglés\nSi tu ne veux plus rester avec nous, je comprends \nLes autres comprendront aussi",shape=box,color=blue];
 		j822854362 -> j1329547901;
 		j822854362 -> j2029697834;
 		j822854362 -> j1828515940;
@@ -237,22 +141,11 @@ Les autres comprendront aussi",shape=box,color=blue];
 		j44039935 -> j3020765641 [label=false,color=brown];
 	j2859315233 [label="Et je ne pense pas qu'une personne raisonnable puisse demander beaucoup plus que cela. Je n'ai pas une moins bonne opinion de vous. Je vois des gens qui ont échoué. Mais qui étaient prêts à réessayer. Et je sais ce que c'est. Crois-moi.",shape=box,color=red];
 		j2859315233 -> j1927512488;
-	j936450196 [label="¿Sí? 
-Ay... alors nous sommes tous les deux des idiots jajaja 
-Peut-être que ta place EST ici avec nous 
-Soupir 
-J'ai mal aux pieds 
-Mierda, j'ai mal partout",shape=box,color=blue];
+	j936450196 [label="¿Sí? \nAy... alors nous sommes tous les deux des idiots jajaja \nPeut-être que ta place EST ici avec nous \nSoupir \nJ'ai mal aux pieds \nMierda, j'ai mal partout",shape=box,color=blue];
 		j936450196 -> j1927512488;
-	j832920469 [label="Sí 
-Tu as raison 
-Nous avons fait des erreurs 
-Et j'en ai fait une autre en pensant que ÇA pouvait marcher entre nous",shape=box,color=blue];
+	j832920469 [label="Sí \nTu as raison \nNous avons fait des erreurs \nEt j'en ai fait une autre en pensant que ÇA pouvait marcher entre nous",shape=box,color=blue];
 		j832920469 -> j2548450594;
-	j3020765641 [label="Sí 
-Tu as raison 
-Nous avons fait des erreurs 
-Et j'en ai fait une autre en pensant que je pouvais te faire confiance avec cette histoire",shape=box,color=blue];
+	j3020765641 [label="Sí \nTu as raison \nNous avons fait des erreurs \nEt j'en ai fait une autre en pensant que je pouvais te faire confiance avec cette histoire",shape=box,color=blue];
 		j3020765641 -> j193369797;
 	j1927512488 [label="Check boolean LettieDating",color=orange];
 		j1927512488 -> j1895244212 [label=true,color=green];
@@ -265,15 +158,9 @@ Et j'en ai fait une autre en pensant que je pouvais te faire confiance avec cett
 		j3900251592 -> j4160553454;
 	j2643525984 [label="Boolean LettieTrust1 is now true.",color=orange];
 		j2643525984 -> "Chat ends.";
-	j1664851380 [label="Ça suffit pour aujourd'hui, solecito 
-Gracias
-Merci de m'avoir écoutée et... 
-De ne pas nous avoir rejetés",shape=box,color=blue];
+	j1664851380 [label="Ça suffit pour aujourd'hui, solecito \nGracias\nMerci de m'avoir écoutée et... \nDe ne pas nous avoir rejetés",shape=box,color=blue];
 		j1664851380 -> j2643525984;
-	j4160553454 [label="Ça suffit pour aujourd'hui, camarade
-Gracias
-Merci de m'avoir écoutée et... 
-De ne pas nous avoir rejetés",shape=box,color=blue];
+	j4160553454 [label="Ça suffit pour aujourd'hui, camarade\nGracias\nMerci de m'avoir écoutée et... \nDe ne pas nous avoir rejetés",shape=box,color=blue];
 		j4160553454 -> j4291310321;
 	j4291310321 [label="Boolean LettieTrust1 is now true.",color=orange];
 		j4291310321 -> j2129367046;

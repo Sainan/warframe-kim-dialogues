@@ -8,11 +8,7 @@ digraph {
 		j1206813117 -> j257280271;
 	j3575988073 [label="嗯……你沒收到花生醬嗎……？",shape=box,color=red];
 		j3575988073 -> j257280271;
-	j257280271 [label="我該怎麼做
-500 箱番茄醬包
-（西語）告訴那個小子快來這裡！
-讓他親自來處理
-現在！！",shape=box,color=blue];
+	j257280271 [label="我該怎麼做\n500 箱番茄醬包\n（西語）告訴那個小子快來這裡！\n讓他親自來處理\n現在！！",shape=box,color=blue];
 		j257280271 -> j195232646;
 		j257280271 -> j1863712740;
 	j195232646 [label="嘿，這都是個誤會。阿米爾是想給你的老鼠送花生醬的。",shape=box,color=red];
@@ -21,20 +17,15 @@ digraph {
 		j1863712740 -> j2765865641;
 	j2002995171 [label="但是一切都搞砸了，我會幫他處理的。",shape=box,color=red];
 		j2002995171 -> j1388850323;
-	j2765865641 [label="我不管
-（西語）把它拿走！！
-現在！！",shape=box,color=blue];
+	j2765865641 [label="我不管\n（西語）把它拿走！！\n現在！！",shape=box,color=blue];
 		j2765865641 -> "Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue";
 	j1388850323 [label="+20 Chemistry",color=orange];
 		j1388850323 -> j560282403;
 	"Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue" [label="Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue",color=orange];
 		"Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue" -> "Chat ends.";
-	j560282403 [label="是嗎？
-是給我的小可愛們的嗎？",shape=box,color=blue];
+	j560282403 [label="是嗎？\n是給我的小可愛們的嗎？",shape=box,color=blue];
 		j560282403 -> j2704016598;
 	"Chat ends." [color=orange];
-	j2704016598 [label="（西語）唉，算了！
-把這一切都拿走吧
-現在！！",shape=box,color=blue];
+	j2704016598 [label="（西語）唉，算了！\n把這一切都拿走吧\n現在！！",shape=box,color=blue];
 		j2704016598 -> "Initiate conversation AmirHack3 in /Lotus/Types/Gameplay/1999Wf/Dialogue/JabirDialogue_rom.dialogue";
 }
