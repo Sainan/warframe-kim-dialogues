@@ -145,6 +145,10 @@ local function emit_dot(filename, start)
 
 	local fh <close> = io.open(filename, "w")
 	fh:write("digraph {\n")
+	fh:write("\tgraph [fontname=\"Roboto Condensed\"];\n")
+	fh:write("\tnode [fontname=\"Roboto Condensed\"];\n")
+	fh:write("\tedge [fontname=\"Roboto Condensed\"];\n")
+	fh:write("\n")
 	local function write_node_name(node)
 		fh:write(get_node_name(node))
 	end
@@ -261,6 +265,8 @@ for DIAG_NAMES as diag_name do
 	diags[diag_name] = json.decode(io.contents("data/"..diag_name..".json"), json.withorder)
 end
 
+local font_b64 = require"base64".encode(io.contents("Roboto-Condensed-Regular.woff2"))
+
 io.makedir("flowcharts")
 io.makedir("flowcharts_dot")
 io.makedir("flowcharts_svg")
@@ -290,7 +296,12 @@ for { "en", "de", "es", "fr", "it", "ja", "ko", "pl", "pt", "ru", "tc", "th", "t
 					if lang == "en" then
 						os.execute("dot flowcharts_dot/"..lang.."/"..diag_name.."/"..node.Content..".dot -T png -o flowcharts/"..diag_name.."/"..node.Content..".png")
 					end
-					os.execute("dot flowcharts_dot/"..lang.."/"..diag_name.."/"..node.Content..".dot -T svg -o flowcharts_svg/"..lang.."/"..diag_name.."/"..node.Content..".svg")
+					do
+						os.execute("dot flowcharts_dot/"..lang.."/"..diag_name.."/"..node.Content..".dot -T svg -o flowcharts_svg/"..lang.."/"..diag_name.."/"..node.Content..".svg")
+						local svg = io.contents("flowcharts_svg/"..lang.."/"..diag_name.."/"..node.Content..".svg")
+						svg = svg:replace([[<g id="graph0"]], [[<style>@font-face { font-family: 'Roboto Condensed'; src: url('data:font/woff;base64,]]..font_b64..[[') format('woff2'); }</style><g id="graph0"]])
+						io.contents("flowcharts_svg/"..lang.."/"..diag_name.."/"..node.Content..".svg", svg)
+					end
 				end
 			end
 		end
