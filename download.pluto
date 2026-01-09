@@ -1,0 +1,35 @@
+local ALL_DIALOGUES <const> = {
+	"AoiDialogue_rom.dialogue",
+	"ArthurDialogue_rom.dialogue",
+	"EleanorDialogue_rom.dialogue",
+	"FlareDialogue_rom.dialogue",
+	"HexDialogue_rom.dialogue",
+	"JabirDialogue_rom.dialogue",
+	"KayaDialogue_rom.dialogue",
+	"LettieDialogue_rom.dialogue",
+	"LoidDialogue_rom.dialogue",
+	"LyonDialogue_rom.dialogue",
+	"MarieDialogue_rom.dialogue",
+	"MinervaDialogue_rom.dialogue",
+	"MinervaVelemirDialogue_rom.dialogue",
+	"QuincyDialogue_rom.dialogue",
+	"RoatheDialogue_rom.dialogue",
+	"VelimirDialogue_rom.dialogue",
+}
+ALL_DIALOGUES:map(|x| -> "/Lotus/Types/Gameplay/1999Wf/Dialogue/" .. x)
+
+dofile("../warframe-cache-tools/lib/cachelib.pluto")
+
+download_file("/H.Cache.bin", TYPE_MANIFEST)
+
+local meta_manifest = new CacheManifest("/H.Cache.bin")
+print("Cache manifest hash: "..b64m_encode(meta_manifest:getHash("/B.Cache.Windows.bin")))
+
+meta_manifest:downloadFile("/B.Cache.Windows.bin", TYPE_MANIFEST)
+local manifest = new CacheManifest("/B.Cache.Windows.bin")
+
+for ALL_DIALOGUES as dialogue do
+	manifest:downloadFile(dialogue, TYPE_DIALOGUE)
+	io.copy("../warframe-cache-tools/data/0" .. dialogue .. "_H", "Extracted/Debug" .. dialogue .. "_H")
+	io.copy("../warframe-cache-tools/data/0" .. dialogue .. "_B", "Extracted/Debug" .. dialogue .. "_B")
+end
