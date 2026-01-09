@@ -4,16 +4,16 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"RoatheStory15 begins." [color=orange];
-		"RoatheStory15 begins." -> j603731498;
-	j603731498 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions(dialogueType=/Lotus/Types/Gameplay/1999Wf/Dialogue/RoatheDialogue_rom.dialogue, rank=3, count=8, storyCount=15)",color=orange];
-		j603731498 -> j920303342 [label=true,color=green];
-		j603731498 -> "Chat ends." [label=false,color=brown];
+		"RoatheStory15 begins." -> j838373956;
+	j838373956 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions(dialogueType=/Lotus/Types/Gameplay/1999Wf/Dialogue/RoatheDialogue_rom.dialogue, rank=4, count=8, storyCount=15)",color=orange];
+		j838373956 -> j920303342 [label=true,color=green];
+		j838373956 -> "Chat ends." [label=false,color=brown];
 	j920303342 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j920303342 -> j1841346135 [label="x >= 15",color=purple];
+		j920303342 -> j3942083687 [label="x >= 15",color=purple];
 		j920303342 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j1841346135 [label="VM: LIES",shape=box,color=blue];
-		j1841346135 -> j907822717;
+	j3942083687 [label="ข้อความเสียง: โกหก",shape=box,color=blue];
+		j3942083687 -> j907822717;
 	j907822717 [label="บันทึก: ข้าเชี่ยวชาญอาวุธหลายประเภท แต่มีอาวุธอย่างหนึ่งที่ถนัดที่สุด นั่นคือคำโกหก",shape=box,color=blue];
 		j907822717 -> j2827149605;
 	j2827149605 [label="ข้ามักจะใช้มันโจมตีกองกำลังของข้าเอง ข้าฟาดทุกคนในกองจนแหลกละเอียดด้วยคำโกหกเกี่ยวกับหน้าที่และวินัย",shape=box,color=blue];

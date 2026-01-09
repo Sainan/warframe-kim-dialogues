@@ -45,7 +45,7 @@ digraph {
 		j1761377285 -> j1714272486;
 	"Chat ends." [color=orange];
 	j4019498706 [label="Byłeś takim dobrym przyjacielem. Sojusznikiem, o jakim nie mogłabym marzyć. ",shape=box,color=blue];
-		j4019498706 -> j1550207412;
+		j4019498706 -> j3352154434;
 	j3727875287 [label="Oui, a myślę, że takiego go wolisz, non ? Ha ! Nie chcę myśleć o diable w ten sposób ! Nie o tym chciałam porozmawiać.",shape=box,color=blue];
 		j3727875287 -> j3470333215;
 	j1864957210 [label="Evaluate expressions",color=orange];
@@ -59,10 +59,11 @@ digraph {
 		j3207011602 -> j1471879296;
 	j1714272486 [label="Zastanawiałam się nad tym, ile dla mnie znaczysz. Jak twoja obecność odmieniła mnie i bieg mojego życia.",shape=box,color=blue];
 		j1714272486 -> j518451570;
-	j1550207412 [label="Evaluate expressions",color=orange];
-		j1550207412 -> j1553742228 [label="LyonFaith3Yes",color=purple];
-		j1550207412 -> j2108910938 [label="LyonFaith3No",color=purple];
-		j1550207412 -> j4256125281 [label="LyonFaith3Maybe",color=purple];
+	j3352154434 [label="Evaluate expressions",color=orange];
+		j3352154434 -> j1553742228 [label="LyonFaith3Yes",color=purple];
+		j3352154434 -> j2108910938 [label="LyonFaith3No",color=purple];
+		j3352154434 -> j4256125281 [label="LyonFaith3Maybe",color=purple];
+		j3352154434 -> j4256125281 [label="false",color=purple];
 	j3470333215 [label="Evaluate expressions",color=orange];
 		j3470333215 -> j2252103499 [label="LoidFamilyComplete",color=purple];
 		j3470333215 -> j1840461001 [label="RoatheRedeemed",color=purple];

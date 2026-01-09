@@ -4,13 +4,14 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"MarieRoatheFail begins." [color=orange];
-		"MarieRoatheFail begins." -> j3770407335;
-	j3770407335 [label="Evaluate expressions",color=orange];
-		j3770407335 -> j2949949877 [label="RoatheFail",color=purple];
-		j3770407335 -> j17348121 [label="RoatheFail",color=purple];
-		j3770407335 -> j2949949877 [label="RoatheFailStall",color=purple];
-		j3770407335 -> j17348121 [label="RoatheFailStall",color=purple];
-		j3770407335 -> "Chat ends." [label="false",color=purple];
+		"MarieRoatheFail begins." -> j3510390106;
+	j3510390106 [label="Evaluate expressions",color=orange];
+		j3510390106 -> j2949949877 [label="RoatheFail",color=purple];
+		j3510390106 -> j17348121 [label="RoatheFail",color=purple];
+		j3510390106 -> j2949949877 [label="RoatheFailStall",color=purple];
+		j3510390106 -> j17348121 [label="RoatheFailStall",color=purple];
+		j3510390106 -> j2949949877 [label="RoatheRepair1",color=purple];
+		j3510390106 -> "Chat ends." [label="false",color=purple];
 	j2949949877 [label="Marie, você tem um minutinho?",shape=box,color=red];
 		j2949949877 -> j125017648;
 	j17348121 [label="[Encerrar Conversa]",shape=box,color=red];

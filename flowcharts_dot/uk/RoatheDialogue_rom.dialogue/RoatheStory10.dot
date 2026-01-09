@@ -4,18 +4,18 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"RoatheStory10 begins." [color=orange];
-		"RoatheStory10 begins." -> j3919237296;
-	j3919237296 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions(dialogueType=/Lotus/Types/Gameplay/1999Wf/Dialogue/RoatheDialogue_rom.dialogue, rank=2, count=5, storyCount=10)",color=orange];
-		j3919237296 -> j2518112118 [label=true,color=green];
-		j3919237296 -> "Chat ends." [label=false,color=brown];
+		"RoatheStory10 begins." -> j3447086244;
+	j3447086244 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions(dialogueType=/Lotus/Types/Gameplay/1999Wf/Dialogue/RoatheDialogue_rom.dialogue, rank=3, count=5, storyCount=10)",color=orange];
+		j3447086244 -> j2518112118 [label=true,color=green];
+		j3447086244 -> "Chat ends." [label=false,color=brown];
 	j2518112118 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j2518112118 -> j2699114140 [label="x >= 10",color=purple];
+		j2518112118 -> j4026484555 [label="x >= 10",color=purple];
 		j2518112118 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j2699114140 [label="ПОКАРАННЯ",shape=box,color=blue];
-		j2699114140 -> j955065931;
-	j955065931 [label="Витяг: Першим План запропонував ще задовго до війни Скарн — інтелектуальний, дратівливий і в’їдливий. «Ми повинні покинути гніздо, бо воно палає вогнем».",shape=box,color=blue];
-		j955065931 -> j472118177;
+	j4026484555 [label="ПОКАРАННЯ",shape=box,color=blue];
+		j4026484555 -> j3762937298;
+	j3762937298 [label="Витяг: Ще задовго до війни План запропонував Скарн — інтелектуальний, дратівливий і в’їдливий. «Ми повинні покинути гніздо, бо воно палає вогнем».",shape=box,color=blue];
+		j3762937298 -> j472118177;
 	j472118177 [label="Займаючись надмірним використанням та бездумними експериментами, ми занапастили систему до точки неповернення, без надії на відновлення.",shape=box,color=blue];
 		j472118177 -> j3696346697;
 	j3696346697 [label="Пошук нових обріїв став для нас єдиною надією. ",shape=box,color=blue];

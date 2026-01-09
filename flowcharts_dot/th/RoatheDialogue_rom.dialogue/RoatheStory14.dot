@@ -4,16 +4,16 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"RoatheStory14 begins." [color=orange];
-		"RoatheStory14 begins." -> j462375107;
-	j462375107 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions(dialogueType=/Lotus/Types/Gameplay/1999Wf/Dialogue/RoatheDialogue_rom.dialogue, rank=3, count=7, storyCount=14)",color=orange];
-		j462375107 -> j840415431 [label=true,color=green];
-		j462375107 -> "Chat ends." [label=false,color=brown];
+		"RoatheStory14 begins." -> j3362876041;
+	j3362876041 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions(dialogueType=/Lotus/Types/Gameplay/1999Wf/Dialogue/RoatheDialogue_rom.dialogue, rank=4, count=7, storyCount=14)",color=orange];
+		j3362876041 -> j840415431 [label=true,color=green];
+		j3362876041 -> "Chat ends." [label=false,color=brown];
 	j840415431 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j840415431 -> j835546464 [label="x >= 14",color=purple];
+		j840415431 -> j3691785144 [label="x >= 14",color=purple];
 		j840415431 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j835546464 [label="VM: ADAPTATION",shape=box,color=blue];
-		j835546464 -> j1645590908;
+	j3691785144 [label="ข้อความเสียง: การปรับตัว",shape=box,color=blue];
+		j3691785144 -> j1645590908;
 	j1645590908 [label="บันทึก: ระหว่างที่เผชิญหน้ากันพวก Sentient จำนวนมากมีวิวัฒนาการ ดังนั้นเราไม่มีทางแน่ใจได้เลยว่าจะได้เผชิญหน้ากับศัตรูเดิมซ้ำสองครั้ง แต่บางตัวก็ยังคงสภาพเดิม ราวกับว่าเคยไปถึงจุดสูงสุดเมื่อนานมาแล้ว",shape=box,color=blue];
 		j1645590908 -> j454390186;
 	j454390186 [label="เป็นนักฆ่าที่สมบูรณ์แบบ พวกมันเย็นชาอย่างน่ากลัวเช่นเดียวกับฉลาม",shape=box,color=blue];

@@ -13386,11 +13386,11 @@
         ],
         "Script": {
             "Script": "/Lotus/Scripts/1999/DialogueScriptNodes.lua",
-            "Function": "IsSyndicateRank",
+            "Function": "CheckDuviriMitwCollectibles",
             "_counter": 0,
             "_collectibleType": "",
-            "_syndicate": "EntratiSyndicate",
-            "_syndicateRank": 5,
+            "_syndicate": "",
+            "_syndicateRank": 0,
             "_dialogueType": "",
             "_rank": 0,
             "_count": 0,
@@ -20053,15 +20053,14 @@
             1277
         ],
         "Outgoing": [
-            1281,
-            1283,
             3947,
-            1282,
-            1280
+            1281,
+            1280,
+            1282
         ],
         "GraphPos": [
-            475,
-            21685
+            485,
+            21704
         ]
     },
     {
@@ -20089,9 +20088,9 @@
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Choice_MarieRank3Convo5_978",
         "Incoming": [
             1279,
-            1278,
             4002,
-            4003
+            4003,
+            1278
         ],
         "Outgoing": [
             1284
@@ -20107,9 +20106,9 @@
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Choice_MarieRank3Convo5_979",
         "Incoming": [
             1279,
-            1278,
             4002,
-            4003
+            4003,
+            1278
         ],
         "Outgoing": [
             1285
@@ -20125,16 +20124,16 @@
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Choice_MarieRank3Convo5_980",
         "Incoming": [
             1279,
-            1278,
             4002,
-            4003
+            4003,
+            1278
         ],
         "Outgoing": [
             1286
         ],
         "GraphPos": [
-            3229,
-            22596
+            3268,
+            22592
         ]
     },
     {
@@ -20143,16 +20142,14 @@
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Choice_MarieRank3Convo5_981",
         "Incoming": [
             1279,
-            1278,
-            4002,
-            4003
+            4002
         ],
         "Outgoing": [
             1287
         ],
         "GraphPos": [
-            3239,
-            21842
+            3253,
+            21855
         ]
     },
     {
@@ -43561,8 +43558,8 @@
             2747
         ],
         "GraphPos": [
-            14382,
-            53944
+            14384,
+            54147
         ]
     },
     {
@@ -46927,8 +46924,8 @@
             3999
         ],
         "GraphPos": [
-            369,
-            60834
+            637,
+            60917
         ]
     },
     {
@@ -47130,8 +47127,8 @@
             2968
         ],
         "GraphPos": [
-            2370,
-            60534
+            2380,
+            60462
         ]
     },
     {
@@ -49872,10 +49869,10 @@
             63212
         ],
         "TrueNodes": [
-            3136
+            3135
         ],
         "FalseNodes": [
-            3135
+            3136
         ]
     },
     {
@@ -49885,8 +49882,8 @@
             3134
         ],
         "GraphPos": [
-            -80,
-            63364
+            -20,
+            63121
         ]
     },
     {
@@ -51415,6 +51412,15 @@
                 "LogicalOperators": []
             },
             {
+                "Expression": "LyonConfession1",
+                "Outgoing": [
+                    4014
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
                 "Expression": "false",
                 "Outgoing": [
                     3232
@@ -51429,9 +51435,6 @@
         "type": "/EE/Types/Engine/DialogueNode",
         "Id": 3229,
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Marie_MarieRank5Convo7_2813",
-        "Incoming": [
-            3228
-        ],
         "Outgoing": [
             3233
         ],
@@ -51473,12 +51476,9 @@
     {
         "type": "/EE/Types/Engine/EndDialogueNode",
         "Id": 3232,
-        "Incoming": [
-            3228
-        ],
         "GraphPos": [
-            184,
-            65324
+            253,
+            65478
         ]
     },
     {
@@ -51493,7 +51493,8 @@
         "Outgoing": [
             3234,
             3235,
-            3236
+            3236,
+            4016
         ],
         "GraphPos": [
             904,
@@ -51505,14 +51506,15 @@
         "Id": 3234,
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Choice_MarieRank5Convo7_2817",
         "Incoming": [
-            3233
+            3233,
+            4015
         ],
         "Outgoing": [
             3237
         ],
         "GraphPos": [
-            1373,
-            65116
+            1353,
+            65191
         ]
     },
     {
@@ -51520,7 +51522,8 @@
         "Id": 3235,
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Choice_MarieRank5Convo7_2818",
         "Incoming": [
-            3233
+            3233,
+            4015
         ],
         "Outgoing": [
             3238
@@ -51555,8 +51558,8 @@
             3240
         ],
         "GraphPos": [
-            1650,
-            65116
+            1657,
+            65190
         ],
         "ChemistryDelta": 5
     },
@@ -51601,8 +51604,8 @@
             3241
         ],
         "GraphPos": [
-            1974,
-            65116
+            1960,
+            65189
         ]
     },
     {
@@ -52703,7 +52706,9 @@
             },
             {
                 "Expression": "false",
-                "Outgoing": [],
+                "Outgoing": [
+                    3311
+                ],
                 "Values": [],
                 "CompareOperators": [],
                 "LogicalOperators": []
@@ -59731,8 +59736,8 @@
             3742
         ],
         "GraphPos": [
-            -342,
-            66375
+            -534,
+            66373
         ],
         "Outputs": [
             {
@@ -59756,6 +59761,15 @@
                 "LogicalOperators": []
             },
             {
+                "Expression": "RoatheRepair1",
+                "Outgoing": [
+                    3745
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
                 "Expression": "false",
                 "Outgoing": [
                     3744
@@ -59773,8 +59787,8 @@
             3743
         ],
         "GraphPos": [
-            74,
-            66546
+            236,
+            66604
         ]
     },
     {
@@ -60126,13 +60140,11 @@
         "Id": 3767,
         "Content": "MarieRank5Convo8",
         "Outgoing": [
-            3770,
-            3768,
-            3769
+            4004
         ],
         "GraphPos": [
-            -834,
-            67722
+            -1357,
+            67718
         ]
     },
     {
@@ -60140,7 +60152,7 @@
         "Id": 3768,
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Choice_MarieRank5Convo8_3195",
         "Incoming": [
-            3767
+            4004
         ],
         "Outgoing": [
             3771
@@ -60155,7 +60167,7 @@
         "Id": 3769,
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Choice_MarieRank5Convo8_3196",
         "Incoming": [
-            3767
+            4004
         ],
         "Outgoing": [
             3772
@@ -60170,7 +60182,7 @@
         "Id": 3770,
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Choice_MarieRank5Convo8_3197",
         "Incoming": [
-            3767
+            4004
         ],
         "Outgoing": [
             3773
@@ -60454,7 +60466,7 @@
             3789
         ],
         "GraphPos": [
-            1377,
+            1313,
             67430
         ]
     },
@@ -60933,7 +60945,7 @@
                 "LogicalOperators": []
             },
             {
-                "Expression": "MarieFamilyFail",
+                "Expression": "RoatheRepair2, MarieFamilyFail",
                 "Outgoing": [
                     3818
                 ],
@@ -61454,7 +61466,7 @@
             3845
         ],
         "Outgoing": [
-            3852
+            4005
         ],
         "GraphPos": [
             3596,
@@ -61492,15 +61504,15 @@
         "Id": 3852,
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Marie_MarieRoatheRepair_3258",
         "Incoming": [
-            3849
+            4005
         ],
         "Outgoing": [
             3854,
             3855
         ],
         "GraphPos": [
-            4105,
-            68779
+            4812,
+            68782
         ]
     },
     {
@@ -61529,8 +61541,8 @@
             3857
         ],
         "GraphPos": [
-            4582,
-            68779
+            5289,
+            68782
         ]
     },
     {
@@ -61544,8 +61556,8 @@
             3858
         ],
         "GraphPos": [
-            4582,
-            68927
+            5289,
+            68930
         ]
     },
     {
@@ -61575,8 +61587,8 @@
             3861
         ],
         "GraphPos": [
-            5066,
-            68779
+            5773,
+            68782
         ]
     },
     {
@@ -61591,8 +61603,8 @@
             3860
         ],
         "GraphPos": [
-            5066,
-            68927
+            5773,
+            68930
         ]
     },
     {
@@ -61618,8 +61630,8 @@
             3862
         ],
         "GraphPos": [
-            5550,
-            68779
+            6257,
+            68782
         ]
     },
     {
@@ -61634,8 +61646,8 @@
             3863
         ],
         "GraphPos": [
-            5550,
-            68927
+            6257,
+            68930
         ]
     },
     {
@@ -61649,8 +61661,8 @@
             3864
         ],
         "GraphPos": [
-            6000,
-            68779
+            6707,
+            68782
         ]
     },
     {
@@ -61664,8 +61676,8 @@
             3865
         ],
         "GraphPos": [
-            6028,
-            68927
+            6735,
+            68930
         ]
     },
     {
@@ -61679,8 +61691,8 @@
             3866
         ],
         "GraphPos": [
-            6427,
-            68779
+            7134,
+            68782
         ]
     },
     {
@@ -61690,8 +61702,8 @@
             3863
         ],
         "GraphPos": [
-            6337,
-            68927
+            7044,
+            68930
         ]
     },
     {
@@ -61705,8 +61717,8 @@
             3867
         ],
         "GraphPos": [
-            6799,
-            68779
+            7506,
+            68782
         ]
     },
     {
@@ -61720,8 +61732,8 @@
             3868
         ],
         "GraphPos": [
-            7179,
-            68779
+            7886,
+            68782
         ]
     },
     {
@@ -61735,8 +61747,8 @@
             3869
         ],
         "GraphPos": [
-            7559,
-            68779
+            8266,
+            68782
         ]
     },
     {
@@ -61750,8 +61762,8 @@
             3870
         ],
         "GraphPos": [
-            7918,
-            68779
+            8625,
+            68782
         ]
     },
     {
@@ -61761,8 +61773,8 @@
             3869
         ],
         "GraphPos": [
-            8159,
-            68779
+            8866,
+            68782
         ]
     },
     {
@@ -63759,8 +63771,8 @@
             3271
         ],
         "GraphPos": [
-            36,
-            60832
+            277,
+            60856
         ],
         "TrueNodes": [
             2954
@@ -63819,8 +63831,8 @@
             1282
         ],
         "GraphPos": [
-            2536,
-            21077
+            2541,
+            20914
         ]
     },
     {
@@ -63833,12 +63845,286 @@
         "Outgoing": [
             1281,
             1280,
-            1283,
             1282
         ],
         "GraphPos": [
-            2540,
-            21214
+            2529,
+            21220
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
+        "Id": 4004,
+        "Incoming": [
+            3767
+        ],
+        "GraphPos": [
+            -994,
+            67717
+        ],
+        "Outputs": [
+            {
+                "Expression": "RoatheDating",
+                "Outgoing": [
+                    3770,
+                    3769
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "MarieDating",
+                "Outgoing": [
+                    3770,
+                    3769
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "LyonDating",
+                "Outgoing": [
+                    3770,
+                    3769
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [
+                    3770,
+                    3768,
+                    3769
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
+        "Id": 4005,
+        "Incoming": [
+            3849
+        ],
+        "GraphPos": [
+            3970,
+            68779
+        ],
+        "Outputs": [
+            {
+                "Expression": "RoatheDating",
+                "Outgoing": [
+                    4008
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "LyonDating",
+                "Outgoing": [
+                    4007
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "MarieDating",
+                "Outgoing": [
+                    4006
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [
+                    3852
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 4006,
+        "Incoming": [
+            4005
+        ],
+        "GraphPos": [
+            4414,
+            68948
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 4007,
+        "Content": "/Lotus/Language/1999Texting/MarieRomance/Marie_MarieRoatheRepair_3350",
+        "Incoming": [
+            4005
+        ],
+        "Outgoing": [
+            4009
+        ],
+        "GraphPos": [
+            4480,
+            68638
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 4008,
+        "Content": "/Lotus/Language/1999Texting/MarieRomance/Marie_MarieRoatheRepair_3351",
+        "Incoming": [
+            4005
+        ],
+        "Outgoing": [
+            4009
+        ],
+        "GraphPos": [
+            4478,
+            68497
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 4009,
+        "Content": "/Lotus/Language/1999Texting/MarieRomance/Marie_MarieRoatheRepair_3352",
+        "Incoming": [
+            4007,
+            4008
+        ],
+        "Outgoing": [
+            4010
+        ],
+        "GraphPos": [
+            5019,
+            68538
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 4010,
+        "Content": "/Lotus/Language/1999Texting/MarieRomance/Marie_MarieRoatheRepair_3353",
+        "Incoming": [
+            4009
+        ],
+        "Outgoing": [
+            4013
+        ],
+        "GraphPos": [
+            5366,
+            68538
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 4011,
+        "Incoming": [
+            4012
+        ],
+        "GraphPos": [
+            6407,
+            68536
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 4012,
+        "Content": "MarieNoDate",
+        "Incoming": [
+            4013
+        ],
+        "Outgoing": [
+            4011
+        ],
+        "GraphPos": [
+            6075,
+            68536
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 4013,
+        "Content": "MarieWillDate",
+        "Incoming": [
+            4010
+        ],
+        "Outgoing": [
+            4012
+        ],
+        "GraphPos": [
+            5716,
+            68536
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 4014,
+        "Content": "/Lotus/Language/1999Texting/MarieRomance/Marie_MarieRank5Convo7_3354",
+        "Incoming": [
+            3228
+        ],
+        "Outgoing": [
+            4015
+        ],
+        "GraphPos": [
+            437,
+            65318
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 4015,
+        "Content": "/Lotus/Language/1999Texting/MarieRomance/Marie_MarieRank5Convo7_3355",
+        "Incoming": [
+            4014
+        ],
+        "Outgoing": [
+            3235,
+            3234,
+            4016
+        ],
+        "GraphPos": [
+            799,
+            65307
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 4016,
+        "Content": "/Lotus/Language/1999Texting/MarieRomance/Choice_MarieRank5Convo7_3356",
+        "Incoming": [
+            4015,
+            3233
+        ],
+        "Outgoing": [
+            4017
+        ],
+        "GraphPos": [
+            1359,
+            65365
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 4017,
+        "Incoming": [
+            4016
+        ],
+        "GraphPos": [
+            1683,
+            65364
         ]
     }
 ]

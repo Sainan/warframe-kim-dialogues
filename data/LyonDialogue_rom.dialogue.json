@@ -12492,6 +12492,9 @@
             782,
             797
         ],
+        "Outgoing": [
+            792
+        ],
         "GraphPos": [
             2073,
             17871
@@ -12557,6 +12560,9 @@
         "type": "/EE/Types/Engine/DialogueNode",
         "Id": 792,
         "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank4Convo2_590",
+        "Incoming": [
+            787
+        ],
         "Outgoing": [
             796
         ],
@@ -22852,7 +22858,7 @@
             1434
         ],
         "Outgoing": [
-            1444
+            2352
         ],
         "GraphPos": [
             20405,
@@ -22909,7 +22915,7 @@
         "Id": 1444,
         "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo1_1107",
         "Incoming": [
-            1440
+            2352
         ],
         "Outgoing": [
             1447
@@ -22988,8 +22994,8 @@
             1453
         ],
         "GraphPos": [
-            21365,
-            29973
+            21405,
+            29975
         ]
     },
     {
@@ -23271,7 +23277,8 @@
         "Id": 1468,
         "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo1_1125",
         "Incoming": [
-            1464
+            1464,
+            2361
         ],
         "Outgoing": [
             1471,
@@ -23317,7 +23324,8 @@
         "Id": 1471,
         "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank5Convo1_1127",
         "Incoming": [
-            1468
+            1468,
+            2359
         ],
         "Outgoing": [
             1474
@@ -23332,7 +23340,8 @@
         "Id": 1472,
         "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank5Convo1_1128",
         "Incoming": [
-            1468
+            1468,
+            2359
         ],
         "Outgoing": [
             1475
@@ -32413,7 +32422,7 @@
             2009
         ],
         "Outgoing": [
-            2022
+            2365
         ],
         "GraphPos": [
             4740,
@@ -32428,7 +32437,7 @@
             2010
         ],
         "Outgoing": [
-            2022
+            2365
         ],
         "GraphPos": [
             4740,
@@ -32487,15 +32496,14 @@
         "type": "/EE/Types/Engine/ChemistryDialogueNode",
         "Id": 2022,
         "Incoming": [
-            2017,
-            2018
+            2365
         ],
         "Outgoing": [
             2026
         ],
         "GraphPos": [
-            5057,
-            40946
+            5520,
+            40918
         ],
         "ChemistryDelta": 20
     },
@@ -32556,8 +32564,8 @@
             2029
         ],
         "GraphPos": [
-            5372,
-            40946
+            5835,
+            40918
         ]
     },
     {
@@ -32601,8 +32609,8 @@
             2032
         ],
         "GraphPos": [
-            5715,
-            40946
+            6178,
+            40918
         ]
     },
     {
@@ -32646,8 +32654,8 @@
             2035
         ],
         "GraphPos": [
-            6070,
-            40946
+            6533,
+            40918
         ]
     },
     {
@@ -32687,8 +32695,8 @@
             2037
         ],
         "GraphPos": [
-            6405,
-            40946
+            6868,
+            40918
         ]
     },
     {
@@ -32716,8 +32724,8 @@
             2035
         ],
         "GraphPos": [
-            6728,
-            40948
+            7191,
+            40920
         ]
     },
     {
@@ -35466,7 +35474,8 @@
             "_syndicateRank": 0,
             "_dialogueType": "",
             "_rank": 0,
-            "_count": 0
+            "_count": 0,
+            "_storyCount": 0
         }
     },
     {
@@ -36414,6 +36423,15 @@
                 "LogicalOperators": []
             },
             {
+                "Expression": "RoatheRepair1",
+                "Outgoing": [
+                    2273
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
                 "Expression": "false",
                 "Outgoing": [],
                 "Values": [],
@@ -36754,7 +36772,7 @@
                 "LogicalOperators": []
             },
             {
-                "Expression": "LyonFamilyFail",
+                "Expression": "RoatheRepair2, LyonFamilyFail",
                 "Outgoing": [
                     2292
                 ],
@@ -37287,7 +37305,7 @@
             2319
         ],
         "Outgoing": [
-            2328
+            2373
         ],
         "GraphPos": [
             3851,
@@ -37344,14 +37362,14 @@
         "Id": 2328,
         "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRoatheRepair_1776",
         "Incoming": [
-            2324
+            2373
         ],
         "Outgoing": [
             2331
         ],
         "GraphPos": [
-            4285,
-            46631
+            4768,
+            46625
         ]
     },
     {
@@ -37391,8 +37409,8 @@
             2333
         ],
         "GraphPos": [
-            4751,
-            46631
+            5234,
+            46625
         ]
     },
     {
@@ -37417,8 +37435,8 @@
             2334
         ],
         "GraphPos": [
-            5204,
-            46631
+            5687,
+            46625
         ]
     },
     {
@@ -37432,8 +37450,8 @@
             2335
         ],
         "GraphPos": [
-            5576,
-            46631
+            6059,
+            46625
         ]
     },
     {
@@ -37447,8 +37465,8 @@
             2336
         ],
         "GraphPos": [
-            5956,
-            46631
+            6439,
+            46625
         ]
     },
     {
@@ -37462,8 +37480,8 @@
             2337
         ],
         "GraphPos": [
-            6336,
-            46631
+            6819,
+            46625
         ]
     },
     {
@@ -37477,8 +37495,8 @@
             2338
         ],
         "GraphPos": [
-            6696,
-            46631
+            7179,
+            46625
         ]
     },
     {
@@ -37488,8 +37506,8 @@
             2337
         ],
         "GraphPos": [
-            7035,
-            46632
+            7518,
+            46626
         ]
     },
     {
@@ -37676,6 +37694,527 @@
         "GraphPos": [
             1670,
             34022
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
+        "Id": 2352,
+        "Incoming": [
+            1440
+        ],
+        "GraphPos": [
+            20647,
+            29677
+        ],
+        "Outputs": [
+            {
+                "Expression": "RoatheDating",
+                "Outgoing": [
+                    2355
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "MarieDating",
+                "Outgoing": [
+                    2356
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [
+                    1444
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2353,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo1_1783",
+        "Incoming": [
+            2355
+        ],
+        "Outgoing": [
+            2357
+        ],
+        "GraphPos": [
+            21436,
+            29650
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2354,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo1_1784",
+        "Incoming": [
+            2356
+        ],
+        "Outgoing": [
+            2360
+        ],
+        "GraphPos": [
+            21434,
+            29833
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "Id": 2355,
+        "Incoming": [
+            2352
+        ],
+        "Outgoing": [
+            2353
+        ],
+        "GraphPos": [
+            21073,
+            29714
+        ],
+        "ChemistryDelta": 5
+    },
+    {
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "Id": 2356,
+        "Incoming": [
+            2352
+        ],
+        "Outgoing": [
+            2354
+        ],
+        "GraphPos": [
+            21074,
+            29784
+        ],
+        "ChemistryDelta": 5
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2357,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo1_1785",
+        "Incoming": [
+            2353
+        ],
+        "Outgoing": [
+            2358
+        ],
+        "GraphPos": [
+            21796,
+            29647
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2358,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo1_1786",
+        "Incoming": [
+            2357
+        ],
+        "Outgoing": [
+            2359
+        ],
+        "GraphPos": [
+            22139,
+            29648
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2359,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo1_1787",
+        "Incoming": [
+            2358
+        ],
+        "Outgoing": [
+            1471,
+            1472
+        ],
+        "GraphPos": [
+            22530,
+            29649
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2360,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo1_1788",
+        "Incoming": [
+            2354
+        ],
+        "Outgoing": [
+            2361
+        ],
+        "GraphPos": [
+            21818,
+            29841
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2361,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo1_1789",
+        "Incoming": [
+            2360
+        ],
+        "Outgoing": [
+            1468
+        ],
+        "GraphPos": [
+            22146,
+            29837
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2362,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo7_1790",
+        "Incoming": [
+            2370
+        ],
+        "Outgoing": [
+            2369
+        ],
+        "GraphPos": [
+            6577,
+            41088
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "Id": 2363,
+        "Incoming": [
+            2365
+        ],
+        "Outgoing": [
+            2366
+        ],
+        "GraphPos": [
+            5511,
+            41154
+        ],
+        "ChemistryDelta": 5
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2364,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo7_1791",
+        "Incoming": [
+            2368
+        ],
+        "Outgoing": [
+            2369
+        ],
+        "GraphPos": [
+            6584,
+            41277
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
+        "Id": 2365,
+        "Incoming": [
+            2018,
+            2017
+        ],
+        "GraphPos": [
+            5085,
+            41117
+        ],
+        "Outputs": [
+            {
+                "Expression": "RoatheDating",
+                "Outgoing": [
+                    2363
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "MarieDating",
+                "Outgoing": [
+                    2371
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [
+                    2022
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2366,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo7_1792",
+        "Incoming": [
+            2363
+        ],
+        "Outgoing": [
+            2370
+        ],
+        "GraphPos": [
+            5874,
+            41090
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2367,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo7_1793",
+        "Incoming": [
+            2371
+        ],
+        "Outgoing": [
+            2368
+        ],
+        "GraphPos": [
+            5872,
+            41273
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2368,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo7_1794",
+        "Incoming": [
+            2367
+        ],
+        "Outgoing": [
+            2364
+        ],
+        "GraphPos": [
+            6256,
+            41281
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2369,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo7_1795",
+        "Incoming": [
+            2362,
+            2364
+        ],
+        "Outgoing": [
+            2372
+        ],
+        "GraphPos": [
+            6968,
+            41188
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2370,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank5Convo7_1796",
+        "Incoming": [
+            2366
+        ],
+        "Outgoing": [
+            2362
+        ],
+        "GraphPos": [
+            6234,
+            41087
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ChemistryDialogueNode",
+        "Id": 2371,
+        "Incoming": [
+            2365
+        ],
+        "Outgoing": [
+            2367
+        ],
+        "GraphPos": [
+            5512,
+            41224
+        ],
+        "ChemistryDelta": 5
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2372,
+        "Incoming": [
+            2369
+        ],
+        "GraphPos": [
+            7325,
+            41223
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
+        "Id": 2373,
+        "Incoming": [
+            2324
+        ],
+        "GraphPos": [
+            4197,
+            46631
+        ],
+        "Outputs": [
+            {
+                "Expression": "MarieDating",
+                "Outgoing": [
+                    2375
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "RoatheDating",
+                "Outgoing": [
+                    2374
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [
+                    2328
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2374,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRoatheRepair_1797",
+        "Incoming": [
+            2373
+        ],
+        "Outgoing": [
+            2377
+        ],
+        "GraphPos": [
+            4769,
+            46437
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2375,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRoatheRepair_1798",
+        "Incoming": [
+            2373
+        ],
+        "Outgoing": [
+            2376
+        ],
+        "GraphPos": [
+            4760,
+            46262
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2376,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRoatheRepair_1799",
+        "Incoming": [
+            2375
+        ],
+        "Outgoing": [
+            2380
+        ],
+        "GraphPos": [
+            5123,
+            46262
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2377,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRoatheRepair_1800",
+        "Incoming": [
+            2374
+        ],
+        "Outgoing": [
+            2378
+        ],
+        "GraphPos": [
+            5130,
+            46437
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2378,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRoatheRepair_1801",
+        "Incoming": [
+            2377
+        ],
+        "Outgoing": [
+            2379
+        ],
+        "GraphPos": [
+            5482,
+            46433
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2379,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRoatheRepair_1802",
+        "Incoming": [
+            2378,
+            2380
+        ],
+        "Outgoing": [
+            2381
+        ],
+        "GraphPos": [
+            5955,
+            46449
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2380,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRoatheRepair_1803",
+        "Incoming": [
+            2376
+        ],
+        "Outgoing": [
+            2379
+        ],
+        "GraphPos": [
+            5486,
+            46262
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2381,
+        "Incoming": [
+            2379
+        ],
+        "GraphPos": [
+            6284,
+            46446
         ]
     }
 ]

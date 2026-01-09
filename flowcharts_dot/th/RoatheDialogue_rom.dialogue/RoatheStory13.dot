@@ -9,11 +9,11 @@ digraph {
 		j4087490480 -> j1041466345 [label=true,color=green];
 		j4087490480 -> "Chat ends." [label=false,color=brown];
 	j1041466345 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j1041466345 -> j2163697211 [label="x >= 13",color=purple];
+		j1041466345 -> j2681394920 [label="x >= 13",color=purple];
 		j1041466345 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j2163697211 [label="VM: LOSS",shape=box,color=blue];
-		j2163697211 -> j2750242379;
+	j2681394920 [label="ข้อความเสียง: การสูญเสีย",shape=box,color=blue];
+		j2681394920 -> j2750242379;
 	j2750242379 [label="บันทึก: พวกที่สูญเสียนั้นไร้เหตุผล",shape=box,color=blue];
 		j2750242379 -> j1467719402;
 	j1467719402 [label="หลายคนปฏิเสธข้อมูลโดยตรง และมองว่ามันเป็นความผิดพลาด คำโกหก หรือแผนการสมคบคิดของ Cephalon",shape=box,color=blue];

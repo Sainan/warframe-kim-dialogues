@@ -51,11 +51,22 @@
                 {
                     "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotesRank3_1",
                     "UnlockConditions": [],
-                    "LockConditions": []
+                    "LockConditions": [
+                        "LyonIgnored"
+                    ]
                 },
                 {
                     "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotesRank3_2",
                     "UnlockConditions": [],
+                    "LockConditions": [
+                        "LyonIgnored"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_Anathema",
+                    "UnlockConditions": [
+                        "LyonIgnored"
+                    ],
                     "LockConditions": []
                 }
             ],
@@ -77,11 +88,22 @@
                 {
                     "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotesRank4_1",
                     "UnlockConditions": [],
-                    "LockConditions": []
+                    "LockConditions": [
+                        "LyonIgnored"
+                    ]
                 },
                 {
                     "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotesRank4_2",
                     "UnlockConditions": [],
+                    "LockConditions": [
+                        "LyonIgnored"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_Anathema",
+                    "UnlockConditions": [
+                        "LyonIgnored"
+                    ],
                     "LockConditions": []
                 }
             ],
@@ -97,7 +119,9 @@
                 {
                     "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotesRank5_1",
                     "UnlockConditions": [],
-                    "LockConditions": []
+                    "LockConditions": [
+                        "LyonIgnored"
+                    ]
                 },
                 {
                     "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_WillDate",
@@ -106,7 +130,8 @@
                     ],
                     "LockConditions": [
                         "LyonNoDate",
-                        "LyonDating"
+                        "LyonDating",
+                        "LyonIgnored"
                     ]
                 },
                 {
@@ -115,7 +140,8 @@
                         "LyonDating"
                     ],
                     "LockConditions": [
-                        "LyonNoDate"
+                        "LyonNoDate",
+                        "LyonIgnored"
                     ]
                 },
                 {
@@ -123,7 +149,9 @@
                     "UnlockConditions": [
                         "LyonNoDate"
                     ],
-                    "LockConditions": []
+                    "LockConditions": [
+                        "LyonIgnored"
+                    ]
                 },
                 {
                     "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_ConfessFail",
@@ -143,6 +171,15 @@
                     "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_FamilySuccess",
                     "UnlockConditions": [
                         "LyonFamilySuccess"
+                    ],
+                    "LockConditions": [
+                        "LyonIgnored"
+                    ]
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/LyonNotes_Anathema",
+                    "UnlockConditions": [
+                        "\"\""
                     ],
                     "LockConditions": []
                 }
@@ -184,7 +221,7 @@
                 }
             ],
             "RequiredChemistry": 105,
-            "RequiredMinimumDialogues": 15,
+            "RequiredMinimumDialogues": 14,
             "Conditions": [],
             "DialogueBin": 0
         },
@@ -213,7 +250,7 @@
                 }
             ],
             "RequiredChemistry": 105,
-            "RequiredMinimumDialogues": 15,
+            "RequiredMinimumDialogues": 14,
             "Conditions": [
                 {
                     "Booleans": [

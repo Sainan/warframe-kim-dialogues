@@ -9,11 +9,11 @@ digraph {
 		j1393324689 -> j1027897190 [label=true,color=green];
 		j1393324689 -> "Chat ends." [label=false,color=brown];
 	j1027897190 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j1027897190 -> j4262790425 [label="x >= 2",color=purple];
+		j1027897190 -> j693693124 [label="x >= 2",color=purple];
 		j1027897190 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j4262790425 [label="VM: CONNECTION",shape=box,color=blue];
-		j4262790425 -> j558997534;
+	j693693124 [label="ข้อความเสียง: การเชื่อมต่อ",shape=box,color=blue];
+		j693693124 -> j558997534;
 	j558997534 [label="บันทึก: เมื่อพวก Sentient สร้างทางโซลาร์เรลไปยัง Tau สำเร็จ เราไม่ได้มีพิธีรีตองยิ่งใหญ่อะไรนัก แค่เริ่มใช้งานอย่างเรียบง่าย",shape=box,color=blue];
 		j558997534 -> j3182336761;
 	j3182336761 [label="แต่ก็จัดพิธีขึ้นมาอย่างเร่งรีบ เพราะอย่างไร Orokin ก็ต้องการมองเห็นความโอ่อ่าและพิธีใด ๆ",shape=box,color=blue];

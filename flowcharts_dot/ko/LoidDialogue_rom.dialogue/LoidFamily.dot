@@ -4,10 +4,11 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"LoidFamily begins." [color=orange];
-		"LoidFamily begins." -> j1814167713;
-	j1814167713 [label="Evaluate expressions",color=orange];
-		j1814167713 -> j3233694762 [label="MarieFamilySuccess, LyonFamilySuccess, RoatheFamilySuccess",color=purple];
-		j1814167713 -> "Chat ends." [label="false",color=purple];
+		"LoidFamily begins." -> j651301366;
+	j651301366 [label="Evaluate expressions",color=orange];
+		j651301366 -> j3233694762 [label="MarieFamilySuccess, LyonFamilySuccess, RoatheFamilySuccess",color=purple];
+		j651301366 -> j3233694762 [label="MarieFamilySuccess, LyonFamilySuccess, RoatheFamilyComplete",color=purple];
+		j651301366 -> "Chat ends." [label="false",color=purple];
 	j3233694762 [label="드리프터. 당신이 이겼습니다. 로스, 마리, 리온이 마침내 때가 왔다고 설득하더군요.",shape=box,color=blue];
 		j3233694762 -> j1146213250;
 	"Chat ends." [color=orange];

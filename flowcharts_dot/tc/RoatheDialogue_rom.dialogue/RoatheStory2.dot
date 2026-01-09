@@ -9,13 +9,13 @@ digraph {
 		j1393324689 -> j1027897190 [label=true,color=green];
 		j1393324689 -> "Chat ends." [label=false,color=brown];
 	j1027897190 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j1027897190 -> j1106480438 [label="x >= 2",color=purple];
+		j1027897190 -> j2944497970 [label="x >= 2",color=purple];
 		j1027897190 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j1106480438 [label="語音訊息：連接",shape=box,color=blue];
-		j1106480438 -> j391470386;
-	j391470386 [label="文字記錄：當 Sentient 完成通往 Tau 的星際軌道時，沒有舉辦盛大儀式。就那樣開始運作了。",shape=box,color=blue];
-		j391470386 -> j325420187;
+	j2944497970 [label="語音訊息：連接",shape=box,color=blue];
+		j2944497970 -> j401169060;
+	j401169060 [label="文字記錄：當 Sentient 完成通往桃源星系的星際軌道時，沒有舉辦盛大儀式。就那樣開始運作了。",shape=box,color=blue];
+		j401169060 -> j325420187;
 	j325420187 [label="當然，儀式是匆忙安排的，因為真正的 Orokin 連擤鼻涕都要遵守某種講究的排場和禮儀。",shape=box,color=blue];
 		j325420187 -> j2228289036;
 	j2228289036 [label="首次穿越的運輸船製造了大量聲勢。",shape=box,color=blue];

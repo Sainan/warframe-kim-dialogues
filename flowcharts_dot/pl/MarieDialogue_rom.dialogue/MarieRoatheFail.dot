@@ -4,13 +4,14 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"MarieRoatheFail begins." [color=orange];
-		"MarieRoatheFail begins." -> j3770407335;
-	j3770407335 [label="Evaluate expressions",color=orange];
-		j3770407335 -> j2926534927 [label="RoatheFail",color=purple];
-		j3770407335 -> j386906797 [label="RoatheFail",color=purple];
-		j3770407335 -> j2926534927 [label="RoatheFailStall",color=purple];
-		j3770407335 -> j386906797 [label="RoatheFailStall",color=purple];
-		j3770407335 -> "Chat ends." [label="false",color=purple];
+		"MarieRoatheFail begins." -> j3510390106;
+	j3510390106 [label="Evaluate expressions",color=orange];
+		j3510390106 -> j2926534927 [label="RoatheFail",color=purple];
+		j3510390106 -> j386906797 [label="RoatheFail",color=purple];
+		j3510390106 -> j2926534927 [label="RoatheFailStall",color=purple];
+		j3510390106 -> j386906797 [label="RoatheFailStall",color=purple];
+		j3510390106 -> j2926534927 [label="RoatheRepair1",color=purple];
+		j3510390106 -> "Chat ends." [label="false",color=purple];
 	j2926534927 [label="Masz chwilę?",shape=box,color=red];
 		j2926534927 -> j125017648;
 	j386906797 [label="[Koniec]",shape=box,color=red];

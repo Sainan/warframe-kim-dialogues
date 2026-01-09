@@ -45,7 +45,7 @@ digraph {
 		j3539651063 -> j12108309;
 	"Chat ends." [color=orange];
 	j1488591750 [label="漂流者様は本当に優しくて素敵な友人です。私が祈ることさえできなかった、そんな仲間です。 ",shape=box,color=blue];
-		j1488591750 -> j1550207412;
+		j1488591750 -> j3352154434;
 	j1035760264 [label="Oui、その方が漂流者様の好みでは、non？　Ha！　私は悪魔をそんな風に捉えておりません。気になさらないで！　私が話したいのは、そのようなことではないのです。",shape=box,color=blue];
 		j1035760264 -> j3470333215;
 	j1864957210 [label="Evaluate expressions",color=orange];
@@ -59,10 +59,11 @@ digraph {
 		j1707162817 -> j1471879296;
 	j12108309 [label="ですが、私にとってどれほど大切な存在だったか、海に浮かぶ船のように、私と私の人生の進路をどれほど変えてくれたか、想いを馳せます。",shape=box,color=blue];
 		j12108309 -> j1861872571;
-	j1550207412 [label="Evaluate expressions",color=orange];
-		j1550207412 -> j1609794796 [label="LyonFaith3Yes",color=purple];
-		j1550207412 -> j614146667 [label="LyonFaith3No",color=purple];
-		j1550207412 -> j3346104856 [label="LyonFaith3Maybe",color=purple];
+	j3352154434 [label="Evaluate expressions",color=orange];
+		j3352154434 -> j1609794796 [label="LyonFaith3Yes",color=purple];
+		j3352154434 -> j614146667 [label="LyonFaith3No",color=purple];
+		j3352154434 -> j3346104856 [label="LyonFaith3Maybe",color=purple];
+		j3352154434 -> j3346104856 [label="false",color=purple];
 	j3470333215 [label="Evaluate expressions",color=orange];
 		j3470333215 -> j3889746985 [label="LoidFamilyComplete",color=purple];
 		j3470333215 -> j3062797652 [label="RoatheRedeemed",color=purple];

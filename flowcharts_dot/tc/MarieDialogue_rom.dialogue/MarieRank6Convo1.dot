@@ -45,7 +45,7 @@ digraph {
 		j454194128 -> j151922465;
 	"Chat ends." [color=orange];
 	j3968462527 [label="你是如此美好和善良的朋友。還是我連想都不敢想會與我相遇的盟友。",shape=box,color=blue];
-		j3968462527 -> j1550207412;
+		j3968462527 -> j3352154434;
 	j138501003 [label="是的，而且我覺得你更喜歡這樣，對不？哈！我不想用那種方式去想那個惡魔，不過算了！我來找你不是為了說這個。",shape=box,color=blue];
 		j138501003 -> j3470333215;
 	j1864957210 [label="Evaluate expressions",color=orange];
@@ -59,10 +59,11 @@ digraph {
 		j823406175 -> j1471879296;
 	j151922465 [label="但我想著這些時光對我來說的意義是什麼。它們如何改變了我，改變了我的人生軌跡，就像海上的船。",shape=box,color=blue];
 		j151922465 -> j3666990584;
-	j1550207412 [label="Evaluate expressions",color=orange];
-		j1550207412 -> j2618163562 [label="LyonFaith3Yes",color=purple];
-		j1550207412 -> j353897416 [label="LyonFaith3No",color=purple];
-		j1550207412 -> j3337694820 [label="LyonFaith3Maybe",color=purple];
+	j3352154434 [label="Evaluate expressions",color=orange];
+		j3352154434 -> j2618163562 [label="LyonFaith3Yes",color=purple];
+		j3352154434 -> j353897416 [label="LyonFaith3No",color=purple];
+		j3352154434 -> j3337694820 [label="LyonFaith3Maybe",color=purple];
+		j3352154434 -> j3337694820 [label="false",color=purple];
 	j3470333215 [label="Evaluate expressions",color=orange];
 		j3470333215 -> j3110163797 [label="LoidFamilyComplete",color=purple];
 		j3470333215 -> j346173042 [label="RoatheRedeemed",color=purple];

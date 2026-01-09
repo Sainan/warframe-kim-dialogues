@@ -9,11 +9,11 @@ digraph {
 		j1693002528 -> j2963576544 [label=true,color=green];
 		j1693002528 -> "Chat ends." [label=false,color=brown];
 	j2963576544 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j2963576544 -> j4055937114 [label="x >= 16",color=purple];
+		j2963576544 -> j1676999758 [label="x >= 16",color=purple];
 		j2963576544 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j4055937114 [label="VM: SACRIFICE",shape=box,color=blue];
-		j4055937114 -> j4238652197;
+	j1676999758 [label="ข้อความเสียง: การเสียสละ",shape=box,color=blue];
+		j1676999758 -> j4238652197;
 	j4238652197 [label="บันทึก: Traivon ข้าเห็นเจ้าขว้าง Railjack ใส่ปากของ Praghasa ทำให้มันไขว้เขว กินเจ้าและคนของเจ้าอย่างตะกละตะกลาม มันไม่ทันสังเกตเห็นเรือของข้าที่แล่นออกไป",shape=box,color=blue];
 		j4238652197 -> j3030144707;
 	j3030144707 [label="เจ้าสละชีวิตเพื่อผู้บังคับบัญชา ข้ารู้สึกถึงความเสียสละของเจ้าราวกับถูกตบหน้า",shape=box,color=blue];

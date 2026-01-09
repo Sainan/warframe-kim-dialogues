@@ -4,13 +4,14 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"MarieRoatheFail begins." [color=orange];
-		"MarieRoatheFail begins." -> j3770407335;
-	j3770407335 [label="Evaluate expressions",color=orange];
-		j3770407335 -> j1286209593 [label="RoatheFail",color=purple];
-		j3770407335 -> j1478915251 [label="RoatheFail",color=purple];
-		j3770407335 -> j1286209593 [label="RoatheFailStall",color=purple];
-		j3770407335 -> j1478915251 [label="RoatheFailStall",color=purple];
-		j3770407335 -> "Chat ends." [label="false",color=purple];
+		"MarieRoatheFail begins." -> j3510390106;
+	j3510390106 [label="Evaluate expressions",color=orange];
+		j3510390106 -> j1286209593 [label="RoatheFail",color=purple];
+		j3510390106 -> j1478915251 [label="RoatheFail",color=purple];
+		j3510390106 -> j1286209593 [label="RoatheFailStall",color=purple];
+		j3510390106 -> j1478915251 [label="RoatheFailStall",color=purple];
+		j3510390106 -> j1286209593 [label="RoatheRepair1",color=purple];
+		j3510390106 -> "Chat ends." [label="false",color=purple];
 	j1286209593 [label="Марі, є хвилинка?",shape=box,color=red];
 		j1286209593 -> j125017648;
 	j1478915251 [label="[Завершити розмову]",shape=box,color=red];

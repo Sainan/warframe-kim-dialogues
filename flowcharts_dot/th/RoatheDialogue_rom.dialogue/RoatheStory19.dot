@@ -4,16 +4,16 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"RoatheStory19 begins." [color=orange];
-		"RoatheStory19 begins." -> j2528593865;
-	j2528593865 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions(dialogueType=/Lotus/Types/Gameplay/1999Wf/Dialogue/RoatheDialogue_rom.dialogue, rank=4, count=10, storyCount=19)",color=orange];
-		j2528593865 -> j2988553619 [label=true,color=green];
-		j2528593865 -> "Chat ends." [label=false,color=brown];
+		"RoatheStory19 begins." -> j1193481523;
+	j1193481523 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions(dialogueType=/Lotus/Types/Gameplay/1999Wf/Dialogue/RoatheDialogue_rom.dialogue, rank=5, count=10, storyCount=19)",color=orange];
+		j1193481523 -> j2988553619 [label=true,color=green];
+		j1193481523 -> "Chat ends." [label=false,color=brown];
 	j2988553619 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j2988553619 -> j1538246951 [label="x >= 19",color=purple];
+		j2988553619 -> j2302914471 [label="x >= 19",color=purple];
 		j2988553619 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j1538246951 [label="VM: DIPLOMACY",shape=box,color=blue];
-		j1538246951 -> j3650310231;
+	j2302914471 [label="ข้อความเสียง: การทูต",shape=box,color=blue];
+		j2302914471 -> j3650310231;
 	j3650310231 [label="บันทึก: ในบรรดาผู้บริหารทั้งเจ็ด Ballas วางตนเป็นอันดับหนึ่งเหนือคนอื่น ๆ ",shape=box,color=blue];
 		j3650310231 -> j3920945292;
 	j3920945292 [label="เขาเป็นนักการทูตและนักเกลี้ยกล่อมเสียงหวาน ที่มักจะแก้ไขความคับข้องใจและความขัดแย้งของคนอื่น ๆ ได้เสมอ",shape=box,color=blue];

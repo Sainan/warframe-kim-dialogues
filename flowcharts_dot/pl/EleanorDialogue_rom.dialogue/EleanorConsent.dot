@@ -14,12 +14,12 @@ digraph {
 	"Chat ends." [color=orange];
 	j3364311394 [label="Check boolean EleanorConsentComplete",color=orange];
 		j3364311394 -> "Chat ends." [label=true,color=green];
-		j3364311394 -> j2280937831 [label=false,color=brown];
+		j3364311394 -> j1990053919 [label=false,color=brown];
 	j3528729371 [label="Check boolean EleanorPolyamorySuccess",color=orange];
 		j3528729371 -> j3364311394 [label=true,color=green];
 		j3528729371 -> "Chat ends." [label=false,color=brown];
-	j2280937831 [label="Chyba jedyne co mi przeszkadza jest to, że sama natrafiłam na twoje myśli o tej osobie.",shape=box,color=blue];
-		j2280937831 -> j2510165873;
+	j1990053919 [label="Chyba jedyne co mi przeszkadza, jest to, że sama natrafiłam na twoje myśli o tej osobie.",shape=box,color=blue];
+		j1990053919 -> j2510165873;
 	j2510165873 [label="Nie, żebym nie wiedziała, że chciałeś przyjść i grzecznie prosić o pozwolenie. Dzień dobry.",shape=box,color=blue];
 		j2510165873 -> j524515953;
 	j524515953 [label="Odpowiedź to bardzo nadąsane i z założonymi rękami \"ależ oczywiście\", kiedy ja siedzę tutaj próbując nie myśleć o tym, jak odchodzisz w objęcia tej pięknej istoty, którą dostrzegłam w twoich fantazjach.",shape=box,color=blue];

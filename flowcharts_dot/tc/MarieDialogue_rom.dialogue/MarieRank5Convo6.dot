@@ -4,14 +4,14 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"MarieRank5Convo6 begins." [color=orange];
-		"MarieRank5Convo6 begins." -> j3792426795;
-	j3792426795 [label="Check boolean LoidFamilyComplete",color=orange];
-		j3792426795 -> j2733602391 [label=true,color=green];
-		j3792426795 -> "Chat ends." [label=false,color=brown];
+		"MarieRank5Convo6 begins." -> j1070989917;
+	j1070989917 [label="Check boolean LoidFamilyComplete",color=orange];
+		j1070989917 -> "Chat ends." [label=true,color=green];
+		j1070989917 -> j2733602391 [label=false,color=brown];
+	"Chat ends." [color=orange];
 	j2733602391 [label="Check boolean MarieOtak1",color=orange];
 		j2733602391 -> j4089898924 [label=true,color=green];
 		j2733602391 -> j3097375491 [label=false,color=brown];
-	"Chat ends." [color=orange];
 	j4089898924 [label="Check boolean MarieDating",color=orange];
 		j4089898924 -> j1531716415 [label=true,color=green];
 		j4089898924 -> j1754392999 [label=false,color=brown];
