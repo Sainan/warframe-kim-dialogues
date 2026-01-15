@@ -4,7 +4,9 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"MarieRank4Convo5 begins." [color=orange];
-		"MarieRank4Convo5 begins." -> j1316635360;
+		"MarieRank4Convo5 begins." -> j437277583;
+	j437277583 [label="Boolean MarieLyonAvailable is now true.",color=orange];
+		j437277583 -> j1316635360;
 	j1316635360 [label="Evaluate expressions",color=orange];
 		j1316635360 -> j2639429977 [label="LoidFamilyComplete",color=purple];
 		j1316635360 -> j2312033486 [label="MarieFamilyOther",color=purple];
@@ -12,7 +14,7 @@ digraph {
 		j1316635360 -> j3299503499 [label="MarieFamily1",color=purple];
 		j1316635360 -> j797972570 [label="false",color=purple];
 	j2639429977 [label="¡Viajero! He estado tramando algo.",shape=box,color=blue];
-		j2639429977 -> j2456126391;
+		j2639429977 -> j3378547528;
 		j2639429977 -> j2429168889;
 	j2312033486 [label="¡Viajero! He estado pensando en lo que dijiste de la familia que está arriba de nosotros. Y en cómo podrían vernos como intrusos.",shape=box,color=blue];
 		j2312033486 -> j1765123513;
@@ -21,8 +23,8 @@ digraph {
 	j797972570 [label="¿Por qué no podemos subir? ¿Por qué no podemos hablar con quienes llamaron familia a le Cardinal?",shape=box,color=blue];
 		j797972570 -> j3176531879;
 		j797972570 -> j202800200;
-	j2456126391 [label="¿Debería de asustarme?",shape=box,color=red];
-		j2456126391 -> j2160712467;
+	j3378547528 [label="¿Debería de asustarme?",shape=box,color=red];
+		j3378547528 -> j2439611027;
 	j2429168889 [label="[Fin.]",shape=box,color=red];
 		j2429168889 -> "Chat ends.";
 	j1765123513 [label="Como la \"otra familia\" compétition, oui ? Esto me preocupa mucho.",shape=box,color=blue];
@@ -34,8 +36,8 @@ digraph {
 		j3176531879 -> j4043795391;
 	j202800200 [label="[Fin]",shape=box,color=red];
 		j202800200 -> "Chat ends.";
-	j2160712467 [label="Oui ! Los pequeños robots voladores. Los necra... necra... ¿Cómo se llaman?",shape=box,color=blue];
-		j2160712467 -> j4252451530;
+	j2439611027 [label="Oui ! Los pequeños robots voladores. Los necra... necra... ¿Cómo se llaman?",shape=box,color=blue];
+		j2439611027 -> j234203759;
 	"Chat ends." [color=orange];
 	j1657751375 [label="No competimos por el amor de le Cardinal, ¿cómo podemos ayudarles a ver eso?",shape=box,color=blue];
 		j1657751375 -> j1359330267;
@@ -46,8 +48,8 @@ digraph {
 		j3642914 -> j538717460 [label=false,color=brown];
 	j4043795391 [label="Boolean MarieFamily1 is now true.",color=orange];
 		j4043795391 -> j2279065001;
-	j4252451530 [label="¿Necramitos?",shape=box,color=red];
-		j4252451530 -> j2068729578;
+	j234203759 [label="¿Necramitos?",shape=box,color=red];
+		j234203759 -> j1574498707;
 	j1359330267 [label="Tienes razón. No se puede competir por algo que una persona no tiene para dar.",shape=box,color=red];
 		j1359330267 -> j380005824;
 	j746618153 [label="Abrir heridas cicatrizadas es peligroso. Podrías curar una infección... o podrías desangrarte en el proceso.",shape=box,color=red];
@@ -61,8 +63,8 @@ digraph {
 		j538717460 -> j2429168889;
 	j2279065001 [label="Por las Luminarias... ¿Quieres decir que estamos aquí en secreto? ¿Es por eso que no podemos salir de aquí? Mais pourquoi ?!",shape=box,color=blue];
 		j2279065001 -> j3282801535;
-	j2068729578 [label="Oui ! Son muy persistentes en cambiar los muebles, non ? Pero me he dado cuenta de que si mueves las cosas... hacen lo mismo.",shape=box,color=blue];
-		j2068729578 -> j1173137833;
+	j1574498707 [label="Oui ! Son muy persistentes en cambiar los muebles, non ? Pero me he dado cuenta de que si mueves las cosas... hacen lo mismo.",shape=box,color=blue];
+		j1574498707 -> j2477850872;
 	j380005824 [label="Evaluate expressions",color=orange];
 		j380005824 -> j3367602919 [label="MarieEntrati3a",color=purple];
 		j380005824 -> j3367602919 [label="MarieEntrati3b",color=purple];
@@ -104,10 +106,10 @@ digraph {
 		j3639963971 -> j3582023435;
 	j3282801535 [label="Su hija, Euleria, conocida como Madre, y su familia han estado cuidando Deimos durante todo este tiempo.",shape=box,color=red];
 		j3282801535 -> j757068915;
-	j1173137833 [label="¿Qué nos impide simplemente mover todos los muebles, dejar que los vuelvan a colocar, y luego... hacerlo de nuevo? ¡Podríamos venderlo todo! ¡Obtener ganancias con ce mobilier étrange !",shape=box,color=blue];
-		j1173137833 -> j3114640882;
-		j1173137833 -> j1135963084;
-		j1173137833 -> j3265474423;
+	j2477850872 [label="¿Qué nos impide simplemente mover todos los muebles, dejar que los vuelvan a colocar, y luego... hacerlo de nuevo? ¡Podríamos venderlo todo! ¡Obtener ganancias de ce mobilier étrange !",shape=box,color=blue];
+		j2477850872 -> j3114640882;
+		j2477850872 -> j1135963084;
+		j2477850872 -> j3265474423;
 	j3367602919 [label="Soy plenamente consciente de nuestras desacuerdos pendientes con respecto a le Cardinal. Intento mantener una conversación civilisée.",shape=box,color=blue];
 		j3367602919 -> j760410469;
 	j869395697 [label="Entiendo que quizás no quieras discutir cómo resolver los conflictos sin encontrar oportunidades para señalar a aquellos que sientes que son culpables.",shape=box,color=blue];

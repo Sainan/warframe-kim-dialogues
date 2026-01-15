@@ -4,7 +4,16 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"RoatheRank5Convo4 begins." [color=orange];
-		"RoatheRank5Convo4 begins." -> j2767353605;
+		"RoatheRank5Convo4 begins." -> j352851854;
+	j352851854 [label="Boolean RoatheIgnored is now false.",color=orange];
+		j352851854 -> j2657242501;
+	j2657242501 [label="Evaluate expressions",color=orange];
+		j2657242501 -> "Chat ends." [label="RoatheFailNot21",color=purple];
+		j2657242501 -> "Chat ends." [label="RoatheFailUltimate",color=purple];
+		j2657242501 -> "Chat ends." [label="RoatheFailStall",color=purple];
+		j2657242501 -> "Chat ends." [label="RoatheFail",color=purple];
+		j2657242501 -> j2767353605 [label="false",color=purple];
+	"Chat ends." [color=orange];
 	j2767353605 [label="Evaluate expressions on HellStory counter",color=orange];
 		j2767353605 -> j1931231291 [label="x >= 21",color=purple];
 		j2767353605 -> "Chat ends." [label="x <= 21",color=purple];
@@ -15,9 +24,8 @@ digraph {
 		j1931231291 -> j2487728037 [label="RoatheMarieEntratiDeal, MarieEntratiCompleteB",color=purple];
 		j1931231291 -> j2487728037 [label="RoatheMarieEntratiDeal, MarieEntratiCompleteC",color=purple];
 		j1931231291 -> j310759115 [label="RoatheLyonConfessionDeal,LyonConfessionFail",color=purple];
-		j1931231291 -> j3368576978 [label="false",color=purple];
+		j1931231291 -> j2324125239 [label="false",color=purple];
 		j1931231291 -> j1310452999 [label="false",color=purple];
-	"Chat ends." [color=orange];
 	j2692715112 [label="Boolean RoatheResetDealComplete is now true.",color=orange];
 		j2692715112 -> j4173009787;
 	j1261894279 [label="Boolean RoatheResetDealComplete is now true.",color=orange];
@@ -26,8 +34,8 @@ digraph {
 		j2487728037 -> j2264716046;
 	j310759115 [label="Мы заключили сделку, Скиталец. Ты доволен тем, на чём остановился с Лионом? По мне так этот бедняга выглядит таким же расстроенным, как и всегда.",shape=box,color=blue];
 		j310759115 -> j2099623384;
-	j3368576978 [label="Как ты думаешь, что стало с Ниток?",shape=box,color=red];
-		j3368576978 -> j2475421610;
+	j2324125239 [label="Как ты думаешь, что стало с Ниток?",shape=box,color=red];
+		j2324125239 -> j2454174086;
 	j1310452999 [label="[Конец.]",shape=box,color=red];
 		j1310452999 -> "Chat ends.";
 	j4173009787 [label="У нас была договорённость, Скиталец. И хотя тебе, по всей видимости, не потребовалась моя помощь с Мари, важно помнить, что дьявол всегда забирает своё.",shape=box,color=blue];
@@ -40,8 +48,8 @@ digraph {
 	j2099623384 [label="Boolean RoatheResetDealComplete is now true.",color=orange];
 		j2099623384 -> j2478613730;
 		j2099623384 -> j693751819;
-	j2475421610 [label="Какой поразительный вопрос. Подобные мысли возникали у меня не раз после превращения в эту заражённую амальгам.",shape=box,color=blue];
-		j2475421610 -> j3852195898;
+	j2454174086 [label="Какой поразительный вопрос. Подобные мысли возникали у меня не раз после превращения в эту заражённую амальгаму.",shape=box,color=blue];
+		j2454174086 -> j3852195898;
 	j1141012592 [label="Я приду за тем, что мне положено, независимо от того, понадобилось ли тебе использовать свою часть контракта.",shape=box,color=blue];
 		j1141012592 -> j859035553;
 		j1141012592 -> j3563602395;

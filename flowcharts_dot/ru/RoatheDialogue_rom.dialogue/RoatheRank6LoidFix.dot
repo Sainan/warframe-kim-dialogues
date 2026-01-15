@@ -1,0 +1,42 @@
+digraph {
+	graph [fontname="Roboto Condensed"];
+	node [fontname="Roboto Condensed"];
+	edge [fontname="Roboto Condensed"];
+
+	"RoatheRank6LoidFix begins." [color=orange];
+		"RoatheRank6LoidFix begins." -> j1064057012;
+	j1064057012 [label="Check boolean RoatheFamilyDelay",color=orange];
+		j1064057012 -> j1353499062 [label=true,color=green];
+		j1064057012 -> "Chat ends." [label=false,color=brown];
+	j1353499062 [label="Check boolean RoatheFamilySuccess",color=orange];
+		j1353499062 -> "Chat ends." [label=true,color=green];
+		j1353499062 -> j603397494 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j603397494 [label="Check boolean RoatheFamilyComplete",color=orange];
+		j603397494 -> "Chat ends." [label=true,color=green];
+		j603397494 -> j12822055 [label=false,color=brown];
+	j12822055 [label="Check boolean LoidFamilyComplete",color=orange];
+		j12822055 -> "Chat ends." [label=true,color=green];
+		j12822055 -> j1586716027 [label=false,color=brown];
+	j1586716027 [label="Что дальше будет с Лойдом?",shape=box,color=red];
+		j1586716027 -> j2716275130;
+	j2716275130 [label="Перевести дух некогда, правда? Да, вы, конечно, правы. У нас много работы.",shape=box,color=blue];
+		j2716275130 -> j1990550460;
+	j1990550460 [label="А под «мы» я подразумеваю «меня».",shape=box,color=blue];
+		j1990550460 -> j523542068;
+		j1990550460 -> j2830680979;
+	j523542068 [label="Как мне узнать, когда ты закончишь его убеждать?",shape=box,color=red];
+		j523542068 -> j1631358791;
+	j2830680979 [label="Пожалуйста, будь с ним помягче.",shape=box,color=red];
+		j2830680979 -> j1161283019;
+	j1631358791 [label="Я ожидаю, дворецкий будет вне себя от злости, когда я закончу его убеждать. Ты узнаешь об этом раньше всех, я не сомневаюсь. Он просто не сможет сдержать своё нытьё.",shape=box,color=blue];
+		j1631358791 -> j3277841397;
+	j1161283019 [label="Я не собираюсь причинять ему вред! Я всего лишь скажу это моими словами, клянусь. Хотя в его изложении, я уверен, это прозвучит как худшее из возможных издевательств.",shape=box,color=blue];
+		j1161283019 -> j3943820952;
+	j3277841397 [label="В любом случае, это будет то ещё зрелище.",shape=box,color=blue];
+		j3277841397 -> j1553584837;
+	j3943820952 [label="Я не сомневаюсь, ты услышишь об этом раньше всех. Он просто не сможет сдержать своё нытьё.",shape=box,color=blue];
+		j3943820952 -> j3277841397;
+	j1553584837 [label="Boolean RoatheFamilySuccess is now true.",color=orange];
+		j1553584837 -> "Chat ends.";
+}

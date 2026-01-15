@@ -4,7 +4,16 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"RoatheRank5Convo5 begins." [color=orange];
-		"RoatheRank5Convo5 begins." -> j4280392923;
+		"RoatheRank5Convo5 begins." -> j760760366;
+	j760760366 [label="Boolean RoatheIgnored is now false.",color=orange];
+		j760760366 -> j3826736704;
+	j3826736704 [label="Evaluate expressions",color=orange];
+		j3826736704 -> "Chat ends." [label="RoatheFailNot21",color=purple];
+		j3826736704 -> "Chat ends." [label="RoatheFailUltimate",color=purple];
+		j3826736704 -> "Chat ends." [label="RoatheFailStall",color=purple];
+		j3826736704 -> "Chat ends." [label="RoatheFail",color=purple];
+		j3826736704 -> j4280392923 [label="false",color=purple];
+	"Chat ends." [color=orange];
 	j4280392923 [label="Evaluate expressions on HellStory counter",color=orange];
 		j4280392923 -> j4224182894 [label="x >= 21",color=purple];
 		j4280392923 -> "Chat ends." [label="x <= 21",color=purple];
@@ -15,7 +24,6 @@ digraph {
 		j4224182894 -> j2948494049 [label="RoatheMITW2",color=purple];
 		j4224182894 -> j2948494049 [label="RoatheMITW2Neci",color=purple];
 		j4224182894 -> "Chat ends." [label="false",color=purple];
-	"Chat ends." [color=orange];
 	j2948494049 [label="너의 \"무심\"에 관해서 내가 제기한 주장에 대해서 더 생각해 봤나?",shape=box,color=blue];
 		j2948494049 -> j3662786985;
 		j2948494049 -> j1662504871;

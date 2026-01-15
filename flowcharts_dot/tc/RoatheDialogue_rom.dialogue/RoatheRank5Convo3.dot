@@ -4,7 +4,16 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"RoatheRank5Convo3 begins." [color=orange];
-		"RoatheRank5Convo3 begins." -> j1404607447;
+		"RoatheRank5Convo3 begins." -> j3794846348;
+	j3794846348 [label="Boolean RoatheIgnored is now false.",color=orange];
+		j3794846348 -> j277764437;
+	j277764437 [label="Evaluate expressions",color=orange];
+		j277764437 -> "Chat ends." [label="RoatheFailNot21",color=purple];
+		j277764437 -> "Chat ends." [label="RoatheFailUltimate",color=purple];
+		j277764437 -> "Chat ends." [label="RoatheFailStall",color=purple];
+		j277764437 -> "Chat ends." [label="RoatheFail",color=purple];
+		j277764437 -> j1404607447 [label="false",color=purple];
+	"Chat ends." [color=orange];
 	j1404607447 [label="Evaluate expressions on HellStory counter",color=orange];
 		j1404607447 -> j3273115671 [label="x >= 21",color=purple];
 		j1404607447 -> "Chat ends." [label="x <= 21",color=purple];
@@ -21,7 +30,6 @@ digraph {
 		j3273115671 -> j633254510 [label="IsDating",color=purple];
 		j3273115671 -> j213259816 [label="false",color=purple];
 		j3273115671 -> j1350559949 [label="false",color=purple];
-	"Chat ends." [color=orange];
 	j633254510 [label="現在我終於可以承認我對你和你所處的這種情況感到多麼著迷了嗎？",shape=box,color=blue];
 		j633254510 -> j560442290;
 		j633254510 -> j1350559949;
@@ -841,8 +849,8 @@ digraph {
 		j3426380796 -> j3105584117 [label="RoatheRedeemed",color=purple];
 		j3426380796 -> j3248589247 [label="false",color=purple];
 	j667152856 [label="Evaluate expressions",color=orange];
-		j667152856 -> j440907927 [label="MarieDating",color=purple];
-		j667152856 -> j440907927 [label="LyonDating",color=purple];
+		j667152856 -> j2846343498 [label="MarieDating",color=purple];
+		j667152856 -> j2846343498 [label="LyonDating",color=purple];
 		j667152856 -> j4209511631 [label="RoatheDating",color=purple];
 		j667152856 -> j4209511631 [label="false",color=purple];
 	j3105584117 [label="+10 Chemistry",color=orange];
@@ -866,8 +874,8 @@ digraph {
 		j1048616466 -> j3104297786;
 	j1209821440 [label="事實上，這或許才是人類真正的共同點：我們擁有高超的自欺欺人的能力。",shape=box,color=blue];
 		j1209821440 -> j1473036023;
-	j440907927 [label="問題更多在於你目前與那個讓你歡愉的狂熱份子的曖昧關係。我認為他們不太可能欣然接受我們「共享」你。",shape=box,color=blue];
-		j440907927 -> j3421486412;
+	j2846343498 [label="問題更多在於你目前與那個讓你歡愉的狂熱份子的曖昧關係。我認為他們不太可能欣然接受我們「共享」你。",shape=box,color=blue];
+		j2846343498 -> j2013422398;
 	j4209511631 [label="Boolean RoatheConsentComplete is now true.",color=orange];
 		j4209511631 -> j2012207053;
 	j2330048262 [label="我們聯手能做到的事，簡直難以想像，對吧？",shape=box,color=blue];
@@ -886,8 +894,8 @@ digraph {
 		j3104297786 -> j1778563239;
 	j1473036023 [label="這一切都是為了避免承認自己需要去改變時那種可怕的羞恥感。",shape=box,color=blue];
 		j1473036023 -> j3893092064;
-	j3421486412 [label="「Tau 的惡魔」、「邪惡的無魂惡棍」、「幼稚的野獸」，等等，等等。",shape=box,color=blue];
-		j3421486412 -> j1166389400;
+	j2013422398 [label="「桃源惡魔」、「邪惡的無魂惡棍」、「幼稚的野獸」，等等，等等。",shape=box,color=blue];
+		j2013422398 -> j1166389400;
 	j2012207053 [label="Boolean RoatheDating is now true.",color=orange];
 		j2012207053 -> j1182332276;
 	j3890169615 [label="Evaluate expressions",color=orange];

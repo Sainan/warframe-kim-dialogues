@@ -4,8 +4,10 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"MarieRank4Convo3 begins." [color=orange];
-		"MarieRank4Convo3 begins." -> j2756286636;
-		"MarieRank4Convo3 begins." -> j2429168889;
+		"MarieRank4Convo3 begins." -> j1608671930;
+	j1608671930 [label="Boolean MarieLyonAvailable is now true.",color=orange];
+		j1608671930 -> j2756286636;
+		j1608671930 -> j2429168889;
 	j2756286636 [label="¿Cómo estás hoy, Marie?",shape=box,color=red];
 		j2756286636 -> j1605020498;
 	j2429168889 [label="[Fin.]",shape=box,color=red];

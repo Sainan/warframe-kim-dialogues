@@ -1,0 +1,42 @@
+digraph {
+	graph [fontname="Roboto Condensed"];
+	node [fontname="Roboto Condensed"];
+	edge [fontname="Roboto Condensed"];
+
+	"RoatheRank6LoidFix begins." [color=orange];
+		"RoatheRank6LoidFix begins." -> j1064057012;
+	j1064057012 [label="Check boolean RoatheFamilyDelay",color=orange];
+		j1064057012 -> j1353499062 [label=true,color=green];
+		j1064057012 -> "Chat ends." [label=false,color=brown];
+	j1353499062 [label="Check boolean RoatheFamilySuccess",color=orange];
+		j1353499062 -> "Chat ends." [label=true,color=green];
+		j1353499062 -> j603397494 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j603397494 [label="Check boolean RoatheFamilyComplete",color=orange];
+		j603397494 -> "Chat ends." [label=true,color=green];
+		j603397494 -> j12822055 [label=false,color=brown];
+	j12822055 [label="Check boolean LoidFamilyComplete",color=orange];
+		j12822055 -> "Chat ends." [label=true,color=green];
+		j12822055 -> j3308905649 [label=false,color=brown];
+	j3308905649 [label="그래서 로이드 일은 이제 어떻게 할 건데?",shape=box,color=red];
+		j3308905649 -> j3370690242;
+	j3370690242 [label="한숨 돌릴 틈도 없다 이거군, 안 그런가? 그래, 네가 옳다, 물론. 할 일이 아주 많지.",shape=box,color=blue];
+		j3370690242 -> j2510681932;
+	j2510681932 [label="그리고 \"우리\"라지만, 실은 \"나\"지.",shape=box,color=blue];
+		j2510681932 -> j1607637281;
+		j2510681932 -> j2686505034;
+	j1607637281 [label="설득이 끝났는지는 어떻게 알지?",shape=box,color=red];
+		j1607637281 -> j2431580371;
+	j2686505034 [label="너무 몰아붙이진 마, 부탁이니까.",shape=box,color=red];
+		j2686505034 -> j1037693350;
+	j2431580371 [label="내가 설득을 끝내고 나면, 집사 놈은 분명 골이 나 있을 것이다. 분명 네가 제일 먼저 알 수 있겠지. 놈은 필시 그 징징거림을 주체하지 못할 것이다.",shape=box,color=blue];
+		j2431580371 -> j1525402981;
+	j1037693350 [label="난 그를 해치려는 게 아니다! 맹세코, 그저 말만 하겠다는 것 뿐이지. 뭐, 그자 입에서 이야기가 나온다면, 보나마나 아주 극악무도한 행패를 저지른 것처럼 들리겠지만 말이야.",shape=box,color=blue];
+		j1037693350 -> j3062383510;
+	j1525402981 [label="어느 쪽이든 아주 볼만할 것이야.",shape=box,color=blue];
+		j1525402981 -> j1553584837;
+	j3062383510 [label="분명 네가 제일 먼저 알 수 있겠지. 놈은 필시 그 징징거림을 주체하지 못할 것이다.",shape=box,color=blue];
+		j3062383510 -> j1525402981;
+	j1553584837 [label="Boolean RoatheFamilySuccess is now true.",color=orange];
+		j1553584837 -> "Chat ends.";
+}

@@ -4,7 +4,9 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"MarieRank4Convo5 begins." [color=orange];
-		"MarieRank4Convo5 begins." -> j1316635360;
+		"MarieRank4Convo5 begins." -> j437277583;
+	j437277583 [label="Boolean MarieLyonAvailable is now true.",color=orange];
+		j437277583 -> j1316635360;
 	j1316635360 [label="Evaluate expressions",color=orange];
 		j1316635360 -> j749204495 [label="LoidFamilyComplete",color=purple];
 		j1316635360 -> j3242328477 [label="MarieFamilyOther",color=purple];
@@ -12,7 +14,7 @@ digraph {
 		j1316635360 -> j2718402531 [label="MarieFamily1",color=purple];
 		j1316635360 -> j3330962834 [label="false",color=purple];
 	j749204495 [label="Gezgin ! Düşündüm de.",shape=box,color=blue];
-		j749204495 -> j4276905400;
+		j749204495 -> j3086906182;
 		j749204495 -> j2025973576;
 	j3242328477 [label="Gezgin ! Yukarıda aile hakkında söylediklerini düşünüyordum. Ve onların bizi nasıl birer davetsiz misafir olarak görebileceklerini.",shape=box,color=blue];
 		j3242328477 -> j181822030;
@@ -21,8 +23,8 @@ digraph {
 	j3330962834 [label="Neden yukarı çıkamıyoruz ? Neden le Cardinal famille denenler ile konuşamıyoruz ?",shape=box,color=blue];
 		j3330962834 -> j2643112509;
 		j3330962834 -> j2025973576;
-	j4276905400 [label="Korkmalı mıyım?",shape=box,color=red];
-		j4276905400 -> j2507313655;
+	j3086906182 [label="Korkmalı mıyım?",shape=box,color=red];
+		j3086906182 -> j980030913;
 	j2025973576 [label="[Son.]",shape=box,color=red];
 		j2025973576 -> "Chat ends.";
 	j181822030 [label="Compétition, \"diğer aile\" olarak, oui ? Bu beni çok rahatsız ediyor.",shape=box,color=blue];
@@ -32,8 +34,8 @@ digraph {
 		j1000557311 -> j3642914 [label=false,color=brown];
 	j2643112509 [label="Şey... kısacası, Entrati'nin ailesinden bazıları yukarıda ve bizim burada olduğumuzun pek farkında değiller.",shape=box,color=red];
 		j2643112509 -> j2538169645;
-	j2507313655 [label="Oui ! Küçük uçan robotlar. Necra... necra... Onlara ne diyorsunuz ?",shape=box,color=blue];
-		j2507313655 -> j1632225509;
+	j980030913 [label="Oui ! Küçük uçan robotlar. Necra... necra... Onlara ne diyorsunuz ?",shape=box,color=blue];
+		j980030913 -> j1361284670;
 	"Chat ends." [color=orange];
 	j3557030897 [label="Le Cardinal'in sevgisi için rekabet etmiyoruz, bunu onlara nasıl anlatabiliriz ?",shape=box,color=blue];
 		j3557030897 -> j1643869439;
@@ -44,8 +46,8 @@ digraph {
 		j3642914 -> j623625736 [label=false,color=brown];
 	j2538169645 [label="Boolean MarieFamily1 is now true.",color=orange];
 		j2538169645 -> j3637209872;
-	j1632225509 [label="Necramite'ler mi?",shape=box,color=red];
-		j1632225509 -> j1858942181;
+	j1361284670 [label="Necramite'ler mi?",shape=box,color=red];
+		j1361284670 -> j45925916;
 	j1643869439 [label="Haklısın. Bir kişinin vermek zorunda olmadığı bir şey için rekabet edemezsin.",shape=box,color=red];
 		j1643869439 -> j380005824;
 	j534324637 [label="Kabuk bağlamış yaraları açmak tehlikelidir. Enfeksiyondan kurtulabilirsiniz... veya bu süreçte kan kaybı yaşayabilirsiniz.",shape=box,color=red];
@@ -59,8 +61,8 @@ digraph {
 		j623625736 -> j2025973576;
 	j3637209872 [label="Par les Luminaires... Yani sizce hepimiz burada gizlice mi bulunuyoruz ?! Bu yüzden mi buradan ayrılmamıza izin verilmiyor ?! Mais pourquoi ?!",shape=box,color=blue];
 		j3637209872 -> j3679940472;
-	j1858942181 [label="Oui ! Ha ! Mobilyaları değiştirmek konusunda çok ısrarcılar, non ? Ama fark ettim ki, eşyaları yerinden oynatırsak... onlar da aynısını yapıyorlar.",shape=box,color=blue];
-		j1858942181 -> j2994122694;
+	j45925916 [label="Oui ! Ha ! Mobilyaları yenilemek konusunda çok ısrarcılar, non ? Ama fark ettim ki, eşyaları yerinden oynatsak bile yine de aynısını yapıyorlar.",shape=box,color=blue];
+		j45925916 -> j8599124;
 	j380005824 [label="Evaluate expressions",color=orange];
 		j380005824 -> j2631971554 [label="MarieEntrati3a",color=purple];
 		j380005824 -> j2631971554 [label="MarieEntrati3b",color=purple];
@@ -102,10 +104,10 @@ digraph {
 		j2034484115 -> j1176730458;
 	j3679940472 [label="Kızı Euleria -Anne olarak bilinir- ve ailesi, tüm bu zaman boyunca Deimos'a bakıyorlardı.",shape=box,color=red];
 		j3679940472 -> j750158473;
-	j2994122694 [label="Tüm mobilyaları taşıyıp, her şeyi yerine koyup sonra da... yeniden başlamak için ne engelimiz var ki ? Bu mobilier étrange'leri satıp kar elde edebiliriz !",shape=box,color=blue];
-		j2994122694 -> j4070837741;
-		j2994122694 -> j3164886075;
-		j2994122694 -> j2107603588;
+	j8599124 [label="Mobilyaların hepsini taşısak, ve yerlerine yenilerini koymalarını beklesek, sonra da bunu sürekli tekrarlasak ne olabilir ki ? Biriken fazlalığı satabiliriz ! Bu mobilier étrange işi sayesinde kâr edebiliriz !",shape=box,color=blue];
+		j8599124 -> j4070837741;
+		j8599124 -> j3164886075;
+		j8599124 -> j2107603588;
 	j2631971554 [label="Le Cardinal hakkında çözülmemiş anlaşmazlıklarımızın farkındayım. Bu konuşmayı medeni bir şekilde sürdürmeye çalışıyorum.",shape=box,color=blue];
 		j2631971554 -> j1203853403;
 	j816744599 [label="Suçlu olduğunu düşündüğünüz kişileri işaret etme fırsatı bulmadan anlaşmazlıkları gidermeyi tartışmak istememenizi anlıyorum.",shape=box,color=blue];

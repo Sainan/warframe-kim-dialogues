@@ -4,6 +4,7 @@
     "CharacterName": "/Lotus/Language/1999/MessengerRoatheName",
     "LocFile": "/Lotus/Language/1999Texting/RoatheRomance.loc",
     "AddPhAutomatically": 0,
+    "DateRank": 5,
     "Icons": [
         {
             "Tag": "Profile",
@@ -254,7 +255,7 @@
                     ],
                     "LockConditions": [
                         "RoatheFailUltimate",
-                        "\"\""
+                        "RoatheIgnored"
                     ]
                 },
                 {
@@ -300,7 +301,8 @@
                         "RoatheFamilyDelay"
                     ],
                     "LockConditions": [
-                        "RoatheIgnored"
+                        "RoatheIgnored",
+                        "RoatheFailUltimate"
                     ]
                 },
                 {
@@ -339,7 +341,12 @@
                     "UnlockConditions": [
                         "RoatheIgnored"
                     ],
-                    "LockConditions": []
+                    "LockConditions": [
+                        "RoatheFailNot21",
+                        "RoatheFailStall",
+                        "RoatheFamilyFail",
+                        "RoatheFailUltimate"
+                    ]
                 }
             ],
             "RequiredChemistry": 120,
@@ -349,7 +356,7 @@
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/BestiesRank",
-            "FirstDialogue": "",
+            "FirstDialogue": "RoatheRank6Convo1",
             "Notes": [
                 {
                     "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank6_1",
@@ -403,7 +410,7 @@
         },
         {
             "RankName": "/Lotus/Language/1999Texting/Romance/LovedRank",
-            "FirstDialogue": "",
+            "FirstDialogue": "RoatheRank6Convo1",
             "Notes": [
                 {
                     "LocTag": "/Lotus/Language/1999Texting/Romance/RoatheNotesRank7_1",

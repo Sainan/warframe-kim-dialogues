@@ -25376,18 +25376,18 @@
         "Id": 1628,
         "Content": "MarieRank4Convo5",
         "Outgoing": [
-            1629
+            4022
         ],
         "GraphPos": [
-            -393,
-            39702
+            -798,
+            39689
         ]
     },
     {
         "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
         "Id": 1629,
         "Incoming": [
-            1628
+            4022
         ],
         "GraphPos": [
             171,
@@ -27683,11 +27683,11 @@
         "Id": 1757,
         "Content": "MarieRank4Convo6",
         "Outgoing": [
-            1758
+            4023
         ],
         "GraphPos": [
-            -414,
-            41433
+            -726,
+            41439
         ]
     },
     {
@@ -27695,7 +27695,7 @@
         "Id": 1758,
         "Content": "LyonIndifference1",
         "Incoming": [
-            1757
+            4023
         ],
         "GraphPos": [
             -37,
@@ -29032,11 +29032,11 @@
         "Id": 1842,
         "Content": "MarieRank4Convo7",
         "Outgoing": [
-            1843
+            4024
         ],
         "GraphPos": [
-            -336,
-            42930
+            -648,
+            42931
         ]
     },
     {
@@ -29044,7 +29044,7 @@
         "Id": 1843,
         "Content": "HellKeyPlayed, x >= 0, x <= 0",
         "Incoming": [
-            1842
+            4024
         ],
         "GraphPos": [
             36,
@@ -30393,11 +30393,11 @@
         "Id": 1924,
         "Content": "MarieRank4Convo8",
         "Outgoing": [
-            1925
+            3268
         ],
         "GraphPos": [
-            -336,
-            44459
+            -637,
+            44461
         ]
     },
     {
@@ -30405,7 +30405,7 @@
         "Id": 1925,
         "Content": "MarieOtak1",
         "Incoming": [
-            1924
+            3268
         ],
         "GraphPos": [
             44,
@@ -30822,12 +30822,11 @@
         "Id": 1950,
         "Content": "MarieRank4Convo1",
         "Outgoing": [
-            1951,
-            1952
+            4019
         ],
         "GraphPos": [
-            -465,
-            30642
+            -838,
+            30630
         ]
     },
     {
@@ -30835,7 +30834,7 @@
         "Id": 1951,
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Choice_MarieRank4Convo1_1866",
         "Incoming": [
-            1950
+            4019
         ],
         "Outgoing": [
             1953
@@ -30850,7 +30849,7 @@
         "Id": 1952,
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Choice_MarieRank4Convo1_1867",
         "Incoming": [
-            1950
+            4019
         ],
         "Outgoing": [
             1954
@@ -33658,11 +33657,11 @@
         "Id": 2136,
         "Content": "MarieRank4Convo2",
         "Outgoing": [
-            2137
+            4020
         ],
         "GraphPos": [
-            -465,
-            32429
+            -765,
+            32411
         ]
     },
     {
@@ -33670,7 +33669,7 @@
         "Id": 2137,
         "Content": "DrifterFaithStop",
         "Incoming": [
-            2136
+            4020
         ],
         "GraphPos": [
             -111,
@@ -35369,12 +35368,11 @@
         "Id": 2239,
         "Content": "MarieRank4Convo3",
         "Outgoing": [
-            2240,
-            2241
+            4021
         ],
         "GraphPos": [
-            -486,
-            34900
+            -843,
+            34864
         ]
     },
     {
@@ -35382,7 +35380,7 @@
         "Id": 2240,
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Choice_MarieRank4Convo3_2099",
         "Incoming": [
-            2239
+            4021
         ],
         "Outgoing": [
             2242
@@ -35397,7 +35395,7 @@
         "Id": 2241,
         "Content": "/Lotus/Language/1999Texting/MarieRomance/Choice_MarieRank4Convo3_2100",
         "Incoming": [
-            2239
+            4021
         ],
         "Outgoing": [
             2243
@@ -36081,11 +36079,11 @@
         "Id": 2286,
         "Content": "MarieRank4Convo4",
         "Outgoing": [
-            2287
+            4018
         ],
         "GraphPos": [
-            -486,
-            36162
+            -705,
+            36158
         ]
     },
     {
@@ -36093,7 +36091,7 @@
         "Id": 2287,
         "Content": "MarieTagferFight1",
         "Incoming": [
-            2286
+            4018
         ],
         "GraphPos": [
             -49,
@@ -49853,8 +49851,8 @@
             3134
         ],
         "GraphPos": [
-            -818,
-            63212
+            -812,
+            63171
         ]
     },
     {
@@ -49866,13 +49864,13 @@
         ],
         "GraphPos": [
             -406,
-            63212
+            63173
         ],
         "TrueNodes": [
-            3135
+            3136
         ],
         "FalseNodes": [
-            3136
+            3135
         ]
     },
     {
@@ -49882,8 +49880,8 @@
             3134
         ],
         "GraphPos": [
-            -20,
-            63121
+            -62,
+            63363
         ]
     },
     {
@@ -52061,7 +52059,7 @@
             3264
         ],
         "Outgoing": [
-            3268
+            4025
         ],
         "GraphPos": [
             7962,
@@ -52084,15 +52082,18 @@
         ]
     },
     {
-        "type": "/EE/Types/Engine/EndDialogueNode",
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
         "Id": 3268,
-        "Content": "RoatheFamilyFailTake2",
+        "Content": "MarieLyonAvailable",
         "Incoming": [
-            3266
+            1924
+        ],
+        "Outgoing": [
+            1925
         ],
         "GraphPos": [
-            8434,
-            65120
+            -302,
+            44459
         ]
     },
     {
@@ -55448,8 +55449,8 @@
             3476
         ],
         "GraphPos": [
-            -221,
-            79481
+            -136,
+            79494
         ]
     },
     {
@@ -64125,6 +64126,139 @@
         "GraphPos": [
             1683,
             65364
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 4018,
+        "Content": "MarieLyonAvailable",
+        "Incoming": [
+            2286
+        ],
+        "Outgoing": [
+            2287
+        ],
+        "GraphPos": [
+            -374,
+            36168
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 4019,
+        "Content": "MarieLyonAvailable",
+        "Incoming": [
+            1950
+        ],
+        "Outgoing": [
+            1951,
+            1952
+        ],
+        "GraphPos": [
+            -496,
+            30636
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 4020,
+        "Content": "MarieLyonAvailable",
+        "Incoming": [
+            2136
+        ],
+        "Outgoing": [
+            2137
+        ],
+        "GraphPos": [
+            -439,
+            32414
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 4021,
+        "Content": "MarieLyonAvailable",
+        "Incoming": [
+            2239
+        ],
+        "Outgoing": [
+            2240,
+            2241
+        ],
+        "GraphPos": [
+            -505,
+            34857
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 4022,
+        "Content": "MarieLyonAvailable",
+        "Incoming": [
+            1628
+        ],
+        "Outgoing": [
+            1629
+        ],
+        "GraphPos": [
+            -378,
+            39732
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 4023,
+        "Content": "MarieLyonAvailable",
+        "Incoming": [
+            1757
+        ],
+        "Outgoing": [
+            1758
+        ],
+        "GraphPos": [
+            -386,
+            41445
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 4024,
+        "Content": "MarieLyonAvailable",
+        "Incoming": [
+            1842
+        ],
+        "Outgoing": [
+            1843
+        ],
+        "GraphPos": [
+            -312,
+            42932
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 4025,
+        "Content": "MarieRoatheFailFix",
+        "Incoming": [
+            3266
+        ],
+        "Outgoing": [
+            4026
+        ],
+        "GraphPos": [
+            8201,
+            65117
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 4026,
+        "Incoming": [
+            4025
+        ],
+        "GraphPos": [
+            8557,
+            65121
         ]
     }
 ]

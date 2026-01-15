@@ -1,0 +1,42 @@
+digraph {
+	graph [fontname="Roboto Condensed"];
+	node [fontname="Roboto Condensed"];
+	edge [fontname="Roboto Condensed"];
+
+	"RoatheRank6LoidFix begins." [color=orange];
+		"RoatheRank6LoidFix begins." -> j1064057012;
+	j1064057012 [label="Check boolean RoatheFamilyDelay",color=orange];
+		j1064057012 -> j1353499062 [label=true,color=green];
+		j1064057012 -> "Chat ends." [label=false,color=brown];
+	j1353499062 [label="Check boolean RoatheFamilySuccess",color=orange];
+		j1353499062 -> "Chat ends." [label=true,color=green];
+		j1353499062 -> j603397494 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j603397494 [label="Check boolean RoatheFamilyComplete",color=orange];
+		j603397494 -> "Chat ends." [label=true,color=green];
+		j603397494 -> j12822055 [label=false,color=brown];
+	j12822055 [label="Check boolean LoidFamilyComplete",color=orange];
+		j12822055 -> "Chat ends." [label=true,color=green];
+		j12822055 -> j3248551263 [label=false,color=brown];
+	j3248551263 [label="Loidの件で、次にすることは？",shape=box,color=red];
+		j3248551263 -> j369414698;
+	j369414698 [label="息をする暇もないな。だが確かに、我々にはやるべきことがまだある。",shape=box,color=blue];
+		j369414698 -> j3779252318;
+	j3779252318 [label="ここで言う「我々」とは「我」のことだが。",shape=box,color=blue];
+		j3779252318 -> j16811026;
+		j3779252318 -> j2697536108;
+	j16811026 [label="Roatheが彼を説得し終えたかどうか、どうやって知るんだ？",shape=box,color=red];
+		j16811026 -> j1483776715;
+	j2697536108 [label="お手柔らかにね。",shape=box,color=red];
+		j2697536108 -> j1822983808;
+	j1483776715 [label="執事はきっと、我が説得し終えたら機嫌を損ねるだろう。泣き言を抑えきれず、真っ先にお前に知らせるだろう。",shape=box,color=blue];
+		j1483776715 -> j2896157697;
+	j1822983808 [label="奴を痛めつけるつもりはない！　我はただ言葉を伝えるだけだ。もっとも、奴からすれば虐待に聞こえるかもしれないが。",shape=box,color=blue];
+		j1822983808 -> j1461660252;
+	j2896157697 [label="どう転ぼうと、これはかなりの見世物になるだろう。",shape=box,color=blue];
+		j2896157697 -> j1553584837;
+	j1461660252 [label="奴は泣き言を抑えきれず、真っ先にお前に知らせるだろう。",shape=box,color=blue];
+		j1461660252 -> j2896157697;
+	j1553584837 [label="Boolean RoatheFamilySuccess is now true.",color=orange];
+		j1553584837 -> "Chat ends.";
+}

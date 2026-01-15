@@ -36272,7 +36272,7 @@
             2263
         ],
         "GraphPos": [
-            77,
+            -124,
             45750
         ]
     },
@@ -36313,7 +36313,7 @@
             2263
         ],
         "GraphPos": [
-            793,
+            836,
             45825
         ]
     },
@@ -36629,7 +36629,7 @@
             2280
         ],
         "Outgoing": [
-            2284
+            2286
         ],
         "GraphPos": [
             3668,
@@ -36656,14 +36656,14 @@
         "Id": 2284,
         "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRoatheFail_1748",
         "Incoming": [
-            2282
+            2496
         ],
         "Outgoing": [
-            2286
+            2287
         ],
         "GraphPos": [
-            4016,
-            45486
+            4699,
+            45512
         ]
     },
     {
@@ -36682,14 +36682,14 @@
         "Id": 2286,
         "Content": "LyonRoatheFailFix",
         "Incoming": [
-            2284
+            2282
         ],
         "Outgoing": [
-            2287
+            2496
         ],
         "GraphPos": [
-            4405,
-            45486
+            3991,
+            45488
         ]
     },
     {
@@ -36697,14 +36697,14 @@
         "Id": 2287,
         "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRoatheFail_1749",
         "Incoming": [
-            2286
+            2284
         ],
         "Outgoing": [
             2288
         ],
         "GraphPos": [
-            4759,
-            45486
+            5040,
+            45512
         ]
     },
     {
@@ -36718,8 +36718,8 @@
             2339
         ],
         "GraphPos": [
-            5199,
-            45486
+            5368,
+            45512
         ],
         "CompletionType": 2,
         "OtherDialogueInfos": [
@@ -37517,8 +37517,8 @@
             2288
         ],
         "GraphPos": [
-            5664,
-            45485
+            5755,
+            45516
         ]
     },
     {
@@ -38215,6 +38215,1946 @@
         "GraphPos": [
             6284,
             46446
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/StartDialogueNode",
+        "Id": 2382,
+        "Content": "LyonRank6Convo2",
+        "Outgoing": [
+            2383
+        ],
+        "GraphPos": [
+            16,
+            52935
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "Id": 2383,
+        "Content": "LoidFamilyComplete",
+        "Incoming": [
+            2382
+        ],
+        "GraphPos": [
+            532,
+            52947
+        ],
+        "TrueNodes": [
+            2385
+        ],
+        "FalseNodes": [
+            2384
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "Id": 2384,
+        "Content": "LyonFamilyFail",
+        "Incoming": [
+            2383
+        ],
+        "GraphPos": [
+            914,
+            53005
+        ],
+        "TrueNodes": [
+            2386
+        ],
+        "FalseNodes": [
+            2387
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2385,
+        "Incoming": [
+            2383
+        ],
+        "GraphPos": [
+            933,
+            52836
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2386,
+        "Incoming": [
+            2384
+        ],
+        "GraphPos": [
+            1316,
+            52882
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
+        "Id": 2387,
+        "Incoming": [
+            2384
+        ],
+        "GraphPos": [
+            1319,
+            53047
+        ],
+        "Outputs": [
+            {
+                "Expression": "LyonConfession1, MarieFamilyFail, RoatheFamilyFail\n",
+                "Outgoing": [
+                    2388
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "LyonConfession1, MarieFamilyFail",
+                "Outgoing": [
+                    2389
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "LyonConfession1, RoatheFamilyFail",
+                "Outgoing": [
+                    2390
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "LyonFamilySuccess",
+                "Outgoing": [
+                    2394
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "LyonDating",
+                "Outgoing": [
+                    2391
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "LyonConfession1",
+                "Outgoing": [
+                    2392
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [
+                    2393
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2388,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1804",
+        "Incoming": [
+            2387
+        ],
+        "Outgoing": [
+            2410,
+            2411
+        ],
+        "GraphPos": [
+            2012,
+            52857
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2389,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1805",
+        "Incoming": [
+            2387
+        ],
+        "Outgoing": [
+            2444,
+            2445
+        ],
+        "GraphPos": [
+            2007,
+            53020
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2390,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1806",
+        "Incoming": [
+            2387
+        ],
+        "Outgoing": [
+            2462,
+            2463
+        ],
+        "GraphPos": [
+            2012,
+            53151
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2391,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1807",
+        "Incoming": [
+            2387
+        ],
+        "Outgoing": [
+            2431
+        ],
+        "GraphPos": [
+            2006,
+            53331
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2392,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1808",
+        "Incoming": [
+            2387
+        ],
+        "Outgoing": [
+            2431
+        ],
+        "GraphPos": [
+            2010,
+            53455
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2393,
+        "Incoming": [
+            2387
+        ],
+        "GraphPos": [
+            2017,
+            53634
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2394,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1809",
+        "Incoming": [
+            2387
+        ],
+        "Outgoing": [
+            2395
+        ],
+        "GraphPos": [
+            1923,
+            53747
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
+        "Id": 2395,
+        "Incoming": [
+            2394
+        ],
+        "GraphPos": [
+            2239,
+            53745
+        ],
+        "Outputs": [
+            {
+                "Expression": "MarieFamilySuccess, RoatheFamilyComplete\n",
+                "Outgoing": [
+                    2396
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "MarieFamilySuccess, RoatheFamilySuccess\n",
+                "Outgoing": [
+                    2396
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "MarieFamilySuccess, RoatheFamilyDelay",
+                "Outgoing": [
+                    2437
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "RoatheFamilyComplete",
+                "Outgoing": [
+                    2460
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "RoatheFamilySuccess",
+                "Outgoing": [
+                    2460
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "MarieFamilySuccess",
+                "Outgoing": [
+                    2464
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "RoatheFamilyDelay",
+                "Outgoing": [
+                    2438
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [
+                    2409
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2396,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1810",
+        "Incoming": [
+            2395
+        ],
+        "Outgoing": [
+            2397
+        ],
+        "GraphPos": [
+            2785,
+            54065
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2397,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1811",
+        "Incoming": [
+            2396
+        ],
+        "Outgoing": [
+            2398
+        ],
+        "GraphPos": [
+            3150,
+            54065
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2398,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1812",
+        "Incoming": [
+            2397
+        ],
+        "Outgoing": [
+            2399
+        ],
+        "GraphPos": [
+            4405,
+            54052
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2399,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1813",
+        "Incoming": [
+            2398
+        ],
+        "Outgoing": [
+            2400
+        ],
+        "GraphPos": [
+            4735,
+            54051
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 2400,
+        "Content": "LyonFamilySuccess",
+        "Incoming": [
+            2399
+        ],
+        "Outgoing": [
+            2401
+        ],
+        "GraphPos": [
+            5072,
+            54050
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 2401,
+        "Content": "RoatheFamilySuccess",
+        "Incoming": [
+            2400
+        ],
+        "Outgoing": [
+            2405
+        ],
+        "GraphPos": [
+            5394,
+            54049
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2402,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1814",
+        "Incoming": [
+            2408
+        ],
+        "Outgoing": [
+            2403
+        ],
+        "GraphPos": [
+            7070,
+            54049
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2403,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1815",
+        "Incoming": [
+            2402
+        ],
+        "Outgoing": [
+            2404
+        ],
+        "GraphPos": [
+            7381,
+            54050
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2404,
+        "Incoming": [
+            2403
+        ],
+        "GraphPos": [
+            7721,
+            54057
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 2405,
+        "Content": "MarieFamilySuccess",
+        "Incoming": [
+            2401
+        ],
+        "Outgoing": [
+            2406
+        ],
+        "GraphPos": [
+            5719,
+            54050
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2406,
+        "Content": "MarieFamilyFail",
+        "Incoming": [
+            2405
+        ],
+        "Outgoing": [
+            2407
+        ],
+        "GraphPos": [
+            6039,
+            54049
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2407,
+        "Content": "RoatheFamilyFail",
+        "Incoming": [
+            2406
+        ],
+        "Outgoing": [
+            2408
+        ],
+        "GraphPos": [
+            6379,
+            54048
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2408,
+        "Content": "LyonFamilyFail",
+        "Incoming": [
+            2407
+        ],
+        "Outgoing": [
+            2402
+        ],
+        "GraphPos": [
+            6717,
+            54049
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2409,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1816",
+        "Incoming": [
+            2395
+        ],
+        "Outgoing": [
+            2410,
+            2411
+        ],
+        "GraphPos": [
+            2575,
+            52905
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2410,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1817",
+        "Incoming": [
+            2388,
+            2409
+        ],
+        "Outgoing": [
+            2413
+        ],
+        "GraphPos": [
+            2907,
+            52714
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2411,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1818",
+        "Incoming": [
+            2388,
+            2409
+        ],
+        "Outgoing": [
+            2412
+        ],
+        "GraphPos": [
+            2905,
+            52866
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2412,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1819",
+        "Incoming": [
+            2411
+        ],
+        "Outgoing": [
+            2415
+        ],
+        "GraphPos": [
+            3254,
+            52871
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2413,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1820",
+        "Incoming": [
+            2410
+        ],
+        "Outgoing": [
+            2414
+        ],
+        "GraphPos": [
+            3285,
+            52716
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2414,
+        "Incoming": [
+            2413
+        ],
+        "GraphPos": [
+            3599,
+            52717
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2415,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1821",
+        "Incoming": [
+            2412
+        ],
+        "Outgoing": [
+            2416
+        ],
+        "GraphPos": [
+            3585,
+            52873
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2416,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1822",
+        "Incoming": [
+            2415
+        ],
+        "Outgoing": [
+            2418,
+            2417
+        ],
+        "GraphPos": [
+            3928,
+            52875
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2417,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1823",
+        "Incoming": [
+            2416
+        ],
+        "Outgoing": [
+            2419
+        ],
+        "GraphPos": [
+            4311,
+            52888
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2418,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1824",
+        "Incoming": [
+            2416
+        ],
+        "Outgoing": [
+            2420
+        ],
+        "GraphPos": [
+            4317,
+            52739
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2419,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1825",
+        "Incoming": [
+            2417
+        ],
+        "Outgoing": [
+            2421
+        ],
+        "GraphPos": [
+            4627,
+            52889
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2420,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1826",
+        "Incoming": [
+            2418
+        ],
+        "Outgoing": [
+            2422
+        ],
+        "GraphPos": [
+            4631,
+            52738
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2421,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1827",
+        "Incoming": [
+            2419
+        ],
+        "Outgoing": [
+            2424
+        ],
+        "GraphPos": [
+            4950,
+            52890
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2422,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1828",
+        "Incoming": [
+            2420
+        ],
+        "Outgoing": [
+            2423
+        ],
+        "GraphPos": [
+            4951,
+            52737
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2423,
+        "Incoming": [
+            2422
+        ],
+        "GraphPos": [
+            5272,
+            52737
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 2424,
+        "Content": "LyonFamilySuccess",
+        "Incoming": [
+            2421
+        ],
+        "Outgoing": [
+            2426
+        ],
+        "GraphPos": [
+            5280,
+            52903
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 2425,
+        "Content": "MarieFamilySuccess",
+        "Incoming": [
+            2426
+        ],
+        "Outgoing": [
+            2429
+        ],
+        "GraphPos": [
+            5927,
+            52903
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 2426,
+        "Content": "RoatheFamilySuccess",
+        "Incoming": [
+            2424
+        ],
+        "Outgoing": [
+            2425
+        ],
+        "GraphPos": [
+            5602,
+            52902
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2427,
+        "Content": "RoatheFamilyFail",
+        "Incoming": [
+            2429
+        ],
+        "Outgoing": [
+            2428
+        ],
+        "GraphPos": [
+            6587,
+            52901
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2428,
+        "Content": "LyonFamilyFail",
+        "Incoming": [
+            2427
+        ],
+        "Outgoing": [
+            2485
+        ],
+        "GraphPos": [
+            6925,
+            52902
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2429,
+        "Content": "MarieFamilyFail",
+        "Incoming": [
+            2425
+        ],
+        "Outgoing": [
+            2427
+        ],
+        "GraphPos": [
+            6247,
+            52902
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2430,
+        "Incoming": [
+            2485
+        ],
+        "GraphPos": [
+            7600,
+            52908
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2431,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1829",
+        "Incoming": [
+            2391,
+            2392
+        ],
+        "Outgoing": [
+            2432,
+            2433
+        ],
+        "GraphPos": [
+            2341,
+            53331
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2432,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1830",
+        "Incoming": [
+            2431
+        ],
+        "Outgoing": [
+            2435
+        ],
+        "GraphPos": [
+            2723,
+            53317
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2433,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1831",
+        "Incoming": [
+            2431
+        ],
+        "Outgoing": [
+            2434
+        ],
+        "GraphPos": [
+            2735,
+            53447
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2434,
+        "Incoming": [
+            2433
+        ],
+        "GraphPos": [
+            3045,
+            53447
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2435,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1832",
+        "Incoming": [
+            2432
+        ],
+        "Outgoing": [
+            2436
+        ],
+        "GraphPos": [
+            3042,
+            53317
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
+        "Id": 2436,
+        "Incoming": [
+            2435
+        ],
+        "GraphPos": [
+            3385,
+            53307
+        ],
+        "Outputs": [
+            {
+                "Expression": "MarieFamilySuccess, RoatheFamilyComplete\n",
+                "Outgoing": [
+                    2439
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "MarieFamilySuccess, RoatheFamilySuccess\n",
+                "Outgoing": [
+                    2439
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "MarieFamilySuccess, RoatheFamilyDelay",
+                "Outgoing": [
+                    2437
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "RoatheFamilyComplete",
+                "Outgoing": [
+                    2442
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "RoatheFamilySuccess",
+                "Outgoing": [
+                    2442
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "MarieFamilySuccess",
+                "Outgoing": [
+                    2464
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "RoatheFamilyDelay",
+                "Outgoing": [
+                    2438
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2437,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1833",
+        "Incoming": [
+            2395,
+            2436
+        ],
+        "Outgoing": [
+            2461
+        ],
+        "GraphPos": [
+            3960,
+            54227
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2438,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1834",
+        "Incoming": [
+            2395,
+            2436
+        ],
+        "Outgoing": [
+            2461
+        ],
+        "GraphPos": [
+            3956,
+            54358
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2439,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1835",
+        "Incoming": [
+            2436
+        ],
+        "Outgoing": [
+            2440
+        ],
+        "GraphPos": [
+            3857,
+            53294
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 2440,
+        "Content": "LyonFamilySuccess",
+        "Incoming": [
+            2439
+        ],
+        "Outgoing": [
+            2441
+        ],
+        "GraphPos": [
+            4204,
+            53293
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2441,
+        "Incoming": [
+            2440
+        ],
+        "GraphPos": [
+            4533,
+            53293
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2442,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1836",
+        "Incoming": [
+            2436
+        ],
+        "Outgoing": [
+            2443
+        ],
+        "GraphPos": [
+            3865,
+            53460
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2443,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1837",
+        "Incoming": [
+            2442
+        ],
+        "Outgoing": [
+            2444,
+            2445
+        ],
+        "GraphPos": [
+            4202,
+            53462
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2444,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1838",
+        "Incoming": [
+            2443,
+            2389,
+            2460
+        ],
+        "Outgoing": [
+            2447
+        ],
+        "GraphPos": [
+            4675,
+            53411
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2445,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1841",
+        "Incoming": [
+            2443,
+            2389,
+            2460
+        ],
+        "Outgoing": [
+            2446
+        ],
+        "GraphPos": [
+            4671,
+            53529
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "Id": 2446,
+        "Content": "MarieNoDate",
+        "Incoming": [
+            2445
+        ],
+        "GraphPos": [
+            4986,
+            53528
+        ],
+        "TrueNodes": [
+            2449
+        ],
+        "FalseNodes": [
+            2450
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2447,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1839",
+        "Incoming": [
+            2444
+        ],
+        "Outgoing": [
+            2448
+        ],
+        "GraphPos": [
+            5035,
+            53333
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2448,
+        "Incoming": [
+            2447,
+            2449
+        ],
+        "GraphPos": [
+            5788,
+            53336
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2449,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1840",
+        "Incoming": [
+            2446
+        ],
+        "Outgoing": [
+            2448
+        ],
+        "GraphPos": [
+            5433,
+            53447
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2450,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1842",
+        "Incoming": [
+            2446
+        ],
+        "Outgoing": [
+            2451,
+            2452
+        ],
+        "GraphPos": [
+            5431,
+            53612
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2451,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1843",
+        "Incoming": [
+            2450
+        ],
+        "Outgoing": [
+            2453
+        ],
+        "GraphPos": [
+            5792,
+            53492
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2452,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1844",
+        "Incoming": [
+            2450
+        ],
+        "Outgoing": [
+            2453
+        ],
+        "GraphPos": [
+            5789,
+            53627
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2453,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1845",
+        "Incoming": [
+            2451,
+            2452
+        ],
+        "Outgoing": [
+            2454
+        ],
+        "GraphPos": [
+            6097,
+            53534
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2454,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1846",
+        "Incoming": [
+            2453
+        ],
+        "Outgoing": [
+            2455
+        ],
+        "GraphPos": [
+            6413,
+            53537
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 2455,
+        "Content": "LyonFamilySuccess",
+        "Incoming": [
+            2454
+        ],
+        "Outgoing": [
+            2456
+        ],
+        "GraphPos": [
+            6745,
+            53546
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2456,
+        "Content": "LyonFamilyFail",
+        "Incoming": [
+            2455
+        ],
+        "Outgoing": [
+            2458
+        ],
+        "GraphPos": [
+            7063,
+            53542
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2457,
+        "Content": "MarieFamilyFail",
+        "Incoming": [
+            2458
+        ],
+        "Outgoing": [
+            2459
+        ],
+        "GraphPos": [
+            7716,
+            53540
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 2458,
+        "Content": "MarieFamilySuccess",
+        "Incoming": [
+            2456
+        ],
+        "Outgoing": [
+            2457
+        ],
+        "GraphPos": [
+            7396,
+            53541
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2459,
+        "Incoming": [
+            2457
+        ],
+        "GraphPos": [
+            8057,
+            53540
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2460,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1847",
+        "Incoming": [
+            2395
+        ],
+        "Outgoing": [
+            2444,
+            2445
+        ],
+        "GraphPos": [
+            2770,
+            54188
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2461,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1848",
+        "Incoming": [
+            2437,
+            2438
+        ],
+        "Outgoing": [
+            2478,
+            2479
+        ],
+        "GraphPos": [
+            4298,
+            54227
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2462,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1849",
+        "Incoming": [
+            2390,
+            2464
+        ],
+        "Outgoing": [
+            2465
+        ],
+        "GraphPos": [
+            4259,
+            53749
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2463,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1850",
+        "Incoming": [
+            2390,
+            2464
+        ],
+        "Outgoing": [
+            2465
+        ],
+        "GraphPos": [
+            4254,
+            53897
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2464,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1851",
+        "Incoming": [
+            2436,
+            2395
+        ],
+        "Outgoing": [
+            2462,
+            2463
+        ],
+        "GraphPos": [
+            3872,
+            53713
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2465,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1852",
+        "Incoming": [
+            2462,
+            2463
+        ],
+        "Outgoing": [
+            2466
+        ],
+        "GraphPos": [
+            4583,
+            53748
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2466,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1853",
+        "Incoming": [
+            2465
+        ],
+        "Outgoing": [
+            2467
+        ],
+        "GraphPos": [
+            4912,
+            53746
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2467,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1854",
+        "Incoming": [
+            2466
+        ],
+        "Outgoing": [
+            2468,
+            2469
+        ],
+        "GraphPos": [
+            5227,
+            53747
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2468,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1855",
+        "Incoming": [
+            2467
+        ],
+        "Outgoing": [
+            2470
+        ],
+        "GraphPos": [
+            5601,
+            53747
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2469,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1856",
+        "Incoming": [
+            2467
+        ],
+        "Outgoing": [
+            2470
+        ],
+        "GraphPos": [
+            5598,
+            53860
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2470,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1857",
+        "Incoming": [
+            2468,
+            2469
+        ],
+        "Outgoing": [
+            2471
+        ],
+        "GraphPos": [
+            5932,
+            53753
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2471,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1858",
+        "Incoming": [
+            2470
+        ],
+        "Outgoing": [
+            2473
+        ],
+        "GraphPos": [
+            6262,
+            53751
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2472,
+        "Incoming": [
+            2477
+        ],
+        "GraphPos": [
+            8212,
+            53755
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 2473,
+        "Content": "LyonFamilySuccess",
+        "Incoming": [
+            2471
+        ],
+        "Outgoing": [
+            2474
+        ],
+        "GraphPos": [
+            6590,
+            53755
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2474,
+        "Content": "LyonFamilyFail",
+        "Incoming": [
+            2473
+        ],
+        "Outgoing": [
+            2475
+        ],
+        "GraphPos": [
+            6908,
+            53751
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 2475,
+        "Content": "RoatheFamilySuccess",
+        "Incoming": [
+            2474
+        ],
+        "Outgoing": [
+            2476
+        ],
+        "GraphPos": [
+            7236,
+            53748
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2476,
+        "Content": "RoatheFamilyFail",
+        "Incoming": [
+            2475
+        ],
+        "Outgoing": [
+            2477
+        ],
+        "GraphPos": [
+            7548,
+            53750
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2477,
+        "Content": "RoatheFamilyDelay",
+        "Incoming": [
+            2476
+        ],
+        "Outgoing": [
+            2472
+        ],
+        "GraphPos": [
+            7876,
+            53752
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2478,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1859",
+        "Incoming": [
+            2461
+        ],
+        "Outgoing": [
+            2480
+        ],
+        "GraphPos": [
+            4637,
+            54230
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/PlayerChoiceDialogueNode",
+        "Id": 2479,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Choice_LyonRank6Convo2_1860",
+        "Incoming": [
+            2461
+        ],
+        "Outgoing": [
+            2481
+        ],
+        "GraphPos": [
+            4630,
+            54363
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2480,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1861",
+        "Incoming": [
+            2478
+        ],
+        "Outgoing": [
+            2483
+        ],
+        "GraphPos": [
+            4970,
+            54244
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2481,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1862",
+        "Incoming": [
+            2479
+        ],
+        "Outgoing": [
+            2482
+        ],
+        "GraphPos": [
+            4966,
+            54375
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2482,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1863",
+        "Incoming": [
+            2481
+        ],
+        "Outgoing": [
+            2486
+        ],
+        "GraphPos": [
+            5293,
+            54373
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2483,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1864",
+        "Incoming": [
+            2480
+        ],
+        "Outgoing": [
+            2484
+        ],
+        "GraphPos": [
+            5297,
+            54242
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2484,
+        "Incoming": [
+            2483
+        ],
+        "GraphPos": [
+            5627,
+            54245
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2485,
+        "Content": "RoatheFamilyDelay",
+        "Incoming": [
+            2428
+        ],
+        "Outgoing": [
+            2430
+        ],
+        "GraphPos": [
+            7258,
+            52905
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 2486,
+        "Content": "LyonFamilySuccess",
+        "Incoming": [
+            2482
+        ],
+        "Outgoing": [
+            2489
+        ],
+        "GraphPos": [
+            5642,
+            54370
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2487,
+        "Content": "MarieFamilyFail",
+        "Incoming": [
+            2490
+        ],
+        "Outgoing": [
+            2492
+        ],
+        "GraphPos": [
+            6609,
+            54369
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2488,
+        "Content": "LyonFamilyFail",
+        "Incoming": [
+            2492
+        ],
+        "Outgoing": [
+            2493
+        ],
+        "GraphPos": [
+            7287,
+            54369
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 2489,
+        "Content": "RoatheFamilySuccess",
+        "Incoming": [
+            2486
+        ],
+        "Outgoing": [
+            2490
+        ],
+        "GraphPos": [
+            5964,
+            54369
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SetBooleanDialogueNode",
+        "Id": 2490,
+        "Content": "MarieFamilySuccess",
+        "Incoming": [
+            2489
+        ],
+        "Outgoing": [
+            2487
+        ],
+        "GraphPos": [
+            6289,
+            54370
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2491,
+        "Incoming": [
+            2493
+        ],
+        "GraphPos": [
+            7962,
+            54375
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2492,
+        "Content": "RoatheFamilyFail",
+        "Incoming": [
+            2487
+        ],
+        "Outgoing": [
+            2488
+        ],
+        "GraphPos": [
+            6949,
+            54368
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/ResetBooleanDialogueNode",
+        "Id": 2493,
+        "Content": "RoatheFamilyDelay",
+        "Incoming": [
+            2488
+        ],
+        "Outgoing": [
+            2491
+        ],
+        "GraphPos": [
+            7620,
+            54372
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2494,
+        "Incoming": [
+            2495
+        ],
+        "GraphPos": [
+            5725,
+            45344
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/SpecialCompletionDialogueNode",
+        "Id": 2495,
+        "Content": "MarieRoatheFail",
+        "Incoming": [
+            2498
+        ],
+        "Outgoing": [
+            2494
+        ],
+        "GraphPos": [
+            5360,
+            45342
+        ],
+        "CompletionType": 2,
+        "OtherDialogueInfos": [
+            {
+                "Dialogue": "/Lotus/Types/Gameplay/1999Wf/Dialogue/RoatheDialogue_rom.dialogue",
+                "Tag": "RoatheRepair",
+                "Value": 0
+            }
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "Id": 2496,
+        "Content": "MarieRoatheFailFix",
+        "Incoming": [
+            2286
+        ],
+        "GraphPos": [
+            4319,
+            45489
+        ],
+        "TrueNodes": [
+            2497
+        ],
+        "FalseNodes": [
+            2284
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2497,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRoatheFail_1865",
+        "Incoming": [
+            2496
+        ],
+        "Outgoing": [
+            2498
+        ],
+        "GraphPos": [
+            4700,
+            45340
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2498,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRoatheFail_1866",
+        "Incoming": [
+            2497
+        ],
+        "Outgoing": [
+            2495
+        ],
+        "GraphPos": [
+            5030,
+            45344
         ]
     }
 ]

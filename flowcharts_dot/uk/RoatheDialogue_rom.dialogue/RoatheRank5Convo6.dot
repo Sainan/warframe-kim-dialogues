@@ -4,7 +4,16 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"RoatheRank5Convo6 begins." [color=orange];
-		"RoatheRank5Convo6 begins." -> j2871217266;
+		"RoatheRank5Convo6 begins." -> j619231055;
+	j619231055 [label="Boolean RoatheIgnored is now false.",color=orange];
+		j619231055 -> j1082874834;
+	j1082874834 [label="Evaluate expressions",color=orange];
+		j1082874834 -> "Chat ends." [label="RoatheFailNot21",color=purple];
+		j1082874834 -> "Chat ends." [label="RoatheFailUltimate",color=purple];
+		j1082874834 -> "Chat ends." [label="RoatheFailStall",color=purple];
+		j1082874834 -> "Chat ends." [label="RoatheFail",color=purple];
+		j1082874834 -> j2871217266 [label="false",color=purple];
+	"Chat ends." [color=orange];
 	j2871217266 [label="Evaluate expressions on HellStory counter",color=orange];
 		j2871217266 -> j2207709993 [label="x >= 21",color=purple];
 		j2871217266 -> j4128763422 [label="x >= 21",color=purple];
@@ -20,7 +29,6 @@ digraph {
 		j819583825 -> j2813753334;
 	j1478915251 [label="[Завершити розмову]",shape=box,color=red];
 		j1478915251 -> "Chat ends.";
-	"Chat ends." [color=orange];
 	j342253044 [label="Evaluate expressions",color=orange];
 		j342253044 -> j95744273 [label="RoatheDating",color=purple];
 		j342253044 -> j3866041223 [label="MarieDating",color=purple];

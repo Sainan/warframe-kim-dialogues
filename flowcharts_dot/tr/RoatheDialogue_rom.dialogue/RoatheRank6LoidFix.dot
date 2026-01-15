@@ -1,0 +1,42 @@
+digraph {
+	graph [fontname="Roboto Condensed"];
+	node [fontname="Roboto Condensed"];
+	edge [fontname="Roboto Condensed"];
+
+	"RoatheRank6LoidFix begins." [color=orange];
+		"RoatheRank6LoidFix begins." -> j1064057012;
+	j1064057012 [label="Check boolean RoatheFamilyDelay",color=orange];
+		j1064057012 -> j1353499062 [label=true,color=green];
+		j1064057012 -> "Chat ends." [label=false,color=brown];
+	j1353499062 [label="Check boolean RoatheFamilySuccess",color=orange];
+		j1353499062 -> "Chat ends." [label=true,color=green];
+		j1353499062 -> j603397494 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j603397494 [label="Check boolean RoatheFamilyComplete",color=orange];
+		j603397494 -> "Chat ends." [label=true,color=green];
+		j603397494 -> j12822055 [label=false,color=brown];
+	j12822055 [label="Check boolean LoidFamilyComplete",color=orange];
+		j12822055 -> "Chat ends." [label=true,color=green];
+		j12822055 -> j4228168744 [label=false,color=brown];
+	j4228168744 [label="Loid ile ilgili bir sonraki adım ne olacak?",shape=box,color=red];
+		j4228168744 -> j2435650642;
+	j2435650642 [label="Nefes almaya bile vaktimiz yok mu? Evet haklısın, elbette yok. Yapacak çok işimiz var.",shape=box,color=blue];
+		j2435650642 -> j4093330433;
+	j4093330433 [label="Ve \"işimiz\" derken \"benim işimi\" kastediyorum.",shape=box,color=blue];
+		j4093330433 -> j1794188659;
+		j4093330433 -> j2520731804;
+	j1794188659 [label="Onu ikna ettiğini nasıl anlarım?",shape=box,color=red];
+		j1794188659 -> j2186976949;
+	j2520731804 [label="Lütfen ona karşı nazik ol.",shape=box,color=red];
+		j2520731804 -> j4049756698;
+	j2186976949 [label="Onu ikna ettiğimde uşak büyük ihtimalle kızgın olacaktır. Eminim ki bunu ilk bilen sen olacaksın. Sızlanmadan duramayacaktır.",shape=box,color=blue];
+		j2186976949 -> j279557713;
+	j4049756698 [label="Onu incitmeyeceğim! Sadece kelimelerimi kullanacağım, yemin ederim. Ama anlatış şekline bakılırsa, bu onun için korkunç bir deneyim olacak.",shape=box,color=blue];
+		j4049756698 -> j2018813820;
+	j279557713 [label="Her iki durumda da oldukça muhteşem bir gösteri olacak.",shape=box,color=blue];
+		j279557713 -> j1553584837;
+	j2018813820 [label="Eminim ki bunu ilk bilen sen olacaksın. Sızlanmadan duramayacaktır.",shape=box,color=blue];
+		j2018813820 -> j279557713;
+	j1553584837 [label="Boolean RoatheFamilySuccess is now true.",color=orange];
+		j1553584837 -> "Chat ends.";
+}

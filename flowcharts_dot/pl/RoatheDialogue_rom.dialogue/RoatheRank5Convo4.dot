@@ -4,7 +4,16 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"RoatheRank5Convo4 begins." [color=orange];
-		"RoatheRank5Convo4 begins." -> j2767353605;
+		"RoatheRank5Convo4 begins." -> j352851854;
+	j352851854 [label="Boolean RoatheIgnored is now false.",color=orange];
+		j352851854 -> j2657242501;
+	j2657242501 [label="Evaluate expressions",color=orange];
+		j2657242501 -> "Chat ends." [label="RoatheFailNot21",color=purple];
+		j2657242501 -> "Chat ends." [label="RoatheFailUltimate",color=purple];
+		j2657242501 -> "Chat ends." [label="RoatheFailStall",color=purple];
+		j2657242501 -> "Chat ends." [label="RoatheFail",color=purple];
+		j2657242501 -> j2767353605 [label="false",color=purple];
+	"Chat ends." [color=orange];
 	j2767353605 [label="Evaluate expressions on HellStory counter",color=orange];
 		j2767353605 -> j1931231291 [label="x >= 21",color=purple];
 		j2767353605 -> "Chat ends." [label="x <= 21",color=purple];
@@ -17,7 +26,6 @@ digraph {
 		j1931231291 -> j3827636135 [label="RoatheLyonConfessionDeal,LyonConfessionFail",color=purple];
 		j1931231291 -> j966370654 [label="false",color=purple];
 		j1931231291 -> j386906797 [label="false",color=purple];
-	"Chat ends." [color=orange];
 	j516925753 [label="Boolean RoatheResetDealComplete is now true.",color=orange];
 		j516925753 -> j3412602363;
 	j1906138252 [label="Boolean RoatheResetDealComplete is now true.",color=orange];

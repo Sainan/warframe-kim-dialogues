@@ -4,7 +4,16 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"RoatheRank5Convo3 begins." [color=orange];
-		"RoatheRank5Convo3 begins." -> j1404607447;
+		"RoatheRank5Convo3 begins." -> j3794846348;
+	j3794846348 [label="Boolean RoatheIgnored is now false.",color=orange];
+		j3794846348 -> j277764437;
+	j277764437 [label="Evaluate expressions",color=orange];
+		j277764437 -> "Chat ends." [label="RoatheFailNot21",color=purple];
+		j277764437 -> "Chat ends." [label="RoatheFailUltimate",color=purple];
+		j277764437 -> "Chat ends." [label="RoatheFailStall",color=purple];
+		j277764437 -> "Chat ends." [label="RoatheFail",color=purple];
+		j277764437 -> j1404607447 [label="false",color=purple];
+	"Chat ends." [color=orange];
 	j1404607447 [label="Evaluate expressions on HellStory counter",color=orange];
 		j1404607447 -> j3273115671 [label="x >= 21",color=purple];
 		j1404607447 -> "Chat ends." [label="x <= 21",color=purple];
@@ -21,7 +30,6 @@ digraph {
 		j3273115671 -> j1681291826 [label="IsDating",color=purple];
 		j3273115671 -> j3988543288 [label="false",color=purple];
 		j3273115671 -> j2025973576 [label="false",color=purple];
-	"Chat ends." [color=orange];
 	j1681291826 [label="Artık seni ve içinde bulunduğun bu durumu ne kadar büyüleyici bulduğumu itiraf edebileceğim zaman geldi mi?",shape=box,color=blue];
 		j1681291826 -> j3886240526;
 		j1681291826 -> j2025973576;
@@ -786,11 +794,11 @@ digraph {
 	j4290632032 [label="Elbette hayır! Bunca yüzyılı tek başına geçirdin. Arkadaşın yok. Yoldaşın yok. Eğleniyorsun!",shape=box,color=blue];
 		j4290632032 -> j2955576973;
 	j3575527127 [label="Evaluate expressions",color=orange];
-		j3575527127 -> j3546585918 [label="RoatheUnloved3",color=purple];
+		j3575527127 -> j2661197528 [label="RoatheUnloved3",color=purple];
 		j3575527127 -> j2881152144 [label="RoatheUnloved3",color=purple];
-		j3575527127 -> j3546585918 [label="RoatheUnloved2",color=purple];
+		j3575527127 -> j2661197528 [label="RoatheUnloved2",color=purple];
 		j3575527127 -> j2881152144 [label="RoatheUnloved2",color=purple];
-		j3575527127 -> j3546585918 [label="false",color=purple];
+		j3575527127 -> j2661197528 [label="false",color=purple];
 		j3575527127 -> j1640914134 [label="false",color=purple];
 	j1750242064 [label="Ne kadar tuhaf bir yaratıksın sen. Lezzetli ama bir o kadar da tuhafsın, sevgili Gezgin.",shape=box,color=blue];
 		j1750242064 -> j2513302632;
@@ -826,8 +834,8 @@ digraph {
 		j2955576973 -> j3149446139 [label="RoatheVillain",color=purple];
 		j2955576973 -> j3680034005 [label="RoatheRedeemed",color=purple];
 		j2955576973 -> j3710528065 [label="false",color=purple];
-	j3546585918 [label="Tamam, peki. Kendime yalan söylüyorum ve Protoframe'ler ile sadece sıkıldığım ve yalnız olduğum için vakit geçiriyorum.",shape=box,color=red];
-		j3546585918 -> j2023658457;
+	j2661197528 [label="Tamam, peki. Kendime yalan söylüyorum ve Protoframeler ile sadece sıkıldığım ve yalnız olduğum için vakit geçiriyorum.",shape=box,color=red];
+		j2661197528 -> j2023658457;
 	j2881152144 [label="Roathe. Bana inanmayabilirsin ama ben... Seni seviyorum.",shape=box,color=red];
 		j2881152144 -> j3879453590;
 	j1640914134 [label="Sözleşmemizden geri adım atmaya çalışmıyorum. Sadece sana gerçekten değer verdiğimi söylüyorum.",shape=box,color=red];

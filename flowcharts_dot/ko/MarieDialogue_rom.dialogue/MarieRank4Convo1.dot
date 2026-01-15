@@ -4,8 +4,10 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"MarieRank4Convo1 begins." [color=orange];
-		"MarieRank4Convo1 begins." -> j4026651499;
-		"MarieRank4Convo1 begins." -> j3039724897;
+		"MarieRank4Convo1 begins." -> j1807505364;
+	j1807505364 [label="Boolean MarieLyonAvailable is now true.",color=orange];
+		j1807505364 -> j4026651499;
+		j1807505364 -> j3039724897;
 	j4026651499 [label="리온을 두렵다고 생각한 적 있어?",shape=box,color=red];
 		j4026651499 -> j136371022;
 	j3039724897 [label="[종료.]",shape=box,color=red];

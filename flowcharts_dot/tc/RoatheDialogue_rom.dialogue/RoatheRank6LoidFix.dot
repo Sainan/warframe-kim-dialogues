@@ -1,0 +1,42 @@
+digraph {
+	graph [fontname="Roboto Condensed"];
+	node [fontname="Roboto Condensed"];
+	edge [fontname="Roboto Condensed"];
+
+	"RoatheRank6LoidFix begins." [color=orange];
+		"RoatheRank6LoidFix begins." -> j1064057012;
+	j1064057012 [label="Check boolean RoatheFamilyDelay",color=orange];
+		j1064057012 -> j1353499062 [label=true,color=green];
+		j1064057012 -> "Chat ends." [label=false,color=brown];
+	j1353499062 [label="Check boolean RoatheFamilySuccess",color=orange];
+		j1353499062 -> "Chat ends." [label=true,color=green];
+		j1353499062 -> j603397494 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j603397494 [label="Check boolean RoatheFamilyComplete",color=orange];
+		j603397494 -> "Chat ends." [label=true,color=green];
+		j603397494 -> j12822055 [label=false,color=brown];
+	j12822055 [label="Check boolean LoidFamilyComplete",color=orange];
+		j12822055 -> "Chat ends." [label=true,color=green];
+		j12822055 -> j3195007046 [label=false,color=brown];
+	j3195007046 [label="Loid 的下一步計畫是什麼？",shape=box,color=red];
+		j3195007046 -> j438787799;
+	j438787799 [label="連喘口氣的時間都沒有，對吧？是的，你說得對。還有一大堆事要忙呢。",shape=box,color=blue];
+		j438787799 -> j970065956;
+	j970065956 [label="「我們」指的是「我」。",shape=box,color=blue];
+		j970065956 -> j2291876599;
+		j970065956 -> j2747122768;
+	j2291876599 [label="我又怎麼知道你什麼時候才說服他？",shape=box,color=red];
+		j2291876599 -> j2154416533;
+	j2747122768 [label="對他手下留情，拜托你。",shape=box,color=red];
+		j2747122768 -> j4209958616;
+	j2154416533 [label="我估計等我說服他之後管家會很生氣。我肯定，你會是第一個知道。他一定會忍不住抱怨個不停。",shape=box,color=blue];
+		j2154416533 -> j3520701224;
+	j4209958616 [label="我不會傷害他！我只會用言語表達，我發誓。不過，以我對他的瞭解，會說成是最惡毒的辱罵。",shape=box,color=blue];
+		j4209958616 -> j1942210111;
+	j3520701224 [label="無論如何，這都將會是一場引人注目的奇觀。",shape=box,color=blue];
+		j3520701224 -> j1553584837;
+	j1942210111 [label="我確信你會是第一個知道的人。他一定會忍不住怨個不停。",shape=box,color=blue];
+		j1942210111 -> j3520701224;
+	j1553584837 [label="Boolean RoatheFamilySuccess is now true.",color=orange];
+		j1553584837 -> "Chat ends.";
+}

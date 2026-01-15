@@ -1,0 +1,42 @@
+digraph {
+	graph [fontname="Roboto Condensed"];
+	node [fontname="Roboto Condensed"];
+	edge [fontname="Roboto Condensed"];
+
+	"RoatheRank6LoidFix begins." [color=orange];
+		"RoatheRank6LoidFix begins." -> j1064057012;
+	j1064057012 [label="Check boolean RoatheFamilyDelay",color=orange];
+		j1064057012 -> j1353499062 [label=true,color=green];
+		j1064057012 -> "Chat ends." [label=false,color=brown];
+	j1353499062 [label="Check boolean RoatheFamilySuccess",color=orange];
+		j1353499062 -> "Chat ends." [label=true,color=green];
+		j1353499062 -> j603397494 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j603397494 [label="Check boolean RoatheFamilyComplete",color=orange];
+		j603397494 -> "Chat ends." [label=true,color=green];
+		j603397494 -> j12822055 [label=false,color=brown];
+	j12822055 [label="Check boolean LoidFamilyComplete",color=orange];
+		j12822055 -> "Chat ends." [label=true,color=green];
+		j12822055 -> j2399894097 [label=false,color=brown];
+	j2399894097 [label="Co dalej z Loidem?",shape=box,color=red];
+		j2399894097 -> j254690152;
+	j254690152 [label="Ani chwili wytchnienia, prawda? Masz rację, rzecz jasna. Czeka nas wiele pracy.",shape=box,color=blue];
+		j254690152 -> j1596822029;
+	j1596822029 [label="A przez \"nas\" mam na myśli \"mnie\".",shape=box,color=blue];
+		j1596822029 -> j2114844654;
+		j1596822029 -> j3865760419;
+	j2114844654 [label="Skąd będę wiedział, że udało ci się go przekonać?",shape=box,color=red];
+		j2114844654 -> j4201893399;
+	j3865760419 [label="Nie zrób mu krzywdy, proszę.",shape=box,color=red];
+		j3865760419 -> j943952456;
+	j4201893399 [label="Jestem pewien, że sługa będzie wkurzony, kiedy już go przekonam. Dowiesz się o tym pierwszy, z pewnością. Nie będzie w stanie powstrzymać się od narzekania.",shape=box,color=blue];
+		j4201893399 -> j609157640;
+	j943952456 [label="Nie mam takiego zamiaru! Wykorzystam tylko moje słowa, przysięgam. Ale w jego przypadku, jestem pewien, że będzie to dla niego najgorsza tortura.",shape=box,color=blue];
+		j943952456 -> j2971418778;
+	j609157640 [label="W każdym razie będzie to widowiskowe.",shape=box,color=blue];
+		j609157640 -> j1553584837;
+	j2971418778 [label="Jestem pewien, że dowiesz się o tym pierwszy. Nie będzie w stanie powstrzymać się od narzekania.",shape=box,color=blue];
+		j2971418778 -> j609157640;
+	j1553584837 [label="Boolean RoatheFamilySuccess is now true.",color=orange];
+		j1553584837 -> "Chat ends.";
+}

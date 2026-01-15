@@ -49,8 +49,8 @@ digraph {
 	j3439778576 [label="Oui, 당신은 그런 걸 더 선호하는 것 같지만요, non ? 하 ! 개인적으론 악마를 그런 식으로 상상하고 싶지 않으니까 - 신경쓰지 마세요 ! 제가 말하러 온 건 그런 게 아니에요.",shape=box,color=blue];
 		j3439778576 -> j3470333215;
 	j1864957210 [label="Evaluate expressions",color=orange];
-		j1864957210 -> j920172875 [label="RoatheDating",color=purple];
-		j1864957210 -> j920172875 [label="LyonDating",color=purple];
+		j1864957210 -> j4241796130 [label="RoatheDating",color=purple];
+		j1864957210 -> j4241796130 [label="LyonDating",color=purple];
 		j1864957210 -> j2782906334 [label="IsDating",color=purple];
 		j1864957210 -> j1790714327 [label="false",color=purple];
 	j951881375 [label="우리가 함께 보낸 시간이 얼마나 많았는지 생각해 보세요. 당신이 살아온 세월을 크게 본다면 이게 얼마나 짧은지를 말이에요.",shape=box,color=blue];
@@ -70,8 +70,8 @@ digraph {
 		j3470333215 -> j250125423 [label="RoatheVillain",color=purple];
 		j3470333215 -> j812905212 [label="RoatheHellComplete",color=purple];
 		j3470333215 -> j3905211376 [label="false",color=purple];
-	j920172875 [label="저번에 저에 대한 감정이 있다고 말씀하셨던 걸 알아요. 하지만 이제 다른 이와 함께하는 걸 보고 있죠. 그저 당신이 행복해보여서 기쁘다는 말을 전하고 싶었어 !",shape=box,color=blue];
-		j920172875 -> j2635459730;
+	j4241796130 [label="한때 제게 마음이 있으시다 말씀하셨지요. 하지만, 이젠 당신이 다른 사람과 함께하는 모습을 보게 되네요. 그저 당신이 행복해보이셔서 기쁘다는 말을 하고 싶었어요 !",shape=box,color=blue];
+		j4241796130 -> j2635459730;
 	j2782906334 [label="저번에 한 번 말씀하셨죠... 오, 어찌 말을 꺼내야 할지 모르겠네요. 그... 당신이 저한테 감정이 있다고요. 하지만 당신이 다른 이에 감정을 가지고 있다는 걸 알아요.",shape=box,color=blue];
 		j2782906334 -> j1610478524;
 		j2782906334 -> j2594570680;
@@ -103,7 +103,7 @@ digraph {
 		j3905211376 -> j164661609;
 	j2635459730 [label="당신들에 대해서 악의를 품고 있지 않으며 오직 당신들 둘에 대한 joie만을 가지고 있습니다, oui ?",shape=box,color=blue];
 		j2635459730 -> j2234193794;
-		j2635459730 -> j1839905660;
+		j2635459730 -> j369417468;
 	j1610478524 [label="상황이 바뀌었어. 그리고... 그 다른 상대에게 충실해야 할 것 같아. 미안.",shape=box,color=red];
 		j1610478524 -> j2857417535;
 	j2594570680 [label="믿기 힘들 수도 있고, 어쩌면 받아들이기 힘들 수도 있다는 거 알아. 하지만... 당신을 사랑해. 그리고 다른 상대도 사랑하고. 똑같이 말이야.",shape=box,color=red];
@@ -130,8 +130,8 @@ digraph {
 		j164661609 -> j2128122945;
 	j2234193794 [label="하지만... 만약 ",shape=box,color=red];
 		j2234193794 -> j654158927;
-	j1839905660 [label="나도 당신에게 마음이 있어, 마리.",shape=box,color=red];
-		j1839905660 -> j798847334;
+	j369417468 [label="난 당신에게도 마음이 있어, 마리.",shape=box,color=red];
+		j369417468 -> j2819246449;
 	j2857417535 [label="Oui, 이해합니다. 물론이죠. 이해해요 ! 영혼을 따르는 당신을 어찌 비난할 수 있겠나요 ?",shape=box,color=blue];
 		j2857417535 -> j2929536347;
 	j3734127592 [label="Evaluate expressions",color=orange];
@@ -160,8 +160,8 @@ digraph {
 		j2128122945 -> j893257492;
 	j654158927 [label="대신에요 ? 그럼... 먼저 당신 마음의 타래를 풀어야 할 것 같군요, 드리프터. 그건 제가 대신 해드릴 수 없습니다.",shape=box,color=blue];
 		j654158927 -> j3699890413;
-	j798847334 [label="그리고 그럴 수도 있겠네요. 저는 질투심 많은 사람이 아니지만, 제가 모르는 누군가가 제 마음이 향하는 이를 사로잡았다는 걸 아는 건 정말 중요한 일이니까요 -",shape=box,color=blue];
-		j798847334 -> j2320651874;
+	j2819246449 [label="그럴 수도 있겠지요. 다만 제가 질투 심한 사람이 아니라 해도, 당신의 마음을 사로잡은 다른 누군가가 제가 모르는 사람인 경우와 -",shape=box,color=blue];
+		j2819246449 -> j3618713401;
 	j2929536347 [label="+10 Chemistry",color=orange];
 		j2929536347 -> j4121460860;
 	j628794134 [label="저는 - 오! 오, mon coeur !",shape=box,color=blue];
@@ -189,8 +189,8 @@ digraph {
 	j3699890413 [label="Evaluate expressions",color=orange];
 		j3699890413 -> j3591744434 [label="LyonDating",color=purple];
 		j3699890413 -> j2789955705 [label="RoatheDating",color=purple];
-	j2320651874 [label="하지만 그 상대가 제 영혼의 형제인지, 아니면 제가 매일 싸워야 하는 악마인지는 별개의 문제에요.",shape=box,color=blue];
-		j2320651874 -> j4251316643;
+	j3618713401 [label="그 사람이 제 영혼의 형제거나, 제가 매일 티격태격해야 하는 악마인 경우는 다른 문제라서요.",shape=box,color=blue];
+		j3618713401 -> j4251316643;
 	j4121460860 [label="솔께서 당신과 당신의 마음을 축복하시길. 전 당신이 친구라고 부르는 이들 중 한 명이 되어서 정말 행복해요 !",shape=box,color=blue];
 		j4121460860 -> j1860763442;
 	j2063280221 [label="그저... 당신을 믿는다는 것 외에 무슨 말을 해야할지 모르겠네요. 그리고... 저도 같은 마음이에요. Mon coeur t'appartient depuis notre première rencontre.",shape=box,color=blue];

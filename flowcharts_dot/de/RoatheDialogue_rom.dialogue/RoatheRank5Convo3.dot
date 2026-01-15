@@ -4,7 +4,16 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"RoatheRank5Convo3 begins." [color=orange];
-		"RoatheRank5Convo3 begins." -> j1404607447;
+		"RoatheRank5Convo3 begins." -> j3794846348;
+	j3794846348 [label="Boolean RoatheIgnored is now false.",color=orange];
+		j3794846348 -> j277764437;
+	j277764437 [label="Evaluate expressions",color=orange];
+		j277764437 -> "Chat ends." [label="RoatheFailNot21",color=purple];
+		j277764437 -> "Chat ends." [label="RoatheFailUltimate",color=purple];
+		j277764437 -> "Chat ends." [label="RoatheFailStall",color=purple];
+		j277764437 -> "Chat ends." [label="RoatheFail",color=purple];
+		j277764437 -> j1404607447 [label="false",color=purple];
+	"Chat ends." [color=orange];
 	j1404607447 [label="Evaluate expressions on HellStory counter",color=orange];
 		j1404607447 -> j3273115671 [label="x >= 21",color=purple];
 		j1404607447 -> "Chat ends." [label="x <= 21",color=purple];
@@ -21,7 +30,6 @@ digraph {
 		j3273115671 -> j3816975487 [label="IsDating",color=purple];
 		j3273115671 -> j2864471048 [label="false",color=purple];
 		j3273115671 -> j129698615 [label="false",color=purple];
-	"Chat ends." [color=orange];
 	j3816975487 [label="Ist jetzt der Zeitpunkt gekommen, an dem ich endlich gestehen kann, wie unglaublich faszinierend ich dich und diese Situation, in der du dich befindest, finde?",shape=box,color=blue];
 		j3816975487 -> j1933000424;
 		j3816975487 -> j129698615;

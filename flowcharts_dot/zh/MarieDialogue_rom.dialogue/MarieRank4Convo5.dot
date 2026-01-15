@@ -4,7 +4,9 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"MarieRank4Convo5 begins." [color=orange];
-		"MarieRank4Convo5 begins." -> j1316635360;
+		"MarieRank4Convo5 begins." -> j437277583;
+	j437277583 [label="Boolean MarieLyonAvailable is now true.",color=orange];
+		j437277583 -> j1316635360;
 	j1316635360 [label="Evaluate expressions",color=orange];
 		j1316635360 -> j3680727912 [label="LoidFamilyComplete",color=purple];
 		j1316635360 -> j3766718224 [label="MarieFamilyOther",color=purple];
@@ -12,7 +14,7 @@ digraph {
 		j1316635360 -> j436396400 [label="MarieFamily1",color=purple];
 		j1316635360 -> j1845397173 [label="false",color=purple];
 	j3680727912 [label="漂泊者 ！我一直在谋划。",shape=box,color=blue];
-		j3680727912 -> j3696322345;
+		j3680727912 -> j3355579136;
 		j3680727912 -> j1038552372;
 	j3766718224 [label="漂泊者 ！我一直在想，琢磨着你说的那些关于楼上那家人的话。他们可能会把我们当成闯入者什么的。",shape=box,color=blue];
 		j3766718224 -> j4080180068;
@@ -21,8 +23,8 @@ digraph {
 	j1845397173 [label="为什么我们不能去楼上 ？为什么我们不能和那些主教的 famille 说话 ？",shape=box,color=blue];
 		j1845397173 -> j2013391633;
 		j1845397173 -> j1038552372;
-	j3696322345 [label="我应该开始担心吗 ？",shape=box,color=red];
-		j3696322345 -> j61392362;
+	j3355579136 [label="我应该开始担心吗 ？",shape=box,color=red];
+		j3355579136 -> j2353988263;
 	j1038552372 [label="[结束]",shape=box,color=red];
 		j1038552372 -> "Chat ends.";
 	j4080180068 [label="作为 compétition 中的“另一个家庭”，oui ？这让我很困扰。",shape=box,color=blue];
@@ -32,8 +34,8 @@ digraph {
 		j1000557311 -> j3642914 [label=false,color=brown];
 	j2013391633 [label="嗯……简而言之，英择谛家族有几位在楼上，而他们……完全不知道我们就在楼下。",shape=box,color=red];
 		j2013391633 -> j1227332441;
-	j61392362 [label="Oui ！那些飞来飞去的小机器人。殁世……殁世……你管他们叫什么 ?",shape=box,color=blue];
-		j61392362 -> j3049800667;
+	j2353988263 [label="Oui ！那些飞来飞去的小机器人。殁世……殁世……你管他们叫什么 ?",shape=box,color=blue];
+		j2353988263 -> j1116211204;
 	"Chat ends." [color=orange];
 	j1681302097 [label="我们不是来抢主教的爱，我们该怎么让他们明白这一点呢 ？",shape=box,color=blue];
 		j1681302097 -> j3962190319;
@@ -44,8 +46,8 @@ digraph {
 		j3642914 -> j927981519 [label=false,color=brown];
 	j1227332441 [label="Boolean MarieFamily1 is now true.",color=orange];
 		j1227332441 -> j2967879603;
-	j3049800667 [label="殁世微灵 ?",shape=box,color=red];
-		j3049800667 -> j1298682163;
+	j1116211204 [label="殁世微灵 ?",shape=box,color=red];
+		j1116211204 -> j3248143233;
 	j3962190319 [label="你说得对。你没法去争取一个人根本就没有的东西。",shape=box,color=red];
 		j3962190319 -> j380005824;
 	j1611487104 [label="揭开那些结痂的伤口很危险。你可能会清除掉感染……也可能因此失血过多。",shape=box,color=red];
@@ -59,8 +61,8 @@ digraph {
 		j927981519 -> j1038552372;
 	j2967879603 [label="Par les Luminaires……你是说我们都在这里秘密活动 ？！所以才不让我们离开这里 ？！Mais pourquoi ？！",shape=box,color=blue];
 		j2967879603 -> j858278087;
-	j1298682163 [label="Oui ！哈 ！他们总是执着地要换家具，不是吗 ？可我发现，就算你挪动一下位置……他们还是会照样干同样的事。",shape=box,color=blue];
-		j1298682163 -> j3560835919;
+	j3248143233 [label="Oui ！哈 ！他们总是执着地要换家具，不是吗 ？可我发现，就算你挪动一下位置……他们还是会照样干同样的事。",shape=box,color=blue];
+		j3248143233 -> j4071426543;
 	j380005824 [label="Evaluate expressions",color=orange];
 		j380005824 -> j949241298 [label="MarieEntrati3a",color=purple];
 		j380005824 -> j949241298 [label="MarieEntrati3b",color=purple];
@@ -102,10 +104,10 @@ digraph {
 		j1897580892 -> j3298227091;
 	j858278087 [label="是因为他的女儿欧拉瑞娅——人称“母亲”，以及她的家人，一直都在照顾着火卫二。",shape=box,color=red];
 		j858278087 -> j3382264515;
-	j3560835919 [label="要是我们干脆把所有家具都搬走，让他们再去换一遍，然后……再来一次呢 ？我们还能把那些东西都卖掉，赚一笔 de ce mobilier étrange ! ",shape=box,color=blue];
-		j3560835919 -> j66860200;
-		j3560835919 -> j2171992054;
-		j3560835919 -> j4254410165;
+	j4071426543 [label="要是我们干脆把所有家具都搬走，让他们再去换一遍，然后……再来一次呢 ？我们还能把那些东西都卖掉 ！赚一笔 de ce mobilier étrange ！",shape=box,color=blue];
+		j4071426543 -> j66860200;
+		j4071426543 -> j2171992054;
+		j4071426543 -> j4254410165;
 	j949241298 [label="我很清楚我们在主教问题上仍有分歧。但我有在尽力保持这次对话的 civilisée。",shape=box,color=blue];
 		j949241298 -> j1655088434;
 	j2499263280 [label="我理解，如果没有找到机会指责那些你认为应该受到指责的人，你可能不太愿意谈如何修复裂痕。",shape=box,color=blue];

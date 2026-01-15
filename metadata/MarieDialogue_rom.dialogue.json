@@ -4,6 +4,7 @@
     "CharacterName": "/Lotus/Language/1999/MessengerMarieName",
     "LocFile": "/Lotus/Language/1999Texting/MarieRomance.loc",
     "AddPhAutomatically": 0,
+    "DateRank": 5,
     "Icons": [
         {
             "Tag": "Profile",
@@ -236,6 +237,13 @@
                         "\"\""
                     ],
                     "LockConditions": []
+                },
+                {
+                    "LocTag": "/Lotus/Language/1999Texting/Romance/MarieNotesRank5_1",
+                    "UnlockConditions": [],
+                    "LockConditions": [
+                        "MarieIgnored"
+                    ]
                 }
             ],
             "RequiredChemistry": 120,

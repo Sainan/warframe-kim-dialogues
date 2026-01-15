@@ -1,0 +1,42 @@
+digraph {
+	graph [fontname="Roboto Condensed"];
+	node [fontname="Roboto Condensed"];
+	edge [fontname="Roboto Condensed"];
+
+	"RoatheRank6LoidFix begins." [color=orange];
+		"RoatheRank6LoidFix begins." -> j1064057012;
+	j1064057012 [label="Check boolean RoatheFamilyDelay",color=orange];
+		j1064057012 -> j1353499062 [label=true,color=green];
+		j1064057012 -> "Chat ends." [label=false,color=brown];
+	j1353499062 [label="Check boolean RoatheFamilySuccess",color=orange];
+		j1353499062 -> "Chat ends." [label=true,color=green];
+		j1353499062 -> j603397494 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j603397494 [label="Check boolean RoatheFamilyComplete",color=orange];
+		j603397494 -> "Chat ends." [label=true,color=green];
+		j603397494 -> j12822055 [label=false,color=brown];
+	j12822055 [label="Check boolean LoidFamilyComplete",color=orange];
+		j12822055 -> "Chat ends." [label=true,color=green];
+		j12822055 -> j4039570830 [label=false,color=brown];
+	j4039570830 [label="Quelle est la prochaine étape avec Loid?",shape=box,color=red];
+		j4039570830 -> j4102529753;
+	j4102529753 [label="Pas une minute pour souffler, hein? Oui, tu as raison, bien sûr. Nous avons beaucoup de travail.",shape=box,color=blue];
+		j4102529753 -> j1568296777;
+	j1568296777 [label="Et par \"nous\", je veux dire \"moi\".",shape=box,color=blue];
+		j1568296777 -> j2042887602;
+		j1568296777 -> j2912698671;
+	j2042887602 [label="Comment saurai-je quand tu l'auras convaincu?",shape=box,color=red];
+		j2042887602 -> j3149091311;
+	j2912698671 [label="Vas-y doucement avec lui, s'il te plaît.",shape=box,color=red];
+		j2912698671 -> j2565717690;
+	j3149091311 [label="Je m'attends à ce que le majordome soit furieux une fois que j'aurai réussi à le convaincre. Tu seras la première personne au courant, j'en suis sûr. Il ne pourra s'empêcher de se plaindre.",shape=box,color=blue];
+		j3149091311 -> j719810362;
+	j2565717690 [label="Je ne vais pas lui faire de mal! Je vais simplement m'exprimer, je te le jure. Mais quand il le racontera, je suis sûr que ce sera le pire du pire.",shape=box,color=blue];
+		j2565717690 -> j363740580;
+	j719810362 [label="Ce sera un spectacle impressionnant dans tous les cas.",shape=box,color=blue];
+		j719810362 -> j1553584837;
+	j363740580 [label="Je suis certain que tu seras la première personne informée. Il ne pourra pas s'empêcher de se plaindre.",shape=box,color=blue];
+		j363740580 -> j719810362;
+	j1553584837 [label="Boolean RoatheFamilySuccess is now true.",color=orange];
+		j1553584837 -> "Chat ends.";
+}

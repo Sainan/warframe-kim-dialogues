@@ -4,7 +4,9 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"MarieRank4Convo5 begins." [color=orange];
-		"MarieRank4Convo5 begins." -> j1316635360;
+		"MarieRank4Convo5 begins." -> j437277583;
+	j437277583 [label="Boolean MarieLyonAvailable is now true.",color=orange];
+		j437277583 -> j1316635360;
 	j1316635360 [label="Evaluate expressions",color=orange];
 		j1316635360 -> j2257138603 [label="LoidFamilyComplete",color=purple];
 		j1316635360 -> j3563403037 [label="MarieFamilyOther",color=purple];

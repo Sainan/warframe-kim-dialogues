@@ -33,7 +33,7 @@ digraph {
 		j1707336315 -> j3983601407;
 		j1707336315 -> j1328247716;
 	j4162556790 [label="Oh, mon cœur, qué pregunta tan amable... pero como siempre, me temo que es... solo una cuestión de comparación. Pero sabes lo que eso significa, estoy segura, oui ?",shape=box,color=blue];
-		j4162556790 -> j3890794972;
+		j4162556790 -> j2975044259;
 		j4162556790 -> j1728137790;
 	j2465063989 [label="Oh, mon cœur, qué amable pregunta... pero como siempre, me temo que... es solo una cuestión de comparación.",shape=box,color=blue];
 		j2465063989 -> j158798233;
@@ -43,13 +43,13 @@ digraph {
 	j1328247716 [label="Está bien, si estás segura.",shape=box,color=red];
 		j1328247716 -> j2524959644;
 	j2043198109 [label="Oh, qué pregunta tan amable... pero como siempre, me temo que es... solo una cuestión de comparación. Pero sabes lo que eso significa, estoy segura, oui ?",shape=box,color=blue];
-		j2043198109 -> j3890794972;
+		j2043198109 -> j2975044259;
 		j2043198109 -> j1728137790;
 	j204362335 [label="Oh, qué amable pregunta... pero como siempre, me temo que... es solo una cuestión de comparación.",shape=box,color=blue];
 		j204362335 -> j158798233;
 		j204362335 -> j254797553;
-	j3890794972 [label="Lo siento si al preguntarte te causé dolor.",shape=box,color=red];
-		j3890794972 -> j1200023802;
+	j2975044259 [label="Lo siento si al preguntarte te causé dolor.",shape=box,color=red];
+		j2975044259 -> j453478786;
 	j1728137790 [label="¿Hay algo que pueda hacer para que te sientas mejor o para que te olvides de ello?",shape=box,color=red];
 		j1728137790 -> j92097538;
 	j158798233 [label="Oh, lo siento... ¿te duele mucho hoy? ",shape=box,color=red];
@@ -60,8 +60,8 @@ digraph {
 		j3379216819 -> j3359734167;
 	j2524959644 [label="+10 Chemistry",color=orange];
 		j2524959644 -> j4114927712;
-	j1200023802 [label="+10 Chemistry",color=orange];
-		j1200023802 -> j679174796;
+	j453478786 [label="+10 Chemistry",color=orange];
+		j453478786 -> j863834775;
 	j92097538 [label="+10 Chemistry",color=orange];
 		j92097538 -> j3255681136;
 	j3174889217 [label="Oui, me temo que sí. La mente es algo verdaderamente maravilloso. Me parece fascinante que duelan siempre, todo el tiempo, y sin embargo he aprendido a simplemente ignorarlas.",shape=box,color=blue];
@@ -78,8 +78,8 @@ digraph {
 		j3359734167 -> j2432171184;
 	j4114927712 [label="Oui, estoy bien, te lo aseguro. Pero gracias. Agradezco tu preocupación.",shape=box,color=blue];
 		j4114927712 -> "Chat ends.";
-	j679174796 [label="¡Ja! Qué curioso, non ? Tienes razón. No estaba pensando en mis pies, pero ahora sí y me duelen. ",shape=box,color=blue];
-		j679174796 -> j1050484754;
+	j863834775 [label="¡Ja! Qué curioso, non ? Tienes razón. No estaba pensando en mes pieds, pero ahora sí y me duelen. ",shape=box,color=blue];
+		j863834775 -> j1050484754;
 	j3255681136 [label="Oui ! Lo estás haciendo ahora mismo hablando conmigo. La mente es algo maravilloso, ¿verdad? Creo que mis pies deben dolerme constantemente, pero he aprendido a ignorarlos.",shape=box,color=blue];
 		j3255681136 -> j612284380;
 		j3255681136 -> j2377206316;
@@ -196,7 +196,7 @@ digraph {
 		j4104316599 -> j4273979420;
 	j2639702498 [label="Siempre me duelen. Siempre. Incluso ahora, sentada aquí, si pienso en ellos, siento el dolor. Pero no siempre es lo suficiente para notarlo.",shape=box,color=blue];
 		j2639702498 -> j1728137790;
-		j2639702498 -> j3890794972;
+		j2639702498 -> j2975044259;
 	j1968258173 [label="Como una pequeña abeille que se posa sobre nosotros y nos pica a diario. No lo suficiente como para destruirnos, solo lo suficiente para molestarnos.",shape=box,color=blue];
 		j1968258173 -> j4273979420;
 		j1968258173 -> j1035512624;
@@ -220,7 +220,7 @@ digraph {
 	j2427033551 [label="Evaluate expressions",color=orange];
 		j2427033551 -> j3411362682 [label="DrifterFaithStop",color=purple];
 		j2427033551 -> j4246308303 [label="DrifterFaithYesSimilar",color=purple];
-		j2427033551 -> j2030636273 [label="DrifterFaithYesForeign",color=purple];
+		j2427033551 -> j2413869781 [label="DrifterFaithYesForeign",color=purple];
 		j2427033551 -> j4170598820 [label="DrifterFaithPersonal",color=purple];
 		j2427033551 -> j3290894662 [label="DrifterFaithSol",color=purple];
 		j2427033551 -> j4178315528 [label="DrifterFaithLua",color=purple];
@@ -238,8 +238,8 @@ digraph {
 		j3411362682 -> j2548984291;
 	j4246308303 [label="Sé que nuestras creencias son similares, así que diré que... Sol consideró oportuno crearme tal y como soy, y debo tener fe en su creación, non ? Aunque mi perspectiva sea limitada, me pregunto si no podrías considerar lo mismo sobre ti.",shape=box,color=blue];
 		j4246308303 -> j2548984291;
-	j2030636273 [label="Sé que nuestras creencias son distintas, así que no hablaré de lo que desconozco. Simplemente diré que Sol decidió crearme tal y como soy, y debo tener fe en su creación, non ? Aunque desde mi limitada perspectiva pueda parecer imperfecta. Me pregunto si no podrías considerar lo mismo.",shape=box,color=blue];
-		j2030636273 -> j2548984291;
+	j2413869781 [label="Sé que nuestras creencias son distintas, así que no hablaré de lo que desconozco. Simplemente diré que Sol decidió crearme tal y como soy y debo tener fe en su creación, non ? Aunque desde mi limitada perspectiva pueda parecer imperfecta. Me pregunto si no podrías considerar lo mismo.",shape=box,color=blue];
+		j2413869781 -> j2548984291;
 	j4170598820 [label="Sé que tu fe es algo privado y no me entrometeré. Simplemente diré que Sol decidió crearme tal y como soy, y debo tener fe en su creación, non ? Aunque desde mi limitada perspectiva pueda parecer imperfecta. Me pregunto si no podrías considerar lo mismo.",shape=box,color=blue];
 		j4170598820 -> j2548984291;
 	j3290894662 [label="Sol decidió crearnos a ambos tal y como somos, y debemos tener fe en su creación, non ? Por imperfecta que nos parezca desde nuestra limitada perspectiva.",shape=box,color=blue];

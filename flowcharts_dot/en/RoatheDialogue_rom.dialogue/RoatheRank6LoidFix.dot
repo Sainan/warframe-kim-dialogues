@@ -1,0 +1,42 @@
+digraph {
+	graph [fontname="Roboto Condensed"];
+	node [fontname="Roboto Condensed"];
+	edge [fontname="Roboto Condensed"];
+
+	"RoatheRank6LoidFix begins." [color=orange];
+		"RoatheRank6LoidFix begins." -> j1064057012;
+	j1064057012 [label="Check boolean RoatheFamilyDelay",color=orange];
+		j1064057012 -> j1353499062 [label=true,color=green];
+		j1064057012 -> "Chat ends." [label=false,color=brown];
+	j1353499062 [label="Check boolean RoatheFamilySuccess",color=orange];
+		j1353499062 -> "Chat ends." [label=true,color=green];
+		j1353499062 -> j603397494 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j603397494 [label="Check boolean RoatheFamilyComplete",color=orange];
+		j603397494 -> "Chat ends." [label=true,color=green];
+		j603397494 -> j12822055 [label=false,color=brown];
+	j12822055 [label="Check boolean LoidFamilyComplete",color=orange];
+		j12822055 -> "Chat ends." [label=true,color=green];
+		j12822055 -> j4222538813 [label=false,color=brown];
+	j4222538813 [label="What's the next step with Loid?",shape=box,color=red];
+		j4222538813 -> j1942550730;
+	j1942550730 [label="Nary a moment to breathe, eh? Yes, you are right, of course. We have much work to do.",shape=box,color=blue];
+		j1942550730 -> j1012518;
+	j1012518 [label="And by \"we\" I mean \"me.\"",shape=box,color=blue];
+		j1012518 -> j3048493211;
+		j1012518 -> j1302928864;
+	j3048493211 [label="How will I know when you're done convincing him?",shape=box,color=red];
+		j3048493211 -> j427254251;
+	j1302928864 [label="Go easy on him, please.",shape=box,color=red];
+		j1302928864 -> j91417040;
+	j427254251 [label="I expect the butler will be cross once I am done convincing him. You will be the first to know, I am sure. He will be unable to contain his whinging.",shape=box,color=blue];
+		j427254251 -> j4061397734;
+	j91417040 [label="I am not going to hurt him! I am merely going to use my words, I swear it. Though from the way I am certain he will tell it, it will be the worst of abuses.",shape=box,color=blue];
+		j91417040 -> j4172516343;
+	j4061397734 [label="This is going to be quite the spectacle either way.",shape=box,color=blue];
+		j4061397734 -> j1553584837;
+	j4172516343 [label="I am certain you will be the first to know. He will be unable to contain his whinging.",shape=box,color=blue];
+		j4172516343 -> j4061397734;
+	j1553584837 [label="Boolean RoatheFamilySuccess is now true.",color=orange];
+		j1553584837 -> "Chat ends.";
+}

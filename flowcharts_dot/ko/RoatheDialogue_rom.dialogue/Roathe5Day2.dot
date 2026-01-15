@@ -4,7 +4,9 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"Roathe5Day2 begins." [color=orange];
-		"Roathe5Day2 begins." -> j3788948842;
+		"Roathe5Day2 begins." -> j1382644800;
+	j1382644800 [label="Boolean RoatheIgnored is now false.",color=orange];
+		j1382644800 -> j3788948842;
 	j3788948842 [label="Evaluate expressions",color=orange];
 		j3788948842 -> j523303136 [label="RoatheRedeemed",color=purple];
 		j3788948842 -> j3197767436 [label="RoatheVillain",color=purple];

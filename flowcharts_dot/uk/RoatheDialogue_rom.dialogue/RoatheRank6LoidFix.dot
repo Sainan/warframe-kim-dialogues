@@ -1,0 +1,42 @@
+digraph {
+	graph [fontname="Roboto Condensed"];
+	node [fontname="Roboto Condensed"];
+	edge [fontname="Roboto Condensed"];
+
+	"RoatheRank6LoidFix begins." [color=orange];
+		"RoatheRank6LoidFix begins." -> j1064057012;
+	j1064057012 [label="Check boolean RoatheFamilyDelay",color=orange];
+		j1064057012 -> j1353499062 [label=true,color=green];
+		j1064057012 -> "Chat ends." [label=false,color=brown];
+	j1353499062 [label="Check boolean RoatheFamilySuccess",color=orange];
+		j1353499062 -> "Chat ends." [label=true,color=green];
+		j1353499062 -> j603397494 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j603397494 [label="Check boolean RoatheFamilyComplete",color=orange];
+		j603397494 -> "Chat ends." [label=true,color=green];
+		j603397494 -> j12822055 [label=false,color=brown];
+	j12822055 [label="Check boolean LoidFamilyComplete",color=orange];
+		j12822055 -> "Chat ends." [label=true,color=green];
+		j12822055 -> j863923986 [label=false,color=brown];
+	j863923986 [label="Який наступний крок із Лойдом?",shape=box,color=red];
+		j863923986 -> j1634891253;
+	j1634891253 [label="Нема й коли видихнути, так? Твоя правда, звісно. У нас купа роботи.",shape=box,color=blue];
+		j1634891253 -> j1965959040;
+	j1965959040 [label="І під «у нас» я маю на увазі себе.",shape=box,color=blue];
+		j1965959040 -> j2431815573;
+		j1965959040 -> j117343050;
+	j2431815573 [label="Як я дізнаюся, коли ти закінчиш переконувати його?",shape=box,color=red];
+		j2431815573 -> j3740618622;
+	j117343050 [label="Полегше з ним, будь ласка.",shape=box,color=red];
+		j117343050 -> j3619926366;
+	j3740618622 [label="Гадаю, дворецький сердитиметься, коли я його переконаю. Упевнений, ти одразу дізнаєшся. Він не зможе стримати свого скиглення.",shape=box,color=blue];
+		j3740618622 -> j4057113117;
+	j3619926366 [label="Я йому не зашкоджу. Просто скажу що маю, клянусь. Але в його випадку я впевнений, що він сприйме це як найгіршу образу.",shape=box,color=blue];
+		j3619926366 -> j163894202;
+	j4057113117 [label="У будь-якому разі це буде ще те видовище.",shape=box,color=blue];
+		j4057113117 -> j1553584837;
+	j163894202 [label="Упевнений, ти одразу дізнаєшся. Він не зможе стримати свого скиглення.",shape=box,color=blue];
+		j163894202 -> j4057113117;
+	j1553584837 [label="Boolean RoatheFamilySuccess is now true.",color=orange];
+		j1553584837 -> "Chat ends.";
+}

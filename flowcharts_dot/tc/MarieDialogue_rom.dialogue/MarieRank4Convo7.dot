@@ -4,7 +4,9 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"MarieRank4Convo7 begins." [color=orange];
-		"MarieRank4Convo7 begins." -> j3255816954;
+		"MarieRank4Convo7 begins." -> j2946575423;
+	j2946575423 [label="Boolean MarieLyonAvailable is now true.",color=orange];
+		j2946575423 -> j3255816954;
 	j3255816954 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
 		j3255816954 -> j172757053 [label="x >= 0",color=purple];
 		j3255816954 -> "Chat ends." [label="x <= 0",color=purple];

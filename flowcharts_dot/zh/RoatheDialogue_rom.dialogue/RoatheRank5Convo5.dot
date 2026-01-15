@@ -4,7 +4,16 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"RoatheRank5Convo5 begins." [color=orange];
-		"RoatheRank5Convo5 begins." -> j4280392923;
+		"RoatheRank5Convo5 begins." -> j760760366;
+	j760760366 [label="Boolean RoatheIgnored is now false.",color=orange];
+		j760760366 -> j3826736704;
+	j3826736704 [label="Evaluate expressions",color=orange];
+		j3826736704 -> "Chat ends." [label="RoatheFailNot21",color=purple];
+		j3826736704 -> "Chat ends." [label="RoatheFailUltimate",color=purple];
+		j3826736704 -> "Chat ends." [label="RoatheFailStall",color=purple];
+		j3826736704 -> "Chat ends." [label="RoatheFail",color=purple];
+		j3826736704 -> j4280392923 [label="false",color=purple];
+	"Chat ends." [color=orange];
 	j4280392923 [label="Evaluate expressions on HellStory counter",color=orange];
 		j4280392923 -> j4224182894 [label="x >= 21",color=purple];
 		j4280392923 -> "Chat ends." [label="x <= 21",color=purple];
@@ -15,7 +24,6 @@ digraph {
 		j4224182894 -> j3706604706 [label="RoatheMITW2",color=purple];
 		j4224182894 -> j3706604706 [label="RoatheMITW2Neci",color=purple];
 		j4224182894 -> "Chat ends." [label="false",color=purple];
-	"Chat ends." [color=orange];
 	j3706604706 [label="你有没有再考虑过，我关于你的“虚空无情之物”的观点？",shape=box,color=blue];
 		j3706604706 -> j1251805817;
 		j3706604706 -> j1837838865;

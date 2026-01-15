@@ -1,0 +1,42 @@
+digraph {
+	graph [fontname="Roboto Condensed"];
+	node [fontname="Roboto Condensed"];
+	edge [fontname="Roboto Condensed"];
+
+	"RoatheRank6LoidFix begins." [color=orange];
+		"RoatheRank6LoidFix begins." -> j1064057012;
+	j1064057012 [label="Check boolean RoatheFamilyDelay",color=orange];
+		j1064057012 -> j1353499062 [label=true,color=green];
+		j1064057012 -> "Chat ends." [label=false,color=brown];
+	j1353499062 [label="Check boolean RoatheFamilySuccess",color=orange];
+		j1353499062 -> "Chat ends." [label=true,color=green];
+		j1353499062 -> j603397494 [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j603397494 [label="Check boolean RoatheFamilyComplete",color=orange];
+		j603397494 -> "Chat ends." [label=true,color=green];
+		j603397494 -> j12822055 [label=false,color=brown];
+	j12822055 [label="Check boolean LoidFamilyComplete",color=orange];
+		j12822055 -> "Chat ends." [label=true,color=green];
+		j12822055 -> j1948528734 [label=false,color=brown];
+	j1948528734 [label="แผนขั้นตอนต่อไปสำหรับ Loid คืออะไร?",shape=box,color=red];
+		j1948528734 -> j2686389234;
+	j2686389234 [label="แทบไม่มีเวลาให้หายใจเลยว่าไหม ใช่แล้ว เจ้าพูดถูก เรายังมีงานต้องทำอีกมาก",shape=box,color=blue];
+		j2686389234 -> j3019707267;
+	j3019707267 [label="และคำว่า \"เรา\" ในที่นี้หมายถึง \"ตัวข้าเอง\"",shape=box,color=blue];
+		j3019707267 -> j1365671399;
+		j3019707267 -> j3686765728;
+	j1365671399 [label="ข้าจะรู้ได้อย่างไรว่าเจ้าโน้มน้าวเขาได้สำเร็จแล้ว?",shape=box,color=red];
+		j1365671399 -> j3843526708;
+	j3686765728 [label="โปรดอย่ารุนแรงกับเขานะ",shape=box,color=red];
+		j3686765728 -> j2970238669;
+	j3843526708 [label="ข้าคาดว่าพ่อบ้านคงจะโมโหแน่ ๆ หลังจากข้าโน้มน้าวเขาได้สำเร็จ ข้ามั่นใจว่าเจ้าจะเป็นคนแรกที่ได้รู้ เขาคงบ่นไม่หยุดเลยละ",shape=box,color=blue];
+		j3843526708 -> j3292273308;
+	j2970238669 [label="ข้าไม่ได้จะไปทำร้ายเขา ข้าแค่จะใช้คำพูดเท่านั้นเอง ข้าสาบานได้ ถึงแม้ข้ามั่นใจว่าเวลาเขาเอาไปเล่าต่อ คงพูดให้ฟังดูเหมือนเป็นการทารุณกรรมที่โหดร้ายที่สุด",shape=box,color=blue];
+		j2970238669 -> j3117931145;
+	j3292273308 [label="ไม่ว่าผลจะออกมายังไง งานนี้ก็น่าจะเป็นเหตุการณ์ที่น่าตื่นตาตื่นใจอย่างแน่นอน",shape=box,color=blue];
+		j3292273308 -> j1553584837;
+	j3117931145 [label="ข้ามั่นใจว่าเจ้าจะเป็นคนแรกที่ได้รู้ เขาคงบ่นไม่หยุดแน่",shape=box,color=blue];
+		j3117931145 -> j3292273308;
+	j1553584837 [label="Boolean RoatheFamilySuccess is now true.",color=orange];
+		j1553584837 -> "Chat ends.";
+}
