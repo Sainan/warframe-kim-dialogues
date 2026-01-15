@@ -6,10 +6,10 @@ digraph {
 	"LyonRoatheRepair begins." [color=orange];
 		"LyonRoatheRepair begins." -> j8348369;
 	j8348369 [label="Evaluate expressions",color=orange];
-		j8348369 -> j2628005858 [label="RoatheLyonDatingDeal, LyonNoDate",color=purple];
-		j8348369 -> j753480377 [label="RoatheFamilyDeal, LyonFamilyFail",color=purple];
-		j8348369 -> j753480377 [label="RoatheRepair2, LyonFamilyFail",color=purple];
-		j8348369 -> j2207884261 [label="RoatheLyonConfessionDeal, LyonConfessionFail",color=purple];
+		j8348369 -> j2628005858 [label="RoatheLyonDatingDeal & LyonNoDate",color=purple];
+		j8348369 -> j753480377 [label="RoatheFamilyDeal & LyonFamilyFail",color=purple];
+		j8348369 -> j753480377 [label="RoatheRepair2 & LyonFamilyFail",color=purple];
+		j8348369 -> j2207884261 [label="RoatheLyonConfessionDeal & LyonConfessionFail",color=purple];
 		j8348369 -> "Chat ends." [label="false",color=purple];
 	j2628005858 [label="Неужели у тебя действительно не было выбора до такой степени, что тебе пришлось умолять Роута приставать ко мне, чтобы... принять извинения?",shape=box,color=blue];
 		j2628005858 -> j1554560946;

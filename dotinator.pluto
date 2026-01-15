@@ -43,7 +43,7 @@ local function get_node_label(node)
 			return $"Check {format_script_data(node.Script)}"
 		case "/EE/Types/Engine/CheckMultiBooleanDialogueNode":
 			if #node.Outputs == 1 then
-				return $"Evaluate expression: {node.Outputs[1].Expression}"
+				return $"Evaluate expression: {node.Outputs[1].Expression:split(", "):concat(" & ")}"
 			end
 			return "Evaluate expressions"
 		case "/EE/Types/Engine/CheckCounterDialogueNode":
@@ -232,7 +232,7 @@ local function emit_dot(filename, start)
 					fh:write(node_name)
 					fh:write(" -> ")
 					write_node_name(nodes[1 + choice])
-					fh:write(" [label=\""..output.Expression.."\",color=purple];\n")
+					fh:write(" [label=\""..output.Expression:split(", "):concat(" & ").."\",color=purple];\n")
 					pending_nodes:insert(1, choice)
 				end
 			end

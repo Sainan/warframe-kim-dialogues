@@ -6,8 +6,8 @@ digraph {
 	"LoidFamily begins." [color=orange];
 		"LoidFamily begins." -> j651301366;
 	j651301366 [label="Evaluate expressions",color=orange];
-		j651301366 -> j116021835 [label="MarieFamilySuccess, LyonFamilySuccess, RoatheFamilySuccess",color=purple];
-		j651301366 -> j116021835 [label="MarieFamilySuccess, LyonFamilySuccess, RoatheFamilyComplete",color=purple];
+		j651301366 -> j116021835 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
+		j651301366 -> j116021835 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
 		j651301366 -> "Chat ends." [label="false",color=purple];
 	j116021835 [label="Мандрівниче. Я більше не можу. Роут, Марі та Ліон переконали мене, що час нарешті настав.",shape=box,color=blue];
 		j116021835 -> j1966631050;

@@ -12,7 +12,7 @@ digraph {
 	j2963163650 [label="ตลอดช่วงเวลาบ้าบอทั้งหมดนี่ ตั้งแต่ที่ความทรงจำของข้าหายไป ข้าก็รู้สึกเหมือนมีอะไร… ตะกุยตะกายอยู่ข้างใน ฉีกกระชากที่หน้าอก ที่ผิวหนัง เหมือนกับสัตว์ร้ายตัวโตที่พยายามดิ้นรนจะหลุดออกจากตัวข้าให้ได้",shape=box,color=blue];
 		j2963163650 -> j2967628648;
 	j3591612755 [label="Evaluate expressions",color=orange];
-		j3591612755 -> j1028984573 [label="RoatheKnowsReset2, RoatheDating",color=purple];
+		j3591612755 -> j1028984573 [label="RoatheKnowsReset2 & RoatheDating",color=purple];
 		j3591612755 -> j1239279865 [label="RoatheKnowsReset2",color=purple];
 		j3591612755 -> j1247827087 [label="RoatheDating",color=purple];
 		j3591612755 -> j1934009866 [label="false",color=purple];
@@ -85,9 +85,9 @@ digraph {
 	j2240130210 [label="ข้าจะไม่รบกวนเวลาของเจ้าไปมากกว่านี้แล้ว",shape=box,color=blue];
 		j2240130210 -> "Initiate conversation LyonRoatheFail in /Lotus/Types/Gameplay/1999Wf/Dialogue/LyonDialogue_rom.dialogue";
 	j3081406732 [label="Evaluate expressions",color=orange];
-		j3081406732 -> j1057509969 [label="RoatheKnowsReset2, RoatheDating",color=purple];
+		j3081406732 -> j1057509969 [label="RoatheKnowsReset2 & RoatheDating",color=purple];
 		j3081406732 -> j1862843258 [label="RoatheKnowsReset2",color=purple];
-		j3081406732 -> j3095674396 [label="RoatheResetEdgeCase, RoatheDating",color=purple];
+		j3081406732 -> j3095674396 [label="RoatheResetEdgeCase & RoatheDating",color=purple];
 		j3081406732 -> j1059243357 [label="RoatheResetEdgeCase",color=purple];
 		j3081406732 -> j3095674396 [label="RoatheDating",color=purple];
 		j3081406732 -> j1059243357 [label="false",color=purple];

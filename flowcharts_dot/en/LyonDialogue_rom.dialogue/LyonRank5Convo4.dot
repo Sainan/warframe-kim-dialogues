@@ -11,8 +11,8 @@ digraph {
 	j1578420068 [label="+20 Chemistry",color=orange];
 		j1578420068 -> j338465623;
 	j2793227429 [label="Evaluate expressions",color=orange];
-		j2793227429 -> j1575799791 [label="LyonDating, LyonConfession1, LyonConfession2",color=purple];
-		j2793227429 -> j2090321328 [label="LyonConfession1, LyonConfession2",color=purple];
+		j2793227429 -> j1575799791 [label="LyonDating & LyonConfession1 & LyonConfession2",color=purple];
+		j2793227429 -> j2090321328 [label="LyonConfession1 & LyonConfession2",color=purple];
 		j2793227429 -> "Chat ends." [label="false",color=purple];
 	j338465623 [label="[Conversation skipped due to previous setting of trigger warning.]",shape=box,color=blue];
 		j338465623 -> j1028404978;

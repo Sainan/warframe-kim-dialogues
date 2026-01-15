@@ -13,10 +13,10 @@ digraph {
 		j3022756529 -> "Chat ends." [label=true,color=green];
 		j3022756529 -> j167573042 [label=false,color=brown];
 	j167573042 [label="Evaluate expressions",color=orange];
-		j167573042 -> j1466519202 [label="LyonConfession1, MarieFamilyFail, RoatheFamilyFail
+		j167573042 -> j1466519202 [label="LyonConfession1 & MarieFamilyFail & RoatheFamilyFail
 ",color=purple];
-		j167573042 -> j2894488701 [label="LyonConfession1, MarieFamilyFail",color=purple];
-		j167573042 -> j3575423436 [label="LyonConfession1, RoatheFamilyFail",color=purple];
+		j167573042 -> j2894488701 [label="LyonConfession1 & MarieFamilyFail",color=purple];
+		j167573042 -> j3575423436 [label="LyonConfession1 & RoatheFamilyFail",color=purple];
 		j167573042 -> j2952362664 [label="LyonFamilySuccess",color=purple];
 		j167573042 -> j1009036948 [label="LyonDating",color=purple];
 		j167573042 -> j2292085104 [label="LyonConfession1",color=purple];
@@ -49,11 +49,11 @@ digraph {
 	j4259272794 [label="Ой, навіть і не нагадуй.",shape=box,color=red];
 		j4259272794 -> j3090338900;
 	j3291097851 [label="Evaluate expressions",color=orange];
-		j3291097851 -> j1856108258 [label="MarieFamilySuccess, RoatheFamilyComplete
+		j3291097851 -> j1856108258 [label="MarieFamilySuccess & RoatheFamilyComplete
 ",color=purple];
-		j3291097851 -> j1856108258 [label="MarieFamilySuccess, RoatheFamilySuccess
+		j3291097851 -> j1856108258 [label="MarieFamilySuccess & RoatheFamilySuccess
 ",color=purple];
-		j3291097851 -> j29599445 [label="MarieFamilySuccess, RoatheFamilyDelay",color=purple];
+		j3291097851 -> j29599445 [label="MarieFamilySuccess & RoatheFamilyDelay",color=purple];
 		j3291097851 -> j3315073910 [label="RoatheFamilyComplete",color=purple];
 		j3291097851 -> j3315073910 [label="RoatheFamilySuccess",color=purple];
 		j3291097851 -> j2159938113 [label="MarieFamilySuccess",color=purple];
@@ -125,11 +125,11 @@ digraph {
 	j836133468 [label="О, так. Будь ласка. Дякую.",shape=box,color=red];
 		j836133468 -> j2349091261;
 	j1436756777 [label="Evaluate expressions",color=orange];
-		j1436756777 -> j560165509 [label="MarieFamilySuccess, RoatheFamilyComplete
+		j1436756777 -> j560165509 [label="MarieFamilySuccess & RoatheFamilyComplete
 ",color=purple];
-		j1436756777 -> j560165509 [label="MarieFamilySuccess, RoatheFamilySuccess
+		j1436756777 -> j560165509 [label="MarieFamilySuccess & RoatheFamilySuccess
 ",color=purple];
-		j1436756777 -> j29599445 [label="MarieFamilySuccess, RoatheFamilyDelay",color=purple];
+		j1436756777 -> j29599445 [label="MarieFamilySuccess & RoatheFamilyDelay",color=purple];
 		j1436756777 -> j488477358 [label="RoatheFamilyComplete",color=purple];
 		j1436756777 -> j488477358 [label="RoatheFamilySuccess",color=purple];
 		j1436756777 -> j2159938113 [label="MarieFamilySuccess",color=purple];
