@@ -80,10 +80,10 @@ digraph {
 	j2466506002 [label="¿Con qué \"estaba\" y que también \"no estaba\" ya libre?",shape=box,color=red];
 		j2466506002 -> j3826452011;
 	j3826452011 [label="Check boolean LyonRell1",color=orange];
-		j3826452011 -> j1575015823 [label=true,color=green];
+		j3826452011 -> j1977402603 [label=true,color=green];
 		j3826452011 -> j48447413 [label=false,color=brown];
-	j1575015823 [label="El tiempo está... enredado, para alguien como yo, en el estado en el que estoy ahora. Es difícil de describir. Intente explicarlo, y he fallado miserablemente.",shape=box,color=blue];
-		j1575015823 -> j934928254;
+	j1977402603 [label="El tiempo está... enredado, para alguien como yo, en el estado en el que estoy ahora. Es difícil de describir. Intenté explicarlo y fallé miserablemente.",shape=box,color=blue];
+		j1977402603 -> j934928254;
 	j48447413 [label="El tiempo está... enredado, para alguien como yo, en el estado en el que estoy ahora. Es difícil de describir, y lo estoy haciendo muy mal.",shape=box,color=blue];
 		j48447413 -> j934928254;
 	j934928254 [label="Preferiría explicar los detalles en otro momento, ya que ese no es el punto de lo que trato de abordar hoy.",shape=box,color=blue];
@@ -166,7 +166,7 @@ digraph {
 		j1101840853 -> j3333937555;
 	j670503274 [label="Estoy seguro de que bromeas. No puede ser que lo digas en serio, ¿después de todo lo que has presenciado? O has perdido la razón o tu compasión ha superado tus sentidos.",shape=box,color=blue];
 		j670503274 -> j2851318896;
-		j670503274 -> j4072895122;
+		j670503274 -> j4216300605;
 	j2862131335 [label="+10 Chemistry",color=orange];
 		j2862131335 -> j4006363057;
 	j375946656 [label="La de nadie. Ya no tienes por qué sufrir de esta manera. Déjalo ir.",shape=box,color=red];
@@ -179,8 +179,8 @@ digraph {
 		j3333937555 -> j3747686737;
 	j2851318896 [label="No, Lyon. Lo digo en serio. Significas el mundo para mí, y lo que quiero es que de alguna manera me puedas creer.",shape=box,color=red];
 		j2851318896 -> j1449270038;
-	j4072895122 [label="Puede... que tengas razón. Tal vez este no es el momento.",shape=box,color=red];
-		j4072895122 -> j694737307;
+	j4216300605 [label="Puede... que tengas razón. Tal vez este no es el momento.",shape=box,color=red];
+		j4216300605 -> j1080848372;
 	j4006363057 [label="Boolean LyonRell2b is now true.",color=orange];
 		j4006363057 -> "Chat ends.";
 	j3133978802 [label="si tan solo fuera tan simple\nesas cadenas han sido mías por tanto tiempo\npor tanto tiempo como el de un lenguaje\npor tanto tiempo como mi propio nombre\nperdóname",shape=box,color=blue];
@@ -193,8 +193,8 @@ digraph {
 		j3747686737 -> j1992869092;
 	j1449270038 [label="Yo.",shape=box,color=blue];
 		j1449270038 -> j2228720352;
-	j694737307 [label="Bien. Me alegro de que hayas reaccionado a tu propia locura momentánea. Debe ser contagioso después de todo. Tal vez deberíamos tomarnos un descanso de este dispositivo, me temo que ha empezado a podrir tu mente.",shape=box,color=blue];
-		j694737307 -> "Chat ends.";
+	j1080848372 [label="Bien. Me alegra que hayas superado tu locura temporal. Debe ser contagiosa, después de todo. Quizás deberíamos dejar de usar este aparato, porque me temo que te está empezando a pudrir el cerebro.",shape=box,color=blue];
+		j1080848372 -> "Chat ends.";
 	j2521320704 [label="sí\nestarán ahí en otro momento\nesta habitación de sangre y cadenas\nde espera\nde una espera interminable",shape=box,color=blue];
 		j2521320704 -> j2137503795;
 	j798816541 [label="Check boolean LyonPainOff",color=orange];
@@ -260,6 +260,8 @@ digraph {
 		j1416794785 -> j655525641;
 	j1463588145 [label="+10 Chemistry",color=orange];
 		j1463588145 -> j112971485;
+	j4072895122 [label="Puede... que tengas razón. Tal vez este no es el momento.",shape=box,color=red];
+		j4072895122 -> j694737307;
 	j3509320 [label="Nos hemos desviado del punto de nuestra conversación, ¿no es así? Lo siento mucho. No tienes que soportar esas divagaciones rimbombantes y autocompasivas.",shape=box,color=blue];
 		j3509320 -> j360863344;
 		j3509320 -> j3054126166;
@@ -269,6 +271,8 @@ digraph {
 		j655525641 -> j3482445878;
 	j112971485 [label="Lua en lo alto... ¿En qué me quede?",shape=box,color=blue];
 		j112971485 -> j592182143;
+	j694737307 [label="Bien. Me alegro de que hayas reaccionado a tu propia locura momentánea. Debe ser contagioso después de todo. Tal vez deberíamos tomarnos un descanso de este dispositivo, me temo que ha empezado a podrir tu mente.",shape=box,color=blue];
+		j694737307 -> "Chat ends.";
 	j360863344 [label="Tienes motivos para desahogarte de vez en cuando. Me alegra que te sientas cómodo al hablar conmigo.",shape=box,color=red];
 		j360863344 -> j3049615793;
 	j3054126166 [label="Definitivamente no es autocompasión. Tendría que investigar los demás para ver si son verdaderos.",shape=box,color=red];

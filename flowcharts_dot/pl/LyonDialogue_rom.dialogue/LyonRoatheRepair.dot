@@ -7,14 +7,14 @@ digraph {
 		"LyonRoatheRepair begins." -> j8348369;
 	j8348369 [label="Evaluate expressions",color=orange];
 		j8348369 -> j1328555141 [label="RoatheLyonDatingDeal & LyonNoDate",color=purple];
-		j8348369 -> j434245 [label="RoatheFamilyDeal & LyonFamilyFail",color=purple];
-		j8348369 -> j434245 [label="RoatheRepair2 & LyonFamilyFail",color=purple];
+		j8348369 -> j3093519794 [label="RoatheFamilyDeal & LyonFamilyFail",color=purple];
+		j8348369 -> j3093519794 [label="RoatheRepair2 & LyonFamilyFail",color=purple];
 		j8348369 -> j2198846785 [label="RoatheLyonConfessionDeal & LyonConfessionFail",color=purple];
 		j8348369 -> "Chat ends." [label="false",color=purple];
 	j1328555141 [label="Czy naprawdę znalazłeś się w tak nędznej sytuacji, żeby zwracać się do Roathe'a, by ten nękał mnie w twoim imieniu w sprawie... przyjęcia przeprosin?",shape=box,color=blue];
 		j1328555141 -> j3178670663;
-	j434245 [label="Czy naprawdę znalazłeś się w tak nędznej sytuacji, żeby zwracać się do Roathe'a, by ten nękał mnie w twoim imieniu w sprawie pojednania M. Loida z rodziną?",shape=box,color=blue];
-		j434245 -> j1851844330;
+	j3093519794 [label="Czy naprawdę znalazłeś się w tak nędznej sytuacji, żeby zwracać się do Roathe'a, by ten nękał mnie w twoim imieniu w sprawie pojednania p. Loida z rodziną?",shape=box,color=blue];
+		j3093519794 -> j1851844330;
 	j2198846785 [label="Czy naprawdę znalazłeś się w tak nędznej sytuacji, żeby zwracać się do Roathe'a, by ten nękał mnie w twoim imieniu?",shape=box,color=blue];
 		j2198846785 -> j2663964586;
 	"Chat ends." [color=orange];

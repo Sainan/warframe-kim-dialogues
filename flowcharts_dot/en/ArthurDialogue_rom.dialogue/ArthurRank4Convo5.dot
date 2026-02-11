@@ -4,10 +4,14 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"ArthurRank4Convo5 begins." [color=orange];
-		"ArthurRank4Convo5 begins." -> j2018845881;
-	j2018845881 [label="Check boolean IsDating",color=orange];
-		j2018845881 -> j2993237603 [label=true,color=green];
-		j2018845881 -> "Chat ends." [label=false,color=brown];
+		"ArthurRank4Convo5 begins." -> j1197050744;
+	j1197050744 [label="Evaluate expressions",color=orange];
+		j1197050744 -> j2993237603 [label="AoiDating",color=purple];
+		j1197050744 -> j2993237603 [label="EleanorDating",color=purple];
+		j1197050744 -> j2993237603 [label="AmirDating",color=purple];
+		j1197050744 -> j2993237603 [label="LettieDating",color=purple];
+		j1197050744 -> j2993237603 [label="QuincyDating",color=purple];
+		j1197050744 -> "Chat ends." [label="false",color=purple];
 	j2993237603 [label="Check boolean ArthurDating",color=orange];
 		j2993237603 -> "Chat ends." [label=true,color=green];
 		j2993237603 -> j2705489849 [label=false,color=brown];

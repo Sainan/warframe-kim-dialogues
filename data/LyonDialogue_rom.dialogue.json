@@ -39214,7 +39214,9 @@
             },
             {
                 "Expression": "false",
-                "Outgoing": [],
+                "Outgoing": [
+                    2499
+                ],
                 "Values": [],
                 "CompareOperators": [],
                 "LogicalOperators": []
@@ -40155,6 +40157,62 @@
         "GraphPos": [
             5030,
             45344
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2499,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1867",
+        "Incoming": [
+            2436
+        ],
+        "Outgoing": [
+            2500
+        ],
+        "GraphPos": [
+            3941,
+            54486
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2500,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1868",
+        "Incoming": [
+            2499
+        ],
+        "Outgoing": [
+            2501
+        ],
+        "GraphPos": [
+            4276,
+            54484
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/DialogueNode",
+        "Id": 2501,
+        "Content": "/Lotus/Language/1999Texting/LyonRomance/Lyon_LyonRank6Convo2_1869",
+        "Incoming": [
+            2500
+        ],
+        "Outgoing": [
+            2502
+        ],
+        "GraphPos": [
+            4621,
+            54484
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 2502,
+        "Incoming": [
+            2501
+        ],
+        "GraphPos": [
+            4950,
+            54486
         ]
     }
 ]

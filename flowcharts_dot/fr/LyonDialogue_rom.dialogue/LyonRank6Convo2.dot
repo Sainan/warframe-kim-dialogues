@@ -13,29 +13,29 @@ digraph {
 		j3022756529 -> "Chat ends." [label=true,color=green];
 		j3022756529 -> j167573042 [label=false,color=brown];
 	j167573042 [label="Evaluate expressions",color=orange];
-		j167573042 -> j918120277 [label="LyonConfession1 & MarieFamilyFail & RoatheFamilyFail
+		j167573042 -> j3570476598 [label="LyonConfession1 & MarieFamilyFail & RoatheFamilyFail
 ",color=purple];
 		j167573042 -> j2951111579 [label="LyonConfession1 & MarieFamilyFail",color=purple];
-		j167573042 -> j2693680168 [label="LyonConfession1 & RoatheFamilyFail",color=purple];
-		j167573042 -> j45876883 [label="LyonFamilySuccess",color=purple];
-		j167573042 -> j4193828967 [label="LyonDating",color=purple];
-		j167573042 -> j1238768832 [label="LyonConfession1",color=purple];
+		j167573042 -> j2986551651 [label="LyonConfession1 & RoatheFamilyFail",color=purple];
+		j167573042 -> j1772402820 [label="LyonFamilySuccess",color=purple];
+		j167573042 -> j3247938853 [label="LyonDating",color=purple];
+		j167573042 -> j3940519698 [label="LyonConfession1",color=purple];
 		j167573042 -> "Chat ends." [label="false",color=purple];
-	j918120277 [label="Il semble que tu as complètement échoué avec Marie et l'Orokin. Je... suis impressionné.",shape=box,color=blue];
-		j918120277 -> j494494141;
-		j918120277 -> j807081279;
+	j3570476598 [label="Il semble que tu as complètement échoué avec Marie et Roathe. Je... suis impressionné.",shape=box,color=blue];
+		j3570476598 -> j494494141;
+		j3570476598 -> j807081279;
 	j2951111579 [label="Il semble que tu as complètement échoué avec Marie. Comment as-tu fait?",shape=box,color=blue];
 		j2951111579 -> j3128310088;
 		j2951111579 -> j2696347150;
-	j2693680168 [label="Il semble que tu as complètement échoué avec l'Orokin. Je ne suis pas vraiment surpris.",shape=box,color=blue];
-		j2693680168 -> j634314680;
-		j2693680168 -> j469010254;
-	j45876883 [label="Je t'ai promis de t'aider avec le majordome, mais il semble que quelque chose ait mal tourné.",shape=box,color=blue];
-		j45876883 -> j3291097851;
-	j4193828967 [label="Mon miracle, j'ai l'impression d'avoir été distrait. Je m'excuse.",shape=box,color=blue];
-		j4193828967 -> j1738625560;
-	j1238768832 [label="Camarade, j'ai l'impression d'avoir été distrait. Je m'excuse.",shape=box,color=blue];
-		j1238768832 -> j1738625560;
+	j2986551651 [label="Il semble que tu as complètement échoué avec Roathe. Je ne suis pas vraiment surpris.",shape=box,color=blue];
+		j2986551651 -> j634314680;
+		j2986551651 -> j469010254;
+	j1772402820 [label="Je t'ai promis de t'aider avec Monsieur Loid, mais il semble que quelque chose ait mal tourné.",shape=box,color=blue];
+		j1772402820 -> j3291097851;
+	j3247938853 [label="Mon miracle, j'ai l'impression d'avoir été distrait. Je m'excuse.",shape=box,color=blue];
+		j3247938853 -> j2554915869;
+	j3940519698 [label="Camarade, j'ai l'impression d'avoir été distrait. Je m'excuse.",shape=box,color=blue];
+		j3940519698 -> j2554915869;
 	j494494141 [label="S'il te plaît, ne commence pas. Je n'ai pas besoin de culpabiliser, merci.",shape=box,color=red];
 		j494494141 -> j2278255470;
 	j807081279 [label="En fait, je pense que si l'un des rats de mon amie avait dormi sur les touches et généré des mots aléatoires, ça aurait été mieux.",shape=box,color=red];
@@ -54,14 +54,14 @@ digraph {
 		j3291097851 -> j2627366968 [label="MarieFamilySuccess & RoatheFamilySuccess
 ",color=purple];
 		j3291097851 -> j3771047706 [label="MarieFamilySuccess & RoatheFamilyDelay",color=purple];
-		j3291097851 -> j2384189608 [label="RoatheFamilyComplete",color=purple];
-		j3291097851 -> j2384189608 [label="RoatheFamilySuccess",color=purple];
+		j3291097851 -> j4259331984 [label="RoatheFamilyComplete",color=purple];
+		j3291097851 -> j4259331984 [label="RoatheFamilySuccess",color=purple];
 		j3291097851 -> j1867007301 [label="MarieFamilySuccess",color=purple];
 		j3291097851 -> j3374372953 [label="RoatheFamilyDelay",color=purple];
 		j3291097851 -> j3561838712 [label="false",color=purple];
-	j1738625560 [label="Tu as besoin de mon aide concernant le majordome, n'est-ce pas?",shape=box,color=blue];
-		j1738625560 -> j2293810595;
-		j1738625560 -> j2429168889;
+	j2554915869 [label="Tu as besoin de mon aide avec Monsieur Loid, n'est-ce pas?",shape=box,color=blue];
+		j2554915869 -> j2293810595;
+		j2554915869 -> j2429168889;
 	j2278255470 [label="Oui, enfin. Je crois que je commence à comprendre comment c'est arrivé.",shape=box,color=blue];
 		j2278255470 -> "Chat ends.";
 	j2638834335 [label="Si seulement tu avais pu m'entendre rire! Je ne te juge pas, je compatis sincèrement plus que tu ne le penses. Et c'est pour cette raison que je vais t'aider.",shape=box,color=blue];
@@ -77,9 +77,9 @@ digraph {
 		j2627366968 -> j317356980;
 	j3771047706 [label="Il semble que le diable traîne des pieds. Mais sans Marie, tu n'iras pas bien loin non plus.",shape=box,color=blue];
 		j3771047706 -> j1950794645;
-	j2384189608 [label="Tu as le soutien de l'Orokin, mais pas celui de Marie. Un problème facile à régler. Mais je dois te demander: comment as-tu fait?",shape=box,color=blue];
-		j2384189608 -> j3128310088;
-		j2384189608 -> j2696347150;
+	j4259331984 [label="Tu as le soutien de Roathe, mais pas celui de Marie. Un problème facile à régler. Mais je dois te demander: comment as-tu fait?",shape=box,color=blue];
+		j4259331984 -> j3128310088;
+		j4259331984 -> j2696347150;
 	j1867007301 [label="Il semble que tu as l'aide de Marie, mais pas celle de Roathe? Pas surprenant.",shape=box,color=blue];
 		j1867007301 -> j634314680;
 		j1867007301 -> j469010254;
@@ -107,7 +107,7 @@ digraph {
 		j1950794645 -> j1345817601;
 		j1950794645 -> j1823631226;
 	j2277326069 [label="Mes pensées ont tendance à vagabonder bizarrement, surtout ces derniers temps. Bien sûr, je t'aiderai.",shape=box,color=blue];
-		j2277326069 -> j1436756777;
+		j2277326069 -> j814244232;
 	j1424745156 [label="J'imagine que tu me permettras de… résoudre ce problème pour toi?",shape=box,color=blue];
 		j1424745156 -> j1345817601;
 		j1424745156 -> j1823631226;
@@ -124,16 +124,17 @@ digraph {
 		j1345817601 -> j217382125;
 	j1823631226 [label="Merci. Oui, s'il te plaît.",shape=box,color=red];
 		j1823631226 -> j663260726;
-	j1436756777 [label="Evaluate expressions",color=orange];
-		j1436756777 -> j3314332384 [label="MarieFamilySuccess & RoatheFamilyComplete
+	j814244232 [label="Evaluate expressions",color=orange];
+		j814244232 -> j3314332384 [label="MarieFamilySuccess & RoatheFamilyComplete
 ",color=purple];
-		j1436756777 -> j3314332384 [label="MarieFamilySuccess & RoatheFamilySuccess
+		j814244232 -> j3314332384 [label="MarieFamilySuccess & RoatheFamilySuccess
 ",color=purple];
-		j1436756777 -> j3771047706 [label="MarieFamilySuccess & RoatheFamilyDelay",color=purple];
-		j1436756777 -> j3160870966 [label="RoatheFamilyComplete",color=purple];
-		j1436756777 -> j3160870966 [label="RoatheFamilySuccess",color=purple];
-		j1436756777 -> j1867007301 [label="MarieFamilySuccess",color=purple];
-		j1436756777 -> j3374372953 [label="RoatheFamilyDelay",color=purple];
+		j814244232 -> j3771047706 [label="MarieFamilySuccess & RoatheFamilyDelay",color=purple];
+		j814244232 -> j3160870966 [label="RoatheFamilyComplete",color=purple];
+		j814244232 -> j3160870966 [label="RoatheFamilySuccess",color=purple];
+		j814244232 -> j1867007301 [label="MarieFamilySuccess",color=purple];
+		j814244232 -> j3374372953 [label="RoatheFamilyDelay",color=purple];
+		j814244232 -> j1807042312 [label="false",color=purple];
 	j1011551681 [label="Bien sûr. À quoi d'autre sert la famille?",shape=box,color=blue];
 		j1011551681 -> j1184609944;
 	j3413811500 [label="Je... d'accord.",shape=box,color=red];
@@ -150,6 +151,8 @@ digraph {
 		j3314332384 -> j2641036676;
 	j3160870966 [label="Il semble que tu as l'aide de Roathe, mais pas de Marie?",shape=box,color=blue];
 		j3160870966 -> j1018939711;
+	j1807042312 [label="Il semble que tu n'as pas réussi à obtenir l'aide de... non seulement la mienne, mais d'aucun d'entre nous?",shape=box,color=blue];
+		j1807042312 -> j472821801;
 	j1184609944 [label="- Lyon",shape=box,color=blue];
 		j1184609944 -> j3661668577;
 	j2359208784 [label="Oui, bon. À quoi servent les \"familles\", n'est-ce pas…",shape=box,color=blue];
@@ -165,6 +168,8 @@ digraph {
 	j1018939711 [label="Comment as-tu réussi?",shape=box,color=blue];
 		j1018939711 -> j3128310088;
 		j1018939711 -> j2696347150;
+	j472821801 [label="Je ne sais pas trop comment tu as fait. Je pense que je pourrais pardonner deux des trois. Mais ça?",shape=box,color=blue];
+		j472821801 -> j773643930;
 	j3661668577 [label="Boolean LyonFamilySuccess is now true.",color=orange];
 		j3661668577 -> j1372622282;
 	j381734526 [label="- Lyon",shape=box,color=blue];
@@ -173,6 +178,8 @@ digraph {
 		j2218419410 -> j2422139386;
 	j2730593101 [label="Boolean LyonFamilySuccess is now true.",color=orange];
 		j2730593101 -> j526373218;
+	j773643930 [label="Je ne peux pas faire plus.",shape=box,color=blue];
+		j773643930 -> "Chat ends.";
 	j1372622282 [label="Boolean LyonFamilyFail is now false.",color=orange];
 		j1372622282 -> j3151953893;
 	j4122845909 [label="Boolean LyonFamilySuccess is now true.",color=orange];

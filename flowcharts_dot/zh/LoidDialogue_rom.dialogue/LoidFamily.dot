@@ -4,14 +4,21 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"LoidFamily begins." [color=orange];
-		"LoidFamily begins." -> j651301366;
-	j651301366 [label="Evaluate expressions",color=orange];
-		j651301366 -> j469665063 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
-		j651301366 -> j469665063 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
-		j651301366 -> "Chat ends." [label="false",color=purple];
+		"LoidFamily begins." -> j1120486766;
+	j1120486766 [label="Evaluate expressions",color=orange];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
+		j1120486766 -> "Chat ends." [label="false",color=purple];
+	j3808490524 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j3808490524 -> j2502471650 [label=true,color=green];
+		j3808490524 -> "Chat ends." [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2502471650 [label="Evaluate expressions",color=orange];
+		j2502471650 -> j469665063 [label="RoatheRedeemed",color=purple];
+		j2502471650 -> j469665063 [label="RoatheVillain",color=purple];
+		j2502471650 -> "Chat ends." [label="false",color=purple];
 	j469665063 [label="漂泊者。我妥协了。罗瑟、玛丽和里昂说服了我，时机终于到了。",shape=box,color=blue];
 		j469665063 -> j2304695143;
-	"Chat ends." [color=orange];
 	j2304695143 [label="我对自己必须要做的事从骨髓深处感到恐惧。确实，当戈迈特鲁和她的家人发现这些年在他们脚底下发生的一切时，他们一定会怒不可遏地将我肢解，连骨髓可能都留不下来。",shape=box,color=blue];
 		j2304695143 -> j2850935983;
 	j2850935983 [label="如今再以那个名字称呼她竟然觉如此陌生，我们之间已经发生了太多改变。而更多改变，转瞬即至。",shape=box,color=blue];

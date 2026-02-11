@@ -4,14 +4,21 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"LoidFamily begins." [color=orange];
-		"LoidFamily begins." -> j651301366;
-	j651301366 [label="Evaluate expressions",color=orange];
-		j651301366 -> j1368784102 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
-		j651301366 -> j1368784102 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
-		j651301366 -> "Chat ends." [label="false",color=purple];
+		"LoidFamily begins." -> j1120486766;
+	j1120486766 [label="Evaluate expressions",color=orange];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
+		j1120486766 -> "Chat ends." [label="false",color=purple];
+	j3808490524 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j3808490524 -> j2502471650 [label=true,color=green];
+		j3808490524 -> "Chat ends." [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2502471650 [label="Evaluate expressions",color=orange];
+		j2502471650 -> j1368784102 [label="RoatheRedeemed",color=purple];
+		j2502471650 -> j1368784102 [label="RoatheVillain",color=purple];
+		j2502471650 -> "Chat ends." [label="false",color=purple];
 	j1368784102 [label="Voyageur. Je plie. Roathe, Marie et Lyon m'ont convaincu que le moment est enfin venu.",shape=box,color=blue];
 		j1368784102 -> j3300528903;
-	"Chat ends." [color=orange];
 	j3300528903 [label="Je redoute ce que je vais devoir faire jusque dans la moelle de mes os. En vérité, c'est peut-être ce qui me sera arraché lorsque, dans un accès de rage, Gomaitru et sa famille me mettront en pièces, découvrant ce qui s'est passé sous leurs pieds depuis tout ce temps.",shape=box,color=blue];
 		j3300528903 -> j706395923;
 	j706395923 [label="C'est étrange de l'appeler ainsi maintenant, mais tant de choses ont changé entre nous. Et bien d'autres choses encore changeront bientôt.",shape=box,color=blue];

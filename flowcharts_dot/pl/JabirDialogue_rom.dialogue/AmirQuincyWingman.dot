@@ -4,10 +4,14 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"AmirQuincyWingman begins." [color=orange];
-		"AmirQuincyWingman begins." -> j724089190;
-	j724089190 [label="Check boolean IsDating",color=orange];
-		j724089190 -> "Chat ends." [label=true,color=green];
-		j724089190 -> j111245803 [label=false,color=brown];
+		"AmirQuincyWingman begins." -> j2560620477;
+	j2560620477 [label="Evaluate expressions",color=orange];
+		j2560620477 -> "Chat ends." [label="ArthurDating",color=purple];
+		j2560620477 -> "Chat ends." [label="EleanorDating",color=purple];
+		j2560620477 -> "Chat ends." [label="QuincyDating",color=purple];
+		j2560620477 -> "Chat ends." [label="LettieDating",color=purple];
+		j2560620477 -> "Chat ends." [label="AoiDating",color=purple];
+		j2560620477 -> j111245803 [label="false",color=purple];
 	"Chat ends." [color=orange];
 	j111245803 [label="hej. yyy. quincy rozmawiał ze mną wczoraj. mówił, że gadaliście i że... chciałeś mi coś powiedzieć?",shape=box,color=blue];
 		j111245803 -> j1713116651;

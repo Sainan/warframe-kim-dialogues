@@ -4,14 +4,21 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"LoidFamily begins." [color=orange];
-		"LoidFamily begins." -> j651301366;
-	j651301366 [label="Evaluate expressions",color=orange];
-		j651301366 -> j3599420511 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
-		j651301366 -> j3599420511 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
-		j651301366 -> "Chat ends." [label="false",color=purple];
+		"LoidFamily begins." -> j1120486766;
+	j1120486766 [label="Evaluate expressions",color=orange];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
+		j1120486766 -> "Chat ends." [label="false",color=purple];
+	j3808490524 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j3808490524 -> j2502471650 [label=true,color=green];
+		j3808490524 -> "Chat ends." [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2502471650 [label="Evaluate expressions",color=orange];
+		j2502471650 -> j3599420511 [label="RoatheRedeemed",color=purple];
+		j2502471650 -> j3599420511 [label="RoatheVillain",color=purple];
+		j2502471650 -> "Chat ends." [label="false",color=purple];
 	j3599420511 [label="Drifter. I relent. Roathe, Marie, and Lyon have convinced me that the time has finally come.",shape=box,color=blue];
 		j3599420511 -> j666724573;
-	"Chat ends." [color=orange];
 	j666724573 [label="I dread what I must do down to the marrow of my bones. Indeed, that may be what is removed from me when I am torn limb from limb in a fit of rage when Gomaitru and her family discover what has been going on beneath their feet this entire time.",shape=box,color=blue];
 		j666724573 -> j3231943449;
 	j3231943449 [label="So strange to call her by that name now; but so much between us has changed. And so much more shall, in short order.",shape=box,color=blue];

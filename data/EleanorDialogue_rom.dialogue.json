@@ -40793,26 +40793,75 @@
             2731
         ],
         "GraphPos": [
-            3,
-            69795
+            -17,
+            69792
         ]
     },
     {
-        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
         "Id": 2731,
-        "Content": "IsDating",
         "Incoming": [
             2730
         ],
         "GraphPos": [
-            346,
-            69794
+            337,
+            69802
         ],
-        "TrueNodes": [
-            2733
-        ],
-        "FalseNodes": [
-            2732
+        "Outputs": [
+            {
+                "Expression": "ArthurDating",
+                "Outgoing": [
+                    2733
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "AmirDating",
+                "Outgoing": [
+                    2733
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "AoiDating",
+                "Outgoing": [
+                    2733
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "LettieDating",
+                "Outgoing": [
+                    2733
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "QuincyDating",
+                "Outgoing": [
+                    2733
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [
+                    2732
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
         ]
     },
     {
@@ -42470,9 +42519,8 @@
         "CompletionType": 1
     },
     {
-        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
         "Id": 2844,
-        "Content": "IsDating",
         "Incoming": [
             2292,
             2293,
@@ -42480,15 +42528,69 @@
             2295
         ],
         "GraphPos": [
-            1823,
-            61555
+            1788,
+            61637
         ],
-        "TrueNodes": [
-            2300,
-            2299
-        ],
-        "FalseNodes": [
-            2296
+        "Outputs": [
+            {
+                "Expression": "ArthurDating",
+                "Outgoing": [
+                    2299,
+                    2300
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "AmirDating",
+                "Outgoing": [
+                    2299,
+                    2300
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "AoiDating",
+                "Outgoing": [
+                    2299,
+                    2300
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "LettieDating",
+                "Outgoing": [
+                    2299,
+                    2300
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "QuincyDating",
+                "Outgoing": [
+                    2299,
+                    2300
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [
+                    2296
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
         ]
     },
     {
@@ -49504,7 +49606,8 @@
             "_syndicateRank": 0,
             "_dialogueType": "",
             "_rank": 0,
-            "_count": 0
+            "_count": 0,
+            "_storyCount": 0
         }
     },
     {

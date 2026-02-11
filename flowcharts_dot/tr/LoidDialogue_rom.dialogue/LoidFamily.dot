@@ -4,14 +4,21 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"LoidFamily begins." [color=orange];
-		"LoidFamily begins." -> j651301366;
-	j651301366 [label="Evaluate expressions",color=orange];
-		j651301366 -> j1845971043 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
-		j651301366 -> j1845971043 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
-		j651301366 -> "Chat ends." [label="false",color=purple];
+		"LoidFamily begins." -> j1120486766;
+	j1120486766 [label="Evaluate expressions",color=orange];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
+		j1120486766 -> "Chat ends." [label="false",color=purple];
+	j3808490524 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j3808490524 -> j2502471650 [label=true,color=green];
+		j3808490524 -> "Chat ends." [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2502471650 [label="Evaluate expressions",color=orange];
+		j2502471650 -> j1845971043 [label="RoatheRedeemed",color=purple];
+		j2502471650 -> j1845971043 [label="RoatheVillain",color=purple];
+		j2502471650 -> "Chat ends." [label="false",color=purple];
 	j1845971043 [label="Gezgin. Pes ediyorum. Roathe, Marie ve Lyon, beni doğru zamanın geldiğine ikna ettiler.",shape=box,color=blue];
 		j1845971043 -> j3544491413;
-	"Chat ends." [color=orange];
 	j3544491413 [label="Yapmam gereken şey beni iliklerime kadar korkutuyor. Sanırım Gomaitru ve ailesinin ayaklarının altında olup bitenleri keşfedecekleri, ve uzuvlarımı bir bir koparacakları o gün hızla yaklaşıyor.",shape=box,color=blue];
 		j3544491413 -> j2385357195;
 	j2385357195 [label="Ona ismiyle hitap etmek çok tuhaf; fakat aramızda çok şey değişti. Ve kısa zamanda çok daha fazlası değişecek.",shape=box,color=blue];

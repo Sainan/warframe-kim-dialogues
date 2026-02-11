@@ -4,14 +4,21 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"LoidFamily begins." [color=orange];
-		"LoidFamily begins." -> j651301366;
-	j651301366 [label="Evaluate expressions",color=orange];
-		j651301366 -> j2918212941 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
-		j651301366 -> j2918212941 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
-		j651301366 -> "Chat ends." [label="false",color=purple];
+		"LoidFamily begins." -> j1120486766;
+	j1120486766 [label="Evaluate expressions",color=orange];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
+		j1120486766 -> "Chat ends." [label="false",color=purple];
+	j3808490524 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j3808490524 -> j2502471650 [label=true,color=green];
+		j3808490524 -> "Chat ends." [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2502471650 [label="Evaluate expressions",color=orange];
+		j2502471650 -> j2918212941 [label="RoatheRedeemed",color=purple];
+		j2502471650 -> j2918212941 [label="RoatheVillain",color=purple];
+		j2502471650 -> "Chat ends." [label="false",color=purple];
 	j2918212941 [label="Drifter. Mi arrendo. Roathe, Marie e Lyon mi hanno convinto che il momento è finalmente arrivato.",shape=box,color=blue];
 		j2918212941 -> j2939792412;
-	"Chat ends." [color=orange];
 	j2939792412 [label="Temo ciò che dovrò fare fino al midollo. In effetti, questo potrebbe essere ciò che mi verrà tolto quando verrò fatto a pezzi in un impeto di rabbia quando Gomaitru e la sua famiglia scopriranno cosa è succedeva sotto i loro piedi per tutto questo tempo.",shape=box,color=blue];
 		j2939792412 -> j1658778759;
 	j1658778759 [label="È strano chiamarla con quel nome ora; ma tra noi sono cambiate così tante cose. E molto altro cambierà, a breve.",shape=box,color=blue];

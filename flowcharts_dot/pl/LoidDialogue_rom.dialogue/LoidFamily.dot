@@ -4,14 +4,21 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"LoidFamily begins." [color=orange];
-		"LoidFamily begins." -> j651301366;
-	j651301366 [label="Evaluate expressions",color=orange];
-		j651301366 -> j3425568613 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
-		j651301366 -> j3425568613 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
-		j651301366 -> "Chat ends." [label="false",color=purple];
+		"LoidFamily begins." -> j1120486766;
+	j1120486766 [label="Evaluate expressions",color=orange];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
+		j1120486766 -> "Chat ends." [label="false",color=purple];
+	j3808490524 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j3808490524 -> j2502471650 [label=true,color=green];
+		j3808490524 -> "Chat ends." [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2502471650 [label="Evaluate expressions",color=orange];
+		j2502471650 -> j3425568613 [label="RoatheRedeemed",color=purple];
+		j2502471650 -> j3425568613 [label="RoatheVillain",color=purple];
+		j2502471650 -> "Chat ends." [label="false",color=purple];
 	j3425568613 [label="Włóczęgo. Poddaje się. Roathe, Maria i Leon przekonali mnie, że w końcu nadszedł ten czas.",shape=box,color=blue];
 		j3425568613 -> j703418037;
-	"Chat ends." [color=orange];
 	j703418037 [label="Aż do szpiku kości, boję się tego, co będę musiał zrobić. Być może właśnie tego zostanę pozbawiony, gdy w napadzie wściekłości rozerwą mnie na strzępy, kiedy Gomaitru i jej rodzina dowiedzą się, co przez cały ten czas działo się pod ich nosami.",shape=box,color=blue];
 		j703418037 -> j1378514146;
 	j1378514146 [label="To dziwne uczucie nazywać ją po imieniu, lecz tak wiele się między nami zmieniło. A wkrótce zmieni się jeszcze więcej.",shape=box,color=blue];

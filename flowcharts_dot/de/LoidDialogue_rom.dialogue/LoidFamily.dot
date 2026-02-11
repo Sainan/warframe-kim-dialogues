@@ -4,14 +4,21 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"LoidFamily begins." [color=orange];
-		"LoidFamily begins." -> j651301366;
-	j651301366 [label="Evaluate expressions",color=orange];
-		j651301366 -> j3940412696 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
-		j651301366 -> j3940412696 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
-		j651301366 -> "Chat ends." [label="false",color=purple];
+		"LoidFamily begins." -> j1120486766;
+	j1120486766 [label="Evaluate expressions",color=orange];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
+		j1120486766 -> "Chat ends." [label="false",color=purple];
+	j3808490524 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j3808490524 -> j2502471650 [label=true,color=green];
+		j3808490524 -> "Chat ends." [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2502471650 [label="Evaluate expressions",color=orange];
+		j2502471650 -> j3940412696 [label="RoatheRedeemed",color=purple];
+		j2502471650 -> j3940412696 [label="RoatheVillain",color=purple];
+		j2502471650 -> "Chat ends." [label="false",color=purple];
 	j3940412696 [label="Drifter. Ich gebe auf. Roathe, Marie und Lyon haben mich überzeugt, dass die Zeit endlich gekommen ist.",shape=box,color=blue];
 		j3940412696 -> j1174801037;
-	"Chat ends." [color=orange];
 	j1174801037 [label="Ich fürchte mich bis ins Mark vor dem, was ich tun muss. Vielleicht ist es genau das, was mir entrissen wird, wenn ich in einem Wutanfall in Stücke gefetzt werde, wenn Gomaitru und ihre Familie herausfinden, was sich die ganze Zeit hier unter ihren Füßen abgespielt hat.",shape=box,color=blue];
 		j1174801037 -> j1227837560;
 	j1227837560 [label="Es ist komisch, sie jetzt bei ihrem Namen zu nennen, aber es hat sich soviel zwischen uns verändert. Und in Kürze wird sich noch mehr verändern.",shape=box,color=blue];

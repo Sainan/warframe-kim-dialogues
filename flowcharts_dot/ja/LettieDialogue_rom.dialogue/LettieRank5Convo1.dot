@@ -186,7 +186,7 @@ digraph {
 		j4133369047 -> j304097010;
 	j4054493583 [label="Check boolean LettieNoFlirt",color=orange];
 		j4054493583 -> j4042704940 [label=true,color=green];
-		j4054493583 -> j2101007801 [label=false,color=brown];
+		j4054493583 -> j1978492991 [label=false,color=brown];
 	j3188996890 [label="Check boolean LettieDating",color=orange];
 		j3188996890 -> j4027337590 [label=true,color=green];
 		j3188996890 -> j1744086563 [label=false,color=brown];
@@ -199,10 +199,14 @@ digraph {
 		j304097010 -> j1011195664;
 	j4042704940 [label="それに、こっちはLettieを家族のように思っているのに、こんなLettieを見るのは辛いよ。",shape=box,color=red];
 		j4042704940 -> j1854120810;
-	j2101007801 [label="Check boolean IsDating",color=orange];
-		j2101007801 -> j4042704940 [label=true,color=green];
-		j2101007801 -> j4042704940 [label=false,color=brown];
-		j2101007801 -> j2379432409 [label=false,color=brown];
+	j1978492991 [label="Evaluate expressions",color=orange];
+		j1978492991 -> j4042704940 [label="AoiDating",color=purple];
+		j1978492991 -> j4042704940 [label="EleanorDating",color=purple];
+		j1978492991 -> j4042704940 [label="QuincyDating",color=purple];
+		j1978492991 -> j4042704940 [label="ArthurDating",color=purple];
+		j1978492991 -> j4042704940 [label="AmirDating",color=purple];
+		j1978492991 -> j4042704940 [label="false",color=purple];
+		j1978492991 -> j2379432409 [label="false",color=purple];
 	j4027337590 [label="+20 Chemistry",color=orange];
 		j4027337590 -> j1645093146;
 	j1744086563 [label="Check boolean LettieNoFlirt",color=orange];

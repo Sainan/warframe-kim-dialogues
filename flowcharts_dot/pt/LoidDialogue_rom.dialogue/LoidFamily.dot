@@ -4,14 +4,21 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"LoidFamily begins." [color=orange];
-		"LoidFamily begins." -> j651301366;
-	j651301366 [label="Evaluate expressions",color=orange];
-		j651301366 -> j3337290893 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
-		j651301366 -> j3337290893 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
-		j651301366 -> "Chat ends." [label="false",color=purple];
+		"LoidFamily begins." -> j1120486766;
+	j1120486766 [label="Evaluate expressions",color=orange];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
+		j1120486766 -> "Chat ends." [label="false",color=purple];
+	j3808490524 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j3808490524 -> j2502471650 [label=true,color=green];
+		j3808490524 -> "Chat ends." [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2502471650 [label="Evaluate expressions",color=orange];
+		j2502471650 -> j3337290893 [label="RoatheRedeemed",color=purple];
+		j2502471650 -> j3337290893 [label="RoatheVillain",color=purple];
+		j2502471650 -> "Chat ends." [label="false",color=purple];
 	j3337290893 [label="Peregrino, devo ceder. O Roathe, a Marie e o Lyon me convenceram de que… finalmente, a hora chegou.",shape=box,color=blue];
 		j3337290893 -> j1218528266;
-	"Chat ends." [color=orange];
 	j1218528266 [label="Temo que terei de fazer o que me faz tremer até os ossos. Aliás, talvez seja isso que me seja tirado quando eu for despedaçado… quando a Gomaitru e sua família descobrirem o que esteve acontecendo debaixo de seus pés durante todo esse tempo.",shape=box,color=blue];
 		j1218528266 -> j3101304779;
 	j3101304779 [label="É tão estranho chamá-la por esse nome agora… mas tanta coisa mudou entre nós. E tanta coisa mudará ainda mais em breve…",shape=box,color=blue];

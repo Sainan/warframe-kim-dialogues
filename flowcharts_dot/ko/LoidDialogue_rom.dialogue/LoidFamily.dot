@@ -4,14 +4,21 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"LoidFamily begins." [color=orange];
-		"LoidFamily begins." -> j651301366;
-	j651301366 [label="Evaluate expressions",color=orange];
-		j651301366 -> j3233694762 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
-		j651301366 -> j3233694762 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
-		j651301366 -> "Chat ends." [label="false",color=purple];
+		"LoidFamily begins." -> j1120486766;
+	j1120486766 [label="Evaluate expressions",color=orange];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
+		j1120486766 -> "Chat ends." [label="false",color=purple];
+	j3808490524 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j3808490524 -> j2502471650 [label=true,color=green];
+		j3808490524 -> "Chat ends." [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2502471650 [label="Evaluate expressions",color=orange];
+		j2502471650 -> j3233694762 [label="RoatheRedeemed",color=purple];
+		j2502471650 -> j3233694762 [label="RoatheVillain",color=purple];
+		j2502471650 -> "Chat ends." [label="false",color=purple];
 	j3233694762 [label="드리프터. 당신이 이겼습니다. 로스, 마리, 리온이 마침내 때가 왔다고 설득하더군요.",shape=box,color=blue];
 		j3233694762 -> j1146213250;
-	"Chat ends." [color=orange];
 	j1146213250 [label="제가 해야 할 일들이 떠올라서 뼛속까지 두렵네요. 고마이트루님과 가족분들이 그동안 발밑에서 무슨 일이 벌어지고 있었는지 알게 되셨을 때, 분노에 휩싸여서 사지를 찢어낼 때, 어쩌면 그 잘리는 게 제 것이 될지도 모르겠군요.",shape=box,color=blue];
 		j1146213250 -> j832945944;
 	j832945944 [label="지금은 그 이름으로 그분을 부르는 게 너무나 낯설지만, 우리 사이는 정말 많은 것들이 변했습니다. 그리고 머지않아 더 많은 것들이 변하겠네요.",shape=box,color=blue];

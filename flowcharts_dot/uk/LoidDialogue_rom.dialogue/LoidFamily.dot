@@ -4,14 +4,21 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"LoidFamily begins." [color=orange];
-		"LoidFamily begins." -> j651301366;
-	j651301366 [label="Evaluate expressions",color=orange];
-		j651301366 -> j116021835 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
-		j651301366 -> j116021835 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
-		j651301366 -> "Chat ends." [label="false",color=purple];
+		"LoidFamily begins." -> j1120486766;
+	j1120486766 [label="Evaluate expressions",color=orange];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
+		j1120486766 -> "Chat ends." [label="false",color=purple];
+	j3808490524 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j3808490524 -> j2502471650 [label=true,color=green];
+		j3808490524 -> "Chat ends." [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2502471650 [label="Evaluate expressions",color=orange];
+		j2502471650 -> j116021835 [label="RoatheRedeemed",color=purple];
+		j2502471650 -> j116021835 [label="RoatheVillain",color=purple];
+		j2502471650 -> "Chat ends." [label="false",color=purple];
 	j116021835 [label="Мандрівниче. Я більше не можу. Роут, Марі та Ліон переконали мене, що час нарешті настав.",shape=box,color=blue];
 		j116021835 -> j1966631050;
-	"Chat ends." [color=orange];
 	j1966631050 [label="Я боюся подальших дій до тремтіння в найменших кісточках. Гадаю, що мене до них і розберуть, шматок за шматком, у нападі люті, коли Ґомайтру та вся родина довідається, що відбувалося весь цей час у них під ногами.",shape=box,color=blue];
 		j1966631050 -> j1607890424;
 	j1607890424 [label="Так дивно їх тепер називати за іменами, але так багато всього між нами змінилося. Та невдовзі зміниться ще більше.",shape=box,color=blue];

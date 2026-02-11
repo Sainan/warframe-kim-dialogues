@@ -288,14 +288,14 @@
             18
         ],
         "GraphPos": [
-            586,
-            920
+            368,
+            919
         ],
         "Outputs": [
             {
                 "Expression": "MarieFamilySuccess, LyonFamilySuccess, RoatheFamilySuccess",
                 "Outgoing": [
-                    20
+                    30
                 ],
                 "Values": [],
                 "CompareOperators": [],
@@ -304,7 +304,7 @@
             {
                 "Expression": "MarieFamilySuccess, LyonFamilySuccess, RoatheFamilyComplete",
                 "Outgoing": [
-                    20
+                    30
                 ],
                 "Values": [],
                 "CompareOperators": [],
@@ -326,14 +326,14 @@
         "Id": 20,
         "Content": "/Lotus/Language/1999Texting/LoidDialogue/Loid_LoidFamily_16",
         "Incoming": [
-            19
+            32
         ],
         "Outgoing": [
             22
         ],
         "GraphPos": [
-            1087,
-            928
+            1670,
+            913
         ]
     },
     {
@@ -343,8 +343,8 @@
             19
         ],
         "GraphPos": [
-            1093,
-            1141
+            822,
+            1084
         ]
     },
     {
@@ -358,8 +358,8 @@
             23
         ],
         "GraphPos": [
-            1687,
-            928
+            2007,
+            911
         ]
     },
     {
@@ -374,8 +374,8 @@
             25
         ],
         "GraphPos": [
-            2277,
-            928
+            2373,
+            913
         ]
     },
     {
@@ -389,8 +389,8 @@
             26
         ],
         "GraphPos": [
-            2802,
-            987
+            2714,
+            974
         ]
     },
     {
@@ -404,8 +404,8 @@
             26
         ],
         "GraphPos": [
-            2802,
-            870
+            2714,
+            857
         ]
     },
     {
@@ -420,8 +420,8 @@
             27
         ],
         "GraphPos": [
-            3347,
-            928
+            3036,
+            904
         ]
     },
     {
@@ -435,8 +435,8 @@
             28
         ],
         "GraphPos": [
-            3709,
-            928
+            3398,
+            904
         ]
     },
     {
@@ -446,8 +446,8 @@
             27
         ],
         "GraphPos": [
-            4070,
-            928
+            3759,
+            904
         ]
     },
     {
@@ -463,6 +463,97 @@
         "GraphPos": [
             7247,
             -41
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckBooleanScriptDialogueNode",
+        "Id": 30,
+        "Incoming": [
+            19
+        ],
+        "GraphPos": [
+            836,
+            920
+        ],
+        "TrueNodes": [
+            32
+        ],
+        "FalseNodes": [
+            31
+        ],
+        "Script": {
+            "Script": "/Lotus/Scripts/1999/DialogueScriptNodes.lua",
+            "Function": "IsSyndicateRank",
+            "_counter": 0,
+            "_collectibleType": "",
+            "_syndicate": "EntratiSyndicate",
+            "_syndicateRank": 5,
+            "_dialogueType": "",
+            "_rank": 0,
+            "_count": 0,
+            "_storyCount": 0
+        }
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 31,
+        "Incoming": [
+            30
+        ],
+        "GraphPos": [
+            1200,
+            1090
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
+        "Id": 32,
+        "Incoming": [
+            30
+        ],
+        "GraphPos": [
+            1269,
+            933
+        ],
+        "Outputs": [
+            {
+                "Expression": "RoatheRedeemed",
+                "Outgoing": [
+                    20
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "RoatheVillain",
+                "Outgoing": [
+                    20
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [
+                    33
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
+        ]
+    },
+    {
+        "type": "/EE/Types/Engine/EndDialogueNode",
+        "Id": 33,
+        "Incoming": [
+            32
+        ],
+        "GraphPos": [
+            1614,
+            1089
         ]
     }
 ]

@@ -4,14 +4,21 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"LoidFamily begins." [color=orange];
-		"LoidFamily begins." -> j651301366;
-	j651301366 [label="Evaluate expressions",color=orange];
-		j651301366 -> j3434769455 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
-		j651301366 -> j3434769455 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
-		j651301366 -> "Chat ends." [label="false",color=purple];
+		"LoidFamily begins." -> j1120486766;
+	j1120486766 [label="Evaluate expressions",color=orange];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
+		j1120486766 -> "Chat ends." [label="false",color=purple];
+	j3808490524 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j3808490524 -> j2502471650 [label=true,color=green];
+		j3808490524 -> "Chat ends." [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2502471650 [label="Evaluate expressions",color=orange];
+		j2502471650 -> j3434769455 [label="RoatheRedeemed",color=purple];
+		j2502471650 -> j3434769455 [label="RoatheVillain",color=purple];
+		j2502471650 -> "Chat ends." [label="false",color=purple];
 	j3434769455 [label="ดริฟเตอร์ ข้ายอมแพ้ Roathe, Marie และ Lyon ทำให้ข้าเชื่อว่าในที่สุดเวลานั้นก็มาถึง",shape=box,color=blue];
 		j3434769455 -> j1282452039;
-	"Chat ends." [color=orange];
 	j1282452039 [label="ข้าหวาดกลัวสิ่งที่ข้าต้องทำลงไปถึงกระดูก แท้จริงแล้ว นั่นอาจเป็นสิ่งที่ถูกพรากไป เมื่อข้าถูกฉีกเป็นชิ้นเล็กชิ้นน้อยด้วยความโกรธเกรี้ยว หาก Gomaitru และครอบครัวของนางค้นพบว่ามีอะไรเกิดขึ้นที่ใต้เท้าของพวกเขามาตลอด",shape=box,color=blue];
 		j1282452039 -> j2273862859;
 	j2273862859 [label="แปลกจริง ๆ ที่เรียกนางด้วยชื่อนั้นในตอนนี้ แต่ระหว่างเรามีหลายสิ่งเปลี่ยนไปมาก และอีกไม่นานก็จะเปลี่ยนไปอีกมากมายเช่นกัน",shape=box,color=blue];

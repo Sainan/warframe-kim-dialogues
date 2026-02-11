@@ -4,14 +4,21 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"LoidFamily begins." [color=orange];
-		"LoidFamily begins." -> j651301366;
-	j651301366 [label="Evaluate expressions",color=orange];
-		j651301366 -> j2984606967 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
-		j651301366 -> j2984606967 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
-		j651301366 -> "Chat ends." [label="false",color=purple];
+		"LoidFamily begins." -> j1120486766;
+	j1120486766 [label="Evaluate expressions",color=orange];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
+		j1120486766 -> "Chat ends." [label="false",color=purple];
+	j3808490524 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j3808490524 -> j2502471650 [label=true,color=green];
+		j3808490524 -> "Chat ends." [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2502471650 [label="Evaluate expressions",color=orange];
+		j2502471650 -> j2984606967 [label="RoatheRedeemed",color=purple];
+		j2502471650 -> j2984606967 [label="RoatheVillain",color=purple];
+		j2502471650 -> "Chat ends." [label="false",color=purple];
 	j2984606967 [label="Viajero. Debo ceder. Roathe, Marie y Lyon me han convencido de que por fin ha llegado el momento.",shape=box,color=blue];
 		j2984606967 -> j935748819;
-	"Chat ends." [color=orange];
 	j935748819 [label="Me aterra lo que debo hacer hasta la médula. De hecho, eso podría ser lo que me quiten cuando me descuarticen en un ataque de ira cuando Gomaitru y su familia descubran lo que ha estado sucediendo bajo sus pies todo este tiempo.",shape=box,color=blue];
 		j935748819 -> j3575813285;
 	j3575813285 [label="Qué extraño llamarla así ahora; pero mucho ha cambiado entre nosotros. Y mucho más cambiará pronto.",shape=box,color=blue];

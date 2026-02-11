@@ -22540,21 +22540,70 @@
         ]
     },
     {
-        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
         "Id": 1498,
-        "Content": "IsDating",
         "Incoming": [
             1495
         ],
         "GraphPos": [
-            -14137,
-            10871
+            -14173,
+            10872
         ],
-        "TrueNodes": [
-            1501
-        ],
-        "FalseNodes": [
-            1499
+        "Outputs": [
+            {
+                "Expression": "ArthurDating",
+                "Outgoing": [
+                    1501
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "EleanorDating",
+                "Outgoing": [
+                    1501
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "QuincyDating",
+                "Outgoing": [
+                    1501
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "LettieDating",
+                "Outgoing": [
+                    1501
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "AoiDating",
+                "Outgoing": [
+                    1501
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [
+                    1499
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
         ]
     },
     {
@@ -32200,21 +32249,70 @@
         ]
     },
     {
-        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
         "Id": 2136,
-        "Content": "IsDating",
         "Incoming": [
             2128
         ],
         "GraphPos": [
-            -13768,
-            19549
+            -13786,
+            19555
         ],
-        "TrueNodes": [
-            2137
-        ],
-        "FalseNodes": [
-            2138
+        "Outputs": [
+            {
+                "Expression": "ArthurDating",
+                "Outgoing": [
+                    2137
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "EleanorDating",
+                "Outgoing": [
+                    2137
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "QuincyDating",
+                "Outgoing": [
+                    2137
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "LettieDating",
+                "Outgoing": [
+                    2137
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "AoiDating",
+                "Outgoing": [
+                    2137
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [
+                    2138
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
         ]
     },
     {
@@ -53440,21 +53538,70 @@
         ]
     },
     {
-        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
         "Id": 3528,
-        "Content": "IsDating",
         "Incoming": [
             3527
         ],
         "GraphPos": [
-            -14537,
-            46792
+            -14560,
+            46794
         ],
-        "TrueNodes": [
-            3529
-        ],
-        "FalseNodes": [
-            3530
+        "Outputs": [
+            {
+                "Expression": "ArthurDating",
+                "Outgoing": [
+                    3529
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "EleanorDating",
+                "Outgoing": [
+                    3529
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "QuincyDating",
+                "Outgoing": [
+                    3529
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "LettieDating",
+                "Outgoing": [
+                    3529
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "AoiDating",
+                "Outgoing": [
+                    3529
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [
+                    3530
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
         ]
     },
     {
@@ -53464,8 +53611,8 @@
             3528
         ],
         "GraphPos": [
-            -14194,
-            46588
+            -14157,
+            46687
         ]
     },
     {
@@ -68393,7 +68540,8 @@
             "_syndicateRank": 0,
             "_dialogueType": "",
             "_rank": 0,
-            "_count": 0
+            "_count": 0,
+            "_storyCount": 0
         }
     },
     {

@@ -13,29 +13,29 @@ digraph {
 		j3022756529 -> "Chat ends." [label=true,color=green];
 		j3022756529 -> j167573042 [label=false,color=brown];
 	j167573042 [label="Evaluate expressions",color=orange];
-		j167573042 -> j986792144 [label="LyonConfession1 & MarieFamilyFail & RoatheFamilyFail
+		j167573042 -> j2341809482 [label="LyonConfession1 & MarieFamilyFail & RoatheFamilyFail
 ",color=purple];
 		j167573042 -> j3956629060 [label="LyonConfession1 & MarieFamilyFail",color=purple];
-		j167573042 -> j2679308477 [label="LyonConfession1 & RoatheFamilyFail",color=purple];
-		j167573042 -> j2260588952 [label="LyonFamilySuccess",color=purple];
-		j167573042 -> j2964131535 [label="LyonDating",color=purple];
-		j167573042 -> j2450475377 [label="LyonConfession1",color=purple];
+		j167573042 -> j859198110 [label="LyonConfession1 & RoatheFamilyFail",color=purple];
+		j167573042 -> j1772238837 [label="LyonFamilySuccess",color=purple];
+		j167573042 -> j1242236172 [label="LyonDating",color=purple];
+		j167573042 -> j2376025267 [label="LyonConfession1",color=purple];
 		j167573042 -> "Chat ends." [label="false",color=purple];
-	j986792144 [label="看来你把和玛丽还有那个奥罗金人的关系都搞得一团糟。我……真是佩服。",shape=box,color=blue];
-		j986792144 -> j2538369393;
-		j986792144 -> j1833751743;
+	j2341809482 [label="看来你把和玛丽还有罗瑟的关系都搞得一团糟。我……真是佩服。",shape=box,color=blue];
+		j2341809482 -> j2538369393;
+		j2341809482 -> j1833751743;
 	j3956629060 [label="看来你和玛丽的关系搞得一团糟。你是怎么做到的？",shape=box,color=blue];
 		j3956629060 -> j1926588315;
 		j3956629060 -> j3275779057;
-	j2679308477 [label="看来你和那个奥罗金人的关系搞得一团糟。我倒也不觉得意外。",shape=box,color=blue];
-		j2679308477 -> j272503971;
-		j2679308477 -> j2665205344;
-	j2260588952 [label="我向你保证会解决管家的问题，但看起来计划出现了点问题。",shape=box,color=blue];
-		j2260588952 -> j3291097851;
-	j2964131535 [label="Mon miracle，我感觉自己心不在焉。我必须道歉。",shape=box,color=blue];
-		j2964131535 -> j1448787334;
-	j2450475377 [label="我的朋友，我感觉自己心不在焉。我必须道歉。",shape=box,color=blue];
-		j2450475377 -> j1448787334;
+	j859198110 [label="看来你把和罗瑟的关系搞得一团糟。我倒也不觉得意外。",shape=box,color=blue];
+		j859198110 -> j272503971;
+		j859198110 -> j2665205344;
+	j1772238837 [label="我向你保证会解决洛德先生的问题，但看起来计划出现了点问题。",shape=box,color=blue];
+		j1772238837 -> j3291097851;
+	j1242236172 [label="Mon miracle，我感觉自己心不在焉。我必须道歉。",shape=box,color=blue];
+		j1242236172 -> j3256455566;
+	j2376025267 [label="我的朋友，我感觉自己心不在焉。我必须道歉。",shape=box,color=blue];
+		j2376025267 -> j3256455566;
 	j2538369393 [label="别再说了。我可受不了神父的谴责，谢谢。",shape=box,color=red];
 		j2538369393 -> j3044139948;
 	j1833751743 [label="其实我觉得，如果我朋友的老鼠睡在键盘上乱按键盘，敲出来的文字都比这个强。",shape=box,color=red];
@@ -54,14 +54,14 @@ digraph {
 		j3291097851 -> j2792128624 [label="MarieFamilySuccess & RoatheFamilySuccess
 ",color=purple];
 		j3291097851 -> j2398618514 [label="MarieFamilySuccess & RoatheFamilyDelay",color=purple];
-		j3291097851 -> j1064463832 [label="RoatheFamilyComplete",color=purple];
-		j3291097851 -> j1064463832 [label="RoatheFamilySuccess",color=purple];
+		j3291097851 -> j432611355 [label="RoatheFamilyComplete",color=purple];
+		j3291097851 -> j432611355 [label="RoatheFamilySuccess",color=purple];
 		j3291097851 -> j2336464704 [label="MarieFamilySuccess",color=purple];
 		j3291097851 -> j2004311414 [label="RoatheFamilyDelay",color=purple];
 		j3291097851 -> j4095805598 [label="false",color=purple];
-	j1448787334 [label="你需要我帮忙解决管家的事情，对吧？",shape=box,color=blue];
-		j1448787334 -> j662874282;
-		j1448787334 -> j1038552372;
+	j3256455566 [label="你需要我帮忙解决洛德先生的事情，对吧？",shape=box,color=blue];
+		j3256455566 -> j662874282;
+		j3256455566 -> j1038552372;
 	j3044139948 [label="嗯，好吧。我想我开始明白这到底是怎么发生的了。",shape=box,color=blue];
 		j3044139948 -> "Chat ends.";
 	j1732376989 [label="要是你能听到我的笑声就好了。我不是在评判你，我真心同情你的程度远超你的想象。正因如此，我才会帮你。",shape=box,color=blue];
@@ -77,9 +77,9 @@ digraph {
 		j2792128624 -> j2141167767;
 	j2398618514 [label="看来恶魔在……拖延时间。但没有玛丽，你也走不远。",shape=box,color=blue];
 		j2398618514 -> j3520085577;
-	j1064463832 [label="你得到了那个奥罗金人的支持，但没有得到玛丽的支持。这个问题很容易解决。但我必须问，你是怎么弄成这种局面的？",shape=box,color=blue];
-		j1064463832 -> j1926588315;
-		j1064463832 -> j3275779057;
+	j432611355 [label="你得到了罗瑟的支持，但没有得到玛丽的支持。这个问题很容易解决。但我必须问，你是怎么弄成这种局面的？",shape=box,color=blue];
+		j432611355 -> j1926588315;
+		j432611355 -> j3275779057;
 	j2336464704 [label="看来你得到了玛丽的帮助，但没有得到罗瑟的帮助？这也不奇怪。",shape=box,color=blue];
 		j2336464704 -> j272503971;
 		j2336464704 -> j2665205344;
@@ -107,7 +107,7 @@ digraph {
 		j3520085577 -> j3281415421;
 		j3520085577 -> j193643261;
 	j1932054405 [label="我的思绪总会飘向奇怪的地方，尤其是最近。当然，我会帮忙。",shape=box,color=blue];
-		j1932054405 -> j1436756777;
+		j1932054405 -> j814244232;
 	j1699550191 [label="不必多说，你愿意让我……为你解决这个问题吗？",shape=box,color=blue];
 		j1699550191 -> j3281415421;
 		j1699550191 -> j1789539347;
@@ -124,16 +124,17 @@ digraph {
 		j3281415421 -> j2654541218;
 	j193643261 [label="谢谢？好的，请帮帮我。",shape=box,color=red];
 		j193643261 -> j2843932268;
-	j1436756777 [label="Evaluate expressions",color=orange];
-		j1436756777 -> j1570667732 [label="MarieFamilySuccess & RoatheFamilyComplete
+	j814244232 [label="Evaluate expressions",color=orange];
+		j814244232 -> j1570667732 [label="MarieFamilySuccess & RoatheFamilyComplete
 ",color=purple];
-		j1436756777 -> j1570667732 [label="MarieFamilySuccess & RoatheFamilySuccess
+		j814244232 -> j1570667732 [label="MarieFamilySuccess & RoatheFamilySuccess
 ",color=purple];
-		j1436756777 -> j2398618514 [label="MarieFamilySuccess & RoatheFamilyDelay",color=purple];
-		j1436756777 -> j623989240 [label="RoatheFamilyComplete",color=purple];
-		j1436756777 -> j623989240 [label="RoatheFamilySuccess",color=purple];
-		j1436756777 -> j2336464704 [label="MarieFamilySuccess",color=purple];
-		j1436756777 -> j2004311414 [label="RoatheFamilyDelay",color=purple];
+		j814244232 -> j2398618514 [label="MarieFamilySuccess & RoatheFamilyDelay",color=purple];
+		j814244232 -> j623989240 [label="RoatheFamilyComplete",color=purple];
+		j814244232 -> j623989240 [label="RoatheFamilySuccess",color=purple];
+		j814244232 -> j2336464704 [label="MarieFamilySuccess",color=purple];
+		j814244232 -> j2004311414 [label="RoatheFamilyDelay",color=purple];
+		j814244232 -> j2636086936 [label="false",color=purple];
 	j1789539347 [label="谢谢？愿意，请帮帮我。",shape=box,color=red];
 		j1789539347 -> j2843932268;
 	j968310173 [label="当然。家人不就是用来干这个的吗？",shape=box,color=blue];
@@ -152,6 +153,8 @@ digraph {
 		j1570667732 -> j2641036676;
 	j623989240 [label="看来你得到了罗瑟的帮助，但没有得到玛丽的帮助？",shape=box,color=blue];
 		j623989240 -> j2082906017;
+	j2636086936 [label="看来你不只是没能获得……我的帮助，而且连我们三人中一位也没有争取到？",shape=box,color=blue];
+		j2636086936 -> j955271560;
 	j2255163764 [label="——里昂",shape=box,color=blue];
 		j2255163764 -> j3661668577;
 	j117506944 [label="嗯，很好。毕竟，“家人”不就是用来干这个的吗……",shape=box,color=blue];
@@ -167,6 +170,8 @@ digraph {
 	j2082906017 [label="你是怎么弄成这样的？",shape=box,color=blue];
 		j2082906017 -> j1926588315;
 		j2082906017 -> j3275779057;
+	j955271560 [label="我真不知道你是怎么做到的。如果只是三人中有两人我还能接受，但现在这样？",shape=box,color=blue];
+		j955271560 -> j635895309;
 	j3661668577 [label="Boolean LyonFamilySuccess is now true.",color=orange];
 		j3661668577 -> j1372622282;
 	j3906327371 [label="——里昂",shape=box,color=blue];
@@ -175,6 +180,8 @@ digraph {
 		j3468782057 -> j1816446675;
 	j2730593101 [label="Boolean LyonFamilySuccess is now true.",color=orange];
 		j2730593101 -> j526373218;
+	j635895309 [label="我能做的也就这么多了。",shape=box,color=blue];
+		j635895309 -> "Chat ends.";
 	j1372622282 [label="Boolean LyonFamilyFail is now false.",color=orange];
 		j1372622282 -> j3151953893;
 	j4122845909 [label="Boolean LyonFamilySuccess is now true.",color=orange];

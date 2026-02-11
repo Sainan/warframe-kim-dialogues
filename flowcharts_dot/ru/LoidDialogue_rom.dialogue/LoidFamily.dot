@@ -4,14 +4,21 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"LoidFamily begins." [color=orange];
-		"LoidFamily begins." -> j651301366;
-	j651301366 [label="Evaluate expressions",color=orange];
-		j651301366 -> j796632493 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
-		j651301366 -> j796632493 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
-		j651301366 -> "Chat ends." [label="false",color=purple];
+		"LoidFamily begins." -> j1120486766;
+	j1120486766 [label="Evaluate expressions",color=orange];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilySuccess",color=purple];
+		j1120486766 -> j3808490524 [label="MarieFamilySuccess & LyonFamilySuccess & RoatheFamilyComplete",color=purple];
+		j1120486766 -> "Chat ends." [label="false",color=purple];
+	j3808490524 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
+		j3808490524 -> j2502471650 [label=true,color=green];
+		j3808490524 -> "Chat ends." [label=false,color=brown];
+	"Chat ends." [color=orange];
+	j2502471650 [label="Evaluate expressions",color=orange];
+		j2502471650 -> j796632493 [label="RoatheRedeemed",color=purple];
+		j2502471650 -> j796632493 [label="RoatheVillain",color=purple];
+		j2502471650 -> "Chat ends." [label="false",color=purple];
 	j796632493 [label="Скиталец. Я больше не могу. Роут, Мари и Лион убедили меня, что настал мой час.",shape=box,color=blue];
 		j796632493 -> j3677934456;
-	"Chat ends." [color=orange];
 	j3677934456 [label="Я боюсь грядущего до мозга костей. Возможно, именно это и будет извлечено из меня, когда меня порвут на части в припадке ярости, если Гомайтру и её семья узнают о том, что творилось у них под носом всё это время.",shape=box,color=blue];
 		j3677934456 -> j864309891;
 	j864309891 [label="Так странно называть её этим именем сейчас, но между нами так много изменилось. И ещё многое изменится в ближайшее время.",shape=box,color=blue];
