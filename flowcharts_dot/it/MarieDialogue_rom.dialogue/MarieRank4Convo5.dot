@@ -181,7 +181,7 @@ digraph {
 	j1502660544 [label="Mi preoccupa semplicemente il fatto che, senza la soluzione dei loro problemi, non potremmo mai sperare di essere i benvenuti alla loro tavola. Il problema più grande rimane irrisolto -",shape=box,color=blue];
 		j1502660544 -> j3174700332;
 	j3916832970 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
-		j3916832970 -> j1520045797 [label=true,color=green];
+		j3916832970 -> j1790506883 [label=true,color=green];
 		j3916832970 -> j3337182392 [label=false,color=brown];
 	j2008082595 [label="Pff ! Penso comunque che questo sia un esperimento degno di nota. Forse possiamo isolare il diavolo in un mare di librerie !",shape=box,color=blue];
 		j2008082595 -> j1429538983;
@@ -198,10 +198,10 @@ digraph {
 	j2133257282 [label="Insieme saremmo più forti che separati.",shape=box,color=red];
 		j2133257282 -> j2651065267;
 		j2133257282 -> j213103911;
-	j1520045797 [label="Lei ha accettato la sua assenza e hanno fatto pace, ma è stato veramente difficile arrivare a questa conclusione.",shape=box,color=red];
-		j1520045797 -> j3262002702;
+	j1790506883 [label="Lei ha accettato la sua assenza e hanno fatto pace, ma è stato veramente difficile arrivare a questa conclusione.",shape=box,color=red];
+		j1790506883 -> j3112239696;
 	j3337182392 [label="Check boolean MarieSyndicateMaxRank",color=orange];
-		j3337182392 -> j1520045797 [label=true,color=green];
+		j3337182392 -> j1790506883 [label=true,color=green];
 		j3337182392 -> j2772467325 [label=false,color=brown];
 	j1429538983 [label="+20 Chemistry",color=orange];
 		j1429538983 -> j504270276;
@@ -216,8 +216,8 @@ digraph {
 		j2651065267 -> j2376057331;
 	j213103911 [label="Non so se a lungo termine potrebbe aiutare o danneggiare. Ma anche questo... purgatorio non va bene.",shape=box,color=red];
 		j213103911 -> j537169954;
-	j3262002702 [label="Sapere che lui è ancora là fuori, da qualche parte, e che non le ha detto una parola, né le ha mandato una lettera...?",shape=box,color=red];
-		j3262002702 -> j1760706207;
+	j3112239696 [label="Sapere che lui è ancora là fuori, da qualche parte, e che non le ha detto una parola, né le ha mandato una lettera...?",shape=box,color=red];
+		j3112239696 -> j427297571;
 	j2772467325 [label="Lei non ha ancora accettato la sua assenza, e continuano a litigare.",shape=box,color=red];
 		j2772467325 -> j1381657014;
 	j504270276 [label="Ho molto da fare ! À la revoyure !",shape=box,color=blue];
@@ -229,8 +229,8 @@ digraph {
 	j537169954 [label="Oui, sono d'accordo. Ma non posso essere io a colmare il divario tra noi. Non so come fare ! Per loro lassù sono un'estranea...",shape=box,color=blue];
 		j537169954 -> j4175668775;
 		j537169954 -> j1369306818;
-	j1760706207 [label="Non riesco a immaginare quanto doloroso posse essere per lei. Per loro.",shape=box,color=red];
-		j1760706207 -> j3535685419;
+	j427297571 [label="Non riesco a immaginare quanto doloroso possa essere per lei. Per loro.",shape=box,color=red];
+		j427297571 -> j3535685419;
 	j1381657014 [label="Sapere che lui è ancora là fuori, da qualche parte, e che non le ha detto una parola, né le ha mandato una lettera...?",shape=box,color=red];
 		j1381657014 -> j1241701042;
 	j1508231473 [label="Boolean MarieNoDate is now true.",color=orange];

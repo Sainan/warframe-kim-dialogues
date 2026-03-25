@@ -64,10 +64,10 @@ for ALL_DIALOGUES as diag_name do
 			node = EeNotationParser.parse(node)
 			assert(node.Id == #nodes)
 			nodes:insert(node)
-			if node.Content and full_dicts.en[node.Content] then
-				--assert(full_dicts.en[node.Content], node.Content)
+			if node.LocTag and full_dicts.en[node.LocTag] then
+				--assert(full_dicts.en[node.LocTag], node.LocTag)
 				for LANGS as lang do
-					partial_dicts[lang][node.Content] = full_dicts[lang][node.Content]
+					partial_dicts[lang][node.LocTag] = full_dicts[lang][node.LocTag]
 				end
 			end
 			if node.Speaker and full_dicts.en[node.Speaker] then

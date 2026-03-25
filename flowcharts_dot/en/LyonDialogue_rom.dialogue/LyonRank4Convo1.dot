@@ -21,12 +21,12 @@ digraph {
 		j994203238 -> j1310978788 [label="DrifterFaithNoFear",color=purple];
 		j994203238 -> j1310978788 [label="DrifterFaithNoMaybe",color=purple];
 		j994203238 -> j1310978788 [label="DrifterFaithNoMITW",color=purple];
-		j994203238 -> j705611736 [label="false",color=purple];
+		j994203238 -> j2161138922 [label="false",color=purple];
 	"Chat ends." [color=orange];
 	j1310978788 [label="Do you consider yourself a religious person, Drifter? Or is this more of a scholarly question?",shape=box,color=blue];
 		j1310978788 -> j1073023867;
-	j705611736 [label="+20 Chemistry",color=orange];
-		j705611736 -> j4207975408;
+	j2161138922 [label="+20 Chemistry",color=orange];
+		j2161138922 -> j979968937;
 	j1073023867 [label="Evaluate expressions",color=orange];
 		j1073023867 -> j148058912 [label="DrifterFaithYesSimilar",color=purple];
 		j1073023867 -> j3901578583 [label="DrifterFaithYesSimilar",color=purple];
@@ -49,9 +49,9 @@ digraph {
 		j1073023867 -> j3139644957 [label="DrifterFaithNoMITW",color=purple];
 		j1073023867 -> j148058912 [label="DrifterFaithNoMITW",color=purple];
 		j1073023867 -> j148058912 [label="false",color=purple];
-	j4207975408 [label="I fear there are many topics I could discuss at length. But do not mistake me, I would be happy to, I simply do not wish to bore you to tears. What where would you like to begin?",shape=box,color=blue];
-		j4207975408 -> j4153995921;
-		j4207975408 -> j267241366;
+	j979968937 [label="I fear there are many topics I could discuss at length. But do not mistake me, I would be happy to, I simply do not wish to bore you to tears. Where would you like to begin?",shape=box,color=blue];
+		j979968937 -> j4153995921;
+		j979968937 -> j267241366;
 	j148058912 [label="No, I'm more curious than anything else.",shape=box,color=red];
 		j148058912 -> j2305594065;
 	j3901578583 [label="I'm religious. It's similar to yours, though you wouldn't recognize it.",shape=box,color=red];

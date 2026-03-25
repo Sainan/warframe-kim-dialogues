@@ -121,7 +121,7 @@ digraph {
 		j2862848923 -> j1348690447;
 		j2862848923 -> j76592750;
 	j3382079857 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:IsSyndicateRank(syndicate=EntratiSyndicate, syndicateRank=5)",color=orange];
-		j3382079857 -> j570571527 [label=true,color=green];
+		j3382079857 -> j1786724542 [label=true,color=green];
 		j3382079857 -> j1980571544 [label=false,color=brown];
 	j161958783 [label="Perché ti sei seduta con lei?",shape=box,color=red];
 		j161958783 -> j404062383;
@@ -131,10 +131,10 @@ digraph {
 		j1348690447 -> j2648843962;
 	j76592750 [label="È stato gentile da parte tua sederti con lei.",shape=box,color=red];
 		j76592750 -> j3869073688;
-	j570571527 [label="Lei ha accettato la sua assenza e hanno fatto pace, ma è stato veramente difficile arrivare a questa conclusione.",shape=box,color=red];
-		j570571527 -> j2026304535;
+	j1786724542 [label="Lei ha accettato la sua assenza e hanno fatto pace, ma è stato veramente difficile arrivare a questa conclusione.",shape=box,color=red];
+		j1786724542 -> j2073670673;
 	j1980571544 [label="Check boolean MarieSyndicateMaxRank",color=orange];
-		j1980571544 -> j570571527 [label=true,color=green];
+		j1980571544 -> j1786724542 [label=true,color=green];
 		j1980571544 -> j3305608163 [label=false,color=brown];
 	j404062383 [label="+15 Chemistry",color=orange];
 		j404062383 -> j3403097230;
@@ -144,8 +144,8 @@ digraph {
 		j2648843962 -> j2962961077;
 	j3869073688 [label="+5 Chemistry",color=orange];
 		j3869073688 -> j2768539951;
-	j2026304535 [label="Sapere che lui è ancora là fuori, da qualche parte, e che non le ha detto una parola, né le ha mandato una lettera...?",shape=box,color=red];
-		j2026304535 -> j3436858554;
+	j2073670673 [label="Sapere che lui è ancora là fuori, da qualche parte, e che non le ha detto una parola, né le ha mandato una lettera...?",shape=box,color=red];
+		j2073670673 -> j2719982535;
 	j3305608163 [label="Lei non ha ancora accettato la sua assenza, e continuano a litigare tra di loro.",shape=box,color=red];
 		j3305608163 -> j2170971946;
 	j3403097230 [label="Una domanda saggia. Una domanda molto saggia. Credo che ci siano stati molti motivi che mi hanno ispirata. Mi piace pensare che sia stata la gentilezza a spingermi al suo tavolo.",shape=box,color=blue];
@@ -156,8 +156,8 @@ digraph {
 		j2962961077 -> j3105563972;
 	j2768539951 [label="Ma è stata gentilezza ? O è stato il senso di colpa a spingermi a farlo ? Ah, ma sei solo gentile con te stesso, dicendo così. ",shape=box,color=blue];
 		j2768539951 -> j3105563972;
-	j3436858554 [label="Non riesco a immaginare quanto doloroso posse essere per lei. Per loro.",shape=box,color=red];
-		j3436858554 -> j3444301286;
+	j2719982535 [label="Non riesco a immaginare quanto doloroso possa essere per lei. Per loro.",shape=box,color=red];
+		j2719982535 -> j3444301286;
 	j2170971946 [label="Sapere che lui è ancora là fuori, da qualche parte, e che non le ha detto una parola, né le ha mandato una lettera...?",shape=box,color=red];
 		j2170971946 -> j173544120;
 	j1622281260 [label="Ma credo che fosse senso di colpa, forse, nel profondo. Che se non l'avessi fatto, l'avrei trascurata. Come si trascura un figlio.",shape=box,color=blue];

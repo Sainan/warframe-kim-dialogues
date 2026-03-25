@@ -169,7 +169,7 @@ digraph {
 	j4183455994 [label="Si specializzò in cristallografia. E i suoi lavori furono archiviati qui, nei laboratori.",shape=box,color=red];
 		j4183455994 -> j2895947912;
 	j3173460060 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:CheckDuviriMitwCollectibles",color=orange];
-		j3173460060 -> j2764902608 [label=true,color=green];
+		j3173460060 -> j2500884432 [label=true,color=green];
 		j3173460060 -> j2362593335 [label=false,color=brown];
 	j1939386322 [label="Tuttavia, non mi manca dovermi spingere in giro. E nemmeno a Lyon, immagino. Che libertà volare !",shape=box,color=blue];
 		j1939386322 -> j1907832375;
@@ -179,10 +179,10 @@ digraph {
 		j3350176257 -> "Chat ends.";
 	j2895947912 [label="Per qualche ragione, non so perché, fu trasformato in un Cephalon e gli fu dato il suo guscio necraloid.",shape=box,color=red];
 		j2895947912 -> j4237561243;
-	j2764902608 [label="Lei ha accettato la sua assenza e hanno fatto pace, ma è stato veramente difficile arrivare a questa conclusione.",shape=box,color=red];
-		j2764902608 -> j3363106867;
+	j2500884432 [label="Lei ha accettato la sua assenza e hanno fatto pace, ma è stato veramente difficile arrivare a questa conclusione.",shape=box,color=red];
+		j2500884432 -> j1817521713;
 	j2362593335 [label="Check boolean MarieSyndicateMaxRank",color=orange];
-		j2362593335 -> j2764902608 [label=true,color=green];
+		j2362593335 -> j2500884432 [label=true,color=green];
 		j2362593335 -> j3249813189 [label=false,color=brown];
 	j1907832375 [label="Cerco di pensare alle disabilità come a qualcosa che ci cambia. Ci limitano in qualche modo, certo, ma possono darci punti di forza che altri non hanno.",shape=box,color=red];
 		j1907832375 -> j194255990;
@@ -192,8 +192,8 @@ digraph {
 		j2194212846 -> j932449093;
 	j4237561243 [label="Non tutti i Cephalon furono creati per punizione. Ma le cose andarono... male qui su Deimos, e subì gravi danni.",shape=box,color=red];
 		j4237561243 -> j2229153532;
-	j3363106867 [label="Sapere che lui è ancora là fuori, da qualche parte, e che non le ha detto una parola, né le ha mandato una lettera...?",shape=box,color=red];
-		j3363106867 -> j3966116222;
+	j1817521713 [label="Sapere che lui è ancora là fuori, da qualche parte, e che non le ha detto una parola, né le ha mandato una lettera...?",shape=box,color=red];
+		j1817521713 -> j960094240;
 	j3249813189 [label="Lei non ha ancora accettato la sua assenza, e continuano a litigare tra di loro.",shape=box,color=red];
 		j3249813189 -> j4014436668;
 	j194255990 [label="+5 Chemistry",color=orange];
@@ -204,8 +204,8 @@ digraph {
 		j932449093 -> j2599403823;
 	j2229153532 [label="+5 Chemistry",color=orange];
 		j2229153532 -> j148524412;
-	j3966116222 [label="Non riesco a immaginare quanto doloroso posse essere per lei. Per loro.",shape=box,color=red];
-		j3966116222 -> j3349336902;
+	j960094240 [label="Non riesco a immaginare quanto doloroso possa essere per lei. Per loro.",shape=box,color=red];
+		j960094240 -> j3349336902;
 	j4014436668 [label="Sapere che lui è ancora là fuori, da qualche parte, e che non le ha detto una parola, né le ha mandato una lettera...?",shape=box,color=red];
 		j4014436668 -> j1930033161;
 	j2421030979 [label="Boolean MarieSecretPower is now true.",color=orange];

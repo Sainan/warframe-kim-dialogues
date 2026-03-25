@@ -9,13 +9,13 @@ digraph {
 		j1193481523 -> j2988553619 [label=true,color=green];
 		j1193481523 -> "Chat ends." [label=false,color=brown];
 	j2988553619 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
-		j2988553619 -> j3505723437 [label="x >= 19",color=purple];
+		j2988553619 -> j2909759513 [label="x >= 19",color=purple];
 		j2988553619 -> "Chat ends." [label="false",color=purple];
 	"Chat ends." [color=orange];
-	j3505723437 [label="MV: DIPLOMAZIA",shape=box,color=blue];
-		j3505723437 -> j1847778342;
-	j1847778342 [label="Trascrizione: Tra i Sette Esecutori, Ballas si era autoproclamato il prima tra pari. ",shape=box,color=blue];
-		j1847778342 -> j2398819861;
+	j2909759513 [label="MV: DIPLOMAZIA",shape=box,color=blue];
+		j2909759513 -> j2060077291;
+	j2060077291 [label="Trascrizione: Tra i Sette Esecutori, Ballas si era autoproclamato il primo tra pari. ",shape=box,color=blue];
+		j2060077291 -> j2398819861;
 	j2398819861 [label="Sempre diplomatico, sempre persuasore della voce melliflua, appianava i rancori e le dispute degli altri.",shape=box,color=blue];
 		j2398819861 -> j2086700004;
 	j2086700004 [label="Scoprii, con mia immensa gioia, che ora era lui la rosa intrappolata tra due cespugli di spine. ",shape=box,color=blue];

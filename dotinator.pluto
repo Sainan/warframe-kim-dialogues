@@ -50,8 +50,8 @@ local function get_node_label(node)
 			return $"Evaluate expressions on {node.CounterName} counter"
 		case "/EE/Types/Engine/DialogueNode":
 		case "/EE/Types/Engine/PlayerChoiceDialogueNode":
-			if node.Content then
-				local text = (dict[node.Content] or node.Content)
+			if node.LocTag then
+				local text = (dict[node.LocTag] or node.LocTag or node.Content)
 				--[[if node.vars then
 					for k, v in node.vars do
 						text = text:replace("|"..k.."|", dict[v] or v)
