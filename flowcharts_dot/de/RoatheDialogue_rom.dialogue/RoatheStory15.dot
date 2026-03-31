@@ -4,10 +4,10 @@ digraph {
 	edge [fontname="Roboto Condensed"];
 
 	"RoatheStory15 begins." [color=orange];
-		"RoatheStory15 begins." -> j838373956;
-	j838373956 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions(dialogueType=/Lotus/Types/Gameplay/1999Wf/Dialogue/RoatheDialogue_rom.dialogue, rank=4, count=8, storyCount=15)",color=orange];
-		j838373956 -> j920303342 [label=true,color=green];
-		j838373956 -> "Chat ends." [label=false,color=brown];
+		"RoatheStory15 begins." -> j3565270399;
+	j3565270399 [label="Check /Lotus/Scripts/1999/DialogueScriptNodes.lua:StoryConditions(dialogueType=/Lotus/Types/Gameplay/1999Wf/Dialogue/RoatheDialogue_rom.dialogue, rank=3, count=9, storyCount=15)",color=orange];
+		j3565270399 -> j920303342 [label=true,color=green];
+		j3565270399 -> "Chat ends." [label=false,color=brown];
 	j920303342 [label="Evaluate expressions on HellKeyPlayed counter",color=orange];
 		j920303342 -> j254513730 [label="x >= 15",color=purple];
 		j920303342 -> "Chat ends." [label="false",color=purple];
