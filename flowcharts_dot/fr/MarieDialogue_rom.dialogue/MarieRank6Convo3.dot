@@ -20,10 +20,12 @@ digraph {
 		j409508615 -> "Chat ends." [label=false,color=brown];
 	j4048357986 [label="Check boolean MarieFamilyFail",color=orange];
 		j4048357986 -> "Chat ends." [label=true,color=green];
-		j4048357986 -> j4259657855 [label=false,color=brown];
-	j4259657855 [label="Check boolean MarieEntratiComplete",color=orange];
-		j4259657855 -> j148501058 [label=true,color=green];
-		j4259657855 -> "Chat ends." [label=false,color=brown];
+		j4048357986 -> j506145398 [label=false,color=brown];
+	j506145398 [label="Evaluate expressions",color=orange];
+		j506145398 -> j148501058 [label="MarieEntratiCompleteA",color=purple];
+		j506145398 -> j148501058 [label="MarieEntratiCompleteB",color=purple];
+		j506145398 -> j148501058 [label="MarieEntratiCompleteC",color=purple];
+		j506145398 -> "Chat ends." [label="false",color=purple];
 	j148501058 [label="Evaluate expressions",color=orange];
 		j148501058 -> j1792267530 [label="MarieFamily3a",color=purple];
 		j148501058 -> j66832215 [label="MarieFamily3a",color=purple];

@@ -57489,21 +57489,52 @@
         ]
     },
     {
-        "type": "/EE/Types/Engine/CheckBooleanDialogueNode",
+        "type": "/EE/Types/Engine/CheckMultiBooleanDialogueNode",
         "Id": 3605,
-        "Content": "MarieEntratiComplete",
         "Incoming": [
             3603
         ],
         "GraphPos": [
-            1720,
-            82695
+            1713,
+            82690
         ],
-        "TrueNodes": [
-            3606
-        ],
-        "FalseNodes": [
-            3607
+        "Outputs": [
+            {
+                "Expression": "MarieEntratiCompleteA",
+                "Outgoing": [
+                    3606
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "MarieEntratiCompleteB",
+                "Outgoing": [
+                    3606
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "MarieEntratiCompleteC",
+                "Outgoing": [
+                    3606
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            },
+            {
+                "Expression": "false",
+                "Outgoing": [
+                    3607
+                ],
+                "Values": [],
+                "CompareOperators": [],
+                "LogicalOperators": []
+            }
         ]
     },
     {
