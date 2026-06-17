@@ -35,13 +35,24 @@ for ALL_DIALOGUES as diag_name do
 	do
 		local rom = io.contents("Extracted/Debug/Lotus/Types/Gameplay/1999Wf/Dialogue/"..diag_name.."_H")
 		local i = 1
-		local filename, metadata, num_node_types
+		local filename, metadata, num_node_types, num_scripts, num_actors
 		i += 20 -- skip hash?
 		filename, i = string.unpack("<s4", rom, i)
 		metadata, i = string.unpack("<s4", rom, i)
 		i += 1 -- null terminator
+		i += 4 -- unk
+		num_scripts, i = string.unpack("<I4", rom, i)
+		for j = 1, num_scripts do
+			local _
+			_, i = string.unpack("<s4", rom, i)
+		end
+		num_actors, i = string.unpack("<I4", rom, i)
+		for j = 1, num_actors do
+			local _
+			_, i = string.unpack("<s4", rom, i)
+		end
 		io.contents("metadata/"..diag_name..".json", json.encode(EeNotationParser.parse(metadata), true))
-		i += 8 -- unk
+		i += 4 -- unk
 		num_node_types, i = string.unpack("<I4", rom, i)
 		for j = 1, num_node_types do
 			local node_type
